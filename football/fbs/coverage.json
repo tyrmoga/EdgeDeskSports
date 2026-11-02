@@ -2,7 +2,7 @@
  "version": "edgedesk_fbs_universe_v1.0.0",
  "season": 2026,
  "source": "cfbfastR-data schedules 2026",
- "generated_at": "2026-11-02T17:06:55.643Z",
+ "generated_at": "2026-11-02T21:49:39.524Z",
  "counts": {
   "fbs_teams": 138,
   "non_fbs_teams": 100,
@@ -391,13 +391,13 @@
       "to": "Pac-12"
      },
      {
-      "team": "Texas State",
-      "from": "Sun Belt",
+      "team": "Boise State",
+      "from": "Mountain West",
       "to": "Pac-12"
      },
      {
-      "team": "Boise State",
-      "from": "Mountain West",
+      "team": "Texas State",
+      "from": "Sun Belt",
       "to": "Pac-12"
      },
      {
@@ -444,14 +444,14 @@
    "count": 159,
    "detail": [
     {
-     "game_id": "401864425",
-     "game": "West Georgia @ Kennesaw State",
+     "game_id": "401866409",
+     "game": "UAlbany @ Buffalo",
      "home": true,
      "away": false
     },
     {
-     "game_id": "401866409",
-     "game": "UAlbany @ Buffalo",
+     "game_id": "401856767",
+     "game": "Bethune-Cookman @ UCF",
      "home": true,
      "away": false
     },
@@ -462,8 +462,8 @@
      "away": false
     },
     {
-     "game_id": "401856767",
-     "game": "Bethune-Cookman @ UCF",
+     "game_id": "401864425",
+     "game": "West Georgia @ Kennesaw State",
      "home": true,
      "away": false
     },
@@ -486,14 +486,14 @@
      "away": false
     },
     {
-     "game_id": "401866623",
-     "game": "North Carolina A&T @ Georgia State",
+     "game_id": "401858435",
+     "game": "Indiana State @ Purdue",
      "home": true,
      "away": false
     },
     {
-     "game_id": "401858435",
-     "game": "Indiana State @ Purdue",
+     "game_id": "401866623",
+     "game": "North Carolina A&T @ Georgia State",
      "home": true,
      "away": false
     },
@@ -523,13 +523,13 @@
     "to": "Pac-12"
    },
    {
-    "team": "Texas State",
-    "from": "Sun Belt",
+    "team": "Boise State",
+    "from": "Mountain West",
     "to": "Pac-12"
    },
    {
-    "team": "Boise State",
-    "from": "Mountain West",
+    "team": "Texas State",
+    "from": "Sun Belt",
     "to": "Pac-12"
    },
    {
