@@ -1,32 +1,14 @@
 {
  "schema": "edgedesk_perf_health_v1",
- "generated_at": "2026-11-02T16:34:03.147Z",
+ "generated_at": "2026-11-02T17:14:55.508Z",
  "status": "WARN",
  "items": [
   {
    "level": "WARN",
    "check": "missing_finals",
-   "detail": "86 started game(s) with no verified final 8+ hours after the start",
-   "count": 86,
+   "detail": "82 started game(s) with no verified final 8+ hours after the start",
+   "count": 82,
    "sample": [
-    {
-     "event_key": "NBA|401909905",
-     "sport": "nba",
-     "pending": "NOT_FINAL",
-     "hours_past_start": 15,
-     "start_utc": "2026-11-02T01:30:00.000Z",
-     "home": "Golden State Warriors",
-     "away": "LA Clippers"
-    },
-    {
-     "event_key": "NBA|401909906",
-     "sport": "nba",
-     "pending": "NOT_FINAL",
-     "hours_past_start": 15,
-     "start_utc": "2026-11-02T02:00:00.000Z",
-     "home": "Los Angeles Lakers",
-     "away": "Toronto Raptors"
-    },
     {
      "event_key": "MENSCOLLEGEBASKETBALL|401902275",
      "sport": "ncaab_m",
@@ -116,14 +98,26 @@
      "start_utc": "2026-11-02T05:00:00.000Z",
      "home": "Providence Friars",
      "away": "Maine Black Bears"
+    },
+    {
+     "event_key": "MENSCOLLEGEBASKETBALL|401909541",
+     "sport": "ncaab_m",
+     "pending": "NOT_FINAL",
+     "hours_past_start": 12,
+     "start_utc": "2026-11-02T05:00:00.000Z",
+     "home": "Xavier Musketeers",
+     "away": "Mount St. Mary's Mountaineers"
+    },
+    {
+     "event_key": "MENSCOLLEGEBASKETBALL|401909562",
+     "sport": "ncaab_m",
+     "pending": "NOT_FINAL",
+     "hours_past_start": 12,
+     "start_utc": "2026-11-02T05:00:00.000Z",
+     "home": "Duke Blue Devils",
+     "away": "Army Black Knights"
     }
    ]
-  },
-  {
-   "level": "WARN",
-   "check": "odds_feed",
-   "detail": "the scoreboard feed that carries sportsbook lines is unavailable or stale: 545 grade(s) had no market cross-check and were capped at B",
-   "count": null
   },
   {
    "level": "INFO",
@@ -134,10 +128,10 @@
  ],
  "counts": {
   "forecasts": 4037,
-  "results": 866,
-  "grades": 866,
-  "quotes": 3813,
-  "research_grades": 14569,
-  "grade_outcomes": 419
+  "results": 872,
+  "grades": 872,
+  "quotes": 3985,
+  "research_grades": 15106,
+  "grade_outcomes": 425
  }
 }
