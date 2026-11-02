@@ -1,6 +1,6 @@
 {
   "schema": "edgedesk_model_review_candidates_v1",
-  "generated_at": "2026-11-02T04:21:05.516Z",
+  "generated_at": "2026-11-02T04:31:07.913Z",
   "open": 18,
   "count": 18,
   "note": "A candidate is a QUESTION WITH EVIDENCE ATTACHED. It is raised automatically when a published claim carrying real weight is contradicted by a game, and it is closed only by a person writing a disposition on it. No production model weight is changed from this file by anything in this repository.",
@@ -293,7 +293,7 @@
       "question": "Does EdgeDesk’s variance handling need investigating? Raised by a published article whose claim the game contradicted.",
       "status": "open",
       "opened_at": "2026-09-21T04:00:22.158Z",
-      "updated_at": "2026-10-16T21:00:03.749Z",
+      "updated_at": "2026-11-02T04:31:07.913Z",
       "evidence": [
         {
           "lesson_id": "2026_02_IND_KC:won_wrong",
@@ -338,16 +338,27 @@
           "result": "It graded a win. The reasoning behind it did not hold: 8 of 10 gradeable claims went the other way. The read of this matchup was wrong in its mechanism, not only in its number.",
           "severity": "high",
           "at": "2026-10-16T21:00:03.749Z"
+        },
+        {
+          "lesson_id": "2026_08_PHI_WAS:won_wrong",
+          "game_id": "2026_08_PHI_WAS",
+          "season": 2026,
+          "week": 8,
+          "team": null,
+          "expectation": "The number implied Washington Commanders +1.5.",
+          "result": "It graded a win. The reasoning behind it did not hold: 4 of 8 gradeable claims went the other way. The read of this matchup was wrong in its mechanism, not only in its number.",
+          "severity": "high",
+          "at": "2026-11-02T04:31:07.913Z"
         }
       ],
-      "occurrences": 4,
+      "occurrences": 5,
       "disposition": null,
       "disposition_note": null,
       "closed_at": null,
       "closed_by": null,
       "rule": "A review candidate is a question with evidence attached. Nothing in this repository changes a model weight from it, and only a person may close one.",
       "recurring": true,
-      "note": "Seen 4 times. A recurring contradiction is worth a real investigation — still by a person, and still against a holdout the fit has never seen."
+      "note": "Seen 5 times. A recurring contradiction is worth a real investigation — still by a person, and still against a holdout the fit has never seen."
     },
     {
       "schema": "edgedesk_model_review_candidate_v1",

@@ -1,17 +1,17 @@
 {
   "schema": "edgedesk_research_memory_v1",
-  "generated_at": "2026-11-02T04:21:05.516Z",
+  "generated_at": "2026-11-02T04:31:07.913Z",
   "min_sample": 8,
-  "lessons": 226,
-  "graded_games": 85,
+  "lessons": 232,
+  "graded_games": 86,
   "categories": [
     {
       "category": "market",
-      "lessons": 71,
+      "lessons": 72,
       "contradicted": 39,
-      "confirmed": 26,
+      "confirmed": 27,
       "reviews": 20,
-      "contradiction_rate": 54.9
+      "contradiction_rate": 54.2
     },
     {
       "category": "scoring",
@@ -23,16 +23,16 @@
     },
     {
       "category": "passing",
-      "lessons": 16,
-      "contradicted": 16,
+      "lessons": 17,
+      "contradicted": 17,
       "confirmed": 0,
       "reviews": 6,
       "contradiction_rate": 100
     },
     {
       "category": "rushing",
-      "lessons": 12,
-      "contradicted": 12,
+      "lessons": 13,
+      "contradicted": 13,
       "confirmed": 0,
       "reviews": 3,
       "contradiction_rate": 100
@@ -55,11 +55,11 @@
     },
     {
       "category": "efficiency",
-      "lessons": 7,
-      "contradicted": 7,
+      "lessons": 8,
+      "contradicted": 8,
       "confirmed": 0,
       "reviews": 0,
-      "contradiction_rate": null
+      "contradiction_rate": 100
     },
     {
       "category": "explosiveness",
@@ -71,11 +71,11 @@
     },
     {
       "category": "variance",
-      "lessons": 7,
-      "contradicted": 4,
+      "lessons": 8,
+      "contradicted": 5,
       "confirmed": 3,
-      "reviews": 4,
-      "contradiction_rate": null
+      "reviews": 5,
+      "contradiction_rate": 62.5
     },
     {
       "category": "defence",
@@ -95,7 +95,7 @@
     },
     {
       "category": "data_quality",
-      "lessons": 53,
+      "lessons": 54,
       "contradicted": 0,
       "confirmed": 0,
       "reviews": 0,
@@ -104,18 +104,18 @@
   ],
   "quadrants": {
     "right_right": 2,
-    "right_wrong": 10,
+    "right_wrong": 11,
     "wrong_right": 5,
     "wrong_wrong": 7,
     "untested": 27,
     "ungraded": 8
   },
   "answers": {
-    "Do EdgeDesk’s winning numbers come from the mechanisms it named?": "2 of 12 winning numbers came with a process grade of SOUND (16.7%). The rest paid without confirming the reasoning.",
-    "What share of winning wagers had incorrect reasoning?": "83.3% (10 of 12).",
+    "Do EdgeDesk’s winning numbers come from the mechanisms it named?": "2 of 13 winning numbers came with a process grade of SOUND (15.4%). The rest paid without confirming the reasoning.",
+    "What share of winning wagers had incorrect reasoning?": "84.6% (11 of 13).",
     "What share of losing wagers still showed a defensible process?": "41.7% (5 of 12).",
-    "Which model drivers fail most often?": "market (39 contradicted of 71), scoring (29 contradicted of 29), passing (16 contradicted of 16)",
-    "Where does EdgeDesk disagree with the market, and is it worth anything?": "under 2 points: 17 games, 35.3% landed; 2 to 4 points: 21 games, 61.9% landed; 4 to 7 points: 17 games, 43.8% landed; 7 points or more: 22 games, 77.3% landed",
+    "Which model drivers fail most often?": "market (39 contradicted of 72), scoring (29 contradicted of 29), passing (17 contradicted of 17)",
+    "Where does EdgeDesk disagree with the market, and is it worth anything?": "under 2 points: 17 games, 35.3% landed; 2 to 4 points: 22 games, 63.6% landed; 4 to 7 points: 17 games, 43.8% landed; 7 points or more: 22 games, 77.3% landed",
     "Has the market moved toward EdgeDesk after publication?": "Average +1.7 points of line movement toward EdgeDesk’s side across 25 games with a captured close."
   },
   "disagreement_buckets": [
@@ -129,10 +129,10 @@
     },
     {
       "label": "2 to 4 points",
-      "n": 21,
-      "wins": 13,
+      "n": 22,
+      "wins": 14,
       "losses": 8,
-      "hit_rate": 61.9,
+      "hit_rate": 63.6,
       "note": null
     },
     {
@@ -157,5 +157,5 @@
     "average_points": 1.7
   },
   "caveat": "These are counts of EdgeDesk’s own published research against its own published audits. They are a measure of internal consistency and of process, not a betting record, and no figure here is computed on a sample the system considers sufficient unless it says so.",
-  "decided": 24
+  "decided": 25
 }
