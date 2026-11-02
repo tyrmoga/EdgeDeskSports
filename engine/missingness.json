@@ -1,6 +1,6 @@
 {
  "schema": "edgedesk_missingness_v1",
- "generated_at": "2026-11-01T16:01:42.679Z",
+ "generated_at": "2026-11-02T19:29:57.960Z",
  "rule": "a blank is missing, never zero; known_at is blank on every historical row by design (first publication was not recorded)",
  "sports": {
   "nhl": {
@@ -167,7 +167,7 @@
      }
     },
     "2027": {
-     "rows": 432,
+     "rows": 462,
      "missing": {
       "known_at": 1,
       "start_utc": 0,
@@ -340,7 +340,7 @@
      }
     },
     "2027": {
-     "rows": 88,
+     "rows": 92,
      "missing": {
       "start_utc": 0,
       "ot": 0,
@@ -653,11 +653,11 @@
      }
     },
     "2027": {
-     "rows": 0,
+     "rows": 3,
      "missing": {
-      "start_utc": null,
-      "ot": null,
-      "known_at": null
+      "start_utc": 0,
+      "ot": 0,
+      "known_at": 1
      }
     }
    },
@@ -822,12 +822,12 @@
      }
     },
     "2027": {
-     "rows": 0,
+     "rows": 1,
      "missing": {
-      "start_utc": null,
-      "ot": null,
-      "src": null,
-      "known_at": null
+      "start_utc": 0,
+      "ot": 0,
+      "src": 0,
+      "known_at": 1
      }
     }
    },

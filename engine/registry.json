@@ -934,7 +934,7 @@
     "ladder": {
      "data_loaded": {
       "done": true,
-      "detail": "24531 games (2008-2027), retrospective"
+      "detail": "24535 games (2008-2027), retrospective"
      },
      "model_trained": {
       "done": true,
@@ -954,7 +954,7 @@
    "evidence_files": [
     "basketball/validation/nba_walkforward.json"
    ],
-   "evidence_generated_at": "2026-11-01T16:01:08.017Z",
+   "evidence_generated_at": "2026-11-02T19:29:20.163Z",
    "data": [
     {
      "source": "sportsdataverse hoopR-nba-data (ESPN)",
@@ -1093,7 +1093,7 @@
    "evidence_files": [
     "basketball/validation/wnba_walkforward.json"
    ],
-   "evidence_generated_at": "2026-11-01T16:01:08.152Z",
+   "evidence_generated_at": "2026-11-02T19:29:20.303Z",
    "data": [
     {
      "source": "sportsdataverse wehoop-wnba-data (ESPN)",
@@ -1224,7 +1224,7 @@
     "ladder": {
      "data_loaded": {
       "done": true,
-      "detail": "99845 games (2010-2027), retrospective"
+      "detail": "99848 games (2010-2027), retrospective"
      },
      "model_trained": {
       "done": true,
@@ -1244,7 +1244,7 @@
    "evidence_files": [
     "basketball/validation/ncaam_walkforward.json"
    ],
-   "evidence_generated_at": "2026-11-01T16:01:26.519Z",
+   "evidence_generated_at": "2026-11-02T19:29:39.976Z",
    "data": [
     {
      "source": "sportsdataverse hoopR-mbb-data (ESPN)",
@@ -1369,7 +1369,7 @@
     "ladder": {
      "data_loaded": {
       "done": true,
-      "detail": "93934 games (2010-2027), retrospective"
+      "detail": "93935 games (2010-2027), retrospective"
      },
      "model_trained": {
       "done": true,
@@ -1389,7 +1389,7 @@
    "evidence_files": [
     "basketball/validation/ncaaw_walkforward.json"
    ],
-   "evidence_generated_at": "2026-11-01T16:01:42.377Z",
+   "evidence_generated_at": "2026-11-02T19:29:57.669Z",
    "data": [
     {
      "source": "sportsdataverse wehoop-wbb-data (ESPN)",
@@ -1698,5 +1698,5 @@
   "UNAVAILABLE": "Unavailable",
   "RETIRED": "Retired"
  },
- "generated_at": "2026-11-02T16:32:04.886Z"
+ "generated_at": "2026-11-02T19:29:58.598Z"
 }

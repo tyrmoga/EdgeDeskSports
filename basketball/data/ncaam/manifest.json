@@ -367,8 +367,8 @@
    "pack": null
   },
   "2027": {
-   "games": 0,
-   "scheduled": 6068,
+   "games": 3,
+   "scheduled": 6066,
    "dropped": {
     "preseason": 0,
     "exhibition": 0,
@@ -380,9 +380,9 @@
    "missing_columns": [],
    "source": {
     "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-mbb-data/main/mbb/schedules/parquet/mbb_schedule_2027.parquet",
-    "sha256": "a7c8fce7c1223079b12b3dd4780453235a7c64a3c7d8f29e18d6707d78947efd",
-    "bytes": 426859,
-    "fetched_at": "2026-11-01T16:01:06.131Z"
+    "sha256": "eb0f077201fea782c3891eb4d2b0df6d1c504068572ea622343460cab568da5c",
+    "bytes": 429012,
+    "fetched_at": "2026-11-02T19:29:17.268Z"
    },
    "pack": null
   }

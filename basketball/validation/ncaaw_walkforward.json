@@ -2,7 +2,7 @@
  "schema": "edgedesk_lab_walkforward_v1",
  "sport": "ncaaw",
  "label": "Women's college basketball",
- "generated_at": "2026-11-01T16:01:42.377Z",
+ "generated_at": "2026-11-02T19:29:57.669Z",
  "protocol": {
   "windows": {
    "burn_in": [
@@ -55,8 +55,8 @@
    2010,
    2027
   ],
-  "games": 93934,
-  "games_scored": 83023,
+  "games": 93935,
+  "games_scored": 83024,
   "temporal": {
    "point_in_time": "RETROSPECTIVE",
    "known_at": "blank (first publication unknown; never backdated)",
@@ -65,7 +65,7 @@
  },
  "leakage": {
   "basis": "inputs dated by assumed_available_at (start + 4 h)",
-  "checked": 83023,
+  "checked": 83024,
   "violations": 0,
   "examples": [],
   "ok": true
@@ -458,53 +458,125 @@
     2027,
     2027
    ],
-   "n": 0,
+   "n": 1,
    "by_candidate": {
     "points": {
      "moneyline": {
-      "n": 0,
-      "sample_state": "TOO_EARLY"
+      "n": 1,
+      "sample_state": "TOO_EARLY",
+      "log_loss": 0.32687,
+      "brier": 0.07774,
+      "climatology": {
+       "rate": 0,
+       "log_loss": 0,
+       "brier": 0
+      },
+      "brier_skill": null,
+      "mean_p": 0.2788,
+      "mean_y": 0,
+      "calibration_in_the_large": 0.2788,
+      "calibration_slope": null,
+      "calibration_intercept": null
      }
     },
     "points_rest": {
      "moneyline": {
-      "n": 0,
-      "sample_state": "TOO_EARLY"
+      "n": 1,
+      "sample_state": "TOO_EARLY",
+      "log_loss": 0.32705,
+      "brier": 0.07782,
+      "climatology": {
+       "rate": 0,
+       "log_loss": 0,
+       "brier": 0
+      },
+      "brier_skill": null,
+      "mean_p": 0.279,
+      "mean_y": 0,
+      "calibration_in_the_large": 0.279,
+      "calibration_slope": null,
+      "calibration_intercept": null
      }
     },
     "elo": {
      "moneyline": {
-      "n": 0,
-      "sample_state": "TOO_EARLY"
+      "n": 1,
+      "sample_state": "TOO_EARLY",
+      "log_loss": 0.53333,
+      "brier": 0.17086,
+      "climatology": {
+       "rate": 0,
+       "log_loss": 0,
+       "brier": 0
+      },
+      "brier_skill": null,
+      "mean_p": 0.4134,
+      "mean_y": 0,
+      "calibration_in_the_large": 0.4134,
+      "calibration_slope": null,
+      "calibration_intercept": null
      }
     },
     "const_home": {
      "moneyline": {
-      "n": 0,
-      "sample_state": "TOO_EARLY"
+      "n": 1,
+      "sample_state": "TOO_EARLY",
+      "log_loss": 0.69315,
+      "brier": 0.25,
+      "climatology": {
+       "rate": 0,
+       "log_loss": 0,
+       "brier": 0
+      },
+      "brier_skill": null,
+      "mean_p": 0.5,
+      "mean_y": 0,
+      "calibration_in_the_large": 0.5,
+      "calibration_slope": null,
+      "calibration_intercept": null
      }
     }
    },
    "margin": {
     "points": {
-     "n": 0
+     "n": 1,
+     "crps": 10.6831,
+     "mean_bias": 16.91,
+     "mean_outcome": -24,
+     "coverage_80": 1
     },
     "points_rest": {
-     "n": 0
+     "n": 1,
+     "crps": 10.6831,
+     "mean_bias": 16.91,
+     "mean_outcome": -24,
+     "coverage_80": 1
     },
     "baseline": {
-     "n": 0
+     "n": 1,
+     "crps": 14.7805,
+     "mean_bias": 24,
+     "mean_outcome": -24,
+     "coverage_80": 1
     }
    },
    "total": {
     "points": {
-     "n": 0
+     "n": 1,
+     "crps": 28.0119,
+     "mean_bias": -37.093,
+     "mean_outcome": 174,
+     "coverage_80": 0
     },
     "baseline": {
-     "n": 0
+     "n": 1,
+     "crps": 32.7288,
+     "mean_bias": -43.218,
+     "mean_outcome": 174,
+     "coverage_80": 0
     }
    },
-   "seasons": 0
+   "seasons": 1
   }
  },
  "by_season": {
@@ -611,6 +683,13 @@
    "ml_log_loss": {
     "points": 0.43854,
     "elo": 0.50236
+   }
+  },
+  "2027": {
+   "n": 1,
+   "ml_log_loss": {
+    "points": 0.32687,
+    "elo": 0.53333
    }
   }
  },

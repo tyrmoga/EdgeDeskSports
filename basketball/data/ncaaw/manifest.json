@@ -367,8 +367,8 @@
    "pack": null
   },
   "2027": {
-   "games": 0,
-   "scheduled": 5814,
+   "games": 1,
+   "scheduled": 5803,
    "dropped": {
     "preseason": 0,
     "exhibition": 0,
@@ -380,9 +380,9 @@
    "missing_columns": [],
    "source": {
     "url": "https://raw.githubusercontent.com/sportsdataverse/wehoop-wbb-data/main/wbb/schedules/parquet/wbb_schedule_2027.parquet",
-    "sha256": "6c9db6ec5383efde85eef3b60f07ad6e0060efee6cd5f2e9275c8e8f55529aba",
-    "bytes": 444156,
-    "fetched_at": "2026-11-01T16:01:06.459Z"
+    "sha256": "9f3f8e6c2373a9af7a01f6914caa6756b72c839b12f954dd6536ae4cf0808d9f",
+    "bytes": 443976,
+    "fetched_at": "2026-11-02T19:29:17.779Z"
    },
    "pack": null
   }
