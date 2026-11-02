@@ -1,6 +1,6 @@
 {
  "schema": "edgedesk_football_model_record_summary_v1",
- "generated_at": "2026-11-02T01:48:53.095Z",
+ "generated_at": "2026-11-02T06:43:35.029Z",
  "season": 2026,
  "what": "The football model’s own record: the number it published before kickoff, graded against the closing line and the final. Separate from the edges record, which grades flagged prices.",
  "rules": [
@@ -36,26 +36,26 @@
    "counts": {
     "recorded": 121,
     "pregame": 17,
-    "awaiting_final": 1,
+    "awaiting_final": 0,
     "final_no_close": 0,
-    "graded": 103,
+    "graded": 104,
     "revised": 105,
     "beyond_guard": 0
    },
    "ats": {
     "all": {
-     "n": 103,
+     "n": 104,
      "w": 49,
-     "l": 49,
+     "l": 50,
      "p": 5,
-     "pct": 50
+     "pct": 49.5
     },
     "lean": {
-     "n": 53,
+     "n": 54,
      "w": 26,
-     "l": 23,
+     "l": 24,
      "p": 4,
-     "pct": 53.1
+     "pct": 52
     },
     "big": {
      "n": 19,
@@ -67,11 +67,11 @@
    },
    "ou": {
     "all": {
-     "n": 102,
+     "n": 103,
      "w": 49,
-     "l": 53,
+     "l": 54,
      "p": 0,
-     "pct": 48
+     "pct": 47.6
     },
     "lean": {
      "n": 47,
@@ -89,71 +89,71 @@
     }
    },
    "su": {
-    "n": 103,
-    "w": 66,
+    "n": 104,
+    "w": 67,
     "l": 36,
     "p": 1,
-    "pct": 64.7
+    "pct": 65
    },
    "clv": {
     "spread_entry": {
-     "n": 99,
-     "sum": 50.5,
-     "avg": 0.51,
+     "n": 100,
+     "sum": 48,
+     "avg": 0.48,
      "beat": 48,
      "flat": 29,
-     "lost": 22,
-     "beat_pct": 48.5
+     "lost": 23,
+     "beat_pct": 48
     },
     "spread_entry_lean": {
-     "n": 58,
-     "sum": 42.5,
-     "avg": 0.73,
+     "n": 59,
+     "sum": 40,
+     "avg": 0.68,
      "beat": 31,
      "flat": 15,
-     "lost": 12,
-     "beat_pct": 53.4
+     "lost": 13,
+     "beat_pct": 52.5
     },
     "spread_pick": {
-     "n": 103,
-     "sum": 32.5,
-     "avg": 0.32,
+     "n": 104,
+     "sum": 32,
+     "avg": 0.31,
      "beat": 41,
      "flat": 45,
-     "lost": 17,
-     "beat_pct": 39.8
+     "lost": 18,
+     "beat_pct": 39.4
     },
     "total_entry": {
-     "n": 101,
-     "sum": 27,
-     "avg": 0.27,
+     "n": 102,
+     "sum": 26,
+     "avg": 0.25,
      "beat": 40,
      "flat": 24,
-     "lost": 37,
-     "beat_pct": 39.6
+     "lost": 38,
+     "beat_pct": 39.2
     },
     "total_pick": {
-     "n": 102,
-     "sum": 6,
-     "avg": 0.06,
-     "beat": 30,
+     "n": 103,
+     "sum": 7,
+     "avg": 0.07,
+     "beat": 31,
      "flat": 40,
      "lost": 32,
-     "beat_pct": 29.4
+     "beat_pct": 30.1
     }
    },
    "error": {
-    "n": 103,
-    "model_mae": 9.45,
-    "close_mae": 9.19,
-    "model_closer_pct": 46.6,
-    "total_n": 103,
-    "model_total_mae": 10.92,
-    "close_total_mae": 10.63
+    "n": 104,
+    "model_mae": 9.49,
+    "close_mae": 9.21,
+    "model_closer_pct": 46.2,
+    "total_n": 104,
+    "model_total_mae": 10.87,
+    "close_total_mae": 10.56
    },
    "brier": {
-    "n": 103,
-    "model": 0.2278
+    "n": 104,
+    "model": 0.2269
    },
    "weeks": [
     {
@@ -327,29 +327,29 @@
     {
      "week": 8,
      "recorded": 14,
-     "graded": 12,
+     "graded": 13,
      "ats": {
-      "n": 12,
+      "n": 13,
       "w": 7,
-      "l": 5,
+      "l": 6,
       "p": 0,
-      "pct": 58.3
+      "pct": 53.8
      },
      "ou": {
-      "n": 12,
+      "n": 13,
       "w": 7,
-      "l": 5,
+      "l": 6,
       "p": 0,
-      "pct": 58.3
+      "pct": 53.8
      },
      "clv": {
-      "n": 10,
-      "sum": 3,
-      "avg": 0.3,
+      "n": 11,
+      "sum": 0.5,
+      "avg": 0.05,
       "beat": 5,
       "flat": 1,
-      "lost": 4,
-      "beat_pct": 50
+      "lost": 5,
+      "beat_pct": 45.5
      }
     },
     {
@@ -427,7 +427,7 @@
     "awaiting_final": 0,
     "final_no_close": 0,
     "graded": 522,
-    "revised": 524,
+    "revised": 525,
     "beyond_guard": 5
    },
    "ats": {
@@ -1036,7 +1036,7 @@
     "awaiting_final": 0,
     "final_no_close": 0,
     "graded": 202,
-    "revised": 229,
+    "revised": 230,
     "beyond_guard": 0
    },
    "ats": {
@@ -1200,6 +1200,31 @@
  },
  "recent": {
   "nfl": [
+   {
+    "game_id": "2026_08_PHI_WAS",
+    "week": 8,
+    "kickoff": "2026-11-02T01:20:00.000Z",
+    "home": "Washington Commanders",
+    "away": "Philadelphia Eagles",
+    "home_code": "WAS",
+    "away_code": "PHI",
+    "model_line": -3.48,
+    "model_total": 42.45,
+    "entry_line": -3.5,
+    "close_line": -6,
+    "close_total": 40.5,
+    "final": [
+     10,
+     27
+    ],
+    "status": "GRADED",
+    "ats": "loss",
+    "ats_side": "away",
+    "ou": "loss",
+    "ou_side": "over",
+    "clv": -2.5,
+    "reliability": null
+   },
    {
     "game_id": "2026_08_KC_DEN",
     "week": 8,
@@ -1473,31 +1498,6 @@
     "ou": "loss",
     "ou_side": "over",
     "clv": -1,
-    "reliability": null
-   },
-   {
-    "game_id": "2026_08_CAR_GB",
-    "week": 8,
-    "kickoff": "2026-10-30T00:15:00.000Z",
-    "home": "Green Bay Packers",
-    "away": "Carolina Panthers",
-    "home_code": "GB",
-    "away_code": "CAR",
-    "model_line": -5.92,
-    "model_total": 44.88,
-    "entry_line": null,
-    "close_line": -3.5,
-    "close_total": 47.5,
-    "final": [
-     19,
-     27
-    ],
-    "status": "GRADED",
-    "ats": "win",
-    "ats_side": "home",
-    "ou": "win",
-    "ou_side": "under",
-    "clv": null,
     "reliability": null
    }
   ],
