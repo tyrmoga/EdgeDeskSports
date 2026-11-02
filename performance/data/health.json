@@ -1,12 +1,128 @@
 {
  "schema": "edgedesk_perf_health_v1",
- "generated_at": "2026-11-02T06:14:34.857Z",
- "status": "ALERT",
+ "generated_at": "2026-11-02T16:34:03.147Z",
+ "status": "WARN",
  "items": [
   {
-   "level": "ALERT",
-   "check": "capture_stale",
-   "detail": "no forecast captured for 8 hours while games start within a day",
+   "level": "WARN",
+   "check": "missing_finals",
+   "detail": "86 started game(s) with no verified final 8+ hours after the start",
+   "count": 86,
+   "sample": [
+    {
+     "event_key": "NBA|401909905",
+     "sport": "nba",
+     "pending": "NOT_FINAL",
+     "hours_past_start": 15,
+     "start_utc": "2026-11-02T01:30:00.000Z",
+     "home": "Golden State Warriors",
+     "away": "LA Clippers"
+    },
+    {
+     "event_key": "NBA|401909906",
+     "sport": "nba",
+     "pending": "NOT_FINAL",
+     "hours_past_start": 15,
+     "start_utc": "2026-11-02T02:00:00.000Z",
+     "home": "Los Angeles Lakers",
+     "away": "Toronto Raptors"
+    },
+    {
+     "event_key": "MENSCOLLEGEBASKETBALL|401902275",
+     "sport": "ncaab_m",
+     "pending": "NOT_FINAL",
+     "hours_past_start": 12,
+     "start_utc": "2026-11-02T05:00:00.000Z",
+     "home": "Butler Bulldogs",
+     "away": "Lafayette Leopards"
+    },
+    {
+     "event_key": "MENSCOLLEGEBASKETBALL|401906769",
+     "sport": "ncaab_m",
+     "pending": "NOT_FINAL",
+     "hours_past_start": 12,
+     "start_utc": "2026-11-02T05:00:00.000Z",
+     "home": "Florida Gators",
+     "away": "Miami Hurricanes"
+    },
+    {
+     "event_key": "MENSCOLLEGEBASKETBALL|401906779",
+     "sport": "ncaab_m",
+     "pending": "NOT_FINAL",
+     "hours_past_start": 12,
+     "start_utc": "2026-11-02T05:00:00.000Z",
+     "home": "Georgia Bulldogs",
+     "away": "North Carolina Central Eagles"
+    },
+    {
+     "event_key": "MENSCOLLEGEBASKETBALL|401906791",
+     "sport": "ncaab_m",
+     "pending": "NOT_FINAL",
+     "hours_past_start": 12,
+     "start_utc": "2026-11-02T05:00:00.000Z",
+     "home": "Mississippi State Bulldogs",
+     "away": "Tennessee Tech Golden Eagles"
+    },
+    {
+     "event_key": "MENSCOLLEGEBASKETBALL|401906801",
+     "sport": "ncaab_m",
+     "pending": "NOT_FINAL",
+     "hours_past_start": 12,
+     "start_utc": "2026-11-02T05:00:00.000Z",
+     "home": "Oklahoma Sooners",
+     "away": "East Texas A&M Lions"
+    },
+    {
+     "event_key": "MENSCOLLEGEBASKETBALL|401906863",
+     "sport": "ncaab_m",
+     "pending": "NOT_FINAL",
+     "hours_past_start": 12,
+     "start_utc": "2026-11-02T05:00:00.000Z",
+     "home": "Texas Longhorns",
+     "away": "Chicago State Cougars"
+    },
+    {
+     "event_key": "MENSCOLLEGEBASKETBALL|401909490",
+     "sport": "ncaab_m",
+     "pending": "NOT_FINAL",
+     "hours_past_start": 12,
+     "start_utc": "2026-11-02T05:00:00.000Z",
+     "home": "Creighton Bluejays",
+     "away": "Kansas City Roos"
+    },
+    {
+     "event_key": "MENSCOLLEGEBASKETBALL|401909500",
+     "sport": "ncaab_m",
+     "pending": "NOT_FINAL",
+     "hours_past_start": 12,
+     "start_utc": "2026-11-02T05:00:00.000Z",
+     "home": "DePaul Blue Demons",
+     "away": "West Georgia Wolves"
+    },
+    {
+     "event_key": "MENSCOLLEGEBASKETBALL|401909522",
+     "sport": "ncaab_m",
+     "pending": "NOT_FINAL",
+     "hours_past_start": 12,
+     "start_utc": "2026-11-02T05:00:00.000Z",
+     "home": "Marquette Golden Eagles",
+     "away": "Mercyhurst Lakers"
+    },
+    {
+     "event_key": "MENSCOLLEGEBASKETBALL|401909531",
+     "sport": "ncaab_m",
+     "pending": "NOT_FINAL",
+     "hours_past_start": 12,
+     "start_utc": "2026-11-02T05:00:00.000Z",
+     "home": "Providence Friars",
+     "away": "Maine Black Bears"
+    }
+   ]
+  },
+  {
+   "level": "WARN",
+   "check": "odds_feed",
+   "detail": "the scoreboard feed that carries sportsbook lines is unavailable or stale: 545 grade(s) had no market cross-check and were capped at B",
    "count": null
   },
   {
@@ -17,11 +133,11 @@
   }
  ],
  "counts": {
-  "forecasts": 3985,
-  "results": 864,
-  "grades": 864,
+  "forecasts": 4037,
+  "results": 866,
+  "grades": 866,
   "quotes": 3813,
-  "research_grades": 14024,
-  "grade_outcomes": 417
+  "research_grades": 14569,
+  "grade_outcomes": 419
  }
 }
