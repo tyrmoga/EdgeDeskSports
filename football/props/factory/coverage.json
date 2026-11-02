@@ -1,14 +1,14 @@
 {
  "schema": "edgedesk_props_coverage_v1",
- "generated_at": "2026-11-01T22:27:28.458Z",
+ "generated_at": "2026-11-02T16:39:11.875Z",
  "adapter_version": "wh3",
  "identity": {
   "players": 53764,
   "cfb_players": 49396,
-  "nfl_players": 7717,
-  "bridged": 3349,
+  "nfl_players": 7726,
+  "bridged": 3358,
   "by_method": {
-   "exact_espn_id": 2716,
+   "exact_espn_id": 2725,
    "name_college_draft": 431,
    "name_college_position_chronology": 199,
    "name_chronology_position": 3
@@ -164,7 +164,7 @@
      "snaps": true,
      "injuries": true,
      "notes": [],
-     "zero_filled": 311
+     "zero_filled": 353
     }
    ],
    "qa": {
@@ -174,7 +174,7 @@
      "counts": {}
     },
     "player_games": {
-     "kept": 287750,
+     "kept": 288634,
      "quarantined": 328,
      "flagged": 3,
      "counts": {
@@ -184,8 +184,8 @@
     }
    },
    "games": 4368,
-   "player_games": 287750,
-   "team_games": 8424
+   "player_games": 288634,
+   "team_games": 8432
   },
   "CFB": {
    "seasons": [
