@@ -1,7 +1,7 @@
 {
  "last": {
-  "at": "2026-11-02T06:27:22.570Z",
-  "run_id": "fsie_20261102062722",
+  "at": "2026-11-02T20:32:44.356Z",
+  "run_id": "fsie_20261102203244",
   "status": "ok"
  },
  "runs": [
@@ -603,6 +603,46 @@
     }
    },
    "started_at": "2026-11-02T06:27:22.570Z",
+   "status": "ok"
+  },
+  {
+   "errors": [],
+   "run_id": "fsie_20261102203244",
+   "stages": {
+    "cfb": {
+     "comparisons": 0,
+     "comparisons_added": 0,
+     "ms": {
+      "coverage": 7,
+      "ingest": 2965,
+      "projections": 7804,
+      "tendencies": 1281,
+      "total": 16606
+     },
+     "player_projections": 1033,
+     "player_snapshots_added": 210,
+     "projection_snapshots_added": 26,
+     "projections": 126,
+     "simulator_shadow_games": 63
+    },
+    "nfl": {
+     "comparisons": 0,
+     "comparisons_added": 0,
+     "ms": {
+      "coverage": 3,
+      "ingest": 2801,
+      "projections": 2236,
+      "tendencies": 139,
+      "total": 10333
+     },
+     "player_projections": 257,
+     "player_snapshots_added": 256,
+     "projection_snapshots_added": 32,
+     "projections": 32,
+     "simulator_shadow_games": 16
+    }
+   },
+   "started_at": "2026-11-02T20:32:44.356Z",
    "status": "ok"
   }
  ],

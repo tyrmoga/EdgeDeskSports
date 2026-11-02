@@ -1,29 +1,29 @@
 {
- "built_at": "2026-11-02T06:27:22.570Z",
+ "built_at": "2026-11-02T20:32:44.356Z",
  "games": {
   "2026_08_CHI_SEA": {
-   "as_of": "2026-11-02T06:27:22.570Z",
+   "as_of": "2026-11-02T20:32:44.356Z",
    "away": {
     "drives": [
      9,
      11,
      13
     ],
-    "mean_drives": 10.78,
-    "mean_plays": 62.77,
+    "mean_drives": 10.74,
+    "mean_plays": 62.49,
     "pass_att": [
      24,
      32,
      42
     ],
-    "pass_rate": 0.5428,
+    "pass_rate": 0.547,
     "plays": [
      52,
-     62.5,
-     74
+     62,
+     73
     ],
     "rush_att": [
-     19,
+     18,
      27,
      37
     ],
@@ -33,23 +33,23 @@
     "ok",
     "ok"
    ],
-   "game_drives": 21.57,
-   "game_plays": 125.03,
-   "game_plays_dev": 1.02,
+   "game_drives": 21.49,
+   "game_plays": 124.73,
+   "game_plays_dev": 0.76,
    "home": {
     "drives": [
      9,
      11,
      13
     ],
-    "mean_drives": 10.79,
-    "mean_plays": 62.26,
+    "mean_drives": 10.75,
+    "mean_plays": 62.24,
     "pass_att": [
-     22,
+     23,
      31,
      40
     ],
-    "pass_rate": 0.521,
+    "pass_rate": 0.5216,
     "plays": [
      52,
      62,
@@ -62,313 +62,313 @@
     ],
     "team": "SEA"
    },
-   "league_plays_pg": 62,
+   "league_plays_pg": 61.99,
    "script": {
     "away": {
-     "competitive": 0.5579,
-     "garbage": 0.0363,
-     "leading": 0.0952,
-     "trailing": 0.1986,
-     "two_minute": 0.112
+     "competitive": 0.5556,
+     "garbage": 0.0386,
+     "leading": 0.0916,
+     "trailing": 0.2025,
+     "two_minute": 0.1118
     },
     "home": {
-     "competitive": 0.5763,
-     "garbage": 0.0307,
-     "leading": 0.1461,
-     "trailing": 0.138,
-     "two_minute": 0.1089
+     "competitive": 0.576,
+     "garbage": 0.0315,
+     "leading": 0.1501,
+     "trailing": 0.1338,
+     "two_minute": 0.1086
     }
    }
   },
   "2026_09_ARI_SEA": {
-   "as_of": "2026-11-02T06:27:22.570Z",
+   "as_of": "2026-11-02T20:32:44.356Z",
    "away": {
     "drives": [
      9,
      11,
      13
     ],
-    "mean_drives": 10.79,
-    "mean_plays": 64.09,
+    "mean_drives": 10.85,
+    "mean_plays": 61.09,
     "pass_att": [
      26,
      35,
-     45
+     44
     ],
-    "pass_rate": 0.5776,
+    "pass_rate": 0.5966,
     "plays": [
-     53,
-     64,
-     75
+     51,
+     61,
+     71.09999999999991
     ],
     "rush_att": [
-     17,
-     26,
-     36
+     15,
+     23,
+     33
     ],
     "team": "ARI"
    },
    "data_quality": [
-    "degraded",
-    "degraded"
+    "ok",
+    "ok"
    ],
-   "game_drives": 21.57,
-   "game_plays": 126.58,
-   "game_plays_dev": 2.57,
+   "game_drives": 21.71,
+   "game_plays": 124.48,
+   "game_plays_dev": 0.51,
    "home": {
     "drives": [
      9,
      11,
      13
     ],
-    "mean_drives": 10.78,
-    "mean_plays": 62.49,
+    "mean_drives": 10.86,
+    "mean_plays": 63.39,
     "pass_att": [
+     21,
+     29,
+     38
+    ],
+    "pass_rate": 0.4827,
+    "plays": [
+     53,
+     63,
+     74
+    ],
+    "rush_att": [
      23,
      31,
-     40
+     42
     ],
-    "pass_rate": 0.5215,
+    "team": "SEA"
+   },
+   "league_plays_pg": 61.99,
+   "script": {
+    "away": {
+     "competitive": 0.4913,
+     "garbage": 0.0663,
+     "leading": 0.0404,
+     "trailing": 0.292,
+     "two_minute": 0.1099
+    },
+    "home": {
+     "competitive": 0.5567,
+     "garbage": 0.0425,
+     "leading": 0.2337,
+     "trailing": 0.0666,
+     "two_minute": 0.1004
+    }
+   }
+  },
+  "2026_09_BUF_MIN": {
+   "as_of": "2026-11-02T20:32:44.356Z",
+   "away": {
+    "drives": [
+     9,
+     11,
+     13
+    ],
+    "mean_drives": 10.63,
+    "mean_plays": 62.49,
+    "pass_att": [
+     20,
+     28,
+     37
+    ],
+    "pass_rate": 0.4779,
     "plays": [
      52,
      62,
      73
     ],
     "rush_att": [
-     20,
-     29,
-     39
-    ],
-    "team": "SEA"
-   },
-   "league_plays_pg": 62,
-   "script": {
-    "away": {
-     "competitive": 0.5722,
-     "garbage": 0.0315,
-     "leading": 0.1173,
-     "trailing": 0.1678,
-     "two_minute": 0.1112
-    },
-    "home": {
-     "competitive": 0.5731,
-     "garbage": 0.0313,
-     "leading": 0.1193,
-     "trailing": 0.1653,
-     "two_minute": 0.111
-    }
-   }
-  },
-  "2026_09_BUF_MIN": {
-   "as_of": "2026-11-02T06:27:22.570Z",
-   "away": {
-    "drives": [
-     8,
-     10,
-     12
-    ],
-    "mean_drives": 10.48,
-    "mean_plays": 61.72,
-    "pass_att": [
-     21,
-     29,
-     38
-    ],
-    "pass_rate": 0.4955,
-    "plays": [
-     51,
-     62,
-     72
-    ],
-    "rush_att": [
-     21,
-     30,
-     40
+     22,
+     31,
+     41
     ],
     "team": "BUF"
    },
    "data_quality": [
-    "degraded",
-    "degraded"
+    "ok",
+    "ok"
    ],
-   "game_drives": 20.96,
-   "game_plays": 123.52,
-   "game_plays_dev": -0.49,
+   "game_drives": 21.26,
+   "game_plays": 122.92,
+   "game_plays_dev": -1.05,
    "home": {
     "drives": [
      9,
-     10,
-     12
+     11,
+     13
     ],
-    "mean_drives": 10.48,
-    "mean_plays": 61.8,
+    "mean_drives": 10.63,
+    "mean_plays": 60.43,
     "pass_att": [
-     23,
+     24,
      32,
      41
     ],
-    "pass_rate": 0.5373,
+    "pass_rate": 0.5591,
     "plays": [
-     52,
-     62,
-     72
+     50,
+     60,
+     71
     ],
     "rush_att": [
-     19,
-     27,
-     37
+     17,
+     25,
+     35
     ],
     "team": "MIN"
    },
-   "league_plays_pg": 62,
+   "league_plays_pg": 61.99,
    "script": {
     "away": {
-     "competitive": 0.5788,
-     "garbage": 0.0291,
-     "leading": 0.1182,
-     "trailing": 0.1625,
-     "two_minute": 0.1113
+     "competitive": 0.5766,
+     "garbage": 0.0314,
+     "leading": 0.1488,
+     "trailing": 0.1345,
+     "two_minute": 0.1085
     },
     "home": {
-     "competitive": 0.5765,
-     "garbage": 0.0293,
-     "leading": 0.1143,
-     "trailing": 0.1678,
+     "competitive": 0.5564,
+     "garbage": 0.0378,
+     "leading": 0.0924,
+     "trailing": 0.2015,
      "two_minute": 0.112
     }
    }
   },
   "2026_09_CIN_ATL": {
-   "as_of": "2026-11-02T06:27:22.570Z",
+   "as_of": "2026-11-02T20:32:44.356Z",
    "away": {
     "drives": [
      9,
      11,
-     13
+     12
     ],
-    "mean_drives": 10.53,
-    "mean_plays": 62.8,
+    "mean_drives": 10.54,
+    "mean_plays": 63.75,
     "pass_att": [
      27,
      36,
      46
     ],
-    "pass_rate": 0.6062,
+    "pass_rate": 0.5995,
     "plays": [
      53,
-     63,
-     73
+     64,
+     74
     ],
     "rush_att": [
-     15,
+     16,
      24,
-     33
+     34
     ],
     "team": "CIN"
    },
    "data_quality": [
-    "degraded",
-    "degraded"
+    "ok",
+    "ok"
    ],
-   "game_drives": 21.07,
-   "game_plays": 124.49,
-   "game_plays_dev": 0.48,
+   "game_drives": 21.08,
+   "game_plays": 125.09,
+   "game_plays_dev": 1.12,
    "home": {
     "drives": [
      9,
      11,
-     13
+     12
     ],
     "mean_drives": 10.54,
-    "mean_plays": 61.69,
+    "mean_plays": 61.34,
     "pass_att": [
-     22,
+     23,
      31,
-     40
+     41
     ],
-    "pass_rate": 0.5248,
+    "pass_rate": 0.5382,
     "plays": [
-     52,
+     51,
      61,
      72
     ],
     "rush_att": [
-     19,
-     28,
-     38
+     18,
+     27,
+     37
     ],
     "team": "ATL"
    },
-   "league_plays_pg": 62,
+   "league_plays_pg": 61.99,
    "script": {
     "away": {
-     "competitive": 0.5706,
-     "garbage": 0.0319,
-     "leading": 0.1218,
-     "trailing": 0.1651,
-     "two_minute": 0.1107
+     "competitive": 0.5802,
+     "garbage": 0.0294,
+     "leading": 0.1468,
+     "trailing": 0.1344,
+     "two_minute": 0.1092
     },
     "home": {
-     "competitive": 0.569,
-     "garbage": 0.0326,
-     "leading": 0.1174,
-     "trailing": 0.1701,
-     "two_minute": 0.1109
+     "competitive": 0.5606,
+     "garbage": 0.0355,
+     "leading": 0.0916,
+     "trailing": 0.1999,
+     "two_minute": 0.1124
     }
    }
   },
   "2026_09_CLE_NO": {
-   "as_of": "2026-11-02T06:27:22.570Z",
+   "as_of": "2026-11-02T20:32:44.356Z",
    "away": {
     "drives": [
      9,
      11,
      13
     ],
-    "mean_drives": 10.99,
-    "mean_plays": 63.97,
+    "mean_drives": 11.1,
+    "mean_plays": 63.37,
     "pass_att": [
      24,
      32,
      42
     ],
-    "pass_rate": 0.5274,
+    "pass_rate": 0.5416,
     "plays": [
      53,
-     64,
-     75
+     63,
+     74
     ],
     "rush_att": [
-     19,
-     28,
-     38
+     18,
+     27,
+     37
     ],
     "team": "CLE"
    },
    "data_quality": [
-    "degraded",
-    "degraded"
+    "ok",
+    "ok"
    ],
-   "game_drives": 22,
-   "game_plays": 128.68,
-   "game_plays_dev": 4.67,
+   "game_drives": 22.19,
+   "game_plays": 127.62,
+   "game_plays_dev": 3.65,
    "home": {
     "drives": [
      9,
      11,
      13
     ],
-    "mean_drives": 11.01,
-    "mean_plays": 64.71,
+    "mean_drives": 11.09,
+    "mean_plays": 64.25,
     "pass_att": [
-     26,
-     35,
-     45
+     25,
+     34,
+     44
     ],
-    "pass_rate": 0.5677,
+    "pass_rate": 0.5626,
     "plays": [
      54,
-     65,
+     64,
      75
     ],
     "rush_att": [
@@ -378,471 +378,550 @@
     ],
     "team": "NO"
    },
-   "league_plays_pg": 62,
+   "league_plays_pg": 61.99,
    "script": {
     "away": {
-     "competitive": 0.572,
-     "garbage": 0.0314,
-     "leading": 0.1178,
-     "trailing": 0.1678,
-     "two_minute": 0.111
+     "competitive": 0.5627,
+     "garbage": 0.0345,
+     "leading": 0.092,
+     "trailing": 0.1982,
+     "two_minute": 0.1126
     },
     "home": {
-     "competitive": 0.5724,
-     "garbage": 0.0309,
-     "leading": 0.1196,
-     "trailing": 0.1661,
-     "two_minute": 0.1111
+     "competitive": 0.5817,
+     "garbage": 0.0287,
+     "leading": 0.1451,
+     "trailing": 0.1352,
+     "two_minute": 0.1094
     }
    }
   },
   "2026_09_DAL_IND": {
-   "as_of": "2026-11-02T06:27:22.570Z",
+   "as_of": "2026-11-02T20:32:44.356Z",
    "away": {
     "drives": [
      8,
      10,
      12
     ],
-    "mean_drives": 10.48,
-    "mean_plays": 64.62,
+    "mean_drives": 10.41,
+    "mean_plays": 65.39,
     "pass_att": [
      26,
      35,
-     46
+     45
     ],
-    "pass_rate": 0.5711,
+    "pass_rate": 0.5543,
     "plays": [
-     54,
+     55,
      65,
-     75
+     76
     ],
     "rush_att": [
-     18,
-     27,
-     37
+     19,
+     28,
+     38
     ],
     "team": "DAL"
    },
    "data_quality": [
-    "degraded",
-    "degraded"
+    "ok",
+    "ok"
    ],
-   "game_drives": 20.98,
-   "game_plays": 127.92,
-   "game_plays_dev": 3.91,
+   "game_drives": 20.82,
+   "game_plays": 128.16,
+   "game_plays_dev": 4.19,
    "home": {
     "drives": [
-     9,
+     8,
      10,
      12
     ],
-    "mean_drives": 10.5,
-    "mean_plays": 63.3,
+    "mean_drives": 10.41,
+    "mean_plays": 62.77,
     "pass_att": [
-     24,
-     32,
-     41
+     25,
+     33,
+     43
     ],
-    "pass_rate": 0.5262,
+    "pass_rate": 0.5561,
     "plays": [
-     53,
-     63,
+     52,
+     62,
      74
     ],
     "rush_att": [
-     20,
-     29,
-     38
+     18,
+     26,
+     36
     ],
     "team": "IND"
    },
-   "league_plays_pg": 62,
+   "league_plays_pg": 61.99,
    "script": {
     "away": {
-     "competitive": 0.5729,
-     "garbage": 0.0308,
-     "leading": 0.12,
-     "trailing": 0.1651,
-     "two_minute": 0.1111
+     "competitive": 0.5739,
+     "garbage": 0.0329,
+     "leading": 0.1768,
+     "trailing": 0.1099,
+     "two_minute": 0.1064
     },
     "home": {
-     "competitive": 0.5721,
-     "garbage": 0.0313,
-     "leading": 0.1169,
-     "trailing": 0.1686,
-     "two_minute": 0.1111
+     "competitive": 0.5383,
+     "garbage": 0.0454,
+     "leading": 0.0726,
+     "trailing": 0.232,
+     "two_minute": 0.1117
     }
    }
   },
   "2026_09_DEN_CAR": {
-   "as_of": "2026-11-02T06:27:22.570Z",
+   "as_of": "2026-11-02T20:32:44.356Z",
    "away": {
     "drives": [
      9,
      11,
      13
     ],
-    "mean_drives": 11.17,
-    "mean_plays": 63.36,
-    "pass_att": [
-     25,
-     34,
-     44
-    ],
-    "pass_rate": 0.5538,
-    "plays": [
-     53,
-     63,
-     74
-    ],
-    "rush_att": [
-     18,
-     27,
-     37
-    ],
-    "team": "DEN"
-   },
-   "data_quality": [
-    "degraded",
-    "degraded"
-   ],
-   "game_drives": 22.33,
-   "game_plays": 129.45,
-   "game_plays_dev": 5.44,
-   "home": {
-    "drives": [
-     9,
-     11,
-     13
-    ],
-    "mean_drives": 11.16,
-    "mean_plays": 66.09,
-    "pass_att": [
-     27,
-     36,
-     46
-    ],
-    "pass_rate": 0.5788,
-    "plays": [
-     55,
-     66,
-     77
-    ],
-    "rush_att": [
-     17,
-     26,
-     36
-    ],
-    "team": "CAR"
-   },
-   "league_plays_pg": 62,
-   "script": {
-    "away": {
-     "competitive": 0.5717,
-     "garbage": 0.0326,
-     "leading": 0.1187,
-     "trailing": 0.1663,
-     "two_minute": 0.1107
-    },
-    "home": {
-     "competitive": 0.5712,
-     "garbage": 0.0321,
-     "leading": 0.1187,
-     "trailing": 0.167,
-     "two_minute": 0.111
-    }
-   }
-  },
-  "2026_09_DET_MIA": {
-   "as_of": "2026-11-02T06:27:22.570Z",
-   "away": {
-    "drives": [
-     8,
-     10,
-     12
-    ],
-    "mean_drives": 10.35,
-    "mean_plays": 63.97,
-    "pass_att": [
-     25,
-     34,
-     44
-    ],
-    "pass_rate": 0.5537,
-    "plays": [
-     54,
-     64,
-     75
-    ],
-    "rush_att": [
-     18,
-     27,
-     37
-    ],
-    "team": "DET"
-   },
-   "data_quality": [
-    "degraded",
-    "degraded"
-   ],
-   "game_drives": 20.72,
-   "game_plays": 126.43,
-   "game_plays_dev": 2.42,
-   "home": {
-    "drives": [
-     8,
-     10,
-     12
-    ],
-    "mean_drives": 10.37,
-    "mean_plays": 62.46,
-    "pass_att": [
-     22,
-     31,
-     40
-    ],
-    "pass_rate": 0.5214,
-    "plays": [
-     52,
-     62,
-     73
-    ],
-    "rush_att": [
-     20,
-     28,
-     38
-    ],
-    "team": "MIA"
-   },
-   "league_plays_pg": 62,
-   "script": {
-    "away": {
-     "competitive": 0.5741,
-     "garbage": 0.0295,
-     "leading": 0.1163,
-     "trailing": 0.1684,
-     "two_minute": 0.1117
-    },
-    "home": {
-     "competitive": 0.5758,
-     "garbage": 0.0294,
-     "leading": 0.1193,
-     "trailing": 0.1644,
-     "two_minute": 0.1112
-    }
-   }
-  },
-  "2026_09_GB_NE": {
-   "as_of": "2026-11-02T06:27:22.570Z",
-   "away": {
-    "drives": [
-     9,
-     11,
-     13
-    ],
-    "mean_drives": 10.67,
+    "mean_drives": 11.2,
     "mean_plays": 63.07,
-    "pass_att": [
-     27,
-     36,
-     46
-    ],
-    "pass_rate": 0.6009,
-    "plays": [
-     53,
-     63,
-     74
-    ],
-    "rush_att": [
-     15,
-     24,
-     33
-    ],
-    "team": "GB"
-   },
-   "data_quality": [
-    "degraded",
-    "degraded"
-   ],
-   "game_drives": 21.36,
-   "game_plays": 126.12,
-   "game_plays_dev": 2.11,
-   "home": {
-    "drives": [
-     9,
-     11,
-     13
-    ],
-    "mean_drives": 10.69,
-    "mean_plays": 63.05,
-    "pass_att": [
-     23,
-     32,
-     41
-    ],
-    "pass_rate": 0.529,
-    "plays": [
-     53,
-     63,
-     74
-    ],
-    "rush_att": [
-     20,
-     28,
-     39
-    ],
-    "team": "NE"
-   },
-   "league_plays_pg": 62,
-   "script": {
-    "away": {
-     "competitive": 0.5728,
-     "garbage": 0.0304,
-     "leading": 0.1149,
-     "trailing": 0.1704,
-     "two_minute": 0.1115
-    },
-    "home": {
-     "competitive": 0.5752,
-     "garbage": 0.0295,
-     "leading": 0.1213,
-     "trailing": 0.1629,
-     "two_minute": 0.1111
-    }
-   }
-  },
-  "2026_09_HOU_LAC": {
-   "as_of": "2026-11-02T06:27:22.570Z",
-   "away": {
-    "drives": [
-     9,
-     11,
-     13
-    ],
-    "mean_drives": 11.05,
-    "mean_plays": 62.6,
     "pass_att": [
      24,
      33,
      43
     ],
-    "pass_rate": 0.5495,
+    "pass_rate": 0.546,
     "plays": [
-     52,
-     62,
-     73
+     53,
+     63,
+     74
     ],
     "rush_att": [
-     18,
-     27,
-     37
+     19,
+     28,
+     38
     ],
-    "team": "HOU"
+    "team": "DEN"
    },
    "data_quality": [
-    "degraded",
-    "degraded"
+    "ok",
+    "ok"
    ],
-   "game_drives": 22.09,
-   "game_plays": 126.28,
-   "game_plays_dev": 2.27,
+   "game_drives": 22.39,
+   "game_plays": 127.51,
+   "game_plays_dev": 3.54,
    "home": {
     "drives": [
      9,
      11,
      13
     ],
-    "mean_drives": 11.04,
-    "mean_plays": 63.68,
+    "mean_drives": 11.19,
+    "mean_plays": 64.44,
     "pass_att": [
-     22,
-     31,
-     40
+     27,
+     36,
+     46
     ],
-    "pass_rate": 0.5109,
+    "pass_rate": 0.5896,
     "plays": [
-     53,
+     54,
      64,
-     74
+     75
     ],
     "rush_att": [
-     21,
-     29,
-     40
+     16,
+     25,
+     35
     ],
-    "team": "LAC"
+    "team": "CAR"
    },
-   "league_plays_pg": 62,
+   "league_plays_pg": 61.99,
    "script": {
     "away": {
-     "competitive": 0.5677,
-     "garbage": 0.0322,
-     "leading": 0.118,
-     "trailing": 0.1713,
-     "two_minute": 0.1108
+     "competitive": 0.5747,
+     "garbage": 0.031,
+     "leading": 0.1502,
+     "trailing": 0.1353,
+     "two_minute": 0.1088
     },
     "home": {
-     "competitive": 0.5693,
-     "garbage": 0.0315,
-     "leading": 0.1229,
-     "trailing": 0.1656,
-     "two_minute": 0.1106
+     "competitive": 0.5551,
+     "garbage": 0.0381,
+     "leading": 0.0927,
+     "trailing": 0.2025,
+     "two_minute": 0.1116
     }
    }
   },
-  "2026_09_JAX_BAL": {
-   "as_of": "2026-11-02T06:27:22.570Z",
+  "2026_09_DET_MIA": {
+   "as_of": "2026-11-02T20:32:44.356Z",
    "away": {
     "drives": [
      8,
      10,
      12
     ],
-    "mean_drives": 10.33,
-    "mean_plays": 61.6,
+    "mean_drives": 10.12,
+    "mean_plays": 64.87,
     "pass_att": [
      24,
-     32,
+     33,
      42
     ],
-    "pass_rate": 0.5475,
+    "pass_rate": 0.5281,
     "plays": [
-     52,
-     61,
-     72
+     54,
+     65,
+     76
     ],
     "rush_att": [
-     18,
-     27,
-     37
+     20,
+     29,
+     40
     ],
-    "team": "JAX"
+    "team": "DET"
    },
    "data_quality": [
-    "degraded",
-    "degraded"
+    "ok",
+    "ok"
    ],
-   "game_drives": 20.66,
-   "game_plays": 123.24,
-   "game_plays_dev": -0.77,
+   "game_drives": 20.22,
+   "game_plays": 125.63,
+   "game_plays_dev": 1.66,
    "home": {
     "drives": [
      8,
      10,
      12
     ],
-    "mean_drives": 10.33,
-    "mean_plays": 61.64,
+    "mean_drives": 10.1,
+    "mean_plays": 60.76,
+    "pass_att": [
+     24,
+     32,
+     41
+    ],
+    "pass_rate": 0.5553,
+    "plays": [
+     51,
+     61,
+     71
+    ],
+    "rush_att": [
+     17,
+     25,
+     35
+    ],
+    "team": "MIA"
+   },
+   "league_plays_pg": 61.99,
+   "script": {
+    "away": {
+     "competitive": 0.5701,
+     "garbage": 0.0346,
+     "leading": 0.1901,
+     "trailing": 0.1004,
+     "two_minute": 0.1048
+    },
+    "home": {
+     "competitive": 0.5271,
+     "garbage": 0.0492,
+     "leading": 0.066,
+     "trailing": 0.2462,
+     "two_minute": 0.1115
+    }
+   }
+  },
+  "2026_09_GB_NE": {
+   "as_of": "2026-11-02T20:32:44.356Z",
+   "away": {
+    "drives": [
+     9,
+     11,
+     13
+    ],
+    "mean_drives": 10.54,
+    "mean_plays": 62.04,
+    "pass_att": [
+     27,
+     36,
+     46
+    ],
+    "pass_rate": 0.6123,
+    "plays": [
+     52,
+     62,
+     73
+    ],
+    "rush_att": [
+     15,
+     23,
+     32
+    ],
+    "team": "GB"
+   },
+   "data_quality": [
+    "ok",
+    "ok"
+   ],
+   "game_drives": 21.08,
+   "game_plays": 125.03,
+   "game_plays_dev": 1.06,
+   "home": {
+    "drives": [
+     9,
+     11,
+     13
+    ],
+    "mean_drives": 10.54,
+    "mean_plays": 62.99,
+    "pass_att": [
+     23,
+     31,
+     40
+    ],
+    "pass_rate": 0.5117,
+    "plays": [
+     53,
+     63,
+     74
+    ],
+    "rush_att": [
+     20,
+     29,
+     39
+    ],
+    "team": "NE"
+   },
+   "league_plays_pg": 61.99,
+   "script": {
+    "away": {
+     "competitive": 0.5597,
+     "garbage": 0.0358,
+     "leading": 0.0935,
+     "trailing": 0.1988,
+     "two_minute": 0.1123
+    },
+    "home": {
+     "competitive": 0.5786,
+     "garbage": 0.0297,
+     "leading": 0.1462,
+     "trailing": 0.1365,
+     "two_minute": 0.1091
+    }
+   }
+  },
+  "2026_09_HOU_LAC": {
+   "as_of": "2026-11-02T20:32:44.356Z",
+   "away": {
+    "drives": [
+     9,
+     11,
+     13
+    ],
+    "mean_drives": 11.25,
+    "mean_plays": 62.33,
     "pass_att": [
      23,
      32,
      41
     ],
-    "pass_rate": 0.5323,
+    "pass_rate": 0.5307,
+    "plays": [
+     52,
+     62,
+     73
+    ],
+    "rush_att": [
+     19,
+     28,
+     38
+    ],
+    "team": "HOU"
+   },
+   "data_quality": [
+    "ok",
+    "ok"
+   ],
+   "game_drives": 22.49,
+   "game_plays": 123.71,
+   "game_plays_dev": -0.26,
+   "home": {
+    "drives": [
+     9,
+     11,
+     13
+    ],
+    "mean_drives": 11.24,
+    "mean_plays": 61.38,
+    "pass_att": [
+     21,
+     29,
+     38
+    ],
+    "pass_rate": 0.5068,
     "plays": [
      51,
      61,
+     72
+    ],
+    "rush_att": [
+     20,
+     29,
+     39
+    ],
+    "team": "LAC"
+   },
+   "league_plays_pg": 61.99,
+   "script": {
+    "away": {
+     "competitive": 0.5757,
+     "garbage": 0.0316,
+     "leading": 0.1582,
+     "trailing": 0.1265,
+     "two_minute": 0.108
+    },
+    "home": {
+     "competitive": 0.5507,
+     "garbage": 0.0402,
+     "leading": 0.0858,
+     "trailing": 0.2115,
+     "two_minute": 0.1118
+    }
+   }
+  },
+  "2026_09_JAX_BAL": {
+   "as_of": "2026-11-02T20:32:44.356Z",
+   "away": {
+    "drives": [
+     9,
+     11,
+     13
+    ],
+    "mean_drives": 10.62,
+    "mean_plays": 61.52,
+    "pass_att": [
+     22,
+     30,
+     39
+    ],
+    "pass_rate": 0.5166,
+    "plays": [
+     51,
+     61,
+     72
+    ],
+    "rush_att": [
+     20,
+     29,
+     38
+    ],
+    "team": "JAX"
+   },
+   "data_quality": [
+    "ok",
+    "ok"
+   ],
+   "game_drives": 21.25,
+   "game_plays": 120.4,
+   "game_plays_dev": -3.57,
+   "home": {
+    "drives": [
+     9,
+     11,
+     13
+    ],
+    "mean_drives": 10.63,
+    "mean_plays": 58.88,
+    "pass_att": [
+     23,
+     31,
+     40
+    ],
+    "pass_rate": 0.5475,
+    "plays": [
+     49,
+     59,
+     69
+    ],
+    "rush_att": [
+     17,
+     25,
+     35
+    ],
+    "team": "BAL"
+   },
+   "league_plays_pg": 61.99,
+   "script": {
+    "away": {
+     "competitive": 0.57,
+     "garbage": 0.0355,
+     "leading": 0.2043,
+     "trailing": 0.0867,
+     "two_minute": 0.1035
+    },
+    "home": {
+     "competitive": 0.5179,
+     "garbage": 0.0527,
+     "leading": 0.0552,
+     "trailing": 0.2624,
+     "two_minute": 0.1118
+    }
+   }
+  },
+  "2026_09_LA_WAS": {
+   "as_of": "2026-11-02T20:32:44.356Z",
+   "away": {
+    "drives": [
+     9,
+     11,
+     13
+    ],
+    "mean_drives": 10.79,
+    "mean_plays": 64.8,
+    "pass_att": [
+     27,
+     37,
+     47
+    ],
+    "pass_rate": 0.5913,
+    "plays": [
+     54,
+     65,
+     76
+    ],
+    "rush_att": [
+     16,
+     26,
+     36
+    ],
+    "team": "LA"
+   },
+   "data_quality": [
+    "ok",
+    "ok"
+   ],
+   "game_drives": 21.58,
+   "game_plays": 126.67,
+   "game_plays_dev": 2.7,
+   "home": {
+    "drives": [
+     9,
+     11,
+     13
+    ],
+    "mean_drives": 10.79,
+    "mean_plays": 61.87,
+    "pass_att": [
+     23,
+     32,
+     41
+    ],
+    "pass_rate": 0.5342,
+    "plays": [
+     52,
+     62,
      72
     ],
     "rush_att": [
@@ -850,75 +929,75 @@
      27,
      37
     ],
-    "team": "BAL"
+    "team": "WAS"
    },
-   "league_plays_pg": 62,
+   "league_plays_pg": 61.99,
    "script": {
     "away": {
-     "competitive": 0.5706,
-     "garbage": 0.0318,
-     "leading": 0.1206,
-     "trailing": 0.166,
-     "two_minute": 0.111
+     "competitive": 0.5782,
+     "garbage": 0.0305,
+     "leading": 0.1738,
+     "trailing": 0.1107,
+     "two_minute": 0.1067
     },
     "home": {
-     "competitive": 0.5705,
-     "garbage": 0.0323,
-     "leading": 0.1179,
-     "trailing": 0.1685,
-     "two_minute": 0.1107
+     "competitive": 0.5428,
+     "garbage": 0.0418,
+     "leading": 0.073,
+     "trailing": 0.2298,
+     "two_minute": 0.1126
     }
    }
   },
-  "2026_09_LA_WAS": {
-   "as_of": "2026-11-02T06:27:22.570Z",
+  "2026_09_LV_SF": {
+   "as_of": "2026-11-02T20:32:44.356Z",
    "away": {
     "drives": [
-     9,
-     11,
-     13
+     8,
+     10,
+     12
     ],
-    "mean_drives": 10.85,
-    "mean_plays": 65.1,
+    "mean_drives": 10.21,
+    "mean_plays": 61.17,
     "pass_att": [
-     28,
-     37,
-     47
+     27,
+     35,
+     45
     ],
-    "pass_rate": 0.5974,
+    "pass_rate": 0.6018,
     "plays": [
-     55,
-     65,
-     76
+     51,
+     61,
+     71
     ],
     "rush_att": [
-     16,
-     25,
-     35
+     15,
+     23,
+     33
     ],
-    "team": "LA"
+    "team": "LV"
    },
    "data_quality": [
-    "degraded",
-    "degraded"
+    "ok",
+    "ok"
    ],
-   "game_drives": 21.7,
-   "game_plays": 128.44,
-   "game_plays_dev": 4.43,
+   "game_drives": 20.43,
+   "game_plays": 124.65,
+   "game_plays_dev": 0.68,
    "home": {
     "drives": [
-     9,
-     11,
-     13
+     8,
+     10,
+     12
     ],
-    "mean_drives": 10.85,
-    "mean_plays": 63.34,
+    "mean_drives": 10.22,
+    "mean_plays": 63.48,
     "pass_att": [
-     23,
+     24,
      32,
-     41
+     42
     ],
-    "pass_rate": 0.5219,
+    "pass_rate": 0.5292,
     "plays": [
      53,
      63,
@@ -929,61 +1008,219 @@
      29,
      39
     ],
-    "team": "WAS"
+    "team": "SF"
    },
-   "league_plays_pg": 62,
+   "league_plays_pg": 61.99,
    "script": {
     "away": {
-     "competitive": 0.5719,
-     "garbage": 0.0319,
-     "leading": 0.1192,
-     "trailing": 0.1662,
-     "two_minute": 0.1108
+     "competitive": 0.5111,
+     "garbage": 0.0565,
+     "leading": 0.0494,
+     "trailing": 0.2718,
+     "two_minute": 0.1112
     },
     "home": {
-     "competitive": 0.5711,
-     "garbage": 0.0319,
-     "leading": 0.1183,
-     "trailing": 0.1676,
-     "two_minute": 0.1111
+     "competitive": 0.567,
+     "garbage": 0.0369,
+     "leading": 0.2136,
+     "trailing": 0.0796,
+     "two_minute": 0.1029
     }
    }
   },
-  "2026_09_LV_SF": {
-   "as_of": "2026-11-02T06:27:22.570Z",
+  "2026_09_NYG_PHI": {
+   "as_of": "2026-11-02T20:32:44.356Z",
    "away": {
     "drives": [
      9,
      11,
      13
     ],
-    "mean_drives": 10.61,
-    "mean_plays": 63.77,
+    "mean_drives": 11.14,
+    "mean_plays": 63.2,
     "pass_att": [
-     27,
-     36,
-     46
+     22,
+     30,
+     40
     ],
-    "pass_rate": 0.5849,
+    "pass_rate": 0.5029,
     "plays": [
      53,
-     64,
+     63,
      74
     ],
     "rush_att": [
-     17,
-     25,
-     35
+     21,
+     30,
+     40
     ],
-    "team": "LV"
+    "team": "NYG"
    },
    "data_quality": [
-    "degraded",
-    "degraded"
+    "ok",
+    "ok"
    ],
-   "game_drives": 21.2,
-   "game_plays": 126.21,
-   "game_plays_dev": 2.2,
+   "game_drives": 22.27,
+   "game_plays": 124.46,
+   "game_plays_dev": 0.49,
+   "home": {
+    "drives": [
+     9,
+     11,
+     13
+    ],
+    "mean_drives": 11.13,
+    "mean_plays": 61.26,
+    "pass_att": [
+     24,
+     32,
+     41
+    ],
+    "pass_rate": 0.5501,
+    "plays": [
+     51,
+     61,
+     72
+    ],
+    "rush_att": [
+     18,
+     26,
+     36
+    ],
+    "team": "PHI"
+   },
+   "league_plays_pg": 61.99,
+   "script": {
+    "away": {
+     "competitive": 0.5806,
+     "garbage": 0.0289,
+     "leading": 0.1501,
+     "trailing": 0.1314,
+     "two_minute": 0.109
+    },
+    "home": {
+     "competitive": 0.5591,
+     "garbage": 0.036,
+     "leading": 0.0889,
+     "trailing": 0.2035,
+     "two_minute": 0.1125
+    }
+   }
+  },
+  "2026_09_NYJ_KC": {
+   "as_of": "2026-11-02T20:32:44.356Z",
+   "away": {
+    "drives": [
+     8,
+     10,
+     12
+    ],
+    "mean_drives": 10.23,
+    "mean_plays": 58.98,
+    "pass_att": [
+     23,
+     31,
+     41
+    ],
+    "pass_rate": 0.5608,
+    "plays": [
+     49,
+     59,
+     69
+    ],
+    "rush_att": [
+     16,
+     25,
+     34
+    ],
+    "team": "NYJ"
+   },
+   "data_quality": [
+    "ok",
+    "ok"
+   ],
+   "game_drives": 20.46,
+   "game_plays": 122.57,
+   "game_plays_dev": -1.4,
+   "home": {
+    "drives": [
+     8,
+     10,
+     12
+    ],
+    "mean_drives": 10.23,
+    "mean_plays": 63.59,
+    "pass_att": [
+     24,
+     32,
+     42
+    ],
+    "pass_rate": 0.5308,
+    "plays": [
+     53,
+     63,
+     74
+    ],
+    "rush_att": [
+     20,
+     29,
+     39
+    ],
+    "team": "KC"
+   },
+   "league_plays_pg": 61.99,
+   "script": {
+    "away": {
+     "competitive": 0.5069,
+     "garbage": 0.0591,
+     "leading": 0.0478,
+     "trailing": 0.2752,
+     "two_minute": 0.1111
+    },
+    "home": {
+     "competitive": 0.5654,
+     "garbage": 0.0387,
+     "leading": 0.2169,
+     "trailing": 0.0769,
+     "two_minute": 0.1021
+    }
+   }
+  },
+  "2026_09_TB_CHI": {
+   "as_of": "2026-11-02T20:32:44.356Z",
+   "away": {
+    "drives": [
+     9,
+     11,
+     13
+    ],
+    "mean_drives": 10.59,
+    "mean_plays": 59.59,
+    "pass_att": [
+     19,
+     27,
+     36
+    ],
+    "pass_rate": 0.4816,
+    "plays": [
+     49,
+     59,
+     70
+    ],
+    "rush_att": [
+     21,
+     29,
+     39
+    ],
+    "team": "TB"
+   },
+   "data_quality": [
+    "ok",
+    "ok"
+   ],
+   "game_drives": 21.18,
+   "game_plays": 123.74,
+   "game_plays_dev": -0.23,
    "home": {
     "drives": [
      9,
@@ -991,277 +1228,40 @@
      13
     ],
     "mean_drives": 10.59,
-    "mean_plays": 62.44,
-    "pass_att": [
-     23,
-     31,
-     41
-    ],
-    "pass_rate": 0.5294,
-    "plays": [
-     52,
-     62,
-     73
-    ],
-    "rush_att": [
-     19,
-     28,
-     38
-    ],
-    "team": "SF"
-   },
-   "league_plays_pg": 62,
-   "script": {
-    "away": {
-     "competitive": 0.5718,
-     "garbage": 0.0314,
-     "leading": 0.1209,
-     "trailing": 0.1651,
-     "two_minute": 0.1108
-    },
-    "home": {
-     "competitive": 0.5705,
-     "garbage": 0.0319,
-     "leading": 0.1174,
-     "trailing": 0.1693,
-     "two_minute": 0.111
-    }
-   }
-  },
-  "2026_09_NYG_PHI": {
-   "as_of": "2026-11-02T06:27:22.570Z",
-   "away": {
-    "drives": [
-     9,
-     11,
-     13
-    ],
-    "mean_drives": 10.88,
-    "mean_plays": 63.95,
+    "mean_plays": 64.15,
     "pass_att": [
      24,
-     32,
-     42
+     33,
+     43
     ],
-    "pass_rate": 0.5274,
+    "pass_rate": 0.5401,
     "plays": [
      54,
      64,
      75
     ],
     "rush_att": [
-     20,
-     29,
-     39
-    ],
-    "team": "NYG"
-   },
-   "data_quality": [
-    "degraded",
-    "degraded"
-   ],
-   "game_drives": 21.77,
-   "game_plays": 126.81,
-   "game_plays_dev": 2.8,
-   "home": {
-    "drives": [
-     9,
-     11,
-     13
-    ],
-    "mean_drives": 10.89,
-    "mean_plays": 62.86,
-    "pass_att": [
-     25,
-     33,
-     43
-    ],
-    "pass_rate": 0.5626,
-    "plays": [
-     52,
-     63,
-     74
-    ],
-    "rush_att": [
-     18,
-     27,
-     36
-    ],
-    "team": "PHI"
-   },
-   "league_plays_pg": 62,
-   "script": {
-    "away": {
-     "competitive": 0.5731,
-     "garbage": 0.0312,
-     "leading": 0.1175,
-     "trailing": 0.1671,
-     "two_minute": 0.1112
-    },
-    "home": {
-     "competitive": 0.5736,
-     "garbage": 0.0309,
-     "leading": 0.1187,
-     "trailing": 0.1657,
-     "two_minute": 0.1111
-    }
-   }
-  },
-  "2026_09_NYJ_KC": {
-   "as_of": "2026-11-02T06:27:22.570Z",
-   "away": {
-    "drives": [
-     8,
-     10,
-     12
-    ],
-    "mean_drives": 10.33,
-    "mean_plays": 61.62,
-    "pass_att": [
-     23,
-     31,
-     40
-    ],
-    "pass_rate": 0.5287,
-    "plays": [
-     51,
-     61,
-     72
-    ],
-    "rush_att": [
      19,
      28,
-     37.09999999999991
-    ],
-    "team": "NYJ"
-   },
-   "data_quality": [
-    "degraded",
-    "degraded"
-   ],
-   "game_drives": 20.67,
-   "game_plays": 123.99,
-   "game_plays_dev": -0.02,
-   "home": {
-    "drives": [
-     8,
-     10,
-     12
-    ],
-    "mean_drives": 10.34,
-    "mean_plays": 62.37,
-    "pass_att": [
-     23,
-     32,
-     42
-    ],
-    "pass_rate": 0.5368,
-    "plays": [
-     52,
-     62,
-     73
-    ],
-    "rush_att": [
-     19,
-     27,
-     37
-    ],
-    "team": "KC"
-   },
-   "league_plays_pg": 62,
-   "script": {
-    "away": {
-     "competitive": 0.5751,
-     "garbage": 0.0304,
-     "leading": 0.1191,
-     "trailing": 0.1642,
-     "two_minute": 0.1112
-    },
-    "home": {
-     "competitive": 0.5742,
-     "garbage": 0.0313,
-     "leading": 0.1159,
-     "trailing": 0.1675,
-     "two_minute": 0.1112
-    }
-   }
-  },
-  "2026_09_TB_CHI": {
-   "as_of": "2026-11-02T06:27:22.570Z",
-   "away": {
-    "drives": [
-     9,
-     11,
-     13
-    ],
-    "mean_drives": 10.74,
-    "mean_plays": 61.62,
-    "pass_att": [
-     21,
-     29,
      38
-    ],
-    "pass_rate": 0.5019,
-    "plays": [
-     51,
-     61,
-     72
-    ],
-    "rush_att": [
-     20,
-     29,
-     39
-    ],
-    "team": "TB"
-   },
-   "data_quality": [
-    "degraded",
-    "degraded"
-   ],
-   "game_drives": 21.49,
-   "game_plays": 125.56,
-   "game_plays_dev": 1.55,
-   "home": {
-    "drives": [
-     9,
-     11,
-     13
-    ],
-    "mean_drives": 10.75,
-    "mean_plays": 63.94,
-    "pass_att": [
-     25,
-     33,
-     43
-    ],
-    "pass_rate": 0.5505,
-    "plays": [
-     53,
-     64,
-     75
-    ],
-    "rush_att": [
-     18,
-     27,
-     37
     ],
     "team": "CHI"
    },
-   "league_plays_pg": 62,
+   "league_plays_pg": 61.99,
    "script": {
     "away": {
-     "competitive": 0.5715,
-     "garbage": 0.0315,
-     "leading": 0.1237,
-     "trailing": 0.1627,
-     "two_minute": 0.1106
+     "competitive": 0.543,
+     "garbage": 0.0428,
+     "leading": 0.0747,
+     "trailing": 0.2271,
+     "two_minute": 0.1124
     },
     "home": {
-     "competitive": 0.5688,
-     "garbage": 0.0325,
-     "leading": 0.1153,
-     "trailing": 0.1724,
-     "two_minute": 0.111
+     "competitive": 0.5775,
+     "garbage": 0.0319,
+     "leading": 0.1715,
+     "trailing": 0.1125,
+     "two_minute": 0.1067
     }
    }
   }
