@@ -1,8 +1,14 @@
 {
  "schema": "edgedesk_perf_health_v1",
- "generated_at": "2026-11-01T23:39:34.938Z",
- "status": "OK",
+ "generated_at": "2026-11-02T06:14:34.857Z",
+ "status": "ALERT",
  "items": [
+  {
+   "level": "ALERT",
+   "check": "capture_stale",
+   "detail": "no forecast captured for 8 hours while games start within a day",
+   "count": null
+  },
   {
    "level": "INFO",
    "check": "no_pregame_grade",
@@ -12,10 +18,10 @@
  ],
  "counts": {
   "forecasts": 3985,
-  "results": 856,
-  "grades": 856,
-  "quotes": 3671,
-  "research_grades": 13848,
-  "grade_outcomes": 409
+  "results": 864,
+  "grades": 864,
+  "quotes": 3813,
+  "research_grades": 14024,
+  "grade_outcomes": 417
  }
 }
