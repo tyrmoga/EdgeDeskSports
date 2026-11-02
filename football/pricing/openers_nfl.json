@@ -3109,11 +3109,11 @@
    "latest": {
     "home_line": -3,
     "total": 46.5,
-    "home_moneyline": -180,
-    "away_moneyline": 150,
-    "seen_at": "2026-11-02T17:06:38.980Z"
+    "home_moneyline": -170,
+    "away_moneyline": 142,
+    "seen_at": "2026-11-02T19:42:49.963Z"
    },
-   "moves": 10,
+   "moves": 11,
    "closed": false
   },
   "2026_08_MIN_DET": {
@@ -3231,11 +3231,11 @@
    "latest": {
     "home_line": -2.5,
     "total": 43.5,
-    "home_moneyline": -142,
-    "away_moneyline": 120,
-    "seen_at": "2026-11-02T17:06:38.980Z"
+    "home_moneyline": -135,
+    "away_moneyline": 114,
+    "seen_at": "2026-11-02T19:42:49.963Z"
    },
-   "moves": 6,
+   "moves": 7,
    "closed": false
   },
   "2026_09_DEN_CAR": {
@@ -3276,12 +3276,12 @@
    },
    "latest": {
     "home_line": 7,
-    "total": 49.5,
+    "total": 50.5,
     "home_moneyline": 295,
     "away_moneyline": -375,
-    "seen_at": "2026-11-02T17:06:38.980Z"
+    "seen_at": "2026-11-02T19:42:49.963Z"
    },
-   "moves": 7,
+   "moves": 8,
    "closed": false
   },
   "2026_09_GB_NE": {
@@ -3391,12 +3391,12 @@
    },
    "latest": {
     "home_line": 3.5,
-    "total": 40.5,
-    "home_moneyline": 140,
-    "away_moneyline": -166,
-    "seen_at": "2026-11-02T17:06:38.980Z"
+    "total": 39.5,
+    "home_moneyline": 142,
+    "away_moneyline": -170,
+    "seen_at": "2026-11-02T19:42:49.963Z"
    },
-   "moves": 4,
+   "moves": 5,
    "closed": false
   },
   "2026_09_NYJ_KC": {
@@ -3461,11 +3461,11 @@
    "latest": {
     "home_line": 6,
     "total": 51.5,
-    "home_moneyline": 210,
-    "away_moneyline": -258,
-    "seen_at": "2026-11-02T06:12:18.326Z"
+    "home_moneyline": 215,
+    "away_moneyline": -265,
+    "seen_at": "2026-11-02T19:42:49.963Z"
    },
-   "moves": 4,
+   "moves": 5,
    "closed": false
   },
   "2026_09_HOU_LAC": {
@@ -3492,12 +3492,12 @@
    "closed": false
   }
  },
- "updated_at": "2026-11-02T17:06:38.980Z",
+ "updated_at": "2026-11-02T19:42:49.963Z",
  "counts": {
   "games": 120,
   "closed": 104,
   "added_this_run": 0,
-  "moved_this_run": 12
+  "moved_this_run": 5
  },
  "note": "EdgeDesk’s own opener capture from the nflverse consensus feed: open = the first number this build saw, latest = the last, close = the last before the result posted. Coverage starts at started_at; a game seen first with a result gets no opener. Per-book openers for captured signals live in book_quote_ticks."
 }

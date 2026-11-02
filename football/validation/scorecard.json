@@ -1,13 +1,13 @@
 {
  "schema": "edgedesk_scorecard_v1",
- "generated_at": "2026-10-30T16:10:29.453Z",
+ "generated_at": "2026-11-02T19:43:26.411Z",
  "inputs": {
-  "rows": 13,
-  "rows_status": "OK",
-  "rows_detail": null,
+  "rows": 0,
+  "rows_status": "NO_DATABASE_ACCESS",
+  "rows_detail": "SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY are not set; pass --rows <file> for an export",
   "stake_rows": 0,
-  "stake_rows_status": "OK",
-  "stake_rows_detail": null,
+  "stake_rows_status": "NO_DATABASE_ACCESS",
+  "stake_rows_detail": "SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY are not set; pass --stakes <file> for an export",
   "nfl_archive": {
    "games": 7412,
    "with_opener": 120
@@ -18,174 +18,17 @@
   }
  },
  "clv": {
-  "groups": {
-   "all": {
-    "packets": 13,
-    "with_close": 0,
-    "mean_clv_points": null,
-    "beat_close_rate": null,
-    "with_opener": 0,
-    "moved_toward_fair_rate": null,
-    "wins": 0,
-    "losses": 0,
-    "pushes": 0,
-    "sufficient_sample": false,
-    "reading": "below the sample floor of 50 closed packets: no reading"
-   },
-   "basketball_nba": {
-    "packets": 4,
-    "with_close": 0,
-    "mean_clv_points": null,
-    "beat_close_rate": null,
-    "with_opener": 0,
-    "moved_toward_fair_rate": null,
-    "wins": 0,
-    "losses": 0,
-    "pushes": 0,
-    "sufficient_sample": false,
-    "reading": "below the sample floor of 50 closed packets: no reading"
-   },
-   "basketball_nba|tier none": {
-    "packets": 4,
-    "with_close": 0,
-    "mean_clv_points": null,
-    "beat_close_rate": null,
-    "with_opener": 0,
-    "moved_toward_fair_rate": null,
-    "wins": 0,
-    "losses": 0,
-    "pushes": 0,
-    "sufficient_sample": false,
-    "reading": "below the sample floor of 50 closed packets: no reading"
-   },
-   "basketball_nba|status none": {
-    "packets": 4,
-    "with_close": 0,
-    "mean_clv_points": null,
-    "beat_close_rate": null,
-    "with_opener": 0,
-    "moved_toward_fair_rate": null,
-    "wins": 0,
-    "losses": 0,
-    "pushes": 0,
-    "sufficient_sample": false,
-    "reading": "below the sample floor of 50 closed packets: no reading"
-   },
-   "americanfootball_nfl": {
-    "packets": 3,
-    "with_close": 0,
-    "mean_clv_points": null,
-    "beat_close_rate": null,
-    "with_opener": 0,
-    "moved_toward_fair_rate": null,
-    "wins": 0,
-    "losses": 0,
-    "pushes": 0,
-    "sufficient_sample": false,
-    "reading": "below the sample floor of 50 closed packets: no reading"
-   },
-   "americanfootball_nfl|tier none": {
-    "packets": 2,
-    "with_close": 0,
-    "mean_clv_points": null,
-    "beat_close_rate": null,
-    "with_opener": 0,
-    "moved_toward_fair_rate": null,
-    "wins": 0,
-    "losses": 0,
-    "pushes": 0,
-    "sufficient_sample": false,
-    "reading": "below the sample floor of 50 closed packets: no reading"
-   },
-   "americanfootball_nfl|status none": {
-    "packets": 3,
-    "with_close": 0,
-    "mean_clv_points": null,
-    "beat_close_rate": null,
-    "with_opener": 0,
-    "moved_toward_fair_rate": null,
-    "wins": 0,
-    "losses": 0,
-    "pushes": 0,
-    "sufficient_sample": false,
-    "reading": "below the sample floor of 50 closed packets: no reading"
-   },
-   "americanfootball_nfl|tier LEAN": {
-    "packets": 1,
-    "with_close": 0,
-    "mean_clv_points": null,
-    "beat_close_rate": null,
-    "with_opener": 0,
-    "moved_toward_fair_rate": null,
-    "wins": 0,
-    "losses": 0,
-    "pushes": 0,
-    "sufficient_sample": false,
-    "reading": "below the sample floor of 50 closed packets: no reading"
-   },
-   "americanfootball_ncaaf": {
-    "packets": 6,
-    "with_close": 0,
-    "mean_clv_points": null,
-    "beat_close_rate": null,
-    "with_opener": 0,
-    "moved_toward_fair_rate": null,
-    "wins": 0,
-    "losses": 0,
-    "pushes": 0,
-    "sufficient_sample": false,
-    "reading": "below the sample floor of 50 closed packets: no reading"
-   },
-   "americanfootball_ncaaf|tier none": {
-    "packets": 5,
-    "with_close": 0,
-    "mean_clv_points": null,
-    "beat_close_rate": null,
-    "with_opener": 0,
-    "moved_toward_fair_rate": null,
-    "wins": 0,
-    "losses": 0,
-    "pushes": 0,
-    "sufficient_sample": false,
-    "reading": "below the sample floor of 50 closed packets: no reading"
-   },
-   "americanfootball_ncaaf|status none": {
-    "packets": 6,
-    "with_close": 0,
-    "mean_clv_points": null,
-    "beat_close_rate": null,
-    "with_opener": 0,
-    "moved_toward_fair_rate": null,
-    "wins": 0,
-    "losses": 0,
-    "pushes": 0,
-    "sufficient_sample": false,
-    "reading": "below the sample floor of 50 closed packets: no reading"
-   },
-   "americanfootball_ncaaf|tier RESEARCH": {
-    "packets": 1,
-    "with_close": 0,
-    "mean_clv_points": null,
-    "beat_close_rate": null,
-    "with_opener": 0,
-    "moved_toward_fair_rate": null,
-    "wins": 0,
-    "losses": 0,
-    "pushes": 0,
-    "sufficient_sample": false,
-    "reading": "below the sample floor of 50 closed packets: no reading"
-   }
-  },
+  "groups": {},
   "sample_floor": 50,
   "note": "Closing-line value measures whether the number the desk quoted was better than the number the market closed at. It is the honest scorecard for a pricer. A win-loss record at this sample size is variance, and neither figure is a claim of profit."
  },
  "staking": {
   "schema": "edgedesk_stake_scorecard_v1",
-  "generated_at": "2026-10-30T16:10:29.414Z",
+  "generated_at": "2026-11-02T19:43:26.391Z",
   "rows": 0,
   "sized": 0,
-  "status": "OK",
-  "detail": null,
+  "status": "NO_DATABASE_ACCESS",
+  "detail": "SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY are not set; pass --stakes <file> for an export",
   "sample_floor": 50,
   "grade_states": {},
   "groups": {},
@@ -210,12 +53,12 @@
  },
  "postmortem": {
   "counts": {
-   "rows": 13,
+   "rows": 0,
    "graded": 0,
    "hits": 0,
    "pushes": 0,
    "misses": 0,
-   "ungraded": 13
+   "ungraded": 0
   },
   "by_class": {},
   "candidates": [],
@@ -239,7 +82,7 @@
   "movement": {
    "nfl": {
     "tier": "RESEARCH",
-    "basis": "NOT_ESTABLISHED: 92 closed games in the ledger; 300 are the floor for a reading"
+    "basis": "NOT_ESTABLISHED: 104 closed games in the ledger; 300 are the floor for a reading"
    },
    "cfb": {
     "tier": "LEAN",
@@ -274,26 +117,6 @@
    ]
   }
  },
- "by_model_version": {
-  "market_devig": {
-   "packets": 11,
-   "tiers": {},
-   "statuses": {}
-  },
-  "edgedesk_football_v1.0.0": {
-   "packets": 1,
-   "tiers": {
-    "LEAN": 1
-   },
-   "statuses": {}
-  },
-  "edgedesk_cfb_p4 (via edgedesk_fbs_universe_v1.0.0)": {
-   "packets": 1,
-   "tiers": {
-    "RESEARCH": 1
-   },
-   "statuses": {}
-  }
- },
+ "by_model_version": {},
  "note": "Produced unattended. Nothing here promotes a tier, a coefficient or a prompt; a candidate is a hypothesis with the held-out evaluation it must pass named beside it. A closing-line-value record is evidence about the pricing process; a win-loss record at these sizes is variance; neither is a claim of profit."
 }
