@@ -1,38 +1,38 @@
 {
  "schema": "edgedesk_nba_grades_v1",
  "season": 2027,
- "generated_at": "2026-11-02T06:34:16.839Z",
- "sheets": 587,
- "games_graded": 88,
+ "generated_at": "2026-11-02T19:52:00.894Z",
+ "sheets": 616,
+ "games_graded": 92,
  "sample_state": "EARLY_SIGNAL",
  "moneyline": {
-  "n": 88,
+  "n": 92,
   "sample_state": "EARLY_SIGNAL",
-  "log_loss": 0.61957,
-  "brier": 0.21658,
+  "log_loss": 0.61979,
+  "brier": 0.21657,
   "climatology": {
-   "rate": 0.5227,
-   "log_loss": 0.69211,
-   "brier": 0.24948
+   "rate": 0.5217,
+   "log_loss": 0.6922,
+   "brier": 0.24953
   },
-  "brier_skill": 0.1319,
-  "mean_p": 0.5424,
-  "mean_y": 0.5227,
-  "calibration_in_the_large": 0.0197,
-  "calibration_slope": 1.052,
+  "brier_skill": 0.1321,
+  "mean_p": 0.5409,
+  "mean_y": 0.5217,
+  "calibration_in_the_large": 0.0192,
+  "calibration_slope": 1.074,
   "calibration_intercept": -0.1
  },
  "fair_spread": {
-  "n": 88,
-  "home_cover_rate": 0.4773,
+  "n": 92,
+  "home_cover_rate": 0.4783,
   "note": "should sit near 50% when the fair line is unbiased"
  },
  "fair_total": {
-  "n": 88,
-  "over_rate": 0.5114
+  "n": 92,
+  "over_rate": 0.5109
  },
- "margin_mae": 12.3013,
- "total_mae": 15.2437,
+ "margin_mae": 12.1111,
+ "total_mae": 15.6684,
  "clv": {
   "status": "NOT_AVAILABLE",
   "reason": "no captured closing prices"
