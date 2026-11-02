@@ -1,14 +1,14 @@
 {
  "schema": "edgedesk_nfl_market_structure_v1",
  "version": 1,
- "generated_at": "2026-11-02T06:12:18.844Z",
+ "generated_at": "2026-11-02T20:53:58.157Z",
  "engine": "edgedesk_market_structure_v1",
  "tier": "T0 observations and T2 deterministic transforms; nothing here is a model, a price, a projection or a grade",
  "source": {
   "lines": {
    "file": "football/pricing/lines_nfl.json",
    "schema": "edgedesk_lines_archive_v1",
-   "generated_at": "2026-11-02T06:12:18.325Z",
+   "generated_at": "2026-11-02T19:42:49.963Z",
    "basis": "nflverse/nfldata games.csv; the spread, total and moneyline columns are the consensus close as nflverse carries them, no book, no capture time"
   },
   "schedule": {
@@ -4090,12 +4090,12 @@
     "season": 2026,
     "week": 8,
     "season_type": "REG",
-    "games": 1,
-    "xp_att": 5,
-    "two_pt_att": 1,
-    "two_pt_made": 0,
-    "touchdowns": 6,
-    "share": 0.1667
+    "games": 13,
+    "xp_att": 58,
+    "two_pt_att": 10,
+    "two_pt_made": 5,
+    "touchdowns": 68,
+    "share": 0.1471
    }
   ],
   "seasons": [
@@ -4266,32 +4266,32 @@
    },
    {
     "season": 2026,
-    "games": 108,
-    "xp_att": 500,
-    "two_pt_att": 49,
-    "two_pt_made": 27,
-    "touchdowns": 551,
+    "games": 120,
+    "xp_att": 553,
+    "two_pt_att": 58,
+    "two_pt_made": 32,
+    "touchdowns": 613,
     "weeks": 8,
-    "share": 0.0893,
+    "share": 0.0949,
     "ci95": [
-     0.0682,
-     0.116
+     0.0742,
+     0.1208
     ],
-    "per_game": 0.454
+    "per_game": 0.483
    }
   ],
   "drift": {
    "season": 2026,
-   "share": 0.0893,
+   "share": 0.0949,
    "baseline_seasons": [
     2023,
     2024,
     2025
    ],
    "baseline_share": 0.0947,
-   "diff_pp": -0.54,
-   "z": -0.41,
-   "n_tries": 549,
+   "diff_pp": 0.03,
+   "z": 0.02,
+   "n_tries": 611,
    "baseline_tries": 4056,
    "status": "STABLE",
    "rule": "share of tries that went for two, season to date vs the pooled prior three seasons; |z| ≥ 2 is reported as a move. Descriptive: it feeds nothing."
