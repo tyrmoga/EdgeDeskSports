@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T23:41:04Z",
+ "generated_at": "2026-11-02T06:21:01Z",
  "lag_rule_hours": 48,
  "candidates": [
   {
@@ -168,39 +168,39 @@
    "market": "spread",
    "label": "production edgedesk_nfl_v2.1.0 vs the opener",
    "status": "PRODUCTION (CLV live tracking)",
-   "games_with_lines": 26,
-   "n_bets": 14,
+   "games_with_lines": 27,
+   "n_bets": 15,
    "clv_prob": {
-    "n": 14,
-    "mean": 0.02584,
-    "se": 0.00296,
+    "n": 15,
+    "mean": 0.01932,
+    "se": 0.00843,
     "ci95": [
-     0.02057,
+     0.00515,
      0.02877
     ],
-    "p_one_sided": 0.0
+    "p_one_sided": 0.01095
    },
    "clv_pts": {
-    "n": 14,
-    "mean": 0.85714,
-    "se": 0.08824,
+    "n": 15,
+    "mean": 0.63333,
+    "se": 0.27764,
     "ci95": [
-     0.7,
+     0.16667,
      0.94444
     ],
-    "p_one_sided": 0.0
+    "p_one_sided": 0.01127
    },
    "clv_ev": {
-    "n": 14,
-    "mean": 0.00235,
-    "se": 0.00493,
+    "n": 15,
+    "mean": -0.00999,
+    "se": 0.01536,
     "ci95": [
-     -0.00642,
+     -0.03582,
      0.00723
     ],
-    "p_one_sided": 0.31642
+    "p_one_sided": 0.74222
    },
-   "direction_hit_rate": 0.8
+   "direction_hit_rate": 0.72727
   },
   {
    "id": "NFL-H2",
@@ -208,7 +208,7 @@
    "market": "total",
    "label": "production edgedesk_nfl_v2.1.0 total vs the opener",
    "status": "PRODUCTION (CLV live tracking)",
-   "games_with_lines": 26,
+   "games_with_lines": 27,
    "n_bets": 11,
    "clv_prob": {
     "n": 11,
@@ -248,39 +248,39 @@
    "market": "spread",
    "label": "NFL-R1 market-residual (v2.1.0 + loop disagreement)",
    "status": "CANDIDATE (CLV live tracking)",
-   "games_with_lines": 26,
-   "n_bets": 8,
+   "games_with_lines": 27,
+   "n_bets": 9,
    "clv_prob": {
-    "n": 8,
-    "mean": 0.03011,
-    "se": 0.01278,
+    "n": 9,
+    "mean": 0.01877,
+    "se": 0.01967,
     "ci95": [
-     0.00786,
+     -0.01209,
      0.04345
     ],
-    "p_one_sided": 0.00926
+    "p_one_sided": 0.17
    },
    "clv_pts": {
-    "n": 8,
-    "mean": 1.0625,
-    "se": 0.41902,
+    "n": 9,
+    "mean": 0.66667,
+    "se": 0.66399,
     "ci95": [
-     0.33333,
+     -0.375,
      1.5
     ],
-    "p_one_sided": 0.00561
+    "p_one_sided": 0.15768
    },
    "clv_ev": {
-    "n": 8,
-    "mean": 0.00941,
-    "se": 0.02313,
+    "n": 9,
+    "mean": -0.01194,
+    "se": 0.03626,
     "ci95": [
-     -0.03084,
+     -0.06883,
      0.03357
     ],
-    "p_one_sided": 0.34206
+    "p_one_sided": 0.62907
    },
-   "direction_hit_rate": 0.83333
+   "direction_hit_rate": 0.71429
   },
   {
    "id": "NFL-H4",
@@ -288,7 +288,7 @@
    "market": "total",
    "label": "NFL-W2 totals market-residual (v2.1.0 + loop)",
    "status": "CANDIDATE (CLV live tracking)",
-   "games_with_lines": 26,
+   "games_with_lines": 27,
    "n_bets": 14,
    "clv_prob": {
     "n": 14,
@@ -428,7 +428,7 @@
    "market": "total",
    "label": "loop-served NBA lab model (bb_points 1.0.0) total",
    "status": "PRODUCTION (CLV live tracking)",
-   "games_with_lines": 87,
+   "games_with_lines": 89,
    "n_bets": 0,
    "clv_prob": null,
    "clv_pts": null,
@@ -451,7 +451,7 @@
    "market": "total",
    "label": "early-week study H-3: production edgedesk_nfl_v2.1.0 total, edge >= 2",
    "status": "PRODUCTION (CLV live tracking)",
-   "games_with_lines": 26,
+   "games_with_lines": 27,
    "n_bets": 7,
    "clv_prob": {
     "n": 7,
@@ -731,7 +731,7 @@
    "market": "total",
    "label": "step 4 B3: H-3 (NFL v2.1.0 total) at edge >= 3",
    "status": "CANDIDATE (CLV live tracking, forward test)",
-   "games_with_lines": 26,
+   "games_with_lines": 27,
    "n_bets": 5,
    "clv_prob": {
     "n": 5,
