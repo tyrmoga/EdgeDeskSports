@@ -3,19 +3,19 @@
  "note": "Opening-line collection (research/clv/collect_openers.py). Counts per ESPN season label. listed .. testable_live: games seen pregame by the hourly capture (testable_live = priced with a later close: ESPN's close at settle, or a second quote). archive_*: finished games read back from ESPN's summaries (backfill), with the book's own open and close. testable: games with either. Nothing here is served.",
  "sports": {
   "nhl": {
-   "through": "2026-11-01T23:55:25Z",
+   "through": "2026-11-02T16:36:02Z",
    "seasons": {
     "2027": {
-     "listed": 125,
-     "priced": 84,
-     "with_espn_open": 84,
-     "settled_with_close": 76,
+     "listed": 131,
+     "priced": 95,
+     "with_espn_open": 95,
+     "settled_with_close": 80,
      "testable_live": 84,
      "archive_games": 0,
      "archive_with_open_and_close": 0,
      "testable": 84,
-     "priced_share": 0.672,
-     "first_quote_hours_before_start_median": 29.4
+     "priced_share": 0.725,
+     "first_quote_hours_before_start_median": 29.5
     }
    }
   },
@@ -37,19 +37,19 @@
    }
   },
   "ncaaw": {
-   "through": "2026-11-01T23:55:25Z",
+   "through": "2026-11-02T16:36:02Z",
    "seasons": {
     "2027": {
-     "listed": 419,
-     "priced": 1,
-     "with_espn_open": 1,
+     "listed": 487,
+     "priced": 11,
+     "with_espn_open": 11,
      "settled_with_close": 1,
      "testable_live": 1,
      "archive_games": 0,
      "archive_with_open_and_close": 0,
      "testable": 1,
-     "priced_share": 0.002,
-     "first_quote_hours_before_start_median": 22.2
+     "priced_share": 0.023,
+     "first_quote_hours_before_start_median": 2.9
     }
    }
   },
@@ -58,17 +58,17 @@
    "seasons": {}
   },
   "ufc": {
-   "through": "2026-11-01T08:11:18Z",
+   "through": "2026-11-02T16:36:02Z",
    "seasons": {
     "2026": {
      "listed": 76,
      "priced": 46,
      "with_espn_open": 46,
      "settled_with_close": 0,
-     "testable_live": 30,
+     "testable_live": 38,
      "archive_games": 0,
      "archive_with_open_and_close": 0,
-     "testable": 30,
+     "testable": 38,
      "priced_share": 0.605,
      "first_quote_hours_before_start_median": 160.8
     }
