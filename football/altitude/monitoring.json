@@ -1,6 +1,6 @@
 {
  "schema": "edgedesk_cfb_altitude_monitoring_v1",
- "generated_at": "2026-11-01T22:15:11.856Z",
+ "generated_at": "2026-11-02T06:34:40.215Z",
  "policy": "warnings inform a person; nothing here retrains, re-tunes, enables or disables anything",
  "ok": true,
  "params": {
@@ -11,12 +11,12 @@
   "flag": "cfb_altitude_adjustment_enabled"
  },
  "slate": {
-  "generated_at": "2026-11-01T22:15:11.361Z",
-  "games": 68,
-  "with_section": 68,
-  "usable": 66,
+  "generated_at": "2026-11-02T06:34:39.708Z",
+  "games": 69,
+  "with_section": 69,
+  "usable": 67,
   "exposure": {
-   "MINIMAL": 51,
+   "MINIMAL": 52,
    "UNKNOWN": 2,
    "DESCENT": 8,
    "MODERATE": 4,
