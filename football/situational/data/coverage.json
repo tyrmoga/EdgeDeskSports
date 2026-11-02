@@ -1,9 +1,9 @@
 {
- "built_at": "2026-11-02T20:32:44.356Z",
+ "built_at": "2026-11-02T23:42:43.021Z",
  "schema": "edgedesk_fsie_coverage_v1",
  "sports": {
   "cfb": {
-   "built_at": "2026-11-02T20:32:44.356Z",
+   "built_at": "2026-11-02T23:42:43.021Z",
    "charting": {
     "formation_text": {
      "available": true,
@@ -28,7 +28,7 @@
    "fcs_teams_listed": 100,
    "freshness": {
     "hours_since_pull": 0,
-    "pulled_at": "2026-11-02T20:32:55.314Z",
+    "pulled_at": "2026-11-02T23:42:48.225Z",
     "source": "sportsdataverse espn_cfb_pbp",
     "source_last_modified": "Mon, 02 Nov 2026 09:28:35 GMT",
     "stale": false
@@ -63,7 +63,7 @@
    "sources": [
     {
      "name": "cfbfastR-data cfb_schedules",
-     "pulled_at": "2026-11-02T20:32:54.898Z",
+     "pulled_at": "2026-11-02T23:42:47.825Z",
      "sha256": "8368d3c4eb3899eb32ef7ee34fb82f482dcbefe784d65d4f499ea52d437d43a8",
      "url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/schedules/csv/cfb_schedules_2026.csv"
     },
@@ -72,7 +72,7 @@
      "from": "network",
      "last_modified": "Mon, 02 Nov 2026 09:28:35 GMT",
      "name": "sportsdataverse espn_cfb_pbp",
-     "pulled_at": "2026-11-02T20:32:55.314Z",
+     "pulled_at": "2026-11-02T23:42:48.225Z",
      "sha256": "054651015907379eace9c17a2019bc672e18ecda28ab6614e1c85c21ce7e9a49",
      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/espn_cfb_pbp/play_by_play_2026.parquet"
     }
@@ -6240,7 +6240,7 @@
    ]
   },
   "nfl": {
-   "built_at": "2026-11-02T20:32:44.356Z",
+   "built_at": "2026-11-02T23:42:43.021Z",
    "charting": {
     "box_check": {
      "available": true
@@ -6250,7 +6250,7 @@
      "plays": 18374,
      "source": {
       "name": "nflverse ftn_charting",
-      "pulled_at": "2026-11-02T20:32:46.466Z",
+      "pulled_at": "2026-11-02T23:42:44.635Z",
       "sha256": "603ddf1a3f2afba5a2c434e23ffd3be9f704b16bf24075a5de60dbfc695321db",
       "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv"
      }
@@ -6270,7 +6270,7 @@
    "fcs_teams_listed": 0,
    "freshness": {
     "hours_since_pull": 0,
-    "pulled_at": "2026-11-02T20:32:45.369Z",
+    "pulled_at": "2026-11-02T23:42:43.489Z",
     "source": "nflverse play_by_play",
     "source_last_modified": "Mon, 02 Nov 2026 19:29:32 GMT",
     "stale": false
@@ -6296,8 +6296,8 @@
    "sources": [
     {
      "name": "nflverse schedules games.csv",
-     "pulled_at": "2026-11-02T20:32:45.040Z",
-     "sha256": "d003cd273c83b52e21e1dfbbd229819aee311832e43a025af71fa050614887a3",
+     "pulled_at": "2026-11-02T23:42:43.161Z",
+     "sha256": "17a2ed11bed4c8ed3073041e38153432e6a818de724ae9ddce62fc56b138c6a1",
      "url": "https://github.com/nflverse/nflverse-data/releases/download/schedules/games.csv"
     },
     {
@@ -6305,19 +6305,19 @@
      "from": "network",
      "last_modified": "Mon, 02 Nov 2026 19:29:32 GMT",
      "name": "nflverse play_by_play",
-     "pulled_at": "2026-11-02T20:32:45.369Z",
+     "pulled_at": "2026-11-02T23:42:43.489Z",
      "sha256": "bce5875c230e33625cd372cb1f79814fc183014777773389f9b16b964b78251c",
      "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz"
     },
     {
      "name": "nflverse ftn_charting",
-     "pulled_at": "2026-11-02T20:32:46.466Z",
+     "pulled_at": "2026-11-02T23:42:44.635Z",
      "sha256": "603ddf1a3f2afba5a2c434e23ffd3be9f704b16bf24075a5de60dbfc695321db",
      "url": "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv"
     },
     {
      "name": "nflverse stats_team_week (box score)",
-     "pulled_at": "2026-11-02T20:32:46.950Z",
+     "pulled_at": "2026-11-02T23:42:44.876Z",
      "sha256": "442725af45630e8ec7341ae53702e80df6e88f88a9a7096c6329165a565cd211",
      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_team/stats_team_week_2026.csv"
     }
