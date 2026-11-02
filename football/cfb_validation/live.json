@@ -1,6 +1,6 @@
 {
  "schema": "edgedesk_cfb_live_validation_v1",
- "generated_at": "2026-11-02T05:08:36.586Z",
+ "generated_at": "2026-11-02T06:08:15.305Z",
  "season": 2026,
  "question": "Is the current version actually getting better?",
  "freeze": {
@@ -1500,7 +1500,7 @@
  ],
  "what_changed_this_week": {
   "available": true,
-  "since": "2026-10-27T00:08:17.003Z",
+  "since": "2026-10-27T06:08:07.566Z",
   "changes": [
    {
     "what": "pricing code",
@@ -1517,19 +1517,19 @@
    {
     "what": "pricing slate rebuilt",
     "kind": "FOOTBALL",
-    "from": "2026-10-26T23:11:52.787Z",
+    "from": "2026-10-27T05:21:12.042Z",
     "to": "2026-11-01T22:55:56.171Z"
    },
    {
     "what": "QB coverage (% of slate games with both starters resolved)",
     "kind": "FOOTBALL",
-    "from": 74,
+    "from": 75,
     "to": 78
    },
    {
     "what": "market coverage (% of slate games with a fresh quote)",
     "kind": "MARKET",
-    "from": 92,
+    "from": 89,
     "to": 91
    }
   ],
