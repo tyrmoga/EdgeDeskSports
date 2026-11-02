@@ -2,7 +2,7 @@
  "schema": "edgedesk_collective_settled_v1",
  "sport": "NFL",
  "season": 2026,
- "generated_at": "2026-11-02T02:13:21.448Z",
+ "generated_at": "2026-11-02T16:56:48.294Z",
  "rule": "Each game is graded on the final score against the Collective's own captured closing line. A score comes only from a public feed that carries the game as completed with two integer scores, agreed by every feed that carries it; 0-0 is never a final. A missing close is null, never invented.",
  "games": {
   "00f67c05-8dbc-42d4-99bc-6c3343e55def": {
@@ -916,7 +916,7 @@
    "home_score": 28,
    "kickoff_at": "2026-11-01T21:25:00+00:00",
    "label": "KC @ DEN",
-   "score_source": "espn+nflverse",
+   "score_source": "collective",
    "settled_at": "2026-11-02T02:13:21.448Z",
    "week": 8
   },
@@ -1216,7 +1216,7 @@
    "home_score": 24,
    "kickoff_at": "2026-11-01T21:05:00+00:00",
    "label": "LAC @ LAR",
-   "score_source": "espn+nflverse",
+   "score_source": "collective",
    "settled_at": "2026-11-02T02:13:21.448Z",
    "week": 8
   },
@@ -1339,6 +1339,21 @@
    "score_source": "collective",
    "settled_at": "2026-09-11T03:53:50.983Z",
    "week": 1
+  },
+  "bffc228e-160b-47cb-8769-028b626643f2": {
+   "away": "PHI",
+   "away_score": 10,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "WAS",
+   "home_score": 27,
+   "kickoff_at": "2026-11-02T01:20:00+00:00",
+   "label": "PHI @ WAS",
+   "score_source": "collective",
+   "settled_at": "2026-11-02T16:56:48.294Z",
+   "week": 8
   },
   "c2c64618-3d42-4efb-8275-e74cd2d34143": {
    "away": "NO",
@@ -1696,7 +1711,7 @@
    "home_score": 19,
    "kickoff_at": "2026-11-01T21:25:00+00:00",
    "label": "NE @ MIA",
-   "score_source": "espn+nflverse",
+   "score_source": "collective",
    "settled_at": "2026-11-02T02:13:21.448Z",
    "week": 8
   },
