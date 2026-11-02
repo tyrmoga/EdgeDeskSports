@@ -1,9 +1,14 @@
 {
  "schema": "edgedesk_cfb_sp_plus_lines_v1",
- "generated_at": null,
+ "generated_at": "2026-11-02T23:08:21.227Z",
  "season": 2026,
- "status": "NEVER_SYNCED",
- "last_attempt": null,
+ "status": "FAILED",
+ "last_attempt": {
+  "at": "2026-11-02T23:08:21.227Z",
+  "week_key": "2026:0:10",
+  "status": "FAILED",
+  "reason": "no CFBD_API_KEY: the key is a repository secret and was not provided"
+ },
  "snapshot": null,
  "projection": null,
  "provenance": {
