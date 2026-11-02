@@ -21,8 +21,8 @@
   "game_time": "2026-11-07T20:30:00.000Z",
   "game_when_label": "2026-11-07 20:30 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T19:27:46.096Z",
-  "generated_at": "2026-11-02T19:27:46.096Z",
+  "updated_at": "2026-11-02T22:19:11.115Z",
+  "generated_at": "2026-11-02T22:19:11.115Z",
   "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
   "model_status": "NO MARKET",
   "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
@@ -1424,7 +1424,7 @@
           {
             "key": "freshness",
             "label": "Freshness",
-            "score": 10.8,
+            "score": 12,
             "max": 15
           },
           {
@@ -1447,18 +1447,18 @@
         "next_actions": [
           {
             "action": "Wire an FCS team-rating source (Merrimack)",
-            "potential_gain": 7,
-            "text": "up to +7"
+            "potential_gain": 8,
+            "text": "up to +8"
           },
           {
             "action": "Restore an injury/availability source for Merrimack",
-            "potential_gain": 3,
-            "text": "up to +3 once wire an FCS team-rating source (Merrimack) is done"
+            "potential_gain": 2,
+            "text": "up to +2 once wire an FCS team-rating source (Merrimack) is done"
           },
           {
             "action": "Register a school availability release for Wake Forest",
-            "potential_gain": 3,
-            "text": "up to +3 once wire an FCS team-rating source (Merrimack) is done"
+            "potential_gain": 2,
+            "text": "up to +2 once wire an FCS team-rating source (Merrimack) is done"
           }
         ],
         "stability": {
@@ -1697,7 +1697,7 @@
   },
   "football_evidence": {
     "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "1evqmqw1wz2v4a",
+    "packet_hash": "19vmtjghtdjla",
     "status": "NO_COMPARABLE_MARKET",
     "input_suspect": false,
     "question": null,
@@ -1738,6 +1738,6 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T19:27:46.096Z"
+    "at": "2026-11-02T22:19:11.115Z"
   }
 }

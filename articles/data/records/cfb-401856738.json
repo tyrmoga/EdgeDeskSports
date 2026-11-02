@@ -21,8 +21,8 @@
   "game_time": "2026-11-07T17:45:00.000Z",
   "game_when_label": "2026-11-07 17:45 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T19:27:46.096Z",
-  "generated_at": "2026-11-02T19:27:46.096Z",
+  "updated_at": "2026-11-02T22:19:11.115Z",
+  "generated_at": "2026-11-02T22:19:11.115Z",
   "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
   "model_status": "NO MARKET",
   "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
@@ -1621,11 +1621,11 @@
         "label": "High"
       },
       "reliability": {
-        "pct": 88,
+        "pct": 89,
         "tier": "STRONG",
-        "text": "88 · STRONG",
-        "sub": "main deduction: Arkansas’s availability report is not due yet",
-        "score": 88,
+        "text": "89 · STRONG",
+        "sub": "main deduction: no source has established whether Auburn or Arkansas’s starting QB can play",
+        "score": 89,
         "grade": "STRONG",
         "grade_label": "STRONG",
         "gate_label": null,
@@ -1651,7 +1651,7 @@
           {
             "key": "freshness",
             "label": "Freshness",
-            "score": 11.8,
+            "score": 12.9,
             "max": 15
           },
           {
@@ -1667,23 +1667,20 @@
             "max": 10
           }
         ],
-        "main_deduction": "Arkansas’s availability report is not due yet; the impact of Arkansas’s absences cannot be assessed: no graded availability read",
-        "capped_by": [],
+        "main_deduction": "no source has established whether Auburn or Arkansas’s starting QB can play — a known starter nobody has cleared is not VERY STRONG information",
+        "capped_by": [
+          "QB_STATUS_UNCONFIRMED"
+        ],
         "next_actions": [
           {
-            "action": "Re-read availability inside the filing window (Arkansas)",
-            "potential_gain": 1,
-            "text": "up to +1"
-          },
-          {
-            "action": "Re-read availability inside the filing window (Auburn)",
-            "potential_gain": 1,
-            "text": "up to +1"
-          },
-          {
             "action": "Capture a market quote",
+            "potential_gain": 2,
+            "text": "up to +2 once re-read availability inside the filing window (Auburn) and Re-read availability inside the filing window (Arkansas) is done"
+          },
+          {
+            "action": "Fetch the venue forecast",
             "potential_gain": 1,
-            "text": "up to +1"
+            "text": "up to +1 once re-read availability inside the filing window (Auburn) and Re-read availability inside the filing window (Arkansas) is done"
           }
         ],
         "stability": {
@@ -1942,7 +1939,7 @@
   },
   "football_evidence": {
     "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "h930qvi410it",
+    "packet_hash": "qzpdueqy8i0k",
     "status": "NO_MATERIAL_DISAGREEMENT",
     "input_suspect": false,
     "question": "Can Arkansas’ pass rush get to Byrum Brown?",
@@ -1986,7 +1983,8 @@
     },
     "unknown": [
       "EdgeDesk’s own sources disagree on sack rate allowed and sack rate for Auburn and Arkansas.",
-      "Not in EdgeDesk’s verified data for this game: turnover rates and penalty rate."
+      "Not in EdgeDesk’s verified data for this game: turnover rates and penalty rate.",
+      "The line on file was captured Nov. 2 and may have moved."
     ],
     "flags": [
       {
@@ -2010,7 +2008,7 @@
         "label": "EdgeDesk play-by-play metrics, quarterback logs and box scores",
         "url": null,
         "path": "football/matchup/metrics.json",
-        "observed_at": "2026-11-02T17:06:24.448Z",
+        "observed_at": "2026-11-02T21:43:05.816Z",
         "verification": "VERIFIED_DATA"
       },
       {
@@ -2026,6 +2024,6 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T19:27:46.096Z"
+    "at": "2026-11-02T22:19:11.115Z"
   }
 }

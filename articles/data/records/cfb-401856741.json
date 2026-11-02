@@ -21,8 +21,8 @@
   "game_time": "2026-11-08T00:30:00.000Z",
   "game_when_label": "2026-11-08 00:30 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T19:27:46.096Z",
-  "generated_at": "2026-11-02T19:27:46.096Z",
+  "updated_at": "2026-11-02T22:19:11.115Z",
+  "generated_at": "2026-11-02T22:19:11.115Z",
   "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
   "model_status": "NO MARKET",
   "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
@@ -1573,11 +1573,11 @@
         "label": "High"
       },
       "reliability": {
-        "pct": 88,
+        "pct": 89,
         "tier": "STRONG",
-        "text": "88 · STRONG",
+        "text": "89 · STRONG",
         "sub": "main deduction: Georgia’s availability report is not due yet",
-        "score": 88,
+        "score": 89,
         "grade": "STRONG",
         "grade_label": "STRONG",
         "gate_label": null,
@@ -1603,7 +1603,7 @@
           {
             "key": "freshness",
             "label": "Freshness",
-            "score": 11.8,
+            "score": 12.9,
             "max": 15
           },
           {
@@ -1621,23 +1621,7 @@
         ],
         "main_deduction": "Georgia’s availability report is not due yet; the impact of Georgia’s absences cannot be assessed: no graded availability read",
         "capped_by": [],
-        "next_actions": [
-          {
-            "action": "Re-read availability inside the filing window (Georgia)",
-            "potential_gain": 1,
-            "text": "up to +1"
-          },
-          {
-            "action": "Re-read availability inside the filing window (Ole Miss)",
-            "potential_gain": 1,
-            "text": "up to +1"
-          },
-          {
-            "action": "Capture a market quote",
-            "potential_gain": 1,
-            "text": "up to +1"
-          }
-        ],
+        "next_actions": [],
         "stability": {
           "tier": "VERY_STABLE",
           "sd": 0.81,
@@ -1888,7 +1872,7 @@
   },
   "football_evidence": {
     "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "k3d31g15p5zye",
+    "packet_hash": "khvkanuza1p9",
     "status": "UNEXPLAINED",
     "input_suspect": true,
     "question": "Can Georgia’s pass rush get to Trinidad Chambliss?",
@@ -1931,7 +1915,8 @@
     },
     "unknown": [
       "EdgeDesk’s own sources disagree on sack rate for Georgia.",
-      "Not in EdgeDesk’s verified data for this game: turnover rates and penalty rate."
+      "Not in EdgeDesk’s verified data for this game: turnover rates and penalty rate.",
+      "The line on file was captured Nov. 2 and may have moved."
     ],
     "flags": [
       {
@@ -1955,7 +1940,7 @@
         "label": "EdgeDesk play-by-play unit metrics (2026 season)",
         "url": null,
         "path": "football/matchup/metrics.json",
-        "observed_at": "2026-11-02T17:06:24.448Z",
+        "observed_at": "2026-11-02T21:43:05.816Z",
         "verification": "VERIFIED_DATA"
       },
       {
@@ -1971,6 +1956,6 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T19:27:46.096Z"
+    "at": "2026-11-02T22:19:11.115Z"
   }
 }

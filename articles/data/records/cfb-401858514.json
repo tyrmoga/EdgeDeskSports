@@ -21,8 +21,8 @@
   "game_time": "2026-11-07T20:30:00.000Z",
   "game_when_label": "2026-11-07 20:30 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T19:27:46.096Z",
-  "generated_at": "2026-11-02T19:27:46.096Z",
+  "updated_at": "2026-11-02T22:19:11.115Z",
+  "generated_at": "2026-11-02T22:19:11.115Z",
   "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
   "model_status": "NO MARKET",
   "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
@@ -1579,7 +1579,7 @@
           {
             "key": "freshness",
             "label": "Freshness",
-            "score": 11.8,
+            "score": 12.9,
             "max": 15
           },
           {
@@ -1607,8 +1607,8 @@
           },
           {
             "action": "Confirm Ohio State’s starting QB (Luke Fahey)",
-            "potential_gain": 6,
-            "text": "up to +6 once resolve Ohio State’s starter conflict is done"
+            "potential_gain": 7,
+            "text": "up to +7 once resolve Ohio State’s starter conflict is done"
           }
         ],
         "stability": {
@@ -1867,7 +1867,7 @@
   },
   "football_evidence": {
     "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "2nms4e13z6f0c",
+    "packet_hash": "ncbupa64lqoc",
     "status": "PARTIALLY_EXPLAINED",
     "input_suspect": false,
     "question": "Can Oregon keep Ohio State behind schedule?",
@@ -1911,7 +1911,8 @@
     },
     "unknown": [
       "EdgeDesk’s own sources disagree on sack rate allowed and sack rate for Ohio State.",
-      "Not in EdgeDesk’s verified data for this game: turnover rates, injuries and personnel and penalty rate."
+      "Not in EdgeDesk’s verified data for this game: turnover rates, injuries and personnel and penalty rate.",
+      "The line on file was captured Nov. 2 and may have moved."
     ],
     "flags": [
       {
@@ -1925,7 +1926,7 @@
         "label": "EdgeDesk play-by-play unit metrics (2026 season)",
         "url": null,
         "path": "football/matchup/metrics.json",
-        "observed_at": "2026-11-02T17:06:24.448Z",
+        "observed_at": "2026-11-02T21:43:05.816Z",
         "verification": "VERIFIED_DATA"
       },
       {
@@ -1941,6 +1942,6 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T19:27:46.096Z"
+    "at": "2026-11-02T22:19:11.115Z"
   }
 }

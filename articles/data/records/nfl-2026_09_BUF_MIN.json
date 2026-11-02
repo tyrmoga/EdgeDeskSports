@@ -23,11 +23,11 @@
   "game_time": "2026-11-10T01:15:00.000Z",
   "game_when_label": "2026-11-10 01:15 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T19:27:46.096Z",
-  "generated_at": "2026-11-02T19:27:46.096Z",
+  "updated_at": "2026-11-02T22:19:11.115Z",
+  "generated_at": "2026-11-02T22:19:11.115Z",
   "model_version": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
   "model_status": "STALE MARKET",
-  "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.0-point gap is context only and the game is excluded from research ranking.",
+  "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 3.0-point gap is context only and the game is excluded from research ranking.",
   "confidence": null,
   "priced": true,
   "fair_spread_text": "Minnesota Vikings +0.5",
@@ -131,7 +131,7 @@
       "sample_games": 120,
       "seeded": true,
       "status": "STALE MARKET",
-      "status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.0-point gap is context only and the game is excluded from research ranking.",
+      "status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 3.0-point gap is context only and the game is excluded from research ranking.",
       "engine": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
       "validation": "UNPROVEN — this model does NOT beat the closing line out of sample. Research only; nothing here is graded as a bet."
     },
@@ -1160,10 +1160,14 @@
       "available": true,
       "model": "Minnesota Vikings +0.5",
       "model_raw": "Minnesota Vikings +0.5",
-      "market": "Minnesota Vikings +2.5",
-      "difference": "2.0 points",
+      "market": "Minnesota Vikings +3.5",
+      "difference": "3.0 points",
       "rounding_note": null,
-      "key_number": null,
+      "key_number": {
+        "text": "Market is above 3; model is below 3.",
+        "detail": "Buffalo Bills: market −3.5, model fair −0.5.",
+        "note": "Key margins are where football games often finish. How often differs between the NFL and college football; this note marks where the two lines sit and does not change any probability."
+      },
       "total_model": "45.0",
       "total_model_raw": "44.9",
       "total_market": "46.5",
@@ -1173,14 +1177,14 @@
       "capture_age": null,
       "stale": false,
       "classification": "STALE MARKET",
-      "classification_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.0-point gap is context only and the game is excluded from research ranking.",
+      "classification_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 3.0-point gap is context only and the game is excluded from research ranking.",
       "reference": "These are nflverse consensus reference numbers, not a live bettable quote.",
       "note": "EdgeDesk compares its own number with a captured price. The comparison is a research state, not a bet — and out of sample this model does not beat the close."
     },
     "headline": "EdgeDesk projects Buffalo Bills 23, Minnesota Vikings 22.",
     "state": {
       "label": "STALE MARKET",
-      "note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.0-point gap is context only and the game is excluded from research ranking.",
+      "note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 3.0-point gap is context only and the game is excluded from research ranking.",
       "scope": "This describes the state of EdgeDesk’s model-versus-market research on this game. It is not a statement about whether the matchup is worth researching."
     },
     "score": {
@@ -1322,6 +1326,6 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T19:27:46.096Z"
+    "at": "2026-11-02T22:19:11.115Z"
   }
 }

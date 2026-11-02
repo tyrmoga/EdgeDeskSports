@@ -21,8 +21,8 @@
   "game_time": "2026-11-06T00:30:00.000Z",
   "game_when_label": "2026-11-06 00:30 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T19:27:46.096Z",
-  "generated_at": "2026-11-02T19:27:46.096Z",
+  "updated_at": "2026-11-02T22:19:11.115Z",
+  "generated_at": "2026-11-02T22:19:11.115Z",
   "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
   "model_status": "NO MARKET",
   "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
@@ -1545,11 +1545,11 @@
         "label": "High"
       },
       "reliability": {
-        "pct": 88,
+        "pct": 89,
         "tier": "STRONG",
-        "text": "88 · STRONG",
-        "sub": "main deduction: UTSA’s availability report is not due yet",
-        "score": 88,
+        "text": "89 · STRONG",
+        "sub": "main deduction: no source has established whether Florida Atlantic or UTSA’s starting QB can play",
+        "score": 89,
         "grade": "STRONG",
         "grade_label": "STRONG",
         "gate_label": null,
@@ -1575,7 +1575,7 @@
           {
             "key": "freshness",
             "label": "Freshness",
-            "score": 11.8,
+            "score": 12.9,
             "max": 15
           },
           {
@@ -1591,23 +1591,20 @@
             "max": 10
           }
         ],
-        "main_deduction": "UTSA’s availability report is not due yet; the impact of UTSA’s absences cannot be assessed: no graded availability read",
-        "capped_by": [],
+        "main_deduction": "no source has established whether Florida Atlantic or UTSA’s starting QB can play — a known starter nobody has cleared is not VERY STRONG information",
+        "capped_by": [
+          "QB_STATUS_UNCONFIRMED"
+        ],
         "next_actions": [
           {
-            "action": "Re-read availability inside the filing window (UTSA)",
-            "potential_gain": 1,
-            "text": "up to +1"
-          },
-          {
-            "action": "Re-read availability inside the filing window (Florida Atlantic)",
-            "potential_gain": 1,
-            "text": "up to +1"
-          },
-          {
             "action": "Capture a market quote",
+            "potential_gain": 2,
+            "text": "up to +2 once re-read availability inside the filing window (Florida Atlantic) and Re-read availability inside the filing window (UTSA) is done"
+          },
+          {
+            "action": "Fetch the venue forecast",
             "potential_gain": 1,
-            "text": "up to +1"
+            "text": "up to +1 once re-read availability inside the filing window (Florida Atlantic) and Re-read availability inside the filing window (UTSA) is done"
           }
         ],
         "stability": {
@@ -1861,7 +1858,7 @@
   },
   "football_evidence": {
     "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "1ujhqhl1d5bv97",
+    "packet_hash": "1yai0ac1lv9y52",
     "status": "PARTIALLY_EXPLAINED",
     "input_suspect": false,
     "question": "Can Florida Atlantic contain UTSA’s explosive runs?",
@@ -1900,7 +1897,8 @@
     },
     "unknown": [
       "EdgeDesk’s own sources disagree on sack rate and sack rate allowed for Florida Atlantic and UTSA.",
-      "Not in EdgeDesk’s verified data for this game: turnover rates, injuries and personnel and penalty rate."
+      "Not in EdgeDesk’s verified data for this game: turnover rates, injuries and personnel and penalty rate.",
+      "The line on file was captured Nov. 2 and may have moved."
     ],
     "flags": [
       {
@@ -1914,7 +1912,7 @@
         "label": "EdgeDesk play-by-play unit metrics (2026 season)",
         "url": null,
         "path": "football/matchup/metrics.json",
-        "observed_at": "2026-11-02T17:06:24.448Z",
+        "observed_at": "2026-11-02T21:43:05.816Z",
         "verification": "VERIFIED_DATA"
       },
       {
@@ -1930,6 +1928,6 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T19:27:46.096Z"
+    "at": "2026-11-02T22:19:11.115Z"
   }
 }

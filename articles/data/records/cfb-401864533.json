@@ -21,8 +21,8 @@
   "game_time": "2026-11-07T02:00:00.000Z",
   "game_when_label": "2026-11-07 02:00 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T19:27:46.096Z",
-  "generated_at": "2026-11-02T19:27:46.096Z",
+  "updated_at": "2026-11-02T22:19:11.115Z",
+  "generated_at": "2026-11-02T22:19:11.115Z",
   "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
   "model_status": "NO MARKET",
   "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
@@ -1609,11 +1609,11 @@
         "label": "High"
       },
       "reliability": {
-        "pct": 81,
+        "pct": 82,
         "tier": "STRONG",
-        "text": "81 · STRONG",
+        "text": "82 · STRONG",
         "sub": "main deduction: Luke Duncan started the last game",
-        "score": 81,
+        "score": 82,
         "grade": "STRONG",
         "grade_label": "STRONG",
         "gate_label": null,
@@ -1639,7 +1639,7 @@
           {
             "key": "freshness",
             "label": "Freshness",
-            "score": 11.8,
+            "score": 12.9,
             "max": 15
           },
           {
@@ -1924,7 +1924,7 @@
   },
   "football_evidence": {
     "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "1v3om7l182y76b",
+    "packet_hash": "prok8i9bgdao",
     "status": "NO_MATERIAL_DISAGREEMENT",
     "input_suspect": false,
     "question": "Can Nevada take away New Mexico’s big plays?",
@@ -1968,7 +1968,8 @@
     },
     "unknown": [
       "EdgeDesk’s own sources disagree on sack rate allowed and sack rate for Nevada and New Mexico.",
-      "Not in EdgeDesk’s verified data for this game: turnover rates, injuries and personnel and penalty rate."
+      "Not in EdgeDesk’s verified data for this game: turnover rates, injuries and personnel and penalty rate.",
+      "The line on file was captured Nov. 2 and may have moved."
     ],
     "flags": [
       {
@@ -1987,7 +1988,7 @@
         "label": "EdgeDesk play-by-play metrics, quarterback logs and box scores",
         "url": null,
         "path": "football/matchup/metrics.json",
-        "observed_at": "2026-11-02T17:06:24.448Z",
+        "observed_at": "2026-11-02T21:43:05.816Z",
         "verification": "VERIFIED_DATA"
       },
       {
@@ -2003,6 +2004,6 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T19:27:46.096Z"
+    "at": "2026-11-02T22:19:11.115Z"
   }
 }

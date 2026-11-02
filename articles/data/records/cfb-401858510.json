@@ -21,8 +21,8 @@
   "game_time": "2026-11-07T01:00:00.000Z",
   "game_when_label": "2026-11-07 01:00 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T19:27:46.096Z",
-  "generated_at": "2026-11-02T19:27:46.096Z",
+  "updated_at": "2026-11-02T22:19:11.115Z",
+  "generated_at": "2026-11-02T22:19:11.115Z",
   "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
   "model_status": "NO MARKET",
   "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
@@ -1645,7 +1645,7 @@
           {
             "key": "freshness",
             "label": "Freshness",
-            "score": 11.3,
+            "score": 12.3,
             "max": 15
           },
           {
@@ -1668,8 +1668,8 @@
         "next_actions": [
           {
             "action": "Confirm Illinois’s starting QB (Katin Houser)",
-            "potential_gain": 6,
-            "text": "up to +6"
+            "potential_gain": 7,
+            "text": "up to +7"
           },
           {
             "action": "Re-read availability inside the filing window (Nebraska)",
@@ -1932,7 +1932,7 @@
   },
   "football_evidence": {
     "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "em14co1sivei2",
+    "packet_hash": "1n1c5hs15fkk36",
     "status": "NO_MATERIAL_DISAGREEMENT",
     "input_suspect": false,
     "question": "Can Nebraska’s pass rush get to Illinois’ quarterback?",
@@ -1975,7 +1975,8 @@
     },
     "unknown": [
       "EdgeDesk’s own sources disagree on sack rate allowed and sack rate for Illinois and Nebraska.",
-      "Not in EdgeDesk’s verified data for this game: turnover rates, injuries and personnel and penalty rate."
+      "Not in EdgeDesk’s verified data for this game: turnover rates, injuries and personnel and penalty rate.",
+      "The line on file was captured Nov. 2 and may have moved."
     ],
     "flags": [
       {
@@ -2003,7 +2004,7 @@
         "label": "EdgeDesk play-by-play unit metrics (2026 season)",
         "url": null,
         "path": "football/matchup/metrics.json",
-        "observed_at": "2026-11-02T17:06:24.448Z",
+        "observed_at": "2026-11-02T21:43:05.816Z",
         "verification": "VERIFIED_DATA"
       }
     ],
@@ -2012,6 +2013,6 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T19:27:46.096Z"
+    "at": "2026-11-02T22:19:11.115Z"
   }
 }

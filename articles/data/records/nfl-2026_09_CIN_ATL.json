@@ -23,8 +23,8 @@
   "game_time": "2026-11-08T14:30:00.000Z",
   "game_when_label": "2026-11-08 14:30 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T19:27:46.096Z",
-  "generated_at": "2026-11-02T19:27:46.096Z",
+  "updated_at": "2026-11-02T22:19:11.115Z",
+  "generated_at": "2026-11-02T22:19:11.115Z",
   "model_version": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
   "model_status": "STALE MARKET",
   "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.6-point gap is context only and the game is excluded from research ranking.",
@@ -1177,9 +1177,9 @@
       },
       "total_model": "47.0",
       "total_model_raw": "47.1",
-      "total_market": "51.5",
+      "total_market": "52.5",
       "total_rounding_note": "Fair lines rounded to nearest half-point; differences use unrounded projections.",
-      "total_difference": "4.4 points",
+      "total_difference": "5.4 points",
       "book": "nflverse reference",
       "capture_age": null,
       "stale": false,
@@ -1333,6 +1333,6 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T19:27:46.096Z"
+    "at": "2026-11-02T22:19:11.115Z"
   }
 }

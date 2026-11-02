@@ -21,8 +21,8 @@
   "game_time": "2026-11-08T00:30:00.000Z",
   "game_when_label": "2026-11-08 00:30 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T19:27:46.096Z",
-  "generated_at": "2026-11-02T19:27:46.096Z",
+  "updated_at": "2026-11-02T22:19:11.115Z",
+  "generated_at": "2026-11-02T22:19:11.115Z",
   "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
   "model_status": "NO MARKET",
   "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
@@ -1585,11 +1585,11 @@
         "label": "High"
       },
       "reliability": {
-        "pct": 86,
+        "pct": 87,
         "tier": "STRONG",
-        "text": "86 · STRONG",
+        "text": "87 · STRONG",
         "sub": "main deduction: Colorado’s availability report is not due yet",
-        "score": 86,
+        "score": 87,
         "grade": "STRONG",
         "grade_label": "STRONG",
         "gate_label": null,
@@ -1615,7 +1615,7 @@
           {
             "key": "freshness",
             "label": "Freshness",
-            "score": 11.8,
+            "score": 12.9,
             "max": 15
           },
           {
@@ -1636,13 +1636,13 @@
         "next_actions": [
           {
             "action": "Re-read availability inside the filing window (Colorado)",
-            "potential_gain": 3,
-            "text": "up to +3"
+            "potential_gain": 2,
+            "text": "up to +2"
           },
           {
             "action": "Re-read availability inside the filing window (Arizona State)",
-            "potential_gain": 3,
-            "text": "up to +3"
+            "potential_gain": 2,
+            "text": "up to +2"
           },
           {
             "action": "Capture a market quote",
@@ -1900,7 +1900,7 @@
   },
   "football_evidence": {
     "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "jstuyf1ch1bdh",
+    "packet_hash": "17qvdsw9gkv0i",
     "status": "PARTIALLY_EXPLAINED",
     "input_suspect": false,
     "question": "Can Colorado’s pass rush get to Jake Fette?",
@@ -1944,7 +1944,8 @@
     },
     "unknown": [
       "EdgeDesk’s own sources disagree on sack rate allowed and sack rate for Arizona State and Colorado.",
-      "Not in EdgeDesk’s verified data for this game: turnover rates, injuries and personnel and penalty rate."
+      "Not in EdgeDesk’s verified data for this game: turnover rates, injuries and personnel and penalty rate.",
+      "The line on file was captured Nov. 2 and may have moved."
     ],
     "flags": [
       {
@@ -1963,7 +1964,7 @@
         "label": "EdgeDesk play-by-play unit metrics (2026 season)",
         "url": null,
         "path": "football/matchup/metrics.json",
-        "observed_at": "2026-11-02T17:06:24.448Z",
+        "observed_at": "2026-11-02T21:43:05.816Z",
         "verification": "VERIFIED_DATA"
       },
       {
@@ -1986,6 +1987,6 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T19:27:46.096Z"
+    "at": "2026-11-02T22:19:11.115Z"
   }
 }

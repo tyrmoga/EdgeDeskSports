@@ -21,8 +21,8 @@
   "game_time": "2026-11-08T00:45:00.000Z",
   "game_when_label": "2026-11-08 00:45 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T19:27:46.096Z",
-  "generated_at": "2026-11-02T19:27:46.096Z",
+  "updated_at": "2026-11-02T22:19:11.115Z",
+  "generated_at": "2026-11-02T22:19:11.115Z",
   "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
   "model_status": "NO MARKET",
   "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
@@ -1595,7 +1595,7 @@
           {
             "key": "freshness",
             "label": "Freshness",
-            "score": 10.7,
+            "score": 11.8,
             "max": 15
           },
           {
@@ -1618,8 +1618,8 @@
         "next_actions": [
           {
             "action": "Identify Florida’s starting QB",
-            "potential_gain": 15,
-            "text": "up to +15"
+            "potential_gain": 16,
+            "text": "up to +16"
           },
           {
             "action": "Re-read availability inside the filing window (Oklahoma)",
@@ -1881,7 +1881,7 @@
   },
   "football_evidence": {
     "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "1nfnvya1uvg55s",
+    "packet_hash": "1b6hniquyl4kw",
     "status": "PARTIALLY_EXPLAINED",
     "input_suspect": false,
     "question": "Can Florida’s pass rush get to John Mateer?",
@@ -1924,7 +1924,8 @@
     },
     "unknown": [
       "EdgeDesk’s own sources disagree on sack rate allowed and sack rate for Florida and Oklahoma.",
-      "Not in EdgeDesk’s verified data for this game: turnover rates, historical meetings and penalty rate."
+      "Not in EdgeDesk’s verified data for this game: turnover rates, historical meetings and penalty rate.",
+      "The line on file was captured Nov. 2 and may have moved."
     ],
     "flags": [
       {
@@ -1943,7 +1944,7 @@
         "label": "EdgeDesk play-by-play metrics, quarterback logs and box scores",
         "url": null,
         "path": "football/matchup/metrics.json",
-        "observed_at": "2026-11-02T17:06:24.448Z",
+        "observed_at": "2026-11-02T21:43:05.816Z",
         "verification": "VERIFIED_DATA"
       },
       {
@@ -1966,6 +1967,6 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T19:27:46.096Z"
+    "at": "2026-11-02T22:19:11.115Z"
   }
 }

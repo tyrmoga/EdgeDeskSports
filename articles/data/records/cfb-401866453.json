@@ -21,8 +21,8 @@
   "game_time": "2026-11-04T00:00:00.000Z",
   "game_when_label": "2026-11-04 00:00 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T19:27:46.096Z",
-  "generated_at": "2026-11-02T19:27:46.096Z",
+  "updated_at": "2026-11-02T22:19:11.115Z",
+  "generated_at": "2026-11-02T22:19:11.115Z",
   "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
   "model_status": "NO MARKET",
   "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
@@ -1587,11 +1587,11 @@
         "label": "High"
       },
       "reliability": {
-        "pct": 87,
+        "pct": 88,
         "tier": "STRONG",
-        "text": "87 · STRONG",
+        "text": "88 · STRONG",
         "sub": "main deduction: Ohio’s availability report is not due yet",
-        "score": 87,
+        "score": 88,
         "grade": "STRONG",
         "grade_label": "STRONG",
         "gate_label": null,
@@ -1617,7 +1617,7 @@
           {
             "key": "freshness",
             "label": "Freshness",
-            "score": 11.3,
+            "score": 11.8,
             "max": 15
           },
           {
@@ -1638,18 +1638,18 @@
         "next_actions": [
           {
             "action": "Re-read availability inside the filing window (Ohio)",
-            "potential_gain": 2,
-            "text": "up to +2"
+            "potential_gain": 1,
+            "text": "up to +1"
           },
           {
             "action": "Re-read availability inside the filing window (Akron)",
-            "potential_gain": 2,
-            "text": "up to +2"
+            "potential_gain": 1,
+            "text": "up to +1"
           },
           {
             "action": "Capture a market quote",
-            "potential_gain": 2,
-            "text": "up to +2"
+            "potential_gain": 1,
+            "text": "up to +1"
           }
         ],
         "stability": {
@@ -1902,7 +1902,7 @@
   },
   "football_evidence": {
     "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "1y56b7b897p91",
+    "packet_hash": "1xwmw2s1ob53uu",
     "status": "PARTIALLY_EXPLAINED",
     "input_suspect": false,
     "question": "Can Akron’s pass rush get to Nick Poulos?",
@@ -1945,7 +1945,8 @@
     },
     "unknown": [
       "EdgeDesk’s own sources disagree on sack rate allowed for Ohio.",
-      "Not in EdgeDesk’s verified data for this game: turnover rates and penalty rate."
+      "Not in EdgeDesk’s verified data for this game: turnover rates and penalty rate.",
+      "The line on file was captured Nov. 2 and may have moved."
     ],
     "flags": [
       {
@@ -1964,7 +1965,7 @@
         "label": "EdgeDesk play-by-play unit metrics (2026 season)",
         "url": null,
         "path": "football/matchup/metrics.json",
-        "observed_at": "2026-11-02T17:06:24.448Z",
+        "observed_at": "2026-11-02T21:43:05.816Z",
         "verification": "VERIFIED_DATA"
       },
       {
@@ -1980,6 +1981,6 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T19:27:46.096Z"
+    "at": "2026-11-02T22:19:11.115Z"
   }
 }

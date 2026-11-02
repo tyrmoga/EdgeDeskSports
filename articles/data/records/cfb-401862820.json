@@ -21,8 +21,8 @@
   "game_time": "2026-11-07T20:30:00.000Z",
   "game_when_label": "2026-11-07 20:30 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T19:27:46.096Z",
-  "generated_at": "2026-11-02T19:27:46.096Z",
+  "updated_at": "2026-11-02T22:19:11.115Z",
+  "generated_at": "2026-11-02T22:19:11.115Z",
   "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
   "model_status": "NO MARKET",
   "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
@@ -1585,11 +1585,11 @@
         "label": "High"
       },
       "reliability": {
-        "pct": 82,
+        "pct": 84,
         "tier": "STRONG",
-        "text": "82 · STRONG",
+        "text": "84 · STRONG",
         "sub": "main deduction: Braxton Woodson started the last game",
-        "score": 82,
+        "score": 84,
         "grade": "STRONG",
         "grade_label": "STRONG",
         "gate_label": null,
@@ -1615,7 +1615,7 @@
           {
             "key": "freshness",
             "label": "Freshness",
-            "score": 11.8,
+            "score": 12.9,
             "max": 15
           },
           {
@@ -1636,18 +1636,18 @@
         "next_actions": [
           {
             "action": "Re-read availability inside the filing window (Temple)",
-            "potential_gain": 4,
-            "text": "up to +4"
+            "potential_gain": 3,
+            "text": "up to +3"
           },
           {
             "action": "Re-read availability inside the filing window (Navy)",
-            "potential_gain": 4,
-            "text": "up to +4"
+            "potential_gain": 3,
+            "text": "up to +3"
           },
           {
             "action": "Confirm Navy’s starting QB (Braxton Woodson)",
-            "potential_gain": 4,
-            "text": "up to +4"
+            "potential_gain": 3,
+            "text": "up to +3"
           }
         ],
         "stability": {
@@ -1900,7 +1900,7 @@
   },
   "football_evidence": {
     "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "9cjsjtbu3j1n",
+    "packet_hash": "1dxhyxo1dz8gxq",
     "status": "NO_MATERIAL_DISAGREEMENT",
     "input_suspect": false,
     "question": "Can Temple contain Navy’s explosive runs?",
@@ -1943,9 +1943,9 @@
       ]
     },
     "unknown": [
-      "Weather: 58 degrees, mostly clear, gusts near 23 mph.",
       "EdgeDesk’s own sources disagree on sack rate allowed and sack rate for Navy and Temple.",
-      "Not in EdgeDesk’s verified data for this game: turnover rates, injuries and personnel and penalty rate."
+      "Not in EdgeDesk’s verified data for this game: turnover rates, injuries and personnel and penalty rate.",
+      "The line on file was captured Nov. 2 and may have moved."
     ],
     "flags": [
       {
@@ -1959,7 +1959,7 @@
         "label": "EdgeDesk play-by-play unit metrics (2026 season)",
         "url": null,
         "path": "football/matchup/metrics.json",
-        "observed_at": "2026-11-02T17:06:24.448Z",
+        "observed_at": "2026-11-02T21:43:05.816Z",
         "verification": "VERIFIED_DATA"
       },
       {
@@ -1975,6 +1975,6 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T19:27:46.096Z"
+    "at": "2026-11-02T22:19:11.115Z"
   }
 }

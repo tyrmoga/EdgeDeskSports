@@ -21,8 +21,8 @@
   "game_time": "2026-11-08T02:30:00.000Z",
   "game_when_label": "2026-11-08 02:30 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T19:27:46.096Z",
-  "generated_at": "2026-11-02T19:27:46.096Z",
+  "updated_at": "2026-11-02T22:19:11.115Z",
+  "generated_at": "2026-11-02T22:19:11.115Z",
   "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
   "model_status": "NO MARKET",
   "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
@@ -1621,7 +1621,7 @@
           {
             "key": "freshness",
             "label": "Freshness",
-            "score": 11.3,
+            "score": 12.3,
             "max": 15
           },
           {
@@ -1649,8 +1649,8 @@
           },
           {
             "action": "Confirm Texas Tech’s starting QB (Thomas Castellanos)",
-            "potential_gain": 8,
-            "text": "up to +8 once resolve Texas Tech’s starter conflict is done"
+            "potential_gain": 9,
+            "text": "up to +9 once resolve Texas Tech’s starter conflict is done"
           }
         ],
         "stability": {
@@ -1909,7 +1909,7 @@
   },
   "football_evidence": {
     "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "54ebge1da73q4",
+    "packet_hash": "6unvvjhdu62l",
     "status": "NO_MATERIAL_DISAGREEMENT",
     "input_suspect": false,
     "question": "Can Texas Tech take away West Virginia’s big plays?",
@@ -1952,7 +1952,8 @@
     },
     "unknown": [
       "EdgeDesk’s own sources disagree on sack rate allowed and sack rate for Texas Tech and West Virginia.",
-      "Not in EdgeDesk’s verified data for this game: turnover rates, injuries and personnel and penalty rate."
+      "Not in EdgeDesk’s verified data for this game: turnover rates, injuries and personnel and penalty rate.",
+      "The line on file was captured Nov. 2 and may have moved."
     ],
     "flags": [
       {
@@ -1966,7 +1967,7 @@
         "label": "EdgeDesk play-by-play unit metrics (2026 season)",
         "url": null,
         "path": "football/matchup/metrics.json",
-        "observed_at": "2026-11-02T17:06:24.448Z",
+        "observed_at": "2026-11-02T21:43:05.816Z",
         "verification": "VERIFIED_DATA"
       },
       {
@@ -1982,6 +1983,6 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T19:27:46.096Z"
+    "at": "2026-11-02T22:19:11.115Z"
   }
 }

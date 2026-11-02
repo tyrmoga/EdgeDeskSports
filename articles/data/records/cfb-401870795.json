@@ -21,8 +21,8 @@
   "game_time": "2026-11-08T01:00:00.000Z",
   "game_when_label": "2026-11-08 01:00 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T19:27:46.096Z",
-  "generated_at": "2026-11-02T19:27:46.096Z",
+  "updated_at": "2026-11-02T22:19:11.115Z",
+  "generated_at": "2026-11-02T22:19:11.115Z",
   "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
   "model_status": "NO MARKET",
   "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
@@ -1558,11 +1558,11 @@
         "label": "High"
       },
       "reliability": {
-        "pct": 82,
+        "pct": 83,
         "tier": "STRONG",
-        "text": "82 · STRONG",
+        "text": "83 · STRONG",
         "sub": "main deduction: Liberty’s availability sources refused",
-        "score": 82,
+        "score": 83,
         "grade": "STRONG",
         "grade_label": "STRONG",
         "gate_label": null,
@@ -1588,7 +1588,7 @@
           {
             "key": "freshness",
             "label": "Freshness",
-            "score": 10.9,
+            "score": 12.3,
             "max": 15
           },
           {
@@ -1619,8 +1619,8 @@
           },
           {
             "action": "Capture a market quote",
-            "potential_gain": 2,
-            "text": "up to +2"
+            "potential_gain": 3,
+            "text": "up to +3"
           }
         ],
         "stability": {
@@ -1873,7 +1873,7 @@
   },
   "football_evidence": {
     "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "19p4n7oesxvc6",
+    "packet_hash": "ozocy9uo9v7",
     "status": "PARTIALLY_EXPLAINED",
     "input_suspect": false,
     "question": "Can Liberty win at the line of scrimmage?",
@@ -1917,7 +1917,8 @@
     },
     "unknown": [
       "EdgeDesk’s own sources disagree on sack rate allowed and sack rate for Liberty.",
-      "Not in EdgeDesk’s verified data for this game: turnover rates, injuries and personnel and penalty rate."
+      "Not in EdgeDesk’s verified data for this game: turnover rates, injuries and personnel and penalty rate.",
+      "The line on file was captured Nov. 2 and may have moved."
     ],
     "flags": [
       {
@@ -1931,7 +1932,7 @@
         "label": "EdgeDesk play-by-play unit metrics (2026 season)",
         "url": null,
         "path": "football/matchup/metrics.json",
-        "observed_at": "2026-11-02T17:06:24.448Z",
+        "observed_at": "2026-11-02T21:43:05.816Z",
         "verification": "VERIFIED_DATA"
       },
       {
@@ -1947,6 +1948,6 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T19:27:46.096Z"
+    "at": "2026-11-02T22:19:11.115Z"
   }
 }

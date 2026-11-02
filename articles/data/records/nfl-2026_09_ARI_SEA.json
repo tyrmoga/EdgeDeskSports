@@ -11,8 +11,8 @@
   ],
   "title": "Arizona Cardinals vs. Seattle Seahawks: EdgeDesk Model Projection, Matchup Analysis and Fair Spread",
   "seo_title": "Arizona Cardinals vs. Seattle Seahawks 2026: EdgeDesk Fair Spread & Model Projection",
-  "seo_description": "EdgeDesk fair spread for Arizona Cardinals at Seattle Seahawks: Seattle Seahawks −13.5, fair total 45.0. Seattle Seahawks wins 88% of simulations. Model status STALE MARKET. Research, not picks.",
-  "excerpt": "Seattle Seahawks carries the stronger EdgeDesk offensive profile (#14 in EPA per play) and the better defensive rating with it, so the ratings point the same way on both sides of the ball. EdgeDesk’s independent projection makes it Seattle Seahawks −13.5…",
+  "seo_description": "EdgeDesk fair spread for Arizona Cardinals at Seattle Seahawks: Seattle Seahawks −14.5, fair total 45.0. Seattle Seahawks wins 91% of simulations. Model status STALE MARKET. Research, not picks.",
+  "excerpt": "Seattle Seahawks carries the stronger EdgeDesk offensive profile (#14 in EPA per play) and the better defensive rating with it, so the ratings point the same way on both sides of the ball. EdgeDesk’s independent projection makes it Seattle Seahawks −14.5…",
   "home_team": "Seattle Seahawks",
   "away_team": "Arizona Cardinals",
   "venue": "Lumen Field",
@@ -23,14 +23,14 @@
   "game_time": "2026-11-08T21:25:00.000Z",
   "game_when_label": "2026-11-08 21:25 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T19:27:46.096Z",
-  "generated_at": "2026-11-02T19:27:46.096Z",
+  "updated_at": "2026-11-02T22:19:11.115Z",
+  "generated_at": "2026-11-02T22:19:11.115Z",
   "model_version": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
   "model_status": "STALE MARKET",
-  "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.0-point gap is context only and the game is excluded from research ranking.",
+  "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 3.2-point gap is context only and the game is excluded from research ranking.",
   "confidence": null,
   "priced": true,
-  "fair_spread_text": "Seattle Seahawks −13.5",
+  "fair_spread_text": "Seattle Seahawks −14.5",
   "fair_total": "45.0",
   "hero_image": null,
   "canonical_url": "https://edgedesksports.com/articles/arizona-cardinals-vs-seattle-seahawks-2026",
@@ -64,35 +64,35 @@
     },
     "lede": [
       "Seattle Seahawks carries the stronger EdgeDesk offensive profile (#14 in EPA per play) and the better defensive rating with it, so the ratings point the same way on both sides of the ball.",
-      "EdgeDesk’s independent projection makes it Seattle Seahawks −13.5 with a fair total of 45.0, before any sportsbook number is consulted.",
+      "EdgeDesk’s independent projection makes it Seattle Seahawks −14.5 with a fair total of 45.0, before any sportsbook number is consulted.",
       "The widest measured matchup on the board is Arizona Cardinals pass offence vs Seattle Seahawks pass defence, which sits −0.264 from the league mean once the two ratings are combined the way the model combines them.",
       "The largest uncertainty is availability: NFL injury report — not loaded in this session."
     ],
     "projection": {
       "priced": true,
-      "fair_spread": 13.46218288189197,
-      "fair_spread_text": "Seattle Seahawks −13.5",
-      "fair_spread_raw_text": "Seattle Seahawks -13.5",
+      "fair_spread": 14.739508621357341,
+      "fair_spread_text": "Seattle Seahawks −14.5",
+      "fair_spread_raw_text": "Seattle Seahawks -14.7",
       "favourite": "Seattle Seahawks",
       "underdog": "Arizona Cardinals",
-      "margin": "13.5",
-      "margin_raw": "13.5",
+      "margin": "14.5",
+      "margin_raw": "14.7",
       "total": "45.0",
       "total_raw": "44.9",
       "display_policy": "football_half_point_v1",
       "score": {
         "away": {
           "team": "Arizona Cardinals",
-          "points": "16"
+          "points": "15"
         },
         "home": {
           "team": "Seattle Seahawks",
-          "points": "29"
+          "points": "30"
         },
         "expected": {
-          "text": "Seattle Seahawks 29.17, Arizona Cardinals 15.71",
-          "home": 29.17,
-          "away": 15.71,
+          "text": "Seattle Seahawks 29.81, Arizona Cardinals 15.07",
+          "home": 29.81,
+          "away": 15.07,
           "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
         },
         "note": "Split from EdgeDesk’s own fair spread and fair total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
@@ -101,28 +101,28 @@
       "win_prob": {
         "home": "Seattle Seahawks",
         "away": "Arizona Cardinals",
-        "home_pct": 88,
-        "away_pct": 12,
-        "home_text": "88%",
-        "away_text": "12%",
+        "home_pct": 91,
+        "away_pct": 9,
+        "home_text": "91%",
+        "away_text": "9%",
         "bounded": false,
         "bounded_note": null,
         "favourite": "Seattle Seahawks",
-        "favourite_pct": 88,
-        "favourite_text": "88%"
+        "favourite_pct": 91,
+        "favourite_text": "91%"
       },
       "moneyline": {
         "home": "Seattle Seahawks",
         "away": "Arizona Cardinals",
-        "home_odds": "-716",
-        "away_odds": "+716",
+        "home_odds": "-956",
+        "away_odds": "+956",
         "note": "EdgeDesk’s own fair price, with no margin in it. It is not a quote and nobody offers it."
       },
       "outcome_range": {
         "basis_team": "Seattle Seahawks",
-        "p10": "-1.0",
-        "median": "+13.0",
-        "p90": "+33.0",
+        "p10": "+1.0",
+        "median": "+15.0",
+        "p90": "+34.0",
         "sigma": "10.7",
         "note": "Quoted from the perspective of Seattle Seahawks, off the engine’s own learned margin distribution (conditioned on this spread, so real key-number mass is kept). Eight results in ten land inside p10–p90."
       },
@@ -131,7 +131,7 @@
       "sample_games": 120,
       "seeded": true,
       "status": "STALE MARKET",
-      "status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.0-point gap is context only and the game is excluded from research ranking.",
+      "status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 3.2-point gap is context only and the game is excluded from research ranking.",
       "engine": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
       "validation": "UNPROVEN — this model does NOT beat the closing line out of sample. Research only; nothing here is graded as a bet."
     },
@@ -156,9 +156,9 @@
           "favours": "Arizona Cardinals"
         },
         {
-          "points": "+1.1",
-          "points_n": 1.1002637776944664,
-          "text": "Quarterback — Seattle Seahawks by 1.1 points",
+          "points": "+2.4",
+          "points_n": 2.377589517159839,
+          "text": "Quarterback — Seattle Seahawks by 2.4 points",
           "favours": "Seattle Seahawks"
         },
         {
@@ -961,7 +961,7 @@
           },
           {
             "k": "Quarterback",
-            "a": "Jacoby Brissett",
+            "a": "Gardner Minshew",
             "h": "Sam Darnold",
             "note": null
           },
@@ -973,7 +973,7 @@
           },
           {
             "k": "Learned sample",
-            "a": "74 learned starts",
+            "a": "50 learned starts",
             "h": "100 learned starts",
             "note": "starts the QB layer has actually absorbed"
           },
@@ -991,7 +991,7 @@
           }
         ],
         "reads": [
-          "The quarterback difference is worth +1.1 points of the projected spread — the engine’s own qb_adj_diff term, and the only place a quarterback moves this number.",
+          "The quarterback difference is worth +0.6 points of the projected spread — the engine’s own qb_adj_diff term, and the only place a quarterback moves this number.",
           "Both starters are confirmed by the schedule feed, so the quarterback term is priced from the learned value of the two players actually named.",
           "The learned QB layer is identity-keyed and value-only: it says how a quarterback has played, never how he is feeling, and it knows nothing about a start nobody has announced."
         ]
@@ -1076,7 +1076,7 @@
         "bullets": [
           "Base team strength — Seattle Seahawks by 9.6 points (last season +6.0, this season +3.5) (+9.6 pts).",
           "Passing — Seattle Seahawks by 0.6 points (last season +0.3, this season +0.4) (+0.6 pts).",
-          "Quarterback — Seattle Seahawks by 1.1 points (+1.1 pts).",
+          "Quarterback — Seattle Seahawks by 2.4 points (+2.4 pts).",
           "Home field — Seattle Seahawks by 3.2 points (+3.2 pts).",
           "Points allowed: Seattle Seahawks −4.64 (#2 of 32) vs Arizona Cardinals +4.39 (#32 of 32) — 30 places on the league board."
         ]
@@ -1089,7 +1089,7 @@
           "Run offence · EPA per carry: Arizona Cardinals +0.005 (#17 of 32) vs Seattle Seahawks −0.067 (#28 of 32) — 11 places on the league board.",
           "Sacks taken per dropback: Arizona Cardinals −0.1 pp (#18 of 32) vs Seattle Seahawks −0.0 pp (#19 of 32) — 1 place on the league board.",
           "Sacks generated per dropback: Arizona Cardinals +1.0 pp (#8 of 32) vs Seattle Seahawks +0.8 pp (#9 of 32) — 1 place on the league board.",
-          "The outcome range runs -1.0 to +33.0 for Seattle Seahawks, off the engine’s own learned margin distribution. A projection of about 13.5 points still loses outright often."
+          "The outcome range runs +1.0 to +34.0 for Seattle Seahawks, off the engine’s own learned margin distribution. A projection of about 14.5 points still loses outright often."
         ]
       },
       "note": "Football cases assembled from measured states — a fitted driver, a rating gap, a combined matchup or the model’s own range. Neither side is a bet and neither is advice."
@@ -1145,11 +1145,11 @@
     },
     "market": {
       "available": true,
-      "model": "Seattle Seahawks −13.5",
-      "model_raw": "Seattle Seahawks -13.5",
+      "model": "Seattle Seahawks −14.5",
+      "model_raw": "Seattle Seahawks -14.7",
       "market": "Seattle Seahawks −11.5",
-      "difference": "2.0 points",
-      "rounding_note": null,
+      "difference": "3.2 points",
+      "rounding_note": "Fair lines rounded to nearest half-point; differences use unrounded projections.",
       "key_number": null,
       "total_model": "45.0",
       "total_model_raw": "44.9",
@@ -1160,29 +1160,29 @@
       "capture_age": null,
       "stale": false,
       "classification": "STALE MARKET",
-      "classification_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.0-point gap is context only and the game is excluded from research ranking.",
+      "classification_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 3.2-point gap is context only and the game is excluded from research ranking.",
       "reference": "These are nflverse consensus reference numbers, not a live bettable quote.",
       "note": "EdgeDesk compares its own number with a captured price. The comparison is a research state, not a bet — and out of sample this model does not beat the close."
     },
-    "headline": "EdgeDesk projects Seattle Seahawks 29, Arizona Cardinals 16.",
+    "headline": "EdgeDesk projects Seattle Seahawks 30, Arizona Cardinals 15.",
     "state": {
       "label": "STALE MARKET",
-      "note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.0-point gap is context only and the game is excluded from research ranking.",
+      "note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 3.2-point gap is context only and the game is excluded from research ranking.",
       "scope": "This describes the state of EdgeDesk’s model-versus-market research on this game. It is not a statement about whether the matchup is worth researching."
     },
     "score": {
       "away": {
         "team": "Arizona Cardinals",
-        "points": "16"
+        "points": "15"
       },
       "home": {
         "team": "Seattle Seahawks",
-        "points": "29"
+        "points": "30"
       },
       "expected": {
-        "text": "Seattle Seahawks 29.17, Arizona Cardinals 15.71",
-        "home": 29.17,
-        "away": 15.71,
+        "text": "Seattle Seahawks 29.81, Arizona Cardinals 15.07",
+        "home": 29.81,
+        "away": 15.07,
         "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
       },
       "note": "Split from EdgeDesk’s own fair spread and fair total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
@@ -1298,8 +1298,8 @@
       ]
     },
     "notes": [
-      "EdgeDesk’s line is Seattle Seahawks −13.5 with a fair total of 45.0, before any book is consulted.",
-      "Seattle Seahawks wins 88% of the time in EdgeDesk’s distribution, Arizona Cardinals 12%."
+      "EdgeDesk’s line is Seattle Seahawks −14.5 with a fair total of 45.0, before any book is consulted.",
+      "Seattle Seahawks wins 91% of the time in EdgeDesk’s distribution, Arizona Cardinals 9%."
     ],
     "missing": [],
     "priced_label": "PRICED BY MODEL — the projection and its additive drivers, from the inputs the NFL model actually fits.",
@@ -1309,6 +1309,6 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T19:27:46.096Z"
+    "at": "2026-11-02T22:19:11.115Z"
   }
 }
