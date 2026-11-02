@@ -1,0 +1,1743 @@
+{
+  "schema": "edgedesk_article_v1",
+  "id": "cfb-401858290",
+  "game_id": "401858290",
+  "sport": "CFB",
+  "sport_slug": "college-football",
+  "sport_label": "College Football",
+  "slug": "merrimack-vs-wake-forest-2026",
+  "aliases": [],
+  "title": "Merrimack vs. Wake Forest: EdgeDesk Model Projection, Matchup Analysis and Fair Spread",
+  "seo_title": "Merrimack vs. Wake Forest 2026: EdgeDesk Fair Spread & Model Projection",
+  "seo_description": "EdgeDesk fair spread for Merrimack at Wake Forest: Wake Forest −46.0. Wake Forest wins 99% of simulations. Data confidence 59%. Model status NO MARKET. Research, not picks.",
+  "excerpt": "Wake Forest carries a full EdgeDesk team rating at +11.3; Merrimack is not one of the 138 FBS programmes EdgeDesk rates, so the comparison is one-sided by construction rather than by judgement. EdgeDesk makes it Wake Forest −46.0 before any sportsbook…",
+  "home_team": "Wake Forest",
+  "away_team": "Merrimack",
+  "venue": "Allegacy Federal Credit Union Stadium",
+  "neutral_site": false,
+  "conference_line": "FCS Independents vs ACC",
+  "week": 10,
+  "season": 2026,
+  "game_time": "2026-11-07T20:30:00.000Z",
+  "game_when_label": "2026-11-07 20:30 UTC",
+  "published_at": null,
+  "updated_at": "2026-11-02T00:36:55.151Z",
+  "generated_at": "2026-11-02T00:36:55.151Z",
+  "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
+  "model_status": "NO MARKET",
+  "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
+  "confidence": 59,
+  "priced": true,
+  "fair_spread_text": "Wake Forest −46.0",
+  "fair_total": null,
+  "hero_image": null,
+  "canonical_url": "https://edgedesksports.com/articles/merrimack-vs-wake-forest-2026",
+  "terminal_url": "https://edgedesksports.com/app.html#research/football",
+  "hub_url": "https://edgedesksports.com/articles/college-football",
+  "status": "ready",
+  "article_type": "pregame",
+  "related": null,
+  "frozen": false,
+  "frozen_at": null,
+  "author": "EdgeDesk Research",
+  "publisher": "EdgeDesk Sports",
+  "research_source": "Ratings: football/rankings/current.json — 2026 Week 9, built 2026-10-31. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser.",
+  "market_source": null,
+  "research": {
+    "kind": "CFB_GAME",
+    "game": {
+      "away": "Merrimack",
+      "home": "Wake Forest",
+      "title": "Merrimack at Wake Forest",
+      "when": "2026-11-07 20:30 UTC",
+      "kickoff": "2026-11-07T20:30:00.000Z",
+      "venue": "Allegacy Federal Credit Union Stadium",
+      "neutral": false,
+      "week": "Week 10",
+      "season": "2026",
+      "game_id": "401858290",
+      "week_no": 10,
+      "season_no": 2026,
+      "conference_line": "FCS Independents vs ACC",
+      "away_conference": "FCS Independents",
+      "home_conference": "ACC"
+    },
+    "lede": [
+      "Wake Forest carries a full EdgeDesk team rating at +11.3; Merrimack is not one of the 138 FBS programmes EdgeDesk rates, so the comparison is one-sided by construction rather than by judgement.",
+      "EdgeDesk makes it Wake Forest −46.0 before any sportsbook number is consulted, with Wake Forest winning >99% of simulations.",
+      "The roster and position-group comparison below explains where EdgeDesk’s separation comes from on the side it can measure; Merrimack is absent from the FBS player dataset, so the exact size of that gap is not established.",
+      "Data confidence on this matchup is 59% — enough to publish, not enough to treat the exact margin as settled."
+    ],
+    "projection": {
+      "priced": true,
+      "fair_spread": 46.15229347480862,
+      "fair_spread_text": "Wake Forest −46.0",
+      "fair_spread_raw_text": "Wake Forest -46.2",
+      "near_pickem": false,
+      "raw_margin_text": null,
+      "favourite": "Wake Forest",
+      "underdog": "Merrimack",
+      "margin": "46.0",
+      "margin_raw": "46.2",
+      "total": null,
+      "total_raw": null,
+      "display_policy": "football_half_point_v1",
+      "score": null,
+      "score_absent_reason": "No total published — EdgeDesk can price the side but cannot responsibly split it into a projected score.",
+      "win_prob": {
+        "home": "Wake Forest",
+        "away": "Merrimack",
+        "home_pct": 99,
+        "away_pct": 1,
+        "home_text": ">99%",
+        "away_text": "<1%",
+        "bounded": true,
+        "bounded_note": "one side rounds past the boundary, so it is shown bounded: a projection built on a continuous margin distribution cannot mean 100% or 0%",
+        "favourite": "Wake Forest",
+        "favourite_pct": 99,
+        "favourite_text": ">99%"
+      },
+      "outcome_range": {
+        "basis_team": "Wake Forest",
+        "p10": "+25.2",
+        "median": "+46.2",
+        "p90": "+67.2",
+        "sigma": "14.6",
+        "volatility": "0.00",
+        "volatility_discriminates": false,
+        "note": "Quoted from Wake Forest’s perspective, as the engine publishes it. Eight results in ten land inside p10–p90."
+      },
+      "confidence_pct": 59,
+      "inputs_reached_pct": 52,
+      "input_contract": {
+        "fields": 26,
+        "applicable": 25,
+        "known": 13,
+        "priced": 7,
+        "priced_coverage_pct": 28,
+        "by_state": {
+          "USABLE": 7,
+          "RESEARCH_ONLY": 6,
+          "STALE": 0,
+          "CONFLICTING": 0,
+          "NOT_APPLICABLE": 1,
+          "NOT_REQUIRED": 2,
+          "NOT_DUE_YET": 0,
+          "FETCH_FAILED": 0,
+          "UNAVAILABLE": 10
+        },
+        "absent": [
+          {
+            "field": "weather",
+            "side": null,
+            "state": "UNAVAILABLE",
+            "why": "no forecast provider was called in this build; the venue’s coordinates are known, so this is a build that did not ask rather than a source that did not answer"
+          },
+          {
+            "field": "roster",
+            "side": "away",
+            "state": "UNAVAILABLE",
+            "why": "Merrimack is outside the 2026 FBS universe EdgeDesk rates, so no roster is retrieved for it. The engine prices the side from a shared FCS floor and charges the full weight of its roster term, so this is counted as the gap it is rather than excused as inapplicable"
+          },
+          {
+            "field": "availability",
+            "side": "away",
+            "state": "UNAVAILABLE",
+            "why": "Merrimack is outside the FBS availability registry, so no availability read covers it. The engine prices maximum injury uncertainty for this side and charges for the gap, so the contract counts it as a gap rather than excusing it as inapplicable"
+          },
+          {
+            "field": "roster_talent",
+            "side": "away",
+            "state": "UNAVAILABLE",
+            "why": "Merrimack is outside the FBS field the player layer rates, so no composite is measured for it. The engine charges for the gap, so the contract counts it as one"
+          },
+          {
+            "field": "qb_availability",
+            "side": "away",
+            "state": "UNAVAILABLE",
+            "why": "the availability sources EdgeDesk reads were checked and carried no report on this player — no report found is not the same as healthy. EdgeDesk has not researched an availability-reporting policy for FCS Independents; that is an open question, not a finding that none exists"
+          },
+          {
+            "field": "team_rating",
+            "side": "away",
+            "state": "UNAVAILABLE",
+            "why": "Merrimack is outside the rated FBS field, so the projection uses params.rating.fcs_rating — ONE floor number shared by every FCS programme. That is not a rating of this team, and the engine charges the full weight of the rating input for it. This row exists so that charge lands on a named field instead of on nothing"
+          },
+          {
+            "field": "matchup_profile",
+            "side": null,
+            "state": "UNAVAILABLE",
+            "why": "the stylistic pairing needs a measured profile for BOTH sides and Merrimack is outside the FBS field the profiles cover"
+          },
+          {
+            "field": "off_field",
+            "side": "home",
+            "state": "UNAVAILABLE",
+            "why": "no source is registered for this programme, so nothing has been read and an empty result would be a false clean bill of health rather than a finding. The engine scores this input and it is missing on every game, so it is published here rather than left invisible. A signal must be all four of public, sourced, dated and severity-graded before it may move even the confidence score — a general news search supplies neither a severity nor a reliability a model may use, and a wire that supplies all four may not be redistributed as a committed artifact. The availability layer answers a different question (who can play) and is never substituted for this one"
+          },
+          {
+            "field": "off_field",
+            "side": "away",
+            "state": "UNAVAILABLE",
+            "why": "no source is registered for this programme, so nothing has been read and an empty result would be a false clean bill of health rather than a finding. The engine scores this input and it is missing on every game, so it is published here rather than left invisible. A signal must be all four of public, sourced, dated and severity-graded before it may move even the confidence score — a general news search supplies neither a severity nor a reliability a model may use, and a wire that supplies all four may not be redistributed as a committed artifact. The availability layer answers a different question (who can play) and is never substituted for this one"
+          },
+          {
+            "field": "coaching_continuity",
+            "side": "away",
+            "state": "UNAVAILABLE",
+            "why": "Merrimack has no prior season in the coach table to compare against, so whether this staff is new is unknown rather than continuous — a programme with no history is not a programme that kept its coach"
+          }
+        ],
+        "basis": "Every applicable field EdgeDesk retrieved, over every applicable field. A question that does not arise here (weather in a dome, travel at a neutral site) leaves the denominator; a source that refused does not."
+      },
+      "status": "NO MARKET",
+      "status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
+      "engine": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
+      "validation": "UNPROVEN — research only. Nothing on this page is graded as a bet."
+    },
+    "starters": {
+      "away": {
+        "team": "Merrimack",
+        "status": "PREVIOUS_GAME",
+        "confirmed": false,
+        "player": "AJ Hairston Jr",
+        "player_id": "5146355",
+        "label": "AJ Hairston Jr — started the last game; no announcement for this one.",
+        "priced": false,
+        "priced_why": "the starter layer is research-only until it has an out-of-sample record of its own; football/matchup/inputs.js PRICED_STARTER_STATUSES is the single switch",
+        "availability": {
+          "state": "UNKNOWN",
+          "evidence": "NONE",
+          "why": "the availability sources EdgeDesk reads were checked and carried no report on this player — no report found is not the same as healthy",
+          "source_url": null
+        },
+        "experience": {
+          "starts": 15,
+          "dropbacks": 440,
+          "seasons_observed": 2,
+          "seasons_read": [
+            2025,
+            2026
+          ],
+          "basis": "games this player opened, counted from the play feed across the seasons this build read — a measured start count over a stated window, not a career total",
+          "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv"
+        },
+        "competition": {
+          "contested": false,
+          "games": 2,
+          "players": [
+            {
+              "player_id": "5146355",
+              "player_name": "AJ Hairston",
+              "dropbacks": 57,
+              "share": 0.905
+            },
+            {
+              "player_id": "5226704",
+              "player_name": "Tommy McLeish",
+              "dropbacks": 4,
+              "share": 0.063
+            },
+            {
+              "player_id": "5298148",
+              "player_name": "Cooper Lehman",
+              "dropbacks": 1,
+              "share": 0.016
+            },
+            {
+              "player_id": "5302638",
+              "player_name": "Benjamin Newman",
+              "dropbacks": 1,
+              "share": 0.016
+            }
+          ]
+        },
+        "conflicts": 0,
+        "history": [
+          {
+            "week": 8,
+            "game_id": "401866674",
+            "opponent": "New Hampshire",
+            "dropbacks": 28,
+            "starter": {
+              "player_id": "5146355",
+              "player_name": "AJ Hairston",
+              "share": 0.857
+            },
+            "settled": true,
+            "why": "took the first dropback of the game"
+          },
+          {
+            "week": 9,
+            "game_id": "401867932",
+            "opponent": "Wagner",
+            "dropbacks": 35,
+            "starter": {
+              "player_id": "5146355",
+              "player_name": "AJ Hairston",
+              "share": 0.943
+            },
+            "settled": true,
+            "why": "took the first dropback of the game"
+          }
+        ],
+        "source": "cfbfastR-data player_stats — play attribution",
+        "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
+        "published_at": null,
+        "retrieved_at": "2026-11-01T22:55:06.784Z"
+      },
+      "home": {
+        "team": "Wake Forest",
+        "status": "PREVIOUS_GAME",
+        "confirmed": false,
+        "player": "Gio Lopez",
+        "player_id": "4920227",
+        "label": "Gio Lopez — started the last game; no announcement for this one.",
+        "priced": false,
+        "priced_why": "the starter layer is research-only until it has an out-of-sample record of its own; football/matchup/inputs.js PRICED_STARTER_STATUSES is the single switch",
+        "availability": {
+          "state": "UNKNOWN",
+          "evidence": "NONE",
+          "why": "the availability sources EdgeDesk reads were checked and carried no report on this player — no report found is not the same as healthy",
+          "source_url": null
+        },
+        "experience": {
+          "starts": 18,
+          "dropbacks": 510,
+          "seasons_observed": 2,
+          "seasons_read": [
+            2025,
+            2026
+          ],
+          "basis": "games this player opened, counted from the play feed across the seasons this build read — a measured start count over a stated window, not a career total",
+          "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv"
+        },
+        "competition": {
+          "contested": false,
+          "games": 2,
+          "players": [
+            {
+              "player_id": "4920227",
+              "player_name": "Giovanni Lopez",
+              "dropbacks": 44,
+              "share": 0.936
+            },
+            {
+              "player_id": "5141634",
+              "player_name": "Steele Pizzella",
+              "dropbacks": 3,
+              "share": 0.064
+            }
+          ]
+        },
+        "conflicts": 0,
+        "history": [
+          {
+            "week": 7,
+            "game_id": "401858269",
+            "opponent": "California",
+            "dropbacks": 26,
+            "starter": {
+              "player_id": "4920227",
+              "player_name": "Giovanni Lopez",
+              "share": 0.885
+            },
+            "settled": true,
+            "why": "took the first dropback of the game"
+          },
+          {
+            "week": 9,
+            "game_id": "401858284",
+            "opponent": "Virginia",
+            "dropbacks": 21,
+            "starter": {
+              "player_id": "4920227",
+              "player_name": "Giovanni Lopez",
+              "share": 1
+            },
+            "settled": true,
+            "why": "took the first dropback of the game"
+          }
+        ],
+        "source": "cfbfastR-data player_stats — play attribution",
+        "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
+        "published_at": "2026-10-31T19:45:00.000Z",
+        "retrieved_at": "2026-11-01T22:55:06.784Z"
+      },
+      "generated_at": "2026-11-01T22:55:05.546Z",
+      "source": "football/starters/cfb_2026.json",
+      "note": "An expected starter is not a confirmed one. EdgeDesk publishes which kind of answer each of these is, and no number on this page is priced from any of them. Availability is a separate axis: an absent report is UNKNOWN and is never read as healthy."
+    },
+    "drivers": {
+      "rows": [
+        {
+          "points": "+40.9",
+          "points_n": 40.92020633846371,
+          "text": "Wake Forest is the better football team by 40.9 points on opponent-adjusted results, with roughly 30% of it still inherited from last season",
+          "favours": "Wake Forest"
+        },
+        {
+          "points": "+2.8",
+          "points_n": 2.8,
+          "text": "Playing at Wake Forest is worth 2.8 points — the league-wide home-field number, because a per-venue table was tested and could not be told apart from the home team’s own quality",
+          "favours": "Wake Forest"
+        },
+        {
+          "points": "+2.4",
+          "points_n": 2.432087136344916,
+          "text": "Stylistically the matchup favours Wake Forest by 2.4 points: ball control vs front disruption",
+          "favours": "Wake Forest"
+        }
+      ],
+      "basis": "Points are the engine’s own contributions to the projected spread, from Wake Forest’s perspective, and they sum toward it.",
+      "excluded": "Player quality, position-group ratings and scheme fit are NOT in this number. Neither has cleared walk-forward validation, so neither is allowed to move a priced figure — they appear below as research context and nowhere else.",
+      "empty": null
+    },
+    "compare": {
+      "cols": [
+        "Merrimack",
+        "Wake Forest"
+      ],
+      "groups": [
+        {
+          "title": "Team rating",
+          "rows": [
+            {
+              "cat": "overall",
+              "k": "ETSR (overall)",
+              "note": "points vs an average FBS team, neutral field",
+              "a": {
+                "v": null,
+                "n": null,
+                "rank": null,
+                "rank_n": null,
+                "note": null
+              },
+              "h": {
+                "v": "+11.3",
+                "n": 11.29,
+                "rank": "#8 of 138",
+                "rank_n": 8,
+                "note": null
+              },
+              "edge": null
+            },
+            {
+              "cat": "talent",
+              "k": "Talent",
+              "note": null,
+              "a": {
+                "v": null,
+                "n": null,
+                "rank": null,
+                "rank_n": null,
+                "note": null
+              },
+              "h": {
+                "v": "60.8",
+                "n": 60.8,
+                "rank": "#16 of 138",
+                "rank_n": 16,
+                "note": null
+              },
+              "edge": null
+            },
+            {
+              "cat": "performance",
+              "k": "Performance",
+              "note": null,
+              "a": {
+                "v": null,
+                "n": null,
+                "rank": null,
+                "rank_n": null,
+                "note": null
+              },
+              "h": {
+                "v": "71.9",
+                "n": 71.9,
+                "rank": "#5 of 138",
+                "rank_n": 5,
+                "note": null
+              },
+              "edge": null
+            },
+            {
+              "cat": "scheme_fit",
+              "k": "Scheme fit",
+              "note": "personnel against this team’s own tendencies",
+              "a": {
+                "v": null,
+                "n": null,
+                "rank": null,
+                "rank_n": null,
+                "note": null
+              },
+              "h": {
+                "v": "53.9",
+                "n": 53.9,
+                "rank": "#10 of 138",
+                "rank_n": 10,
+                "note": null
+              },
+              "edge": null
+            }
+          ]
+        },
+        {
+          "title": "Units",
+          "rows": [
+            {
+              "cat": "offense",
+              "k": "Offense",
+              "note": null,
+              "a": {
+                "v": null,
+                "n": null,
+                "rank": null,
+                "rank_n": null,
+                "note": null
+              },
+              "h": {
+                "v": "60.2",
+                "n": 60.2,
+                "rank": "#15 of 138",
+                "rank_n": 15,
+                "note": null
+              },
+              "edge": null
+            },
+            {
+              "cat": "defense",
+              "k": "Defense",
+              "note": null,
+              "a": {
+                "v": null,
+                "n": null,
+                "rank": null,
+                "rank_n": null,
+                "note": null
+              },
+              "h": {
+                "v": "65.9",
+                "n": 65.9,
+                "rank": "#5 of 138",
+                "rank_n": 5,
+                "note": null
+              },
+              "edge": null
+            },
+            {
+              "cat": "special_teams",
+              "k": "Special teams",
+              "note": null,
+              "a": {
+                "v": null,
+                "n": null,
+                "rank": null,
+                "rank_n": null,
+                "note": null
+              },
+              "h": {
+                "v": "52.7",
+                "n": 52.7,
+                "rank": "#22 of 130",
+                "rank_n": 22,
+                "note": null
+              },
+              "edge": null
+            },
+            {
+              "cat": "run_offense",
+              "k": "Run offense",
+              "note": null,
+              "a": {
+                "v": null,
+                "n": null,
+                "rank": null,
+                "rank_n": null,
+                "note": null
+              },
+              "h": {
+                "v": "47.6",
+                "n": 47.6,
+                "rank": "#77 of 138",
+                "rank_n": 77,
+                "note": null
+              },
+              "edge": null
+            },
+            {
+              "cat": "pass_offense",
+              "k": "Pass offense",
+              "note": null,
+              "a": {
+                "v": null,
+                "n": null,
+                "rank": null,
+                "rank_n": null,
+                "note": null
+              },
+              "h": {
+                "v": "67.1",
+                "n": 67.1,
+                "rank": "#6 of 138",
+                "rank_n": 6,
+                "note": null
+              },
+              "edge": null
+            },
+            {
+              "cat": "run_defense",
+              "k": "Run defense",
+              "note": null,
+              "a": {
+                "v": null,
+                "n": null,
+                "rank": null,
+                "rank_n": null,
+                "note": null
+              },
+              "h": {
+                "v": "78.6",
+                "n": 78.6,
+                "rank": "#3 of 138",
+                "rank_n": 3,
+                "note": null
+              },
+              "edge": null
+            },
+            {
+              "cat": "pass_defense",
+              "k": "Pass defense",
+              "note": null,
+              "a": {
+                "v": null,
+                "n": null,
+                "rank": null,
+                "rank_n": null,
+                "note": null
+              },
+              "h": {
+                "v": "69.1",
+                "n": 69.1,
+                "rank": "#3 of 138",
+                "rank_n": 3,
+                "note": null
+              },
+              "edge": null
+            }
+          ]
+        },
+        {
+          "title": "Position groups",
+          "rows": [
+            {
+              "cat": "qb",
+              "k": "QB room",
+              "note": null,
+              "a": {
+                "v": null,
+                "n": null,
+                "rank": null,
+                "rank_n": null,
+                "note": null
+              },
+              "h": {
+                "v": "61.3",
+                "n": 61.3,
+                "rank": "#27 of 138",
+                "rank_n": 27,
+                "note": null
+              },
+              "edge": null
+            },
+            {
+              "cat": "ol",
+              "k": "Offensive line",
+              "note": null,
+              "a": {
+                "v": null,
+                "n": null,
+                "rank": null,
+                "rank_n": null,
+                "note": null
+              },
+              "h": {
+                "v": "57.5",
+                "n": 57.5,
+                "rank": "#12 of 138",
+                "rank_n": 12,
+                "note": null
+              },
+              "edge": null
+            },
+            {
+              "cat": "wr",
+              "k": "Receivers",
+              "note": null,
+              "a": {
+                "v": null,
+                "n": null,
+                "rank": null,
+                "rank_n": null,
+                "note": null
+              },
+              "h": {
+                "v": "55.9",
+                "n": 55.9,
+                "rank": "#46 of 138",
+                "rank_n": 46,
+                "note": null
+              },
+              "edge": null
+            },
+            {
+              "cat": "te",
+              "k": "Tight ends",
+              "note": "rated by the player layer; the board publishes no national TE rank",
+              "a": {
+                "v": null,
+                "n": null,
+                "rank": null,
+                "rank_n": null,
+                "note": null
+              },
+              "h": {
+                "v": "54.9",
+                "n": 54.9,
+                "rank": null,
+                "rank_n": null,
+                "note": "rated, held out of the national rank by the confidence gate"
+              },
+              "edge": null
+            },
+            {
+              "cat": "rb",
+              "k": "Running backs",
+              "note": null,
+              "a": {
+                "v": null,
+                "n": null,
+                "rank": null,
+                "rank_n": null,
+                "note": null
+              },
+              "h": {
+                "v": "54.8",
+                "n": 54.8,
+                "rank": "#118 of 138",
+                "rank_n": 118,
+                "note": null
+              },
+              "edge": null
+            },
+            {
+              "cat": "dl",
+              "k": "Defensive line",
+              "note": null,
+              "a": {
+                "v": null,
+                "n": null,
+                "rank": null,
+                "rank_n": null,
+                "note": null
+              },
+              "h": {
+                "v": "63.7",
+                "n": 63.7,
+                "rank": "#5 of 138",
+                "rank_n": 5,
+                "note": null
+              },
+              "edge": null
+            },
+            {
+              "cat": "lb",
+              "k": "Linebackers",
+              "note": null,
+              "a": {
+                "v": null,
+                "n": null,
+                "rank": null,
+                "rank_n": null,
+                "note": null
+              },
+              "h": {
+                "v": "57.8",
+                "n": 57.8,
+                "rank": "#24 of 138",
+                "rank_n": 24,
+                "note": null
+              },
+              "edge": null
+            },
+            {
+              "cat": "secondary",
+              "k": "Secondary",
+              "note": null,
+              "a": {
+                "v": null,
+                "n": null,
+                "rank": null,
+                "rank_n": null,
+                "note": null
+              },
+              "h": {
+                "v": "59.1",
+                "n": 59.1,
+                "rank": "#17 of 138",
+                "rank_n": 17,
+                "note": null
+              },
+              "edge": null
+            },
+            {
+              "cat": "k_room",
+              "k": "Kicking",
+              "note": null,
+              "a": {
+                "v": null,
+                "n": null,
+                "rank": null,
+                "rank_n": null,
+                "note": null
+              },
+              "h": {
+                "v": "58.0",
+                "n": 58,
+                "rank": "#18 of 138",
+                "rank_n": 18,
+                "note": null
+              },
+              "edge": null
+            }
+          ]
+        },
+        {
+          "title": "Roster shape",
+          "rows": [
+            {
+              "cat": "depth",
+              "k": "Depth",
+              "note": "quality behind the projected starters",
+              "a": {
+                "v": null,
+                "n": null,
+                "rank": null,
+                "rank_n": null,
+                "note": null
+              },
+              "h": {
+                "v": "53.8",
+                "n": 53.8,
+                "rank": "#35 of 138",
+                "rank_n": 35,
+                "note": null
+              },
+              "edge": null
+            },
+            {
+              "cat": "continuity",
+              "k": "Continuity",
+              "note": "how much of last season is still here",
+              "a": {
+                "v": null,
+                "n": null,
+                "rank": null,
+                "rank_n": null,
+                "note": null
+              },
+              "h": {
+                "v": "42.2",
+                "n": 42.2,
+                "rank": "#81 of 138",
+                "rank_n": 81,
+                "note": null
+              },
+              "edge": null
+            }
+          ]
+        }
+      ],
+      "one_sided_team": "Merrimack",
+      "one_sided_note": "Merrimack roster grading is unavailable in the current FBS player dataset, so its column is empty by construction. Every metric EdgeDesk does hold for Wake Forest is still shown — a missing opponent removes the comparison, not the research."
+    },
+    "advantages": {
+      "away": [],
+      "home": [],
+      "measured": [
+        {
+          "k": "Run defense",
+          "team": "Wake Forest",
+          "text": "Wake Forest 78.6 · #3 of 138 ranked."
+        },
+        {
+          "k": "Pass defense",
+          "team": "Wake Forest",
+          "text": "Wake Forest 69.1 · #3 of 138 ranked."
+        },
+        {
+          "k": "Performance",
+          "team": "Wake Forest",
+          "text": "Wake Forest 71.9 · #5 of 138 ranked."
+        },
+        {
+          "k": "Defense",
+          "team": "Wake Forest",
+          "text": "Wake Forest 65.9 · #5 of 138 ranked."
+        },
+        {
+          "k": "DL",
+          "team": "Wake Forest",
+          "text": "Wake Forest 63.7 · #5 of 138 ranked."
+        }
+      ],
+      "measured_note": "Wake Forest’s strongest measured components, chosen by the build from its own component ranks. Merrimack carries no rating in any of them, so each line is a measurement of one team rather than a comparison.",
+      "unproven": [
+        "EdgeDesk has incomplete opponent roster information: Merrimack is not in the FBS player and rating dataset, so nothing about it is measured here.",
+        "That makes the exact SIZE of Wake Forest’s advantage harder to measure. The direction is not in doubt; the margin is an extrapolation past the edge of the data."
+      ],
+      "note": "An advantage is only claimed where BOTH teams carry a national rank in that category — the national rank is the one scale on which a QB room and a run defence are comparable. A category where one side is unrated appears here as a measurement and as uncertainty, never as an edge."
+    },
+    "matchups": [
+      {
+        "title": "Merrimack pass offense vs Wake Forest pass defense",
+        "att": {
+          "team": "Merrimack",
+          "label": "pass offense",
+          "v": null,
+          "rank": null,
+          "note": null
+        },
+        "def": {
+          "team": "Wake Forest",
+          "label": "pass defense",
+          "v": "69.1",
+          "rank": "#3 of 138",
+          "note": null
+        },
+        "complete": false,
+        "read": "Wake Forest’s pass defense is measurable at 69.1 (#3 of 138). Merrimack’s pass offense is not, so the pairing cannot be scored."
+      },
+      {
+        "title": "Merrimack run offense vs Wake Forest run defense",
+        "att": {
+          "team": "Merrimack",
+          "label": "run offense",
+          "v": null,
+          "rank": null,
+          "note": null
+        },
+        "def": {
+          "team": "Wake Forest",
+          "label": "run defense",
+          "v": "78.6",
+          "rank": "#3 of 138",
+          "note": null
+        },
+        "complete": false,
+        "read": "Wake Forest’s run defense is measurable at 78.6 (#3 of 138). Merrimack’s run offense is not, so the pairing cannot be scored."
+      },
+      {
+        "title": "Wake Forest pass offense vs Merrimack pass defense",
+        "att": {
+          "team": "Wake Forest",
+          "label": "pass offense",
+          "v": "67.1",
+          "rank": "#6 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Merrimack",
+          "label": "pass defense",
+          "v": null,
+          "rank": null,
+          "note": null
+        },
+        "complete": false,
+        "read": "Wake Forest’s pass offense is measurable at 67.1 (#6 of 138). Merrimack’s pass defense is not, so the pairing cannot be scored."
+      },
+      {
+        "title": "Wake Forest run offense vs Merrimack run defense",
+        "att": {
+          "team": "Wake Forest",
+          "label": "run offense",
+          "v": "47.6",
+          "rank": "#77 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Merrimack",
+          "label": "run defense",
+          "v": null,
+          "rank": null,
+          "note": null
+        },
+        "complete": false,
+        "read": "Wake Forest’s run offense is measurable at 47.6 (#77 of 138). Merrimack’s run defense is not, so the pairing cannot be scored."
+      },
+      {
+        "title": "Merrimack QB room vs Wake Forest secondary",
+        "att": {
+          "team": "Merrimack",
+          "label": "QB room",
+          "v": null,
+          "rank": null,
+          "note": null
+        },
+        "def": {
+          "team": "Wake Forest",
+          "label": "secondary",
+          "v": "59.1",
+          "rank": "#17 of 138",
+          "note": null
+        },
+        "complete": false,
+        "read": "Wake Forest’s secondary is measurable at 59.1 (#17 of 138). Merrimack’s QB room is not, so the pairing cannot be scored."
+      },
+      {
+        "title": "Wake Forest QB room vs Merrimack secondary",
+        "att": {
+          "team": "Wake Forest",
+          "label": "QB room",
+          "v": "61.3",
+          "rank": "#27 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Merrimack",
+          "label": "secondary",
+          "v": null,
+          "rank": null,
+          "note": null
+        },
+        "complete": false,
+        "read": "Wake Forest’s QB room is measurable at 61.3 (#27 of 138). Merrimack’s secondary is not, so the pairing cannot be scored."
+      },
+      {
+        "title": "Merrimack offensive line vs Wake Forest defensive line",
+        "att": {
+          "team": "Merrimack",
+          "label": "offensive line",
+          "v": null,
+          "rank": null,
+          "note": null
+        },
+        "def": {
+          "team": "Wake Forest",
+          "label": "defensive line",
+          "v": "63.7",
+          "rank": "#5 of 138",
+          "note": null
+        },
+        "complete": false,
+        "read": "Wake Forest’s defensive line is measurable at 63.7 (#5 of 138). Merrimack’s offensive line is not, so the pairing cannot be scored."
+      },
+      {
+        "title": "Wake Forest offensive line vs Merrimack defensive line",
+        "att": {
+          "team": "Wake Forest",
+          "label": "offensive line",
+          "v": "57.5",
+          "rank": "#12 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Merrimack",
+          "label": "defensive line",
+          "v": null,
+          "rank": null,
+          "note": null
+        },
+        "complete": false,
+        "read": "Wake Forest’s offensive line is measurable at 57.5 (#12 of 138). Merrimack’s defensive line is not, so the pairing cannot be scored."
+      },
+      {
+        "title": "Merrimack running backs vs Wake Forest linebackers",
+        "att": {
+          "team": "Merrimack",
+          "label": "running backs",
+          "v": null,
+          "rank": null,
+          "note": null
+        },
+        "def": {
+          "team": "Wake Forest",
+          "label": "linebackers",
+          "v": "57.8",
+          "rank": "#24 of 138",
+          "note": null
+        },
+        "complete": false,
+        "read": "Wake Forest’s linebackers is measurable at 57.8 (#24 of 138). Merrimack’s running backs is not, so the pairing cannot be scored."
+      },
+      {
+        "title": "Wake Forest running backs vs Merrimack linebackers",
+        "att": {
+          "team": "Wake Forest",
+          "label": "running backs",
+          "v": "54.8",
+          "rank": "#118 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Merrimack",
+          "label": "linebackers",
+          "v": null,
+          "rank": null,
+          "note": null
+        },
+        "complete": false,
+        "read": "Wake Forest’s running backs is measurable at 54.8 (#118 of 138). Merrimack’s linebackers is not, so the pairing cannot be scored."
+      },
+      {
+        "title": "Merrimack receivers vs Wake Forest secondary",
+        "att": {
+          "team": "Merrimack",
+          "label": "receivers",
+          "v": null,
+          "rank": null,
+          "note": null
+        },
+        "def": {
+          "team": "Wake Forest",
+          "label": "secondary",
+          "v": "59.1",
+          "rank": "#17 of 138",
+          "note": null
+        },
+        "complete": false,
+        "read": "Wake Forest’s secondary is measurable at 59.1 (#17 of 138). Merrimack’s receivers is not, so the pairing cannot be scored."
+      },
+      {
+        "title": "Wake Forest receivers vs Merrimack secondary",
+        "att": {
+          "team": "Wake Forest",
+          "label": "receivers",
+          "v": "55.9",
+          "rank": "#46 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Merrimack",
+          "label": "secondary",
+          "v": null,
+          "rank": null,
+          "note": null
+        },
+        "complete": false,
+        "read": "Wake Forest’s receivers is measurable at 55.9 (#46 of 138). Merrimack’s secondary is not, so the pairing cannot be scored."
+      }
+    ],
+    "roster": {
+      "cols": [
+        "Merrimack",
+        "Wake Forest"
+      ],
+      "rows": [
+        {
+          "k": "Returning production value",
+          "note": "share of last season’s production value still on the roster",
+          "a": null,
+          "h": "31%",
+          "edge": null
+        },
+        {
+          "k": "Returning headcount",
+          "note": "share of the roster that was here last season",
+          "a": null,
+          "h": "37%",
+          "edge": null
+        },
+        {
+          "k": "QB-room continuity",
+          "note": "is the projected starter last season’s player",
+          "a": null,
+          "h": "40%",
+          "edge": null
+        },
+        {
+          "k": "Offensive-line continuity",
+          "note": null,
+          "a": null,
+          "h": "57%",
+          "edge": null
+        },
+        {
+          "k": "Returning starters",
+          "note": null,
+          "a": null,
+          "h": "43%",
+          "edge": null
+        },
+        {
+          "k": "Transfers in / out",
+          "note": "portal movement counted from the roster feed",
+          "a": null,
+          "h": "27 in / 19 out",
+          "edge": null
+        },
+        {
+          "k": "Transfer starters in / out",
+          "note": null,
+          "a": null,
+          "h": "3 in / 1 out",
+          "edge": null
+        },
+        {
+          "k": "Starter quality",
+          "note": "projected starters, weighted by position value",
+          "a": null,
+          "h": "59.3",
+          "edge": null
+        },
+        {
+          "k": "Rotation quality",
+          "note": null,
+          "a": null,
+          "h": "58.9",
+          "edge": null
+        },
+        {
+          "k": "Depth quality",
+          "note": "behind the projected starters",
+          "a": null,
+          "h": "53.8",
+          "edge": null
+        },
+        {
+          "k": "Availability records",
+          "note": "an absence report reaching this roster. UNKNOWN is never read as healthy",
+          "a": null,
+          "h": "8 on file, 0% of starter value out",
+          "edge": null
+        },
+        {
+          "k": "Data confidence",
+          "note": "how much EdgeDesk knows about this roster, not how good it is",
+          "a": null,
+          "h": "66%",
+          "edge": null
+        }
+      ],
+      "highlights": [],
+      "note": "Roster construction from the committed rankings build. No recruiting star and no NIL figure appears here: no public feed this repo reads carries either, and a number nobody published is not estimated in its place."
+    },
+    "cases": {
+      "favourite": {
+        "team": "Wake Forest",
+        "heading": "Why Wake Forest can pull away",
+        "bullets": [
+          "Wake Forest is the better football team by 40.9 points on opponent-adjusted results, with roughly 30% of it still inherited from last season (+40.9 pts).",
+          "Playing at Wake Forest is worth 2.8 points — the league-wide home-field number, because a per-venue table was tested and could not be told apart from the home team’s own quality (+2.8 pts).",
+          "Stylistically the matchup favours Wake Forest by 2.4 points: ball control vs front disruption (+2.4 pts)."
+        ]
+      },
+      "underdog": {
+        "team": "Merrimack",
+        "heading": "Why Merrimack can keep it close",
+        "bullets": [
+          "The outcome range is 14.6 points wide at one sigma — p10 +25.2 to p90 +67.2 for Wake Forest, so a projection of +46.2 still produces results a long way either side of it.",
+          "60% of the model’s own input contract was empty for this game — no roster, starter, injury or per-player talent context reached it, so the number leans on team strength more than it should.",
+          "College ratings are built on twelve-game seasons against wildly uneven schedules; even a clean rating gap carries more estimation error than the number implies.",
+          "Merrimack is not in the FBS rating set, so EdgeDesk cannot measure what it does well. An unmeasured opponent is an unknown, not a weak one, and the size of the gap is not established."
+        ]
+      },
+      "note": "These are football cases assembled from measured states. Neither is a bet, and neither is advice."
+    },
+    "uncertainty": {
+      "items": [
+        {
+          "sev": "HIGH",
+          "label": "information missing",
+          "text": "The projection could be wrong because 60% of the model’s own input contract was empty for this game — no roster, starter, injury or per-player talent context reached it, so the number leans on team strength more than it should.",
+          "widening": null
+        },
+        {
+          "sev": "MEDIUM",
+          "label": "sample",
+          "text": "College ratings are built on twelve-game seasons against wildly uneven schedules; even a clean rating gap carries more estimation error than the number implies.",
+          "widening": null
+        },
+        {
+          "sev": "MEDIUM",
+          "label": "Wake Forest — extreme transfer turnover",
+          "text": "69% of last season’s production value is gone. Most of last season’s production value has left, so the prior term is standing on much less than usual",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "away roster not supplied — talent, continuity and youth layers are blind",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "weather not supplied",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "home injury report not supplied",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "away injury report not supplied",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "no book spread joined to this game — no edge is claimed",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "no book total joined to this game",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "low confidence",
+          "text": "opponent-adjusted team rating is in the number but rests on a thin sample",
+          "widening": null
+        }
+      ],
+      "unmeasured": [
+        {
+          "item": "Home starting quarterback",
+          "why": "starting QB not supplied for home"
+        },
+        {
+          "item": "Away starting quarterback",
+          "why": "starting QB not supplied for away"
+        },
+        {
+          "item": "Home availability / injuries",
+          "why": "no injury report supplied for home"
+        },
+        {
+          "item": "Away availability / injuries",
+          "why": "no injury report supplied for away"
+        },
+        {
+          "item": "Weather at kickoff",
+          "why": "no weather supplied"
+        },
+        {
+          "item": "Off-field, culture and NIL situation",
+          "why": "no public feed for NIL figures, locker-room reporting or discipline exists that this engine reads; nothing is inferred and the gap is carried as uncertainty"
+        },
+        {
+          "item": "Coaching and coordinator continuity",
+          "why": "no public coaching-tenure feed is wired; a new coordinator changes a team’s identity in ways the ratings only learn after the fact"
+        },
+        {
+          "item": "Motivation, lookahead and locker-room state",
+          "why": "not measurable from any public source; treated as variance, never as a point adjustment"
+        },
+        {
+          "item": "Wake Forest — recruiting ratings",
+          "why": "no legal, public, keyless recruiting feed is wired into EdgeDesk, so no recruiting rating exists for this roster. Nothing is estimated in its place."
+        },
+        {
+          "item": "Merrimack — team and roster rating",
+          "why": "not one of the 138 FBS programmes EdgeDesk rates. Nothing is estimated in its place."
+        }
+      ],
+      "note": "Unknown is never scored as zero. Every line here is a gap EdgeDesk carries as uncertainty rather than filling in."
+    },
+    "market": {
+      "available": false,
+      "model": "Wake Forest −46.0",
+      "model_raw": "Wake Forest -46.2",
+      "headline": "No sportsbook spread is currently joined to this game.",
+      "note": "There is no model-vs-market comparison yet. Everything above is still EdgeDesk’s current view of the matchup; a missing price removes the comparison and nothing else."
+    },
+    "research_view": {
+      "contract": "cfb_research_brief/1",
+      "view": "cfb_research_view/1",
+      "game_id": "401858290",
+      "home": "Wake Forest",
+      "away": "Merrimack",
+      "projected": true,
+      "engine_status": "PREDICTED",
+      "label": {
+        "key": "NO_MARKET",
+        "label": "NO MARKET",
+        "rule": "no_market",
+        "means": "There is no current market line to compare with: no market line is joined to this game. The projection stands on its own until a quote lands."
+      },
+      "disagreement": null,
+      "fair": {
+        "line_text": "Wake Forest −46.0",
+        "favorite_team": "Wake Forest",
+        "underdog_team": "Merrimack",
+        "display_fair_spread": 46.2,
+        "raw_home_margin": 46.15,
+        "raw_line_text": "Wake Forest -46.15",
+        "is_near_pickem": false
+      },
+      "market_gap": {
+        "available": false,
+        "reason": "no market line is joined to this game"
+      },
+      "confidence": {
+        "score": 59,
+        "tier": "MODERATE",
+        "label": "Moderate"
+      },
+      "reliability": {
+        "pct": 59,
+        "tier": "LOW",
+        "text": "59 · LOW",
+        "sub": "main deduction: Merrimack is not rated by the model (priced from a shared floor)",
+        "score": 59,
+        "grade": "LOW",
+        "grade_label": "LOW",
+        "gate_label": "THIN DATA",
+        "components": [
+          {
+            "key": "team_data",
+            "label": "Team data",
+            "score": 10,
+            "max": 20
+          },
+          {
+            "key": "roster_availability",
+            "label": "Roster/status",
+            "score": 9.5,
+            "max": 20
+          },
+          {
+            "key": "projection_stability",
+            "label": "Stability",
+            "score": 6,
+            "max": 20
+          },
+          {
+            "key": "freshness",
+            "label": "Freshness",
+            "score": 12,
+            "max": 15
+          },
+          {
+            "key": "source_integrity",
+            "label": "Source integrity",
+            "score": 15,
+            "max": 15
+          },
+          {
+            "key": "environment",
+            "label": "Environment",
+            "score": 8.5,
+            "max": 10
+          }
+        ],
+        "main_deduction": "Merrimack is not rated by the model (priced from a shared floor): THIN DATA, not research-grade",
+        "capped_by": [
+          "THIN_DATA"
+        ],
+        "next_actions": [
+          {
+            "action": "Wire an FCS team-rating source (Merrimack)",
+            "potential_gain": 8,
+            "text": "up to +8"
+          },
+          {
+            "action": "Restore an injury/availability source for Merrimack",
+            "potential_gain": 2,
+            "text": "up to +2 once wire an FCS team-rating source (Merrimack) is done"
+          },
+          {
+            "action": "Register a school availability release for Wake Forest",
+            "potential_gain": 2,
+            "text": "up to +2 once wire an FCS team-rating source (Merrimack) is done"
+          }
+        ],
+        "stability": {
+          "tier": "UNSTABLE",
+          "sd": 7.91,
+          "favorite_flip_rate": 0
+        },
+        "scale": "0-100 reliability score, not a probability"
+      },
+      "drivers": {
+        "team": "Wake Forest",
+        "none": false,
+        "text": null,
+        "reasons": [
+          {
+            "kind": "component",
+            "key": "hfa",
+            "points": 2.8,
+            "text": "+2.8 pts home-field advantage"
+          },
+          {
+            "kind": "component",
+            "key": "matchup",
+            "points": 2.43,
+            "text": "+2.4 pts stylistic matchup"
+          }
+        ]
+      },
+      "best_available_line": {
+        "available": false,
+        "reason": "no sportsbook quote has been captured for this game"
+      },
+      "projection_status": {
+        "key": "STABLE",
+        "label": "STABLE",
+        "text": "EdgeDesk’s number is unchanged since the latest published number."
+      },
+      "stability": {
+        "tier": "LOW",
+        "label": "Low",
+        "text": "the stored numbers span 2.9 pts across 3 readings"
+      },
+      "published": [
+        {
+          "at": "2026-10-28T06:00:25.251Z",
+          "source": "first published",
+          "home_margin": 43.24,
+          "text": "Wake Forest -43.2"
+        },
+        {
+          "at": "2026-11-01T00:14:29.881Z",
+          "source": "latest published",
+          "home_margin": 46.15,
+          "text": "Wake Forest -46.1"
+        }
+      ],
+      "revisions": 2,
+      "change_since_published": {
+        "comparable": true,
+        "points": 0,
+        "toward_team": "Wake Forest",
+        "since_at": "2026-11-01T00:14:29.881Z",
+        "text": "unchanged since the latest published number"
+      },
+      "what_changed": {
+        "available": true,
+        "summary": "EdgeDesk moved 2.9 points toward Wake Forest since the first published number.",
+        "attribution_text": "Projection changed 2.9 points since the first published number. Component-level attribution is unavailable: the stored snapshot keeps the number, not the terms behind it.",
+        "market": null,
+        "model_version": null
+      },
+      "parity": {
+        "ok": true,
+        "gaps": []
+      },
+      "note": "Research, not picks. Every value is read off EdgeDesk’s own projection and the market it was compared with; nothing here is a recommendation to bet."
+    },
+    "headline": "EdgeDesk rates one side of this game and not the other. What it has is below; what it does not have is named.",
+    "state": {
+      "label": "NO MARKET",
+      "note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
+      "scope": "This describes the state of EdgeDesk’s model-versus-market research on this game. It is not a statement about whether the matchup is worth researching."
+    },
+    "score": null,
+    "table": {
+      "cols": [
+        "Merrimack",
+        "Wake Forest"
+      ],
+      "rows": [
+        {
+          "k": "ETSR (overall)",
+          "a": null,
+          "h": "+11.3  #8",
+          "note": "points vs an average FBS team, neutral field"
+        },
+        {
+          "k": "Talent",
+          "a": null,
+          "h": "60.8  #16",
+          "note": null
+        },
+        {
+          "k": "Performance",
+          "a": null,
+          "h": "71.9  #5",
+          "note": null
+        },
+        {
+          "k": "Offense",
+          "a": null,
+          "h": "60.2  #15",
+          "note": null
+        },
+        {
+          "k": "Defense",
+          "a": null,
+          "h": "65.9  #5",
+          "note": null
+        },
+        {
+          "k": "Special teams",
+          "a": null,
+          "h": "52.7  #22",
+          "note": null
+        },
+        {
+          "k": "Run offense",
+          "a": null,
+          "h": "47.6  #77",
+          "note": null
+        },
+        {
+          "k": "Pass offense",
+          "a": null,
+          "h": "67.1  #6",
+          "note": null
+        },
+        {
+          "k": "Run defense",
+          "a": null,
+          "h": "78.6  #3",
+          "note": null
+        },
+        {
+          "k": "Pass defense",
+          "a": null,
+          "h": "69.1  #3",
+          "note": null
+        },
+        {
+          "k": "QB room",
+          "a": null,
+          "h": "61.3  #27",
+          "note": null
+        },
+        {
+          "k": "Offensive line",
+          "a": null,
+          "h": "57.5  #12",
+          "note": null
+        },
+        {
+          "k": "Receivers",
+          "a": null,
+          "h": "55.9  #46",
+          "note": null
+        },
+        {
+          "k": "Running backs",
+          "a": null,
+          "h": "54.8  #118",
+          "note": null
+        },
+        {
+          "k": "Defensive line",
+          "a": null,
+          "h": "63.7  #5",
+          "note": null
+        },
+        {
+          "k": "Linebackers",
+          "a": null,
+          "h": "57.8  #24",
+          "note": null
+        },
+        {
+          "k": "Secondary",
+          "a": null,
+          "h": "59.1  #17",
+          "note": null
+        },
+        {
+          "k": "Depth",
+          "a": null,
+          "h": "53.8  #35",
+          "note": null
+        },
+        {
+          "k": "Continuity",
+          "a": null,
+          "h": "42.2  #81",
+          "note": null
+        },
+        {
+          "k": "Confidence",
+          "a": null,
+          "h": "66%",
+          "note": "how much EdgeDesk knows, not how good the team is"
+        },
+        {
+          "k": "Δ national rank, this week",
+          "a": null,
+          "h": "no change",
+          "note": "differenced from last week’s committed snapshot"
+        }
+      ]
+    },
+    "notes": [
+      "EdgeDesk’s line is Wake Forest −46.0 on a neutral read of the two teams, before any book is consulted.",
+      "Wake Forest wins >99% of the time in EdgeDesk’s simulation, Merrimack <1%. Neither side is certain: one side rounds past the boundary, so it is shown bounded: a projection built on a continuous margin distribution cannot mean 100% or 0%",
+      "Eight games in ten land between +25.2 and +67.2 for Wake Forest. A single result inside that band tells you nothing new about either team.",
+      "No sportsbook spread is joined to this game, so there is no model-versus-market comparison. EdgeDesk’s own number and the research behind it are unchanged by that.",
+      "Merrimack quarterback: AJ Hairston Jr — started the last game; no announcement for this one.",
+      "Wake Forest quarterback: Gio Lopez — started the last game; no announcement for this one."
+    ],
+    "missing": [
+      "No projected score: no total published — EdgeDesk can price the side but cannot responsibly split it into a projected score.",
+      "Merrimack is not one of the 138 FBS programmes EdgeDesk rates, so it carries no team rating. Nothing is estimated in its place.",
+      "No availability report reached AJ Hairston Jr — unknown is carried as unknown, never as healthy.",
+      "No availability report reached Gio Lopez — unknown is carried as unknown, never as healthy."
+    ],
+    "context_label": "RESEARCH CONTEXT — position-group, player-quality, roster and scheme figures explain this matchup and move no priced number.",
+    "priced_label": "PRICED BY MODEL — the projection and its drivers, from validated inputs only.",
+    "source": "Ratings: football/rankings/current.json — 2026 Week 9, built 2026-10-31. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser."
+  },
+  "football_evidence": {
+    "schema": "edgedesk_article_evidence_v1",
+    "packet_hash": "1pa8hi61y8ppto",
+    "status": "NO_COMPARABLE_MARKET",
+    "input_suspect": false,
+    "question": null,
+    "assessment": "There is no verified comparable market line on file, so there is no disagreement to explain.",
+    "gap": null,
+    "supporting": [],
+    "contradicting": [],
+    "quarterbacks": [
+      "Gio Lopez has completed 153 of 229 passes (66.8%) for 2,176 yards, 9.5 yards per attempt, 19 touchdowns and 1 interception in eight games for Wake Forest, and has been sacked on 12 of 241 dropbacks."
+    ],
+    "availability": [],
+    "script": {
+      "model": [],
+      "market": []
+    },
+    "unknown": [
+      "EdgeDesk’s own sources disagree on sack rate allowed and sack rate for Wake Forest.",
+      "Not in EdgeDesk’s verified data for this game: position-group advantages, turnover rates, historical meetings, injuries and personnel, rest and travel, conference implications and penalty rate."
+    ],
+    "flags": [
+      {
+        "key": "DATA_CONFLICT",
+        "severity": "medium",
+        "text": "EdgeDesk’s own sources disagree on sack rate allowed (Wake Forest) and sack rate (Wake Forest); the evidence uses the corroborated figures, and any model term built on the play-by-play figure may be off."
+      }
+    ],
+    "sources": [
+      {
+        "label": "EdgeDesk play-by-play quarterback logs (2026)",
+        "url": null,
+        "path": "football/fbs_epa/qb_epa_2026.json",
+        "observed_at": "2026-11-01T03:00:00.000Z",
+        "verification": "VERIFIED_DATA"
+      }
+    ],
+    "needs_confirmation": []
+  },
+  "checks": {
+    "ok": true,
+    "failed": [],
+    "at": "2026-11-02T00:36:55.151Z"
+  }
+}

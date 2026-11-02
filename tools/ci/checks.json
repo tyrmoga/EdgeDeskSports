@@ -14,8 +14,9 @@
         "cfb-altitude-tests.yml", "cfb-decision-tests.yml", "cfb-home-field-tests.yml", "cfb-lab-tests.yml",
         "cfb-live-calibration-tests.yml", "cfb-production-tests.yml", "cfb-validation-tests.yml", "cfb-weekly-tests.yml",
         "cfb-ref-tests.yml", "coaching-program-validation.yml", "nfl-coaching-staff-validation.yml", "nfl-model-tests.yml",
-        "nba.yml", "nhl.yml", "ncaam-forecast-tests.yml", "ncaaw-forecast-tests.yml", "ncaam-research.yml",
-        "college-baseball-research.yml", "lab.yml", "projections.yml", "linemaker.yml", "ref-flags-tests.yml", "performance-tests.yml"
+        "nba.yml", "nhl.yml", "ncaam-forecast-tests.yml", "ncaam-early-tests.yml", "ncaaw-forecast-tests.yml", "ncaam-research.yml",
+        "college-baseball-research.yml", "lab.yml", "projections.yml", "linemaker.yml", "ref-flags-tests.yml", "performance-tests.yml",
+        "football-situational-tests.yml"
       ]
     },
     "market-odds": {
@@ -24,7 +25,7 @@
       "workflows": [
         "odds-gateway-tests.yml", "decision-quality.yml", "cfb-board-integrity-tests.yml", "market-foresight-tests.yml",
         "market-intelligence-tests.yml", "market-resilience-tests.yml", "market-structure-tests.yml", "kalshi.yml",
-        "player-props-tests.yml", "props-factory.yml", "clv-openers.yml", "record-pnl-tests.yml", "sharp-lag.yml"
+        "player-props-tests.yml", "props-factory.yml", "clv-openers.yml", "record-pnl-tests.yml", "sharp-lag.yml", "novig.yml"
       ]
     },
     "research-signals": {
@@ -32,7 +33,8 @@
       "about": "the research terminal, game research, Signal Center, intelligence and the published research",
       "workflows": [
         "cfb-terminal.yml", "game-research-tests.yml", "signal-center-tests.yml", "intelligence-ci.yml", "collective-tests.yml",
-        "desk-tests.yml", "content-engine.yml", "newsletter-suites.yml", "discord-tests.yml", "personal-tests.yml", "edgedesk-features.yml"
+        "desk-tests.yml", "content-engine.yml", "newsletter-suites.yml", "discord-tests.yml", "personal-tests.yml", "edgedesk-features.yml", "radar-tests.yml",
+        "cfb-sp-plus-tests.yml"
       ]
     },
     "simulation": {
@@ -50,7 +52,7 @@
       "about": "the pages a reader sees, in a browser where it matters",
       "workflows": [
         "slate-tests.yml", "sport-graphic-tests.yml", "guide-tests.yml", "funnel-tests.yml", "growth-engine-tests.yml", "portfolio-tests.yml",
-        "research-os-tests.yml"
+        "research-os-tests.yml", "bet-checker-tests.yml", "fairline-tests.yml"
       ]
     },
     "integration": {
@@ -58,7 +60,7 @@
       "about": "pull-request runs that probe a live source; kept apart from the deterministic suites, never replaced by mocks",
       "workflows": [
         "cfb-ref-sync.yml", "college-baseball.yml", "mlb-pitchers.yml", "simulator-cfb-sources.yml",
-        "simulator-sources.yml", "simulator-sports-data.yml", "tennis-sync.yml"
+        "simulator-sources.yml", "simulator-sports-data.yml", "tennis-sync.yml", "radar-sources.yml", "radar-validation.yml"
       ]
     }
   },

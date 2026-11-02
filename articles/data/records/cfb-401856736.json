@@ -9,7 +9,7 @@
   "aliases": [],
   "title": "South Carolina vs. Oklahoma: EdgeDesk Model Projection, Matchup Analysis and Fair Spread",
   "seo_title": "South Carolina vs. Oklahoma 2026: EdgeDesk Fair Spread & Model Projection",
-  "seo_description": "EdgeDesk fair spread for South Carolina at Oklahoma: PK, fair total 47.5. Oklahoma wins 51% of simulations. Data confidence 85%. Model status NO MARKET. Research, not picks.",
+  "seo_description": "EdgeDesk fair spread for South Carolina at Oklahoma: PK, fair total 47.5. Oklahoma wins 51% of simulations. Data confidence 90%. Model status NO MARKET. Research, not picks.",
   "excerpt": "Oklahoma carries the stronger underlying team rating — +11.1 against +5.6, a 5.5-point separation on a neutral field before home advantage, travel or rest. EdgeDesk makes it PK before any sportsbook number is consulted, with Oklahoma winning 51% of…",
   "home_team": "Oklahoma",
   "away_team": "South Carolina",
@@ -21,12 +21,12 @@
   "game_time": "2026-10-31T20:15:00.000Z",
   "game_when_label": "2026-10-31 20:15 UTC",
   "published_at": null,
-  "updated_at": "2026-10-27T08:53:29.281Z",
-  "generated_at": "2026-10-27T08:53:29.281Z",
+  "updated_at": "2026-10-31T19:14:58.561Z",
+  "generated_at": "2026-10-31T19:14:58.561Z",
   "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
   "model_status": "NO MARKET",
   "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
-  "confidence": 85,
+  "confidence": 90,
   "priced": true,
   "fair_spread_text": "PK",
   "fair_total": "47.5",
@@ -37,11 +37,11 @@
   "status": "ready",
   "article_type": "pregame",
   "related": null,
-  "frozen": false,
-  "frozen_at": null,
+  "frozen": true,
+  "frozen_at": "2026-10-31T20:15:00.000Z",
   "author": "EdgeDesk Research",
   "publisher": "EdgeDesk Sports",
-  "research_source": "Ratings: football/rankings/current.json — 2026 Week 8, built 2026-10-26. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser.",
+  "research_source": "Ratings: football/rankings/current.json — 2026 Week 9, built 2026-10-31. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser.",
   "market_source": null,
   "research": {
     "kind": "CFB_GAME",
@@ -66,7 +66,7 @@
       "Oklahoma carries the stronger underlying team rating — +11.1 against +5.6, a 5.5-point separation on a neutral field before home advantage, travel or rest.",
       "EdgeDesk makes it PK before any sportsbook number is consulted, with Oklahoma winning 51% of simulations.",
       "The position-group comparison shows where the separation comes from: the widest measured gap is run offense, where South Carolina leads Oklahoma by 80 places nationally.",
-      "Data confidence on this matchup is 85% — high by this board’s standards, so the margin is the strongest part of the read."
+      "Data confidence on this matchup is 90% — high by this board’s standards, so the margin is the strongest part of the read."
     ],
     "projection": {
       "priced": true,
@@ -123,22 +123,22 @@
         "volatility_discriminates": false,
         "note": "Quoted from Oklahoma’s perspective, as the engine publishes it. Eight results in ten land inside p10–p90."
       },
-      "confidence_pct": 85,
-      "inputs_reached_pct": 73,
+      "confidence_pct": 90,
+      "inputs_reached_pct": 89,
       "input_contract": {
         "fields": 26,
         "applicable": 26,
-        "known": 19,
-        "priced": 11,
-        "priced_coverage_pct": 42,
+        "known": 23,
+        "priced": 15,
+        "priced_coverage_pct": 58,
         "by_state": {
-          "USABLE": 11,
+          "USABLE": 15,
           "RESEARCH_ONLY": 8,
           "STALE": 0,
           "CONFLICTING": 0,
           "NOT_APPLICABLE": 0,
           "NOT_REQUIRED": 0,
-          "NOT_DUE_YET": 4,
+          "NOT_DUE_YET": 0,
           "FETCH_FAILED": 0,
           "UNAVAILABLE": 3
         },
@@ -246,7 +246,7 @@
         "source": "cfbfastR-data player_stats — play attribution",
         "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
         "published_at": "2026-10-24T19:30:00.000Z",
-        "retrieved_at": "2026-10-26T23:10:58.149Z"
+        "retrieved_at": "2026-10-31T17:49:50.575Z"
       },
       "home": {
         "team": "Oklahoma",
@@ -318,9 +318,9 @@
         "source": "cfbfastR-data player_stats — play attribution",
         "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
         "published_at": "2026-10-24T19:30:00.000Z",
-        "retrieved_at": "2026-10-26T23:10:58.149Z"
+        "retrieved_at": "2026-10-31T17:49:50.575Z"
       },
-      "generated_at": "2026-10-26T23:10:56.259Z",
+      "generated_at": "2026-10-31T17:49:48.489Z",
       "source": "football/starters/cfb_2026.json",
       "note": "An expected starter is not a confirmed one. EdgeDesk publishes which kind of answer each of these is, and no number on this page is priced from any of them. Availability is a separate axis: an absent report is UNKNOWN and is never read as healthy."
     },
@@ -364,14 +364,14 @@
               "note": "points vs an average FBS team, neutral field",
               "a": {
                 "v": "+5.6",
-                "n": 5.64,
+                "n": 5.62,
                 "rank": "#29 of 138",
                 "rank_n": 29,
                 "note": null
               },
               "h": {
                 "v": "+11.1",
-                "n": 11.1,
+                "n": 11.09,
                 "rank": "#7 of 138",
                 "rank_n": 7,
                 "note": null
@@ -394,15 +394,15 @@
                 "note": null
               },
               "h": {
-                "v": "60.0",
-                "n": 60,
+                "v": "59.4",
+                "n": 59.4,
                 "rank": "#21 of 138",
                 "rank_n": 21,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 2.2,
+                "gap": 1.6,
                 "rank_gap": 5
               }
             },
@@ -411,8 +411,8 @@
               "k": "Performance",
               "note": null,
               "a": {
-                "v": "59.4",
-                "n": 59.4,
+                "v": "59.3",
+                "n": 59.3,
                 "rank": "#32 of 138",
                 "rank_n": 32,
                 "note": null
@@ -426,7 +426,7 @@
               },
               "edge": {
                 "side": "h",
-                "gap": 10,
+                "gap": 10.1,
                 "rank_gap": 22
               }
             },
@@ -435,10 +435,10 @@
               "k": "Scheme fit",
               "note": "personnel against this team’s own tendencies",
               "a": {
-                "v": "51.2",
-                "n": 51.2,
-                "rank": "#47 of 138",
-                "rank_n": 47,
+                "v": "51.1",
+                "n": 51.1,
+                "rank": "#50 of 138",
+                "rank_n": 50,
                 "note": null
               },
               "h": {
@@ -450,8 +450,8 @@
               },
               "edge": {
                 "side": "h",
-                "gap": 4.3,
-                "rank_gap": 43
+                "gap": 4.4,
+                "rank_gap": 46
               }
             }
           ]
@@ -466,8 +466,8 @@
               "a": {
                 "v": "56.0",
                 "n": 56,
-                "rank": "#38 of 138",
-                "rank_n": 38,
+                "rank": "#39 of 138",
+                "rank_n": 39,
                 "note": null
               },
               "h": {
@@ -480,7 +480,7 @@
               "edge": {
                 "side": "a",
                 "gap": 3.8,
-                "rank_gap": 18
+                "rank_gap": 17
               }
             },
             {
@@ -514,21 +514,21 @@
               "a": {
                 "v": "51.8",
                 "n": 51.8,
-                "rank": "#32 of 130",
-                "rank_n": 32,
+                "rank": "#33 of 130",
+                "rank_n": 33,
                 "note": null
               },
               "h": {
-                "v": "50.9",
-                "n": 50.9,
-                "rank": "#52 of 130",
-                "rank_n": 52,
+                "v": "51.0",
+                "n": 51,
+                "rank": "#48 of 130",
+                "rank_n": 48,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.9,
-                "rank_gap": 20
+                "gap": 0.8,
+                "rank_gap": 15
               }
             },
             {
@@ -584,15 +584,15 @@
               "k": "Run defense",
               "note": null,
               "a": {
-                "v": "62.4",
-                "n": 62.4,
-                "rank": "#33 of 138",
-                "rank_n": 33,
+                "v": "62.5",
+                "n": 62.5,
+                "rank": "#34 of 138",
+                "rank_n": 34,
                 "note": null
               },
               "h": {
-                "v": "68.2",
-                "n": 68.2,
+                "v": "68.3",
+                "n": 68.3,
                 "rank": "#16 of 138",
                 "rank_n": 16,
                 "note": null
@@ -600,7 +600,7 @@
               "edge": {
                 "side": "h",
                 "gap": 5.8,
-                "rank_gap": 17
+                "rank_gap": 18
               }
             },
             {
@@ -608,10 +608,10 @@
               "k": "Pass defense",
               "note": null,
               "a": {
-                "v": "52.0",
-                "n": 52,
-                "rank": "#59 of 138",
-                "rank_n": 59,
+                "v": "51.9",
+                "n": 51.9,
+                "rank": "#58 of 138",
+                "rank_n": 58,
                 "note": null
               },
               "h": {
@@ -623,8 +623,8 @@
               },
               "edge": {
                 "side": "h",
-                "gap": 20.8,
-                "rank_gap": 57
+                "gap": 20.9,
+                "rank_gap": 56
               }
             }
           ]
@@ -639,21 +639,21 @@
               "a": {
                 "v": "59.5",
                 "n": 59.5,
-                "rank": "#51 of 138",
-                "rank_n": 51,
+                "rank": "#46 of 138",
+                "rank_n": 46,
                 "note": null
               },
               "h": {
                 "v": "61.4",
                 "n": 61.4,
-                "rank": "#23 of 138",
-                "rank_n": 23,
+                "rank": "#20 of 138",
+                "rank_n": 20,
                 "note": null
               },
               "edge": {
                 "side": "h",
                 "gap": 1.9,
-                "rank_gap": 28
+                "rank_gap": 26
               }
             },
             {
@@ -685,23 +685,23 @@
               "k": "Receivers",
               "note": null,
               "a": {
-                "v": "55.7",
-                "n": 55.7,
-                "rank": "#48 of 138",
-                "rank_n": 48,
+                "v": "56.0",
+                "n": 56,
+                "rank": "#34 of 138",
+                "rank_n": 34,
                 "note": null
               },
               "h": {
-                "v": "56.7",
-                "n": 56.7,
-                "rank": "#16 of 138",
-                "rank_n": 16,
+                "v": "57.0",
+                "n": 57,
+                "rank": "#11 of 138",
+                "rank_n": 11,
                 "note": null
               },
               "edge": {
                 "side": "h",
                 "gap": 1,
-                "rank_gap": 32
+                "rank_gap": 23
               }
             },
             {
@@ -735,21 +735,21 @@
               "a": {
                 "v": "56.6",
                 "n": 56.6,
-                "rank": "#59 of 138",
-                "rank_n": 59,
+                "rank": "#58 of 138",
+                "rank_n": 58,
                 "note": null
               },
               "h": {
                 "v": "55.5",
                 "n": 55.5,
-                "rank": "#101 of 138",
-                "rank_n": 101,
+                "rank": "#98 of 138",
+                "rank_n": 98,
                 "note": null
               },
               "edge": {
                 "side": "a",
                 "gap": 1.1,
-                "rank_gap": 42
+                "rank_gap": 40
               }
             },
             {
@@ -783,21 +783,21 @@
               "a": {
                 "v": "53.0",
                 "n": 53,
-                "rank": "#69 of 138",
-                "rank_n": 69,
+                "rank": "#70 of 138",
+                "rank_n": 70,
                 "note": null
               },
               "h": {
-                "v": "59.2",
-                "n": 59.2,
-                "rank": "#9 of 138",
-                "rank_n": 9,
+                "v": "59.8",
+                "n": 59.8,
+                "rank": "#8 of 138",
+                "rank_n": 8,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 6.2,
-                "rank_gap": 60
+                "gap": 6.8,
+                "rank_gap": 62
               }
             },
             {
@@ -812,16 +812,16 @@
                 "note": null
               },
               "h": {
-                "v": "60.4",
-                "n": 60.4,
-                "rank": "#9 of 138",
-                "rank_n": 9,
+                "v": "60.5",
+                "n": 60.5,
+                "rank": "#10 of 138",
+                "rank_n": 10,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 8.2,
-                "rank_gap": 73
+                "gap": 8.3,
+                "rank_gap": 72
               }
             },
             {
@@ -831,14 +831,14 @@
               "a": {
                 "v": "57.6",
                 "n": 57.6,
-                "rank": "#27 of 138",
+                "rank": "#27 of 137",
                 "rank_n": 27,
                 "note": null
               },
               "h": {
                 "v": "57.2",
                 "n": 57.2,
-                "rank": "#35 of 138",
+                "rank": "#35 of 137",
                 "rank_n": 35,
                 "note": null
               },
@@ -860,8 +860,8 @@
               "a": {
                 "v": "53.4",
                 "n": 53.4,
-                "rank": "#61 of 138",
-                "rank_n": 61,
+                "rank": "#62 of 138",
+                "rank_n": 62,
                 "note": null
               },
               "h": {
@@ -874,7 +874,7 @@
               "edge": {
                 "side": "a",
                 "gap": 0.9,
-                "rank_gap": 63
+                "rank_gap": 62
               }
             },
             {
@@ -931,65 +931,75 @@
         },
         {
           "k": "Depth",
-          "rank_gap": 63,
+          "rank_gap": 62,
           "gap": 0.9,
           "lead": "South Carolina",
           "trail": "Oklahoma",
-          "lead_cell": "53.4 · #61 of 138",
+          "lead_cell": "53.4 · #62 of 138",
           "trail_cell": "52.5 · #124 of 138",
-          "text": "South Carolina 53.4 (#61 of 138) vs Oklahoma 52.5 (#124 of 138) — 63 places on the national board."
+          "text": "South Carolina 53.4 (#62 of 138) vs Oklahoma 52.5 (#124 of 138) — 62 places on the national board."
         },
         {
           "k": "Running backs",
-          "rank_gap": 42,
+          "rank_gap": 40,
           "gap": 1.1,
           "lead": "South Carolina",
           "trail": "Oklahoma",
-          "lead_cell": "56.6 · #59 of 138",
-          "trail_cell": "55.5 · #101 of 138",
-          "text": "South Carolina 56.6 (#59 of 138) vs Oklahoma 55.5 (#101 of 138) — 42 places on the national board."
+          "lead_cell": "56.6 · #58 of 138",
+          "trail_cell": "55.5 · #98 of 138",
+          "text": "South Carolina 56.6 (#58 of 138) vs Oklahoma 55.5 (#98 of 138) — 40 places on the national board."
         },
         {
-          "k": "Special teams",
-          "rank_gap": 20,
-          "gap": 0.9,
+          "k": "Offense",
+          "rank_gap": 17,
+          "gap": 3.8,
           "lead": "South Carolina",
           "trail": "Oklahoma",
-          "lead_cell": "51.8 · #32 of 130",
-          "trail_cell": "50.9 · #52 of 130",
-          "text": "South Carolina 51.8 (#32 of 130) vs Oklahoma 50.9 (#52 of 130) — 20 places on the national board."
+          "lead_cell": "56.0 · #39 of 138",
+          "trail_cell": "52.2 · #56 of 138",
+          "text": "South Carolina 56.0 (#39 of 138) vs Oklahoma 52.2 (#56 of 138) — 17 places on the national board."
         }
       ],
       "home": [
         {
           "k": "Secondary",
-          "rank_gap": 73,
-          "gap": 8.2,
+          "rank_gap": 72,
+          "gap": 8.3,
           "lead": "Oklahoma",
           "trail": "South Carolina",
-          "lead_cell": "60.4 · #9 of 138",
+          "lead_cell": "60.5 · #10 of 138",
           "trail_cell": "52.2 · #82 of 138",
-          "text": "Oklahoma 60.4 (#9 of 138) vs South Carolina 52.2 (#82 of 138) — 73 places on the national board."
+          "text": "Oklahoma 60.5 (#10 of 138) vs South Carolina 52.2 (#82 of 138) — 72 places on the national board."
         },
         {
           "k": "Linebackers",
-          "rank_gap": 60,
-          "gap": 6.2,
+          "rank_gap": 62,
+          "gap": 6.8,
           "lead": "Oklahoma",
           "trail": "South Carolina",
-          "lead_cell": "59.2 · #9 of 138",
-          "trail_cell": "53.0 · #69 of 138",
-          "text": "Oklahoma 59.2 (#9 of 138) vs South Carolina 53.0 (#69 of 138) — 60 places on the national board."
+          "lead_cell": "59.8 · #8 of 138",
+          "trail_cell": "53.0 · #70 of 138",
+          "text": "Oklahoma 59.8 (#8 of 138) vs South Carolina 53.0 (#70 of 138) — 62 places on the national board."
         },
         {
           "k": "Pass defense",
-          "rank_gap": 57,
-          "gap": 20.8,
+          "rank_gap": 56,
+          "gap": 20.9,
           "lead": "Oklahoma",
           "trail": "South Carolina",
           "lead_cell": "72.8 · #2 of 138",
-          "trail_cell": "52.0 · #59 of 138",
-          "text": "Oklahoma 72.8 (#2 of 138) vs South Carolina 52.0 (#59 of 138) — 57 places on the national board."
+          "trail_cell": "51.9 · #58 of 138",
+          "text": "Oklahoma 72.8 (#2 of 138) vs South Carolina 51.9 (#58 of 138) — 56 places on the national board."
+        },
+        {
+          "k": "Scheme fit",
+          "rank_gap": 46,
+          "gap": 4.4,
+          "lead": "Oklahoma",
+          "trail": "South Carolina",
+          "lead_cell": "55.5 · #4 of 138",
+          "trail_cell": "51.1 · #50 of 138",
+          "text": "Oklahoma 55.5 (#4 of 138) vs South Carolina 51.1 (#50 of 138) — 46 places on the national board."
         },
         {
           "k": "Pass offense",
@@ -1000,16 +1010,6 @@
           "lead_cell": "61.4 · #19 of 137",
           "trail_cell": "51.0 · #63 of 137",
           "text": "Oklahoma 61.4 (#19 of 137) vs South Carolina 51.0 (#63 of 137) — 44 places on the national board."
-        },
-        {
-          "k": "Scheme fit",
-          "rank_gap": 43,
-          "gap": 4.3,
-          "lead": "Oklahoma",
-          "trail": "South Carolina",
-          "lead_cell": "55.5 · #4 of 138",
-          "trail_cell": "51.2 · #47 of 138",
-          "text": "Oklahoma 55.5 (#4 of 138) vs South Carolina 51.2 (#47 of 138) — 43 places on the national board."
         }
       ],
       "measured": [],
@@ -1049,12 +1049,12 @@
         "def": {
           "team": "Oklahoma",
           "label": "run defense",
-          "v": "68.2",
+          "v": "68.3",
           "rank": "#16 of 138",
           "note": null
         },
         "complete": true,
-        "read": "South Carolina’s run offense rates 63.1 (#14 of 138) against Oklahoma’s run defense at 68.2 (#16 of 138). South Carolina’s unit stands higher among its own position group, by 2 places."
+        "read": "South Carolina’s run offense rates 63.1 (#14 of 138) against Oklahoma’s run defense at 68.3 (#16 of 138). South Carolina’s unit stands higher among its own position group, by 2 places."
       },
       {
         "title": "Oklahoma pass offense vs South Carolina pass defense",
@@ -1068,12 +1068,12 @@
         "def": {
           "team": "South Carolina",
           "label": "pass defense",
-          "v": "52.0",
-          "rank": "#59 of 138",
+          "v": "51.9",
+          "rank": "#58 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Oklahoma’s pass offense rates 61.4 (#19 of 137) against South Carolina’s pass defense at 52.0 (#59 of 138). Oklahoma’s unit stands higher among its own position group, by 40 places."
+        "read": "Oklahoma’s pass offense rates 61.4 (#19 of 137) against South Carolina’s pass defense at 51.9 (#58 of 138). Oklahoma’s unit stands higher among its own position group, by 39 places."
       },
       {
         "title": "Oklahoma run offense vs South Carolina run defense",
@@ -1087,12 +1087,12 @@
         "def": {
           "team": "South Carolina",
           "label": "run defense",
-          "v": "62.4",
-          "rank": "#33 of 138",
+          "v": "62.5",
+          "rank": "#34 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Oklahoma’s run offense rates 44.4 (#94 of 138) against South Carolina’s run defense at 62.4 (#33 of 138). South Carolina’s unit stands higher among its own position group, by 61 places."
+        "read": "Oklahoma’s run offense rates 44.4 (#94 of 138) against South Carolina’s run defense at 62.5 (#34 of 138). South Carolina’s unit stands higher among its own position group, by 60 places."
       },
       {
         "title": "South Carolina QB room vs Oklahoma secondary",
@@ -1100,18 +1100,18 @@
           "team": "South Carolina",
           "label": "QB room",
           "v": "59.5",
-          "rank": "#51 of 138",
+          "rank": "#46 of 138",
           "note": null
         },
         "def": {
           "team": "Oklahoma",
           "label": "secondary",
-          "v": "60.4",
-          "rank": "#9 of 138",
+          "v": "60.5",
+          "rank": "#10 of 138",
           "note": null
         },
         "complete": true,
-        "read": "South Carolina’s QB room rates 59.5 (#51 of 138) against Oklahoma’s secondary at 60.4 (#9 of 138). Oklahoma’s unit stands higher among its own position group, by 42 places."
+        "read": "South Carolina’s QB room rates 59.5 (#46 of 138) against Oklahoma’s secondary at 60.5 (#10 of 138). Oklahoma’s unit stands higher among its own position group, by 36 places."
       },
       {
         "title": "Oklahoma QB room vs South Carolina secondary",
@@ -1119,7 +1119,7 @@
           "team": "Oklahoma",
           "label": "QB room",
           "v": "61.4",
-          "rank": "#23 of 138",
+          "rank": "#20 of 138",
           "note": null
         },
         "def": {
@@ -1130,7 +1130,7 @@
           "note": null
         },
         "complete": true,
-        "read": "Oklahoma’s QB room rates 61.4 (#23 of 138) against South Carolina’s secondary at 52.2 (#82 of 138). Oklahoma’s unit stands higher among its own position group, by 59 places."
+        "read": "Oklahoma’s QB room rates 61.4 (#20 of 138) against South Carolina’s secondary at 52.2 (#82 of 138). Oklahoma’s unit stands higher among its own position group, by 62 places."
       },
       {
         "title": "South Carolina offensive line vs Oklahoma defensive line",
@@ -1176,18 +1176,18 @@
           "team": "South Carolina",
           "label": "running backs",
           "v": "56.6",
-          "rank": "#59 of 138",
+          "rank": "#58 of 138",
           "note": null
         },
         "def": {
           "team": "Oklahoma",
           "label": "linebackers",
-          "v": "59.2",
-          "rank": "#9 of 138",
+          "v": "59.8",
+          "rank": "#8 of 138",
           "note": null
         },
         "complete": true,
-        "read": "South Carolina’s running backs rates 56.6 (#59 of 138) against Oklahoma’s linebackers at 59.2 (#9 of 138). Oklahoma’s unit stands higher among its own position group, by 50 places."
+        "read": "South Carolina’s running backs rates 56.6 (#58 of 138) against Oklahoma’s linebackers at 59.8 (#8 of 138). Oklahoma’s unit stands higher among its own position group, by 50 places."
       },
       {
         "title": "Oklahoma running backs vs South Carolina linebackers",
@@ -1195,45 +1195,45 @@
           "team": "Oklahoma",
           "label": "running backs",
           "v": "55.5",
-          "rank": "#101 of 138",
+          "rank": "#98 of 138",
           "note": null
         },
         "def": {
           "team": "South Carolina",
           "label": "linebackers",
           "v": "53.0",
-          "rank": "#69 of 138",
+          "rank": "#70 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Oklahoma’s running backs rates 55.5 (#101 of 138) against South Carolina’s linebackers at 53.0 (#69 of 138). South Carolina’s unit stands higher among its own position group, by 32 places."
+        "read": "Oklahoma’s running backs rates 55.5 (#98 of 138) against South Carolina’s linebackers at 53.0 (#70 of 138). South Carolina’s unit stands higher among its own position group, by 28 places."
       },
       {
         "title": "South Carolina receivers vs Oklahoma secondary",
         "att": {
           "team": "South Carolina",
           "label": "receivers",
-          "v": "55.7",
-          "rank": "#48 of 138",
+          "v": "56.0",
+          "rank": "#34 of 138",
           "note": null
         },
         "def": {
           "team": "Oklahoma",
           "label": "secondary",
-          "v": "60.4",
-          "rank": "#9 of 138",
+          "v": "60.5",
+          "rank": "#10 of 138",
           "note": null
         },
         "complete": true,
-        "read": "South Carolina’s receivers rates 55.7 (#48 of 138) against Oklahoma’s secondary at 60.4 (#9 of 138). Oklahoma’s unit stands higher among its own position group, by 39 places."
+        "read": "South Carolina’s receivers rates 56.0 (#34 of 138) against Oklahoma’s secondary at 60.5 (#10 of 138). Oklahoma’s unit stands higher among its own position group, by 24 places."
       },
       {
         "title": "Oklahoma receivers vs South Carolina secondary",
         "att": {
           "team": "Oklahoma",
           "label": "receivers",
-          "v": "56.7",
-          "rank": "#16 of 138",
+          "v": "57.0",
+          "rank": "#11 of 138",
           "note": null
         },
         "def": {
@@ -1244,7 +1244,7 @@
           "note": null
         },
         "complete": true,
-        "read": "Oklahoma’s receivers rates 56.7 (#16 of 138) against South Carolina’s secondary at 52.2 (#82 of 138). Oklahoma’s unit stands higher among its own position group, by 66 places."
+        "read": "Oklahoma’s receivers rates 57.0 (#11 of 138) against South Carolina’s secondary at 52.2 (#82 of 138). Oklahoma’s unit stands higher among its own position group, by 71 places."
       }
     ],
     "roster": {
@@ -1350,18 +1350,18 @@
         {
           "k": "Availability records",
           "note": "an absence report reaching this roster. UNKNOWN is never read as healthy",
-          "a": "none on file — 100% unknown",
-          "h": "none on file — 100% unknown",
+          "a": "8 on file, 3% of starter value out",
+          "h": "8 on file, 10% of starter value out",
           "edge": null
         },
         {
           "k": "Data confidence",
           "note": "how much EdgeDesk knows about this roster, not how good it is",
-          "a": "65%",
-          "h": "67%",
+          "a": "75%",
+          "h": "77%",
           "edge": {
             "side": "h",
-            "gap": 0.020000000000000018
+            "gap": 0.02100000000000002
           }
         }
       ],
@@ -1400,9 +1400,9 @@
         "heading": "Why Oklahoma can pull away",
         "bullets": [
           "Playing at Oklahoma is worth 2.8 points — the league-wide home-field number, because a per-venue table was tested and could not be told apart from the home team’s own quality (+2.8 pts).",
-          "Secondary: Oklahoma 60.4 (#9 of 138) vs South Carolina 52.2 (#82 of 138) — 73 places on the national board.",
-          "Linebackers: Oklahoma 59.2 (#9 of 138) vs South Carolina 53.0 (#69 of 138) — 60 places on the national board.",
-          "Pass defense: Oklahoma 72.8 (#2 of 138) vs South Carolina 52.0 (#59 of 138) — 57 places on the national board."
+          "Secondary: Oklahoma 60.5 (#10 of 138) vs South Carolina 52.2 (#82 of 138) — 72 places on the national board.",
+          "Linebackers: Oklahoma 59.8 (#8 of 138) vs South Carolina 53.0 (#70 of 138) — 62 places on the national board.",
+          "Pass defense: Oklahoma 72.8 (#2 of 138) vs South Carolina 51.9 (#58 of 138) — 56 places on the national board."
         ]
       },
       "underdog": {
@@ -1413,7 +1413,7 @@
           "Stylistically the matchup favours South Carolina by 0.5 points: ball control vs front disruption (-0.5 pts).",
           "Run offense: South Carolina 63.1 (#14 of 138) vs Oklahoma 44.4 (#94 of 138) — 80 places on the national board.",
           "Offensive line: South Carolina 55.3 (#30 of 138) vs Oklahoma 48.9 (#98 of 138) — 68 places on the national board.",
-          "Depth: South Carolina 53.4 (#61 of 138) vs Oklahoma 52.5 (#124 of 138) — 63 places on the national board."
+          "Depth: South Carolina 53.4 (#62 of 138) vs Oklahoma 52.5 (#124 of 138) — 62 places on the national board."
         ]
       },
       "note": "These are football cases assembled from measured states. Neither is a bet, and neither is advice."
@@ -1427,33 +1427,9 @@
           "widening": null
         },
         {
-          "sev": "MEDIUM",
-          "label": "South Carolina — injury uncertainty",
-          "text": "100% of projected starter value has no availability record.",
-          "widening": null
-        },
-        {
-          "sev": "MEDIUM",
-          "label": "Oklahoma — injury uncertainty",
-          "text": "100% of projected starter value has no availability record.",
-          "widening": null
-        },
-        {
           "sev": "LOW",
           "label": "missing",
           "text": "weather not supplied",
-          "widening": null
-        },
-        {
-          "sev": "LOW",
-          "label": "missing",
-          "text": "home injury report not supplied",
-          "widening": null
-        },
-        {
-          "sev": "LOW",
-          "label": "missing",
-          "text": "away injury report not supplied",
           "widening": null
         },
         {
@@ -1479,14 +1455,6 @@
           "why": "starting QB not supplied for away"
         },
         {
-          "item": "Home availability / injuries",
-          "why": "no injury report supplied for home"
-        },
-        {
-          "item": "Away availability / injuries",
-          "why": "no injury report supplied for away"
-        },
-        {
           "item": "Weather at kickoff",
           "why": "no weather supplied"
         },
@@ -1507,16 +1475,8 @@
           "why": "no legal, public, keyless recruiting feed is wired into EdgeDesk, so no recruiting rating exists for this roster. Nothing is estimated in its place."
         },
         {
-          "item": "South Carolina — availability and injuries",
-          "why": "no availability record reached this roster. UNKNOWN is carried as unknown; it is never read as healthy."
-        },
-        {
           "item": "Oklahoma — recruiting ratings",
           "why": "no legal, public, keyless recruiting feed is wired into EdgeDesk, so no recruiting rating exists for this roster. Nothing is estimated in its place."
-        },
-        {
-          "item": "Oklahoma — availability and injuries",
-          "why": "no availability record reached this roster. UNKNOWN is carried as unknown; it is never read as healthy."
         }
       ],
       "note": "Unknown is never scored as zero. Every line here is a gap EdgeDesk carries as uncertainty rather than filling in."
@@ -1557,18 +1517,18 @@
         "reason": "no market line is joined to this game"
       },
       "confidence": {
-        "score": 85,
+        "score": 90,
         "tier": "HIGH",
         "label": "High"
       },
       "reliability": {
-        "pct": 87,
+        "pct": 93,
         "tier": "STRONG",
-        "text": "87 · STRONG",
-        "sub": "main deduction: South Carolina’s availability report is not due yet",
-        "score": 87,
-        "grade": "STRONG",
-        "grade_label": "STRONG",
+        "text": "93 · VERY STRONG",
+        "sub": "main deduction: no market quote is joined to this game",
+        "score": 93,
+        "grade": "VERY_STRONG",
+        "grade_label": "VERY STRONG",
         "gate_label": null,
         "components": [
           {
@@ -1580,7 +1540,7 @@
           {
             "key": "roster_availability",
             "label": "Roster/status",
-            "score": 12.8,
+            "score": 18.6,
             "max": 20
           },
           {
@@ -1608,25 +1568,9 @@
             "max": 10
           }
         ],
-        "main_deduction": "South Carolina’s availability report is not due yet; the impact of South Carolina’s absences cannot be assessed: no graded availability read",
+        "main_deduction": "no market quote is joined to this game",
         "capped_by": [],
-        "next_actions": [
-          {
-            "action": "Re-read availability inside the filing window (South Carolina)",
-            "potential_gain": 2,
-            "text": "up to +2"
-          },
-          {
-            "action": "Re-read availability inside the filing window (Oklahoma)",
-            "potential_gain": 2,
-            "text": "up to +2"
-          },
-          {
-            "action": "Capture a market quote",
-            "potential_gain": 2,
-            "text": "up to +2"
-          }
-        ],
+        "next_actions": [],
         "stability": {
           "tier": "STABLE",
           "sd": 0.81,
@@ -1652,9 +1596,9 @@
         "reason": "no sportsbook quote has been captured for this game"
       },
       "projection_status": {
-        "key": "STABLE",
-        "label": "STABLE",
-        "text": "EdgeDesk’s number is unchanged since the latest published number."
+        "key": "INJURY_UNCERTAINTY",
+        "label": "INJURY UNCERTAINTY",
+        "text": "A supplied availability report lists 13 players with an unresolved status; the engine widens this game’s range for it."
       },
       "stability": {
         "tier": "MEDIUM",
@@ -1734,18 +1678,18 @@
         {
           "k": "Talent",
           "a": "57.8  #26",
-          "h": "60.0  #21",
+          "h": "59.4  #21",
           "note": null
         },
         {
           "k": "Performance",
-          "a": "59.4  #32",
+          "a": "59.3  #32",
           "h": "69.4  #10",
           "note": null
         },
         {
           "k": "Offense",
-          "a": "56.0  #38",
+          "a": "56.0  #39",
           "h": "52.2  #56",
           "note": null
         },
@@ -1757,8 +1701,8 @@
         },
         {
           "k": "Special teams",
-          "a": "51.8  #32",
-          "h": "50.9  #52",
+          "a": "51.8  #33",
+          "h": "51.0  #48",
           "note": null
         },
         {
@@ -1775,20 +1719,20 @@
         },
         {
           "k": "Run defense",
-          "a": "62.4  #33",
-          "h": "68.2  #16",
+          "a": "62.5  #34",
+          "h": "68.3  #16",
           "note": null
         },
         {
           "k": "Pass defense",
-          "a": "52.0  #59",
+          "a": "51.9  #58",
           "h": "72.8  #2",
           "note": null
         },
         {
           "k": "QB room",
-          "a": "59.5  #51",
-          "h": "61.4  #23",
+          "a": "59.5  #46",
+          "h": "61.4  #20",
           "note": null
         },
         {
@@ -1799,14 +1743,14 @@
         },
         {
           "k": "Receivers",
-          "a": "55.7  #48",
-          "h": "56.7  #16",
+          "a": "56.0  #34",
+          "h": "57.0  #11",
           "note": null
         },
         {
           "k": "Running backs",
-          "a": "56.6  #59",
-          "h": "55.5  #101",
+          "a": "56.6  #58",
+          "h": "55.5  #98",
           "note": null
         },
         {
@@ -1817,19 +1761,19 @@
         },
         {
           "k": "Linebackers",
-          "a": "53.0  #69",
-          "h": "59.2  #9",
+          "a": "53.0  #70",
+          "h": "59.8  #8",
           "note": null
         },
         {
           "k": "Secondary",
           "a": "52.2  #82",
-          "h": "60.4  #9",
+          "h": "60.5  #10",
           "note": null
         },
         {
           "k": "Depth",
-          "a": "53.4  #61",
+          "a": "53.4  #62",
           "h": "52.5  #124",
           "note": null
         },
@@ -1841,13 +1785,13 @@
         },
         {
           "k": "Confidence",
-          "a": "65%",
-          "h": "67%",
+          "a": "75%",
+          "h": "77%",
           "note": "how much EdgeDesk knows, not how good the team is"
         },
         {
           "k": "Δ national rank, this week",
-          "a": "up 1",
+          "a": "no change",
           "h": "no change",
           "note": "differenced from last week’s committed snapshot"
         }
@@ -1867,89 +1811,12 @@
     ],
     "context_label": "RESEARCH CONTEXT — position-group, player-quality, roster and scheme figures explain this matchup and move no priced number.",
     "priced_label": "PRICED BY MODEL — the projection and its drivers, from validated inputs only.",
-    "source": "Ratings: football/rankings/current.json — 2026 Week 8, built 2026-10-26. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser."
+    "source": "Ratings: football/rankings/current.json — 2026 Week 9, built 2026-10-31. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser."
   },
-  "football_evidence": {
-    "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "1mc6dmihufl3s",
-    "status": "UNEXPLAINED",
-    "input_suspect": false,
-    "question": "Can Oklahoma get South Carolina off the field on third down?",
-    "assessment": "EdgeDesk’s number is 5.3 points closer to South Carolina than the line, and EdgeDesk cannot account for most of that: its own breakdown accounts for about 0.0 of the 5.3 points. The measured football evidence leans toward Oklahoma, not toward EdgeDesk’s number. Treat the gap as an open research question, not as an edge.",
-    "gap": {
-      "points": 5.3,
-      "toward": "South Carolina",
-      "other": "Oklahoma"
-    },
-    "supporting": [
-      "When Oklahoma has the ball (pass protection against the pass rush): Oklahoma’s offense has allowed a sack on 7.6% of its dropbacks, and South Carolina’s defense sacks the quarterback on 7.3% of opponent dropbacks (FBS average 5.7%).",
-      "When South Carolina has the ball (the line of scrimmage on running plays): South Carolina’s offense is stopped at or behind the line on 13.9% of its runs, and Oklahoma’s defense stops 16.3% of opponent runs at or behind the line (FBS average 17.5%).",
-      "EdgeDesk’s position-group ratings put South Carolina’s offensive line No. 30 nationally and Oklahoma’s No. 98.",
-      "EdgeDesk’s position-group ratings put South Carolina’s running backs No. 59 nationally and Oklahoma’s No. 101."
-    ],
-    "contradicting": [
-      "When South Carolina has the ball (pass protection against the pass rush): South Carolina’s offense has allowed a sack on 4.8% of its dropbacks, and Oklahoma’s defense sacks the quarterback on 10.4% of opponent dropbacks (FBS average 5.7%).",
-      "When South Carolina has the ball (big plays through the air): South Carolina’s offense turns 9.0% of its pass plays into explosive gains, and Oklahoma’s defense gives up explosive gains on 6.5% of opponent pass plays (FBS average 10.2%).",
-      "EdgeDesk’s position-group ratings put Oklahoma’s secondary No. 9 nationally and South Carolina’s No. 82.",
-      "EdgeDesk’s position-group ratings put Oklahoma’s linebackers No. 9 nationally and South Carolina’s No. 69."
-    ],
-    "quarterbacks": [
-      "John Mateer has completed 136 of 205 passes (66.3%) for 1,611 yards, 7.9 yards per attempt, 11 touchdowns and 7 interceptions in seven games for Oklahoma, and has been sacked on 16 of 221 dropbacks.",
-      "LaNorris Sellers has completed 133 of 220 passes (60.5%) for 1,548 yards, 7.0 yards per attempt, 13 touchdowns and 5 interceptions in seven games for South Carolina, and has been sacked on 15 of 235 dropbacks."
-    ],
-    "availability": [],
-    "script": {
-      "model": [
-        "South Carolina’s offense has to keep winning on third down: it converts 48.0% of its third downs, and Oklahoma’s defense allows opponents to convert 25.0% of their third downs.",
-        "South Carolina’s offense has to hold its own in the pass-rush matchup against a defense that sacks the quarterback on 10.4% of opponent dropbacks.",
-        "South Carolina’s offense has to hold its own on big pass plays against a defense that gives up explosive gains on 6.5% of opponent pass plays.",
-        "South Carolina’s defense has to come out ahead in the pass-rush matchup: it sacks the quarterback on 7.3% of opponent dropbacks, against an offense that has allowed a sack on 7.6% of its dropbacks."
-      ],
-      "market": [
-        "Oklahoma’s defense has to come out ahead in the pass-rush matchup: it sacks the quarterback on 10.4% of opponent dropbacks, against an offense that has allowed a sack on 4.8% of its dropbacks.",
-        "Oklahoma’s defense has to come out ahead on big pass plays: it gives up explosive gains on 6.5% of opponent pass plays, against an offense that turns 9.0% of its pass plays into explosive gains.",
-        "Oklahoma’s defense has to come out ahead on third down: it allows opponents to convert 25.0% of their third downs, against an offense that converts 48.0% of its third downs."
-      ]
-    },
-    "unknown": [
-      "EdgeDesk’s own sources disagree on sack rate allowed and sack rate for Oklahoma and South Carolina.",
-      "Not in EdgeDesk’s verified data for this game: turnover rates, injuries and personnel and penalty rate."
-    ],
-    "flags": [
-      {
-        "key": "DATA_CONFLICT",
-        "severity": "medium",
-        "text": "EdgeDesk’s own sources disagree on sack rate allowed (Oklahoma), sack rate (Oklahoma) and sack rate (South Carolina); the evidence uses the corroborated figures, and any model term built on the play-by-play figure may be off."
-      }
-    ],
-    "sources": [
-      {
-        "label": "EdgeDesk play-by-play metrics, quarterback logs and box scores",
-        "url": null,
-        "path": "football/matchup/metrics.json",
-        "observed_at": "2026-10-27T05:10:50.316Z",
-        "verification": "VERIFIED_DATA"
-      },
-      {
-        "label": "EdgeDesk position-group ratings",
-        "url": null,
-        "path": "football/rankings/current.json",
-        "observed_at": "2026-10-26T17:25:44.371Z",
-        "verification": "RATING"
-      },
-      {
-        "label": "EdgeDesk play-by-play quarterback logs (2026)",
-        "url": null,
-        "path": "football/fbs_epa/qb_epa_2026.json",
-        "observed_at": "2026-10-25T02:15:00.000Z",
-        "verification": "VERIFIED_DATA"
-      }
-    ],
-    "needs_confirmation": []
-  },
+  "football_evidence": null,
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-10-27T08:53:29.281Z"
+    "at": "2026-11-01T00:02:55.724Z"
   }
 }

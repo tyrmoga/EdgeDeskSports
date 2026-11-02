@@ -2,7 +2,7 @@
  "schema": "edgedesk_team_identity_v1_index",
  "version": 1,
  "season": 2026,
- "generated_at": "2026-10-27T12:17:16.984Z",
+ "generated_at": "2026-11-02T06:12:22.300Z",
  "note": "One dated identity per team: measured statistics (copied with their sample and source), sourced qualitative observations, and analytical inferences derived by a stated rule. A previous season’s identity never becomes this season’s; the season is a field and the trend block is within-season only.",
  "rules": {
   "measured": "copied from the named artifact; the only arithmetic is the NFL season rate (counts re-summed from the team-week rows) and the trend deltas",
@@ -12,25 +12,25 @@
  },
  "league_means": {
   "fbs": {
-   "pass_rate": 0.4402483660130721,
-   "plays_per_game": 63.29810126582275
+   "pass_rate": 0.43976045751634013,
+   "plays_per_game": 63.05078864353306
   },
   "nfl": {
-   "off_epa_play": 0.011295397215673814,
-   "pass_epa_db": 0.06083453215007612,
-   "rush_epa_att": -0.06960069809706,
-   "expl_pass": 0.08712249696646004,
-   "expl_rush": 0.09926655413348397,
-   "sack_rate_all": 0.06410565134132923,
-   "pass_rate": 0.5705446396342775,
-   "plays": 62.267113095238074,
-   "def_epa_play": 0.00898473489029776,
-   "def_pass_epa_db": 0.061530852882292854,
-   "def_rush_epa_att": -0.07289324158361969,
-   "def_expl_pass": 0.08623253057410503,
-   "def_expl_rush": 0.09823793039190064,
-   "sack_rate_made": 0.062241320465881,
-   "def_qb_hit_rate": 0.16592266782397344,
+   "off_epa_play": 0.006714621224013385,
+   "pass_epa_db": 0.05331760454445238,
+   "rush_epa_att": -0.07056857901179597,
+   "expl_pass": 0.08825987737945978,
+   "expl_rush": 0.09824200029546194,
+   "sack_rate_all": 0.0659683491432883,
+   "pass_rate": 0.5673526078789338,
+   "plays": 62.32700892857144,
+   "def_epa_play": 0.0037239234157260123,
+   "def_pass_epa_db": 0.05287524499048301,
+   "def_rush_epa_att": -0.0719948202395127,
+   "def_expl_pass": 0.08699017387730604,
+   "def_expl_rush": 0.09749768068649524,
+   "sack_rate_made": 0.06448309388029994,
+   "def_qb_hit_rate": 0.16716521636125312,
    "pts_for": null,
    "pts_against": null
   }
@@ -40,43 +40,43 @@
    "path": "football/rankings/current.json",
    "ok": true,
    "error": null,
-   "generated_at": "2026-10-26T17:25:44.371Z"
+   "generated_at": "2026-10-31T20:46:59.209Z"
   },
   "H": {
    "path": "football/rankings/history.json",
    "ok": true,
    "error": null,
-   "generated_at": "2026-10-26T17:25:44.371Z"
+   "generated_at": "2026-10-31T20:46:59.209Z"
   },
   "PL": {
    "path": "football/players/current.json",
    "ok": true,
    "error": null,
-   "generated_at": "2026-10-26T17:25:30.915Z"
+   "generated_at": "2026-10-31T20:46:39.491Z"
   },
   "EPA": {
    "path": "football/fbs_epa/qb_epa_2026.json",
    "ok": true,
    "error": null,
-   "generated_at": "2026-10-26T23:11:10.108Z"
+   "generated_at": "2026-11-01T22:55:17.547Z"
   },
   "SC": {
    "path": "football/starters/cfb_2026.json",
    "ok": true,
    "error": null,
-   "generated_at": "2026-10-26T23:10:56.259Z"
+   "generated_at": "2026-11-01T22:55:05.546Z"
   },
   "SN": {
    "path": "football/starters/nfl_2026.json",
    "ok": true,
    "error": null,
-   "generated_at": "2026-10-26T23:10:56.259Z"
+   "generated_at": "2026-11-01T22:55:05.546Z"
   },
   "C": {
    "path": "football/coaching/continuity.json",
    "ok": true,
    "error": null,
-   "generated_at": "2026-10-26T23:11:21.740Z"
+   "generated_at": "2026-11-01T22:55:26.160Z"
   },
   "TT": {
    "path": "football/players/team_talent.json",
@@ -88,47 +88,47 @@
    "path": "football/availability/current.json",
    "ok": true,
    "error": null,
-   "generated_at": "2026-10-27T12:02:13.161Z"
+   "generated_at": "2026-11-01T21:57:25.930Z"
   },
   "INJ": {
    "path": "football/injuries/nfl_2026.json",
    "ok": true,
    "error": null,
-   "generated_at": "2026-10-25T11:36:24.722Z"
+   "generated_at": "2026-11-01T13:30:56.695Z"
   },
   "BOX": {
    "path": "football/data/box/2026.json",
    "ok": true,
    "error": null,
-   "generated_at": "2026-10-25T18:40:10.231Z"
+   "generated_at": "2026-10-31T20:46:29.686Z"
   },
   "PR": {
    "path": "football/matchup/profiles_2026.json",
    "ok": true,
    "error": null,
-   "generated_at": "2026-10-26T23:11:16.114Z"
+   "generated_at": "2026-11-01T22:55:23.170Z"
   },
   "N": {
    "path": "football/nfl/slate.json",
    "ok": true,
    "error": null,
-   "generated_at": "2026-10-26T23:11:24.541Z"
+   "generated_at": "2026-11-02T06:12:06.212Z"
   },
   "VEN": {
    "path": "football/venues/resolved.json",
    "ok": true,
    "error": null,
-   "generated_at": "2026-10-26T23:11:16.768Z"
+   "generated_at": "2026-11-01T22:55:23.603Z"
   },
   "TW": {
    "path": "football/nfl/.cache/stats_team_week_2026.csv",
    "ok": true,
-   "retrieved_at": "2026-10-27T12:17:12.660Z"
+   "retrieved_at": "2026-11-02T06:12:18.077Z"
   },
   "QBW": {
    "path": "football/nfl/.cache/stats_player_week_2026.csv",
    "ok": true,
-   "retrieved_at": "2026-10-27T12:17:12.809Z"
+   "retrieved_at": "2026-11-02T06:12:18.127Z"
   },
   "DEPTH": {
    "path": "football/data/cache/nfl_depth_2026.csv",
@@ -146,13 +146,48 @@
   "nfl_with_report": 32
  },
  "teams": {
+  "alabama": {
+   "key": "alabama",
+   "team": "Alabama",
+   "league": "FBS",
+   "conference": "SEC",
+   "season": 2026,
+   "verified_at": "2026-11-01T22:55:26.160Z",
+   "file": "football/identity/teams/alabama.json",
+   "inferences": [
+    "pass-heavy offence",
+    "fast tempo (play-count proxy)",
+    "protection is a weakness",
+    "the pass rush does not get home",
+    "the front stops the run"
+   ],
+   "units": 22,
+   "games": 8
+  },
+  "eastcarolina": {
+   "key": "eastcarolina",
+   "team": "East Carolina",
+   "league": "FBS",
+   "conference": "American Athletic",
+   "season": 2026,
+   "verified_at": "2026-11-01T22:55:26.160Z",
+   "file": "football/identity/teams/eastcarolina.json",
+   "inferences": [
+    "pass-heavy offence",
+    "fast tempo (play-count proxy)",
+    "the pass rush does not get home",
+    "the front stops the run"
+   ],
+   "units": 22,
+   "games": 7
+  },
   "arkansas": {
    "key": "arkansas",
    "team": "Arkansas",
    "league": "FBS",
    "conference": "SEC",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/arkansas.json",
    "inferences": [
     "pass-heavy offence",
@@ -170,13 +205,14 @@
    "league": "FBS",
    "conference": "SEC",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/auburn.json",
    "inferences": [
     "pass-heavy offence",
     "fast tempo (play-count proxy)",
     "protection is a weakness",
     "the pass rush does not get home",
+    "the front stops the run",
     "a mostly new offensive line"
    ],
    "units": 22,
@@ -188,7 +224,7 @@
    "league": "FBS",
    "conference": "Big 12",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/baylor.json",
    "inferences": [
     "pass-heavy offence",
@@ -197,7 +233,7 @@
     "the pass rush does not get home"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "floridaatlantic": {
    "key": "floridaatlantic",
@@ -205,7 +241,7 @@
    "league": "FBS",
    "conference": "American Athletic",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/floridaatlantic.json",
    "inferences": [
     "pass-heavy offence",
@@ -214,7 +250,7 @@
     "gives up explosive passes (a proxy: coverage is not measured)"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "florida": {
    "key": "florida",
@@ -222,12 +258,11 @@
    "league": "FBS",
    "conference": "SEC",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/florida.json",
    "inferences": [
-    "balanced run/pass mix",
-    "fast tempo (play-count proxy)",
-    "the quarterback job is contested"
+    "pass-heavy offence",
+    "fast tempo (play-count proxy)"
    ],
    "units": 22,
    "games": 7
@@ -238,11 +273,96 @@
    "league": "FBS",
    "conference": "SEC",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/georgia.json",
    "inferences": [
     "balanced run/pass mix",
     "an intact offensive line"
+   ],
+   "units": 22,
+   "games": 7
+  },
+  "kentucky": {
+   "key": "kentucky",
+   "team": "Kentucky",
+   "league": "FBS",
+   "conference": "SEC",
+   "season": 2026,
+   "verified_at": "2026-11-01T22:55:26.160Z",
+   "file": "football/identity/teams/kentucky.json",
+   "inferences": [
+    "pass-heavy offence",
+    "fast tempo (play-count proxy)",
+    "methodical offence: on schedule, few explosives",
+    "heavy roster turnover"
+   ],
+   "units": 22,
+   "games": 8
+  },
+  "clemson": {
+   "key": "clemson",
+   "team": "Clemson",
+   "league": "FBS",
+   "conference": "ACC",
+   "season": 2026,
+   "verified_at": "2026-11-01T22:55:26.160Z",
+   "file": "football/identity/teams/clemson.json",
+   "inferences": [
+    "pass-heavy offence",
+    "fast tempo (play-count proxy)",
+    "protection is a weakness",
+    "moves the ball better than it finishes"
+   ],
+   "units": 22,
+   "games": 7
+  },
+  "lsu": {
+   "key": "lsu",
+   "team": "LSU",
+   "league": "FBS",
+   "conference": "SEC",
+   "season": 2026,
+   "verified_at": "2026-11-01T22:55:26.160Z",
+   "file": "football/identity/teams/lsu.json",
+   "inferences": [
+    "pass-heavy offence",
+    "fast tempo (play-count proxy)",
+    "methodical offence: on schedule, few explosives",
+    "the front stops the run",
+    "heavy roster turnover"
+   ],
+   "units": 22,
+   "games": 8
+  },
+  "olemiss": {
+   "key": "olemiss",
+   "team": "Ole Miss",
+   "league": "FBS",
+   "conference": "SEC",
+   "season": 2026,
+   "verified_at": "2026-11-01T22:55:26.160Z",
+   "file": "football/identity/teams/olemiss.json",
+   "inferences": [
+    "pass-heavy offence",
+    "fast tempo (play-count proxy)",
+    "protection is a strength"
+   ],
+   "units": 22,
+   "games": 7
+  },
+  "louisville": {
+   "key": "louisville",
+   "team": "Louisville",
+   "league": "FBS",
+   "conference": "ACC",
+   "season": 2026,
+   "verified_at": "2026-11-01T22:55:26.160Z",
+   "file": "football/identity/teams/louisville.json",
+   "inferences": [
+    "pass-heavy offence",
+    "fast tempo (play-count proxy)",
+    "protection is a weakness",
+    "heavy roster turnover"
    ],
    "units": 22,
    "games": 7
@@ -253,11 +373,10 @@
    "league": "FBS",
    "conference": "Sun Belt",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/ulmonroe.json",
    "inferences": [
     "balanced run/pass mix",
-    "slow tempo (play-count proxy)",
     "protection is a strength",
     "the pass rush gets home"
    ],
@@ -270,7 +389,7 @@
    "league": "FBS",
    "conference": "SEC",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/mississippistate.json",
    "inferences": [
     "pass-heavy offence",
@@ -285,11 +404,12 @@
    "league": "FBS",
    "conference": "SEC",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/missouri.json",
    "inferences": [
-    "pass-heavy offence",
+    "balanced run/pass mix",
     "fast tempo (play-count proxy)",
+    "explosive-dependent passing game",
     "protection is a strength",
     "the pass rush gets home",
     "the front stops the run"
@@ -303,15 +423,16 @@
    "league": "FBS",
    "conference": "Mountain West",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/utep.json",
    "inferences": [
-    "run-heavy offence",
+    "balanced run/pass mix",
     "slow tempo (play-count proxy)",
     "protection is a strength",
     "the pass rush gets home",
     "a mostly new offensive line",
-    "heavy roster turnover"
+    "heavy roster turnover",
+    "the quarterback job is contested"
    ],
    "units": 22,
    "games": 7
@@ -322,10 +443,11 @@
    "league": "FBS",
    "conference": "SEC",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/oklahoma.json",
    "inferences": [
-    "balanced run/pass mix",
+    "pass-heavy offence",
+    "fast tempo (play-count proxy)",
     "explosive-dependent passing game",
     "protection is a strength",
     "the pass rush gets home"
@@ -339,7 +461,7 @@
    "league": "FBS",
    "conference": "SEC",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/southcarolina.json",
    "inferences": [
     "balanced run/pass mix",
@@ -356,16 +478,17 @@
    "league": "FBS",
    "conference": "Mid-American",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/kentstate.json",
    "inferences": [
     "pass-heavy offence",
     "fast tempo (play-count proxy)",
     "the pass rush does not get home",
-    "gives up explosive passes (a proxy: coverage is not measured)"
+    "gives up explosive passes (a proxy: coverage is not measured)",
+    "moves the ball better than it finishes"
    ],
    "units": 22,
-   "games": 7
+   "games": 9
   },
   "tennessee": {
    "key": "tennessee",
@@ -373,7 +496,7 @@
    "league": "FBS",
    "conference": "SEC",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/tennessee.json",
    "inferences": [
     "balanced run/pass mix",
@@ -389,7 +512,7 @@
    "league": "FBS",
    "conference": "Pac-12",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/texasstate.json",
    "inferences": [
     "balanced run/pass mix",
@@ -406,7 +529,7 @@
    "league": "FBS",
    "conference": "SEC",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/texas.json",
    "inferences": [
     "balanced run/pass mix",
@@ -423,7 +546,7 @@
    "league": "FBS",
    "conference": "SEC",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/texasam.json",
    "inferences": [
     "balanced run/pass mix"
@@ -437,14 +560,14 @@
    "league": "FBS",
    "conference": "Conference USA",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/missouristate.json",
    "inferences": [
     "pass-heavy offence",
-    "gives up explosive passes (a proxy: coverage is not measured)"
+    "explosive-dependent passing game"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "vanderbilt": {
    "key": "vanderbilt",
@@ -452,7 +575,7 @@
    "league": "FBS",
    "conference": "SEC",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/vanderbilt.json",
    "inferences": [
     "balanced run/pass mix",
@@ -467,11 +590,10 @@
    "league": "FBS",
    "conference": "Big 12",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/tcu.json",
    "inferences": [
     "pass-heavy offence",
-    "fast tempo (play-count proxy)",
     "the pass rush gets home",
     "an intact offensive line"
    ],
@@ -484,7 +606,7 @@
    "league": "FBS",
    "conference": "ACC",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/northcarolina.json",
    "inferences": [
     "pass-heavy offence",
@@ -500,15 +622,16 @@
    "league": "FBS",
    "conference": "Big 12",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/ucf.json",
    "inferences": [
     "balanced run/pass mix",
     "protection is a strength",
+    "the pass rush gets home",
     "heavy roster turnover"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "utah": {
    "key": "utah",
@@ -516,11 +639,10 @@
    "league": "FBS",
    "conference": "Big 12",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/utah.json",
    "inferences": [
     "balanced run/pass mix",
-    "protection is a strength",
     "the front stops the run"
    ],
    "units": 22,
@@ -532,11 +654,12 @@
    "league": "FBS",
    "conference": "Big 12",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/kansas.json",
    "inferences": [
     "balanced run/pass mix",
-    "fast tempo (play-count proxy)"
+    "fast tempo (play-count proxy)",
+    "the quarterback job is contested"
    ],
    "units": 22,
    "games": 7
@@ -547,16 +670,18 @@
    "league": "FBS",
    "conference": "Big 12",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/texastech.json",
    "inferences": [
     "balanced run/pass mix",
     "methodical offence: on schedule, few explosives",
     "protection is a strength",
-    "an intact offensive line"
+    "the front stops the run",
+    "an intact offensive line",
+    "the quarterback job is contested"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "kansasstate": {
    "key": "kansasstate",
@@ -564,7 +689,7 @@
    "league": "FBS",
    "conference": "Big 12",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/kansasstate.json",
    "inferences": [
     "balanced run/pass mix",
@@ -580,7 +705,7 @@
    "league": "FBS",
    "conference": "American Athletic",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/tulsa.json",
    "inferences": [
     "balanced run/pass mix",
@@ -596,7 +721,7 @@
    "league": "FBS",
    "conference": "Big 12",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/oklahomastate.json",
    "inferences": [
     "pass-heavy offence",
@@ -615,16 +740,15 @@
    "league": "FBS",
    "conference": "Big 12",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/arizona.json",
    "inferences": [
     "pass-heavy offence",
     "fast tempo (play-count proxy)",
-    "protection is a weakness",
-    "the pass rush does not get home"
+    "protection is a weakness"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "arizonastate": {
    "key": "arizonastate",
@@ -632,7 +756,7 @@
    "league": "FBS",
    "conference": "Big 12",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/arizonastate.json",
    "inferences": [
     "pass-heavy offence",
@@ -649,7 +773,7 @@
    "league": "FBS",
    "conference": "Big 12",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/byu.json",
    "inferences": [
     "pass-heavy offence",
@@ -664,11 +788,12 @@
    "league": "FBS",
    "conference": "Pac-12",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/utahstate.json",
    "inferences": [
-    "pass-heavy offence",
-    "the pass rush gets home"
+    "balanced run/pass mix",
+    "the pass rush gets home",
+    "the quarterback job is contested"
    ],
    "units": 22,
    "games": 7
@@ -679,7 +804,7 @@
    "league": "FBS",
    "conference": "Big 12",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/colorado.json",
    "inferences": [
     "pass-heavy offence",
@@ -697,10 +822,11 @@
    "league": "FBS",
    "conference": "ACC",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/georgiatech.json",
    "inferences": [
     "pass-heavy offence",
+    "fast tempo (play-count proxy)",
     "gives up explosive passes (a proxy: coverage is not measured)"
    ],
    "units": 22,
@@ -712,7 +838,7 @@
    "league": "FBS",
    "conference": "Big 12",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/cincinnati.json",
    "inferences": [
     "balanced run/pass mix",
@@ -728,16 +854,17 @@
    "league": "FBS",
    "conference": "ACC",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/bostoncollege.json",
    "inferences": [
     "pass-heavy offence",
     "fast tempo (play-count proxy)",
     "protection is a weakness",
+    "the pass rush does not get home",
     "heavy roster turnover"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "oregonstate": {
    "key": "oregonstate",
@@ -745,7 +872,7 @@
    "league": "FBS",
    "conference": "Pac-12",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/oregonstate.json",
    "inferences": [
     "pass-heavy offence",
@@ -760,7 +887,7 @@
    "league": "FBS",
    "conference": "Big 12",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/houston.json",
    "inferences": [
     "pass-heavy offence",
@@ -775,10 +902,11 @@
    "league": "FBS",
    "conference": "Big 12",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/iowastate.json",
    "inferences": [
     "balanced run/pass mix",
+    "fast tempo (play-count proxy)",
     "a mostly new offensive line",
     "heavy roster turnover"
    ],
@@ -791,7 +919,7 @@
    "league": "FBS",
    "conference": "Sun Belt",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/coastalcarolina.json",
    "inferences": [
     "pass-heavy offence",
@@ -811,7 +939,7 @@
    "league": "FBS",
    "conference": "Big 12",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/westvirginia.json",
    "inferences": [
     "run-heavy offence",
@@ -831,7 +959,7 @@
    "league": "FBS",
    "conference": "Mountain West",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/hawaii.json",
    "inferences": [
     "pass-heavy offence",
@@ -848,7 +976,7 @@
    "league": "FBS",
    "conference": "ACC",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/stanford.json",
    "inferences": [
     "pass-heavy offence",
@@ -863,7 +991,7 @@
    "league": "FBS",
    "conference": "ACC",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/virginia.json",
    "inferences": [
     "balanced run/pass mix",
@@ -880,14 +1008,14 @@
    "league": "FBS",
    "conference": "ACC",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/ncstate.json",
    "inferences": [
     "pass-heavy offence",
     "fast tempo (play-count proxy)"
    ],
    "units": 22,
-   "games": 6
+   "games": 8
   },
   "wakeforest": {
    "key": "wakeforest",
@@ -895,7 +1023,7 @@
    "league": "FBS",
    "conference": "ACC",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/wakeforest.json",
    "inferences": [
     "balanced run/pass mix",
@@ -912,16 +1040,15 @@
    "league": "FBS",
    "conference": "Mid-American",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/akron.json",
    "inferences": [
     "pass-heavy offence",
     "fast tempo (play-count proxy)",
-    "protection is a weakness",
     "the pass rush does not get home"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "miami": {
    "key": "miami",
@@ -929,7 +1056,7 @@
    "league": "FBS",
    "conference": "ACC",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/miami.json",
    "inferences": [
     "pass-heavy offence",
@@ -944,15 +1071,14 @@
    "league": "FBS",
    "conference": "ACC",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/pittsburgh.json",
    "inferences": [
     "pass-heavy offence",
     "fast tempo (play-count proxy)",
     "protection is a strength",
     "the front stops the run",
-    "an intact offensive line",
-    "the quarterback job is contested"
+    "an intact offensive line"
    ],
    "units": 22,
    "games": 8
@@ -963,7 +1089,7 @@
    "league": "FBS",
    "conference": "Mid-American",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/miamioh.json",
    "inferences": [
     "balanced run/pass mix",
@@ -979,18 +1105,17 @@
    "league": "FBS",
    "conference": "ACC",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/syracuse.json",
    "inferences": [
     "balanced run/pass mix",
     "fast tempo (play-count proxy)",
     "protection is a strength",
     "the pass rush gets home",
-    "an intact offensive line",
-    "the quarterback job is contested"
+    "an intact offensive line"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "tulane": {
    "key": "tulane",
@@ -998,16 +1123,15 @@
    "league": "FBS",
    "conference": "American Athletic",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/tulane.json",
    "inferences": [
     "balanced run/pass mix",
-    "slow tempo (play-count proxy)",
     "the pass rush gets home",
     "gives up explosive passes (a proxy: coverage is not measured)"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "duke": {
    "key": "duke",
@@ -1015,17 +1139,16 @@
    "league": "FBS",
    "conference": "ACC",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/duke.json",
    "inferences": [
     "pass-heavy offence",
     "fast tempo (play-count proxy)",
-    "the pass rush does not get home",
     "the front stops the run",
     "an intact offensive line"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "ucla": {
    "key": "ucla",
@@ -1033,7 +1156,7 @@
    "league": "FBS",
    "conference": "Big Ten",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/ucla.json",
    "inferences": [
     "run-heavy offence",
@@ -1051,17 +1174,16 @@
    "league": "FBS",
    "conference": "ACC",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/california.json",
    "inferences": [
     "pass-heavy offence",
     "fast tempo (play-count proxy)",
-    "protection is a strength",
     "the pass rush does not get home",
     "gives up explosive passes (a proxy: coverage is not measured)"
    ],
    "units": 22,
-   "games": 8
+   "games": 9
   },
   "virginiatech": {
    "key": "virginiatech",
@@ -1069,7 +1191,7 @@
    "league": "FBS",
    "conference": "ACC",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/virginiatech.json",
    "inferences": [
     "pass-heavy offence",
@@ -1087,16 +1209,14 @@
    "league": "FBS",
    "conference": "ACC",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/smu.json",
    "inferences": [
     "pass-heavy offence",
-    "fast tempo (play-count proxy)",
-    "protection is a strength",
-    "the pass rush gets home"
+    "fast tempo (play-count proxy)"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "floridastate": {
    "key": "floridastate",
@@ -1104,7 +1224,7 @@
    "league": "FBS",
    "conference": "ACC",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/floridastate.json",
    "inferences": [
     "balanced run/pass mix",
@@ -1123,7 +1243,7 @@
    "league": "FBS",
    "conference": "Big Ten",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/minnesota.json",
    "inferences": [
     "pass-heavy offence"
@@ -1137,13 +1257,13 @@
    "league": "FBS",
    "conference": "Big Ten",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/rutgers.json",
    "inferences": [
     "balanced run/pass mix"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "massachusetts": {
    "key": "massachusetts",
@@ -1151,7 +1271,7 @@
    "league": "FBS",
    "conference": "Mid-American",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/massachusetts.json",
    "inferences": [
     "pass-heavy offence",
@@ -1161,7 +1281,7 @@
     "the quarterback job is contested"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "uab": {
    "key": "uab",
@@ -1169,14 +1289,14 @@
    "league": "FBS",
    "conference": "American Athletic",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/uab.json",
    "inferences": [
     "run-heavy offence",
     "the pass rush gets home"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "illinois": {
    "key": "illinois",
@@ -1184,17 +1304,16 @@
    "league": "FBS",
    "conference": "Big Ten",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/illinois.json",
    "inferences": [
     "pass-heavy offence",
     "fast tempo (play-count proxy)",
-    "methodical offence: on schedule, few explosives",
     "the pass rush does not get home",
     "the quarterback job is contested"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "northtexas": {
    "key": "northtexas",
@@ -1202,7 +1321,7 @@
    "league": "FBS",
    "conference": "American Athletic",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/northtexas.json",
    "inferences": [
     "pass-heavy offence",
@@ -1212,7 +1331,7 @@
     "heavy roster turnover"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "indiana": {
    "key": "indiana",
@@ -1220,10 +1339,10 @@
    "league": "FBS",
    "conference": "Big Ten",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/indiana.json",
    "inferences": [
-    "balanced run/pass mix",
+    "pass-heavy offence",
     "fast tempo (play-count proxy)",
     "protection is a weakness",
     "the front stops the run"
@@ -1237,15 +1356,14 @@
    "league": "FBS",
    "conference": "Big Ten",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/iowa.json",
    "inferences": [
     "pass-heavy offence",
-    "fast tempo (play-count proxy)",
-    "protection is a weakness"
+    "fast tempo (play-count proxy)"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "northernillinois": {
    "key": "northernillinois",
@@ -1253,11 +1371,10 @@
    "league": "FBS",
    "conference": "Mountain West",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/northernillinois.json",
    "inferences": [
     "pass-heavy offence",
-    "protection is a strength",
     "gives up explosive passes (a proxy: coverage is not measured)"
    ],
    "units": 22,
@@ -1269,7 +1386,7 @@
    "league": "FBS",
    "conference": "Big Ten",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/maryland.json",
    "inferences": [
     "pass-heavy offence",
@@ -1278,7 +1395,7 @@
     "an intact offensive line"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "westernmichigan": {
    "key": "westernmichigan",
@@ -1286,16 +1403,15 @@
    "league": "FBS",
    "conference": "Mid-American",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/westernmichigan.json",
    "inferences": [
     "run-heavy offence",
     "slow tempo (play-count proxy)",
-    "the pass rush gets home",
-    "gives up explosive passes (a proxy: coverage is not measured)"
+    "the pass rush gets home"
    ],
    "units": 22,
-   "games": 8
+   "games": 9
   },
   "michigan": {
    "key": "michigan",
@@ -1303,14 +1419,14 @@
    "league": "FBS",
    "conference": "Big Ten",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/michigan.json",
    "inferences": [
     "balanced run/pass mix",
     "fast tempo (play-count proxy)"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "toledo": {
    "key": "toledo",
@@ -1318,12 +1434,11 @@
    "league": "FBS",
    "conference": "Mid-American",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/toledo.json",
    "inferences": [
     "balanced run/pass mix",
-    "fast tempo (play-count proxy)",
-    "protection is a strength"
+    "fast tempo (play-count proxy)"
    ],
    "units": 22,
    "games": 8
@@ -1334,7 +1449,7 @@
    "league": "FBS",
    "conference": "Big Ten",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/michiganstate.json",
    "inferences": [
     "pass-heavy offence",
@@ -1350,13 +1465,13 @@
    "league": "FBS",
    "conference": "Mid-American",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/ohio.json",
    "inferences": [
     "balanced run/pass mix"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "nebraska": {
    "key": "nebraska",
@@ -1364,7 +1479,7 @@
    "league": "FBS",
    "conference": "Big Ten",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/nebraska.json",
    "inferences": [
     "pass-heavy offence",
@@ -1380,10 +1495,11 @@
    "league": "FBS",
    "conference": "Big Ten",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/northwestern.json",
    "inferences": [
-    "balanced run/pass mix"
+    "balanced run/pass mix",
+    "fast tempo (play-count proxy)"
    ],
    "units": 22,
    "games": 7
@@ -1394,7 +1510,7 @@
    "league": "FBS",
    "conference": "Mid-American",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/ballstate.json",
    "inferences": [
     "pass-heavy offence",
@@ -1402,7 +1518,7 @@
     "the pass rush does not get home"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "ohiostate": {
    "key": "ohiostate",
@@ -1410,10 +1526,12 @@
    "league": "FBS",
    "conference": "Big Ten",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/ohiostate.json",
    "inferences": [
-    "balanced run/pass mix"
+    "balanced run/pass mix",
+    "fast tempo (play-count proxy)",
+    "the quarterback job is contested"
    ],
    "units": 22,
    "games": 7
@@ -1424,7 +1542,7 @@
    "league": "FBS",
    "conference": "Big Ten",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/oregon.json",
    "inferences": [
     "pass-heavy offence",
@@ -1442,12 +1560,11 @@
    "league": "FBS",
    "conference": "Pac-12",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/boisestate.json",
    "inferences": [
-    "balanced run/pass mix",
+    "pass-heavy offence",
     "fast tempo (play-count proxy)",
-    "protection is a weakness",
     "the pass rush does not get home",
     "gives up explosive passes (a proxy: coverage is not measured)"
    ],
@@ -1460,10 +1577,10 @@
    "league": "FBS",
    "conference": "Big Ten",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/pennstate.json",
    "inferences": [
-    "pass-heavy offence",
+    "balanced run/pass mix",
     "fast tempo (play-count proxy)",
     "heavy roster turnover"
    ],
@@ -1476,10 +1593,11 @@
    "league": "FBS",
    "conference": "Sun Belt",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/marshall.json",
    "inferences": [
-    "balanced run/pass mix"
+    "balanced run/pass mix",
+    "fast tempo (play-count proxy)"
    ],
    "units": 22,
    "games": 7
@@ -1490,12 +1608,10 @@
    "league": "FBS",
    "conference": "Big Ten",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/purdue.json",
    "inferences": [
     "pass-heavy offence",
-    "fast tempo (play-count proxy)",
-    "protection is a strength",
     "gives up explosive passes (a proxy: coverage is not measured)"
    ],
    "units": 22,
@@ -1507,12 +1623,11 @@
    "league": "FBS",
    "conference": "Pac-12",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/fresnostate.json",
    "inferences": [
     "pass-heavy offence",
     "fast tempo (play-count proxy)",
-    "protection is a weakness",
     "the pass rush does not get home",
     "an intact offensive line"
    ],
@@ -1525,11 +1640,10 @@
    "league": "FBS",
    "conference": "Big Ten",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/usc.json",
    "inferences": [
-    "pass-heavy offence",
-    "fast tempo (play-count proxy)"
+    "pass-heavy offence"
    ],
    "units": 22,
    "games": 8
@@ -1540,7 +1654,7 @@
    "league": "FBS",
    "conference": "Big Ten",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/washington.json",
    "inferences": [
     "pass-heavy offence",
@@ -1557,10 +1671,10 @@
    "league": "FBS",
    "conference": "Pac-12",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/washingtonstate.json",
    "inferences": [
-    "balanced run/pass mix",
+    "pass-heavy offence",
     "slow tempo (play-count proxy)",
     "protection is a strength",
     "the pass rush gets home",
@@ -1575,16 +1689,17 @@
    "league": "FBS",
    "conference": "FBS Independents",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/notredame.json",
    "inferences": [
     "balanced run/pass mix",
     "fast tempo (play-count proxy)",
+    "methodical offence: on schedule, few explosives",
     "the front stops the run",
     "an intact offensive line"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "wisconsin": {
    "key": "wisconsin",
@@ -1592,16 +1707,15 @@
    "league": "FBS",
    "conference": "Big Ten",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/wisconsin.json",
    "inferences": [
     "balanced run/pass mix",
     "slow tempo (play-count proxy)",
-    "protection is a strength",
-    "the pass rush gets home"
+    "protection is a strength"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "wyoming": {
    "key": "wyoming",
@@ -1609,7 +1723,7 @@
    "league": "FBS",
    "conference": "Mountain West",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/wyoming.json",
    "inferences": [
     "run-heavy offence",
@@ -1627,14 +1741,13 @@
    "league": "FBS",
    "conference": "Pac-12",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/coloradostate.json",
    "inferences": [
     "pass-heavy offence",
     "fast tempo (play-count proxy)",
     "protection is a strength",
-    "gives up explosive passes (a proxy: coverage is not measured)",
-    "the quarterback job is contested"
+    "gives up explosive passes (a proxy: coverage is not measured)"
    ],
    "units": 22,
    "games": 7
@@ -1645,7 +1758,7 @@
    "league": "FBS",
    "conference": "Pac-12",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/sandiegostate.json",
    "inferences": [
     "balanced run/pass mix",
@@ -1661,7 +1774,7 @@
    "league": "FBS",
    "conference": "FBS Independents",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/uconn.json",
    "inferences": [
     "balanced run/pass mix",
@@ -1679,7 +1792,7 @@
    "league": "FBS",
    "conference": "American Athletic",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/memphis.json",
    "inferences": [
     "balanced run/pass mix",
@@ -1697,15 +1810,15 @@
    "league": "FBS",
    "conference": "Mountain West",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/unlv.json",
    "inferences": [
-    "run-heavy offence",
+    "balanced run/pass mix",
     "the pass rush gets home",
     "a mostly new offensive line"
    ],
    "units": 22,
-   "games": 6
+   "games": 7
   },
   "charlotte": {
    "key": "charlotte",
@@ -1713,16 +1826,16 @@
    "league": "FBS",
    "conference": "American Athletic",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/charlotte.json",
    "inferences": [
     "pass-heavy offence",
-    "protection is a weakness",
+    "fast tempo (play-count proxy)",
     "the pass rush does not get home",
     "a mostly new offensive line"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "arkansasstate": {
    "key": "arkansasstate",
@@ -1730,12 +1843,11 @@
    "league": "FBS",
    "conference": "Sun Belt",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/arkansasstate.json",
    "inferences": [
     "pass-heavy offence",
     "fast tempo (play-count proxy)",
-    "protection is a weakness",
     "the pass rush does not get home",
     "gives up explosive passes (a proxy: coverage is not measured)"
    ],
@@ -1748,7 +1860,7 @@
    "league": "FBS",
    "conference": "American Athletic",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/navy.json",
    "inferences": [
     "run-heavy offence",
@@ -1758,7 +1870,7 @@
     "an intact offensive line"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "rice": {
    "key": "rice",
@@ -1766,7 +1878,7 @@
    "league": "FBS",
    "conference": "American Athletic",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/rice.json",
    "inferences": [
     "run-heavy offence",
@@ -1782,10 +1894,11 @@
    "league": "FBS",
    "conference": "American Athletic",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/temple.json",
    "inferences": [
-    "run-heavy offence",
+    "balanced run/pass mix",
+    "slow tempo (play-count proxy)",
     "explosive-dependent passing game",
     "gives up explosive passes (a proxy: coverage is not measured)"
    ],
@@ -1798,7 +1911,7 @@
    "league": "FBS",
    "conference": "Conference USA",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/floridainternational.json",
    "inferences": [
     "pass-heavy offence",
@@ -1815,15 +1928,16 @@
    "league": "FBS",
    "conference": "American Athletic",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/southflorida.json",
    "inferences": [
     "run-heavy offence",
     "slow tempo (play-count proxy)",
+    "protection is a weakness",
     "heavy roster turnover"
    ],
-   "units": 19,
-   "games": 7
+   "units": 22,
+   "games": 8
   },
   "utsa": {
    "key": "utsa",
@@ -1831,7 +1945,7 @@
    "league": "FBS",
    "conference": "American Athletic",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/utsa.json",
    "inferences": [
     "balanced run/pass mix",
@@ -1847,11 +1961,12 @@
    "league": "FBS",
    "conference": "American Athletic",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/army.json",
    "inferences": [
     "run-heavy offence",
     "fast tempo (play-count proxy)",
+    "methodical offence: on schedule, few explosives",
     "protection is a weakness",
     "the pass rush does not get home",
     "gives up explosive passes (a proxy: coverage is not measured)",
@@ -1866,16 +1981,16 @@
    "league": "FBS",
    "conference": "Conference USA",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/delaware.json",
    "inferences": [
     "pass-heavy offence",
     "fast tempo (play-count proxy)",
-    "protection is a weakness",
-    "the quarterback job is contested"
+    "explosive-dependent passing game",
+    "protection is a weakness"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "kennesawstate": {
    "key": "kennesawstate",
@@ -1883,7 +1998,7 @@
    "league": "FBS",
    "conference": "Conference USA",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/kennesawstate.json",
    "inferences": [
     "pass-heavy offence",
@@ -1892,7 +2007,7 @@
     "heavy roster turnover"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "westernkentucky": {
    "key": "westernkentucky",
@@ -1900,16 +2015,15 @@
    "league": "FBS",
    "conference": "Conference USA",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/westernkentucky.json",
    "inferences": [
     "balanced run/pass mix",
     "protection is a strength",
-    "the pass rush gets home",
     "a mostly new offensive line"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "nevada": {
    "key": "nevada",
@@ -1917,12 +2031,11 @@
    "league": "FBS",
    "conference": "Mountain West",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/nevada.json",
    "inferences": [
-    "balanced run/pass mix",
-    "fast tempo (play-count proxy)",
-    "the quarterback job is contested"
+    "pass-heavy offence",
+    "fast tempo (play-count proxy)"
    ],
    "units": 22,
    "games": 7
@@ -1933,10 +2046,9 @@
    "league": "FBS",
    "conference": "Mountain West",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/sanjosestate.json",
    "inferences": [
-    "protection is a weakness",
     "the pass rush gets home",
     "moves the ball better than it finishes"
    ],
@@ -1949,7 +2061,7 @@
    "league": "FBS",
    "conference": "Mid-American",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/easternmichigan.json",
    "inferences": [
     "pass-heavy offence",
@@ -1960,7 +2072,7 @@
     "the quarterback job is contested"
    ],
    "units": 22,
-   "games": 8
+   "games": 9
   },
   "airforce": {
    "key": "airforce",
@@ -1968,7 +2080,7 @@
    "league": "FBS",
    "conference": "Mountain West",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/airforce.json",
    "inferences": [
     "run-heavy offence",
@@ -1987,12 +2099,11 @@
    "league": "FBS",
    "conference": "Mid-American",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/centralmichigan.json",
    "inferences": [
     "balanced run/pass mix",
     "fast tempo (play-count proxy)",
-    "protection is a weakness",
     "gives up explosive passes (a proxy: coverage is not measured)",
     "the quarterback job is contested"
    ],
@@ -2005,15 +2116,15 @@
    "league": "FBS",
    "conference": "Mountain West",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/newmexico.json",
    "inferences": [
     "run-heavy offence",
-    "the pass rush gets home",
+    "explosive-dependent passing game",
     "the front stops the run"
    ],
    "units": 22,
-   "games": 6
+   "games": 7
   },
   "northdakotastate": {
    "key": "northdakotastate",
@@ -2021,7 +2132,7 @@
    "league": "FBS",
    "conference": "Mountain West",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/northdakotastate.json",
    "inferences": [
     "balanced run/pass mix",
@@ -2038,13 +2149,14 @@
    "league": "FBS",
    "conference": "Conference USA",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/newmexicostate.json",
    "inferences": [
-    "balanced run/pass mix"
+    "balanced run/pass mix",
+    "moves the ball better than it finishes"
    ],
    "units": 22,
-   "games": 6
+   "games": 8
   },
   "jacksonvillestate": {
    "key": "jacksonvillestate",
@@ -2052,14 +2164,13 @@
    "league": "FBS",
    "conference": "Conference USA",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/jacksonvillestate.json",
    "inferences": [
-    "balanced run/pass mix",
-    "moves the ball better than it finishes"
+    "balanced run/pass mix"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "sacramentostate": {
    "key": "sacramentostate",
@@ -2067,15 +2178,16 @@
    "league": "FBS",
    "conference": "Mid-American",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/sacramentostate.json",
    "inferences": [
-    "pass-heavy offence",
+    "balanced run/pass mix",
     "slow tempo (play-count proxy)",
-    "gives up explosive passes (a proxy: coverage is not measured)"
+    "gives up explosive passes (a proxy: coverage is not measured)",
+    "moves the ball better than it finishes"
    ],
    "units": 22,
-   "games": 7
+   "games": 9
   },
   "buffalo": {
    "key": "buffalo",
@@ -2083,17 +2195,16 @@
    "league": "FBS",
    "conference": "Mid-American",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/buffalo.json",
    "inferences": [
     "pass-heavy offence",
     "fast tempo (play-count proxy)",
-    "protection is a weakness",
     "the pass rush does not get home",
     "moves the ball better than it finishes"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "bowlinggreen": {
    "key": "bowlinggreen",
@@ -2101,17 +2212,17 @@
    "league": "FBS",
    "conference": "Mid-American",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/bowlinggreen.json",
    "inferences": [
-    "balanced run/pass mix",
+    "pass-heavy offence",
     "protection is a weakness",
     "gives up explosive passes (a proxy: coverage is not measured)",
     "moves the ball better than it finishes",
     "heavy roster turnover"
    ],
    "units": 22,
-   "games": 8
+   "games": 9
   },
   "georgiastate": {
    "key": "georgiastate",
@@ -2119,13 +2230,12 @@
    "league": "FBS",
    "conference": "Sun Belt",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/georgiastate.json",
    "inferences": [
     "pass-heavy offence",
     "fast tempo (play-count proxy)",
-    "gives up explosive passes (a proxy: coverage is not measured)",
-    "the quarterback job is contested"
+    "gives up explosive passes (a proxy: coverage is not measured)"
    ],
    "units": 22,
    "games": 7
@@ -2136,18 +2246,17 @@
    "league": "FBS",
    "conference": "Sun Belt",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/appstate.json",
    "inferences": [
     "pass-heavy offence",
     "fast tempo (play-count proxy)",
-    "protection is a weakness",
     "the pass rush does not get home",
     "a mostly new offensive line",
     "heavy roster turnover"
    ],
    "units": 22,
-   "games": 6
+   "games": 7
   },
   "middletennessee": {
    "key": "middletennessee",
@@ -2155,15 +2264,14 @@
    "league": "FBS",
    "conference": "Conference USA",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/middletennessee.json",
    "inferences": [
     "pass-heavy offence",
-    "slow tempo (play-count proxy)",
-    "protection is a strength"
+    "slow tempo (play-count proxy)"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "olddominion": {
    "key": "olddominion",
@@ -2171,7 +2279,7 @@
    "league": "FBS",
    "conference": "Sun Belt",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/olddominion.json",
    "inferences": [
     "balanced run/pass mix",
@@ -2188,12 +2296,11 @@
    "league": "FBS",
    "conference": "Sun Belt",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/georgiasouthern.json",
    "inferences": [
     "pass-heavy offence",
-    "fast tempo (play-count proxy)",
-    "the pass rush does not get home"
+    "fast tempo (play-count proxy)"
    ],
    "units": 22,
    "games": 7
@@ -2204,16 +2311,15 @@
    "league": "FBS",
    "conference": "Sun Belt",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/southalabama.json",
    "inferences": [
     "run-heavy offence",
     "fast tempo (play-count proxy)",
-    "protection is a strength",
     "gives up explosive passes (a proxy: coverage is not measured)"
    ],
    "units": 22,
-   "games": 6
+   "games": 7
   },
   "southernmiss": {
    "key": "southernmiss",
@@ -2221,7 +2327,7 @@
    "league": "FBS",
    "conference": "Sun Belt",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/southernmiss.json",
    "inferences": [
     "pass-heavy offence",
@@ -2237,7 +2343,7 @@
    "league": "FBS",
    "conference": "Sun Belt",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/louisianatech.json",
    "inferences": [
     "pass-heavy offence",
@@ -2255,7 +2361,7 @@
    "league": "FBS",
    "conference": "Sun Belt",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/louisiana.json",
    "inferences": [
     "balanced run/pass mix",
@@ -2271,14 +2377,14 @@
    "league": "FBS",
    "conference": "Sun Belt",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/jamesmadison.json",
    "inferences": [
     "pass-heavy offence",
     "fast tempo (play-count proxy)"
    ],
    "units": 22,
-   "games": 8
+   "games": 9
   },
   "liberty": {
    "key": "liberty",
@@ -2286,7 +2392,7 @@
    "league": "FBS",
    "conference": "Conference USA",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/liberty.json",
    "inferences": [
     "run-heavy offence"
@@ -2300,14 +2406,17 @@
    "league": "FBS",
    "conference": "Conference USA",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/samhouston.json",
    "inferences": [
     "pass-heavy offence",
-    "fast tempo (play-count proxy)"
+    "fast tempo (play-count proxy)",
+    "the pass rush gets home",
+    "moves the ball better than it finishes",
+    "the quarterback job is contested"
    ],
    "units": 22,
-   "games": 7
+   "games": 8
   },
   "troy": {
    "key": "troy",
@@ -2315,136 +2424,14 @@
    "league": "FBS",
    "conference": "Sun Belt",
    "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
+   "verified_at": "2026-11-01T22:55:26.160Z",
    "file": "football/identity/teams/troy.json",
    "inferences": [
     "balanced run/pass mix",
     "fast tempo (play-count proxy)"
    ],
    "units": 22,
-   "games": 7
-  },
-  "kentucky": {
-   "key": "kentucky",
-   "team": "Kentucky",
-   "league": "FBS",
-   "conference": "SEC",
-   "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
-   "file": "football/identity/teams/kentucky.json",
-   "inferences": [
-    "pass-heavy offence",
-    "fast tempo (play-count proxy)",
-    "heavy roster turnover"
-   ],
-   "units": 22,
-   "games": 6
-  },
-  "alabama": {
-   "key": "alabama",
-   "team": "Alabama",
-   "league": "FBS",
-   "conference": "SEC",
-   "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
-   "file": "football/identity/teams/alabama.json",
-   "inferences": [
-    "pass-heavy offence",
-    "fast tempo (play-count proxy)",
-    "protection is a weakness",
-    "the pass rush does not get home",
-    "the front stops the run"
-   ],
-   "units": 22,
-   "games": 7
-  },
-  "olemiss": {
-   "key": "olemiss",
-   "team": "Ole Miss",
-   "league": "FBS",
-   "conference": "SEC",
-   "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
-   "file": "football/identity/teams/olemiss.json",
-   "inferences": [
-    "pass-heavy offence",
-    "fast tempo (play-count proxy)",
-    "protection is a strength"
-   ],
-   "units": 22,
-   "games": 6
-  },
-  "louisville": {
-   "key": "louisville",
-   "team": "Louisville",
-   "league": "FBS",
-   "conference": "ACC",
-   "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
-   "file": "football/identity/teams/louisville.json",
-   "inferences": [
-    "pass-heavy offence",
-    "fast tempo (play-count proxy)",
-    "protection is a weakness",
-    "heavy roster turnover"
-   ],
-   "units": 22,
-   "games": 6
-  },
-  "clemson": {
-   "key": "clemson",
-   "team": "Clemson",
-   "league": "FBS",
-   "conference": "ACC",
-   "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
-   "file": "football/identity/teams/clemson.json",
-   "inferences": [
-    "pass-heavy offence",
-    "fast tempo (play-count proxy)",
-    "protection is a weakness",
-    "moves the ball better than it finishes"
-   ],
-   "units": 22,
-   "games": 6
-  },
-  "eastcarolina": {
-   "key": "eastcarolina",
-   "team": "East Carolina",
-   "league": "FBS",
-   "conference": "American Athletic",
-   "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
-   "file": "football/identity/teams/eastcarolina.json",
-   "inferences": [
-    "pass-heavy offence",
-    "fast tempo (play-count proxy)",
-    "protection is a weakness",
-    "the pass rush does not get home",
-    "the front stops the run",
-    "moves the ball better than it finishes",
-    "the quarterback job is contested"
-   ],
-   "units": 22,
-   "games": 6
-  },
-  "lsu": {
-   "key": "lsu",
-   "team": "LSU",
-   "league": "FBS",
-   "conference": "SEC",
-   "season": 2026,
-   "verified_at": "2026-10-26T23:11:21.740Z",
-   "file": "football/identity/teams/lsu.json",
-   "inferences": [
-    "pass-heavy offence",
-    "fast tempo (play-count proxy)",
-    "methodical offence: on schedule, few explosives",
-    "the front stops the run",
-    "heavy roster turnover"
-   ],
-   "units": 22,
-   "games": 7
+   "games": 8
   },
   "ari": {
    "key": "ari",
@@ -2452,7 +2439,7 @@
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/ari.json",
    "inferences": [
     "balanced run/pass mix",
@@ -2460,7 +2447,7 @@
     "gives up explosive passes (a proxy: coverage is not measured)"
    ],
    "units": 15,
-   "games": 7
+   "games": 8
   },
   "phi": {
    "key": "phi",
@@ -2468,15 +2455,14 @@
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/phi.json",
    "inferences": [
     "balanced run/pass mix",
-    "the pass rush does not get home",
-    "the quarterback job is contested"
+    "the pass rush does not get home"
    ],
    "units": 15,
-   "games": 7
+   "games": 8
   },
   "buf": {
    "key": "buf",
@@ -2484,15 +2470,13 @@
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/buf.json",
    "inferences": [
-    "run-heavy offence",
-    "the pass rush does not get home",
-    "gives up explosive passes (a proxy: coverage is not measured)"
+    "run-heavy offence"
    ],
    "units": 15,
-   "games": 6
+   "games": 7
   },
   "ind": {
    "key": "ind",
@@ -2500,13 +2484,13 @@
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/ind.json",
    "inferences": [
     "balanced run/pass mix"
    ],
    "units": 15,
-   "games": 7
+   "games": 8
   },
   "car": {
    "key": "car",
@@ -2514,14 +2498,14 @@
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/car.json",
    "inferences": [
     "pass-heavy offence",
     "the pass rush does not get home"
    ],
    "units": 15,
-   "games": 6
+   "games": 7
   },
   "no": {
    "key": "no",
@@ -2529,10 +2513,10 @@
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/no.json",
    "inferences": [
-    "balanced run/pass mix",
+    "pass-heavy offence",
     "gives up explosive passes (a proxy: coverage is not measured)"
    ],
    "units": 15,
@@ -2544,16 +2528,15 @@
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/cin.json",
    "inferences": [
     "pass-heavy offence",
-    "methodical offence: on schedule, few explosives",
     "protection is a strength",
     "the pass rush gets home"
    ],
    "units": 15,
-   "games": 6
+   "games": 7
   },
   "ten": {
    "key": "ten",
@@ -2561,7 +2544,7 @@
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/ten.json",
    "inferences": [
     "balanced run/pass mix",
@@ -2569,7 +2552,7 @@
     "gives up explosive passes (a proxy: coverage is not measured)"
    ],
    "units": 15,
-   "games": 7
+   "games": 8
   },
   "dal": {
    "key": "dal",
@@ -2577,17 +2560,15 @@
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/dal.json",
    "inferences": [
-    "pass-heavy offence",
+    "balanced run/pass mix",
     "methodical offence: on schedule, few explosives",
-    "protection is a strength",
-    "the pass rush does not get home",
-    "gives up explosive passes (a proxy: coverage is not measured)"
+    "protection is a strength"
    ],
    "units": 15,
-   "games": 7
+   "games": 8
   },
   "was": {
    "key": "was",
@@ -2595,13 +2576,13 @@
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/was.json",
    "inferences": [
     "balanced run/pass mix"
    ],
    "units": 15,
-   "games": 6
+   "games": 7
   },
   "det": {
    "key": "det",
@@ -2609,14 +2590,14 @@
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/det.json",
    "inferences": [
     "balanced run/pass mix",
     "gives up explosive passes (a proxy: coverage is not measured)"
    ],
    "units": 15,
-   "games": 6
+   "games": 7
   },
   "sea": {
    "key": "sea",
@@ -2624,7 +2605,7 @@
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/sea.json",
    "inferences": [
     "balanced run/pass mix"
@@ -2638,7 +2619,7 @@
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/chi.json",
    "inferences": [
     "balanced run/pass mix",
@@ -2655,7 +2636,7 @@
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/kc.json",
    "inferences": [
     "balanced run/pass mix",
@@ -2664,7 +2645,7 @@
     "the pass rush does not get home"
    ],
    "units": 15,
-   "games": 6
+   "games": 7
   },
   "atl": {
    "key": "atl",
@@ -2672,13 +2653,13 @@
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/atl.json",
    "inferences": [
     "balanced run/pass mix"
    ],
    "units": 15,
-   "games": 7
+   "games": 8
   },
   "min": {
    "key": "min",
@@ -2686,38 +2667,8 @@
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/min.json",
-   "inferences": [
-    "run-heavy offence",
-    "protection is a weakness",
-    "the pass rush gets home"
-   ],
-   "units": 15,
-   "games": 6
-  },
-  "ne": {
-   "key": "ne",
-   "team": "New England Patriots",
-   "league": "NFL",
-   "conference": null,
-   "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
-   "file": "football/identity/teams/ne.json",
-   "inferences": [
-    "balanced run/pass mix"
-   ],
-   "units": 15,
-   "games": 7
-  },
-  "nyj": {
-   "key": "nyj",
-   "team": "New York Jets",
-   "league": "NFL",
-   "conference": null,
-   "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
-   "file": "football/identity/teams/nyj.json",
    "inferences": [
     "balanced run/pass mix",
     "protection is a weakness",
@@ -2726,13 +2677,43 @@
    "units": 15,
    "games": 7
   },
+  "ne": {
+   "key": "ne",
+   "team": "New England Patriots",
+   "league": "NFL",
+   "conference": null,
+   "season": 2026,
+   "verified_at": "2026-11-02T06:12:18.077Z",
+   "file": "football/identity/teams/ne.json",
+   "inferences": [
+    "balanced run/pass mix",
+    "the pass rush gets home"
+   ],
+   "units": 15,
+   "games": 8
+  },
+  "nyj": {
+   "key": "nyj",
+   "team": "New York Jets",
+   "league": "NFL",
+   "conference": null,
+   "season": 2026,
+   "verified_at": "2026-11-02T06:12:18.077Z",
+   "file": "football/identity/teams/nyj.json",
+   "inferences": [
+    "balanced run/pass mix",
+    "protection is a weakness"
+   ],
+   "units": 15,
+   "games": 8
+  },
   "nyg": {
    "key": "nyg",
    "team": "New York Giants",
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/nyg.json",
    "inferences": [
     "balanced run/pass mix",
@@ -2748,14 +2729,14 @@
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/tb.json",
    "inferences": [
-    "balanced run/pass mix",
+    "run-heavy offence",
     "protection is a weakness"
    ],
    "units": 15,
-   "games": 7
+   "games": 8
   },
   "gb": {
    "key": "gb",
@@ -2763,14 +2744,14 @@
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/gb.json",
    "inferences": [
     "pass-heavy offence",
-    "explosive-dependent passing game"
+    "protection is a strength"
    ],
    "units": 15,
-   "games": 7
+   "games": 8
   },
   "lv": {
    "key": "lv",
@@ -2778,14 +2759,14 @@
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/lv.json",
    "inferences": [
     "balanced run/pass mix",
     "protection is a strength"
    ],
    "units": 15,
-   "games": 7
+   "games": 8
   },
   "cle": {
    "key": "cle",
@@ -2793,15 +2774,14 @@
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/cle.json",
    "inferences": [
     "balanced run/pass mix",
-    "protection is a weakness",
-    "the pass rush gets home"
+    "protection is a weakness"
    ],
    "units": 15,
-   "games": 7
+   "games": 8
   },
   "pit": {
    "key": "pit",
@@ -2809,13 +2789,14 @@
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/pit.json",
    "inferences": [
-    "pass-heavy offence"
+    "balanced run/pass mix",
+    "the pass rush gets home"
    ],
    "units": 15,
-   "games": 7
+   "games": 8
   },
   "jax": {
    "key": "jax",
@@ -2823,14 +2804,13 @@
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/jax.json",
    "inferences": [
-    "balanced run/pass mix",
-    "the pass rush does not get home"
+    "balanced run/pass mix"
    ],
    "units": 15,
-   "games": 6
+   "games": 7
   },
   "sf": {
    "key": "sf",
@@ -2838,7 +2818,7 @@
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/sf.json",
    "inferences": [
     "balanced run/pass mix",
@@ -2853,7 +2833,7 @@
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/den.json",
    "inferences": [
     "balanced run/pass mix",
@@ -2861,7 +2841,7 @@
     "protection is a strength"
    ],
    "units": 15,
-   "games": 7
+   "games": 8
   },
   "mia": {
    "key": "mia",
@@ -2869,16 +2849,17 @@
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/mia.json",
    "inferences": [
-    "run-heavy offence",
+    "balanced run/pass mix",
     "slow tempo (play-count proxy)",
     "protection is a weakness",
-    "the pass rush does not get home"
+    "the pass rush does not get home",
+    "gives up explosive passes (a proxy: coverage is not measured)"
    ],
    "units": 15,
-   "games": 6
+   "games": 7
   },
   "bal": {
    "key": "bal",
@@ -2886,13 +2867,15 @@
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/bal.json",
    "inferences": [
-    "run-heavy offence"
+    "balanced run/pass mix",
+    "protection is a weakness",
+    "the quarterback job is contested"
    ],
    "units": 15,
-   "games": 7
+   "games": 8
   },
   "lac": {
    "key": "lac",
@@ -2900,14 +2883,14 @@
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/lac.json",
    "inferences": [
     "balanced run/pass mix",
     "protection is a weakness"
    ],
    "units": 15,
-   "games": 6
+   "games": 7
   },
   "la": {
    "key": "la",
@@ -2915,16 +2898,15 @@
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/la.json",
    "inferences": [
     "balanced run/pass mix",
-    "fast tempo (play-count proxy)",
     "protection is a strength",
     "the pass rush does not get home"
    ],
    "units": 15,
-   "games": 7
+   "games": 8
   },
   "hou": {
    "key": "hou",
@@ -2932,7 +2914,7 @@
    "league": "NFL",
    "conference": null,
    "season": 2026,
-   "verified_at": "2026-10-27T12:17:12.660Z",
+   "verified_at": "2026-11-02T06:12:18.077Z",
    "file": "football/identity/teams/hou.json",
    "inferences": [
     "balanced run/pass mix",

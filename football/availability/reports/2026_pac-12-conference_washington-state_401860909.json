@@ -1,0 +1,51 @@
+{
+ "schema": "edgedesk_availability_report_v1",
+ "version": 1,
+ "conference": "Pac-12 Conference",
+ "conference_id": "pac12",
+ "team": "Washington State",
+ "game_id": "401860909",
+ "kickoff": "2026-10-31T23:00:00.000Z",
+ "source_url": "https://pac-12.com/news/2026/9/11/2026-football-reports.aspx",
+ "published_at": "2026-10-31T21:04:30.402Z",
+ "retrieved_at": "2026-11-01T05:50:15.914Z",
+ "scope": "CONFERENCE_GAMES",
+ "comprehensive": false,
+ "vocabulary": [],
+ "applicability": {
+  "state": "REQUIRED",
+  "why": "Pac-12 Conference requires an availability report for this game: filed three, two and one day before a conference game (each by 7 p.m. PT) and no later than two hours before kickoff"
+ },
+ "format": "published-listing",
+ "platform": "pac12-feed",
+ "report_type": "Game Day Report",
+ "report_id": "2026-10-31-San Diego State-Washington State",
+ "listing_scope": "REPORTED_ONLY",
+ "lines_read": 3,
+ "listed_n": 3,
+ "rows": [
+  {
+   "player_name": "Darrius Clemons",
+   "player_id": "4685297",
+   "position": "WR",
+   "jersey": "4",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "Darrius Clemons · WR · Out",
+   "on_roster": true
+  }
+ ],
+ "unparsed": [
+  {
+   "player": "Nylan Brown",
+   "line": "Nylan Brown · ILB · Out for Season",
+   "why": "the status \"Out for Season\" is not one EdgeDesk maps, so it is quarantined rather than guessed"
+  }
+ ],
+ "ok": true,
+ "names_nobody": false,
+ "explicit_none": false,
+ "silence_means_available": false,
+ "why": "1 player(s) designated on the published listing (Game Day Report)"
+}

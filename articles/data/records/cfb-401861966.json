@@ -21,8 +21,8 @@
   "game_time": "2026-10-31T19:00:00.000Z",
   "game_when_label": "2026-10-31 19:00 UTC",
   "published_at": null,
-  "updated_at": "2026-10-27T08:53:29.281Z",
-  "generated_at": "2026-10-27T08:53:29.281Z",
+  "updated_at": "2026-10-31T12:13:51.302Z",
+  "generated_at": "2026-10-31T12:13:51.302Z",
   "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
   "model_status": "NO MARKET",
   "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
@@ -37,11 +37,11 @@
   "status": "ready",
   "article_type": "pregame",
   "related": null,
-  "frozen": false,
-  "frozen_at": null,
+  "frozen": true,
+  "frozen_at": "2026-10-31T19:00:00.000Z",
   "author": "EdgeDesk Research",
   "publisher": "EdgeDesk Sports",
-  "research_source": "Ratings: football/rankings/current.json — 2026 Week 8, built 2026-10-26. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser.",
+  "research_source": "Ratings: football/rankings/current.json — 2026 Week 9, built 2026-10-30. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser.",
   "market_source": null,
   "research": {
     "kind": "CFB_GAME",
@@ -252,7 +252,7 @@
         "source": "cfbfastR-data player_stats — play attribution",
         "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
         "published_at": "2026-10-23T23:00:00.000Z",
-        "retrieved_at": "2026-10-26T23:10:58.149Z"
+        "retrieved_at": "2026-10-30T18:39:07.674Z"
       },
       "home": {
         "team": "Air Force",
@@ -342,9 +342,9 @@
         "source": "cfbfastR-data player_stats — play attribution",
         "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
         "published_at": "2026-10-24T01:00:00.000Z",
-        "retrieved_at": "2026-10-26T23:10:58.149Z"
+        "retrieved_at": "2026-10-30T18:39:07.674Z"
       },
-      "generated_at": "2026-10-26T23:10:56.259Z",
+      "generated_at": "2026-10-30T18:39:06.430Z",
       "source": "football/starters/cfb_2026.json",
       "note": "An expected starter is not a confirmed one. EdgeDesk publishes which kind of answer each of these is, and no number on this page is priced from any of them. Availability is a separate axis: an absent report is UNKNOWN and is never read as healthy."
     },
@@ -388,22 +388,22 @@
               "note": "points vs an average FBS team, neutral field",
               "a": {
                 "v": "+2.4",
-                "n": 2.37,
+                "n": 2.41,
                 "rank": "#53 of 138",
                 "rank_n": 53,
                 "note": null
               },
               "h": {
                 "v": "-4.7",
-                "n": -4.74,
-                "rank": "#103 of 138",
-                "rank_n": 103,
+                "n": -4.7,
+                "rank": "#105 of 138",
+                "rank_n": 105,
                 "note": null
               },
               "edge": {
                 "side": "a",
                 "gap": 7.1,
-                "rank_gap": 50
+                "rank_gap": 52
               }
             },
             {
@@ -418,16 +418,16 @@
                 "note": null
               },
               "h": {
-                "v": "46.4",
-                "n": 46.4,
-                "rank": "#89 of 138",
-                "rank_n": 89,
+                "v": "46.3",
+                "n": 46.3,
+                "rank": "#90 of 138",
+                "rank_n": 90,
                 "note": null
               },
               "edge": {
-                "side": "h",
-                "gap": 0.1,
-                "rank_gap": 2
+                "side": "even",
+                "gap": 0,
+                "rank_gap": 1
               }
             },
             {
@@ -461,8 +461,8 @@
               "a": {
                 "v": "52.9",
                 "n": 52.9,
-                "rank": "#17 of 138",
-                "rank_n": 17,
+                "rank": "#16 of 138",
+                "rank_n": 16,
                 "note": null
               },
               "h": {
@@ -475,7 +475,7 @@
               "edge": {
                 "side": "a",
                 "gap": 2.2,
-                "rank_gap": 40
+                "rank_gap": 41
               }
             }
           ]
@@ -488,15 +488,15 @@
               "k": "Offense",
               "note": null,
               "a": {
-                "v": "57.6",
-                "n": 57.6,
+                "v": "57.7",
+                "n": 57.7,
                 "rank": "#27 of 138",
                 "rank_n": 27,
                 "note": null
               },
               "h": {
-                "v": "51.8",
-                "n": 51.8,
+                "v": "51.9",
+                "n": 51.9,
                 "rank": "#58 of 138",
                 "rank_n": 58,
                 "note": null
@@ -512,10 +512,10 @@
               "k": "Defense",
               "note": null,
               "a": {
-                "v": "50.9",
-                "n": 50.9,
-                "rank": "#68 of 138",
-                "rank_n": 68,
+                "v": "50.8",
+                "n": 50.8,
+                "rank": "#67 of 138",
+                "rank_n": 67,
                 "note": null
               },
               "h": {
@@ -527,8 +527,8 @@
               },
               "edge": {
                 "side": "a",
-                "gap": 9.4,
-                "rank_gap": 49
+                "gap": 9.3,
+                "rank_gap": 50
               }
             },
             {
@@ -545,8 +545,8 @@
               "h": {
                 "v": "50.2",
                 "n": 50.2,
-                "rank": "#74 of 130",
-                "rank_n": 74,
+                "rank": "#71 of 130",
+                "rank_n": 71,
                 "note": null
               },
               "edge": null
@@ -556,15 +556,15 @@
               "k": "Run offense",
               "note": null,
               "a": {
-                "v": "56.9",
-                "n": 56.9,
+                "v": "57.0",
+                "n": 57,
                 "rank": "#43 of 138",
                 "rank_n": 43,
                 "note": null
               },
               "h": {
-                "v": "52.6",
-                "n": 52.6,
+                "v": "52.7",
+                "n": 52.7,
                 "rank": "#54 of 138",
                 "rank_n": 54,
                 "note": null
@@ -580,23 +580,23 @@
               "k": "Pass offense",
               "note": null,
               "a": {
-                "v": "61.8",
-                "n": 61.8,
-                "rank": "#17 of 137",
-                "rank_n": 17,
+                "v": "61.9",
+                "n": 61.9,
+                "rank": "#16 of 137",
+                "rank_n": 16,
                 "note": null
               },
               "h": {
                 "v": "41.6",
                 "n": 41.6,
-                "rank": "#111 of 137",
-                "rank_n": 111,
+                "rank": "#112 of 137",
+                "rank_n": 112,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 20.2,
-                "rank_gap": 94
+                "gap": 20.3,
+                "rank_gap": 96
               }
             },
             {
@@ -628,15 +628,15 @@
               "k": "Pass defense",
               "note": null,
               "a": {
-                "v": "51.4",
-                "n": 51.4,
-                "rank": "#63 of 138",
-                "rank_n": 63,
+                "v": "51.3",
+                "n": 51.3,
+                "rank": "#64 of 138",
+                "rank_n": 64,
                 "note": null
               },
               "h": {
-                "v": "38.3",
-                "n": 38.3,
+                "v": "38.2",
+                "n": 38.2,
                 "rank": "#121 of 138",
                 "rank_n": 121,
                 "note": null
@@ -644,7 +644,7 @@
               "edge": {
                 "side": "a",
                 "gap": 13.1,
-                "rank_gap": 58
+                "rank_gap": 57
               }
             }
           ]
@@ -659,21 +659,21 @@
               "a": {
                 "v": "58.6",
                 "n": 58.6,
-                "rank": "#67 of 138",
-                "rank_n": 67,
+                "rank": "#62 of 138",
+                "rank_n": 62,
                 "note": null
               },
               "h": {
                 "v": "58.0",
                 "n": 58,
-                "rank": "#74 of 138",
-                "rank_n": 74,
+                "rank": "#70 of 138",
+                "rank_n": 70,
                 "note": null
               },
               "edge": {
                 "side": "a",
                 "gap": 0.6,
-                "rank_gap": 7
+                "rank_gap": 8
               }
             },
             {
@@ -755,8 +755,8 @@
               "a": {
                 "v": "56.1",
                 "n": 56.1,
-                "rank": "#74 of 138",
-                "rank_n": 74,
+                "rank": "#72 of 138",
+                "rank_n": 72,
                 "note": null
               },
               "h": {
@@ -769,7 +769,7 @@
               "edge": {
                 "side": "h",
                 "gap": 0.3,
-                "rank_gap": 11
+                "rank_gap": 9
               }
             },
             {
@@ -871,21 +871,21 @@
               "a": {
                 "v": "54.0",
                 "n": 54,
-                "rank": "#122 of 138",
-                "rank_n": 122,
+                "rank": "#121 of 137",
+                "rank_n": 121,
                 "note": null
               },
               "h": {
                 "v": "56.2",
                 "n": 56.2,
-                "rank": "#63 of 138",
+                "rank": "#63 of 137",
                 "rank_n": 63,
                 "note": null
               },
               "edge": {
                 "side": "h",
                 "gap": 2.2,
-                "rank_gap": 59
+                "rank_gap": 58
               }
             }
           ]
@@ -900,8 +900,8 @@
               "a": {
                 "v": "53.2",
                 "n": 53.2,
-                "rank": "#78 of 138",
-                "rank_n": 78,
+                "rank": "#81 of 138",
+                "rank_n": 81,
                 "note": null
               },
               "h": {
@@ -914,7 +914,7 @@
               "edge": {
                 "side": "h",
                 "gap": 0.6,
-                "rank_gap": 49
+                "rank_gap": 52
               }
             },
             {
@@ -951,13 +951,13 @@
       "away": [
         {
           "k": "Pass offense",
-          "rank_gap": 94,
-          "gap": 20.2,
+          "rank_gap": 96,
+          "gap": 20.3,
           "lead": "UConn",
           "trail": "Air Force",
-          "lead_cell": "61.8 · #17 of 137",
-          "trail_cell": "41.6 · #111 of 137",
-          "text": "UConn 61.8 (#17 of 137) vs Air Force 41.6 (#111 of 137) — 94 places on the national board."
+          "lead_cell": "61.9 · #16 of 137",
+          "trail_cell": "41.6 · #112 of 137",
+          "text": "UConn 61.9 (#16 of 137) vs Air Force 41.6 (#112 of 137) — 96 places on the national board."
         },
         {
           "k": "Linebackers",
@@ -1013,43 +1013,33 @@
         },
         {
           "k": "Kicking",
-          "rank_gap": 59,
+          "rank_gap": 58,
           "gap": 2.2,
           "lead": "Air Force",
           "trail": "UConn",
-          "lead_cell": "56.2 · #63 of 138",
-          "trail_cell": "54.0 · #122 of 138",
-          "text": "Air Force 56.2 (#63 of 138) vs UConn 54.0 (#122 of 138) — 59 places on the national board."
+          "lead_cell": "56.2 · #63 of 137",
+          "trail_cell": "54.0 · #121 of 137",
+          "text": "Air Force 56.2 (#63 of 137) vs UConn 54.0 (#121 of 137) — 58 places on the national board."
         },
         {
           "k": "Depth",
-          "rank_gap": 49,
+          "rank_gap": 52,
           "gap": 0.6,
           "lead": "Air Force",
           "trail": "UConn",
           "lead_cell": "53.8 · #29 of 138",
-          "trail_cell": "53.2 · #78 of 138",
-          "text": "Air Force 53.8 (#29 of 138) vs UConn 53.2 (#78 of 138) — 49 places on the national board."
+          "trail_cell": "53.2 · #81 of 138",
+          "text": "Air Force 53.8 (#29 of 138) vs UConn 53.2 (#81 of 138) — 52 places on the national board."
         },
         {
           "k": "Running backs",
-          "rank_gap": 11,
+          "rank_gap": 9,
           "gap": 0.3,
           "lead": "Air Force",
           "trail": "UConn",
           "lead_cell": "56.4 · #63 of 138",
-          "trail_cell": "56.1 · #74 of 138",
-          "text": "Air Force 56.4 (#63 of 138) vs UConn 56.1 (#74 of 138) — 11 places on the national board."
-        },
-        {
-          "k": "Talent",
-          "rank_gap": 2,
-          "gap": 0.1,
-          "lead": "Air Force",
-          "trail": "UConn",
-          "lead_cell": "46.4 · #89 of 138",
-          "trail_cell": "46.3 · #91 of 138",
-          "text": "Air Force 46.4 (#89 of 138) vs UConn 46.3 (#91 of 138) — 2 places on the national board."
+          "trail_cell": "56.1 · #72 of 138",
+          "text": "Air Force 56.4 (#63 of 138) vs UConn 56.1 (#72 of 138) — 9 places on the national board."
         }
       ],
       "measured": [],
@@ -1063,26 +1053,26 @@
         "att": {
           "team": "UConn",
           "label": "pass offense",
-          "v": "61.8",
-          "rank": "#17 of 137",
+          "v": "61.9",
+          "rank": "#16 of 137",
           "note": null
         },
         "def": {
           "team": "Air Force",
           "label": "pass defense",
-          "v": "38.3",
+          "v": "38.2",
           "rank": "#121 of 138",
           "note": null
         },
         "complete": true,
-        "read": "UConn’s pass offense rates 61.8 (#17 of 137) against Air Force’s pass defense at 38.3 (#121 of 138). UConn’s unit stands higher among its own position group, by 104 places."
+        "read": "UConn’s pass offense rates 61.9 (#16 of 137) against Air Force’s pass defense at 38.2 (#121 of 138). UConn’s unit stands higher among its own position group, by 105 places."
       },
       {
         "title": "UConn run offense vs Air Force run defense",
         "att": {
           "team": "UConn",
           "label": "run offense",
-          "v": "56.9",
+          "v": "57.0",
           "rank": "#43 of 138",
           "note": null
         },
@@ -1094,7 +1084,7 @@
           "note": null
         },
         "complete": true,
-        "read": "UConn’s run offense rates 56.9 (#43 of 138) against Air Force’s run defense at 40.9 (#100 of 138). UConn’s unit stands higher among its own position group, by 57 places."
+        "read": "UConn’s run offense rates 57.0 (#43 of 138) against Air Force’s run defense at 40.9 (#100 of 138). UConn’s unit stands higher among its own position group, by 57 places."
       },
       {
         "title": "Air Force pass offense vs UConn pass defense",
@@ -1102,25 +1092,25 @@
           "team": "Air Force",
           "label": "pass offense",
           "v": "41.6",
-          "rank": "#111 of 137",
+          "rank": "#112 of 137",
           "note": null
         },
         "def": {
           "team": "UConn",
           "label": "pass defense",
-          "v": "51.4",
-          "rank": "#63 of 138",
+          "v": "51.3",
+          "rank": "#64 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Air Force’s pass offense rates 41.6 (#111 of 137) against UConn’s pass defense at 51.4 (#63 of 138). UConn’s unit stands higher among its own position group, by 48 places."
+        "read": "Air Force’s pass offense rates 41.6 (#112 of 137) against UConn’s pass defense at 51.3 (#64 of 138). UConn’s unit stands higher among its own position group, by 48 places."
       },
       {
         "title": "Air Force run offense vs UConn run defense",
         "att": {
           "team": "Air Force",
           "label": "run offense",
-          "v": "52.6",
+          "v": "52.7",
           "rank": "#54 of 138",
           "note": null
         },
@@ -1132,7 +1122,7 @@
           "note": null
         },
         "complete": true,
-        "read": "Air Force’s run offense rates 52.6 (#54 of 138) against UConn’s run defense at 50.3 (#72 of 138). Air Force’s unit stands higher among its own position group, by 18 places."
+        "read": "Air Force’s run offense rates 52.7 (#54 of 138) against UConn’s run defense at 50.3 (#72 of 138). Air Force’s unit stands higher among its own position group, by 18 places."
       },
       {
         "title": "UConn QB room vs Air Force secondary",
@@ -1140,7 +1130,7 @@
           "team": "UConn",
           "label": "QB room",
           "v": "58.6",
-          "rank": "#67 of 138",
+          "rank": "#62 of 138",
           "note": null
         },
         "def": {
@@ -1151,7 +1141,7 @@
           "note": null
         },
         "complete": true,
-        "read": "UConn’s QB room rates 58.6 (#67 of 138) against Air Force’s secondary at 46.6 (#127 of 138). UConn’s unit stands higher among its own position group, by 60 places."
+        "read": "UConn’s QB room rates 58.6 (#62 of 138) against Air Force’s secondary at 46.6 (#127 of 138). UConn’s unit stands higher among its own position group, by 65 places."
       },
       {
         "title": "Air Force QB room vs UConn secondary",
@@ -1159,7 +1149,7 @@
           "team": "Air Force",
           "label": "QB room",
           "v": "58.0",
-          "rank": "#74 of 138",
+          "rank": "#70 of 138",
           "note": null
         },
         "def": {
@@ -1170,7 +1160,7 @@
           "note": null
         },
         "complete": true,
-        "read": "Air Force’s QB room rates 58.0 (#74 of 138) against UConn’s secondary at 53.5 (#67 of 138). UConn’s unit stands higher among its own position group, by 7 places."
+        "read": "Air Force’s QB room rates 58.0 (#70 of 138) against UConn’s secondary at 53.5 (#67 of 138). UConn’s unit stands higher among its own position group, by 3 places."
       },
       {
         "title": "UConn offensive line vs Air Force defensive line",
@@ -1216,7 +1206,7 @@
           "team": "UConn",
           "label": "running backs",
           "v": "56.1",
-          "rank": "#74 of 138",
+          "rank": "#72 of 138",
           "note": null
         },
         "def": {
@@ -1227,7 +1217,7 @@
           "note": null
         },
         "complete": true,
-        "read": "UConn’s running backs rates 56.1 (#74 of 138) against Air Force’s linebackers at 49.5 (#114 of 138). UConn’s unit stands higher among its own position group, by 40 places."
+        "read": "UConn’s running backs rates 56.1 (#72 of 138) against Air Force’s linebackers at 49.5 (#114 of 138). UConn’s unit stands higher among its own position group, by 42 places."
       },
       {
         "title": "Air Force running backs vs UConn linebackers",
@@ -1442,8 +1432,8 @@
           "Playing at Air Force is worth 2.8 points — the league-wide home-field number, because a per-venue table was tested and could not be told apart from the home team’s own quality (+2.8 pts).",
           "Stylistically the matchup favours Air Force by 1.5 points: ball control vs front disruption (+1.5 pts).",
           "Continuity: Air Force 64.3 (#2 of 138) vs UConn 27.8 (#135 of 138) — 133 places on the national board.",
-          "Kicking: Air Force 56.2 (#63 of 138) vs UConn 54.0 (#122 of 138) — 59 places on the national board.",
-          "Depth: Air Force 53.8 (#29 of 138) vs UConn 53.2 (#78 of 138) — 49 places on the national board."
+          "Kicking: Air Force 56.2 (#63 of 137) vs UConn 54.0 (#121 of 137) — 58 places on the national board.",
+          "Depth: Air Force 53.8 (#29 of 138) vs UConn 53.2 (#81 of 138) — 52 places on the national board."
         ]
       },
       "underdog": {
@@ -1451,7 +1441,7 @@
         "heading": "Why UConn can keep it close",
         "bullets": [
           "UConn is the better football team by 4.1 points on opponent-adjusted results, with roughly 35% of it still inherited from last season (-4.1 pts).",
-          "Pass offense: UConn 61.8 (#17 of 137) vs Air Force 41.6 (#111 of 137) — 94 places on the national board.",
+          "Pass offense: UConn 61.9 (#16 of 137) vs Air Force 41.6 (#112 of 137) — 96 places on the national board.",
           "Linebackers: UConn 54.9 (#48 of 138) vs Air Force 49.5 (#114 of 138) — 66 places on the national board.",
           "Receivers: UConn 55.4 (#65 of 138) vs Air Force 53.4 (#127 of 138) — 62 places on the national board.",
           "The outcome range is 14.6 points wide at one sigma — p10 -20.9 to p90 +21.1 for Air Force, so a projection of +0.1 still produces results a long way either side of it."
@@ -1787,13 +1777,13 @@
         {
           "k": "ETSR (overall)",
           "a": "+2.4  #53",
-          "h": "-4.7  #103",
+          "h": "-4.7  #105",
           "note": "points vs an average FBS team, neutral field"
         },
         {
           "k": "Talent",
           "a": "46.3  #91",
-          "h": "46.4  #89",
+          "h": "46.3  #90",
           "note": null
         },
         {
@@ -1804,32 +1794,32 @@
         },
         {
           "k": "Offense",
-          "a": "57.6  #27",
-          "h": "51.8  #58",
+          "a": "57.7  #27",
+          "h": "51.9  #58",
           "note": null
         },
         {
           "k": "Defense",
-          "a": "50.9  #68",
+          "a": "50.8  #67",
           "h": "41.5  #117",
           "note": null
         },
         {
           "k": "Special teams",
           "a": null,
-          "h": "50.2  #74",
+          "h": "50.2  #71",
           "note": null
         },
         {
           "k": "Run offense",
-          "a": "56.9  #43",
-          "h": "52.6  #54",
+          "a": "57.0  #43",
+          "h": "52.7  #54",
           "note": null
         },
         {
           "k": "Pass offense",
-          "a": "61.8  #17",
-          "h": "41.6  #111",
+          "a": "61.9  #16",
+          "h": "41.6  #112",
           "note": null
         },
         {
@@ -1840,14 +1830,14 @@
         },
         {
           "k": "Pass defense",
-          "a": "51.4  #63",
-          "h": "38.3  #121",
+          "a": "51.3  #64",
+          "h": "38.2  #121",
           "note": null
         },
         {
           "k": "QB room",
-          "a": "58.6  #67",
-          "h": "58.0  #74",
+          "a": "58.6  #62",
+          "h": "58.0  #70",
           "note": null
         },
         {
@@ -1864,7 +1854,7 @@
         },
         {
           "k": "Running backs",
-          "a": "56.1  #74",
+          "a": "56.1  #72",
           "h": "56.4  #63",
           "note": null
         },
@@ -1888,7 +1878,7 @@
         },
         {
           "k": "Depth",
-          "a": "53.2  #78",
+          "a": "53.2  #81",
           "h": "53.8  #29",
           "note": null
         },
@@ -1906,8 +1896,8 @@
         },
         {
           "k": "Δ national rank, this week",
-          "a": "up 6",
-          "h": "down 4",
+          "a": "no change",
+          "h": "down 2",
           "note": "differenced from last week’s committed snapshot"
         }
       ]
@@ -1927,88 +1917,12 @@
     ],
     "context_label": "RESEARCH CONTEXT — position-group, player-quality, roster and scheme figures explain this matchup and move no priced number.",
     "priced_label": "PRICED BY MODEL — the projection and its drivers, from validated inputs only.",
-    "source": "Ratings: football/rankings/current.json — 2026 Week 8, built 2026-10-26. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser."
+    "source": "Ratings: football/rankings/current.json — 2026 Week 9, built 2026-10-30. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser."
   },
-  "football_evidence": {
-    "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "1vm277x1k0169b",
-    "status": "PARTIALLY_EXPLAINED",
-    "input_suspect": false,
-    "question": "Can UConn’s pass rush get to Evan Medders?",
-    "assessment": "Some measured evidence supports EdgeDesk’s lean toward UConn, and its own breakdown accounts for about 0.0 of the 2.3 points, but not the full gap. It is a research question, not a bet.",
-    "gap": {
-      "points": 2.3,
-      "toward": "UConn",
-      "other": "Air Force"
-    },
-    "supporting": [
-      "When Air Force has the ball (pass protection against the pass rush): Air Force’s offense has allowed a sack on 6.9% of its dropbacks, and UConn’s defense sacks the quarterback on 11.0% of opponent dropbacks (FBS average 5.7%).",
-      "When Air Force has the ball (big plays on the ground): Air Force’s offense turns 6.0% of its runs into explosive gains, and UConn’s defense gives up explosive gains on 3.9% of opponent runs (FBS average 6.5%).",
-      "When UConn has the ball (big plays through the air): UConn’s offense turns 16.6% of its pass plays into explosive gains, and Air Force’s defense gives up explosive gains on 10.9% of opponent pass plays (FBS average 10.2%).",
-      "When UConn has the ball (the passing game against the pass defense): UConn’s offense averages 8.8 yards per pass attempt, and Air Force’s defense allows 7.6 yards per pass attempt (FBS average 7.4)."
-    ],
-    "contradicting": [
-      "When Air Force has the ball (big plays through the air): Air Force’s offense turns 15.8% of its pass plays into explosive gains, and UConn’s defense gives up explosive gains on 11.0% of opponent pass plays (FBS average 10.2%).",
-      "When Air Force has the ball (the line of scrimmage on running plays): Air Force’s offense is stopped at or behind the line on 9.2% of its runs, and UConn’s defense stops 16.0% of opponent runs at or behind the line (FBS average 17.5%).",
-      "When UConn has the ball (pass protection against the pass rush): UConn’s offense has allowed a sack on 10.2% of its dropbacks, and Air Force’s defense sacks the quarterback on 7.0% of opponent dropbacks (FBS average 5.7%).",
-      "When Air Force has the ball (third down): Air Force’s offense converts 48.5% of its third downs, and UConn’s defense allows opponents to convert 36.2% of their third downs (FBS average 39.5%)."
-    ],
-    "quarterbacks": [
-      "Liam Szarka has completed 19 of 40 passes (47.5%) for 296 yards, 7.4 yards per attempt, 1 touchdown and 4 interceptions in four games for Air Force, and has been sacked on 2 of 42 dropbacks.",
-      "Evan Medders has completed 8 of 14 passes (57.1%) for 92 yards, 6.6 yards per attempt, 2 touchdowns and no interceptions in six games for Air Force, and has been sacked on 1 of 15 dropbacks.",
-      "Kalieb Osborne has completed 111 of 183 passes (60.7%) for 1,606 yards, 8.8 yards per attempt, 12 touchdowns and 2 interceptions in seven games for UConn, and has been sacked on 22 of 205 dropbacks."
-    ],
-    "availability": [],
-    "script": {
-      "model": [
-        "UConn’s defense has to come out ahead in the pass-rush matchup: it sacks the quarterback on 11.0% of opponent dropbacks, against an offense that has allowed a sack on 6.9% of its dropbacks.",
-        "UConn’s offense has to hold its own in the pass-rush matchup against a defense that sacks the quarterback on 7.0% of opponent dropbacks.",
-        "UConn’s defense has to slow Air Force on big pass plays — Air Force’s offense turns 15.8% of its pass plays into explosive gains.",
-        "UConn’s offense has to keep winning on big pass plays: it turns 16.6% of its pass plays into explosive gains, and Air Force’s defense gives up explosive gains on 10.9% of opponent pass plays."
-      ],
-      "market": [
-        "Air Force’s defense has to come out ahead in the pass-rush matchup: it sacks the quarterback on 7.0% of opponent dropbacks, against an offense that has allowed a sack on 10.2% of its dropbacks.",
-        "Air Force’s offense has to keep winning on big pass plays: it turns 15.8% of its pass plays into explosive gains, and UConn’s defense gives up explosive gains on 11.0% of opponent pass plays.",
-        "Air Force’s offense has to keep winning in the pass-rush matchup: it has allowed a sack on 6.9% of its dropbacks, and UConn’s defense sacks the quarterback on 11.0% of opponent dropbacks."
-      ]
-    },
-    "unknown": [
-      "EdgeDesk’s own sources disagree on sack rate allowed and sack rate for Air Force and UConn.",
-      "Not in EdgeDesk’s verified data for this game: turnover rates, conference implications and penalty rate."
-    ],
-    "flags": [
-      {
-        "key": "DATA_CONFLICT",
-        "severity": "medium",
-        "text": "EdgeDesk’s own sources disagree on sack rate allowed (Air Force), sack rate (Air Force) and sack rate allowed (UConn); the evidence uses the corroborated figures, and any model term built on the play-by-play figure may be off."
-      },
-      {
-        "key": "REGIME_CHANGE",
-        "severity": "medium",
-        "text": "UConn: new head coach; returning roster share at the 4th percentile; returning production at the 2nd percentile; transfers out at the 96th percentile. The long-run state is weighted 60% (regime curve) instead of 60% (standard curve) at 7 games played."
-      }
-    ],
-    "sources": [
-      {
-        "label": "EdgeDesk play-by-play metrics, quarterback logs and box scores",
-        "url": null,
-        "path": "football/matchup/metrics.json",
-        "observed_at": "2026-10-27T05:10:50.316Z",
-        "verification": "VERIFIED_DATA"
-      },
-      {
-        "label": "EdgeDesk play-by-play quarterback logs (2026)",
-        "url": null,
-        "path": "football/fbs_epa/qb_epa_2026.json",
-        "observed_at": "2026-10-25T02:15:00.000Z",
-        "verification": "VERIFIED_DATA"
-      }
-    ],
-    "needs_confirmation": []
-  },
+  "football_evidence": null,
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-10-27T08:53:29.281Z"
+    "at": "2026-11-01T00:02:55.724Z"
   }
 }

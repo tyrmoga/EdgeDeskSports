@@ -9,8 +9,8 @@
   "aliases": [],
   "title": "Oregon State vs. Fresno State: EdgeDesk Model Projection, Matchup Analysis and Fair Spread",
   "seo_title": "Oregon State vs. Fresno State 2026: EdgeDesk Fair Spread & Model Projection",
-  "seo_description": "EdgeDesk fair spread for Oregon State at Fresno State: Fresno State +5.0, fair total 53.0. Oregon State wins 63% of simulations. Data confidence 84%. Model status NO MARKET. Research, not picks.",
-  "excerpt": "Oregon State carries the stronger underlying team rating — +2.1 against -5.9, a 8.0-point separation on a neutral field before home advantage, travel or rest. EdgeDesk makes it Fresno State +5.0 before any sportsbook number is consulted, with Oregon State…",
+  "seo_description": "EdgeDesk fair spread for Oregon State at Fresno State: Fresno State +5.0, fair total 52.0. Oregon State wins 63% of simulations. Data confidence 84%. Model status NO MARKET. Research, not picks.",
+  "excerpt": "Oregon State carries the stronger underlying team rating — +2.1 against -5.8, a 8.0-point separation on a neutral field before home advantage, travel or rest. EdgeDesk makes it Fresno State +5.0 before any sportsbook number is consulted, with Oregon State…",
   "home_team": "Fresno State",
   "away_team": "Oregon State",
   "venue": "Valley Children's Stadium",
@@ -21,15 +21,15 @@
   "game_time": "2026-11-01T03:00:00.000Z",
   "game_when_label": "2026-11-01 03:00 UTC",
   "published_at": null,
-  "updated_at": "2026-10-27T08:53:29.281Z",
-  "generated_at": "2026-10-27T08:53:29.281Z",
+  "updated_at": "2026-11-01T00:02:55.724Z",
+  "generated_at": "2026-11-01T00:02:55.724Z",
   "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
   "model_status": "NO MARKET",
   "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
   "confidence": 84,
   "priced": true,
   "fair_spread_text": "Fresno State +5.0",
-  "fair_total": "53.0",
+  "fair_total": "52.0",
   "hero_image": null,
   "canonical_url": "https://edgedesksports.com/articles/oregon-state-vs-fresno-state-2026",
   "terminal_url": "https://edgedesksports.com/app.html#research/football",
@@ -37,11 +37,11 @@
   "status": "ready",
   "article_type": "pregame",
   "related": null,
-  "frozen": false,
-  "frozen_at": null,
+  "frozen": true,
+  "frozen_at": "2026-11-01T03:00:00.000Z",
   "author": "EdgeDesk Research",
   "publisher": "EdgeDesk Sports",
-  "research_source": "Ratings: football/rankings/current.json — 2026 Week 8, built 2026-10-26. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser.",
+  "research_source": "Ratings: football/rankings/current.json — 2026 Week 9, built 2026-10-31. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser.",
   "market_source": null,
   "research": {
     "kind": "CFB_GAME",
@@ -63,14 +63,14 @@
       "home_conference": "Pac-12"
     },
     "lede": [
-      "Oregon State carries the stronger underlying team rating — +2.1 against -5.9, a 8.0-point separation on a neutral field before home advantage, travel or rest.",
+      "Oregon State carries the stronger underlying team rating — +2.1 against -5.8, a 8.0-point separation on a neutral field before home advantage, travel or rest.",
       "EdgeDesk makes it Fresno State +5.0 before any sportsbook number is consulted, with Oregon State winning 63% of simulations.",
-      "The position-group comparison shows where the separation comes from: the widest measured gap is offensive line, where Oregon State leads Fresno State by 126 places nationally.",
+      "The position-group comparison shows where the separation comes from: the widest measured gap is offensive line, where Oregon State leads Fresno State by 122 places nationally.",
       "Data confidence on this matchup is 84% — high by this board’s standards, so the margin is the strongest part of the read."
     ],
     "projection": {
       "priced": true,
-      "fair_spread": -4.932571685660498,
+      "fair_spread": -4.933875053551542,
       "fair_spread_text": "Fresno State +5.0",
       "fair_spread_raw_text": "Fresno State +4.9",
       "near_pickem": false,
@@ -79,8 +79,8 @@
       "underdog": "Fresno State",
       "margin": "5.0",
       "margin_raw": "4.9",
-      "total": "53.0",
-      "total_raw": "52.8",
+      "total": "52.0",
+      "total_raw": "52.1",
       "display_policy": "football_half_point_v1",
       "score": {
         "away": {
@@ -92,10 +92,10 @@
           "points": "24"
         },
         "expected": {
-          "text": "Oregon State 28.86, Fresno State 23.93",
-          "home": 23.93,
-          "away": 28.86,
-          "note": null
+          "text": "Oregon State 28.52, Fresno State 23.59",
+          "home": 23.59,
+          "away": 28.52,
+          "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
         },
         "note": "Split from EdgeDesk’s own projected margin and total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
       },
@@ -124,23 +124,23 @@
         "note": "Quoted from Fresno State’s perspective, as the engine publishes it. Eight results in ten land inside p10–p90."
       },
       "confidence_pct": 84,
-      "inputs_reached_pct": 69,
+      "inputs_reached_pct": 77,
       "input_contract": {
         "fields": 26,
         "applicable": 26,
-        "known": 18,
-        "priced": 11,
-        "priced_coverage_pct": 42,
+        "known": 20,
+        "priced": 13,
+        "priced_coverage_pct": 50,
         "by_state": {
-          "USABLE": 11,
+          "USABLE": 13,
           "RESEARCH_ONLY": 7,
           "STALE": 0,
           "CONFLICTING": 0,
           "NOT_APPLICABLE": 0,
           "NOT_REQUIRED": 0,
-          "NOT_DUE_YET": 4,
+          "NOT_DUE_YET": 0,
           "FETCH_FAILED": 0,
-          "UNAVAILABLE": 4
+          "UNAVAILABLE": 6
         },
         "absent": [
           {
@@ -148,6 +148,18 @@
             "side": null,
             "state": "UNAVAILABLE",
             "why": "no forecast provider was called in this build; the venue’s coordinates are known, so this is a build that did not ask rather than a source that did not answer"
+          },
+          {
+            "field": "qb_availability",
+            "side": "home",
+            "state": "UNAVAILABLE",
+            "why": "the availability sources EdgeDesk reads were checked and carried no report on this player — no report found is not the same as healthy. Pac-12 Conference requires an availability report for this game: filed three, two and one day before a conference game (each by 7 p.m. PT) and no later than two hours before kickoff"
+          },
+          {
+            "field": "qb_availability",
+            "side": "away",
+            "state": "UNAVAILABLE",
+            "why": "the availability sources EdgeDesk reads were checked and carried no report on this player — no report found is not the same as healthy. Pac-12 Conference requires an availability report for this game: filed three, two and one day before a conference game (each by 7 p.m. PT) and no later than two hours before kickoff"
           },
           {
             "field": "off_field",
@@ -178,11 +190,11 @@
     "starters": {
       "away": {
         "team": "Oregon State",
-        "status": "PREVIOUS_GAME",
+        "status": "COMPETITION",
         "confirmed": false,
         "player": "Braden Atkinson",
         "player_id": "5212654",
-        "label": "Braden Atkinson — started the last game; no announcement for this one.",
+        "label": "unresolved: Braden Atkinson 85% of recent dropbacks and Maalik Murphy 9% of recent dropbacks.",
         "priced": false,
         "priced_why": "the starter layer is research-only until it has an out-of-sample record of its own; football/matchup/inputs.js PRICED_STARTER_STATUSES is the single switch",
         "availability": {
@@ -261,18 +273,18 @@
             "why": "took the first dropback of the game"
           }
         ],
-        "source": "cfbfastR-data player_stats — play attribution",
-        "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
-        "published_at": "2026-10-17T22:00:00.000Z",
-        "retrieved_at": "2026-10-26T23:10:58.149Z"
+        "source": "EdgeDesk player layer (EPIR) projected QB1",
+        "source_url": "football/players/teams/oregonstate.json",
+        "published_at": "2026-10-31T20:46:39.491Z",
+        "retrieved_at": "2026-10-31T20:46:39.491Z"
       },
       "home": {
         "team": "Fresno State",
-        "status": "PREVIOUS_GAME",
+        "status": "COMPETITION",
         "confirmed": false,
         "player": "Jayden Mandal",
         "player_id": "5010409",
-        "label": "Jayden Mandal — started the last game; no announcement for this one.",
+        "label": "unresolved: Jayden Mandal 96% of recent dropbacks and Khristian Martin 3% of recent dropbacks.",
         "priced": false,
         "priced_why": "the starter layer is research-only until it has an out-of-sample record of its own; football/matchup/inputs.js PRICED_STARTER_STATUSES is the single switch",
         "availability": {
@@ -345,12 +357,12 @@
             "why": "took the first dropback of the game"
           }
         ],
-        "source": "cfbfastR-data player_stats — play attribution",
-        "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
-        "published_at": "2026-10-18T02:30:00.000Z",
-        "retrieved_at": "2026-10-26T23:10:58.149Z"
+        "source": "EdgeDesk player layer (EPIR) projected QB1",
+        "source_url": "football/players/teams/fresnostate.json",
+        "published_at": "2026-10-31T20:46:39.491Z",
+        "retrieved_at": "2026-10-31T20:46:39.491Z"
       },
-      "generated_at": "2026-10-26T23:10:56.259Z",
+      "generated_at": "2026-10-31T20:47:29.512Z",
       "source": "football/starters/cfb_2026.json",
       "note": "An expected starter is not a confirmed one. EdgeDesk publishes which kind of answer each of these is, and no number on this page is priced from any of them. Availability is a separate axis: an absent report is UNKNOWN and is never read as healthy."
     },
@@ -370,7 +382,7 @@
         },
         {
           "points": "-2.1",
-          "points_n": -2.050919532899644,
+          "points_n": -2.052222900790688,
           "text": "Stylistically the matchup favours Oregon State by 2.1 points: ball control vs front disruption",
           "favours": "Oregon State"
         }
@@ -394,22 +406,22 @@
               "note": "points vs an average FBS team, neutral field",
               "a": {
                 "v": "+2.1",
-                "n": 2.1,
-                "rank": "#56 of 138",
-                "rank_n": 56,
+                "n": 2.14,
+                "rank": "#55 of 138",
+                "rank_n": 55,
                 "note": null
               },
               "h": {
-                "v": "-5.9",
-                "n": -5.9,
-                "rank": "#111 of 138",
-                "rank_n": 111,
+                "v": "-5.8",
+                "n": -5.82,
+                "rank": "#112 of 138",
+                "rank_n": 112,
                 "note": null
               },
               "edge": {
                 "side": "a",
                 "gap": 8,
-                "rank_gap": 55
+                "rank_gap": 57
               }
             },
             {
@@ -417,22 +429,22 @@
               "k": "Talent",
               "note": null,
               "a": {
-                "v": "54.0",
-                "n": 54,
-                "rank": "#47 of 138",
-                "rank_n": 47,
+                "v": "53.9",
+                "n": 53.9,
+                "rank": "#45 of 138",
+                "rank_n": 45,
                 "note": null
               },
               "h": {
-                "v": "43.8",
-                "n": 43.8,
-                "rank": "#104 of 138",
-                "rank_n": 104,
+                "v": "44.2",
+                "n": 44.2,
+                "rank": "#102 of 138",
+                "rank_n": 102,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 10.2,
+                "gap": 9.7,
                 "rank_gap": 57
               }
             },
@@ -441,17 +453,17 @@
               "k": "Performance",
               "note": null,
               "a": {
-                "v": "56.5",
-                "n": 56.5,
-                "rank": "#45 of 138",
-                "rank_n": 45,
+                "v": "56.6",
+                "n": 56.6,
+                "rank": "#44 of 138",
+                "rank_n": 44,
                 "note": null
               },
               "h": {
-                "v": "39.1",
-                "n": 39.1,
-                "rank": "#111 of 138",
-                "rank_n": 111,
+                "v": "39.2",
+                "n": 39.2,
+                "rank": "#110 of 138",
+                "rank_n": 110,
                 "note": null
               },
               "edge": {
@@ -465,23 +477,23 @@
               "k": "Scheme fit",
               "note": "personnel against this team’s own tendencies",
               "a": {
-                "v": "51.3",
-                "n": 51.3,
-                "rank": "#44 of 138",
-                "rank_n": 44,
+                "v": "51.2",
+                "n": 51.2,
+                "rank": "#46 of 138",
+                "rank_n": 46,
                 "note": null
               },
               "h": {
                 "v": "49.3",
                 "n": 49.3,
-                "rank": "#95 of 138",
-                "rank_n": 95,
+                "rank": "#94 of 138",
+                "rank_n": 94,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 2,
-                "rank_gap": 51
+                "gap": 1.9,
+                "rank_gap": 48
               }
             }
           ]
@@ -494,23 +506,23 @@
               "k": "Offense",
               "note": null,
               "a": {
-                "v": "58.3",
-                "n": 58.3,
-                "rank": "#23 of 138",
-                "rank_n": 23,
+                "v": "58.6",
+                "n": 58.6,
+                "rank": "#24 of 138",
+                "rank_n": 24,
                 "note": null
               },
               "h": {
-                "v": "44.8",
-                "n": 44.8,
-                "rank": "#102 of 138",
-                "rank_n": 102,
+                "v": "45.0",
+                "n": 45,
+                "rank": "#96 of 138",
+                "rank_n": 96,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 13.5,
-                "rank_gap": 79
+                "gap": 13.6,
+                "rank_gap": 72
               }
             },
             {
@@ -520,21 +532,21 @@
               "a": {
                 "v": "49.3",
                 "n": 49.3,
-                "rank": "#76 of 138",
-                "rank_n": 76,
+                "rank": "#75 of 138",
+                "rank_n": 75,
                 "note": null
               },
               "h": {
-                "v": "42.3",
-                "n": 42.3,
-                "rank": "#111 of 138",
-                "rank_n": 111,
+                "v": "42.2",
+                "n": 42.2,
+                "rank": "#109 of 138",
+                "rank_n": 109,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 7,
-                "rank_gap": 35
+                "gap": 7.1,
+                "rank_gap": 34
               }
             },
             {
@@ -542,23 +554,23 @@
               "k": "Special teams",
               "note": null,
               "a": {
-                "v": "49.9",
-                "n": 49.9,
-                "rank": "#78 of 130",
-                "rank_n": 78,
+                "v": "49.7",
+                "n": 49.7,
+                "rank": "#80 of 130",
+                "rank_n": 80,
                 "note": null
               },
               "h": {
-                "v": "52.3",
-                "n": 52.3,
-                "rank": "#24 of 130",
-                "rank_n": 24,
+                "v": "52.5",
+                "n": 52.5,
+                "rank": "#23 of 130",
+                "rank_n": 23,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 2.4,
-                "rank_gap": 54
+                "gap": 2.8,
+                "rank_gap": 57
               }
             },
             {
@@ -566,23 +578,23 @@
               "k": "Run offense",
               "note": null,
               "a": {
-                "v": "63.8",
-                "n": 63.8,
-                "rank": "#10 of 138",
-                "rank_n": 10,
+                "v": "63.9",
+                "n": 63.9,
+                "rank": "#13 of 138",
+                "rank_n": 13,
                 "note": null
               },
               "h": {
-                "v": "48.8",
-                "n": 48.8,
-                "rank": "#77 of 138",
-                "rank_n": 77,
+                "v": "48.0",
+                "n": 48,
+                "rank": "#74 of 138",
+                "rank_n": 74,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 15,
-                "rank_gap": 67
+                "gap": 15.9,
+                "rank_gap": 61
               }
             },
             {
@@ -590,23 +602,23 @@
               "k": "Pass offense",
               "note": null,
               "a": {
-                "v": "54.5",
-                "n": 54.5,
-                "rank": "#43 of 137",
-                "rank_n": 43,
+                "v": "54.6",
+                "n": 54.6,
+                "rank": "#40 of 138",
+                "rank_n": 40,
                 "note": null
               },
               "h": {
-                "v": "41.8",
-                "n": 41.8,
-                "rank": "#109 of 137",
-                "rank_n": 109,
+                "v": "42.9",
+                "n": 42.9,
+                "rank": "#110 of 138",
+                "rank_n": 110,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 12.7,
-                "rank_gap": 66
+                "gap": 11.7,
+                "rank_gap": 70
               }
             },
             {
@@ -614,22 +626,22 @@
               "k": "Run defense",
               "note": null,
               "a": {
-                "v": "46.7",
-                "n": 46.7,
-                "rank": "#80 of 138",
-                "rank_n": 80,
+                "v": "47.5",
+                "n": 47.5,
+                "rank": "#78 of 138",
+                "rank_n": 78,
                 "note": null
               },
               "h": {
-                "v": "44.8",
-                "n": 44.8,
-                "rank": "#86 of 138",
-                "rank_n": 86,
+                "v": "44.9",
+                "n": 44.9,
+                "rank": "#84 of 138",
+                "rank_n": 84,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 1.9,
+                "gap": 2.6,
                 "rank_gap": 6
               }
             },
@@ -638,23 +650,23 @@
               "k": "Pass defense",
               "note": null,
               "a": {
-                "v": "51.4",
-                "n": 51.4,
-                "rank": "#62 of 138",
-                "rank_n": 62,
+                "v": "50.7",
+                "n": 50.7,
+                "rank": "#63 of 138",
+                "rank_n": 63,
                 "note": null
               },
               "h": {
-                "v": "40.8",
-                "n": 40.8,
-                "rank": "#116 of 138",
-                "rank_n": 116,
+                "v": "40.6",
+                "n": 40.6,
+                "rank": "#114 of 138",
+                "rank_n": 114,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 10.6,
-                "rank_gap": 54
+                "gap": 10.1,
+                "rank_gap": 51
               }
             }
           ]
@@ -667,23 +679,23 @@
               "k": "QB room",
               "note": null,
               "a": {
-                "v": "59.3",
-                "n": 59.3,
-                "rank": "#55 of 138",
-                "rank_n": 55,
+                "v": "59.6",
+                "n": 59.6,
+                "rank": "#45 of 138",
+                "rank_n": 45,
                 "note": null
               },
               "h": {
-                "v": "56.9",
-                "n": 56.9,
-                "rank": "#90 of 138",
-                "rank_n": 90,
+                "v": "57.1",
+                "n": 57.1,
+                "rank": "#82 of 138",
+                "rank_n": 82,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 2.4,
-                "rank_gap": 35
+                "gap": 2.5,
+                "rank_gap": 37
               }
             },
             {
@@ -691,23 +703,23 @@
               "k": "Offensive line",
               "note": null,
               "a": {
-                "v": "58.2",
-                "n": 58.2,
-                "rank": "#5 of 138",
-                "rank_n": 5,
+                "v": "58.3",
+                "n": 58.3,
+                "rank": "#4 of 138",
+                "rank_n": 4,
                 "note": null
               },
               "h": {
-                "v": "44.0",
-                "n": 44,
-                "rank": "#131 of 138",
-                "rank_n": 131,
+                "v": "44.1",
+                "n": 44.1,
+                "rank": "#126 of 138",
+                "rank_n": 126,
                 "note": null
               },
               "edge": {
                 "side": "a",
                 "gap": 14.2,
-                "rank_gap": 126
+                "rank_gap": 122
               }
             },
             {
@@ -715,22 +727,22 @@
               "k": "Receivers",
               "note": null,
               "a": {
-                "v": "54.9",
-                "n": 54.9,
-                "rank": "#84 of 138",
-                "rank_n": 84,
+                "v": "55.0",
+                "n": 55,
+                "rank": "#82 of 138",
+                "rank_n": 82,
                 "note": null
               },
               "h": {
                 "v": "54.6",
                 "n": 54.6,
-                "rank": "#91 of 138",
-                "rank_n": 91,
+                "rank": "#89 of 138",
+                "rank_n": 89,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.3,
+                "gap": 0.4,
                 "rank_gap": 7
               }
             },
@@ -746,15 +758,15 @@
                 "note": "rated, held out of the national rank by the confidence gate"
               },
               "h": {
-                "v": "52.9",
-                "n": 52.9,
+                "v": "52.7",
+                "n": 52.7,
                 "rank": null,
                 "rank_n": null,
                 "note": "rated, held out of the national rank by the confidence gate"
               },
               "edge": {
                 "side": "a",
-                "gap": 2.1,
+                "gap": 2.3,
                 "rank_gap": null
               }
             },
@@ -763,23 +775,23 @@
               "k": "Running backs",
               "note": null,
               "a": {
-                "v": "58.1",
-                "n": 58.1,
-                "rank": "#22 of 138",
-                "rank_n": 22,
+                "v": "58.2",
+                "n": 58.2,
+                "rank": "#23 of 138",
+                "rank_n": 23,
                 "note": null
               },
               "h": {
                 "v": "56.8",
                 "n": 56.8,
-                "rank": "#49 of 138",
-                "rank_n": 49,
+                "rank": "#51 of 138",
+                "rank_n": 51,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 1.3,
-                "rank_gap": 27
+                "gap": 1.4,
+                "rank_gap": 28
               }
             },
             {
@@ -787,23 +799,23 @@
               "k": "Defensive line",
               "note": null,
               "a": {
-                "v": "48.0",
-                "n": 48,
-                "rank": "#116 of 138",
-                "rank_n": 116,
+                "v": "48.1",
+                "n": 48.1,
+                "rank": "#114 of 138",
+                "rank_n": 114,
                 "note": null
               },
               "h": {
-                "v": "51.5",
-                "n": 51.5,
-                "rank": "#84 of 138",
-                "rank_n": 84,
+                "v": "51.6",
+                "n": 51.6,
+                "rank": "#87 of 138",
+                "rank_n": 87,
                 "note": null
               },
               "edge": {
                 "side": "h",
                 "gap": 3.5,
-                "rank_gap": 32
+                "rank_gap": 27
               }
             },
             {
@@ -811,23 +823,23 @@
               "k": "Linebackers",
               "note": null,
               "a": {
-                "v": "53.3",
-                "n": 53.3,
-                "rank": "#66 of 138",
-                "rank_n": 66,
+                "v": "53.1",
+                "n": 53.1,
+                "rank": "#68 of 138",
+                "rank_n": 68,
                 "note": null
               },
               "h": {
-                "v": "52.8",
-                "n": 52.8,
-                "rank": "#75 of 138",
-                "rank_n": 75,
+                "v": "52.9",
+                "n": 52.9,
+                "rank": "#74 of 138",
+                "rank_n": 74,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.5,
-                "rank_gap": 9
+                "gap": 0.2,
+                "rank_gap": 6
               }
             },
             {
@@ -835,8 +847,8 @@
               "k": "Secondary",
               "note": null,
               "a": {
-                "v": "55.4",
-                "n": 55.4,
+                "v": "55.3",
+                "n": 55.3,
                 "rank": "#52 of 138",
                 "rank_n": 52,
                 "note": null
@@ -850,7 +862,7 @@
               },
               "edge": {
                 "side": "a",
-                "gap": 0.8,
+                "gap": 0.7,
                 "rank_gap": 10
               }
             },
@@ -859,23 +871,23 @@
               "k": "Kicking",
               "note": null,
               "a": {
-                "v": "53.6",
-                "n": 53.6,
-                "rank": "#128 of 138",
-                "rank_n": 128,
+                "v": "53.9",
+                "n": 53.9,
+                "rank": "#124 of 138",
+                "rank_n": 124,
                 "note": null
               },
               "h": {
-                "v": "56.0",
-                "n": 56,
-                "rank": "#68 of 138",
-                "rank_n": 68,
+                "v": "55.9",
+                "n": 55.9,
+                "rank": "#74 of 138",
+                "rank_n": 74,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 2.4,
-                "rank_gap": 60
+                "gap": 2,
+                "rank_gap": 50
               }
             }
           ]
@@ -888,23 +900,23 @@
               "k": "Depth",
               "note": "quality behind the projected starters",
               "a": {
-                "v": "54.1",
-                "n": 54.1,
-                "rank": "#17 of 138",
-                "rank_n": 17,
+                "v": "54.2",
+                "n": 54.2,
+                "rank": "#13 of 138",
+                "rank_n": 13,
                 "note": null
               },
               "h": {
                 "v": "53.2",
                 "n": 53.2,
-                "rank": "#74 of 138",
-                "rank_n": 74,
+                "rank": "#75 of 138",
+                "rank_n": 75,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.9,
-                "rank_gap": 57
+                "gap": 1,
+                "rank_gap": 62
               }
             },
             {
@@ -941,33 +953,33 @@
       "away": [
         {
           "k": "Offensive line",
-          "rank_gap": 126,
+          "rank_gap": 122,
           "gap": 14.2,
           "lead": "Oregon State",
           "trail": "Fresno State",
-          "lead_cell": "58.2 · #5 of 138",
-          "trail_cell": "44.0 · #131 of 138",
-          "text": "Oregon State 58.2 (#5 of 138) vs Fresno State 44.0 (#131 of 138) — 126 places on the national board."
+          "lead_cell": "58.3 · #4 of 138",
+          "trail_cell": "44.1 · #126 of 138",
+          "text": "Oregon State 58.3 (#4 of 138) vs Fresno State 44.1 (#126 of 138) — 122 places on the national board."
         },
         {
           "k": "Offense",
-          "rank_gap": 79,
-          "gap": 13.5,
+          "rank_gap": 72,
+          "gap": 13.6,
           "lead": "Oregon State",
           "trail": "Fresno State",
-          "lead_cell": "58.3 · #23 of 138",
-          "trail_cell": "44.8 · #102 of 138",
-          "text": "Oregon State 58.3 (#23 of 138) vs Fresno State 44.8 (#102 of 138) — 79 places on the national board."
+          "lead_cell": "58.6 · #24 of 138",
+          "trail_cell": "45.0 · #96 of 138",
+          "text": "Oregon State 58.6 (#24 of 138) vs Fresno State 45.0 (#96 of 138) — 72 places on the national board."
         },
         {
-          "k": "Run offense",
-          "rank_gap": 67,
-          "gap": 15,
+          "k": "Pass offense",
+          "rank_gap": 70,
+          "gap": 11.7,
           "lead": "Oregon State",
           "trail": "Fresno State",
-          "lead_cell": "63.8 · #10 of 138",
-          "trail_cell": "48.8 · #77 of 138",
-          "text": "Oregon State 63.8 (#10 of 138) vs Fresno State 48.8 (#77 of 138) — 67 places on the national board."
+          "lead_cell": "54.6 · #40 of 138",
+          "trail_cell": "42.9 · #110 of 138",
+          "text": "Oregon State 54.6 (#40 of 138) vs Fresno State 42.9 (#110 of 138) — 70 places on the national board."
         },
         {
           "k": "Performance",
@@ -975,41 +987,41 @@
           "gap": 17.4,
           "lead": "Oregon State",
           "trail": "Fresno State",
-          "lead_cell": "56.5 · #45 of 138",
-          "trail_cell": "39.1 · #111 of 138",
-          "text": "Oregon State 56.5 (#45 of 138) vs Fresno State 39.1 (#111 of 138) — 66 places on the national board."
+          "lead_cell": "56.6 · #44 of 138",
+          "trail_cell": "39.2 · #110 of 138",
+          "text": "Oregon State 56.6 (#44 of 138) vs Fresno State 39.2 (#110 of 138) — 66 places on the national board."
         },
         {
-          "k": "Pass offense",
-          "rank_gap": 66,
-          "gap": 12.7,
+          "k": "Depth",
+          "rank_gap": 62,
+          "gap": 1,
           "lead": "Oregon State",
           "trail": "Fresno State",
-          "lead_cell": "54.5 · #43 of 137",
-          "trail_cell": "41.8 · #109 of 137",
-          "text": "Oregon State 54.5 (#43 of 137) vs Fresno State 41.8 (#109 of 137) — 66 places on the national board."
+          "lead_cell": "54.2 · #13 of 138",
+          "trail_cell": "53.2 · #75 of 138",
+          "text": "Oregon State 54.2 (#13 of 138) vs Fresno State 53.2 (#75 of 138) — 62 places on the national board."
         }
       ],
       "home": [
         {
-          "k": "Kicking",
-          "rank_gap": 60,
-          "gap": 2.4,
+          "k": "Special teams",
+          "rank_gap": 57,
+          "gap": 2.8,
           "lead": "Fresno State",
           "trail": "Oregon State",
-          "lead_cell": "56.0 · #68 of 138",
-          "trail_cell": "53.6 · #128 of 138",
-          "text": "Fresno State 56.0 (#68 of 138) vs Oregon State 53.6 (#128 of 138) — 60 places on the national board."
+          "lead_cell": "52.5 · #23 of 130",
+          "trail_cell": "49.7 · #80 of 130",
+          "text": "Fresno State 52.5 (#23 of 130) vs Oregon State 49.7 (#80 of 130) — 57 places on the national board."
         },
         {
-          "k": "Special teams",
-          "rank_gap": 54,
-          "gap": 2.4,
+          "k": "Kicking",
+          "rank_gap": 50,
+          "gap": 2,
           "lead": "Fresno State",
           "trail": "Oregon State",
-          "lead_cell": "52.3 · #24 of 130",
-          "trail_cell": "49.9 · #78 of 130",
-          "text": "Fresno State 52.3 (#24 of 130) vs Oregon State 49.9 (#78 of 130) — 54 places on the national board."
+          "lead_cell": "55.9 · #74 of 138",
+          "trail_cell": "53.9 · #124 of 138",
+          "text": "Fresno State 55.9 (#74 of 138) vs Oregon State 53.9 (#124 of 138) — 50 places on the national board."
         },
         {
           "k": "Continuity",
@@ -1023,13 +1035,13 @@
         },
         {
           "k": "Defensive line",
-          "rank_gap": 32,
+          "rank_gap": 27,
           "gap": 3.5,
           "lead": "Fresno State",
           "trail": "Oregon State",
-          "lead_cell": "51.5 · #84 of 138",
-          "trail_cell": "48.0 · #116 of 138",
-          "text": "Fresno State 51.5 (#84 of 138) vs Oregon State 48.0 (#116 of 138) — 32 places on the national board."
+          "lead_cell": "51.6 · #87 of 138",
+          "trail_cell": "48.1 · #114 of 138",
+          "text": "Fresno State 51.6 (#87 of 138) vs Oregon State 48.1 (#114 of 138) — 27 places on the national board."
         }
       ],
       "measured": [],
@@ -1043,84 +1055,84 @@
         "att": {
           "team": "Oregon State",
           "label": "pass offense",
-          "v": "54.5",
-          "rank": "#43 of 137",
+          "v": "54.6",
+          "rank": "#40 of 138",
           "note": null
         },
         "def": {
           "team": "Fresno State",
           "label": "pass defense",
-          "v": "40.8",
-          "rank": "#116 of 138",
+          "v": "40.6",
+          "rank": "#114 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Oregon State’s pass offense rates 54.5 (#43 of 137) against Fresno State’s pass defense at 40.8 (#116 of 138). Oregon State’s unit stands higher among its own position group, by 73 places."
+        "read": "Oregon State’s pass offense rates 54.6 (#40 of 138) against Fresno State’s pass defense at 40.6 (#114 of 138). Oregon State’s unit stands higher among its own position group, by 74 places."
       },
       {
         "title": "Oregon State run offense vs Fresno State run defense",
         "att": {
           "team": "Oregon State",
           "label": "run offense",
-          "v": "63.8",
-          "rank": "#10 of 138",
+          "v": "63.9",
+          "rank": "#13 of 138",
           "note": null
         },
         "def": {
           "team": "Fresno State",
           "label": "run defense",
-          "v": "44.8",
-          "rank": "#86 of 138",
+          "v": "44.9",
+          "rank": "#84 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Oregon State’s run offense rates 63.8 (#10 of 138) against Fresno State’s run defense at 44.8 (#86 of 138). Oregon State’s unit stands higher among its own position group, by 76 places."
+        "read": "Oregon State’s run offense rates 63.9 (#13 of 138) against Fresno State’s run defense at 44.9 (#84 of 138). Oregon State’s unit stands higher among its own position group, by 71 places."
       },
       {
         "title": "Fresno State pass offense vs Oregon State pass defense",
         "att": {
           "team": "Fresno State",
           "label": "pass offense",
-          "v": "41.8",
-          "rank": "#109 of 137",
+          "v": "42.9",
+          "rank": "#110 of 138",
           "note": null
         },
         "def": {
           "team": "Oregon State",
           "label": "pass defense",
-          "v": "51.4",
-          "rank": "#62 of 138",
+          "v": "50.7",
+          "rank": "#63 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Fresno State’s pass offense rates 41.8 (#109 of 137) against Oregon State’s pass defense at 51.4 (#62 of 138). Oregon State’s unit stands higher among its own position group, by 47 places."
+        "read": "Fresno State’s pass offense rates 42.9 (#110 of 138) against Oregon State’s pass defense at 50.7 (#63 of 138). Oregon State’s unit stands higher among its own position group, by 47 places."
       },
       {
         "title": "Fresno State run offense vs Oregon State run defense",
         "att": {
           "team": "Fresno State",
           "label": "run offense",
-          "v": "48.8",
-          "rank": "#77 of 138",
+          "v": "48.0",
+          "rank": "#74 of 138",
           "note": null
         },
         "def": {
           "team": "Oregon State",
           "label": "run defense",
-          "v": "46.7",
-          "rank": "#80 of 138",
+          "v": "47.5",
+          "rank": "#78 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Fresno State’s run offense rates 48.8 (#77 of 138) against Oregon State’s run defense at 46.7 (#80 of 138). Fresno State’s unit stands higher among its own position group, by 3 places."
+        "read": "Fresno State’s run offense rates 48.0 (#74 of 138) against Oregon State’s run defense at 47.5 (#78 of 138). Fresno State’s unit stands higher among its own position group, by 4 places."
       },
       {
         "title": "Oregon State QB room vs Fresno State secondary",
         "att": {
           "team": "Oregon State",
           "label": "QB room",
-          "v": "59.3",
-          "rank": "#55 of 138",
+          "v": "59.6",
+          "rank": "#45 of 138",
           "note": null
         },
         "def": {
@@ -1131,83 +1143,83 @@
           "note": null
         },
         "complete": true,
-        "read": "Oregon State’s QB room rates 59.3 (#55 of 138) against Fresno State’s secondary at 54.6 (#62 of 138). Oregon State’s unit stands higher among its own position group, by 7 places."
+        "read": "Oregon State’s QB room rates 59.6 (#45 of 138) against Fresno State’s secondary at 54.6 (#62 of 138). Oregon State’s unit stands higher among its own position group, by 17 places."
       },
       {
         "title": "Fresno State QB room vs Oregon State secondary",
         "att": {
           "team": "Fresno State",
           "label": "QB room",
-          "v": "56.9",
-          "rank": "#90 of 138",
+          "v": "57.1",
+          "rank": "#82 of 138",
           "note": null
         },
         "def": {
           "team": "Oregon State",
           "label": "secondary",
-          "v": "55.4",
+          "v": "55.3",
           "rank": "#52 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Fresno State’s QB room rates 56.9 (#90 of 138) against Oregon State’s secondary at 55.4 (#52 of 138). Oregon State’s unit stands higher among its own position group, by 38 places."
+        "read": "Fresno State’s QB room rates 57.1 (#82 of 138) against Oregon State’s secondary at 55.3 (#52 of 138). Oregon State’s unit stands higher among its own position group, by 30 places."
       },
       {
         "title": "Oregon State offensive line vs Fresno State defensive line",
         "att": {
           "team": "Oregon State",
           "label": "offensive line",
-          "v": "58.2",
-          "rank": "#5 of 138",
+          "v": "58.3",
+          "rank": "#4 of 138",
           "note": null
         },
         "def": {
           "team": "Fresno State",
           "label": "defensive line",
-          "v": "51.5",
-          "rank": "#84 of 138",
+          "v": "51.6",
+          "rank": "#87 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Oregon State’s offensive line rates 58.2 (#5 of 138) against Fresno State’s defensive line at 51.5 (#84 of 138). Oregon State’s unit stands higher among its own position group, by 79 places."
+        "read": "Oregon State’s offensive line rates 58.3 (#4 of 138) against Fresno State’s defensive line at 51.6 (#87 of 138). Oregon State’s unit stands higher among its own position group, by 83 places."
       },
       {
         "title": "Fresno State offensive line vs Oregon State defensive line",
         "att": {
           "team": "Fresno State",
           "label": "offensive line",
-          "v": "44.0",
-          "rank": "#131 of 138",
+          "v": "44.1",
+          "rank": "#126 of 138",
           "note": null
         },
         "def": {
           "team": "Oregon State",
           "label": "defensive line",
-          "v": "48.0",
-          "rank": "#116 of 138",
+          "v": "48.1",
+          "rank": "#114 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Fresno State’s offensive line rates 44.0 (#131 of 138) against Oregon State’s defensive line at 48.0 (#116 of 138). Oregon State’s unit stands higher among its own position group, by 15 places."
+        "read": "Fresno State’s offensive line rates 44.1 (#126 of 138) against Oregon State’s defensive line at 48.1 (#114 of 138). Oregon State’s unit stands higher among its own position group, by 12 places."
       },
       {
         "title": "Oregon State running backs vs Fresno State linebackers",
         "att": {
           "team": "Oregon State",
           "label": "running backs",
-          "v": "58.1",
-          "rank": "#22 of 138",
+          "v": "58.2",
+          "rank": "#23 of 138",
           "note": null
         },
         "def": {
           "team": "Fresno State",
           "label": "linebackers",
-          "v": "52.8",
-          "rank": "#75 of 138",
+          "v": "52.9",
+          "rank": "#74 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Oregon State’s running backs rates 58.1 (#22 of 138) against Fresno State’s linebackers at 52.8 (#75 of 138). Oregon State’s unit stands higher among its own position group, by 53 places."
+        "read": "Oregon State’s running backs rates 58.2 (#23 of 138) against Fresno State’s linebackers at 52.9 (#74 of 138). Oregon State’s unit stands higher among its own position group, by 51 places."
       },
       {
         "title": "Fresno State running backs vs Oregon State linebackers",
@@ -1215,26 +1227,26 @@
           "team": "Fresno State",
           "label": "running backs",
           "v": "56.8",
-          "rank": "#49 of 138",
+          "rank": "#51 of 138",
           "note": null
         },
         "def": {
           "team": "Oregon State",
           "label": "linebackers",
-          "v": "53.3",
-          "rank": "#66 of 138",
+          "v": "53.1",
+          "rank": "#68 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Fresno State’s running backs rates 56.8 (#49 of 138) against Oregon State’s linebackers at 53.3 (#66 of 138). Fresno State’s unit stands higher among its own position group, by 17 places."
+        "read": "Fresno State’s running backs rates 56.8 (#51 of 138) against Oregon State’s linebackers at 53.1 (#68 of 138). Fresno State’s unit stands higher among its own position group, by 17 places."
       },
       {
         "title": "Oregon State receivers vs Fresno State secondary",
         "att": {
           "team": "Oregon State",
           "label": "receivers",
-          "v": "54.9",
-          "rank": "#84 of 138",
+          "v": "55.0",
+          "rank": "#82 of 138",
           "note": null
         },
         "def": {
@@ -1245,7 +1257,7 @@
           "note": null
         },
         "complete": true,
-        "read": "Oregon State’s receivers rates 54.9 (#84 of 138) against Fresno State’s secondary at 54.6 (#62 of 138). Fresno State’s unit stands higher among its own position group, by 22 places."
+        "read": "Oregon State’s receivers rates 55.0 (#82 of 138) against Fresno State’s secondary at 54.6 (#62 of 138). Fresno State’s unit stands higher among its own position group, by 20 places."
       },
       {
         "title": "Fresno State receivers vs Oregon State secondary",
@@ -1253,18 +1265,18 @@
           "team": "Fresno State",
           "label": "receivers",
           "v": "54.6",
-          "rank": "#91 of 138",
+          "rank": "#89 of 138",
           "note": null
         },
         "def": {
           "team": "Oregon State",
           "label": "secondary",
-          "v": "55.4",
+          "v": "55.3",
           "rank": "#52 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Fresno State’s receivers rates 54.6 (#91 of 138) against Oregon State’s secondary at 55.4 (#52 of 138). Oregon State’s unit stands higher among its own position group, by 39 places."
+        "read": "Fresno State’s receivers rates 54.6 (#89 of 138) against Oregon State’s secondary at 55.3 (#52 of 138). Oregon State’s unit stands higher among its own position group, by 37 places."
       }
     ],
     "roster": {
@@ -1340,8 +1352,8 @@
         {
           "k": "Starter quality",
           "note": "projected starters, weighted by position value",
-          "a": "56.8",
-          "h": "55.3",
+          "a": "56.9",
+          "h": "55.4",
           "edge": {
             "side": "a",
             "gap": 1.5
@@ -1350,8 +1362,8 @@
         {
           "k": "Rotation quality",
           "note": null,
-          "a": "55.8",
-          "h": "53.0",
+          "a": "55.9",
+          "h": "53.1",
           "edge": {
             "side": "a",
             "gap": 2.799999999999997
@@ -1360,18 +1372,18 @@
         {
           "k": "Depth quality",
           "note": "behind the projected starters",
-          "a": "54.1",
+          "a": "54.2",
           "h": "53.2",
           "edge": {
             "side": "a",
-            "gap": 0.8999999999999986
+            "gap": 1
           }
         },
         {
           "k": "Availability records",
           "note": "an absence report reaching this roster. UNKNOWN is never read as healthy",
           "a": "none on file — 100% unknown",
-          "h": "none on file — 100% unknown",
+          "h": "1 on file, 0% of starter value out",
           "edge": null
         },
         {
@@ -1381,7 +1393,7 @@
           "h": "66%",
           "edge": {
             "side": "h",
-            "gap": 0.029000000000000026
+            "gap": 0.03200000000000003
           }
         }
       ],
@@ -1389,17 +1401,17 @@
         {
           "k": "Rotation quality",
           "lead": "Oregon State",
-          "text": "Oregon State leads on rotation quality — Oregon State 55.8, Fresno State 53.0."
+          "text": "Oregon State leads on rotation quality — Oregon State 55.9, Fresno State 53.1."
         },
         {
           "k": "Starter quality",
           "lead": "Oregon State",
-          "text": "Oregon State leads on starter quality — Oregon State 56.8, Fresno State 55.3."
+          "text": "Oregon State leads on starter quality — Oregon State 56.9, Fresno State 55.4."
         },
         {
           "k": "Depth quality",
           "lead": "Oregon State",
-          "text": "Oregon State leads on depth quality — Oregon State 54.1, Fresno State 53.2."
+          "text": "Oregon State leads on depth quality — Oregon State 54.2, Fresno State 53.2."
         },
         {
           "k": "QB-room continuity",
@@ -1421,9 +1433,9 @@
         "bullets": [
           "Oregon State is the better football team by 5.7 points on opponent-adjusted results, with roughly 35% of it still inherited from last season (-5.7 pts).",
           "Stylistically the matchup favours Oregon State by 2.1 points: ball control vs front disruption (-2.1 pts).",
-          "Offensive line: Oregon State 58.2 (#5 of 138) vs Fresno State 44.0 (#131 of 138) — 126 places on the national board.",
-          "Offense: Oregon State 58.3 (#23 of 138) vs Fresno State 44.8 (#102 of 138) — 79 places on the national board.",
-          "Run offense: Oregon State 63.8 (#10 of 138) vs Fresno State 48.8 (#77 of 138) — 67 places on the national board."
+          "Offensive line: Oregon State 58.3 (#4 of 138) vs Fresno State 44.1 (#126 of 138) — 122 places on the national board.",
+          "Offense: Oregon State 58.6 (#24 of 138) vs Fresno State 45.0 (#96 of 138) — 72 places on the national board.",
+          "Pass offense: Oregon State 54.6 (#40 of 138) vs Fresno State 42.9 (#110 of 138) — 70 places on the national board."
         ]
       },
       "underdog": {
@@ -1431,8 +1443,8 @@
         "heading": "Why Fresno State can keep it close",
         "bullets": [
           "Playing at Fresno State is worth 2.8 points — the league-wide home-field number, because a per-venue table was tested and could not be told apart from the home team’s own quality (+2.8 pts).",
-          "Kicking: Fresno State 56.0 (#68 of 138) vs Oregon State 53.6 (#128 of 138) — 60 places on the national board.",
-          "Special teams: Fresno State 52.3 (#24 of 130) vs Oregon State 49.9 (#78 of 130) — 54 places on the national board.",
+          "Special teams: Fresno State 52.5 (#23 of 130) vs Oregon State 49.7 (#80 of 130) — 57 places on the national board.",
+          "Kicking: Fresno State 55.9 (#74 of 138) vs Oregon State 53.9 (#124 of 138) — 50 places on the national board.",
           "Continuity: Fresno State 51.3 (#35 of 138) vs Oregon State 44.3 (#73 of 138) — 38 places on the national board.",
           "The outcome range is 14.6 points wide at one sigma — p10 -25.9 to p90 +16.1 for Fresno State, so a projection of -4.9 still produces results a long way either side of it."
         ]
@@ -1456,25 +1468,25 @@
         {
           "sev": "MEDIUM",
           "label": "Fresno State — injury uncertainty",
-          "text": "100% of projected starter value has no availability record.",
+          "text": "97% of projected starter value has no availability record.",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "home quarterback is contested — the evidence names more than one starter",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "away quarterback is contested — the evidence names more than one starter",
           "widening": null
         },
         {
           "sev": "LOW",
           "label": "missing",
           "text": "weather not supplied",
-          "widening": null
-        },
-        {
-          "sev": "LOW",
-          "label": "missing",
-          "text": "home injury report not supplied",
-          "widening": null
-        },
-        {
-          "sev": "LOW",
-          "label": "missing",
-          "text": "away injury report not supplied",
           "widening": null
         },
         {
@@ -1498,14 +1510,6 @@
         {
           "item": "Away starting quarterback",
           "why": "starting QB not supplied for away"
-        },
-        {
-          "item": "Home availability / injuries",
-          "why": "no injury report supplied for home"
-        },
-        {
-          "item": "Away availability / injuries",
-          "why": "no injury report supplied for away"
         },
         {
           "item": "Weather at kickoff",
@@ -1534,10 +1538,6 @@
         {
           "item": "Fresno State — recruiting ratings",
           "why": "no legal, public, keyless recruiting feed is wired into EdgeDesk, so no recruiting rating exists for this roster. Nothing is estimated in its place."
-        },
-        {
-          "item": "Fresno State — availability and injuries",
-          "why": "no availability record reached this roster. UNKNOWN is carried as unknown; it is never read as healthy."
         }
       ],
       "note": "Unknown is never scored as zero. Every line here is a gap EdgeDesk carries as uncertainty rather than filling in."
@@ -1583,13 +1583,13 @@
         "label": "High"
       },
       "reliability": {
-        "pct": 88,
-        "tier": "STRONG",
-        "text": "88 · STRONG",
-        "sub": "main deduction: Oregon State’s availability report is not due yet",
-        "score": 88,
-        "grade": "STRONG",
-        "grade_label": "STRONG",
+        "pct": 79,
+        "tier": "ADEQUATE",
+        "text": "79 · ADEQUATE",
+        "sub": "main deduction: the quarterback job is contested for Fresno State and Oregon State",
+        "score": 79,
+        "grade": "ADEQUATE",
+        "grade_label": "ADEQUATE",
         "gate_label": null,
         "components": [
           {
@@ -1601,7 +1601,7 @@
           {
             "key": "roster_availability",
             "label": "Roster/status",
-            "score": 12.8,
+            "score": 12.7,
             "max": 20
           },
           {
@@ -1613,13 +1613,13 @@
           {
             "key": "freshness",
             "label": "Freshness",
-            "score": 11.8,
+            "score": 12.9,
             "max": 15
           },
           {
             "key": "source_integrity",
             "label": "Source integrity",
-            "score": 15,
+            "score": 13,
             "max": 15
           },
           {
@@ -1629,23 +1629,25 @@
             "max": 10
           }
         ],
-        "main_deduction": "Oregon State’s availability report is not due yet; the impact of Oregon State’s absences cannot be assessed: no graded availability read",
-        "capped_by": [],
+        "main_deduction": "the quarterback job is contested for Fresno State and Oregon State",
+        "capped_by": [
+          "QB_CONTESTED"
+        ],
         "next_actions": [
           {
-            "action": "Re-read availability inside the filing window (Oregon State)",
-            "potential_gain": 1,
-            "text": "up to +1"
+            "action": "Confirm Fresno State’s starting QB (Jayden Mandal)",
+            "potential_gain": 9,
+            "text": "up to +9"
           },
           {
-            "action": "Re-read availability inside the filing window (Fresno State)",
+            "action": "Confirm Oregon State’s QB availability",
             "potential_gain": 1,
-            "text": "up to +1"
+            "text": "up to +1 once confirm Fresno State’s starting QB (Jayden Mandal) is done"
           },
           {
-            "action": "Capture a market quote",
+            "action": "Confirm Fresno State’s QB availability",
             "potential_gain": 1,
-            "text": "up to +1"
+            "text": "up to +1 once confirm Fresno State’s starting QB (Jayden Mandal) is done"
           }
         ],
         "stability": {
@@ -1679,9 +1681,9 @@
         "reason": "no sportsbook quote has been captured for this game"
       },
       "projection_status": {
-        "key": "LINE_MOVING",
-        "label": "LINE MOVING",
-        "text": "EdgeDesk’s number is steady, but the market has moved 1.5 pts toward Fresno State (espn · DraftKings)."
+        "key": "INJURY_UNCERTAINTY",
+        "label": "INJURY UNCERTAINTY",
+        "text": "A supplied availability report lists 12 players with an unresolved status; the engine widens this game’s range for it."
       },
       "stability": {
         "tier": "HIGH",
@@ -1696,25 +1698,25 @@
           "text": "Oregon State -5.0"
         },
         {
-          "at": "2026-10-26T14:24:18.158Z",
+          "at": "2026-10-31T20:48:13.327Z",
           "source": "latest published",
           "home_margin": -4.93,
           "text": "Oregon State -4.9"
         }
       ],
-      "revisions": 4,
+      "revisions": 5,
       "change_since_published": {
         "comparable": true,
         "points": 0,
         "toward_team": "Oregon State",
-        "since_at": "2026-10-26T14:24:18.158Z",
+        "since_at": "2026-10-31T20:48:13.327Z",
         "text": "unchanged since the latest published number"
       },
       "what_changed": {
         "available": true,
         "summary": "EdgeDesk moved 0.1 points toward Fresno State since the first published number.",
         "attribution_text": "Projection changed 0.1 points since the first published number. Component-level attribution is unavailable: the stored snapshot keeps the number, not the terms behind it.",
-        "market": "Market moved 1.5 pts toward Fresno State (espn · DraftKings)",
+        "market": null,
         "model_version": null
       },
       "parity": {
@@ -1739,10 +1741,10 @@
         "points": "24"
       },
       "expected": {
-        "text": "Oregon State 28.86, Fresno State 23.93",
-        "home": 23.93,
-        "away": 28.86,
-        "note": null
+        "text": "Oregon State 28.52, Fresno State 23.59",
+        "home": 23.59,
+        "away": 28.52,
+        "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
       },
       "note": "Split from EdgeDesk’s own projected margin and total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
     },
@@ -1754,110 +1756,110 @@
       "rows": [
         {
           "k": "ETSR (overall)",
-          "a": "+2.1  #56",
-          "h": "-5.9  #111",
+          "a": "+2.1  #55",
+          "h": "-5.8  #112",
           "note": "points vs an average FBS team, neutral field"
         },
         {
           "k": "Talent",
-          "a": "54.0  #47",
-          "h": "43.8  #104",
+          "a": "53.9  #45",
+          "h": "44.2  #102",
           "note": null
         },
         {
           "k": "Performance",
-          "a": "56.5  #45",
-          "h": "39.1  #111",
+          "a": "56.6  #44",
+          "h": "39.2  #110",
           "note": null
         },
         {
           "k": "Offense",
-          "a": "58.3  #23",
-          "h": "44.8  #102",
+          "a": "58.6  #24",
+          "h": "45.0  #96",
           "note": null
         },
         {
           "k": "Defense",
-          "a": "49.3  #76",
-          "h": "42.3  #111",
+          "a": "49.3  #75",
+          "h": "42.2  #109",
           "note": null
         },
         {
           "k": "Special teams",
-          "a": "49.9  #78",
-          "h": "52.3  #24",
+          "a": "49.7  #80",
+          "h": "52.5  #23",
           "note": null
         },
         {
           "k": "Run offense",
-          "a": "63.8  #10",
-          "h": "48.8  #77",
+          "a": "63.9  #13",
+          "h": "48.0  #74",
           "note": null
         },
         {
           "k": "Pass offense",
-          "a": "54.5  #43",
-          "h": "41.8  #109",
+          "a": "54.6  #40",
+          "h": "42.9  #110",
           "note": null
         },
         {
           "k": "Run defense",
-          "a": "46.7  #80",
-          "h": "44.8  #86",
+          "a": "47.5  #78",
+          "h": "44.9  #84",
           "note": null
         },
         {
           "k": "Pass defense",
-          "a": "51.4  #62",
-          "h": "40.8  #116",
+          "a": "50.7  #63",
+          "h": "40.6  #114",
           "note": null
         },
         {
           "k": "QB room",
-          "a": "59.3  #55",
-          "h": "56.9  #90",
+          "a": "59.6  #45",
+          "h": "57.1  #82",
           "note": null
         },
         {
           "k": "Offensive line",
-          "a": "58.2  #5",
-          "h": "44.0  #131",
+          "a": "58.3  #4",
+          "h": "44.1  #126",
           "note": null
         },
         {
           "k": "Receivers",
-          "a": "54.9  #84",
-          "h": "54.6  #91",
+          "a": "55.0  #82",
+          "h": "54.6  #89",
           "note": null
         },
         {
           "k": "Running backs",
-          "a": "58.1  #22",
-          "h": "56.8  #49",
+          "a": "58.2  #23",
+          "h": "56.8  #51",
           "note": null
         },
         {
           "k": "Defensive line",
-          "a": "48.0  #116",
-          "h": "51.5  #84",
+          "a": "48.1  #114",
+          "h": "51.6  #87",
           "note": null
         },
         {
           "k": "Linebackers",
-          "a": "53.3  #66",
-          "h": "52.8  #75",
+          "a": "53.1  #68",
+          "h": "52.9  #74",
           "note": null
         },
         {
           "k": "Secondary",
-          "a": "55.4  #52",
+          "a": "55.3  #52",
           "h": "54.6  #62",
           "note": null
         },
         {
           "k": "Depth",
-          "a": "54.1  #17",
-          "h": "53.2  #74",
+          "a": "54.2  #13",
+          "h": "53.2  #75",
           "note": null
         },
         {
@@ -1874,107 +1876,32 @@
         },
         {
           "k": "Δ national rank, this week",
-          "a": "down 8",
+          "a": "up 1",
           "h": "down 1",
           "note": "differenced from last week’s committed snapshot"
         }
       ]
     },
     "notes": [
-      "EdgeDesk’s line is Fresno State +5.0 on a neutral read of the two teams, before any book is consulted. Projected total 53.0.",
+      "EdgeDesk’s line is Fresno State +5.0 on a neutral read of the two teams, before any book is consulted. Projected total 52.0.",
       "Fresno State wins 37% of the time in EdgeDesk’s simulation, Oregon State 63%.",
       "Eight games in ten land between -25.9 and +16.1 for Fresno State. A single result inside that band tells you nothing new about either team.",
-      "No sportsbook spread is joined to this game, so there is no model-versus-market comparison. EdgeDesk’s own number and the research behind it are unchanged by that.",
-      "Oregon State quarterback: Braden Atkinson — started the last game; no announcement for this one.",
-      "Fresno State quarterback: Jayden Mandal — started the last game; no announcement for this one."
+      "No sportsbook spread is joined to this game, so there is no model-versus-market comparison. EdgeDesk’s own number and the research behind it are unchanged by that."
     ],
     "missing": [
+      "Oregon State quarterback unresolved: unresolved: Braden Atkinson 85% of recent dropbacks and Maalik Murphy 9% of recent dropbacks.",
       "No availability report reached Braden Atkinson — unknown is carried as unknown, never as healthy.",
+      "Fresno State quarterback unresolved: unresolved: Jayden Mandal 96% of recent dropbacks and Khristian Martin 3% of recent dropbacks.",
       "No availability report reached Jayden Mandal — unknown is carried as unknown, never as healthy."
     ],
     "context_label": "RESEARCH CONTEXT — position-group, player-quality, roster and scheme figures explain this matchup and move no priced number.",
     "priced_label": "PRICED BY MODEL — the projection and its drivers, from validated inputs only.",
-    "source": "Ratings: football/rankings/current.json — 2026 Week 8, built 2026-10-26. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser."
+    "source": "Ratings: football/rankings/current.json — 2026 Week 9, built 2026-10-31. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser."
   },
-  "football_evidence": {
-    "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "16mwlj4xoi942",
-    "status": "NO_MATERIAL_DISAGREEMENT",
-    "input_suspect": false,
-    "question": "Can Fresno State’s pass rush get to Braden Atkinson?",
-    "assessment": "No material disagreement: EdgeDesk and the line are within 0.6 points.",
-    "gap": {
-      "points": 0.6,
-      "toward": "Fresno State",
-      "other": "Oregon State"
-    },
-    "supporting": [
-      "When Fresno State has the ball (big plays on the ground): Fresno State’s offense turns 9.3% of its runs into explosive gains, and Oregon State’s defense gives up explosive gains on 6.6% of opponent runs (FBS average 6.5%).",
-      "EdgeDesk’s position-group ratings put Fresno State’s defensive line No. 84 nationally and Oregon State’s No. 116."
-    ],
-    "contradicting": [
-      "When Fresno State has the ball (pass protection against the pass rush): Fresno State’s offense has allowed a sack on 6.0% of its dropbacks, and Oregon State’s defense sacks the quarterback on 9.0% of opponent dropbacks (FBS average 5.7%).",
-      "When Oregon State has the ball (big plays on the ground): Oregon State’s offense turns 9.6% of its runs into explosive gains, and Fresno State’s defense gives up explosive gains on 5.8% of opponent runs (FBS average 6.5%).",
-      "When Fresno State has the ball (big plays through the air): Fresno State’s offense turns 9.6% of its pass plays into explosive gains, and Oregon State’s defense gives up explosive gains on 6.9% of opponent pass plays (FBS average 10.2%).",
-      "When Oregon State has the ball (the run game against the run defense): Oregon State’s offense averages 6.1 yards per carry, and Fresno State’s defense allows 5.7 yards per carry (FBS average 5.0)."
-    ],
-    "quarterbacks": [
-      "Jayden Mandal has completed 123 of 198 passes (62.1%) for 1,393 yards, 7.0 yards per attempt, 8 touchdowns and 1 interception in seven games for Fresno State, and has been sacked on 13 of 211 dropbacks.",
-      "Braden Atkinson has completed 190 of 274 passes (69.3%) for 2,628 yards, 9.6 yards per attempt, 26 touchdowns and 2 interceptions in seven games for Oregon State, and has been sacked on 9 of 283 dropbacks."
-    ],
-    "availability": [],
-    "script": {
-      "model": [
-        "Fresno State’s defense has to come out ahead in the pass-rush matchup: it sacks the quarterback on 7.8% of opponent dropbacks, against an offense that has allowed a sack on 3.0% of its dropbacks.",
-        "Fresno State’s offense has to hold its own in the pass-rush matchup against a defense that sacks the quarterback on 9.0% of opponent dropbacks.",
-        "Fresno State’s defense has to slow Oregon State on long runs — Oregon State’s offense turns 9.6% of its runs into explosive gains.",
-        "Fresno State’s offense has to keep winning on long runs: it turns 9.3% of its runs into explosive gains, and Oregon State’s defense gives up explosive gains on 6.6% of opponent runs."
-      ],
-      "market": [
-        "Oregon State’s defense has to come out ahead in the pass-rush matchup: it sacks the quarterback on 9.0% of opponent dropbacks, against an offense that has allowed a sack on 6.0% of its dropbacks.",
-        "Oregon State’s offense has to keep winning on long runs: it turns 9.6% of its runs into explosive gains, and Fresno State’s defense gives up explosive gains on 5.8% of opponent runs.",
-        "Oregon State’s offense has to keep winning in the pass-rush matchup: it has allowed a sack on 3.0% of its dropbacks, and Fresno State’s defense sacks the quarterback on 7.8% of opponent dropbacks."
-      ]
-    },
-    "unknown": [
-      "EdgeDesk’s own sources disagree on sack rate allowed and sack rate for Fresno State and Oregon State.",
-      "Not in EdgeDesk’s verified data for this game: turnover rates, injuries and personnel and penalty rate."
-    ],
-    "flags": [
-      {
-        "key": "DATA_CONFLICT",
-        "severity": "medium",
-        "text": "EdgeDesk’s own sources disagree on sack rate allowed (Fresno State), sack rate (Fresno State), sack rate allowed (Oregon State) and sack rate (Oregon State); the evidence uses the corroborated figures, and any model term built on the play-by-play figure may be off."
-      }
-    ],
-    "sources": [
-      {
-        "label": "EdgeDesk play-by-play unit metrics (2026 season)",
-        "url": null,
-        "path": "football/matchup/metrics.json",
-        "observed_at": "2026-10-27T05:10:50.316Z",
-        "verification": "VERIFIED_DATA"
-      },
-      {
-        "label": "EdgeDesk position-group ratings",
-        "url": null,
-        "path": "football/rankings/current.json",
-        "observed_at": "2026-10-26T17:25:44.371Z",
-        "verification": "RATING"
-      },
-      {
-        "label": "EdgeDesk play-by-play quarterback logs (2026)",
-        "url": null,
-        "path": "football/fbs_epa/qb_epa_2026.json",
-        "observed_at": "2026-10-25T02:15:00.000Z",
-        "verification": "VERIFIED_DATA"
-      }
-    ],
-    "needs_confirmation": []
-  },
+  "football_evidence": null,
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-10-27T08:53:29.281Z"
+    "at": "2026-11-01T05:51:54.101Z"
   }
 }

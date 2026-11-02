@@ -1,0 +1,106 @@
+{
+ "schema": "edgedesk_availability_report_v1",
+ "version": 1,
+ "conference": "Big 12 Conference",
+ "conference_id": "big12",
+ "team": "BYU",
+ "game_id": "401856843",
+ "kickoff": "2026-10-31T19:30:00.000Z",
+ "source_url": "https://app.hdintelligence.com/?source=B12&sport=Football&conf=B12&type=report",
+ "published_at": "2026-10-31T18:00:00.000Z",
+ "retrieved_at": "2026-10-31T21:26:20.038Z",
+ "scope": "CONFERENCE_GAMES",
+ "comprehensive": true,
+ "vocabulary": [
+  "AVAILABLE",
+  "PROBABLE",
+  "QUESTIONABLE",
+  "DOUBTFUL",
+  "OUT"
+ ],
+ "applicability": {
+  "state": "REQUIRED",
+  "why": "Big 12 Conference requires an availability report for this game: filed daily from three days before a conference game, with a final report 90 minutes before kickoff"
+ },
+ "format": "published-listing",
+ "platform": "hdintelligence",
+ "report_type": "Game Day",
+ "report_id": "3461",
+ "listing_scope": "FULL_ROSTER",
+ "lines_read": 117,
+ "listed_n": 117,
+ "rows": [
+  {
+   "player_name": "Evan Johnson",
+   "player_id": "4917351",
+   "position": "CB",
+   "jersey": "0",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "CB #0 Evan Johnson · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Jonathan Kabeya",
+   "player_id": "5123479",
+   "position": "CB",
+   "jersey": "2",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "CB #2 Jonathan Kabeya · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "LJ Martin",
+   "player_id": "4918126",
+   "position": "RB",
+   "jersey": "4",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "RB #4 LJ Martin · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Pierson Watson",
+   "player_id": "5296272",
+   "position": "LB",
+   "jersey": "23",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "LB #23 Pierson Watson · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Seth Shigg",
+   "player_id": "5214412",
+   "position": "CB",
+   "jersey": "39",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "CB #39 Seth Shigg · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Kendal Wall",
+   "player_id": "5215372",
+   "position": "DE",
+   "jersey": "46",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "DE #46 Kendal Wall · Out",
+   "on_roster": true
+  }
+ ],
+ "unparsed": [],
+ "ok": true,
+ "names_nobody": false,
+ "explicit_none": false,
+ "silence_means_available": false,
+ "why": "6 player(s) designated on the published listing (Game Day)"
+}

@@ -2,7 +2,7 @@
  "version": "edgedesk_fbs_universe_v1.0.0",
  "season": 2026,
  "source": "cfbfastR-data schedules 2026",
- "generated_at": "2026-10-27T12:31:13.344Z",
+ "generated_at": "2026-11-02T06:34:39.708Z",
  "counts": {
   "fbs_teams": 138,
   "non_fbs_teams": 100,
@@ -119,34 +119,35 @@
  "games_missing_projection": [],
  "odds_unmatched": [],
  "slate": {
-  "total": 63,
+  "total": 69,
   "by_group": {
-   "other": 35,
-   "p4": 29,
+   "other": 37,
+   "p4": 32,
    "independent": 2
   },
   "by_matchup": {
-   "conference": 60,
-   "non_conference": 3
+   "conference": 65,
+   "non_conference": 3,
+   "fbs_fcs": 1
   },
   "by_conference": {
-   "cusa": 5,
+   "mac": 11,
    "american": 7,
    "sunbelt": 7,
-   "big12": 7,
-   "mac": 7,
    "acc": 8,
-   "bigten": 9,
-   "independents": 2,
-   "sec": 5,
+   "bigten": 8,
    "mwc": 5,
-   "pac12": 4
+   "big12": 8,
+   "sec": 8,
+   "independents": 2,
+   "cusa": 5,
+   "pac12": 3
   },
-  "fbs_fcs_in_source": 0
+  "fbs_fcs_in_source": 1
  },
  "ok": true,
  "lookahead_days": 10,
- "absorbed_games": 566,
+ "absorbed_games": 622,
  "engine": {
   "model_version": "edgedesk_cfb_p4_v1.0.1",
   "home_field": {
@@ -169,25 +170,32 @@
   "efficiency_replay": {
    "source_schema": "edgedesk_cfb_engine_efficiency_v1",
    "season": 2026,
-   "artifact_games_with_stats": 1019,
-   "artifact_team_game_rows": 2022,
-   "games_absorbed_with_stats": 553,
-   "team_rows_absorbed": 988,
-   "final_games_without_play_stats": 13,
+   "artifact_games_with_stats": 1075,
+   "artifact_team_game_rows": 2134,
+   "games_absorbed_with_stats": 585,
+   "team_rows_absorbed": 1048,
+   "final_games_without_play_stats": 37,
    "missing_game_ids": [
-    "401856634",
-    "401856659",
-    "401856660",
-    "401856661",
-    "401864512",
-    "401866425",
-    "401864576",
-    "401866427",
-    "401864579",
-    "401866426",
-    "401866428",
-    "401864572",
-    "401866429"
+    "401856735",
+    "401871096",
+    "401856846",
+    "401869944",
+    "401861966",
+    "401862815",
+    "401871097",
+    "401858283",
+    "401856734",
+    "401856843",
+    "401856845",
+    "401858501",
+    "401858505",
+    "401860910",
+    "401864531",
+    "401871059",
+    "401871095",
+    "401856848",
+    "401858284",
+    "401864529"
    ],
    "measured_features": [
     "success_rate",
@@ -214,30 +222,30 @@
   }
  },
  "projection_status": {
-  "PREDICTED": 63
+  "PREDICTED": 69
  },
  "weather": {
-  "requested": 57,
-  "answered": 57,
-  "dome": 3,
+  "requested": 66,
+  "answered": 66,
+  "dome": 2,
   "no_venue": 0,
   "failed": 0,
   "carried": 0,
   "carry_dropped": 0,
   "failures": {},
   "host": "api.open-meteo.com",
-  "summary": "57 of 57 outdoor game(s) got a forecast; 3 indoor venue(s) needed none; 0 had no coordinates to locate one; 0 request(s) failed"
+  "summary": "66 of 66 outdoor game(s) got a forecast; 2 indoor venue(s) needed none; 0 had no coordinates to locate one; 0 request(s) failed"
  },
  "spread_recommendation": {
-  "NO_MARKET": 63
+  "NO_MARKET": 69
  },
  "engine_efficiency": {
   "schema": "edgedesk_cfb_engine_efficiency_v1",
   "season": 2026,
-  "games_in_artifact": 1019,
-  "completed_games_replayed": 566,
-  "completed_games_with_both_team_efficiency": 435,
-  "missing_count": 131,
+  "games_in_artifact": 1075,
+  "completed_games_replayed": 622,
+  "completed_games_with_both_team_efficiency": 463,
+  "missing_count": 159,
   "problem": null
  },
  "checks": [
@@ -298,12 +306,12 @@
    "name": "games with no Power 4 participant are on the slate",
    "ok": true,
    "detail": {
-    "non_power_games": 34,
-    "total": 63,
+    "non_power_games": 37,
+    "total": 69,
     "example": [
-     "Delaware @ Western Kentucky",
-     "Sam Houston @ Missouri State",
-     "Kennesaw State @ Middle Tennessee"
+     "Ohio @ Akron",
+     "Buffalo @ Miami (OH)",
+     "Ball State @ Massachusetts"
     ]
    }
   },
@@ -318,7 +326,7 @@
    "name": "every conference game has exactly one shared, non-independent conference",
    "ok": true,
    "detail": {
-    "conference_games": 60,
+    "conference_games": 65,
     "wrong": 0
    }
   },
@@ -326,8 +334,8 @@
    "name": "FBS-vs-FCS games stay on the slate and are never graded as a normal projection",
    "ok": true,
    "detail": {
-    "fbs_fcs_games": 0,
-    "fbs_fcs_in_source": 0,
+    "fbs_fcs_games": 1,
+    "fbs_fcs_in_source": 1,
     "dropped": [],
     "graded": []
    }
@@ -352,8 +360,8 @@
    "name": "the slate the board renders and the slate the export writes are the same list",
    "ok": true,
    "detail": {
-    "slate": 63,
-    "audit_total": 63
+    "slate": 69,
+    "audit_total": 69
    }
   },
   {
@@ -383,13 +391,13 @@
       "to": "Pac-12"
      },
      {
-      "team": "Boise State",
-      "from": "Mountain West",
+      "team": "Texas State",
+      "from": "Sun Belt",
       "to": "Pac-12"
      },
      {
-      "team": "Texas State",
-      "from": "Sun Belt",
+      "team": "Boise State",
+      "from": "Mountain West",
       "to": "Pac-12"
      },
      {
@@ -433,11 +441,11 @@
  "warnings": [
   {
    "name": "completed games waiting on play-level efficiency",
-   "count": 131,
+   "count": 159,
    "detail": [
     {
-     "game_id": "401864424",
-     "game": "Merrimack @ Delaware",
+     "game_id": "401864425",
+     "game": "West Georgia @ Kennesaw State",
      "home": true,
      "away": false
     },
@@ -448,14 +456,14 @@
      "away": false
     },
     {
-     "game_id": "401856767",
-     "game": "Bethune-Cookman @ UCF",
+     "game_id": "401864424",
+     "game": "Merrimack @ Delaware",
      "home": true,
      "away": false
     },
     {
-     "game_id": "401864425",
-     "game": "West Georgia @ Kennesaw State",
+     "game_id": "401856767",
+     "game": "Bethune-Cookman @ UCF",
      "home": true,
      "away": false
     },
@@ -478,14 +486,14 @@
      "away": false
     },
     {
-     "game_id": "401858435",
-     "game": "Indiana State @ Purdue",
+     "game_id": "401866623",
+     "game": "North Carolina A&T @ Georgia State",
      "home": true,
      "away": false
     },
     {
-     "game_id": "401866623",
-     "game": "North Carolina A&T @ Georgia State",
+     "game_id": "401858435",
+     "game": "Indiana State @ Purdue",
      "home": true,
      "away": false
     },
@@ -515,13 +523,13 @@
     "to": "Pac-12"
    },
    {
-    "team": "Boise State",
-    "from": "Mountain West",
+    "team": "Texas State",
+    "from": "Sun Belt",
     "to": "Pac-12"
    },
    {
-    "team": "Texas State",
-    "from": "Sun Belt",
+    "team": "Boise State",
+    "from": "Mountain West",
     "to": "Pac-12"
    },
    {

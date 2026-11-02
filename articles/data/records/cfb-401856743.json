@@ -1,0 +1,1943 @@
+{
+  "schema": "edgedesk_article_v1",
+  "id": "cfb-401856743",
+  "game_id": "401856743",
+  "sport": "CFB",
+  "sport_slug": "college-football",
+  "sport_label": "College Football",
+  "slug": "texas-vs-missouri-2026",
+  "aliases": [],
+  "title": "Texas vs. Missouri: EdgeDesk Model Projection, Matchup Analysis and Fair Spread",
+  "seo_title": "Texas vs. Missouri 2026: EdgeDesk Fair Spread & Model Projection",
+  "seo_description": "EdgeDesk fair spread for Texas at Missouri: Missouri −0.5, fair total 47.5. Missouri wins 51% of simulations. Data confidence 85%. Model status NO MARKET. Research, not picks.",
+  "excerpt": "Texas carries the stronger underlying team rating — +15.8 against +7.6, a 8.2-point separation on a neutral field before home advantage, travel or rest. EdgeDesk makes it Missouri −0.5 before any sportsbook number is consulted, with Missouri winning 51% of…",
+  "home_team": "Missouri",
+  "away_team": "Texas",
+  "venue": "Memorial Stadium",
+  "neutral_site": false,
+  "conference_line": "SEC conference game",
+  "week": 10,
+  "season": 2026,
+  "game_time": "2026-11-07T17:00:00.000Z",
+  "game_when_label": "2026-11-07 17:00 UTC",
+  "published_at": null,
+  "updated_at": "2026-11-02T00:36:55.151Z",
+  "generated_at": "2026-11-02T00:36:55.151Z",
+  "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
+  "model_status": "NO MARKET",
+  "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
+  "confidence": 85,
+  "priced": true,
+  "fair_spread_text": "Missouri −0.5",
+  "fair_total": "47.5",
+  "hero_image": null,
+  "canonical_url": "https://edgedesksports.com/articles/texas-vs-missouri-2026",
+  "terminal_url": "https://edgedesksports.com/app.html#research/football",
+  "hub_url": "https://edgedesksports.com/articles/college-football",
+  "status": "ready",
+  "article_type": "pregame",
+  "related": null,
+  "frozen": false,
+  "frozen_at": null,
+  "author": "EdgeDesk Research",
+  "publisher": "EdgeDesk Sports",
+  "research_source": "Ratings: football/rankings/current.json — 2026 Week 9, built 2026-10-31. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser.",
+  "market_source": null,
+  "research": {
+    "kind": "CFB_GAME",
+    "game": {
+      "away": "Texas",
+      "home": "Missouri",
+      "title": "Texas at Missouri",
+      "when": "2026-11-07 17:00 UTC",
+      "kickoff": "2026-11-07T17:00:00.000Z",
+      "venue": "Memorial Stadium",
+      "neutral": false,
+      "week": "Week 10",
+      "season": "2026",
+      "game_id": "401856743",
+      "week_no": 10,
+      "season_no": 2026,
+      "conference_line": "SEC conference game",
+      "away_conference": "SEC",
+      "home_conference": "SEC"
+    },
+    "lede": [
+      "Texas carries the stronger underlying team rating — +15.8 against +7.6, a 8.2-point separation on a neutral field before home advantage, travel or rest.",
+      "EdgeDesk makes it Missouri −0.5 before any sportsbook number is consulted, with Missouri winning 51% of simulations.",
+      "The position-group comparison shows where the separation comes from: the widest measured gap is run offense, where Texas leads Missouri by 71 places nationally.",
+      "Data confidence on this matchup is 85% — high by this board’s standards, so the margin is the strongest part of the read."
+    ],
+    "projection": {
+      "priced": true,
+      "fair_spread": 0.31620037415558255,
+      "fair_spread_text": "Missouri −0.5",
+      "fair_spread_raw_text": "Missouri -0.3",
+      "near_pickem": true,
+      "raw_margin_text": "Missouri +0.32",
+      "favourite": "Missouri",
+      "underdog": "Texas",
+      "margin": "0.5",
+      "margin_raw": "0.3",
+      "total": "47.5",
+      "total_raw": "47.3",
+      "display_policy": "football_half_point_v1",
+      "score": {
+        "away": {
+          "team": "Texas",
+          "points": "24"
+        },
+        "home": {
+          "team": "Missouri",
+          "points": "24"
+        },
+        "expected": {
+          "text": "Missouri 23.83, Texas 23.51",
+          "home": 23.83,
+          "away": 23.51,
+          "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point. The whole-number scores round to a tie; unrounded, Missouri leads by 0.32."
+        },
+        "note": "Split from EdgeDesk’s own projected margin and total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
+      },
+      "score_absent_reason": null,
+      "win_prob": {
+        "home": "Missouri",
+        "away": "Texas",
+        "home_pct": 51,
+        "away_pct": 49,
+        "home_text": "51%",
+        "away_text": "49%",
+        "bounded": false,
+        "bounded_note": null,
+        "favourite": "Missouri",
+        "favourite_pct": 51,
+        "favourite_text": "51%"
+      },
+      "outcome_range": {
+        "basis_team": "Missouri",
+        "p10": "-20.7",
+        "median": "+0.3",
+        "p90": "+21.3",
+        "sigma": "14.6",
+        "volatility": "0.00",
+        "volatility_discriminates": false,
+        "note": "Quoted from Missouri’s perspective, as the engine publishes it. Eight results in ten land inside p10–p90."
+      },
+      "confidence_pct": 85,
+      "inputs_reached_pct": 73,
+      "input_contract": {
+        "fields": 26,
+        "applicable": 26,
+        "known": 19,
+        "priced": 11,
+        "priced_coverage_pct": 42,
+        "by_state": {
+          "USABLE": 11,
+          "RESEARCH_ONLY": 8,
+          "STALE": 0,
+          "CONFLICTING": 0,
+          "NOT_APPLICABLE": 0,
+          "NOT_REQUIRED": 0,
+          "NOT_DUE_YET": 4,
+          "FETCH_FAILED": 0,
+          "UNAVAILABLE": 3
+        },
+        "absent": [
+          {
+            "field": "weather",
+            "side": null,
+            "state": "UNAVAILABLE",
+            "why": "no forecast provider was called in this build; the venue’s coordinates are known, so this is a build that did not ask rather than a source that did not answer"
+          },
+          {
+            "field": "off_field",
+            "side": "home",
+            "state": "UNAVAILABLE",
+            "why": "no source is registered for this programme, so nothing has been read and an empty result would be a false clean bill of health rather than a finding. The engine scores this input and it is missing on every game, so it is published here rather than left invisible. A signal must be all four of public, sourced, dated and severity-graded before it may move even the confidence score — a general news search supplies neither a severity nor a reliability a model may use, and a wire that supplies all four may not be redistributed as a committed artifact. The availability layer answers a different question (who can play) and is never substituted for this one"
+          },
+          {
+            "field": "off_field",
+            "side": "away",
+            "state": "UNAVAILABLE",
+            "why": "no source is registered for this programme, so nothing has been read and an empty result would be a false clean bill of health rather than a finding. The engine scores this input and it is missing on every game, so it is published here rather than left invisible. A signal must be all four of public, sourced, dated and severity-graded before it may move even the confidence score — a general news search supplies neither a severity nor a reliability a model may use, and a wire that supplies all four may not be redistributed as a committed artifact. The availability layer answers a different question (who can play) and is never substituted for this one"
+          }
+        ],
+        "basis": "Every applicable field EdgeDesk retrieved, over every applicable field. A question that does not arise here (weather in a dome, travel at a neutral site) leaves the denominator; a source that refused does not."
+      },
+      "status": "NO MARKET",
+      "status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
+      "engine": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
+      "validation": "UNPROVEN — research only. Nothing on this page is graded as a bet."
+    },
+    "starters": {
+      "away": {
+        "team": "Texas",
+        "status": "PREVIOUS_GAME",
+        "confirmed": false,
+        "player": "Arch Manning",
+        "player_id": "4870906",
+        "label": "Arch Manning — started the last game; no announcement for this one.",
+        "priced": false,
+        "priced_why": "the starter layer is research-only until it has an out-of-sample record of its own; football/matchup/inputs.js PRICED_STARTER_STATUSES is the single switch",
+        "availability": {
+          "state": "UNKNOWN",
+          "evidence": "NONE",
+          "why": "the availability sources EdgeDesk reads were checked and carried no report on this player — no report found is not the same as healthy",
+          "source_url": null
+        },
+        "experience": {
+          "starts": 21,
+          "dropbacks": 648,
+          "seasons_observed": 2,
+          "seasons_read": [
+            2025,
+            2026
+          ],
+          "basis": "games this player opened, counted from the play feed across the seasons this build read — a measured start count over a stated window, not a career total",
+          "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv"
+        },
+        "competition": {
+          "contested": false,
+          "games": 2,
+          "players": [
+            {
+              "player_id": "4870906",
+              "player_name": "Arch Manning",
+              "dropbacks": 49,
+              "share": 0.98
+            },
+            {
+              "player_id": "5141509",
+              "player_name": "Karle Lacey Jr.",
+              "dropbacks": 1,
+              "share": 0.02
+            }
+          ]
+        },
+        "conflicts": 0,
+        "history": [
+          {
+            "week": 8,
+            "game_id": "401856732",
+            "opponent": "Ole Miss",
+            "dropbacks": 28,
+            "starter": {
+              "player_id": "4870906",
+              "player_name": "Arch Manning",
+              "share": 1
+            },
+            "settled": true,
+            "why": "took the first dropback of the game"
+          },
+          {
+            "week": 9,
+            "game_id": "401856737",
+            "opponent": "Mississippi State",
+            "dropbacks": 22,
+            "starter": {
+              "player_id": "4870906",
+              "player_name": "Arch Manning",
+              "share": 0.955
+            },
+            "settled": true,
+            "why": "took the first dropback of the game"
+          }
+        ],
+        "source": "cfbfastR-data player_stats — play attribution",
+        "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
+        "published_at": "2026-10-31T23:30:00.000Z",
+        "retrieved_at": "2026-11-01T22:55:06.784Z"
+      },
+      "home": {
+        "team": "Missouri",
+        "status": "PREVIOUS_GAME",
+        "confirmed": false,
+        "player": "Austin Simmons",
+        "player_id": "5141684",
+        "label": "Austin Simmons — started the last game; no announcement for this one.",
+        "priced": false,
+        "priced_why": "the starter layer is research-only until it has an out-of-sample record of its own; football/matchup/inputs.js PRICED_STARTER_STATUSES is the single switch",
+        "availability": {
+          "state": "UNKNOWN",
+          "evidence": "NONE",
+          "why": "the availability sources EdgeDesk reads were checked and carried no report on this player — no report found is not the same as healthy",
+          "source_url": null
+        },
+        "experience": {
+          "starts": 10,
+          "dropbacks": 323,
+          "seasons_observed": 2,
+          "seasons_read": [
+            2025,
+            2026
+          ],
+          "basis": "games this player opened, counted from the play feed across the seasons this build read — a measured start count over a stated window, not a career total",
+          "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv"
+        },
+        "competition": {
+          "contested": false,
+          "games": 2,
+          "players": [
+            {
+              "player_id": "5141684",
+              "player_name": "Austin Simmons",
+              "dropbacks": 77,
+              "share": 1
+            }
+          ]
+        },
+        "conflicts": 0,
+        "history": [
+          {
+            "week": 7,
+            "game_id": "401856721",
+            "opponent": "Ole Miss",
+            "dropbacks": 46,
+            "starter": {
+              "player_id": "5141684",
+              "player_name": "Austin Simmons",
+              "share": 1
+            },
+            "settled": true,
+            "why": "took the first dropback of the game"
+          },
+          {
+            "week": 9,
+            "game_id": "401856733",
+            "opponent": "Arkansas",
+            "dropbacks": 31,
+            "starter": {
+              "player_id": "5141684",
+              "player_name": "Austin Simmons",
+              "share": 1
+            },
+            "settled": true,
+            "why": "took the first dropback of the game"
+          }
+        ],
+        "source": "cfbfastR-data player_stats — play attribution",
+        "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
+        "published_at": "2026-10-31T23:45:00.000Z",
+        "retrieved_at": "2026-11-01T22:55:06.784Z"
+      },
+      "generated_at": "2026-11-01T22:55:05.546Z",
+      "source": "football/starters/cfb_2026.json",
+      "note": "An expected starter is not a confirmed one. EdgeDesk publishes which kind of answer each of these is, and no number on this page is priced from any of them. Availability is a separate axis: an absent report is UNKNOWN and is never read as healthy."
+    },
+    "drivers": {
+      "rows": [
+        {
+          "points": "+2.8",
+          "points_n": 2.8,
+          "text": "Playing at Missouri is worth 2.8 points — the league-wide home-field number, because a per-venue table was tested and could not be told apart from the home team’s own quality",
+          "favours": "Missouri"
+        },
+        {
+          "points": "-1.6",
+          "points_n": -1.5751291609122786,
+          "text": "Texas is the better football team by 1.6 points on opponent-adjusted results, with roughly 30% of it still inherited from last season",
+          "favours": "Texas"
+        },
+        {
+          "points": "-0.9",
+          "points_n": -0.9086704649321387,
+          "text": "Stylistically the matchup favours Texas by 0.9 points: early-down offence vs early-down defence",
+          "favours": "Texas"
+        }
+      ],
+      "basis": "Points are the engine’s own contributions to the projected spread, from Missouri’s perspective, and they sum toward it.",
+      "excluded": "Player quality, position-group ratings and scheme fit are NOT in this number. Neither has cleared walk-forward validation, so neither is allowed to move a priced figure — they appear below as research context and nowhere else.",
+      "empty": null
+    },
+    "compare": {
+      "cols": [
+        "Texas",
+        "Missouri"
+      ],
+      "groups": [
+        {
+          "title": "Team rating",
+          "rows": [
+            {
+              "cat": "overall",
+              "k": "ETSR (overall)",
+              "note": "points vs an average FBS team, neutral field",
+              "a": {
+                "v": "+15.8",
+                "n": 15.82,
+                "rank": "#2 of 138",
+                "rank_n": 2,
+                "note": null
+              },
+              "h": {
+                "v": "+7.6",
+                "n": 7.61,
+                "rank": "#19 of 138",
+                "rank_n": 19,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 8.2,
+                "rank_gap": 17
+              }
+            },
+            {
+              "cat": "talent",
+              "k": "Talent",
+              "note": null,
+              "a": {
+                "v": "66.1",
+                "n": 66.1,
+                "rank": "#6 of 138",
+                "rank_n": 6,
+                "note": null
+              },
+              "h": {
+                "v": "57.9",
+                "n": 57.9,
+                "rank": "#26 of 138",
+                "rank_n": 26,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 8.2,
+                "rank_gap": 20
+              }
+            },
+            {
+              "cat": "performance",
+              "k": "Performance",
+              "note": null,
+              "a": {
+                "v": "80.2",
+                "n": 80.2,
+                "rank": "#1 of 138",
+                "rank_n": 1,
+                "note": null
+              },
+              "h": {
+                "v": "61.8",
+                "n": 61.8,
+                "rank": "#21 of 138",
+                "rank_n": 21,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 18.4,
+                "rank_gap": 20
+              }
+            },
+            {
+              "cat": "scheme_fit",
+              "k": "Scheme fit",
+              "note": "personnel against this team’s own tendencies",
+              "a": {
+                "v": "52.2",
+                "n": 52.2,
+                "rank": "#29 of 138",
+                "rank_n": 29,
+                "note": null
+              },
+              "h": {
+                "v": "53.1",
+                "n": 53.1,
+                "rank": "#17 of 138",
+                "rank_n": 17,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 0.9,
+                "rank_gap": 12
+              }
+            }
+          ]
+        },
+        {
+          "title": "Units",
+          "rows": [
+            {
+              "cat": "offense",
+              "k": "Offense",
+              "note": null,
+              "a": {
+                "v": "59.4",
+                "n": 59.4,
+                "rank": "#18 of 138",
+                "rank_n": 18,
+                "note": null
+              },
+              "h": {
+                "v": "49.2",
+                "n": 49.2,
+                "rank": "#72 of 138",
+                "rank_n": 72,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 10.2,
+                "rank_gap": 54
+              }
+            },
+            {
+              "cat": "defense",
+              "k": "Defense",
+              "note": null,
+              "a": {
+                "v": "76.5",
+                "n": 76.5,
+                "rank": "#1 of 138",
+                "rank_n": 1,
+                "note": null
+              },
+              "h": {
+                "v": "64.8",
+                "n": 64.8,
+                "rank": "#8 of 138",
+                "rank_n": 8,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 11.7,
+                "rank_gap": 7
+              }
+            },
+            {
+              "cat": "special_teams",
+              "k": "Special teams",
+              "note": null,
+              "a": {
+                "v": "51.8",
+                "n": 51.8,
+                "rank": "#35 of 130",
+                "rank_n": 35,
+                "note": null
+              },
+              "h": {
+                "v": "51.7",
+                "n": 51.7,
+                "rank": "#36 of 130",
+                "rank_n": 36,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 0.1,
+                "rank_gap": 1
+              }
+            },
+            {
+              "cat": "run_offense",
+              "k": "Run offense",
+              "note": null,
+              "a": {
+                "v": "58.5",
+                "n": 58.5,
+                "rank": "#37 of 138",
+                "rank_n": 37,
+                "note": null
+              },
+              "h": {
+                "v": "41.7",
+                "n": 41.7,
+                "rank": "#108 of 138",
+                "rank_n": 108,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 16.8,
+                "rank_gap": 71
+              }
+            },
+            {
+              "cat": "pass_offense",
+              "k": "Pass offense",
+              "note": null,
+              "a": {
+                "v": "58.7",
+                "n": 58.7,
+                "rank": "#20 of 138",
+                "rank_n": 20,
+                "note": null
+              },
+              "h": {
+                "v": "57.4",
+                "n": 57.4,
+                "rank": "#27 of 138",
+                "rank_n": 27,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 1.3,
+                "rank_gap": 7
+              }
+            },
+            {
+              "cat": "run_defense",
+              "k": "Run defense",
+              "note": null,
+              "a": {
+                "v": "78.4",
+                "n": 78.4,
+                "rank": "#4 of 138",
+                "rank_n": 4,
+                "note": null
+              },
+              "h": {
+                "v": "71.4",
+                "n": 71.4,
+                "rank": "#10 of 138",
+                "rank_n": 10,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 7,
+                "rank_gap": 6
+              }
+            },
+            {
+              "cat": "pass_defense",
+              "k": "Pass defense",
+              "note": null,
+              "a": {
+                "v": "77.8",
+                "n": 77.8,
+                "rank": "#1 of 138",
+                "rank_n": 1,
+                "note": null
+              },
+              "h": {
+                "v": "62.4",
+                "n": 62.4,
+                "rank": "#16 of 138",
+                "rank_n": 16,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 15.4,
+                "rank_gap": 15
+              }
+            }
+          ]
+        },
+        {
+          "title": "Position groups",
+          "rows": [
+            {
+              "cat": "qb",
+              "k": "QB room",
+              "note": null,
+              "a": {
+                "v": "61.4",
+                "n": 61.4,
+                "rank": "#26 of 138",
+                "rank_n": 26,
+                "note": null
+              },
+              "h": {
+                "v": "61.9",
+                "n": 61.9,
+                "rank": "#20 of 138",
+                "rank_n": 20,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 0.5,
+                "rank_gap": 6
+              }
+            },
+            {
+              "cat": "ol",
+              "k": "Offensive line",
+              "note": null,
+              "a": {
+                "v": "51.0",
+                "n": 51,
+                "rank": "#75 of 138",
+                "rank_n": 75,
+                "note": null
+              },
+              "h": {
+                "v": "52.0",
+                "n": 52,
+                "rank": "#61 of 138",
+                "rank_n": 61,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 1,
+                "rank_gap": 14
+              }
+            },
+            {
+              "cat": "wr",
+              "k": "Receivers",
+              "note": null,
+              "a": {
+                "v": "56.6",
+                "n": 56.6,
+                "rank": "#26 of 138",
+                "rank_n": 26,
+                "note": null
+              },
+              "h": {
+                "v": "55.9",
+                "n": 55.9,
+                "rank": "#43 of 138",
+                "rank_n": 43,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 0.7,
+                "rank_gap": 17
+              }
+            },
+            {
+              "cat": "te",
+              "k": "Tight ends",
+              "note": "rated by the player layer; the board publishes no national TE rank",
+              "a": {
+                "v": "54.8",
+                "n": 54.8,
+                "rank": null,
+                "rank_n": null,
+                "note": "rated, held out of the national rank by the confidence gate"
+              },
+              "h": {
+                "v": "53.5",
+                "n": 53.5,
+                "rank": null,
+                "rank_n": null,
+                "note": "rated, held out of the national rank by the confidence gate"
+              },
+              "edge": {
+                "side": "a",
+                "gap": 1.3,
+                "rank_gap": null
+              }
+            },
+            {
+              "cat": "rb",
+              "k": "Running backs",
+              "note": null,
+              "a": {
+                "v": "58.7",
+                "n": 58.7,
+                "rank": "#11 of 138",
+                "rank_n": 11,
+                "note": null
+              },
+              "h": {
+                "v": "58.5",
+                "n": 58.5,
+                "rank": "#15 of 138",
+                "rank_n": 15,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 0.2,
+                "rank_gap": 4
+              }
+            },
+            {
+              "cat": "dl",
+              "k": "Defensive line",
+              "note": null,
+              "a": {
+                "v": "58.9",
+                "n": 58.9,
+                "rank": "#21 of 138",
+                "rank_n": 21,
+                "note": null
+              },
+              "h": {
+                "v": "56.6",
+                "n": 56.6,
+                "rank": "#36 of 138",
+                "rank_n": 36,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 2.3,
+                "rank_gap": 15
+              }
+            },
+            {
+              "cat": "edge",
+              "k": "Edge",
+              "note": null,
+              "a": {
+                "v": "60.3",
+                "n": 60.3,
+                "rank": "#1 of 16",
+                "rank_n": 1,
+                "note": null
+              },
+              "h": {
+                "v": "58.6",
+                "n": 58.6,
+                "rank": "#4 of 16",
+                "rank_n": 4,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 1.7,
+                "rank_gap": 3
+              }
+            },
+            {
+              "cat": "lb",
+              "k": "Linebackers",
+              "note": null,
+              "a": {
+                "v": "60.0",
+                "n": 60,
+                "rank": "#5 of 138",
+                "rank_n": 5,
+                "note": null
+              },
+              "h": {
+                "v": "55.0",
+                "n": 55,
+                "rank": "#42 of 138",
+                "rank_n": 42,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 5,
+                "rank_gap": 37
+              }
+            },
+            {
+              "cat": "secondary",
+              "k": "Secondary",
+              "note": null,
+              "a": {
+                "v": "62.9",
+                "n": 62.9,
+                "rank": "#2 of 138",
+                "rank_n": 2,
+                "note": null
+              },
+              "h": {
+                "v": "59.4",
+                "n": 59.4,
+                "rank": "#14 of 138",
+                "rank_n": 14,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 3.5,
+                "rank_gap": 12
+              }
+            },
+            {
+              "cat": "k_room",
+              "k": "Kicking",
+              "note": null,
+              "a": {
+                "v": "57.5",
+                "n": 57.5,
+                "rank": "#30 of 138",
+                "rank_n": 30,
+                "note": null
+              },
+              "h": {
+                "v": "55.6",
+                "n": 55.6,
+                "rank": "#81 of 138",
+                "rank_n": 81,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 1.9,
+                "rank_gap": 51
+              }
+            }
+          ]
+        },
+        {
+          "title": "Roster shape",
+          "rows": [
+            {
+              "cat": "depth",
+              "k": "Depth",
+              "note": "quality behind the projected starters",
+              "a": {
+                "v": "54.2",
+                "n": 54.2,
+                "rank": "#14 of 138",
+                "rank_n": 14,
+                "note": null
+              },
+              "h": {
+                "v": "53.4",
+                "n": 53.4,
+                "rank": "#58 of 138",
+                "rank_n": 58,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 0.8,
+                "rank_gap": 44
+              }
+            },
+            {
+              "cat": "continuity",
+              "k": "Continuity",
+              "note": "how much of last season is still here",
+              "a": {
+                "v": "51.4",
+                "n": 51.4,
+                "rank": "#34 of 138",
+                "rank_n": 34,
+                "note": null
+              },
+              "h": {
+                "v": "40.5",
+                "n": 40.5,
+                "rank": "#90 of 138",
+                "rank_n": 90,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 10.9,
+                "rank_gap": 56
+              }
+            }
+          ]
+        }
+      ],
+      "one_sided_team": null,
+      "one_sided_note": null
+    },
+    "advantages": {
+      "away": [
+        {
+          "k": "Run offense",
+          "rank_gap": 71,
+          "gap": 16.8,
+          "lead": "Texas",
+          "trail": "Missouri",
+          "lead_cell": "58.5 · #37 of 138",
+          "trail_cell": "41.7 · #108 of 138",
+          "text": "Texas 58.5 (#37 of 138) vs Missouri 41.7 (#108 of 138) — 71 places on the national board."
+        },
+        {
+          "k": "Continuity",
+          "rank_gap": 56,
+          "gap": 10.9,
+          "lead": "Texas",
+          "trail": "Missouri",
+          "lead_cell": "51.4 · #34 of 138",
+          "trail_cell": "40.5 · #90 of 138",
+          "text": "Texas 51.4 (#34 of 138) vs Missouri 40.5 (#90 of 138) — 56 places on the national board."
+        },
+        {
+          "k": "Offense",
+          "rank_gap": 54,
+          "gap": 10.2,
+          "lead": "Texas",
+          "trail": "Missouri",
+          "lead_cell": "59.4 · #18 of 138",
+          "trail_cell": "49.2 · #72 of 138",
+          "text": "Texas 59.4 (#18 of 138) vs Missouri 49.2 (#72 of 138) — 54 places on the national board."
+        },
+        {
+          "k": "Kicking",
+          "rank_gap": 51,
+          "gap": 1.9,
+          "lead": "Texas",
+          "trail": "Missouri",
+          "lead_cell": "57.5 · #30 of 138",
+          "trail_cell": "55.6 · #81 of 138",
+          "text": "Texas 57.5 (#30 of 138) vs Missouri 55.6 (#81 of 138) — 51 places on the national board."
+        },
+        {
+          "k": "Depth",
+          "rank_gap": 44,
+          "gap": 0.8,
+          "lead": "Texas",
+          "trail": "Missouri",
+          "lead_cell": "54.2 · #14 of 138",
+          "trail_cell": "53.4 · #58 of 138",
+          "text": "Texas 54.2 (#14 of 138) vs Missouri 53.4 (#58 of 138) — 44 places on the national board."
+        }
+      ],
+      "home": [
+        {
+          "k": "Offensive line",
+          "rank_gap": 14,
+          "gap": 1,
+          "lead": "Missouri",
+          "trail": "Texas",
+          "lead_cell": "52.0 · #61 of 138",
+          "trail_cell": "51.0 · #75 of 138",
+          "text": "Missouri 52.0 (#61 of 138) vs Texas 51.0 (#75 of 138) — 14 places on the national board."
+        },
+        {
+          "k": "Scheme fit",
+          "rank_gap": 12,
+          "gap": 0.9,
+          "lead": "Missouri",
+          "trail": "Texas",
+          "lead_cell": "53.1 · #17 of 138",
+          "trail_cell": "52.2 · #29 of 138",
+          "text": "Missouri 53.1 (#17 of 138) vs Texas 52.2 (#29 of 138) — 12 places on the national board."
+        },
+        {
+          "k": "QB room",
+          "rank_gap": 6,
+          "gap": 0.5,
+          "lead": "Missouri",
+          "trail": "Texas",
+          "lead_cell": "61.9 · #20 of 138",
+          "trail_cell": "61.4 · #26 of 138",
+          "text": "Missouri 61.9 (#20 of 138) vs Texas 61.4 (#26 of 138) — 6 places on the national board."
+        }
+      ],
+      "measured": [],
+      "measured_note": null,
+      "unproven": [],
+      "note": "An advantage is only claimed where BOTH teams carry a national rank in that category — the national rank is the one scale on which a QB room and a run defence are comparable. A category where one side is unrated appears here as a measurement and as uncertainty, never as an edge."
+    },
+    "matchups": [
+      {
+        "title": "Texas pass offense vs Missouri pass defense",
+        "att": {
+          "team": "Texas",
+          "label": "pass offense",
+          "v": "58.7",
+          "rank": "#20 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Missouri",
+          "label": "pass defense",
+          "v": "62.4",
+          "rank": "#16 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Texas’s pass offense rates 58.7 (#20 of 138) against Missouri’s pass defense at 62.4 (#16 of 138). Missouri’s unit stands higher among its own position group, by 4 places."
+      },
+      {
+        "title": "Texas run offense vs Missouri run defense",
+        "att": {
+          "team": "Texas",
+          "label": "run offense",
+          "v": "58.5",
+          "rank": "#37 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Missouri",
+          "label": "run defense",
+          "v": "71.4",
+          "rank": "#10 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Texas’s run offense rates 58.5 (#37 of 138) against Missouri’s run defense at 71.4 (#10 of 138). Missouri’s unit stands higher among its own position group, by 27 places."
+      },
+      {
+        "title": "Missouri pass offense vs Texas pass defense",
+        "att": {
+          "team": "Missouri",
+          "label": "pass offense",
+          "v": "57.4",
+          "rank": "#27 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Texas",
+          "label": "pass defense",
+          "v": "77.8",
+          "rank": "#1 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Missouri’s pass offense rates 57.4 (#27 of 138) against Texas’s pass defense at 77.8 (#1 of 138). Texas’s unit stands higher among its own position group, by 26 places."
+      },
+      {
+        "title": "Missouri run offense vs Texas run defense",
+        "att": {
+          "team": "Missouri",
+          "label": "run offense",
+          "v": "41.7",
+          "rank": "#108 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Texas",
+          "label": "run defense",
+          "v": "78.4",
+          "rank": "#4 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Missouri’s run offense rates 41.7 (#108 of 138) against Texas’s run defense at 78.4 (#4 of 138). Texas’s unit stands higher among its own position group, by 104 places."
+      },
+      {
+        "title": "Texas QB room vs Missouri secondary",
+        "att": {
+          "team": "Texas",
+          "label": "QB room",
+          "v": "61.4",
+          "rank": "#26 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Missouri",
+          "label": "secondary",
+          "v": "59.4",
+          "rank": "#14 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Texas’s QB room rates 61.4 (#26 of 138) against Missouri’s secondary at 59.4 (#14 of 138). Missouri’s unit stands higher among its own position group, by 12 places."
+      },
+      {
+        "title": "Missouri QB room vs Texas secondary",
+        "att": {
+          "team": "Missouri",
+          "label": "QB room",
+          "v": "61.9",
+          "rank": "#20 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Texas",
+          "label": "secondary",
+          "v": "62.9",
+          "rank": "#2 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Missouri’s QB room rates 61.9 (#20 of 138) against Texas’s secondary at 62.9 (#2 of 138). Texas’s unit stands higher among its own position group, by 18 places."
+      },
+      {
+        "title": "Texas offensive line vs Missouri defensive line",
+        "att": {
+          "team": "Texas",
+          "label": "offensive line",
+          "v": "51.0",
+          "rank": "#75 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Missouri",
+          "label": "defensive line",
+          "v": "56.6",
+          "rank": "#36 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Texas’s offensive line rates 51.0 (#75 of 138) against Missouri’s defensive line at 56.6 (#36 of 138). Missouri’s unit stands higher among its own position group, by 39 places."
+      },
+      {
+        "title": "Missouri offensive line vs Texas defensive line",
+        "att": {
+          "team": "Missouri",
+          "label": "offensive line",
+          "v": "52.0",
+          "rank": "#61 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Texas",
+          "label": "defensive line",
+          "v": "58.9",
+          "rank": "#21 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Missouri’s offensive line rates 52.0 (#61 of 138) against Texas’s defensive line at 58.9 (#21 of 138). Texas’s unit stands higher among its own position group, by 40 places."
+      },
+      {
+        "title": "Texas running backs vs Missouri linebackers",
+        "att": {
+          "team": "Texas",
+          "label": "running backs",
+          "v": "58.7",
+          "rank": "#11 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Missouri",
+          "label": "linebackers",
+          "v": "55.0",
+          "rank": "#42 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Texas’s running backs rates 58.7 (#11 of 138) against Missouri’s linebackers at 55.0 (#42 of 138). Texas’s unit stands higher among its own position group, by 31 places."
+      },
+      {
+        "title": "Missouri running backs vs Texas linebackers",
+        "att": {
+          "team": "Missouri",
+          "label": "running backs",
+          "v": "58.5",
+          "rank": "#15 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Texas",
+          "label": "linebackers",
+          "v": "60.0",
+          "rank": "#5 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Missouri’s running backs rates 58.5 (#15 of 138) against Texas’s linebackers at 60.0 (#5 of 138). Texas’s unit stands higher among its own position group, by 10 places."
+      },
+      {
+        "title": "Texas receivers vs Missouri secondary",
+        "att": {
+          "team": "Texas",
+          "label": "receivers",
+          "v": "56.6",
+          "rank": "#26 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Missouri",
+          "label": "secondary",
+          "v": "59.4",
+          "rank": "#14 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Texas’s receivers rates 56.6 (#26 of 138) against Missouri’s secondary at 59.4 (#14 of 138). Missouri’s unit stands higher among its own position group, by 12 places."
+      },
+      {
+        "title": "Missouri receivers vs Texas secondary",
+        "att": {
+          "team": "Missouri",
+          "label": "receivers",
+          "v": "55.9",
+          "rank": "#43 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Texas",
+          "label": "secondary",
+          "v": "62.9",
+          "rank": "#2 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Missouri’s receivers rates 55.9 (#43 of 138) against Texas’s secondary at 62.9 (#2 of 138). Texas’s unit stands higher among its own position group, by 41 places."
+      }
+    ],
+    "roster": {
+      "cols": [
+        "Texas",
+        "Missouri"
+      ],
+      "rows": [
+        {
+          "k": "Returning production value",
+          "note": "share of last season’s production value still on the roster",
+          "a": "62%",
+          "h": "34%",
+          "edge": {
+            "side": "a",
+            "gap": 0.272
+          }
+        },
+        {
+          "k": "Returning headcount",
+          "note": "share of the roster that was here last season",
+          "a": "44%",
+          "h": "38%",
+          "edge": {
+            "side": "a",
+            "gap": 0.055999999999999994
+          }
+        },
+        {
+          "k": "QB-room continuity",
+          "note": "is the projected starter last season’s player",
+          "a": "60%",
+          "h": "40%",
+          "edge": {
+            "side": "a",
+            "gap": 0.19999999999999996
+          }
+        },
+        {
+          "k": "Offensive-line continuity",
+          "note": null,
+          "a": "58%",
+          "h": "53%",
+          "edge": {
+            "side": "a",
+            "gap": 0.052999999999999936
+          }
+        },
+        {
+          "k": "Returning starters",
+          "note": null,
+          "a": "35%",
+          "h": "36%",
+          "edge": {
+            "side": "h",
+            "gap": 0.014000000000000012
+          }
+        },
+        {
+          "k": "Transfers in / out",
+          "note": "portal movement counted from the roster feed",
+          "a": "22 in / 25 out",
+          "h": "30 in / 25 out",
+          "edge": null
+        },
+        {
+          "k": "Transfer starters in / out",
+          "note": null,
+          "a": "6 in / 1 out",
+          "h": "7 in / 1 out",
+          "edge": null
+        },
+        {
+          "k": "Starter quality",
+          "note": "projected starters, weighted by position value",
+          "a": "60.5",
+          "h": "58.7",
+          "edge": {
+            "side": "a",
+            "gap": 1.7999999999999972
+          }
+        },
+        {
+          "k": "Rotation quality",
+          "note": null,
+          "a": "59.4",
+          "h": "57.4",
+          "edge": {
+            "side": "a",
+            "gap": 2
+          }
+        },
+        {
+          "k": "Depth quality",
+          "note": "behind the projected starters",
+          "a": "54.2",
+          "h": "53.4",
+          "edge": {
+            "side": "a",
+            "gap": 0.8000000000000043
+          }
+        },
+        {
+          "k": "Availability records",
+          "note": "an absence report reaching this roster. UNKNOWN is never read as healthy",
+          "a": "9 on file, 9% of starter value out",
+          "h": "9 on file, 0% of starter value out",
+          "edge": null
+        },
+        {
+          "k": "Data confidence",
+          "note": "how much EdgeDesk knows about this roster, not how good it is",
+          "a": "77%",
+          "h": "63%",
+          "edge": {
+            "side": "a",
+            "gap": 0.135
+          }
+        }
+      ],
+      "highlights": [
+        {
+          "k": "Rotation quality",
+          "lead": "Texas",
+          "text": "Texas leads on rotation quality — Texas 59.4, Missouri 57.4."
+        },
+        {
+          "k": "Starter quality",
+          "lead": "Texas",
+          "text": "Texas leads on starter quality — Texas 60.5, Missouri 58.7."
+        },
+        {
+          "k": "Depth quality",
+          "lead": "Texas",
+          "text": "Texas leads on depth quality — Texas 54.2, Missouri 53.4."
+        },
+        {
+          "k": "Returning production value",
+          "lead": "Texas",
+          "text": "Texas leads on returning production value — Texas 62%, Missouri 34%."
+        },
+        {
+          "k": "QB-room continuity",
+          "lead": "Texas",
+          "text": "Texas leads on qb-room continuity — Texas 60%, Missouri 40%."
+        }
+      ],
+      "note": "Roster construction from the committed rankings build. No recruiting star and no NIL figure appears here: no public feed this repo reads carries either, and a number nobody published is not estimated in its place."
+    },
+    "cases": {
+      "favourite": {
+        "team": "Missouri",
+        "heading": "Why Missouri can pull away",
+        "bullets": [
+          "Playing at Missouri is worth 2.8 points — the league-wide home-field number, because a per-venue table was tested and could not be told apart from the home team’s own quality (+2.8 pts).",
+          "Offensive line: Missouri 52.0 (#61 of 138) vs Texas 51.0 (#75 of 138) — 14 places on the national board.",
+          "Scheme fit: Missouri 53.1 (#17 of 138) vs Texas 52.2 (#29 of 138) — 12 places on the national board.",
+          "QB room: Missouri 61.9 (#20 of 138) vs Texas 61.4 (#26 of 138) — 6 places on the national board."
+        ]
+      },
+      "underdog": {
+        "team": "Texas",
+        "heading": "Why Texas can keep it close",
+        "bullets": [
+          "Texas is the better football team by 1.6 points on opponent-adjusted results, with roughly 30% of it still inherited from last season (-1.6 pts).",
+          "Stylistically the matchup favours Texas by 0.9 points: early-down offence vs early-down defence (-0.9 pts).",
+          "Run offense: Texas 58.5 (#37 of 138) vs Missouri 41.7 (#108 of 138) — 71 places on the national board.",
+          "Continuity: Texas 51.4 (#34 of 138) vs Missouri 40.5 (#90 of 138) — 56 places on the national board.",
+          "Offense: Texas 59.4 (#18 of 138) vs Missouri 49.2 (#72 of 138) — 54 places on the national board."
+        ]
+      },
+      "note": "These are football cases assembled from measured states. Neither is a bet, and neither is advice."
+    },
+    "uncertainty": {
+      "items": [
+        {
+          "sev": "MEDIUM",
+          "label": "sample",
+          "text": "College ratings are built on twelve-game seasons against wildly uneven schedules; even a clean rating gap carries more estimation error than the number implies.",
+          "widening": null
+        },
+        {
+          "sev": "MEDIUM",
+          "label": "Missouri — extreme transfer turnover",
+          "text": "66% of last season’s production value is gone. Most of last season’s production value has left, so the prior term is standing on much less than usual",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "weather not supplied",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "home injury report not supplied",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "away injury report not supplied",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "no book spread joined to this game — no edge is claimed",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "no book total joined to this game",
+          "widening": null
+        }
+      ],
+      "unmeasured": [
+        {
+          "item": "Home starting quarterback",
+          "why": "starting QB not supplied for home"
+        },
+        {
+          "item": "Away starting quarterback",
+          "why": "starting QB not supplied for away"
+        },
+        {
+          "item": "Home availability / injuries",
+          "why": "no injury report supplied for home"
+        },
+        {
+          "item": "Away availability / injuries",
+          "why": "no injury report supplied for away"
+        },
+        {
+          "item": "Weather at kickoff",
+          "why": "no weather supplied"
+        },
+        {
+          "item": "Off-field, culture and NIL situation",
+          "why": "no public feed for NIL figures, locker-room reporting or discipline exists that this engine reads; nothing is inferred and the gap is carried as uncertainty"
+        },
+        {
+          "item": "Coaching and coordinator continuity",
+          "why": "no public coaching-tenure feed is wired; a new coordinator changes a team’s identity in ways the ratings only learn after the fact"
+        },
+        {
+          "item": "Motivation, lookahead and locker-room state",
+          "why": "not measurable from any public source; treated as variance, never as a point adjustment"
+        },
+        {
+          "item": "Texas — recruiting ratings",
+          "why": "no legal, public, keyless recruiting feed is wired into EdgeDesk, so no recruiting rating exists for this roster. Nothing is estimated in its place."
+        },
+        {
+          "item": "Missouri — recruiting ratings",
+          "why": "no legal, public, keyless recruiting feed is wired into EdgeDesk, so no recruiting rating exists for this roster. Nothing is estimated in its place."
+        }
+      ],
+      "note": "Unknown is never scored as zero. Every line here is a gap EdgeDesk carries as uncertainty rather than filling in."
+    },
+    "market": {
+      "available": false,
+      "model": "Missouri −0.5",
+      "model_raw": "Missouri -0.3",
+      "headline": "No sportsbook spread is currently joined to this game.",
+      "note": "There is no model-vs-market comparison yet. Everything above is still EdgeDesk’s current view of the matchup; a missing price removes the comparison and nothing else."
+    },
+    "research_view": {
+      "contract": "cfb_research_brief/1",
+      "view": "cfb_research_view/1",
+      "game_id": "401856743",
+      "home": "Missouri",
+      "away": "Texas",
+      "projected": true,
+      "engine_status": "PREDICTED",
+      "label": {
+        "key": "NO_MARKET",
+        "label": "NO MARKET",
+        "rule": "no_market",
+        "means": "There is no current market line to compare with: no market line is joined to this game. The projection stands on its own until a quote lands."
+      },
+      "disagreement": null,
+      "fair": {
+        "line_text": "Missouri −0.5 (near pick’em)",
+        "favorite_team": "Missouri",
+        "underdog_team": "Texas",
+        "display_fair_spread": 1,
+        "raw_home_margin": 0.32,
+        "raw_line_text": "Missouri -0.32",
+        "is_near_pickem": true
+      },
+      "market_gap": {
+        "available": false,
+        "reason": "no market line is joined to this game"
+      },
+      "confidence": {
+        "score": 85,
+        "tier": "HIGH",
+        "label": "High"
+      },
+      "reliability": {
+        "pct": 88,
+        "tier": "STRONG",
+        "text": "88 · STRONG",
+        "sub": "main deduction: Texas’s availability report is not due yet",
+        "score": 88,
+        "grade": "STRONG",
+        "grade_label": "STRONG",
+        "gate_label": null,
+        "components": [
+          {
+            "key": "team_data",
+            "label": "Team data",
+            "score": 20,
+            "max": 20
+          },
+          {
+            "key": "roster_availability",
+            "label": "Roster/status",
+            "score": 12.8,
+            "max": 20
+          },
+          {
+            "key": "projection_stability",
+            "label": "Stability",
+            "score": 18.9,
+            "max": 20
+          },
+          {
+            "key": "freshness",
+            "label": "Freshness",
+            "score": 12.9,
+            "max": 15
+          },
+          {
+            "key": "source_integrity",
+            "label": "Source integrity",
+            "score": 15,
+            "max": 15
+          },
+          {
+            "key": "environment",
+            "label": "Environment",
+            "score": 8.5,
+            "max": 10
+          }
+        ],
+        "main_deduction": "Texas’s availability report is not due yet; the impact of Texas’s absences cannot be assessed: no graded availability read",
+        "capped_by": [],
+        "next_actions": [
+          {
+            "action": "Re-read availability inside the filing window (Texas)",
+            "potential_gain": 1,
+            "text": "up to +1"
+          },
+          {
+            "action": "Re-read availability inside the filing window (Missouri)",
+            "potential_gain": 1,
+            "text": "up to +1"
+          },
+          {
+            "action": "Capture a market quote",
+            "potential_gain": 1,
+            "text": "up to +1"
+          }
+        ],
+        "stability": {
+          "tier": "STABLE",
+          "sd": 0.81,
+          "favorite_flip_rate": 0.047
+        },
+        "scale": "0-100 reliability score, not a probability"
+      },
+      "drivers": {
+        "team": "Missouri",
+        "none": false,
+        "text": null,
+        "reasons": [
+          {
+            "kind": "component",
+            "key": "hfa",
+            "points": 2.8,
+            "text": "+2.8 pts home-field advantage"
+          }
+        ]
+      },
+      "best_available_line": {
+        "available": false,
+        "reason": "no sportsbook quote has been captured for this game"
+      },
+      "projection_status": {
+        "key": "STABLE",
+        "label": "STABLE",
+        "text": "EdgeDesk’s number is unchanged since the latest published number."
+      },
+      "stability": {
+        "tier": "HIGH",
+        "label": "High",
+        "text": "the stored numbers span 0.3 pts across 3 readings"
+      },
+      "published": [
+        {
+          "at": "2026-10-28T06:00:25.251Z",
+          "source": "first published",
+          "home_margin": -0.02,
+          "text": "Texas -0.02"
+        },
+        {
+          "at": "2026-11-01T18:01:05.765Z",
+          "source": "latest published",
+          "home_margin": 0.32,
+          "text": "Missouri -0.32"
+        }
+      ],
+      "revisions": 3,
+      "change_since_published": {
+        "comparable": true,
+        "points": 0,
+        "toward_team": "Texas",
+        "since_at": "2026-11-01T18:01:05.765Z",
+        "text": "unchanged since the latest published number"
+      },
+      "what_changed": {
+        "available": true,
+        "summary": "EdgeDesk moved 0.3 points toward Missouri since the first published number.",
+        "attribution_text": "Projection changed 0.3 points since the first published number. Component-level attribution is unavailable: the stored snapshot keeps the number, not the terms behind it.",
+        "market": null,
+        "model_version": null
+      },
+      "parity": {
+        "ok": true,
+        "gaps": []
+      },
+      "note": "Research, not picks. Every value is read off EdgeDesk’s own projection and the market it was compared with; nothing here is a recommendation to bet."
+    },
+    "headline": "EdgeDesk projects Missouri 24, Texas 24.",
+    "state": {
+      "label": "NO MARKET",
+      "note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
+      "scope": "This describes the state of EdgeDesk’s model-versus-market research on this game. It is not a statement about whether the matchup is worth researching."
+    },
+    "score": {
+      "away": {
+        "team": "Texas",
+        "points": "24"
+      },
+      "home": {
+        "team": "Missouri",
+        "points": "24"
+      },
+      "expected": {
+        "text": "Missouri 23.83, Texas 23.51",
+        "home": 23.83,
+        "away": 23.51,
+        "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point. The whole-number scores round to a tie; unrounded, Missouri leads by 0.32."
+      },
+      "note": "Split from EdgeDesk’s own projected margin and total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
+    },
+    "table": {
+      "cols": [
+        "Texas",
+        "Missouri"
+      ],
+      "rows": [
+        {
+          "k": "ETSR (overall)",
+          "a": "+15.8  #2",
+          "h": "+7.6  #19",
+          "note": "points vs an average FBS team, neutral field"
+        },
+        {
+          "k": "Talent",
+          "a": "66.1  #6",
+          "h": "57.9  #26",
+          "note": null
+        },
+        {
+          "k": "Performance",
+          "a": "80.2  #1",
+          "h": "61.8  #21",
+          "note": null
+        },
+        {
+          "k": "Offense",
+          "a": "59.4  #18",
+          "h": "49.2  #72",
+          "note": null
+        },
+        {
+          "k": "Defense",
+          "a": "76.5  #1",
+          "h": "64.8  #8",
+          "note": null
+        },
+        {
+          "k": "Special teams",
+          "a": "51.8  #35",
+          "h": "51.7  #36",
+          "note": null
+        },
+        {
+          "k": "Run offense",
+          "a": "58.5  #37",
+          "h": "41.7  #108",
+          "note": null
+        },
+        {
+          "k": "Pass offense",
+          "a": "58.7  #20",
+          "h": "57.4  #27",
+          "note": null
+        },
+        {
+          "k": "Run defense",
+          "a": "78.4  #4",
+          "h": "71.4  #10",
+          "note": null
+        },
+        {
+          "k": "Pass defense",
+          "a": "77.8  #1",
+          "h": "62.4  #16",
+          "note": null
+        },
+        {
+          "k": "QB room",
+          "a": "61.4  #26",
+          "h": "61.9  #20",
+          "note": null
+        },
+        {
+          "k": "Offensive line",
+          "a": "51.0  #75",
+          "h": "52.0  #61",
+          "note": null
+        },
+        {
+          "k": "Receivers",
+          "a": "56.6  #26",
+          "h": "55.9  #43",
+          "note": null
+        },
+        {
+          "k": "Running backs",
+          "a": "58.7  #11",
+          "h": "58.5  #15",
+          "note": null
+        },
+        {
+          "k": "Defensive line",
+          "a": "58.9  #21",
+          "h": "56.6  #36",
+          "note": null
+        },
+        {
+          "k": "Linebackers",
+          "a": "60.0  #5",
+          "h": "55.0  #42",
+          "note": null
+        },
+        {
+          "k": "Secondary",
+          "a": "62.9  #2",
+          "h": "59.4  #14",
+          "note": null
+        },
+        {
+          "k": "Depth",
+          "a": "54.2  #14",
+          "h": "53.4  #58",
+          "note": null
+        },
+        {
+          "k": "Continuity",
+          "a": "51.4  #34",
+          "h": "40.5  #90",
+          "note": null
+        },
+        {
+          "k": "Confidence",
+          "a": "77%",
+          "h": "63%",
+          "note": "how much EdgeDesk knows, not how good the team is"
+        },
+        {
+          "k": "Δ national rank, this week",
+          "a": "down 1",
+          "h": "up 3",
+          "note": "differenced from last week’s committed snapshot"
+        }
+      ]
+    },
+    "notes": [
+      "EdgeDesk’s line is Missouri −0.5 on a neutral read of the two teams, before any book is consulted. It is a near pick’em: the raw projected margin is Missouri +0.32, and the one-point line is a display floor. Projected total 47.5.",
+      "Missouri wins 51% of the time in EdgeDesk’s simulation, Texas 49%.",
+      "Eight games in ten land between -20.7 and +21.3 for Missouri. A single result inside that band tells you nothing new about either team.",
+      "No sportsbook spread is joined to this game, so there is no model-versus-market comparison. EdgeDesk’s own number and the research behind it are unchanged by that.",
+      "Texas quarterback: Arch Manning — started the last game; no announcement for this one.",
+      "Missouri quarterback: Austin Simmons — started the last game; no announcement for this one."
+    ],
+    "missing": [
+      "No availability report reached Arch Manning — unknown is carried as unknown, never as healthy.",
+      "No availability report reached Austin Simmons — unknown is carried as unknown, never as healthy."
+    ],
+    "context_label": "RESEARCH CONTEXT — position-group, player-quality, roster and scheme figures explain this matchup and move no priced number.",
+    "priced_label": "PRICED BY MODEL — the projection and its drivers, from validated inputs only.",
+    "source": "Ratings: football/rankings/current.json — 2026 Week 9, built 2026-10-31. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser."
+  },
+  "football_evidence": {
+    "schema": "edgedesk_article_evidence_v1",
+    "packet_hash": "85qdr01nijqym",
+    "status": "EXPLAINED",
+    "input_suspect": false,
+    "question": "Can Texas take away Missouri’s big plays?",
+    "assessment": "Most of the 2.8-point difference traces to home field (engine constant) (about 1.1 points), which the closing market has historically priced differently. That explains the gap; it does not make either number a bet.",
+    "gap": {
+      "points": 2.8,
+      "toward": "Missouri",
+      "other": "Texas"
+    },
+    "supporting": [
+      "When Missouri has the ball (pass protection against the pass rush): Missouri’s offense has allowed a sack on 2.0% of its dropbacks, and Texas’ defense sacks the quarterback on 6.1% of opponent dropbacks (FBS average 5.7%).",
+      "When Texas has the ball (pass protection against the pass rush): Texas’ offense has allowed a sack on 9.4% of its dropbacks, and Missouri’s defense sacks the quarterback on 8.0% of opponent dropbacks (FBS average 5.7%).",
+      "When Texas has the ball (big plays through the air): Texas’ offense turns 8.1% of its pass plays into explosive gains, and Missouri’s defense gives up explosive gains on 7.9% of opponent pass plays (FBS average 10.2%).",
+      "When Texas has the ball (the run game against the run defense): Texas’ offense averages 4.9 yards per carry, and Missouri’s defense allows 4.3 yards per carry (FBS average 5.0)."
+    ],
+    "contradicting": [
+      "When Missouri has the ball (the red zone): Missouri’s offense succeeds on 27.7% of its red-zone plays, and Texas’ defense allows success on 33.2% of opponent red-zone plays (FBS average 43.5%).",
+      "When Missouri has the ball (big plays on the ground): Missouri’s offense turns 4.3% of its runs into explosive gains, and Texas’ defense gives up explosive gains on 3.4% of opponent runs (FBS average 6.5%).",
+      "When Missouri has the ball (the passing game against the pass defense): Missouri’s offense averages 7.7 yards per pass attempt, and Texas’ defense allows 5.5 yards per pass attempt (FBS average 7.4).",
+      "When Missouri has the ball (early downs): Missouri’s offense succeeds on 38.8% of its first- and second-down plays, and Texas’ defense allows success on 32.5% of first- and second-down plays (FBS average 42.5%)."
+    ],
+    "quarterbacks": [
+      "Austin Simmons has completed 152 of 240 passes (63.3%) for 1,935 yards, 8.1 yards per attempt, 16 touchdowns and 2 interceptions in eight games for Missouri, and has been sacked on 7 of 247 dropbacks.",
+      "Arch Manning has completed 141 of 221 passes (63.8%) for 1,730 yards, 7.8 yards per attempt, 15 touchdowns and 7 interceptions in eight games for Texas, and has been sacked on 24 of 245 dropbacks."
+    ],
+    "availability": [],
+    "script": {
+      "model": [
+        "Missouri’s offense has to keep winning on big pass plays: it turns 14.0% of its pass plays into explosive gains, and Texas’ defense gives up explosive gains on 5.3% of opponent pass plays.",
+        "Missouri’s offense has to hold its own on long runs against a defense that gives up explosive gains on 3.4% of opponent runs.",
+        "Missouri’s offense has to hold its own in the red zone against a defense that allows success on 33.2% of opponent red-zone plays.",
+        "Missouri’s defense has to come out ahead in the pass-rush matchup: it sacks the quarterback on 8.0% of opponent dropbacks, against an offense that has allowed a sack on 9.4% of its dropbacks."
+      ],
+      "market": [
+        "Texas’ defense has to come out ahead on long runs: it gives up explosive gains on 3.4% of opponent runs, against an offense that turns 4.3% of its runs into explosive gains.",
+        "Texas’ defense has to come out ahead in the red zone: it allows success on 33.2% of opponent red-zone plays, against an offense that succeeds on 27.7% of its red-zone plays.",
+        "Texas’ defense has to come out ahead on big pass plays: it gives up explosive gains on 5.3% of opponent pass plays, against an offense that turns 14.0% of its pass plays into explosive gains."
+      ]
+    },
+    "unknown": [
+      "EdgeDesk’s own sources disagree on sack rate allowed and sack rate for Texas.",
+      "Not in EdgeDesk’s verified data for this game: turnover rates, injuries and personnel and penalty rate."
+    ],
+    "flags": [
+      {
+        "key": "DATA_CONFLICT",
+        "severity": "medium",
+        "text": "EdgeDesk’s own sources disagree on sack rate allowed (Texas) and sack rate (Texas); the evidence uses the corroborated figures, and any model term built on the play-by-play figure may be off."
+      },
+      {
+        "key": "CROSS_MODEL_OUTLIER",
+        "severity": "medium",
+        "text": "EdgeDesk’s published number sits 5.3 points from the middle of its own other models."
+      }
+    ],
+    "sources": [
+      {
+        "label": "EdgeDesk play-by-play metrics, quarterback logs and box scores",
+        "url": null,
+        "path": "football/matchup/metrics.json",
+        "observed_at": "2026-11-01T22:55:26.361Z",
+        "verification": "VERIFIED_DATA"
+      },
+      {
+        "label": "EdgeDesk play-by-play quarterback logs (2026)",
+        "url": null,
+        "path": "football/fbs_epa/qb_epa_2026.json",
+        "observed_at": "2026-11-01T03:00:00.000Z",
+        "verification": "VERIFIED_DATA"
+      }
+    ],
+    "needs_confirmation": []
+  },
+  "checks": {
+    "ok": true,
+    "failed": [],
+    "at": "2026-11-02T00:36:55.151Z"
+  }
+}

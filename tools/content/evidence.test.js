@@ -20,10 +20,14 @@
      F  formats       publisher and first-party pieces are different articles
      C  cost          one packet per matchup, reused; no repeated research;
                       at most two AI calls, each budgeted first
-     L  live          today's artifacts: every generated article passes
+     L  live          every generated article passes: on the research pinned
+                      in fixtures/research_2026_w9.json.gz (a pull request),
+                      or on today's committed artifacts with --live (the
+                      daily sweep, .github/workflows/content-engine-live.yml)
      W  first-party   the game page gets the evidence; suspect pages are held
 
    Run: node tools/content/evidence.test.js
+        node tools/content/evidence.test.js --live [--now 2026-10-29T20:14:42Z]
    =========================================================================== */
 'use strict';
 const fs = require('fs');
@@ -44,6 +48,26 @@ function section(t) { console.log('\n' + t); }
 
 const NOW = Date.parse(FIX.frozen_at);
 const SR = CE.PUBLISHER_TEMPLATES['stadium-rant'];
+/* TODAY'S RESEARCH, PINNED ON A PULL REQUEST. Two checks read "today": S 3c
+   (every claim the evidence builder makes) and section L (every article the
+   engine would offer). Read live, they moved with the hourly data and the
+   clock, and section L went red on main with no code change (1c3b5c07a,
+   c933dc468, Week 9 on 2026-10-29). By default both read the research main
+   held at ca6f867a0, at 20:14 UTC on October 29, where its own code BLOCKED
+   two Week 9 articles until 05ad9abef and 64143ada2 repaired the writer and
+   the evidence builder (fixtures/research_2026_w9.json.gz, built by
+   fixtures/freeze_live.js: it keeps the inputs, so this code builds the
+   packets and drafts). --live reads today's committed artifacts at the real
+   clock, or at --now: the daily sweep (.github/workflows/content-engine-live.yml). */
+const ART = require(path.join(__dirname, 'artifacts.js'));
+const LIVE = process.argv.indexOf('--live') >= 0;
+const NOW_ARG = (() => { const i = process.argv.indexOf('--now'); return i > 0 ? process.argv[i + 1] : null; })();
+if (NOW_ARG !== null && (!LIVE || !isFinite(Date.parse(NOW_ARG)))) { console.error('--now takes an ISO 8601 moment, with --live'); process.exit(2); }
+const PIN = LIVE ? null : ART.frozenFiles(ART.PINNED);
+const LNOW = LIVE ? (NOW_ARG ? Date.parse(NOW_ARG) : Date.now()) : Date.parse(PIN.at);
+const TODAY = LIVE ? ART.load({ now: LNOW }) : ART.fromFiles(PIN);
+const WHOSE = LIVE ? 'today’s' : 'the pinned';
+console.log((LIVE ? 'today’s committed research' : 'the research pinned in ' + path.basename(ART.PINNED) + ' (' + PIN.commit.slice(0, 9) + ')') + ', at ' + new Date(LNOW).toISOString());
 const TL = FIX.teamLists;
 const byId = (id) => FIX.cfb.games.concat(FIX.nfl.games).find((p) => String(p.game_id) === String(id));
 const OM = byId('401856718'), GA = byId('401856712'), TX = byId('401856717'), MZ = byId('401856716'), UC = byId('401858484'), NF = FIX.nfl.games[0];
@@ -124,6 +148,58 @@ chk('S … and is HELD for review, not ready (six outside reports to confirm; su
 chk('S 1 it gives the projection WITH football evidence', passed(OMP.rep, 'football_evidence') && OMP.rep.evidence_record.filter((r) => /VERIFIED_DATA|OFFICIAL_REPORT|RATING|REPORTED/.test(r.verification)).length >= 15);
 chk('S 2 it discusses recent quarterback performance for both teams', passed(OMP.rep, 'qb_discussed') && /Chambliss has completed 103 of 146/.test(OMB) && /Curtis has completed/.test(OMB) && /Berlowitz has completed/.test(OMB) && /last two games/.test(OMB));
 chk('S 3 it addresses the material injuries: Curtis’s knee and status, Lacy’s shoulder and status', passed(OMP.rep, 'injuries_addressed') && /bruised knee/.test(OMB) && /lists quarterback Jared Curtis as probable/.test(OMB) && /Lacy as questionable/.test(OMB) && /shoulder/.test(OMB));
+/* 2026-10-29 (Kansas State at Colorado, week 9): a weekly-preview capsule whose quarterback line
+   led with an input conflict printed no other official listing, so a second quarterback listed
+   OUT went unmentioned and the gate (rightly) blocked the preview. "Jordan Example" is invented. */
+chk('S 3b a weekly-preview capsule names every quarterback on the availability report, not only the one in a conflict', (() => {
+  const g = JSON.parse(JSON.stringify(OM));
+  const base = g.evidence.claims.find((c) => c.key === 'report:home:Jared Curtis');
+  g.evidence.claims.push(Object.assign({}, base, { id: 'c_test_second_qb_out', key: 'report:home:Jordan Example', subject: 'Jordan Example', status: 'OUT',
+    values: Object.assign({}, base.values, { status: 'OUT' }), label: 'Jordan Example (official availability)',
+    text: base.text.replace('Jared Curtis as probable', 'Jordan Example as out'), short: 'Jordan Example is listed as out on the SEC availability report',
+    cite: { nums: [], words: ['Example', 'report|lists|listed|out'], all: true } }));
+  const o = oppFor([g], 'upset_watch');
+  const a = CE.draft(o, { publisher: SR, format: 'cfb_weekly_preview', now: NOW });
+  const r = CE.validate(a, o, { publisher: SR, now: NOW, teamLists: TL });
+  const body = a.sections.map((s) => s.body).join('\n');
+  return /Jordan Example is listed as out/.test(body) && /Jared Curtis/.test(body) && (r.failed || []).indexOf('injuries_addressed') < 0;
+})());
+/* 2026-10-29: two fixes for the same capsule (#904, #907) merged side by side, and every quarterback
+   listing was printed up to three times, which no_repetition then blocked. Each is said once. */
+chk('S 3e a weekly-preview capsule says each quarterback listing once', (() => {
+  const g = JSON.parse(JSON.stringify(OM));
+  const base = g.evidence.claims.find((c) => c.key === 'report:home:Jared Curtis');
+  g.evidence.claims.push(Object.assign({}, base, { id: 'c_test_second_qb_out', key: 'report:home:Jordan Example', subject: 'Jordan Example', status: 'OUT',
+    values: Object.assign({}, base.values, { status: 'OUT' }), label: 'Jordan Example (official availability)',
+    text: base.text.replace('Jared Curtis as probable', 'Jordan Example as out'), short: 'Jordan Example is listed as out on the SEC availability report',
+    cite: { nums: [], words: ['Example', 'report|lists|listed|out'], all: true } }));
+  const a = CE.draft(oppFor([g], 'upset_watch'), { publisher: SR, format: 'cfb_weekly_preview', now: NOW });
+  const qb = (a.sections.map((s) => s.body).join('\n').match(/\*\*Quarterbacks:\*\*[^\n]*/) || [''])[0];
+  const said = qb.replace(/\*\*Quarterbacks:\*\*\s*/, '').split(/(?<=\.)\s+/).filter(Boolean);
+  const twice = said.filter((x, i) => said.indexOf(x) !== i);
+  return said.length > 0 && twice.length === 0 || (console.log('   repeated: ' + JSON.stringify(twice)), false);
+})());
+/* 2026-10-29 (Utah at Cincinnati, week 9): a claim's citation numbers were rounded apart from its
+   printed text (0.5185 printed 51.8% but was cited as 51.9), so an article quoting the claim word for
+   word failed numbers_in_evidence. Every citation number must be one the claim itself prints. */
+/* scanned on packets this code builds from "today" (pinned on a pull request, above); the frozen
+   week-6 fixture keeps the citations its own build wrote (it is a record, not regenerated), and
+   S 3d proves the rounding on a constructed number */
+chk('S 3c every claim the current build makes cites only numbers its own text prints (' + WHOSE + ' research)', (() => {
+  const bad = [];
+  const scan = (packets) => packets.forEach((pk) => (pk.claims || []).forEach((c) => {
+    const printed = (String(c.text) + ' ' + String(c.short || '')).match(/\d+(?:\.\d+)?/g) || [];
+    ((c.cite && c.cite.nums) || []).forEach((n) => { if (!printed.some((t) => +t === +n)) bad.push(pk.game_id + ' ' + c.key + ' cites ' + n); });
+  }));
+  const live = LIVE ? require(path.join(__dirname, 'evidence.js')).build({ now: LNOW }) : TODAY.evidence;
+  scan([].concat(Object.values((live.cfb || {}).packets || {}), Object.values((live.nfl || {}).packets || {})));
+  return bad.length === 0 || (console.log('   ' + bad.slice(0, 5).join('\n   ')), false);
+})());
+/* the same defect, deterministically: a percentage on a rounding boundary is cited as printed */
+chk('S 3d a percentage on a rounding boundary (0.5185) is cited exactly as the claim prints it', (() => {
+  const t = FE.writer.metricText, n = FE.writer.metricNum;
+  return !!(t && n) && t('early_down_success', 0.5185) === '51.9%' && n('early_down_success', 0.5185) === '51.9' && n('def_early_down_allowed', 0.4405) === t('def_early_down_allowed', 0.4405).replace('%', '');
+})());
 chk('S 4 it states the evidence against EdgeDesk’s number', passed(OMP.rep, 'contrary_evidence') && /The case for Ole Miss, and against EdgeDesk’s number/.test(OMB));
 chk('S 5 it never invents why the model likes a team', passed(OMP.rep, 'causal_supported') && /mechanics, not football reasons/.test(OMB));
 chk('S 6 it does not treat the unexplained gap as an edge', passed(OMP.rep, 'unexplained_disclosed') && passed(OMP.rep, 'no_edge_language') && /not an edge/.test(OMB));
@@ -309,6 +385,48 @@ section('N a player is not a team');
   chk('N ...and Kansas is in the Big 12', e.status === 'pass', e);
 }
 
+section('R a claim and its citation round the same way');
+/* 2026-10-29: the Utah–Cincinnati matchup piece was BLOCKED, on main and in
+   the live check below, for "not in the evidence: 51.8, 44, 42.6". Utah's
+   early-down success is 0.5185 and Cincinnati's allowed rate 0.4405. The
+   claim's text rounded with toFixed (51.8%, 44.0%: 0.5185 × 100 is stored as
+   51.849999…) and its citation with EdgeDesk's rounding (51.9, 44.1), so the
+   sentence never cited the claim it was. Both now round half away from zero. */
+{
+  const unit = (off, def) => ({ performance: { offense_detail: { used: off }, defense_detail: { used: def } } });
+  const pk = FE.buildCfb({ game: { game: { id: 'r1', home: 'Cincinnati', away: 'Utah' } }, keys: { home: 'cin', away: 'uta' },
+    metrics: { away: unit([{ id: 'early_down_success', raw: 0.5185, league: 0.4264, n_obs: 314 }], []), home: unit([], [{ id: 'def_early_down_allowed', raw: 0.4405, league: 0.4264, n_obs: 300 }]) } }, { now: NOW });
+  const c = pk.claims.find((x) => x.key === 'pair:early_downs:away');
+  chk('R a percentage is printed as EdgeDesk rounds it: 0.5185 is 51.9%, 0.4405 is 44.1%', !!c && /51\.9%/.test(c.text) && /44\.1%/.test(c.text) && /51\.9%/.test(c.short) && /44\.1%/.test(c.short), c && c.text);
+  chk('R … so the claim’s own sentence cites it', !!c && FE.citedClaims(pk, c.text).some((x) => x.id === c.id), c && c.cite);
+}
+
+section('K every quarterback on the report');
+/* 2026-10-29: the Week 9 upset watch was BLOCKED, on main and in the live
+   check below, for "Kansas State at Colorado: not mentioned — Avery Johnson
+   is listed as out". Kansas State's report listed Jacob Knuth, the starter
+   EdgeDesk's model expects, as doubtful (an input conflict) and Avery Johnson
+   as out. A weekly-preview capsule stated a side's conflict and then no other
+   report line for that side (without a conflict, only the first). It now
+   states what the gate requires of a game: every conflict and every
+   quarterback on a report. Here Vanderbilt's report, beside the Curtis
+   conflict, lists a stand-in third quarterback out. */
+{
+  const ev = JSON.parse(JSON.stringify(FE.trim(OM.evidence)));
+  const curtis = ev.claims.find((c) => c.key === 'report:home:Jared Curtis');
+  ev.claims.push(Object.assign({}, curtis, { id: 'c_k_third_qb', key: 'report:home:Sam Thirdstring', subject: 'Sam Thirdstring', label: 'Sam Thirdstring (official availability)',
+    text: 'Vanderbilt’s initial SEC availability report (published Oct. 7) lists quarterback Sam Thirdstring as out.', short: 'Sam Thirdstring is listed as out on the SEC availability report',
+    cite: { nums: [], words: ['Thirdstring', 'report|lists|listed|out'], all: true }, values: { status: 'OUT', position: 'QB' }, status: 'OUT' }));
+  const o = oppFor(slateGames.map((p) => Object.assign({}, p, { evidence: p === OM ? ev : FE.trim(p.evidence) })), 'weekly_preview');
+  const a = CE.draft(o, { publisher: SR, format: 'cfb_weekly_preview', now: NOW });
+  const r = revalidate(o, a);
+  const vu = a.sections.find((s) => s.key === 'games').body.split('\n### ').find((b) => /Ole Miss at Vanderbilt/.test(b)) || '';
+  const ia = r.checks.find((c) => c.id === 'injuries_addressed' && c.game === '401856718') || {};
+  chk('K the capsule states the conflict and the other quarterback the report lists out', /The model expects Blaze Berlowitz, but Jared Curtis is listed as probable/.test(vu) && /Sam Thirdstring is listed as out/.test(vu), vu.split('\n\n').filter((l) => /Quarterbacks/.test(l)));
+  chk('K … so the game passes injuries_addressed', ia.status === 'pass', ia);
+  chk('K … and the slate still passes every hard check', r.ok, r.failed);
+}
+
 section('V generalises');
 [[GA, 'Georgia at Alabama'], [TX, 'Texas at Oklahoma'], [MZ, 'Texas A&M at Missouri'], [UC, 'UCLA at Oregon'], [NF, 'Bengals at Dolphins (NFL)']].forEach(([p, name]) => {
   ['matchup_analysis', 'edgedesk_analysis'].forEach((fmt) => {
@@ -385,13 +503,12 @@ if (fs.existsSync(recFile)) {
 
 /* ── L live ───────────────────────────────────────────────────────────── */
 section('L live');
-const ART = require(path.join(__dirname, 'artifacts.js'));
-const LNOW = Date.now();
-const art = ART.load({ now: LNOW });
+/* "today": the research pinned on a pull request, or today's with --live (above) */
+const art = TODAY;
 /* the hourly matchup packets move with the week, and Five Games to Watch is
    tested from its frozen fixture in games_to_watch.test.js (as in content.test.js) */
 art.packets = null;
-chk('L today’s evidence set builds from committed files', art.evidence && art.evidence.counts && art.evidence.counts.cfb + art.evidence.counts.nfl > 0, art.evidence && art.evidence.counts);
+chk('L ' + WHOSE + ' evidence set builds from committed files', art.evidence && art.evidence.counts && art.evidence.counts.cfb + art.evidence.counts.nfl > 0, art.evidence && art.evidence.counts);
 const snap = CE.research.fromArtifacts(art, { now: LNOW });
 chk('L a packet built from different numbers than the research is refused, so the gate fails closed', (() => {
   const g0 = snap.cfb.games.find((p) => p.evidence && p.evidence.model && typeof p.evidence.model.home_line === 'number');
@@ -409,10 +526,18 @@ opps.forEach((o) => o.formats.filter((f) => f !== 'publisher_custom').forEach((f
   live.push({ key: o.key + '/' + f, ok: r.ok, failed: r.failed, readiness: r.readiness });
 }));
 const liveBad = live.filter((x) => !x.ok);
-chk('L every article generated from today’s research passes the gate', live.length > 0 && liveBad.length === 0, liveBad.slice(0, 5));
+console.log('  ' + live.length + ' articles drafted, ' + liveBad.length + ' blocked');
+chk('L every article generated from ' + WHOSE + ' research passes the gate', live.length > 0 && liveBad.length === 0, liveBad.slice(0, 5));
+/* the pin is not vacuous: it still drafts the two articles main's own code
+   BLOCKED there, so a regression of either repair is red here */
+if (!LIVE) chk('L the pinned research drafts the two Week 9 articles the gate blocked on 2026-10-29 (the upset-watch preview; Utah–Cincinnati)',
+  ['cfb:2026:w9:upset_watch/cfb_weekly_preview', 'cfb:2026:w9:market_discrepancy:401856848/matchup_analysis'].every((k) => live.some((x) => x.key === k)), live.map((x) => x.key));
 chk('L every packet’s explanation has a legal status and is never actionable', [].concat(Object.values((art.evidence.cfb || {}).packets || {}), Object.values((art.evidence.nfl || {}).packets || {}))
   .every((p) => ['EXPLAINED', 'PARTIALLY_EXPLAINED', 'UNEXPLAINED', 'NO_MATERIAL_DISAGREEMENT', 'NO_COMPARABLE_MARKET', 'NO_PROJECTION'].includes(p.explanation.status) && p.explanation.actionable === false));
-chk('L the facts ledger validates', (() => { const j = JSON.parse(fs.readFileSync(path.join(ROOT, 'football', 'evidence', 'facts.json'), 'utf8')); return j.facts.every((f) => FE.validateFact(f, LNOW).ok); })());
+/* the ledger the evidence was built from: the pinned copy, or today's file
+   (content-engine.yml's next step, tools/content/add_fact.js --check, holds
+   today's file at the real clock) */
+chk('L the facts ledger validates', (() => { const j = LIVE ? JSON.parse(fs.readFileSync(path.join(ROOT, 'football', 'evidence', 'facts.json'), 'utf8')) : PIN.files['football/evidence/facts.json']; return j.facts.every((f) => FE.validateFact(f, LNOW).ok); })());
 
 console.log('');
 failures.forEach((f) => console.log('  × ' + f));

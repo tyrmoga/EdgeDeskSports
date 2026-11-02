@@ -44,6 +44,13 @@
    scenarios here are priced (`--check` proves it for every scenario), and
    versions the game card when a starter is reported, confirmed or changed.
    Nothing in the production price reads it.
+
+   THE SPLIT FACTOR (hockey/model/split_shadow.js). Since 2026-10-29 the
+   published 2026-27 price uses the pair recalibration's split factor fitted
+   on the moneyline (b = 1.125, from live.json; the goal-split 0.9 is kept
+   there as goal_split_b), by the owner's decision. Before that it ran as a
+   shadow (calibration_shadow, frozen in hockey/ledger/split_shadow_<season>.jsonl);
+   a shadow that is not production still prices there, and this one no longer does.
    =========================================================================== */
 const fs = require('fs');
 const path = require('path');
@@ -60,6 +67,7 @@ const X = require('./slate_extras');
 const EX = require('./model/explain');
 const CTX = require('./lab/context');
 const GC = require('./goalies/core');
+const SH = require('./model/split_shadow');
 
 const GOALIE_INPUTS = path.join(C.HOCKEY, 'goalie_inputs.json');
 function arg(name, dflt) { const i = process.argv.indexOf('--' + name); return i >= 0 ? process.argv[i + 1] : dflt; }
@@ -195,7 +203,7 @@ function build(o) {
   /* results the schedule calls final but the play-by-play has not delivered yet */
   const lagging = sched.filter((g) => /^(FINAL|OFF)$/.test(String(g.state || '')) && !completedIds.has(g.game_id) && Date.parse(g.start_utc) < now - 6 * 3600e3);
 
-  const chosen = live.model, gfit = live.glm[chosen], gGoalie = live.glm.xg_goalie_confirmed, gGoals = live.glm.goals_only;
+  const chosen = live.model, gfit = live.glm[chosen], gGoalie = live.glm.xg_goalie_confirmed, gGoals = live.glm.goals_only, gAll = live.glm.xg_all_confirmed || null;
   const cal = live.pair_calibration || {};
   const eff = live.effects || DIST.neutralEffects();
   const bins = val.windows && val.windows.confirmation && val.windows.confirmation.by_candidate[chosen] ? val.windows.confirmation.by_candidate[chosen].moneyline.bins : [];
@@ -233,6 +241,8 @@ function build(o) {
     };
     const D = price(gfit, cal[chosen], fh, fa);
     const sheet = DIST.sheet(D);
+    /* the pre-registered split-factor shadow: production's raw λ under the shadow's recalibration, never the price */
+    const Dsh = SH.active(C.CURRENT_SEASON) ? price(gfit, SH.shadowCal(cal[chosen]), fh, fa) : null;
     /* goalie scenarios from the goalie-aware variant */
     const projH = rs.projectStarters(g.home, day).slice(0, 2), projA = rs.projectStarters(g.away, day).slice(0, 2);
     const conf = confirmed[String(g.game_id)] || null;
@@ -259,8 +269,23 @@ function build(o) {
       if (confG) for (const k of ['home', 'away']) if (confG[k] != null) pool.add(String(confG[k]));
       const rates = {};
       for (const id of pool) rates[id] = peekGoalieRate(rs, Number(id), day);
+      /* the lineup-lock inputs (hockey/goalies/core.js nhlgLockPrice): the variant that knows tonight's lineups and goalies, with
+         its goalie and lineup terms at zero, and each club's typical lineup value. `check` prices each club's previous lineup with the
+         likeliest starters through this file's own GLM path, so --check proves the sync's arithmetic reproduces it */
+      let lineup = null;
+      const sH = luOk ? ls.snapshot(g.home, null) : null, sA = luOk ? ls.snapshot(g.away, null) : null;
+      if (gAll && sH && sA && sH.known && sA.known) {
+        const zero = { opp_goalie_act: 0, opp_goalie_proj: 0, lu_own_conf: 0, lu_opp_conf: 0 };
+        const etaAll = (f) => Math.log(GLM.predict(gAll, Object.assign({}, f, zero)));
+        const lastIds = (team) => { const h = ls.hist(team); return h && h.length ? h[h.length - 1].map(String) : []; };
+        const gh = projH[0] ? projH[0].goalie : null, ga = projA[0] ? projA[0].goalie : null;
+        const rH = rs.goalieRating(gh, day).rate, rA = rs.goalieRating(ga, day).rate;
+        const Dchk = price(gAll, cal.xg_all_confirmed, Object.assign({}, fh, zero, { opp_goalie_act: rA, lu_own_conf: sH.proj, lu_opp_conf: sA.proj }), Object.assign({}, fa, zero, { opp_goalie_act: rH, lu_own_conf: sA.proj, lu_opp_conf: sH.proj }));
+        lineup = { eta: { home: etaAll(fh), away: etaAll(fa) }, typical: { home: sH.typical, away: sA.typical }, last: { home: lastIds(g.home), away: lastIds(g.away) },
+          check: { home_goalie_id: gh != null ? String(gh) : null, away_goalie_id: ga != null ? String(ga) : null, p_home: r4(Dchk.p_home), basis: 'each club\'s previous lineup and the likeliest starters, priced by build_slate.js' } };
+      }
       o.collect.games.push({ game_id: g.game_id, date: g.date, start_utc: g.start_utc, type: g.game_type, home: g.home, away: g.away, state: g.state || null,
-        eta: { home: eta(fh), away: eta(fa) }, rates,
+        eta: { home: eta(fh), away: eta(fa) }, rates, lineup,
         projection: { home: projAll(g.home), away: projAll(g.away) },
         confirmed: confG ? { home: confG.home != null ? { goalie_id: String(confG.home), goalie_name: goalieNames[confG.home] || null } : null, away: confG.away != null ? { goalie_id: String(confG.away), goalie_name: goalieNames[confG.away] || null } : null, source: confG.source || null, url: confG.url || null, recorded_at: confG.recorded_at || null } : null });
     }
@@ -308,6 +333,9 @@ function build(o) {
         team_total: { home: Object.fromEntries(Object.entries(sheet.team_total.home).map(([L, t]) => [L, { over: pct(t.over), under: pct(t.under), push: pct(t.push), fair_over: t.fair_over, fair_under: t.fair_under }])), away: Object.fromEntries(Object.entries(sheet.team_total.away).map(([L, t]) => [L, { over: pct(t.over), under: pct(t.under), push: pct(t.push), fair_over: t.fair_over, fair_under: t.fair_under }])) },
         p_overtime: pct(sheet.p_overtime), p_shootout: pct(sheet.p_shootout),
       },
+      calibration_shadow: Dsh ? { protocol: SH.PROTOCOL.id, status: 'SHADOW', b: SH.PROTOCOL.b, production_b: cal[chosen] ? cal[chosen].b : null,
+        p_home: pct(Dsh.p_home), p_away: pct(Dsh.p_away), fair_home: am(Dsh.p_home), fair_away: am(Dsh.p_away), pl_home_minus_1_5: pct(DIST.spread(Dsh, -1.5).win), lambda: { home: r4(Dsh.lamH), away: r4(Dsh.lamA) },
+        note: 'Not the price. A pre-registered challenger: the split factor fitted on the moneyline instead of on goals (hockey/model/split_shadow.js). It is graded beside production on unseen games and changes nothing unless its rule is met and a person promotes it.' } : null,
       uncertainty: {
         moneyline_sd_pp: r2(sdPP), total_sd_goals: r2(totSd),
         basis: 'spread of the home win probability and expected total across the validated variants (chosen model, goals-only, goalie-aware under each projected goalie pairing, lineup-aware with each club\'s last lineup). A sensitivity, not a confidence interval.',
@@ -351,6 +379,7 @@ function build(o) {
 
   if (o.collect) {
     o.collect.rs = rs; o.collect.goalieNames = goalieNames; o.collect.gGoalie = gGoalie; o.collect.cal = cal.xg_goalie_confirmed || null; o.collect.effects = eff; o.collect.ot = live.ot;
+    o.collect.gAll = gAll; o.collect.calAll = cal.xg_all_confirmed || null; o.collect.ls = luOk ? ls : null;
     o.collect.prior_rate = rs.p.goalie_prior_rate; o.collect.ratings = live.ratings; o.collect.firstDay = out.length ? dayNum(out[0].date) : dayNum(new Date(now).toISOString().slice(0, 10));
   }
   /* each captured price against the model (lib/edgedesk_nhl_market.js) */
@@ -449,6 +478,11 @@ function writeRecent(rec) {
  */
 function goalieInputsFile(slate, collect) {
   const rs = collect.rs, names = collect.goalieNames || {}, gG = collect.gGoalie;
+  const gA = collect.gAll && collect.calAll && collect.ls ? collect.gAll : null;
+  const beta = (m, k) => m.beta[1 + m.names.indexOf(k)];
+  /* every skater's value for the lineup lock: recent time on ice per game, shrunk toward the depth-player prior (hockey/model/lineups.js) */
+  const skaterValues = {};
+  if (gA) for (const id of collect.ls.player.keys()) skaterValues[String(id)] = r2(collect.ls.value(id));
   const teamsOf = {};
   for (const [team, ids] of rs.starts) for (const id of ids || []) { const k = String(id); (teamsOf[k] = teamsOf[k] || []).indexOf(team) < 0 && teamsOf[k].push(team); }
   const pool = {};
@@ -474,12 +508,18 @@ function goalieInputsFile(slate, collect) {
     schema: 'edgedesk_nhl_goalie_inputs_v1', generated_at: slate.generated_at, slate_generated_at: slate.generated_at,
     model: { id: slate.model.id, chosen: slate.model.chosen, params_generated_at: slate.model.params_generated_at, goalie_variant: 'xg_goalie_confirmed',
       goalie_feature: 'goalie_conf', goalie_beta: gG.beta[1 + gG.names.indexOf('goalie_conf')], pair_calibration: collect.cal,
-      basis: 'eta = log expected regulation goals of the goalie-aware variant with its goalie term at zero; a pairing prices as exp(eta + goalie_beta × the opposing goalie\'s rating), pair-calibrated, through hockey/model/distribution.js' },
+      basis: 'eta = log expected regulation goals of the goalie-aware variant with its goalie term at zero; a pairing prices as exp(eta + goalie_beta × the opposing goalie\'s rating), pair-calibrated, through hockey/model/distribution.js',
+      /* the lineup-lock variant (hockey/goalies/core.js nhlgLockPrice): known only when the box scores are cached */
+      all_variant: gA ? 'xg_all_confirmed' : null, all_model_id: gA ? 'edgedesk_nhl_v1:xg_all_confirmed' : null,
+      all_beta: gA ? { goalie: beta(gA, 'goalie_conf'), lu_own: beta(gA, 'lu_own_conf'), lu_opp: beta(gA, 'lu_opp_conf') } : null, all_pair_calibration: gA ? collect.calAll : null,
+      all_basis: 'at lineup lock: exp(lineup.eta + all_beta.goalie × the opposing goalie\'s rating + all_beta.lu_own × ln(own lineup value / own typical) + all_beta.lu_opp × the same for the opponent), pair-calibrated; a lineup value is the sum of skater_values over the dressed skaters (hockey/model/lineups.js)' },
     distribution: { effects: collect.effects, ot: collect.ot, ot_playoff: { format: 'PO' } },
     ratings: { goalie_prior_rate: collect.prior_rate, goalie_prior_xg: collect.ratings && collect.ratings.goalie_prior_xg, goalie_half_life_days: collect.ratings && collect.ratings.goalie_half_life_days,
       basis: 'hockey/model/ratings.js goalieRating: goals saved above expected per xG faced, decayed with the half-life and shrunk toward the replacement-level prior (the v1 rating; unchanged)' },
     goalie_prior_rate: collect.prior_rate,
     goalies: pool,
+    skater_prior_s: gA ? collect.ls.p.prior_toi_s : null,
+    skater_values: gA ? skaterValues : null,
     games,
     attribution: slate.attribution,
   };
@@ -497,6 +537,14 @@ function checkGoalieInputs(slate, gin) {
     for (const x of g.goalies.scenarios) {
       const pr = GC.nhlgPrice(gi, gin, x.home_goalie == null ? null : String(x.home_goalie), x.away_goalie == null ? null : String(x.away_goalie), DIST);
       if (Math.abs(pr.p_home - x.p_home) > 1.5e-4 || Math.abs(pr.lambda.home - x.lambda.home) > 1.5e-4 || Math.abs(pr.lambda.away - x.lambda.away) > 1.5e-4) fails.push(g.game_id + ' pairing ' + x.home_goalie + '/' + x.away_goalie + ' re-prices to ' + pr.p_home + ', not ' + x.p_home);
+    }
+    /* the lineup lock: each club's previous lineup with the likeliest starters re-prices to the slate's own GLM path */
+    const L = gi.lineup;
+    if (L && L.check && gin.model && gin.model.all_beta) {
+      const both = { home: { status: 'confirmed', goalie_id: L.check.home_goalie_id, goalie_name: 'check' }, away: { status: 'confirmed', goalie_id: L.check.away_goalie_id, goalie_name: 'check' } };
+      const lk = GC.nhlgLockPrice(gi, gin, both, L.last, DIST);
+      if (!lk) fails.push(g.game_id + ' lineup-lock inputs do not price (' + (L.last.home.length + '/' + L.last.away.length) + ' skaters)');
+      else if (Math.abs(lk.p_home - L.check.p_home) > 1.5e-4) fails.push(g.game_id + ' lineup lock re-prices to ' + lk.p_home + ', not ' + L.check.p_home);
     }
   }
   return fails;
@@ -542,6 +590,8 @@ function check() {
       if (!(Math.abs(m.home + m.away - 1) < 1e-3)) fails.push(g.game_id + ' moneyline does not sum to 1');
       const r = g.prices.regulation; if (!(Math.abs(r.home + r.draw + r.away - 1) < 1e-3)) fails.push(g.game_id + ' 3-way does not sum to 1');
       if (!(g.prices.puck_line.home_minus_1_5 < m.home)) fails.push(g.game_id + ' -1.5 is not below the moneyline');
+      const sh = g.calibration_shadow;
+      if (sh && (sh.status !== 'SHADOW' || sh.b !== SH.PROTOCOL.b || !(Math.abs(sh.p_home + sh.p_away - 1) < 1e-3))) fails.push(g.game_id + ' calibration_shadow is not the registered shadow');
     }
     /* started games: research frozen strictly before the start, never re-priced */
     const rec = readJson(C.PATHS.recent, null);
@@ -562,6 +612,7 @@ function check() {
         if (seen.has(id)) fails.push('duplicate ledger record ' + id); seen.add(id);
       }
     }
+    fails.push(...SH.checkLedger());
   }
   if (fails.length) { console.error('[nhl slate --check] FAILED: ' + fails.slice(0, 10).join('; ')); process.exit(1); }
   console.log('[nhl slate --check] ok: ' + s.games.length + ' games, value claims ' + s.readiness.value_claims.state);
@@ -581,7 +632,8 @@ async function main() {
   writeRecent(recent);
   fs.writeFileSync(GOALIE_INPUTS, JSON.stringify(goalieInputsFile(slate, collect)) + '\n');
   const added = flag('no-ledger') ? 0 : ledgerAppend(slate, now);
-  console.log('[nhl slate] ' + slate.games.length + ' upcoming games priced; data ' + slate.readiness.data.state + ' (latest result ' + slate.readiness.data.latest_completed_game + '); NHL API ' + (api.used ? 'used' : 'not used (' + (api.reason || (api.error && api.error.code) || 'unreachable') + ')') + '; ledger +' + added + '; value claims ' + slate.readiness.value_claims.state + '; started games with frozen research ' + recent.games.length);
+  const addedShadow = flag('no-ledger') ? 0 : SH.ledgerAppend(slate, now);
+  console.log('[nhl slate] ' + slate.games.length + ' upcoming games priced; data ' + slate.readiness.data.state + ' (latest result ' + slate.readiness.data.latest_completed_game + '); NHL API ' + (api.used ? 'used' : 'not used (' + (api.reason || (api.error && api.error.code) || 'unreachable') + ')') + '; ledger +' + added + ', shadow ledger +' + addedShadow + '; value claims ' + slate.readiness.value_claims.state + '; started games with frozen research ' + recent.games.length);
 }
 
 if (require.main === module) main().catch((e) => { console.error(e.stack || e); process.exit(1); });

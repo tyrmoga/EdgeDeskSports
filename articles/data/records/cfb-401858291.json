@@ -1,0 +1,1977 @@
+{
+  "schema": "edgedesk_article_v1",
+  "id": "cfb-401858291",
+  "game_id": "401858291",
+  "sport": "CFB",
+  "sport_slug": "college-football",
+  "sport_label": "College Football",
+  "slug": "miami-vs-notre-dame-2026",
+  "aliases": [],
+  "title": "Miami vs. Notre Dame: EdgeDesk Model Projection, Matchup Analysis and Fair Spread",
+  "seo_title": "Miami vs. Notre Dame 2026: EdgeDesk Fair Spread & Model Projection",
+  "seo_description": "EdgeDesk fair spread for Miami at Notre Dame: Notre Dame −2.0, fair total 57.0. Notre Dame wins 56% of simulations. Data confidence 85%. Model status NO MARKET. Research, not picks.",
+  "excerpt": "Notre Dame carries the stronger underlying team rating — +12.4 against +11.4, a 1.0-point separation on a neutral field before home advantage, travel or rest. EdgeDesk makes it Notre Dame −2.0 before any sportsbook number is consulted, with Notre Dame…",
+  "home_team": "Notre Dame",
+  "away_team": "Miami",
+  "venue": "Notre Dame Stadium",
+  "neutral_site": false,
+  "conference_line": "ACC vs FBS Independents",
+  "week": 10,
+  "season": 2026,
+  "game_time": "2026-11-08T00:30:00.000Z",
+  "game_when_label": "2026-11-08 00:30 UTC",
+  "published_at": null,
+  "updated_at": "2026-11-02T00:36:55.151Z",
+  "generated_at": "2026-11-02T00:36:55.151Z",
+  "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
+  "model_status": "NO MARKET",
+  "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
+  "confidence": 85,
+  "priced": true,
+  "fair_spread_text": "Notre Dame −2.0",
+  "fair_total": "57.0",
+  "hero_image": null,
+  "canonical_url": "https://edgedesksports.com/articles/miami-vs-notre-dame-2026",
+  "terminal_url": "https://edgedesksports.com/app.html#research/football",
+  "hub_url": "https://edgedesksports.com/articles/college-football",
+  "status": "ready",
+  "article_type": "pregame",
+  "related": null,
+  "frozen": false,
+  "frozen_at": null,
+  "author": "EdgeDesk Research",
+  "publisher": "EdgeDesk Sports",
+  "research_source": "Ratings: football/rankings/current.json — 2026 Week 9, built 2026-10-31. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser.",
+  "market_source": null,
+  "research": {
+    "kind": "CFB_GAME",
+    "game": {
+      "away": "Miami",
+      "home": "Notre Dame",
+      "title": "Miami at Notre Dame",
+      "when": "2026-11-08 00:30 UTC",
+      "kickoff": "2026-11-08T00:30:00.000Z",
+      "venue": "Notre Dame Stadium",
+      "neutral": false,
+      "week": "Week 10",
+      "season": "2026",
+      "game_id": "401858291",
+      "week_no": 10,
+      "season_no": 2026,
+      "conference_line": "ACC vs FBS Independents",
+      "away_conference": "ACC",
+      "home_conference": "FBS Independents"
+    },
+    "lede": [
+      "Notre Dame carries the stronger underlying team rating — +12.4 against +11.4, a 1.0-point separation on a neutral field before home advantage, travel or rest.",
+      "EdgeDesk makes it Notre Dame −2.0 before any sportsbook number is consulted, with Notre Dame winning 56% of simulations.",
+      "The position-group comparison shows where the separation comes from: the widest measured gap is kicking, where Notre Dame leads Miami by 83 places nationally.",
+      "Data confidence on this matchup is 85% — high by this board’s standards, so the margin is the strongest part of the read."
+    ],
+    "projection": {
+      "priced": true,
+      "fair_spread": 2.2448559946677182,
+      "fair_spread_text": "Notre Dame −2.0",
+      "fair_spread_raw_text": "Notre Dame -2.2",
+      "near_pickem": false,
+      "raw_margin_text": null,
+      "favourite": "Notre Dame",
+      "underdog": "Miami",
+      "margin": "2.0",
+      "margin_raw": "2.2",
+      "total": "57.0",
+      "total_raw": "57.0",
+      "display_policy": "football_half_point_v1",
+      "score": {
+        "away": {
+          "team": "Miami",
+          "points": "27"
+        },
+        "home": {
+          "team": "Notre Dame",
+          "points": "30"
+        },
+        "expected": {
+          "text": "Notre Dame 29.63, Miami 27.39",
+          "home": 29.63,
+          "away": 27.39,
+          "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
+        },
+        "note": "Split from EdgeDesk’s own projected margin and total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
+      },
+      "score_absent_reason": null,
+      "win_prob": {
+        "home": "Notre Dame",
+        "away": "Miami",
+        "home_pct": 56,
+        "away_pct": 44,
+        "home_text": "56%",
+        "away_text": "44%",
+        "bounded": false,
+        "bounded_note": null,
+        "favourite": "Notre Dame",
+        "favourite_pct": 56,
+        "favourite_text": "56%"
+      },
+      "outcome_range": {
+        "basis_team": "Notre Dame",
+        "p10": "-18.8",
+        "median": "+2.2",
+        "p90": "+23.2",
+        "sigma": "14.6",
+        "volatility": "0.00",
+        "volatility_discriminates": false,
+        "note": "Quoted from Notre Dame’s perspective, as the engine publishes it. Eight results in ten land inside p10–p90."
+      },
+      "confidence_pct": 85,
+      "inputs_reached_pct": 73,
+      "input_contract": {
+        "fields": 26,
+        "applicable": 26,
+        "known": 19,
+        "priced": 11,
+        "priced_coverage_pct": 42,
+        "by_state": {
+          "USABLE": 11,
+          "RESEARCH_ONLY": 8,
+          "STALE": 0,
+          "CONFLICTING": 0,
+          "NOT_APPLICABLE": 0,
+          "NOT_REQUIRED": 2,
+          "NOT_DUE_YET": 0,
+          "FETCH_FAILED": 1,
+          "UNAVAILABLE": 4
+        },
+        "absent": [
+          {
+            "field": "weather",
+            "side": null,
+            "state": "UNAVAILABLE",
+            "why": "no forecast provider was called in this build; the venue’s coordinates are known, so this is a build that did not ask rather than a source that did not answer"
+          },
+          {
+            "field": "availability",
+            "side": "home",
+            "state": "FETCH_FAILED",
+            "why": "EdgeDesk read 3 source(s) for Notre Dame and 2 refused; the read is graded LIMITED and an ungraded read is not a clean bill of health. The engine prices this as maximum injury uncertainty, never as healthy. THIS IS NOT A PER-TEAM FAILURE: espn_depth refuses for all 138 programmes (no depth-chart endpoint answered (HTTP 404; HTTP 403; HTTP 404)); espn_participation refuses for all 138 programmes (HTTP 403) — an endpoint the provider closed, not 138 separate misses an independent has no conference to file with. Any availability report for one of these programmes comes from the school itself and is registered per school, never inherited from a conference.."
+          },
+          {
+            "field": "qb_availability",
+            "side": "home",
+            "state": "UNAVAILABLE",
+            "why": "the availability sources EdgeDesk reads were checked and carried no report on this player — no report found is not the same as healthy. an independent has no conference to file with. Any availability report for one of these programmes comes from the school itself and is registered per school, never inherited from a conference."
+          },
+          {
+            "field": "off_field",
+            "side": "home",
+            "state": "UNAVAILABLE",
+            "why": "no source is registered for this programme, so nothing has been read and an empty result would be a false clean bill of health rather than a finding. The engine scores this input and it is missing on every game, so it is published here rather than left invisible. A signal must be all four of public, sourced, dated and severity-graded before it may move even the confidence score — a general news search supplies neither a severity nor a reliability a model may use, and a wire that supplies all four may not be redistributed as a committed artifact. The availability layer answers a different question (who can play) and is never substituted for this one"
+          },
+          {
+            "field": "off_field",
+            "side": "away",
+            "state": "UNAVAILABLE",
+            "why": "no source is registered for this programme, so nothing has been read and an empty result would be a false clean bill of health rather than a finding. The engine scores this input and it is missing on every game, so it is published here rather than left invisible. A signal must be all four of public, sourced, dated and severity-graded before it may move even the confidence score — a general news search supplies neither a severity nor a reliability a model may use, and a wire that supplies all four may not be redistributed as a committed artifact. The availability layer answers a different question (who can play) and is never substituted for this one"
+          }
+        ],
+        "basis": "Every applicable field EdgeDesk retrieved, over every applicable field. A question that does not arise here (weather in a dome, travel at a neutral site) leaves the denominator; a source that refused does not."
+      },
+      "status": "NO MARKET",
+      "status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
+      "engine": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
+      "validation": "UNPROVEN — research only. Nothing on this page is graded as a bet."
+    },
+    "starters": {
+      "away": {
+        "team": "Miami",
+        "status": "PREVIOUS_GAME",
+        "confirmed": false,
+        "player": "Darian Mensah",
+        "player_id": "5121169",
+        "label": "Darian Mensah — started the last game; no announcement for this one.",
+        "priced": false,
+        "priced_why": "the starter layer is research-only until it has an out-of-sample record of its own; football/matchup/inputs.js PRICED_STARTER_STATUSES is the single switch",
+        "availability": {
+          "state": "UNKNOWN",
+          "evidence": "NONE",
+          "why": "the availability sources EdgeDesk reads were checked and carried no report on this player — no report found is not the same as healthy",
+          "source_url": null
+        },
+        "experience": {
+          "starts": 22,
+          "dropbacks": 745,
+          "seasons_observed": 2,
+          "seasons_read": [
+            2025,
+            2026
+          ],
+          "basis": "games this player opened, counted from the play feed across the seasons this build read — a measured start count over a stated window, not a career total",
+          "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv"
+        },
+        "competition": {
+          "contested": false,
+          "games": 2,
+          "players": [
+            {
+              "player_id": "5121169",
+              "player_name": "Darian Mensah",
+              "dropbacks": 70,
+              "share": 0.946
+            },
+            {
+              "player_id": "4592532",
+              "player_name": "Billy Edwards",
+              "dropbacks": 3,
+              "share": 0.041
+            },
+            {
+              "player_id": "4714300",
+              "player_name": "Holden Geriner",
+              "dropbacks": 1,
+              "share": 0.014
+            }
+          ]
+        },
+        "conflicts": 0,
+        "history": [
+          {
+            "week": 8,
+            "game_id": "401858274",
+            "opponent": "Pittsburgh",
+            "dropbacks": 41,
+            "starter": {
+              "player_id": "5121169",
+              "player_name": "Darian Mensah",
+              "share": 0.976
+            },
+            "settled": true,
+            "why": "took the first dropback of the game"
+          },
+          {
+            "week": 9,
+            "game_id": "401858282",
+            "opponent": "North Carolina",
+            "dropbacks": 33,
+            "starter": {
+              "player_id": "5121169",
+              "player_name": "Darian Mensah",
+              "share": 0.909
+            },
+            "settled": true,
+            "why": "took the first dropback of the game"
+          }
+        ],
+        "source": "cfbfastR-data player_stats — play attribution",
+        "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
+        "published_at": "2026-10-31T23:30:00.000Z",
+        "retrieved_at": "2026-11-01T22:55:06.784Z"
+      },
+      "home": {
+        "team": "Notre Dame",
+        "status": "PREVIOUS_GAME",
+        "confirmed": false,
+        "player": "CJ Carr",
+        "player_id": "5079369",
+        "label": "CJ Carr — started the last game; no announcement for this one.",
+        "priced": false,
+        "priced_why": "the starter layer is research-only until it has an out-of-sample record of its own; football/matchup/inputs.js PRICED_STARTER_STATUSES is the single switch",
+        "availability": {
+          "state": "UNKNOWN",
+          "evidence": "NONE",
+          "why": "the availability sources EdgeDesk reads were checked and carried no report on this player — no report found is not the same as healthy",
+          "source_url": null
+        },
+        "experience": {
+          "starts": 18,
+          "dropbacks": 518,
+          "seasons_observed": 2,
+          "seasons_read": [
+            2025,
+            2026
+          ],
+          "basis": "games this player opened, counted from the play feed across the seasons this build read — a measured start count over a stated window, not a career total",
+          "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv"
+        },
+        "competition": {
+          "contested": false,
+          "games": 2,
+          "players": [
+            {
+              "player_id": "5079369",
+              "player_name": "C.J. Carr",
+              "dropbacks": 78,
+              "share": 0.987
+            },
+            {
+              "player_id": "5159115",
+              "player_name": "Noah Grubbs",
+              "dropbacks": 1,
+              "share": 0.013
+            }
+          ]
+        },
+        "conflicts": 0,
+        "history": [
+          {
+            "week": 7,
+            "game_id": "401856809",
+            "opponent": "BYU",
+            "dropbacks": 49,
+            "starter": {
+              "player_id": "5079369",
+              "player_name": "C.J. Carr",
+              "share": 1
+            },
+            "settled": true,
+            "why": "took the first dropback of the game"
+          },
+          {
+            "week": 9,
+            "game_id": "401859185",
+            "opponent": "Navy",
+            "dropbacks": 30,
+            "starter": {
+              "player_id": "5079369",
+              "player_name": "C.J. Carr",
+              "share": 0.967
+            },
+            "settled": true,
+            "why": "took the first dropback of the game"
+          }
+        ],
+        "source": "cfbfastR-data player_stats — play attribution",
+        "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
+        "published_at": "2026-10-31T16:00:00.000Z",
+        "retrieved_at": "2026-11-01T22:55:06.784Z"
+      },
+      "generated_at": "2026-11-01T22:55:05.546Z",
+      "source": "football/starters/cfb_2026.json",
+      "note": "An expected starter is not a confirmed one. EdgeDesk publishes which kind of answer each of these is, and no number on this page is priced from any of them. Availability is a separate axis: an absent report is UNKNOWN and is never read as healthy."
+    },
+    "drivers": {
+      "rows": [
+        {
+          "points": "+2.8",
+          "points_n": 2.8,
+          "text": "Playing at Notre Dame is worth 2.8 points — the league-wide home-field number, because a per-venue table was tested and could not be told apart from the home team’s own quality",
+          "favours": "Notre Dame"
+        },
+        {
+          "points": "-0.5",
+          "points_n": -0.5039866554955534,
+          "text": "Stylistically the matchup favours Miami by 0.5 points: ball control vs front disruption",
+          "favours": "Miami"
+        },
+        {
+          "points": "-0.1",
+          "points_n": -0.05115734983672837,
+          "text": "Miami is the better football team by 0.1 points on opponent-adjusted results, with roughly 30% of it still inherited from last season",
+          "favours": "Miami"
+        }
+      ],
+      "basis": "Points are the engine’s own contributions to the projected spread, from Notre Dame’s perspective, and they sum toward it.",
+      "excluded": "Player quality, position-group ratings and scheme fit are NOT in this number. Neither has cleared walk-forward validation, so neither is allowed to move a priced figure — they appear below as research context and nowhere else.",
+      "empty": null
+    },
+    "compare": {
+      "cols": [
+        "Miami",
+        "Notre Dame"
+      ],
+      "groups": [
+        {
+          "title": "Team rating",
+          "rows": [
+            {
+              "cat": "overall",
+              "k": "ETSR (overall)",
+              "note": "points vs an average FBS team, neutral field",
+              "a": {
+                "v": "+11.4",
+                "n": 11.39,
+                "rank": "#7 of 138",
+                "rank_n": 7,
+                "note": null
+              },
+              "h": {
+                "v": "+12.4",
+                "n": 12.4,
+                "rank": "#4 of 138",
+                "rank_n": 4,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 1,
+                "rank_gap": 3
+              }
+            },
+            {
+              "cat": "talent",
+              "k": "Talent",
+              "note": null,
+              "a": {
+                "v": "71.3",
+                "n": 71.3,
+                "rank": "#2 of 138",
+                "rank_n": 2,
+                "note": null
+              },
+              "h": {
+                "v": "63.3",
+                "n": 63.3,
+                "rank": "#11 of 138",
+                "rank_n": 11,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 8,
+                "rank_gap": 9
+              }
+            },
+            {
+              "cat": "performance",
+              "k": "Performance",
+              "note": null,
+              "a": {
+                "v": "69.7",
+                "n": 69.7,
+                "rank": "#10 of 138",
+                "rank_n": 10,
+                "note": null
+              },
+              "h": {
+                "v": "70.0",
+                "n": 70,
+                "rank": "#8 of 138",
+                "rank_n": 8,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 0.3,
+                "rank_gap": 2
+              }
+            },
+            {
+              "cat": "scheme_fit",
+              "k": "Scheme fit",
+              "note": "personnel against this team’s own tendencies",
+              "a": {
+                "v": "52.5",
+                "n": 52.5,
+                "rank": "#24 of 138",
+                "rank_n": 24,
+                "note": null
+              },
+              "h": {
+                "v": "50.4",
+                "n": 50.4,
+                "rank": "#68 of 138",
+                "rank_n": 68,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 2.1,
+                "rank_gap": 44
+              }
+            }
+          ]
+        },
+        {
+          "title": "Units",
+          "rows": [
+            {
+              "cat": "offense",
+              "k": "Offense",
+              "note": null,
+              "a": {
+                "v": "67.7",
+                "n": 67.7,
+                "rank": "#2 of 138",
+                "rank_n": 2,
+                "note": null
+              },
+              "h": {
+                "v": "58.9",
+                "n": 58.9,
+                "rank": "#22 of 138",
+                "rank_n": 22,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 8.8,
+                "rank_gap": 20
+              }
+            },
+            {
+              "cat": "defense",
+              "k": "Defense",
+              "note": null,
+              "a": {
+                "v": "55.7",
+                "n": 55.7,
+                "rank": "#37 of 138",
+                "rank_n": 37,
+                "note": null
+              },
+              "h": {
+                "v": "64.9",
+                "n": 64.9,
+                "rank": "#7 of 138",
+                "rank_n": 7,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 9.2,
+                "rank_gap": 30
+              }
+            },
+            {
+              "cat": "special_teams",
+              "k": "Special teams",
+              "note": null,
+              "a": {
+                "v": "52.8",
+                "n": 52.8,
+                "rank": "#19 of 130",
+                "rank_n": 19,
+                "note": null
+              },
+              "h": {
+                "v": "51.6",
+                "n": 51.6,
+                "rank": "#37 of 130",
+                "rank_n": 37,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 1.2,
+                "rank_gap": 18
+              }
+            },
+            {
+              "cat": "run_offense",
+              "k": "Run offense",
+              "note": null,
+              "a": {
+                "v": "61.2",
+                "n": 61.2,
+                "rank": "#22 of 138",
+                "rank_n": 22,
+                "note": null
+              },
+              "h": {
+                "v": "58.4",
+                "n": 58.4,
+                "rank": "#38 of 138",
+                "rank_n": 38,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 2.8,
+                "rank_gap": 16
+              }
+            },
+            {
+              "cat": "pass_offense",
+              "k": "Pass offense",
+              "note": null,
+              "a": {
+                "v": "73.4",
+                "n": 73.4,
+                "rank": "#1 of 138",
+                "rank_n": 1,
+                "note": null
+              },
+              "h": {
+                "v": "57.2",
+                "n": 57.2,
+                "rank": "#29 of 138",
+                "rank_n": 29,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 16.2,
+                "rank_gap": 28
+              }
+            },
+            {
+              "cat": "run_defense",
+              "k": "Run defense",
+              "note": null,
+              "a": {
+                "v": "74.0",
+                "n": 74,
+                "rank": "#9 of 138",
+                "rank_n": 9,
+                "note": null
+              },
+              "h": {
+                "v": "79.8",
+                "n": 79.8,
+                "rank": "#1 of 138",
+                "rank_n": 1,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 5.8,
+                "rank_gap": 8
+              }
+            },
+            {
+              "cat": "pass_defense",
+              "k": "Pass defense",
+              "note": null,
+              "a": {
+                "v": "47.7",
+                "n": 47.7,
+                "rank": "#81 of 138",
+                "rank_n": 81,
+                "note": null
+              },
+              "h": {
+                "v": "61.9",
+                "n": 61.9,
+                "rank": "#18 of 138",
+                "rank_n": 18,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 14.2,
+                "rank_gap": 63
+              }
+            }
+          ]
+        },
+        {
+          "title": "Position groups",
+          "rows": [
+            {
+              "cat": "qb",
+              "k": "QB room",
+              "note": null,
+              "a": {
+                "v": "67.1",
+                "n": 67.1,
+                "rank": "#2 of 138",
+                "rank_n": 2,
+                "note": null
+              },
+              "h": {
+                "v": "64.4",
+                "n": 64.4,
+                "rank": "#6 of 138",
+                "rank_n": 6,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 2.7,
+                "rank_gap": 4
+              }
+            },
+            {
+              "cat": "ol",
+              "k": "Offensive line",
+              "note": null,
+              "a": {
+                "v": "59.5",
+                "n": 59.5,
+                "rank": "#1 of 138",
+                "rank_n": 1,
+                "note": null
+              },
+              "h": {
+                "v": "57.8",
+                "n": 57.8,
+                "rank": "#7 of 138",
+                "rank_n": 7,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 1.7,
+                "rank_gap": 6
+              }
+            },
+            {
+              "cat": "wr",
+              "k": "Receivers",
+              "note": null,
+              "a": {
+                "v": "57.0",
+                "n": 57,
+                "rank": "#13 of 138",
+                "rank_n": 13,
+                "note": null
+              },
+              "h": {
+                "v": "56.6",
+                "n": 56.6,
+                "rank": "#25 of 138",
+                "rank_n": 25,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 0.4,
+                "rank_gap": 12
+              }
+            },
+            {
+              "cat": "te",
+              "k": "Tight ends",
+              "note": "rated by the player layer; the board publishes no national TE rank",
+              "a": {
+                "v": "54.9",
+                "n": 54.9,
+                "rank": null,
+                "rank_n": null,
+                "note": "rated, held out of the national rank by the confidence gate"
+              },
+              "h": {
+                "v": "54.5",
+                "n": 54.5,
+                "rank": null,
+                "rank_n": null,
+                "note": "rated, held out of the national rank by the confidence gate"
+              },
+              "edge": {
+                "side": "a",
+                "gap": 0.4,
+                "rank_gap": null
+              }
+            },
+            {
+              "cat": "rb",
+              "k": "Running backs",
+              "note": null,
+              "a": {
+                "v": "60.2",
+                "n": 60.2,
+                "rank": "#2 of 138",
+                "rank_n": 2,
+                "note": null
+              },
+              "h": {
+                "v": "57.8",
+                "n": 57.8,
+                "rank": "#27 of 138",
+                "rank_n": 27,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 2.4,
+                "rank_gap": 25
+              }
+            },
+            {
+              "cat": "dl",
+              "k": "Defensive line",
+              "note": null,
+              "a": {
+                "v": "63.9",
+                "n": 63.9,
+                "rank": "#4 of 138",
+                "rank_n": 4,
+                "note": null
+              },
+              "h": {
+                "v": "60.9",
+                "n": 60.9,
+                "rank": "#14 of 138",
+                "rank_n": 14,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 3,
+                "rank_gap": 10
+              }
+            },
+            {
+              "cat": "lb",
+              "k": "Linebackers",
+              "note": null,
+              "a": {
+                "v": "58.5",
+                "n": 58.5,
+                "rank": "#14 of 138",
+                "rank_n": 14,
+                "note": null
+              },
+              "h": {
+                "v": "59.6",
+                "n": 59.6,
+                "rank": "#8 of 138",
+                "rank_n": 8,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 1.1,
+                "rank_gap": 6
+              }
+            },
+            {
+              "cat": "secondary",
+              "k": "Secondary",
+              "note": null,
+              "a": {
+                "v": "55.7",
+                "n": 55.7,
+                "rank": "#45 of 138",
+                "rank_n": 45,
+                "note": null
+              },
+              "h": {
+                "v": "59.1",
+                "n": 59.1,
+                "rank": "#15 of 138",
+                "rank_n": 15,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 3.4,
+                "rank_gap": 30
+              }
+            },
+            {
+              "cat": "k_room",
+              "k": "Kicking",
+              "note": null,
+              "a": {
+                "v": "54.6",
+                "n": 54.6,
+                "rank": "#110 of 138",
+                "rank_n": 110,
+                "note": null
+              },
+              "h": {
+                "v": "57.6",
+                "n": 57.6,
+                "rank": "#27 of 138",
+                "rank_n": 27,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 3,
+                "rank_gap": 83
+              }
+            }
+          ]
+        },
+        {
+          "title": "Roster shape",
+          "rows": [
+            {
+              "cat": "depth",
+              "k": "Depth",
+              "note": "quality behind the projected starters",
+              "a": {
+                "v": "54.0",
+                "n": 54,
+                "rank": "#22 of 138",
+                "rank_n": 22,
+                "note": null
+              },
+              "h": {
+                "v": "53.1",
+                "n": 53.1,
+                "rank": "#84 of 138",
+                "rank_n": 84,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 0.9,
+                "rank_gap": 62
+              }
+            },
+            {
+              "cat": "continuity",
+              "k": "Continuity",
+              "note": "how much of last season is still here",
+              "a": {
+                "v": "48.7",
+                "n": 48.7,
+                "rank": "#47 of 138",
+                "rank_n": 47,
+                "note": null
+              },
+              "h": {
+                "v": "57.5",
+                "n": 57.5,
+                "rank": "#10 of 138",
+                "rank_n": 10,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 8.8,
+                "rank_gap": 37
+              }
+            }
+          ]
+        }
+      ],
+      "one_sided_team": null,
+      "one_sided_note": null
+    },
+    "advantages": {
+      "away": [
+        {
+          "k": "Depth",
+          "rank_gap": 62,
+          "gap": 0.9,
+          "lead": "Miami",
+          "trail": "Notre Dame",
+          "lead_cell": "54.0 · #22 of 138",
+          "trail_cell": "53.1 · #84 of 138",
+          "text": "Miami 54.0 (#22 of 138) vs Notre Dame 53.1 (#84 of 138) — 62 places on the national board."
+        },
+        {
+          "k": "Scheme fit",
+          "rank_gap": 44,
+          "gap": 2.1,
+          "lead": "Miami",
+          "trail": "Notre Dame",
+          "lead_cell": "52.5 · #24 of 138",
+          "trail_cell": "50.4 · #68 of 138",
+          "text": "Miami 52.5 (#24 of 138) vs Notre Dame 50.4 (#68 of 138) — 44 places on the national board."
+        },
+        {
+          "k": "Pass offense",
+          "rank_gap": 28,
+          "gap": 16.2,
+          "lead": "Miami",
+          "trail": "Notre Dame",
+          "lead_cell": "73.4 · #1 of 138",
+          "trail_cell": "57.2 · #29 of 138",
+          "text": "Miami 73.4 (#1 of 138) vs Notre Dame 57.2 (#29 of 138) — 28 places on the national board."
+        },
+        {
+          "k": "Running backs",
+          "rank_gap": 25,
+          "gap": 2.4,
+          "lead": "Miami",
+          "trail": "Notre Dame",
+          "lead_cell": "60.2 · #2 of 138",
+          "trail_cell": "57.8 · #27 of 138",
+          "text": "Miami 60.2 (#2 of 138) vs Notre Dame 57.8 (#27 of 138) — 25 places on the national board."
+        },
+        {
+          "k": "Offense",
+          "rank_gap": 20,
+          "gap": 8.8,
+          "lead": "Miami",
+          "trail": "Notre Dame",
+          "lead_cell": "67.7 · #2 of 138",
+          "trail_cell": "58.9 · #22 of 138",
+          "text": "Miami 67.7 (#2 of 138) vs Notre Dame 58.9 (#22 of 138) — 20 places on the national board."
+        }
+      ],
+      "home": [
+        {
+          "k": "Kicking",
+          "rank_gap": 83,
+          "gap": 3,
+          "lead": "Notre Dame",
+          "trail": "Miami",
+          "lead_cell": "57.6 · #27 of 138",
+          "trail_cell": "54.6 · #110 of 138",
+          "text": "Notre Dame 57.6 (#27 of 138) vs Miami 54.6 (#110 of 138) — 83 places on the national board."
+        },
+        {
+          "k": "Pass defense",
+          "rank_gap": 63,
+          "gap": 14.2,
+          "lead": "Notre Dame",
+          "trail": "Miami",
+          "lead_cell": "61.9 · #18 of 138",
+          "trail_cell": "47.7 · #81 of 138",
+          "text": "Notre Dame 61.9 (#18 of 138) vs Miami 47.7 (#81 of 138) — 63 places on the national board."
+        },
+        {
+          "k": "Continuity",
+          "rank_gap": 37,
+          "gap": 8.8,
+          "lead": "Notre Dame",
+          "trail": "Miami",
+          "lead_cell": "57.5 · #10 of 138",
+          "trail_cell": "48.7 · #47 of 138",
+          "text": "Notre Dame 57.5 (#10 of 138) vs Miami 48.7 (#47 of 138) — 37 places on the national board."
+        },
+        {
+          "k": "Defense",
+          "rank_gap": 30,
+          "gap": 9.2,
+          "lead": "Notre Dame",
+          "trail": "Miami",
+          "lead_cell": "64.9 · #7 of 138",
+          "trail_cell": "55.7 · #37 of 138",
+          "text": "Notre Dame 64.9 (#7 of 138) vs Miami 55.7 (#37 of 138) — 30 places on the national board."
+        },
+        {
+          "k": "Secondary",
+          "rank_gap": 30,
+          "gap": 3.4,
+          "lead": "Notre Dame",
+          "trail": "Miami",
+          "lead_cell": "59.1 · #15 of 138",
+          "trail_cell": "55.7 · #45 of 138",
+          "text": "Notre Dame 59.1 (#15 of 138) vs Miami 55.7 (#45 of 138) — 30 places on the national board."
+        }
+      ],
+      "measured": [],
+      "measured_note": null,
+      "unproven": [],
+      "note": "An advantage is only claimed where BOTH teams carry a national rank in that category — the national rank is the one scale on which a QB room and a run defence are comparable. A category where one side is unrated appears here as a measurement and as uncertainty, never as an edge."
+    },
+    "matchups": [
+      {
+        "title": "Miami pass offense vs Notre Dame pass defense",
+        "att": {
+          "team": "Miami",
+          "label": "pass offense",
+          "v": "73.4",
+          "rank": "#1 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Notre Dame",
+          "label": "pass defense",
+          "v": "61.9",
+          "rank": "#18 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Miami’s pass offense rates 73.4 (#1 of 138) against Notre Dame’s pass defense at 61.9 (#18 of 138). Miami’s unit stands higher among its own position group, by 17 places."
+      },
+      {
+        "title": "Miami run offense vs Notre Dame run defense",
+        "att": {
+          "team": "Miami",
+          "label": "run offense",
+          "v": "61.2",
+          "rank": "#22 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Notre Dame",
+          "label": "run defense",
+          "v": "79.8",
+          "rank": "#1 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Miami’s run offense rates 61.2 (#22 of 138) against Notre Dame’s run defense at 79.8 (#1 of 138). Notre Dame’s unit stands higher among its own position group, by 21 places."
+      },
+      {
+        "title": "Notre Dame pass offense vs Miami pass defense",
+        "att": {
+          "team": "Notre Dame",
+          "label": "pass offense",
+          "v": "57.2",
+          "rank": "#29 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Miami",
+          "label": "pass defense",
+          "v": "47.7",
+          "rank": "#81 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Notre Dame’s pass offense rates 57.2 (#29 of 138) against Miami’s pass defense at 47.7 (#81 of 138). Notre Dame’s unit stands higher among its own position group, by 52 places."
+      },
+      {
+        "title": "Notre Dame run offense vs Miami run defense",
+        "att": {
+          "team": "Notre Dame",
+          "label": "run offense",
+          "v": "58.4",
+          "rank": "#38 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Miami",
+          "label": "run defense",
+          "v": "74.0",
+          "rank": "#9 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Notre Dame’s run offense rates 58.4 (#38 of 138) against Miami’s run defense at 74.0 (#9 of 138). Miami’s unit stands higher among its own position group, by 29 places."
+      },
+      {
+        "title": "Miami QB room vs Notre Dame secondary",
+        "att": {
+          "team": "Miami",
+          "label": "QB room",
+          "v": "67.1",
+          "rank": "#2 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Notre Dame",
+          "label": "secondary",
+          "v": "59.1",
+          "rank": "#15 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Miami’s QB room rates 67.1 (#2 of 138) against Notre Dame’s secondary at 59.1 (#15 of 138). Miami’s unit stands higher among its own position group, by 13 places."
+      },
+      {
+        "title": "Notre Dame QB room vs Miami secondary",
+        "att": {
+          "team": "Notre Dame",
+          "label": "QB room",
+          "v": "64.4",
+          "rank": "#6 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Miami",
+          "label": "secondary",
+          "v": "55.7",
+          "rank": "#45 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Notre Dame’s QB room rates 64.4 (#6 of 138) against Miami’s secondary at 55.7 (#45 of 138). Notre Dame’s unit stands higher among its own position group, by 39 places."
+      },
+      {
+        "title": "Miami offensive line vs Notre Dame defensive line",
+        "att": {
+          "team": "Miami",
+          "label": "offensive line",
+          "v": "59.5",
+          "rank": "#1 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Notre Dame",
+          "label": "defensive line",
+          "v": "60.9",
+          "rank": "#14 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Miami’s offensive line rates 59.5 (#1 of 138) against Notre Dame’s defensive line at 60.9 (#14 of 138). Miami’s unit stands higher among its own position group, by 13 places."
+      },
+      {
+        "title": "Notre Dame offensive line vs Miami defensive line",
+        "att": {
+          "team": "Notre Dame",
+          "label": "offensive line",
+          "v": "57.8",
+          "rank": "#7 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Miami",
+          "label": "defensive line",
+          "v": "63.9",
+          "rank": "#4 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Notre Dame’s offensive line rates 57.8 (#7 of 138) against Miami’s defensive line at 63.9 (#4 of 138). Miami’s unit stands higher among its own position group, by 3 places."
+      },
+      {
+        "title": "Miami running backs vs Notre Dame linebackers",
+        "att": {
+          "team": "Miami",
+          "label": "running backs",
+          "v": "60.2",
+          "rank": "#2 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Notre Dame",
+          "label": "linebackers",
+          "v": "59.6",
+          "rank": "#8 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Miami’s running backs rates 60.2 (#2 of 138) against Notre Dame’s linebackers at 59.6 (#8 of 138). Miami’s unit stands higher among its own position group, by 6 places."
+      },
+      {
+        "title": "Notre Dame running backs vs Miami linebackers",
+        "att": {
+          "team": "Notre Dame",
+          "label": "running backs",
+          "v": "57.8",
+          "rank": "#27 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Miami",
+          "label": "linebackers",
+          "v": "58.5",
+          "rank": "#14 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Notre Dame’s running backs rates 57.8 (#27 of 138) against Miami’s linebackers at 58.5 (#14 of 138). Miami’s unit stands higher among its own position group, by 13 places."
+      },
+      {
+        "title": "Miami receivers vs Notre Dame secondary",
+        "att": {
+          "team": "Miami",
+          "label": "receivers",
+          "v": "57.0",
+          "rank": "#13 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Notre Dame",
+          "label": "secondary",
+          "v": "59.1",
+          "rank": "#15 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Miami’s receivers rates 57.0 (#13 of 138) against Notre Dame’s secondary at 59.1 (#15 of 138). Miami’s unit stands higher among its own position group, by 2 places."
+      },
+      {
+        "title": "Notre Dame receivers vs Miami secondary",
+        "att": {
+          "team": "Notre Dame",
+          "label": "receivers",
+          "v": "56.6",
+          "rank": "#25 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Miami",
+          "label": "secondary",
+          "v": "55.7",
+          "rank": "#45 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Notre Dame’s receivers rates 56.6 (#25 of 138) against Miami’s secondary at 55.7 (#45 of 138). Notre Dame’s unit stands higher among its own position group, by 20 places."
+      }
+    ],
+    "roster": {
+      "cols": [
+        "Miami",
+        "Notre Dame"
+      ],
+      "rows": [
+        {
+          "k": "Returning production value",
+          "note": "share of last season’s production value still on the roster",
+          "a": "35%",
+          "h": "70%",
+          "edge": {
+            "side": "h",
+            "gap": 0.344
+          }
+        },
+        {
+          "k": "Returning headcount",
+          "note": "share of the roster that was here last season",
+          "a": "46%",
+          "h": "49%",
+          "edge": {
+            "side": "h",
+            "gap": 0.024999999999999967
+          }
+        },
+        {
+          "k": "QB-room continuity",
+          "note": "is the projected starter last season’s player",
+          "a": "67%",
+          "h": "50%",
+          "edge": {
+            "side": "a",
+            "gap": 0.16700000000000004
+          }
+        },
+        {
+          "k": "Offensive-line continuity",
+          "note": null,
+          "a": "53%",
+          "h": "73%",
+          "edge": {
+            "side": "h",
+            "gap": 0.20099999999999996
+          }
+        },
+        {
+          "k": "Returning starters",
+          "note": null,
+          "a": "44%",
+          "h": "50%",
+          "edge": {
+            "side": "h",
+            "gap": 0.061
+          }
+        },
+        {
+          "k": "Transfers in / out",
+          "note": "portal movement counted from the roster feed",
+          "a": "12 in / 20 out",
+          "h": "8 in / 17 out",
+          "edge": null
+        },
+        {
+          "k": "Transfer starters in / out",
+          "note": null,
+          "a": "5 in / 1 out",
+          "h": "1 in / 0 out",
+          "edge": null
+        },
+        {
+          "k": "Starter quality",
+          "note": "projected starters, weighted by position value",
+          "a": "62.0",
+          "h": "59.8",
+          "edge": {
+            "side": "a",
+            "gap": 2.200000000000003
+          }
+        },
+        {
+          "k": "Rotation quality",
+          "note": null,
+          "a": "60.9",
+          "h": "59.8",
+          "edge": {
+            "side": "a",
+            "gap": 1.1000000000000014
+          }
+        },
+        {
+          "k": "Depth quality",
+          "note": "behind the projected starters",
+          "a": "54.0",
+          "h": "53.1",
+          "edge": {
+            "side": "a",
+            "gap": 0.8999999999999986
+          }
+        },
+        {
+          "k": "Availability records",
+          "note": "an absence report reaching this roster. UNKNOWN is never read as healthy",
+          "a": "8 on file, 0% of starter value out",
+          "h": "none on file — 100% unknown",
+          "edge": null
+        },
+        {
+          "k": "Data confidence",
+          "note": "how much EdgeDesk knows about this roster, not how good it is",
+          "a": "63%",
+          "h": "68%",
+          "edge": {
+            "side": "h",
+            "gap": 0.04600000000000004
+          }
+        }
+      ],
+      "highlights": [
+        {
+          "k": "Starter quality",
+          "lead": "Miami",
+          "text": "Miami leads on starter quality — Miami 62.0, Notre Dame 59.8."
+        },
+        {
+          "k": "Rotation quality",
+          "lead": "Miami",
+          "text": "Miami leads on rotation quality — Miami 60.9, Notre Dame 59.8."
+        },
+        {
+          "k": "Depth quality",
+          "lead": "Miami",
+          "text": "Miami leads on depth quality — Miami 54.0, Notre Dame 53.1."
+        },
+        {
+          "k": "Returning production value",
+          "lead": "Notre Dame",
+          "text": "Notre Dame leads on returning production value — Miami 35%, Notre Dame 70%."
+        },
+        {
+          "k": "Offensive-line continuity",
+          "lead": "Notre Dame",
+          "text": "Notre Dame leads on offensive-line continuity — Miami 53%, Notre Dame 73%."
+        }
+      ],
+      "note": "Roster construction from the committed rankings build. No recruiting star and no NIL figure appears here: no public feed this repo reads carries either, and a number nobody published is not estimated in its place."
+    },
+    "cases": {
+      "favourite": {
+        "team": "Notre Dame",
+        "heading": "Why Notre Dame can pull away",
+        "bullets": [
+          "Playing at Notre Dame is worth 2.8 points — the league-wide home-field number, because a per-venue table was tested and could not be told apart from the home team’s own quality (+2.8 pts).",
+          "Kicking: Notre Dame 57.6 (#27 of 138) vs Miami 54.6 (#110 of 138) — 83 places on the national board.",
+          "Pass defense: Notre Dame 61.9 (#18 of 138) vs Miami 47.7 (#81 of 138) — 63 places on the national board.",
+          "Continuity: Notre Dame 57.5 (#10 of 138) vs Miami 48.7 (#47 of 138) — 37 places on the national board."
+        ]
+      },
+      "underdog": {
+        "team": "Miami",
+        "heading": "Why Miami can keep it close",
+        "bullets": [
+          "Stylistically the matchup favours Miami by 0.5 points: ball control vs front disruption (-0.5 pts).",
+          "Depth: Miami 54.0 (#22 of 138) vs Notre Dame 53.1 (#84 of 138) — 62 places on the national board.",
+          "Scheme fit: Miami 52.5 (#24 of 138) vs Notre Dame 50.4 (#68 of 138) — 44 places on the national board.",
+          "Pass offense: Miami 73.4 (#1 of 138) vs Notre Dame 57.2 (#29 of 138) — 28 places on the national board.",
+          "The outcome range is 14.6 points wide at one sigma — p10 -18.8 to p90 +23.2 for Notre Dame, so a projection of +2.2 still produces results a long way either side of it."
+        ]
+      },
+      "note": "These are football cases assembled from measured states. Neither is a bet, and neither is advice."
+    },
+    "uncertainty": {
+      "items": [
+        {
+          "sev": "MEDIUM",
+          "label": "sample",
+          "text": "College ratings are built on twelve-game seasons against wildly uneven schedules; even a clean rating gap carries more estimation error than the number implies.",
+          "widening": null
+        },
+        {
+          "sev": "MEDIUM",
+          "label": "Miami — extreme transfer turnover",
+          "text": "65% of last season’s production value is gone. Most of last season’s production value has left, so the prior term is standing on much less than usual",
+          "widening": null
+        },
+        {
+          "sev": "MEDIUM",
+          "label": "Notre Dame — injury uncertainty",
+          "text": "100% of projected starter value has no availability record.",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "weather not supplied",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "home injury report not supplied",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "away injury report not supplied",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "no book spread joined to this game — no edge is claimed",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "no book total joined to this game",
+          "widening": null
+        }
+      ],
+      "unmeasured": [
+        {
+          "item": "Home starting quarterback",
+          "why": "starting QB not supplied for home"
+        },
+        {
+          "item": "Away starting quarterback",
+          "why": "starting QB not supplied for away"
+        },
+        {
+          "item": "Home availability / injuries",
+          "why": "no injury report supplied for home"
+        },
+        {
+          "item": "Away availability / injuries",
+          "why": "no injury report supplied for away"
+        },
+        {
+          "item": "Weather at kickoff",
+          "why": "no weather supplied"
+        },
+        {
+          "item": "Off-field, culture and NIL situation",
+          "why": "no public feed for NIL figures, locker-room reporting or discipline exists that this engine reads; nothing is inferred and the gap is carried as uncertainty"
+        },
+        {
+          "item": "Coaching and coordinator continuity",
+          "why": "no public coaching-tenure feed is wired; a new coordinator changes a team’s identity in ways the ratings only learn after the fact"
+        },
+        {
+          "item": "Motivation, lookahead and locker-room state",
+          "why": "not measurable from any public source; treated as variance, never as a point adjustment"
+        },
+        {
+          "item": "Miami — recruiting ratings",
+          "why": "no legal, public, keyless recruiting feed is wired into EdgeDesk, so no recruiting rating exists for this roster. Nothing is estimated in its place."
+        },
+        {
+          "item": "Notre Dame — recruiting ratings",
+          "why": "no legal, public, keyless recruiting feed is wired into EdgeDesk, so no recruiting rating exists for this roster. Nothing is estimated in its place."
+        },
+        {
+          "item": "Notre Dame — availability and injuries",
+          "why": "no availability record reached this roster. UNKNOWN is carried as unknown; it is never read as healthy."
+        }
+      ],
+      "note": "Unknown is never scored as zero. Every line here is a gap EdgeDesk carries as uncertainty rather than filling in."
+    },
+    "market": {
+      "available": false,
+      "model": "Notre Dame −2.0",
+      "model_raw": "Notre Dame -2.2",
+      "headline": "No sportsbook spread is currently joined to this game.",
+      "note": "There is no model-vs-market comparison yet. Everything above is still EdgeDesk’s current view of the matchup; a missing price removes the comparison and nothing else."
+    },
+    "research_view": {
+      "contract": "cfb_research_brief/1",
+      "view": "cfb_research_view/1",
+      "game_id": "401858291",
+      "home": "Notre Dame",
+      "away": "Miami",
+      "projected": true,
+      "engine_status": "PREDICTED",
+      "label": {
+        "key": "NO_MARKET",
+        "label": "NO MARKET",
+        "rule": "no_market",
+        "means": "There is no current market line to compare with: no market line is joined to this game. The projection stands on its own until a quote lands."
+      },
+      "disagreement": null,
+      "fair": {
+        "line_text": "Notre Dame −2.0",
+        "favorite_team": "Notre Dame",
+        "underdog_team": "Miami",
+        "display_fair_spread": 2.2,
+        "raw_home_margin": 2.24,
+        "raw_line_text": "Notre Dame -2.24",
+        "is_near_pickem": false
+      },
+      "market_gap": {
+        "available": false,
+        "reason": "no market line is joined to this game"
+      },
+      "confidence": {
+        "score": 85,
+        "tier": "HIGH",
+        "label": "High"
+      },
+      "reliability": {
+        "pct": 86,
+        "tier": "STRONG",
+        "text": "86 · STRONG",
+        "sub": "main deduction: Notre Dame’s availability sources refused",
+        "score": 86,
+        "grade": "STRONG",
+        "grade_label": "STRONG",
+        "gate_label": null,
+        "components": [
+          {
+            "key": "team_data",
+            "label": "Team data",
+            "score": 20,
+            "max": 20
+          },
+          {
+            "key": "roster_availability",
+            "label": "Roster/status",
+            "score": 10.3,
+            "max": 20
+          },
+          {
+            "key": "projection_stability",
+            "label": "Stability",
+            "score": 20,
+            "max": 20
+          },
+          {
+            "key": "freshness",
+            "label": "Freshness",
+            "score": 12.6,
+            "max": 15
+          },
+          {
+            "key": "source_integrity",
+            "label": "Source integrity",
+            "score": 15,
+            "max": 15
+          },
+          {
+            "key": "environment",
+            "label": "Environment",
+            "score": 8.5,
+            "max": 10
+          }
+        ],
+        "main_deduction": "Notre Dame’s availability sources refused — a provider-wide refusal, not this team’s: espn_depth and espn_participation refuse for all 138 programmes; the impact of Notre Dame’s absences cannot be assessed: no graded availability read",
+        "capped_by": [],
+        "next_actions": [
+          {
+            "action": "Register a school availability release for Miami",
+            "potential_gain": 3,
+            "text": "up to +3"
+          },
+          {
+            "action": "Restore an injury/availability source for Notre Dame",
+            "potential_gain": 3,
+            "text": "up to +3"
+          },
+          {
+            "action": "Capture a market quote",
+            "potential_gain": 3,
+            "text": "up to +3"
+          }
+        ],
+        "stability": {
+          "tier": "VERY_STABLE",
+          "sd": 0.81,
+          "favorite_flip_rate": 0
+        },
+        "scale": "0-100 reliability score, not a probability"
+      },
+      "drivers": {
+        "team": "Notre Dame",
+        "none": false,
+        "text": null,
+        "reasons": [
+          {
+            "kind": "component",
+            "key": "hfa",
+            "points": 2.8,
+            "text": "+2.8 pts home-field advantage"
+          }
+        ]
+      },
+      "best_available_line": {
+        "available": false,
+        "reason": "no sportsbook quote has been captured for this game"
+      },
+      "projection_status": {
+        "key": "STABLE",
+        "label": "STABLE",
+        "text": "EdgeDesk’s number is unchanged since the latest published number."
+      },
+      "stability": {
+        "tier": "LOW",
+        "label": "Low",
+        "text": "the stored numbers span 2.2 pts across 3 readings"
+      },
+      "published": [
+        {
+          "at": "2026-10-29T06:07:47.352Z",
+          "source": "first published",
+          "home_margin": 0.03,
+          "text": "Notre Dame -0.03"
+        },
+        {
+          "at": "2026-11-01T18:01:05.765Z",
+          "source": "latest published",
+          "home_margin": 2.24,
+          "text": "Notre Dame -2.2"
+        }
+      ],
+      "revisions": 3,
+      "change_since_published": {
+        "comparable": true,
+        "points": 0,
+        "toward_team": "Notre Dame",
+        "since_at": "2026-11-01T18:01:05.765Z",
+        "text": "unchanged since the latest published number"
+      },
+      "what_changed": {
+        "available": true,
+        "summary": "EdgeDesk moved 2.2 points toward Notre Dame since the first published number.",
+        "attribution_text": "Projection changed 2.2 points since the first published number. Component-level attribution is unavailable: the stored snapshot keeps the number, not the terms behind it.",
+        "market": null,
+        "model_version": null
+      },
+      "parity": {
+        "ok": true,
+        "gaps": []
+      },
+      "note": "Research, not picks. Every value is read off EdgeDesk’s own projection and the market it was compared with; nothing here is a recommendation to bet."
+    },
+    "headline": "EdgeDesk projects Notre Dame 30, Miami 27.",
+    "state": {
+      "label": "NO MARKET",
+      "note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
+      "scope": "This describes the state of EdgeDesk’s model-versus-market research on this game. It is not a statement about whether the matchup is worth researching."
+    },
+    "score": {
+      "away": {
+        "team": "Miami",
+        "points": "27"
+      },
+      "home": {
+        "team": "Notre Dame",
+        "points": "30"
+      },
+      "expected": {
+        "text": "Notre Dame 29.63, Miami 27.39",
+        "home": 29.63,
+        "away": 27.39,
+        "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
+      },
+      "note": "Split from EdgeDesk’s own projected margin and total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
+    },
+    "table": {
+      "cols": [
+        "Miami",
+        "Notre Dame"
+      ],
+      "rows": [
+        {
+          "k": "ETSR (overall)",
+          "a": "+11.4  #7",
+          "h": "+12.4  #4",
+          "note": "points vs an average FBS team, neutral field"
+        },
+        {
+          "k": "Talent",
+          "a": "71.3  #2",
+          "h": "63.3  #11",
+          "note": null
+        },
+        {
+          "k": "Performance",
+          "a": "69.7  #10",
+          "h": "70.0  #8",
+          "note": null
+        },
+        {
+          "k": "Offense",
+          "a": "67.7  #2",
+          "h": "58.9  #22",
+          "note": null
+        },
+        {
+          "k": "Defense",
+          "a": "55.7  #37",
+          "h": "64.9  #7",
+          "note": null
+        },
+        {
+          "k": "Special teams",
+          "a": "52.8  #19",
+          "h": "51.6  #37",
+          "note": null
+        },
+        {
+          "k": "Run offense",
+          "a": "61.2  #22",
+          "h": "58.4  #38",
+          "note": null
+        },
+        {
+          "k": "Pass offense",
+          "a": "73.4  #1",
+          "h": "57.2  #29",
+          "note": null
+        },
+        {
+          "k": "Run defense",
+          "a": "74.0  #9",
+          "h": "79.8  #1",
+          "note": null
+        },
+        {
+          "k": "Pass defense",
+          "a": "47.7  #81",
+          "h": "61.9  #18",
+          "note": null
+        },
+        {
+          "k": "QB room",
+          "a": "67.1  #2",
+          "h": "64.4  #6",
+          "note": null
+        },
+        {
+          "k": "Offensive line",
+          "a": "59.5  #1",
+          "h": "57.8  #7",
+          "note": null
+        },
+        {
+          "k": "Receivers",
+          "a": "57.0  #13",
+          "h": "56.6  #25",
+          "note": null
+        },
+        {
+          "k": "Running backs",
+          "a": "60.2  #2",
+          "h": "57.8  #27",
+          "note": null
+        },
+        {
+          "k": "Defensive line",
+          "a": "63.9  #4",
+          "h": "60.9  #14",
+          "note": null
+        },
+        {
+          "k": "Linebackers",
+          "a": "58.5  #14",
+          "h": "59.6  #8",
+          "note": null
+        },
+        {
+          "k": "Secondary",
+          "a": "55.7  #45",
+          "h": "59.1  #15",
+          "note": null
+        },
+        {
+          "k": "Depth",
+          "a": "54.0  #22",
+          "h": "53.1  #84",
+          "note": null
+        },
+        {
+          "k": "Continuity",
+          "a": "48.7  #47",
+          "h": "57.5  #10",
+          "note": null
+        },
+        {
+          "k": "Confidence",
+          "a": "63%",
+          "h": "68%",
+          "note": "how much EdgeDesk knows, not how good the team is"
+        },
+        {
+          "k": "Δ national rank, this week",
+          "a": "down 1",
+          "h": "down 1",
+          "note": "differenced from last week’s committed snapshot"
+        }
+      ]
+    },
+    "notes": [
+      "EdgeDesk’s line is Notre Dame −2.0 on a neutral read of the two teams, before any book is consulted. Projected total 57.0.",
+      "Notre Dame wins 56% of the time in EdgeDesk’s simulation, Miami 44%.",
+      "Eight games in ten land between -18.8 and +23.2 for Notre Dame. A single result inside that band tells you nothing new about either team.",
+      "No sportsbook spread is joined to this game, so there is no model-versus-market comparison. EdgeDesk’s own number and the research behind it are unchanged by that.",
+      "Miami quarterback: Darian Mensah — started the last game; no announcement for this one.",
+      "Notre Dame quarterback: CJ Carr — started the last game; no announcement for this one."
+    ],
+    "missing": [
+      "No availability report reached Darian Mensah — unknown is carried as unknown, never as healthy.",
+      "No availability report reached CJ Carr — unknown is carried as unknown, never as healthy."
+    ],
+    "context_label": "RESEARCH CONTEXT — position-group, player-quality, roster and scheme figures explain this matchup and move no priced number.",
+    "priced_label": "PRICED BY MODEL — the projection and its drivers, from validated inputs only.",
+    "source": "Ratings: football/rankings/current.json — 2026 Week 9, built 2026-10-31. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser."
+  },
+  "football_evidence": {
+    "schema": "edgedesk_article_evidence_v1",
+    "packet_hash": "1bge27r11b1zrp",
+    "status": "PARTIALLY_EXPLAINED",
+    "input_suspect": false,
+    "question": "Can Notre Dame take away Miami’s big plays?",
+    "assessment": "Some measured evidence supports EdgeDesk’s lean toward Miami, and its own breakdown accounts for about 0.2 of the 2.3 points, but not the full gap. It is a research question, not a bet.",
+    "gap": {
+      "points": 2.3,
+      "toward": "Miami",
+      "other": "Notre Dame"
+    },
+    "supporting": [
+      "When Notre Dame has the ball (big plays on the ground): Notre Dame’s offense turns 6.3% of its runs into explosive gains, and Miami’s defense gives up explosive gains on 3.2% of opponent runs (FBS average 6.5%).",
+      "When Miami has the ball (third down): Miami’s offense converts 58.4% of its third downs, and Notre Dame’s defense allows opponents to convert 43.5% of their third downs (FBS average 39.6%).",
+      "When Miami has the ball (the line of scrimmage on running plays): Miami’s offense is stopped at or behind the line on 8.3% of its runs, and Notre Dame’s defense stops 18.1% of opponent runs at or behind the line (FBS average 17.5%).",
+      "In his last two games (BYU and Navy), Carr averaged 6.4 yards per attempt, against 9.5 in his six games before that."
+    ],
+    "contradicting": [
+      "When Notre Dame has the ball (pass protection against the pass rush): Notre Dame’s offense has allowed a sack on 2.2% of its dropbacks, and Miami’s defense sacks the quarterback on 7.5% of opponent dropbacks (FBS average 5.7%).",
+      "When Miami has the ball (big plays on the ground): Miami’s offense turns 8.9% of its runs into explosive gains, and Notre Dame’s defense gives up explosive gains on 1.8% of opponent runs (FBS average 6.5%).",
+      "When Notre Dame has the ball (the line of scrimmage on running plays): Notre Dame’s offense is stopped at or behind the line on 11.8% of its runs, and Miami’s defense stops 14.2% of opponent runs at or behind the line (FBS average 17.5%).",
+      "EdgeDesk’s position-group ratings put Notre Dame’s pass defense No. 18 nationally and Miami’s No. 81."
+    ],
+    "quarterbacks": [
+      "CJ Carr has completed 148 of 223 passes (66.4%) for 1,878 yards, 8.4 yards per attempt, 18 touchdowns and 1 interception in eight games for Notre Dame, and has been sacked on 2 of 225 dropbacks.",
+      "Noah Grubbs has completed 15 of 23 passes (65.2%) for 176 yards, 7.7 yards per attempt, 1 touchdown and no interceptions in four games for Notre Dame, and has been sacked on 0 of 23 dropbacks.",
+      "Darian Mensah has completed 188 of 234 passes (80.3%) for 2,448 yards, 10.5 yards per attempt, 25 touchdowns and 1 interception in eight games for Miami, and has been sacked on 9 of 243 dropbacks.",
+      "Luke Nickel has completed 14 of 19 passes (73.7%) for 193 yards, 10.2 yards per attempt, 3 touchdowns and 1 interception in three games for Miami, and has been sacked on 1 of 20 dropbacks."
+    ],
+    "availability": [],
+    "script": {
+      "model": [
+        "Miami’s offense has to keep winning on big pass plays: it turns 15.5% of its pass plays into explosive gains, and Notre Dame’s defense gives up explosive gains on 5.2% of opponent pass plays.",
+        "Miami’s defense has to slow Notre Dame in the pass-rush matchup — Notre Dame’s offense has allowed a sack on 2.2% of its dropbacks.",
+        "Miami’s offense has to hold its own on long runs against a defense that gives up explosive gains on 1.8% of opponent runs.",
+        "Miami’s defense has to come out ahead on long runs: it gives up explosive gains on 3.2% of opponent runs, against an offense that turns 6.3% of its runs into explosive gains."
+      ],
+      "market": [
+        "Notre Dame’s offense has to keep winning in the pass-rush matchup: it has allowed a sack on 2.2% of its dropbacks, and Miami’s defense sacks the quarterback on 7.5% of opponent dropbacks.",
+        "Notre Dame’s defense has to come out ahead on long runs: it gives up explosive gains on 1.8% of opponent runs, against an offense that turns 8.9% of its runs into explosive gains.",
+        "Notre Dame’s defense has to come out ahead on big pass plays: it gives up explosive gains on 5.2% of opponent pass plays, against an offense that turns 15.5% of its pass plays into explosive gains."
+      ]
+    },
+    "unknown": [
+      "EdgeDesk’s own sources disagree on sack rate for Notre Dame.",
+      "Not in EdgeDesk’s verified data for this game: turnover rates, injuries and personnel, conference implications and penalty rate."
+    ],
+    "flags": [
+      {
+        "key": "DATA_CONFLICT",
+        "severity": "medium",
+        "text": "EdgeDesk’s own sources disagree on sack rate (Notre Dame); the evidence uses the corroborated figures, and any model term built on the play-by-play figure may be off."
+      }
+    ],
+    "sources": [
+      {
+        "label": "EdgeDesk play-by-play unit metrics (2026 season)",
+        "url": null,
+        "path": "football/matchup/metrics.json",
+        "observed_at": "2026-11-01T22:55:26.361Z",
+        "verification": "VERIFIED_DATA"
+      },
+      {
+        "label": "EdgeDesk play-by-play quarterback logs (2026)",
+        "url": null,
+        "path": "football/fbs_epa/qb_epa_2026.json",
+        "observed_at": "2026-11-01T03:00:00.000Z",
+        "verification": "VERIFIED_DATA"
+      },
+      {
+        "label": "EdgeDesk position-group ratings",
+        "url": null,
+        "path": "football/rankings/current.json",
+        "observed_at": "2026-10-31T20:46:59.209Z",
+        "verification": "RATING"
+      }
+    ],
+    "needs_confirmation": []
+  },
+  "checks": {
+    "ok": true,
+    "failed": [],
+    "at": "2026-11-02T00:36:55.151Z"
+  }
+}

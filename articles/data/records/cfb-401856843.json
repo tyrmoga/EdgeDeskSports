@@ -9,8 +9,8 @@
   "aliases": [],
   "title": "Arizona State vs. BYU: EdgeDesk Model Projection, Matchup Analysis and Fair Spread",
   "seo_title": "Arizona State vs. BYU 2026: EdgeDesk Fair Spread & Model Projection",
-  "seo_description": "EdgeDesk fair spread for Arizona State at BYU: BYU −16.0, fair total 53.5. BYU wins 87% of simulations. Data confidence 77%. Model status NO MARKET. Research, not picks.",
-  "excerpt": "BYU carries the stronger underlying team rating — +8.2 against +0.5, a 7.7-point separation on a neutral field before home advantage, travel or rest. EdgeDesk makes it BYU −16.0 before any sportsbook number is consulted, with BYU winning 87% of simulations.",
+  "seo_description": "EdgeDesk fair spread for Arizona State at BYU: BYU −16.0, fair total 53.5. BYU wins 87% of simulations. Data confidence 79%. Model status NO MARKET. Research, not picks.",
+  "excerpt": "BYU carries the stronger underlying team rating — +8.4 against +0.6, a 7.8-point separation on a neutral field before home advantage, travel or rest. EdgeDesk makes it BYU −16.0 before any sportsbook number is consulted, with BYU winning 87% of simulations.",
   "home_team": "BYU",
   "away_team": "Arizona State",
   "venue": "LaVell Edwards Stadium",
@@ -21,12 +21,12 @@
   "game_time": "2026-10-31T19:30:00.000Z",
   "game_when_label": "2026-10-31 19:30 UTC",
   "published_at": null,
-  "updated_at": "2026-10-27T08:53:29.281Z",
-  "generated_at": "2026-10-27T08:53:29.281Z",
+  "updated_at": "2026-10-31T19:14:58.561Z",
+  "generated_at": "2026-10-31T19:14:58.561Z",
   "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
   "model_status": "NO MARKET",
   "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
-  "confidence": 77,
+  "confidence": 79,
   "priced": true,
   "fair_spread_text": "BYU −16.0",
   "fair_total": "53.5",
@@ -37,11 +37,11 @@
   "status": "ready",
   "article_type": "pregame",
   "related": null,
-  "frozen": false,
-  "frozen_at": null,
+  "frozen": true,
+  "frozen_at": "2026-10-31T19:30:00.000Z",
   "author": "EdgeDesk Research",
   "publisher": "EdgeDesk Sports",
-  "research_source": "Ratings: football/rankings/current.json — 2026 Week 8, built 2026-10-26. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser.",
+  "research_source": "Ratings: football/rankings/current.json — 2026 Week 9, built 2026-10-31. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser.",
   "market_source": null,
   "research": {
     "kind": "CFB_GAME",
@@ -63,10 +63,10 @@
       "home_conference": "Big 12"
     },
     "lede": [
-      "BYU carries the stronger underlying team rating — +8.2 against +0.5, a 7.7-point separation on a neutral field before home advantage, travel or rest.",
+      "BYU carries the stronger underlying team rating — +8.4 against +0.6, a 7.8-point separation on a neutral field before home advantage, travel or rest.",
       "EdgeDesk makes it BYU −16.0 before any sportsbook number is consulted, with BYU winning 87% of simulations.",
       "The position-group comparison shows where the separation comes from: the widest measured gap is depth, where Arizona State leads BYU by 100 places nationally.",
-      "Data confidence on this matchup is 77% — high by this board’s standards, so the margin is the strongest part of the read."
+      "Data confidence on this matchup is 79% — high by this board’s standards, so the margin is the strongest part of the read."
     ],
     "projection": {
       "priced": true,
@@ -123,22 +123,22 @@
         "volatility_discriminates": false,
         "note": "Quoted from BYU’s perspective, as the engine publishes it. Eight results in ten land inside p10–p90."
       },
-      "confidence_pct": 77,
-      "inputs_reached_pct": 73,
+      "confidence_pct": 79,
+      "inputs_reached_pct": 89,
       "input_contract": {
         "fields": 26,
         "applicable": 26,
-        "known": 19,
-        "priced": 11,
-        "priced_coverage_pct": 42,
+        "known": 23,
+        "priced": 15,
+        "priced_coverage_pct": 58,
         "by_state": {
-          "USABLE": 11,
+          "USABLE": 15,
           "RESEARCH_ONLY": 8,
           "STALE": 0,
           "CONFLICTING": 0,
           "NOT_APPLICABLE": 0,
           "NOT_REQUIRED": 0,
-          "NOT_DUE_YET": 4,
+          "NOT_DUE_YET": 0,
           "FETCH_FAILED": 0,
           "UNAVAILABLE": 3
         },
@@ -258,7 +258,7 @@
         "source": "cfbfastR-data player_stats — play attribution",
         "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
         "published_at": "2026-10-24T19:45:00.000Z",
-        "retrieved_at": "2026-10-26T23:10:58.149Z"
+        "retrieved_at": "2026-10-31T17:49:50.575Z"
       },
       "home": {
         "team": "BYU",
@@ -342,9 +342,9 @@
         "source": "cfbfastR-data player_stats — play attribution",
         "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
         "published_at": "2026-10-24T19:30:00.000Z",
-        "retrieved_at": "2026-10-26T23:10:58.149Z"
+        "retrieved_at": "2026-10-31T17:49:50.575Z"
       },
-      "generated_at": "2026-10-26T23:10:56.259Z",
+      "generated_at": "2026-10-31T17:49:48.489Z",
       "source": "football/starters/cfb_2026.json",
       "note": "An expected starter is not a confirmed one. EdgeDesk publishes which kind of answer each of these is, and no number on this page is priced from any of them. Availability is a separate axis: an absent report is UNKNOWN and is never read as healthy."
     },
@@ -387,22 +387,22 @@
               "k": "ETSR (overall)",
               "note": "points vs an average FBS team, neutral field",
               "a": {
-                "v": "+0.5",
-                "n": 0.48,
-                "rank": "#66 of 138",
-                "rank_n": 66,
+                "v": "+0.6",
+                "n": 0.62,
+                "rank": "#65 of 138",
+                "rank_n": 65,
                 "note": null
               },
               "h": {
-                "v": "+8.2",
-                "n": 8.22,
-                "rank": "#16 of 138",
-                "rank_n": 16,
+                "v": "+8.4",
+                "n": 8.43,
+                "rank": "#15 of 138",
+                "rank_n": 15,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 7.7,
+                "gap": 7.8,
                 "rank_gap": 50
               }
             },
@@ -411,23 +411,23 @@
               "k": "Talent",
               "note": null,
               "a": {
-                "v": "53.6",
-                "n": 53.6,
-                "rank": "#49 of 138",
-                "rank_n": 49,
+                "v": "53.7",
+                "n": 53.7,
+                "rank": "#46 of 138",
+                "rank_n": 46,
                 "note": null
               },
               "h": {
-                "v": "60.5",
-                "n": 60.5,
-                "rank": "#18 of 138",
-                "rank_n": 18,
+                "v": "59.9",
+                "n": 59.9,
+                "rank": "#17 of 138",
+                "rank_n": 17,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 6.9,
-                "rank_gap": 31
+                "gap": 6.2,
+                "rank_gap": 29
               }
             },
             {
@@ -435,23 +435,23 @@
               "k": "Performance",
               "note": null,
               "a": {
-                "v": "50.4",
-                "n": 50.4,
-                "rank": "#68 of 138",
-                "rank_n": 68,
+                "v": "50.7",
+                "n": 50.7,
+                "rank": "#66 of 138",
+                "rank_n": 66,
                 "note": null
               },
               "h": {
-                "v": "66.4",
-                "n": 66.4,
-                "rank": "#13 of 138",
-                "rank_n": 13,
+                "v": "66.9",
+                "n": 66.9,
+                "rank": "#12 of 138",
+                "rank_n": 12,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 16,
-                "rank_gap": 55
+                "gap": 16.2,
+                "rank_gap": 54
               }
             },
             {
@@ -461,21 +461,21 @@
               "a": {
                 "v": "49.1",
                 "n": 49.1,
-                "rank": "#104 of 138",
-                "rank_n": 104,
+                "rank": "#103 of 138",
+                "rank_n": 103,
                 "note": null
               },
               "h": {
-                "v": "48.3",
-                "n": 48.3,
-                "rank": "#125 of 138",
-                "rank_n": 125,
+                "v": "48.2",
+                "n": 48.2,
+                "rank": "#128 of 138",
+                "rank_n": 128,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.8,
-                "rank_gap": 21
+                "gap": 0.9,
+                "rank_gap": 25
               }
             }
           ]
@@ -512,23 +512,23 @@
               "k": "Defense",
               "note": null,
               "a": {
-                "v": "51.1",
-                "n": 51.1,
-                "rank": "#65 of 138",
-                "rank_n": 65,
+                "v": "51.4",
+                "n": 51.4,
+                "rank": "#64 of 138",
+                "rank_n": 64,
                 "note": null
               },
               "h": {
-                "v": "57.7",
-                "n": 57.7,
-                "rank": "#24 of 138",
-                "rank_n": 24,
+                "v": "58.3",
+                "n": 58.3,
+                "rank": "#22 of 138",
+                "rank_n": 22,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 6.6,
-                "rank_gap": 41
+                "gap": 6.9,
+                "rank_gap": 42
               }
             },
             {
@@ -538,21 +538,21 @@
               "a": {
                 "v": "49.3",
                 "n": 49.3,
-                "rank": "#86 of 130",
-                "rank_n": 86,
+                "rank": "#87 of 130",
+                "rank_n": 87,
                 "note": null
               },
               "h": {
-                "v": "52.6",
-                "n": 52.6,
-                "rank": "#15 of 130",
-                "rank_n": 15,
+                "v": "52.5",
+                "n": 52.5,
+                "rank": "#20 of 130",
+                "rank_n": 20,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 3.3,
-                "rank_gap": 71
+                "gap": 3.2,
+                "rank_gap": 67
               }
             },
             {
@@ -560,22 +560,22 @@
               "k": "Run offense",
               "note": null,
               "a": {
-                "v": "56.7",
-                "n": 56.7,
+                "v": "56.9",
+                "n": 56.9,
                 "rank": "#44 of 138",
                 "rank_n": 44,
                 "note": null
               },
               "h": {
-                "v": "65.7",
-                "n": 65.7,
+                "v": "65.6",
+                "n": 65.6,
                 "rank": "#7 of 138",
                 "rank_n": 7,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 9,
+                "gap": 8.7,
                 "rank_gap": 37
               }
             },
@@ -584,10 +584,10 @@
               "k": "Pass offense",
               "note": null,
               "a": {
-                "v": "43.4",
-                "n": 43.4,
-                "rank": "#104 of 137",
-                "rank_n": 104,
+                "v": "43.3",
+                "n": 43.3,
+                "rank": "#105 of 137",
+                "rank_n": 105,
                 "note": null
               },
               "h": {
@@ -599,8 +599,8 @@
               },
               "edge": {
                 "side": "h",
-                "gap": 13.8,
-                "rank_gap": 74
+                "gap": 13.9,
+                "rank_gap": 75
               }
             },
             {
@@ -608,23 +608,23 @@
               "k": "Run defense",
               "note": null,
               "a": {
-                "v": "61.3",
-                "n": 61.3,
+                "v": "61.5",
+                "n": 61.5,
                 "rank": "#35 of 138",
                 "rank_n": 35,
                 "note": null
               },
               "h": {
-                "v": "61.8",
-                "n": 61.8,
-                "rank": "#34 of 138",
-                "rank_n": 34,
+                "v": "62.5",
+                "n": 62.5,
+                "rank": "#32 of 138",
+                "rank_n": 32,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.5,
-                "rank_gap": 1
+                "gap": 1,
+                "rank_gap": 3
               }
             },
             {
@@ -632,23 +632,23 @@
               "k": "Pass defense",
               "note": null,
               "a": {
-                "v": "47.2",
-                "n": 47.2,
-                "rank": "#82 of 138",
-                "rank_n": 82,
+                "v": "47.6",
+                "n": 47.6,
+                "rank": "#80 of 138",
+                "rank_n": 80,
                 "note": null
               },
               "h": {
-                "v": "58.7",
-                "n": 58.7,
-                "rank": "#30 of 138",
-                "rank_n": 30,
+                "v": "59.2",
+                "n": 59.2,
+                "rank": "#27 of 138",
+                "rank_n": 27,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 11.5,
-                "rank_gap": 52
+                "gap": 11.6,
+                "rank_gap": 53
               }
             }
           ]
@@ -661,23 +661,23 @@
               "k": "QB room",
               "note": null,
               "a": {
-                "v": "59.5",
-                "n": 59.5,
-                "rank": "#49 of 138",
-                "rank_n": 49,
+                "v": "59.6",
+                "n": 59.6,
+                "rank": "#42 of 138",
+                "rank_n": 42,
                 "note": null
               },
               "h": {
                 "v": "61.9",
                 "n": 61.9,
-                "rank": "#20 of 138",
-                "rank_n": 20,
+                "rank": "#17 of 138",
+                "rank_n": 17,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 2.4,
-                "rank_gap": 29
+                "gap": 2.3,
+                "rank_gap": 25
               }
             },
             {
@@ -685,8 +685,8 @@
               "k": "Offensive line",
               "note": null,
               "a": {
-                "v": "44.6",
-                "n": 44.6,
+                "v": "44.7",
+                "n": 44.7,
                 "rank": "#122 of 138",
                 "rank_n": 122,
                 "note": null
@@ -700,7 +700,7 @@
               },
               "edge": {
                 "side": "h",
-                "gap": 10.4,
+                "gap": 10.3,
                 "rank_gap": 91
               }
             },
@@ -711,21 +711,21 @@
               "a": {
                 "v": "56.6",
                 "n": 56.6,
-                "rank": "#19 of 138",
-                "rank_n": 19,
+                "rank": "#24 of 138",
+                "rank_n": 24,
                 "note": null
               },
               "h": {
                 "v": "55.8",
                 "n": 55.8,
-                "rank": "#39 of 138",
-                "rank_n": 39,
+                "rank": "#41 of 138",
+                "rank_n": 41,
                 "note": null
               },
               "edge": {
                 "side": "a",
                 "gap": 0.8,
-                "rank_gap": 20
+                "rank_gap": 17
               }
             },
             {
@@ -759,21 +759,21 @@
               "a": {
                 "v": "56.9",
                 "n": 56.9,
-                "rank": "#48 of 138",
-                "rank_n": 48,
+                "rank": "#46 of 138",
+                "rank_n": 46,
                 "note": null
               },
               "h": {
-                "v": "58.7",
-                "n": 58.7,
-                "rank": "#9 of 138",
-                "rank_n": 9,
+                "v": "56.0",
+                "n": 56,
+                "rank": "#74 of 138",
+                "rank_n": 74,
                 "note": null
               },
               "edge": {
-                "side": "h",
-                "gap": 1.8,
-                "rank_gap": 39
+                "side": "a",
+                "gap": 0.9,
+                "rank_gap": 28
               }
             },
             {
@@ -831,21 +831,21 @@
               "a": {
                 "v": "54.7",
                 "n": 54.7,
-                "rank": "#59 of 138",
-                "rank_n": 59,
+                "rank": "#58 of 138",
+                "rank_n": 58,
                 "note": null
               },
               "h": {
-                "v": "57.0",
-                "n": 57,
-                "rank": "#30 of 138",
-                "rank_n": 30,
+                "v": "55.4",
+                "n": 55.4,
+                "rank": "#50 of 138",
+                "rank_n": 50,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 2.3,
-                "rank_gap": 29
+                "gap": 0.7,
+                "rank_gap": 8
               }
             },
             {
@@ -855,14 +855,14 @@
               "a": {
                 "v": "56.2",
                 "n": 56.2,
-                "rank": "#64 of 138",
+                "rank": "#64 of 137",
                 "rank_n": 64,
                 "note": null
               },
               "h": {
                 "v": "57.0",
                 "n": 57,
-                "rank": "#39 of 138",
+                "rank": "#39 of 137",
                 "rank_n": 39,
                 "note": null
               },
@@ -944,24 +944,34 @@
           "text": "Arizona State 53.8 (#31 of 138) vs BYU 52.2 (#131 of 138) — 100 places on the national board."
         },
         {
-          "k": "Scheme fit",
-          "rank_gap": 21,
-          "gap": 0.8,
+          "k": "Running backs",
+          "rank_gap": 28,
+          "gap": 0.9,
           "lead": "Arizona State",
           "trail": "BYU",
-          "lead_cell": "49.1 · #104 of 138",
-          "trail_cell": "48.3 · #125 of 138",
-          "text": "Arizona State 49.1 (#104 of 138) vs BYU 48.3 (#125 of 138) — 21 places on the national board."
+          "lead_cell": "56.9 · #46 of 138",
+          "trail_cell": "56.0 · #74 of 138",
+          "text": "Arizona State 56.9 (#46 of 138) vs BYU 56.0 (#74 of 138) — 28 places on the national board."
+        },
+        {
+          "k": "Scheme fit",
+          "rank_gap": 25,
+          "gap": 0.9,
+          "lead": "Arizona State",
+          "trail": "BYU",
+          "lead_cell": "49.1 · #103 of 138",
+          "trail_cell": "48.2 · #128 of 138",
+          "text": "Arizona State 49.1 (#103 of 138) vs BYU 48.2 (#128 of 138) — 25 places on the national board."
         },
         {
           "k": "Receivers",
-          "rank_gap": 20,
+          "rank_gap": 17,
           "gap": 0.8,
           "lead": "Arizona State",
           "trail": "BYU",
-          "lead_cell": "56.6 · #19 of 138",
-          "trail_cell": "55.8 · #39 of 138",
-          "text": "Arizona State 56.6 (#19 of 138) vs BYU 55.8 (#39 of 138) — 20 places on the national board."
+          "lead_cell": "56.6 · #24 of 138",
+          "trail_cell": "55.8 · #41 of 138",
+          "text": "Arizona State 56.6 (#24 of 138) vs BYU 55.8 (#41 of 138) — 17 places on the national board."
         },
         {
           "k": "Defensive line",
@@ -988,42 +998,42 @@
         {
           "k": "Offensive line",
           "rank_gap": 91,
-          "gap": 10.4,
+          "gap": 10.3,
           "lead": "BYU",
           "trail": "Arizona State",
           "lead_cell": "55.0 · #31 of 138",
-          "trail_cell": "44.6 · #122 of 138",
-          "text": "BYU 55.0 (#31 of 138) vs Arizona State 44.6 (#122 of 138) — 91 places on the national board."
+          "trail_cell": "44.7 · #122 of 138",
+          "text": "BYU 55.0 (#31 of 138) vs Arizona State 44.7 (#122 of 138) — 91 places on the national board."
         },
         {
           "k": "Pass offense",
-          "rank_gap": 74,
-          "gap": 13.8,
+          "rank_gap": 75,
+          "gap": 13.9,
           "lead": "BYU",
           "trail": "Arizona State",
           "lead_cell": "57.2 · #30 of 137",
-          "trail_cell": "43.4 · #104 of 137",
-          "text": "BYU 57.2 (#30 of 137) vs Arizona State 43.4 (#104 of 137) — 74 places on the national board."
+          "trail_cell": "43.3 · #105 of 137",
+          "text": "BYU 57.2 (#30 of 137) vs Arizona State 43.3 (#105 of 137) — 75 places on the national board."
         },
         {
           "k": "Special teams",
-          "rank_gap": 71,
-          "gap": 3.3,
+          "rank_gap": 67,
+          "gap": 3.2,
           "lead": "BYU",
           "trail": "Arizona State",
-          "lead_cell": "52.6 · #15 of 130",
-          "trail_cell": "49.3 · #86 of 130",
-          "text": "BYU 52.6 (#15 of 130) vs Arizona State 49.3 (#86 of 130) — 71 places on the national board."
+          "lead_cell": "52.5 · #20 of 130",
+          "trail_cell": "49.3 · #87 of 130",
+          "text": "BYU 52.5 (#20 of 130) vs Arizona State 49.3 (#87 of 130) — 67 places on the national board."
         },
         {
           "k": "Performance",
-          "rank_gap": 55,
-          "gap": 16,
+          "rank_gap": 54,
+          "gap": 16.2,
           "lead": "BYU",
           "trail": "Arizona State",
-          "lead_cell": "66.4 · #13 of 138",
-          "trail_cell": "50.4 · #68 of 138",
-          "text": "BYU 66.4 (#13 of 138) vs Arizona State 50.4 (#68 of 138) — 55 places on the national board."
+          "lead_cell": "66.9 · #12 of 138",
+          "trail_cell": "50.7 · #66 of 138",
+          "text": "BYU 66.9 (#12 of 138) vs Arizona State 50.7 (#66 of 138) — 54 places on the national board."
         }
       ],
       "measured": [],
@@ -1037,38 +1047,38 @@
         "att": {
           "team": "Arizona State",
           "label": "pass offense",
-          "v": "43.4",
-          "rank": "#104 of 137",
+          "v": "43.3",
+          "rank": "#105 of 137",
           "note": null
         },
         "def": {
           "team": "BYU",
           "label": "pass defense",
-          "v": "58.7",
-          "rank": "#30 of 138",
+          "v": "59.2",
+          "rank": "#27 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Arizona State’s pass offense rates 43.4 (#104 of 137) against BYU’s pass defense at 58.7 (#30 of 138). BYU’s unit stands higher among its own position group, by 74 places."
+        "read": "Arizona State’s pass offense rates 43.3 (#105 of 137) against BYU’s pass defense at 59.2 (#27 of 138). BYU’s unit stands higher among its own position group, by 78 places."
       },
       {
         "title": "Arizona State run offense vs BYU run defense",
         "att": {
           "team": "Arizona State",
           "label": "run offense",
-          "v": "56.7",
+          "v": "56.9",
           "rank": "#44 of 138",
           "note": null
         },
         "def": {
           "team": "BYU",
           "label": "run defense",
-          "v": "61.8",
-          "rank": "#34 of 138",
+          "v": "62.5",
+          "rank": "#32 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Arizona State’s run offense rates 56.7 (#44 of 138) against BYU’s run defense at 61.8 (#34 of 138). BYU’s unit stands higher among its own position group, by 10 places."
+        "read": "Arizona State’s run offense rates 56.9 (#44 of 138) against BYU’s run defense at 62.5 (#32 of 138). BYU’s unit stands higher among its own position group, by 12 places."
       },
       {
         "title": "BYU pass offense vs Arizona State pass defense",
@@ -1082,50 +1092,50 @@
         "def": {
           "team": "Arizona State",
           "label": "pass defense",
-          "v": "47.2",
-          "rank": "#82 of 138",
+          "v": "47.6",
+          "rank": "#80 of 138",
           "note": null
         },
         "complete": true,
-        "read": "BYU’s pass offense rates 57.2 (#30 of 137) against Arizona State’s pass defense at 47.2 (#82 of 138). BYU’s unit stands higher among its own position group, by 52 places."
+        "read": "BYU’s pass offense rates 57.2 (#30 of 137) against Arizona State’s pass defense at 47.6 (#80 of 138). BYU’s unit stands higher among its own position group, by 50 places."
       },
       {
         "title": "BYU run offense vs Arizona State run defense",
         "att": {
           "team": "BYU",
           "label": "run offense",
-          "v": "65.7",
+          "v": "65.6",
           "rank": "#7 of 138",
           "note": null
         },
         "def": {
           "team": "Arizona State",
           "label": "run defense",
-          "v": "61.3",
+          "v": "61.5",
           "rank": "#35 of 138",
           "note": null
         },
         "complete": true,
-        "read": "BYU’s run offense rates 65.7 (#7 of 138) against Arizona State’s run defense at 61.3 (#35 of 138). BYU’s unit stands higher among its own position group, by 28 places."
+        "read": "BYU’s run offense rates 65.6 (#7 of 138) against Arizona State’s run defense at 61.5 (#35 of 138). BYU’s unit stands higher among its own position group, by 28 places."
       },
       {
         "title": "Arizona State QB room vs BYU secondary",
         "att": {
           "team": "Arizona State",
           "label": "QB room",
-          "v": "59.5",
-          "rank": "#49 of 138",
+          "v": "59.6",
+          "rank": "#42 of 138",
           "note": null
         },
         "def": {
           "team": "BYU",
           "label": "secondary",
-          "v": "57.0",
-          "rank": "#30 of 138",
+          "v": "55.4",
+          "rank": "#50 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Arizona State’s QB room rates 59.5 (#49 of 138) against BYU’s secondary at 57.0 (#30 of 138). BYU’s unit stands higher among its own position group, by 19 places."
+        "read": "Arizona State’s QB room rates 59.6 (#42 of 138) against BYU’s secondary at 55.4 (#50 of 138). Arizona State’s unit stands higher among its own position group, by 8 places."
       },
       {
         "title": "BYU QB room vs Arizona State secondary",
@@ -1133,25 +1143,25 @@
           "team": "BYU",
           "label": "QB room",
           "v": "61.9",
-          "rank": "#20 of 138",
+          "rank": "#17 of 138",
           "note": null
         },
         "def": {
           "team": "Arizona State",
           "label": "secondary",
           "v": "54.7",
-          "rank": "#59 of 138",
+          "rank": "#58 of 138",
           "note": null
         },
         "complete": true,
-        "read": "BYU’s QB room rates 61.9 (#20 of 138) against Arizona State’s secondary at 54.7 (#59 of 138). BYU’s unit stands higher among its own position group, by 39 places."
+        "read": "BYU’s QB room rates 61.9 (#17 of 138) against Arizona State’s secondary at 54.7 (#58 of 138). BYU’s unit stands higher among its own position group, by 41 places."
       },
       {
         "title": "Arizona State offensive line vs BYU defensive line",
         "att": {
           "team": "Arizona State",
           "label": "offensive line",
-          "v": "44.6",
+          "v": "44.7",
           "rank": "#122 of 138",
           "note": null
         },
@@ -1163,7 +1173,7 @@
           "note": null
         },
         "complete": true,
-        "read": "Arizona State’s offensive line rates 44.6 (#122 of 138) against BYU’s defensive line at 56.6 (#39 of 138). BYU’s unit stands higher among its own position group, by 83 places."
+        "read": "Arizona State’s offensive line rates 44.7 (#122 of 138) against BYU’s defensive line at 56.6 (#39 of 138). BYU’s unit stands higher among its own position group, by 83 places."
       },
       {
         "title": "BYU offensive line vs Arizona State defensive line",
@@ -1190,7 +1200,7 @@
           "team": "Arizona State",
           "label": "running backs",
           "v": "56.9",
-          "rank": "#48 of 138",
+          "rank": "#46 of 138",
           "note": null
         },
         "def": {
@@ -1201,15 +1211,15 @@
           "note": null
         },
         "complete": true,
-        "read": "Arizona State’s running backs rates 56.9 (#48 of 138) against BYU’s linebackers at 56.9 (#26 of 138). BYU’s unit stands higher among its own position group, by 22 places."
+        "read": "Arizona State’s running backs rates 56.9 (#46 of 138) against BYU’s linebackers at 56.9 (#26 of 138). BYU’s unit stands higher among its own position group, by 20 places."
       },
       {
         "title": "BYU running backs vs Arizona State linebackers",
         "att": {
           "team": "BYU",
           "label": "running backs",
-          "v": "58.7",
-          "rank": "#9 of 138",
+          "v": "56.0",
+          "rank": "#74 of 138",
           "note": null
         },
         "def": {
@@ -1220,7 +1230,7 @@
           "note": null
         },
         "complete": true,
-        "read": "BYU’s running backs rates 58.7 (#9 of 138) against Arizona State’s linebackers at 53.8 (#58 of 138). BYU’s unit stands higher among its own position group, by 49 places."
+        "read": "BYU’s running backs rates 56.0 (#74 of 138) against Arizona State’s linebackers at 53.8 (#58 of 138). Arizona State’s unit stands higher among its own position group, by 16 places."
       },
       {
         "title": "Arizona State receivers vs BYU secondary",
@@ -1228,18 +1238,18 @@
           "team": "Arizona State",
           "label": "receivers",
           "v": "56.6",
-          "rank": "#19 of 138",
+          "rank": "#24 of 138",
           "note": null
         },
         "def": {
           "team": "BYU",
           "label": "secondary",
-          "v": "57.0",
-          "rank": "#30 of 138",
+          "v": "55.4",
+          "rank": "#50 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Arizona State’s receivers rates 56.6 (#19 of 138) against BYU’s secondary at 57.0 (#30 of 138). Arizona State’s unit stands higher among its own position group, by 11 places."
+        "read": "Arizona State’s receivers rates 56.6 (#24 of 138) against BYU’s secondary at 55.4 (#50 of 138). Arizona State’s unit stands higher among its own position group, by 26 places."
       },
       {
         "title": "BYU receivers vs Arizona State secondary",
@@ -1247,18 +1257,18 @@
           "team": "BYU",
           "label": "receivers",
           "v": "55.8",
-          "rank": "#39 of 138",
+          "rank": "#41 of 138",
           "note": null
         },
         "def": {
           "team": "Arizona State",
           "label": "secondary",
           "v": "54.7",
-          "rank": "#59 of 138",
+          "rank": "#58 of 138",
           "note": null
         },
         "complete": true,
-        "read": "BYU’s receivers rates 55.8 (#39 of 138) against Arizona State’s secondary at 54.7 (#59 of 138). BYU’s unit stands higher among its own position group, by 20 places."
+        "read": "BYU’s receivers rates 55.8 (#41 of 138) against Arizona State’s secondary at 54.7 (#58 of 138). BYU’s unit stands higher among its own position group, by 17 places."
       }
     ],
     "roster": {
@@ -1364,18 +1374,18 @@
         {
           "k": "Availability records",
           "note": "an absence report reaching this roster. UNKNOWN is never read as healthy",
-          "a": "none on file — 100% unknown",
-          "h": "none on file — 100% unknown",
+          "a": "8 on file, 4% of starter value out",
+          "h": "8 on file, 10% of starter value out",
           "edge": null
         },
         {
           "k": "Data confidence",
           "note": "how much EdgeDesk knows about this roster, not how good it is",
-          "a": "53%",
-          "h": "65%",
+          "a": "63%",
+          "h": "75%",
           "edge": {
             "side": "h",
-            "gap": 0.11399999999999999
+            "gap": 0.11199999999999999
           }
         }
       ],
@@ -1417,7 +1427,7 @@
           "Playing at BYU is worth 2.8 points — the league-wide home-field number, because a per-venue table was tested and could not be told apart from the home team’s own quality (+2.8 pts).",
           "Stylistically the matchup favours BYU by 1.8 points: ball control vs front disruption (+1.8 pts).",
           "Continuity: BYU 55.2 (#20 of 138) vs Arizona State 36.0 (#112 of 138) — 92 places on the national board.",
-          "Offensive line: BYU 55.0 (#31 of 138) vs Arizona State 44.6 (#122 of 138) — 91 places on the national board."
+          "Offensive line: BYU 55.0 (#31 of 138) vs Arizona State 44.7 (#122 of 138) — 91 places on the national board."
         ]
       },
       "underdog": {
@@ -1425,8 +1435,8 @@
         "heading": "Why Arizona State can keep it close",
         "bullets": [
           "Depth: Arizona State 53.8 (#31 of 138) vs BYU 52.2 (#131 of 138) — 100 places on the national board.",
-          "Scheme fit: Arizona State 49.1 (#104 of 138) vs BYU 48.3 (#125 of 138) — 21 places on the national board.",
-          "Receivers: Arizona State 56.6 (#19 of 138) vs BYU 55.8 (#39 of 138) — 20 places on the national board.",
+          "Running backs: Arizona State 56.9 (#46 of 138) vs BYU 56.0 (#74 of 138) — 28 places on the national board.",
+          "Scheme fit: Arizona State 49.1 (#103 of 138) vs BYU 48.2 (#128 of 138) — 25 places on the national board.",
           "The outcome range is 14.6 points wide at one sigma — p10 -4.8 to p90 +37.2 for BYU, so a projection of +16.2 still produces results a long way either side of it.",
           "College ratings are built on twelve-game seasons against wildly uneven schedules; even a clean rating gap carries more estimation error than the number implies."
         ]
@@ -1443,38 +1453,14 @@
         },
         {
           "sev": "MEDIUM",
-          "label": "Arizona State — injury uncertainty",
-          "text": "100% of projected starter value has no availability record.",
-          "widening": null
-        },
-        {
-          "sev": "MEDIUM",
           "label": "Arizona State — extreme transfer turnover",
           "text": "84% of last season’s production value is gone. Most of last season’s production value has left, so the prior term is standing on much less than usual",
-          "widening": null
-        },
-        {
-          "sev": "MEDIUM",
-          "label": "BYU — injury uncertainty",
-          "text": "100% of projected starter value has no availability record.",
           "widening": null
         },
         {
           "sev": "LOW",
           "label": "missing",
           "text": "weather not supplied",
-          "widening": null
-        },
-        {
-          "sev": "LOW",
-          "label": "missing",
-          "text": "home injury report not supplied",
-          "widening": null
-        },
-        {
-          "sev": "LOW",
-          "label": "missing",
-          "text": "away injury report not supplied",
           "widening": null
         },
         {
@@ -1500,14 +1486,6 @@
           "why": "starting QB not supplied for away"
         },
         {
-          "item": "Home availability / injuries",
-          "why": "no injury report supplied for home"
-        },
-        {
-          "item": "Away availability / injuries",
-          "why": "no injury report supplied for away"
-        },
-        {
           "item": "Weather at kickoff",
           "why": "no weather supplied"
         },
@@ -1528,16 +1506,8 @@
           "why": "no legal, public, keyless recruiting feed is wired into EdgeDesk, so no recruiting rating exists for this roster. Nothing is estimated in its place."
         },
         {
-          "item": "Arizona State — availability and injuries",
-          "why": "no availability record reached this roster. UNKNOWN is carried as unknown; it is never read as healthy."
-        },
-        {
           "item": "BYU — recruiting ratings",
           "why": "no legal, public, keyless recruiting feed is wired into EdgeDesk, so no recruiting rating exists for this roster. Nothing is estimated in its place."
-        },
-        {
-          "item": "BYU — availability and injuries",
-          "why": "no availability record reached this roster. UNKNOWN is carried as unknown; it is never read as healthy."
         }
       ],
       "note": "Unknown is never scored as zero. Every line here is a gap EdgeDesk carries as uncertainty rather than filling in."
@@ -1578,18 +1548,18 @@
         "reason": "no market line is joined to this game"
       },
       "confidence": {
-        "score": 77,
+        "score": 79,
         "tier": "HIGH",
         "label": "High"
       },
       "reliability": {
-        "pct": 86,
+        "pct": 91,
         "tier": "STRONG",
-        "text": "86 · STRONG",
-        "sub": "main deduction: Arizona State’s availability report is not due yet",
-        "score": 86,
-        "grade": "STRONG",
-        "grade_label": "STRONG",
+        "text": "91 · VERY STRONG",
+        "sub": "main deduction: no market quote is joined to this game",
+        "score": 91,
+        "grade": "VERY_STRONG",
+        "grade_label": "VERY STRONG",
         "gate_label": null,
         "components": [
           {
@@ -1601,7 +1571,7 @@
           {
             "key": "roster_availability",
             "label": "Roster/status",
-            "score": 11,
+            "score": 16.3,
             "max": 20
           },
           {
@@ -1619,7 +1589,7 @@
           {
             "key": "source_integrity",
             "label": "Source integrity",
-            "score": 13.3,
+            "score": 13.6,
             "max": 15
           },
           {
@@ -1629,25 +1599,9 @@
             "max": 10
           }
         ],
-        "main_deduction": "Arizona State’s availability report is not due yet; the impact of Arizona State’s absences cannot be assessed: no graded availability read",
+        "main_deduction": "no market quote is joined to this game",
         "capped_by": [],
-        "next_actions": [
-          {
-            "action": "Re-read availability inside the filing window (Arizona State)",
-            "potential_gain": 3,
-            "text": "up to +3"
-          },
-          {
-            "action": "Re-read availability inside the filing window (BYU)",
-            "potential_gain": 3,
-            "text": "up to +3"
-          },
-          {
-            "action": "Capture a market quote",
-            "potential_gain": 2,
-            "text": "up to +2"
-          }
-        ],
+        "next_actions": [],
         "stability": {
           "tier": "VERY_STABLE",
           "sd": 0.81,
@@ -1685,9 +1639,9 @@
         "reason": "no sportsbook quote has been captured for this game"
       },
       "projection_status": {
-        "key": "STABLE",
-        "label": "STABLE",
-        "text": "EdgeDesk’s number is unchanged since the latest published number."
+        "key": "INJURY_UNCERTAINTY",
+        "label": "INJURY UNCERTAINTY",
+        "text": "A supplied availability report lists 18 players with an unresolved status; the engine widens this game’s range for it."
       },
       "stability": {
         "tier": "LOW",
@@ -1760,20 +1714,20 @@
       "rows": [
         {
           "k": "ETSR (overall)",
-          "a": "+0.5  #66",
-          "h": "+8.2  #16",
+          "a": "+0.6  #65",
+          "h": "+8.4  #15",
           "note": "points vs an average FBS team, neutral field"
         },
         {
           "k": "Talent",
-          "a": "53.6  #49",
-          "h": "60.5  #18",
+          "a": "53.7  #46",
+          "h": "59.9  #17",
           "note": null
         },
         {
           "k": "Performance",
-          "a": "50.4  #68",
-          "h": "66.4  #13",
+          "a": "50.7  #66",
+          "h": "66.9  #12",
           "note": null
         },
         {
@@ -1784,62 +1738,62 @@
         },
         {
           "k": "Defense",
-          "a": "51.1  #65",
-          "h": "57.7  #24",
+          "a": "51.4  #64",
+          "h": "58.3  #22",
           "note": null
         },
         {
           "k": "Special teams",
-          "a": "49.3  #86",
-          "h": "52.6  #15",
+          "a": "49.3  #87",
+          "h": "52.5  #20",
           "note": null
         },
         {
           "k": "Run offense",
-          "a": "56.7  #44",
-          "h": "65.7  #7",
+          "a": "56.9  #44",
+          "h": "65.6  #7",
           "note": null
         },
         {
           "k": "Pass offense",
-          "a": "43.4  #104",
+          "a": "43.3  #105",
           "h": "57.2  #30",
           "note": null
         },
         {
           "k": "Run defense",
-          "a": "61.3  #35",
-          "h": "61.8  #34",
+          "a": "61.5  #35",
+          "h": "62.5  #32",
           "note": null
         },
         {
           "k": "Pass defense",
-          "a": "47.2  #82",
-          "h": "58.7  #30",
+          "a": "47.6  #80",
+          "h": "59.2  #27",
           "note": null
         },
         {
           "k": "QB room",
-          "a": "59.5  #49",
-          "h": "61.9  #20",
+          "a": "59.6  #42",
+          "h": "61.9  #17",
           "note": null
         },
         {
           "k": "Offensive line",
-          "a": "44.6  #122",
+          "a": "44.7  #122",
           "h": "55.0  #31",
           "note": null
         },
         {
           "k": "Receivers",
-          "a": "56.6  #19",
-          "h": "55.8  #39",
+          "a": "56.6  #24",
+          "h": "55.8  #41",
           "note": null
         },
         {
           "k": "Running backs",
-          "a": "56.9  #48",
-          "h": "58.7  #9",
+          "a": "56.9  #46",
+          "h": "56.0  #74",
           "note": null
         },
         {
@@ -1856,8 +1810,8 @@
         },
         {
           "k": "Secondary",
-          "a": "54.7  #59",
-          "h": "57.0  #30",
+          "a": "54.7  #58",
+          "h": "55.4  #50",
           "note": null
         },
         {
@@ -1874,14 +1828,14 @@
         },
         {
           "k": "Confidence",
-          "a": "53%",
-          "h": "65%",
+          "a": "63%",
+          "h": "75%",
           "note": "how much EdgeDesk knows, not how good the team is"
         },
         {
           "k": "Δ national rank, this week",
-          "a": "up 18",
-          "h": "down 6",
+          "a": "up 1",
+          "h": "up 1",
           "note": "differenced from last week’s committed snapshot"
         }
       ]
@@ -1900,80 +1854,12 @@
     ],
     "context_label": "RESEARCH CONTEXT — position-group, player-quality, roster and scheme figures explain this matchup and move no priced number.",
     "priced_label": "PRICED BY MODEL — the projection and its drivers, from validated inputs only.",
-    "source": "Ratings: football/rankings/current.json — 2026 Week 8, built 2026-10-26. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser."
+    "source": "Ratings: football/rankings/current.json — 2026 Week 9, built 2026-10-31. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser."
   },
-  "football_evidence": {
-    "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "lcqb928si6z8",
-    "status": "NO_MATERIAL_DISAGREEMENT",
-    "input_suspect": false,
-    "question": "Can Arizona State’s pass rush get to Bear Bachmeier?",
-    "assessment": "No material disagreement: EdgeDesk and the line are within 0.3 points.",
-    "gap": {
-      "points": 0.3,
-      "toward": "Arizona State",
-      "other": "BYU"
-    },
-    "supporting": [
-      "When Arizona State has the ball (big plays on the ground): Arizona State’s offense turns 8.9% of its runs into explosive gains, and BYU’s defense gives up explosive gains on 5.5% of opponent runs (FBS average 6.5%).",
-      "In his last two games (Notre Dame and UCF), Bachmeier averaged 7.1 yards per attempt, against 8.9 in his five games before that."
-    ],
-    "contradicting": [
-      "When BYU has the ball (pass protection against the pass rush): BYU’s offense has allowed a sack on 2.1% of its dropbacks, and Arizona State’s defense sacks the quarterback on 7.6% of opponent dropbacks (FBS average 5.7%).",
-      "When BYU has the ball (third down): BYU’s offense converts 50.2% of its third downs, and Arizona State’s defense allows opponents to convert 38.1% of their third downs (FBS average 39.5%).",
-      "When BYU has the ball (the line of scrimmage on running plays): BYU’s offense is stopped at or behind the line on 13.9% of its runs, and Arizona State’s defense stops 17.2% of opponent runs at or behind the line (FBS average 17.5%).",
-      "When Arizona State has the ball (pass protection against the pass rush): Arizona State’s offense has allowed a sack on 7.3% of its dropbacks, and BYU’s defense sacks the quarterback on 5.8% of opponent dropbacks (FBS average 5.7%)."
-    ],
-    "quarterbacks": [
-      "Bear Bachmeier has completed 115 of 183 passes (62.8%) for 1,506 yards, 8.2 yards per attempt, 11 touchdowns and 3 interceptions in seven games for BYU, and has been sacked on 4 of 187 dropbacks.",
-      "Cutter Boley has completed 104 of 172 passes (60.5%) for 1,360 yards, 7.9 yards per attempt, 13 touchdowns and 5 interceptions in seven games for Arizona State, and has been sacked on 12 of 184 dropbacks.",
-      "Mikey Keene has completed 39 of 61 passes (63.9%) for 448 yards, 7.3 yards per attempt, 2 touchdowns and no interceptions in three games for Arizona State, and has been sacked on 5 of 66 dropbacks."
-    ],
-    "availability": [],
-    "script": {
-      "model": [
-        "Arizona State’s defense has to come out ahead in the pass-rush matchup: it sacks the quarterback on 7.6% of opponent dropbacks, against an offense that has allowed a sack on 2.1% of its dropbacks.",
-        "Arizona State’s offense has to hold its own on big pass plays against a defense that gives up explosive gains on 7.1% of opponent pass plays.",
-        "Arizona State’s offense has to keep winning on long runs: it turns 8.9% of its runs into explosive gains, and BYU’s defense gives up explosive gains on 5.5% of opponent runs."
-      ],
-      "market": [
-        "BYU’s offense has to keep winning in the pass-rush matchup: it has allowed a sack on 2.1% of its dropbacks, and Arizona State’s defense sacks the quarterback on 7.6% of opponent dropbacks.",
-        "BYU’s defense has to come out ahead on big pass plays: it gives up explosive gains on 7.1% of opponent pass plays, against an offense that turns 10.3% of its pass plays into explosive gains.",
-        "Bachmeier keeps producing at his season rate (62.8% completions, 8.2 yards per attempt, 11 TD, 3 INT)."
-      ]
-    },
-    "unknown": [
-      "EdgeDesk’s own sources disagree on sack rate allowed and sack rate for BYU and Arizona State.",
-      "Not in EdgeDesk’s verified data for this game: turnover rates, injuries and personnel and penalty rate."
-    ],
-    "flags": [
-      {
-        "key": "DATA_CONFLICT",
-        "severity": "medium",
-        "text": "EdgeDesk’s own sources disagree on sack rate allowed (BYU), sack rate (BYU), sack rate allowed (Arizona State) and sack rate (Arizona State); the evidence uses the corroborated figures, and any model term built on the play-by-play figure may be off."
-      }
-    ],
-    "sources": [
-      {
-        "label": "EdgeDesk play-by-play unit metrics (2026 season)",
-        "url": null,
-        "path": "football/matchup/metrics.json",
-        "observed_at": "2026-10-27T05:10:50.316Z",
-        "verification": "VERIFIED_DATA"
-      },
-      {
-        "label": "EdgeDesk play-by-play quarterback logs (2026)",
-        "url": null,
-        "path": "football/fbs_epa/qb_epa_2026.json",
-        "observed_at": "2026-10-25T02:15:00.000Z",
-        "verification": "VERIFIED_DATA"
-      }
-    ],
-    "needs_confirmation": []
-  },
+  "football_evidence": null,
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-10-27T08:53:29.281Z"
+    "at": "2026-11-01T00:02:55.724Z"
   }
 }

@@ -1,0 +1,141 @@
+{
+ "schema": "edgedesk_availability_report_v1",
+ "version": 1,
+ "conference": "Big Ten Conference",
+ "conference_id": "bigten",
+ "team": "Oregon",
+ "game_id": "401858505",
+ "kickoff": "2026-10-31T19:30:00.000Z",
+ "source_url": "https://app.hdintelligence.com/?source=B10&sport=Football&conf=B10&type=report",
+ "published_at": "2026-10-31T17:30:00.000Z",
+ "retrieved_at": "2026-10-31T21:26:20.038Z",
+ "scope": "CONFERENCE_GAMES",
+ "comprehensive": true,
+ "vocabulary": [
+  "AVAILABLE",
+  "PROBABLE",
+  "QUESTIONABLE",
+  "DOUBTFUL",
+  "OUT",
+  "OUT_FIRST_HALF",
+  "GAME_TIME_DECISION"
+ ],
+ "applicability": {
+  "state": "REQUIRED",
+  "why": "Big Ten Conference requires an availability report for this game: four filings a week for conference games — three days, two days and the night before at 8pm ET, then two hours before kickoff"
+ },
+ "format": "published-listing",
+ "platform": "hdintelligence",
+ "report_type": "Game Day",
+ "report_id": "3465",
+ "listing_scope": "FULL_ROSTER",
+ "lines_read": 112,
+ "listed_n": 112,
+ "rows": [
+  {
+   "player_name": "Iverson Hooks",
+   "player_id": "4912286",
+   "position": "WR",
+   "jersey": "2",
+   "status": "GAME_TIME_DECISION",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "WR #2 Iverson Hooks · Game Time Decision",
+   "on_roster": true
+  },
+  {
+   "player_name": "Jeremiah McClellan",
+   "player_id": "5079519",
+   "position": "WR",
+   "jersey": "3",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "WR #3 Jeremiah McClellan · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Dante Moore",
+   "player_id": "4870921",
+   "position": "QB",
+   "jersey": "5",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "QB #5 Dante Moore · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Messiah Hampton",
+   "player_id": "5211889",
+   "position": "WR",
+   "jersey": "15",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "WR #15 Messiah Hampton · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Aaron Flowers",
+   "player_id": "5079428",
+   "position": "DB",
+   "jersey": "21",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "DB #21 Aaron Flowers · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Brayden Platt",
+   "player_id": "5079670",
+   "position": "ILB",
+   "jersey": "23",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "ILB #23 Brayden Platt · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Matthew Johnson",
+   "player_id": "5141533",
+   "position": "DL",
+   "jersey": "55",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "DL #55 Matthew Johnson · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Trent Ferguson",
+   "player_id": "5141801",
+   "position": "OL",
+   "jersey": "56",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "OL #56 Trent Ferguson · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Dave Iuli",
+   "player_id": "4685392",
+   "position": "OL",
+   "jersey": "74",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "OL #74 Dave Iuli · Out",
+   "on_roster": true
+  }
+ ],
+ "unparsed": [],
+ "ok": true,
+ "names_nobody": false,
+ "explicit_none": false,
+ "silence_means_available": false,
+ "why": "9 player(s) designated on the published listing (Game Day)"
+}

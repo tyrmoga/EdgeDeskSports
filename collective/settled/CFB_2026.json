@@ -2,7 +2,7 @@
  "schema": "edgedesk_collective_settled_v1",
  "sport": "CFB",
  "season": 2026,
- "generated_at": "2026-10-25T14:11:43.714Z",
+ "generated_at": "2026-11-01T18:21:16.569Z",
  "rule": "Each game is graded on the final score against the Collective's own captured closing line. A score comes only from a public feed that carries the game as completed with two integer scores, agreed by every feed that carries it; 0-0 is never a final. A missing close is null, never invented.",
  "games": {
   "0166e0ab-0803-4e50-af17-0e7706f4428d": {
@@ -19,6 +19,21 @@
    "score_source": "collective",
    "settled_at": "2026-10-04T05:09:07.351Z",
    "week": 5
+  },
+  "0302cd32-c2fb-4eec-8029-933ef6281762": {
+   "away": "UAB",
+   "away_score": 10,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "SOUTHFLORI",
+   "home_score": 30,
+   "kickoff_at": "2026-10-31T16:00:00+00:00",
+   "label": "UAB @ SOUTHFLORI",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T19:48:44.659Z",
+   "week": 9
   },
   "03041053-e18c-462c-9dce-e8f0d5beee5a": {
    "away": "JACKSONVIL",
@@ -155,6 +170,21 @@
    "settled_at": "2026-09-20T05:54:51.572Z",
    "week": 3
   },
+  "07a2aef1-708c-49b7-94b3-1ad28e97fcd7": {
+   "away": "CALIFORNIA",
+   "away_score": 10,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "NCSTATE",
+   "home_score": 31,
+   "kickoff_at": "2026-10-31T16:00:00+00:00",
+   "label": "CALIFORNIA @ NCSTATE",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T19:48:44.659Z",
+   "week": 9
+  },
   "07c1f567-e36d-4ee2-a7b4-1c01df7f1e5d": {
    "away": "SANDIEGOST",
    "away_score": 14,
@@ -169,6 +199,21 @@
    "score_source": "collective",
    "settled_at": "2026-10-11T01:42:37.012Z",
    "week": 6
+  },
+  "080230d6-dade-4bce-be53-f6ce4ae9eb30": {
+   "away": "MICHIGAN",
+   "away_score": 28,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "RUTGERS",
+   "home_score": 21,
+   "kickoff_at": "2026-10-31T16:30:00+00:00",
+   "label": "MICHIGAN @ RUTGERS",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T19:48:44.659Z",
+   "week": 9
   },
   "0910cfe6-c082-46c0-98c3-2c0aa752c046": {
    "away": "OREGONSTAT",
@@ -215,6 +260,21 @@
    "settled_at": "2026-09-19T20:19:19.247Z",
    "week": 3
   },
+  "09eb9ab0-53b1-457d-821a-26236c5f77ee": {
+   "away": "ILLINOIS",
+   "away_score": 20,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "MARYLAND",
+   "home_score": 17,
+   "kickoff_at": "2026-10-31T16:00:00+00:00",
+   "label": "ILLINOIS @ MARYLAND",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T19:48:44.659Z",
+   "week": 9
+  },
   "0aa92763-933f-4561-83c7-5b7be8f5819a": {
    "away": "WASHINGTON",
    "away_score": 38,
@@ -244,6 +304,21 @@
    "score_source": "collective",
    "settled_at": "2026-10-10T22:21:09.676Z",
    "week": 6
+  },
+  "0b146b91-b7e0-448a-b32d-e9f951661a25": {
+   "away": "TEMPLE",
+   "away_score": 9,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "EASTCAROLI",
+   "home_score": 17,
+   "kickoff_at": "2026-10-31T19:00:00+00:00",
+   "label": "TEMPLE @ EASTCAROLI",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T23:13:02.683Z",
+   "week": 9
   },
   "0b977bcd-b749-44b6-9741-5b68aef7e1f8": {
    "away": "MERCYHURST",
@@ -304,6 +379,21 @@
    "score_source": "collective",
    "settled_at": "2026-10-25T03:59:31.025Z",
    "week": 8
+  },
+  "0dbe7bbe-c16f-4f10-ba20-a38b81aed643": {
+   "away": "APPSTATE",
+   "away_score": 3,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "GEORGIASOU",
+   "home_score": 19,
+   "kickoff_at": "2026-10-31T22:30:00+00:00",
+   "label": "APPSTATE @ GEORGIASOU",
+   "score_source": "collective",
+   "settled_at": "2026-11-01T05:17:27.972Z",
+   "week": 9
   },
   "0e308a7d-cca6-4010-b271-7deb17dc4d7c": {
    "away": "ELON",
@@ -454,6 +544,21 @@
    "score_source": "collective",
    "settled_at": "2026-09-05T21:01:55.923Z",
    "week": 1
+  },
+  "1202a733-eeac-4c2e-9f51-c76b840e8509": {
+   "away": "COLORADOST",
+   "away_score": 14,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "UTAHSTATE",
+   "home_score": 31,
+   "kickoff_at": "2026-10-31T19:30:00+00:00",
+   "label": "COLORADOST @ UTAHSTATE",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T23:13:02.683Z",
+   "week": 9
   },
   "12624e49-7b93-40d7-add9-0d80096f3565": {
    "away": "MISSISSIPP",
@@ -710,6 +815,21 @@
    "settled_at": "2026-10-11T01:42:37.012Z",
    "week": 6
   },
+  "1a7d2354-3325-4df5-9a6c-2e52e1f9329c": {
+   "away": "JACKSONVIL",
+   "away_score": 24,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "NEWMEXICOS",
+   "home_score": 0,
+   "kickoff_at": "2026-10-29T00:00:00+00:00",
+   "label": "JACKSONVIL @ NEWMEXICOS",
+   "score_source": "collective",
+   "settled_at": "2026-10-29T05:05:40.631Z",
+   "week": 9
+  },
   "1a7ff94f-dd1d-4da1-a015-3be0ae033f3e": {
    "away": "TEXASTECH",
    "away_score": 24,
@@ -814,6 +934,21 @@
    "score_source": "collective",
    "settled_at": "2026-10-10T22:21:09.676Z",
    "week": 6
+  },
+  "201fd812-3e24-4ccc-82e3-6714e0b6cba6": {
+   "away": "STANFORD",
+   "away_score": 24,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "LOUISVILLE",
+   "home_score": 52,
+   "kickoff_at": "2026-10-31T19:15:00+00:00",
+   "label": "STANFORD @ LOUISVILLE",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T23:13:02.683Z",
+   "week": 9
   },
   "21c607d9-a0ab-4ff6-a60a-9784fd7d8d4e": {
    "away": "UTAHSTATE",
@@ -949,6 +1084,21 @@
    "score_source": "collective",
    "settled_at": "2026-09-13T05:48:21.223Z",
    "week": 2
+  },
+  "28858b70-45c4-40d5-b08a-01ebb8b1b2c8": {
+   "away": "BOSTONCOLL",
+   "away_score": 2,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "DUKE",
+   "home_score": 47,
+   "kickoff_at": "2026-10-31T16:00:00+00:00",
+   "label": "BOSTONCOLL @ DUKE",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T19:48:44.659Z",
+   "week": 9
   },
   "2a20f2f2-07e9-4ebc-ab7d-95a194dd6ef8": {
    "away": "MEMPHIS",
@@ -1160,6 +1310,21 @@
    "settled_at": "2026-10-04T05:09:07.351Z",
    "week": 5
   },
+  "3062a6e8-807f-41a5-ace5-3a055fd2be12": {
+   "away": "DELAWARE",
+   "away_score": 35,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "WESTERNKEN",
+   "home_score": 21,
+   "kickoff_at": "2026-10-27T23:00:00+00:00",
+   "label": "DELAWARE @ WESTERNKEN",
+   "score_source": "collective",
+   "settled_at": "2026-10-28T04:54:43.926Z",
+   "week": 9
+  },
   "306ba402-8d00-4209-9db5-045dd0ad241a": {
    "away": "ULMONROE",
    "away_score": 21,
@@ -1174,6 +1339,21 @@
    "score_source": "collective",
    "settled_at": "2026-10-25T03:59:31.025Z",
    "week": 8
+  },
+  "309a6e19-f450-4814-9b89-23f282845864": {
+   "away": "MISSISSIPP",
+   "away_score": 3,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "TEXAS",
+   "home_score": 31,
+   "kickoff_at": "2026-10-31T23:30:00+00:00",
+   "label": "MISSISSIPP @ TEXAS",
+   "score_source": "collective",
+   "settled_at": "2026-11-01T05:17:27.972Z",
+   "week": 9
   },
   "327ad57e-a6a7-455f-a4d6-e0efc2573da3": {
    "away": "LOUISIANA",
@@ -1340,6 +1520,21 @@
    "settled_at": "2026-10-11T01:42:37.012Z",
    "week": 6
   },
+  "3697d8fb-da50-4e0e-923e-266e4c4116bb": {
+   "away": "NORTHWESTE",
+   "away_score": 26,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "OREGON",
+   "home_score": 34,
+   "kickoff_at": "2026-10-31T19:30:00+00:00",
+   "label": "NORTHWESTE @ OREGON",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T23:13:02.683Z",
+   "week": 9
+  },
   "375fa7f4-fa09-4333-8342-4c0d677902b7": {
    "away": "SANJOSESTA",
    "away_score": 27,
@@ -1384,6 +1579,21 @@
    "score_source": "collective",
    "settled_at": "2026-10-24T05:34:06.735Z",
    "week": 8
+  },
+  "37c37850-3a78-421a-adbe-df3fbee0282a": {
+   "away": "GEORGIATEC",
+   "away_score": 11,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "PITTSBURGH",
+   "home_score": 34,
+   "kickoff_at": "2026-10-31T23:30:00+00:00",
+   "label": "GEORGIATEC @ PITTSBURGH",
+   "score_source": "collective",
+   "settled_at": "2026-11-01T05:17:27.972Z",
+   "week": 9
   },
   "37ec2599-a543-4653-898b-f4f068393add": {
    "away": "UCONN",
@@ -1625,6 +1835,21 @@
    "settled_at": "2026-09-19T22:47:10.172Z",
    "week": 3
   },
+  "418863ba-75fe-4d45-bcd1-09b8db267a34": {
+   "away": "BAYLOR",
+   "away_score": 41,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "UCF",
+   "home_score": 9,
+   "kickoff_at": "2026-10-30T23:30:00+00:00",
+   "label": "BAYLOR @ UCF",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T09:26:09.873Z",
+   "week": 9
+  },
   "419af7fb-8a1a-43e4-a13b-09bdbcb54371": {
    "away": "MARYLAND",
    "away_score": 23,
@@ -1640,6 +1865,21 @@
    "settled_at": "2026-10-04T05:09:07.351Z",
    "week": 5
   },
+  "41ff759b-925e-477d-96c7-c8931ef42d31": {
+   "away": "AUBURN",
+   "away_score": 15,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "OLEMISS",
+   "home_score": 45,
+   "kickoff_at": "2026-10-31T16:45:00+00:00",
+   "label": "AUBURN @ OLEMISS",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T23:13:02.683Z",
+   "week": 9
+  },
   "421c0c2e-0007-486c-b9a1-361ba2710be7": {
    "away": "NORTHERNIL",
    "away_score": 23,
@@ -1654,6 +1894,21 @@
    "score_source": "collective",
    "settled_at": "2026-10-18T00:45:00.636Z",
    "week": 7
+  },
+  "424ed04e-1213-48e8-ac7d-1697de0e1fb9": {
+   "away": "KANSASSTAT",
+   "away_score": 24,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "COLORADO",
+   "home_score": 27,
+   "kickoff_at": "2026-10-31T18:00:00+00:00",
+   "label": "KANSASSTAT @ COLORADO",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T23:13:02.683Z",
+   "week": 9
   },
   "4295152b-f4ce-4b03-8b63-b383cadcdeef": {
    "away": "LSU",
@@ -2075,6 +2330,21 @@
    "settled_at": "2026-10-04T12:02:50.587Z",
    "week": 5
   },
+  "4eb9664b-0c62-4093-bdb3-905c32152001": {
+   "away": "NEWMEXICO",
+   "away_score": 21,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "SANJOSESTA",
+   "home_score": 16,
+   "kickoff_at": "2026-10-31T20:00:00+00:00",
+   "label": "NEWMEXICO @ SANJOSESTA",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T23:13:02.683Z",
+   "week": 9
+  },
   "4f181cbc-05fe-45e4-b8a8-dd23c6afb3b0": {
    "away": "ILLINOIS",
    "away_score": 19,
@@ -2209,6 +2479,36 @@
    "score_source": "collective",
    "settled_at": "2026-10-18T10:41:06.926Z",
    "week": 7
+  },
+  "531a1902-ed6c-468c-8e13-4209cdfdf77e": {
+   "away": "WISCONSIN",
+   "away_score": 0,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "IOWA",
+   "home_score": 30,
+   "kickoff_at": "2026-10-31T16:00:00+00:00",
+   "label": "WISCONSIN @ IOWA",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T19:48:44.659Z",
+   "week": 9
+  },
+  "53551611-51f6-4f01-a9a8-8f267585fcc5": {
+   "away": "ARMY",
+   "away_score": 22,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "MEMPHIS",
+   "home_score": 49,
+   "kickoff_at": "2026-11-01T00:00:00+00:00",
+   "label": "ARMY @ MEMPHIS",
+   "score_source": "collective",
+   "settled_at": "2026-11-01T05:17:27.972Z",
+   "week": 9
   },
   "539e7383-3858-49c8-97ef-083ebf62a351": {
    "away": "SMU",
@@ -2540,6 +2840,21 @@
    "settled_at": "2026-10-04T05:09:07.351Z",
    "week": 5
   },
+  "5d2aa8ba-e6d8-4e7b-8ea2-c10959022f18": {
+   "away": "NEVADA",
+   "away_score": 0,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "UCLA",
+   "home_score": 27,
+   "kickoff_at": "2026-10-31T20:15:00+00:00",
+   "label": "NEVADA @ UCLA",
+   "score_source": "collective",
+   "settled_at": "2026-11-01T05:17:27.972Z",
+   "week": 9
+  },
   "5da1423a-a1a7-4799-9f07-703af72ebc9e": {
    "away": "DELAWAREST",
    "away_score": 17,
@@ -2840,6 +3155,21 @@
    "settled_at": "2026-09-13T05:48:21.223Z",
    "week": 2
   },
+  "642a56fa-f1e7-43cc-8dff-8556983888d7": {
+   "away": "FLORIDAINT",
+   "away_score": 10,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "LIBERTY",
+   "home_score": 49,
+   "kickoff_at": "2026-10-31T19:30:00+00:00",
+   "label": "FLORIDAINT @ LIBERTY",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T23:13:02.683Z",
+   "week": 9
+  },
   "64439c9f-bd9f-494b-9b71-76c107ee639f": {
    "away": "MICHIGANST",
    "away_score": 10,
@@ -2915,6 +3245,36 @@
    "settled_at": "2026-09-27T07:51:14.425Z",
    "week": 4
   },
+  "6719a10a-4a21-4419-b556-a12ac2d54081": {
+   "away": "MIAMI",
+   "away_score": 38,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "NORTHCAROL",
+   "home_score": 35,
+   "kickoff_at": "2026-10-31T23:30:00+00:00",
+   "label": "MIAMI @ NORTHCAROL",
+   "score_source": "collective",
+   "settled_at": "2026-11-01T05:17:27.972Z",
+   "week": 9
+  },
+  "67bc998a-b891-449c-ac9a-6936ae022a72": {
+   "away": "KENNESAWST",
+   "away_score": 44,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "MIDDLETENN",
+   "home_score": 28,
+   "kickoff_at": "2026-10-28T23:00:00+00:00",
+   "label": "KENNESAWST @ MIDDLETENN",
+   "score_source": "collective",
+   "settled_at": "2026-10-29T05:05:40.631Z",
+   "week": 9
+  },
   "67d6382a-87d4-4b7c-97f0-a37325bade04": {
    "away": "MIAMIOH",
    "away_score": 31,
@@ -2944,6 +3304,21 @@
    "score_source": "collective",
    "settled_at": "2026-09-20T05:54:51.572Z",
    "week": 3
+  },
+  "6863289c-6a2f-4bba-a5fa-015302ec69e4": {
+   "away": "KENTSTATE",
+   "away_score": 10,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "SACRAMENTO",
+   "home_score": 31,
+   "kickoff_at": "2026-10-31T02:30:00+00:00",
+   "label": "KENTSTATE @ SACRAMENTO",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T09:26:09.873Z",
+   "week": 9
   },
   "68c5e87f-3a53-4249-ad13-c59a4dc4b027": {
    "away": "NEBRASKA",
@@ -3170,6 +3545,21 @@
    "settled_at": "2026-10-04T05:09:07.351Z",
    "week": 5
   },
+  "700f11cd-4362-41ed-8950-900ab71315a0": {
+   "away": "OHIOSTATE",
+   "away_score": 18,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "USC",
+   "home_score": 30,
+   "kickoff_at": "2026-10-31T23:30:00+00:00",
+   "label": "OHIOSTATE @ USC",
+   "score_source": "collective",
+   "settled_at": "2026-11-01T05:17:27.972Z",
+   "week": 9
+  },
   "714a2deb-a389-4e49-ab6c-0e75bcbdbfc4": {
    "away": "SOUTHFLORI",
    "away_score": 28,
@@ -3394,6 +3784,21 @@
    "score_source": "collective",
    "settled_at": "2026-10-04T05:09:07.351Z",
    "week": 5
+  },
+  "79109910-9d13-4516-97b7-7ddbd46055b5": {
+   "away": "FLORIDAATL",
+   "away_score": 41,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "NORTHTEXAS",
+   "home_score": 48,
+   "kickoff_at": "2026-10-29T23:30:00+00:00",
+   "label": "FLORIDAATL @ NORTHTEXAS",
+   "score_source": "collective",
+   "settled_at": "2026-10-30T05:05:22.230Z",
+   "week": 9
   },
   "79222ebc-b9cf-4c3d-847c-c018beb07cc3": {
    "away": "WESTERNKEN",
@@ -3620,6 +4025,21 @@
    "settled_at": "2026-10-11T01:42:37.012Z",
    "week": 6
   },
+  "7fee52b9-efef-4749-933a-3873108d41a0": {
+   "away": "NORTHERNIL",
+   "away_score": 24,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "UNLV",
+   "home_score": 31,
+   "kickoff_at": "2026-11-01T02:30:00+00:00",
+   "label": "NORTHERNIL @ UNLV",
+   "score_source": "collective",
+   "settled_at": "2026-11-01T12:56:51.308Z",
+   "week": 9
+  },
   "7ffba592-3da0-444a-97e9-1697d42ca42a": {
    "away": "LOUISVILLE",
    "away_score": 38,
@@ -3754,6 +4174,21 @@
    "score_source": "collective",
    "settled_at": "2026-09-05T23:40:20.769Z",
    "week": 1
+  },
+  "8583c5f7-70c0-4d04-8b7b-1b2304c9b895": {
+   "away": "NOTREDAME",
+   "away_score": 35,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "NAVY",
+   "home_score": 13,
+   "kickoff_at": "2026-10-31T16:00:00+00:00",
+   "label": "NOTREDAME @ NAVY",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T19:48:44.659Z",
+   "week": 9
   },
   "86f9e32a-1d2b-44a5-8f6b-e617639df88f": {
    "away": "VANDERBILT",
@@ -3920,6 +4355,21 @@
    "settled_at": "2026-10-11T08:32:13.001Z",
    "week": 6
   },
+  "8ad8b390-2c87-49d8-ba51-ff1bf2567a02": {
+   "away": "MARSHALL",
+   "away_score": 36,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "OLDDOMINIO",
+   "home_score": 23,
+   "kickoff_at": "2026-10-31T17:00:00+00:00",
+   "label": "MARSHALL @ OLDDOMINIO",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T23:13:02.683Z",
+   "week": 9
+  },
   "8d131d30-c50b-4150-a572-4b54ce89b0ef": {
    "away": "PENNSTATE",
    "away_score": 13,
@@ -3934,6 +4384,21 @@
    "score_source": "collective",
    "settled_at": "2026-10-03T12:21:47.960Z",
    "week": 5
+  },
+  "8ebc89bf-e719-4f1c-a67c-17fac84070c1": {
+   "away": "COASTALCAR",
+   "away_score": 31,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "GEORGIASTA",
+   "home_score": 20,
+   "kickoff_at": "2026-10-31T18:00:00+00:00",
+   "label": "COASTALCAR @ GEORGIASTA",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T23:13:02.683Z",
+   "week": 9
   },
   "8ee12d2c-0866-43b0-b050-8ef57086ad2a": {
    "away": "INCARNATEW",
@@ -4085,6 +4550,21 @@
    "settled_at": "2026-10-24T23:01:14.139Z",
    "week": 8
   },
+  "9508250c-8268-4edd-a6c5-144399675251": {
+   "away": "UTAH",
+   "away_score": 49,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "CINCINNATI",
+   "home_score": 25,
+   "kickoff_at": "2026-10-31T19:45:00+00:00",
+   "label": "UTAH @ CINCINNATI",
+   "score_source": "collective",
+   "settled_at": "2026-11-01T05:17:27.972Z",
+   "week": 9
+  },
   "95089365-a6a8-46a2-b804-d3e7004b7218": {
    "away": "MIAMI",
    "away_score": 45,
@@ -4189,6 +4669,21 @@
    "score_source": "collective",
    "settled_at": "2026-10-18T10:41:06.926Z",
    "week": 7
+  },
+  "980b398c-bf50-4298-9078-f364d201fa37": {
+   "away": "ARIZONASTA",
+   "away_score": 20,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "BYU",
+   "home_score": 27,
+   "kickoff_at": "2026-10-31T19:30:00+00:00",
+   "label": "ARIZONASTA @ BYU",
+   "score_source": "collective",
+   "settled_at": "2026-11-01T05:17:27.972Z",
+   "week": 9
   },
   "9884ac28-17e0-4bd7-9438-03efd924bcf1": {
    "away": "TEXASSTATE",
@@ -4414,6 +4909,21 @@
    "score_source": "collective",
    "settled_at": "2026-10-18T05:35:18.309Z",
    "week": 7
+  },
+  "9f9c1c39-90ce-404c-aacb-213f0105433e": {
+   "away": "OREGONSTAT",
+   "away_score": 22,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "FRESNOSTAT",
+   "home_score": 38,
+   "kickoff_at": "2026-11-01T03:00:00+00:00",
+   "label": "OREGONSTAT @ FRESNOSTAT",
+   "score_source": "collective",
+   "settled_at": "2026-11-01T12:56:51.308Z",
+   "week": 9
   },
   "a06b4ba0-ef17-4f57-b712-df81cbc7c705": {
    "away": "TEXASAM",
@@ -4685,6 +5195,21 @@
    "settled_at": "2026-10-11T08:32:13.001Z",
    "week": 6
   },
+  "aa5eb636-29ac-485a-8a54-372d7d44a003": {
+   "away": "TULANE",
+   "away_score": 38,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "CHARLOTTE",
+   "home_score": 31,
+   "kickoff_at": "2026-10-30T23:00:00+00:00",
+   "label": "TULANE @ CHARLOTTE",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T09:26:09.873Z",
+   "week": 9
+  },
   "aa8712db-f2f9-40da-9682-9e336acc9379": {
    "away": "UNLV",
    "away_score": 38,
@@ -4774,6 +5299,21 @@
    "score_source": "collective",
    "settled_at": "2026-10-18T10:41:06.926Z",
    "week": 7
+  },
+  "aeca8ead-2e71-46f7-8625-17af7abd528f": {
+   "away": "BOWLINGGRE",
+   "away_score": 10,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "WESTERNMIC",
+   "home_score": 23,
+   "kickoff_at": "2026-10-31T16:00:00+00:00",
+   "label": "BOWLINGGRE @ WESTERNMIC",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T19:48:44.659Z",
+   "week": 9
   },
   "aefedb54-a204-4f30-a6d7-ae31030ddb17": {
    "away": "GEORGIASTA",
@@ -5165,6 +5705,21 @@
    "settled_at": "2026-10-04T05:09:07.351Z",
    "week": 5
   },
+  "b9f689ea-50ac-493d-8516-fb599ffe8627": {
+   "away": "MISSOURI",
+   "away_score": 34,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "ARKANSAS",
+   "home_score": 10,
+   "kickoff_at": "2026-10-31T23:45:00+00:00",
+   "label": "MISSOURI @ ARKANSAS",
+   "score_source": "collective",
+   "settled_at": "2026-11-01T05:17:27.972Z",
+   "week": 9
+  },
   "ba6ae6cb-957c-4a26-be89-db43d4102e9e": {
    "away": "MONTANA",
    "away_score": 17,
@@ -5239,6 +5794,21 @@
    "score_source": "collective",
    "settled_at": "2026-09-26T22:33:06.831Z",
    "week": 4
+  },
+  "bb9fe197-4202-45f1-934a-58f640d46191": {
+   "away": "SOUTHERNMI",
+   "away_score": 35,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "ULMONROE",
+   "home_score": 21,
+   "kickoff_at": "2026-10-31T19:30:00+00:00",
+   "label": "SOUTHERNMI @ ULMONROE",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T23:13:02.683Z",
+   "week": 9
   },
   "bca4055c-40f9-41d0-bf52-dbb193e96dca": {
    "away": "MERCER",
@@ -5359,6 +5929,36 @@
    "score_source": "collective",
    "settled_at": "2026-09-27T07:51:14.425Z",
    "week": 4
+  },
+  "c22dcc73-05c8-4cc7-9cd7-014f9bb94d7d": {
+   "away": "CLEMSON",
+   "away_score": 36,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "FLORIDASTA",
+   "home_score": 24,
+   "kickoff_at": "2026-10-31T23:00:00+00:00",
+   "label": "CLEMSON @ FLORIDASTA",
+   "score_source": "collective",
+   "settled_at": "2026-11-01T05:17:27.972Z",
+   "week": 9
+  },
+  "c25e57c6-6c5e-4cc3-9c51-1689a8501ceb": {
+   "away": "TEXASSTATE",
+   "away_score": 45,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "BOISESTATE",
+   "home_score": 46,
+   "kickoff_at": "2026-11-01T02:00:00+00:00",
+   "label": "TEXASSTATE @ BOISESTATE",
+   "score_source": "collective",
+   "settled_at": "2026-11-01T12:56:51.308Z",
+   "week": 9
   },
   "c3becc1c-654f-4989-8c5d-59fe6ddc69d3": {
    "away": "SAMHOUSTON",
@@ -5690,6 +6290,21 @@
    "settled_at": "2026-10-10T22:21:09.676Z",
    "week": 6
   },
+  "ce6949ed-4d9f-48da-909e-d58d9bdedb70": {
+   "away": "UCONN",
+   "away_score": 26,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "AIRFORCE",
+   "home_score": 35,
+   "kickoff_at": "2026-10-31T19:00:00+00:00",
+   "label": "UCONN @ AIRFORCE",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T23:13:02.683Z",
+   "week": 9
+  },
   "cf252f24-2177-4f6e-95a4-0cf97a19bc35": {
    "away": "KANSAS",
    "away_score": 24,
@@ -5704,6 +6319,21 @@
    "score_source": "collective",
    "settled_at": "2026-10-11T08:32:13.001Z",
    "week": 6
+  },
+  "d06c6702-aad9-4b25-b30f-6410499ff5ce": {
+   "away": "SMU",
+   "away_score": 27,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "SYRACUSE",
+   "home_score": 30,
+   "kickoff_at": "2026-10-31T16:00:00+00:00",
+   "label": "SMU @ SYRACUSE",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T19:48:44.659Z",
+   "week": 9
   },
   "d1085e49-335c-4844-be91-08212f891ffb": {
    "away": "VIRGINIATE",
@@ -5885,6 +6515,21 @@
    "settled_at": "2026-10-04T05:09:07.351Z",
    "week": 5
   },
+  "d54bcb9b-e37d-43e9-bf41-3150e6829d9c": {
+   "away": "FLORIDA",
+   "away_score": 8,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "GEORGIA",
+   "home_score": 27,
+   "kickoff_at": "2026-10-31T19:30:00+00:00",
+   "label": "FLORIDA @ GEORGIA",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T23:13:02.683Z",
+   "week": 9
+  },
   "d590aefe-0eb4-4211-8bce-98bdaa78652e": {
    "away": "NORTHCAROL",
    "away_score": 21,
@@ -5914,6 +6559,21 @@
    "score_source": "collective",
    "settled_at": "2026-09-05T21:01:55.923Z",
    "week": 1
+  },
+  "d67bb019-d65f-476f-acbe-5bdc9ea419cb": {
+   "away": "PURDUE",
+   "away_score": 17,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "PENNSTATE",
+   "home_score": 31,
+   "kickoff_at": "2026-10-31T20:15:00+00:00",
+   "label": "PURDUE @ PENNSTATE",
+   "score_source": "collective",
+   "settled_at": "2026-11-01T05:17:27.972Z",
+   "week": 9
   },
   "d81dcdec-a28f-4319-a963-339bf9c5b1f5": {
    "away": "UTSA",
@@ -6125,6 +6785,21 @@
    "settled_at": "2026-09-13T05:48:21.223Z",
    "week": 2
   },
+  "dd813d68-b780-4004-8a1a-e1817d878d0a": {
+   "away": "WASHINGTON",
+   "away_score": 17,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "NEBRASKA",
+   "home_score": 10,
+   "kickoff_at": "2026-11-01T00:00:00+00:00",
+   "label": "WASHINGTON @ NEBRASKA",
+   "score_source": "collective",
+   "settled_at": "2026-11-01T05:17:27.972Z",
+   "week": 9
+  },
   "dda3041c-1cef-44e3-b66b-d156d1ef6767": {
    "away": "COLORADOST",
    "away_score": 45,
@@ -6230,6 +6905,21 @@
    "settled_at": "2026-10-04T05:09:07.351Z",
    "week": 5
   },
+  "df94f6e9-92b7-4185-a6d8-47e1bfda6be9": {
+   "away": "ARIZONA",
+   "away_score": 26,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "TEXASTECH",
+   "home_score": 34,
+   "kickoff_at": "2026-10-31T16:00:00+00:00",
+   "label": "ARIZONA @ TEXASTECH",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T19:48:44.659Z",
+   "week": 9
+  },
   "e20fa78a-1d49-48ae-b73b-985f4a33da06": {
    "away": "TENNESSEE",
    "away_score": 24,
@@ -6289,6 +6979,21 @@
    "score_source": "collective",
    "settled_at": "2026-10-18T00:45:00.636Z",
    "week": 7
+  },
+  "e2c9cdcd-0afb-42a4-a791-e0dd5b07bc86": {
+   "away": "KANSAS",
+   "away_score": 16,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "TCU",
+   "home_score": 22,
+   "kickoff_at": "2026-10-31T19:30:00+00:00",
+   "label": "KANSAS @ TCU",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T23:13:02.683Z",
+   "week": 9
   },
   "e2f5c8bc-f057-4b3c-b362-d7fb026304f6": {
    "away": "ARKANSAS",
@@ -6365,6 +7070,21 @@
    "settled_at": "2026-10-04T05:09:07.351Z",
    "week": 5
   },
+  "e50e78c9-87ea-4731-af40-6eb049863135": {
+   "away": "UTEP",
+   "away_score": 7,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "NORTHDAKOT",
+   "home_score": 31,
+   "kickoff_at": "2026-10-31T19:30:00+00:00",
+   "label": "UTEP @ NORTHDAKOT",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T23:13:02.683Z",
+   "week": 9
+  },
   "e54842f8-b768-47d4-97bb-79d333f003a9": {
    "away": "NORTHTEXAS",
    "away_score": 35,
@@ -6394,6 +7114,21 @@
    "score_source": "collective",
    "settled_at": "2026-09-07T03:49:19.945Z",
    "week": 1
+  },
+  "e5fd0671-fc18-4002-90b8-70557f3a633f": {
+   "away": "LOUISIANAT",
+   "away_score": 35,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "SOUTHALABA",
+   "home_score": 20,
+   "kickoff_at": "2026-10-31T19:00:00+00:00",
+   "label": "LOUISIANAT @ SOUTHALABA",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T23:13:02.683Z",
+   "week": 9
   },
   "e62b280b-3f00-4594-9e5e-e67fb6433d49": {
    "away": "RUTGERS",
@@ -6500,6 +7235,21 @@
    "settled_at": "2026-09-26T22:33:06.831Z",
    "week": 4
   },
+  "e8afa5be-ea65-4672-8998-6d627e8a9998": {
+   "away": "TROY",
+   "away_score": 24,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "JAMESMADIS",
+   "home_score": 21,
+   "kickoff_at": "2026-10-29T23:30:00+00:00",
+   "label": "TROY @ JAMESMADIS",
+   "score_source": "collective",
+   "settled_at": "2026-10-30T05:05:22.230Z",
+   "week": 9
+  },
   "e8bdfc7e-4aaa-4b83-8b86-3cbb694d5a23": {
    "away": "BALLSTATE",
    "away_score": 3,
@@ -6560,6 +7310,21 @@
    "settled_at": "2026-10-11T01:42:37.012Z",
    "week": 6
   },
+  "eddfb48c-c7ac-4068-b5e4-22e2cc00576f": {
+   "away": "OKLAHOMAST",
+   "away_score": 49,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "IOWASTATE",
+   "home_score": 51,
+   "kickoff_at": "2026-10-31T23:00:00+00:00",
+   "label": "OKLAHOMAST @ IOWASTATE",
+   "score_source": "collective",
+   "settled_at": "2026-11-01T05:17:27.972Z",
+   "week": 9
+  },
   "ee846925-66d4-44ea-adad-9bd5d093d0cf": {
    "away": "VIRGINIATE",
    "away_score": 35,
@@ -6604,6 +7369,21 @@
    "score_source": "collective",
    "settled_at": "2026-09-12T22:03:43.689Z",
    "week": 2
+  },
+  "f04ed835-7508-4864-bf25-67493036229b": {
+   "away": "SAMHOUSTON",
+   "away_score": 3,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "MISSOURIST",
+   "home_score": 24,
+   "kickoff_at": "2026-10-28T00:00:00+00:00",
+   "label": "SAMHOUSTON @ MISSOURIST",
+   "score_source": "collective",
+   "settled_at": "2026-10-28T04:54:43.926Z",
+   "week": 9
   },
   "f06d95cc-ffc3-4a46-8562-737c2ff8152c": {
    "away": "INDIANA",
@@ -6709,6 +7489,21 @@
    "score_source": "collective",
    "settled_at": "2026-09-13T00:42:57.016Z",
    "week": 2
+  },
+  "f2cac7c5-60c5-440a-964c-ae6c8ae2248d": {
+   "away": "SOUTHCAROL",
+   "away_score": 42,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "OKLAHOMA",
+   "home_score": 25,
+   "kickoff_at": "2026-10-31T20:15:00+00:00",
+   "label": "SOUTHCAROL @ OKLAHOMA",
+   "score_source": "collective",
+   "settled_at": "2026-11-01T05:17:27.972Z",
+   "week": 9
   },
   "f39506af-f2db-426b-8b83-88b5c6951b98": {
    "away": "TENNESSEE",
@@ -6890,6 +7685,21 @@
    "settled_at": "2026-10-09T15:58:32.440Z",
    "week": 6
   },
+  "f8f0f08b-7335-4343-beba-61da7c2f6a90": {
+   "away": "MINNESOTA",
+   "away_score": 16,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "INDIANA",
+   "home_score": 23,
+   "kickoff_at": "2026-10-31T19:30:00+00:00",
+   "label": "MINNESOTA @ INDIANA",
+   "score_source": "collective",
+   "settled_at": "2026-11-01T05:17:27.972Z",
+   "week": 9
+  },
   "f93739bb-68a3-45c6-a739-a559f883919f": {
    "away": "LIBERTY",
    "away_score": 13,
@@ -6964,6 +7774,21 @@
    "score_source": "collective",
    "settled_at": "2026-09-27T01:13:17.424Z",
    "week": 4
+  },
+  "fb359174-993a-4704-b903-75f6b91dbcb8": {
+   "away": "VIRGINIA",
+   "away_score": 7,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "WAKEFOREST",
+   "home_score": 51,
+   "kickoff_at": "2026-10-31T19:45:00+00:00",
+   "label": "VIRGINIA @ WAKEFOREST",
+   "score_source": "collective",
+   "settled_at": "2026-10-31T23:13:02.683Z",
+   "week": 9
   },
   "fb462986-b0e3-4bef-bf2e-2be5ad77c131": {
    "away": "WYOMING",

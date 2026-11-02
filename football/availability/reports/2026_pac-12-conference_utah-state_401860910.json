@@ -1,0 +1,154 @@
+{
+ "schema": "edgedesk_availability_report_v1",
+ "version": 1,
+ "conference": "Pac-12 Conference",
+ "conference_id": "pac12",
+ "team": "Utah State",
+ "game_id": "401860910",
+ "kickoff": "2026-10-31T19:30:00.000Z",
+ "source_url": "https://pac-12.com/news/2026/9/11/2026-football-reports.aspx",
+ "published_at": "2026-10-31T17:36:06.883Z",
+ "retrieved_at": "2026-10-31T21:26:20.038Z",
+ "scope": "CONFERENCE_GAMES",
+ "comprehensive": false,
+ "vocabulary": [],
+ "applicability": {
+  "state": "REQUIRED",
+  "why": "Pac-12 Conference requires an availability report for this game: filed three, two and one day before a conference game (each by 7 p.m. PT) and no later than two hours before kickoff"
+ },
+ "format": "published-listing",
+ "platform": "pac12-feed",
+ "report_type": "Game Day Report",
+ "report_id": "2026-10-31-Utah State-Colorado State",
+ "listing_scope": "REPORTED_ONLY",
+ "lines_read": 17,
+ "listed_n": 17,
+ "rows": [
+  {
+   "player_name": "Eli Wood",
+   "player_id": "5081209",
+   "position": "WR",
+   "jersey": "7",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "Eli Wood · WR · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Chapman Lewis",
+   "player_id": "4916985",
+   "position": "DB",
+   "jersey": "21",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "Chapman Lewis · DB · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Rex Haynes",
+   "player_id": "5086629",
+   "position": "WR",
+   "jersey": "5",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "Rex Haynes · WR · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "John Randle Jr.",
+   "player_id": "5149453",
+   "position": "OL",
+   "jersey": "50",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "John Randle · OL · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "John McClellan",
+   "player_id": "5290712",
+   "position": "ILB",
+   "jersey": null,
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "John McClellan · ILB · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Landon Rehkow",
+   "player_id": "5150622",
+   "position": "SP",
+   "jersey": "3",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "Landon Rehkow · SP · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Diego Grateron",
+   "player_id": "5297063",
+   "position": "ILB",
+   "jersey": "13",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "Diego Grateron · ILB · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Joshua Papu",
+   "player_id": "5297071",
+   "position": "DL",
+   "jersey": "92",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "Joshua Papu · DL · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Harrison Taggart",
+   "player_id": "4897443",
+   "position": "ILB",
+   "jersey": "0",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "Harrison Taggart · ILB · Out",
+   "on_roster": true
+  }
+ ],
+ "unparsed": [
+  {
+   "player": "Kauasi Hansen",
+   "line": "Kauasi Hansen · OL · Out for Season",
+   "why": "the status \"Out for Season\" is not one EdgeDesk maps, so it is quarantined rather than guessed"
+  },
+  {
+   "player": "Jude Nelson",
+   "line": "Jude Nelson · TE · Out for Season",
+   "why": "the status \"Out for Season\" is not one EdgeDesk maps, so it is quarantined rather than guessed"
+  },
+  {
+   "player": "Chris Joe",
+   "line": "Chris Joe · ILB · Out for Season",
+   "why": "the status \"Out for Season\" is not one EdgeDesk maps, so it is quarantined rather than guessed"
+  },
+  {
+   "player": "Nikko Boncore",
+   "line": "Nikko Boncore · WR · Out for Season",
+   "why": "the status \"Out for Season\" is not one EdgeDesk maps, so it is quarantined rather than guessed"
+  }
+ ],
+ "ok": true,
+ "names_nobody": false,
+ "explicit_none": false,
+ "silence_means_available": false,
+ "why": "9 player(s) designated on the published listing (Game Day Report)"
+}

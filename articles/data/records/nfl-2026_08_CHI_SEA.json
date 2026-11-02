@@ -23,8 +23,8 @@
   "game_time": "2026-11-03T01:15:00.000Z",
   "game_when_label": "2026-11-03 01:15 UTC",
   "published_at": null,
-  "updated_at": "2026-10-27T08:53:29.281Z",
-  "generated_at": "2026-10-27T08:53:29.281Z",
+  "updated_at": "2026-11-02T00:36:55.151Z",
+  "generated_at": "2026-11-02T00:36:55.151Z",
   "model_version": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
   "model_status": "STALE MARKET",
   "model_status_note": "The captured quotes for this game are older than the freshness limit: it is not a current price, so the 0.4-point gap is context only and the game is excluded from research ranking.",
@@ -43,7 +43,7 @@
   "frozen_at": null,
   "author": "EdgeDesk Research",
   "publisher": "EdgeDesk Sports",
-  "research_source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 106 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice.",
+  "research_source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 108 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice.",
   "market_source": "The sportsbook number on this page is a quote EdgeDesk captured at DraftKings on 2026-09-10, replayed from a committed snapshot rather than read live. It is the book’s number, not EdgeDesk’s, and EdgeDesk’s own number was produced before it was read. Source: EdgeDesk odds capture (public.signals), read by the newsletter pipeline.",
   "research": {
     "kind": "NFL_GAME",
@@ -70,7 +70,7 @@
     ],
     "projection": {
       "priced": true,
-      "fair_spread": 4.89758189596626,
+      "fair_spread": 4.897582812753841,
       "fair_spread_text": "Seattle Seahawks −5.0",
       "fair_spread_raw_text": "Seattle Seahawks -4.9",
       "favourite": "Seattle Seahawks",
@@ -127,8 +127,8 @@
         "note": "Quoted from the perspective of Seattle Seahawks, off the engine’s own learned margin distribution (conditioned on this spread, so real key-number mass is kept). Eight results in ten land inside p10–p90."
       },
       "confidence_pct": null,
-      "confidence_absent_reason": "The NFL model publishes no single confidence score. What it publishes instead is the width of the outcome range above and the sample the ratings rest on: the trained seeds through 2025, plus 106 absorbed 2026 games.",
-      "sample_games": 106,
+      "confidence_absent_reason": "The NFL model publishes no single confidence score. What it publishes instead is the width of the outcome range above and the sample the ratings rest on: the trained seeds through 2025, plus 108 absorbed 2026 games.",
+      "sample_games": 108,
       "seeded": true,
       "status": "STALE MARKET",
       "status_note": "The captured quotes for this game are older than the freshness limit: it is not a current price, so the 0.4-point gap is context only and the game is excluded from research ranking.",
@@ -139,13 +139,13 @@
       "rows": [
         {
           "points": "+4.0",
-          "points_n": 4.008817149722244,
+          "points_n": 4.008817145863963,
           "text": "Base team strength — Seattle Seahawks by 4.0 points (last season +3.2, this season +0.8)",
           "favours": "Seattle Seahawks"
         },
         {
           "points": "+0.3",
-          "points_n": 0.2583995089599163,
+          "points_n": 0.2583995066337481,
           "text": "Passing — Seattle Seahawks by 0.3 points (last season +0.2, this season +0.1)",
           "favours": "Seattle Seahawks"
         },
@@ -157,7 +157,7 @@
         },
         {
           "points": "-1.9",
-          "points_n": -1.9273436018937309,
+          "points_n": -1.9273426789216996,
           "text": "Quarterback — Chicago Bears by 1.9 points",
           "favours": "Chicago Bears"
         },
@@ -203,12 +203,12 @@
         },
         {
           "points": "-0.2",
-          "points_n": -0.19979136770584405,
+          "points_n": -0.19979655105538852,
           "text": "Passing matchup, both directions — under by 0.2 points"
         },
         {
           "points": "+0.2",
-          "points_n": 0.19009346190602516,
+          "points_n": 0.19009216437836274,
           "text": "Both offences, EPA per play — over by 0.2 points"
         }
       ],
@@ -232,21 +232,21 @@
               "note": "offence EPA per play minus defence EPA allowed per play — the engine’s own net_epa half",
               "a": {
                 "v": "+0.038",
-                "n": 0.03768945265290584,
+                "n": 0.03768945649773481,
                 "rank": "#13 of 32",
                 "rank_n": 13,
                 "note": null
               },
               "h": {
                 "v": "+0.149",
-                "n": 0.14909935379656494,
+                "n": 0.14909935675332453,
                 "rank": "#1 of 32",
                 "rank_n": 1,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.1114099011436591,
+                "gap": 0.11140990025558972,
                 "rank_gap": 12
               }
             },
@@ -309,21 +309,21 @@
               "note": null,
               "a": {
                 "v": "+0.047",
-                "n": 0.04659265162549944,
+                "n": 0.046592463228880124,
                 "rank": "#10 of 32",
                 "rank_n": 10,
                 "note": null
               },
               "h": {
                 "v": "+0.002",
-                "n": 0.002234005229375096,
+                "n": 0.0022338603481567784,
                 "rank": "#13 of 32",
                 "rank_n": 13,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.04435864639612434,
+                "gap": 0.044358602880723345,
                 "rank_gap": 3
               }
             },
@@ -333,22 +333,22 @@
               "note": null,
               "a": {
                 "v": "+0.089",
-                "n": 0.08900430538278035,
-                "rank": "#9 of 32",
-                "rank_n": 9,
+                "n": 0.0890039407441623,
+                "rank": "#11 of 32",
+                "rank_n": 11,
                 "note": null
               },
               "h": {
                 "v": "+0.076",
-                "n": 0.07572929786844401,
+                "n": 0.07572901745318275,
                 "rank": "#12 of 32",
                 "rank_n": 12,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.013275007514336343,
-                "rank_gap": 3
+                "gap": 0.013274923290979554,
+                "rank_gap": 1
               }
             },
             {
@@ -365,14 +365,14 @@
               "h": {
                 "v": "−0.067",
                 "n": -0.06729537420697584,
-                "rank": "#27 of 32",
-                "rank_n": 27,
+                "rank": "#28 of 32",
+                "rank_n": 28,
                 "note": null
               },
               "edge": {
                 "side": "a",
                 "gap": 0.08500347354924662,
-                "rank_gap": 12
+                "rank_gap": 13
               }
             },
             {
@@ -434,21 +434,21 @@
               "note": null,
               "a": {
                 "v": "+0.009",
-                "n": 0.008903198972593602,
+                "n": 0.008903006731145312,
                 "rank": "#16 of 32",
                 "rank_n": 16,
                 "note": null
               },
               "h": {
                 "v": "−0.147",
-                "n": -0.14686534856718986,
+                "n": -0.14686549640516774,
                 "rank": "#2 of 32",
                 "rank_n": 2,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.15576854753978345,
+                "gap": 0.15576850313631305,
                 "rank_gap": 14
               }
             },
@@ -458,22 +458,22 @@
               "note": null,
               "a": {
                 "v": "−0.005",
-                "n": -0.005378672643531477,
-                "rank": "#15 of 32",
-                "rank_n": 15,
+                "n": -0.005379044723753971,
+                "rank": "#16 of 32",
+                "rank_n": 16,
                 "note": null
               },
               "h": {
                 "v": "−0.210",
-                "n": -0.20958934328109952,
+                "n": -0.20958962941912118,
                 "rank": "#2 of 32",
                 "rank_n": 2,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.20421067063756804,
-                "rank_gap": 13
+                "gap": 0.2042105846953672,
+                "rank_gap": 14
               }
             },
             {
@@ -656,13 +656,13 @@
       "away": [
         {
           "k": "Run offence · EPA per carry",
-          "rank_gap": 12,
+          "rank_gap": 13,
           "gap": 0.08500347354924662,
           "lead": "Chicago Bears",
           "trail": "Seattle Seahawks",
           "lead_cell": "+0.018 · #15 of 32",
-          "trail_cell": "−0.067 · #27 of 32",
-          "text": "Chicago Bears +0.018 (#15 of 32) vs Seattle Seahawks −0.067 (#27 of 32) — 12 places on the league board."
+          "trail_cell": "−0.067 · #28 of 32",
+          "text": "Chicago Bears +0.018 (#15 of 32) vs Seattle Seahawks −0.067 (#28 of 32) — 13 places on the league board."
         },
         {
           "k": "Sacks taken per dropback",
@@ -687,7 +687,7 @@
         {
           "k": "Offence · EPA per play",
           "rank_gap": 3,
-          "gap": 0.04435864639612434,
+          "gap": 0.044358602880723345,
           "lead": "Chicago Bears",
           "trail": "Seattle Seahawks",
           "lead_cell": "+0.047 · #10 of 32",
@@ -695,14 +695,14 @@
           "text": "Chicago Bears +0.047 (#10 of 32) vs Seattle Seahawks +0.002 (#13 of 32) — 3 places on the league board."
         },
         {
-          "k": "Pass offence · EPA per dropback",
+          "k": "Explosive pass rate",
           "rank_gap": 3,
-          "gap": 0.013275007514336343,
+          "gap": 0.008059156337315201,
           "lead": "Chicago Bears",
           "trail": "Seattle Seahawks",
-          "lead_cell": "+0.089 · #9 of 32",
-          "trail_cell": "+0.076 · #12 of 32",
-          "text": "Chicago Bears +0.089 (#9 of 32) vs Seattle Seahawks +0.076 (#12 of 32) — 3 places on the league board."
+          "lead_cell": "+2.8 pp · #2 of 32",
+          "trail_cell": "+2.0 pp · #5 of 32",
+          "text": "Chicago Bears +2.8 pp (#2 of 32) vs Seattle Seahawks +2.0 pp (#5 of 32) — 3 places on the league board."
         }
       ],
       "home": [
@@ -739,7 +739,7 @@
         {
           "k": "Defence · EPA allowed per play",
           "rank_gap": 14,
-          "gap": 0.15576854753978345,
+          "gap": 0.15576850313631305,
           "lead": "Seattle Seahawks",
           "trail": "Chicago Bears",
           "lead_cell": "−0.147 · #2 of 32",
@@ -748,13 +748,13 @@
         },
         {
           "k": "Pass defence · EPA allowed per dropback",
-          "rank_gap": 13,
-          "gap": 0.20421067063756804,
+          "rank_gap": 14,
+          "gap": 0.2042105846953672,
           "lead": "Seattle Seahawks",
           "trail": "Chicago Bears",
           "lead_cell": "−0.210 · #2 of 32",
-          "trail_cell": "−0.005 · #15 of 32",
-          "text": "Seattle Seahawks −0.210 (#2 of 32) vs Chicago Bears −0.005 (#15 of 32) — 13 places on the league board."
+          "trail_cell": "−0.005 · #16 of 32",
+          "text": "Seattle Seahawks −0.210 (#2 of 32) vs Chicago Bears −0.005 (#16 of 32) — 14 places on the league board."
         }
       ],
       "measured": [],
@@ -769,7 +769,7 @@
           "team": "Chicago Bears",
           "label": "pass offence",
           "v": "+0.089",
-          "rank": "#9 of 32",
+          "rank": "#11 of 32",
           "note": null
         },
         "def": {
@@ -780,8 +780,8 @@
           "note": null
         },
         "complete": true,
-        "net": -0.12058503789831916,
-        "read": "Chicago Bears’ pass offence rates +0.089 (#9 of 32) and Seattle Seahawks’ pass defence rates −0.210 (#2 of 32). Added the way the model adds them, this pairing sits −0.121 from the league mean, which favours Seattle Seahawks."
+        "net": -0.12058568867495888,
+        "read": "Chicago Bears’ pass offence rates +0.089 (#11 of 32) and Seattle Seahawks’ pass defence rates −0.210 (#2 of 32). Added the way the model adds them, this pairing sits −0.121 from the league mean, which favours Seattle Seahawks."
       },
       {
         "title": "Seattle Seahawks pass offence vs Chicago Bears pass defence",
@@ -796,12 +796,12 @@
           "team": "Chicago Bears",
           "label": "pass defence",
           "v": "−0.005",
-          "rank": "#15 of 32",
+          "rank": "#16 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.07035062522491253,
-        "read": "Seattle Seahawks’ pass offence rates +0.076 (#12 of 32) and Chicago Bears’ pass defence rates −0.005 (#15 of 32). Added the way the model adds them, this pairing sits +0.070 from the league mean, which favours Seattle Seahawks."
+        "net": 0.07034997272942878,
+        "read": "Seattle Seahawks’ pass offence rates +0.076 (#12 of 32) and Chicago Bears’ pass defence rates −0.005 (#16 of 32). Added the way the model adds them, this pairing sits +0.070 from the league mean, which favours Seattle Seahawks."
       },
       {
         "title": "Chicago Bears run offence vs Seattle Seahawks run defence",
@@ -829,7 +829,7 @@
           "team": "Seattle Seahawks",
           "label": "run offence",
           "v": "−0.067",
-          "rank": "#27 of 32",
+          "rank": "#28 of 32",
           "note": null
         },
         "def": {
@@ -841,7 +841,7 @@
         },
         "complete": true,
         "net": -0.049164385232985434,
-        "read": "Seattle Seahawks’ run offence rates −0.067 (#27 of 32) and Chicago Bears’ run defence rates +0.018 (#22 of 32). Added the way the model adds them, this pairing sits −0.049 from the league mean, which favours Chicago Bears."
+        "read": "Seattle Seahawks’ run offence rates −0.067 (#28 of 32) and Chicago Bears’ run defence rates +0.018 (#22 of 32). Added the way the model adds them, this pairing sits −0.049 from the league mean, which favours Chicago Bears."
       },
       {
         "title": "Chicago Bears pass protection vs Seattle Seahawks pass rush",
@@ -1005,8 +1005,8 @@
           },
           {
             "k": "Active room",
-            "a": "Tyson Bagent, Caleb Williams",
-            "h": "Sam Darnold, Jalen Milroe",
+            "a": "Case Keenum, Tyson Bagent, Caleb Williams",
+            "h": "Sam Darnold, Drew Lock, Jalen Milroe",
             "note": "who is rostered at the position — identity only"
           }
         ],
@@ -1085,7 +1085,7 @@
         "reads": [
           "Each situational factor is shown with the points the engine’s own context model assigned it, so nothing here is a rule of thumb. A factor with no weight in the fit is worth nothing in this number and says so rather than being quietly rounded up.",
           "No forecast reached this game, so temperature and wind entered the total at their neutral defaults. That is a missing input, not a mild day.",
-          "The ratings behind this projection are the trained seeds plus 106 absorbed 2026 games; early in a season that means the prior is still carrying most of the weight."
+          "The ratings behind this projection are the trained seeds plus 108 absorbed 2026 games; early in a season that means the prior is still carrying most of the weight."
         ]
       }
     ],
@@ -1107,7 +1107,7 @@
         "bullets": [
           "Quarterback — Chicago Bears by 1.9 points (-1.9 pts).",
           "Rest / travel — Chicago Bears by 0.6 points (-0.6 pts).",
-          "Run offence · EPA per carry: Chicago Bears +0.018 (#15 of 32) vs Seattle Seahawks −0.067 (#27 of 32) — 12 places on the league board.",
+          "Run offence · EPA per carry: Chicago Bears +0.018 (#15 of 32) vs Seattle Seahawks −0.067 (#28 of 32) — 13 places on the league board.",
           "Sacks taken per dropback: Chicago Bears −1.0 pp (#11 of 32) vs Seattle Seahawks −0.0 pp (#18 of 32) — 7 places on the league board.",
           "Sacks generated per dropback: Chicago Bears +1.2 pp (#5 of 32) vs Seattle Seahawks +0.8 pp (#9 of 32) — 4 places on the league board."
         ]
@@ -1177,7 +1177,7 @@
       "total_rounding_note": null,
       "total_difference": "2.0 points",
       "book": "DraftKings",
-      "capture_age": "1137 hours old",
+      "capture_age": "1273 hours old",
       "stale": false,
       "classification": "STALE MARKET",
       "classification_note": "The captured quotes for this game are older than the freshness limit: it is not a current price, so the 0.4-point gap is context only and the game is excluded from research ranking.",
@@ -1239,14 +1239,14 @@
         },
         {
           "k": "Pass offence · EPA per dropback",
-          "a": "+0.089  #9 of 32",
+          "a": "+0.089  #11 of 32",
           "h": "+0.076  #12 of 32",
           "note": null
         },
         {
           "k": "Run offence · EPA per carry",
           "a": "+0.018  #15 of 32",
-          "h": "−0.067  #27 of 32",
+          "h": "−0.067  #28 of 32",
           "note": null
         },
         {
@@ -1269,7 +1269,7 @@
         },
         {
           "k": "Pass defence · EPA allowed per dropback",
-          "a": "−0.005  #15 of 32",
+          "a": "−0.005  #16 of 32",
           "h": "−0.210  #2 of 32",
           "note": null
         },
@@ -1324,11 +1324,11 @@
     "missing": [],
     "priced_label": "PRICED BY MODEL — the projection and its additive drivers, from the inputs the NFL model actually fits.",
     "context_label": "RESEARCH CONTEXT — every rating below is opponent-adjusted and printed as a deviation from the league mean. The injury report and the quarterback panel explain the matchup and move no priced number.",
-    "source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 106 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice."
+    "source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 108 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice."
   },
   "football_evidence": {
     "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "vpgbof121twal",
+    "packet_hash": "1m39qe2pazbeg",
     "status": "NO_MATERIAL_DISAGREEMENT",
     "input_suspect": false,
     "question": "Can the Seahawks’ pass defense slow the Bears’ passing game?",
@@ -1347,27 +1347,30 @@
     "contradicting": [
       "When Seattle Seahawks have the ball: their pass protection ranks No. 18, and Chicago Bears’ pass rush ranks No. 5.",
       "Chicago Bears’ explosive passing ranks No. 2 of 32 in explosive pass rate this season.",
-      "Seattle Seahawks’ running game ranks No. 27 of 32 in rushing efficiency this season.",
+      "Seattle Seahawks’ running game ranks No. 28 of 32 in rushing efficiency this season.",
       "Chicago Bears’ pass rush ranks No. 5 of 32 in sack rate this season."
     ],
     "quarterbacks": [
       "Seattle Seahawks’ passers have completed 146 of 226 (64.6%) for 1,726 yards, 7.6 yards per attempt, with 12 touchdowns, 8 interceptions and 16 sacks taken in seven games.",
       "Chicago Bears’ passers have completed 165 of 241 (68.5%) for 1,784 yards, 7.4 yards per attempt, with 7 touchdowns, 5 interceptions and 18 sacks taken in seven games."
     ],
-    "availability": [],
+    "availability": [
+      "The official injury report lists four Seattle Seahawks players as out or doubtful, including T Charles Cross (out), WR Rashid Shaheed (out), RB Velus Jones Jr. (out) and LB Uchenna Nwosu (doubtful).",
+      "The official injury report lists one Chicago Bears player as out or doubtful, including RB Kyle Monangai (out)."
+    ],
     "script": {
       "model": [
-        "The Seattle Seahawks have to win through the air (Chicago Bears’ No. 9 passing game against Seattle Seahawks’ No. 2 pass defense).",
+        "The Seattle Seahawks have to win through the air (Chicago Bears’ No. 11 passing game against Seattle Seahawks’ No. 2 pass defense).",
         "The Seattle Seahawks have to hold their own in the pass-rush matchup (Seattle Seahawks’ No. 18 pass protection against Chicago Bears’ No. 5 pass rush).",
         "The Seattle Seahawks have to win on the ground (Chicago Bears’ No. 15 run game against Seattle Seahawks’ No. 1 run defense)."
       ],
       "market": [
         "The Chicago Bears have to win in the pass-rush matchup (Seattle Seahawks’ No. 18 pass protection against Chicago Bears’ No. 5 pass rush).",
-        "The Chicago Bears have to win through the air (Chicago Bears’ No. 9 passing game against Seattle Seahawks’ No. 2 pass defense)."
+        "The Chicago Bears have to win through the air (Chicago Bears’ No. 11 passing game against Seattle Seahawks’ No. 2 pass defense)."
       ]
     },
     "unknown": [
-      "Not in EdgeDesk’s verified data for this game: offensive efficiency, third-down conversion, red-zone production, recent opponent strength, third-down defense, red-zone defense, position-group advantages, turnover rates, home field, strength of schedule, injuries and personnel and conference implications.",
+      "Not in EdgeDesk’s verified data for this game: offensive efficiency, third-down conversion, red-zone production, recent opponent strength, third-down defense, red-zone defense, position-group advantages, turnover rates, home field, strength of schedule and conference implications.",
       "The line on file was captured Sept. 9 and may have moved."
     ],
     "flags": [],
@@ -1376,15 +1379,22 @@
         "label": "EdgeDesk NFL team ratings (2026)",
         "url": null,
         "path": "football/nfl/slate.json",
-        "observed_at": "2026-10-26T23:11:24.541Z",
+        "observed_at": "2026-11-01T22:55:28.480Z",
         "verification": "VERIFIED_DATA"
       },
       {
         "label": "nflverse team-week stats (2026)",
         "url": null,
         "path": "football/nfl/stats_team_week_2026.csv",
-        "observed_at": "2026-10-27T08:53:18.887Z",
+        "observed_at": "2026-11-02T00:36:44.101Z",
         "verification": "VERIFIED_DATA"
+      },
+      {
+        "label": "NFL injury report via nflverse (third-party mirror of the league report)",
+        "url": null,
+        "path": "football/injuries/nfl_2026.json",
+        "observed_at": "2026-11-01T13:30:56.695Z",
+        "verification": "OFFICIAL_REPORT"
       }
     ],
     "needs_confirmation": []
@@ -1392,6 +1402,6 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-10-27T08:53:29.281Z"
+    "at": "2026-11-02T00:36:55.151Z"
   }
 }

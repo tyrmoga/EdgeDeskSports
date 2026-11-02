@@ -2,20 +2,20 @@
  "alerts": [
   {
    "evidence": {
-    "brier": 0.2121,
-    "mean_gap": -0.02
+    "brier": 0.2038,
+    "mean_gap": -0.0255
    },
    "kind": "calibration",
    "level": "warn",
-   "message": "season-to-date win probabilities are off by -0.020 on average (Brier 0.212)"
+   "message": "season-to-date win probabilities are off by -0.025 on average (Brier 0.204)"
   },
   {
    "evidence": {
-    "game_id": 401861966
+    "game_id": 401858290
    },
    "kind": "disagreement",
    "level": "info",
-   "message": "UConn @ Air Force: C 11.0 vs D 2.8 (beyond the backtest 99th percentile 7.5)"
+   "message": "Merrimack @ Wake Forest: C 59.7 vs D 41.5 (beyond the backtest 99th percentile 7.5)"
   }
  ],
  "bet_enabled": false,
@@ -185,27 +185,62 @@
    "week": 8
   },
   {
+   "ats_at_close": 0.554,
+   "ats_at_freeze_line": 0.536,
+   "bias": -1.784,
+   "brier": 0.1698,
+   "clv_mean": 0.134,
    "disagreement_c_d_mean": 1.851,
-   "final": 0,
+   "final": 56,
    "frozen_games": 56,
+   "largest_misses": [
+    {
+     "abs_error": 38.5,
+     "final": 45.0,
+     "game": "Boston College @ Duke",
+     "v2": 6.5
+    },
+    {
+     "abs_error": 36.9,
+     "final": -32.0,
+     "game": "Baylor @ UCF",
+     "v2": 4.9
+    },
+    {
+     "abs_error": 27.1,
+     "final": 30.0,
+     "game": "Wisconsin @ Iowa",
+     "v2": 2.9
+    }
+   ],
+   "mae": 12.696,
+   "mae_candidate_001_same_games": 12.707,
+   "mae_close": 12.795,
+   "mae_line_at_freeze": 13.054,
+   "mae_v1_same_games": 13.56,
+   "mae_v2_same_close_games": 12.696,
+   "mae_v2_same_line_at_freeze_games": 12.696,
+   "mae_v2_vs_candidate_001_games": 12.696,
+   "mae_v2_vs_v1_games": 12.696,
+   "rmse": 15.356,
    "week": 9
   }
  ],
  "current_json_age_hours": 0.0,
  "feature_drift_psi": {
-  "ens_pred": 0.055,
-  "ens_pred_noise_q99": 0.334,
-  "ens_sd": 0.223,
-  "ens_sd_noise_q99": 0.334,
-  "pred_total": 0.079,
-  "pred_total_noise_q99": 0.334,
-  "reference_weeks": "week8",
-  "sigma": 0.178,
-  "sigma_noise_q99": 0.334
+  "ens_pred": 0.183,
+  "ens_pred_noise_q99": 0.317,
+  "ens_sd": 0.112,
+  "ens_sd_noise_q99": 0.317,
+  "pred_total": 0.119,
+  "pred_total_noise_q99": 0.317,
+  "reference_weeks": "week9",
+  "sigma": 0.22,
+  "sigma_noise_q99": 0.317
  },
- "generated_at": "2026-10-27T12:10:43Z",
+ "generated_at": "2026-11-01T16:48:33Z",
  "learning": {
-  "bias": -1.2924585152838428,
+  "bias": -1.389042105263158,
   "by_model_version": {
    "edgedesk_cfb_v2.0.0": {
     "bias": -0.448646511627907,
@@ -218,32 +253,32 @@
     }
    },
    "edgedesk_cfb_v2.1.0": {
-    "bias": -1.2924585152838428,
+    "bias": -1.389042105263158,
     "fcs_not_priced_games": 6,
-    "games_scored": 229,
-    "mae": 12.080231441048035,
-    "major_miss_share": 0.11790393013100436,
+    "games_scored": 285,
+    "mae": 12.20121754385965,
+    "major_miss_share": 0.11578947368421053,
     "sources": {
-     "FROZEN": 229
+     "FROZEN": 285
     }
    }
   },
   "expected_major_miss_share_if_calibrated": 0.134,
-  "games_scored": 229,
-  "mae": 12.080231441048035,
-  "major_miss_share": 0.11790393013100436,
+  "games_scored": 285,
+  "mae": 12.20121754385965,
+  "major_miss_share": 0.11578947368421053,
   "miss_classes": {
    "explosive_variance": 3,
-   "garbage_time": 4,
-   "market_news_unavailable": 2,
+   "garbage_time": 5,
+   "market_news_unavailable": 3,
    "ordinary_variance": 11,
-   "qb_injury_miss": 3,
-   "special_teams": 2,
-   "turnover_variance": 2
+   "qb_injury_miss": 5,
+   "special_teams": 3,
+   "turnover_variance": 3
   },
   "model_version": "edgedesk_cfb_v2.1.0",
   "sources": {
-   "FROZEN": 229
+   "FROZEN": 285
   }
  },
  "model_version": "edgedesk_cfb_v2.1.0",
@@ -1925,8 +1960,8 @@
  "scope": "FROZEN shadow projections only (replays excluded); priced games (FBS-vs-FBS) unless noted",
  "season": 2026,
  "season_to_date": {
-  "final": 229,
+  "final": 285,
   "frozen_games": 285,
-  "mae": 12.08
+  "mae": 12.201
  }
 }

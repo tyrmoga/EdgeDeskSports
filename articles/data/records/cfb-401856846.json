@@ -9,8 +9,8 @@
   "aliases": [],
   "title": "Kansas State vs. Colorado: EdgeDesk Model Projection, Matchup Analysis and Fair Spread",
   "seo_title": "Kansas State vs. Colorado 2026: EdgeDesk Fair Spread & Model Projection",
-  "seo_description": "EdgeDesk fair spread for Kansas State at Colorado: Colorado +7.0, fair total 53.0. Kansas State wins 69% of simulations. Data confidence 75%. Model status NO MARKET. Research, not picks.",
-  "excerpt": "Kansas State carries the stronger underlying team rating — +3.3 against +0.8, a 2.5-point separation on a neutral field before home advantage, travel or rest. EdgeDesk makes it Colorado +7.0 before any sportsbook number is consulted, with Kansas State…",
+  "seo_description": "EdgeDesk fair spread for Kansas State at Colorado: Colorado +3.0, fair total 53.0. Kansas State wins 59% of simulations. Data confidence 76%. Model status NO MARKET. Research, not picks.",
+  "excerpt": "Kansas State carries the stronger underlying team rating — +3.3 against +0.8, a 2.5-point separation on a neutral field before home advantage, travel or rest. EdgeDesk makes it Colorado +3.0 before any sportsbook number is consulted, with Kansas State…",
   "home_team": "Colorado",
   "away_team": "Kansas State",
   "venue": "Folsom Field",
@@ -21,14 +21,14 @@
   "game_time": "2026-10-31T18:00:00.000Z",
   "game_when_label": "2026-10-31 18:00 UTC",
   "published_at": null,
-  "updated_at": "2026-10-27T08:53:29.281Z",
-  "generated_at": "2026-10-27T08:53:29.281Z",
+  "updated_at": "2026-10-31T12:13:51.302Z",
+  "generated_at": "2026-10-31T12:13:51.302Z",
   "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
   "model_status": "NO MARKET",
   "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
-  "confidence": 75,
+  "confidence": 76,
   "priced": true,
-  "fair_spread_text": "Colorado +7.0",
+  "fair_spread_text": "Colorado +3.0",
   "fair_total": "53.0",
   "hero_image": null,
   "canonical_url": "https://edgedesksports.com/articles/kansas-state-vs-colorado-2026",
@@ -37,11 +37,11 @@
   "status": "ready",
   "article_type": "pregame",
   "related": null,
-  "frozen": false,
-  "frozen_at": null,
+  "frozen": true,
+  "frozen_at": "2026-10-31T18:00:00.000Z",
   "author": "EdgeDesk Research",
   "publisher": "EdgeDesk Sports",
-  "research_source": "Ratings: football/rankings/current.json — 2026 Week 8, built 2026-10-26. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser.",
+  "research_source": "Ratings: football/rankings/current.json — 2026 Week 9, built 2026-10-30. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser.",
   "market_source": null,
   "research": {
     "kind": "CFB_GAME",
@@ -64,37 +64,37 @@
     },
     "lede": [
       "Kansas State carries the stronger underlying team rating — +3.3 against +0.8, a 2.5-point separation on a neutral field before home advantage, travel or rest.",
-      "EdgeDesk makes it Colorado +7.0 before any sportsbook number is consulted, with Kansas State winning 69% of simulations.",
+      "EdgeDesk makes it Colorado +3.0 before any sportsbook number is consulted, with Kansas State winning 59% of simulations.",
       "The position-group comparison shows where the separation comes from: the widest measured gap is continuity, where Kansas State leads Colorado by 109 places nationally.",
-      "Data confidence on this matchup is 75% — high by this board’s standards, so the margin is the strongest part of the read."
+      "Data confidence on this matchup is 76% — high by this board’s standards, so the margin is the strongest part of the read."
     ],
     "projection": {
       "priced": true,
-      "fair_spread": -7.114521437637695,
-      "fair_spread_text": "Colorado +7.0",
-      "fair_spread_raw_text": "Colorado +7.1",
+      "fair_spread": -3.2125214376376947,
+      "fair_spread_text": "Colorado +3.0",
+      "fair_spread_raw_text": "Colorado +3.2",
       "near_pickem": false,
       "raw_margin_text": null,
       "favourite": "Kansas State",
       "underdog": "Colorado",
-      "margin": "7.0",
-      "margin_raw": "7.1",
+      "margin": "3.0",
+      "margin_raw": "3.2",
       "total": "53.0",
       "total_raw": "52.9",
       "display_policy": "football_half_point_v1",
       "score": {
         "away": {
           "team": "Kansas State",
-          "points": "30"
+          "points": "28"
         },
         "home": {
           "team": "Colorado",
-          "points": "23"
+          "points": "25"
         },
         "expected": {
-          "text": "Kansas State 29.99, Colorado 22.88",
-          "home": 22.88,
-          "away": 29.99,
+          "text": "Kansas State 28.04, Colorado 24.83",
+          "home": 24.83,
+          "away": 28.04,
           "note": null
         },
         "note": "Split from EdgeDesk’s own projected margin and total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
@@ -103,42 +103,42 @@
       "win_prob": {
         "home": "Colorado",
         "away": "Kansas State",
-        "home_pct": 31,
-        "away_pct": 69,
-        "home_text": "31%",
-        "away_text": "69%",
+        "home_pct": 41,
+        "away_pct": 59,
+        "home_text": "41%",
+        "away_text": "59%",
         "bounded": false,
         "bounded_note": null,
         "favourite": "Kansas State",
-        "favourite_pct": 69,
-        "favourite_text": "69%"
+        "favourite_pct": 59,
+        "favourite_text": "59%"
       },
       "outcome_range": {
         "basis_team": "Colorado",
-        "p10": "-28.1",
-        "median": "-7.1",
-        "p90": "+13.9",
+        "p10": "-24.2",
+        "median": "-3.2",
+        "p90": "+17.8",
         "sigma": "14.6",
         "volatility": "0.00",
         "volatility_discriminates": false,
         "note": "Quoted from Colorado’s perspective, as the engine publishes it. Eight results in ten land inside p10–p90."
       },
-      "confidence_pct": 75,
-      "inputs_reached_pct": 69,
+      "confidence_pct": 76,
+      "inputs_reached_pct": 85,
       "input_contract": {
         "fields": 26,
         "applicable": 26,
-        "known": 18,
-        "priced": 11,
-        "priced_coverage_pct": 42,
+        "known": 22,
+        "priced": 15,
+        "priced_coverage_pct": 58,
         "by_state": {
-          "USABLE": 11,
+          "USABLE": 15,
           "RESEARCH_ONLY": 7,
           "STALE": 0,
           "CONFLICTING": 1,
           "NOT_APPLICABLE": 0,
           "NOT_REQUIRED": 0,
-          "NOT_DUE_YET": 4,
+          "NOT_DUE_YET": 0,
           "FETCH_FAILED": 0,
           "UNAVAILABLE": 3
         },
@@ -246,7 +246,7 @@
         "source": "cfbfastR-data player_stats — play attribution",
         "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
         "published_at": "2026-10-24T19:45:00.000Z",
-        "retrieved_at": "2026-10-26T23:10:58.149Z"
+        "retrieved_at": "2026-10-30T18:39:07.674Z"
       },
       "home": {
         "team": "Colorado",
@@ -336,9 +336,9 @@
         "source": "cfbfastR-data player_stats — play attribution",
         "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
         "published_at": "2026-10-24T23:00:00.000Z",
-        "retrieved_at": "2026-10-26T23:10:58.149Z"
+        "retrieved_at": "2026-10-30T18:39:07.674Z"
       },
-      "generated_at": "2026-10-26T23:10:56.259Z",
+      "generated_at": "2026-10-30T18:39:06.430Z",
       "source": "football/starters/cfb_2026.json",
       "note": "An expected starter is not a confirmed one. EdgeDesk publishes which kind of answer each of these is, and no number on this page is priced from any of them. Availability is a separate axis: an absent report is UNKNOWN and is never read as healthy."
     },
@@ -349,6 +349,12 @@
           "points_n": -8.57931778158291,
           "text": "Kansas State is the better football team by 8.6 points on opponent-adjusted results, with roughly 35% of it still inherited from last season",
           "favours": "Kansas State"
+        },
+        {
+          "points": "+3.9",
+          "points_n": 3.902,
+          "text": "The reported injuries favour Colorado by 3.9 points",
+          "favours": "Colorado"
         },
         {
           "points": "+2.8",
@@ -382,7 +388,7 @@
               "note": "points vs an average FBS team, neutral field",
               "a": {
                 "v": "+3.3",
-                "n": 3.34,
+                "n": 3.3,
                 "rank": "#44 of 138",
                 "rank_n": 44,
                 "note": null
@@ -405,23 +411,23 @@
               "k": "Talent",
               "note": null,
               "a": {
-                "v": "60.9",
-                "n": 60.9,
-                "rank": "#16 of 138",
-                "rank_n": 16,
+                "v": "59.2",
+                "n": 59.2,
+                "rank": "#23 of 138",
+                "rank_n": 23,
                 "note": null
               },
               "h": {
-                "v": "48.5",
-                "n": 48.5,
-                "rank": "#76 of 138",
-                "rank_n": 76,
+                "v": "48.6",
+                "n": 48.6,
+                "rank": "#75 of 138",
+                "rank_n": 75,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 12.4,
-                "rank_gap": 60
+                "gap": 10.6,
+                "rank_gap": 52
               }
             },
             {
@@ -438,14 +444,14 @@
               "h": {
                 "v": "53.3",
                 "n": 53.3,
-                "rank": "#54 of 138",
-                "rank_n": 54,
+                "rank": "#55 of 138",
+                "rank_n": 55,
                 "note": null
               },
               "edge": {
                 "side": "a",
                 "gap": 3.5,
-                "rank_gap": 10
+                "rank_gap": 11
               }
             },
             {
@@ -453,17 +459,17 @@
               "k": "Scheme fit",
               "note": "personnel against this team’s own tendencies",
               "a": {
-                "v": "48.8",
-                "n": 48.8,
-                "rank": "#114 of 138",
-                "rank_n": 114,
+                "v": "48.9",
+                "n": 48.9,
+                "rank": "#109 of 138",
+                "rank_n": 109,
                 "note": null
               },
               "h": {
-                "v": "49.2",
-                "n": 49.2,
-                "rank": "#100 of 138",
-                "rank_n": 100,
+                "v": "49.3",
+                "n": 49.3,
+                "rank": "#95 of 138",
+                "rank_n": 95,
                 "note": null
               },
               "edge": {
@@ -482,23 +488,23 @@
               "k": "Offense",
               "note": null,
               "a": {
-                "v": "52.2",
-                "n": 52.2,
-                "rank": "#55 of 138",
-                "rank_n": 55,
+                "v": "52.1",
+                "n": 52.1,
+                "rank": "#56 of 138",
+                "rank_n": 56,
                 "note": null
               },
               "h": {
                 "v": "47.0",
                 "n": 47,
-                "rank": "#86 of 138",
-                "rank_n": 86,
+                "rank": "#88 of 138",
+                "rank_n": 88,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 5.2,
-                "rank_gap": 31
+                "gap": 5.1,
+                "rank_gap": 32
               }
             },
             {
@@ -513,16 +519,16 @@
                 "note": null
               },
               "h": {
-                "v": "56.9",
-                "n": 56.9,
-                "rank": "#27 of 138",
-                "rank_n": 27,
+                "v": "56.8",
+                "n": 56.8,
+                "rank": "#28 of 138",
+                "rank_n": 28,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 1.1,
-                "rank_gap": 9
+                "gap": 1,
+                "rank_gap": 8
               }
             },
             {
@@ -530,10 +536,10 @@
               "k": "Special teams",
               "note": null,
               "a": {
-                "v": "52.4",
-                "n": 52.4,
-                "rank": "#23 of 130",
-                "rank_n": 23,
+                "v": "52.5",
+                "n": 52.5,
+                "rank": "#19 of 130",
+                "rank_n": 19,
                 "note": null
               },
               "h": {
@@ -545,8 +551,8 @@
               },
               "edge": {
                 "side": "a",
-                "gap": 5.1,
-                "rank_gap": 87
+                "gap": 5.2,
+                "rank_gap": 91
               }
             },
             {
@@ -554,8 +560,8 @@
               "k": "Run offense",
               "note": null,
               "a": {
-                "v": "61.6",
-                "n": 61.6,
+                "v": "61.5",
+                "n": 61.5,
                 "rank": "#19 of 138",
                 "rank_n": 19,
                 "note": null
@@ -569,7 +575,7 @@
               },
               "edge": {
                 "side": "a",
-                "gap": 19.4,
+                "gap": 19.3,
                 "rank_gap": 84
               }
             },
@@ -578,10 +584,10 @@
               "k": "Pass offense",
               "note": null,
               "a": {
-                "v": "44.2",
-                "n": 44.2,
-                "rank": "#97 of 137",
-                "rank_n": 97,
+                "v": "44.1",
+                "n": 44.1,
+                "rank": "#98 of 137",
+                "rank_n": 98,
                 "note": null
               },
               "h": {
@@ -593,8 +599,8 @@
               },
               "edge": {
                 "side": "h",
-                "gap": 6.3,
-                "rank_gap": 31
+                "gap": 6.4,
+                "rank_gap": 32
               }
             },
             {
@@ -602,8 +608,8 @@
               "k": "Run defense",
               "note": null,
               "a": {
-                "v": "57.8",
-                "n": 57.8,
+                "v": "57.9",
+                "n": 57.9,
                 "rank": "#45 of 138",
                 "rank_n": 45,
                 "note": null
@@ -617,7 +623,7 @@
               },
               "edge": {
                 "side": "h",
-                "gap": 5.9,
+                "gap": 5.8,
                 "rank_gap": 20
               }
             },
@@ -635,14 +641,14 @@
               "h": {
                 "v": "51.3",
                 "n": 51.3,
-                "rank": "#64 of 138",
-                "rank_n": 64,
+                "rank": "#63 of 138",
+                "rank_n": 63,
                 "note": null
               },
               "edge": {
                 "side": "a",
                 "gap": 1.7,
-                "rank_gap": 10
+                "rank_gap": 9
               }
             }
           ]
@@ -655,23 +661,23 @@
               "k": "QB room",
               "note": null,
               "a": {
-                "v": "60.8",
-                "n": 60.8,
-                "rank": "#30 of 138",
-                "rank_n": 30,
+                "v": "52.4",
+                "n": 52.4,
+                "rank": "#132 of 138",
+                "rank_n": 132,
                 "note": null
               },
               "h": {
-                "v": "56.8",
-                "n": 56.8,
-                "rank": "#92 of 138",
-                "rank_n": 92,
+                "v": "57.5",
+                "n": 57.5,
+                "rank": "#77 of 138",
+                "rank_n": 77,
                 "note": null
               },
               "edge": {
-                "side": "a",
-                "gap": 4,
-                "rank_gap": 62
+                "side": "h",
+                "gap": 5.1,
+                "rank_gap": 55
               }
             },
             {
@@ -681,8 +687,8 @@
               "a": {
                 "v": "53.5",
                 "n": 53.5,
-                "rank": "#44 of 138",
-                "rank_n": 44,
+                "rank": "#45 of 138",
+                "rank_n": 45,
                 "note": null
               },
               "h": {
@@ -695,7 +701,7 @@
               "edge": {
                 "side": "a",
                 "gap": 8.3,
-                "rank_gap": 75
+                "rank_gap": 74
               }
             },
             {
@@ -705,21 +711,21 @@
               "a": {
                 "v": "55.2",
                 "n": 55.2,
-                "rank": "#75 of 138",
-                "rank_n": 75,
+                "rank": "#73 of 138",
+                "rank_n": 73,
                 "note": null
               },
               "h": {
-                "v": "55.5",
-                "n": 55.5,
-                "rank": "#55 of 138",
-                "rank_n": 55,
+                "v": "55.9",
+                "n": 55.9,
+                "rank": "#36 of 138",
+                "rank_n": 36,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.3,
-                "rank_gap": 20
+                "gap": 0.7,
+                "rank_gap": 37
               }
             },
             {
@@ -753,21 +759,21 @@
               "a": {
                 "v": "56.8",
                 "n": 56.8,
-                "rank": "#51 of 138",
-                "rank_n": 51,
+                "rank": "#50 of 138",
+                "rank_n": 50,
                 "note": null
               },
               "h": {
-                "v": "54.9",
-                "n": 54.9,
-                "rank": "#116 of 138",
-                "rank_n": 116,
+                "v": "54.6",
+                "n": 54.6,
+                "rank": "#119 of 138",
+                "rank_n": 119,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 1.9,
-                "rank_gap": 65
+                "gap": 2.2,
+                "rank_gap": 69
               }
             },
             {
@@ -777,8 +783,8 @@
               "a": {
                 "v": "57.9",
                 "n": 57.9,
-                "rank": "#26 of 138",
-                "rank_n": 26,
+                "rank": "#27 of 138",
+                "rank_n": 27,
                 "note": null
               },
               "h": {
@@ -791,7 +797,7 @@
               "edge": {
                 "side": "h",
                 "gap": 0.4,
-                "rank_gap": 1
+                "rank_gap": 2
               }
             },
             {
@@ -825,15 +831,15 @@
               "a": {
                 "v": "56.9",
                 "n": 56.9,
-                "rank": "#33 of 138",
-                "rank_n": 33,
+                "rank": "#34 of 138",
+                "rank_n": 34,
                 "note": null
               },
               "h": {
                 "v": "50.2",
                 "n": 50.2,
-                "rank": "#100 of 138",
-                "rank_n": 100,
+                "rank": "#101 of 138",
+                "rank_n": 101,
                 "note": null
               },
               "edge": {
@@ -849,21 +855,21 @@
               "a": {
                 "v": "57.9",
                 "n": 57.9,
-                "rank": "#21 of 138",
+                "rank": "#21 of 137",
                 "rank_n": 21,
                 "note": null
               },
               "h": {
                 "v": "54.1",
                 "n": 54.1,
-                "rank": "#115 of 138",
-                "rank_n": 115,
+                "rank": "#114 of 137",
+                "rank_n": 114,
                 "note": null
               },
               "edge": {
                 "side": "a",
                 "gap": 3.8,
-                "rank_gap": 94
+                "rank_gap": 93
               }
             }
           ]
@@ -878,15 +884,15 @@
               "a": {
                 "v": "53.6",
                 "n": 53.6,
-                "rank": "#43 of 138",
-                "rank_n": 43,
+                "rank": "#44 of 138",
+                "rank_n": 44,
                 "note": null
               },
               "h": {
                 "v": "53.7",
                 "n": 53.7,
-                "rank": "#36 of 138",
-                "rank_n": 36,
+                "rank": "#37 of 138",
+                "rank_n": 37,
                 "note": null
               },
               "edge": {
@@ -939,75 +945,85 @@
         },
         {
           "k": "Kicking",
-          "rank_gap": 94,
+          "rank_gap": 93,
           "gap": 3.8,
           "lead": "Kansas State",
           "trail": "Colorado",
-          "lead_cell": "57.9 · #21 of 138",
-          "trail_cell": "54.1 · #115 of 138",
-          "text": "Kansas State 57.9 (#21 of 138) vs Colorado 54.1 (#115 of 138) — 94 places on the national board."
+          "lead_cell": "57.9 · #21 of 137",
+          "trail_cell": "54.1 · #114 of 137",
+          "text": "Kansas State 57.9 (#21 of 137) vs Colorado 54.1 (#114 of 137) — 93 places on the national board."
         },
         {
           "k": "Special teams",
-          "rank_gap": 87,
-          "gap": 5.1,
+          "rank_gap": 91,
+          "gap": 5.2,
           "lead": "Kansas State",
           "trail": "Colorado",
-          "lead_cell": "52.4 · #23 of 130",
+          "lead_cell": "52.5 · #19 of 130",
           "trail_cell": "47.3 · #110 of 130",
-          "text": "Kansas State 52.4 (#23 of 130) vs Colorado 47.3 (#110 of 130) — 87 places on the national board."
+          "text": "Kansas State 52.5 (#19 of 130) vs Colorado 47.3 (#110 of 130) — 91 places on the national board."
         },
         {
           "k": "Run offense",
           "rank_gap": 84,
-          "gap": 19.4,
+          "gap": 19.3,
           "lead": "Kansas State",
           "trail": "Colorado",
-          "lead_cell": "61.6 · #19 of 138",
+          "lead_cell": "61.5 · #19 of 138",
           "trail_cell": "42.2 · #103 of 138",
-          "text": "Kansas State 61.6 (#19 of 138) vs Colorado 42.2 (#103 of 138) — 84 places on the national board."
+          "text": "Kansas State 61.5 (#19 of 138) vs Colorado 42.2 (#103 of 138) — 84 places on the national board."
         },
         {
           "k": "Offensive line",
-          "rank_gap": 75,
+          "rank_gap": 74,
           "gap": 8.3,
           "lead": "Kansas State",
           "trail": "Colorado",
-          "lead_cell": "53.5 · #44 of 138",
+          "lead_cell": "53.5 · #45 of 138",
           "trail_cell": "45.2 · #119 of 138",
-          "text": "Kansas State 53.5 (#44 of 138) vs Colorado 45.2 (#119 of 138) — 75 places on the national board."
+          "text": "Kansas State 53.5 (#45 of 138) vs Colorado 45.2 (#119 of 138) — 74 places on the national board."
         }
       ],
       "home": [
         {
+          "k": "QB room",
+          "rank_gap": 55,
+          "gap": 5.1,
+          "lead": "Colorado",
+          "trail": "Kansas State",
+          "lead_cell": "57.5 · #77 of 138",
+          "trail_cell": "52.4 · #132 of 138",
+          "text": "Colorado 57.5 (#77 of 138) vs Kansas State 52.4 (#132 of 138) — 55 places on the national board."
+        },
+        {
+          "k": "Receivers",
+          "rank_gap": 37,
+          "gap": 0.7,
+          "lead": "Colorado",
+          "trail": "Kansas State",
+          "lead_cell": "55.9 · #36 of 138",
+          "trail_cell": "55.2 · #73 of 138",
+          "text": "Colorado 55.9 (#36 of 138) vs Kansas State 55.2 (#73 of 138) — 37 places on the national board."
+        },
+        {
           "k": "Pass offense",
-          "rank_gap": 31,
-          "gap": 6.3,
+          "rank_gap": 32,
+          "gap": 6.4,
           "lead": "Colorado",
           "trail": "Kansas State",
           "lead_cell": "50.5 · #66 of 137",
-          "trail_cell": "44.2 · #97 of 137",
-          "text": "Colorado 50.5 (#66 of 137) vs Kansas State 44.2 (#97 of 137) — 31 places on the national board."
+          "trail_cell": "44.1 · #98 of 137",
+          "text": "Colorado 50.5 (#66 of 137) vs Kansas State 44.1 (#98 of 137) — 32 places on the national board."
         },
         {
           "k": "Run defense",
           "rank_gap": 20,
-          "gap": 5.9,
+          "gap": 5.8,
           "lead": "Colorado",
           "trail": "Kansas State",
           "lead_cell": "63.7 · #25 of 138",
-          "trail_cell": "57.8 · #45 of 138",
-          "text": "Colorado 63.7 (#25 of 138) vs Kansas State 57.8 (#45 of 138) — 20 places on the national board."
-        },
-        {
-          "k": "Receivers",
-          "rank_gap": 20,
-          "gap": 0.3,
-          "lead": "Colorado",
-          "trail": "Kansas State",
-          "lead_cell": "55.5 · #55 of 138",
-          "trail_cell": "55.2 · #75 of 138",
-          "text": "Colorado 55.5 (#55 of 138) vs Kansas State 55.2 (#75 of 138) — 20 places on the national board."
+          "trail_cell": "57.9 · #45 of 138",
+          "text": "Colorado 63.7 (#25 of 138) vs Kansas State 57.9 (#45 of 138) — 20 places on the national board."
         },
         {
           "k": "Scheme fit",
@@ -1015,19 +1031,9 @@
           "gap": 0.4,
           "lead": "Colorado",
           "trail": "Kansas State",
-          "lead_cell": "49.2 · #100 of 138",
-          "trail_cell": "48.8 · #114 of 138",
-          "text": "Colorado 49.2 (#100 of 138) vs Kansas State 48.8 (#114 of 138) — 14 places on the national board."
-        },
-        {
-          "k": "Defense",
-          "rank_gap": 9,
-          "gap": 1.1,
-          "lead": "Colorado",
-          "trail": "Kansas State",
-          "lead_cell": "56.9 · #27 of 138",
-          "trail_cell": "55.8 · #36 of 138",
-          "text": "Colorado 56.9 (#27 of 138) vs Kansas State 55.8 (#36 of 138) — 9 places on the national board."
+          "lead_cell": "49.3 · #95 of 138",
+          "trail_cell": "48.9 · #109 of 138",
+          "text": "Colorado 49.3 (#95 of 138) vs Kansas State 48.9 (#109 of 138) — 14 places on the national board."
         }
       ],
       "measured": [],
@@ -1041,26 +1047,26 @@
         "att": {
           "team": "Kansas State",
           "label": "pass offense",
-          "v": "44.2",
-          "rank": "#97 of 137",
+          "v": "44.1",
+          "rank": "#98 of 137",
           "note": null
         },
         "def": {
           "team": "Colorado",
           "label": "pass defense",
           "v": "51.3",
-          "rank": "#64 of 138",
+          "rank": "#63 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Kansas State’s pass offense rates 44.2 (#97 of 137) against Colorado’s pass defense at 51.3 (#64 of 138). Colorado’s unit stands higher among its own position group, by 33 places."
+        "read": "Kansas State’s pass offense rates 44.1 (#98 of 137) against Colorado’s pass defense at 51.3 (#63 of 138). Colorado’s unit stands higher among its own position group, by 35 places."
       },
       {
         "title": "Kansas State run offense vs Colorado run defense",
         "att": {
           "team": "Kansas State",
           "label": "run offense",
-          "v": "61.6",
+          "v": "61.5",
           "rank": "#19 of 138",
           "note": null
         },
@@ -1072,7 +1078,7 @@
           "note": null
         },
         "complete": true,
-        "read": "Kansas State’s run offense rates 61.6 (#19 of 138) against Colorado’s run defense at 63.7 (#25 of 138). Kansas State’s unit stands higher among its own position group, by 6 places."
+        "read": "Kansas State’s run offense rates 61.5 (#19 of 138) against Colorado’s run defense at 63.7 (#25 of 138). Kansas State’s unit stands higher among its own position group, by 6 places."
       },
       {
         "title": "Colorado pass offense vs Kansas State pass defense",
@@ -1105,50 +1111,50 @@
         "def": {
           "team": "Kansas State",
           "label": "run defense",
-          "v": "57.8",
+          "v": "57.9",
           "rank": "#45 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Colorado’s run offense rates 42.2 (#103 of 138) against Kansas State’s run defense at 57.8 (#45 of 138). Kansas State’s unit stands higher among its own position group, by 58 places."
+        "read": "Colorado’s run offense rates 42.2 (#103 of 138) against Kansas State’s run defense at 57.9 (#45 of 138). Kansas State’s unit stands higher among its own position group, by 58 places."
       },
       {
         "title": "Kansas State QB room vs Colorado secondary",
         "att": {
           "team": "Kansas State",
           "label": "QB room",
-          "v": "60.8",
-          "rank": "#30 of 138",
+          "v": "52.4",
+          "rank": "#132 of 138",
           "note": null
         },
         "def": {
           "team": "Colorado",
           "label": "secondary",
           "v": "50.2",
-          "rank": "#100 of 138",
+          "rank": "#101 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Kansas State’s QB room rates 60.8 (#30 of 138) against Colorado’s secondary at 50.2 (#100 of 138). Kansas State’s unit stands higher among its own position group, by 70 places."
+        "read": "Kansas State’s QB room rates 52.4 (#132 of 138) against Colorado’s secondary at 50.2 (#101 of 138). Colorado’s unit stands higher among its own position group, by 31 places."
       },
       {
         "title": "Colorado QB room vs Kansas State secondary",
         "att": {
           "team": "Colorado",
           "label": "QB room",
-          "v": "56.8",
-          "rank": "#92 of 138",
+          "v": "57.5",
+          "rank": "#77 of 138",
           "note": null
         },
         "def": {
           "team": "Kansas State",
           "label": "secondary",
           "v": "56.9",
-          "rank": "#33 of 138",
+          "rank": "#34 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Colorado’s QB room rates 56.8 (#92 of 138) against Kansas State’s secondary at 56.9 (#33 of 138). Kansas State’s unit stands higher among its own position group, by 59 places."
+        "read": "Colorado’s QB room rates 57.5 (#77 of 138) against Kansas State’s secondary at 56.9 (#34 of 138). Kansas State’s unit stands higher among its own position group, by 43 places."
       },
       {
         "title": "Kansas State offensive line vs Colorado defensive line",
@@ -1156,7 +1162,7 @@
           "team": "Kansas State",
           "label": "offensive line",
           "v": "53.5",
-          "rank": "#44 of 138",
+          "rank": "#45 of 138",
           "note": null
         },
         "def": {
@@ -1167,7 +1173,7 @@
           "note": null
         },
         "complete": true,
-        "read": "Kansas State’s offensive line rates 53.5 (#44 of 138) against Colorado’s defensive line at 58.3 (#25 of 138). Colorado’s unit stands higher among its own position group, by 19 places."
+        "read": "Kansas State’s offensive line rates 53.5 (#45 of 138) against Colorado’s defensive line at 58.3 (#25 of 138). Colorado’s unit stands higher among its own position group, by 20 places."
       },
       {
         "title": "Colorado offensive line vs Kansas State defensive line",
@@ -1182,11 +1188,11 @@
           "team": "Kansas State",
           "label": "defensive line",
           "v": "57.9",
-          "rank": "#26 of 138",
+          "rank": "#27 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Colorado’s offensive line rates 45.2 (#119 of 138) against Kansas State’s defensive line at 57.9 (#26 of 138). Kansas State’s unit stands higher among its own position group, by 93 places."
+        "read": "Colorado’s offensive line rates 45.2 (#119 of 138) against Kansas State’s defensive line at 57.9 (#27 of 138). Kansas State’s unit stands higher among its own position group, by 92 places."
       },
       {
         "title": "Kansas State running backs vs Colorado linebackers",
@@ -1194,7 +1200,7 @@
           "team": "Kansas State",
           "label": "running backs",
           "v": "56.8",
-          "rank": "#51 of 138",
+          "rank": "#50 of 138",
           "note": null
         },
         "def": {
@@ -1205,15 +1211,15 @@
           "note": null
         },
         "complete": true,
-        "read": "Kansas State’s running backs rates 56.8 (#51 of 138) against Colorado’s linebackers at 53.9 (#56 of 138). Kansas State’s unit stands higher among its own position group, by 5 places."
+        "read": "Kansas State’s running backs rates 56.8 (#50 of 138) against Colorado’s linebackers at 53.9 (#56 of 138). Kansas State’s unit stands higher among its own position group, by 6 places."
       },
       {
         "title": "Colorado running backs vs Kansas State linebackers",
         "att": {
           "team": "Colorado",
           "label": "running backs",
-          "v": "54.9",
-          "rank": "#116 of 138",
+          "v": "54.6",
+          "rank": "#119 of 138",
           "note": null
         },
         "def": {
@@ -1224,7 +1230,7 @@
           "note": null
         },
         "complete": true,
-        "read": "Colorado’s running backs rates 54.9 (#116 of 138) against Kansas State’s linebackers at 54.4 (#52 of 138). Kansas State’s unit stands higher among its own position group, by 64 places."
+        "read": "Colorado’s running backs rates 54.6 (#119 of 138) against Kansas State’s linebackers at 54.4 (#52 of 138). Kansas State’s unit stands higher among its own position group, by 67 places."
       },
       {
         "title": "Kansas State receivers vs Colorado secondary",
@@ -1232,37 +1238,37 @@
           "team": "Kansas State",
           "label": "receivers",
           "v": "55.2",
-          "rank": "#75 of 138",
+          "rank": "#73 of 138",
           "note": null
         },
         "def": {
           "team": "Colorado",
           "label": "secondary",
           "v": "50.2",
-          "rank": "#100 of 138",
+          "rank": "#101 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Kansas State’s receivers rates 55.2 (#75 of 138) against Colorado’s secondary at 50.2 (#100 of 138). Kansas State’s unit stands higher among its own position group, by 25 places."
+        "read": "Kansas State’s receivers rates 55.2 (#73 of 138) against Colorado’s secondary at 50.2 (#101 of 138). Kansas State’s unit stands higher among its own position group, by 28 places."
       },
       {
         "title": "Colorado receivers vs Kansas State secondary",
         "att": {
           "team": "Colorado",
           "label": "receivers",
-          "v": "55.5",
-          "rank": "#55 of 138",
+          "v": "55.9",
+          "rank": "#36 of 138",
           "note": null
         },
         "def": {
           "team": "Kansas State",
           "label": "secondary",
           "v": "56.9",
-          "rank": "#33 of 138",
+          "rank": "#34 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Colorado’s receivers rates 55.5 (#55 of 138) against Kansas State’s secondary at 56.9 (#33 of 138). Kansas State’s unit stands higher among its own position group, by 22 places."
+        "read": "Colorado’s receivers rates 55.9 (#36 of 138) against Kansas State’s secondary at 56.9 (#34 of 138). Kansas State’s unit stands higher among its own position group, by 2 places."
       }
     ],
     "roster": {
@@ -1368,18 +1374,18 @@
         {
           "k": "Availability records",
           "note": "an absence report reaching this roster. UNKNOWN is never read as healthy",
-          "a": "none on file — 100% unknown",
-          "h": "none on file — 100% unknown",
+          "a": "8 on file, 26% of starter value out",
+          "h": "8 on file, 8% of starter value out",
           "edge": null
         },
         {
           "k": "Data confidence",
           "note": "how much EdgeDesk knows about this roster, not how good it is",
-          "a": "65%",
-          "h": "53%",
+          "a": "72%",
+          "h": "63%",
           "edge": {
             "side": "a",
-            "gap": 0.118
+            "gap": 0.08699999999999997
           }
         }
       ],
@@ -1420,19 +1426,19 @@
           "Kansas State is the better football team by 8.6 points on opponent-adjusted results, with roughly 35% of it still inherited from last season (-8.6 pts).",
           "Stylistically the matchup favours Kansas State by 1.3 points: ball control vs front disruption (-1.3 pts).",
           "Continuity: Kansas State 58.5 (#8 of 138) vs Colorado 34.6 (#117 of 138) — 109 places on the national board.",
-          "Kicking: Kansas State 57.9 (#21 of 138) vs Colorado 54.1 (#115 of 138) — 94 places on the national board.",
-          "Special teams: Kansas State 52.4 (#23 of 130) vs Colorado 47.3 (#110 of 130) — 87 places on the national board."
+          "Kicking: Kansas State 57.9 (#21 of 137) vs Colorado 54.1 (#114 of 137) — 93 places on the national board.",
+          "Special teams: Kansas State 52.5 (#19 of 130) vs Colorado 47.3 (#110 of 130) — 91 places on the national board."
         ]
       },
       "underdog": {
         "team": "Colorado",
         "heading": "Why Colorado can keep it close",
         "bullets": [
+          "The reported injuries favour Colorado by 3.9 points (+3.9 pts).",
           "Playing at Colorado is worth 2.8 points — the league-wide home-field number, because a per-venue table was tested and could not be told apart from the home team’s own quality (+2.8 pts).",
-          "Pass offense: Colorado 50.5 (#66 of 137) vs Kansas State 44.2 (#97 of 137) — 31 places on the national board.",
-          "Run defense: Colorado 63.7 (#25 of 138) vs Kansas State 57.8 (#45 of 138) — 20 places on the national board.",
-          "Receivers: Colorado 55.5 (#55 of 138) vs Kansas State 55.2 (#75 of 138) — 20 places on the national board.",
-          "The outcome range is 14.6 points wide at one sigma — p10 -28.1 to p90 +13.9 for Colorado, so a projection of -7.1 still produces results a long way either side of it."
+          "QB room: Colorado 57.5 (#77 of 138) vs Kansas State 52.4 (#132 of 138) — 55 places on the national board.",
+          "Receivers: Colorado 55.9 (#36 of 138) vs Kansas State 55.2 (#73 of 138) — 37 places on the national board.",
+          "Pass offense: Colorado 50.5 (#66 of 137) vs Kansas State 44.1 (#98 of 137) — 32 places on the national board."
         ]
       },
       "note": "These are football cases assembled from measured states. Neither is a bet, and neither is advice."
@@ -1443,18 +1449,6 @@
           "sev": "MEDIUM",
           "label": "sample",
           "text": "College ratings are built on twelve-game seasons against wildly uneven schedules; even a clean rating gap carries more estimation error than the number implies.",
-          "widening": null
-        },
-        {
-          "sev": "MEDIUM",
-          "label": "Kansas State — injury uncertainty",
-          "text": "100% of projected starter value has no availability record.",
-          "widening": null
-        },
-        {
-          "sev": "MEDIUM",
-          "label": "Colorado — injury uncertainty",
-          "text": "100% of projected starter value has no availability record.",
           "widening": null
         },
         {
@@ -1473,18 +1467,6 @@
           "sev": "LOW",
           "label": "missing",
           "text": "weather not supplied",
-          "widening": null
-        },
-        {
-          "sev": "LOW",
-          "label": "missing",
-          "text": "home injury report not supplied",
-          "widening": null
-        },
-        {
-          "sev": "LOW",
-          "label": "missing",
-          "text": "away injury report not supplied",
           "widening": null
         },
         {
@@ -1522,14 +1504,6 @@
           "why": "starting QB not supplied for away"
         },
         {
-          "item": "Home availability / injuries",
-          "why": "no injury report supplied for home"
-        },
-        {
-          "item": "Away availability / injuries",
-          "why": "no injury report supplied for away"
-        },
-        {
           "item": "Weather at kickoff",
           "why": "no weather supplied"
         },
@@ -1550,24 +1524,16 @@
           "why": "no legal, public, keyless recruiting feed is wired into EdgeDesk, so no recruiting rating exists for this roster. Nothing is estimated in its place."
         },
         {
-          "item": "Kansas State — availability and injuries",
-          "why": "no availability record reached this roster. UNKNOWN is carried as unknown; it is never read as healthy."
-        },
-        {
           "item": "Colorado — recruiting ratings",
           "why": "no legal, public, keyless recruiting feed is wired into EdgeDesk, so no recruiting rating exists for this roster. Nothing is estimated in its place."
-        },
-        {
-          "item": "Colorado — availability and injuries",
-          "why": "no availability record reached this roster. UNKNOWN is carried as unknown; it is never read as healthy."
         }
       ],
       "note": "Unknown is never scored as zero. Every line here is a gap EdgeDesk carries as uncertainty rather than filling in."
     },
     "market": {
       "available": false,
-      "model": "Colorado +7.0",
-      "model_raw": "Colorado +7.1",
+      "model": "Colorado +3.0",
+      "model_raw": "Colorado +3.2",
       "headline": "No sportsbook spread is currently joined to this game.",
       "note": "There is no model-vs-market comparison yet. Everything above is still EdgeDesk’s current view of the matchup; a missing price removes the comparison and nothing else."
     },
@@ -1587,12 +1553,12 @@
       },
       "disagreement": null,
       "fair": {
-        "line_text": "Kansas State −7.0",
+        "line_text": "Kansas State −3.0",
         "favorite_team": "Kansas State",
         "underdog_team": "Colorado",
-        "display_fair_spread": -7.1,
-        "raw_home_margin": -7.11,
-        "raw_line_text": "Kansas State -7.11",
+        "display_fair_spread": -3.2,
+        "raw_home_margin": -3.21,
+        "raw_line_text": "Kansas State -3.21",
         "is_near_pickem": false
       },
       "market_gap": {
@@ -1600,7 +1566,7 @@
         "reason": "no market line is joined to this game"
       },
       "confidence": {
-        "score": 75,
+        "score": 76,
         "tier": "HIGH",
         "label": "High"
       },
@@ -1623,13 +1589,13 @@
           {
             "key": "roster_availability",
             "label": "Roster/status",
-            "score": 11.1,
+            "score": 15.9,
             "max": 20
           },
           {
             "key": "projection_stability",
             "label": "Stability",
-            "score": 20,
+            "score": 19.8,
             "max": 20
           },
           {
@@ -1641,7 +1607,7 @@
           {
             "key": "source_integrity",
             "label": "Source integrity",
-            "score": 10.9,
+            "score": 11.5,
             "max": 15
           },
           {
@@ -1663,13 +1629,13 @@
           },
           {
             "action": "Confirm Kansas State’s starting QB (Jacob Knuth)",
-            "potential_gain": 9,
-            "text": "up to +9 once resolve Kansas State’s starter conflict is done"
+            "potential_gain": 14,
+            "text": "up to +14 once resolve Kansas State’s starter conflict is done"
           }
         ],
         "stability": {
-          "tier": "VERY_STABLE",
-          "sd": 0.81,
+          "tier": "STABLE",
+          "sd": 1.55,
           "favorite_flip_rate": 0
         },
         "scale": "0-100 reliability score, not a probability"
@@ -1698,14 +1664,14 @@
         "reason": "no sportsbook quote has been captured for this game"
       },
       "projection_status": {
-        "key": "STABLE",
-        "label": "STABLE",
-        "text": "EdgeDesk’s number is unchanged since the latest published number."
+        "key": "LINE_MOVING",
+        "label": "LINE MOVING",
+        "text": "EdgeDesk’s number is steady, but the market has moved 4.0 pts toward Colorado (espn · DraftKings)."
       },
       "stability": {
-        "tier": "HIGH",
-        "label": "High",
-        "text": "the stored numbers span 0.2 pts across 3 readings"
+        "tier": "LOW",
+        "label": "Low",
+        "text": "the stored numbers span 4.1 pts across 3 readings"
       },
       "published": [
         {
@@ -1715,25 +1681,25 @@
           "text": "Kansas State -7.3"
         },
         {
-          "at": "2026-10-26T15:03:38.857Z",
+          "at": "2026-10-29T13:22:06.156Z",
           "source": "latest published",
-          "home_margin": -7.11,
-          "text": "Kansas State -7.1"
+          "home_margin": -3.21,
+          "text": "Kansas State -3.2"
         }
       ],
-      "revisions": 6,
+      "revisions": 7,
       "change_since_published": {
         "comparable": true,
         "points": 0,
         "toward_team": "Kansas State",
-        "since_at": "2026-10-26T15:03:38.857Z",
+        "since_at": "2026-10-29T13:22:06.156Z",
         "text": "unchanged since the latest published number"
       },
       "what_changed": {
         "available": true,
-        "summary": "EdgeDesk moved 0.2 points toward Colorado since the first published number.",
-        "attribution_text": "Projection changed 0.2 points since the first published number. Component-level attribution is unavailable: the stored snapshot keeps the number, not the terms behind it.",
-        "market": null,
+        "summary": "EdgeDesk moved 4.1 points toward Colorado since the first published number.",
+        "attribution_text": "Projection changed 4.1 points since the first published number. Component-level attribution is unavailable: the stored snapshot keeps the number, not the terms behind it.",
+        "market": "Market moved 4.0 pts toward Colorado (espn · DraftKings)",
         "model_version": null
       },
       "parity": {
@@ -1742,7 +1708,7 @@
       },
       "note": "Research, not picks. Every value is read off EdgeDesk’s own projection and the market it was compared with; nothing here is a recommendation to bet."
     },
-    "headline": "EdgeDesk projects Kansas State 30, Colorado 23.",
+    "headline": "EdgeDesk projects Kansas State 28, Colorado 25.",
     "state": {
       "label": "NO MARKET",
       "note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
@@ -1751,16 +1717,16 @@
     "score": {
       "away": {
         "team": "Kansas State",
-        "points": "30"
+        "points": "28"
       },
       "home": {
         "team": "Colorado",
-        "points": "23"
+        "points": "25"
       },
       "expected": {
-        "text": "Kansas State 29.99, Colorado 22.88",
-        "home": 22.88,
-        "away": 29.99,
+        "text": "Kansas State 28.04, Colorado 24.83",
+        "home": 24.83,
+        "away": 28.04,
         "note": null
       },
       "note": "Split from EdgeDesk’s own projected margin and total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
@@ -1779,85 +1745,85 @@
         },
         {
           "k": "Talent",
-          "a": "60.9  #16",
-          "h": "48.5  #76",
+          "a": "59.2  #23",
+          "h": "48.6  #75",
           "note": null
         },
         {
           "k": "Performance",
           "a": "56.8  #44",
-          "h": "53.3  #54",
+          "h": "53.3  #55",
           "note": null
         },
         {
           "k": "Offense",
-          "a": "52.2  #55",
-          "h": "47.0  #86",
+          "a": "52.1  #56",
+          "h": "47.0  #88",
           "note": null
         },
         {
           "k": "Defense",
           "a": "55.8  #36",
-          "h": "56.9  #27",
+          "h": "56.8  #28",
           "note": null
         },
         {
           "k": "Special teams",
-          "a": "52.4  #23",
+          "a": "52.5  #19",
           "h": "47.3  #110",
           "note": null
         },
         {
           "k": "Run offense",
-          "a": "61.6  #19",
+          "a": "61.5  #19",
           "h": "42.2  #103",
           "note": null
         },
         {
           "k": "Pass offense",
-          "a": "44.2  #97",
+          "a": "44.1  #98",
           "h": "50.5  #66",
           "note": null
         },
         {
           "k": "Run defense",
-          "a": "57.8  #45",
+          "a": "57.9  #45",
           "h": "63.7  #25",
           "note": null
         },
         {
           "k": "Pass defense",
           "a": "53.0  #54",
-          "h": "51.3  #64",
+          "h": "51.3  #63",
           "note": null
         },
         {
           "k": "QB room",
-          "a": "60.8  #30",
-          "h": "56.8  #92",
+          "a": "52.4  #132",
+          "h": "57.5  #77",
           "note": null
         },
         {
           "k": "Offensive line",
-          "a": "53.5  #44",
+          "a": "53.5  #45",
           "h": "45.2  #119",
           "note": null
         },
         {
           "k": "Receivers",
-          "a": "55.2  #75",
-          "h": "55.5  #55",
+          "a": "55.2  #73",
+          "h": "55.9  #36",
           "note": null
         },
         {
           "k": "Running backs",
-          "a": "56.8  #51",
-          "h": "54.9  #116",
+          "a": "56.8  #50",
+          "h": "54.6  #119",
           "note": null
         },
         {
           "k": "Defensive line",
-          "a": "57.9  #26",
+          "a": "57.9  #27",
           "h": "58.3  #25",
           "note": null
         },
@@ -1869,14 +1835,14 @@
         },
         {
           "k": "Secondary",
-          "a": "56.9  #33",
-          "h": "50.2  #100",
+          "a": "56.9  #34",
+          "h": "50.2  #101",
           "note": null
         },
         {
           "k": "Depth",
-          "a": "53.6  #43",
-          "h": "53.7  #36",
+          "a": "53.6  #44",
+          "h": "53.7  #37",
           "note": null
         },
         {
@@ -1887,22 +1853,22 @@
         },
         {
           "k": "Confidence",
-          "a": "65%",
-          "h": "53%",
+          "a": "72%",
+          "h": "63%",
           "note": "how much EdgeDesk knows, not how good the team is"
         },
         {
           "k": "Δ national rank, this week",
-          "a": "down 8",
-          "h": "down 7",
+          "a": "no change",
+          "h": "no change",
           "note": "differenced from last week’s committed snapshot"
         }
       ]
     },
     "notes": [
-      "EdgeDesk’s line is Colorado +7.0 on a neutral read of the two teams, before any book is consulted. Projected total 53.0.",
-      "Colorado wins 31% of the time in EdgeDesk’s simulation, Kansas State 69%.",
-      "Eight games in ten land between -28.1 and +13.9 for Colorado. A single result inside that band tells you nothing new about either team.",
+      "EdgeDesk’s line is Colorado +3.0 on a neutral read of the two teams, before any book is consulted. Projected total 53.0.",
+      "Colorado wins 41% of the time in EdgeDesk’s simulation, Kansas State 59%.",
+      "Eight games in ten land between -24.2 and +17.8 for Colorado. A single result inside that band tells you nothing new about either team.",
       "No sportsbook spread is joined to this game, so there is no model-versus-market comparison. EdgeDesk’s own number and the research behind it are unchanged by that.",
       "Colorado quarterback: Isaac Wilson — started the last game; no announcement for this one."
     ],
@@ -1913,94 +1879,12 @@
     ],
     "context_label": "RESEARCH CONTEXT — position-group, player-quality, roster and scheme figures explain this matchup and move no priced number.",
     "priced_label": "PRICED BY MODEL — the projection and its drivers, from validated inputs only.",
-    "source": "Ratings: football/rankings/current.json — 2026 Week 8, built 2026-10-26. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser."
+    "source": "Ratings: football/rankings/current.json — 2026 Week 9, built 2026-10-30. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser."
   },
-  "football_evidence": {
-    "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "2jl0j41ft13pu",
-    "status": "PARTIALLY_EXPLAINED",
-    "input_suspect": false,
-    "question": "Can Colorado’s pass rush get to Kansas State’s quarterback?",
-    "assessment": "Some measured evidence supports EdgeDesk’s lean toward Kansas State, and its own breakdown accounts for about 0.0 of the 4.6 points, but not the full gap. It is a research question, not a bet.",
-    "gap": {
-      "points": 4.6,
-      "toward": "Kansas State",
-      "other": "Colorado"
-    },
-    "supporting": [
-      "When Colorado has the ball (third down): Colorado’s offense converts 34.3% of its third downs, and Kansas State’s defense allows opponents to convert 33.8% of their third downs (FBS average 39.5%).",
-      "When Colorado has the ball (the red zone): Colorado’s offense succeeds on 38.4% of its red-zone plays, and Kansas State’s defense allows success on 33.0% of opponent red-zone plays (FBS average 43.6%).",
-      "When Kansas State has the ball (big plays on the ground): Kansas State’s offense turns 8.7% of its runs into explosive gains, and Colorado’s defense gives up explosive gains on 6.6% of opponent runs (FBS average 6.5%).",
-      "In his last two games (Northwestern and Baylor), Lewis averaged 5.2 yards per attempt, against 9.8 in his two games before that."
-    ],
-    "contradicting": [
-      "When Kansas State has the ball (big plays through the air): Kansas State’s offense turns 7.1% of its pass plays into explosive gains, and Colorado’s defense gives up explosive gains on 13.0% of opponent pass plays (FBS average 10.2%).",
-      "In his last two games (Utah and Oklahoma State), Wilson averaged 9.1 yards per attempt, against 6.3 in his three games before that.",
-      "Jacob Knuth has completed 27 of 42 passes (64.3%) for 201 yards, 4.8 yards per attempt, 1 touchdown and no interceptions in two games for Kansas State, and has been sacked on 3 of 45 dropbacks.",
-      "When Kansas State has the ball (the red zone): Kansas State’s offense succeeds on 39.9% of its red-zone plays, and Colorado’s defense allows success on 37.0% of opponent red-zone plays (FBS average 43.6%)."
-    ],
-    "quarterbacks": [
-      "Isaac Wilson has completed 76 of 127 passes (59.8%) for 964 yards, 7.6 yards per attempt, 7 touchdowns and 6 interceptions in five games for Colorado, and has been sacked on 6 of 133 dropbacks.",
-      "Julian Lewis has completed 58 of 93 passes (62.4%) for 709 yards, 7.6 yards per attempt, 6 touchdowns and 2 interceptions in four games for Colorado, and has been sacked on 8 of 101 dropbacks.",
-      "Avery Johnson has completed 119 of 188 passes (63.3%) for 1,318 yards, 7.0 yards per attempt, 10 touchdowns and 3 interceptions in six games for Kansas State, and has been sacked on 3 of 191 dropbacks.",
-      "Jacob Knuth has completed 27 of 42 passes (64.3%) for 201 yards, 4.8 yards per attempt, 1 touchdown and no interceptions in two games for Kansas State, and has been sacked on 3 of 45 dropbacks."
-    ],
-    "availability": [],
-    "script": {
-      "model": [
-        "Kansas State’s offense has to keep winning in the pass-rush matchup: it has allowed a sack on 3.0% of its dropbacks, and Colorado’s defense sacks the quarterback on 7.8% of opponent dropbacks.",
-        "Kansas State’s offense has to hold its own on big pass plays against a defense that gives up explosive gains on 13.0% of opponent pass plays.",
-        "Kansas State’s offense has to hold its own at the line of scrimmage against a defense that stops 22.6% of opponent runs at or behind the line.",
-        "Kansas State’s offense has to keep winning on long runs: it turns 8.7% of its runs into explosive gains, and Colorado’s defense gives up explosive gains on 6.6% of opponent runs."
-      ],
-      "market": [
-        "Colorado’s defense has to come out ahead on big pass plays: it gives up explosive gains on 13.0% of opponent pass plays, against an offense that turns 7.1% of its pass plays into explosive gains.",
-        "Colorado’s defense has to come out ahead at the line of scrimmage: it stops 22.6% of opponent runs at or behind the line, against an offense that is stopped at or behind the line on 15.4% of its runs.",
-        "Colorado’s defense has to come out ahead in the pass-rush matchup: it sacks the quarterback on 7.8% of opponent dropbacks, against an offense that has allowed a sack on 3.0% of its dropbacks."
-      ]
-    },
-    "unknown": [
-      "EdgeDesk’s own sources disagree on sack rate allowed and sack rate for Colorado.",
-      "Not in EdgeDesk’s verified data for this game: turnover rates and penalty rate."
-    ],
-    "flags": [
-      {
-        "key": "DATA_CONFLICT",
-        "severity": "medium",
-        "text": "EdgeDesk’s own sources disagree on sack rate allowed (Colorado) and sack rate (Colorado); the evidence uses the corroborated figures, and any model term built on the play-by-play figure may be off."
-      },
-      {
-        "key": "CROSS_MODEL_OUTLIER",
-        "severity": "medium",
-        "text": "EdgeDesk’s published number sits 5.9 points from the middle of its own other models."
-      },
-      {
-        "key": "REGIME_CHANGE",
-        "severity": "medium",
-        "text": "Kansas State: new head coach; returning roster share at the 46th percentile. The long-run state is weighted 60% (regime curve) instead of 60% (standard curve) at 7 games played."
-      }
-    ],
-    "sources": [
-      {
-        "label": "EdgeDesk play-by-play unit metrics (2026 season)",
-        "url": null,
-        "path": "football/matchup/metrics.json",
-        "observed_at": "2026-10-27T05:10:50.316Z",
-        "verification": "VERIFIED_DATA"
-      },
-      {
-        "label": "EdgeDesk play-by-play quarterback logs (2026)",
-        "url": null,
-        "path": "football/fbs_epa/qb_epa_2026.json",
-        "observed_at": "2026-10-25T02:15:00.000Z",
-        "verification": "VERIFIED_DATA"
-      }
-    ],
-    "needs_confirmation": []
-  },
+  "football_evidence": null,
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-10-27T08:53:29.281Z"
+    "at": "2026-10-31T19:14:58.561Z"
   }
 }

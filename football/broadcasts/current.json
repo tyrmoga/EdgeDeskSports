@@ -1,8 +1,8 @@
 {
  "schema": "edgedesk_broadcast_listings_v1",
  "version": "edgedesk_broadcast/1",
- "generated_at": "2026-10-27T13:33:19.588Z",
- "week": 9,
+ "generated_at": "2026-11-02T06:08:17.956Z",
+ "week": 10,
  "source": {
   "name": "ESPN scoreboard",
   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard",
@@ -12,40 +12,40 @@
  "rule": "A listing is what ESPN’s scoreboard carried at retrieved_at; it is verified by lib/edgedesk_broadcast.js and printed only when CONFIRMED and fresh. A failed fetch keeps the previous listing with its real retrieval time.",
  "fetches": [
   {
-   "day": "20261027",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?groups=80&limit=300&dates=20261027",
+   "day": "20261103",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?groups=80&limit=300&dates=20261103",
    "ok": false,
    "status": 403,
    "error": "HTTP 403",
    "retrieved_at": null
   },
   {
-   "day": "20261028",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?groups=80&limit=300&dates=20261028",
+   "day": "20261104",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?groups=80&limit=300&dates=20261104",
    "ok": false,
    "status": 403,
    "error": "HTTP 403",
    "retrieved_at": null
   },
   {
-   "day": "20261029",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?groups=80&limit=300&dates=20261029",
+   "day": "20261105",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?groups=80&limit=300&dates=20261105",
    "ok": false,
    "status": 403,
    "error": "HTTP 403",
    "retrieved_at": null
   },
   {
-   "day": "20261030",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?groups=80&limit=300&dates=20261030",
+   "day": "20261106",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?groups=80&limit=300&dates=20261106",
    "ok": false,
    "status": null,
    "error": "host circuit open: HTTP 403 x3",
    "retrieved_at": null
   },
   {
-   "day": "20261031",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?groups=80&limit=300&dates=20261031",
+   "day": "20261107",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?groups=80&limit=300&dates=20261107",
    "ok": false,
    "status": null,
    "error": "host circuit open: HTTP 403 x3",
@@ -53,7 +53,7 @@
   }
  ],
  "coverage": {
-  "games": 56,
+  "games": 63,
   "refreshed": 0,
   "kept_from_previous": 0
  },

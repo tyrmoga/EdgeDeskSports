@@ -23,8 +23,8 @@
   "game_time": "2026-11-01T18:00:00.000Z",
   "game_when_label": "2026-11-01 18:00 UTC",
   "published_at": null,
-  "updated_at": "2026-10-27T08:53:29.281Z",
-  "generated_at": "2026-10-27T08:53:29.281Z",
+  "updated_at": "2026-11-01T13:12:02.344Z",
+  "generated_at": "2026-11-01T13:12:02.344Z",
   "model_version": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
   "model_status": "STALE MARKET",
   "model_status_note": "The captured quotes for this game are older than the freshness limit: it is not a current price, so the 6.3-point gap is context only and the game is excluded from research ranking.",
@@ -39,11 +39,11 @@
   "status": "ready",
   "article_type": "pregame",
   "related": null,
-  "frozen": false,
-  "frozen_at": null,
+  "frozen": true,
+  "frozen_at": "2026-11-01T18:00:00.000Z",
   "author": "EdgeDesk Research",
   "publisher": "EdgeDesk Sports",
-  "research_source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 106 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice.",
+  "research_source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 108 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice.",
   "market_source": "The sportsbook number on this page is a quote EdgeDesk captured at DraftKings and Caesars on 2026-09-13, replayed from a committed snapshot rather than read live. It is the book’s number, not EdgeDesk’s, and EdgeDesk’s own number was produced before it was read. Source: EdgeDesk odds capture (public.signals), read by the newsletter pipeline.",
   "research": {
     "kind": "NFL_GAME",
@@ -70,7 +70,7 @@
     ],
     "projection": {
       "priced": true,
-      "fair_spread": 12.802799620131129,
+      "fair_spread": 12.802798420098442,
       "fair_spread_text": "Cincinnati Bengals −13.0",
       "fair_spread_raw_text": "Cincinnati Bengals -12.8",
       "favourite": "Cincinnati Bengals",
@@ -127,8 +127,8 @@
         "note": "Quoted from the perspective of Cincinnati Bengals, off the engine’s own learned margin distribution (conditioned on this spread, so real key-number mass is kept). Eight results in ten land inside p10–p90."
       },
       "confidence_pct": null,
-      "confidence_absent_reason": "The NFL model publishes no single confidence score. What it publishes instead is the width of the outcome range above and the sample the ratings rest on: the trained seeds through 2025, plus 106 absorbed 2026 games.",
-      "sample_games": 106,
+      "confidence_absent_reason": "The NFL model publishes no single confidence score. What it publishes instead is the width of the outcome range above and the sample the ratings rest on: the trained seeds through 2025, plus 108 absorbed 2026 games.",
+      "sample_games": 108,
       "seeded": true,
       "status": "STALE MARKET",
       "status_note": "The captured quotes for this game are older than the freshness limit: it is not a current price, so the 6.3-point gap is context only and the game is excluded from research ranking.",
@@ -139,13 +139,13 @@
       "rows": [
         {
           "points": "+7.3",
-          "points_n": 7.287043878411247,
+          "points_n": 7.28704387903383,
           "text": "Base team strength — Cincinnati Bengals by 7.3 points (last season +3.1, this season +4.2)",
           "favours": "Cincinnati Bengals"
         },
         {
           "points": "+0.5",
-          "points_n": 0.5459219710660732,
+          "points_n": 0.5459219714414303,
           "text": "Passing — Cincinnati Bengals by 0.5 points (last season +0.1, this season +0.4)",
           "favours": "Cincinnati Bengals"
         },
@@ -157,7 +157,7 @@
         },
         {
           "points": "+1.6",
-          "points_n": 1.5949098832559074,
+          "points_n": 1.5949086822252803,
           "text": "Quarterback — Cincinnati Bengals by 1.6 points",
           "favours": "Cincinnati Bengals"
         },
@@ -193,7 +193,7 @@
         },
         {
           "points": "+0.6",
-          "points_n": 0.5717601782170475,
+          "points_n": 0.571754771917708,
           "text": "Passing matchup, both directions — over by 0.6 points"
         },
         {
@@ -232,21 +232,21 @@
               "note": "offence EPA per play minus defence EPA allowed per play — the engine’s own net_epa half",
               "a": {
                 "v": "−0.184",
-                "n": -0.18433624321307254,
+                "n": -0.18433623973765167,
                 "rank": "#32 of 32",
                 "rank_n": 32,
                 "note": null
               },
               "h": {
                 "v": "+0.073",
-                "n": 0.07277757809894984,
+                "n": 0.0727775817176721,
                 "rank": "#8 of 32",
                 "rank_n": 8,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.2571138213120224,
+                "gap": 0.2571138214553238,
                 "rank_gap": 24
               }
             },
@@ -309,21 +309,21 @@
               "note": null,
               "a": {
                 "v": "−0.093",
-                "n": -0.09306952876598532,
+                "n": -0.09306969906160756,
                 "rank": "#29 of 32",
                 "rank_n": 29,
                 "note": null
               },
               "h": {
                 "v": "+0.096",
-                "n": 0.0959712651361006,
+                "n": 0.09597108781870965,
                 "rank": "#4 of 32",
                 "rank_n": 4,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.18904079390208592,
+                "gap": 0.18904078688031722,
                 "rank_gap": 25
               }
             },
@@ -333,21 +333,21 @@
               "note": null,
               "a": {
                 "v": "−0.141",
-                "n": -0.14087407753355327,
+                "n": -0.14087440713798344,
                 "rank": "#29 of 32",
                 "rank_n": 29,
                 "note": null
               },
               "h": {
                 "v": "+0.120",
-                "n": 0.11994672924958802,
+                "n": 0.11994638605463781,
                 "rank": "#6 of 32",
                 "rank_n": 6,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.2608208067831413,
+                "gap": 0.26082079319262125,
                 "rank_gap": 23
               }
             },
@@ -365,14 +365,14 @@
               "h": {
                 "v": "+0.034",
                 "n": 0.033534900652002785,
-                "rank": "#9 of 32",
-                "rank_n": 9,
+                "rank": "#10 of 32",
+                "rank_n": 10,
                 "note": null
               },
               "edge": {
                 "side": "h",
                 "gap": 0.050163938693844314,
-                "rank_gap": 13
+                "rank_gap": 12
               }
             },
             {
@@ -434,21 +434,21 @@
               "note": null,
               "a": {
                 "v": "+0.091",
-                "n": 0.09126671444708723,
+                "n": 0.0912665406760441,
                 "rank": "#30 of 32",
                 "rank_n": 30,
                 "note": null
               },
               "h": {
                 "v": "+0.023",
-                "n": 0.02319368703715076,
+                "n": 0.023193506101037563,
                 "rank": "#20 of 32",
                 "rank_n": 20,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.06807302740993647,
+                "gap": 0.06807303457500655,
                 "rank_gap": 10
               }
             },
@@ -458,22 +458,22 @@
               "note": null,
               "a": {
                 "v": "+0.154",
-                "n": 0.15362872369197605,
+                "n": 0.15362838736092488,
                 "rank": "#29 of 32",
                 "rank_n": 29,
                 "note": null
               },
               "h": {
                 "v": "+0.011",
-                "n": 0.011058773354089786,
-                "rank": "#17 of 32",
-                "rank_n": 17,
+                "n": 0.011058423155161014,
+                "rank": "#18 of 32",
+                "rank_n": 18,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.14256995033788628,
-                "rank_gap": 12
+                "gap": 0.14256996420576387,
+                "rank_gap": 11
               }
             },
             {
@@ -490,14 +490,14 @@
               "h": {
                 "v": "+0.007",
                 "n": 0.0072925095628357806,
-                "rank": "#21 of 32",
-                "rank_n": 21,
+                "rank": "#20 of 32",
+                "rank_n": 20,
                 "note": null
               },
               "edge": {
                 "side": "h",
                 "gap": 0.01200397446364548,
-                "rank_gap": 2
+                "rank_gap": 3
               }
             },
             {
@@ -531,8 +531,8 @@
               "a": {
                 "v": "+1.2 pp",
                 "n": 0.012197899713984595,
-                "rank": "#23 of 32",
-                "rank_n": 23,
+                "rank": "#22 of 32",
+                "rank_n": 22,
                 "note": null
               },
               "h": {
@@ -545,7 +545,7 @@
               "edge": {
                 "side": "a",
                 "gap": 0.007553483791345125,
-                "rank_gap": 6
+                "rank_gap": 7
               }
             }
           ]
@@ -656,13 +656,13 @@
       "away": [
         {
           "k": "Explosive runs allowed",
-          "rank_gap": 6,
+          "rank_gap": 7,
           "gap": 0.007553483791345125,
           "lead": "Tennessee Titans",
           "trail": "Cincinnati Bengals",
-          "lead_cell": "+1.2 pp · #23 of 32",
+          "lead_cell": "+1.2 pp · #22 of 32",
           "trail_cell": "+2.0 pp · #29 of 32",
-          "text": "Tennessee Titans +1.2 pp (#23 of 32) vs Cincinnati Bengals +2.0 pp (#29 of 32) — 6 places on the league board."
+          "text": "Tennessee Titans +1.2 pp (#22 of 32) vs Cincinnati Bengals +2.0 pp (#29 of 32) — 7 places on the league board."
         },
         {
           "k": "Explosive run rate",
@@ -689,7 +689,7 @@
         {
           "k": "Offence · EPA per play",
           "rank_gap": 25,
-          "gap": 0.18904079390208592,
+          "gap": 0.18904078688031722,
           "lead": "Cincinnati Bengals",
           "trail": "Tennessee Titans",
           "lead_cell": "+0.096 · #4 of 32",
@@ -699,7 +699,7 @@
         {
           "k": "Net EPA per play",
           "rank_gap": 24,
-          "gap": 0.2571138213120224,
+          "gap": 0.2571138214553238,
           "lead": "Cincinnati Bengals",
           "trail": "Tennessee Titans",
           "lead_cell": "+0.073 · #8 of 32",
@@ -709,7 +709,7 @@
         {
           "k": "Pass offence · EPA per dropback",
           "rank_gap": 23,
-          "gap": 0.2608208067831413,
+          "gap": 0.26082079319262125,
           "lead": "Cincinnati Bengals",
           "trail": "Tennessee Titans",
           "lead_cell": "+0.120 · #6 of 32",
@@ -717,14 +717,14 @@
           "text": "Cincinnati Bengals +0.120 (#6 of 32) vs Tennessee Titans −0.141 (#29 of 32) — 23 places on the league board."
         },
         {
-          "k": "Run offence · EPA per carry",
+          "k": "Sacks generated per dropback",
           "rank_gap": 13,
-          "gap": 0.050163938693844314,
+          "gap": 0.02141808171038733,
           "lead": "Cincinnati Bengals",
           "trail": "Tennessee Titans",
-          "lead_cell": "+0.034 · #9 of 32",
-          "trail_cell": "−0.017 · #22 of 32",
-          "text": "Cincinnati Bengals +0.034 (#9 of 32) vs Tennessee Titans −0.017 (#22 of 32) — 13 places on the league board."
+          "lead_cell": "+2.1 pp · #2 of 32",
+          "trail_cell": "−0.0 pp · #15 of 32",
+          "text": "Cincinnati Bengals +2.1 pp (#2 of 32) vs Tennessee Titans −0.0 pp (#15 of 32) — 13 places on the league board."
         }
       ],
       "measured": [],
@@ -746,12 +746,12 @@
           "team": "Cincinnati Bengals",
           "label": "pass defence",
           "v": "+0.011",
-          "rank": "#17 of 32",
+          "rank": "#18 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.1298153041794635,
-        "read": "Tennessee Titans’ pass offence rates −0.141 (#29 of 32) and Cincinnati Bengals’ pass defence rates +0.011 (#17 of 32). Added the way the model adds them, this pairing sits −0.130 from the league mean, which favours Cincinnati Bengals."
+        "net": -0.12981598398282243,
+        "read": "Tennessee Titans’ pass offence rates −0.141 (#29 of 32) and Cincinnati Bengals’ pass defence rates +0.011 (#18 of 32). Added the way the model adds them, this pairing sits −0.130 from the league mean, which favours Cincinnati Bengals."
       },
       {
         "title": "Cincinnati Bengals pass offence vs Tennessee Titans pass defence",
@@ -770,7 +770,7 @@
           "note": null
         },
         "complete": true,
-        "net": 0.27357545294156405,
+        "net": 0.2735747734155627,
         "read": "Cincinnati Bengals’ pass offence rates +0.120 (#6 of 32) and Tennessee Titans’ pass defence rates +0.154 (#29 of 32). Added the way the model adds them, this pairing sits +0.274 from the league mean, which favours Cincinnati Bengals."
       },
       {
@@ -786,12 +786,12 @@
           "team": "Cincinnati Bengals",
           "label": "run defence",
           "v": "+0.007",
-          "rank": "#21 of 32",
+          "rank": "#20 of 32",
           "note": null
         },
         "complete": true,
         "net": -0.009336528479005748,
-        "read": "Tennessee Titans’ run offence rates −0.017 (#22 of 32) and Cincinnati Bengals’ run defence rates +0.007 (#21 of 32). Added the way the model adds them, this pairing sits −0.009 from the league mean, which favours Cincinnati Bengals."
+        "read": "Tennessee Titans’ run offence rates −0.017 (#22 of 32) and Cincinnati Bengals’ run defence rates +0.007 (#20 of 32). Added the way the model adds them, this pairing sits −0.009 from the league mean, which favours Cincinnati Bengals."
       },
       {
         "title": "Cincinnati Bengals run offence vs Tennessee Titans run defence",
@@ -799,7 +799,7 @@
           "team": "Cincinnati Bengals",
           "label": "run offence",
           "v": "+0.034",
-          "rank": "#9 of 32",
+          "rank": "#10 of 32",
           "note": null
         },
         "def": {
@@ -811,7 +811,7 @@
         },
         "complete": true,
         "net": 0.05283138467848404,
-        "read": "Cincinnati Bengals’ run offence rates +0.034 (#9 of 32) and Tennessee Titans’ run defence rates +0.019 (#23 of 32). Added the way the model adds them, this pairing sits +0.053 from the league mean, which favours Cincinnati Bengals."
+        "read": "Cincinnati Bengals’ run offence rates +0.034 (#10 of 32) and Tennessee Titans’ run defence rates +0.019 (#23 of 32). Added the way the model adds them, this pairing sits +0.053 from the league mean, which favours Cincinnati Bengals."
       },
       {
         "title": "Tennessee Titans pass protection vs Cincinnati Bengals pass rush",
@@ -926,12 +926,12 @@
           "team": "Tennessee Titans",
           "label": "explosive runs allowed",
           "v": "+1.2 pp",
-          "rank": "#23 of 32",
+          "rank": "#22 of 32",
           "note": null
         },
         "complete": true,
         "net": -0.0026142253932875687,
-        "read": "Cincinnati Bengals’ explosive running rates −1.5 pp (#25 of 32) and Tennessee Titans’ explosive runs allowed rates +1.2 pp (#23 of 32). Added the way the model adds them, this pairing sits −0.3 pp from the league mean, which favours Tennessee Titans."
+        "read": "Cincinnati Bengals’ explosive running rates −1.5 pp (#25 of 32) and Tennessee Titans’ explosive runs allowed rates +1.2 pp (#22 of 32). Added the way the model adds them, this pairing sits −0.3 pp from the league mean, which favours Tennessee Titans."
       }
     ],
     "panels": [
@@ -1055,7 +1055,7 @@
         "reads": [
           "Each situational factor is shown with the points the engine’s own context model assigned it, so nothing here is a rule of thumb. A factor with no weight in the fit is worth nothing in this number and says so rather than being quietly rounded up.",
           "No forecast reached this game, so temperature and wind entered the total at their neutral defaults. That is a missing input, not a mild day.",
-          "The ratings behind this projection are the trained seeds plus 106 absorbed 2026 games; early in a season that means the prior is still carrying most of the weight."
+          "The ratings behind this projection are the trained seeds plus 108 absorbed 2026 games; early in a season that means the prior is still carrying most of the weight."
         ]
       }
     ],
@@ -1075,7 +1075,7 @@
         "team": "Tennessee Titans",
         "heading": "Why Tennessee Titans can keep it close",
         "bullets": [
-          "Explosive runs allowed: Tennessee Titans +1.2 pp (#23 of 32) vs Cincinnati Bengals +2.0 pp (#29 of 32) — 6 places on the league board.",
+          "Explosive runs allowed: Tennessee Titans +1.2 pp (#22 of 32) vs Cincinnati Bengals +2.0 pp (#29 of 32) — 7 places on the league board.",
           "Explosive run rate: Tennessee Titans −0.8 pp (#22 of 32) vs Cincinnati Bengals −1.5 pp (#25 of 32) — 3 places on the league board.",
           "The outcome range runs -1.0 to +32.0 for Cincinnati Bengals, off the engine’s own learned margin distribution. A projection of about 13.0 points still loses outright often."
         ]
@@ -1149,7 +1149,7 @@
       "total_rounding_note": "Fair lines rounded to nearest half-point; differences use unrounded projections.",
       "total_difference": "2.2 points",
       "book": "DraftKings",
-      "capture_age": "1049 hours old",
+      "capture_age": "1173 hours old",
       "stale": false,
       "classification": "STALE MARKET",
       "classification_note": "The captured quotes for this game are older than the freshness limit: it is not a current price, so the 6.3-point gap is context only and the game is excluded from research ranking.",
@@ -1218,7 +1218,7 @@
         {
           "k": "Run offence · EPA per carry",
           "a": "−0.017  #22 of 32",
-          "h": "+0.034  #9 of 32",
+          "h": "+0.034  #10 of 32",
           "note": null
         },
         {
@@ -1242,13 +1242,13 @@
         {
           "k": "Pass defence · EPA allowed per dropback",
           "a": "+0.154  #29 of 32",
-          "h": "+0.011  #17 of 32",
+          "h": "+0.011  #18 of 32",
           "note": null
         },
         {
           "k": "Run defence · EPA allowed per carry",
           "a": "+0.019  #23 of 32",
-          "h": "+0.007  #21 of 32",
+          "h": "+0.007  #20 of 32",
           "note": null
         },
         {
@@ -1259,7 +1259,7 @@
         },
         {
           "k": "Explosive runs allowed",
-          "a": "+1.2 pp  #23 of 32",
+          "a": "+1.2 pp  #22 of 32",
           "h": "+2.0 pp  #29 of 32",
           "note": null
         },
@@ -1296,11 +1296,11 @@
     "missing": [],
     "priced_label": "PRICED BY MODEL — the projection and its additive drivers, from the inputs the NFL model actually fits.",
     "context_label": "RESEARCH CONTEXT — every rating below is opponent-adjusted and printed as a deviation from the league mean. The injury report and the quarterback panel explain the matchup and move no priced number.",
-    "source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 106 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice."
+    "source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 108 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice."
   },
   "football_evidence": {
     "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "a6zk871aqsngl",
+    "packet_hash": "bdt503181775d",
     "status": "PARTIALLY_EXPLAINED",
     "input_suspect": false,
     "question": "Can the Bengals’ pass rush get to Cam Ward?",
@@ -1312,28 +1312,31 @@
     },
     "supporting": [
       "When Cincinnati Bengals have the ball: their passing game ranks No. 6, and Tennessee Titans’ pass defense ranks No. 29.",
-      "When Cincinnati Bengals have the ball: their run game ranks No. 9, and Tennessee Titans’ run defense ranks No. 23.",
-      "When Tennessee Titans have the ball: their passing game ranks No. 29, and Cincinnati Bengals’ pass defense ranks No. 17.",
-      "Cincinnati Bengals’ offense ranks No. 4 of 32 in efficiency per play this season."
+      "When Cincinnati Bengals have the ball: their run game ranks No. 10, and Tennessee Titans’ run defense ranks No. 23.",
+      "Cincinnati Bengals’ offense ranks No. 4 of 32 in efficiency per play this season.",
+      "Cincinnati Bengals’ pass rush ranks No. 2 of 32 in sack rate this season."
     ],
     "contradicting": [],
     "quarterbacks": [
       "Cincinnati Bengals’ passers have completed 157 of 219 (71.7%) for 1,653 yards, 7.5 yards per attempt, with 15 touchdowns, 3 interceptions and 10 sacks taken in six games.",
       "Tennessee Titans’ passers have completed 129 of 208 (62.0%) for 1,179 yards, 5.7 yards per attempt, with 4 touchdowns, 5 interceptions and 11 sacks taken in seven games."
     ],
-    "availability": [],
+    "availability": [
+      "The official injury report lists one Cincinnati Bengals player as out or doubtful, including S Kyle Dugger (out).",
+      "The official injury report lists three Tennessee Titans players as out or doubtful, including WR Carnell Tate (out) and RB Tyjae Spears (out)."
+    ],
     "script": {
       "model": [
         "The Cincinnati Bengals have to win in the pass-rush matchup (Tennessee Titans’ No. 12 pass protection against Cincinnati Bengals’ No. 2 pass rush).",
         "The Cincinnati Bengals have to win through the air (Cincinnati Bengals’ No. 6 passing game against Tennessee Titans’ No. 29 pass defense).",
-        "The Cincinnati Bengals have to win on the ground (Cincinnati Bengals’ No. 9 run game against Tennessee Titans’ No. 23 run defense)."
+        "The Cincinnati Bengals have to win on the ground (Cincinnati Bengals’ No. 10 run game against Tennessee Titans’ No. 23 run defense)."
       ],
       "market": [
         "The Tennessee Titans have to win in the pass-rush matchup (Tennessee Titans’ No. 12 pass protection against Cincinnati Bengals’ No. 2 pass rush)."
       ]
     },
     "unknown": [
-      "Not in EdgeDesk’s verified data for this game: offensive efficiency, third-down conversion, red-zone production, recent opponent strength, third-down defense, red-zone defense, position-group advantages, turnover rates, home field, strength of schedule, injuries and personnel and conference implications.",
+      "Not in EdgeDesk’s verified data for this game: offensive efficiency, third-down conversion, red-zone production, recent opponent strength, third-down defense, red-zone defense, position-group advantages, turnover rates, home field, strength of schedule and conference implications.",
       "The line on file was captured Sept. 13 and may have moved."
     ],
     "flags": [],
@@ -1342,15 +1345,22 @@
         "label": "EdgeDesk NFL team ratings (2026)",
         "url": null,
         "path": "football/nfl/slate.json",
-        "observed_at": "2026-10-26T23:11:24.541Z",
+        "observed_at": "2026-11-01T14:21:58.054Z",
         "verification": "VERIFIED_DATA"
       },
       {
         "label": "nflverse team-week stats (2026)",
         "url": null,
         "path": "football/nfl/stats_team_week_2026.csv",
-        "observed_at": "2026-10-27T08:53:18.887Z",
+        "observed_at": "2026-11-01T19:33:22.049Z",
         "verification": "VERIFIED_DATA"
+      },
+      {
+        "label": "NFL injury report via nflverse (third-party mirror of the league report)",
+        "url": null,
+        "path": "football/injuries/nfl_2026.json",
+        "observed_at": "2026-11-01T13:30:56.695Z",
+        "verification": "OFFICIAL_REPORT"
       }
     ],
     "needs_confirmation": []
@@ -1358,6 +1368,6 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-10-27T08:53:29.281Z"
+    "at": "2026-11-01T19:33:32.851Z"
   }
 }

@@ -1,0 +1,351 @@
+{
+  "schema": "edgedesk_game_result_v1",
+  "key": "NFL:2026_08_PHI_WAS",
+  "game_id": "2026_08_PHI_WAS",
+  "sport": "NFL",
+  "season": 2026,
+  "week": 8,
+  "observed_at": "2026-11-02T06:31:16.305Z",
+  "kickoff": "2026-11-02T01:20:00.000Z",
+  "final_seen_at": null,
+  "home_team": "Washington Commanders",
+  "away_team": "Philadelphia Eagles",
+  "home_score": 27,
+  "away_score": 10,
+  "completed": true,
+  "status_name": "STATUS_FINAL",
+  "winner": "Washington Commanders",
+  "margin": 17,
+  "total_points": 37,
+  "metrics": {
+    "home": {
+      "points": 27,
+      "total_yards": 339,
+      "total_plays": 57,
+      "yards_per_play": 5.9473684211,
+      "net_pass_yards": 204,
+      "yards_per_pass": 6.580645161290323,
+      "rush_yards": 135,
+      "rush_attempts": 26,
+      "yards_per_rush": 5.192,
+      "first_downs": 16,
+      "turnovers": 1,
+      "interceptions_thrown": 0,
+      "fumbles_lost": 1,
+      "defensive_tds": 0,
+      "drives": 11,
+      "third_down_att": 13,
+      "third_down_pct": 38.5,
+      "red_zone_trips": 3,
+      "red_zone_pct": 66.7,
+      "sacks_allowed": 2,
+      "sack_yards_allowed": 13,
+      "penalties": 9,
+      "penalty_yards": 70,
+      "possession_seconds": 1589,
+      "points_per_drive": 2.45,
+      "yards_per_drive": 30.8,
+      "plays_per_minute": 2.15,
+      "sacks_generated": 5,
+      "turnover_margin": 1,
+      "margin": 17
+    },
+    "away": {
+      "points": 10,
+      "total_yards": 268,
+      "total_plays": 68,
+      "yards_per_play": 3.9411764706,
+      "net_pass_yards": 177,
+      "yards_per_pass": 4.538461538461538,
+      "rush_yards": 91,
+      "rush_attempts": 29,
+      "yards_per_rush": 3.138,
+      "first_downs": 17,
+      "turnovers": 2,
+      "interceptions_thrown": 1,
+      "fumbles_lost": 1,
+      "defensive_tds": 0,
+      "drives": 12,
+      "third_down_att": 15,
+      "third_down_pct": 33.3,
+      "fourth_down_pct": 50,
+      "red_zone_trips": 2,
+      "red_zone_pct": 50,
+      "sacks_allowed": 5,
+      "sack_yards_allowed": 35,
+      "penalties": 6,
+      "penalty_yards": 30,
+      "possession_seconds": 2011,
+      "points_per_drive": 0.83,
+      "yards_per_drive": 22.3,
+      "plays_per_minute": 2.03,
+      "sacks_generated": 2,
+      "turnover_margin": -1,
+      "margin": -17
+    }
+  },
+  "line_scores": {
+    "home": [
+      3,
+      10,
+      3,
+      11
+    ],
+    "away": [
+      10,
+      0,
+      0,
+      0
+    ]
+  },
+  "scoring_plays": [
+    {
+      "period": 1,
+      "clock": "6:10",
+      "team": "Philadelphia Eagles",
+      "type": "FG",
+      "text": "Jake Elliott 40 Yd Field Goal",
+      "scoring_type": "Field Goal",
+      "home_score": 0,
+      "away_score": 3
+    },
+    {
+      "period": 1,
+      "clock": "4:27",
+      "team": "Philadelphia Eagles",
+      "type": "TD",
+      "text": "Saquon Barkley 3 Yd Rush (Jake Elliott Kick)",
+      "scoring_type": "Touchdown",
+      "home_score": 0,
+      "away_score": 10
+    },
+    {
+      "period": 1,
+      "clock": "0:28",
+      "team": "Washington Commanders",
+      "type": "FG",
+      "text": "Drew Stevens 56 Yd Field Goal",
+      "scoring_type": "Field Goal",
+      "home_score": 3,
+      "away_score": 10
+    },
+    {
+      "period": 2,
+      "clock": "4:56",
+      "team": "Washington Commanders",
+      "type": "TD",
+      "text": "Stefon Diggs 8 Yd pass from Jayden Daniels (Drew Stevens Kick)",
+      "scoring_type": "Touchdown",
+      "home_score": 10,
+      "away_score": 10
+    },
+    {
+      "period": 2,
+      "clock": "0:19",
+      "team": "Washington Commanders",
+      "type": "FG",
+      "text": "Drew Stevens 39 Yd Field Goal",
+      "scoring_type": "Field Goal",
+      "home_score": 13,
+      "away_score": 10
+    },
+    {
+      "period": 3,
+      "clock": "1:33",
+      "team": "Washington Commanders",
+      "type": "FG",
+      "text": "Drew Stevens 25 Yd Field Goal",
+      "scoring_type": "Field Goal",
+      "home_score": 16,
+      "away_score": 10
+    },
+    {
+      "period": 4,
+      "clock": "3:43",
+      "team": "Washington Commanders",
+      "type": "FG",
+      "text": "Drew Stevens 42 Yd Field Goal",
+      "scoring_type": "Field Goal",
+      "home_score": 19,
+      "away_score": 10
+    },
+    {
+      "period": 4,
+      "clock": "1:52",
+      "team": "Washington Commanders",
+      "type": "TD",
+      "text": "Rachaad White 1 Yd Rush (Austin Ekeler Run for Two-Point Conversion)",
+      "scoring_type": "Touchdown",
+      "home_score": 27,
+      "away_score": 10
+    }
+  ],
+  "drive_summary": [
+    {
+      "team": "Washington Commanders",
+      "drives": 11,
+      "plays": 62,
+      "yards": 324,
+      "scoring": 6,
+      "results": {
+        "MISSED FG": 1,
+        "PUNT": 3,
+        "FUMBLE": 1,
+        "FG": 4,
+        "TD": 2
+      }
+    },
+    {
+      "team": "Philadelphia Eagles",
+      "drives": 12,
+      "plays": 70,
+      "yards": 278,
+      "scoring": 2,
+      "results": {
+        "PUNT": 5,
+        "FG": 1,
+        "TD": 1,
+        "END OF HALF": 1,
+        "FUMBLE": 1,
+        "MISSED FG": 1,
+        "INT": 1,
+        "END OF GAME": 1
+      }
+    }
+  ],
+  "win_probability": {
+    "provider": "espn win probability",
+    "points": 189,
+    "opening_home_pct": 65.4,
+    "closing_home_pct": 100,
+    "largest_swing": {
+      "delta": 0.13,
+      "from": 0.62,
+      "to": 0.75,
+      "play_id": "4018730352996"
+    }
+  },
+  "leaders": [
+    {
+      "team": "Washington Commanders",
+      "category": "Passing Yards",
+      "athlete": "Jayden Daniels",
+      "position": "QB",
+      "line": "16/29, 217 YDS, 1 TD"
+    },
+    {
+      "team": "Washington Commanders",
+      "category": "Rushing Yards",
+      "athlete": "Rachaad White",
+      "position": "RB",
+      "line": "11 CAR, 55 YDS, 1 TD"
+    },
+    {
+      "team": "Washington Commanders",
+      "category": "Receiving Yards",
+      "athlete": "Treylon Burks",
+      "position": "WR",
+      "line": "3 REC, 81 YDS"
+    },
+    {
+      "team": "Washington Commanders",
+      "category": "Sacks",
+      "athlete": "Shy Tuttle",
+      "position": "DT",
+      "line": "1"
+    },
+    {
+      "team": "Washington Commanders",
+      "category": "Tackles",
+      "athlete": "Nick Cross",
+      "position": "S",
+      "line": "9"
+    },
+    {
+      "team": "Philadelphia Eagles",
+      "category": "Passing Yards",
+      "athlete": "Tanner McKee",
+      "position": "QB",
+      "line": "23/34, 212 YDS, 1 INT"
+    },
+    {
+      "team": "Philadelphia Eagles",
+      "category": "Rushing Yards",
+      "athlete": "Elijah Mitchell",
+      "position": "RB",
+      "line": "11 CAR, 34 YDS"
+    },
+    {
+      "team": "Philadelphia Eagles",
+      "category": "Receiving Yards",
+      "athlete": "Makai Lemon",
+      "position": "WR",
+      "line": "6 REC, 57 YDS"
+    },
+    {
+      "team": "Philadelphia Eagles",
+      "category": "Sacks",
+      "athlete": "Nolan Smith Jr.",
+      "position": "LB",
+      "line": "1"
+    },
+    {
+      "team": "Philadelphia Eagles",
+      "category": "Tackles",
+      "athlete": "Jeremiah Trotter Jr.",
+      "position": "LB",
+      "line": "10"
+    }
+  ],
+  "stat_fields_seen": [
+    "completionAttempts",
+    "defensiveTouchdowns",
+    "firstDowns",
+    "firstDownsPassing",
+    "firstDownsPenalty",
+    "firstDownsRushing",
+    "fourthDownEff",
+    "fumblesLost",
+    "interceptions",
+    "netPassingYards",
+    "possessionTime",
+    "redZoneAttempts",
+    "rushingAttempts",
+    "rushingYards",
+    "sacksYardsLost",
+    "thirdDownEff",
+    "totalDrives",
+    "totalOffensivePlays",
+    "totalPenaltiesYards",
+    "totalYards",
+    "turnovers",
+    "yardsPerPass",
+    "yardsPerPlay",
+    "yardsPerRushAttempt"
+  ],
+  "primary_source": "espn_summary",
+  "agreed_by": [
+    "espn_summary",
+    "espn_scoreboard",
+    "nflverse"
+  ],
+  "source_notes": [
+    {
+      "source": "espn",
+      "note": "event id 401873035 (nflverse games.csv `espn` column)"
+    },
+    {
+      "source": "espn_summary",
+      "note": "24 box-score fields"
+    },
+    {
+      "source": "espn_scoreboard",
+      "note": "STATUS_FINAL on 20261101"
+    },
+    {
+      "source": "nflverse",
+      "note": "final carried"
+    }
+  ],
+  "metric_vocabulary_version": "edgedesk_game_result_v1"
+}

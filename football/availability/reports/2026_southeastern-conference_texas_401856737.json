@@ -1,0 +1,73 @@
+{
+ "schema": "edgedesk_availability_report_v1",
+ "version": 1,
+ "conference": "Southeastern Conference",
+ "conference_id": "sec",
+ "team": "Texas",
+ "game_id": "401856737",
+ "kickoff": "2026-10-31T23:30:00.000Z",
+ "source_url": "https://app.hdintelligence.com/?source=SEC&sport=Football&conf=SEC&type=report",
+ "published_at": "2026-10-31T22:00:00.000Z",
+ "retrieved_at": "2026-11-01T05:50:15.914Z",
+ "scope": "CONFERENCE_GAMES",
+ "comprehensive": true,
+ "vocabulary": [
+  "AVAILABLE",
+  "PROBABLE",
+  "QUESTIONABLE",
+  "DOUBTFUL",
+  "OUT"
+ ],
+ "applicability": {
+  "state": "REQUIRED",
+  "why": "Southeastern Conference requires an availability report for this game: filed three days before a conference game and updated daily until 90 minutes before kickoff"
+ },
+ "format": "published-listing",
+ "platform": "hdintelligence",
+ "report_type": "Game Day",
+ "report_id": "3505",
+ "listing_scope": "FULL_ROSTER",
+ "lines_read": 111,
+ "listed_n": 111,
+ "rows": [
+  {
+   "player_name": "Colin Simmons",
+   "player_id": "5079689",
+   "position": "EDG",
+   "jersey": "1",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "EDG #1 Colin Simmons · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Trevor Goosby",
+   "player_id": "4918430",
+   "position": "OL",
+   "jersey": "74",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "OL #74 Trevor Goosby · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Richard Wesley",
+   "player_id": "5273266",
+   "position": "EDG",
+   "jersey": "99",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "EDG #99 Richard Wesley · Out",
+   "on_roster": true
+  }
+ ],
+ "unparsed": [],
+ "ok": true,
+ "names_nobody": false,
+ "explicit_none": false,
+ "silence_means_available": false,
+ "why": "3 player(s) designated on the published listing (Game Day)"
+}

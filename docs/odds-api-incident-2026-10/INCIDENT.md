@@ -9,6 +9,41 @@ Every caller now goes through one gateway. It re-enables on 2026-11-01 under a
 capped research categories exist, disabled
 ([METHODOLOGY-2026-10-26-category-caps.md](METHODOLOGY-2026-10-26-category-caps.md)).
 
+**Amended 2026-10-28:** the stop now covers the Collective's own jobs,
+`collective_nfl_odds` and `collective_cfb_odds`. Their command is
+`select odds.run_ingest(...)`, with no URL in it, so the 2026-10-14 stop never
+paused them. In production `provider.default` is `theoddsapi`, not OddsBlaze
+([METHODOLOGY-2026-10-28-collective-jobs.md](METHODOLOGY-2026-10-28-collective-jobs.md)).
+
+**Amended 2026-10-28 (until 2026-11-01):** until the reset,
+`collective_odds_ingest` may poll The Odds API with the Collective's **own**
+key, `COLLECTIVE_ODDS_API_KEY`, never the main account's, and only while the
+breaker reads on. One marked block, dated, held to its shape by
+`no_bypass.test.js`
+([METHODOLOGY-2026-10-28-collective-own-key.md](METHODOLOGY-2026-10-28-collective-own-key.md)).
+
+
+
+**Amended 2026-10-29:** the NBA and NHL main markets have their own cadence,
+every two hours (about 2,160 credits a month for both), so Bet Checker can
+grade them. Both leagues stay disabled until the owner turns them on after the
+reset (§9 step 12;
+[METHODOLOGY-2026-10-29-nba-nhl-lines.md](METHODOLOGY-2026-10-29-nba-nhl-lines.md)).
+
+**Amended 2026-10-29 (the GitHub jobs' credential):** every props capture since
+the gateway went live (2026-10-10 14:29Z) was refused with `unauthorized`. The
+capture recorded it as `NOT_RUN / GATEWAY_DEFERRED` and its workflow stayed
+green.
+- The gateway compares the bearer byte for byte with its own
+  `SUPABASE_SERVICE_ROLE_KEY`.
+- The repository secret `SB_SERVICE_ROLE` is a different string. It is still
+  a valid service-role credential: in the same runs, PostgREST accepts it for
+  `rpc/odds_api_dashboard` and for the props health record.
+- So the GitHub jobs now also send `ODDS_GATEWAY_SECRET`, and §9 step 4 makes
+  it **required**.
+- A refused credential is now an ERROR (`GATEWAY_UNAUTHORIZED`), never a
+  deferral.
+
 **Plan:** $59/month, 100,000 credits. On 2026-10-10 at 12:24Z the provider
 reported **99,336 used and 664 remaining**. By 13:55Z it reported **100,000
 used and 0 remaining** (the CFB props capture's own `capture_state.json`): the
@@ -97,7 +132,7 @@ Cost rules:
 | `capture` alternates | day / near ticks | NFL, NCAAF | `/events/{id}/odds` | alternate_spreads, alternate_totals | `us,eu` (2) | ≤ 4 per event | up to 80 events per sport per run, to 30 h | part of ~4,660 | Useful, not critical | `alternates` category, 24 h only, priority 4 (shed first) |
 | `capture` player props | day / near ticks (on by default) | NFL, NCAAF | `/events/{id}/odds` | 33 + 26 alternates | `us,eu` (2) | ≤ 118 per event | to 30 h, 20-min near interval | part of ~4,660 | **No: a duplicate of row 1** | Off by default; when on, it shares the `props` fingerprint, so it gets a cache hit |
 | `close` | pg_cron (schedule in the database only) | sports with pending signals | `/odds` | h2h, spreads, totals | `us,eu` (2) | 6 per sport | ≤ every 35 min while games are pending | part of ~4,660 | Yes: closing lines | `close` category, the same fingerprint as `featured`, so a fresh board snapshot serves it free |
-| `collective_odds_ingest` | its own pg_cron, admin "Run now" / "Probe" | NFL, NCAAF | `/odds` | h2h, spreads, totals | `us` (1) | 3 | 60 s live, 300 s pregame (NFL), **only if `provider.default='theoddsapi'`** | unknown (default provider is OddsBlaze) | Optional | `collective` category through the gateway; the probe is the free quota probe |
+| `collective_odds_ingest` | its own pg_cron (`collective_nfl_odds` `35 12 * * *`, `collective_cfb_odds` `40 12 * * *`: `select odds.run_ingest(...)`, read 2026-10-28), admin "Run now" / "Probe" | NFL, NCAAF | `/odds` | h2h, spreads, totals | `us` (1) | 3 | 60 s live, 300 s pregame (NFL), **only if `provider.default='theoddsapi'`** | unknown (default provider is OddsBlaze) | Optional | `collective` category through the gateway; the probe is the free quota probe |
 | `edgedesk_ai` quote refresh → untiered `capture` | a signed-in reader's board question, only with `EDGEDESK_QUOTE_REFRESH=1` | every sport | as `capture` | as `capture` | as `capture` | a full capture | per question per sport | unknown | Optional | An untiered call is now the **day** tier narrowed to the asked sport, served from cache inside its cadence |
 | `cfb-lab.yml` → `alternates.js` | hourly, gated by `READ_ALT_CAPTURE` | NCAAF, NFL | `/events/{id}/odds` | alternates | 1 | ≤ 2 | 0 (skipped in 33/33 sampled runs [obs]) | 0 [obs] | Optional | `alternates` category |
 | `props-factory.yml` backfill | manual | NFL, NCAAF | historical event odds | 17 | 1 | 10× | 0 [obs] | 0 | Research only | `historical_*` categories, **off**, never part of polling |
@@ -118,7 +153,7 @@ Standalone, under 18 KB, safe to paste first:
 
 - `odds_api_config` holds the circuit breaker `odds_api_enabled`, created **false** (fail closed), with the monthly budget and daily target at **zero**.
 - `odds_api_emergency_stop(reason)` pauses (`cron.alter_job(..., active := false)`) every pg_cron job whose command can reach a paid path:
-  - capture, capture_poke, close, collective_odds_ingest, props_cron;
+  - capture, capture_poke, close, collective_odds_ingest (and, from 2026-10-28, the Collective's `odds.run_ingest` jobs), props_cron;
   - plus every deployed-only odds function listed in §2.
   - Each job is recorded in `odds_api_paused_jobs`. **Nothing is unscheduled or deleted.**
 - `odds_api_resume_schedules(by)` resumes only the jobs whose functions now go through the gateway. The deployed-only ones stay paused.
@@ -377,7 +412,9 @@ The **Deploy odds gateway** workflow applies 1 (opt-in) and 2 when the
 3. Paste `supabase/odds_api_gateway.sql` (or its parts) and run it. Every report row should say `ok`.
 4. Supabase secrets (dashboard → Edge Functions → Secrets, or the CLI):
    - `ODDS_GATEWAY_PROVIDER_KEY=<the The Odds API key>`. If the provider account lets you regenerate the key, do it, and give the new key **only** to this secret.
-   - Optional: `ODDS_GATEWAY_SECRET=<random>`, for callers without the service role.
+   - **Required:** `ODDS_GATEWAY_SECRET=<random>`. The GitHub jobs (props capture, the props-factory backfill and the alternate spreads) send it beside the service role. The gateway compares the service role byte for byte, so a repository `SB_SERVICE_ROLE` in another valid format (for example `sb_secret_…`) is refused without it.
+   - Add the **same value** as the GitHub repository secret `ODDS_GATEWAY_SECRET` (Settings → Secrets and variables → Actions).
+   - Check: run **Actions → Player props** by hand. Its capture line must no longer read `unauthorized` / `GATEWAY_UNAUTHORIZED`. Before 2026-11-01 it should read `PROVIDER_PAUSED` (the breaker is off) or `GATEWAY_DEFERRED` with a budget decision: the credential is accepted, and nothing is bought, as intended.
 5. Run **Actions → Deploy odds gateway** with the defaults: gateway SQL, `odds_gateway`, then the callers. Every caller now refuses to buy while the breaker is off.
 6. Remove the key from everywhere else:
    - `supabase secrets unset ODDS_API_KEY THE_ODDS_API_KEY`;
@@ -420,6 +457,20 @@ The **Deploy odds gateway** workflow applies 1 (opt-in) and 2 when the
     - nothing should come from an unknown caller.
 
     The budget watch runs at :41 every hour.
+
+12. **NBA and NHL game lines** (owner-approved 2026-10-29, every two hours,
+    about 2,160 credits a month for both). Only after step 11 shows the base
+    spend tracking. Apply `supabase/odds_api_nba_nhl_lines.sql` (Deploy odds
+    gateway applies it by default), then:
+
+    ```sql
+    select public.odds_api_set_sport('basketball_nba', true);
+    select public.odds_api_set_sport('icehockey_nhl', true);
+    ```
+
+    Then check capture's `sports_list` in its next run: see
+    [METHODOLOGY-2026-10-29-nba-nhl-lines.md](METHODOLOGY-2026-10-29-nba-nhl-lines.md),
+    "Operator steps".
 
 ### No October bridge
 

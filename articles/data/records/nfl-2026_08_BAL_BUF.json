@@ -11,8 +11,8 @@
   ],
   "title": "Baltimore Ravens vs. Buffalo Bills: EdgeDesk Model Projection, Matchup Analysis and Fair Spread",
   "seo_title": "Baltimore Ravens vs. Buffalo Bills 2026: EdgeDesk Fair Spread & Model Projection",
-  "seo_description": "EdgeDesk fair spread for Baltimore Ravens at Buffalo Bills: Buffalo Bills −10.5, fair total 52.0. Buffalo Bills wins 84% of simulations. Model status STALE MARKET. Research, not picks.",
-  "excerpt": "Buffalo Bills carries the stronger EdgeDesk offensive profile (#1 in EPA per play), while Baltimore Ravens owns the more favourable defensive matchup (#22 in EPA allowed per play). EdgeDesk’s independent projection makes it Buffalo Bills −10.5 with a fair…",
+  "seo_description": "EdgeDesk fair spread for Baltimore Ravens at Buffalo Bills: Buffalo Bills −6.0, fair total 52.0. Buffalo Bills wins 70% of simulations. Model status STALE MARKET. Research, not picks.",
+  "excerpt": "Buffalo Bills carries the stronger EdgeDesk offensive profile (#1 in EPA per play), while Baltimore Ravens owns the more favourable defensive matchup (#22 in EPA allowed per play). EdgeDesk’s independent projection makes it Buffalo Bills −6.0 with a fair…",
   "home_team": "Buffalo Bills",
   "away_team": "Baltimore Ravens",
   "venue": "Highmark Stadium",
@@ -23,14 +23,14 @@
   "game_time": "2026-11-01T18:00:00.000Z",
   "game_when_label": "2026-11-01 18:00 UTC",
   "published_at": null,
-  "updated_at": "2026-10-27T08:53:29.281Z",
-  "generated_at": "2026-10-27T08:53:29.281Z",
+  "updated_at": "2026-11-01T13:12:02.344Z",
+  "generated_at": "2026-11-01T13:12:02.344Z",
   "model_version": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
   "model_status": "STALE MARKET",
-  "model_status_note": "The captured quotes for this game are older than the freshness limit: it is not a current price, so the 8.0-point gap is context only and the game is excluded from research ranking.",
+  "model_status_note": "The captured quotes for this game are older than the freshness limit: it is not a current price, so the 3.6-point gap is context only and the game is excluded from research ranking.",
   "confidence": null,
   "priced": true,
-  "fair_spread_text": "Buffalo Bills −10.5",
+  "fair_spread_text": "Buffalo Bills −6.0",
   "fair_total": "52.0",
   "hero_image": null,
   "canonical_url": "https://edgedesksports.com/articles/baltimore-ravens-vs-buffalo-bills-2026",
@@ -39,11 +39,11 @@
   "status": "ready",
   "article_type": "pregame",
   "related": null,
-  "frozen": false,
-  "frozen_at": null,
+  "frozen": true,
+  "frozen_at": "2026-11-01T18:00:00.000Z",
   "author": "EdgeDesk Research",
   "publisher": "EdgeDesk Sports",
-  "research_source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 106 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice.",
+  "research_source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 108 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice.",
   "market_source": "The sportsbook number on this page is a quote EdgeDesk captured at DraftKings on 2026-09-13, replayed from a committed snapshot rather than read live. It is the book’s number, not EdgeDesk’s, and EdgeDesk’s own number was produced before it was read. Source: EdgeDesk odds capture (public.signals), read by the newsletter pipeline.",
   "research": {
     "kind": "NFL_GAME",
@@ -64,36 +64,36 @@
     },
     "lede": [
       "Buffalo Bills carries the stronger EdgeDesk offensive profile (#1 in EPA per play), while Baltimore Ravens owns the more favourable defensive matchup (#22 in EPA allowed per play).",
-      "EdgeDesk’s independent projection makes it Buffalo Bills −10.5 with a fair total of 52.0, before any sportsbook number is consulted.",
+      "EdgeDesk’s independent projection makes it Buffalo Bills −6.0 with a fair total of 52.0 — inside a touchdown, before any sportsbook number is consulted.",
       "The widest measured matchup on the board is Buffalo Bills pass offence vs Baltimore Ravens pass defence, which sits +0.315 from the league mean once the two ratings are combined the way the model combines them.",
       "The largest uncertainty is availability: NFL injury report — not loaded in this session."
     ],
     "projection": {
       "priced": true,
-      "fair_spread": 10.541472451414995,
-      "fair_spread_text": "Buffalo Bills −10.5",
-      "fair_spread_raw_text": "Buffalo Bills -10.5",
+      "fair_spread": 6.0964269524688754,
+      "fair_spread_text": "Buffalo Bills −6.0",
+      "fair_spread_raw_text": "Buffalo Bills -6.1",
       "favourite": "Buffalo Bills",
       "underdog": "Baltimore Ravens",
-      "margin": "10.5",
-      "margin_raw": "10.5",
+      "margin": "6.0",
+      "margin_raw": "6.1",
       "total": "52.0",
       "total_raw": "52.2",
       "display_policy": "football_half_point_v1",
       "score": {
         "away": {
           "team": "Baltimore Ravens",
-          "points": "21"
+          "points": "23"
         },
         "home": {
           "team": "Buffalo Bills",
-          "points": "31"
+          "points": "29"
         },
         "expected": {
-          "text": "Buffalo Bills 31.35, Baltimore Ravens 20.81",
-          "home": 31.35,
-          "away": 20.81,
-          "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
+          "text": "Buffalo Bills 29.13, Baltimore Ravens 23.03",
+          "home": 29.13,
+          "away": 23.03,
+          "note": null
         },
         "note": "Split from EdgeDesk’s own fair spread and fair total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
       },
@@ -101,37 +101,37 @@
       "win_prob": {
         "home": "Buffalo Bills",
         "away": "Baltimore Ravens",
-        "home_pct": 84,
-        "away_pct": 16,
-        "home_text": "84%",
-        "away_text": "16%",
+        "home_pct": 70,
+        "away_pct": 30,
+        "home_text": "70%",
+        "away_text": "30%",
         "bounded": false,
         "bounded_note": null,
         "favourite": "Buffalo Bills",
-        "favourite_pct": 84,
-        "favourite_text": "84%"
+        "favourite_pct": 70,
+        "favourite_text": "70%"
       },
       "moneyline": {
         "home": "Buffalo Bills",
         "away": "Baltimore Ravens",
-        "home_odds": "-510",
-        "away_odds": "+510",
+        "home_odds": "-234",
+        "away_odds": "+234",
         "note": "EdgeDesk’s own fair price, with no margin in it. It is not a quote and nobody offers it."
       },
       "outcome_range": {
         "basis_team": "Buffalo Bills",
-        "p10": "-4.0",
-        "median": "+11.0",
-        "p90": "+30.0",
+        "p10": "-9.0",
+        "median": "+6.0",
+        "p90": "+25.0",
         "sigma": "10.7",
         "note": "Quoted from the perspective of Buffalo Bills, off the engine’s own learned margin distribution (conditioned on this spread, so real key-number mass is kept). Eight results in ten land inside p10–p90."
       },
       "confidence_pct": null,
-      "confidence_absent_reason": "The NFL model publishes no single confidence score. What it publishes instead is the width of the outcome range above and the sample the ratings rest on: the trained seeds through 2025, plus 106 absorbed 2026 games.",
-      "sample_games": 106,
+      "confidence_absent_reason": "The NFL model publishes no single confidence score. What it publishes instead is the width of the outcome range above and the sample the ratings rest on: the trained seeds through 2025, plus 108 absorbed 2026 games.",
+      "sample_games": 108,
       "seeded": true,
       "status": "STALE MARKET",
-      "status_note": "The captured quotes for this game are older than the freshness limit: it is not a current price, so the 8.0-point gap is context only and the game is excluded from research ranking.",
+      "status_note": "The captured quotes for this game are older than the freshness limit: it is not a current price, so the 3.6-point gap is context only and the game is excluded from research ranking.",
       "engine": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
       "validation": "UNPROVEN — this model does NOT beat the closing line out of sample. Research only; nothing here is graded as a bet."
     },
@@ -139,13 +139,13 @@
       "rows": [
         {
           "points": "+2.9",
-          "points_n": 2.943815340147753,
+          "points_n": 2.9438153241051013,
           "text": "Base team strength — Buffalo Bills by 2.9 points (last season +0.8, this season +2.1)",
           "favours": "Buffalo Bills"
         },
         {
           "points": "+0.2",
-          "points_n": 0.2434224778297018,
+          "points_n": 0.24342246815754423,
           "text": "Passing — Buffalo Bills by 0.2 points (last season +0.2, this season +0.1)",
           "favours": "Buffalo Bills"
         },
@@ -156,10 +156,10 @@
           "favours": "Buffalo Bills"
         },
         {
-          "points": "+3.2",
-          "points_n": 3.2161826473360904,
-          "text": "Quarterback — Buffalo Bills by 3.2 points",
-          "favours": "Buffalo Bills"
+          "points": "-1.2",
+          "points_n": -1.2288628258952197,
+          "text": "Quarterback — Baltimore Ravens by 1.2 points",
+          "favours": "Baltimore Ravens"
         },
         {
           "points": "+3.1",
@@ -193,12 +193,12 @@
         },
         {
           "points": "+1.8",
-          "points_n": 1.7870437899926672,
+          "points_n": 1.787040975958807,
           "text": "Passing matchup, both directions — over by 1.8 points"
         },
         {
           "points": "+0.9",
-          "points_n": 0.9228067550905034,
+          "points_n": 0.9228060506643894,
           "text": "Both offences, EPA per play — over by 0.9 points"
         },
         {
@@ -232,7 +232,7 @@
               "note": "offence EPA per play minus defence EPA allowed per play — the engine’s own net_epa half",
               "a": {
                 "v": "+0.019",
-                "n": 0.018738379386973723,
+                "n": 0.018738383079547456,
                 "rank": "#15 of 32",
                 "rank_n": 15,
                 "note": null
@@ -246,7 +246,7 @@
               },
               "edge": {
                 "side": "h",
-                "gap": 0.09875684065263665,
+                "gap": 0.0987568369600629,
                 "rank_gap": 11
               }
             },
@@ -309,7 +309,7 @@
               "note": null,
               "a": {
                 "v": "+0.055",
-                "n": 0.05499304898643115,
+                "n": 0.05499286805031795,
                 "rank": "#9 of 32",
                 "rank_n": 9,
                 "note": null
@@ -323,7 +323,7 @@
               },
               "edge": {
                 "side": "h",
-                "gap": 0.1270424053874425,
+                "gap": 0.1270425863235557,
                 "rank_gap": 8
               }
             },
@@ -333,9 +333,9 @@
               "note": null,
               "a": {
                 "v": "+0.104",
-                "n": 0.10352449239737682,
-                "rank": "#7 of 32",
-                "rank_n": 7,
+                "n": 0.10352414219844805,
+                "rank": "#8 of 32",
+                "rank_n": 8,
                 "note": null
               },
               "h": {
@@ -347,8 +347,8 @@
               },
               "edge": {
                 "side": "h",
-                "gap": 0.12265729804241637,
-                "rank_gap": 6
+                "gap": 0.12265764824134515,
+                "rank_gap": 7
               }
             },
             {
@@ -358,8 +358,8 @@
               "a": {
                 "v": "+0.025",
                 "n": 0.025370335468196982,
-                "rank": "#12 of 32",
-                "rank_n": 12,
+                "rank": "#13 of 32",
+                "rank_n": 13,
                 "note": null
               },
               "h": {
@@ -372,7 +372,7 @@
               "edge": {
                 "side": "h",
                 "gap": 0.10656665424183662,
-                "rank_gap": 11
+                "rank_gap": 12
               }
             },
             {
@@ -434,7 +434,7 @@
               "note": null,
               "a": {
                 "v": "+0.036",
-                "n": 0.036254669599457424,
+                "n": 0.036254484970770495,
                 "rank": "#22 of 32",
                 "rank_n": 22,
                 "note": null
@@ -448,7 +448,7 @@
               },
               "edge": {
                 "side": "a",
-                "gap": 0.028285564734805847,
+                "gap": 0.028285749363492776,
                 "rank_gap": 5
               }
             },
@@ -458,7 +458,7 @@
               "note": null,
               "a": {
                 "v": "+0.088",
-                "n": 0.08841475021509303,
+                "n": 0.08841439286924735,
                 "rank": "#27 of 32",
                 "rank_n": 27,
                 "note": null
@@ -472,7 +472,7 @@
               },
               "edge": {
                 "side": "h",
-                "gap": 0.0572115895208494,
+                "gap": 0.05721123217500372,
                 "rank_gap": 7
               }
             },
@@ -490,14 +490,14 @@
               "h": {
                 "v": "+0.057",
                 "n": 0.057133427662219904,
-                "rank": "#29 of 32",
-                "rank_n": 29,
+                "rank": "#28 of 32",
+                "rank_n": 28,
                 "note": null
               },
               "edge": {
                 "side": "a",
                 "gap": 0.10640703122549829,
-                "rank_gap": 25
+                "rank_gap": 24
               }
             },
             {
@@ -514,14 +514,14 @@
               "h": {
                 "v": "+0.1 pp",
                 "n": 0.0014266023348594422,
-                "rank": "#16 of 32",
-                "rank_n": 16,
+                "rank": "#15 of 32",
+                "rank_n": 15,
                 "note": null
               },
               "edge": {
                 "side": "h",
                 "gap": 0.011550676116560094,
-                "rank_gap": 9
+                "rank_gap": 10
               }
             },
             {
@@ -584,8 +584,8 @@
               "a": {
                 "v": "−0.3 pp",
                 "n": -0.003337747870470551,
-                "rank": "#18 of 32",
-                "rank_n": 18,
+                "rank": "#19 of 32",
+                "rank_n": 19,
                 "note": null
               },
               "h": {
@@ -598,7 +598,7 @@
               "edge": {
                 "side": "a",
                 "gap": 0.017086810385318542,
-                "rank_gap": 11
+                "rank_gap": 10
               }
             }
           ]
@@ -656,13 +656,13 @@
       "away": [
         {
           "k": "Run defence · EPA allowed per carry",
-          "rank_gap": 25,
+          "rank_gap": 24,
           "gap": 0.10640703122549829,
           "lead": "Baltimore Ravens",
           "trail": "Buffalo Bills",
           "lead_cell": "−0.049 · #4 of 32",
-          "trail_cell": "+0.057 · #29 of 32",
-          "text": "Baltimore Ravens −0.049 (#4 of 32) vs Buffalo Bills +0.057 (#29 of 32) — 25 places on the league board."
+          "trail_cell": "+0.057 · #28 of 32",
+          "text": "Baltimore Ravens −0.049 (#4 of 32) vs Buffalo Bills +0.057 (#28 of 32) — 24 places on the league board."
         },
         {
           "k": "Explosive runs allowed",
@@ -676,18 +676,18 @@
         },
         {
           "k": "Sacks generated per dropback",
-          "rank_gap": 11,
+          "rank_gap": 10,
           "gap": 0.017086810385318542,
           "lead": "Baltimore Ravens",
           "trail": "Buffalo Bills",
-          "lead_cell": "−0.3 pp · #18 of 32",
+          "lead_cell": "−0.3 pp · #19 of 32",
           "trail_cell": "−2.0 pp · #29 of 32",
-          "text": "Baltimore Ravens −0.3 pp (#18 of 32) vs Buffalo Bills −2.0 pp (#29 of 32) — 11 places on the league board."
+          "text": "Baltimore Ravens −0.3 pp (#19 of 32) vs Buffalo Bills −2.0 pp (#29 of 32) — 10 places on the league board."
         },
         {
           "k": "Defence · EPA allowed per play",
           "rank_gap": 5,
-          "gap": 0.028285564734805847,
+          "gap": 0.028285749363492776,
           "lead": "Baltimore Ravens",
           "trail": "Buffalo Bills",
           "lead_cell": "+0.036 · #22 of 32",
@@ -707,9 +707,19 @@
       ],
       "home": [
         {
+          "k": "Run offence · EPA per carry",
+          "rank_gap": 12,
+          "gap": 0.10656665424183662,
+          "lead": "Buffalo Bills",
+          "trail": "Baltimore Ravens",
+          "lead_cell": "+0.132 · #1 of 32",
+          "trail_cell": "+0.025 · #13 of 32",
+          "text": "Buffalo Bills +0.132 (#1 of 32) vs Baltimore Ravens +0.025 (#13 of 32) — 12 places on the league board."
+        },
+        {
           "k": "Net EPA per play",
           "rank_gap": 11,
-          "gap": 0.09875684065263665,
+          "gap": 0.0987568369600629,
           "lead": "Buffalo Bills",
           "trail": "Baltimore Ravens",
           "lead_cell": "+0.117 · #4 of 32",
@@ -727,14 +737,14 @@
           "text": "Buffalo Bills +6.41 (#1 of 32) vs Baltimore Ravens +1.15 (#12 of 32) — 11 places on the league board."
         },
         {
-          "k": "Run offence · EPA per carry",
-          "rank_gap": 11,
-          "gap": 0.10656665424183662,
+          "k": "Explosive passes allowed",
+          "rank_gap": 10,
+          "gap": 0.011550676116560094,
           "lead": "Buffalo Bills",
           "trail": "Baltimore Ravens",
-          "lead_cell": "+0.132 · #1 of 32",
-          "trail_cell": "+0.025 · #12 of 32",
-          "text": "Buffalo Bills +0.132 (#1 of 32) vs Baltimore Ravens +0.025 (#12 of 32) — 11 places on the league board."
+          "lead_cell": "+0.1 pp · #15 of 32",
+          "trail_cell": "+1.3 pp · #25 of 32",
+          "text": "Buffalo Bills +0.1 pp (#15 of 32) vs Baltimore Ravens +1.3 pp (#25 of 32) — 10 places on the league board."
         },
         {
           "k": "Sacks taken per dropback",
@@ -745,16 +755,6 @@
           "lead_cell": "−0.5 pp · #16 of 32",
           "trail_cell": "+1.4 pp · #26 of 32",
           "text": "Buffalo Bills −0.5 pp (#16 of 32) vs Baltimore Ravens +1.4 pp (#26 of 32) — 10 places on the league board."
-        },
-        {
-          "k": "Explosive pass rate",
-          "rank_gap": 9,
-          "gap": 0.03347166072301648,
-          "lead": "Buffalo Bills",
-          "trail": "Baltimore Ravens",
-          "lead_cell": "+4.2 pp · #1 of 32",
-          "trail_cell": "+0.8 pp · #10 of 32",
-          "text": "Buffalo Bills +4.2 pp (#1 of 32) vs Baltimore Ravens +0.8 pp (#10 of 32) — 9 places on the league board."
         }
       ],
       "measured": [],
@@ -769,7 +769,7 @@
           "team": "Baltimore Ravens",
           "label": "pass offence",
           "v": "+0.104",
-          "rank": "#7 of 32",
+          "rank": "#8 of 32",
           "note": null
         },
         "def": {
@@ -780,8 +780,8 @@
           "note": null
         },
         "complete": true,
-        "net": 0.13472765309162044,
-        "read": "Baltimore Ravens’ pass offence rates +0.104 (#7 of 32) and Buffalo Bills’ pass defence rates +0.031 (#20 of 32). Added the way the model adds them, this pairing sits +0.135 from the league mean, which favours Baltimore Ravens."
+        "net": 0.1347273028926917,
+        "read": "Baltimore Ravens’ pass offence rates +0.104 (#8 of 32) and Buffalo Bills’ pass defence rates +0.031 (#20 of 32). Added the way the model adds them, this pairing sits +0.135 from the league mean, which favours Baltimore Ravens."
       },
       {
         "title": "Buffalo Bills pass offence vs Baltimore Ravens pass defence",
@@ -800,7 +800,7 @@
           "note": null
         },
         "complete": true,
-        "net": 0.31459654065488624,
+        "net": 0.31459618330904054,
         "read": "Buffalo Bills’ pass offence rates +0.226 (#1 of 32) and Baltimore Ravens’ pass defence rates +0.088 (#27 of 32). Added the way the model adds them, this pairing sits +0.315 from the league mean, which favours Buffalo Bills."
       },
       {
@@ -809,19 +809,19 @@
           "team": "Baltimore Ravens",
           "label": "run offence",
           "v": "+0.025",
-          "rank": "#12 of 32",
+          "rank": "#13 of 32",
           "note": null
         },
         "def": {
           "team": "Buffalo Bills",
           "label": "run defence",
           "v": "+0.057",
-          "rank": "#29 of 32",
+          "rank": "#28 of 32",
           "note": null
         },
         "complete": true,
         "net": 0.08250376313041688,
-        "read": "Baltimore Ravens’ run offence rates +0.025 (#12 of 32) and Buffalo Bills’ run defence rates +0.057 (#29 of 32). Added the way the model adds them, this pairing sits +0.083 from the league mean, which favours Baltimore Ravens."
+        "read": "Baltimore Ravens’ run offence rates +0.025 (#13 of 32) and Buffalo Bills’ run defence rates +0.057 (#28 of 32). Added the way the model adds them, this pairing sits +0.083 from the league mean, which favours Baltimore Ravens."
       },
       {
         "title": "Buffalo Bills run offence vs Baltimore Ravens run defence",
@@ -876,12 +876,12 @@
           "team": "Baltimore Ravens",
           "label": "pass rush",
           "v": "−0.3 pp",
-          "rank": "#18 of 32",
+          "rank": "#19 of 32",
           "note": null
         },
         "complete": true,
         "net": -0.00855030079766235,
-        "read": "Buffalo Bills’ pass protection rates −0.5 pp (#16 of 32) and Baltimore Ravens’ pass rush rates −0.3 pp (#18 of 32). Added the way the model adds them, this pairing sits −0.9 pp from the league mean, which favours Buffalo Bills."
+        "read": "Buffalo Bills’ pass protection rates −0.5 pp (#16 of 32) and Baltimore Ravens’ pass rush rates −0.3 pp (#19 of 32). Added the way the model adds them, this pairing sits −0.9 pp from the league mean, which favours Buffalo Bills."
       },
       {
         "title": "Baltimore Ravens explosive passing vs Buffalo Bills explosive passes allowed",
@@ -896,12 +896,12 @@
           "team": "Buffalo Bills",
           "label": "explosive passes allowed",
           "v": "+0.1 pp",
-          "rank": "#16 of 32",
+          "rank": "#15 of 32",
           "note": null
         },
         "complete": true,
         "net": 0.009658822953701431,
-        "read": "Baltimore Ravens’ explosive passing rates +0.8 pp (#10 of 32) and Buffalo Bills’ explosive passes allowed rates +0.1 pp (#16 of 32). Added the way the model adds them, this pairing sits +1.0 pp from the league mean, which favours Baltimore Ravens."
+        "read": "Baltimore Ravens’ explosive passing rates +0.8 pp (#10 of 32) and Buffalo Bills’ explosive passes allowed rates +0.1 pp (#15 of 32). Added the way the model adds them, this pairing sits +1.0 pp from the league mean, which favours Baltimore Ravens."
       },
       {
         "title": "Buffalo Bills explosive passing vs Baltimore Ravens explosive passes allowed",
@@ -981,7 +981,7 @@
           },
           {
             "k": "Quarterback",
-            "a": "Tyler Huntley",
+            "a": "Lamar Jackson",
             "h": "Josh Allen",
             "note": null
           },
@@ -993,7 +993,7 @@
           },
           {
             "k": "Learned sample",
-            "a": "23 learned starts",
+            "a": "116 learned starts",
             "h": "145 learned starts",
             "note": "starts the QB layer has actually absorbed"
           },
@@ -1005,13 +1005,13 @@
           },
           {
             "k": "Active room",
-            "a": "Tyler Huntley, Joe Fagnano",
+            "a": "Lamar Jackson, Tyler Huntley, Joe Fagnano",
             "h": "Kyle Allen, Josh Allen",
             "note": "who is rostered at the position — identity only"
           }
         ],
         "reads": [
-          "The quarterback difference is worth +1.4 points of the projected spread — the engine’s own qb_adj_diff term, and the only place a quarterback moves this number.",
+          "The quarterback difference is worth -1.2 points of the projected spread — the engine’s own qb_adj_diff term, and the only place a quarterback moves this number.",
           "Both starters are confirmed by the schedule feed, so the quarterback term is priced from the learned value of the two players actually named.",
           "The learned QB layer is identity-keyed and value-only: it says how a quarterback has played, never how he is feeling, and it knows nothing about a start nobody has announced."
         ]
@@ -1085,7 +1085,7 @@
         "reads": [
           "Each situational factor is shown with the points the engine’s own context model assigned it, so nothing here is a rule of thumb. A factor with no weight in the fit is worth nothing in this number and says so rather than being quietly rounded up.",
           "No forecast reached this game, so temperature and wind entered the total at their neutral defaults. That is a missing input, not a mild day.",
-          "The ratings behind this projection are the trained seeds plus 106 absorbed 2026 games; early in a season that means the prior is still carrying most of the weight."
+          "The ratings behind this projection are the trained seeds plus 108 absorbed 2026 games; early in a season that means the prior is still carrying most of the weight."
         ]
       }
     ],
@@ -1096,20 +1096,20 @@
         "bullets": [
           "Base team strength — Buffalo Bills by 2.9 points (last season +0.8, this season +2.1) (+2.9 pts).",
           "Passing — Buffalo Bills by 0.2 points (last season +0.2, this season +0.1) (+0.2 pts).",
-          "Quarterback — Buffalo Bills by 3.2 points (+3.2 pts).",
           "Home field — Buffalo Bills by 3.1 points (+3.1 pts).",
-          "Rest / travel — Buffalo Bills by 1.0 points (+1.0 pts)."
+          "Rest / travel — Buffalo Bills by 1.0 points (+1.0 pts).",
+          "Run offence · EPA per carry: Buffalo Bills +0.132 (#1 of 32) vs Baltimore Ravens +0.025 (#13 of 32) — 12 places on the league board."
         ]
       },
       "underdog": {
         "team": "Baltimore Ravens",
         "heading": "Why Baltimore Ravens can keep it close",
         "bullets": [
-          "Run defence · EPA allowed per carry: Baltimore Ravens −0.049 (#4 of 32) vs Buffalo Bills +0.057 (#29 of 32) — 25 places on the league board.",
+          "Quarterback — Baltimore Ravens by 1.2 points (-1.2 pts).",
+          "Run defence · EPA allowed per carry: Baltimore Ravens −0.049 (#4 of 32) vs Buffalo Bills +0.057 (#28 of 32) — 24 places on the league board.",
           "Explosive runs allowed: Baltimore Ravens −0.7 pp (#14 of 32) vs Buffalo Bills +2.3 pp (#30 of 32) — 16 places on the league board.",
-          "Sacks generated per dropback: Baltimore Ravens −0.3 pp (#18 of 32) vs Buffalo Bills −2.0 pp (#29 of 32) — 11 places on the league board.",
-          "Baltimore Ravens pass offence vs Buffalo Bills pass defence: the pairing sits +0.135 from the league mean.",
-          "Baltimore Ravens run offence vs Buffalo Bills run defence: the pairing sits +0.083 from the league mean."
+          "Sacks generated per dropback: Baltimore Ravens −0.3 pp (#19 of 32) vs Buffalo Bills −2.0 pp (#29 of 32) — 10 places on the league board.",
+          "Baltimore Ravens pass offence vs Buffalo Bills pass defence: the pairing sits +0.135 from the league mean."
         ]
       },
       "note": "Football cases assembled from measured states — a fitted driver, a rating gap, a combined matchup or the model’s own range. Neither side is a bet and neither is advice."
@@ -1165,14 +1165,14 @@
     },
     "market": {
       "available": true,
-      "model": "Buffalo Bills −10.5",
-      "model_raw": "Buffalo Bills -10.5",
+      "model": "Buffalo Bills −6.0",
+      "model_raw": "Buffalo Bills -6.1",
       "market": "Buffalo Bills −2.5",
-      "difference": "8.0 points",
-      "rounding_note": null,
+      "difference": "3.6 points",
+      "rounding_note": "Fair lines rounded to nearest half-point; differences use unrounded projections.",
       "key_number": {
-        "text": "Market is below 3; model is above 7.",
-        "detail": "Buffalo Bills: market −2.5, model fair −10.5.",
+        "text": "Market is below 3; model is above 3.",
+        "detail": "Buffalo Bills: market −2.5, model fair −6.0.",
         "note": "Key margins are where football games often finish. How often differs between the NFL and college football; this note marks where the two lines sit and does not change any probability."
       },
       "total_model": "52.0",
@@ -1181,33 +1181,33 @@
       "total_rounding_note": "Fair lines rounded to nearest half-point; differences use unrounded projections.",
       "total_difference": "0.7 points",
       "book": "DraftKings",
-      "capture_age": "1049 hours old",
+      "capture_age": "1173 hours old",
       "stale": false,
       "classification": "STALE MARKET",
-      "classification_note": "The captured quotes for this game are older than the freshness limit: it is not a current price, so the 8.0-point gap is context only and the game is excluded from research ranking.",
+      "classification_note": "The captured quotes for this game are older than the freshness limit: it is not a current price, so the 3.6-point gap is context only and the game is excluded from research ranking.",
       "reference": null,
       "note": "EdgeDesk compares its own number with a captured price. The comparison is a research state, not a bet — and out of sample this model does not beat the close."
     },
-    "headline": "EdgeDesk projects Buffalo Bills 31, Baltimore Ravens 21.",
+    "headline": "EdgeDesk projects Buffalo Bills 29, Baltimore Ravens 23.",
     "state": {
       "label": "STALE MARKET",
-      "note": "The captured quotes for this game are older than the freshness limit: it is not a current price, so the 8.0-point gap is context only and the game is excluded from research ranking.",
+      "note": "The captured quotes for this game are older than the freshness limit: it is not a current price, so the 3.6-point gap is context only and the game is excluded from research ranking.",
       "scope": "This describes the state of EdgeDesk’s model-versus-market research on this game. It is not a statement about whether the matchup is worth researching."
     },
     "score": {
       "away": {
         "team": "Baltimore Ravens",
-        "points": "21"
+        "points": "23"
       },
       "home": {
         "team": "Buffalo Bills",
-        "points": "31"
+        "points": "29"
       },
       "expected": {
-        "text": "Buffalo Bills 31.35, Baltimore Ravens 20.81",
-        "home": 31.35,
-        "away": 20.81,
-        "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
+        "text": "Buffalo Bills 29.13, Baltimore Ravens 23.03",
+        "home": 29.13,
+        "away": 23.03,
+        "note": null
       },
       "note": "Split from EdgeDesk’s own fair spread and fair total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
     },
@@ -1243,13 +1243,13 @@
         },
         {
           "k": "Pass offence · EPA per dropback",
-          "a": "+0.104  #7 of 32",
+          "a": "+0.104  #8 of 32",
           "h": "+0.226  #1 of 32",
           "note": null
         },
         {
           "k": "Run offence · EPA per carry",
-          "a": "+0.025  #12 of 32",
+          "a": "+0.025  #13 of 32",
           "h": "+0.132  #1 of 32",
           "note": null
         },
@@ -1280,13 +1280,13 @@
         {
           "k": "Run defence · EPA allowed per carry",
           "a": "−0.049  #4 of 32",
-          "h": "+0.057  #29 of 32",
+          "h": "+0.057  #28 of 32",
           "note": null
         },
         {
           "k": "Explosive passes allowed",
           "a": "+1.3 pp  #25 of 32",
-          "h": "+0.1 pp  #16 of 32",
+          "h": "+0.1 pp  #15 of 32",
           "note": null
         },
         {
@@ -1303,7 +1303,7 @@
         },
         {
           "k": "Sacks generated per dropback",
-          "a": "−0.3 pp  #18 of 32",
+          "a": "−0.3 pp  #19 of 32",
           "h": "−2.0 pp  #29 of 32",
           "note": "pass rush — the only defensive-front number the NFL model carries"
         },
@@ -1322,23 +1322,23 @@
       ]
     },
     "notes": [
-      "EdgeDesk’s line is Buffalo Bills −10.5 with a fair total of 52.0, before any book is consulted.",
-      "Buffalo Bills wins 84% of the time in EdgeDesk’s distribution, Baltimore Ravens 16%."
+      "EdgeDesk’s line is Buffalo Bills −6.0 with a fair total of 52.0, before any book is consulted.",
+      "Buffalo Bills wins 70% of the time in EdgeDesk’s distribution, Baltimore Ravens 30%."
     ],
     "missing": [],
     "priced_label": "PRICED BY MODEL — the projection and its additive drivers, from the inputs the NFL model actually fits.",
     "context_label": "RESEARCH CONTEXT — every rating below is opponent-adjusted and printed as a deviation from the league mean. The injury report and the quarterback panel explain the matchup and move no priced number.",
-    "source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 106 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice."
+    "source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 108 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice."
   },
   "football_evidence": {
     "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "cqn8271fpgr3h",
+    "packet_hash": "w6nsnc1wvwtka",
     "status": "PARTIALLY_EXPLAINED",
     "input_suspect": false,
     "question": "Can the Ravens stop the Bills’ run game?",
     "assessment": "Some measured evidence supports EdgeDesk’s lean toward Buffalo Bills, but not the full gap. It is a research question, not a bet.",
     "gap": {
-      "points": 8,
+      "points": 3.6,
       "toward": "Buffalo Bills",
       "other": "Baltimore Ravens"
     },
@@ -1349,31 +1349,34 @@
       "Buffalo Bills’ running game ranks No. 1 of 32 in rushing efficiency this season."
     ],
     "contradicting": [
-      "When Baltimore Ravens have the ball: their run game ranks No. 12, and Buffalo Bills’ run defense ranks No. 29.",
-      "When Baltimore Ravens have the ball: their passing game ranks No. 7, and Buffalo Bills’ pass defense ranks No. 20.",
-      "Buffalo Bills’ run defense ranks No. 29 of 32 in run defense this season.",
-      "Buffalo Bills’ pass rush ranks No. 29 of 32 in sack rate this season."
+      "When Baltimore Ravens have the ball: their passing game ranks No. 8, and Buffalo Bills’ pass defense ranks No. 20.",
+      "When Baltimore Ravens have the ball: their run game ranks No. 13, and Buffalo Bills’ run defense ranks No. 28.",
+      "Buffalo Bills’ pass rush ranks No. 29 of 32 in sack rate this season.",
+      "Baltimore Ravens’ run defense ranks No. 4 of 32 in run defense this season."
     ],
     "quarterbacks": [
       "Buffalo Bills’ passers have completed 114 of 171 (66.7%) for 1,504 yards, 8.8 yards per attempt, with 9 touchdowns, 4 interceptions and 12 sacks taken in six games.",
       "Baltimore Ravens’ passers have completed 142 of 202 (70.3%) for 1,694 yards, 8.4 yards per attempt, with 10 touchdowns, 2 interceptions and 18 sacks taken in seven games."
     ],
-    "availability": [],
+    "availability": [
+      "The official injury report lists one Buffalo Bills player as out or doubtful, including WR Tyrell Shavers (out).",
+      "The official injury report lists two Baltimore Ravens players as out or doubtful, including S Jaylinn Hawkins (out) and G Olaivavega Ioane (out)."
+    ],
     "script": {
       "model": [
         "The Buffalo Bills have to win on the ground (Buffalo Bills’ No. 1 run game against Baltimore Ravens’ No. 4 run defense).",
-        "The Buffalo Bills have to slow the Baltimore Ravens on the ground (Baltimore Ravens’ No. 12 run game against Buffalo Bills’ No. 29 run defense).",
-        "The Buffalo Bills have to slow the Baltimore Ravens through the air (Baltimore Ravens’ No. 7 passing game against Buffalo Bills’ No. 20 pass defense).",
+        "The Buffalo Bills have to slow the Baltimore Ravens on the ground (Baltimore Ravens’ No. 13 run game against Buffalo Bills’ No. 28 run defense).",
+        "The Buffalo Bills have to slow the Baltimore Ravens through the air (Baltimore Ravens’ No. 8 passing game against Buffalo Bills’ No. 20 pass defense).",
         "The Buffalo Bills have to win through the air (Buffalo Bills’ No. 1 passing game against Baltimore Ravens’ No. 27 pass defense)."
       ],
       "market": [
-        "The Baltimore Ravens have to win on the ground (Baltimore Ravens’ No. 12 run game against Buffalo Bills’ No. 29 run defense).",
-        "The Baltimore Ravens have to win through the air (Baltimore Ravens’ No. 7 passing game against Buffalo Bills’ No. 20 pass defense).",
+        "The Baltimore Ravens have to win on the ground (Baltimore Ravens’ No. 13 run game against Buffalo Bills’ No. 28 run defense).",
+        "The Baltimore Ravens have to win through the air (Baltimore Ravens’ No. 8 passing game against Buffalo Bills’ No. 20 pass defense).",
         "The Baltimore Ravens have to win on the ground (Buffalo Bills’ No. 1 run game against Baltimore Ravens’ No. 4 run defense)."
       ]
     },
     "unknown": [
-      "Not in EdgeDesk’s verified data for this game: offensive efficiency, third-down conversion, red-zone production, recent opponent strength, third-down defense, red-zone defense, position-group advantages, turnover rates, home field, strength of schedule, injuries and personnel and conference implications.",
+      "Not in EdgeDesk’s verified data for this game: offensive efficiency, third-down conversion, red-zone production, recent opponent strength, third-down defense, red-zone defense, position-group advantages, turnover rates, home field, strength of schedule and conference implications.",
       "The line on file was captured Sept. 13 and may have moved."
     ],
     "flags": [],
@@ -1382,15 +1385,22 @@
         "label": "EdgeDesk NFL team ratings (2026)",
         "url": null,
         "path": "football/nfl/slate.json",
-        "observed_at": "2026-10-26T23:11:24.541Z",
+        "observed_at": "2026-11-01T14:21:58.054Z",
         "verification": "VERIFIED_DATA"
       },
       {
         "label": "nflverse team-week stats (2026)",
         "url": null,
         "path": "football/nfl/stats_team_week_2026.csv",
-        "observed_at": "2026-10-27T08:53:18.887Z",
+        "observed_at": "2026-11-01T19:33:22.049Z",
         "verification": "VERIFIED_DATA"
+      },
+      {
+        "label": "NFL injury report via nflverse (third-party mirror of the league report)",
+        "url": null,
+        "path": "football/injuries/nfl_2026.json",
+        "observed_at": "2026-11-01T13:30:56.695Z",
+        "verification": "OFFICIAL_REPORT"
       }
     ],
     "needs_confirmation": []
@@ -1398,6 +1408,6 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-10-27T08:53:29.281Z"
+    "at": "2026-11-01T19:33:32.851Z"
   }
 }

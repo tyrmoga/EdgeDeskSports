@@ -12,9 +12,19 @@
 //  SECRETS:
 //    STRIPE_SECRET_KEY       sk_live_... or a restricted key with WRITE on
 //                            Customers and Checkout Sessions, READ on Prices,
-//                            Promotion Codes and Subscriptions
+//                            Promotion Codes and Subscriptions. READ on
+//                            Products is optional: each product's metadata
+//                            `tier` says what a price sells (red = Bet
+//                            Checker, black = Fairline, blue = the Research
+//                            Terminal); a key
+//                            refused the product reads the price's own
+//                            metadata `tier` instead, and the terminal's
+//                            checkout never needs either
 //    STRIPE_PRICE_ID         price_... the EdgeDesk Full Access monthly price
-//                            (lib/edgedesk_pricing.js PRICE_CENTS, USD, month)
+//                            (lib/edgedesk_pricing.js PRICE_CENTS, USD, month).
+//                            Bet Checker and Fairline need NO env var: their
+//                            prices are found by lookup key (bet_checker_monthly,
+//                            bet_checker_annual, fairline_monthly, fairline_annual)
 //    STRIPE_TRIAL_DAYS       optional, default 7 (lib/edgedesk_pricing.js TRIAL_DAYS)
 //    SITE_URL                optional, default https://edgedesksports.com
 //    STRIPE_AUTOMATIC_TAX    optional, 'true' when Stripe Tax is on
@@ -61,6 +71,27 @@
 //     409 offer_mismatch, before anything is created (the automatic-renewal
 //     consent must describe the charge exactly)
 //   * more than 10 checkouts in 10 minutes from one account — 429
+//   * a price whose product sells another tier (a terminal checkout on a Bet
+//     Checker or Fairline price, or the reverse) — 409 offer_mismatch
+//   * a Bet Checker or Fairline price the database could not record (the rule
+//     would read an unrecorded price as the terminal) — 503, nothing created
+//   * the terminal's trial for an account that has Bet Checker or Fairline, and
+//     Fairline for an account that has Bet Checker — 409 switch_plan: the
+//     switch is made in Stripe's billing portal, one subscription changing
+//     price, never a second subscription beside the first
+//
+// BET CHECKER ({kind: 'bet_checker', plan: 'monthly' | 'annual'}): the same
+// door, the same consent rule, no trial. The price is the active one holding
+// the plan's lookup key; its product must say tier = red, and that is written
+// to billing_price_tiers BEFORE the session exists, so the first event about
+// the subscription already finds it. Success and cancel return to /bet-checker/.
+// An account whose plan already includes Bet Checker (red, black or blue) is
+// told so — 409 already_entitled.
+//
+// FAIRLINE ({kind: 'fairline', plan: 'monthly' | 'annual'}): the same, by the
+// lookup keys fairline_monthly / fairline_annual; its product must say tier =
+// black; success and cancel return to /fairline/. An account whose plan already
+// includes Fairline (black or blue) is told so — 409 already_entitled.
 //
 // IT REUSES rather than duplicates: an open session from the last 30 minutes for
 // the same offer is returned again (a double click, a second tab), and an
@@ -83,7 +114,7 @@
 // refuses the discount (a first-time-only code, a customer with an earlier
 // payment), the checkout is made again without it rather than failed.
 
-const BUILD = 'create_checkout_session-2026-10-16-affiliate-1';
+const BUILD = 'create_checkout_session-2026-10-28-fairline-1';
 
 const CORS = {
   'access-control-allow-origin': '*',
@@ -127,7 +158,7 @@ function config() {
 // Plain JavaScript on purpose: Deno runs it as-is, and Node tests load it
 // without a build step.
 
-var CORE_VERSION = 'billing-core-2026-10-04-1';
+var CORE_VERSION = 'billing-core-2026-10-28-tiers-3';
 
 // ── THE RULE, mirrored ──────────────────────────────────────────────────────
 // The authority is public.billing_row_grants_access() in
@@ -139,8 +170,12 @@ var COMP_TRIAL_PRICE_ID = 'comp_trial';
 var PAST_DUE_GRACE_DAYS = 21;
 var STRIPE_API = 'https://api.stripe.com/v1';
 var UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+// What a product sells, from its Stripe metadata `tier`: red = Bet Checker,
+// black = Fairline, blue = the Research Terminal. Anything else is not a tier.
+var TIERS = ['red', 'black', 'blue'];
 
-function grantsAccess(row, nowMs) {
+// public.billing_row_in_good_standing(): paid up, or comped, whatever it bought
+function inGoodStanding(row, nowMs) {
   if (!row) return false;
   var now = nowMs == null ? Date.now() : nowMs;
   var st = row.status;
@@ -150,6 +185,40 @@ function grantsAccess(row, nowMs) {
   if (st === 'active' || st === 'trialing') return pe == null || pe >= now;
   if (st === 'past_due') return pe == null || (now - pe) < PAST_DUE_GRACE_DAYS * 864e5;
   return false;
+}
+
+// public.billing_row_grants_access(): the Research Terminal. Bet Checker (red)
+// and Fairline (black) in good standing are paid, but not for this. An unknown
+// tier is the terminal: every price sold before Bet Checker existed was.
+function grantsAccess(row, nowMs) {
+  return inGoodStanding(row, nowMs) && (row.tier == null || row.tier === 'blue');
+}
+
+// public.has_bet_checker_paid(): red, black or blue, in good standing
+function grantsBetChecker(row, nowMs) {
+  return inGoodStanding(row, nowMs) && (row.tier == null || TIERS.indexOf(row.tier) >= 0);
+}
+
+// public.has_fairline_paid(): black or blue, in good standing (red is not Fairline)
+function grantsFairline(row, nowMs) {
+  return inGoodStanding(row, nowMs) && (row.tier == null || row.tier === 'black' || row.tier === 'blue');
+}
+
+function tierOf(v) {
+  var t = typeof v === 'string' ? v.trim().toLowerCase() : null;
+  return TIERS.indexOf(t) >= 0 ? t : null;
+}
+
+// EdgeDesk sells its two products that are NOT the terminal under lookup keys
+// it owns (create_checkout_session finds their prices by these, and by nothing
+// else). A price on one of them is that product, never the terminal — so a
+// price the product's metadata could not name is still never read as the
+// whole terminal (the rule's reading of a price it never learned).
+var LOOKUP_KEY_TIERS = [{ prefix: 'bet_checker_', tier: 'red' }, { prefix: 'fairline_', tier: 'black' }];
+function tierOfLookupKey(k) {
+  var key = typeof k === 'string' ? k.trim().toLowerCase() : '';
+  for (var i = 0; i < LOOKUP_KEY_TIERS.length; i++) if (key.indexOf(LOOKUP_KEY_TIERS[i].prefix) === 0) return LOOKUP_KEY_TIERS[i].tier;
+  return null;
 }
 
 // ── reading Stripe objects ──────────────────────────────────────────────────
@@ -189,8 +258,18 @@ function metadataUserId(obj) {
   return typeof v === 'string' && UUID_RE.test(v) ? v.toLowerCase() : null;
 }
 
+// The single item's price object (Stripe sends the whole Price on a
+// subscription item, with its product as an id unless it was expanded).
+function priceOf(sub) {
+  if (!sub || !sub.items || !Array.isArray(sub.items.data) || sub.items.data.length !== 1) return null;
+  var p = sub.items.data[0] && (sub.items.data[0].price || sub.items.data[0].plan);
+  return p && typeof p === 'object' ? p : null;
+}
+
 function normalizeSubscription(sub) {
   if (!sub || typeof sub !== 'object' || !sub.id) return null;
+  var price = priceOf(sub);
+  var product = price ? price.product : null;
   return {
     id: sub.id,
     customer_id: idOf(sub.customer),
@@ -198,28 +277,155 @@ function normalizeSubscription(sub) {
     current_period_end: periodEnd(sub),
     cancel_at_period_end: !!sub.cancel_at_period_end,
     price_id: priceIdOf(sub),
+    product_id: idOf(product),
+    lookup_key: price && price.lookup_key ? String(price.lookup_key) : null,
+    // known already only when the product came expanded; resolveTiers asks otherwise
+    tier: product && typeof product === 'object' ? tierOf(product.metadata && product.metadata.tier) : null,
+    // the price's own metadata tier: used only when the key may not read the product
+    price_tier: price ? tierOf(price.metadata && price.metadata.tier) : null,
     created_ms: sub.created ? Number(sub.created) * 1000 : 0,
     metadata_user_id: metadataUserId(sub),
     livemode: sub.livemode === false ? false : (sub.livemode === true ? true : null),
   };
 }
 
+// ── WHAT EACH SUBSCRIPTION SELLS ────────────────────────────────────────────
+// Stripe's product metadata says (tier = red | black | blue). Read once per price per
+// warm instance, and written to billing_price_tiers so the database's rule
+// agrees. A restricted key without Products read is refused the product (403):
+// then the price's own metadata tier stands in. A product that was read and
+// names no tier is never overruled by its price's metadata. When Stripe cannot
+// say at all (an outage), what the database learned before is used —
+// create_checkout_session learns every Bet Checker and Fairline price before
+// anyone can pay for it. Still unnamed, a price is named by the price itself:
+// its own metadata tier (unless its product was read), else the EdgeDesk lookup
+// key it is sold under (bet_checker_* red, fairline_* black), and learned so the
+// database's rule agrees — a plan switch in the portal to a Bet Checker or
+// Fairline price nobody bought through checkout yet never opens the terminal.
+// A price nobody can name is left unknown (the rule treats it as the terminal,
+// as everything sold before Bet Checker was) and raised for a human.
+var TIER_CACHE = {};
+var TIER_TTL_MS = 10 * 60 * 1000;
+async function resolveTiers(ctx, subs, opts) {
+  var o = opts || {};
+  var now = ctx.nowMs ? ctx.nowMs() : Date.now();
+  var pending = (subs || []).filter(function (s) { return s && s.price_id && !s.tier; });
+  if (!pending.length) return subs;
+  // 1. the product's metadata, from Stripe
+  for (var i = 0; i < pending.length; i++) {
+    var s = pending[i];
+    var hit = TIER_CACHE[s.price_id];
+    if (hit && now - hit.at < TIER_TTL_MS) { s.tier = hit.tier; if (!s.product_id) s.product_id = hit.product_id; continue; }
+    if (!ctx.stripe) continue;
+    try {
+      var product = null, t = null;
+      try {
+        if (s.product_id) product = await ctx.stripe.get('/products/' + encodeURIComponent(s.product_id));
+        else {
+          var pr = await ctx.stripe.get('/prices/' + encodeURIComponent(s.price_id), { expand: ['product'] });
+          product = pr && pr.product && typeof pr.product === 'object' ? pr.product : null;
+          if (pr && !s.lookup_key && pr.lookup_key) s.lookup_key = String(pr.lookup_key);
+        }
+        t = tierOf(product && product.metadata && product.metadata.tier);
+      } catch (e) {
+        if (!e || e.status !== 403 || !s.price_tier) throw e;
+        logLine(ctx.svc, 'warn', 'reconcile.product_unreadable', { price_id: s.price_id, product_id: s.product_id, tier_from: 'price_metadata' });
+        t = s.price_tier;
+      }
+      if (product && product.id) s.product_id = product.id;
+      if (product) s.product_read = true;
+      if (!t) continue;
+      s.tier = t;
+      TIER_CACHE[s.price_id] = { at: now, tier: t, product_id: s.product_id };
+      if (!o.dryRun) {
+        try {
+          var learned = await ctx.db.rpc('billing_learn_price_tier', { p_price_id: s.price_id, p_product_id: s.product_id || null,
+            p_tier: t, p_lookup_key: s.lookup_key || null, p_livemode: s.livemode, p_source: o.source || 'sync' });
+          // a database that does not know this tier yet (billing_hardening.sql not re-applied) says so
+          if (typeof learned === 'string' && learned.indexOf('refused') === 0) throw new Error(learned);
+        } catch (e) {
+          logLine(ctx.svc, 'warn', 'reconcile.tier_learn_failed', { price_id: s.price_id, error: String(e.message || e).slice(0, 200) });
+        }
+      }
+    } catch (e) {
+      logLine(ctx.svc, 'warn', 'reconcile.tier_unreadable', { price_id: s.price_id, product_id: s.product_id,
+        status: e && e.status, error: String((e && e.message) || e).slice(0, 200) });
+    }
+  }
+  // 2. what the database learned before
+  var still = pending.filter(function (s) { return !s.tier && /^price_[A-Za-z0-9_]+$/.test(s.price_id); });
+  if (still.length) {
+    try {
+      var ids = still.map(function (s) { return s.price_id; }).filter(function (v, k, a) { return a.indexOf(v) === k; });
+      var rows = await ctx.db.get('billing_price_tiers?select=price_id,tier&price_id=in.(' + ids.map(encodeURIComponent).join(',') + ')');
+      var known = {};
+      (rows || []).forEach(function (r) { known[r.price_id] = tierOf(r.tier); });
+      still.forEach(function (s) { if (known[s.price_id]) s.tier = known[s.price_id]; });
+    } catch (e) {
+      logLine(ctx.svc, 'warn', 'reconcile.tier_lookup_failed', { error: String(e.message || e).slice(0, 200) });
+    }
+  }
+  // 2b. the price itself: its own metadata tier (never over a product that was
+  // read), else the EdgeDesk lookup key it is sold under
+  for (var j = 0; j < pending.length; j++) {
+    var q = pending[j];
+    if (q.tier) continue;
+    var from = !q.product_read && q.price_tier ? 'price_metadata' : (tierOfLookupKey(q.lookup_key) ? 'lookup_key' : null);
+    if (!from) continue;
+    q.tier = from === 'price_metadata' ? q.price_tier : tierOfLookupKey(q.lookup_key);
+    logLine(ctx.svc, 'warn', 'reconcile.tier_from_price', { price_id: q.price_id, tier: q.tier, from: from });
+    if (!o.dryRun && /^price_[A-Za-z0-9_]+$/.test(q.price_id)) {
+      try {
+        var lr = await ctx.db.rpc('billing_learn_price_tier', { p_price_id: q.price_id, p_product_id: q.product_id || null,
+          p_tier: q.tier, p_lookup_key: q.lookup_key || null, p_livemode: q.livemode, p_source: (o.source || 'sync') + ':' + from });
+        if (typeof lr === 'string' && lr.indexOf('refused') === 0) throw new Error(lr);
+      } catch (e) {
+        logLine(ctx.svc, 'error', 'reconcile.tier_learn_failed', { price_id: q.price_id, tier: q.tier, error: String(e.message || e).slice(0, 200) });
+      }
+    }
+  }
+  // 3. nobody can say
+  var unknown = pending.filter(function (s) { return !s.tier; });
+  if (unknown.length && !o.dryRun) {
+    for (var u = 0; u < unknown.length; u++) {
+      try {
+        await ctx.db.rpc('billing_raise_alert', { p_kind: 'unknown_price_tier', p_dedupe: 'price:' + unknown[u].price_id,
+          p_user: o.userId || null, p_customer: unknown[u].customer_id, p_subscription: unknown[u].id, p_event: o.eventId || null,
+          p_detail: { price_id: unknown[u].price_id, product_id: unknown[u].product_id || null,
+            why: 'Stripe did not say which tier this price sells (product metadata tier = red | black | blue), and it was never learned' },
+          p_resolved: false });
+      } catch (_) { /* the log line below still says it */ }
+    }
+    logLine(ctx.svc, 'warn', 'reconcile.tier_unknown', { price_ids: unknown.map(function (s) { return s.price_id; }) });
+  }
+  return subs;
+}
+
+// Paid for SOMETHING: the terminal, Fairline, or Bet Checker alone. What a
+// repair, a grant or a revocation is judged by — a Bet Checker or Fairline
+// purchase landing is the webhook doing its job exactly as a terminal trial is.
+function paidAccess(a) {
+  return !!(a && (a.has_access || a.fairline_paid || a.bet_checker_paid));
+}
+
 var STATUS_RANK = { active: 60, trialing: 50, past_due: 40, unpaid: 30, paused: 20, incomplete: 10,
                     canceled: 0, incomplete_expired: -10 };
 
 // The subscription an account's row should describe, out of every one Stripe
-// has for it: one that grants access beats one that does not; paid beats
-// trial; then the later period end, then the newest. Two that both grant
-// access are a DUPLICATE purchase, returned so the caller can flag it.
+// has for it: one that grants the terminal beats one that grants Fairline,
+// which beats one that grants only Bet Checker, which beats one that grants
+// nothing; paid beats trial; then the
+// later period end, then the newest. Two in good standing — whatever each
+// sells — are a DUPLICATE purchase, returned so the caller can flag it.
 function pickBest(subs, nowMs) {
   var seen = {}, list = [];
   (subs || []).forEach(function (s) {
     var n = s && s.id && s.current_period_end !== undefined && s.created_ms !== undefined ? s : normalizeSubscription(s);
     if (n && n.id && !seen[n.id]) { seen[n.id] = true; list.push(n); }
   });
-  var ent = function (n) { return grantsAccess(n, nowMs); };
+  var ent = function (n) { return grantsAccess(n, nowMs) ? 3 : grantsFairline(n, nowMs) ? 2 : (inGoodStanding(n, nowMs) ? 1 : 0); };
   list.sort(function (a, b) {
-    var ea = ent(a) ? 1 : 0, eb = ent(b) ? 1 : 0;
+    var ea = ent(a), eb = ent(b);
     if (ea !== eb) return eb - ea;
     var ra = STATUS_RANK[a.status] == null ? -20 : STATUS_RANK[a.status];
     var rb = STATUS_RANK[b.status] == null ? -20 : STATUS_RANK[b.status];
@@ -483,7 +689,7 @@ async function reconcileUser(ctx, user, opts) {
           stripe_subscription_id: b ? b.id : null, stripe_status: b ? b.status : null,
           db_status_before: row ? row.status : null,
           db_status_after: res.access && res.access.subscription ? res.access.subscription.status : (row ? row.status : null),
-          access_before: !!(before && before.has_access), access_after: !!(res.access && res.access.has_access),
+          access_before: paidAccess(before), access_after: paidAccess(res.access),
           duration_ms: (ctx.nowMs ? ctx.nowMs() : Date.now()) - t0,
           note: res.note ? String(res.note).slice(0, 300) : null,
         }]);
@@ -495,7 +701,7 @@ async function reconcileUser(ctx, user, opts) {
       user_id: user.id, source: o.source, ref: ref, event_id: o.eventId || null,
       customer_ids: res.customers.map(function (c) { return c.id; }),
       subscription_id: b ? b.id : null, stripe_status: b ? b.status : null,
-      access_before: !!(before && before.has_access), access_after: !!(res.access && res.access.has_access),
+      access_before: paidAccess(before), access_after: paidAccess(res.access),
       duplicates: res.duplicates, note: res.note || null,
     });
     return res;
@@ -575,7 +781,10 @@ async function reconcileUser(ctx, user, opts) {
     }
   }
 
-  var pick = pickBest(subs, t0);
+  // what each one sells, before any of them is ranked
+  var norm = subs.map(normalizeSubscription).filter(Boolean);
+  await resolveTiers(ctx, norm, { dryRun: o.dryRun, source: o.source, userId: user.id, eventId: o.eventId });
+  var pick = pickBest(norm, t0);
   res.best = pick.best;
   // the Stripe object itself, for a caller that reads more than the state (the
   // webhook reads the discount off it); never returned to a browser
@@ -583,7 +792,7 @@ async function reconcileUser(ctx, user, opts) {
   res.duplicates = pick.entitled.length;
   res.stripe = pick.all.map(function (s) {
     return { id: s.id, customer_id: s.customer_id, status: s.status, current_period_end: s.current_period_end,
-             cancel_at_period_end: s.cancel_at_period_end, price_id: s.price_id };
+             cancel_at_period_end: s.cancel_at_period_end, price_id: s.price_id, tier: s.tier || null };
   });
 
   if (!pick.best) {
@@ -597,7 +806,7 @@ async function reconcileUser(ctx, user, opts) {
       }
       return finish('stripe_error', false, { note: String(stripeErr.message || stripeErr).slice(0, 200) });
     }
-    if (row && row.stripe_subscription_id && before && before.has_access && !o.dryRun) {
+    if (row && row.stripe_subscription_id && paidAccess(before) && !o.dryRun) {
       try {
         await ctx.db.rpc('billing_raise_alert', { p_kind: 'db_active_stripe_inactive', p_dedupe: 'user:' + user.id,
           p_user: user.id, p_customer: row.stripe_customer_id, p_subscription: row.stripe_subscription_id,
@@ -634,7 +843,7 @@ async function reconcileUser(ctx, user, opts) {
   res.applied = applied;
   try { res.access = await ctx.db.rpc('billing_access_for', { p_user: user.id }); } catch (_) { /* keep before */ }
 
-  var had = !!(before && before.has_access), has = !!(res.access && res.access.has_access);
+  var had = paidAccess(before), has = paidAccess(res.access);
   // 'granted' is the webhook doing its job; 'repaired' is anything else having
   // to do it for the webhook — the number worth watching.
   var outcome = !(applied && applied.applied) || applied.changed === false ? 'unchanged'
@@ -687,22 +896,36 @@ async function getUser(c, req) {
   } catch (_) { return null; }
 }
 
-// The price is checked against Stripe once per warm instance.
+// The price is checked against Stripe once per warm instance, with its product,
+// whose metadata says what it sells. A restricted key without Products read
+// (the key docs/billing-hardening.md set up before Bet Checker) is refused the
+// product: the price is read again on its own, so the terminal's checkout
+// never depends on that permission, and productTier() falls back to the
+// price's own metadata.
 const PRICE_CACHE = {};
+async function getWithProduct(stripe, path, params, expand) {
+  try { return await stripe.get(path, Object.assign({ 'expand[]': expand }, params)); }
+  catch (e) {
+    if (!e || e.status !== 403) throw e;
+    logLine('create_checkout_session', 'warn', 'checkout.product_unreadable', { path: path.split('?')[0], code: e.code || null });
+    return await stripe.get(path, params);
+  }
+}
 async function readPrice(stripe, id) {
   const hit = PRICE_CACHE[id];
   if (hit && Date.now() - hit.at < 10 * 60 * 1000) return hit.price;
-  const p = await stripe.get('/prices/' + encodeURIComponent(id));
+  const p = await getWithProduct(stripe, '/prices/' + encodeURIComponent(id), {}, 'product');
   PRICE_CACHE[id] = { at: Date.now(), price: p };
   return p;
 }
 
 // Does the Stripe price sell exactly what the consent screen showed?
-function offerProblem(price, wantCents, wantTrialDays, trialDays) {
+function offerProblem(price, wantCents, wantTrialDays, trialDays, interval) {
+  const every = interval || 'month';
   if (!price || price.object !== 'price') return 'STRIPE_PRICE_ID is not a price';
   if (!price.active) return 'the configured Stripe price is archived';
   if (price.type !== 'recurring' || !price.recurring) return 'the configured Stripe price is not recurring';
-  if (price.recurring.interval !== 'month' || (price.recurring.interval_count || 1) !== 1) return 'the configured Stripe price is not monthly';
+  if (price.recurring.interval !== every || (price.recurring.interval_count || 1) !== 1) return 'the configured Stripe price is not ' + every + 'ly';
   if (String(price.currency || '').toLowerCase() !== 'usd') return 'the configured Stripe price is not USD';
   if (Number(price.unit_amount) !== Number(wantCents)) {
     return 'the configured Stripe price charges ' + price.unit_amount + ' cents, the consent showed ' + wantCents;
@@ -711,6 +934,49 @@ function offerProblem(price, wantCents, wantTrialDays, trialDays) {
     return 'the consent promised a ' + wantTrialDays + '-day trial; checkout is configured for ' + trialDays;
   }
   return null;
+}
+
+// ── BET CHECKER ──────────────────────────────────────────────────────────────
+// Sold by Stripe LOOKUP KEY, never by a price id in a file or an env var: the
+// product (metadata tier = red) carries a monthly and an annual price, and
+// whichever price holds the key is the one sold. Its product must say red —
+// the access rule reads exactly that — and no trial is offered.
+const BET_CHECKER_PLANS = {
+  monthly: { lookup_key: 'bet_checker_monthly', interval: 'month' },
+  annual: { lookup_key: 'bet_checker_annual', interval: 'year' },
+};
+// ── FAIRLINE ─────────────────────────────────────────────────────────────────
+// The same way: by lookup key, its product must say tier = black (Fairline:
+// Bet Checker, The Board, The Leaks, The Tape; never the terminal), no trial.
+const FAIRLINE_PLANS = {
+  monthly: { lookup_key: 'fairline_monthly', interval: 'month' },
+  annual: { lookup_key: 'fairline_annual', interval: 'year' },
+};
+// what each checkout sells, and the tier its product must name
+const PLANS_BY_KIND = { bet_checker: BET_CHECKER_PLANS, fairline: FAIRLINE_PLANS };
+const TIER_BY_KIND = { bet_checker: 'red', fairline: 'black' };
+const NAME_BY_KIND = { bet_checker: 'Bet Checker', fairline: 'Fairline' };
+const LOOKUP_CACHE = {};
+async function readPriceByLookupKey(stripe, key) {
+  const hit = LOOKUP_CACHE[key];
+  if (hit && Date.now() - hit.at < 10 * 60 * 1000) return hit.price;
+  const r = await getWithProduct(stripe, '/prices', { 'lookup_keys[]': key, active: 'true', limit: 1 }, 'data.product');
+  const p = (r && Array.isArray(r.data) && r.data[0]) || null;
+  LOOKUP_CACHE[key] = { at: Date.now(), price: p };
+  return p;
+}
+// The product's metadata decides. Only when the key may not read the product
+// does the price's own metadata `tier` stand in; a product that was read and
+// names no tier is never overruled by its price.
+function productTier(price) {
+  const prod = price && price.product && typeof price.product === 'object' ? price.product : null;
+  const meta = prod ? prod.metadata : price && price.metadata;
+  const t = meta && typeof meta.tier === 'string' ? meta.tier.trim().toLowerCase() : null;
+  return t === 'red' || t === 'black' || t === 'blue' ? t : null;
+}
+function productIdOf(price) {
+  const p = price && price.product;
+  return typeof p === 'string' ? p : (p && p.id) || null;
 }
 
 // ── a creator's code ─────────────────────────────────────────────────────────
@@ -816,9 +1082,24 @@ async function handle(req) {
   }
   if (req.method !== 'POST') return json({ ok: false, reason: 'method' }, 405);
 
+  let body = {};
+  try { body = await req.json(); } catch (_) { body = {}; }
+  const kind = String(body.kind || 'trial');
+  if (kind !== 'trial' && !PLANS_BY_KIND[kind]) {
+    return json({ ok: false, reason: 'bad_kind', message: 'Only the trial, Bet Checker and Fairline checkouts are offered here.' }, 400);
+  }
+  // a product sold by lookup key (Bet Checker, Fairline): its plans, and the tier its product must say
+  const plans = PLANS_BY_KIND[kind] || null;
+  const plan = plans ? String(body.plan || 'monthly') : null;
+  if (plans && !plans[plan]) {
+    return json({ ok: false, reason: 'bad_plan', message: NAME_BY_KIND[kind] + ' is sold monthly or annually.' }, 400);
+  }
+
   // Not configured is the ONE answer that lets the page fall back to the
-  // Payment Link: nothing was created, nothing was charged.
-  if (!c.url || !c.serviceKey || !c.anonKey || !c.stripeKey || !c.priceId) {
+  // Payment Link: nothing was created, nothing was charged. Bet Checker and
+  // Fairline have no Payment Link and need no STRIPE_PRICE_ID (their prices are
+  // found by lookup key).
+  if (!c.url || !c.serviceKey || !c.anonKey || !c.stripeKey || (kind === 'trial' && !c.priceId)) {
     logLine('create_checkout_session', 'error', 'checkout.not_configured',
       { has_stripe_key: !!c.stripeKey, has_price: !!c.priceId, has_db: !!(c.url && c.serviceKey), has_anon: !!c.anonKey });
     return json({ ok: false, reason: 'not_configured', fallback_ok: true,
@@ -828,23 +1109,19 @@ async function handle(req) {
   const user = await getUser(c, req);
   if (!user) return json({ ok: false, reason: 'sign_in_required', message: 'Sign in to start checkout.' }, 401);
 
-  let body = {};
-  try { body = await req.json(); } catch (_) { body = {}; }
-  const kind = String(body.kind || 'trial');
-  if (kind !== 'trial') return json({ ok: false, reason: 'bad_kind', message: 'Only the trial checkout is offered here.' }, 400);
   const wantCents = Number(body.price_cents), wantTrial = Number(body.trial_days);
   if (!Number.isInteger(wantCents) || wantCents <= 0 || !Number.isInteger(wantTrial) || wantTrial < 0) {
     return json({ ok: false, reason: 'bad_offer', message: 'The offer the page showed was not sent.' }, 400);
   }
   // the creator's code the visitor arrived with; `promo_code` is what pages
   // built before 2026-10-16 send, and it is treated exactly the same way
-  const affCode = normAffiliateCode(body.affiliate_code) || normAffiliateCode(body.promo_code);
+  const affCode = kind === 'trial' ? (normAffiliateCode(body.affiliate_code) || normAffiliateCode(body.promo_code)) : null;
   const ref = /^EDS-[A-Z0-9]{6}$/.test(String(body.ref || '')) ? String(body.ref) : makeRef();
 
   const db = makeDb(c.url, c.serviceKey);
   const stripe = makeStripe(c.stripeKey, fetch, { timeoutMs: 8000, retries: 1 });
   const ctx = { db, stripe, svc: 'create_checkout_session' };
-  const trace = { user_id: user.id, ref, kind, affiliate_code: affCode };
+  const trace = { user_id: user.id, ref, kind, plan, affiliate_code: affCode };
 
   try {
     const adm = await db.rpc('billing_sync_admit', { p_user: user.id, p_source: 'checkout', p_max: 10, p_window_s: 600, p_ref: ref });
@@ -861,28 +1138,102 @@ async function handle(req) {
   // Ask Stripe, not just the row: a checkout finished a minute ago whose webhook
   // has not landed yet must not be sold again. This also repairs the row.
   const rec = await reconcileUser(ctx, user, { source: 'checkout', discover: true, ref });
+  if (kind === 'bet_checker' && rec.access && (rec.access.has_access || rec.access.bet_checker_paid)) {
+    logLine('create_checkout_session', 'info', 'checkout.already_entitled', Object.assign({ outcome: rec.outcome }, trace));
+    return json({ ok: false, reason: 'already_entitled', ref, access: rec.access,
+      message: rec.access.has_access
+        ? 'Your EdgeDesk subscription already includes Bet Checker — there is nothing to pay for.'
+        : rec.access.fairline_paid
+          ? 'Your Fairline plan already includes Bet Checker — there is nothing to pay for.'
+          : 'This account already has Bet Checker — there is nothing to pay for.' }, 409);
+  }
+  if (kind === 'fairline' && rec.access && (rec.access.has_access || rec.access.fairline_paid)) {
+    logLine('create_checkout_session', 'info', 'checkout.already_entitled', Object.assign({ outcome: rec.outcome }, trace));
+    return json({ ok: false, reason: 'already_entitled', ref, access: rec.access,
+      message: rec.access.has_access
+        ? 'Your EdgeDesk subscription already includes Fairline — there is nothing to pay for.'
+        : 'This account already has Fairline — there is nothing to pay for.' }, 409);
+  }
+  // A BET CHECKER CUSTOMER BUYING FAIRLINE SWITCHES PLAN, exactly as for the
+  // terminal below: one account row holds one subscription, and two would bill twice.
+  if (kind === 'fairline' && rec.access && rec.access.bet_checker_paid) {
+    logLine('create_checkout_session', 'info', 'checkout.switch_plan', Object.assign({ outcome: rec.outcome }, trace));
+    return json({ ok: false, reason: 'switch_plan', ref, access: rec.access,
+      message: 'This account has Bet Checker. Switch it to Fairline from Settings › Subscription (Manage billing) ' +
+               '— the switch replaces Bet Checker, so you are never billed for both, and Bet Checker stays included.' }, 409);
+  }
   if (rec.access && rec.access.has_access) {
     logLine('create_checkout_session', 'info', 'checkout.already_entitled', Object.assign({ outcome: rec.outcome }, trace));
     return json({ ok: false, reason: 'already_entitled', ref, access: rec.access,
       message: 'This account already has EdgeDesk access — there is nothing to pay for.' }, 409);
   }
-  if (c.oneTrial && ((rec.stripe && rec.stripe.length) || (rec.access && rec.access.stripe_backed))) {
+  // A BET CHECKER CUSTOMER BUYING THE TERMINAL SWITCHES PLAN; it never buys a
+  // second subscription beside the first and pays for both. The switch is a
+  // customer.subscription.updated the webhook already answers (the tier
+  // follows the new price), made in Stripe's billing portal.
+  if (kind === 'trial' && rec.access && rec.access.bet_checker_paid) {
+    const has = rec.access.fairline_paid ? 'Fairline' : 'Bet Checker';
+    logLine('create_checkout_session', 'info', 'checkout.switch_plan', Object.assign({ outcome: rec.outcome }, trace));
+    return json({ ok: false, reason: 'switch_plan', ref, access: rec.access,
+      message: 'This account has ' + has + '. Switch it to the EdgeDesk Research Terminal from Settings › Subscription ' +
+               '(Manage billing) — the switch replaces ' + has + ', so you are never billed for both.' }, 409);
+  }
+  if (kind === 'trial' && c.oneTrial && ((rec.stripe && rec.stripe.length) || (rec.access && rec.access.stripe_backed))) {
     return json({ ok: false, reason: 'trial_used', ref,
       message: 'This account has already had a free trial. Email support@edgedesksports.com to restart your subscription.' }, 409);
   }
 
   // ── 2. THE PRICE IS THE ONE THE CUSTOMER CONSENTED TO ─────────────────────
+  // ...and its product sells what this checkout is for: the access rule reads
+  // the product's tier, so a terminal checkout on a Bet Checker price (or the
+  // reverse) would grant the wrong thing. Refused before anything is created.
   let price;
-  try { price = await readPrice(stripe, c.priceId); }
-  catch (e) {
+  try {
+    price = plans
+      ? await readPriceByLookupKey(stripe, plans[plan].lookup_key)
+      : await readPrice(stripe, c.priceId);
+  } catch (e) {
     logLine('create_checkout_session', 'error', 'checkout.price_unreadable', Object.assign({ error: String(e.message || e) }, trace));
     return json({ ok: false, reason: 'stripe_unavailable', ref, message: 'Stripe could not be reached. Nothing was charged; try again.' }, 502);
   }
-  const problem = offerProblem(price, wantCents, wantTrial, c.trialDays);
+  const priceId = plans ? (price && price.id) || null : c.priceId;
+  const trialDays = plans ? 0 : c.trialDays;
+  const tier = productTier(price);
+  let problem = plans && !price
+    ? 'no active Stripe price has the lookup key ' + plans[plan].lookup_key
+    : offerProblem(price, wantCents, wantTrial, trialDays, plans ? plans[plan].interval : 'month');
+  if (!problem && plans && tier !== TIER_BY_KIND[kind]) {
+    problem = 'the ' + NAME_BY_KIND[kind] + ' price\'s product does not say metadata tier = ' + TIER_BY_KIND[kind];
+  }
+  // the terminal's price must sell the terminal: a Bet Checker (red) or
+  // Fairline (black) price there would sell the wrong thing
+  if (!problem && kind === 'trial' && tier && tier !== 'blue') problem = 'STRIPE_PRICE_ID is a tier ' + tier + ' price, not the terminal';
   if (problem) {
-    logLine('create_checkout_session', 'error', 'checkout.offer_mismatch', Object.assign({ problem, price_id: c.priceId }, trace));
+    logLine('create_checkout_session', 'error', 'checkout.offer_mismatch', Object.assign({ problem, price_id: priceId }, trace));
     return json({ ok: false, reason: 'offer_mismatch', ref,
       message: 'Checkout is being updated, so we stopped before taking any payment. Nothing has been charged.' }, 409);
+  }
+  // What it sells is written down BEFORE anyone can pay for it, so the first
+  // event about this subscription already finds its tier in the database. A
+  // Bet Checker or Fairline price the database could not record — an error, or
+  // an answer that is not a recording ('refused:tier' from a database that does
+  // not know the tier yet) — is NOT SOLD: the rule would read it as the terminal.
+  if (tier) {
+    let learned = null, failure = null;
+    try {
+      learned = await db.rpc('billing_learn_price_tier', { p_price_id: priceId, p_product_id: productIdOf(price),
+        p_tier: tier, p_lookup_key: price.lookup_key || null, p_livemode: c.livemode, p_source: 'checkout' });
+      if (['learned', 'unchanged', 'changed'].indexOf(String(learned)) < 0) failure = 'billing_learn_price_tier answered ' + String(learned);
+    } catch (e) {
+      failure = String(e.message || e);
+    }
+    if (failure) {
+      if (plans) {
+        logLine('create_checkout_session', 'error', 'checkout.tier_unrecorded', Object.assign({ error: failure, tier }, trace));
+        return json({ ok: false, reason: 'not_configured', ref, message: 'Billing is being updated. Nothing has been charged.' }, 503);
+      }
+      logLine('create_checkout_session', 'warn', 'checkout.tier_unrecorded', Object.assign({ error: failure, tier }, trace));
+    }
   }
 
   // ── 2b. A CREATOR'S CODE, ON THE MONTHLY PRICE ONLY ───────────────────────
@@ -897,7 +1248,7 @@ async function handle(req) {
     const open = await db.get('billing_checkout_sessions?select=id,url,price_id,trial_days,kind&user_id=eq.' + user.id +
       '&status=eq.open&created_at=gt.' + encodeURIComponent(since) + '&order=created_at.desc&limit=3');
     for (const s of open || []) {
-      if (s.price_id !== c.priceId || Number(s.trial_days) !== c.trialDays || s.kind !== kind) continue;
+      if (s.price_id !== priceId || Number(s.trial_days) !== trialDays || s.kind !== kind) continue;
       const live = await stripe.get('/checkout/sessions/' + encodeURIComponent(s.id)).catch(() => null);
       const liveAffiliate = (live && live.metadata && live.metadata.affiliate) || null;
       if (live && live.status === 'open' && live.url && liveAffiliate === wantAffiliate) {
@@ -924,20 +1275,23 @@ async function handle(req) {
   trace.customer_id = customer.id;
 
   // ── 5. THE SESSION ────────────────────────────────────────────────────────
+  // Bet Checker and Fairline come back to their own pages, which their
+  // customers can open (the terminal's paywall would greet them instead).
+  const back = kind === 'bet_checker' ? c.siteUrl + '/bet-checker/' : kind === 'fairline' ? c.siteUrl + '/fairline/' : c.siteUrl + '/';
   const params = {
     mode: 'subscription',
     customer: customer.id,
     client_reference_id: user.id,
-    line_items: [{ price: c.priceId, quantity: 1 }],
-    metadata: { supabase_user_id: user.id, kind },
+    line_items: [{ price: priceId, quantity: 1 }],
+    metadata: { supabase_user_id: user.id, kind, plan: plan || undefined },
     subscription_data: {
-      metadata: { supabase_user_id: user.id },
-      trial_period_days: kind === 'trial' && c.trialDays > 0 ? c.trialDays : undefined,
+      metadata: { supabase_user_id: user.id, kind },
+      trial_period_days: kind === 'trial' && trialDays > 0 ? trialDays : undefined,
     },
     // a card is held for the trial — the consent text says so
     payment_method_collection: 'always',
-    success_url: c.siteUrl + '/?checkout=success&session_id={CHECKOUT_SESSION_ID}',
-    cancel_url: c.siteUrl + '/?checkout=cancel',
+    success_url: back + '?checkout=success&session_id={CHECKOUT_SESSION_ID}',
+    cancel_url: back + '?checkout=cancel',
   };
   // ONE OR THE OTHER, NEVER BOTH: Stripe refuses a session that carries
   // discounts and allow_promotion_codes together.
@@ -960,7 +1314,7 @@ async function handle(req) {
   let session, applied = !!affiliate;
   // Identical requests inside ten seconds are one session (a double click
   // that beat the reuse check above).
-  const idem = ['edgedesk-cs', user.id, c.priceId, c.trialDays, affiliate ? affiliate.promotion_code_id : '-',
+  const idem = ['edgedesk-cs', user.id, priceId, trialDays, affiliate ? affiliate.promotion_code_id : '-',
                 Math.floor(Date.now() / 10000)].join('-');
   try {
     session = await stripe.post('/checkout/sessions', params, idem);
@@ -986,8 +1340,8 @@ async function handle(req) {
 
   try {
     await db.upsert('billing_checkout_sessions', [{
-      id: session.id, user_id: user.id, stripe_customer_id: customer.id, kind, price_id: c.priceId,
-      trial_days: c.trialDays, status: 'open', url: session.url, livemode: session.livemode !== false, ref,
+      id: session.id, user_id: user.id, stripe_customer_id: customer.id, kind, price_id: priceId,
+      trial_days: trialDays, status: 'open', url: session.url, livemode: session.livemode !== false, ref,
       expires_at: session.expires_at ? new Date(session.expires_at * 1000).toISOString() : null,
     }], 'id');
   } catch (e) {
@@ -997,7 +1351,7 @@ async function handle(req) {
   }
 
   logLine('create_checkout_session', 'info', 'checkout.created', Object.assign({
-    session_id: session.id, price_id: c.priceId, trial_days: c.trialDays, customer_created: customer.created,
+    session_id: session.id, price_id: priceId, trial_days: trialDays, customer_created: customer.created,
     livemode: session.livemode !== false, affiliate: applied ? affiliate.slug : null }, trace));
   return json({ ok: true, url: session.url, session_id: session.id, reused: false, ref,
     affiliate: applied ? affiliate.slug : null });

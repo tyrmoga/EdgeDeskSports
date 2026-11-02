@@ -1,0 +1,1987 @@
+{
+  "schema": "edgedesk_article_v1",
+  "id": "cfb-401856856",
+  "game_id": "401856856",
+  "sport": "CFB",
+  "sport_slug": "college-football",
+  "sport_label": "College Football",
+  "slug": "west-virginia-vs-texas-tech-2026",
+  "aliases": [],
+  "title": "West Virginia vs. Texas Tech: EdgeDesk Model Projection, Matchup Analysis and Fair Spread",
+  "seo_title": "West Virginia vs. Texas Tech 2026: EdgeDesk Fair Spread & Model Projection",
+  "seo_description": "EdgeDesk fair spread for West Virginia at Texas Tech: Texas Tech −15.5, fair total 59.0. Texas Tech wins 85% of simulations. Data confidence 73%. Model status NO MARKET. Research, not picks.",
+  "excerpt": "Texas Tech carries the stronger underlying team rating — +9.5 against +0.4, a 9.1-point separation on a neutral field before home advantage, travel or rest. EdgeDesk makes it Texas Tech −15.5 before any sportsbook number is consulted, with Texas Tech…",
+  "home_team": "Texas Tech",
+  "away_team": "West Virginia",
+  "venue": "Jones AT&T Stadium",
+  "neutral_site": false,
+  "conference_line": "Big 12 conference game",
+  "week": 10,
+  "season": 2026,
+  "game_time": "2026-11-08T02:30:00.000Z",
+  "game_when_label": "2026-11-08 02:30 UTC",
+  "published_at": null,
+  "updated_at": "2026-11-02T00:36:55.151Z",
+  "generated_at": "2026-11-02T00:36:55.151Z",
+  "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
+  "model_status": "NO MARKET",
+  "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
+  "confidence": 73,
+  "priced": true,
+  "fair_spread_text": "Texas Tech −15.5",
+  "fair_total": "59.0",
+  "hero_image": null,
+  "canonical_url": "https://edgedesksports.com/articles/west-virginia-vs-texas-tech-2026",
+  "terminal_url": "https://edgedesksports.com/app.html#research/football",
+  "hub_url": "https://edgedesksports.com/articles/college-football",
+  "status": "ready",
+  "article_type": "pregame",
+  "related": null,
+  "frozen": false,
+  "frozen_at": null,
+  "author": "EdgeDesk Research",
+  "publisher": "EdgeDesk Sports",
+  "research_source": "Ratings: football/rankings/current.json — 2026 Week 9, built 2026-10-31. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser.",
+  "market_source": null,
+  "research": {
+    "kind": "CFB_GAME",
+    "game": {
+      "away": "West Virginia",
+      "home": "Texas Tech",
+      "title": "West Virginia at Texas Tech",
+      "when": "2026-11-08 02:30 UTC",
+      "kickoff": "2026-11-08T02:30:00.000Z",
+      "venue": "Jones AT&T Stadium",
+      "neutral": false,
+      "week": "Week 10",
+      "season": "2026",
+      "game_id": "401856856",
+      "week_no": 10,
+      "season_no": 2026,
+      "conference_line": "Big 12 conference game",
+      "away_conference": "Big 12",
+      "home_conference": "Big 12"
+    },
+    "lede": [
+      "Texas Tech carries the stronger underlying team rating — +9.5 against +0.4, a 9.1-point separation on a neutral field before home advantage, travel or rest.",
+      "EdgeDesk makes it Texas Tech −15.5 before any sportsbook number is consulted, with Texas Tech winning 85% of simulations.",
+      "The position-group comparison shows where the separation comes from: the widest measured gap is secondary, where Texas Tech leads West Virginia by 121 places nationally.",
+      "Data confidence on this matchup is 73% — high by this board’s standards, so the margin is the strongest part of the read."
+    ],
+    "projection": {
+      "priced": true,
+      "fair_spread": 15.360298248325261,
+      "fair_spread_text": "Texas Tech −15.5",
+      "fair_spread_raw_text": "Texas Tech -15.4",
+      "near_pickem": false,
+      "raw_margin_text": null,
+      "favourite": "Texas Tech",
+      "underdog": "West Virginia",
+      "margin": "15.5",
+      "margin_raw": "15.4",
+      "total": "59.0",
+      "total_raw": "59.2",
+      "display_policy": "football_half_point_v1",
+      "score": {
+        "away": {
+          "team": "West Virginia",
+          "points": "22"
+        },
+        "home": {
+          "team": "Texas Tech",
+          "points": "37"
+        },
+        "expected": {
+          "text": "Texas Tech 37.29, West Virginia 21.93",
+          "home": 37.29,
+          "away": 21.93,
+          "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
+        },
+        "note": "Split from EdgeDesk’s own projected margin and total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
+      },
+      "score_absent_reason": null,
+      "win_prob": {
+        "home": "Texas Tech",
+        "away": "West Virginia",
+        "home_pct": 85,
+        "away_pct": 15,
+        "home_text": "85%",
+        "away_text": "15%",
+        "bounded": false,
+        "bounded_note": null,
+        "favourite": "Texas Tech",
+        "favourite_pct": 85,
+        "favourite_text": "85%"
+      },
+      "outcome_range": {
+        "basis_team": "Texas Tech",
+        "p10": "-5.6",
+        "median": "+15.4",
+        "p90": "+36.4",
+        "sigma": "14.6",
+        "volatility": "0.00",
+        "volatility_discriminates": false,
+        "note": "Quoted from Texas Tech’s perspective, as the engine publishes it. Eight results in ten land inside p10–p90."
+      },
+      "confidence_pct": 73,
+      "inputs_reached_pct": 69,
+      "input_contract": {
+        "fields": 26,
+        "applicable": 26,
+        "known": 18,
+        "priced": 11,
+        "priced_coverage_pct": 42,
+        "by_state": {
+          "USABLE": 11,
+          "RESEARCH_ONLY": 7,
+          "STALE": 0,
+          "CONFLICTING": 1,
+          "NOT_APPLICABLE": 0,
+          "NOT_REQUIRED": 0,
+          "NOT_DUE_YET": 4,
+          "FETCH_FAILED": 0,
+          "UNAVAILABLE": 3
+        },
+        "absent": [
+          {
+            "field": "weather",
+            "side": null,
+            "state": "UNAVAILABLE",
+            "why": "no forecast provider was called in this build; the venue’s coordinates are known, so this is a build that did not ask rather than a source that did not answer"
+          },
+          {
+            "field": "off_field",
+            "side": "home",
+            "state": "UNAVAILABLE",
+            "why": "no source is registered for this programme, so nothing has been read and an empty result would be a false clean bill of health rather than a finding. The engine scores this input and it is missing on every game, so it is published here rather than left invisible. A signal must be all four of public, sourced, dated and severity-graded before it may move even the confidence score — a general news search supplies neither a severity nor a reliability a model may use, and a wire that supplies all four may not be redistributed as a committed artifact. The availability layer answers a different question (who can play) and is never substituted for this one"
+          },
+          {
+            "field": "off_field",
+            "side": "away",
+            "state": "UNAVAILABLE",
+            "why": "no source is registered for this programme, so nothing has been read and an empty result would be a false clean bill of health rather than a finding. The engine scores this input and it is missing on every game, so it is published here rather than left invisible. A signal must be all four of public, sourced, dated and severity-graded before it may move even the confidence score — a general news search supplies neither a severity nor a reliability a model may use, and a wire that supplies all four may not be redistributed as a committed artifact. The availability layer answers a different question (who can play) and is never substituted for this one"
+          }
+        ],
+        "basis": "Every applicable field EdgeDesk retrieved, over every applicable field. A question that does not arise here (weather in a dome, travel at a neutral site) leaves the denominator; a source that refused does not."
+      },
+      "status": "NO MARKET",
+      "status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
+      "engine": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
+      "validation": "UNPROVEN — research only. Nothing on this page is graded as a bet."
+    },
+    "starters": {
+      "away": {
+        "team": "West Virginia",
+        "status": "PREVIOUS_GAME",
+        "confirmed": false,
+        "player": "Michael Hawkins Jr.",
+        "player_id": "5079465",
+        "label": "Michael Hawkins Jr. — started the last game; no announcement for this one.",
+        "priced": false,
+        "priced_why": "the starter layer is research-only until it has an out-of-sample record of its own; football/matchup/inputs.js PRICED_STARTER_STATUSES is the single switch",
+        "availability": {
+          "state": "UNKNOWN",
+          "evidence": "NONE",
+          "why": "the availability sources EdgeDesk reads were checked and carried no report on this player — no report found is not the same as healthy",
+          "source_url": null
+        },
+        "experience": {
+          "starts": 9,
+          "dropbacks": 202,
+          "seasons_observed": 2,
+          "seasons_read": [
+            2025,
+            2026
+          ],
+          "basis": "games this player opened, counted from the play feed across the seasons this build read — a measured start count over a stated window, not a career total",
+          "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv"
+        },
+        "competition": {
+          "contested": false,
+          "games": 2,
+          "players": [
+            {
+              "player_id": "5079465",
+              "player_name": "Michael Hawkins Jr.",
+              "dropbacks": 47,
+              "share": 1
+            }
+          ]
+        },
+        "conflicts": 0,
+        "history": [
+          {
+            "week": 7,
+            "game_id": "401856829",
+            "opponent": "Cincinnati",
+            "dropbacks": 33,
+            "starter": {
+              "player_id": "5079465",
+              "player_name": "Michael Hawkins Jr.",
+              "share": 1
+            },
+            "settled": true,
+            "why": "took the first dropback of the game"
+          },
+          {
+            "week": 8,
+            "game_id": "401856841",
+            "opponent": "TCU",
+            "dropbacks": 14,
+            "starter": {
+              "player_id": "5079465",
+              "player_name": "Michael Hawkins Jr.",
+              "share": 1
+            },
+            "settled": true,
+            "why": "took the first dropback of the game"
+          }
+        ],
+        "source": "cfbfastR-data player_stats — play attribution",
+        "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
+        "published_at": "2026-10-24T16:00:00.000Z",
+        "retrieved_at": "2026-11-01T22:55:06.784Z"
+      },
+      "home": {
+        "team": "Texas Tech",
+        "status": "COMPETITION",
+        "confirmed": false,
+        "player": "Thomas Castellanos",
+        "player_id": "4773919",
+        "label": "unresolved: Will Hammond 59% of recent dropbacks and Thomas Castellanos 39% of recent dropbacks — sources disagree.",
+        "priced": false,
+        "priced_why": "the starter layer is research-only until it has an out-of-sample record of its own; football/matchup/inputs.js PRICED_STARTER_STATUSES is the single switch",
+        "availability": {
+          "state": "UNKNOWN",
+          "evidence": "NONE",
+          "why": "the availability sources EdgeDesk reads were checked and carried no report on this player — no report found is not the same as healthy",
+          "source_url": null
+        },
+        "experience": {
+          "starts": 12,
+          "dropbacks": 347,
+          "seasons_observed": 2,
+          "seasons_read": [
+            2025,
+            2026
+          ],
+          "basis": "games this player opened, counted from the play feed across the seasons this build read — a measured start count over a stated window, not a career total",
+          "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv"
+        },
+        "competition": {
+          "contested": true,
+          "games": 2,
+          "players": [
+            {
+              "player_id": "5126468",
+              "player_name": "Will Hammond",
+              "dropbacks": 36,
+              "share": 0.59
+            },
+            {
+              "player_id": "4773919",
+              "player_name": "Thomas Castellanos",
+              "dropbacks": 24,
+              "share": 0.393
+            },
+            {
+              "player_id": "4916941",
+              "player_name": "Coy Eakin",
+              "dropbacks": 1,
+              "share": 0.016
+            }
+          ]
+        },
+        "conflicts": 1,
+        "history": [
+          {
+            "week": 8,
+            "game_id": "401856840",
+            "opponent": "Cincinnati",
+            "dropbacks": 36,
+            "starter": {
+              "player_id": "5126468",
+              "player_name": "Will Hammond",
+              "share": 1
+            },
+            "settled": true,
+            "why": "took the first dropback of the game"
+          },
+          {
+            "week": 9,
+            "game_id": "401856842",
+            "opponent": "Arizona",
+            "dropbacks": 25,
+            "starter": {
+              "player_id": "4773919",
+              "player_name": "Thomas Castellanos",
+              "share": 0.96
+            },
+            "settled": true,
+            "why": "took the first dropback of the game"
+          }
+        ],
+        "source": "cfbfastR-data player_stats — play attribution",
+        "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
+        "published_at": "2026-10-31T16:00:00.000Z",
+        "retrieved_at": "2026-11-01T22:55:06.784Z"
+      },
+      "generated_at": "2026-11-01T22:55:05.546Z",
+      "source": "football/starters/cfb_2026.json",
+      "note": "An expected starter is not a confirmed one. EdgeDesk publishes which kind of answer each of these is, and no number on this page is priced from any of them. Availability is a separate axis: an absent report is UNKNOWN and is never read as healthy."
+    },
+    "drivers": {
+      "rows": [
+        {
+          "points": "+11.3",
+          "points_n": 11.33957636852537,
+          "text": "Texas Tech is the better football team by 11.3 points on opponent-adjusted results, with roughly 30% of it still inherited from last season",
+          "favours": "Texas Tech"
+        },
+        {
+          "points": "+2.8",
+          "points_n": 2.8,
+          "text": "Playing at Texas Tech is worth 2.8 points — the league-wide home-field number, because a per-venue table was tested and could not be told apart from the home team’s own quality",
+          "favours": "Texas Tech"
+        },
+        {
+          "points": "+1.2",
+          "points_n": 1.220721879799892,
+          "text": "Stylistically the matchup favours Texas Tech by 1.2 points: ball control vs front disruption",
+          "favours": "Texas Tech"
+        }
+      ],
+      "basis": "Points are the engine’s own contributions to the projected spread, from Texas Tech’s perspective, and they sum toward it.",
+      "excluded": "Player quality, position-group ratings and scheme fit are NOT in this number. Neither has cleared walk-forward validation, so neither is allowed to move a priced figure — they appear below as research context and nowhere else.",
+      "empty": null
+    },
+    "compare": {
+      "cols": [
+        "West Virginia",
+        "Texas Tech"
+      ],
+      "groups": [
+        {
+          "title": "Team rating",
+          "rows": [
+            {
+              "cat": "overall",
+              "k": "ETSR (overall)",
+              "note": "points vs an average FBS team, neutral field",
+              "a": {
+                "v": "+0.4",
+                "n": 0.42,
+                "rank": "#65 of 138",
+                "rank_n": 65,
+                "note": null
+              },
+              "h": {
+                "v": "+9.5",
+                "n": 9.48,
+                "rank": "#13 of 138",
+                "rank_n": 13,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 9.1,
+                "rank_gap": 52
+              }
+            },
+            {
+              "cat": "talent",
+              "k": "Talent",
+              "note": null,
+              "a": {
+                "v": "43.9",
+                "n": 43.9,
+                "rank": "#104 of 138",
+                "rank_n": 104,
+                "note": null
+              },
+              "h": {
+                "v": "68.3",
+                "n": 68.3,
+                "rank": "#5 of 138",
+                "rank_n": 5,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 24.4,
+                "rank_gap": 99
+              }
+            },
+            {
+              "cat": "performance",
+              "k": "Performance",
+              "note": null,
+              "a": {
+                "v": "51.6",
+                "n": 51.6,
+                "rank": "#62 of 138",
+                "rank_n": 62,
+                "note": null
+              },
+              "h": {
+                "v": "65.9",
+                "n": 65.9,
+                "rank": "#12 of 138",
+                "rank_n": 12,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 14.3,
+                "rank_gap": 50
+              }
+            },
+            {
+              "cat": "scheme_fit",
+              "k": "Scheme fit",
+              "note": "personnel against this team’s own tendencies",
+              "a": {
+                "v": "53.4",
+                "n": 53.4,
+                "rank": "#15 of 138",
+                "rank_n": 15,
+                "note": null
+              },
+              "h": {
+                "v": "53.1",
+                "n": 53.1,
+                "rank": "#18 of 138",
+                "rank_n": 18,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 0.3,
+                "rank_gap": 3
+              }
+            }
+          ]
+        },
+        {
+          "title": "Units",
+          "rows": [
+            {
+              "cat": "offense",
+              "k": "Offense",
+              "note": null,
+              "a": {
+                "v": "62.9",
+                "n": 62.9,
+                "rank": "#9 of 138",
+                "rank_n": 9,
+                "note": null
+              },
+              "h": {
+                "v": "59.1",
+                "n": 59.1,
+                "rank": "#20 of 138",
+                "rank_n": 20,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 3.8,
+                "rank_gap": 11
+              }
+            },
+            {
+              "cat": "defense",
+              "k": "Defense",
+              "note": null,
+              "a": {
+                "v": "39.0",
+                "n": 39,
+                "rank": "#122 of 138",
+                "rank_n": 122,
+                "note": null
+              },
+              "h": {
+                "v": "59.8",
+                "n": 59.8,
+                "rank": "#17 of 138",
+                "rank_n": 17,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 20.8,
+                "rank_gap": 105
+              }
+            },
+            {
+              "cat": "special_teams",
+              "k": "Special teams",
+              "note": null,
+              "a": {
+                "v": "52.1",
+                "n": 52.1,
+                "rank": "#27 of 130",
+                "rank_n": 27,
+                "note": null
+              },
+              "h": {
+                "v": "55.0",
+                "n": 55,
+                "rank": "#2 of 130",
+                "rank_n": 2,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 2.9,
+                "rank_gap": 25
+              }
+            },
+            {
+              "cat": "run_offense",
+              "k": "Run offense",
+              "note": null,
+              "a": {
+                "v": "56.4",
+                "n": 56.4,
+                "rank": "#44 of 138",
+                "rank_n": 44,
+                "note": null
+              },
+              "h": {
+                "v": "67.7",
+                "n": 67.7,
+                "rank": "#5 of 138",
+                "rank_n": 5,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 11.3,
+                "rank_gap": 39
+              }
+            },
+            {
+              "cat": "pass_offense",
+              "k": "Pass offense",
+              "note": null,
+              "a": {
+                "v": "71.2",
+                "n": 71.2,
+                "rank": "#3 of 138",
+                "rank_n": 3,
+                "note": null
+              },
+              "h": {
+                "v": "51.7",
+                "n": 51.7,
+                "rank": "#58 of 138",
+                "rank_n": 58,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 19.5,
+                "rank_gap": 55
+              }
+            },
+            {
+              "cat": "run_defense",
+              "k": "Run defense",
+              "note": null,
+              "a": {
+                "v": "41.0",
+                "n": 41,
+                "rank": "#98 of 138",
+                "rank_n": 98,
+                "note": null
+              },
+              "h": {
+                "v": "69.9",
+                "n": 69.9,
+                "rank": "#13 of 138",
+                "rank_n": 13,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 28.9,
+                "rank_gap": 85
+              }
+            },
+            {
+              "cat": "pass_defense",
+              "k": "Pass defense",
+              "note": null,
+              "a": {
+                "v": "34.6",
+                "n": 34.6,
+                "rank": "#131 of 138",
+                "rank_n": 131,
+                "note": null
+              },
+              "h": {
+                "v": "57.6",
+                "n": 57.6,
+                "rank": "#33 of 138",
+                "rank_n": 33,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 23,
+                "rank_gap": 98
+              }
+            }
+          ]
+        },
+        {
+          "title": "Position groups",
+          "rows": [
+            {
+              "cat": "qb",
+              "k": "QB room",
+              "note": null,
+              "a": {
+                "v": "59.0",
+                "n": 59,
+                "rank": "#58 of 138",
+                "rank_n": 58,
+                "note": null
+              },
+              "h": {
+                "v": "60.7",
+                "n": 60.7,
+                "rank": "#30 of 138",
+                "rank_n": 30,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 1.7,
+                "rank_gap": 28
+              }
+            },
+            {
+              "cat": "ol",
+              "k": "Offensive line",
+              "note": null,
+              "a": {
+                "v": "57.7",
+                "n": 57.7,
+                "rank": "#9 of 138",
+                "rank_n": 9,
+                "note": null
+              },
+              "h": {
+                "v": "55.3",
+                "n": 55.3,
+                "rank": "#33 of 138",
+                "rank_n": 33,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 2.4,
+                "rank_gap": 24
+              }
+            },
+            {
+              "cat": "wr",
+              "k": "Receivers",
+              "note": null,
+              "a": {
+                "v": "55.6",
+                "n": 55.6,
+                "rank": "#59 of 138",
+                "rank_n": 59,
+                "note": null
+              },
+              "h": {
+                "v": "56.3",
+                "n": 56.3,
+                "rank": "#32 of 138",
+                "rank_n": 32,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 0.7,
+                "rank_gap": 27
+              }
+            },
+            {
+              "cat": "te",
+              "k": "Tight ends",
+              "note": "rated by the player layer; the board publishes no national TE rank",
+              "a": {
+                "v": "54.4",
+                "n": 54.4,
+                "rank": null,
+                "rank_n": null,
+                "note": "rated, held out of the national rank by the confidence gate"
+              },
+              "h": {
+                "v": "55.5",
+                "n": 55.5,
+                "rank": null,
+                "rank_n": null,
+                "note": "rated, held out of the national rank by the confidence gate"
+              },
+              "edge": {
+                "side": "h",
+                "gap": 1.1,
+                "rank_gap": null
+              }
+            },
+            {
+              "cat": "rb",
+              "k": "Running backs",
+              "note": null,
+              "a": {
+                "v": "56.3",
+                "n": 56.3,
+                "rank": "#70 of 138",
+                "rank_n": 70,
+                "note": null
+              },
+              "h": {
+                "v": "59.4",
+                "n": 59.4,
+                "rank": "#8 of 138",
+                "rank_n": 8,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 3.1,
+                "rank_gap": 62
+              }
+            },
+            {
+              "cat": "dl",
+              "k": "Defensive line",
+              "note": null,
+              "a": {
+                "v": "51.0",
+                "n": 51,
+                "rank": "#93 of 138",
+                "rank_n": 93,
+                "note": null
+              },
+              "h": {
+                "v": "62.1",
+                "n": 62.1,
+                "rank": "#9 of 138",
+                "rank_n": 9,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 11.1,
+                "rank_gap": 84
+              }
+            },
+            {
+              "cat": "edge",
+              "k": "Edge",
+              "note": null,
+              "a": {
+                "v": "49.7",
+                "n": 49.7,
+                "rank": "#11 of 16",
+                "rank_n": 11,
+                "note": null
+              },
+              "h": {
+                "v": null,
+                "n": null,
+                "rank": null,
+                "rank_n": null,
+                "note": null
+              },
+              "edge": null
+            },
+            {
+              "cat": "lb",
+              "k": "Linebackers",
+              "note": null,
+              "a": {
+                "v": "52.2",
+                "n": 52.2,
+                "rank": "#84 of 138",
+                "rank_n": 84,
+                "note": null
+              },
+              "h": {
+                "v": "59.9",
+                "n": 59.9,
+                "rank": "#7 of 138",
+                "rank_n": 7,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 7.7,
+                "rank_gap": 77
+              }
+            },
+            {
+              "cat": "secondary",
+              "k": "Secondary",
+              "note": null,
+              "a": {
+                "v": "38.4",
+                "n": 38.4,
+                "rank": "#137 of 138",
+                "rank_n": 137,
+                "note": null
+              },
+              "h": {
+                "v": "59.1",
+                "n": 59.1,
+                "rank": "#16 of 138",
+                "rank_n": 16,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 20.7,
+                "rank_gap": 121
+              }
+            },
+            {
+              "cat": "k_room",
+              "k": "Kicking",
+              "note": null,
+              "a": {
+                "v": "55.7",
+                "n": 55.7,
+                "rank": "#79 of 138",
+                "rank_n": 79,
+                "note": null
+              },
+              "h": {
+                "v": "57.9",
+                "n": 57.9,
+                "rank": "#20 of 138",
+                "rank_n": 20,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 2.2,
+                "rank_gap": 59
+              }
+            }
+          ]
+        },
+        {
+          "title": "Roster shape",
+          "rows": [
+            {
+              "cat": "depth",
+              "k": "Depth",
+              "note": "quality behind the projected starters",
+              "a": {
+                "v": "52.6",
+                "n": 52.6,
+                "rank": "#114 of 138",
+                "rank_n": 114,
+                "note": null
+              },
+              "h": {
+                "v": "54.6",
+                "n": 54.6,
+                "rank": "#5 of 138",
+                "rank_n": 5,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 2,
+                "rank_gap": 109
+              }
+            },
+            {
+              "cat": "continuity",
+              "k": "Continuity",
+              "note": "how much of last season is still here",
+              "a": {
+                "v": "32.9",
+                "n": 32.9,
+                "rank": "#123 of 138",
+                "rank_n": 123,
+                "note": null
+              },
+              "h": {
+                "v": "51.7",
+                "n": 51.7,
+                "rank": "#33 of 138",
+                "rank_n": 33,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 18.8,
+                "rank_gap": 90
+              }
+            }
+          ]
+        }
+      ],
+      "one_sided_team": null,
+      "one_sided_note": null
+    },
+    "advantages": {
+      "away": [
+        {
+          "k": "Pass offense",
+          "rank_gap": 55,
+          "gap": 19.5,
+          "lead": "West Virginia",
+          "trail": "Texas Tech",
+          "lead_cell": "71.2 · #3 of 138",
+          "trail_cell": "51.7 · #58 of 138",
+          "text": "West Virginia 71.2 (#3 of 138) vs Texas Tech 51.7 (#58 of 138) — 55 places on the national board."
+        },
+        {
+          "k": "Offensive line",
+          "rank_gap": 24,
+          "gap": 2.4,
+          "lead": "West Virginia",
+          "trail": "Texas Tech",
+          "lead_cell": "57.7 · #9 of 138",
+          "trail_cell": "55.3 · #33 of 138",
+          "text": "West Virginia 57.7 (#9 of 138) vs Texas Tech 55.3 (#33 of 138) — 24 places on the national board."
+        },
+        {
+          "k": "Offense",
+          "rank_gap": 11,
+          "gap": 3.8,
+          "lead": "West Virginia",
+          "trail": "Texas Tech",
+          "lead_cell": "62.9 · #9 of 138",
+          "trail_cell": "59.1 · #20 of 138",
+          "text": "West Virginia 62.9 (#9 of 138) vs Texas Tech 59.1 (#20 of 138) — 11 places on the national board."
+        },
+        {
+          "k": "Scheme fit",
+          "rank_gap": 3,
+          "gap": 0.3,
+          "lead": "West Virginia",
+          "trail": "Texas Tech",
+          "lead_cell": "53.4 · #15 of 138",
+          "trail_cell": "53.1 · #18 of 138",
+          "text": "West Virginia 53.4 (#15 of 138) vs Texas Tech 53.1 (#18 of 138) — 3 places on the national board."
+        }
+      ],
+      "home": [
+        {
+          "k": "Secondary",
+          "rank_gap": 121,
+          "gap": 20.7,
+          "lead": "Texas Tech",
+          "trail": "West Virginia",
+          "lead_cell": "59.1 · #16 of 138",
+          "trail_cell": "38.4 · #137 of 138",
+          "text": "Texas Tech 59.1 (#16 of 138) vs West Virginia 38.4 (#137 of 138) — 121 places on the national board."
+        },
+        {
+          "k": "Depth",
+          "rank_gap": 109,
+          "gap": 2,
+          "lead": "Texas Tech",
+          "trail": "West Virginia",
+          "lead_cell": "54.6 · #5 of 138",
+          "trail_cell": "52.6 · #114 of 138",
+          "text": "Texas Tech 54.6 (#5 of 138) vs West Virginia 52.6 (#114 of 138) — 109 places on the national board."
+        },
+        {
+          "k": "Defense",
+          "rank_gap": 105,
+          "gap": 20.8,
+          "lead": "Texas Tech",
+          "trail": "West Virginia",
+          "lead_cell": "59.8 · #17 of 138",
+          "trail_cell": "39.0 · #122 of 138",
+          "text": "Texas Tech 59.8 (#17 of 138) vs West Virginia 39.0 (#122 of 138) — 105 places on the national board."
+        },
+        {
+          "k": "Talent",
+          "rank_gap": 99,
+          "gap": 24.4,
+          "lead": "Texas Tech",
+          "trail": "West Virginia",
+          "lead_cell": "68.3 · #5 of 138",
+          "trail_cell": "43.9 · #104 of 138",
+          "text": "Texas Tech 68.3 (#5 of 138) vs West Virginia 43.9 (#104 of 138) — 99 places on the national board."
+        },
+        {
+          "k": "Pass defense",
+          "rank_gap": 98,
+          "gap": 23,
+          "lead": "Texas Tech",
+          "trail": "West Virginia",
+          "lead_cell": "57.6 · #33 of 138",
+          "trail_cell": "34.6 · #131 of 138",
+          "text": "Texas Tech 57.6 (#33 of 138) vs West Virginia 34.6 (#131 of 138) — 98 places on the national board."
+        }
+      ],
+      "measured": [],
+      "measured_note": null,
+      "unproven": [],
+      "note": "An advantage is only claimed where BOTH teams carry a national rank in that category — the national rank is the one scale on which a QB room and a run defence are comparable. A category where one side is unrated appears here as a measurement and as uncertainty, never as an edge."
+    },
+    "matchups": [
+      {
+        "title": "West Virginia pass offense vs Texas Tech pass defense",
+        "att": {
+          "team": "West Virginia",
+          "label": "pass offense",
+          "v": "71.2",
+          "rank": "#3 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Texas Tech",
+          "label": "pass defense",
+          "v": "57.6",
+          "rank": "#33 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "West Virginia’s pass offense rates 71.2 (#3 of 138) against Texas Tech’s pass defense at 57.6 (#33 of 138). West Virginia’s unit stands higher among its own position group, by 30 places."
+      },
+      {
+        "title": "West Virginia run offense vs Texas Tech run defense",
+        "att": {
+          "team": "West Virginia",
+          "label": "run offense",
+          "v": "56.4",
+          "rank": "#44 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Texas Tech",
+          "label": "run defense",
+          "v": "69.9",
+          "rank": "#13 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "West Virginia’s run offense rates 56.4 (#44 of 138) against Texas Tech’s run defense at 69.9 (#13 of 138). Texas Tech’s unit stands higher among its own position group, by 31 places."
+      },
+      {
+        "title": "Texas Tech pass offense vs West Virginia pass defense",
+        "att": {
+          "team": "Texas Tech",
+          "label": "pass offense",
+          "v": "51.7",
+          "rank": "#58 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "West Virginia",
+          "label": "pass defense",
+          "v": "34.6",
+          "rank": "#131 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Texas Tech’s pass offense rates 51.7 (#58 of 138) against West Virginia’s pass defense at 34.6 (#131 of 138). Texas Tech’s unit stands higher among its own position group, by 73 places."
+      },
+      {
+        "title": "Texas Tech run offense vs West Virginia run defense",
+        "att": {
+          "team": "Texas Tech",
+          "label": "run offense",
+          "v": "67.7",
+          "rank": "#5 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "West Virginia",
+          "label": "run defense",
+          "v": "41.0",
+          "rank": "#98 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Texas Tech’s run offense rates 67.7 (#5 of 138) against West Virginia’s run defense at 41.0 (#98 of 138). Texas Tech’s unit stands higher among its own position group, by 93 places."
+      },
+      {
+        "title": "West Virginia QB room vs Texas Tech secondary",
+        "att": {
+          "team": "West Virginia",
+          "label": "QB room",
+          "v": "59.0",
+          "rank": "#58 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Texas Tech",
+          "label": "secondary",
+          "v": "59.1",
+          "rank": "#16 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "West Virginia’s QB room rates 59.0 (#58 of 138) against Texas Tech’s secondary at 59.1 (#16 of 138). Texas Tech’s unit stands higher among its own position group, by 42 places."
+      },
+      {
+        "title": "Texas Tech QB room vs West Virginia secondary",
+        "att": {
+          "team": "Texas Tech",
+          "label": "QB room",
+          "v": "60.7",
+          "rank": "#30 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "West Virginia",
+          "label": "secondary",
+          "v": "38.4",
+          "rank": "#137 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Texas Tech’s QB room rates 60.7 (#30 of 138) against West Virginia’s secondary at 38.4 (#137 of 138). Texas Tech’s unit stands higher among its own position group, by 107 places."
+      },
+      {
+        "title": "West Virginia offensive line vs Texas Tech defensive line",
+        "att": {
+          "team": "West Virginia",
+          "label": "offensive line",
+          "v": "57.7",
+          "rank": "#9 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Texas Tech",
+          "label": "defensive line",
+          "v": "62.1",
+          "rank": "#9 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "West Virginia’s offensive line rates 57.7 (#9 of 138) against Texas Tech’s defensive line at 62.1 (#9 of 138). The two stand level."
+      },
+      {
+        "title": "Texas Tech offensive line vs West Virginia defensive line",
+        "att": {
+          "team": "Texas Tech",
+          "label": "offensive line",
+          "v": "55.3",
+          "rank": "#33 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "West Virginia",
+          "label": "defensive line",
+          "v": "51.0",
+          "rank": "#93 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Texas Tech’s offensive line rates 55.3 (#33 of 138) against West Virginia’s defensive line at 51.0 (#93 of 138). Texas Tech’s unit stands higher among its own position group, by 60 places."
+      },
+      {
+        "title": "West Virginia running backs vs Texas Tech linebackers",
+        "att": {
+          "team": "West Virginia",
+          "label": "running backs",
+          "v": "56.3",
+          "rank": "#70 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Texas Tech",
+          "label": "linebackers",
+          "v": "59.9",
+          "rank": "#7 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "West Virginia’s running backs rates 56.3 (#70 of 138) against Texas Tech’s linebackers at 59.9 (#7 of 138). Texas Tech’s unit stands higher among its own position group, by 63 places."
+      },
+      {
+        "title": "Texas Tech running backs vs West Virginia linebackers",
+        "att": {
+          "team": "Texas Tech",
+          "label": "running backs",
+          "v": "59.4",
+          "rank": "#8 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "West Virginia",
+          "label": "linebackers",
+          "v": "52.2",
+          "rank": "#84 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Texas Tech’s running backs rates 59.4 (#8 of 138) against West Virginia’s linebackers at 52.2 (#84 of 138). Texas Tech’s unit stands higher among its own position group, by 76 places."
+      },
+      {
+        "title": "West Virginia receivers vs Texas Tech secondary",
+        "att": {
+          "team": "West Virginia",
+          "label": "receivers",
+          "v": "55.6",
+          "rank": "#59 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Texas Tech",
+          "label": "secondary",
+          "v": "59.1",
+          "rank": "#16 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "West Virginia’s receivers rates 55.6 (#59 of 138) against Texas Tech’s secondary at 59.1 (#16 of 138). Texas Tech’s unit stands higher among its own position group, by 43 places."
+      },
+      {
+        "title": "Texas Tech receivers vs West Virginia secondary",
+        "att": {
+          "team": "Texas Tech",
+          "label": "receivers",
+          "v": "56.3",
+          "rank": "#32 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "West Virginia",
+          "label": "secondary",
+          "v": "38.4",
+          "rank": "#137 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Texas Tech’s receivers rates 56.3 (#32 of 138) against West Virginia’s secondary at 38.4 (#137 of 138). Texas Tech’s unit stands higher among its own position group, by 105 places."
+      }
+    ],
+    "roster": {
+      "cols": [
+        "West Virginia",
+        "Texas Tech"
+      ],
+      "rows": [
+        {
+          "k": "Returning production value",
+          "note": "share of last season’s production value still on the roster",
+          "a": "17%",
+          "h": "49%",
+          "edge": {
+            "side": "h",
+            "gap": 0.31499999999999995
+          }
+        },
+        {
+          "k": "Returning headcount",
+          "note": "share of the roster that was here last season",
+          "a": "20%",
+          "h": "45%",
+          "edge": {
+            "side": "h",
+            "gap": 0.249
+          }
+        },
+        {
+          "k": "QB-room continuity",
+          "note": "is the projected starter last season’s player",
+          "a": "43%",
+          "h": "50%",
+          "edge": {
+            "side": "h",
+            "gap": 0.07100000000000001
+          }
+        },
+        {
+          "k": "Offensive-line continuity",
+          "note": null,
+          "a": "37%",
+          "h": "76%",
+          "edge": {
+            "side": "h",
+            "gap": 0.394
+          }
+        },
+        {
+          "k": "Returning starters",
+          "note": null,
+          "a": "17%",
+          "h": "49%",
+          "edge": {
+            "side": "h",
+            "gap": 0.31899999999999995
+          }
+        },
+        {
+          "k": "Transfers in / out",
+          "note": "portal movement counted from the roster feed",
+          "a": "37 in / 37 out",
+          "h": "20 in / 15 out",
+          "edge": null
+        },
+        {
+          "k": "Transfer starters in / out",
+          "note": null,
+          "a": "12 in / 4 out",
+          "h": "3 in / 0 out",
+          "edge": null
+        },
+        {
+          "k": "Starter quality",
+          "note": "projected starters, weighted by position value",
+          "a": "56.1",
+          "h": "60.7",
+          "edge": {
+            "side": "h",
+            "gap": 4.600000000000001
+          }
+        },
+        {
+          "k": "Rotation quality",
+          "note": null,
+          "a": "53.6",
+          "h": "58.8",
+          "edge": {
+            "side": "h",
+            "gap": 5.199999999999996
+          }
+        },
+        {
+          "k": "Depth quality",
+          "note": "behind the projected starters",
+          "a": "52.6",
+          "h": "54.6",
+          "edge": {
+            "side": "h",
+            "gap": 2
+          }
+        },
+        {
+          "k": "Availability records",
+          "note": "an absence report reaching this roster. UNKNOWN is never read as healthy",
+          "a": "none on file — 100% unknown",
+          "h": "none on file — 100% unknown",
+          "edge": null
+        },
+        {
+          "k": "Data confidence",
+          "note": "how much EdgeDesk knows about this roster, not how good it is",
+          "a": "55%",
+          "h": "67%",
+          "edge": {
+            "side": "h",
+            "gap": 0.11399999999999999
+          }
+        }
+      ],
+      "highlights": [
+        {
+          "k": "Rotation quality",
+          "lead": "Texas Tech",
+          "text": "Texas Tech leads on rotation quality — West Virginia 53.6, Texas Tech 58.8."
+        },
+        {
+          "k": "Starter quality",
+          "lead": "Texas Tech",
+          "text": "Texas Tech leads on starter quality — West Virginia 56.1, Texas Tech 60.7."
+        },
+        {
+          "k": "Depth quality",
+          "lead": "Texas Tech",
+          "text": "Texas Tech leads on depth quality — West Virginia 52.6, Texas Tech 54.6."
+        },
+        {
+          "k": "Offensive-line continuity",
+          "lead": "Texas Tech",
+          "text": "Texas Tech leads on offensive-line continuity — West Virginia 37%, Texas Tech 76%."
+        },
+        {
+          "k": "Returning starters",
+          "lead": "Texas Tech",
+          "text": "Texas Tech leads on returning starters — West Virginia 17%, Texas Tech 49%."
+        }
+      ],
+      "note": "Roster construction from the committed rankings build. No recruiting star and no NIL figure appears here: no public feed this repo reads carries either, and a number nobody published is not estimated in its place."
+    },
+    "cases": {
+      "favourite": {
+        "team": "Texas Tech",
+        "heading": "Why Texas Tech can pull away",
+        "bullets": [
+          "Texas Tech is the better football team by 11.3 points on opponent-adjusted results, with roughly 30% of it still inherited from last season (+11.3 pts).",
+          "Playing at Texas Tech is worth 2.8 points — the league-wide home-field number, because a per-venue table was tested and could not be told apart from the home team’s own quality (+2.8 pts).",
+          "Stylistically the matchup favours Texas Tech by 1.2 points: ball control vs front disruption (+1.2 pts).",
+          "Secondary: Texas Tech 59.1 (#16 of 138) vs West Virginia 38.4 (#137 of 138) — 121 places on the national board.",
+          "Depth: Texas Tech 54.6 (#5 of 138) vs West Virginia 52.6 (#114 of 138) — 109 places on the national board."
+        ]
+      },
+      "underdog": {
+        "team": "West Virginia",
+        "heading": "Why West Virginia can keep it close",
+        "bullets": [
+          "Pass offense: West Virginia 71.2 (#3 of 138) vs Texas Tech 51.7 (#58 of 138) — 55 places on the national board.",
+          "Offensive line: West Virginia 57.7 (#9 of 138) vs Texas Tech 55.3 (#33 of 138) — 24 places on the national board.",
+          "Offense: West Virginia 62.9 (#9 of 138) vs Texas Tech 59.1 (#20 of 138) — 11 places on the national board.",
+          "The outcome range is 14.6 points wide at one sigma — p10 -5.6 to p90 +36.4 for Texas Tech, so a projection of +15.4 still produces results a long way either side of it.",
+          "College ratings are built on twelve-game seasons against wildly uneven schedules; even a clean rating gap carries more estimation error than the number implies."
+        ]
+      },
+      "note": "These are football cases assembled from measured states. Neither is a bet, and neither is advice."
+    },
+    "uncertainty": {
+      "items": [
+        {
+          "sev": "MEDIUM",
+          "label": "sample",
+          "text": "College ratings are built on twelve-game seasons against wildly uneven schedules; even a clean rating gap carries more estimation error than the number implies.",
+          "widening": null
+        },
+        {
+          "sev": "MEDIUM",
+          "label": "West Virginia — injury uncertainty",
+          "text": "100% of projected starter value has no availability record.",
+          "widening": null
+        },
+        {
+          "sev": "MEDIUM",
+          "label": "West Virginia — extreme transfer turnover",
+          "text": "83% of last season’s production value is gone. Most of last season’s production value has left, so the prior term is standing on much less than usual",
+          "widening": null
+        },
+        {
+          "sev": "MEDIUM",
+          "label": "Texas Tech — injury uncertainty",
+          "text": "100% of projected starter value has no availability record.",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "home quarterback is contested — the evidence names more than one starter",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "weather not supplied",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "home injury report not supplied",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "away injury report not supplied",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "no book spread joined to this game — no edge is claimed",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "no book total joined to this game",
+          "widening": null
+        }
+      ],
+      "unmeasured": [
+        {
+          "item": "Home starting quarterback",
+          "why": "starting QB not supplied for home"
+        },
+        {
+          "item": "Away starting quarterback",
+          "why": "starting QB not supplied for away"
+        },
+        {
+          "item": "Home availability / injuries",
+          "why": "no injury report supplied for home"
+        },
+        {
+          "item": "Away availability / injuries",
+          "why": "no injury report supplied for away"
+        },
+        {
+          "item": "Weather at kickoff",
+          "why": "no weather supplied"
+        },
+        {
+          "item": "Off-field, culture and NIL situation",
+          "why": "no public feed for NIL figures, locker-room reporting or discipline exists that this engine reads; nothing is inferred and the gap is carried as uncertainty"
+        },
+        {
+          "item": "Coaching and coordinator continuity",
+          "why": "no public coaching-tenure feed is wired; a new coordinator changes a team’s identity in ways the ratings only learn after the fact"
+        },
+        {
+          "item": "Motivation, lookahead and locker-room state",
+          "why": "not measurable from any public source; treated as variance, never as a point adjustment"
+        },
+        {
+          "item": "West Virginia — recruiting ratings",
+          "why": "no legal, public, keyless recruiting feed is wired into EdgeDesk, so no recruiting rating exists for this roster. Nothing is estimated in its place."
+        },
+        {
+          "item": "West Virginia — availability and injuries",
+          "why": "no availability record reached this roster. UNKNOWN is carried as unknown; it is never read as healthy."
+        },
+        {
+          "item": "Texas Tech — recruiting ratings",
+          "why": "no legal, public, keyless recruiting feed is wired into EdgeDesk, so no recruiting rating exists for this roster. Nothing is estimated in its place."
+        },
+        {
+          "item": "Texas Tech — availability and injuries",
+          "why": "no availability record reached this roster. UNKNOWN is carried as unknown; it is never read as healthy."
+        }
+      ],
+      "note": "Unknown is never scored as zero. Every line here is a gap EdgeDesk carries as uncertainty rather than filling in."
+    },
+    "market": {
+      "available": false,
+      "model": "Texas Tech −15.5",
+      "model_raw": "Texas Tech -15.4",
+      "headline": "No sportsbook spread is currently joined to this game.",
+      "note": "There is no model-vs-market comparison yet. Everything above is still EdgeDesk’s current view of the matchup; a missing price removes the comparison and nothing else."
+    },
+    "research_view": {
+      "contract": "cfb_research_brief/1",
+      "view": "cfb_research_view/1",
+      "game_id": "401856856",
+      "home": "Texas Tech",
+      "away": "West Virginia",
+      "projected": true,
+      "engine_status": "PREDICTED",
+      "label": {
+        "key": "NO_MARKET",
+        "label": "NO MARKET",
+        "rule": "no_market",
+        "means": "There is no current market line to compare with: no market line is joined to this game. The projection stands on its own until a quote lands."
+      },
+      "disagreement": null,
+      "fair": {
+        "line_text": "Texas Tech −15.5",
+        "favorite_team": "Texas Tech",
+        "underdog_team": "West Virginia",
+        "display_fair_spread": 15.4,
+        "raw_home_margin": 15.36,
+        "raw_line_text": "Texas Tech -15.36",
+        "is_near_pickem": false
+      },
+      "market_gap": {
+        "available": false,
+        "reason": "no market line is joined to this game"
+      },
+      "confidence": {
+        "score": 73,
+        "tier": "HIGH",
+        "label": "High"
+      },
+      "reliability": {
+        "pct": 69,
+        "tier": "ADEQUATE",
+        "text": "69 · CAUTION",
+        "sub": "main deduction: unresolved roster conflict",
+        "score": 69,
+        "grade": "CAUTION",
+        "grade_label": "CAUTION",
+        "gate_label": null,
+        "components": [
+          {
+            "key": "team_data",
+            "label": "Team data",
+            "score": 20,
+            "max": 20
+          },
+          {
+            "key": "roster_availability",
+            "label": "Roster/status",
+            "score": 10.9,
+            "max": 20
+          },
+          {
+            "key": "projection_stability",
+            "label": "Stability",
+            "score": 20,
+            "max": 20
+          },
+          {
+            "key": "freshness",
+            "label": "Freshness",
+            "score": 12.9,
+            "max": 15
+          },
+          {
+            "key": "source_integrity",
+            "label": "Source integrity",
+            "score": 10.9,
+            "max": 15
+          },
+          {
+            "key": "environment",
+            "label": "Environment",
+            "score": 8.5,
+            "max": 10
+          }
+        ],
+        "main_deduction": "unresolved roster conflict: starter sources and the athlete identity disagree for Texas Tech",
+        "capped_by": [
+          "ROSTER_CONFLICT"
+        ],
+        "next_actions": [
+          {
+            "action": "Resolve Texas Tech’s starter conflict",
+            "potential_gain": 10,
+            "text": "up to +10"
+          },
+          {
+            "action": "Confirm Texas Tech’s starting QB (Thomas Castellanos)",
+            "potential_gain": 9,
+            "text": "up to +9 once resolve Texas Tech’s starter conflict is done"
+          }
+        ],
+        "stability": {
+          "tier": "VERY_STABLE",
+          "sd": 0.81,
+          "favorite_flip_rate": 0
+        },
+        "scale": "0-100 reliability score, not a probability"
+      },
+      "drivers": {
+        "team": "Texas Tech",
+        "none": false,
+        "text": null,
+        "reasons": [
+          {
+            "kind": "component",
+            "key": "rating",
+            "points": 11.34,
+            "text": "+11.3 pts team-strength edge (opponent-adjusted results)"
+          },
+          {
+            "kind": "component",
+            "key": "hfa",
+            "points": 2.8,
+            "text": "+2.8 pts home-field advantage"
+          },
+          {
+            "kind": "component",
+            "key": "matchup",
+            "points": 1.22,
+            "text": "+1.2 pts stylistic matchup"
+          }
+        ]
+      },
+      "best_available_line": {
+        "available": false,
+        "reason": "no sportsbook quote has been captured for this game"
+      },
+      "projection_status": {
+        "key": "LINE_MOVING",
+        "label": "LINE MOVING",
+        "text": "EdgeDesk’s number is steady, but the market has moved 1.0 pts toward West Virginia (espn · Draft Kings)."
+      },
+      "stability": {
+        "tier": "LOW",
+        "label": "Low",
+        "text": "the stored numbers span 2.4 pts across 3 readings"
+      },
+      "published": [
+        {
+          "at": "2026-10-28T06:00:25.251Z",
+          "source": "first published",
+          "home_margin": 12.95,
+          "text": "Texas Tech -12.9"
+        },
+        {
+          "at": "2026-11-01T18:01:05.765Z",
+          "source": "latest published",
+          "home_margin": 15.36,
+          "text": "Texas Tech -15.4"
+        }
+      ],
+      "revisions": 3,
+      "change_since_published": {
+        "comparable": true,
+        "points": 0,
+        "toward_team": "Texas Tech",
+        "since_at": "2026-11-01T18:01:05.765Z",
+        "text": "unchanged since the latest published number"
+      },
+      "what_changed": {
+        "available": true,
+        "summary": "EdgeDesk moved 2.4 points toward Texas Tech since the first published number.",
+        "attribution_text": "Projection changed 2.4 points since the first published number. Component-level attribution is unavailable: the stored snapshot keeps the number, not the terms behind it.",
+        "market": "Market moved 1.0 pts toward West Virginia (espn · Draft Kings)",
+        "model_version": null
+      },
+      "parity": {
+        "ok": true,
+        "gaps": []
+      },
+      "note": "Research, not picks. Every value is read off EdgeDesk’s own projection and the market it was compared with; nothing here is a recommendation to bet."
+    },
+    "headline": "EdgeDesk projects Texas Tech 37, West Virginia 22.",
+    "state": {
+      "label": "NO MARKET",
+      "note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
+      "scope": "This describes the state of EdgeDesk’s model-versus-market research on this game. It is not a statement about whether the matchup is worth researching."
+    },
+    "score": {
+      "away": {
+        "team": "West Virginia",
+        "points": "22"
+      },
+      "home": {
+        "team": "Texas Tech",
+        "points": "37"
+      },
+      "expected": {
+        "text": "Texas Tech 37.29, West Virginia 21.93",
+        "home": 37.29,
+        "away": 21.93,
+        "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
+      },
+      "note": "Split from EdgeDesk’s own projected margin and total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
+    },
+    "table": {
+      "cols": [
+        "West Virginia",
+        "Texas Tech"
+      ],
+      "rows": [
+        {
+          "k": "ETSR (overall)",
+          "a": "+0.4  #65",
+          "h": "+9.5  #13",
+          "note": "points vs an average FBS team, neutral field"
+        },
+        {
+          "k": "Talent",
+          "a": "43.9  #104",
+          "h": "68.3  #5",
+          "note": null
+        },
+        {
+          "k": "Performance",
+          "a": "51.6  #62",
+          "h": "65.9  #12",
+          "note": null
+        },
+        {
+          "k": "Offense",
+          "a": "62.9  #9",
+          "h": "59.1  #20",
+          "note": null
+        },
+        {
+          "k": "Defense",
+          "a": "39.0  #122",
+          "h": "59.8  #17",
+          "note": null
+        },
+        {
+          "k": "Special teams",
+          "a": "52.1  #27",
+          "h": "55.0  #2",
+          "note": null
+        },
+        {
+          "k": "Run offense",
+          "a": "56.4  #44",
+          "h": "67.7  #5",
+          "note": null
+        },
+        {
+          "k": "Pass offense",
+          "a": "71.2  #3",
+          "h": "51.7  #58",
+          "note": null
+        },
+        {
+          "k": "Run defense",
+          "a": "41.0  #98",
+          "h": "69.9  #13",
+          "note": null
+        },
+        {
+          "k": "Pass defense",
+          "a": "34.6  #131",
+          "h": "57.6  #33",
+          "note": null
+        },
+        {
+          "k": "QB room",
+          "a": "59.0  #58",
+          "h": "60.7  #30",
+          "note": null
+        },
+        {
+          "k": "Offensive line",
+          "a": "57.7  #9",
+          "h": "55.3  #33",
+          "note": null
+        },
+        {
+          "k": "Receivers",
+          "a": "55.6  #59",
+          "h": "56.3  #32",
+          "note": null
+        },
+        {
+          "k": "Running backs",
+          "a": "56.3  #70",
+          "h": "59.4  #8",
+          "note": null
+        },
+        {
+          "k": "Defensive line",
+          "a": "51.0  #93",
+          "h": "62.1  #9",
+          "note": null
+        },
+        {
+          "k": "Linebackers",
+          "a": "52.2  #84",
+          "h": "59.9  #7",
+          "note": null
+        },
+        {
+          "k": "Secondary",
+          "a": "38.4  #137",
+          "h": "59.1  #16",
+          "note": null
+        },
+        {
+          "k": "Depth",
+          "a": "52.6  #114",
+          "h": "54.6  #5",
+          "note": null
+        },
+        {
+          "k": "Continuity",
+          "a": "32.9  #123",
+          "h": "51.7  #33",
+          "note": null
+        },
+        {
+          "k": "Confidence",
+          "a": "55%",
+          "h": "67%",
+          "note": "how much EdgeDesk knows, not how good the team is"
+        },
+        {
+          "k": "Δ national rank, this week",
+          "a": "down 4",
+          "h": "up 5",
+          "note": "differenced from last week’s committed snapshot"
+        }
+      ]
+    },
+    "notes": [
+      "EdgeDesk’s line is Texas Tech −15.5 on a neutral read of the two teams, before any book is consulted. Projected total 59.0.",
+      "Texas Tech wins 85% of the time in EdgeDesk’s simulation, West Virginia 15%.",
+      "Eight games in ten land between -5.6 and +36.4 for Texas Tech. A single result inside that band tells you nothing new about either team.",
+      "No sportsbook spread is joined to this game, so there is no model-versus-market comparison. EdgeDesk’s own number and the research behind it are unchanged by that.",
+      "West Virginia quarterback: Michael Hawkins Jr. — started the last game; no announcement for this one."
+    ],
+    "missing": [
+      "No availability report reached Michael Hawkins Jr. — unknown is carried as unknown, never as healthy.",
+      "Texas Tech quarterback unresolved: unresolved: Will Hammond 59% of recent dropbacks and Thomas Castellanos 39% of recent dropbacks — sources disagree.",
+      "No availability report reached Thomas Castellanos — unknown is carried as unknown, never as healthy."
+    ],
+    "context_label": "RESEARCH CONTEXT — position-group, player-quality, roster and scheme figures explain this matchup and move no priced number.",
+    "priced_label": "PRICED BY MODEL — the projection and its drivers, from validated inputs only.",
+    "source": "Ratings: football/rankings/current.json — 2026 Week 9, built 2026-10-31. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser."
+  },
+  "football_evidence": {
+    "schema": "edgedesk_article_evidence_v1",
+    "packet_hash": "1pswsbenfsqpk",
+    "status": "UNEXPLAINED",
+    "input_suspect": false,
+    "question": "Can Texas Tech take away West Virginia’s big plays?",
+    "assessment": "EdgeDesk’s number is 2.1 points closer to West Virginia than the line, and EdgeDesk cannot account for most of that: its own breakdown accounts for about 0.0 of the 2.1 points. The measured football evidence leans toward Texas Tech, not toward EdgeDesk’s number. Treat the gap as an open research question, not as an edge.",
+    "gap": {
+      "points": 2.1,
+      "toward": "West Virginia",
+      "other": "Texas Tech"
+    },
+    "supporting": [
+      "When West Virginia has the ball (the passing game against the pass defense): West Virginia’s offense averages 10.3 yards per pass attempt, and Texas Tech’s defense allows 7.5 yards per pass attempt (FBS average 7.4).",
+      "When West Virginia has the ball (big plays through the air): West Virginia’s offense turns 20.3% of its pass plays into explosive gains, and Texas Tech’s defense gives up explosive gains on 6.6% of opponent pass plays (FBS average 10.2%).",
+      "When West Virginia has the ball (third down): West Virginia’s offense converts 50.7% of its third downs, and Texas Tech’s defense allows opponents to convert 36.7% of their third downs (FBS average 39.6%).",
+      "In his last two games (Arizona State and Arizona), Castellanos averaged 6.2 yards per attempt, against 7.9 in his three games before that."
+    ],
+    "contradicting": [
+      "When Texas Tech has the ball (big plays through the air): Texas Tech’s offense turns 8.7% of its pass plays into explosive gains, and West Virginia’s defense gives up explosive gains on 18.3% of opponent pass plays (FBS average 10.2%).",
+      "When Texas Tech has the ball (big plays on the ground): Texas Tech’s offense turns 9.7% of its runs into explosive gains, and West Virginia’s defense gives up explosive gains on 7.9% of opponent runs (FBS average 6.5%).",
+      "When West Virginia has the ball (pass protection against the pass rush): West Virginia’s offense has allowed a sack on 8.4% of its dropbacks, and Texas Tech’s defense sacks the quarterback on 6.1% of opponent dropbacks (FBS average 5.7%).",
+      "When Texas Tech has the ball (the passing game against the pass defense): Texas Tech’s offense averages 7.2 yards per pass attempt, and West Virginia’s defense allows 10.3 yards per pass attempt (FBS average 7.4)."
+    ],
+    "quarterbacks": [
+      "Will Hammond has completed 136 of 204 passes (66.7%) for 1,541 yards, 7.6 yards per attempt, 6 touchdowns and 6 interceptions in seven games for Texas Tech, and has been sacked on 12 of 216 dropbacks.",
+      "Thomas Castellanos has completed 17 of 32 passes (53.1%) for 209 yards, 6.5 yards per attempt, 4 touchdowns and 1 interception in five games for Texas Tech, and has been sacked on 2 of 34 dropbacks.",
+      "Michael Hawkins Jr. has completed 90 of 159 passes (56.6%) for 1,598 yards, 10.1 yards per attempt, 11 touchdowns and 2 interceptions in eight games for West Virginia, and has been sacked on 15 of 174 dropbacks."
+    ],
+    "availability": [],
+    "script": {
+      "model": [
+        "West Virginia’s offense has to keep winning on big pass plays: it turns 20.3% of its pass plays into explosive gains, and Texas Tech’s defense gives up explosive gains on 6.6% of opponent pass plays.",
+        "West Virginia’s defense has to slow Texas Tech on long runs — Texas Tech’s offense turns 9.7% of its runs into explosive gains.",
+        "West Virginia’s defense has to slow Texas Tech on big pass plays — Texas Tech’s offense turns 8.7% of its pass plays into explosive gains.",
+        "West Virginia’s offense has to keep winning through the air: it averages 10.3 yards per pass attempt, and Texas Tech’s defense allows 7.5 yards per pass attempt."
+      ],
+      "market": [
+        "Texas Tech’s offense has to keep winning on long runs: it turns 9.7% of its runs into explosive gains, and West Virginia’s defense gives up explosive gains on 7.9% of opponent runs.",
+        "Texas Tech’s offense has to keep winning on big pass plays: it turns 8.7% of its pass plays into explosive gains, and West Virginia’s defense gives up explosive gains on 18.3% of opponent pass plays.",
+        "Texas Tech’s defense has to come out ahead on big pass plays: it gives up explosive gains on 6.6% of opponent pass plays, against an offense that turns 20.3% of its pass plays into explosive gains."
+      ]
+    },
+    "unknown": [
+      "EdgeDesk’s own sources disagree on sack rate allowed and sack rate for Texas Tech and West Virginia.",
+      "Not in EdgeDesk’s verified data for this game: turnover rates, injuries and personnel and penalty rate."
+    ],
+    "flags": [
+      {
+        "key": "DATA_CONFLICT",
+        "severity": "medium",
+        "text": "EdgeDesk’s own sources disagree on sack rate allowed (Texas Tech), sack rate (Texas Tech), sack rate allowed (West Virginia) and sack rate (West Virginia); the evidence uses the corroborated figures, and any model term built on the play-by-play figure may be off."
+      }
+    ],
+    "sources": [
+      {
+        "label": "EdgeDesk play-by-play unit metrics (2026 season)",
+        "url": null,
+        "path": "football/matchup/metrics.json",
+        "observed_at": "2026-11-01T22:55:26.361Z",
+        "verification": "VERIFIED_DATA"
+      },
+      {
+        "label": "EdgeDesk play-by-play quarterback logs (2026)",
+        "url": null,
+        "path": "football/fbs_epa/qb_epa_2026.json",
+        "observed_at": "2026-11-01T03:00:00.000Z",
+        "verification": "VERIFIED_DATA"
+      }
+    ],
+    "needs_confirmation": []
+  },
+  "checks": {
+    "ok": true,
+    "failed": [],
+    "at": "2026-11-02T00:36:55.151Z"
+  }
+}

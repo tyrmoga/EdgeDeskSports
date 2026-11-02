@@ -1,0 +1,64 @@
+{
+ "schema": "edgedesk_availability_report_v1",
+ "version": 1,
+ "conference": "Big Ten Conference",
+ "conference_id": "bigten",
+ "team": "Indiana",
+ "game_id": "401858501",
+ "kickoff": "2026-10-31T19:30:00.000Z",
+ "source_url": "https://app.hdintelligence.com/?source=B10&sport=Football&conf=B10&type=report",
+ "published_at": "2026-10-31T17:30:00.000Z",
+ "retrieved_at": "2026-10-31T21:26:20.038Z",
+ "scope": "CONFERENCE_GAMES",
+ "comprehensive": true,
+ "vocabulary": [
+  "AVAILABLE",
+  "PROBABLE",
+  "QUESTIONABLE",
+  "DOUBTFUL",
+  "OUT",
+  "OUT_FIRST_HALF",
+  "GAME_TIME_DECISION"
+ ],
+ "applicability": {
+  "state": "REQUIRED",
+  "why": "Big Ten Conference requires an availability report for this game: four filings a week for conference games — three days, two days and the night before at 8pm ET, then two hours before kickoff"
+ },
+ "format": "published-listing",
+ "platform": "hdintelligence",
+ "report_type": "Game Day",
+ "report_id": "3457",
+ "listing_scope": "FULL_ROSTER",
+ "lines_read": 106,
+ "listed_n": 106,
+ "rows": [
+  {
+   "player_name": "Davion Chandler",
+   "player_id": "5205460",
+   "position": "WR",
+   "jersey": "4",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "WR #4 Davion Chandler · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Kellan Wyatt",
+   "player_id": "4695703",
+   "position": "DL",
+   "jersey": "18",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "DL #18 Kellan Wyatt · Out",
+   "on_roster": true
+  }
+ ],
+ "unparsed": [],
+ "ok": true,
+ "names_nobody": false,
+ "explicit_none": false,
+ "silence_means_available": false,
+ "why": "2 player(s) designated on the published listing (Game Day)"
+}

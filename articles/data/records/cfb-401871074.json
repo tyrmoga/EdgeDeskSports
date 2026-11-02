@@ -1,0 +1,2035 @@
+{
+  "schema": "edgedesk_article_v1",
+  "id": "cfb-401871074",
+  "game_id": "401871074",
+  "sport": "CFB",
+  "sport_slug": "college-football",
+  "sport_label": "College Football",
+  "slug": "missouri-state-vs-florida-international-2026",
+  "aliases": [],
+  "title": "Missouri State vs. Florida International: EdgeDesk Model Projection, Matchup Analysis and Fair Spread",
+  "seo_title": "Missouri State vs. Florida International 2026: EdgeDesk Fair Spread & Model Projection",
+  "seo_description": "EdgeDesk fair spread for Missouri State at Florida International: Florida International −4.0, fair total 50.5. Florida International wins 61% of simulations. Data confidence 83%. Model status NO MARKET. Research, not picks.",
+  "excerpt": "Missouri State carries the stronger underlying team rating — -4.7 against -7.7, a 3.0-point separation on a neutral field before home advantage, travel or rest. EdgeDesk makes it Florida International −4.0 before any sportsbook number is consulted, with…",
+  "home_team": "Florida International",
+  "away_team": "Missouri State",
+  "venue": "Pitbull Stadium",
+  "neutral_site": false,
+  "conference_line": "Conference USA conference game",
+  "week": 10,
+  "season": 2026,
+  "game_time": "2026-11-07T21:00:00.000Z",
+  "game_when_label": "2026-11-07 21:00 UTC",
+  "published_at": null,
+  "updated_at": "2026-11-02T00:36:55.151Z",
+  "generated_at": "2026-11-02T00:36:55.151Z",
+  "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
+  "model_status": "NO MARKET",
+  "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
+  "confidence": 83,
+  "priced": true,
+  "fair_spread_text": "Florida International −4.0",
+  "fair_total": "50.5",
+  "hero_image": null,
+  "canonical_url": "https://edgedesksports.com/articles/missouri-state-vs-florida-international-2026",
+  "terminal_url": "https://edgedesksports.com/app.html#research/football",
+  "hub_url": "https://edgedesksports.com/articles/college-football",
+  "status": "ready",
+  "article_type": "pregame",
+  "related": null,
+  "frozen": false,
+  "frozen_at": null,
+  "author": "EdgeDesk Research",
+  "publisher": "EdgeDesk Sports",
+  "research_source": "Ratings: football/rankings/current.json — 2026 Week 9, built 2026-10-31. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser.",
+  "market_source": null,
+  "research": {
+    "kind": "CFB_GAME",
+    "game": {
+      "away": "Missouri State",
+      "home": "Florida International",
+      "title": "Missouri State at Florida International",
+      "when": "2026-11-07 21:00 UTC",
+      "kickoff": "2026-11-07T21:00:00.000Z",
+      "venue": "Pitbull Stadium",
+      "neutral": false,
+      "week": "Week 10",
+      "season": "2026",
+      "game_id": "401871074",
+      "week_no": 10,
+      "season_no": 2026,
+      "conference_line": "Conference USA conference game",
+      "away_conference": "Conference USA",
+      "home_conference": "Conference USA"
+    },
+    "lede": [
+      "Missouri State carries the stronger underlying team rating — -4.7 against -7.7, a 3.0-point separation on a neutral field before home advantage, travel or rest.",
+      "EdgeDesk makes it Florida International −4.0 before any sportsbook number is consulted, with Florida International winning 61% of simulations.",
+      "The position-group comparison shows where the separation comes from: the widest measured gap is depth, where Florida International leads Missouri State by 78 places nationally.",
+      "Data confidence on this matchup is 83% — high by this board’s standards, so the margin is the strongest part of the read."
+    ],
+    "projection": {
+      "priced": true,
+      "fair_spread": 4.226248020870602,
+      "fair_spread_text": "Florida International −4.0",
+      "fair_spread_raw_text": "Florida International -4.2",
+      "near_pickem": false,
+      "raw_margin_text": null,
+      "favourite": "Florida International",
+      "underdog": "Missouri State",
+      "margin": "4.0",
+      "margin_raw": "4.2",
+      "total": "50.5",
+      "total_raw": "50.7",
+      "display_policy": "football_half_point_v1",
+      "score": {
+        "away": {
+          "team": "Missouri State",
+          "points": "23"
+        },
+        "home": {
+          "team": "Florida International",
+          "points": "27"
+        },
+        "expected": {
+          "text": "Florida International 27.47, Missouri State 23.24",
+          "home": 27.47,
+          "away": 23.24,
+          "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
+        },
+        "note": "Split from EdgeDesk’s own projected margin and total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
+      },
+      "score_absent_reason": null,
+      "win_prob": {
+        "home": "Florida International",
+        "away": "Missouri State",
+        "home_pct": 61,
+        "away_pct": 39,
+        "home_text": "61%",
+        "away_text": "39%",
+        "bounded": false,
+        "bounded_note": null,
+        "favourite": "Florida International",
+        "favourite_pct": 61,
+        "favourite_text": "61%"
+      },
+      "outcome_range": {
+        "basis_team": "Florida International",
+        "p10": "-16.8",
+        "median": "+4.2",
+        "p90": "+25.2",
+        "sigma": "14.6",
+        "volatility": "0.00",
+        "volatility_discriminates": false,
+        "note": "Quoted from Florida International’s perspective, as the engine publishes it. Eight results in ten land inside p10–p90."
+      },
+      "confidence_pct": 83,
+      "inputs_reached_pct": 73,
+      "input_contract": {
+        "fields": 26,
+        "applicable": 26,
+        "known": 19,
+        "priced": 11,
+        "priced_coverage_pct": 42,
+        "by_state": {
+          "USABLE": 11,
+          "RESEARCH_ONLY": 8,
+          "STALE": 0,
+          "CONFLICTING": 0,
+          "NOT_APPLICABLE": 0,
+          "NOT_REQUIRED": 0,
+          "NOT_DUE_YET": 0,
+          "FETCH_FAILED": 2,
+          "UNAVAILABLE": 5
+        },
+        "absent": [
+          {
+            "field": "weather",
+            "side": null,
+            "state": "UNAVAILABLE",
+            "why": "no forecast provider was called in this build; the venue’s coordinates are known, so this is a build that did not ask rather than a source that did not answer"
+          },
+          {
+            "field": "availability",
+            "side": "home",
+            "state": "FETCH_FAILED",
+            "why": "EdgeDesk read 3 source(s) for Florida International and 2 refused; the read is graded LIMITED and an ungraded read is not a clean bill of health. The engine prices this as maximum injury uncertainty, never as healthy. THIS IS NOT A PER-TEAM FAILURE: espn_depth refuses for all 138 programmes (no depth-chart endpoint answered (HTTP 404; HTTP 403; HTTP 404)); espn_participation refuses for all 138 programmes (HTTP 403) — an endpoint the provider closed, not 138 separate misses Conference USA requires an availability report for this game: filed under the conference availability policy; only OUT and QUESTIONABLE are designated."
+          },
+          {
+            "field": "availability",
+            "side": "away",
+            "state": "FETCH_FAILED",
+            "why": "EdgeDesk read 3 source(s) for Missouri State and 2 refused; the read is graded LIMITED and an ungraded read is not a clean bill of health. The engine prices this as maximum injury uncertainty, never as healthy. THIS IS NOT A PER-TEAM FAILURE: espn_depth refuses for all 138 programmes (no depth-chart endpoint answered (HTTP 404; HTTP 403; HTTP 404)); espn_participation refuses for all 138 programmes (HTTP 403) — an endpoint the provider closed, not 138 separate misses Conference USA requires an availability report for this game: filed under the conference availability policy; only OUT and QUESTIONABLE are designated."
+          },
+          {
+            "field": "qb_availability",
+            "side": "home",
+            "state": "UNAVAILABLE",
+            "why": "the availability sources EdgeDesk reads were checked and carried no report on this player — no report found is not the same as healthy. Conference USA requires an availability report for this game: filed under the conference availability policy; only OUT and QUESTIONABLE are designated"
+          },
+          {
+            "field": "qb_availability",
+            "side": "away",
+            "state": "UNAVAILABLE",
+            "why": "the availability sources EdgeDesk reads were checked and carried no report on this player — no report found is not the same as healthy. Conference USA requires an availability report for this game: filed under the conference availability policy; only OUT and QUESTIONABLE are designated"
+          },
+          {
+            "field": "off_field",
+            "side": "home",
+            "state": "UNAVAILABLE",
+            "why": "no source is registered for this programme, so nothing has been read and an empty result would be a false clean bill of health rather than a finding. The engine scores this input and it is missing on every game, so it is published here rather than left invisible. A signal must be all four of public, sourced, dated and severity-graded before it may move even the confidence score — a general news search supplies neither a severity nor a reliability a model may use, and a wire that supplies all four may not be redistributed as a committed artifact. The availability layer answers a different question (who can play) and is never substituted for this one"
+          },
+          {
+            "field": "off_field",
+            "side": "away",
+            "state": "UNAVAILABLE",
+            "why": "no source is registered for this programme, so nothing has been read and an empty result would be a false clean bill of health rather than a finding. The engine scores this input and it is missing on every game, so it is published here rather than left invisible. A signal must be all four of public, sourced, dated and severity-graded before it may move even the confidence score — a general news search supplies neither a severity nor a reliability a model may use, and a wire that supplies all four may not be redistributed as a committed artifact. The availability layer answers a different question (who can play) and is never substituted for this one"
+          }
+        ],
+        "basis": "Every applicable field EdgeDesk retrieved, over every applicable field. A question that does not arise here (weather in a dome, travel at a neutral site) leaves the denominator; a source that refused does not."
+      },
+      "status": "NO MARKET",
+      "status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
+      "engine": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
+      "validation": "UNPROVEN — research only. Nothing on this page is graded as a bet."
+    },
+    "starters": {
+      "away": {
+        "team": "Missouri State",
+        "status": "PREVIOUS_GAME",
+        "confirmed": false,
+        "player": "Henry Belin IV",
+        "player_id": "4685252",
+        "label": "Henry Belin IV — started the last game; no announcement for this one.",
+        "priced": false,
+        "priced_why": "the starter layer is research-only until it has an out-of-sample record of its own; football/matchup/inputs.js PRICED_STARTER_STATUSES is the single switch",
+        "availability": {
+          "state": "UNKNOWN",
+          "evidence": "NONE",
+          "why": "the availability sources EdgeDesk reads were checked and carried no report on this player — no report found is not the same as healthy",
+          "source_url": null
+        },
+        "experience": {
+          "starts": 3,
+          "dropbacks": 138,
+          "seasons_observed": 2,
+          "seasons_read": [
+            2025,
+            2026
+          ],
+          "basis": "games this player opened, counted from the play feed across the seasons this build read — a measured start count over a stated window, not a career total",
+          "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv"
+        },
+        "competition": {
+          "contested": false,
+          "games": 2,
+          "players": [
+            {
+              "player_id": "4685252",
+              "player_name": "Henry Belin IV",
+              "dropbacks": 55,
+              "share": 0.932
+            },
+            {
+              "player_id": "5220425",
+              "player_name": "DJ Bailey",
+              "dropbacks": 3,
+              "share": 0.051
+            },
+            {
+              "player_id": "5384797",
+              "player_name": "Brett Holloway",
+              "dropbacks": 1,
+              "share": 0.017
+            }
+          ]
+        },
+        "conflicts": 0,
+        "history": [
+          {
+            "week": 8,
+            "game_id": "401871069",
+            "opponent": "Delaware",
+            "dropbacks": 34,
+            "starter": {
+              "player_id": "4685252",
+              "player_name": "Henry Belin IV",
+              "share": 1
+            },
+            "settled": true,
+            "why": "took the first dropback of the game"
+          },
+          {
+            "week": 9,
+            "game_id": "401871072",
+            "opponent": "Sam Houston",
+            "dropbacks": 25,
+            "starter": {
+              "player_id": "4685252",
+              "player_name": "Henry Belin IV",
+              "share": 0.84
+            },
+            "settled": true,
+            "why": "took the first dropback of the game"
+          }
+        ],
+        "source": "cfbfastR-data player_stats — play attribution",
+        "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
+        "published_at": "2026-10-28T00:00:00.000Z",
+        "retrieved_at": "2026-11-01T22:55:06.784Z"
+      },
+      "home": {
+        "team": "Florida International",
+        "status": "PREVIOUS_GAME",
+        "confirmed": false,
+        "player": "JJ Kohl",
+        "player_id": "4870883",
+        "label": "JJ Kohl — started the last game; no announcement for this one.",
+        "priced": false,
+        "priced_why": "the starter layer is research-only until it has an out-of-sample record of its own; football/matchup/inputs.js PRICED_STARTER_STATUSES is the single switch",
+        "availability": {
+          "state": "UNKNOWN",
+          "evidence": "NONE",
+          "why": "the availability sources EdgeDesk reads were checked and carried no report on this player — no report found is not the same as healthy",
+          "source_url": null
+        },
+        "experience": {
+          "starts": 14,
+          "dropbacks": 485,
+          "seasons_observed": 2,
+          "seasons_read": [
+            2025,
+            2026
+          ],
+          "basis": "games this player opened, counted from the play feed across the seasons this build read — a measured start count over a stated window, not a career total",
+          "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv"
+        },
+        "competition": {
+          "contested": false,
+          "games": 2,
+          "players": [
+            {
+              "player_id": "4870883",
+              "player_name": "J.J. Kohl",
+              "dropbacks": 60,
+              "share": 0.923
+            },
+            {
+              "player_id": "5153845",
+              "player_name": "Zach Marker",
+              "dropbacks": 3,
+              "share": 0.046
+            },
+            {
+              "player_id": "5138131",
+              "player_name": "Deshawn Purdie",
+              "dropbacks": 1,
+              "share": 0.015
+            },
+            {
+              "player_id": "5295943",
+              "player_name": "Jachin Davis",
+              "dropbacks": 1,
+              "share": 0.015
+            }
+          ]
+        },
+        "conflicts": 0,
+        "history": [
+          {
+            "week": 8,
+            "game_id": "401871055",
+            "opponent": "Middle Tennessee",
+            "dropbacks": 28,
+            "starter": {
+              "player_id": "4870883",
+              "player_name": "J.J. Kohl",
+              "share": 1
+            },
+            "settled": true,
+            "why": "took the first dropback of the game"
+          },
+          {
+            "week": 9,
+            "game_id": "401871059",
+            "opponent": "Liberty",
+            "dropbacks": 37,
+            "starter": {
+              "player_id": "4870883",
+              "player_name": "J.J. Kohl",
+              "share": 0.865
+            },
+            "settled": true,
+            "why": "took the first dropback of the game"
+          }
+        ],
+        "source": "cfbfastR-data player_stats — play attribution",
+        "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
+        "published_at": "2026-10-31T19:30:00.000Z",
+        "retrieved_at": "2026-11-01T22:55:06.784Z"
+      },
+      "generated_at": "2026-11-01T22:55:05.546Z",
+      "source": "football/starters/cfb_2026.json",
+      "note": "An expected starter is not a confirmed one. EdgeDesk publishes which kind of answer each of these is, and no number on this page is priced from any of them. Availability is a separate axis: an absent report is UNKNOWN and is never read as healthy."
+    },
+    "drivers": {
+      "rows": [
+        {
+          "points": "+2.8",
+          "points_n": 2.8,
+          "text": "Playing at Florida International is worth 2.8 points — the league-wide home-field number, because a per-venue table was tested and could not be told apart from the home team’s own quality",
+          "favours": "Florida International"
+        },
+        {
+          "points": "+2.2",
+          "points_n": 2.2079681457217273,
+          "text": "Florida International is the better football team by 2.2 points on opponent-adjusted results, with roughly 30% of it still inherited from last season",
+          "favours": "Florida International"
+        },
+        {
+          "points": "-0.8",
+          "points_n": -0.7817201248511252,
+          "text": "Stylistically the matchup favours Missouri State by 0.8 points: pass rush vs pass protection",
+          "favours": "Missouri State"
+        }
+      ],
+      "basis": "Points are the engine’s own contributions to the projected spread, from Florida International’s perspective, and they sum toward it.",
+      "excluded": "Player quality, position-group ratings and scheme fit are NOT in this number. Neither has cleared walk-forward validation, so neither is allowed to move a priced figure — they appear below as research context and nowhere else.",
+      "empty": null
+    },
+    "compare": {
+      "cols": [
+        "Missouri State",
+        "Florida International"
+      ],
+      "groups": [
+        {
+          "title": "Team rating",
+          "rows": [
+            {
+              "cat": "overall",
+              "k": "ETSR (overall)",
+              "note": "points vs an average FBS team, neutral field",
+              "a": {
+                "v": "-4.7",
+                "n": -4.67,
+                "rank": "#102 of 138",
+                "rank_n": 102,
+                "note": null
+              },
+              "h": {
+                "v": "-7.7",
+                "n": -7.7,
+                "rank": "#120 of 138",
+                "rank_n": 120,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 3,
+                "rank_gap": 18
+              }
+            },
+            {
+              "cat": "talent",
+              "k": "Talent",
+              "note": null,
+              "a": {
+                "v": "45.2",
+                "n": 45.2,
+                "rank": "#97 of 138",
+                "rank_n": 97,
+                "note": null
+              },
+              "h": {
+                "v": "47.6",
+                "n": 47.6,
+                "rank": "#82 of 138",
+                "rank_n": 82,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 2.4,
+                "rank_gap": 15
+              }
+            },
+            {
+              "cat": "performance",
+              "k": "Performance",
+              "note": null,
+              "a": {
+                "v": "41.8",
+                "n": 41.8,
+                "rank": "#103 of 138",
+                "rank_n": 103,
+                "note": null
+              },
+              "h": {
+                "v": "36.3",
+                "n": 36.3,
+                "rank": "#120 of 138",
+                "rank_n": 120,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 5.5,
+                "rank_gap": 17
+              }
+            },
+            {
+              "cat": "scheme_fit",
+              "k": "Scheme fit",
+              "note": "personnel against this team’s own tendencies",
+              "a": {
+                "v": "52.0",
+                "n": 52,
+                "rank": "#33 of 138",
+                "rank_n": 33,
+                "note": null
+              },
+              "h": {
+                "v": "49.1",
+                "n": 49.1,
+                "rank": "#102 of 138",
+                "rank_n": 102,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 2.9,
+                "rank_gap": 69
+              }
+            }
+          ]
+        },
+        {
+          "title": "Units",
+          "rows": [
+            {
+              "cat": "offense",
+              "k": "Offense",
+              "note": null,
+              "a": {
+                "v": "49.5",
+                "n": 49.5,
+                "rank": "#69 of 138",
+                "rank_n": 69,
+                "note": null
+              },
+              "h": {
+                "v": "37.1",
+                "n": 37.1,
+                "rank": "#132 of 138",
+                "rank_n": 132,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 12.4,
+                "rank_gap": 63
+              }
+            },
+            {
+              "cat": "defense",
+              "k": "Defense",
+              "note": null,
+              "a": {
+                "v": "40.7",
+                "n": 40.7,
+                "rank": "#119 of 138",
+                "rank_n": 119,
+                "note": null
+              },
+              "h": {
+                "v": "46.6",
+                "n": 46.6,
+                "rank": "#89 of 138",
+                "rank_n": 89,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 5.9,
+                "rank_gap": 30
+              }
+            },
+            {
+              "cat": "special_teams",
+              "k": "Special teams",
+              "note": null,
+              "a": {
+                "v": "48.0",
+                "n": 48,
+                "rank": "#105 of 130",
+                "rank_n": 105,
+                "note": null
+              },
+              "h": {
+                "v": "46.9",
+                "n": 46.9,
+                "rank": "#117 of 130",
+                "rank_n": 117,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 1.1,
+                "rank_gap": 12
+              }
+            },
+            {
+              "cat": "run_offense",
+              "k": "Run offense",
+              "note": null,
+              "a": {
+                "v": "47.8",
+                "n": 47.8,
+                "rank": "#76 of 138",
+                "rank_n": 76,
+                "note": null
+              },
+              "h": {
+                "v": "30.2",
+                "n": 30.2,
+                "rank": "#133 of 138",
+                "rank_n": 133,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 17.6,
+                "rank_gap": 57
+              }
+            },
+            {
+              "cat": "pass_offense",
+              "k": "Pass offense",
+              "note": null,
+              "a": {
+                "v": "52.1",
+                "n": 52.1,
+                "rank": "#56 of 138",
+                "rank_n": 56,
+                "note": null
+              },
+              "h": {
+                "v": "42.7",
+                "n": 42.7,
+                "rank": "#112 of 138",
+                "rank_n": 112,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 9.4,
+                "rank_gap": 56
+              }
+            },
+            {
+              "cat": "run_defense",
+              "k": "Run defense",
+              "note": null,
+              "a": {
+                "v": "34.9",
+                "n": 34.9,
+                "rank": "#116 of 138",
+                "rank_n": 116,
+                "note": null
+              },
+              "h": {
+                "v": "51.1",
+                "n": 51.1,
+                "rank": "#68 of 138",
+                "rank_n": 68,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 16.2,
+                "rank_gap": 48
+              }
+            },
+            {
+              "cat": "pass_defense",
+              "k": "Pass defense",
+              "note": null,
+              "a": {
+                "v": "43.0",
+                "n": 43,
+                "rank": "#104 of 138",
+                "rank_n": 104,
+                "note": null
+              },
+              "h": {
+                "v": "42.0",
+                "n": 42,
+                "rank": "#107 of 138",
+                "rank_n": 107,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 1,
+                "rank_gap": 3
+              }
+            }
+          ]
+        },
+        {
+          "title": "Position groups",
+          "rows": [
+            {
+              "cat": "qb",
+              "k": "QB room",
+              "note": null,
+              "a": {
+                "v": "58.2",
+                "n": 58.2,
+                "rank": "#71 of 138",
+                "rank_n": 71,
+                "note": null
+              },
+              "h": {
+                "v": "56.2",
+                "n": 56.2,
+                "rank": "#99 of 138",
+                "rank_n": 99,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 2,
+                "rank_gap": 28
+              }
+            },
+            {
+              "cat": "ol",
+              "k": "Offensive line",
+              "note": null,
+              "a": {
+                "v": "46.5",
+                "n": 46.5,
+                "rank": "#111 of 138",
+                "rank_n": 111,
+                "note": null
+              },
+              "h": {
+                "v": "49.1",
+                "n": 49.1,
+                "rank": "#93 of 138",
+                "rank_n": 93,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 2.6,
+                "rank_gap": 18
+              }
+            },
+            {
+              "cat": "wr",
+              "k": "Receivers",
+              "note": null,
+              "a": {
+                "v": "54.5",
+                "n": 54.5,
+                "rank": "#91 of 138",
+                "rank_n": 91,
+                "note": null
+              },
+              "h": {
+                "v": "54.1",
+                "n": 54.1,
+                "rank": "#107 of 138",
+                "rank_n": 107,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 0.4,
+                "rank_gap": 16
+              }
+            },
+            {
+              "cat": "te",
+              "k": "Tight ends",
+              "note": "rated by the player layer; the board publishes no national TE rank",
+              "a": {
+                "v": "53.1",
+                "n": 53.1,
+                "rank": null,
+                "rank_n": null,
+                "note": "rated, held out of the national rank by the confidence gate"
+              },
+              "h": {
+                "v": "53.6",
+                "n": 53.6,
+                "rank": null,
+                "rank_n": null,
+                "note": "rated, held out of the national rank by the confidence gate"
+              },
+              "edge": {
+                "side": "h",
+                "gap": 0.5,
+                "rank_gap": null
+              }
+            },
+            {
+              "cat": "rb",
+              "k": "Running backs",
+              "note": null,
+              "a": {
+                "v": "55.2",
+                "n": 55.2,
+                "rank": "#106 of 138",
+                "rank_n": 106,
+                "note": null
+              },
+              "h": {
+                "v": "54.4",
+                "n": 54.4,
+                "rank": "#127 of 138",
+                "rank_n": 127,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 0.8,
+                "rank_gap": 21
+              }
+            },
+            {
+              "cat": "dl",
+              "k": "Defensive line",
+              "note": null,
+              "a": {
+                "v": "48.4",
+                "n": 48.4,
+                "rank": "#112 of 138",
+                "rank_n": 112,
+                "note": null
+              },
+              "h": {
+                "v": "56.1",
+                "n": 56.1,
+                "rank": "#41 of 138",
+                "rank_n": 41,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 7.7,
+                "rank_gap": 71
+              }
+            },
+            {
+              "cat": "lb",
+              "k": "Linebackers",
+              "note": null,
+              "a": {
+                "v": "49.9",
+                "n": 49.9,
+                "rank": "#109 of 138",
+                "rank_n": 109,
+                "note": null
+              },
+              "h": {
+                "v": "53.0",
+                "n": 53,
+                "rank": "#71 of 138",
+                "rank_n": 71,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 3.1,
+                "rank_gap": 38
+              }
+            },
+            {
+              "cat": "secondary",
+              "k": "Secondary",
+              "note": null,
+              "a": {
+                "v": "50.3",
+                "n": 50.3,
+                "rank": "#98 of 138",
+                "rank_n": 98,
+                "note": null
+              },
+              "h": {
+                "v": "55.1",
+                "n": 55.1,
+                "rank": "#55 of 138",
+                "rank_n": 55,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 4.8,
+                "rank_gap": 43
+              }
+            },
+            {
+              "cat": "k_room",
+              "k": "Kicking",
+              "note": null,
+              "a": {
+                "v": "55.1",
+                "n": 55.1,
+                "rank": "#95 of 138",
+                "rank_n": 95,
+                "note": null
+              },
+              "h": {
+                "v": "54.7",
+                "n": 54.7,
+                "rank": "#108 of 138",
+                "rank_n": 108,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 0.4,
+                "rank_gap": 13
+              }
+            }
+          ]
+        },
+        {
+          "title": "Roster shape",
+          "rows": [
+            {
+              "cat": "depth",
+              "k": "Depth",
+              "note": "quality behind the projected starters",
+              "a": {
+                "v": "52.4",
+                "n": 52.4,
+                "rank": "#124 of 138",
+                "rank_n": 124,
+                "note": null
+              },
+              "h": {
+                "v": "53.5",
+                "n": 53.5,
+                "rank": "#46 of 138",
+                "rank_n": 46,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 1.1,
+                "rank_gap": 78
+              }
+            },
+            {
+              "cat": "continuity",
+              "k": "Continuity",
+              "note": "how much of last season is still here",
+              "a": {
+                "v": "44.0",
+                "n": 44,
+                "rank": "#74 of 138",
+                "rank_n": 74,
+                "note": null
+              },
+              "h": {
+                "v": "36.1",
+                "n": 36.1,
+                "rank": "#109 of 138",
+                "rank_n": 109,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 7.9,
+                "rank_gap": 35
+              }
+            }
+          ]
+        }
+      ],
+      "one_sided_team": null,
+      "one_sided_note": null
+    },
+    "advantages": {
+      "away": [
+        {
+          "k": "Scheme fit",
+          "rank_gap": 69,
+          "gap": 2.9,
+          "lead": "Missouri State",
+          "trail": "Florida International",
+          "lead_cell": "52.0 · #33 of 138",
+          "trail_cell": "49.1 · #102 of 138",
+          "text": "Missouri State 52.0 (#33 of 138) vs Florida International 49.1 (#102 of 138) — 69 places on the national board."
+        },
+        {
+          "k": "Offense",
+          "rank_gap": 63,
+          "gap": 12.4,
+          "lead": "Missouri State",
+          "trail": "Florida International",
+          "lead_cell": "49.5 · #69 of 138",
+          "trail_cell": "37.1 · #132 of 138",
+          "text": "Missouri State 49.5 (#69 of 138) vs Florida International 37.1 (#132 of 138) — 63 places on the national board."
+        },
+        {
+          "k": "Run offense",
+          "rank_gap": 57,
+          "gap": 17.6,
+          "lead": "Missouri State",
+          "trail": "Florida International",
+          "lead_cell": "47.8 · #76 of 138",
+          "trail_cell": "30.2 · #133 of 138",
+          "text": "Missouri State 47.8 (#76 of 138) vs Florida International 30.2 (#133 of 138) — 57 places on the national board."
+        },
+        {
+          "k": "Pass offense",
+          "rank_gap": 56,
+          "gap": 9.4,
+          "lead": "Missouri State",
+          "trail": "Florida International",
+          "lead_cell": "52.1 · #56 of 138",
+          "trail_cell": "42.7 · #112 of 138",
+          "text": "Missouri State 52.1 (#56 of 138) vs Florida International 42.7 (#112 of 138) — 56 places on the national board."
+        },
+        {
+          "k": "Continuity",
+          "rank_gap": 35,
+          "gap": 7.9,
+          "lead": "Missouri State",
+          "trail": "Florida International",
+          "lead_cell": "44.0 · #74 of 138",
+          "trail_cell": "36.1 · #109 of 138",
+          "text": "Missouri State 44.0 (#74 of 138) vs Florida International 36.1 (#109 of 138) — 35 places on the national board."
+        }
+      ],
+      "home": [
+        {
+          "k": "Depth",
+          "rank_gap": 78,
+          "gap": 1.1,
+          "lead": "Florida International",
+          "trail": "Missouri State",
+          "lead_cell": "53.5 · #46 of 138",
+          "trail_cell": "52.4 · #124 of 138",
+          "text": "Florida International 53.5 (#46 of 138) vs Missouri State 52.4 (#124 of 138) — 78 places on the national board."
+        },
+        {
+          "k": "Defensive line",
+          "rank_gap": 71,
+          "gap": 7.7,
+          "lead": "Florida International",
+          "trail": "Missouri State",
+          "lead_cell": "56.1 · #41 of 138",
+          "trail_cell": "48.4 · #112 of 138",
+          "text": "Florida International 56.1 (#41 of 138) vs Missouri State 48.4 (#112 of 138) — 71 places on the national board."
+        },
+        {
+          "k": "Run defense",
+          "rank_gap": 48,
+          "gap": 16.2,
+          "lead": "Florida International",
+          "trail": "Missouri State",
+          "lead_cell": "51.1 · #68 of 138",
+          "trail_cell": "34.9 · #116 of 138",
+          "text": "Florida International 51.1 (#68 of 138) vs Missouri State 34.9 (#116 of 138) — 48 places on the national board."
+        },
+        {
+          "k": "Secondary",
+          "rank_gap": 43,
+          "gap": 4.8,
+          "lead": "Florida International",
+          "trail": "Missouri State",
+          "lead_cell": "55.1 · #55 of 138",
+          "trail_cell": "50.3 · #98 of 138",
+          "text": "Florida International 55.1 (#55 of 138) vs Missouri State 50.3 (#98 of 138) — 43 places on the national board."
+        },
+        {
+          "k": "Linebackers",
+          "rank_gap": 38,
+          "gap": 3.1,
+          "lead": "Florida International",
+          "trail": "Missouri State",
+          "lead_cell": "53.0 · #71 of 138",
+          "trail_cell": "49.9 · #109 of 138",
+          "text": "Florida International 53.0 (#71 of 138) vs Missouri State 49.9 (#109 of 138) — 38 places on the national board."
+        }
+      ],
+      "measured": [],
+      "measured_note": null,
+      "unproven": [],
+      "note": "An advantage is only claimed where BOTH teams carry a national rank in that category — the national rank is the one scale on which a QB room and a run defence are comparable. A category where one side is unrated appears here as a measurement and as uncertainty, never as an edge."
+    },
+    "matchups": [
+      {
+        "title": "Missouri State pass offense vs Florida International pass defense",
+        "att": {
+          "team": "Missouri State",
+          "label": "pass offense",
+          "v": "52.1",
+          "rank": "#56 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Florida International",
+          "label": "pass defense",
+          "v": "42.0",
+          "rank": "#107 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Missouri State’s pass offense rates 52.1 (#56 of 138) against Florida International’s pass defense at 42.0 (#107 of 138). Missouri State’s unit stands higher among its own position group, by 51 places."
+      },
+      {
+        "title": "Missouri State run offense vs Florida International run defense",
+        "att": {
+          "team": "Missouri State",
+          "label": "run offense",
+          "v": "47.8",
+          "rank": "#76 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Florida International",
+          "label": "run defense",
+          "v": "51.1",
+          "rank": "#68 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Missouri State’s run offense rates 47.8 (#76 of 138) against Florida International’s run defense at 51.1 (#68 of 138). Florida International’s unit stands higher among its own position group, by 8 places."
+      },
+      {
+        "title": "Florida International pass offense vs Missouri State pass defense",
+        "att": {
+          "team": "Florida International",
+          "label": "pass offense",
+          "v": "42.7",
+          "rank": "#112 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Missouri State",
+          "label": "pass defense",
+          "v": "43.0",
+          "rank": "#104 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Florida International’s pass offense rates 42.7 (#112 of 138) against Missouri State’s pass defense at 43.0 (#104 of 138). Missouri State’s unit stands higher among its own position group, by 8 places."
+      },
+      {
+        "title": "Florida International run offense vs Missouri State run defense",
+        "att": {
+          "team": "Florida International",
+          "label": "run offense",
+          "v": "30.2",
+          "rank": "#133 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Missouri State",
+          "label": "run defense",
+          "v": "34.9",
+          "rank": "#116 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Florida International’s run offense rates 30.2 (#133 of 138) against Missouri State’s run defense at 34.9 (#116 of 138). Missouri State’s unit stands higher among its own position group, by 17 places."
+      },
+      {
+        "title": "Missouri State QB room vs Florida International secondary",
+        "att": {
+          "team": "Missouri State",
+          "label": "QB room",
+          "v": "58.2",
+          "rank": "#71 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Florida International",
+          "label": "secondary",
+          "v": "55.1",
+          "rank": "#55 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Missouri State’s QB room rates 58.2 (#71 of 138) against Florida International’s secondary at 55.1 (#55 of 138). Florida International’s unit stands higher among its own position group, by 16 places."
+      },
+      {
+        "title": "Florida International QB room vs Missouri State secondary",
+        "att": {
+          "team": "Florida International",
+          "label": "QB room",
+          "v": "56.2",
+          "rank": "#99 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Missouri State",
+          "label": "secondary",
+          "v": "50.3",
+          "rank": "#98 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Florida International’s QB room rates 56.2 (#99 of 138) against Missouri State’s secondary at 50.3 (#98 of 138). Missouri State’s unit stands higher among its own position group, by 1 place."
+      },
+      {
+        "title": "Missouri State offensive line vs Florida International defensive line",
+        "att": {
+          "team": "Missouri State",
+          "label": "offensive line",
+          "v": "46.5",
+          "rank": "#111 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Florida International",
+          "label": "defensive line",
+          "v": "56.1",
+          "rank": "#41 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Missouri State’s offensive line rates 46.5 (#111 of 138) against Florida International’s defensive line at 56.1 (#41 of 138). Florida International’s unit stands higher among its own position group, by 70 places."
+      },
+      {
+        "title": "Florida International offensive line vs Missouri State defensive line",
+        "att": {
+          "team": "Florida International",
+          "label": "offensive line",
+          "v": "49.1",
+          "rank": "#93 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Missouri State",
+          "label": "defensive line",
+          "v": "48.4",
+          "rank": "#112 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Florida International’s offensive line rates 49.1 (#93 of 138) against Missouri State’s defensive line at 48.4 (#112 of 138). Florida International’s unit stands higher among its own position group, by 19 places."
+      },
+      {
+        "title": "Missouri State running backs vs Florida International linebackers",
+        "att": {
+          "team": "Missouri State",
+          "label": "running backs",
+          "v": "55.2",
+          "rank": "#106 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Florida International",
+          "label": "linebackers",
+          "v": "53.0",
+          "rank": "#71 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Missouri State’s running backs rates 55.2 (#106 of 138) against Florida International’s linebackers at 53.0 (#71 of 138). Florida International’s unit stands higher among its own position group, by 35 places."
+      },
+      {
+        "title": "Florida International running backs vs Missouri State linebackers",
+        "att": {
+          "team": "Florida International",
+          "label": "running backs",
+          "v": "54.4",
+          "rank": "#127 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Missouri State",
+          "label": "linebackers",
+          "v": "49.9",
+          "rank": "#109 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Florida International’s running backs rates 54.4 (#127 of 138) against Missouri State’s linebackers at 49.9 (#109 of 138). Missouri State’s unit stands higher among its own position group, by 18 places."
+      },
+      {
+        "title": "Missouri State receivers vs Florida International secondary",
+        "att": {
+          "team": "Missouri State",
+          "label": "receivers",
+          "v": "54.5",
+          "rank": "#91 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Florida International",
+          "label": "secondary",
+          "v": "55.1",
+          "rank": "#55 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Missouri State’s receivers rates 54.5 (#91 of 138) against Florida International’s secondary at 55.1 (#55 of 138). Florida International’s unit stands higher among its own position group, by 36 places."
+      },
+      {
+        "title": "Florida International receivers vs Missouri State secondary",
+        "att": {
+          "team": "Florida International",
+          "label": "receivers",
+          "v": "54.1",
+          "rank": "#107 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Missouri State",
+          "label": "secondary",
+          "v": "50.3",
+          "rank": "#98 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Florida International’s receivers rates 54.1 (#107 of 138) against Missouri State’s secondary at 50.3 (#98 of 138). Missouri State’s unit stands higher among its own position group, by 9 places."
+      }
+    ],
+    "roster": {
+      "cols": [
+        "Missouri State",
+        "Florida International"
+      ],
+      "rows": [
+        {
+          "k": "Returning production value",
+          "note": "share of last season’s production value still on the roster",
+          "a": "27%",
+          "h": "25%",
+          "edge": {
+            "side": "a",
+            "gap": 0.02300000000000002
+          }
+        },
+        {
+          "k": "Returning headcount",
+          "note": "share of the roster that was here last season",
+          "a": "44%",
+          "h": "35%",
+          "edge": {
+            "side": "a",
+            "gap": 0.08400000000000002
+          }
+        },
+        {
+          "k": "QB-room continuity",
+          "note": "is the projected starter last season’s player",
+          "a": "40%",
+          "h": "17%",
+          "edge": {
+            "side": "a",
+            "gap": 0.233
+          }
+        },
+        {
+          "k": "Offensive-line continuity",
+          "note": null,
+          "a": "56%",
+          "h": "63%",
+          "edge": {
+            "side": "h",
+            "gap": 0.06900000000000006
+          }
+        },
+        {
+          "k": "Returning starters",
+          "note": null,
+          "a": "52%",
+          "h": "13%",
+          "edge": {
+            "side": "a",
+            "gap": 0.394
+          }
+        },
+        {
+          "k": "Transfers in / out",
+          "note": "portal movement counted from the roster feed",
+          "a": "16 in / 15 out",
+          "h": "24 in / 12 out",
+          "edge": null
+        },
+        {
+          "k": "Transfer starters in / out",
+          "note": null,
+          "a": "4 in / 0 out",
+          "h": "4 in / 3 out",
+          "edge": null
+        },
+        {
+          "k": "Starter quality",
+          "note": "projected starters, weighted by position value",
+          "a": "56.5",
+          "h": "57.0",
+          "edge": {
+            "side": "h",
+            "gap": 0.5
+          }
+        },
+        {
+          "k": "Rotation quality",
+          "note": null,
+          "a": "52.5",
+          "h": "54.1",
+          "edge": {
+            "side": "h",
+            "gap": 1.6000000000000014
+          }
+        },
+        {
+          "k": "Depth quality",
+          "note": "behind the projected starters",
+          "a": "52.4",
+          "h": "53.5",
+          "edge": {
+            "side": "h",
+            "gap": 1.1000000000000014
+          }
+        },
+        {
+          "k": "Availability records",
+          "note": "an absence report reaching this roster. UNKNOWN is never read as healthy",
+          "a": "none on file — 100% unknown",
+          "h": "none on file — 100% unknown",
+          "edge": null
+        },
+        {
+          "k": "Data confidence",
+          "note": "how much EdgeDesk knows about this roster, not how good it is",
+          "a": "55%",
+          "h": "53%",
+          "edge": {
+            "side": "a",
+            "gap": 0.017000000000000015
+          }
+        }
+      ],
+      "highlights": [
+        {
+          "k": "Rotation quality",
+          "lead": "Florida International",
+          "text": "Florida International leads on rotation quality — Missouri State 52.5, Florida International 54.1."
+        },
+        {
+          "k": "Depth quality",
+          "lead": "Florida International",
+          "text": "Florida International leads on depth quality — Missouri State 52.4, Florida International 53.5."
+        },
+        {
+          "k": "Starter quality",
+          "lead": "Florida International",
+          "text": "Florida International leads on starter quality — Missouri State 56.5, Florida International 57.0."
+        },
+        {
+          "k": "Returning starters",
+          "lead": "Missouri State",
+          "text": "Missouri State leads on returning starters — Missouri State 52%, Florida International 13%."
+        },
+        {
+          "k": "QB-room continuity",
+          "lead": "Missouri State",
+          "text": "Missouri State leads on qb-room continuity — Missouri State 40%, Florida International 17%."
+        }
+      ],
+      "note": "Roster construction from the committed rankings build. No recruiting star and no NIL figure appears here: no public feed this repo reads carries either, and a number nobody published is not estimated in its place."
+    },
+    "cases": {
+      "favourite": {
+        "team": "Florida International",
+        "heading": "Why Florida International can pull away",
+        "bullets": [
+          "Playing at Florida International is worth 2.8 points — the league-wide home-field number, because a per-venue table was tested and could not be told apart from the home team’s own quality (+2.8 pts).",
+          "Florida International is the better football team by 2.2 points on opponent-adjusted results, with roughly 30% of it still inherited from last season (+2.2 pts).",
+          "Depth: Florida International 53.5 (#46 of 138) vs Missouri State 52.4 (#124 of 138) — 78 places on the national board.",
+          "Defensive line: Florida International 56.1 (#41 of 138) vs Missouri State 48.4 (#112 of 138) — 71 places on the national board.",
+          "Run defense: Florida International 51.1 (#68 of 138) vs Missouri State 34.9 (#116 of 138) — 48 places on the national board."
+        ]
+      },
+      "underdog": {
+        "team": "Missouri State",
+        "heading": "Why Missouri State can keep it close",
+        "bullets": [
+          "Stylistically the matchup favours Missouri State by 0.8 points: pass rush vs pass protection (-0.8 pts).",
+          "Scheme fit: Missouri State 52.0 (#33 of 138) vs Florida International 49.1 (#102 of 138) — 69 places on the national board.",
+          "Offense: Missouri State 49.5 (#69 of 138) vs Florida International 37.1 (#132 of 138) — 63 places on the national board.",
+          "Run offense: Missouri State 47.8 (#76 of 138) vs Florida International 30.2 (#133 of 138) — 57 places on the national board.",
+          "The outcome range is 14.6 points wide at one sigma — p10 -16.8 to p90 +25.2 for Florida International, so a projection of +4.2 still produces results a long way either side of it."
+        ]
+      },
+      "note": "These are football cases assembled from measured states. Neither is a bet, and neither is advice."
+    },
+    "uncertainty": {
+      "items": [
+        {
+          "sev": "MEDIUM",
+          "label": "sample",
+          "text": "College ratings are built on twelve-game seasons against wildly uneven schedules; even a clean rating gap carries more estimation error than the number implies.",
+          "widening": null
+        },
+        {
+          "sev": "MEDIUM",
+          "label": "Missouri State — injury uncertainty",
+          "text": "100% of projected starter value has no availability record.",
+          "widening": null
+        },
+        {
+          "sev": "MEDIUM",
+          "label": "Missouri State — extreme transfer turnover",
+          "text": "73% of last season’s production value is gone. Most of last season’s production value has left, so the prior term is standing on much less than usual",
+          "widening": null
+        },
+        {
+          "sev": "MEDIUM",
+          "label": "Florida International — injury uncertainty",
+          "text": "100% of projected starter value has no availability record.",
+          "widening": null
+        },
+        {
+          "sev": "MEDIUM",
+          "label": "Florida International — extreme transfer turnover",
+          "text": "75% of last season’s production value is gone. Most of last season’s production value has left, so the prior term is standing on much less than usual",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "weather not supplied",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "home injury report not supplied",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "away injury report not supplied",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "REGIME CHANGE (Missouri State): REGIME CHANGE: new head coach; returning roster share at the 50th percentile; returning production at the 27th percentile. The long-run state is weighted 60% (regime curve) instead of 60% (standard curve) at 8 games played.",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "no book spread joined to this game — no edge is claimed",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "no book total joined to this game",
+          "widening": null
+        }
+      ],
+      "unmeasured": [
+        {
+          "item": "Home starting quarterback",
+          "why": "starting QB not supplied for home"
+        },
+        {
+          "item": "Away starting quarterback",
+          "why": "starting QB not supplied for away"
+        },
+        {
+          "item": "Home availability / injuries",
+          "why": "no injury report supplied for home"
+        },
+        {
+          "item": "Away availability / injuries",
+          "why": "no injury report supplied for away"
+        },
+        {
+          "item": "Weather at kickoff",
+          "why": "no weather supplied"
+        },
+        {
+          "item": "Off-field, culture and NIL situation",
+          "why": "no public feed for NIL figures, locker-room reporting or discipline exists that this engine reads; nothing is inferred and the gap is carried as uncertainty"
+        },
+        {
+          "item": "Coaching and coordinator continuity",
+          "why": "no public coaching-tenure feed is wired; a new coordinator changes a team’s identity in ways the ratings only learn after the fact"
+        },
+        {
+          "item": "Motivation, lookahead and locker-room state",
+          "why": "not measurable from any public source; treated as variance, never as a point adjustment"
+        },
+        {
+          "item": "Missouri State — recruiting ratings",
+          "why": "no legal, public, keyless recruiting feed is wired into EdgeDesk, so no recruiting rating exists for this roster. Nothing is estimated in its place."
+        },
+        {
+          "item": "Missouri State — availability and injuries",
+          "why": "no availability record reached this roster. UNKNOWN is carried as unknown; it is never read as healthy."
+        },
+        {
+          "item": "Florida International — recruiting ratings",
+          "why": "no legal, public, keyless recruiting feed is wired into EdgeDesk, so no recruiting rating exists for this roster. Nothing is estimated in its place."
+        },
+        {
+          "item": "Florida International — availability and injuries",
+          "why": "no availability record reached this roster. UNKNOWN is carried as unknown; it is never read as healthy."
+        }
+      ],
+      "note": "Unknown is never scored as zero. Every line here is a gap EdgeDesk carries as uncertainty rather than filling in."
+    },
+    "market": {
+      "available": false,
+      "model": "Florida International −4.0",
+      "model_raw": "Florida International -4.2",
+      "headline": "No sportsbook spread is currently joined to this game.",
+      "note": "There is no model-vs-market comparison yet. Everything above is still EdgeDesk’s current view of the matchup; a missing price removes the comparison and nothing else."
+    },
+    "research_view": {
+      "contract": "cfb_research_brief/1",
+      "view": "cfb_research_view/1",
+      "game_id": "401871074",
+      "home": "Florida International",
+      "away": "Missouri State",
+      "projected": true,
+      "engine_status": "PREDICTED",
+      "label": {
+        "key": "NO_MARKET",
+        "label": "NO MARKET",
+        "rule": "no_market",
+        "means": "There is no current market line to compare with: no market line is joined to this game. The projection stands on its own until a quote lands."
+      },
+      "disagreement": null,
+      "fair": {
+        "line_text": "Florida International −4.0",
+        "favorite_team": "Florida International",
+        "underdog_team": "Missouri State",
+        "display_fair_spread": 4.2,
+        "raw_home_margin": 4.23,
+        "raw_line_text": "Florida International -4.23",
+        "is_near_pickem": false
+      },
+      "market_gap": {
+        "available": false,
+        "reason": "no market line is joined to this game"
+      },
+      "confidence": {
+        "score": 83,
+        "tier": "HIGH",
+        "label": "High"
+      },
+      "reliability": {
+        "pct": 83,
+        "tier": "STRONG",
+        "text": "83 · STRONG",
+        "sub": "main deduction: Missouri State’s availability sources refused",
+        "score": 83,
+        "grade": "STRONG",
+        "grade_label": "STRONG",
+        "gate_label": null,
+        "components": [
+          {
+            "key": "team_data",
+            "label": "Team data",
+            "score": 20,
+            "max": 20
+          },
+          {
+            "key": "roster_availability",
+            "label": "Roster/status",
+            "score": 9,
+            "max": 20
+          },
+          {
+            "key": "projection_stability",
+            "label": "Stability",
+            "score": 20,
+            "max": 20
+          },
+          {
+            "key": "freshness",
+            "label": "Freshness",
+            "score": 12.3,
+            "max": 15
+          },
+          {
+            "key": "source_integrity",
+            "label": "Source integrity",
+            "score": 13.6,
+            "max": 15
+          },
+          {
+            "key": "environment",
+            "label": "Environment",
+            "score": 8.5,
+            "max": 10
+          }
+        ],
+        "main_deduction": "Missouri State’s availability sources refused — a provider-wide refusal, not this team’s: espn_depth and espn_participation refuse for all 138 programmes; the impact of Missouri State’s absences cannot be assessed: no graded availability read",
+        "capped_by": [],
+        "next_actions": [
+          {
+            "action": "Restore an injury/availability source for Missouri State",
+            "potential_gain": 5,
+            "text": "up to +5"
+          },
+          {
+            "action": "Restore an injury/availability source for Florida International",
+            "potential_gain": 5,
+            "text": "up to +5"
+          },
+          {
+            "action": "Capture a market quote",
+            "potential_gain": 3,
+            "text": "up to +3"
+          }
+        ],
+        "stability": {
+          "tier": "VERY_STABLE",
+          "sd": 0.81,
+          "favorite_flip_rate": 0
+        },
+        "scale": "0-100 reliability score, not a probability"
+      },
+      "drivers": {
+        "team": "Florida International",
+        "none": false,
+        "text": null,
+        "reasons": [
+          {
+            "kind": "component",
+            "key": "hfa",
+            "points": 2.8,
+            "text": "+2.8 pts home-field advantage"
+          },
+          {
+            "kind": "component",
+            "key": "rating",
+            "points": 2.21,
+            "text": "+2.2 pts team-strength edge (opponent-adjusted results)"
+          }
+        ]
+      },
+      "best_available_line": {
+        "available": false,
+        "reason": "no sportsbook quote has been captured for this game"
+      },
+      "projection_status": {
+        "key": "STABLE",
+        "label": "STABLE",
+        "text": "EdgeDesk’s number is unchanged since the latest published number."
+      },
+      "stability": {
+        "tier": "LOW",
+        "label": "Low",
+        "text": "the stored numbers span 6.0 pts across 3 readings"
+      },
+      "published": [
+        {
+          "at": "2026-10-28T22:44:48.157Z",
+          "source": "first published",
+          "home_margin": 10.22,
+          "text": "Florida International -10.2"
+        },
+        {
+          "at": "2026-11-01T18:01:05.765Z",
+          "source": "latest published",
+          "home_margin": 4.23,
+          "text": "Florida International -4.2"
+        }
+      ],
+      "revisions": 3,
+      "change_since_published": {
+        "comparable": true,
+        "points": 0,
+        "toward_team": "Missouri State",
+        "since_at": "2026-11-01T18:01:05.765Z",
+        "text": "unchanged since the latest published number"
+      },
+      "what_changed": {
+        "available": true,
+        "summary": "EdgeDesk moved 6.0 points toward Missouri State since the first published number.",
+        "attribution_text": "Projection changed 6.0 points since the first published number. Component-level attribution is unavailable: the stored snapshot keeps the number, not the terms behind it.",
+        "market": null,
+        "model_version": null
+      },
+      "parity": {
+        "ok": true,
+        "gaps": []
+      },
+      "note": "Research, not picks. Every value is read off EdgeDesk’s own projection and the market it was compared with; nothing here is a recommendation to bet."
+    },
+    "headline": "EdgeDesk projects Florida International 27, Missouri State 23.",
+    "state": {
+      "label": "NO MARKET",
+      "note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
+      "scope": "This describes the state of EdgeDesk’s model-versus-market research on this game. It is not a statement about whether the matchup is worth researching."
+    },
+    "score": {
+      "away": {
+        "team": "Missouri State",
+        "points": "23"
+      },
+      "home": {
+        "team": "Florida International",
+        "points": "27"
+      },
+      "expected": {
+        "text": "Florida International 27.47, Missouri State 23.24",
+        "home": 27.47,
+        "away": 23.24,
+        "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
+      },
+      "note": "Split from EdgeDesk’s own projected margin and total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
+    },
+    "table": {
+      "cols": [
+        "Missouri State",
+        "Florida International"
+      ],
+      "rows": [
+        {
+          "k": "ETSR (overall)",
+          "a": "-4.7  #102",
+          "h": "-7.7  #120",
+          "note": "points vs an average FBS team, neutral field"
+        },
+        {
+          "k": "Talent",
+          "a": "45.2  #97",
+          "h": "47.6  #82",
+          "note": null
+        },
+        {
+          "k": "Performance",
+          "a": "41.8  #103",
+          "h": "36.3  #120",
+          "note": null
+        },
+        {
+          "k": "Offense",
+          "a": "49.5  #69",
+          "h": "37.1  #132",
+          "note": null
+        },
+        {
+          "k": "Defense",
+          "a": "40.7  #119",
+          "h": "46.6  #89",
+          "note": null
+        },
+        {
+          "k": "Special teams",
+          "a": "48.0  #105",
+          "h": "46.9  #117",
+          "note": null
+        },
+        {
+          "k": "Run offense",
+          "a": "47.8  #76",
+          "h": "30.2  #133",
+          "note": null
+        },
+        {
+          "k": "Pass offense",
+          "a": "52.1  #56",
+          "h": "42.7  #112",
+          "note": null
+        },
+        {
+          "k": "Run defense",
+          "a": "34.9  #116",
+          "h": "51.1  #68",
+          "note": null
+        },
+        {
+          "k": "Pass defense",
+          "a": "43.0  #104",
+          "h": "42.0  #107",
+          "note": null
+        },
+        {
+          "k": "QB room",
+          "a": "58.2  #71",
+          "h": "56.2  #99",
+          "note": null
+        },
+        {
+          "k": "Offensive line",
+          "a": "46.5  #111",
+          "h": "49.1  #93",
+          "note": null
+        },
+        {
+          "k": "Receivers",
+          "a": "54.5  #91",
+          "h": "54.1  #107",
+          "note": null
+        },
+        {
+          "k": "Running backs",
+          "a": "55.2  #106",
+          "h": "54.4  #127",
+          "note": null
+        },
+        {
+          "k": "Defensive line",
+          "a": "48.4  #112",
+          "h": "56.1  #41",
+          "note": null
+        },
+        {
+          "k": "Linebackers",
+          "a": "49.9  #109",
+          "h": "53.0  #71",
+          "note": null
+        },
+        {
+          "k": "Secondary",
+          "a": "50.3  #98",
+          "h": "55.1  #55",
+          "note": null
+        },
+        {
+          "k": "Depth",
+          "a": "52.4  #124",
+          "h": "53.5  #46",
+          "note": null
+        },
+        {
+          "k": "Continuity",
+          "a": "44.0  #74",
+          "h": "36.1  #109",
+          "note": null
+        },
+        {
+          "k": "Confidence",
+          "a": "55%",
+          "h": "53%",
+          "note": "how much EdgeDesk knows, not how good the team is"
+        },
+        {
+          "k": "Δ national rank, this week",
+          "a": "up 4",
+          "h": "down 2",
+          "note": "differenced from last week’s committed snapshot"
+        }
+      ]
+    },
+    "notes": [
+      "EdgeDesk’s line is Florida International −4.0 on a neutral read of the two teams, before any book is consulted. Projected total 50.5.",
+      "Florida International wins 61% of the time in EdgeDesk’s simulation, Missouri State 39%.",
+      "Eight games in ten land between -16.8 and +25.2 for Florida International. A single result inside that band tells you nothing new about either team.",
+      "No sportsbook spread is joined to this game, so there is no model-versus-market comparison. EdgeDesk’s own number and the research behind it are unchanged by that.",
+      "Missouri State quarterback: Henry Belin IV — started the last game; no announcement for this one.",
+      "Florida International quarterback: JJ Kohl — started the last game; no announcement for this one."
+    ],
+    "missing": [
+      "No availability report reached Henry Belin IV — unknown is carried as unknown, never as healthy.",
+      "No availability report reached JJ Kohl — unknown is carried as unknown, never as healthy."
+    ],
+    "context_label": "RESEARCH CONTEXT — position-group, player-quality, roster and scheme figures explain this matchup and move no priced number.",
+    "priced_label": "PRICED BY MODEL — the projection and its drivers, from validated inputs only.",
+    "source": "Ratings: football/rankings/current.json — 2026 Week 9, built 2026-10-31. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser."
+  },
+  "football_evidence": {
+    "schema": "edgedesk_article_evidence_v1",
+    "packet_hash": "1ykdrmjejl1yx",
+    "status": "NO_MATERIAL_DISAGREEMENT",
+    "input_suspect": false,
+    "question": "Can Florida International take away Missouri State’s big plays?",
+    "assessment": "No material disagreement: EdgeDesk and the line are within 0.2 points.",
+    "gap": {
+      "points": 0.2,
+      "toward": "Florida International",
+      "other": "Missouri State"
+    },
+    "supporting": [
+      "When Missouri State has the ball (pass protection against the pass rush): Missouri State’s offense has allowed a sack on 6.3% of its dropbacks, and Florida International’s defense sacks the quarterback on 6.9% of opponent dropbacks (FBS average 5.7%).",
+      "When Missouri State has the ball (third down): Missouri State’s offense converts 37.4% of its third downs, and Florida International’s defense allows opponents to convert 28.6% of their third downs (FBS average 39.6%).",
+      "In his last two games (SMU and Western Kentucky), Locklear averaged 4.4 yards per attempt, against 9.2 in his three games before that.",
+      "EdgeDesk’s position-group ratings put Florida International’s defensive line No. 41 nationally and Missouri State’s No. 112."
+    ],
+    "contradicting": [
+      "When Florida International has the ball (big plays on the ground): Florida International’s offense turns 3.9% of its runs into explosive gains, and Missouri State’s defense gives up explosive gains on 5.7% of opponent runs (FBS average 6.5%).",
+      "When Missouri State has the ball (big plays through the air): Missouri State’s offense turns 14.0% of its pass plays into explosive gains, and Florida International’s defense gives up explosive gains on 11.3% of opponent pass plays (FBS average 10.2%).",
+      "When Florida International has the ball (the run game against the run defense): Florida International’s offense averages 4.0 yards per carry, and Missouri State’s defense allows 4.8 yards per carry (FBS average 5.0).",
+      "When Florida International has the ball (the red zone): Florida International’s offense succeeds on 31.4% of its red-zone plays, and Missouri State’s defense allows success on 44.3% of opponent red-zone plays (FBS average 43.5%)."
+    ],
+    "quarterbacks": [
+      "JJ Kohl has completed 152 of 259 passes (58.7%) for 1,821 yards, 7.0 yards per attempt, 12 touchdowns and 9 interceptions in eight games for Florida International, and has been sacked on 11 of 270 dropbacks.",
+      "Zach Marker has completed 8 of 15 passes (53.3%) for 109 yards, 7.3 yards per attempt, no touchdowns and no interceptions in four games for Florida International, and has been sacked on 0 of 15 dropbacks.",
+      "Henry Belin IV has completed 84 of 125 passes (67.2%) for 1,062 yards, 8.5 yards per attempt, 8 touchdowns and 4 interceptions in seven games for Missouri State, and has been sacked on 7 of 132 dropbacks.",
+      "Skyler Locklear has completed 71 of 108 passes (65.7%) for 788 yards, 7.3 yards per attempt, 4 touchdowns and 2 interceptions in five games for Missouri State, and has been sacked on 9 of 117 dropbacks."
+    ],
+    "availability": [],
+    "script": {
+      "model": [
+        "Florida International’s defense has to come out ahead on big pass plays: it gives up explosive gains on 11.3% of opponent pass plays, against an offense that turns 14.0% of its pass plays into explosive gains.",
+        "Florida International’s offense has to hold its own on long runs against a defense that gives up explosive gains on 5.7% of opponent runs.",
+        "Florida International’s defense has to come out ahead in the pass-rush matchup: it sacks the quarterback on 6.9% of opponent dropbacks, against an offense that has allowed a sack on 6.3% of its dropbacks.",
+        "Florida International’s defense has to come out ahead on third down: it allows opponents to convert 28.6% of their third downs, against an offense that converts 37.4% of its third downs."
+      ],
+      "market": [
+        "Missouri State’s offense has to keep winning on big pass plays: it turns 14.0% of its pass plays into explosive gains, and Florida International’s defense gives up explosive gains on 11.3% of opponent pass plays.",
+        "Missouri State’s defense has to come out ahead on long runs: it gives up explosive gains on 5.7% of opponent runs, against an offense that turns 3.9% of its runs into explosive gains.",
+        "Belin keeps producing at his season rate (67.2% completions, 8.5 yards per attempt, 8 TD, 4 INT)."
+      ]
+    },
+    "unknown": [
+      "EdgeDesk’s own sources disagree on sack rate and sack rate allowed for Florida International and Missouri State.",
+      "Not in EdgeDesk’s verified data for this game: turnover rates and penalty rate."
+    ],
+    "flags": [
+      {
+        "key": "DATA_CONFLICT",
+        "severity": "medium",
+        "text": "EdgeDesk’s own sources disagree on sack rate (Florida International), sack rate allowed (Missouri State) and sack rate (Missouri State); the evidence uses the corroborated figures, and any model term built on the play-by-play figure may be off."
+      },
+      {
+        "key": "REGIME_CHANGE",
+        "severity": "medium",
+        "text": "Missouri State: new head coach; returning roster share at the 50th percentile; returning production at the 27th percentile. The long-run state is weighted 60% (regime curve) instead of 60% (standard curve) at 8 games played."
+      }
+    ],
+    "sources": [
+      {
+        "label": "EdgeDesk play-by-play metrics, quarterback logs and box scores",
+        "url": null,
+        "path": "football/matchup/metrics.json",
+        "observed_at": "2026-11-01T22:55:26.361Z",
+        "verification": "VERIFIED_DATA"
+      },
+      {
+        "label": "EdgeDesk play-by-play quarterback logs (2026)",
+        "url": null,
+        "path": "football/fbs_epa/qb_epa_2026.json",
+        "observed_at": "2026-11-01T03:00:00.000Z",
+        "verification": "VERIFIED_DATA"
+      },
+      {
+        "label": "EdgeDesk position-group ratings",
+        "url": null,
+        "path": "football/rankings/current.json",
+        "observed_at": "2026-10-31T20:46:59.209Z",
+        "verification": "RATING"
+      }
+    ],
+    "needs_confirmation": []
+  },
+  "checks": {
+    "ok": true,
+    "failed": [],
+    "at": "2026-11-02T00:36:55.151Z"
+  }
+}

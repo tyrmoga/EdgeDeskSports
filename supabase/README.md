@@ -154,7 +154,7 @@ Run in that order (`.github/workflows/deploy-kalshi.yml` does it, tests first). 
   - `kalshi_series` (Kalshi's Sports series; `tracked` is the operator's switch and discover never writes it), `kalshi_link_series` (the NFL / CFB game-winner series, seeded `KXNFLGAME` and `KXNCAAFGAME`), `kalshi_markets`;
   - `kalshi_price_snapshots` (T0, provider Kalshi; append-only: one row per market per 5-minute run), `kalshi_sync_runs` and `kalshi_alerts` (append-only);
   - `kalshi_game_links` (append-only; the one later write is filling a missing `game_id`, once): a game-winner market linked to EXACTLY ONE book event (`signals.event_id`, the h2h `sig_key` of the same team) on both teams and the date, and to the card's own id (`game_research_state.game_id`). An event that does not match is not stored;
-  - views: `kalshi_snapshot_mid` (no mid when one-sided or the spread is over 0.06), `kalshi_closing_snapshot` (a linked game closes at KICKOFF — Kalshi game markets trade in-game and their `close_time` is ~48 h after kickoff), `kalshi_close_capture_health` (a market with no snapshot near its close is a counted miss), `kalshi_book_comparison` and `kalshi_book_closing_comparison` (T2: Kalshi mid − de-vigged book fair, nearest capture pass, flagged over 10 minutes apart, spread > 0.06 excluded), `kalshi_card_current` (the card's display rule, applied once), `kalshi_readiness` (the KPIs) and `kalshi_meta` (the pipeline ledger);
+  - views: `kalshi_snapshot_mid` (no mid when one-sided or the spread is over 0.06), `kalshi_closing_snapshot` (a linked game closes at KICKOFF — Kalshi game markets trade in-game and their `close_time` is ~48 h after kickoff), `kalshi_close_capture_health` (a market with no snapshot near its close is a counted miss), `kalshi_book_comparison` and `kalshi_book_closing_comparison` (T2: Kalshi mid − de-vigged book fair, nearest capture pass, flagged over 10 minutes apart, spread > 0.06 excluded), `kalshi_card_current` (the card's display rule, applied once), `kalshi_readiness` (the KPIs: a state other than ok always has a `state_reason`; one failed run followed by 30 minutes of good runs of its mode is a `recent_incident`, still counted, not a warning, while a repeated, unrecovered or recovering one is) and `kalshi_meta` (the pipeline ledger);
   - the rules in `kalshi_rule()` (0.06, 10 minutes, …), a function rather than a config row, so changing one is a reviewed code change.
   - safe over the starter `kalshi_schema.sql`: its tables and rows are kept and given this layer's columns (`kalshi_series.first_seen_at`, `kalshi_markets.title`, `kalshi_price_snapshots.run_id`), and its three views (no data) are replaced. `kalshi_market_data_cron.sql` removes the starter's two cron jobs if they were scheduled.
   RLS on every table; anon and authenticated may read Kalshi's (public) tables, only service_role writes. **Every view runs as the reader** (`security_invoker`): `signals` is gated by RLS on `has_active_sub()`, so the comparison, the close and the card's gap answer only a reader who may read the book fair. Report rows should say ok; row 8 says pending until a series is tracked.
@@ -162,6 +162,22 @@ Run in that order (`.github/workflows/deploy-kalshi.yml` does it, tests first). 
 - **`kalshi_market_data_rollback.sql`** removes all of it (destructive: the snapshot history goes with its table).
 
 Tested against a real PostgreSQL by `tools/kalshi/kalshi_sql.test.js`.
+
+### `novig_market_data.sql` + `novig_market_data_cron.sql` — Novig exchange prices beside DraftKings, at a stake
+
+Run in that order (`.github/workflows/deploy-novig.yml` does it, tests first). A new data source, not a model change: nothing here touches a projection, ranking, threshold, EV guard, grade or the CLV record, and it writes nothing outside `novig_*`. `docs/novig/README.md` is the narrative.
+
+- **`novig_market_data.sql`** (needs `public.signals` and DraftKings prices: `sharp_lag.sql`'s `public.sharp_price_snapshots`, the full tape, or else `book_quote_ticks.sql`'s `public.book_quote_ticks`, DraftKings for actionable signals only. The service-only view `novig_dk_tape` reads whichever exists; mirrored in `migrations/20261030120000_novig_market_data.sql`) adds:
+  - `novig_events`, `novig_markets` (the catalog: fee schedule, void rule, outcomes, consensus flag, the last book seq and ETag, `book_confirmed_at`);
+  - `novig_book_snapshots` (T0, provider Novig; append-only, unique on environment/market/source/seq: the top of book and the $25–$500 fills) and `novig_book_depth` (the ladder; pruned after 7 days by `novig_prune()`, each market's close kept);
+  - `novig_market_links` (append-only; one invalidation allowed): a Novig market matched to exactly one book event, market, period, line and side, with confidence, method, constraints and settlement notes; `novig_unmapped` (the queue, `novig_record_unmapped()`);
+  - `novig_sync_runs`, `novig_alerts` (append-only; a run can carry `halt_until`), `novig_config` + `novig_config_log` (the operator's switches: `public_display` off, `expected_environment` production; every change logged);
+  - the rules in `novig_rule()` (= `lib/edgedesk_venue_compare.js` RULES);
+  - `novig_can_read()`: the operator, or — once `public_display` is on — a subscriber. Every table's RLS uses it (or `novig_is_operator()`); anon reads nothing. `novig_compare()`, `novig_history()` and `novig_price_gap_summary()` are SECURITY DEFINER and check it first, because the DraftKings tape stays service-role only; `novig_access()` tells the UI who the reader is; `novig_readiness` and `novig_meta` are the KPIs.
+- **`novig_market_data_cron.sql`** (mirrored in `migrations/20261030120100_novig_market_data_cron.sql`) pokes `novig_sync` through `novig_poke(mode)` and the Vault secret `novig_cron_secret`: probe daily 10:23 UTC, discover hourly at :07, snapshot every 5 minutes; `novig_prune()` daily 04:41 UTC. Safe before credentials exist: the function records one skipped run an hour.
+- **`novig_market_data_rollback.sql`** removes all of it (destructive: the snapshot history goes with its table).
+
+Tested against a real PostgreSQL by `tools/novig/novig_sql.test.js`.
 
 ### `simulator.sql` + `simulator_registry.sql` — the EdgeDesk Simulator (season probabilities, Kalshi futures)
 
@@ -538,6 +554,9 @@ only turns the day-1 and day-3 tips off; the billing reminder is not a tip.
 `lifecycle_admin_summary()` / `lifecycle_admin_set()` back the controls in
 `/admin/funnel/`. Report rows 1-5 should say `ok`. Tested by
 `tools/funnel/funnel_sql.test.js`; the sender by `tools/lifecycle/lifecycle.test.js`.
+Fairline's weekly Tape (`fairline_tape.sql`, below) is sent through this same
+pipeline: the same hourly job, sender, settings and `lifecycle_tokens`, behind
+`sending_enabled` and a switch of its own.
 
 ### `bankroll_and_stakes.sql` — the risk policy and the stake audit trail
 `bankroll_settings` is one MUTABLE row per reader: the bankroll (deliberately
@@ -581,6 +600,176 @@ signed-in readers. Views: `bettor_decision_transitions`,
 `bettor_decision_performance` (per unit tier; `sufficient_sample` false under
 50 settled bets) and `user_bet_clv`. Tested against a real PostgreSQL by
 `tools/bettor/bettor_sql.test.js`; the design is `docs/bettor-decision/DESIGN.md`.
+
+### `radar.sql` + `radar_registry.sql` + `radar_record.sql` + `polymarket_sync_cron.sql` — Prediction Radar: graded Polymarket sports bettors (EXPERIMENTAL)
+
+Run in that order. Needs capture's `signals` (it names any column it reads
+that is missing) and uses `has_active_sub()` when present. Mirrored byte for
+byte in `migrations/20261029120000_radar.sql`. `docs/prediction-radar.md` is
+the narrative.
+
+- **`radar.sql`** adds:
+  - `radar_rules()`, **the one constant** for every threshold. The H-RADAR-01
+    registration's frozen copy is held equal to it by test.
+  - `radar_config` with `POLYMARKET_DATA_ENABLED`, which starts **off**, and
+    `radar_config_log` (append-only).
+  - The gateway's budget: `poly_api_acquire()` / `poly_api_settle()` (per-run
+    cap, daily ceiling, breaker), with `poly_api_days`, `poly_api_grants` and
+    `poly_api_settlements`.
+  - `poly_wallets` (the pool; a name only when public; no bio) and
+    `poly_markets` (each matched once to one `signals.event_id`; a resolution is
+    final).
+  - Append-only `poly_trades` (with transaction hashes), `poly_bets` (graded once,
+    only at the market's own settlement and the rules' own follow and close),
+    `poly_grade_runs` + `poly_wallet_grades` (versioned per run, through
+    `radar_put_grades()`), `poly_holder_snapshots`, `poly_price_snapshots`,
+    `poly_sync_runs` and `poly_alerts`.
+  - The doors:
+    - `radar_status()` for anyone;
+    - `radar_leaderboard()` and `radar_trader()` for anyone, once on and
+      registered (open positions only for a subscriber);
+    - `radar_teaser()` for anyone (the public `/radar/` page): the first card's
+      game, count and dollars, never the side;
+    - `radar_tonight()`, Smart Money Tonight, for subscribers only.
+
+  RLS is on everywhere. Anon and a signed-in browser read the grades only (by
+  policy, only while on and registered). They read no trade, holder, price,
+  pool or budget row.
+
+  Report rows say ok. Row 6 says `pending: off` until the owner turns Radar on;
+  row 7 says pending until `radar_registry.sql` is applied.
+- **`radar_registry.sql`** is GENERATED by `tools/radar/build_registry_sql.js`
+  from `research/radar/registration_h_radar_01.json` and, once it exists, the
+  validation report `research/radar/H-RADAR-01/report.json`. It:
+  - registers H-RADAR-01 EXPERIMENTAL with its criteria and forking-paths
+    disclosure;
+  - writes the report's verdict as one `research_model_results` row;
+  - names the version in `radar_config`. No door shows anything without it.
+- **`radar_record.sql`** (mirrored in `migrations/20261029130000_radar_record.sql`)
+  is the Radar record. It has two append-only tables:
+  - `radar_cards`: every Smart Money Tonight card, published once per game
+    and side at the Polymarket price then, by `radar_publish_cards()`;
+  - `radar_card_results`: each card graded once after its game by
+    `radar_grade_cards()`. That covers the close, beat-close, CLV%, the result
+    from the market's resolution and the ROI of one unit at the published
+    price; void a week after the start without a resolution.
+
+  The door is `radar_record()`, for subscribers only. It is EXPERIMENTAL
+  until H-RADAR-01 passes, a small sample under 200 graded cards, and carries
+  what H-RADAR-01 found. The 10-minute `polymarket_sync` run publishes and
+  grades.
+- **`polymarket_sync_cron.sql`** pokes `polymarket_sync` through `radar_poke(mode)`
+  and the Vault secret `polymarket_sync_cron_secret`:
+  - `tonight` every 10 minutes;
+  - `pool` at 06:07 UTC;
+  - `wallets` every 5 minutes from 06:10 to 09:55 UTC;
+  - `grade` at 10:17 UTC.
+
+  A missing secret is recorded as a failed run and a FAILURE alert.
+
+Tested against a real PostgreSQL by `tools/radar/radar_sql.test.js` and
+`tools/radar/sync_fn.test.js`.
+
+### `bet_checker.sql` + `bet_checker_cron.sql` — Bet Checker: the reader's own bets, graded at entry and at the close
+Apply **after** `bettor_decisions.sql` and `billing_hardening.sql` (it stops,
+naming either, otherwise) on a project with capture's `signals` (it names any
+column it reads that is missing). Mirrored byte for byte in
+`migrations/20261028120000_bet_checker.sql`; applied by
+`.github/workflows/deploy-bet-checker.yml`. `docs/bet-checker.md` is the narrative.
+
+- **No new bets table.** `user_bets` gains the entry (`entry_fair_price`,
+  `entry_fair_prob`, `entry_edge_pct`, `entry_grade`, `entry_grade_reason`), the
+  close (`close_status`, `close_reason`, `close_fair_prob`, `clv_pct`, reusing
+  `close_line` / `close_odds`), the flag (`edgedesk_flagged`,
+  `flagged_signal_id`), `event_id` and `updated_at`. A Bet Checker row names a
+  board event; the view `bet_checker_bets` shows it under Bet Checker's names.
+- **The rules are one constant**, `bet_checker_rules()` (green ≥ +1.5 points,
+  red ≤ −1.5, ten free grades a New York calendar month, a "current" fair seen
+  within 390 minutes).
+- **The grading columns are the service role's**: a reader may update `notes`
+  and `status` only (the existing column grants), and a reader's own insert is
+  reset to ungraded by trigger. An event must be on the board, NFL or CFB, and
+  not started.
+- `bet_checker_log_bet()` (service role; the `log_user_bet` function): the free
+  allowance under a per-reader advisory lock, the fair at EXACTLY the line,
+  the edge and grade — or ungraded with the reason — in one transaction.
+  `bet_checker_grades` is the append-only allowance ledger.
+- `bet_checker_grade_pending()` (service role; `grade_user_bets`, every 15
+  minutes by `bet_checker_cron.sql`): CLV at the bet's own line by the house
+  formula, `no_close_available` with close's own reason otherwise, the result
+  from settle or the final score, the flag after kickoff. Idempotent; every run
+  in `bet_checker_grade_runs`.
+- The reader's doors: `bet_checker_games()`, `bet_checker_lines()` (identity
+  and lines, never a price), `my_bet_checker_bets()` (free: 30 days),
+  `my_bet_checker_stats()` (paid only: `has_bet_checker_paid()`),
+  `bet_checker_usage()`.
+- **The report** has 11 rows (`bet_checker_cron.sql`: 3, row 2 naming the
+  `close` job it follows). Tested against a real PostgreSQL by
+  `tools/bet_checker/bet_checker_sql.test.js`.
+
+### `fairline.sql` — Fairline: The Board and The Leaks
+Apply **after** `bettor_decisions.sql`, `billing_hardening.sql` (with the
+`black` tier and `has_fairline_paid()`; `docs/billing-hardening.md` §15),
+`bet_checker.sql`, `portfolio.sql` and `bet_import.sql` (it stops, naming the
+missing one, otherwise) on a project with capture's `signals` (it names any
+column it reads that is missing). Mirrored byte for byte in
+`migrations/20261028180000_fairline.sql`. `docs/fairline.md` is the narrative.
+
+- **No table, no policy.** Functions and one view only. `signals` keeps its
+  terminal-only RLS: The Board reads it through one security-definer door.
+- **The rules are one constant**, `fairline_rules()` (a label from 15 settled
+  bets, a label about the close from 15 captured closes, the odds, lead-time
+  and stake buckets, and capture's own freshness limits for The Board).
+- **The gate is one helper**, `fairline_paid()`: every door calls it, and it
+  calls `has_fairline_paid()` (`billing_hardening.sql`): Fairline (`black`)
+  or the Research Terminal (`blue`). Apply `billing_hardening.sql` first.
+- `fairline_bets_for(uuid)` (the caller or the service role): one row per bet
+  from `user_bets` and `portfolio_positions`, a bet in both counted once
+  (linked, same market key, same game), with units, dollars and the house CLV
+  where the pipeline owns the close. `fairline_my_bets()` and the view
+  `fairline_bets` serve the caller only, paid only.
+- `fairline_leaks()`: every slice (sport, market, bet type, odds, lead time,
+  book, stake vs median) with its label (real leak, bad luck, running hot,
+  real edge; P/L only without closes; none below the sample); paid only, a
+  free account gets the biggest leak's slice name and no number.
+- `fairline_board(p_sport, p_market, p_book)`: fair, the best price
+  (`book_quotes` before `signals`), edge, quote age and freshness, Kalshi when
+  its card says OK, DK Predictions inactive; paid every row, free the top 3.
+- `fairline_slices_at(uuid, from, to)`: the same slices over one window of
+  bets (by the game's start); `fairline_slices_for()` is it over every bet.
+  The Tape reads its week through it.
+- **The report** has 9 rows. Tested against a real PostgreSQL by
+  `tools/fairline/fairline_sql.test.js`.
+
+### `fairline_tape.sql` / `fairline_tape_cron.sql` — The Tape, Fairline's Monday recap
+Apply **after** `fairline.sql` and `lifecycle_email.sql` (it stops, naming the
+missing one, otherwise). Mirrored byte for byte in
+`migrations/20261029120000_fairline_tape.sql` and
+`migrations/20261029120100_fairline_tape_cron.sql`. `docs/fairline.md` is the
+narrative.
+
+- `fairline_tapes`: **append-only**, one Tape per Fairline reader per week
+  (Monday to Monday, America/Chicago). Triggers refuse UPDATE, TRUNCATE and
+  any DELETE while the reader exists, for every role; deleting the account
+  still removes its Tapes. No client role reads it: the page reads through
+  `fairline_tapes()`, paid only (`fairline_paid()`).
+- `fairline_tape_build(at, force)`: service role / pg_cron; due Monday from
+  06:00 in Chicago, builds last week's Tape for every Fairline reader, once
+  (the unique key), and queues its email in `fairline_tape_deliveries`.
+- `fairline_tape_due()` / `fairline_tape_mark()`: the sender's
+  (`tools/fairline/tape_send.js`, in `lifecycle-email.yml`). Claim once,
+  re-check the reader now (opted out, bounced, no longer Fairline, too late,
+  a quiet week: skipped with the reason). Nothing is claimed unless
+  `lifecycle_settings.sending_enabled` **and**
+  `fairline_tape_settings.email_enabled` (**off by default**) are on.
+- `fairline_tape_unsubscribe(token)` (anon, the reader's `lifecycle_tokens`
+  token) and `fairline_tape_email(on)` (the reader): only The Tape's email,
+  `user_preferences.fairline_tape_emails`.
+- `fairline_tape_cron.sql`: one pg_cron job, `fairline_tape_build`, Mondays
+  at :23 past 11:00 and 12:00 UTC; the build decides which is 06:00 in
+  Chicago. No HTTP call and no secret.
+- **The reports** have 8 and 3 rows. Tested against a real PostgreSQL by
+  `tools/fairline/tape_sql.test.js`.
 
 ### `card_opportunities.sql` — the EdgeDesk Card's saved games and props
 Apply **after** `bettor_decisions.sql` (the file stops with a message naming

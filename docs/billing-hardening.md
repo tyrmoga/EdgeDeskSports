@@ -445,8 +445,10 @@ that does not hold.
 (`billing-probe-a|b@edgedesksports.com`, confirmed without email,
 `user_metadata.billing_probe = true`), never a customer. Probe B gets a
 `comp_trial` row for the comp tests, removed again in a `finally`. After stage 6,
-probe A has a Stripe customer and ONE open, unpaid Checkout Session that expires
-on its own within 24 hours. Nothing is charged and no Stripe object is invented.
+probe A has a Stripe customer and one open, unpaid Checkout Session per price it
+opened: Bet Checker monthly and annual (probed whether or not `STRIPE_PRICE_ID`
+is set, since Bet Checker's prices are found by lookup key), and the terminal's
+when the price is set. Each expires on its own within 24 hours. Nothing is charged and no Stripe object is invented.
 "An existing subscriber's sync" is not something CI can do without that
 subscriber's password — do it from `/admin/billing/` (search a paying customer:
 expect **ACCESS GRANTED — systems agree**; *Repair from Stripe* → outcome
@@ -632,3 +634,95 @@ you refund.
 * **Hand-made entitled rows without a Stripe subscription** (e.g. the 2108 row) are
   protected from Stripe revoking them and raise `db_active_stripe_inactive`; convert
   each to `owner_comp`, a `comp_trial`, or delete it.
+
+## 14. Two tiers (2026-10-28)
+
+Two products are sold now: **Bet Checker** (Stripe product metadata
+`tier = red`, $7.99/month or $59/year, sold by lookup keys
+`bet_checker_monthly` / `bet_checker_annual`) and the **Research Terminal**
+(`tier = blue`, $49.99/month). They share the one `subscriptions` row and the
+one writer. The rule changed so that red never opens the terminal:
+
+- `billing_row_in_good_standing()` is §1's rule as it was (still immutable);
+  `billing_row_grants_access()` is it **and** a price that does not sell red
+  (`billing_tier_of_price()`, read from `billing_price_tiers`). Every gate that
+  calls the rule — RLS, `community_is_entitled()`, `billing_access_for()`, the
+  Signal Center, Simulator and Market Foresight gates — inherits this.
+- What a price sells is written only by `billing_learn_price_tier()`, from the
+  product's metadata: `create_checkout_session` before payment, the
+  reconciler on every sync (it reads each subscription's product). A price
+  nobody can name stays unknown (the terminal, as every price sold before Bet
+  Checker was) and raises `unknown_price_tier`; a tier that changes raises
+  `price_tier_changed`.
+- `subscriptions.tier` follows the price by trigger; `has_bet_checker_paid()`
+  and `billing_access_for()`'s `bet_checker_paid` are red or blue in good
+  standing; a red row is offered `upgrade` (a plan switch in the portal).
+- The billing functions' restricted keys do **not** need READ on Products.
+  Stripe refuses such a key the product (403); the functions then read the
+  price's own metadata `tier` (both Bet Checker prices carry `tier = red`),
+  and the terminal's checkout goes on without a product. A product that was
+  read and names no tier is never overruled by its price.
+
+Before deploying: §11 query 10 must show that the production-only paywall
+RLS calls the rule rather than inlining statuses, or a Bet Checker
+subscription would still read the terminal's data. Full detail and tests:
+`docs/bet-checker.md`.
+
+## 15. Three tiers: Fairline (2026-10-28)
+
+A third product: **Fairline** (Stripe product metadata `tier = black`,
+$19.99/month or $159/year, sold by lookup keys `fairline_monthly` /
+`fairline_annual`): Bet Checker plus The Board, The Leaks and The Tape
+(`docs/fairline.md`). The ladder is red ⊂ black ⊂ blue:
+
+| Tier | `billing_row_grants_access()` (terminal) | `has_fairline_paid()` | `has_bet_checker_paid()` |
+|---|---|---|---|
+| red (Bet Checker) | no | no | yes |
+| black (Fairline) | **no** | yes | yes |
+| blue (Research Terminal), comps, a price never learned | yes | yes | yes |
+
+- The rule itself is unchanged: the terminal is a price that sells blue, or
+  one never learned. So a black price the database does not know **would**
+  open the terminal; everything below exists to make that impossible.
+- Both tier CHECK constraints (`billing_price_tiers`, `subscriptions`) know
+  black; each is dropped and re-added in one statement, only when it does not.
+  `billing_learn_price_tier()` accepts black.
+- `create_checkout_session {kind: 'fairline'}` sells only a price whose
+  product says black, records it **before** the session exists, and **refuses
+  to sell** (503, nothing created) when the database could not record it —
+  an error, or `refused:tier` from a database that has not had this file
+  re-applied.
+- The reconciler names a price Stripe cannot (Products refused, or Stripe not
+  reachable at all — the webhook now resolves the event's own price before its
+  fallback write): from what the database learned, else the price's own
+  metadata `tier`, else the EdgeDesk lookup key it is sold under
+  (`bet_checker_*` red, `fairline_*` black), and learns it. A plan switch in the
+  portal to a Fairline price nobody bought through checkout yet is therefore
+  black, never the terminal.
+- `billing_access_for()` adds `fairline_paid` and reason `fairline_only`; a
+  black row is offered `upgrade` (a portal switch). A Bet Checker customer
+  buying Fairline, or a Fairline customer buying the terminal's trial, gets
+  `switch_plan`, never a second subscription.
+- Juice Reel sells only the terminal. When a Juice Reel buyer's row holds a
+  live red or black Stripe plan, the terminal replaces it on the row and
+  `juicereel_and_stripe_both_paid` is raised, so a human cancels that Stripe
+  subscription.
+- Report row 15 checks every learned red and black price against the rule.
+
+Before selling Fairline: §11 query 10 again — the production-only paywall
+(`has_active_sub()` and the RLS that calls it) must defer to
+`billing_row_grants_access()`, or a Fairline subscription would read the
+terminal's data. Tests: `tools/billing/fairline_tier.test.js`.
+
+**2026-10-29: it did not.** Deploy Fairline's paywall check found production's
+`has_active_sub()` reading `subscriptions`' status itself, so a red or black
+subscription would have passed it. No red or black subscription existed in
+Stripe, so nothing had leaked. `supabase/paywall_rule.sql` (an authorization
+change) gives it the rule's body. `CREATE OR REPLACE` keeps its owner and
+grants, and no policy changes. Deploy Fairline applies it with `paywall_rule`:
+first `dry_run`, then `apply`. In one transaction, it records every account's
+answer before, makes the change, and records every answer after. It prints
+counts only, and it refuses to commit if an account would lose access through
+anything but a `subscriptions` row. Tests: `tools/billing/paywall_rule.test.js`.
+The first dry run refused: one account had the terminal without a row. EdgeDesk's
+operators (`billing_is_admin()`) now keep it by the same function.

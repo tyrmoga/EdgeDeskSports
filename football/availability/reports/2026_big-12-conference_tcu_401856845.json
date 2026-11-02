@@ -1,0 +1,161 @@
+{
+ "schema": "edgedesk_availability_report_v1",
+ "version": 1,
+ "conference": "Big 12 Conference",
+ "conference_id": "big12",
+ "team": "TCU",
+ "game_id": "401856845",
+ "kickoff": "2026-10-31T19:30:00.000Z",
+ "source_url": "https://app.hdintelligence.com/?source=B12&sport=Football&conf=B12&type=report",
+ "published_at": "2026-10-31T18:00:00.000Z",
+ "retrieved_at": "2026-10-31T21:26:20.038Z",
+ "scope": "CONFERENCE_GAMES",
+ "comprehensive": true,
+ "vocabulary": [
+  "AVAILABLE",
+  "PROBABLE",
+  "QUESTIONABLE",
+  "DOUBTFUL",
+  "OUT"
+ ],
+ "applicability": {
+  "state": "REQUIRED",
+  "why": "Big 12 Conference requires an availability report for this game: filed daily from three days before a conference game, with a final report 90 minutes before kickoff"
+ },
+ "format": "published-listing",
+ "platform": "hdintelligence",
+ "report_type": "Game Day",
+ "report_id": "3469",
+ "listing_scope": "FULL_ROSTER",
+ "lines_read": 114,
+ "listed_n": 114,
+ "rows": [
+  {
+   "player_name": "Julius Simms",
+   "player_id": "5215582",
+   "position": "S",
+   "jersey": "7",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "S #7 Julius Simms · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Ryan Yaites",
+   "player_id": "4871066",
+   "position": "S",
+   "jersey": "13",
+   "status": "GAME_TIME_DECISION",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "S #13 Ryan Yaites · Game Time Decision",
+   "on_roster": true
+  },
+  {
+   "player_name": "Terry Shelton",
+   "player_id": "5216050",
+   "position": "WR",
+   "jersey": "15",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "WR #15 Terry Shelton · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Devondre McGee",
+   "player_id": "5147184",
+   "position": "CB",
+   "jersey": "17",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "CB #17 Devondre McGee · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Fletcher Fierro",
+   "player_id": "5219567",
+   "position": "WR",
+   "jersey": "22",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "WR #22 Fletcher Fierro · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Jeremy Payne",
+   "player_id": "5079663",
+   "position": "RB",
+   "jersey": "26",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "RB #26 Jeremy Payne · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Michael Teason Jr.",
+   "player_id": "5154286",
+   "position": "LB",
+   "jersey": "27",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "LB #27 Michael Teason Jr. · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Landon Walker",
+   "player_id": "5120735",
+   "position": "RB",
+   "jersey": "27",
+   "status": "GAME_TIME_DECISION",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "RB #27 Landon Walker · Game Time Decision",
+   "on_roster": true
+  },
+  {
+   "player_name": "Cade Bennett",
+   "player_id": "4692559",
+   "position": "OL",
+   "jersey": "60",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "OL #60 Cade Bennett · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Keagan Cunningham",
+   "player_id": "5085413",
+   "position": "WR",
+   "jersey": "83",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "WR #83 Keagan Cunningham · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Cooper Reid",
+   "player_id": "5251971",
+   "position": "WR",
+   "jersey": "84",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "WR #84 Cooper Reid · Out",
+   "on_roster": true
+  }
+ ],
+ "unparsed": [],
+ "ok": true,
+ "names_nobody": false,
+ "explicit_none": false,
+ "silence_means_available": false,
+ "why": "11 player(s) designated on the published listing (Game Day)"
+}

@@ -16,9 +16,10 @@
 //      with the site): every upcoming game, the goalie-aware variant without
 //      its goalie term, each realistic goalie's rating, the usage projection,
 //      the production headline (copied unchanged)
-//   2. SOURCES (T0): Daily Faceoff's starting-goalies page for each Eastern
-//      date with a game (Confirmed / Likely / Unconfirmed), and the NHL's own
-//      game boxscore for games inside three hours of puck drop (the
+//   2. SOURCES (T0): Daily Faceoff's starting-goalies page and ESPN's public
+//      NHL scoreboard for each Eastern date with a game (Daily Faceoff:
+//      Confirmed / Likely / Unconfirmed; ESPN: Confirmed / Expected), and the
+//      NHL's own game boxscore for games inside three hours of puck drop (the
 //      `starter` flag, once lineups post). A manual confirmation in
 //      hockey/data/confirmed_starters.json rides in the inputs. The usage
 //      projection is the labelled T2 fallback when no source names anyone
@@ -53,7 +54,7 @@
 // POST body (all optional):
 //   force            run even when no slot is due
 //   dry              read and compute; write nothing; return everything
-//   simulate_outage  ["daily_faceoff", "nhl_api", "inputs"]: treat those as
+//   simulate_outage  ["daily_faceoff", "espn", "nhl_api", "inputs"]: treat those as
 //                    down — the operator's forced-failure test (the run is
 //                    recorded with simulated = true)
 //   now              ISO time to run as (dry runs and tests)
@@ -62,7 +63,7 @@
 //      NHL_GOALIE_INPUTS_URL (default https://edgedesksports.com/hockey/goalie_inputs.json)
 // ============================================================
 
-export const BUILD = "nhl_goalie_sync@2026-10-25.1";
+export const BUILD = "nhl_goalie_sync@2026-10-30.4";
 const INPUTS_URL = "https://edgedesksports.com/hockey/goalie_inputs.json";
 // A browser's headers, as nba_injury_sync sends: a crawler-style agent was
 // refused by ESPN's edge on the NBA layer's first live runs.
@@ -472,9 +473,10 @@ const NHLG_STATUSES = ['unknown', 'projected', 'likely', 'confirmed'];
 const NHLG_BADGE = { confirmed: 'Confirmed', likely: 'Likely', projected: 'Projected', unknown: 'Unknown' };
 /* rank: which source leads when sources disagree (the league's own lineup first) */
 const NHLG_SOURCES = {
-  nhl_api_boxscore: { label: 'NHL.com game boxscore', tier: 'T0', rank: 4, observed: true },
-  manual: { label: 'Manual entry (hockey/data/confirmed_starters.json)', tier: 'T0', rank: 3, observed: true },
-  daily_faceoff: { label: 'Daily Faceoff', tier: 'T0', rank: 2, observed: true },
+  nhl_api_boxscore: { label: 'NHL.com game boxscore', tier: 'T0', rank: 5, observed: true },
+  manual: { label: 'Manual entry (hockey/data/confirmed_starters.json)', tier: 'T0', rank: 4, observed: true },
+  daily_faceoff: { label: 'Daily Faceoff', tier: 'T0', rank: 3, observed: true },
+  espn: { label: 'ESPN scoreboard (probable goalie)', tier: 'T0', rank: 2, observed: true },
   edgedesk_projection: { label: 'EdgeDesk usage projection', tier: 'T2', rank: 1, observed: false },
   consensus: { label: 'EdgeDesk merge of the sources above', tier: 'T0', rank: 0, observed: false },
 };
@@ -491,6 +493,9 @@ const NHLG_DEFAULTS = {
   final_pass_min: 30,        /* and a final pass at T-30 */
   lookback_min: 90,          /* a slot missed by more than this is not chased */
   heartbeat_min: 55,         /* a declined poke is recorded at most this often */
+  lock_window_min: 30,       /* after the final pass, every lock_step_min until puck drop: lineups post late */
+  lock_step_min: 5,          /* pg_cron pokes every 5 minutes, the finest step there is */
+  lock_min_skaters: 12,      /* a lineup with fewer listed skaters is not a lineup yet (hockey/model/lineups.js) */
 };
 const NHLG_TEAMS = [
   ['ANA', 'Anaheim Ducks', 'Anaheim', 'Ducks'], ['BOS', 'Boston Bruins', 'Boston', 'Bruins'], ['BUF', 'Buffalo Sabres', 'Buffalo', 'Sabres'],
@@ -583,6 +588,7 @@ function nhlgMatchGoalie(name, team, inputs) {
 /* ---------------------------------------------------------------- the sources */
 function nhlgDailyFaceoffUrl(etDate) { return 'https://www.dailyfaceoff.com/starting-goalies/' + etDate; }
 function nhlgBoxscoreUrl(gameId) { return 'https://api-web.nhle.com/v1/gamecenter/' + gameId + '/boxscore'; }
+function nhlgEspnScoreboardUrl(etDate) { return 'https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=' + String(etDate).replace(/-/g, ''); }
 
 function nhlgWalk(x, fn, depth) {
   if (depth > 12 || x == null || typeof x !== 'object') return;
@@ -629,6 +635,41 @@ function nhlgParseDailyFaceoff(html, ctx) {
   return out;
 }
 /**
+ * ESPN's public NHL scoreboard for one Eastern date
+ * (site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=YYYYMMDD).
+ * Each event's competitors carry `probables`; the one named
+ * probableStartingGoalie is the team's starter, with ESPN's status
+ * (status.name "Confirmed" or "Expected"). ESPN's athlete id is not the
+ * NHL's, so the name is matched like Daily Faceoff's. A response with no
+ * events array is a DRIFT; a game with no probable goalie is a row with no
+ * name (unknown), never a guess.
+ */
+function nhlgParseEspnScoreboard(json, ctx) {
+  ctx = ctx || {};
+  const out = { ok: false, source: 'espn', url: ctx.url || null, fetched_at: nhlgIso(ctx.fetched_at), rows: [], games: 0, unread: [], drift: null };
+  if (!json || typeof json !== 'object' || !Array.isArray(json.events)) { out.drift = 'not an ESPN scoreboard (no events array)'; return out; }
+  out.ok = true; out.games = json.events.length;
+  for (const e of json.events) {
+    const comp = e && Array.isArray(e.competitions) ? e.competitions[0] : null;
+    const cs = comp && Array.isArray(comp.competitors) ? comp.competitors : [];
+    const by = {};
+    for (const c of cs) if (c && (c.homeAway === 'home' || c.homeAway === 'away')) by[c.homeAway] = c;
+    const tm = (c) => (c && c.team ? nhlgTeam(c.team.abbreviation) || nhlgTeam(c.team.displayName) : null);
+    const home = tm(by.home), away = tm(by.away);
+    if (!home || !away) { out.unread.push({ why: 'teams did not read', event: e && e.shortName ? String(e.shortName) : null }); continue; }
+    const start = nhlgIso((comp && comp.date) || (e && e.date));
+    for (const side of ['home', 'away']) {
+      const pr = (Array.isArray(by[side].probables) ? by[side].probables : []).filter((x) => x && x.name === 'probableStartingGoalie' && x.athlete)[0] || null;
+      const a = pr ? pr.athlete : null;
+      const nm = a ? String(a.displayName || a.fullName || '').trim() : '';
+      const raw = pr && pr.status ? (pr.status.name || pr.status.type || null) : null;
+      out.rows.push({ side, team: side === 'home' ? home : away, home, away, game_date: null, start_utc: start,
+        goalie_name: nm || null, source_status: raw == null ? null : String(raw), status: nm ? nhlgStatus(raw) : 'unknown', source_updated_at: null });
+    }
+  }
+  return out;
+}
+/**
  * The NHL's game boxscore (api-web.nhle.com/v1/gamecenter/{id}/boxscore).
  * playerByGameStats appears once lineups post; a goalie flagged
  * `starter: true` is the confirmed starter. Before that the boxscore says
@@ -640,6 +681,14 @@ function nhlgParseNhlBoxscore(json, ctx) {
   if (!json || typeof json !== 'object' || json.id == null || !json.homeTeam || !json.awayTeam) { out.drift = 'not a boxscore (no id, homeTeam, awayTeam)'; return out; }
   out.ok = true; out.game_id = String(json.id); out.state = json.gameState || null;
   const pb = json.playerByGameStats || null;
+  /* the dressed skaters (forwards and defence, never the goalies), once lineups post: null until then */
+  out.lineups = { home: null, away: null };
+  for (const side of ['home', 'away']) {
+    const t = pb && pb[side + 'Team'];
+    if (!t) continue;
+    const ids = [].concat(Array.isArray(t.forwards) ? t.forwards : [], Array.isArray(t.defense) ? t.defense : []).map((x) => (x && x.playerId != null ? String(x.playerId) : null)).filter(Boolean);
+    out.lineups[side] = ids.filter((id, i) => ids.indexOf(id) === i);
+  }
   for (const side of ['home', 'away']) {
     const team = nhlgTeam(json[side + 'Team'].abbrev);
     const gs = pb && pb[side + 'Team'] && Array.isArray(pb[side + 'Team'].goalies) ? pb[side + 'Team'].goalies : [];
@@ -660,7 +709,7 @@ function nhlgSummary(o) { return { source: o.source, goalie_id: o.goalie_id || n
  *   proj  the usage projection's likeliest goalie { goalie_id, goalie_name, p }, or null
  * Sources that name the same goalie: the highest status wins. Sources that
  * name different goalies: the lead source's goalie (NHL > manual > Daily
- * Faceoff), the LOWER of their statuses, capped at Likely (two sources naming
+ * Faceoff > ESPN), the LOWER of their statuses, capped at Likely (two sources naming
  * different starters is never a confirmation), conflict = true.
  */
 function nhlgMergeSide(obs, proj) {
@@ -747,6 +796,54 @@ function nhlgPrice(gi, inputs, homeGoalie, awayGoalie, DIST, o) {
   const lam = nhlgLambdas(gi, inputs.model, rh.rate, ra.rate);
   const D = DIST.game({ lamH: lam.lh, lamA: lam.la, effects: inputs.distribution.effects, ot: gi.type === 'P' ? { format: 'PO' } : inputs.distribution.ot, periods: false });
   return Object.assign(nhlgMarkets(D, DIST, o), { lambda: { home: nhlgR(lam.lh), away: nhlgR(lam.la) }, rated: { home: rh.rated, away: ra.rated } });
+}
+
+/* ---------------------------------------------------------------- the lineup-lock price */
+/** ln(tonight's lineup value / the club's typical): each skater's recent time on ice per game, summed (hockey/model/lineups.js) */
+function nhlgLineupDelta(ids, inputs, typical, o) {
+  o = Object.assign({}, NHLG_DEFAULTS, o || {});
+  if (!Array.isArray(ids) || ids.length < o.lock_min_skaters || !(typical > 0)) return null;
+  const vals = (inputs && inputs.skater_values) || {}, prior = inputs && inputs.skater_prior_s != null ? inputs.skater_prior_s : 600;
+  let v = 0; for (const id of ids) v += vals[String(id)] != null ? vals[String(id)] : prior;
+  return Math.log(v / typical);
+}
+/**
+ * The headline at lineup lock: both dressed lineups listed (lineups:
+ * { home: [skater ids], away: [...] }) and both starters Confirmed, priced by
+ * the variant that knows tonight's lineups and goalies (inputs.model.all_*).
+ * null when any of it is missing: the headline then stays the slate's.
+ */
+function nhlgLockPrice(gi, inputs, merged, lineups, DIST, o) {
+  o = Object.assign({}, NHLG_DEFAULTS, o || {});
+  const M = inputs && inputs.model, L = gi && gi.lineup;
+  if (!M || !M.all_beta || !M.all_pair_calibration || !L || !L.eta || !L.typical || !lineups || !nhlgBothConfirmed(merged)) return null;
+  const dH = nhlgLineupDelta(lineups.home, inputs, L.typical.home, o), dA = nhlgLineupDelta(lineups.away, inputs, L.typical.away, o);
+  if (dH == null || dA == null) return null;
+  const rh = nhlgRate(inputs, merged.home.goalie_id, gi), ra = nhlgRate(inputs, merged.away.goalie_id, gi);
+  const B = M.all_beta;
+  const lam = nhlgCalibrate(Math.exp(L.eta.home + B.goalie * ra.rate + B.lu_own * dH + B.lu_opp * dA), Math.exp(L.eta.away + B.goalie * rh.rate + B.lu_own * dA + B.lu_opp * dH), M.all_pair_calibration);
+  const D = DIST.game({ lamH: lam.lh, lamA: lam.la, effects: inputs.distribution.effects, ot: gi.type === 'P' ? { format: 'PO' } : inputs.distribution.ot, periods: false });
+  const mk = nhlgMarkets(D, DIST, o), pl = mk.puck_line;
+  const awayMinus = pl['1.5'] ? Math.max(0, 1 - pl['1.5'][0] - pl['1.5'][1]) : null;
+  const before = gi.headline || {};
+  return {
+    basis: 'lineup_lock', model_id: M.all_model_id || null, p_home: mk.p_home, p_away: nhlgR(1 - D.p_home), fair_home: mk.fair_home, fair_away: mk.fair_away,
+    exp_total: mk.exp_total, fair_total_line: mk.fair_total_line, p_overtime: nhlgR(D.p_ot), p_shootout: nhlgR(D.p_so),
+    puck_line: { home_minus_1_5: pl['-1.5'] ? pl['-1.5'][0] : null, away_minus_1_5: nhlgR(awayMinus), fair_home_minus_1_5: pl['-1.5'] ? DIST.probToAmerican(pl['-1.5'][0]) : null, fair_away_minus_1_5: awayMinus != null ? DIST.probToAmerican(awayMinus) : null },
+    markets: { puck_line: pl, total: mk.total }, settles: before.settles || null, goalie_free: false, lambda: { home: nhlgR(lam.lh), away: nhlgR(lam.la) },
+    lineup: { ids: { home: lineups.home.map(String), away: lineups.away.map(String) }, skaters: { home: lineups.home.length, away: lineups.away.length }, delta: { home: nhlgR(dH), away: nhlgR(dA) }, goalies: { home: merged.home.goalie_id || null, away: merged.away.goalie_id || null }, rated: { home: rh.rated, away: ra.rated } },
+    before: { model_id: before.model_id || null, p_home: before.p_home != null ? before.p_home : null, fair_home: before.fair_home != null ? before.fair_home : null, fair_away: before.fair_away != null ? before.fair_away : null },
+  };
+}
+
+/**
+ * The dressed lineups a card was locked with. The card is the only place they
+ * are kept, so a run whose boxscore read failed, or listed no lineup, prices
+ * from these and the lock holds; a new listing replaces them.
+ */
+function nhlgLockedLineups(card) {
+  const L = card && card.headline && card.headline.basis === 'lineup_lock' ? card.headline.lineup : null;
+  return L && L.ids && Array.isArray(L.ids.home) && Array.isArray(L.ids.away) ? { home: L.ids.home.slice(), away: L.ids.away.slice() } : null;
 }
 
 /* ---------------------------------------------------------------- realistic pairings */
@@ -848,13 +945,15 @@ function nhlgBuildCard(gi, inputs, merged, DIST, o) {
   const used = pairs.filter((p) => p.used)[0] || null;
   const both = nhlgBothConfirmed(merged);
   const ps = pairs.map((p) => p.p_home).filter((v) => v != null), ts = pairs.map((p) => p.exp_total).filter((v) => v != null);
+  const lock = nhlgLockPrice(gi, inputs, merged, o.lineups || null, DIST, o);
   const card = {
     core_version: NHLG_CORE_VERSION, game_id: String(gi.game_id), start_utc: gi.start_utc, home: gi.home, away: gi.away, type: gi.type || 'R',
     generated_at: nhlgIso(o.now != null ? o.now : Date.now()),
     goalie_pairing_used: { home: nhlgSidePick(merged.home, used ? used.rated.home : null), away: nhlgSidePick(merged.away, used ? used.rated.away : null) },
     goalie_status: { home: merged.home.status, away: merged.away.status },
     conflict: !!(merged.home.conflict || merged.away.conflict),
-    headline: gi.headline || null,
+    headline: lock || gi.headline || null,
+    lineup_locked: !!lock,
     pairing_price: used ? { home_goalie_id: used.home_goalie_id, home_goalie_name: used.home_goalie_name, away_goalie_id: used.away_goalie_id, away_goalie_name: used.away_goalie_name,
       p_home: used.p_home, fair_home: used.fair_home, fair_away: used.fair_away, exp_total: used.exp_total, fair_total_line: used.fair_total_line, puck_line: used.puck_line, total: used.total, lambda: used.lambda } : null,
     pairing_range: pairs,
@@ -864,8 +963,12 @@ function nhlgBuildCard(gi, inputs, merged, DIST, o) {
       ? { state: 'OPEN', basis: 'BOTH_CONFIRMED', rule: 'both starters are Confirmed: an edge is judged as before (lib/edgedesk_nhl_market.js)' }
       : { state: 'GATED', basis: 'EVERY_PAIRING', rule: 'a starter is not Confirmed: no EDGE on the moneyline, puck line or total unless it holds under every realistic pairing (' + pairs.length + ')' },
     known_limitations: nhlgLimitations(gi, merged, used),
-    notes: ['The headline numbers are the production model (' + ((inputs.model && inputs.model.id) || 'edgedesk_nhl_v1') + '), which carries no goalie term: a starter change does not move them. '
-      + 'The pairing numbers come from its goalie-aware variant (' + ((inputs.model && inputs.model.goalie_variant) || 'xg_goalie_confirmed') + '), the one the slate’s goalie scenarios use.'],
+    notes: lock
+      ? ['Priced at lineup lock: both dressed lineups are listed by the NHL and both starters are Confirmed, so the headline numbers come from the variant that knows tonight’s lineups and goalies (' + (lock.model_id || 'xg_all_confirmed') + '). '
+        + 'Before lock the headline was the production model (' + (lock.before.model_id || 'edgedesk_nhl_v1') + ', ' + gi.home + ' ' + (lock.before.p_home != null ? Math.round(lock.before.p_home * 1000) / 10 + '%' : '—') + '). '
+        + 'The pairing numbers come from the goalie-aware variant (' + ((inputs.model && inputs.model.goalie_variant) || 'xg_goalie_confirmed') + ').']
+      : ['The headline numbers are the production model (' + ((inputs.model && inputs.model.id) || 'edgedesk_nhl_v1') + '), which carries no goalie term: a starter change does not move them until lineup lock. '
+        + 'The pairing numbers come from its goalie-aware variant (' + ((inputs.model && inputs.model.goalie_variant) || 'xg_goalie_confirmed') + '), the one the slate’s goalie scenarios use.'],
     model_id: (inputs.model && inputs.model.id) || null, goalie_variant: (inputs.model && inputs.model.goalie_variant) || null,
     slate_generated_at: inputs.slate_generated_at || inputs.generated_at || null,
   };
@@ -890,11 +993,14 @@ function nhlgCardChange(prev, next) {
     else if ((a.status || null) !== (b.status || null)) reasons.push('status_changed:' + side);
     if (!!a.conflict !== !!b.conflict) reasons.push('conflict_changed:' + side);
   }
+  const locked = (c) => !!(c && c.headline && c.headline.basis === 'lineup_lock');
+  if (locked(prev) !== locked(next)) reasons.push(locked(next) ? 'lineup_locked' : 'lineup_unlocked');
   const num = (c) => JSON.stringify([c.headline && c.headline.p_home, c.headline && c.headline.exp_total, c.pairing_price && c.pairing_price.p_home, c.pairing_price && c.pairing_price.exp_total,
     (c.pairing_range || []).map((p) => [p.home_goalie_id, p.away_goalie_id, p.p_home, p.exp_total])]);
-  if (!reasons.length && num(prev) !== num(next)) reasons.push('inputs_changed');
+  if (!reasons.some((r) => !/^lineup_/.test(r)) && num(prev) !== num(next)) reasons.push('inputs_changed');
+  /* a lock moves the headline's numbers: it is recorded as its own reason under the inputs_changed trigger (the table's five triggers) */
   const order = ['starter_changed', 'status_changed', 'conflict_changed', 'inputs_changed'];
-  const trigger = reasons.length ? order.filter((t) => reasons.some((r) => r.indexOf(t) === 0))[0] : null;
+  const trigger = reasons.length ? order.filter((t) => reasons.some((r) => r.indexOf(t) === 0 || (t === 'inputs_changed' && /^lineup_/.test(r))))[0] : null;
   return { changed: reasons.length > 0, trigger, reasons };
 }
 
@@ -962,6 +1068,7 @@ function nhlgEtToUtc(date, hour, minute) {
  *   two_hour     8:00, 10:00, ... Eastern on each Eastern date with a game, until its last puck drop
  *   pre_game     every 15 minutes in the three hours before each puck drop
  *   final_pass   T-30 for each game
+ *   lineup_lock  every 5 minutes after the final pass until puck drop (T-25 ... T-5)
  */
 function nhlgDueTimes(games, o) {
   o = Object.assign({}, NHLG_DEFAULTS, o || {});
@@ -971,6 +1078,7 @@ function nhlgDueTimes(games, o) {
     const d = nhlgEtDate(s); if (!(d in lastByDate) || s > lastByDate[d]) lastByDate[d] = s;
     for (let k = o.pre_window_min; k > 0; k -= o.pre_step_min) out.push({ at: s - k * 60e3, kind: k === o.final_pass_min ? 'final_pass' : 'pre_game', game_id: String(g.game_id) });
     if (o.pre_window_min % o.pre_step_min !== 0 || o.final_pass_min % o.pre_step_min !== 0) out.push({ at: s - o.final_pass_min * 60e3, kind: 'final_pass', game_id: String(g.game_id) });
+    for (let k = Math.min(o.lock_window_min, o.final_pass_min) - o.lock_step_min; k > 0; k -= o.lock_step_min) out.push({ at: s - k * 60e3, kind: 'lineup_lock', game_id: String(g.game_id) });
   }
   for (const d of Object.keys(lastByDate)) {
     for (let h = o.first_et_hour; h < 24; h += o.every_hours) { const t = nhlgEtToUtc(d, h, 0); if (t >= lastByDate[d]) break; out.push({ at: t, kind: 'two_hour', game_id: null }); }
@@ -1003,7 +1111,16 @@ const sameTime = (a: Any, b: Any) => (a == null && b == null) || (a != null && b
 const inList = (ids: string[]) => "in.(" + ids.map((x) => '"' + String(x).replace(/"/g, "") + '"').join(",") + ")";
 
 /* ---------------------------------------------------------------- the database (PostgREST, service role) */
+// A read that times out or loses its connection is sent once more: on 2026-10-30 at 12:10 UTC one slow
+// answer ("Signal timed out.") failed a whole run, and readiness stayed in error until the next slot.
+// A write is never sent twice: it may have landed, and every table here is append-only.
+const transient = (e: Any) => !!e && (e.name === "TimeoutError" || e.name === "AbortError" || e instanceof TypeError);
 async function db(path: string, init?: RequestInit): Promise<Any> {
+  const read = !init || !init.method || init.method === "GET";
+  try { return await dbOnce(path, init); } catch (e) { if (!read || !transient(e)) throw e; }
+  return await dbOnce(path, init);
+}
+async function dbOnce(path: string, init?: RequestInit): Promise<Any> {
   const key = env("SUPABASE_SERVICE_ROLE_KEY");
   const r = await fetch(env("SUPABASE_URL").replace(/\/$/, "") + "/rest/v1/" + path, {
     ...init, signal: deadline(20000),
@@ -1021,16 +1138,83 @@ async function getResp(url: string, ms = 20000) {
 }
 
 /* ---------------------------------------------------------------- the sources */
-/** Daily Faceoff's page for one Eastern date: parsed rows, or why not */
-export async function readDailyFaceoff(etDate: string, nowMs: number) {
+// Daily Faceoff sits behind Cloudflare, whose bot protection refuses some requests from Supabase's network
+// and lets the next one through: on 2026-10-30 at 16:34 UTC both pages answered 403 ("Attention Required!
+// | Cloudflare") 34 minutes after a run that read them. A refusal, a rate limit (429), a server error, a
+// timeout or a lost connection is tried again, at most twice per page, after a backoff with jitter (or the
+// server's Retry-After, capped). The retries of one run share one time budget, so a refusing source cannot
+// hold the run past its wall clock. A page that answers 200 but is not the page (an empty body, a challenge
+// page) is never parsed into starters; a page that changed shape is DRIFT and is not retried. Nothing here
+// is sticky: the next run starts afresh.
+export const DF_RETRY = { attempts: 3, first_timeout_ms: 20000, retry_timeout_ms: 15000, base_ms: 2000, jitter_ms: 1000, retry_after_cap_ms: 8000, budget_ms: 45000 };
+// the clock and the sleep, replaceable by the tests
+export const NET = { sleep: (ms: number) => new Promise<void>((res) => setTimeout(res, ms)), random: () => Math.random(), now: () => Date.now() };
+const DF_RETRY_STATUS = (s: number) => s === 403 || s === 408 || s === 425 || s === 429 || s >= 500;
+function hdr(r: Any, k: string): string | null { try { const v = r && r.headers && typeof r.headers.get === "function" ? r.headers.get(k) : null; return v == null ? null : String(v); } catch { return null; } }
+/** Cloudflare's challenge or block page, by its header or its title, whatever the status */
+export function nhlgCloudflareBlock(r: Any, body: string): boolean {
+  if (hdr(r, "cf-mitigated")) return true;
+  return /<title>\s*(Attention Required!?\s*\|\s*Cloudflare|Just a moment\.\.\.)\s*<\/title>/i.test(String(body || "").slice(0, 4000));
+}
+function retryAfterMs(r: Any): number | null {
+  const v = hdr(r, "retry-after"); if (v == null || v === "") return null;
+  const s = Number(v); if (isFinite(s)) return Math.max(0, s * 1000);
+  const t = Date.parse(v); return isFinite(t) ? Math.max(0, t - NET.now()) : null;
+}
+/** Daily Faceoff's page for one Eastern date: parsed rows, or why not (with how many attempts it took) */
+export async function readDailyFaceoff(etDate: string, nowMs: number, budget?: { until: number }) {
   const url = nhlgDailyFaceoffUrl(etDate);
+  const until = budget ? budget.until : NET.now() + DF_RETRY.budget_ms;
+  const log: string[] = [];
+  let last: Any = null;
+  for (let i = 0; i < DF_RETRY.attempts; i++) {
+    if (i > 0) {
+      const ra = last && last.retry_after != null ? Math.min(DF_RETRY.retry_after_cap_ms, last.retry_after) : null;
+      const wait = ra != null ? ra : DF_RETRY.base_ms * Math.pow(2, i - 1) + Math.floor(NET.random() * DF_RETRY.jitter_ms);
+      // another attempt only when it can finish inside the run's budget
+      if (NET.now() + wait + 1000 > until) { log.push("no retry: out of budget"); break; }
+      await NET.sleep(wait);
+    }
+    const ms = i === 0 ? DF_RETRY.first_timeout_ms : Math.max(1000, Math.min(DF_RETRY.retry_timeout_ms, until - NET.now()));
+    let r: Any, body = "";
+    try { r = await getResp(url, ms); body = await r.text(); }
+    catch (e) {
+      const msg = String((e as Error)?.message ?? e).slice(0, 160);
+      log.push("error: " + msg);
+      last = { ok: false, url, error: "Daily Faceoff: " + msg, retry: true };
+      continue;
+    }
+    const blocked = nhlgCloudflareBlock(r, body);
+    if (!r.ok) {
+      log.push("HTTP " + r.status + (blocked ? " (Cloudflare)" : ""));
+      last = { ok: false, url, http: r.status, blocked, retry_after: retryAfterMs(r), retry: DF_RETRY_STATUS(r.status),
+        error: blocked ? "Daily Faceoff blocked by Cloudflare bot protection (HTTP " + r.status + ")" : "Daily Faceoff answered HTTP " + r.status };
+      if (!last.retry) break;
+      continue;
+    }
+    if (blocked) { log.push("HTTP 200 (Cloudflare challenge)"); last = { ok: false, url, http: r.status, blocked, error: "Daily Faceoff blocked by Cloudflare bot protection (HTTP 200 challenge page)", retry: true }; continue; }
+    if (!body.trim()) { log.push("HTTP 200 (empty)"); last = { ok: false, url, http: r.status, error: "Daily Faceoff answered HTTP 200 with an empty page", retry: true }; continue; }
+    log.push("HTTP 200");
+    const p = nhlgParseDailyFaceoff(body, { url, fetched_at: nowMs });
+    if (!p.ok) return { ok: false, url, error: "Daily Faceoff's page did not read: " + p.drift, drift: true, parsed: p, attempts: i + 1, attempt_log: log };
+    return { ok: true, url, parsed: p, attempts: i + 1, attempt_log: log };
+  }
+  const out: Any = { ok: false, url, error: last.error, attempts: log.filter((x) => !/^no retry/.test(x)).length, attempt_log: log };
+  if (last.http != null) out.http = last.http;
+  if (last.blocked) out.blocked = true;
+  if (out.attempts > 1) out.error += " on " + out.attempts + " attempts";
+  return out;
+}
+/** ESPN's public NHL scoreboard for one Eastern date: each team's probable goalie, or why not */
+export async function readEspn(etDate: string, nowMs: number) {
+  const url = nhlgEspnScoreboardUrl(etDate);
   try {
     const r = await getResp(url, 20000);
-    if (!r.ok) return { ok: false, url, error: "Daily Faceoff answered HTTP " + r.status, http: r.status };
-    const p = nhlgParseDailyFaceoff(await r.text(), { url, fetched_at: nowMs });
-    if (!p.ok) return { ok: false, url, error: "Daily Faceoff's page did not read: " + p.drift, drift: true, parsed: p };
+    if (!r.ok) return { ok: false, url, error: "ESPN answered HTTP " + r.status, http: r.status };
+    const p = nhlgParseEspnScoreboard(await r.json(), { url, fetched_at: nowMs });
+    if (!p.ok) return { ok: false, url, error: "ESPN's scoreboard did not read: " + p.drift, drift: true, parsed: p };
     return { ok: true, url, parsed: p };
-  } catch (e) { return { ok: false, url, error: "Daily Faceoff: " + String((e as Error)?.message ?? e).slice(0, 160) }; }
+  } catch (e) { return { ok: false, url, error: "ESPN: " + String((e as Error)?.message ?? e).slice(0, 160) }; }
 }
 /** the NHL's boxscore for one game: starters once lineups post, or why not */
 export async function readBoxscore(gameId: string, nowMs: number) {
@@ -1042,6 +1226,22 @@ export async function readBoxscore(gameId: string, nowMs: number) {
     if (!p.ok) return { ok: false, url, error: "the NHL boxscore for " + gameId + " did not read: " + p.drift, drift: true };
     return { ok: true, url, parsed: p };
   } catch (e) { return { ok: false, url, error: "the NHL API: " + String((e as Error)?.message ?? e).slice(0, 160) }; }
+}
+
+/* ---------------------------------------------------------------- a failed check is tried again
+   A source refusing one read (Daily Faceoff answered HTTP 403 to the deploy's forced run at 16:34 UTC on 2026-10-30)
+   left readiness in error until the next slot, 86 minutes later, with nothing asked in between. After an error run the
+   sync runs again 10 minutes later, then 20, then every 40 while it keeps failing, besides the schedule's own slots.
+   Nothing about what a run writes or how readiness judges it changes. */
+const RETRY_AFTER_ERROR_MIN = [10, 20, 40];
+/** the error runs in a row at the head of recent (the latest executed runs, newest first) */
+function errorStreak(recent: Any[]) { let n = 0; for (const r of recent || []) { if (r.status !== "error") break; n++; } return n; }
+/** when the latest executed run failed, the instant it is tried again; otherwise null */
+function retryAfterError(recent: Any[]) {
+  const n = errorStreak(recent);
+  if (!n) return null;
+  const last = Date.parse(recent[0].started_at);
+  return isFinite(last) ? last + RETRY_AFTER_ERROR_MIN[Math.min(n, RETRY_AFTER_ERROR_MIN.length) - 1] * 60000 : null;
 }
 
 /* ---------------------------------------------------------------- one run */
@@ -1056,8 +1256,10 @@ export async function syncOnce(opts: Any = {}) {
   const alert = (severity: string, code: string, message: string, detail?: Any) => alerts.push({ severity, code, message, detail: detail ?? null });
   const out: Any = { build: BUILD, core: NHLG_CORE_VERSION, run_id: run.run_id, now: nowIso, dry };
   let record = true;
+  let recent: Any[] = [];
   try {
-    const lastExec = (await db("nhl_goalie_sync_runs?select=started_at,finished_at,status&status=neq.skipped&order=started_at.desc&limit=1"))[0] || null;
+    recent = (await db("nhl_goalie_sync_runs?select=started_at,finished_at,status&status=neq.skipped&order=started_at.desc&limit=" + RETRY_AFTER_ERROR_MIN.length)) || [];
+    const lastExec = recent[0] || null;
     const lastAny = (await db("nhl_goalie_sync_runs?select=finished_at&order=finished_at.desc&limit=1"))[0] || null;
     const quietFor = lastAny ? nowMs - Date.parse(lastAny.finished_at) : Infinity;
 
@@ -1083,8 +1285,11 @@ export async function syncOnce(opts: Any = {}) {
 
     /* 2. due? */
     const due = nhlgIsDue(nowMs, lastExec ? lastExec.started_at : null, upcoming);
+    const retryAt = retryAfterError(recent);
+    const retry = !due.due && retryAt != null && nowMs >= retryAt;
     run.next_due_at = due.next_due_at;
     out.due = due;
+    if (retry) { due.due = true; due.kinds = ["retry_after_error"]; }
     if (!due.due && !opts.force) {
       if (quietFor >= NHLG_DEFAULTS.heartbeat_min * 60000) { run.status = "skipped"; run.skipped_reason = "no slot due" + (due.next_due_at ? "; next " + due.next_due_at : ": no game in the inputs"); }
       else record = false;
@@ -1102,9 +1307,10 @@ export async function syncOnce(opts: Any = {}) {
     const obs: Any[] = [];
     const dates = [...new Set(games.map((g: Any) => nhlgEtDate(Date.parse(g.start_utc))))].sort();
     const df: Any = { ok: null, pages: [], rows: 0, unmatched_games: [] };
+    const dfBudget = { until: NET.now() + DF_RETRY.budget_ms };   // one retry budget for every page of the run
     for (const d of dates) {
-      const res = sim.includes("daily_faceoff") ? { ok: false, url: nhlgDailyFaceoffUrl(d), error: "simulated outage: daily_faceoff" } : await readDailyFaceoff(d, nowMs);
-      df.pages.push({ date: d, ok: res.ok, url: res.url, error: res.ok ? null : res.error, games: res.ok ? res.parsed.games : 0 });
+      const res: Any = sim.includes("daily_faceoff") ? { ok: false, url: nhlgDailyFaceoffUrl(d), error: "simulated outage: daily_faceoff" } : await readDailyFaceoff(d, nowMs, dfBudget);
+      df.pages.push({ date: d, ok: res.ok, url: res.url, error: res.ok ? null : res.error, games: res.ok ? res.parsed.games : 0, attempts: res.attempts ?? null, blocked: !!res.blocked, attempt_log: res.attempt_log ?? null });
       if (!res.ok) { df.ok = false; if ((res as Any).drift) alert("DRIFT", "daily_faceoff_drift", res.error, { url: res.url }); continue; }
       if (df.ok === null) df.ok = true;
       for (const r of res.parsed.rows) {
@@ -1119,7 +1325,28 @@ export async function syncOnce(opts: Any = {}) {
     }
     if (df.ok === false) alert("DEGRADED", "daily_faceoff_unavailable", "Daily Faceoff could not be read: " + df.pages.filter((p: Any) => !p.ok).map((p: Any) => p.date + " (" + p.error + ")").join("; "));
     if (df.unmatched_games.length) alert("WARNING", "daily_faceoff_game_unmatched", "Daily Faceoff listed games the slate does not hold: " + df.unmatched_games.join(", "));
-    const nhl: Any = { ok: null, calls: 0, failures: [], starters: 0 };
+    /* ESPN's probable goalies, read the same way: a second third-party source, so a Daily Faceoff refusal no longer leaves the cards with nothing */
+    const espn: Any = { ok: null, pages: [], rows: 0, named: 0, unmatched_games: [] };
+    for (const d of dates) {
+      const res = sim.includes("espn") ? { ok: false, url: nhlgEspnScoreboardUrl(d), error: "simulated outage: espn" } : await readEspn(d, nowMs);
+      espn.pages.push({ date: d, ok: res.ok, url: res.url, error: res.ok ? null : res.error, games: res.ok ? res.parsed.games : 0 });
+      if (!res.ok) { espn.ok = false; if ((res as Any).drift) alert("DRIFT", "espn_drift", res.error, { url: res.url }); continue; }
+      if (espn.ok === null) espn.ok = true;
+      for (const r of res.parsed.rows) {
+        const g = games.find((x: Any) => x.home === r.home && x.away === r.away && r.start_utc && Math.abs(Date.parse(x.start_utc) - Date.parse(r.start_utc)) < 18 * 3600e3);
+        if (!g) { if (Date.parse(r.start_utc) > nowMs && !espn.unmatched_games.includes(r.away + "@" + r.home)) espn.unmatched_games.push(r.away + "@" + r.home); continue; }
+        const m = r.goalie_name ? nhlgMatchGoalie(r.goalie_name, r.team, inputs) : { goalie_id: null, method: "none" };
+        if (r.goalie_name && !m.goalie_id) run.unmatched++;
+        obs.push({ game: g, team: r.team, side: r.side, source: "espn", goalie_id: m.goalie_id, goalie_name: r.goalie_name, status: r.status, source_status: r.source_status, source_url: res.url,
+          source_updated_at: null, fetched_at: nowIso, match_method: m.method });
+        espn.rows++; if (r.goalie_name) espn.named++;
+      }
+    }
+    if (espn.ok === false) alert("DEGRADED", "espn_unavailable", "ESPN could not be read: " + espn.pages.filter((p: Any) => !p.ok).map((p: Any) => p.date + " (" + p.error + ")").join("; "));
+    if (espn.unmatched_games.length) alert("WARNING", "espn_game_unmatched", "ESPN listed games the slate does not hold: " + espn.unmatched_games.join(", "));
+    /* the timing probe: per boxscore read, how long before puck drop and whether the dressed lineups were listed yet */
+    const nhl: Any = { ok: null, calls: 0, failures: [], starters: 0, lineups_posted: 0, games: [] };
+    const lineupsBy = new Map<string, Any>();
     for (const g of games) {
       const t = Date.parse(g.start_utc);
       if (!(t - nowMs <= NHLG_DEFAULTS.pre_window_min * 60000 || g.state === "PRE")) continue;
@@ -1127,6 +1354,11 @@ export async function syncOnce(opts: Any = {}) {
       const res = sim.includes("nhl_api") ? { ok: false, error: "simulated outage: nhl_api" } : await readBoxscore(String(g.game_id), nowMs);
       if (!res.ok) { nhl.failures.push(String(g.game_id) + ": " + res.error); nhl.ok = false; if ((res as Any).drift) alert("DRIFT", "nhl_boxscore_drift", res.error); continue; }
       if (nhl.ok === null) nhl.ok = true;
+      const lu = res.parsed.lineups || { home: null, away: null };
+      const nS = (side: string) => (Array.isArray(lu[side]) ? lu[side].length : 0);
+      const posted = nS("home") >= NHLG_DEFAULTS.lock_min_skaters && nS("away") >= NHLG_DEFAULTS.lock_min_skaters;
+      if (posted) { nhl.lineups_posted++; lineupsBy.set(String(g.game_id), lu); }
+      nhl.games.push({ game_id: String(g.game_id), minutes_to_start: Math.round((t - nowMs) / 60000), state: res.parsed.state, skaters: { home: nS("home"), away: nS("away") }, starters: res.parsed.rows.length, lineups_posted: posted });
       for (const r of res.parsed.rows) {
         if (r.team !== g.home && r.team !== g.away) continue;
         obs.push({ game: g, team: r.team, side: r.team === g.home ? "home" : "away", source: "nhl_api_boxscore", goalie_id: r.goalie_id, goalie_name: r.goalie_name, status: "confirmed", source_status: r.source_status,
@@ -1136,9 +1368,9 @@ export async function syncOnce(opts: Any = {}) {
     }
     if (nhl.ok === false) alert("DEGRADED", "nhl_api_unavailable", "The NHL boxscore could not be read for " + nhl.failures.length + " game(s): " + nhl.failures.slice(0, 3).join("; "));
     run.daily_faceoff_ok = df.ok; run.nhl_api_ok = nhl.ok;
-    run.sources = { daily_faceoff: df, nhl_api_boxscore: nhl };
-    if (df.ok === false && nhl.ok !== true) {
-      run.status = "error"; run.message = "no starter source could be read (Daily Faceoff" + (nhl.calls ? " and the NHL API" : "") + "): the starters on file are kept, nothing is written in their place";
+    run.sources = { daily_faceoff: df, espn, nhl_api_boxscore: nhl };
+    if (df.ok === false && espn.ok !== true && nhl.ok !== true) {
+      run.status = "error"; run.message = "no starter source could be read (Daily Faceoff" + (nhl.calls ? ", ESPN and the NHL API" : " and ESPN") + "): the starters on file are kept, nothing is written in their place";
       alert("FAILURE", "sources_down", run.message);
     }
     for (const g of games) {
@@ -1183,7 +1415,7 @@ export async function syncOnce(opts: Any = {}) {
       merged[g.game_id] = {};
       for (const side of ["home", "away"]) {
         const team = g[side], k = (s: string) => curBy.get(g.game_id + "|" + team + "|" + s);
-        const list = ["nhl_api_boxscore", "manual", "daily_faceoff"].map(k).filter(Boolean);
+        const list = ["nhl_api_boxscore", "manual", "daily_faceoff", "espn"].map(k).filter(Boolean);
         const pj = k("edgedesk_projection");
         const p0 = ((g.projection && g.projection[side]) || [])[0];
         const m = nhlgDisplay(nhlgMergeSide(list, pj && pj.goalie_name ? { goalie_id: pj.goalie_id, goalie_name: pj.goalie_name, p: p0 ? p0.p : null, as_of: pj.source_updated_at } : null), inputs);
@@ -1216,7 +1448,8 @@ export async function syncOnce(opts: Any = {}) {
     const shown: Any[] = [], current = new Map<string, Any>();
     for (const g of games) {
       const prev = cardBy.get(String(g.game_id)) || null, first = firstBy.get(String(g.game_id)) || null;
-      const card = nhlgBuildCard(g, inputs, merged[g.game_id], DIST, { now: nowMs, first });
+      /* this run's listed lineups, else the ones the current card locked with (a failed read never unlocks it) */
+      const card = nhlgBuildCard(g, inputs, merged[g.game_id], DIST, { now: nowMs, first, lineups: lineupsBy.get(String(g.game_id)) || nhlgLockedLineups(prev) });
       const ch = nhlgCardChange(prev, card);
       if (!ch.changed) { run.cards_unchanged++; current.set(String(g.game_id), prev); continue; }
       const P = card.goalie_pairing_used;
@@ -1231,7 +1464,8 @@ export async function syncOnce(opts: Any = {}) {
       current.set(String(g.game_id), wrote[0]);
       run.cards_written++;
       shown.push({ game_id: row.game_id, matchup: g.away + "@" + g.home, version: row.version, trigger: row.trigger, reasons: row.reasons, pairing: [P.home.goalie_name, P.away.goalie_name],
-        status: [P.home.status, P.away.status], gate: row.edge_gate_state, p_home_pairing: card.pairing_price ? card.pairing_price.p_home : null, change: card.change_note ? card.change_note.text : null });
+        status: [P.home.status, P.away.status], gate: row.edge_gate_state, p_home_pairing: card.pairing_price ? card.pairing_price.p_home : null, change: card.change_note ? card.change_note.text : null,
+        lineup_locked: !!card.lineup_locked, p_home_headline: card.headline ? card.headline.p_home : null });
     }
     out.cards = { written: run.cards_written, unchanged: run.cards_unchanged, versions: dry ? shown : shown.slice(0, 30) };
     if (dry) out.preview = games.map((g: Any) => { const c = current.get(String(g.game_id)); return c ? { game_id: c.game_id, version: c.version, goalie_pairing_used: c.goalie_pairing_used, edge_gate_state: c.edge_gate_state, known_limitations: c.known_limitations, change_note: c.change_note } : null; });
@@ -1269,6 +1503,8 @@ export async function syncOnce(opts: Any = {}) {
     alert("FAILURE", "sync_error", run.message);
   } finally {
     run.finished_at = new Date(nowMs + Math.max(0, Date.now() - t0)).toISOString();  // the run's own clock (a test or a dry run passes `now`)
+    if (run.status === "error") { const at = Date.parse(run.started_at) + RETRY_AFTER_ERROR_MIN[Math.min(errorStreak(recent) + 1, RETRY_AFTER_ERROR_MIN.length) - 1] * 60000;
+      if (!run.next_due_at || at < Date.parse(run.next_due_at)) run.next_due_at = new Date(at).toISOString(); }
     if (run.status !== "skipped" && !run.message) run.message = alerts.filter((a) => a.severity !== "WARNING").map((a) => a.message).join("; ").slice(0, 600) || null;
     run.details = { alerts: alerts.map((a) => a.code), simulate_outage: sim.length ? sim : undefined };
     out.status = out.status || run.status; out.alerts = alerts; out.ok = run.status !== "error"; out.run = { status: run.status, due_kinds: run.due_kinds, final_pass_games: run.final_pass_games, next_due_at: run.next_due_at,

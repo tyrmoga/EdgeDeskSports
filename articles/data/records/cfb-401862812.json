@@ -21,8 +21,8 @@
   "game_time": "2026-10-29T23:30:00.000Z",
   "game_when_label": "2026-10-29 23:30 UTC",
   "published_at": null,
-  "updated_at": "2026-10-27T08:53:29.281Z",
-  "generated_at": "2026-10-27T08:53:29.281Z",
+  "updated_at": "2026-10-29T18:25:10.361Z",
+  "generated_at": "2026-10-29T18:25:10.361Z",
   "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
   "model_status": "NO MARKET",
   "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
@@ -37,11 +37,11 @@
   "status": "ready",
   "article_type": "pregame",
   "related": null,
-  "frozen": false,
-  "frozen_at": null,
+  "frozen": true,
+  "frozen_at": "2026-10-29T23:30:00.000Z",
   "author": "EdgeDesk Research",
   "publisher": "EdgeDesk Sports",
-  "research_source": "Ratings: football/rankings/current.json — 2026 Week 8, built 2026-10-26. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser.",
+  "research_source": "Ratings: football/rankings/current.json — 2026 Week 9, built 2026-10-29. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser.",
   "market_source": null,
   "research": {
     "kind": "CFB_GAME",
@@ -252,7 +252,7 @@
         "source": "cfbfastR-data player_stats — play attribution",
         "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
         "published_at": "2026-10-24T16:00:00.000Z",
-        "retrieved_at": "2026-10-26T23:10:58.149Z"
+        "retrieved_at": "2026-10-29T16:25:42.209Z"
       },
       "home": {
         "team": "North Texas",
@@ -330,9 +330,9 @@
         "source": "cfbfastR-data player_stats — play attribution",
         "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
         "published_at": "2026-10-24T19:30:00.000Z",
-        "retrieved_at": "2026-10-26T23:10:58.149Z"
+        "retrieved_at": "2026-10-29T16:25:42.209Z"
       },
-      "generated_at": "2026-10-26T23:10:56.259Z",
+      "generated_at": "2026-10-29T16:26:38.488Z",
       "source": "football/starters/cfb_2026.json",
       "note": "An expected starter is not a confirmed one. EdgeDesk publishes which kind of answer each of these is, and no number on this page is priced from any of them. Availability is a separate axis: an absent report is UNKNOWN and is never read as healthy."
     },
@@ -376,22 +376,22 @@
               "note": "points vs an average FBS team, neutral field",
               "a": {
                 "v": "-8.0",
-                "n": -8.02,
+                "n": -7.99,
                 "rank": "#123 of 138",
                 "rank_n": 123,
                 "note": null
               },
               "h": {
                 "v": "+4.1",
-                "n": 4.09,
-                "rank": "#36 of 138",
-                "rank_n": 36,
+                "n": 4.1,
+                "rank": "#37 of 138",
+                "rank_n": 37,
                 "note": null
               },
               "edge": {
                 "side": "h",
                 "gap": 12.1,
-                "rank_gap": 87
+                "rank_gap": 86
               }
             },
             {
@@ -423,8 +423,8 @@
               "k": "Performance",
               "note": null,
               "a": {
-                "v": "35.7",
-                "n": 35.7,
+                "v": "35.8",
+                "n": 35.8,
                 "rank": "#122 of 138",
                 "rank_n": 122,
                 "note": null
@@ -438,7 +438,7 @@
               },
               "edge": {
                 "side": "h",
-                "gap": 23,
+                "gap": 22.9,
                 "rank_gap": 87
               }
             },
@@ -456,14 +456,14 @@
               "h": {
                 "v": "53.3",
                 "n": 53.3,
-                "rank": "#13 of 138",
-                "rank_n": 13,
+                "rank": "#12 of 138",
+                "rank_n": 12,
                 "note": null
               },
               "edge": {
                 "side": "h",
                 "gap": 2.1,
-                "rank_gap": 33
+                "rank_gap": 34
               }
             }
           ]
@@ -476,15 +476,15 @@
               "k": "Offense",
               "note": null,
               "a": {
-                "v": "48.1",
-                "n": 48.1,
-                "rank": "#76 of 138",
-                "rank_n": 76,
+                "v": "48.2",
+                "n": 48.2,
+                "rank": "#75 of 138",
+                "rank_n": 75,
                 "note": null
               },
               "h": {
-                "v": "65.5",
-                "n": 65.5,
+                "v": "65.6",
+                "n": 65.6,
                 "rank": "#5 of 138",
                 "rank_n": 5,
                 "note": null
@@ -492,7 +492,7 @@
               "edge": {
                 "side": "h",
                 "gap": 17.4,
-                "rank_gap": 71
+                "rank_gap": 70
               }
             },
             {
@@ -524,23 +524,23 @@
               "k": "Special teams",
               "note": null,
               "a": {
-                "v": "51.3",
-                "n": 51.3,
-                "rank": "#43 of 130",
-                "rank_n": 43,
+                "v": "51.2",
+                "n": 51.2,
+                "rank": "#44 of 130",
+                "rank_n": 44,
                 "note": null
               },
               "h": {
                 "v": "50.2",
                 "n": 50.2,
-                "rank": "#75 of 130",
-                "rank_n": 75,
+                "rank": "#74 of 130",
+                "rank_n": 74,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 1.1,
-                "rank_gap": 32
+                "gap": 1,
+                "rank_gap": 30
               }
             },
             {
@@ -548,8 +548,8 @@
               "k": "Run offense",
               "note": null,
               "a": {
-                "v": "41.3",
-                "n": 41.3,
+                "v": "41.4",
+                "n": 41.4,
                 "rank": "#108 of 138",
                 "rank_n": 108,
                 "note": null
@@ -557,14 +557,14 @@
               "h": {
                 "v": "60.7",
                 "n": 60.7,
-                "rank": "#26 of 138",
-                "rank_n": 26,
+                "rank": "#25 of 138",
+                "rank_n": 25,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 19.4,
-                "rank_gap": 82
+                "gap": 19.3,
+                "rank_gap": 83
               }
             },
             {
@@ -572,15 +572,15 @@
               "k": "Pass offense",
               "note": null,
               "a": {
-                "v": "48.5",
-                "n": 48.5,
+                "v": "48.6",
+                "n": 48.6,
                 "rank": "#72 of 137",
                 "rank_n": 72,
                 "note": null
               },
               "h": {
-                "v": "68.7",
-                "n": 68.7,
+                "v": "68.8",
+                "n": 68.8,
                 "rank": "#4 of 137",
                 "rank_n": 4,
                 "note": null
@@ -651,21 +651,21 @@
               "a": {
                 "v": "59.6",
                 "n": 59.6,
-                "rank": "#46 of 138",
-                "rank_n": 46,
+                "rank": "#42 of 138",
+                "rank_n": 42,
                 "note": null
               },
               "h": {
                 "v": "63.6",
                 "n": 63.6,
-                "rank": "#9 of 138",
-                "rank_n": 9,
+                "rank": "#8 of 138",
+                "rank_n": 8,
                 "note": null
               },
               "edge": {
                 "side": "h",
                 "gap": 4,
-                "rank_gap": 37
+                "rank_gap": 34
               }
             },
             {
@@ -699,21 +699,21 @@
               "a": {
                 "v": "54.3",
                 "n": 54.3,
-                "rank": "#100 of 138",
-                "rank_n": 100,
+                "rank": "#101 of 138",
+                "rank_n": 101,
                 "note": null
               },
               "h": {
                 "v": "56.9",
                 "n": 56.9,
-                "rank": "#10 of 138",
-                "rank_n": 10,
+                "rank": "#12 of 138",
+                "rank_n": 12,
                 "note": null
               },
               "edge": {
                 "side": "h",
                 "gap": 2.6,
-                "rank_gap": 90
+                "rank_gap": 89
               }
             },
             {
@@ -747,21 +747,21 @@
               "a": {
                 "v": "55.1",
                 "n": 55.1,
-                "rank": "#113 of 138",
-                "rank_n": 113,
+                "rank": "#111 of 138",
+                "rank_n": 111,
                 "note": null
               },
               "h": {
                 "v": "57.2",
                 "n": 57.2,
-                "rank": "#40 of 138",
-                "rank_n": 40,
+                "rank": "#37 of 138",
+                "rank_n": 37,
                 "note": null
               },
               "edge": {
                 "side": "h",
                 "gap": 2.1,
-                "rank_gap": 73
+                "rank_gap": 74
               }
             },
             {
@@ -819,8 +819,8 @@
               "a": {
                 "v": "50.4",
                 "n": 50.4,
-                "rank": "#96 of 138",
-                "rank_n": 96,
+                "rank": "#97 of 138",
+                "rank_n": 97,
                 "note": null
               },
               "h": {
@@ -833,7 +833,7 @@
               "edge": {
                 "side": "h",
                 "gap": 1,
-                "rank_gap": 7
+                "rank_gap": 8
               }
             },
             {
@@ -879,14 +879,14 @@
               "h": {
                 "v": "53.3",
                 "n": 53.3,
-                "rank": "#67 of 138",
-                "rank_n": 67,
+                "rank": "#68 of 138",
+                "rank_n": 68,
                 "note": null
               },
               "edge": {
                 "side": "a",
                 "gap": 0.2,
-                "rank_gap": 19
+                "rank_gap": 20
               }
             },
             {
@@ -933,13 +933,13 @@
         },
         {
           "k": "Special teams",
-          "rank_gap": 32,
-          "gap": 1.1,
+          "rank_gap": 30,
+          "gap": 1,
           "lead": "Florida Atlantic",
           "trail": "North Texas",
-          "lead_cell": "51.3 · #43 of 130",
-          "trail_cell": "50.2 · #75 of 130",
-          "text": "Florida Atlantic 51.3 (#43 of 130) vs North Texas 50.2 (#75 of 130) — 32 places on the national board."
+          "lead_cell": "51.2 · #44 of 130",
+          "trail_cell": "50.2 · #74 of 130",
+          "text": "Florida Atlantic 51.2 (#44 of 130) vs North Texas 50.2 (#74 of 130) — 30 places on the national board."
         },
         {
           "k": "Kicking",
@@ -953,65 +953,65 @@
         },
         {
           "k": "Depth",
-          "rank_gap": 19,
+          "rank_gap": 20,
           "gap": 0.2,
           "lead": "Florida Atlantic",
           "trail": "North Texas",
           "lead_cell": "53.5 · #48 of 138",
-          "trail_cell": "53.3 · #67 of 138",
-          "text": "Florida Atlantic 53.5 (#48 of 138) vs North Texas 53.3 (#67 of 138) — 19 places on the national board."
+          "trail_cell": "53.3 · #68 of 138",
+          "text": "Florida Atlantic 53.5 (#48 of 138) vs North Texas 53.3 (#68 of 138) — 20 places on the national board."
         }
       ],
       "home": [
         {
           "k": "Receivers",
-          "rank_gap": 90,
+          "rank_gap": 89,
           "gap": 2.6,
           "lead": "North Texas",
           "trail": "Florida Atlantic",
-          "lead_cell": "56.9 · #10 of 138",
-          "trail_cell": "54.3 · #100 of 138",
-          "text": "North Texas 56.9 (#10 of 138) vs Florida Atlantic 54.3 (#100 of 138) — 90 places on the national board."
-        },
-        {
-          "k": "ETSR (overall)",
-          "rank_gap": 87,
-          "gap": 12.1,
-          "lead": "North Texas",
-          "trail": "Florida Atlantic",
-          "lead_cell": "+4.1 · #36 of 138",
-          "trail_cell": "-8.0 · #123 of 138",
-          "text": "North Texas +4.1 (#36 of 138) vs Florida Atlantic -8.0 (#123 of 138) — 87 places on the national board."
+          "lead_cell": "56.9 · #12 of 138",
+          "trail_cell": "54.3 · #101 of 138",
+          "text": "North Texas 56.9 (#12 of 138) vs Florida Atlantic 54.3 (#101 of 138) — 89 places on the national board."
         },
         {
           "k": "Performance",
           "rank_gap": 87,
-          "gap": 23,
+          "gap": 22.9,
           "lead": "North Texas",
           "trail": "Florida Atlantic",
           "lead_cell": "58.7 · #35 of 138",
-          "trail_cell": "35.7 · #122 of 138",
-          "text": "North Texas 58.7 (#35 of 138) vs Florida Atlantic 35.7 (#122 of 138) — 87 places on the national board."
+          "trail_cell": "35.8 · #122 of 138",
+          "text": "North Texas 58.7 (#35 of 138) vs Florida Atlantic 35.8 (#122 of 138) — 87 places on the national board."
+        },
+        {
+          "k": "ETSR (overall)",
+          "rank_gap": 86,
+          "gap": 12.1,
+          "lead": "North Texas",
+          "trail": "Florida Atlantic",
+          "lead_cell": "+4.1 · #37 of 138",
+          "trail_cell": "-8.0 · #123 of 138",
+          "text": "North Texas +4.1 (#37 of 138) vs Florida Atlantic -8.0 (#123 of 138) — 86 places on the national board."
         },
         {
           "k": "Run offense",
-          "rank_gap": 82,
-          "gap": 19.4,
+          "rank_gap": 83,
+          "gap": 19.3,
           "lead": "North Texas",
           "trail": "Florida Atlantic",
-          "lead_cell": "60.7 · #26 of 138",
-          "trail_cell": "41.3 · #108 of 138",
-          "text": "North Texas 60.7 (#26 of 138) vs Florida Atlantic 41.3 (#108 of 138) — 82 places on the national board."
+          "lead_cell": "60.7 · #25 of 138",
+          "trail_cell": "41.4 · #108 of 138",
+          "text": "North Texas 60.7 (#25 of 138) vs Florida Atlantic 41.4 (#108 of 138) — 83 places on the national board."
         },
         {
           "k": "Running backs",
-          "rank_gap": 73,
+          "rank_gap": 74,
           "gap": 2.1,
           "lead": "North Texas",
           "trail": "Florida Atlantic",
-          "lead_cell": "57.2 · #40 of 138",
-          "trail_cell": "55.1 · #113 of 138",
-          "text": "North Texas 57.2 (#40 of 138) vs Florida Atlantic 55.1 (#113 of 138) — 73 places on the national board."
+          "lead_cell": "57.2 · #37 of 138",
+          "trail_cell": "55.1 · #111 of 138",
+          "text": "North Texas 57.2 (#37 of 138) vs Florida Atlantic 55.1 (#111 of 138) — 74 places on the national board."
         }
       ],
       "measured": [],
@@ -1025,7 +1025,7 @@
         "att": {
           "team": "Florida Atlantic",
           "label": "pass offense",
-          "v": "48.5",
+          "v": "48.6",
           "rank": "#72 of 137",
           "note": null
         },
@@ -1037,14 +1037,14 @@
           "note": null
         },
         "complete": true,
-        "read": "Florida Atlantic’s pass offense rates 48.5 (#72 of 137) against North Texas’s pass defense at 39.3 (#119 of 138). Florida Atlantic’s unit stands higher among its own position group, by 47 places."
+        "read": "Florida Atlantic’s pass offense rates 48.6 (#72 of 137) against North Texas’s pass defense at 39.3 (#119 of 138). Florida Atlantic’s unit stands higher among its own position group, by 47 places."
       },
       {
         "title": "Florida Atlantic run offense vs North Texas run defense",
         "att": {
           "team": "Florida Atlantic",
           "label": "run offense",
-          "v": "41.3",
+          "v": "41.4",
           "rank": "#108 of 138",
           "note": null
         },
@@ -1056,14 +1056,14 @@
           "note": null
         },
         "complete": true,
-        "read": "Florida Atlantic’s run offense rates 41.3 (#108 of 138) against North Texas’s run defense at 48.5 (#75 of 138). North Texas’s unit stands higher among its own position group, by 33 places."
+        "read": "Florida Atlantic’s run offense rates 41.4 (#108 of 138) against North Texas’s run defense at 48.5 (#75 of 138). North Texas’s unit stands higher among its own position group, by 33 places."
       },
       {
         "title": "North Texas pass offense vs Florida Atlantic pass defense",
         "att": {
           "team": "North Texas",
           "label": "pass offense",
-          "v": "68.7",
+          "v": "68.8",
           "rank": "#4 of 137",
           "note": null
         },
@@ -1075,7 +1075,7 @@
           "note": null
         },
         "complete": true,
-        "read": "North Texas’s pass offense rates 68.7 (#4 of 137) against Florida Atlantic’s pass defense at 36.4 (#128 of 138). North Texas’s unit stands higher among its own position group, by 124 places."
+        "read": "North Texas’s pass offense rates 68.8 (#4 of 137) against Florida Atlantic’s pass defense at 36.4 (#128 of 138). North Texas’s unit stands higher among its own position group, by 124 places."
       },
       {
         "title": "North Texas run offense vs Florida Atlantic run defense",
@@ -1083,7 +1083,7 @@
           "team": "North Texas",
           "label": "run offense",
           "v": "60.7",
-          "rank": "#26 of 138",
+          "rank": "#25 of 138",
           "note": null
         },
         "def": {
@@ -1094,7 +1094,7 @@
           "note": null
         },
         "complete": true,
-        "read": "North Texas’s run offense rates 60.7 (#26 of 138) against Florida Atlantic’s run defense at 30.1 (#127 of 138). North Texas’s unit stands higher among its own position group, by 101 places."
+        "read": "North Texas’s run offense rates 60.7 (#25 of 138) against Florida Atlantic’s run defense at 30.1 (#127 of 138). North Texas’s unit stands higher among its own position group, by 102 places."
       },
       {
         "title": "Florida Atlantic QB room vs North Texas secondary",
@@ -1102,7 +1102,7 @@
           "team": "Florida Atlantic",
           "label": "QB room",
           "v": "59.6",
-          "rank": "#46 of 138",
+          "rank": "#42 of 138",
           "note": null
         },
         "def": {
@@ -1113,7 +1113,7 @@
           "note": null
         },
         "complete": true,
-        "read": "Florida Atlantic’s QB room rates 59.6 (#46 of 138) against North Texas’s secondary at 51.4 (#89 of 138). Florida Atlantic’s unit stands higher among its own position group, by 43 places."
+        "read": "Florida Atlantic’s QB room rates 59.6 (#42 of 138) against North Texas’s secondary at 51.4 (#89 of 138). Florida Atlantic’s unit stands higher among its own position group, by 47 places."
       },
       {
         "title": "North Texas QB room vs Florida Atlantic secondary",
@@ -1121,18 +1121,18 @@
           "team": "North Texas",
           "label": "QB room",
           "v": "63.6",
-          "rank": "#9 of 138",
+          "rank": "#8 of 138",
           "note": null
         },
         "def": {
           "team": "Florida Atlantic",
           "label": "secondary",
           "v": "50.4",
-          "rank": "#96 of 138",
+          "rank": "#97 of 138",
           "note": null
         },
         "complete": true,
-        "read": "North Texas’s QB room rates 63.6 (#9 of 138) against Florida Atlantic’s secondary at 50.4 (#96 of 138). North Texas’s unit stands higher among its own position group, by 87 places."
+        "read": "North Texas’s QB room rates 63.6 (#8 of 138) against Florida Atlantic’s secondary at 50.4 (#97 of 138). North Texas’s unit stands higher among its own position group, by 89 places."
       },
       {
         "title": "Florida Atlantic offensive line vs North Texas defensive line",
@@ -1178,7 +1178,7 @@
           "team": "Florida Atlantic",
           "label": "running backs",
           "v": "55.1",
-          "rank": "#113 of 138",
+          "rank": "#111 of 138",
           "note": null
         },
         "def": {
@@ -1189,7 +1189,7 @@
           "note": null
         },
         "complete": true,
-        "read": "Florida Atlantic’s running backs rates 55.1 (#113 of 138) against North Texas’s linebackers at 51.9 (#89 of 138). North Texas’s unit stands higher among its own position group, by 24 places."
+        "read": "Florida Atlantic’s running backs rates 55.1 (#111 of 138) against North Texas’s linebackers at 51.9 (#89 of 138). North Texas’s unit stands higher among its own position group, by 22 places."
       },
       {
         "title": "North Texas running backs vs Florida Atlantic linebackers",
@@ -1197,7 +1197,7 @@
           "team": "North Texas",
           "label": "running backs",
           "v": "57.2",
-          "rank": "#40 of 138",
+          "rank": "#37 of 138",
           "note": null
         },
         "def": {
@@ -1208,7 +1208,7 @@
           "note": null
         },
         "complete": true,
-        "read": "North Texas’s running backs rates 57.2 (#40 of 138) against Florida Atlantic’s linebackers at 46.3 (#135 of 138). North Texas’s unit stands higher among its own position group, by 95 places."
+        "read": "North Texas’s running backs rates 57.2 (#37 of 138) against Florida Atlantic’s linebackers at 46.3 (#135 of 138). North Texas’s unit stands higher among its own position group, by 98 places."
       },
       {
         "title": "Florida Atlantic receivers vs North Texas secondary",
@@ -1216,7 +1216,7 @@
           "team": "Florida Atlantic",
           "label": "receivers",
           "v": "54.3",
-          "rank": "#100 of 138",
+          "rank": "#101 of 138",
           "note": null
         },
         "def": {
@@ -1227,7 +1227,7 @@
           "note": null
         },
         "complete": true,
-        "read": "Florida Atlantic’s receivers rates 54.3 (#100 of 138) against North Texas’s secondary at 51.4 (#89 of 138). North Texas’s unit stands higher among its own position group, by 11 places."
+        "read": "Florida Atlantic’s receivers rates 54.3 (#101 of 138) against North Texas’s secondary at 51.4 (#89 of 138). North Texas’s unit stands higher among its own position group, by 12 places."
       },
       {
         "title": "North Texas receivers vs Florida Atlantic secondary",
@@ -1235,18 +1235,18 @@
           "team": "North Texas",
           "label": "receivers",
           "v": "56.9",
-          "rank": "#10 of 138",
+          "rank": "#12 of 138",
           "note": null
         },
         "def": {
           "team": "Florida Atlantic",
           "label": "secondary",
           "v": "50.4",
-          "rank": "#96 of 138",
+          "rank": "#97 of 138",
           "note": null
         },
         "complete": true,
-        "read": "North Texas’s receivers rates 56.9 (#10 of 138) against Florida Atlantic’s secondary at 50.4 (#96 of 138). North Texas’s unit stands higher among its own position group, by 86 places."
+        "read": "North Texas’s receivers rates 56.9 (#12 of 138) against Florida Atlantic’s secondary at 50.4 (#97 of 138). North Texas’s unit stands higher among its own position group, by 85 places."
       }
     ],
     "roster": {
@@ -1404,8 +1404,8 @@
           "North Texas is the better football team by 12.3 points on opponent-adjusted results, with roughly 35% of it still inherited from last season (+12.3 pts).",
           "Playing at North Texas is worth 2.8 points — the league-wide home-field number, because a per-venue table was tested and could not be told apart from the home team’s own quality (+2.8 pts).",
           "Stylistically the matchup favours North Texas by 1.2 points: ball control vs front disruption (+1.2 pts).",
-          "Receivers: North Texas 56.9 (#10 of 138) vs Florida Atlantic 54.3 (#100 of 138) — 90 places on the national board.",
-          "ETSR (overall): North Texas +4.1 (#36 of 138) vs Florida Atlantic -8.0 (#123 of 138) — 87 places on the national board."
+          "Receivers: North Texas 56.9 (#12 of 138) vs Florida Atlantic 54.3 (#101 of 138) — 89 places on the national board.",
+          "Performance: North Texas 58.7 (#35 of 138) vs Florida Atlantic 35.8 (#122 of 138) — 87 places on the national board."
         ]
       },
       "underdog": {
@@ -1413,7 +1413,7 @@
         "heading": "Why Florida Atlantic can keep it close",
         "bullets": [
           "Continuity: Florida Atlantic 52.7 (#26 of 138) vs North Texas 26.0 (#136 of 138) — 110 places on the national board.",
-          "Special teams: Florida Atlantic 51.3 (#43 of 130) vs North Texas 50.2 (#75 of 130) — 32 places on the national board.",
+          "Special teams: Florida Atlantic 51.2 (#44 of 130) vs North Texas 50.2 (#74 of 130) — 30 places on the national board.",
           "Kicking: Florida Atlantic 55.4 (#85 of 138) vs North Texas 54.4 (#112 of 138) — 27 places on the national board.",
           "The outcome range is 14.6 points wide at one sigma — p10 -4.7 to p90 +37.3 for North Texas, so a projection of +16.3 still produces results a long way either side of it.",
           "College ratings are built on twelve-game seasons against wildly uneven schedules; even a clean rating gap carries more estimation error than the number implies."
@@ -1739,7 +1739,7 @@
         {
           "k": "ETSR (overall)",
           "a": "-8.0  #123",
-          "h": "+4.1  #36",
+          "h": "+4.1  #37",
           "note": "points vs an average FBS team, neutral field"
         },
         {
@@ -1750,14 +1750,14 @@
         },
         {
           "k": "Performance",
-          "a": "35.7  #122",
+          "a": "35.8  #122",
           "h": "58.7  #35",
           "note": null
         },
         {
           "k": "Offense",
-          "a": "48.1  #76",
-          "h": "65.5  #5",
+          "a": "48.2  #75",
+          "h": "65.6  #5",
           "note": null
         },
         {
@@ -1768,20 +1768,20 @@
         },
         {
           "k": "Special teams",
-          "a": "51.3  #43",
-          "h": "50.2  #75",
+          "a": "51.2  #44",
+          "h": "50.2  #74",
           "note": null
         },
         {
           "k": "Run offense",
-          "a": "41.3  #108",
-          "h": "60.7  #26",
+          "a": "41.4  #108",
+          "h": "60.7  #25",
           "note": null
         },
         {
           "k": "Pass offense",
-          "a": "48.5  #72",
-          "h": "68.7  #4",
+          "a": "48.6  #72",
+          "h": "68.8  #4",
           "note": null
         },
         {
@@ -1798,8 +1798,8 @@
         },
         {
           "k": "QB room",
-          "a": "59.6  #46",
-          "h": "63.6  #9",
+          "a": "59.6  #42",
+          "h": "63.6  #8",
           "note": null
         },
         {
@@ -1810,14 +1810,14 @@
         },
         {
           "k": "Receivers",
-          "a": "54.3  #100",
-          "h": "56.9  #10",
+          "a": "54.3  #101",
+          "h": "56.9  #12",
           "note": null
         },
         {
           "k": "Running backs",
-          "a": "55.1  #113",
-          "h": "57.2  #40",
+          "a": "55.1  #111",
+          "h": "57.2  #37",
           "note": null
         },
         {
@@ -1834,14 +1834,14 @@
         },
         {
           "k": "Secondary",
-          "a": "50.4  #96",
+          "a": "50.4  #97",
           "h": "51.4  #89",
           "note": null
         },
         {
           "k": "Depth",
           "a": "53.5  #48",
-          "h": "53.3  #67",
+          "h": "53.3  #68",
           "note": null
         },
         {
@@ -1858,8 +1858,8 @@
         },
         {
           "k": "Δ national rank, this week",
-          "a": "down 6",
-          "h": "up 13",
+          "a": "no change",
+          "h": "down 1",
           "note": "differenced from last week’s committed snapshot"
         }
       ]
@@ -1878,93 +1878,12 @@
     ],
     "context_label": "RESEARCH CONTEXT — position-group, player-quality, roster and scheme figures explain this matchup and move no priced number.",
     "priced_label": "PRICED BY MODEL — the projection and its drivers, from validated inputs only.",
-    "source": "Ratings: football/rankings/current.json — 2026 Week 8, built 2026-10-26. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser."
+    "source": "Ratings: football/rankings/current.json — 2026 Week 9, built 2026-10-29. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser."
   },
-  "football_evidence": {
-    "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "6x4x1d19ysa03",
-    "status": "PARTIALLY_EXPLAINED",
-    "input_suspect": false,
-    "question": "Can North Texas’ pass rush get to Caden Veltkamp?",
-    "assessment": "Some measured evidence supports EdgeDesk’s lean toward North Texas, and its own breakdown accounts for about 1.3 of the 2.8 points, but not the full gap. It is a research question, not a bet.",
-    "gap": {
-      "points": 2.8,
-      "toward": "North Texas",
-      "other": "Florida Atlantic"
-    },
-    "supporting": [
-      "When North Texas has the ball (pass protection against the pass rush): North Texas’ offense has allowed a sack on 1.9% of its dropbacks, and Florida Atlantic’s defense sacks the quarterback on 5.8% of opponent dropbacks (FBS average 5.7%).",
-      "When North Texas has the ball (the passing game against the pass defense): North Texas’ offense averages 10.2 yards per pass attempt, and Florida Atlantic’s defense allows 8.7 yards per pass attempt (FBS average 7.4).",
-      "When North Texas has the ball (the run game against the run defense): North Texas’ offense averages 6.0 yards per carry, and Florida Atlantic’s defense allows 7.4 yards per carry (FBS average 5.0).",
-      "When North Texas has the ball (big plays through the air): North Texas’ offense turns 15.7% of its pass plays into explosive gains, and Florida Atlantic’s defense gives up explosive gains on 12.4% of opponent pass plays (FBS average 10.2%)."
-    ],
-    "contradicting": [
-      "When Florida Atlantic has the ball (third down): Florida Atlantic’s offense converts 50.8% of its third downs, and North Texas’ defense allows opponents to convert 37.7% of their third downs (FBS average 39.5%).",
-      "When Florida Atlantic has the ball (the red zone): Florida Atlantic’s offense succeeds on 49.9% of its red-zone plays, and North Texas’ defense allows success on 54.3% of opponent red-zone plays (FBS average 43.6%).",
-      "In his last two games (houstonchristian and Charlotte), Ditta averaged 7.8 yards per attempt, against 17.0 in his two games before that.",
-      "When Florida Atlantic has the ball (the passing game against the pass defense): Florida Atlantic’s offense averages 8.2 yards per pass attempt, and North Texas’ defense allows 8.3 yards per pass attempt (FBS average 7.4)."
-    ],
-    "quarterbacks": [
-      "Tayven Jackson has completed 159 of 220 passes (72.3%) for 2,144 yards, 9.7 yards per attempt, 17 touchdowns and 5 interceptions in seven games for North Texas, and has been sacked on 4 of 224 dropbacks.",
-      "Chaston Ditta has completed 15 of 20 passes (75.0%) for 183 yards, 9.2 yards per attempt, 1 touchdown and no interceptions in four games for North Texas, and has been sacked on 2 of 22 dropbacks.",
-      "Caden Veltkamp has completed 191 of 260 passes (73.5%) for 2,164 yards, 8.3 yards per attempt, 18 touchdowns and 3 interceptions in seven games for Florida Atlantic, and has been sacked on 13 of 273 dropbacks."
-    ],
-    "availability": [],
-    "script": {
-      "model": [
-        "North Texas’ defense has to come out ahead in the pass-rush matchup: it sacks the quarterback on 7.9% of opponent dropbacks, against an offense that has allowed a sack on 4.4% of its dropbacks.",
-        "North Texas’ defense has to slow Florida Atlantic in the red zone — Florida Atlantic’s offense succeeds on 49.9% of its red-zone plays.",
-        "North Texas’ defense has to slow Florida Atlantic on third down — Florida Atlantic’s offense converts 50.8% of its third downs.",
-        "North Texas’ offense has to keep winning on long runs: it turns 7.9% of its runs into explosive gains, and Florida Atlantic’s defense gives up explosive gains on 11.8% of opponent runs."
-      ],
-      "market": [
-        "Florida Atlantic’s offense has to keep winning in the red zone: it succeeds on 49.9% of its red-zone plays, and North Texas’ defense allows success on 54.3% of opponent red-zone plays.",
-        "Florida Atlantic’s offense has to keep winning on third down: it converts 50.8% of its third downs, and North Texas’ defense allows opponents to convert 37.7% of their third downs.",
-        "Florida Atlantic’s offense has to keep winning in the pass-rush matchup: it has allowed a sack on 4.4% of its dropbacks, and North Texas’ defense sacks the quarterback on 7.9% of opponent dropbacks."
-      ]
-    },
-    "unknown": [
-      "EdgeDesk’s own sources disagree on sack rate and sack rate allowed for North Texas and Florida Atlantic.",
-      "Not in EdgeDesk’s verified data for this game: turnover rates and penalty rate."
-    ],
-    "flags": [
-      {
-        "key": "DATA_CONFLICT",
-        "severity": "medium",
-        "text": "EdgeDesk’s own sources disagree on sack rate (North Texas), sack rate allowed (Florida Atlantic) and sack rate (Florida Atlantic); the evidence uses the corroborated figures, and any model term built on the play-by-play figure may be off."
-      },
-      {
-        "key": "CROSS_MODEL_OUTLIER",
-        "severity": "medium",
-        "text": "EdgeDesk’s published number sits 4.1 points from the middle of its own other models."
-      },
-      {
-        "key": "REGIME_CHANGE",
-        "severity": "medium",
-        "text": "North Texas: new head coach; returning roster share at the 8th percentile; returning production at the 1st percentile; transfers out at the 87th percentile. The long-run state is weighted 60% (regime curve) instead of 60% (standard curve) at 7 games played."
-      }
-    ],
-    "sources": [
-      {
-        "label": "EdgeDesk play-by-play metrics, quarterback logs and box scores",
-        "url": null,
-        "path": "football/matchup/metrics.json",
-        "observed_at": "2026-10-27T05:10:50.316Z",
-        "verification": "VERIFIED_DATA"
-      },
-      {
-        "label": "EdgeDesk play-by-play quarterback logs (2026)",
-        "url": null,
-        "path": "football/fbs_epa/qb_epa_2026.json",
-        "observed_at": "2026-10-25T02:15:00.000Z",
-        "verification": "VERIFIED_DATA"
-      }
-    ],
-    "needs_confirmation": []
-  },
+  "football_evidence": null,
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-10-27T08:53:29.281Z"
+    "at": "2026-10-30T00:50:38.302Z"
   }
 }

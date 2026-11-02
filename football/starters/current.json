@@ -2,11 +2,11 @@
  "schema": "edgedesk_starters_v1_index",
  "version": 1,
  "season": 2026,
- "generated_at": "2026-10-26T23:10:56.259Z",
+ "generated_at": "2026-11-01T22:55:05.546Z",
  "sports": {
   "CFB": {
    "ok": true,
-   "week": 8,
+   "week": 9,
    "teams": 289,
    "coverage": {
     "total": 289,
@@ -14,26 +14,26 @@
      "ANNOUNCED": 0,
      "EXPECTED": 0,
      "DEPTH_CHART": 0,
-     "PREVIOUS_GAME": 229,
-     "COMPETITION": 35,
+     "PREVIOUS_GAME": 233,
+     "COMPETITION": 31,
      "UNKNOWN": 25
     },
     "by_field_state": {
-     "USABLE": 250,
+     "USABLE": 253,
      "RESEARCH_ONLY": 0,
      "STALE": 0,
-     "CONFLICTING": 14,
+     "CONFLICTING": 11,
      "NOT_APPLICABLE": 0,
      "FETCH_FAILED": 0,
      "UNAVAILABLE": 25
     },
-    "with_player": 257,
+    "with_player": 262,
     "announced": 0,
     "availability_explicit": 0,
     "availability_unknown": 289,
-    "conflicting": 34,
+    "conflicting": 35,
     "stale": 0,
-    "resolved_share": 0.889
+    "resolved_share": 0.907
    },
    "sources": [
     {
@@ -43,7 +43,7 @@
      "from": "network",
      "status": 200,
      "error": null,
-     "retrieved_at": "2026-10-26T23:10:58.149Z"
+     "retrieved_at": "2026-11-01T22:55:06.784Z"
     },
     {
      "field": "roster identity",
@@ -52,7 +52,7 @@
      "from": "network",
      "status": 200,
      "error": null,
-     "retrieved_at": "2026-10-26T23:10:58.782Z"
+     "retrieved_at": "2026-11-01T22:55:07.226Z"
     },
     {
      "field": "schedule",
@@ -61,7 +61,7 @@
      "from": "network",
      "status": 200,
      "error": null,
-     "retrieved_at": "2026-10-26T23:10:58.894Z"
+     "retrieved_at": "2026-11-01T22:55:07.239Z"
     },
     {
      "field": "start count 2025",
@@ -70,7 +70,7 @@
      "from": "network",
      "status": 200,
      "error": null,
-     "retrieved_at": "2026-10-26T23:11:02.721Z"
+     "retrieved_at": "2026-11-01T22:55:10.046Z"
     }
    ],
    "notes": [
@@ -81,7 +81,7 @@
   },
   "NFL": {
    "ok": true,
-   "week": 7,
+   "week": 8,
    "teams": 32,
    "coverage": {
     "total": 32,
@@ -104,8 +104,8 @@
     },
     "with_player": 32,
     "announced": 0,
-    "availability_explicit": 2,
-    "availability_unknown": 30,
+    "availability_explicit": 0,
+    "availability_unknown": 32,
     "conflicting": 1,
     "stale": 0,
     "resolved_share": 1
@@ -118,7 +118,7 @@
      "from": "network",
      "status": 200,
      "error": null,
-     "retrieved_at": "2026-10-26T23:11:06.141Z"
+     "retrieved_at": "2026-11-01T22:55:13.557Z"
     },
     {
      "field": "roster identity",
@@ -127,7 +127,7 @@
      "from": "network",
      "status": 200,
      "error": null,
-     "retrieved_at": "2026-10-26T23:11:06.291Z"
+     "retrieved_at": "2026-11-01T22:55:13.707Z"
     },
     {
      "field": "availability",
@@ -136,7 +136,7 @@
      "from": "network",
      "status": 200,
      "error": null,
-     "retrieved_at": "2026-10-26T23:11:06.377Z"
+     "retrieved_at": "2026-11-01T22:55:13.756Z"
     },
     {
      "field": "depth chart",
@@ -145,20 +145,20 @@
      "from": "network",
      "status": 200,
      "error": null,
-     "retrieved_at": "2026-10-26T23:11:07.078Z"
+     "retrieved_at": "2026-11-01T22:55:14.448Z"
     }
    ],
    "notes": [
-    "NFL availability is the league injury report for week 7; a player with no row is UNKNOWN, not healthy"
+    "NFL availability is the league injury report for week 8; a player with no row is UNKNOWN, not healthy"
    ],
    "file": "football/starters/nfl_2026.json"
   }
  },
  "retrieval": {
-  "started_at": "2026-10-26T23:10:56.259Z",
-  "elapsed_ms": 13746,
+  "started_at": "2026-11-01T22:55:05.546Z",
+  "elapsed_ms": 11856,
   "requests": 8,
-  "bytes": 208882886,
+  "bytes": 220199575,
   "ok": 8,
   "failed": 0,
   "from_cache": 0,

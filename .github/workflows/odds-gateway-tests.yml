@@ -41,6 +41,8 @@ jobs:
           node-version: '22'
       - name: No path around the gateway (only odds_gateway holds the key or names the provider host)
         run: node tools/odds/no_bypass.test.js
+      - name: The Collective's own-key exception until 2026-11-01 (the deployed handler, stubbed database and provider)
+        run: node tools/odds/collective_own_key.test.js
       - name: The control plane against a real PostgreSQL (budget, reservations under concurrency, single flight, shedding, breaker)
         env:
           ODDS_SQL_REQUIRED: '1'
@@ -49,6 +51,14 @@ jobs:
         env:
           ODDS_SQL_REQUIRED: '1'
         run: node tools/odds/hourly_limits_sql.test.js
+      - name: NBA and NHL game lines every two hours (supabase/odds_api_nba_nhl_lines.sql on a real PostgreSQL)
+        env:
+          ODDS_SQL_REQUIRED: '1'
+        run: node tools/odds/nba_nhl_lines_sql.test.js
+      - name: Men's college basketball (NCAAB) registered disabled (supabase/ncaab_odds_sport.sql on a real PostgreSQL)
+        env:
+          ODDS_SQL_REQUIRED: '1'
+        run: node tools/odds/ncaab_odds_sport_sql.test.js
       - name: The deployed gateway end to end (real PostgreSQL, mock provider; 429, 401, timeout, bounded retries, redaction)
         env:
           ODDS_SQL_REQUIRED: '1'

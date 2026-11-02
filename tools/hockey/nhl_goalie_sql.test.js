@@ -47,7 +47,7 @@ T.chk('the layer never grants a client write', !/grant\s+(insert|update|delete|a
 T.chk('the migration copy is the same file', fs.readFileSync(path.join(ROOT, 'supabase', 'migrations', '20261025230000_nhl_goalie_layer.sql'), 'utf8') === LAYER);
 T.chk('the v2 registry file is current (node tools/hockey/build_goalie_v2_registry_sql.js)', require(path.join(ROOT, 'tools', 'hockey', 'build_goalie_v2_registry_sql.js')).build() === fs.readFileSync(F('nhl_goalie_v2_registry.sql'), 'utf8'));
 T.chk('no psql meta-command in any file', ['nhl_goalie_layer.sql', 'nhl_goalie_v2_registry.sql', 'nhl_goalie_cron.sql', 'nhl_goalie_layer_rollback.sql'].every((n) => !/^\s*\\/m.test(fs.readFileSync(F(n), 'utf8'))));
-T.chk('no psql meta-command in the job\'s checks', ['nhl_goalie_readiness_check.sql', 'nhl_goalie_cron_check.sql'].every((n) => !/^\s*\\/m.test(fs.readFileSync(path.join(__dirname, 'sql', n), 'utf8'))));
+T.chk('no psql meta-command in the job\'s checks', ['nhl_goalie_readiness_check.sql', 'nhl_goalie_cron_check.sql', 'nhl_goalie_cards_check.sql'].every((n) => !/^\s*\\/m.test(fs.readFileSync(path.join(__dirname, 'sql', n), 'utf8'))));
 
 const db = PG.start('nhlgoal');
 if (db.skip) {
@@ -82,6 +82,14 @@ try {
   T.chk('starters: no delete, no truncate', fails(() => db.service('delete from public.nhl_goalie_starters;')) && fails(() => db.sql('truncate public.nhl_goalie_starters;')));
   T.chk('starters: Confirmed needs a name; a status needs a name', fails(() => obs({ status: 'confirmed', id: null, name: null })) && fails(() => obs({ status: 'likely', id: null, name: null })));
   T.chk('starters: unknown with no name is fine (a source listing the game with no starter yet)', !fails(() => obs({ game: 'g8', status: 'unknown', id: null, name: null, method: 'none' })));
+  /* ESPN (2026-10-30): a table made before it learns it when the file is applied again; then its own source, current beside Daily Faceoff's */
+  db.sql("alter table public.nhl_goalie_starters drop constraint nhl_goalie_starters_source_check; alter table public.nhl_goalie_starters add constraint nhl_goalie_starters_source_check check (source in ('daily_faceoff', 'nhl_api_boxscore', 'manual', 'edgedesk_projection', 'consensus'));");
+  const preEspn = fails(() => obs({ game: 'g6', source: 'espn', status: 'likely', id: '8482447', name: 'L. Meriläinen' }));
+  out = db.applyFile(F('nhl_goalie_layer.sql'));
+  T.chk('starters: a table created before ESPN refuses its rows until the layer is applied again, then stores them (production\'s upgrade)', preEspn && !/CHECK THIS/.test(out) && !fails(() => obs({ game: 'g6', source: 'espn', status: 'likely', id: '8482447', name: 'L. Meriläinen' })), out.slice(0, 300));
+  const es1 = obs({ source: 'espn', at: "now() - interval '30 minutes'", id: '8482447', name: 'L. Meriläinen', status: 'confirmed', raw: 'Confirmed' });
+  T.chk('starters: ESPN is a source of its own: its row stores and is current beside Daily Faceoff\'s', db.sql(`select is_current from public.nhl_goalie_starters where id = ${es1}`) === 't' && db.sql(`select is_current from public.nhl_goalie_starters where id = ${d2}`) === 't');
+  T.chk('starters: a source the layer does not know is still refused', /nhl_goalie_starters_source_check/.test(why(() => obs({ game: 'g7', source: 'rotowire', status: 'likely', id: '8482447', name: 'L. Meriläinen' }))));
   T.chk('starters: a conflict is only on the consensus, and never Confirmed', fails(() => obs({ conflict: true, status: 'likely' })) && fails(() => obs({ source: 'consensus', conflict: true, status: 'confirmed' })));
   const c1 = obs({ source: 'consensus', at: "now() - interval '5 hours'", status: 'projected', method: 'projection' });
   const c2 = obs({ source: 'consensus', at: "now() - interval '1 hour'", id: '8482447', name: 'L. Meriläinen', status: 'likely', method: 'id' });
@@ -94,10 +102,10 @@ try {
 
   /* ---- cards ---- */
   const LIM = "'[\"Starter not confirmed. Numbers may change.\"]'";
-  const card = (o) => `insert into public.nhl_game_cards (game_id, version, game_start_utc, home, away, generated_at, trigger, supersedes_id, goalie_pairing_used, goalie_status_home, goalie_status_away, home_goalie_name, away_goalie_name, home_starter_row_id, away_starter_row_id, conflict,
+  const card = (o) => `insert into public.nhl_game_cards (game_id, version, game_start_utc, home, away, generated_at, trigger, reasons, supersedes_id, goalie_pairing_used, goalie_status_home, goalie_status_away, home_goalie_name, away_goalie_name, home_starter_row_id, away_starter_row_id, conflict,
       headline, pairing_price, pairing_range, show_range, edge_gate, edge_gate_state, known_limitations, change_note, model_id, goalie_variant, inputs_hash, core_version)
-    values (${lit(o.game || 'g1')}, ${o.version || 1}, ${o.start || START}, 'VAN', 'MIN', ${o.at || 'now()'}, ${lit(o.trigger || 'initial')}, ${o.supersedes || 'null'}, '{"home":{"goalie_name":"K. Lankinen"},"away":{"goalie_name":"C. Pickard"}}',
-      ${lit(o.sh || 'projected')}, ${lit(o.sa || 'projected')}, 'K. Lankinen', 'C. Pickard', ${o.hrow || 'null'}, ${o.arow || 'null'}, ${o.conflict ? 'true' : 'false'}, '{"p_home":0.4174,"model_id":"edgedesk_nhl_v1:xg_core"}', '{"p_home":0.4117}',
+    values (${lit(o.game || 'g1')}, ${o.version || 1}, ${o.start || START}, 'VAN', 'MIN', ${o.at || 'now()'}, ${lit(o.trigger || 'initial')}, ${lit(JSON.stringify(o.reasons || []))}, ${o.supersedes || 'null'}, '{"home":{"goalie_name":"K. Lankinen"},"away":{"goalie_name":"C. Pickard"}}',
+      ${lit(o.sh || 'projected')}, ${lit(o.sa || 'projected')}, 'K. Lankinen', 'C. Pickard', ${o.hrow || 'null'}, ${o.arow || 'null'}, ${o.conflict ? 'true' : 'false'}, ${o.headline ? lit(JSON.stringify(o.headline)) : `'{"p_home":0.4174,"model_id":"edgedesk_nhl_v1:xg_core"}'`}, '{"p_home":0.4117}',
       '[{"p_home":0.4117},{"p_home":0.3935}]', ${o.show === false ? 'false' : 'true'}, '{"state":"x"}', ${lit(o.gate || 'GATED')}, ${o.lim || LIM}, ${o.note ? lit(JSON.stringify(o.note)) : 'null'},
       ${lit(o.model || 'edgedesk_nhl_v1:xg_core')}, ${lit(o.variant || 'xg_goalie_confirmed')}, 'h', 'edgedesk_nhl_goalie_core_v1') returning id;`;
   const v1 = last(db.service(card({ at: "now() - interval '5 hours'", hrow: c1, arow: cA })));
@@ -113,6 +121,14 @@ try {
   T.chk('cards: a card naming another model than edgedesk_nhl_v1 is refused', fails(() => db.service(card({ game: 'g3', model: 'edgedesk_nhl_v2:xg' }))));
   const v2 = last(db.service(card({ version: 2, supersedes: v1, trigger: 'starter_changed', at: "now() - interval '1 hour'", hrow: c2, arow: cA, note: { text: 'Updated: starter changed from K. Lankinen to L. Meriläinen', first_p_home: 0.4117, current_p_home: 0.4243 } })));
   T.chk('cards: version 2 supersedes version 1, which stays for audit', db.sql("select string_agg(version::text, ',' order by version) from public.nhl_game_cards where game_id = 'g1'") === '1,2' && db.anon("select version from public.nhl_game_cards_current where game_id = 'g1';") === '2');
+  /* the lineup lock (hockey/goalies/core.js nhlgLockPrice): a later version whose headline was priced at lock, under the inputs_changed trigger */
+  const both = { sh: 'confirmed', sa: 'confirmed', gate: 'OPEN', show: false, lim: "'[]'" };
+  const k1 = last(db.service(card(Object.assign({ game: 'g7', at: "now() - interval '40 minutes'" }, both))));
+  const k2why = why(() => db.service(card(Object.assign({ game: 'g7', version: 2, supersedes: k1, trigger: 'inputs_changed', reasons: ['lineup_locked', 'inputs_changed'], at: "now() - interval '10 minutes'",
+    headline: { basis: 'lineup_lock', model_id: 'edgedesk_nhl_v1:xg_all_confirmed', p_home: 0.4051, before: { model_id: 'edgedesk_nhl_v1:xg_core', p_home: 0.4174 } } }, both))));
+  const k2 = db.sql("select id from public.nhl_game_cards where game_id = 'g7' and version = 2");
+  T.chk('cards: a lineup-lock version is stored as the sync writes it (inputs_changed, reason lineup_locked, the lock headline), the live variant and production model id unchanged', /^\d+$/.test(k1) && /^\d+$/.test(k2)
+    && db.sql("select headline->>'basis' || ' ' || (reasons ? 'lineup_locked')::text from public.nhl_game_cards where game_id = 'g7' and version = 2") === 'lineup_lock true', k2why);
   T.chk('cards: no update, no delete, no truncate', fails(() => db.service(`update public.nhl_game_cards set trigger = 'initial' where id = ${v2};`)) && fails(() => db.service('delete from public.nhl_game_cards;')) && fails(() => db.sql('truncate public.nhl_game_cards cascade;')));
 
   /* ---- edges and CLV, attached to the version that existed ---- */
@@ -267,6 +283,29 @@ try {
   rk = J(db.sql(CHECK('nhl_goalie_readiness_check.sql')));
   let vk = S.verdict({ readiness: rk }, Date.now());
   T.chk('job: a last check that failed only because no outside source answered is a warning, not a failure', rk.state === 'error' && rk.last_check_alerts.join() === 'DEGRADED:daily_faceoff_unavailable,FAILURE:sources_down' && vk.errors.length === 0 && /outside source/.test(vk.warnings[0] || ''), [rk, vk]);
+  /* the cards: each game's current version and what its headline is priced by (nhl_goalie_cards_check.sql), a day ahead at most */
+  // j1: version 1 with both starters Confirmed, then version 2 priced at lineup lock; j2: the slate's headline; g9: over a day ahead.
+  // Both start in 20 minutes; the runs' timing probe (sources.nhl_api_boxscore.games): j1's lineups listed at T-30, j2's never by T-21
+  const jboth = { sh: 'confirmed', sa: 'confirmed', gate: 'OPEN', show: false, lim: "'[]'" }, JS = "now() + interval '20 minutes'";
+  const probe = (g, m, state, h, a, st, posted) => ({ game_id: g, minutes_to_start: m, state, skaters: { home: h, away: a }, starters: st, lineups_posted: posted });
+  const runAt = (ago, games) => `insert into public.nhl_goalie_sync_runs (status, started_at, finished_at, trigger, sources) values ('ok', now() - interval '${ago} minutes', now() - interval '${ago} minutes', 'test', ${lit(JSON.stringify({ nhl_api_boxscore: { games } }))}::jsonb);`;
+  db.sql(runAt(30, [probe('j1', 50, 'FUT', 0, 0, 0, false), probe('j2', 50, 'FUT', 0, 0, 0, false), probe('zz', 50, 'FUT', 18, 18, 2, true)]));
+  db.sql(runAt(10, [probe('j1', 30, 'PRE', 18, 18, 2, true), probe('j2', 30, 'PRE', 0, 0, 2, false)]));
+  db.sql(runAt(1, [probe('j2', 21, 'PRE', 0, 0, 2, false)]));
+  const j1 = last(db.service(card(Object.assign({ game: 'j1', start: JS, at: "now() - interval '40 minutes'" }, jboth))));
+  db.service(card(Object.assign({ game: 'j1', start: JS, version: 2, supersedes: j1, trigger: 'inputs_changed', reasons: ['lineup_locked', 'inputs_changed'], at: "now() - interval '10 minutes'",
+    headline: { basis: 'lineup_lock', model_id: 'edgedesk_nhl_v1:xg_all_confirmed', p_home: 0.4051, before: { model_id: 'edgedesk_nhl_v1:xg_core', p_home: 0.4174 }, lineup: { skaters: { home: 18, away: 18 } } } }, jboth)));
+  db.service(card({ game: 'j2', start: JS }));
+  db.service(card({ game: 'g9', start: "now() + interval '30 hours'" }));
+  const kc = J(db.sql(CHECK('nhl_goalie_cards_check.sql')));
+  const kg = (id) => (Array.isArray(kc) ? kc.find((x) => x.game_id === id) : null) || null, kj1 = kg('j1'), kj2 = kg('j2');
+  T.chk('job: the cards list each game\'s current version once: the lock at lineup lock with the slate\'s price before it, the others at the slate, nothing over a day ahead', Array.isArray(kc) && new Set(kc.map((x) => x.game_id)).size === kc.length && !kg('g9')
+    && kj1 && kj1.version === 2 && kj1.basis === 'lineup_lock' && Number(kj1.p_home) === 0.4051 && Number(kj1.before_p_home) === 0.4174 && kj1.gate === 'OPEN' && kj1.matchup === 'MIN@VAN' && kj1.skaters.home === 18
+    && kj2 && kj2.version === 1 && kj2.basis === 'slate' && Number(kj2.p_home) === 0.4174 && kj2.gate === 'GATED', kc);
+  T.chk('job: each card carries its game\'s boxscore reads: j1 listed both lineups at T-30 (2 reads), j2 never (3 reads, the last at T-21: PRE, 0 / 0 skaters, 2 starters flagged)', kj1 && kj1.probe && kj1.probe.reads === 2 && kj1.probe.first_listed_min === 30
+    && kj2 && kj2.probe && kj2.probe.reads === 3 && kj2.probe.first_listed_min === null && kj2.probe.last_pre && kj2.probe.last_pre.min === 21 && kj2.probe.last_pre.state === 'PRE' && kj2.probe.last_pre.skaters.home === 0 && kj2.probe.last_pre.starters === 2, [kj1 && kj1.probe, kj2 && kj2.probe]);
+  const smk = S.render({ cards: kc }, Date.now());
+  T.chk('job: the summary lists the cards, the lock marked "lineup lock" with its price before lock, and passes', /\| MIN@VAN \| [^|\n]+ \| 2 \|[^\n]*\| OPEN \| 40\.5% \| lineup lock[^|\n]*before lock 41\.7%/.test(smk.markdown) && /\| 41\.7% \| slate \(edgedesk_nhl_v1:xg_core\) \| not listed by T−21 \(PRE, 0 \/ 0 skaters, 2 starters flagged; 3 reads\) \|/.test(smk.markdown) && /\| listed T−30 min \|/.test(smk.markdown) && smk.verdict.errors.length === 0, smk.markdown);
   // Deploy NHL goalie layer re-applies all three files over the live tables (apply_sql): nothing kept may move
   // (the registry may add its own goalie_v2_* keys; every key already there keeps its value)
   const kept = () => ['nhl_goalie_sync_runs', 'nhl_goalie_alerts', 'nhl_goalie_pokes'].map((t) => t + '=' + db.sql('select count(*) from public.' + t)).join(' ');

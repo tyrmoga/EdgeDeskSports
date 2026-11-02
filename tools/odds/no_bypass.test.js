@@ -21,6 +21,14 @@
         function stays uncalled;
      9  the linemaker (sheets, desk, calibration, grader) spends nothing.
 
+   ONE EXCEPTION, dated (methodology change 2026-10-28,
+   docs/odds-api-incident-2026-10/METHODOLOGY-2026-10-28-collective-own-key.md):
+   until 2026-11-01T00:00:00Z collective_odds_ingest may ask the provider with
+   the Collective's own key, COLLECTIVE_ODDS_API_KEY, inside one marked block.
+   Rules 1 and 2 read that file with the block cut out; section 1b holds the
+   block to its approved shape. Everywhere else the new key name is as
+   forbidden as the old ones.
+
    Static, so it runs everywhere, offline. Run: node tools/odds/no_bypass.test.js
    =========================================================================== */
 'use strict';
@@ -49,22 +57,50 @@ const files = [];
 const GATEWAY = 'supabase/functions/odds_gateway/index.ts';
 const text = (f) => { try { return fs.readFileSync(path.join(ROOT, f), 'utf8'); } catch (_) { return ''; } };
 
+/* the one dated exception (see the header); rules 1 and 2 read its file without it */
+const EXC_FILE = 'supabase/functions/collective_odds_ingest/index.ts';
+const EXC_BLOCK = /\/\/ ── BEGIN COLLECTIVE OWN-KEY EXCEPTION[^\n]*\n[\s\S]*?\/\/ ── END COLLECTIVE OWN-KEY EXCEPTION ──/g;
+const scan = (f) => (f === EXC_FILE ? text(f).replace(EXC_BLOCK, '') : text(f));
+
 /* ── 1 · the provider host ──────────────────────────────────────────────── */
-const hostHits = files.filter((f) => f !== GATEWAY && /api\.the-odds-api\.com/.test(text(f)));
-chk('1 · only odds_gateway names api.the-odds-api.com', hostHits.length === 0, hostHits);
+const hostHits = files.filter((f) => f !== GATEWAY && /api\.the-odds-api\.com/.test(scan(f)));
+chk('1 · only odds_gateway names api.the-odds-api.com (outside the one dated exception)', hostHits.length === 0, hostHits);
 chk('1 · and odds_gateway does', /https:\/\/api\.the-odds-api\.com\/v4/.test(read(GATEWAY)));
 
+/* ── 1b · the exception keeps its approved shape (2026-10-28) ───────────── */
+const excFiles = files.filter((f) => /BEGIN COLLECTIVE OWN-KEY EXCEPTION/.test(text(f)));
+chk('1b · the exception lives in collective_odds_ingest and nowhere else', excFiles.length === 1 && excFiles[0] === EXC_FILE, excFiles);
+const excBlocks = text(EXC_FILE).match(EXC_BLOCK) || [];
+chk('1b · it is one block', excBlocks.length === 1, excBlocks.length);
+const EXC = excBlocks[0] || '';
+chk('1b · it ends at the provider\'s reset, 2026-11-01T00:00:00Z, and not later', /const COLLECTIVE_OWN_KEY_UNTIL = "2026-11-01T00:00:00Z";/.test(EXC)
+  && (EXC.match(/COLLECTIVE_OWN_KEY_UNTIL = /g) || []).length === 1);
+chk('1b · it is open only before that instant, and only with the key set',
+  /return Date\.now\(\) < Date\.parse\(COLLECTIVE_OWN_KEY_UNTIL\) && collectiveOwnKey\(\)\.length > 0;/.test(EXC));
+chk('1b · it reads COLLECTIVE_ODDS_API_KEY and no other key name',
+  /Deno\.env\.get\("COLLECTIVE_ODDS_API_KEY"\)/.test(EXC) && !/(?<![A-Z_])(ODDS_API_KEY|THE_ODDS_API_KEY|NFL_ODDS_API_KEY|ODDS_GATEWAY_PROVIDER_KEY)\b/.test(EXC));
+const reqBody = (EXC.split('async function collectiveOwnKeyRequest')[1] || '');
+chk('1b · it asks the incident\'s breaker (odds_api_enabled) before it calls the provider',
+  /rpc\/odds_api_enabled/.test(EXC) && reqBody.indexOf('collectiveBreakerOn()') >= 0
+  && reqBody.indexOf('collectiveBreakerOn()') < reqBody.indexOf('await fetch(u.toString()'));
+chk('1b · an unreadable breaker counts as off', /if \(!res\.ok\) return false;[\s\S]*=== true;[\s\S]*catch \{\s*return false;/.test(EXC.split('async function collectiveBreakerOn')[1] || ''));
+const outside = scan(EXC_FILE);
+chk('1b · outside the block the file reaches it only as taRequest\'s first statement',
+  /async function taRequest\(opts: FetchOptions\): Promise<TaRawFetch> \{\n  if \(collectiveOwnKeyOpen\(\)\) return collectiveOwnKeyRequest\(opts\);\n/.test(outside)
+  && (outside.match(/collectiveOwnKey\w*\(/g) || []).length === 2, (outside.match(/collectiveOwnKey\w*\(/g) || []));
+if (Date.now() >= Date.parse('2026-11-01T00:00:00Z') && EXC) console.log('NOTE | the Collective\'s own-key exception expired at 2026-11-01T00:00:00Z: it is dead code; remove the block and section 1b');
+
 /* ── 2 · the key, under every name it has had ───────────────────────────── */
-const keyRead = /(Deno\.env\.get|process\.env|envGet|env)\s*(\(\s*["'`]|\.|\[\s*["'`])(ODDS_API_KEY|THE_ODDS_API_KEY|ODDS_GATEWAY_PROVIDER_KEY)\b/;
-const keyHits = files.filter((f) => f !== GATEWAY && keyRead.test(text(f)));
-chk('2 · only odds_gateway reads ODDS_API_KEY / THE_ODDS_API_KEY / ODDS_GATEWAY_PROVIDER_KEY', keyHits.length === 0, keyHits);
-chk('2 · no file builds an apiKey= query outside the gateway',
-  files.filter((f) => f !== GATEWAY && /[?&]apiKey=\$\{|[?&]apiKey='\s*\+|searchParams\.set\(\s*["']apiKey["']/.test(text(f))).length === 0,
-  files.filter((f) => f !== GATEWAY && /[?&]apiKey=\$\{|[?&]apiKey='\s*\+|searchParams\.set\(\s*["']apiKey["']/.test(text(f))));
+const keyRead = /(Deno\.env\.get|process\.env|envGet|env)\s*(\(\s*["'`]|\.|\[\s*["'`])(ODDS_API_KEY|THE_ODDS_API_KEY|ODDS_GATEWAY_PROVIDER_KEY|COLLECTIVE_ODDS_API_KEY)\b/;
+const keyHits = files.filter((f) => f !== GATEWAY && keyRead.test(scan(f)));
+chk('2 · only odds_gateway reads ODDS_API_KEY / THE_ODDS_API_KEY / ODDS_GATEWAY_PROVIDER_KEY (and COLLECTIVE_ODDS_API_KEY only inside the exception)', keyHits.length === 0, keyHits);
+chk('2 · no file builds an apiKey= query outside the gateway (and the exception)',
+  files.filter((f) => f !== GATEWAY && /[?&]apiKey=\$\{|[?&]apiKey='\s*\+|searchParams\.set\(\s*["']apiKey["']/.test(scan(f))).length === 0,
+  files.filter((f) => f !== GATEWAY && /[?&]apiKey=\$\{|[?&]apiKey='\s*\+|searchParams\.set\(\s*["']apiKey["']/.test(scan(f))));
 
 /* ── 3 · no runner holds the key ────────────────────────────────────────── */
 const wf = fs.readdirSync(path.join(ROOT, '.github', 'workflows')).filter((f) => /\.ya?ml$/.test(f));
-const wfHits = wf.filter((f) => /secrets\.(ODDS_API_KEY|THE_ODDS_API_KEY|ODDS_GATEWAY_PROVIDER_KEY)\b/.test(read('.github/workflows/' + f)));
+const wfHits = wf.filter((f) => /secrets\.(ODDS_API_KEY|THE_ODDS_API_KEY|ODDS_GATEWAY_PROVIDER_KEY|COLLECTIVE_ODDS_API_KEY)\b/.test(read('.github/workflows/' + f)));
 chk('3 · no workflow maps the provider key into a runner', wfHits.length === 0, wfHits);
 chk('3 · the capture backup scheduler never retries a capture (curl --retry re-ran whole captures after a 504)',
   !read('.github/workflows/capture.yml').split('\n').some((l) => !/^\s*#/.test(l) && /--retry\b/.test(l)));
@@ -93,6 +129,7 @@ chk('5 · the enrichment build never calls the provider (it reads captured quote
 const STOP = read('supabase/odds_api_emergency_stop.sql');
 ['capture', 'close', 'collective_odds_ingest', 'props_cron', 'sharp_check'].forEach((fn) => chk('6 · the emergency stop pauses jobs that call ' + fn, STOP.indexOf("'%/functions/v1/" + fn) >= 0));
 chk('6 · and the sharp_check cron poke, whose command carries no URL (like capture_poke)', STOP.indexOf("'%sharp_check_poke%'") >= 0);
+chk('6 · and the Collective\'s odds.run_ingest jobs, whose command carries no URL either (2026-10-28)', STOP.indexOf("'%odds.run_ingest%'") >= 0);
 const deployedOnly = (read('tools/supabase/download_functions.sh').match(/\b(odds|wta_odds|wta_close|cfb_close|close_backfill|capture_boards|model_conf_odds|ingest_multisport|run_slate|scores_diag)\b/g) || []);
 chk('6 · and every deployed-but-unexported odds function the repo knows of', [...new Set(deployedOnly)].every((fn) => STOP.indexOf('/functions/v1/' + fn) >= 0), [...new Set(deployedOnly)]);
 
@@ -174,6 +211,7 @@ chk('7 · the prop capture asks for the core markets only by default', JSON.stri
   chk('10 · the college baseball price job asks the gateway through the shared client', /tools\/lib\/odds_gateway\.js/.test(CQ) && /category: 'featured'/.test(CQ) && /SPORT_KEY = 'baseball_ncaa'/.test(CQ) && /sport_key: SPORT_KEY/.test(CQ));
   chk('10 · and only behind CBASE_PRICES=on', /CBASE_PRICES/.test(CQ) && CQ.indexOf("!== 'on'") > 0 && CQ.indexOf("!== 'on'") < CQ.indexOf('client.request('));
   chk('10 · the college baseball sport row is created disabled', /values \('baseball_ncaa', 'cbase', false,/.test(read('supabase/cbase_odds_sport.sql')));
+  chk('10 · the men\'s college basketball (NCAAB) sport row is created disabled', /values \('basketball_ncaab', 'ncaab', false,/.test(read('supabase/ncaab_odds_sport.sql')));
   {
     /* the switch is a committed file (college_baseball/market/switch.json), the variable CBASE_PRICES = off stops it;
        every step that could reach the gateway runs only behind the switch, and the gateway credentials only reach it there */

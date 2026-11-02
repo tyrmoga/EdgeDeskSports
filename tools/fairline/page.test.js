@@ -1,0 +1,154 @@
+#!/usr/bin/env node
+/* ===========================================================================
+   THE FAIRLINE PAGE'S WIRING — without a browser.
+   (tools/fairline/page.e2e.js drives it in Chromium against the real SQL.)
+
+     * the page carries the site's one Main nav, loads each module once, in
+       dependency order, and reads its Supabase project from the same
+       committed config the games pages read — no key of its own
+     * it calls the database's doors and nothing that could bypass the gate:
+       fairline_board, fairline_leaks and fairline_tapes (and the reader's own
+       Tape email switch), never signals or a table
+     * it says plainly that it shows prices, not picks; it names its known
+       limitations, including that per-book quotes cover actionable lines only
+     * what is not built is shown inactive, never hidden or faked: DK
+       Predictions says Coming Soon, and so does The Tape's email until its
+       delivery is switched on
+     * no price is typed in the page: the offer is lib/edgedesk_pricing.js's
+     * the consent order is Bet Checker's: the server checkout first, then the
+       terms AS SHOWN recorded, then — only then — Stripe; a Bet Checker
+       customer is sent to the billing portal to switch, never to a checkout
+     * a row and a leak card say what the database decided and nothing more,
+       and every string is escaped
+
+   Run: node tools/fairline/page.test.js
+   =========================================================================== */
+'use strict';
+const fs = require('fs');
+const path = require('path');
+const ROOT = path.join(__dirname, '..', '..');
+const read = (rel) => fs.readFileSync(path.join(ROOT, rel), 'utf8');
+const NAV = require(path.join(ROOT, 'lib', 'edgedesk_nav.js'));
+global.EDFairlineCore = require(path.join(ROOT, 'lib', 'edgedesk_fairline_core.js'));
+global.EDPricing = require(path.join(ROOT, 'lib', 'edgedesk_pricing.js'));
+const UI = require(path.join(ROOT, 'lib', 'edgedesk_fairline_app.js'));
+
+let pass = 0, fail = 0;
+function chk(name, ok, detail) { if (ok) pass++; else { fail++; console.log('FAIL | ' + name + (detail !== undefined ? '  ' + JSON.stringify(detail).slice(0, 300) : '')); } }
+
+const PAGE = read('fairline/index.html');
+const MOD = read('lib/edgedesk_fairline_app.js');
+const CORE = read('lib/edgedesk_fairline_core.js');
+const CSS = read('lib/edgedesk_fairline_app.css');
+
+/* ── the page ──────────────────────────────────────────────────────────── */
+const nav = /<nav class="th-nav" aria-label="Main">([\s\S]*?)<\/nav>/.exec(PAGE);
+const links = nav ? [...nav[1].matchAll(/<a href="([^"]+)" data-ed-nav="([^"]+)">([^<]+)<\/a>/g)].map((m) => [m[2], m[1], m[3]]) : [];
+chk('the site\'s one Main nav, five links in order', JSON.stringify(links) === JSON.stringify(NAV.PRIMARY.map((x) => [x.key, x.href, x.label])), links);
+const order = ['/lib/edgedesk_auth.js', '/lib/edgedesk_pricing.js', '/lib/edgedesk_access.js', '/games/lib/attribution.js', '/games/lib/social.js',
+  '/games/lib/auth.js', '/lib/edgedesk_fairline_core.js', '/lib/edgedesk_fairline_app.js'];
+const at = order.map((s) => PAGE.indexOf('<script src="' + s + '?v='));
+chk('every module loads, once each, in dependency order', at.every((i) => i > 0) && at.every((i, k) => k === 0 || i > at[k - 1]) &&
+  order.every((s) => PAGE.split('<script src="' + s + '?v=').length === 2), at);
+chk('not the Linemaker\'s module of a similar name', !/edgedesk_fairline\.js/.test(PAGE));
+chk('the stylesheets: the tools frame, the game cards, Fairline\'s own', ['/tools/tools.css', '/lib/edgedesk_games.css', '/lib/edgedesk_fairline_app.css']
+  .every((c) => PAGE.indexOf('<link rel="stylesheet" href="' + c + '?v=') > 0));
+chk('the frame is the game page (dark, dense, the same cards and empty states)', /class="wrap gm-page fl"/.test(PAGE) && /gm-empty/.test(MOD) && /gm-lg/.test(MOD));
+chk('the Supabase project comes from games/data/config.json — the page carries no key', /fetch\('\/games\/data\/config\.json'/.test(PAGE) &&
+  !/eyJhbGciOi/.test(PAGE) && !/eyJhbGciOi/.test(MOD) && !/supabase\.co/.test(MOD));
+const inline = [...PAGE.matchAll(/<script>([\s\S]*?)<\/script>/g)].map((m) => m[1]);
+chk('the inline boot parses', inline.length === 1 && (() => { try { new Function(inline[0]); return true; } catch (_) { return false; } })());
+chk('mobile first: the viewport, and no fixed width wider than a phone', /width=device-width/.test(PAGE) &&
+  !/(^|[^-a-z])width:\s*(4[2-9]\d|[5-9]\d\d|\d{4,})px/.test(CSS) && !/min-width:\s*(4[2-9]\d|[5-9]\d\d)px;/.test(CSS.replace(/@media\([^)]*\)/g, '')));
+/* The pages that gate or sell on the tier load the copies of these files that
+   know the Fairline tier (black). A stamp set before it would let a returning
+   browser keep the old file: on Bet Checker, a Fairline customer shown as free. */
+(() => {
+  const PRE_BLACK = ['20261028a', '20261028b', '20261028bc1', '20261028bc3', '20261028fl1', '20261029bc1', '20261029bc2'];
+  const stale = [];
+  ['index.html', 'app.html', 'bet-checker/index.html', 'fairline/index.html'].forEach((pg) => {
+    const html = read(pg);
+    ['edgedesk_access.js', 'edgedesk_pricing.js', 'edgedesk_bet_checker.js'].forEach((lib) => {
+      const m = new RegExp('/lib/' + lib.replace('.', '\\.') + '\\?v=([0-9a-z]+)').exec(html);
+      if (m && PRE_BLACK.indexOf(m[1]) >= 0) stale.push(pg + ' ' + lib + '?v=' + m[1]);
+    });
+  });
+  chk('every page that gates or sells on the tier loads the tier-aware copies (no stamp from before black)', stale.length === 0, stale);
+})();
+chk('the page is in the sitemap', /https:\/\/edgedesksports\.com\/fairline\//.test(read('sitemap-pages.xml')));
+
+/* ── the doors ─────────────────────────────────────────────────────────── */
+const rpcs = [...MOD.matchAll(/rpc\('([a-z_]+)'/g)].map((m) => m[1]).sort();
+chk('the page calls the Fairline doors and nothing else', JSON.stringify([...new Set(rpcs)]) === JSON.stringify(['fairline_board', 'fairline_leaks', 'fairline_tape_email', 'fairline_tapes']), rpcs);
+const tables = [...MOD.matchAll(/\/rest\/v1\/(?!rpc\/)([a-z_]+)/g)].map((m) => m[1]);
+chk('it reads no table directly (signals stays the terminal\'s); the one table it touches is its own consent record, by insert',
+  JSON.stringify([...new Set(tables)]) === JSON.stringify(['billing_consents']) && /'\/rest\/v1\/billing_consents', \{ method: 'POST'/.test(MOD) && !/signals\?/.test(MOD), tables);
+chk('the free sign-in is the Games door, configured to come back here', /configure\(S\.url, S\.key, \{ returnPath: '\/fairline\/', surface: 'fairline' \}\)/.test(MOD));
+chk('a confirmation link lands here and is consumed (lib/edgedesk_auth.js)', /S\.edauth\.consume\(\{ url: S\.url, key: S\.key \}\)/.test(MOD));
+const fnBody = (name) => { const a = MOD.indexOf('function ' + name + '('); const b = MOD.indexOf('\n    function ', a + 10); return a < 0 ? '' : MOD.slice(a, b < 0 ? undefined : b); };
+chk('the page decides no gate: what The Board, The Leaks and The Tape show comes from their answers, never from the plan in the browser',
+  /S\.board && S\.board\.paid/.test(MOD) && fnBody('renderBoard').length > 200 && fnBody('renderLeaks').length > 200 && fnBody('renderTape').length > 200 &&
+  !/S\.acc/.test(fnBody('renderBoard')) && !/S\.acc/.test(fnBody('renderLeaks')) && !/S\.acc/.test(fnBody('renderTape')) &&
+  /if \(!b\.paid\)/.test(fnBody('renderBoard')) && /if \(!L\.paid\)/.test(fnBody('renderLeaks')) && /if \(!T\.paid\)/.test(fnBody('renderTape')));
+
+/* ── what it says ──────────────────────────────────────────────────────── */
+chk('it says plainly: prices, not picks; it never tells you what to bet', /Prices, not picks/.test(PAGE) && /never tells you what to bet/.test(PAGE) &&
+  /not a pick list/.test(UI.BOARD_LIMITS.join(' ')));
+chk('Known limitations, consistent with the MLB card: coverage is what capture recorded, book quotes are actionable lines only',
+  /Known limitations/.test(PAGE) && /Coverage is whatever capture recorded/.test(UI.BOARD_LIMITS.join(' ')) && /actionable lines only/.test(UI.BOARD_LIMITS.join(' ')));
+chk('…and Kalshi\'s own limits (5-minute snapshots, the 6¢ spread rule, before fees)', /5-minute snapshots/.test(UI.BOARD_LIMITS.join(' ')) && /6¢/.test(UI.BOARD_LIMITS.join(' ')) &&
+  /fees/.test(UI.BOARD_LIMITS.join(' ')));
+chk('The Tape is a tab of its own, and opens from #tape', /data-fl-tab="tape" aria-selected="false" aria-controls="fl-tape">The Tape<\/button>/.test(PAGE) &&
+  !/data-fl-tab="tape"[^>]*disabled/.test(PAGE) && /data-fl="tape" role="tabpanel"/.test(PAGE) && /h === 'leaks' \|\| h === 'tape'/.test(MOD));
+chk('The Tape\'s email says Coming Soon until delivery is switched on, and never claims to be sent before then',
+  /e\.delivering \? [\s\S]{0,120}'<span class="fl-chip soon">Coming Soon<\/span> '/.test(fnBody('tapeEmailHTML')) &&
+  /if \(!d \|\| !d\.delivering\) return 'Email delivery is not switched on yet\.'/.test(fnBody('emailWords')));
+chk('a Tape card is the core\'s words for the stored Tape (the email\'s words), escaped', /var v = C\.tapeView\(t\.tape\)/.test(fnBody('tapeCard')) &&
+  /esc\(v\.headline\)/.test(fnBody('tapeCard')) && /esc\(v\.best\)/.test(fnBody('tapeCard')) && /esc\(c\.text\)/.test(fnBody('tapeCard')));
+chk('the free Tape is placeholders under a blur (aria-hidden), with the offer', /fl-blur" aria-hidden="true"><p class="fl-verdict">Last week: 00–00/.test(fnBody('renderTape')) &&
+  /offerHTML\('Every Monday:/.test(fnBody('renderTape')));
+chk('DK Predictions is a column, Coming Soon, with no data source', /cell\('DK Predictions', '<span class="fl-chip soon">Coming Soon<\/span>', 'inactive'/.test(MOD) &&
+  /no price feed exists yet/.test(UI.BOARD_LIMITS.join(' ')) && !/dk_predictions_price|dk_price/.test(MOD + CORE));
+chk('no price is typed in the page or the module: the offer is the pricing file\'s', !/\$[1-9]/.test(PAGE) && !/\$[1-9]/.test(MOD) && /P\.fairlineOffer\('monthly'\)/.test(MOD));
+
+/* ── the consent, in Bet Checker's order ───────────────────────────────── */
+const iCo = MOD.indexOf('S.access.startCheckout('), iConsent = MOD.indexOf("'/rest/v1/billing_consents'"), iGo = MOD.indexOf('S.location.href = co.url');
+chk('server checkout, then the consent record, then Stripe — in that order', iCo > 0 && iConsent > iCo && iGo > iConsent, [iCo, iConsent, iGo]);
+chk('no consent record, no Stripe: a failed write stops before navigating', /if \(!ok\) \{[\s\S]{0,400}Nothing has been charged[\s\S]{0,200}return;\s*\}\s*S\.location\.href = co\.url/.test(MOD));
+chk('the checkout asked for is Fairline\'s, at the offer\'s own figure, no trial',
+  /startCheckout\(accessCfg\(\), \{ kind: 'fairline', plan: off\.plan, price_cents: off\.price_cents,\s*trial_days: 0, consent_version: off\.consent_version \}\)/.test(MOD));
+chk('the terms recorded are the element\'s text, the words the reader saw', /offer_text: terms/.test(MOD) && /var terms = \$\(host, '\[data-fl="terms"\]'\)\.textContent/.test(MOD));
+chk('the terms are lib/edgedesk_pricing.js fairlineTerms(), never typed in the page', /P\.fairlineTerms\(S\.plan\)/.test(MOD));
+chk('Subscribe starts disabled; only the tick enables it', /data-fl="arl-go" disabled>/.test(PAGE) && /\$\(host, '\[data-fl="arl-go"\]'\)\.disabled = !e\.target\.checked/.test(MOD));
+chk('after Stripe, the page asks the server until Fairline is confirmed (never the redirect itself)',
+  /S\.access\.finalize\(accessCfg\(\), \{[\s\S]{0,120}until: function \(a\) \{ return !!\(a && a\.fairline_paid\); \}/.test(MOD));
+chk('a Bet Checker customer is sent to the billing portal to switch, never to a second checkout',
+  /function switcher\(\) \{ return !!\(S\.acc && S\.acc\.bet_checker_paid && !S\.acc\.fairline_paid && !S\.acc\.has_access\); \}/.test(MOD) &&
+  /if \(switcher\(\)\) \{[\s\S]{0,400}portalLink[\s\S]{0,300}return;\s*\}\s*setPlan\(S\.plan\);/.test(MOD));
+chk('the page names its Settings › Subscription, where the renewal terms send a reader to cancel', /Settings › Subscription/.test(PAGE) &&
+  /Settings \\u203a Subscription on the Fairline page/.test(read('lib/edgedesk_pricing.js')) && /data-fl="portal">Manage billing or cancel/.test(MOD));
+chk('labels are chips with words, never colour alone', /class="fl-chip ' \+ esc\(lv\.cls\)/.test(MOD) && /esc\(lv\.chip\)/.test(MOD) && /\.fl-chip\.leak\{/.test(CSS));
+chk('each leak card leads with its verdict, big and plain, numbers underneath', /chip\(s, true\) \+\s*'<p class="fl-verdict/.test(MOD) && /\+ numsHTML\(s\) \+ '<\/article>'/.test(MOD) &&
+  /\.fl-verdict\.lead\{font-size:clamp\(19px/.test(CSS));
+
+/* ── a row and a card say what the database decided ────────────────────── */
+const page = UI._make({ querySelector: () => null, querySelectorAll: () => [], addEventListener: () => {} }, { url: 'x', key: 'y', fetch: () => null });
+const row = { sig_key: 'k1', sport: 'NFL', market: 'spread', selection: 'Kansas City Chiefs', point: -3.5, home_team: 'Kansas City Chiefs', away_team: 'Buffalo Bills',
+  commence_time: '2026-11-01T18:00:00Z', fair_prob: 0.52, fair_american: -108, best_dec: 2.04, best_american: 104, best_book: 'DraftKings', edge_pts: 2.98,
+  quote_age_min: 3.5, fresh_limit_min: 120, fresh: true, kalshi_state: null };
+let h = page.rowHTML(row);
+chk('a fresh row: fair, best and book, edge, age; no stale chip', /data-fresh="true"/.test(h) && /52\.0%/.test(h) && /fair −108/.test(h) && /\+104/.test(h) && /DraftKings/.test(h) &&
+  /\+2\.98 pts/.test(h) && /4 min/.test(h) && !/fl-chip stale/.test(h));
+h = page.rowHTML(Object.assign({}, row, { fresh: false, quote_age_min: 300 }));
+chk('a stale row is marked in words ("Stale", why), not only greyed', /data-fresh="false"/.test(h) && /fl-chip stale">Stale</.test(h) && /Older than its 2 h limit/.test(h));
+h = page.rowHTML(Object.assign({}, row, { selection: '<img src=x onerror=alert(1)>', best_book: '"><script>x</script>' }));
+chk('every string in a row is escaped', !/<img src=x/.test(h) && !/<script>x/.test(h) && /&lt;img src=x/.test(h));
+const card = page.leakCard({ dim: 'market', val: 'props', bets: 40, wins: 15, losses: 25, label: 'real_leak', small_sample: false, roi_basis: 'dollars', pl_dollars: -395,
+  dollars_bets: 40, avg_clv_pct: -1.4, clv_bets: 40, beat_close: 14, beat_close_pct: 35, roi_pct: -19.8 }, { min_sample_bets: 15 }, true);
+chk('the top leak card: the chip, then the sentence, big', /fl-chip leak big">Real leak/.test(card) &&
+  /<p class="fl-verdict lead">Props: down \$395 over 40 bets, and you’re not beating the close\. This one’s real\.<\/p>/.test(card));
+const sm = page.leakCard({ dim: 'market', val: 'parlay', bets: 6, label: null, small_sample: true }, { min_sample_bets: 15 }, false);
+chk('a small-sample card has the Small sample chip and no label word', /Small sample/.test(sm) && !/Real leak|Bad luck|Running hot|Real edge/.test(sm));
+
+console.log((fail === 0 ? 'ALL GREEN ' : 'FAILED ') + 'fairline page wiring — ' + pass + ' passed, ' + fail + ' failed');
+process.exit(fail === 0 ? 0 : 1);

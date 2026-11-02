@@ -291,7 +291,32 @@ if (good.json) {
        Same rule: the step checks every key for PRESENCE first, and an empty
        one prints a ::warning:: and a run-summary line naming what was not
        imported. Read-only on Google's side; the log prints counts only. */
-    'GSC_SERVICE_ACCOUNT_JSON', 'GSC_SITE'];
+    'GSC_SERVICE_ACCOUNT_JSON', 'GSC_SITE',
+    /* The weekly SP+ capture (cfb-sp-plus.yml, football/sp_plus/sync.js).
+       Same rule, held more strictly: an empty key makes the sync FAILED with
+       the reason "no CFBD_API_KEY" (football/sp_plus/cfbd.js), written to the
+       run summary and to football/sp_plus/lines.json (last_attempt), and the
+       workflow's last step then fails the run. Nothing is captured or
+       published without it. */
+    'CFBD_API_KEY',
+    /* The NCAAM-EARLY sync (ncaam-early-sync.yml, basketball/ncaam_early/
+       ingest.js), CollegeBasketballData.com (its quota is shared with CFBD's).
+       Same rule as CFBD_API_KEY: an empty key makes every CBBD part FAILED with
+       the reason "no CBBD_API_KEY" (basketball/ncaam_early/cbbd.js), recorded
+       as a FAILURE alert in ncaam_es_alerts, and the run exits non-zero.
+       Nothing is stored without it, and the key is redacted from every log. */
+    'CBBD_API_KEY',
+    /* The odds gateway's own shared secret (supabase/functions/odds_gateway,
+       x-odds-gateway-secret), sent beside SB_SERVICE_ROLE by the three steps
+       that call the gateway (player-props.yml capture, props-factory.yml
+       backfill, cfb-lab.yml alternates). The gateway compares the service role
+       byte for byte with its own, so a repository secret in another valid
+       format is refused. It must equal the function secret of the same name
+       (docs/odds-api-incident-2026-10/INCIDENT.md §9 step 4). Never silent when
+       absent: a refused credential is an ERROR (GATEWAY_UNAUTHORIZED) with a
+       ::error:: naming this secret (football/props/capture.js), and the
+       alternates step checks for either credential before it runs. */
+    'ODDS_GATEWAY_SECRET'];
   let files = [];
   try { files = fs.readdirSync(WF).filter(f => /\.ya?ml$/.test(f)); } catch (_) {}
   chk('the workflow directory could be read', files.length > 0, String(files.length));

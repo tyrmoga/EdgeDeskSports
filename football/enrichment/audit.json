@@ -1,27 +1,28 @@
 {
  "schema": "edgedesk_enrichment_audit_v1",
- "generated_at": "2026-10-27T12:31:13.344Z",
+ "generated_at": "2026-11-02T06:34:39.708Z",
  "basis": "what EdgeDesk knows about the slate now against the previous refresh; an engineering audit, not a betting signal",
  "latest": {
-  "at": "2026-10-27T12:31:13.344Z",
-  "reliability_generated_at": "2026-10-27T12:31:13.344Z",
-  "enrichment_generated_at": "2026-10-27T12:31:06.542Z",
+  "at": "2026-11-02T06:34:39.708Z",
+  "reliability_generated_at": "2026-11-02T06:34:39.708Z",
+  "enrichment_generated_at": "2026-11-02T06:34:31.288Z",
   "counts": {
-   "games": 63,
-   "mean": 85.9,
+   "games": 69,
+   "mean": 85.5,
    "median": 89,
    "by_band": {
-    "STRONG": 45,
-    "ADEQUATE": 18
+    "STRONG": 48,
+    "ADEQUATE": 20,
+    "LOW": 1
    },
-   "missing_qb_status": 126,
-   "qb_conflicts_open": 8,
+   "missing_qb_status": 138,
+   "qb_conflicts_open": 7,
    "qb_confirmed": 0,
    "games_lacking_injury_information": 14,
    "unrated_meaningful_absences": 0,
-   "fcs_games_thin_data": 0,
-   "games_under_two_market_sources": 63,
-   "stale_evidence_records": 83,
+   "fcs_games_thin_data": 1,
+   "games_under_two_market_sources": 69,
+   "stale_evidence_records": 79,
    "provider_failures": 4,
    "provider_failures_attributable_to_run": 0
   },
@@ -108,14 +109,13 @@
    }
   ],
   "games": {
-   "401856733": {
-    "game": "Missouri @ Arkansas",
+   "401856738": {
+    "game": "Arkansas @ Auburn",
     "score": 89,
     "grade": "STRONG",
     "fam": {
      "availability": 4.6,
      "qb_status": 2,
-     "starters": 1.2,
      "qb_identity": 0.8,
      "transfer_turnover": 0.6
     },
@@ -128,17 +128,16 @@
      "away": "NOT_DUE_YET"
     }
    },
-   "401856734": {
-    "game": "Florida @ Georgia",
+   "401856739": {
+    "game": "Oklahoma @ Florida",
     "score": 79,
     "grade": "ADEQUATE",
     "fam": {
-     "qb_identity": 4.2,
+     "qb_identity": 2.9,
      "availability": 4.6,
-     "qb_conflict": 3.6,
-     "weather": 1.8,
+     "qb_conflict": 1.7,
      "contract_conflicts": 1.4,
-     "starters": 1.9,
+     "starters": 1.2,
      "qb_status": 2,
      "transfer_turnover": 0.3
     },
@@ -151,104 +150,8 @@
      "away": "NOT_DUE_YET"
     }
    },
-   "401856735": {
-    "game": "Auburn @ Ole Miss",
-    "score": 89,
-    "grade": "STRONG",
-    "fam": {
-     "availability": 4.6,
-     "qb_status": 2,
-     "qb_identity": 1.1,
-     "transfer_turnover": 0.3
-    },
-    "qb": {
-     "home": "EXPECTED",
-     "away": "EXPECTED"
-    },
-    "avail": {
-     "home": "NOT_DUE_YET",
-     "away": "NOT_DUE_YET"
-    }
-   },
-   "401856736": {
-    "game": "South Carolina @ Oklahoma",
-    "score": 89,
-    "grade": "STRONG",
-    "fam": {
-     "availability": 4.6,
-     "favorite_flips": 1.9,
-     "qb_status": 2,
-     "qb_identity": 0.8
-    },
-    "qb": {
-     "home": "EXPECTED",
-     "away": "EXPECTED"
-    },
-    "avail": {
-     "home": "NOT_DUE_YET",
-     "away": "NOT_DUE_YET"
-    }
-   },
-   "401856737": {
-    "game": "Mississippi State @ Texas",
-    "score": 89,
-    "grade": "STRONG",
-    "fam": {
-     "qb_identity": 4.2,
-     "availability": 4.6,
-     "qb_status": 2,
-     "transfer_turnover": 0.3
-    },
-    "qb": {
-     "home": "EXPECTED",
-     "away": "EXPECTED"
-    },
-    "avail": {
-     "home": "NOT_DUE_YET",
-     "away": "NOT_DUE_YET"
-    }
-   },
-   "401856842": {
-    "game": "Arizona @ Texas Tech",
-    "score": 89,
-    "grade": "STRONG",
-    "fam": {
-     "availability": 4.6,
-     "qb_status": 2,
-     "qb_identity": 1.1
-    },
-    "qb": {
-     "home": "EXPECTED",
-     "away": "EXPECTED"
-    },
-    "avail": {
-     "home": "NOT_DUE_YET",
-     "away": "NOT_DUE_YET"
-    }
-   },
-   "401856843": {
-    "game": "Arizona State @ BYU",
-    "score": 79,
-    "grade": "ADEQUATE",
-    "fam": {
-     "qb_identity": 3,
-     "availability": 4.6,
-     "qb_conflict": 1.7,
-     "contract_conflicts": 1.4,
-     "qb_status": 2,
-     "transfer_turnover": 0.3
-    },
-    "qb": {
-     "home": "EXPECTED",
-     "away": "CONFLICTED"
-    },
-    "avail": {
-     "home": "NOT_DUE_YET",
-     "away": "NOT_DUE_YET"
-    }
-   },
-   "401856844": {
-    "game": "Baylor @ UCF",
+   "401856740": {
+    "game": "Alabama @ LSU",
     "score": 89,
     "grade": "STRONG",
     "fam": {
@@ -266,85 +169,8 @@
      "away": "NOT_DUE_YET"
     }
    },
-   "401856845": {
-    "game": "Kansas @ TCU",
-    "score": 89,
-    "grade": "STRONG",
-    "fam": {
-     "availability": 4.6,
-     "qb_status": 2,
-     "qb_identity": 0.8,
-     "transfer_turnover": 0.6
-    },
-    "qb": {
-     "home": "EXPECTED",
-     "away": "EXPECTED"
-    },
-    "avail": {
-     "home": "NOT_DUE_YET",
-     "away": "NOT_DUE_YET"
-    }
-   },
-   "401856846": {
-    "game": "Kansas State @ Colorado",
-    "score": 79,
-    "grade": "ADEQUATE",
-    "fam": {
-     "availability": 4.6,
-     "qb_conflict": 1.9,
-     "qb_identity": 2.4,
-     "qb_status": 2,
-     "transfer_turnover": 0.3
-    },
-    "qb": {
-     "home": "EXPECTED",
-     "away": "EXPECTED"
-    },
-    "avail": {
-     "home": "NOT_DUE_YET",
-     "away": "NOT_DUE_YET"
-    }
-   },
-   "401856847": {
-    "game": "Oklahoma State @ Iowa State",
-    "score": 89,
-    "grade": "STRONG",
-    "fam": {
-     "qb_identity": 3.9,
-     "availability": 4.6,
-     "qb_status": 2,
-     "transfer_turnover": 0.6
-    },
-    "qb": {
-     "home": "EXPECTED",
-     "away": "EXPECTED"
-    },
-    "avail": {
-     "home": "NOT_DUE_YET",
-     "away": "NOT_DUE_YET"
-    }
-   },
-   "401856848": {
-    "game": "Utah @ Cincinnati",
-    "score": 89,
-    "grade": "STRONG",
-    "fam": {
-     "availability": 4.6,
-     "qb_status": 2,
-     "qb_identity": 0.8,
-     "transfer_turnover": 0.3
-    },
-    "qb": {
-     "home": "EXPECTED",
-     "away": "EXPECTED"
-    },
-    "avail": {
-     "home": "NOT_DUE_YET",
-     "away": "NOT_DUE_YET"
-    }
-   },
-   "401858277": {
-    "game": "California @ NC State",
+   "401856741": {
+    "game": "Georgia @ Ole Miss",
     "score": 89,
     "grade": "STRONG",
     "fam": {
@@ -361,169 +187,13 @@
      "away": "NOT_DUE_YET"
     }
    },
-   "401858278": {
-    "game": "SMU @ Syracuse",
+   "401856742": {
+    "game": "Vanderbilt @ Mississippi State",
     "score": 79,
     "grade": "ADEQUATE",
     "fam": {
      "availability": 4.6,
      "qb_identity": 2.1,
-     "qb_conflict": 1,
-     "qb_status": 2
-    },
-    "qb": {
-     "home": "EXPECTED",
-     "away": "EXPECTED"
-    },
-    "avail": {
-     "home": "NOT_DUE_YET",
-     "away": "NOT_DUE_YET"
-    }
-   },
-   "401858279": {
-    "game": "Boston College @ Duke",
-    "score": 89,
-    "grade": "STRONG",
-    "fam": {
-     "availability": 4.6,
-     "qb_status": 2,
-     "qb_identity": 1.4,
-     "transfer_turnover": 0.6
-    },
-    "qb": {
-     "home": "EXPECTED",
-     "away": "EXPECTED"
-    },
-    "avail": {
-     "home": "NOT_DUE_YET",
-     "away": "NOT_DUE_YET"
-    }
-   },
-   "401858280": {
-    "game": "Clemson @ Florida State",
-    "score": 89,
-    "grade": "STRONG",
-    "fam": {
-     "availability": 4.6,
-     "qb_status": 2,
-     "qb_identity": 1.1,
-     "starters": 0.6,
-     "transfer_turnover": 0.6
-    },
-    "qb": {
-     "home": "EXPECTED",
-     "away": "EXPECTED"
-    },
-    "avail": {
-     "home": "NOT_DUE_YET",
-     "away": "NOT_DUE_YET"
-    }
-   },
-   "401858281": {
-    "game": "Georgia Tech @ Pittsburgh",
-    "score": 79,
-    "grade": "ADEQUATE",
-    "fam": {
-     "availability": 4.6,
-     "qb_conflict": 1.9,
-     "qb_identity": 2.4,
-     "qb_status": 2,
-     "transfer_turnover": 0.6
-    },
-    "qb": {
-     "home": "EXPECTED",
-     "away": "EXPECTED"
-    },
-    "avail": {
-     "home": "NOT_DUE_YET",
-     "away": "NOT_DUE_YET"
-    }
-   },
-   "401858282": {
-    "game": "Miami @ North Carolina",
-    "score": 89,
-    "grade": "STRONG",
-    "fam": {
-     "availability": 4.6,
-     "qb_status": 2,
-     "qb_identity": 0.8,
-     "transfer_turnover": 0.6
-    },
-    "qb": {
-     "home": "EXPECTED",
-     "away": "EXPECTED"
-    },
-    "avail": {
-     "home": "NOT_DUE_YET",
-     "away": "NOT_DUE_YET"
-    }
-   },
-   "401858283": {
-    "game": "Stanford @ Louisville",
-    "score": 89,
-    "grade": "STRONG",
-    "fam": {
-     "availability": 4.6,
-     "qb_status": 2,
-     "qb_identity": 1.1,
-     "starters": 0.6,
-     "transfer_turnover": 0.6
-    },
-    "qb": {
-     "home": "EXPECTED",
-     "away": "EXPECTED"
-    },
-    "avail": {
-     "home": "NOT_DUE_YET",
-     "away": "NOT_DUE_YET"
-    }
-   },
-   "401858284": {
-    "game": "Virginia @ Wake Forest",
-    "score": 89,
-    "grade": "STRONG",
-    "fam": {
-     "availability": 4.6,
-     "qb_status": 2,
-     "starters": 0.6,
-     "qb_identity": 0.8,
-     "transfer_turnover": 0.6
-    },
-    "qb": {
-     "home": "EXPECTED",
-     "away": "EXPECTED"
-    },
-    "avail": {
-     "home": "NOT_DUE_YET",
-     "away": "NOT_DUE_YET"
-    }
-   },
-   "401858501": {
-    "game": "Minnesota @ Indiana",
-    "score": 89,
-    "grade": "STRONG",
-    "fam": {
-     "availability": 4.6,
-     "qb_status": 2,
-     "qb_identity": 1.1,
-     "transfer_turnover": 0.3
-    },
-    "qb": {
-     "home": "EXPECTED",
-     "away": "EXPECTED"
-    },
-    "avail": {
-     "home": "NOT_DUE_YET",
-     "away": "NOT_DUE_YET"
-    }
-   },
-   "401858502": {
-    "game": "Wisconsin @ Iowa",
-    "score": 79,
-    "grade": "ADEQUATE",
-    "fam": {
-     "qb_identity": 4,
-     "availability": 4.6,
      "qb_conflict": 1.7,
      "contract_conflicts": 1.4,
      "qb_status": 2,
@@ -538,16 +208,15 @@
      "away": "NOT_DUE_YET"
     }
    },
-   "401858503": {
-    "game": "Illinois @ Maryland",
-    "score": 79,
-    "grade": "ADEQUATE",
+   "401856743": {
+    "game": "Texas @ Missouri",
+    "score": 89,
+    "grade": "STRONG",
     "fam": {
      "availability": 4.6,
-     "qb_conflict": 1.9,
-     "qb_identity": 2.1,
+     "favorite_flips": 1.1,
      "qb_status": 2,
-     "starters": 0.6,
+     "qb_identity": 0.8,
      "transfer_turnover": 0.3
     },
     "qb": {
@@ -559,16 +228,90 @@
      "away": "NOT_DUE_YET"
     }
    },
-   "401858504": {
-    "game": "Washington @ Nebraska",
+   "401856744": {
+    "game": "Texas A&M @ South Carolina",
     "score": 89,
     "grade": "STRONG",
     "fam": {
      "availability": 4.6,
      "qb_status": 2,
-     "qb_identity": 1.3,
+     "qb_identity": 0.8
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "NOT_DUE_YET",
+     "away": "NOT_DUE_YET"
+    }
+   },
+   "401856745": {
+    "game": "Kentucky @ Tennessee",
+    "score": 89,
+    "grade": "STRONG",
+    "fam": {
+     "availability": 4.6,
+     "qb_status": 2,
      "qb_conflict": 0.9,
-     "starters": 1.2,
+     "qb_identity": 1.1,
+     "transfer_turnover": 0.6
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "NOT_DUE_YET",
+     "away": "NOT_DUE_YET"
+    }
+   },
+   "401856849": {
+    "game": "BYU @ Utah",
+    "score": 89,
+    "grade": "STRONG",
+    "fam": {
+     "availability": 4.6,
+     "qb_status": 2,
+     "qb_identity": 0.8
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "NOT_DUE_YET",
+     "away": "NOT_DUE_YET"
+    }
+   },
+   "401856850": {
+    "game": "UCF @ Kansas",
+    "score": 79,
+    "grade": "ADEQUATE",
+    "fam": {
+     "availability": 4.6,
+     "qb_identity": 3.7,
+     "qb_conflict": 1.9,
+     "qb_status": 2,
+     "transfer_turnover": 0.6
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "NOT_DUE_YET",
+     "away": "NOT_DUE_YET"
+    }
+   },
+   "401856851": {
+    "game": "Cincinnati @ Houston",
+    "score": 89,
+    "grade": "STRONG",
+    "fam": {
+     "availability": 4.6,
+     "qb_status": 2,
+     "qb_identity": 0.8,
      "transfer_turnover": 0.3
     },
     "qb": {
@@ -580,8 +323,8 @@
      "away": "NOT_DUE_YET"
     }
    },
-   "401858505": {
-    "game": "Northwestern @ Oregon",
+   "401856852": {
+    "game": "Colorado @ Arizona State",
     "score": 89,
     "grade": "STRONG",
     "fam": {
@@ -589,6 +332,45 @@
      "qb_status": 2,
      "qb_identity": 1.6,
      "qb_conflict": 0.9,
+     "transfer_turnover": 0.6
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "NOT_DUE_YET",
+     "away": "NOT_DUE_YET"
+    }
+   },
+   "401856853": {
+    "game": "Iowa State @ Baylor",
+    "score": 89,
+    "grade": "STRONG",
+    "fam": {
+     "availability": 4.6,
+     "qb_identity": 1.8,
+     "qb_status": 2,
+     "transfer_turnover": 0.6
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "NOT_DUE_YET",
+     "away": "NOT_DUE_YET"
+    }
+   },
+   "401856854": {
+    "game": "Oklahoma State @ Kansas State",
+    "score": 79,
+    "grade": "ADEQUATE",
+    "fam": {
+     "availability": 4.6,
+     "qb_conflict": 1.9,
+     "qb_identity": 2.1,
+     "qb_status": 2,
      "transfer_turnover": 0.3
     },
     "qb": {
@@ -600,14 +382,13 @@
      "away": "NOT_DUE_YET"
     }
    },
-   "401858506": {
-    "game": "Purdue @ Penn State",
+   "401856855": {
+    "game": "TCU @ Arizona",
     "score": 89,
     "grade": "STRONG",
     "fam": {
      "availability": 4.6,
      "qb_status": 2,
-     "starters": 1.2,
      "qb_identity": 0.8,
      "transfer_turnover": 0.3
     },
@@ -620,15 +401,15 @@
      "away": "NOT_DUE_YET"
     }
    },
-   "401858507": {
-    "game": "Michigan @ Rutgers",
-    "score": 89,
-    "grade": "STRONG",
+   "401856856": {
+    "game": "West Virginia @ Texas Tech",
+    "score": 79,
+    "grade": "ADEQUATE",
     "fam": {
      "availability": 4.6,
-     "qb_identity": 2.3,
+     "qb_identity": 2.7,
+     "qb_conflict": 1.9,
      "qb_status": 2,
-     "qb_conflict": 1.8,
      "transfer_turnover": 0.3
     },
     "qb": {
@@ -640,15 +421,115 @@
      "away": "NOT_DUE_YET"
     }
    },
-   "401858508": {
-    "game": "Nevada @ UCLA",
-    "score": 79,
-    "grade": "ADEQUATE",
+   "401858285": {
+    "game": "Clemson @ Syracuse",
+    "score": 89,
+    "grade": "STRONG",
     "fam": {
-     "availability": 5,
-     "qb_identity": 2.6,
-     "qb_conflict": 2.8,
-     "qb_status": 3,
+     "favorite_flips": 2.6,
+     "availability": 4.6,
+     "qb_status": 2,
+     "qb_identity": 1.2,
+     "transfer_turnover": 0.3
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "NOT_DUE_YET",
+     "away": "NOT_DUE_YET"
+    }
+   },
+   "401858286": {
+    "game": "Duke @ NC State",
+    "score": 89,
+    "grade": "STRONG",
+    "fam": {
+     "availability": 4.6,
+     "qb_status": 2,
+     "qb_identity": 1.1,
+     "transfer_turnover": 0.3
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "NOT_DUE_YET",
+     "away": "NOT_DUE_YET"
+    }
+   },
+   "401858287": {
+    "game": "Louisville @ Georgia Tech",
+    "score": 89,
+    "grade": "STRONG",
+    "fam": {
+     "availability": 4.6,
+     "qb_identity": 2.4,
+     "qb_status": 2,
+     "transfer_turnover": 0.6
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "NOT_DUE_YET",
+     "away": "NOT_DUE_YET"
+    }
+   },
+   "401858288": {
+    "game": "Virginia Tech @ SMU",
+    "score": 89,
+    "grade": "STRONG",
+    "fam": {
+     "availability": 4.6,
+     "qb_status": 2,
+     "qb_identity": 0.8,
+     "transfer_turnover": 0.3
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "NOT_DUE_YET",
+     "away": "NOT_DUE_YET"
+    }
+   },
+   "401858289": {
+    "game": "Florida State @ Boston College",
+    "score": 89,
+    "grade": "STRONG",
+    "fam": {
+     "availability": 4.6,
+     "qb_identity": 2.4,
+     "qb_status": 2,
+     "transfer_turnover": 0.6
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "NOT_DUE_YET",
+     "away": "NOT_DUE_YET"
+    }
+   },
+   "401858290": {
+    "game": "Merrimack @ Wake Forest",
+    "score": 59,
+    "grade": "LOW",
+    "fam": {
+     "stability": 14,
+     "fcs_rating": 6,
+     "matchup_profile": 4,
+     "availability": 5.5,
+     "qb_status": 3.5,
+     "attribution": 0.8,
+     "starters": 0.7,
+     "qb_identity": 0.8,
      "transfer_turnover": 0.3
     },
     "qb": {
@@ -657,17 +538,96 @@
     },
     "avail": {
      "home": "NOT_REQUIRED",
+     "away": "NO_SOURCE"
+    }
+   },
+   "401858291": {
+    "game": "Miami @ Notre Dame",
+    "score": 89,
+    "grade": "STRONG",
+    "fam": {
+     "availability": 5.5,
+     "qb_status": 3.5,
+     "qb_identity": 0.8,
+     "transfer_turnover": 0.3
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "PROVIDER_FAILED",
      "away": "NOT_REQUIRED"
     }
    },
-   "401858509": {
-    "game": "Ohio State @ USC",
+   "401858292": {
+    "game": "North Carolina @ UConn",
+    "score": 89,
+    "grade": "STRONG",
+    "fam": {
+     "availability": 5.5,
+     "qb_status": 3.5,
+     "qb_identity": 0.8,
+     "transfer_turnover": 0.6
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "PROVIDER_FAILED",
+     "away": "NOT_REQUIRED"
+    }
+   },
+   "401858510": {
+    "game": "Nebraska @ Illinois",
+    "score": 79,
+    "grade": "ADEQUATE",
+    "fam": {
+     "availability": 4.6,
+     "qb_identity": 2.1,
+     "qb_conflict": 2,
+     "qb_status": 2,
+     "transfer_turnover": 0.6
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "UNCERTAIN"
+    },
+    "avail": {
+     "home": "NOT_DUE_YET",
+     "away": "NOT_DUE_YET"
+    }
+   },
+   "401858511": {
+    "game": "Michigan State @ Michigan",
+    "score": 79,
+    "grade": "ADEQUATE",
+    "fam": {
+     "qb_identity": 3.1,
+     "availability": 4.6,
+     "qb_conflict": 2.6,
+     "contract_conflicts": 1.4,
+     "qb_status": 2,
+     "transfer_turnover": 0.3
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "CONFLICTED"
+    },
+    "avail": {
+     "home": "NOT_DUE_YET",
+     "away": "NOT_DUE_YET"
+    }
+   },
+   "401858512": {
+    "game": "UCLA @ Minnesota",
     "score": 89,
     "grade": "STRONG",
     "fam": {
      "availability": 4.6,
      "qb_status": 2,
-     "starters": 0.6,
+     "qb_conflict": 0.9,
      "qb_identity": 0.8
     },
     "qb": {
@@ -679,29 +639,46 @@
      "away": "NOT_DUE_YET"
     }
    },
-   "401859185": {
-    "game": "Notre Dame @ Navy",
-    "score": 87,
+   "401858513": {
+    "game": "Iowa @ Northwestern",
+    "score": 89,
     "grade": "STRONG",
     "fam": {
-     "availability": 5.5,
-     "qb_status": 3.5,
-     "weather": 1.8,
-     "qb_identity": 1.8,
-     "starters": 0.7,
-     "transfer_turnover": 0.3
+     "availability": 4.6,
+     "qb_status": 2,
+     "qb_identity": 1.3,
+     "transfer_turnover": 0.6
     },
     "qb": {
      "home": "EXPECTED",
      "away": "EXPECTED"
     },
     "avail": {
-     "home": "NOT_REQUIRED",
-     "away": "PROVIDER_FAILED"
+     "home": "NOT_DUE_YET",
+     "away": "NOT_DUE_YET"
     }
    },
-   "401860908": {
-    "game": "Texas State @ Boise State",
+   "401858514": {
+    "game": "Oregon @ Ohio State",
+    "score": 79,
+    "grade": "ADEQUATE",
+    "fam": {
+     "availability": 4.6,
+     "qb_conflict": 2.8,
+     "qb_identity": 2.2,
+     "qb_status": 2
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "NOT_DUE_YET",
+     "away": "NOT_DUE_YET"
+    }
+   },
+   "401858515": {
+    "game": "Maryland @ Purdue",
     "score": 89,
     "grade": "STRONG",
     "fam": {
@@ -718,17 +695,36 @@
      "away": "NOT_DUE_YET"
     }
    },
-   "401860909": {
-    "game": "Washington State @ San Diego State",
+   "401858516": {
+    "game": "Penn State @ Washington",
+    "score": 88,
+    "grade": "STRONG",
+    "fam": {
+     "qb_identity": 4.2,
+     "availability": 4.6,
+     "qb_conflict": 1,
+     "qb_status": 2,
+     "transfer_turnover": 0.3
+    },
+    "qb": {
+     "home": "UNCERTAIN",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "NOT_DUE_YET",
+     "away": "NOT_DUE_YET"
+    }
+   },
+   "401858517": {
+    "game": "Rutgers @ Wisconsin",
     "score": 89,
     "grade": "STRONG",
     "fam": {
      "availability": 4.6,
-     "favorite_flips": 1.1,
+     "qb_identity": 2.5,
      "qb_status": 2,
-     "qb_identity": 1.4,
      "qb_conflict": 0.9,
-     "transfer_turnover": 0.3
+     "transfer_turnover": 0.6
     },
     "qb": {
      "home": "EXPECTED",
@@ -739,14 +735,13 @@
      "away": "NOT_DUE_YET"
     }
    },
-   "401860910": {
-    "game": "Colorado State @ Utah State",
-    "score": 79,
-    "grade": "ADEQUATE",
+   "401860911": {
+    "game": "Boise State @ Colorado State",
+    "score": 89,
+    "grade": "STRONG",
     "fam": {
      "availability": 4.6,
-     "qb_identity": 3.6,
-     "qb_conflict": 1.9,
+     "qb_identity": 2.1,
      "qb_status": 2
     },
     "qb": {
@@ -758,14 +753,13 @@
      "away": "NOT_DUE_YET"
     }
    },
-   "401860924": {
-    "game": "Oregon State @ Fresno State",
+   "401860912": {
+    "game": "Texas State @ Oregon State",
     "score": 89,
     "grade": "STRONG",
     "fam": {
      "availability": 4.6,
      "qb_status": 2,
-     "starters": 1.2,
      "qb_identity": 0.8
     },
     "qb": {
@@ -777,124 +771,18 @@
      "away": "NOT_DUE_YET"
     }
    },
-   "401861966": {
-    "game": "UConn @ Air Force",
+   "401860913": {
+    "game": "Fresno State @ Utah State",
     "score": 79,
     "grade": "ADEQUATE",
     "fam": {
-     "qb_identity": 4,
-     "availability": 5.5,
-     "qb_status": 3.5,
-     "favorite_flips": 1.9,
-     "qb_conflict": 1.7,
-     "contract_conflicts": 1.4,
-     "transfer_turnover": 0.3
-    },
-    "qb": {
-     "home": "CONFLICTED",
-     "away": "EXPECTED"
-    },
-    "avail": {
-     "home": "NOT_REQUIRED",
-     "away": "PROVIDER_FAILED"
-    }
-   },
-   "401862812": {
-    "game": "Florida Atlantic @ North Texas",
-    "score": 89,
-    "grade": "STRONG",
-    "fam": {
      "availability": 4.6,
-     "qb_status": 2,
-     "qb_identity": 0.9,
-     "transfer_turnover": 0.3
+     "qb_identity": 2.7,
+     "qb_conflict": 1.9,
+     "qb_status": 2
     },
     "qb": {
      "home": "EXPECTED",
-     "away": "EXPECTED"
-    },
-    "avail": {
-     "home": "NOT_DUE_YET",
-     "away": "NOT_DUE_YET"
-    }
-   },
-   "401862813": {
-    "game": "Tulane @ Charlotte",
-    "score": 89,
-    "grade": "STRONG",
-    "fam": {
-     "availability": 4.6,
-     "qb_status": 2,
-     "qb_conflict": 0.9,
-     "starters": 0.6,
-     "qb_identity": 1,
-     "transfer_turnover": 0.6
-    },
-    "qb": {
-     "home": "EXPECTED",
-     "away": "EXPECTED"
-    },
-    "avail": {
-     "home": "NOT_DUE_YET",
-     "away": "NOT_DUE_YET"
-    }
-   },
-   "401862814": {
-    "game": "Army @ Memphis",
-    "score": 89,
-    "grade": "STRONG",
-    "fam": {
-     "availability": 4.6,
-     "qb_identity": 1.8,
-     "favorite_flips": 1.1,
-     "qb_status": 2,
-     "transfer_turnover": 0.3
-    },
-    "qb": {
-     "home": "EXPECTED",
-     "away": "EXPECTED"
-    },
-    "avail": {
-     "home": "NOT_DUE_YET",
-     "away": "NOT_DUE_YET"
-    }
-   },
-   "401862815": {
-    "game": "Temple @ East Carolina",
-    "score": 79,
-    "grade": "ADEQUATE",
-    "fam": {
-     "qb_identity": 6.1,
-     "availability": 4.6,
-     "qb_conflict": 2.7,
-     "contract_conflicts": 1.4,
-     "starters": 1.2,
-     "qb_status": 2,
-     "transfer_turnover": 0.6
-    },
-    "qb": {
-     "home": "UNCERTAIN",
-     "away": "CONFLICTED"
-    },
-    "avail": {
-     "home": "NOT_DUE_YET",
-     "away": "NOT_DUE_YET"
-    }
-   },
-   "401862816": {
-    "game": "UAB @ South Florida",
-    "score": 87,
-    "grade": "STRONG",
-    "fam": {
-     "qb_identity": 4.2,
-     "availability": 4.6,
-     "qb_conflict": 1,
-     "qb_status": 2,
-     "starters": 0.6,
-     "transfer_turnover": 0.6
-    },
-    "qb": {
-     "home": "UNCERTAIN",
      "away": "EXPECTED"
     },
     "avail": {
@@ -909,7 +797,7 @@
     "fam": {
      "availability": 4.6,
      "qb_status": 2,
-     "qb_identity": 0.9
+     "qb_identity": 0.8
     },
     "qb": {
      "home": "EXPECTED",
@@ -920,36 +808,33 @@
      "away": "NOT_DUE_YET"
     }
    },
-   "401864529": {
-    "game": "New Mexico @ San José State",
-    "score": 79,
-    "grade": "ADEQUATE",
+   "401862818": {
+    "game": "South Florida @ East Carolina",
+    "score": 86,
+    "grade": "STRONG",
     "fam": {
-     "qb_identity": 3.2,
+     "qb_identity": 4.7,
      "availability": 4.6,
-     "qb_conflict": 2.6,
-     "contract_conflicts": 1.4,
-     "starters": 1.2,
+     "qb_conflict": 1.9,
      "qb_status": 2,
-     "transfer_turnover": 0.3
+     "transfer_turnover": 0.6
     },
     "qb": {
-     "home": "CONFLICTED",
-     "away": "EXPECTED"
+     "home": "EXPECTED",
+     "away": "UNCERTAIN"
     },
     "avail": {
      "home": "NOT_DUE_YET",
      "away": "NOT_DUE_YET"
     }
    },
-   "401864530": {
-    "game": "Northern Illinois @ UNLV",
+   "401862819": {
+    "game": "Charlotte @ UAB",
     "score": 89,
     "grade": "STRONG",
     "fam": {
      "availability": 4.6,
      "qb_status": 2,
-     "starters": 0.6,
      "qb_identity": 0.8,
      "transfer_turnover": 0.6
     },
@@ -962,38 +847,37 @@
      "away": "NOT_DUE_YET"
     }
    },
-   "401864531": {
-    "game": "UTEP @ North Dakota State",
+   "401862820": {
+    "game": "Temple @ Navy",
     "score": 79,
     "grade": "ADEQUATE",
     "fam": {
-     "qb_identity": 2.9,
+     "qb_identity": 4.7,
      "availability": 4.6,
      "qb_conflict": 1.7,
      "contract_conflicts": 1.4,
-     "starters": 1.3,
      "qb_status": 2,
-     "prior_missing": 1,
-     "transfer_turnover": 0.3
+     "transfer_turnover": 0.6
     },
     "qb": {
-     "home": "EXPECTED",
-     "away": "CONFLICTED"
+     "home": "CONFLICTED",
+     "away": "EXPECTED"
     },
     "avail": {
      "home": "NOT_DUE_YET",
      "away": "NOT_DUE_YET"
     }
    },
-   "401866451": {
-    "game": "Kent State @ Sacramento State",
-    "score": 89,
-    "grade": "STRONG",
+   "401862821": {
+    "game": "Rice @ North Texas",
+    "score": 79,
+    "grade": "ADEQUATE",
     "fam": {
      "availability": 4.6,
+     "qb_identity": 2.5,
+     "qb_conflict": 1.9,
      "qb_status": 2,
-     "prior_missing": 1,
-     "qb_identity": 0.8
+     "transfer_turnover": 0.6
     },
     "qb": {
      "home": "EXPECTED",
@@ -1004,15 +888,118 @@
      "away": "NOT_DUE_YET"
     }
    },
-   "401866452": {
-    "game": "Bowling Green @ Western Michigan",
+   "401862822": {
+    "game": "Tulsa @ Tulane",
+    "score": 89,
+    "grade": "STRONG",
+    "fam": {
+     "availability": 4.6,
+     "favorite_flips": 1.9,
+     "qb_status": 2,
+     "qb_conflict": 0.9,
+     "starters": 0.6,
+     "qb_identity": 0.8,
+     "transfer_turnover": 0.3
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "NOT_DUE_YET",
+     "away": "NOT_DUE_YET"
+    }
+   },
+   "401862823": {
+    "game": "Air Force @ Army",
+    "score": 79,
+    "grade": "ADEQUATE",
+    "fam": {
+     "qb_identity": 3.9,
+     "availability": 5,
+     "qb_conflict": 1.7,
+     "qb_status": 3,
+     "contract_conflicts": 1.4
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "CONFLICTED"
+    },
+    "avail": {
+     "home": "NOT_REQUIRED",
+     "away": "NOT_REQUIRED"
+    }
+   },
+   "401864532": {
+    "game": "Hawai'i @ UTEP",
+    "score": 79,
+    "grade": "ADEQUATE",
+    "fam": {
+     "availability": 4.6,
+     "qb_identity": 2.5,
+     "qb_conflict": 1,
+     "qb_status": 2,
+     "transfer_turnover": 0.3
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "NOT_DUE_YET",
+     "away": "NOT_DUE_YET"
+    }
+   },
+   "401864533": {
+    "game": "New Mexico @ Nevada",
+    "score": 79,
+    "grade": "ADEQUATE",
+    "fam": {
+     "qb_identity": 4.3,
+     "availability": 4.6,
+     "qb_conflict": 2.6,
+     "contract_conflicts": 1.4,
+     "qb_status": 2,
+     "transfer_turnover": 0.3
+    },
+    "qb": {
+     "home": "CONFLICTED",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "NOT_DUE_YET",
+     "away": "NOT_DUE_YET"
+    }
+   },
+   "401864534": {
+    "game": "Northern Illinois @ San José State",
     "score": 89,
     "grade": "STRONG",
     "fam": {
      "availability": 4.6,
      "qb_status": 2,
+     "qb_identity": 1.3,
+     "transfer_turnover": 0.6
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "NOT_DUE_YET",
+     "away": "NOT_DUE_YET"
+    }
+   },
+   "401864535": {
+    "game": "Wyoming @ UNLV",
+    "score": 89,
+    "grade": "STRONG",
+    "fam": {
+     "availability": 4.6,
+     "qb_status": 2,
+     "starters": 0.6,
      "qb_identity": 0.8,
-     "transfer_turnover": 0.3
+     "transfer_turnover": 0.6
     },
     "qb": {
      "home": "EXPECTED",
@@ -1071,6 +1058,7 @@
      "qb_identity": 2.5,
      "qb_conflict": 1,
      "qb_status": 2,
+     "starters": 0.6,
      "transfer_turnover": 0.6
     },
     "qb": {
@@ -1089,6 +1077,7 @@
     "fam": {
      "availability": 4.6,
      "qb_conflict": 2.9,
+     "weather": 1.8,
      "qb_identity": 3.4,
      "qb_status": 2,
      "transfer_turnover": 0.3
@@ -1122,62 +1111,199 @@
      "away": "NOT_DUE_YET"
     }
    },
-   "401869846": {
-    "game": "App State @ Georgia Southern",
-    "score": 79,
-    "grade": "ADEQUATE",
-    "fam": {
-     "availability": 6,
-     "qb_identity": 2.9,
-     "qb_status": 4,
-     "qb_conflict": 1.7,
-     "starters": 1.5,
-     "contract_conflicts": 1.4,
-     "transfer_turnover": 0.6
-    },
-    "qb": {
-     "home": "CONFLICTED",
-     "away": "EXPECTED"
-    },
-    "avail": {
-     "home": "PROVIDER_FAILED",
-     "away": "PROVIDER_FAILED"
-    }
-   },
-   "401869944": {
-    "game": "Coastal Carolina @ Georgia State",
-    "score": 79,
-    "grade": "ADEQUATE",
-    "fam": {
-     "qb_identity": 4,
-     "availability": 6,
-     "qb_status": 4,
-     "qb_conflict": 1,
-     "starters": 0.8,
-     "transfer_turnover": 0.6
-    },
-    "qb": {
-     "home": "UNCERTAIN",
-     "away": "EXPECTED"
-    },
-    "avail": {
-     "home": "PROVIDER_FAILED",
-     "away": "PROVIDER_FAILED"
-    }
-   },
-   "401869963": {
-    "game": "Troy @ James Madison",
-    "score": 87,
+   "401866458": {
+    "game": "Western Michigan @ Akron",
+    "score": 89,
     "grade": "STRONG",
     "fam": {
-     "availability": 6,
-     "qb_identity": 2.7,
-     "qb_status": 4,
+     "availability": 4.6,
+     "qb_status": 2,
+     "qb_identity": 0.8,
+     "transfer_turnover": 0.3
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "NOT_DUE_YET",
+     "away": "NOT_DUE_YET"
+    }
+   },
+   "401866459": {
+    "game": "Kent State @ Bowling Green",
+    "score": 89,
+    "grade": "STRONG",
+    "fam": {
+     "availability": 4.6,
+     "qb_status": 2,
+     "qb_identity": 0.8,
+     "transfer_turnover": 0.3
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "NOT_DUE_YET",
+     "away": "NOT_DUE_YET"
+    }
+   },
+   "401866460": {
+    "game": "Ohio @ Miami (OH)",
+    "score": 89,
+    "grade": "STRONG",
+    "fam": {
+     "availability": 4.6,
+     "qb_status": 2,
+     "qb_identity": 1.3,
+     "qb_conflict": 0.9,
      "transfer_turnover": 0.6
     },
     "qb": {
      "home": "EXPECTED",
      "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "NOT_DUE_YET",
+     "away": "NOT_DUE_YET"
+    }
+   },
+   "401866461": {
+    "game": "Buffalo @ Ball State",
+    "score": 89,
+    "grade": "STRONG",
+    "fam": {
+     "availability": 4.6,
+     "qb_status": 2,
+     "qb_identity": 0.8,
+     "transfer_turnover": 0.6
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "NOT_DUE_YET",
+     "away": "NOT_DUE_YET"
+    }
+   },
+   "401866462": {
+    "game": "Sacramento State @ Central Michigan",
+    "score": 79,
+    "grade": "ADEQUATE",
+    "fam": {
+     "availability": 4.6,
+     "qb_identity": 2.1,
+     "qb_conflict": 1,
+     "qb_status": 2,
+     "prior_missing": 1,
+     "transfer_turnover": 0.3
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "NOT_DUE_YET",
+     "away": "NOT_DUE_YET"
+    }
+   },
+   "401866463": {
+    "game": "Massachusetts @ Toledo",
+    "score": 79,
+    "grade": "ADEQUATE",
+    "fam": {
+     "availability": 4.6,
+     "qb_identity": 2.5,
+     "qb_conflict": 1,
+     "qb_status": 2,
+     "starters": 0.6,
+     "transfer_turnover": 0.6
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "NOT_DUE_YET",
+     "away": "NOT_DUE_YET"
+    }
+   },
+   "401869927": {
+    "game": "Georgia State @ App State",
+    "score": 87,
+    "grade": "STRONG",
+    "fam": {
+     "availability": 6,
+     "qb_status": 4,
+     "qb_identity": 1.3,
+     "qb_conflict": 0.9,
+     "transfer_turnover": 0.6
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "PROVIDER_FAILED",
+     "away": "PROVIDER_FAILED"
+    }
+   },
+   "401869936": {
+    "game": "UL Monroe @ Arkansas State",
+    "score": 89,
+    "grade": "STRONG",
+    "fam": {
+     "availability": 6,
+     "qb_status": 4,
+     "qb_identity": 0.8,
+     "transfer_turnover": 0.3
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "PROVIDER_FAILED",
+     "away": "PROVIDER_FAILED"
+    }
+   },
+   "401869945": {
+    "game": "Old Dominion @ Coastal Carolina",
+    "score": 88,
+    "grade": "STRONG",
+    "fam": {
+     "availability": 6,
+     "qb_status": 4,
+     "qb_conflict": 0.9,
+     "qb_identity": 0.9,
+     "transfer_turnover": 0.6
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "PROVIDER_FAILED",
+     "away": "PROVIDER_FAILED"
+    }
+   },
+   "401869951": {
+    "game": "Marshall @ Georgia Southern",
+    "score": 79,
+    "grade": "ADEQUATE",
+    "fam": {
+     "availability": 6,
+     "qb_identity": 3.4,
+     "qb_status": 4,
+     "qb_conflict": 1.7,
+     "contract_conflicts": 1.4,
+     "transfer_turnover": 0.3
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "CONFLICTED"
     },
     "avail": {
      "home": "PROVIDER_FAILED",
@@ -1203,55 +1329,15 @@
      "away": "PROVIDER_FAILED"
     }
    },
-   "401871057": {
-    "game": "Jacksonville State @ New Mexico State",
-    "score": 88,
-    "grade": "STRONG",
-    "fam": {
-     "availability": 6,
-     "qb_status": 4,
-     "qb_identity": 1.3,
-     "starters": 0.8,
-     "transfer_turnover": 0.3
-    },
-    "qb": {
-     "home": "EXPECTED",
-     "away": "EXPECTED"
-    },
-    "avail": {
-     "home": "PROVIDER_FAILED",
-     "away": "PROVIDER_FAILED"
-    }
-   },
-   "401871058": {
-    "game": "Kennesaw State @ Middle Tennessee",
-    "score": 87,
-    "grade": "STRONG",
-    "fam": {
-     "availability": 6,
-     "qb_identity": 2.4,
-     "qb_status": 4,
-     "transfer_turnover": 0.6
-    },
-    "qb": {
-     "home": "EXPECTED",
-     "away": "EXPECTED"
-    },
-    "avail": {
-     "home": "PROVIDER_FAILED",
-     "away": "PROVIDER_FAILED"
-    }
-   },
-   "401871059": {
-    "game": "Florida International @ Liberty",
+   "401869968": {
+    "game": "South Alabama @ Louisiana",
     "score": 88,
     "grade": "STRONG",
     "fam": {
      "availability": 6,
      "qb_status": 4,
      "qb_conflict": 0.9,
-     "qb_identity": 0.8,
-     "transfer_turnover": 0.3
+     "qb_identity": 0.8
     },
     "qb": {
      "home": "EXPECTED",
@@ -1262,54 +1348,14 @@
      "away": "PROVIDER_FAILED"
     }
    },
-   "401871071": {
-    "game": "Delaware @ Western Kentucky",
-    "score": 79,
-    "grade": "ADEQUATE",
-    "fam": {
-     "availability": 6,
-     "qb_identity": 2.6,
-     "qb_status": 4,
-     "qb_conflict": 1.9,
-     "starters": 0.8,
-     "transfer_turnover": 0.3
-    },
-    "qb": {
-     "home": "EXPECTED",
-     "away": "EXPECTED"
-    },
-    "avail": {
-     "home": "PROVIDER_FAILED",
-     "away": "PROVIDER_FAILED"
-    }
-   },
-   "401871072": {
-    "game": "Sam Houston @ Missouri State",
+   "401870795": {
+    "game": "Liberty @ New Mexico State",
     "score": 88,
     "grade": "STRONG",
     "fam": {
      "availability": 6,
      "qb_status": 4,
-     "venue": 1.4,
-     "qb_identity": 0.9,
-     "transfer_turnover": 0.3
-    },
-    "qb": {
-     "home": "EXPECTED",
-     "away": "EXPECTED"
-    },
-    "avail": {
-     "home": "PROVIDER_FAILED",
-     "away": "PROVIDER_FAILED"
-    }
-   },
-   "401871095": {
-    "game": "Southern Miss @ UL Monroe",
-    "score": 89,
-    "grade": "STRONG",
-    "fam": {
-     "availability": 6,
-     "qb_status": 4,
+     "qb_conflict": 0.9,
      "qb_identity": 1.1,
      "transfer_turnover": 0.3
     },
@@ -1322,15 +1368,14 @@
      "away": "PROVIDER_FAILED"
     }
    },
-   "401871096": {
-    "game": "Marshall @ Old Dominion",
-    "score": 87,
+   "401871073": {
+    "game": "Delaware @ Kennesaw State",
+    "score": 89,
     "grade": "STRONG",
     "fam": {
      "availability": 6,
      "qb_status": 4,
-     "qb_identity": 1.3,
-     "qb_conflict": 1.8,
+     "qb_identity": 0.9,
      "transfer_turnover": 0.3
     },
     "qb": {
@@ -1342,15 +1387,75 @@
      "away": "PROVIDER_FAILED"
     }
    },
-   "401871097": {
-    "game": "Louisiana Tech @ South Alabama",
+   "401871074": {
+    "game": "Missouri State @ Florida International",
+    "score": 87,
+    "grade": "STRONG",
+    "fam": {
+     "availability": 6,
+     "qb_status": 4,
+     "venue": 1.4,
+     "qb_identity": 1.1,
+     "transfer_turnover": 0.6
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "PROVIDER_FAILED",
+     "away": "PROVIDER_FAILED"
+    }
+   },
+   "401871075": {
+    "game": "Sam Houston @ Jacksonville State",
+    "score": 79,
+    "grade": "ADEQUATE",
+    "fam": {
+     "availability": 6,
+     "qb_status": 4,
+     "qb_conflict": 1.9,
+     "qb_identity": 2.2
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "PROVIDER_FAILED",
+     "away": "PROVIDER_FAILED"
+    }
+   },
+   "401871076": {
+    "game": "Western Kentucky @ Middle Tennessee",
     "score": 88,
     "grade": "STRONG",
     "fam": {
      "availability": 6,
      "qb_status": 4,
      "qb_conflict": 0.9,
-     "qb_identity": 1.1
+     "qb_identity": 0.8,
+     "transfer_turnover": 0.6
+    },
+    "qb": {
+     "home": "EXPECTED",
+     "away": "EXPECTED"
+    },
+    "avail": {
+     "home": "PROVIDER_FAILED",
+     "away": "PROVIDER_FAILED"
+    }
+   },
+   "401871098": {
+    "game": "Louisiana Tech @ Troy",
+    "score": 87,
+    "grade": "STRONG",
+    "fam": {
+     "availability": 6,
+     "qb_status": 4,
+     "qb_identity": 1.6,
+     "qb_conflict": 0.9,
+     "transfer_turnover": 0.3
     },
     "qb": {
      "home": "EXPECTED",
@@ -1364,725 +1469,47 @@
   }
  },
  "previous": {
-  "at": "2026-10-27T05:21:12.042Z",
+  "at": "2026-11-01T22:15:11.361Z",
   "counts": {
-   "games": 63,
+   "games": 68,
    "mean": 85.9,
    "median": 89,
    "by_band": {
-    "STRONG": 45,
-    "ADEQUATE": 18
+    "STRONG": 50,
+    "ADEQUATE": 17,
+    "LOW": 1
    },
-   "missing_qb_status": 126,
-   "qb_conflicts_open": 8,
+   "missing_qb_status": 136,
+   "qb_conflicts_open": 7,
    "qb_confirmed": 0,
    "games_lacking_injury_information": 14,
    "unrated_meaningful_absences": 0,
-   "fcs_games_thin_data": 0,
-   "games_under_two_market_sources": 63,
-   "stale_evidence_records": 84,
+   "fcs_games_thin_data": 1,
+   "games_under_two_market_sources": 68,
+   "stale_evidence_records": 78,
    "provider_failures": 4,
    "provider_failures_attributable_to_run": 0
   },
   "baseline_of": null
  },
  "what_improved": [
-  "-1 stale evidence records (84 → 83)"
+  "1 game moved ADEQUATE → STRONG"
  ],
- "what_degraded": [],
- "why": [],
+ "what_degraded": [
+  "-0.4 mean reliability (85.9 → 85.5)",
+  "+2 QB statuses missing (136 → 138)",
+  "+1 games under two market sources (68 → 69)",
+  "+1 stale evidence records (78 → 79)",
+  "3 games moved STRONG → ADEQUATE"
+ ],
+ "why": [
+  "the slate itself changed: 1 game entered the window, 0 left it (kicked off or rolled out)",
+  "Vanderbilt @ Mississippi State: STRONG → ADEQUATE (89 → 79); largest change: qb_identity +2.1 pts; home QB EXPECTED → CONFLICTED",
+  "UCF @ Kansas: STRONG → ADEQUATE (89 → 79); largest change: qb_identity -2.9 pts",
+  "Colorado @ Arizona State: ADEQUATE → STRONG (79 → 89); largest change: qb_identity +1.7 pts; home QB CONFLICTED → EXPECTED",
+  "Oregon @ Ohio State: STRONG → ADEQUATE (89 → 79); largest change: qb_identity -1.3 pts; home QB UNCERTAIN → EXPECTED"
+ ],
  "history": [
-  {
-   "at": "2026-10-21T11:49:39.812Z",
-   "counts": {
-    "games": 99,
-    "mean": 86.4,
-    "median": 89,
-    "by_band": {
-     "STRONG": 78,
-     "ADEQUATE": 19,
-     "CAUTION": 2
-    },
-    "missing_qb_status": 198,
-    "qb_conflicts_open": 8,
-    "qb_confirmed": 0,
-    "games_lacking_injury_information": 18,
-    "unrated_meaningful_absences": 0,
-    "fcs_games_thin_data": 0,
-    "games_under_two_market_sources": 99,
-    "stale_evidence_records": 79,
-    "provider_failures": 4,
-    "provider_failures_attributable_to_run": 0
-   }
-  },
-  {
-   "at": "2026-10-21T12:09:26.734Z",
-   "counts": {
-    "games": 99,
-    "mean": 86.4,
-    "median": 89,
-    "by_band": {
-     "STRONG": 78,
-     "ADEQUATE": 19,
-     "CAUTION": 2
-    },
-    "missing_qb_status": 198,
-    "qb_conflicts_open": 8,
-    "qb_confirmed": 0,
-    "games_lacking_injury_information": 18,
-    "unrated_meaningful_absences": 0,
-    "fcs_games_thin_data": 0,
-    "games_under_two_market_sources": 99,
-    "stale_evidence_records": 79,
-    "provider_failures": 4,
-    "provider_failures_attributable_to_run": 0
-   }
-  },
-  {
-   "at": "2026-10-21T14:42:22.412Z",
-   "counts": {
-    "games": 99,
-    "mean": 86.4,
-    "median": 89,
-    "by_band": {
-     "STRONG": 78,
-     "ADEQUATE": 19,
-     "CAUTION": 2
-    },
-    "missing_qb_status": 198,
-    "qb_conflicts_open": 8,
-    "qb_confirmed": 0,
-    "games_lacking_injury_information": 18,
-    "unrated_meaningful_absences": 0,
-    "fcs_games_thin_data": 0,
-    "games_under_two_market_sources": 99,
-    "stale_evidence_records": 59,
-    "provider_failures": 4,
-    "provider_failures_attributable_to_run": 0
-   }
-  },
-  {
-   "at": "2026-10-21T17:29:42.034Z",
-   "counts": {
-    "games": 101,
-    "mean": 86.4,
-    "median": 89,
-    "by_band": {
-     "STRONG": 80,
-     "ADEQUATE": 19,
-     "CAUTION": 2
-    },
-    "missing_qb_status": 202,
-    "qb_conflicts_open": 8,
-    "qb_confirmed": 0,
-    "games_lacking_injury_information": 25,
-    "unrated_meaningful_absences": 0,
-    "fcs_games_thin_data": 0,
-    "games_under_two_market_sources": 101,
-    "stale_evidence_records": 50,
-    "provider_failures": 4,
-    "provider_failures_attributable_to_run": 0
-   }
-  },
-  {
-   "at": "2026-10-21T21:52:56.312Z",
-   "counts": {
-    "games": 106,
-    "mean": 86.2,
-    "median": 89,
-    "by_band": {
-     "STRONG": 83,
-     "ADEQUATE": 21,
-     "CAUTION": 2
-    },
-    "missing_qb_status": 212,
-    "qb_conflicts_open": 10,
-    "qb_confirmed": 0,
-    "games_lacking_injury_information": 35,
-    "unrated_meaningful_absences": 0,
-    "fcs_games_thin_data": 0,
-    "games_under_two_market_sources": 106,
-    "stale_evidence_records": 18,
-    "provider_failures": 4,
-    "provider_failures_attributable_to_run": 0
-   }
-  },
-  {
-   "at": "2026-10-22T05:08:29.173Z",
-   "counts": {
-    "games": 109,
-    "mean": 87.3,
-    "median": 89,
-    "by_band": {
-     "VERY_STRONG": 17,
-     "ADEQUATE": 22,
-     "STRONG": 68,
-     "CAUTION": 2
-    },
-    "missing_qb_status": 173,
-    "qb_conflicts_open": 10,
-    "qb_confirmed": 0,
-    "games_lacking_injury_information": 22,
-    "unrated_meaningful_absences": 329,
-    "fcs_games_thin_data": 0,
-    "games_under_two_market_sources": 109,
-    "stale_evidence_records": 1,
-    "provider_failures": 4,
-    "provider_failures_attributable_to_run": 0
-   }
-  },
-  {
-   "at": "2026-10-22T12:12:33.181Z",
-   "counts": {
-    "games": 108,
-    "mean": 87.3,
-    "median": 89,
-    "by_band": {
-     "VERY_STRONG": 17,
-     "ADEQUATE": 22,
-     "STRONG": 67,
-     "CAUTION": 2
-    },
-    "missing_qb_status": 171,
-    "qb_conflicts_open": 10,
-    "qb_confirmed": 0,
-    "games_lacking_injury_information": 21,
-    "unrated_meaningful_absences": 329,
-    "fcs_games_thin_data": 0,
-    "games_under_two_market_sources": 108,
-    "stale_evidence_records": 28,
-    "provider_failures": 4,
-    "provider_failures_attributable_to_run": 0
-   }
-  },
-  {
-   "at": "2026-10-22T13:45:07.046Z",
-   "counts": {
-    "games": 108,
-    "mean": 87.3,
-    "median": 89,
-    "by_band": {
-     "VERY_STRONG": 17,
-     "ADEQUATE": 22,
-     "STRONG": 67,
-     "CAUTION": 2
-    },
-    "missing_qb_status": 171,
-    "qb_conflicts_open": 10,
-    "qb_confirmed": 0,
-    "games_lacking_injury_information": 21,
-    "unrated_meaningful_absences": 329,
-    "fcs_games_thin_data": 0,
-    "games_under_two_market_sources": 108,
-    "stale_evidence_records": 28,
-    "provider_failures": 4,
-    "provider_failures_attributable_to_run": 0
-   }
-  },
-  {
-   "at": "2026-10-22T14:42:40.854Z",
-   "counts": {
-    "games": 108,
-    "mean": 87.3,
-    "median": 89,
-    "by_band": {
-     "VERY_STRONG": 17,
-     "ADEQUATE": 22,
-     "STRONG": 67,
-     "CAUTION": 2
-    },
-    "missing_qb_status": 171,
-    "qb_conflicts_open": 10,
-    "qb_confirmed": 0,
-    "games_lacking_injury_information": 21,
-    "unrated_meaningful_absences": 329,
-    "fcs_games_thin_data": 0,
-    "games_under_two_market_sources": 108,
-    "stale_evidence_records": 50,
-    "provider_failures": 4,
-    "provider_failures_attributable_to_run": 0
-   }
-  },
-  {
-   "at": "2026-10-22T17:26:49.757Z",
-   "counts": {
-    "games": 108,
-    "mean": 87.3,
-    "median": 89,
-    "by_band": {
-     "VERY_STRONG": 17,
-     "ADEQUATE": 22,
-     "STRONG": 67,
-     "CAUTION": 2
-    },
-    "missing_qb_status": 167,
-    "qb_conflicts_open": 10,
-    "qb_confirmed": 0,
-    "games_lacking_injury_information": 21,
-    "unrated_meaningful_absences": 365,
-    "fcs_games_thin_data": 0,
-    "games_under_two_market_sources": 108,
-    "stale_evidence_records": 53,
-    "provider_failures": 4,
-    "provider_failures_attributable_to_run": 0
-   }
-  },
-  {
-   "at": "2026-10-22T21:49:29.744Z",
-   "counts": {
-    "games": 108,
-    "mean": 87.3,
-    "median": 89,
-    "by_band": {
-     "VERY_STRONG": 18,
-     "ADEQUATE": 22,
-     "STRONG": 66,
-     "CAUTION": 2
-    },
-    "missing_qb_status": 165,
-    "qb_conflicts_open": 10,
-    "qb_confirmed": 0,
-    "games_lacking_injury_information": 24,
-    "unrated_meaningful_absences": 384,
-    "fcs_games_thin_data": 0,
-    "games_under_two_market_sources": 108,
-    "stale_evidence_records": 55,
-    "provider_failures": 4,
-    "provider_failures_attributable_to_run": 0
-   }
-  },
-  {
-   "at": "2026-10-23T05:03:47.069Z",
-   "counts": {
-    "games": 106,
-    "mean": 87.4,
-    "median": 89,
-    "by_band": {
-     "VERY_STRONG": 21,
-     "ADEQUATE": 22,
-     "STRONG": 61,
-     "CAUTION": 2
-    },
-    "missing_qb_status": 155,
-    "qb_conflicts_open": 10,
-    "qb_confirmed": 0,
-    "games_lacking_injury_information": 22,
-    "unrated_meaningful_absences": 412,
-    "fcs_games_thin_data": 0,
-    "games_under_two_market_sources": 106,
-    "stale_evidence_records": 1,
-    "provider_failures": 4,
-    "provider_failures_attributable_to_run": 0
-   }
-  },
-  {
-   "at": "2026-10-23T11:15:31.691Z",
-   "counts": {
-    "games": 105,
-    "mean": 87.4,
-    "median": 89,
-    "by_band": {
-     "VERY_STRONG": 20,
-     "ADEQUATE": 22,
-     "STRONG": 61,
-     "CAUTION": 2
-    },
-    "missing_qb_status": 155,
-    "qb_conflicts_open": 10,
-    "qb_confirmed": 0,
-    "games_lacking_injury_information": 22,
-    "unrated_meaningful_absences": 398,
-    "fcs_games_thin_data": 0,
-    "games_under_two_market_sources": 105,
-    "stale_evidence_records": 4,
-    "provider_failures": 4,
-    "provider_failures_attributable_to_run": 0
-   }
-  },
-  {
-   "at": "2026-10-23T11:51:03.820Z",
-   "counts": {
-    "games": 105,
-    "mean": 87.4,
-    "median": 89,
-    "by_band": {
-     "VERY_STRONG": 20,
-     "ADEQUATE": 22,
-     "STRONG": 61,
-     "CAUTION": 2
-    },
-    "missing_qb_status": 155,
-    "qb_conflicts_open": 10,
-    "qb_confirmed": 0,
-    "games_lacking_injury_information": 22,
-    "unrated_meaningful_absences": 398,
-    "fcs_games_thin_data": 0,
-    "games_under_two_market_sources": 105,
-    "stale_evidence_records": 4,
-    "provider_failures": 4,
-    "provider_failures_attributable_to_run": 0
-   }
-  },
-  {
-   "at": "2026-10-23T13:07:18.650Z",
-   "counts": {
-    "games": 105,
-    "mean": 87.4,
-    "median": 89,
-    "by_band": {
-     "VERY_STRONG": 20,
-     "ADEQUATE": 22,
-     "STRONG": 61,
-     "CAUTION": 2
-    },
-    "missing_qb_status": 155,
-    "qb_conflicts_open": 10,
-    "qb_confirmed": 0,
-    "games_lacking_injury_information": 22,
-    "unrated_meaningful_absences": 398,
-    "fcs_games_thin_data": 0,
-    "games_under_two_market_sources": 105,
-    "stale_evidence_records": 40,
-    "provider_failures": 4,
-    "provider_failures_attributable_to_run": 0
-   }
-  },
-  {
-   "at": "2026-10-23T16:42:29.460Z",
-   "counts": {
-    "games": 105,
-    "mean": 87.3,
-    "median": 89,
-    "by_band": {
-     "VERY_STRONG": 20,
-     "ADEQUATE": 22,
-     "STRONG": 61,
-     "CAUTION": 2
-    },
-    "missing_qb_status": 155,
-    "qb_conflicts_open": 10,
-    "qb_confirmed": 0,
-    "games_lacking_injury_information": 22,
-    "unrated_meaningful_absences": 398,
-    "fcs_games_thin_data": 0,
-    "games_under_two_market_sources": 105,
-    "stale_evidence_records": 64,
-    "provider_failures": 4,
-    "provider_failures_attributable_to_run": 0
-   }
-  },
-  {
-   "at": "2026-10-23T17:04:55.011Z",
-   "counts": {
-    "games": 105,
-    "mean": 87.3,
-    "median": 89,
-    "by_band": {
-     "VERY_STRONG": 20,
-     "ADEQUATE": 22,
-     "STRONG": 61,
-     "CAUTION": 2
-    },
-    "missing_qb_status": 155,
-    "qb_conflicts_open": 10,
-    "qb_confirmed": 0,
-    "games_lacking_injury_information": 22,
-    "unrated_meaningful_absences": 398,
-    "fcs_games_thin_data": 0,
-    "games_under_two_market_sources": 105,
-    "stale_evidence_records": 64,
-    "provider_failures": 4,
-    "provider_failures_attributable_to_run": 0
-   }
-  },
-  {
-   "at": "2026-10-23T17:19:01.096Z",
-   "counts": {
-    "games": 105,
-    "mean": 87.3,
-    "median": 89,
-    "by_band": {
-     "VERY_STRONG": 20,
-     "ADEQUATE": 22,
-     "STRONG": 61,
-     "CAUTION": 2
-    },
-    "missing_qb_status": 155,
-    "qb_conflicts_open": 10,
-    "qb_confirmed": 0,
-    "games_lacking_injury_information": 22,
-    "unrated_meaningful_absences": 398,
-    "fcs_games_thin_data": 0,
-    "games_under_two_market_sources": 105,
-    "stale_evidence_records": 64,
-    "provider_failures": 4,
-    "provider_failures_attributable_to_run": 0
-   }
-  },
-  {
-   "at": "2026-10-23T17:24:42.929Z",
-   "counts": {
-    "games": 105,
-    "mean": 87.3,
-    "median": 89,
-    "by_band": {
-     "VERY_STRONG": 20,
-     "ADEQUATE": 22,
-     "STRONG": 61,
-     "CAUTION": 2
-    },
-    "missing_qb_status": 155,
-    "qb_conflicts_open": 10,
-    "qb_confirmed": 0,
-    "games_lacking_injury_information": 22,
-    "unrated_meaningful_absences": 398,
-    "fcs_games_thin_data": 0,
-    "games_under_two_market_sources": 105,
-    "stale_evidence_records": 64,
-    "provider_failures": 4,
-    "provider_failures_attributable_to_run": 0
-   }
-  },
-  {
-   "at": "2026-10-23T20:39:26.196Z",
-   "counts": {
-    "games": 105,
-    "mean": 87.3,
-    "median": 89,
-    "by_band": {
-     "VERY_STRONG": 20,
-     "ADEQUATE": 22,
-     "STRONG": 61,
-     "CAUTION": 2
-    },
-    "missing_qb_status": 155,
-    "qb_conflicts_open": 10,
-    "qb_confirmed": 0,
-    "games_lacking_injury_information": 22,
-    "unrated_meaningful_absences": 398,
-    "fcs_games_thin_data": 0,
-    "games_under_two_market_sources": 105,
-    "stale_evidence_records": 64,
-    "provider_failures": 4,
-    "provider_failures_attributable_to_run": 0
-   }
-  },
-  {
-   "at": "2026-10-23T20:51:10.308Z",
-   "counts": {
-    "games": 105,
-    "mean": 87.3,
-    "median": 89,
-    "by_band": {
-     "VERY_STRONG": 20,
-     "ADEQUATE": 22,
-     "STRONG": 61,
-     "CAUTION": 2
-    },
-    "missing_qb_status": 155,
-    "qb_conflicts_open": 10,
-    "qb_confirmed": 0,
-    "games_lacking_injury_information": 22,
-    "unrated_meaningful_absences": 398,
-    "fcs_games_thin_data": 0,
-    "games_under_two_market_sources": 105,
-    "stale_evidence_records": 64,
-    "provider_failures": 4,
-    "provider_failures_attributable_to_run": 0
-   }
-  },
-  {
-   "at": "2026-10-23T21:31:32.590Z",
-   "counts": {
-    "games": 105,
-    "mean": 87.3,
-    "median": 89,
-    "by_band": {
-     "VERY_STRONG": 20,
-     "ADEQUATE": 22,
-     "STRONG": 61,
-     "CAUTION": 2
-    },
-    "missing_qb_status": 155,
-    "qb_conflicts_open": 10,
-    "qb_confirmed": 0,
-    "games_lacking_injury_information": 22,
-    "unrated_meaningful_absences": 398,
-    "fcs_games_thin_data": 0,
-    "games_under_two_market_sources": 105,
-    "stale_evidence_records": 64,
-    "provider_failures": 4,
-    "provider_failures_attributable_to_run": 0
-   }
-  },
-  {
-   "at": "2026-10-23T21:38:41.076Z",
-   "counts": {
-    "games": 105,
-    "mean": 87.3,
-    "median": 89,
-    "by_band": {
-     "VERY_STRONG": 20,
-     "ADEQUATE": 22,
-     "STRONG": 61,
-     "CAUTION": 2
-    },
-    "missing_qb_status": 155,
-    "qb_conflicts_open": 10,
-    "qb_confirmed": 0,
-    "games_lacking_injury_information": 22,
-    "unrated_meaningful_absences": 398,
-    "fcs_games_thin_data": 0,
-    "games_under_two_market_sources": 105,
-    "stale_evidence_records": 64,
-    "provider_failures": 4,
-    "provider_failures_attributable_to_run": 0
-   }
-  },
-  {
-   "at": "2026-10-23T22:10:44.922Z",
-   "counts": {
-    "games": 105,
-    "mean": 87.3,
-    "median": 89,
-    "by_band": {
-     "VERY_STRONG": 20,
-     "ADEQUATE": 22,
-     "STRONG": 61,
-     "CAUTION": 2
-    },
-    "missing_qb_status": 155,
-    "qb_conflicts_open": 10,
-    "qb_confirmed": 0,
-    "games_lacking_injury_information": 22,
-    "unrated_meaningful_absences": 398,
-    "fcs_games_thin_data": 0,
-    "games_under_two_market_sources": 105,
-    "stale_evidence_records": 64,
-    "provider_failures": 4,
-    "provider_failures_attributable_to_run": 0
-   }
-  },
-  {
-   "at": "2026-10-23T23:38:51.497Z",
-   "counts": {
-    "games": 105,
-    "mean": 87.4,
-    "median": 89,
-    "by_band": {
-     "VERY_STRONG": 21,
-     "ADEQUATE": 22,
-     "STRONG": 60,
-     "CAUTION": 2
-    },
-    "missing_qb_status": 152,
-    "qb_conflicts_open": 10,
-    "qb_confirmed": 0,
-    "games_lacking_injury_information": 22,
-    "unrated_meaningful_absences": 425,
-    "fcs_games_thin_data": 0,
-    "games_under_two_market_sources": 105,
-    "stale_evidence_records": 61,
-    "provider_failures": 4,
-    "provider_failures_attributable_to_run": 0
-   }
-  },
-  {
-   "at": "2026-10-23T23:59:39.073Z",
-   "counts": {
-    "games": 105,
-    "mean": 87.4,
-    "median": 89,
-    "by_band": {
-     "VERY_STRONG": 21,
-     "ADEQUATE": 22,
-     "STRONG": 60,
-     "CAUTION": 2
-    },
-    "missing_qb_status": 152,
-    "qb_conflicts_open": 10,
-    "qb_confirmed": 0,
-    "games_lacking_injury_information": 22,
-    "unrated_meaningful_absences": 425,
-    "fcs_games_thin_data": 0,
-    "games_under_two_market_sources": 105,
-    "stale_evidence_records": 61,
-    "provider_failures": 4,
-    "provider_failures_attributable_to_run": 0
-   }
-  },
-  {
-   "at": "2026-10-24T00:40:39.437Z",
-   "counts": {
-    "games": 105,
-    "mean": 87.4,
-    "median": 89,
-    "by_band": {
-     "VERY_STRONG": 21,
-     "ADEQUATE": 22,
-     "STRONG": 60,
-     "CAUTION": 2
-    },
-    "missing_qb_status": 152,
-    "qb_conflicts_open": 10,
-    "qb_confirmed": 0,
-    "games_lacking_injury_information": 22,
-    "unrated_meaningful_absences": 425,
-    "fcs_games_thin_data": 0,
-    "games_under_two_market_sources": 105,
-    "stale_evidence_records": 61,
-    "provider_failures": 4,
-    "provider_failures_attributable_to_run": 0
-   }
-  },
-  {
-   "at": "2026-10-24T00:49:40.595Z",
-   "counts": {
-    "games": 105,
-    "mean": 87.4,
-    "median": 89,
-    "by_band": {
-     "VERY_STRONG": 21,
-     "ADEQUATE": 22,
-     "STRONG": 60,
-     "CAUTION": 2
-    },
-    "missing_qb_status": 152,
-    "qb_conflicts_open": 10,
-    "qb_confirmed": 0,
-    "games_lacking_injury_information": 22,
-    "unrated_meaningful_absences": 425,
-    "fcs_games_thin_data": 0,
-    "games_under_two_market_sources": 105,
-    "stale_evidence_records": 61,
-    "provider_failures": 4,
-    "provider_failures_attributable_to_run": 0
-   }
-  },
-  {
-   "at": "2026-10-24T01:29:24.180Z",
-   "counts": {
-    "games": 105,
-    "mean": 87.4,
-    "median": 89,
-    "by_band": {
-     "VERY_STRONG": 21,
-     "ADEQUATE": 22,
-     "STRONG": 60,
-     "CAUTION": 2
-    },
-    "missing_qb_status": 152,
-    "qb_conflicts_open": 10,
-    "qb_confirmed": 0,
-    "games_lacking_injury_information": 22,
-    "unrated_meaningful_absences": 425,
-    "fcs_games_thin_data": 0,
-    "games_under_two_market_sources": 105,
-    "stale_evidence_records": 61,
-    "provider_failures": 4,
-    "provider_failures_attributable_to_run": 0
-   }
-  },
   {
    "at": "2026-10-24T04:33:52.760Z",
    "counts": {
@@ -2792,6 +2219,708 @@
     "fcs_games_thin_data": 0,
     "games_under_two_market_sources": 63,
     "stale_evidence_records": 83,
+    "provider_failures": 4,
+    "provider_failures_attributable_to_run": 0
+   }
+  },
+  {
+   "at": "2026-10-27T15:34:47.707Z",
+   "counts": {
+    "games": 63,
+    "mean": 85.9,
+    "median": 89,
+    "by_band": {
+     "STRONG": 45,
+     "ADEQUATE": 18
+    },
+    "missing_qb_status": 126,
+    "qb_conflicts_open": 8,
+    "qb_confirmed": 0,
+    "games_lacking_injury_information": 14,
+    "unrated_meaningful_absences": 0,
+    "fcs_games_thin_data": 0,
+    "games_under_two_market_sources": 63,
+    "stale_evidence_records": 83,
+    "provider_failures": 4,
+    "provider_failures_attributable_to_run": 0
+   }
+  },
+  {
+   "at": "2026-10-27T19:15:43.883Z",
+   "counts": {
+    "games": 63,
+    "mean": 85.9,
+    "median": 89,
+    "by_band": {
+     "STRONG": 45,
+     "ADEQUATE": 18
+    },
+    "missing_qb_status": 126,
+    "qb_conflicts_open": 8,
+    "qb_confirmed": 0,
+    "games_lacking_injury_information": 14,
+    "unrated_meaningful_absences": 0,
+    "fcs_games_thin_data": 0,
+    "games_under_two_market_sources": 63,
+    "stale_evidence_records": 84,
+    "provider_failures": 4,
+    "provider_failures_attributable_to_run": 0
+   }
+  },
+  {
+   "at": "2026-10-27T22:28:21.183Z",
+   "counts": {
+    "games": 63,
+    "mean": 85.9,
+    "median": 89,
+    "by_band": {
+     "STRONG": 45,
+     "ADEQUATE": 18
+    },
+    "missing_qb_status": 126,
+    "qb_conflicts_open": 8,
+    "qb_confirmed": 0,
+    "games_lacking_injury_information": 14,
+    "unrated_meaningful_absences": 0,
+    "fcs_games_thin_data": 0,
+    "games_under_two_market_sources": 63,
+    "stale_evidence_records": 81,
+    "provider_failures": 4,
+    "provider_failures_attributable_to_run": 0
+   }
+  },
+  {
+   "at": "2026-10-28T06:00:25.251Z",
+   "counts": {
+    "games": 103,
+    "mean": 85.5,
+    "median": 89,
+    "by_band": {
+     "STRONG": 69,
+     "ADEQUATE": 32,
+     "VERY_STRONG": 1,
+     "LOW": 1
+    },
+    "missing_qb_status": 204,
+    "qb_conflicts_open": 15,
+    "qb_confirmed": 0,
+    "games_lacking_injury_information": 17,
+    "unrated_meaningful_absences": 20,
+    "fcs_games_thin_data": 1,
+    "games_under_two_market_sources": 103,
+    "stale_evidence_records": 76,
+    "provider_failures": 4,
+    "provider_failures_attributable_to_run": 0
+   }
+  },
+  {
+   "at": "2026-10-28T13:19:58.573Z",
+   "counts": {
+    "games": 103,
+    "mean": 85.5,
+    "median": 89,
+    "by_band": {
+     "STRONG": 69,
+     "ADEQUATE": 32,
+     "VERY_STRONG": 1,
+     "LOW": 1
+    },
+    "missing_qb_status": 204,
+    "qb_conflicts_open": 15,
+    "qb_confirmed": 0,
+    "games_lacking_injury_information": 17,
+    "unrated_meaningful_absences": 11,
+    "fcs_games_thin_data": 1,
+    "games_under_two_market_sources": 103,
+    "stale_evidence_records": 76,
+    "provider_failures": 4,
+    "provider_failures_attributable_to_run": 0
+   }
+  },
+  {
+   "at": "2026-10-28T16:18:50.307Z",
+   "counts": {
+    "games": 103,
+    "mean": 85.5,
+    "median": 89,
+    "by_band": {
+     "STRONG": 69,
+     "ADEQUATE": 32,
+     "VERY_STRONG": 1,
+     "LOW": 1
+    },
+    "missing_qb_status": 204,
+    "qb_conflicts_open": 15,
+    "qb_confirmed": 0,
+    "games_lacking_injury_information": 20,
+    "unrated_meaningful_absences": 11,
+    "fcs_games_thin_data": 1,
+    "games_under_two_market_sources": 103,
+    "stale_evidence_records": 54,
+    "provider_failures": 4,
+    "provider_failures_attributable_to_run": 0
+   }
+  },
+  {
+   "at": "2026-10-28T22:44:48.157Z",
+   "counts": {
+    "games": 110,
+    "mean": 85.4,
+    "median": 89,
+    "by_band": {
+     "STRONG": 74,
+     "ADEQUATE": 34,
+     "VERY_STRONG": 1,
+     "LOW": 1
+    },
+    "missing_qb_status": 218,
+    "qb_conflicts_open": 16,
+    "qb_confirmed": 0,
+    "games_lacking_injury_information": 38,
+    "unrated_meaningful_absences": 11,
+    "fcs_games_thin_data": 1,
+    "games_under_two_market_sources": 110,
+    "stale_evidence_records": 6,
+    "provider_failures": 4,
+    "provider_failures_attributable_to_run": 0
+   }
+  },
+  {
+   "at": "2026-10-29T06:07:47.352Z",
+   "counts": {
+    "games": 115,
+    "mean": 85.5,
+    "median": 89,
+    "by_band": {
+     "VERY_STRONG": 9,
+     "ADEQUATE": 36,
+     "CAUTION": 2,
+     "STRONG": 67,
+     "LOW": 1
+    },
+    "missing_qb_status": 202,
+    "qb_conflicts_open": 17,
+    "qb_confirmed": 0,
+    "games_lacking_injury_information": 33,
+    "unrated_meaningful_absences": 171,
+    "fcs_games_thin_data": 1,
+    "games_under_two_market_sources": 115,
+    "stale_evidence_records": 4,
+    "provider_failures": 4,
+    "provider_failures_attributable_to_run": 0
+   }
+  },
+  {
+   "at": "2026-10-29T13:28:17.184Z",
+   "counts": {
+    "games": 115,
+    "mean": 85.8,
+    "median": 89,
+    "by_band": {
+     "VERY_STRONG": 13,
+     "ADEQUATE": 36,
+     "CAUTION": 2,
+     "STRONG": 63,
+     "LOW": 1
+    },
+    "missing_qb_status": 190,
+    "qb_conflicts_open": 17,
+    "qb_confirmed": 0,
+    "games_lacking_injury_information": 23,
+    "unrated_meaningful_absences": 270,
+    "fcs_games_thin_data": 1,
+    "games_under_two_market_sources": 115,
+    "stale_evidence_records": 28,
+    "provider_failures": 4,
+    "provider_failures_attributable_to_run": 0
+   }
+  },
+  {
+   "at": "2026-10-29T13:30:17.778Z",
+   "counts": {
+    "games": 115,
+    "mean": 85.8,
+    "median": 89,
+    "by_band": {
+     "VERY_STRONG": 13,
+     "ADEQUATE": 36,
+     "CAUTION": 2,
+     "STRONG": 63,
+     "LOW": 1
+    },
+    "missing_qb_status": 190,
+    "qb_conflicts_open": 17,
+    "qb_confirmed": 0,
+    "games_lacking_injury_information": 23,
+    "unrated_meaningful_absences": 270,
+    "fcs_games_thin_data": 1,
+    "games_under_two_market_sources": 115,
+    "stale_evidence_records": 28,
+    "provider_failures": 4,
+    "provider_failures_attributable_to_run": 0
+   }
+  },
+  {
+   "at": "2026-10-29T16:27:20.682Z",
+   "counts": {
+    "games": 115,
+    "mean": 85.8,
+    "median": 89,
+    "by_band": {
+     "VERY_STRONG": 13,
+     "ADEQUATE": 36,
+     "CAUTION": 2,
+     "STRONG": 63,
+     "LOW": 1
+    },
+    "missing_qb_status": 190,
+    "qb_conflicts_open": 17,
+    "qb_confirmed": 0,
+    "games_lacking_injury_information": 26,
+    "unrated_meaningful_absences": 270,
+    "fcs_games_thin_data": 1,
+    "games_under_two_market_sources": 115,
+    "stale_evidence_records": 50,
+    "provider_failures": 4,
+    "provider_failures_attributable_to_run": 0
+   }
+  },
+  {
+   "at": "2026-10-29T19:30:10.063Z",
+   "counts": {
+    "games": 115,
+    "mean": 85.9,
+    "median": 89,
+    "by_band": {
+     "VERY_STRONG": 15,
+     "ADEQUATE": 36,
+     "CAUTION": 2,
+     "STRONG": 61,
+     "LOW": 1
+    },
+    "missing_qb_status": 184,
+    "qb_conflicts_open": 17,
+    "qb_confirmed": 0,
+    "games_lacking_injury_information": 25,
+    "unrated_meaningful_absences": 314,
+    "fcs_games_thin_data": 1,
+    "games_under_two_market_sources": 115,
+    "stale_evidence_records": 56,
+    "provider_failures": 4,
+    "provider_failures_attributable_to_run": 0
+   }
+  },
+  {
+   "at": "2026-10-29T22:54:00.628Z",
+   "counts": {
+    "games": 115,
+    "mean": 85.9,
+    "median": 89,
+    "by_band": {
+     "VERY_STRONG": 15,
+     "ADEQUATE": 36,
+     "CAUTION": 2,
+     "STRONG": 61,
+     "LOW": 1
+    },
+    "missing_qb_status": 184,
+    "qb_conflicts_open": 17,
+    "qb_confirmed": 0,
+    "games_lacking_injury_information": 28,
+    "unrated_meaningful_absences": 314,
+    "fcs_games_thin_data": 1,
+    "games_under_two_market_sources": 115,
+    "stale_evidence_records": 56,
+    "provider_failures": 4,
+    "provider_failures_attributable_to_run": 0
+   }
+  },
+  {
+   "at": "2026-10-30T06:02:45.811Z",
+   "counts": {
+    "games": 113,
+    "mean": 86.2,
+    "median": 89,
+    "by_band": {
+     "VERY_STRONG": 19,
+     "ADEQUATE": 34,
+     "CAUTION": 2,
+     "STRONG": 57,
+     "LOW": 1
+    },
+    "missing_qb_status": 170,
+    "qb_conflicts_open": 15,
+    "qb_confirmed": 0,
+    "games_lacking_injury_information": 25,
+    "unrated_meaningful_absences": 407,
+    "fcs_games_thin_data": 1,
+    "games_under_two_market_sources": 113,
+    "stale_evidence_records": 2,
+    "provider_failures": 4,
+    "provider_failures_attributable_to_run": 0
+   }
+  },
+  {
+   "at": "2026-10-30T13:13:08.706Z",
+   "counts": {
+    "games": 113,
+    "mean": 86.2,
+    "median": 89,
+    "by_band": {
+     "VERY_STRONG": 19,
+     "ADEQUATE": 34,
+     "CAUTION": 2,
+     "STRONG": 57,
+     "LOW": 1
+    },
+    "missing_qb_status": 170,
+    "qb_conflicts_open": 15,
+    "qb_confirmed": 0,
+    "games_lacking_injury_information": 25,
+    "unrated_meaningful_absences": 406,
+    "fcs_games_thin_data": 1,
+    "games_under_two_market_sources": 113,
+    "stale_evidence_records": 47,
+    "provider_failures": 4,
+    "provider_failures_attributable_to_run": 0
+   }
+  },
+  {
+   "at": "2026-10-30T13:14:49.769Z",
+   "counts": {
+    "games": 113,
+    "mean": 86.2,
+    "median": 89,
+    "by_band": {
+     "VERY_STRONG": 19,
+     "ADEQUATE": 34,
+     "CAUTION": 2,
+     "STRONG": 57,
+     "LOW": 1
+    },
+    "missing_qb_status": 170,
+    "qb_conflicts_open": 15,
+    "qb_confirmed": 0,
+    "games_lacking_injury_information": 25,
+    "unrated_meaningful_absences": 406,
+    "fcs_games_thin_data": 1,
+    "games_under_two_market_sources": 113,
+    "stale_evidence_records": 47,
+    "provider_failures": 4,
+    "provider_failures_attributable_to_run": 0
+   }
+  },
+  {
+   "at": "2026-10-30T17:14:54.751Z",
+   "counts": {
+    "games": 113,
+    "mean": 86.2,
+    "median": 89,
+    "by_band": {
+     "VERY_STRONG": 19,
+     "ADEQUATE": 34,
+     "CAUTION": 2,
+     "STRONG": 57,
+     "LOW": 1
+    },
+    "missing_qb_status": 170,
+    "qb_conflicts_open": 15,
+    "qb_confirmed": 0,
+    "games_lacking_injury_information": 25,
+    "unrated_meaningful_absences": 406,
+    "fcs_games_thin_data": 1,
+    "games_under_two_market_sources": 113,
+    "stale_evidence_records": 69,
+    "provider_failures": 4,
+    "provider_failures_attributable_to_run": 0
+   }
+  },
+  {
+   "at": "2026-10-30T19:30:52.018Z",
+   "counts": {
+    "games": 113,
+    "mean": 86.2,
+    "median": 89,
+    "by_band": {
+     "VERY_STRONG": 19,
+     "ADEQUATE": 34,
+     "CAUTION": 2,
+     "STRONG": 57,
+     "LOW": 1
+    },
+    "missing_qb_status": 170,
+    "qb_conflicts_open": 15,
+    "qb_confirmed": 0,
+    "games_lacking_injury_information": 25,
+    "unrated_meaningful_absences": 406,
+    "fcs_games_thin_data": 1,
+    "games_under_two_market_sources": 113,
+    "stale_evidence_records": 69,
+    "provider_failures": 4,
+    "provider_failures_attributable_to_run": 0
+   }
+  },
+  {
+   "at": "2026-10-30T23:56:17.224Z",
+   "counts": {
+    "games": 113,
+    "mean": 86.2,
+    "median": 89,
+    "by_band": {
+     "VERY_STRONG": 20,
+     "ADEQUATE": 34,
+     "CAUTION": 2,
+     "STRONG": 56,
+     "LOW": 1
+    },
+    "missing_qb_status": 168,
+    "qb_conflicts_open": 15,
+    "qb_confirmed": 0,
+    "games_lacking_injury_information": 25,
+    "unrated_meaningful_absences": 421,
+    "fcs_games_thin_data": 1,
+    "games_under_two_market_sources": 113,
+    "stale_evidence_records": 66,
+    "provider_failures": 4,
+    "provider_failures_attributable_to_run": 0
+   }
+  },
+  {
+   "at": "2026-10-31T12:50:13.833Z",
+   "counts": {
+    "games": 110,
+    "mean": 85.8,
+    "median": 89,
+    "by_band": {
+     "VERY_STRONG": 18,
+     "ADEQUATE": 34,
+     "CAUTION": 2,
+     "STRONG": 55,
+     "LOW": 1
+    },
+    "missing_qb_status": 166,
+    "qb_conflicts_open": 15,
+    "qb_confirmed": 0,
+    "games_lacking_injury_information": 25,
+    "unrated_meaningful_absences": 395,
+    "fcs_games_thin_data": 1,
+    "games_under_two_market_sources": 110,
+    "stale_evidence_records": 66,
+    "provider_failures": 4,
+    "provider_failures_attributable_to_run": 0
+   }
+  },
+  {
+   "at": "2026-10-31T15:32:38.956Z",
+   "counts": {
+    "games": 110,
+    "mean": 85.7,
+    "median": 89,
+    "by_band": {
+     "VERY_STRONG": 18,
+     "ADEQUATE": 34,
+     "CAUTION": 2,
+     "STRONG": 55,
+     "LOW": 1
+    },
+    "missing_qb_status": 166,
+    "qb_conflicts_open": 15,
+    "qb_confirmed": 0,
+    "games_lacking_injury_information": 25,
+    "unrated_meaningful_absences": 395,
+    "fcs_games_thin_data": 1,
+    "games_under_two_market_sources": 110,
+    "stale_evidence_records": 66,
+    "provider_failures": 4,
+    "provider_failures_attributable_to_run": 0
+   }
+  },
+  {
+   "at": "2026-10-31T20:48:13.327Z",
+   "counts": {
+    "games": 99,
+    "mean": 85.6,
+    "median": 89,
+    "by_band": {
+     "VERY_STRONG": 13,
+     "ADEQUATE": 26,
+     "CAUTION": 5,
+     "STRONG": 54,
+     "LOW": 1
+    },
+    "missing_qb_status": 158,
+    "qb_conflicts_open": 10,
+    "qb_confirmed": 0,
+    "games_lacking_injury_information": 24,
+    "unrated_meaningful_absences": 287,
+    "fcs_games_thin_data": 1,
+    "games_under_two_market_sources": 99,
+    "stale_evidence_records": 46,
+    "provider_failures": 4,
+    "provider_failures_attributable_to_run": 0
+   }
+  },
+  {
+   "at": "2026-10-31T21:44:13.942Z",
+   "counts": {
+    "games": 99,
+    "mean": 85.6,
+    "median": 89,
+    "by_band": {
+     "VERY_STRONG": 13,
+     "ADEQUATE": 26,
+     "CAUTION": 5,
+     "STRONG": 54,
+     "LOW": 1
+    },
+    "missing_qb_status": 158,
+    "qb_conflicts_open": 10,
+    "qb_confirmed": 0,
+    "games_lacking_injury_information": 24,
+    "unrated_meaningful_absences": 278,
+    "fcs_games_thin_data": 1,
+    "games_under_two_market_sources": 99,
+    "stale_evidence_records": 28,
+    "provider_failures": 4,
+    "provider_failures_attributable_to_run": 0
+   }
+  },
+  {
+   "at": "2026-11-01T01:17:18.410Z",
+   "counts": {
+    "games": 81,
+    "mean": 86.3,
+    "median": 89,
+    "by_band": {
+     "VERY_STRONG": 7,
+     "CAUTION": 2,
+     "STRONG": 54,
+     "ADEQUATE": 17,
+     "LOW": 1
+    },
+    "missing_qb_status": 142,
+    "qb_conflicts_open": 7,
+    "qb_confirmed": 0,
+    "games_lacking_injury_information": 16,
+    "unrated_meaningful_absences": 150,
+    "fcs_games_thin_data": 1,
+    "games_under_two_market_sources": 81,
+    "stale_evidence_records": 12,
+    "provider_failures": 4,
+    "provider_failures_attributable_to_run": 0
+   }
+  },
+  {
+   "at": "2026-11-01T06:29:14.053Z",
+   "counts": {
+    "games": 72,
+    "mean": 85.9,
+    "median": 89,
+    "by_band": {
+     "STRONG": 53,
+     "ADEQUATE": 18,
+     "LOW": 1
+    },
+    "missing_qb_status": 144,
+    "qb_conflicts_open": 7,
+    "qb_confirmed": 0,
+    "games_lacking_injury_information": 15,
+    "unrated_meaningful_absences": 17,
+    "fcs_games_thin_data": 1,
+    "games_under_two_market_sources": 72,
+    "stale_evidence_records": 52,
+    "provider_failures": 4,
+    "provider_failures_attributable_to_run": 0
+   }
+  },
+  {
+   "at": "2026-11-01T06:33:33.918Z",
+   "counts": {
+    "games": 72,
+    "mean": 85.9,
+    "median": 89,
+    "by_band": {
+     "STRONG": 53,
+     "ADEQUATE": 18,
+     "LOW": 1
+    },
+    "missing_qb_status": 144,
+    "qb_conflicts_open": 7,
+    "qb_confirmed": 0,
+    "games_lacking_injury_information": 15,
+    "unrated_meaningful_absences": 17,
+    "fcs_games_thin_data": 1,
+    "games_under_two_market_sources": 72,
+    "stale_evidence_records": 52,
+    "provider_failures": 4,
+    "provider_failures_attributable_to_run": 0
+   }
+  },
+  {
+   "at": "2026-11-01T18:01:05.765Z",
+   "counts": {
+    "games": 68,
+    "mean": 85.9,
+    "median": 89,
+    "by_band": {
+     "STRONG": 50,
+     "ADEQUATE": 17,
+     "LOW": 1
+    },
+    "missing_qb_status": 136,
+    "qb_conflicts_open": 7,
+    "qb_confirmed": 0,
+    "games_lacking_injury_information": 14,
+    "unrated_meaningful_absences": 0,
+    "fcs_games_thin_data": 1,
+    "games_under_two_market_sources": 68,
+    "stale_evidence_records": 78,
+    "provider_failures": 4,
+    "provider_failures_attributable_to_run": 0
+   }
+  },
+  {
+   "at": "2026-11-01T22:15:11.361Z",
+   "counts": {
+    "games": 68,
+    "mean": 85.9,
+    "median": 89,
+    "by_band": {
+     "STRONG": 50,
+     "ADEQUATE": 17,
+     "LOW": 1
+    },
+    "missing_qb_status": 136,
+    "qb_conflicts_open": 7,
+    "qb_confirmed": 0,
+    "games_lacking_injury_information": 14,
+    "unrated_meaningful_absences": 0,
+    "fcs_games_thin_data": 1,
+    "games_under_two_market_sources": 68,
+    "stale_evidence_records": 78,
+    "provider_failures": 4,
+    "provider_failures_attributable_to_run": 0
+   }
+  },
+  {
+   "at": "2026-11-02T06:34:39.708Z",
+   "counts": {
+    "games": 69,
+    "mean": 85.5,
+    "median": 89,
+    "by_band": {
+     "STRONG": 48,
+     "ADEQUATE": 20,
+     "LOW": 1
+    },
+    "missing_qb_status": 138,
+    "qb_conflicts_open": 7,
+    "qb_confirmed": 0,
+    "games_lacking_injury_information": 14,
+    "unrated_meaningful_absences": 0,
+    "fcs_games_thin_data": 1,
+    "games_under_two_market_sources": 69,
+    "stale_evidence_records": 79,
     "provider_failures": 4,
     "provider_failures_attributable_to_run": 0
    }

@@ -1,42 +1,42 @@
 {
  "schema": "edgedesk_nhl_grades_v1",
- "generated_at": "2026-10-27T09:20:21.973Z",
+ "generated_at": "2026-11-01T22:23:00.326Z",
  "season": 2027,
- "ledger_records": 180,
- "games_graded": 98,
+ "ledger_records": 253,
+ "games_graded": 137,
  "moneyline": {
-  "n": 98,
+  "n": 137,
   "sample_state": "EARLY_SIGNAL",
-  "log_loss": 0.67083,
-  "brier": 0.239,
-  "mean_p": 0.525,
-  "mean_y": 0.6122
+  "log_loss": 0.66008,
+  "brier": 0.23396,
+  "mean_p": 0.5326,
+  "mean_y": 0.5839
  },
  "puck_line_home_minus_1_5": {
-  "n": 98,
+  "n": 137,
   "sample_state": "EARLY_SIGNAL",
-  "log_loss": 0.60324,
-  "brier": 0.20634,
-  "mean_p": 0.3166,
-  "mean_y": 0.2959
+  "log_loss": 0.58594,
+  "brier": 0.19865,
+  "mean_p": 0.3239,
+  "mean_y": 0.292
  },
  "total_over_5_5": {
-  "n": 98,
+  "n": 137,
   "sample_state": "EARLY_SIGNAL",
-  "log_loss": 0.65672,
-  "brier": 0.232,
+  "log_loss": 0.65896,
+  "brier": 0.2331,
   "mean_p": 0.5704,
-  "mean_y": 0.6224
+  "mean_y": 0.6277
  },
  "total_over_6_5": {
-  "n": 98,
+  "n": 137,
   "sample_state": "EARLY_SIGNAL",
-  "log_loss": 0.69196,
-  "brier": 0.24941,
-  "mean_p": 0.4605,
-  "mean_y": 0.5204
+  "log_loss": 0.69565,
+  "brier": 0.25124,
+  "mean_p": 0.4603,
+  "mean_y": 0.5255
  },
- "total_mae": 1.74,
+ "total_mae": 1.802,
  "clv": {
   "n": 0,
   "note": "no game has two captured market snapshots yet (NHL prices are not captured)"

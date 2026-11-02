@@ -1,0 +1,1328 @@
+{
+  "schema": "edgedesk_article_v1",
+  "id": "nfl-2026_09_DEN_CAR",
+  "game_id": "2026_09_DEN_CAR",
+  "sport": "NFL",
+  "sport_slug": "nfl",
+  "sport_label": "NFL",
+  "slug": "denver-broncos-vs-carolina-panthers-2026",
+  "aliases": [
+    "broncos-vs-panthers-2026"
+  ],
+  "title": "Denver Broncos vs. Carolina Panthers: EdgeDesk Model Projection, Matchup Analysis and Fair Spread",
+  "seo_title": "Denver Broncos vs. Carolina Panthers 2026: EdgeDesk Fair Spread & Model Projection",
+  "seo_description": "EdgeDesk fair spread for Denver Broncos at Carolina Panthers: Carolina Panthers +3.0, fair total 43.5. Denver Broncos wins 58% of simulations. Model status STALE MARKET. Research, not picks.",
+  "excerpt": "Denver Broncos carries the stronger EdgeDesk offensive profile (#15 in EPA per play) and the better defensive rating with it, so the ratings point the same way on both sides of the ball. EdgeDesk’s independent projection makes it Carolina Panthers +3.0…",
+  "home_team": "Carolina Panthers",
+  "away_team": "Denver Broncos",
+  "venue": "Bank of America Stadium",
+  "neutral_site": false,
+  "conference_line": "outdoors · grass · division game",
+  "week": 9,
+  "season": 2026,
+  "game_time": "2026-11-08T18:00:00.000Z",
+  "game_when_label": "2026-11-08 18:00 UTC",
+  "published_at": null,
+  "updated_at": "2026-11-02T00:36:55.151Z",
+  "generated_at": "2026-11-02T00:36:55.151Z",
+  "model_version": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
+  "model_status": "STALE MARKET",
+  "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 0.4-point gap is context only and the game is excluded from research ranking.",
+  "confidence": null,
+  "priced": true,
+  "fair_spread_text": "Carolina Panthers +3.0",
+  "fair_total": "43.5",
+  "hero_image": null,
+  "canonical_url": "https://edgedesksports.com/articles/denver-broncos-vs-carolina-panthers-2026",
+  "terminal_url": "https://edgedesksports.com/app.html#research/football",
+  "hub_url": "https://edgedesksports.com/articles/nfl",
+  "status": "ready",
+  "article_type": "pregame",
+  "related": null,
+  "frozen": false,
+  "frozen_at": null,
+  "author": "EdgeDesk Research",
+  "publisher": "EdgeDesk Sports",
+  "research_source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 108 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice.",
+  "market_source": null,
+  "research": {
+    "kind": "NFL_GAME",
+    "game": {
+      "away": "Denver Broncos",
+      "home": "Carolina Panthers",
+      "title": "Denver Broncos at Carolina Panthers",
+      "when": "2026-11-08 18:00 UTC",
+      "kickoff": "2026-11-08T18:00:00.000Z",
+      "venue": "Bank of America Stadium",
+      "neutral": false,
+      "week": "Week 9",
+      "season": "2026",
+      "game_id": "2026_09_DEN_CAR",
+      "week_no": 9,
+      "season_no": 2026,
+      "conference_line": "outdoors · grass · division game"
+    },
+    "lede": [
+      "Denver Broncos carries the stronger EdgeDesk offensive profile (#15 in EPA per play) and the better defensive rating with it, so the ratings point the same way on both sides of the ball.",
+      "EdgeDesk’s independent projection makes it Carolina Panthers +3.0 with a fair total of 43.5 — approximately a one-score game, before any sportsbook number is consulted.",
+      "The widest measured matchup on the board is Carolina Panthers pass offence vs Denver Broncos pass defence, which sits −0.230 from the league mean once the two ratings are combined the way the model combines them.",
+      "The largest uncertainty is availability: NFL injury report — not loaded in this session."
+    ],
+    "projection": {
+      "priced": true,
+      "fair_spread": -2.8744867231353406,
+      "fair_spread_text": "Carolina Panthers +3.0",
+      "fair_spread_raw_text": "Carolina Panthers +2.9",
+      "favourite": "Denver Broncos",
+      "underdog": "Carolina Panthers",
+      "margin": "3.0",
+      "margin_raw": "2.9",
+      "total": "43.5",
+      "total_raw": "43.5",
+      "display_policy": "football_half_point_v1",
+      "score": {
+        "away": {
+          "team": "Denver Broncos",
+          "points": "23"
+        },
+        "home": {
+          "team": "Carolina Panthers",
+          "points": "20"
+        },
+        "expected": {
+          "text": "Denver Broncos 23.19, Carolina Panthers 20.32",
+          "home": 20.32,
+          "away": 23.19,
+          "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
+        },
+        "note": "Split from EdgeDesk’s own fair spread and fair total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
+      },
+      "score_absent_reason": null,
+      "win_prob": {
+        "home": "Carolina Panthers",
+        "away": "Denver Broncos",
+        "home_pct": 42,
+        "away_pct": 58,
+        "home_text": "42%",
+        "away_text": "58%",
+        "bounded": false,
+        "bounded_note": null,
+        "favourite": "Denver Broncos",
+        "favourite_pct": 58,
+        "favourite_text": "58%"
+      },
+      "moneyline": {
+        "home": "Carolina Panthers",
+        "away": "Denver Broncos",
+        "home_odds": "+136",
+        "away_odds": "-136",
+        "note": "EdgeDesk’s own fair price, with no margin in it. It is not a quote and nobody offers it."
+      },
+      "outcome_range": {
+        "basis_team": "Carolina Panthers",
+        "p10": "-20.0",
+        "median": "-3.0",
+        "p90": "+15.0",
+        "sigma": "10.7",
+        "note": "Quoted from the perspective of Carolina Panthers, off the engine’s own learned margin distribution (conditioned on this spread, so real key-number mass is kept). Eight results in ten land inside p10–p90."
+      },
+      "confidence_pct": null,
+      "confidence_absent_reason": "The NFL model publishes no single confidence score. What it publishes instead is the width of the outcome range above and the sample the ratings rest on: the trained seeds through 2025, plus 108 absorbed 2026 games.",
+      "sample_games": 108,
+      "seeded": true,
+      "status": "STALE MARKET",
+      "status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 0.4-point gap is context only and the game is excluded from research ranking.",
+      "engine": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
+      "validation": "UNPROVEN — this model does NOT beat the closing line out of sample. Research only; nothing here is graded as a bet."
+    },
+    "drivers": {
+      "rows": [
+        {
+          "points": "-5.2",
+          "points_n": -5.204680028238743,
+          "text": "Base team strength — Denver Broncos by 5.2 points (last season -3.5, this season -1.7)",
+          "favours": "Denver Broncos"
+        },
+        {
+          "points": "-0.4",
+          "points_n": -0.3777966568565944,
+          "text": "Passing — Denver Broncos by 0.4 points (last season -0.2, this season -0.2)",
+          "favours": "Denver Broncos"
+        },
+        {
+          "points": "-0.1",
+          "points_n": -0.1048712506170463,
+          "text": "Rushing — Denver Broncos by 0.1 points (last season -0.1, this season 0.0)",
+          "favours": "Denver Broncos"
+        },
+        {
+          "points": "-0.2",
+          "points_n": -0.18189455385152875,
+          "text": "Quarterback — Denver Broncos by 0.2 points",
+          "favours": "Denver Broncos"
+        },
+        {
+          "points": "+3.2",
+          "points_n": 3.166207075,
+          "text": "Home field — Carolina Panthers by 3.2 points",
+          "favours": "Carolina Panthers"
+        },
+        {
+          "points": "-0.7",
+          "points_n": -0.72914185,
+          "text": "Context (venue, division) — Denver Broncos by 0.7 points",
+          "favours": "Denver Broncos"
+        },
+        {
+          "points": "+0.6",
+          "points_n": 0.5576905414285714,
+          "text": "Rest / travel — Carolina Panthers by 0.6 points",
+          "favours": "Carolina Panthers"
+        }
+      ],
+      "total_rows": [
+        {
+          "points": "+45.0",
+          "points_n": 45.00135469,
+          "text": "Model baseline — home field and the league constant"
+        },
+        {
+          "points": "-1.1",
+          "points_n": -1.0529366484213938,
+          "text": "Combined scoring ratings — under by 1.1 points"
+        },
+        {
+          "points": "-0.7",
+          "points_n": -0.7157359600852793,
+          "text": "Passing matchup, both directions — under by 0.7 points"
+        },
+        {
+          "points": "+0.3",
+          "points_n": 0.3009022744140062,
+          "text": "Running matchup, both directions — over by 0.3 points"
+        },
+        {
+          "points": "+0.2",
+          "points_n": 0.177357865,
+          "text": "Point in the season — over by 0.2 points"
+        },
+        {
+          "points": "-0.1",
+          "points_n": -0.09697236124967544,
+          "text": "Both offences, EPA per play — under by 0.1 points"
+        }
+      ],
+      "reconciles": true,
+      "basis": "Both NFL spread models are linear, so these seven rows ARE the model: every fitted weight times the feature it multiplies, grouped, from Carolina Panthers’s perspective. They add up to the projected spread exactly; nothing is applied after them.",
+      "excluded": "No position-group grade, no coaching input and no injury term appears here, because the NFL model prices none of them. What is below the projection is research context and moves no number in it.",
+      "empty": null
+    },
+    "compare": {
+      "cols": [
+        "Denver Broncos",
+        "Carolina Panthers"
+      ],
+      "groups": [
+        {
+          "title": "Team strength",
+          "rows": [
+            {
+              "cat": "net_epa",
+              "k": "Net EPA per play",
+              "note": "offence EPA per play minus defence EPA allowed per play — the engine’s own net_epa half",
+              "a": {
+                "v": "+0.078",
+                "n": 0.07822655463742426,
+                "rank": "#7 of 32",
+                "rank_n": 7,
+                "note": null
+              },
+              "h": {
+                "v": "−0.081",
+                "n": -0.08080563256683962,
+                "rank": "#26 of 32",
+                "rank_n": 26,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 0.15903218720426388,
+                "rank_gap": 19
+              }
+            },
+            {
+              "cat": "pts_for",
+              "k": "Points scored",
+              "note": null,
+              "a": {
+                "v": "−0.17",
+                "n": -0.1659994650528015,
+                "rank": "#16 of 32",
+                "rank_n": 16,
+                "note": null
+              },
+              "h": {
+                "v": "−0.95",
+                "n": -0.9464875220424575,
+                "rank": "#19 of 32",
+                "rank_n": 19,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 0.780488056989656,
+                "rank_gap": 3
+              }
+            },
+            {
+              "cat": "pts_against",
+              "k": "Points allowed",
+              "note": null,
+              "a": {
+                "v": "−3.69",
+                "n": -3.691406099167632,
+                "rank": "#3 of 32",
+                "rank_n": 3,
+                "note": null
+              },
+              "h": {
+                "v": "+2.44",
+                "n": 2.444111701626616,
+                "rank": "#25 of 32",
+                "rank_n": 25,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 6.135517800794248,
+                "rank_gap": 22
+              }
+            }
+          ]
+        },
+        {
+          "title": "Offence",
+          "rows": [
+            {
+              "cat": "off_epa_play",
+              "k": "Offence · EPA per play",
+              "note": null,
+              "a": {
+                "v": "+0.000",
+                "n": 0.00009972544818586618,
+                "rank": "#15 of 32",
+                "rank_n": 15,
+                "note": null
+              },
+              "h": {
+                "v": "−0.025",
+                "n": -0.02500766367851572,
+                "rank": "#21 of 32",
+                "rank_n": 21,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 0.025107389126701584,
+                "rank_gap": 6
+              }
+            },
+            {
+              "cat": "pass_epa_db",
+              "k": "Pass offence · EPA per dropback",
+              "note": null,
+              "a": {
+                "v": "−0.024",
+                "n": -0.023588969269665604,
+                "rank": "#18 of 32",
+                "rank_n": 18,
+                "note": null
+              },
+              "h": {
+                "v": "−0.049",
+                "n": -0.048559244964337535,
+                "rank": "#21 of 32",
+                "rank_n": 21,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 0.02497027569467193,
+                "rank_gap": 3
+              }
+            },
+            {
+              "cat": "rush_epa_att",
+              "k": "Run offence · EPA per carry",
+              "note": null,
+              "a": {
+                "v": "+0.024",
+                "n": 0.024246232649103576,
+                "rank": "#14 of 32",
+                "rank_n": 14,
+                "note": null
+              },
+              "h": {
+                "v": "+0.004",
+                "n": 0.00409898731970311,
+                "rank": "#18 of 32",
+                "rank_n": 18,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 0.020147245329400466,
+                "rank_gap": 4
+              }
+            },
+            {
+              "cat": "expl_pass",
+              "k": "Explosive pass rate",
+              "note": "20+ yard pass plays per attempt",
+              "a": {
+                "v": "−1.2 pp",
+                "n": -0.012204317929959905,
+                "rank": "#23 of 32",
+                "rank_n": 23,
+                "note": null
+              },
+              "h": {
+                "v": "−0.6 pp",
+                "n": -0.0055351031412884995,
+                "rank": "#17 of 32",
+                "rank_n": 17,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 0.006669214788671406,
+                "rank_gap": 6
+              }
+            },
+            {
+              "cat": "expl_rush",
+              "k": "Explosive run rate",
+              "note": "10+ yard runs per carry",
+              "a": {
+                "v": "−1.6 pp",
+                "n": -0.015846053690728498,
+                "rank": "#28 of 32",
+                "rank_n": 28,
+                "note": null
+              },
+              "h": {
+                "v": "−0.2 pp",
+                "n": -0.0017164513392415688,
+                "rank": "#19 of 32",
+                "rank_n": 19,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 0.014129602351486928,
+                "rank_gap": 9
+              }
+            }
+          ]
+        },
+        {
+          "title": "Defence",
+          "rows": [
+            {
+              "cat": "def_epa_play",
+              "k": "Defence · EPA allowed per play",
+              "note": null,
+              "a": {
+                "v": "−0.078",
+                "n": -0.07812682918923838,
+                "rank": "#3 of 32",
+                "rank_n": 3,
+                "note": null
+              },
+              "h": {
+                "v": "+0.056",
+                "n": 0.055797968888323904,
+                "rank": "#26 of 32",
+                "rank_n": 26,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 0.1339247980775623,
+                "rank_gap": 23
+              }
+            },
+            {
+              "cat": "def_pass_epa_db",
+              "k": "Pass defence · EPA allowed per dropback",
+              "note": null,
+              "a": {
+                "v": "−0.181",
+                "n": -0.18100115140507245,
+                "rank": "#3 of 32",
+                "rank_n": 3,
+                "note": null
+              },
+              "h": {
+                "v": "+0.073",
+                "n": 0.07318875974814798,
+                "rank": "#25 of 32",
+                "rank_n": 25,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 0.2541899111532204,
+                "rank_gap": 22
+              }
+            },
+            {
+              "cat": "def_rush_epa_att",
+              "k": "Run defence · EPA allowed per carry",
+              "note": null,
+              "a": {
+                "v": "+0.051",
+                "n": 0.051444758006130555,
+                "rank": "#27 of 32",
+                "rank_n": 27,
+                "note": null
+              },
+              "h": {
+                "v": "+0.058",
+                "n": 0.05754786710786931,
+                "rank": "#29 of 32",
+                "rank_n": 29,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 0.006103109101738759,
+                "rank_gap": 2
+              }
+            },
+            {
+              "cat": "def_expl_pass",
+              "k": "Explosive passes allowed",
+              "note": null,
+              "a": {
+                "v": "−2.5 pp",
+                "n": -0.025182644226712805,
+                "rank": "#5 of 32",
+                "rank_n": 5,
+                "note": null
+              },
+              "h": {
+                "v": "−2.9 pp",
+                "n": -0.029049527949406635,
+                "rank": "#3 of 32",
+                "rank_n": 3,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 0.00386688372269383,
+                "rank_gap": 2
+              }
+            },
+            {
+              "cat": "def_expl_rush",
+              "k": "Explosive runs allowed",
+              "note": null,
+              "a": {
+                "v": "+1.4 pp",
+                "n": 0.01363197833506984,
+                "rank": "#24 of 32",
+                "rank_n": 24,
+                "note": null
+              },
+              "h": {
+                "v": "−1.0 pp",
+                "n": -0.009666490012051394,
+                "rank": "#10 of 32",
+                "rank_n": 10,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 0.023298468347121234,
+                "rank_gap": 14
+              }
+            }
+          ]
+        },
+        {
+          "title": "Trenches",
+          "rows": [
+            {
+              "cat": "sack_rate_all",
+              "k": "Sacks taken per dropback",
+              "note": "pass protection — the only offensive-line number the NFL model carries",
+              "a": {
+                "v": "−2.2 pp",
+                "n": -0.021744090122759404,
+                "rank": "#4 of 32",
+                "rank_n": 4,
+                "note": null
+              },
+              "h": {
+                "v": "+0.8 pp",
+                "n": 0.007649240934273846,
+                "rank": "#25 of 32",
+                "rank_n": 25,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 0.029393331057033248,
+                "rank_gap": 21
+              }
+            },
+            {
+              "cat": "sack_rate_made",
+              "k": "Sacks generated per dropback",
+              "note": "pass rush — the only defensive-front number the NFL model carries",
+              "a": {
+                "v": "+1.9 pp",
+                "n": 0.018980746808644988,
+                "rank": "#3 of 32",
+                "rank_n": 3,
+                "note": null
+              },
+              "h": {
+                "v": "−1.5 pp",
+                "n": -0.015246068603025865,
+                "rank": "#27 of 32",
+                "rank_n": 27,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 0.03422681541167085,
+                "rank_gap": 24
+              }
+            }
+          ]
+        },
+        {
+          "title": "Tendency and pace",
+          "rows": [
+            {
+              "cat": "pass_rate",
+              "k": "Pass rate",
+              "note": "how often they throw. A tendency, not a quality, so no side is marked ahead",
+              "a": {
+                "v": "+1.8 pp",
+                "n": 0.017677546838189603,
+                "rank": null,
+                "rank_n": null,
+                "note": "tendency, not a quality"
+              },
+              "h": {
+                "v": "+3.2 pp",
+                "n": 0.03197020598504319,
+                "rank": null,
+                "rank_n": null,
+                "note": "tendency, not a quality"
+              },
+              "edge": null
+            },
+            {
+              "cat": "plays",
+              "k": "Plays per game",
+              "note": "pace. A tendency, not a quality",
+              "a": {
+                "v": "−1.9",
+                "n": -1.8503536641427751,
+                "rank": null,
+                "rank_n": null,
+                "note": "tendency, not a quality"
+              },
+              "h": {
+                "v": "+1.0",
+                "n": 1.0036020986854832,
+                "rank": null,
+                "rank_n": null,
+                "note": "tendency, not a quality"
+              },
+              "edge": null
+            }
+          ]
+        }
+      ],
+      "one_sided_team": null,
+      "one_sided_note": null
+    },
+    "advantages": {
+      "away": [
+        {
+          "k": "Sacks generated per dropback",
+          "rank_gap": 24,
+          "gap": 0.03422681541167085,
+          "lead": "Denver Broncos",
+          "trail": "Carolina Panthers",
+          "lead_cell": "+1.9 pp · #3 of 32",
+          "trail_cell": "−1.5 pp · #27 of 32",
+          "text": "Denver Broncos +1.9 pp (#3 of 32) vs Carolina Panthers −1.5 pp (#27 of 32) — 24 places on the league board."
+        },
+        {
+          "k": "Defence · EPA allowed per play",
+          "rank_gap": 23,
+          "gap": 0.1339247980775623,
+          "lead": "Denver Broncos",
+          "trail": "Carolina Panthers",
+          "lead_cell": "−0.078 · #3 of 32",
+          "trail_cell": "+0.056 · #26 of 32",
+          "text": "Denver Broncos −0.078 (#3 of 32) vs Carolina Panthers +0.056 (#26 of 32) — 23 places on the league board."
+        },
+        {
+          "k": "Points allowed",
+          "rank_gap": 22,
+          "gap": 6.135517800794248,
+          "lead": "Denver Broncos",
+          "trail": "Carolina Panthers",
+          "lead_cell": "−3.69 · #3 of 32",
+          "trail_cell": "+2.44 · #25 of 32",
+          "text": "Denver Broncos −3.69 (#3 of 32) vs Carolina Panthers +2.44 (#25 of 32) — 22 places on the league board."
+        },
+        {
+          "k": "Pass defence · EPA allowed per dropback",
+          "rank_gap": 22,
+          "gap": 0.2541899111532204,
+          "lead": "Denver Broncos",
+          "trail": "Carolina Panthers",
+          "lead_cell": "−0.181 · #3 of 32",
+          "trail_cell": "+0.073 · #25 of 32",
+          "text": "Denver Broncos −0.181 (#3 of 32) vs Carolina Panthers +0.073 (#25 of 32) — 22 places on the league board."
+        },
+        {
+          "k": "Sacks taken per dropback",
+          "rank_gap": 21,
+          "gap": 0.029393331057033248,
+          "lead": "Denver Broncos",
+          "trail": "Carolina Panthers",
+          "lead_cell": "−2.2 pp · #4 of 32",
+          "trail_cell": "+0.8 pp · #25 of 32",
+          "text": "Denver Broncos −2.2 pp (#4 of 32) vs Carolina Panthers +0.8 pp (#25 of 32) — 21 places on the league board."
+        }
+      ],
+      "home": [
+        {
+          "k": "Explosive runs allowed",
+          "rank_gap": 14,
+          "gap": 0.023298468347121234,
+          "lead": "Carolina Panthers",
+          "trail": "Denver Broncos",
+          "lead_cell": "−1.0 pp · #10 of 32",
+          "trail_cell": "+1.4 pp · #24 of 32",
+          "text": "Carolina Panthers −1.0 pp (#10 of 32) vs Denver Broncos +1.4 pp (#24 of 32) — 14 places on the league board."
+        },
+        {
+          "k": "Explosive run rate",
+          "rank_gap": 9,
+          "gap": 0.014129602351486928,
+          "lead": "Carolina Panthers",
+          "trail": "Denver Broncos",
+          "lead_cell": "−0.2 pp · #19 of 32",
+          "trail_cell": "−1.6 pp · #28 of 32",
+          "text": "Carolina Panthers −0.2 pp (#19 of 32) vs Denver Broncos −1.6 pp (#28 of 32) — 9 places on the league board."
+        },
+        {
+          "k": "Explosive pass rate",
+          "rank_gap": 6,
+          "gap": 0.006669214788671406,
+          "lead": "Carolina Panthers",
+          "trail": "Denver Broncos",
+          "lead_cell": "−0.6 pp · #17 of 32",
+          "trail_cell": "−1.2 pp · #23 of 32",
+          "text": "Carolina Panthers −0.6 pp (#17 of 32) vs Denver Broncos −1.2 pp (#23 of 32) — 6 places on the league board."
+        },
+        {
+          "k": "Explosive passes allowed",
+          "rank_gap": 2,
+          "gap": 0.00386688372269383,
+          "lead": "Carolina Panthers",
+          "trail": "Denver Broncos",
+          "lead_cell": "−2.9 pp · #3 of 32",
+          "trail_cell": "−2.5 pp · #5 of 32",
+          "text": "Carolina Panthers −2.9 pp (#3 of 32) vs Denver Broncos −2.5 pp (#5 of 32) — 2 places on the league board."
+        }
+      ],
+      "measured": [],
+      "measured_note": null,
+      "unproven": [],
+      "note": "An advantage is only claimed where BOTH teams carry a league rank in that category — the rank is the one scale on which a pass defence and a run offence are comparable. A tendency (pass rate, pace) is never an advantage in either direction."
+    },
+    "matchups": [
+      {
+        "title": "Denver Broncos pass offence vs Carolina Panthers pass defence",
+        "att": {
+          "team": "Denver Broncos",
+          "label": "pass offence",
+          "v": "−0.024",
+          "rank": "#18 of 32",
+          "note": null
+        },
+        "def": {
+          "team": "Carolina Panthers",
+          "label": "pass defence",
+          "v": "+0.073",
+          "rank": "#25 of 32",
+          "note": null
+        },
+        "complete": true,
+        "net": 0.049599790478482376,
+        "read": "Denver Broncos’ pass offence rates −0.024 (#18 of 32) and Carolina Panthers’ pass defence rates +0.073 (#25 of 32). Added the way the model adds them, this pairing sits +0.050 from the league mean, which favours Denver Broncos."
+      },
+      {
+        "title": "Carolina Panthers pass offence vs Denver Broncos pass defence",
+        "att": {
+          "team": "Carolina Panthers",
+          "label": "pass offence",
+          "v": "−0.049",
+          "rank": "#21 of 32",
+          "note": null
+        },
+        "def": {
+          "team": "Denver Broncos",
+          "label": "pass defence",
+          "v": "−0.181",
+          "rank": "#3 of 32",
+          "note": null
+        },
+        "complete": true,
+        "net": -0.22956039636940997,
+        "read": "Carolina Panthers’ pass offence rates −0.049 (#21 of 32) and Denver Broncos’ pass defence rates −0.181 (#3 of 32). Added the way the model adds them, this pairing sits −0.230 from the league mean, which favours Denver Broncos."
+      },
+      {
+        "title": "Denver Broncos run offence vs Carolina Panthers run defence",
+        "att": {
+          "team": "Denver Broncos",
+          "label": "run offence",
+          "v": "+0.024",
+          "rank": "#14 of 32",
+          "note": null
+        },
+        "def": {
+          "team": "Carolina Panthers",
+          "label": "run defence",
+          "v": "+0.058",
+          "rank": "#29 of 32",
+          "note": null
+        },
+        "complete": true,
+        "net": 0.08179409975697288,
+        "read": "Denver Broncos’ run offence rates +0.024 (#14 of 32) and Carolina Panthers’ run defence rates +0.058 (#29 of 32). Added the way the model adds them, this pairing sits +0.082 from the league mean, which favours Denver Broncos."
+      },
+      {
+        "title": "Carolina Panthers run offence vs Denver Broncos run defence",
+        "att": {
+          "team": "Carolina Panthers",
+          "label": "run offence",
+          "v": "+0.004",
+          "rank": "#18 of 32",
+          "note": null
+        },
+        "def": {
+          "team": "Denver Broncos",
+          "label": "run defence",
+          "v": "+0.051",
+          "rank": "#27 of 32",
+          "note": null
+        },
+        "complete": true,
+        "net": 0.055543745325833664,
+        "read": "Carolina Panthers’ run offence rates +0.004 (#18 of 32) and Denver Broncos’ run defence rates +0.051 (#27 of 32). Added the way the model adds them, this pairing sits +0.056 from the league mean, which favours Carolina Panthers."
+      },
+      {
+        "title": "Denver Broncos pass protection vs Carolina Panthers pass rush",
+        "att": {
+          "team": "Denver Broncos",
+          "label": "pass protection",
+          "v": "−2.2 pp",
+          "rank": "#4 of 32",
+          "note": null
+        },
+        "def": {
+          "team": "Carolina Panthers",
+          "label": "pass rush",
+          "v": "−1.5 pp",
+          "rank": "#27 of 32",
+          "note": null
+        },
+        "complete": true,
+        "net": -0.03699015872578527,
+        "read": "Denver Broncos’ pass protection rates −2.2 pp (#4 of 32) and Carolina Panthers’ pass rush rates −1.5 pp (#27 of 32). Added the way the model adds them, this pairing sits −3.7 pp from the league mean, which favours Denver Broncos."
+      },
+      {
+        "title": "Carolina Panthers pass protection vs Denver Broncos pass rush",
+        "att": {
+          "team": "Carolina Panthers",
+          "label": "pass protection",
+          "v": "+0.8 pp",
+          "rank": "#25 of 32",
+          "note": null
+        },
+        "def": {
+          "team": "Denver Broncos",
+          "label": "pass rush",
+          "v": "+1.9 pp",
+          "rank": "#3 of 32",
+          "note": null
+        },
+        "complete": true,
+        "net": 0.02662998774291883,
+        "read": "Carolina Panthers’ pass protection rates +0.8 pp (#25 of 32) and Denver Broncos’ pass rush rates +1.9 pp (#3 of 32). Added the way the model adds them, this pairing sits +2.7 pp from the league mean, which favours Denver Broncos."
+      },
+      {
+        "title": "Denver Broncos explosive passing vs Carolina Panthers explosive passes allowed",
+        "att": {
+          "team": "Denver Broncos",
+          "label": "explosive passing",
+          "v": "−1.2 pp",
+          "rank": "#23 of 32",
+          "note": null
+        },
+        "def": {
+          "team": "Carolina Panthers",
+          "label": "explosive passes allowed",
+          "v": "−2.9 pp",
+          "rank": "#3 of 32",
+          "note": null
+        },
+        "complete": true,
+        "net": -0.04125384587936654,
+        "read": "Denver Broncos’ explosive passing rates −1.2 pp (#23 of 32) and Carolina Panthers’ explosive passes allowed rates −2.9 pp (#3 of 32). Added the way the model adds them, this pairing sits −4.1 pp from the league mean, which favours Carolina Panthers."
+      },
+      {
+        "title": "Carolina Panthers explosive passing vs Denver Broncos explosive passes allowed",
+        "att": {
+          "team": "Carolina Panthers",
+          "label": "explosive passing",
+          "v": "−0.6 pp",
+          "rank": "#17 of 32",
+          "note": null
+        },
+        "def": {
+          "team": "Denver Broncos",
+          "label": "explosive passes allowed",
+          "v": "−2.5 pp",
+          "rank": "#5 of 32",
+          "note": null
+        },
+        "complete": true,
+        "net": -0.030717747368001307,
+        "read": "Carolina Panthers’ explosive passing rates −0.6 pp (#17 of 32) and Denver Broncos’ explosive passes allowed rates −2.5 pp (#5 of 32). Added the way the model adds them, this pairing sits −3.1 pp from the league mean, which favours Denver Broncos."
+      },
+      {
+        "title": "Denver Broncos explosive running vs Carolina Panthers explosive runs allowed",
+        "att": {
+          "team": "Denver Broncos",
+          "label": "explosive running",
+          "v": "−1.6 pp",
+          "rank": "#28 of 32",
+          "note": null
+        },
+        "def": {
+          "team": "Carolina Panthers",
+          "label": "explosive runs allowed",
+          "v": "−1.0 pp",
+          "rank": "#10 of 32",
+          "note": null
+        },
+        "complete": true,
+        "net": -0.025512543702779892,
+        "read": "Denver Broncos’ explosive running rates −1.6 pp (#28 of 32) and Carolina Panthers’ explosive runs allowed rates −1.0 pp (#10 of 32). Added the way the model adds them, this pairing sits −2.6 pp from the league mean, which favours Carolina Panthers."
+      },
+      {
+        "title": "Carolina Panthers explosive running vs Denver Broncos explosive runs allowed",
+        "att": {
+          "team": "Carolina Panthers",
+          "label": "explosive running",
+          "v": "−0.2 pp",
+          "rank": "#19 of 32",
+          "note": null
+        },
+        "def": {
+          "team": "Denver Broncos",
+          "label": "explosive runs allowed",
+          "v": "+1.4 pp",
+          "rank": "#24 of 32",
+          "note": null
+        },
+        "complete": true,
+        "net": 0.01191552699582827,
+        "read": "Carolina Panthers’ explosive running rates −0.2 pp (#19 of 32) and Denver Broncos’ explosive runs allowed rates +1.4 pp (#24 of 32). Added the way the model adds them, this pairing sits +1.2 pp from the league mean, which favours Carolina Panthers."
+      }
+    ],
+    "panels": [
+      {
+        "title": "Quarterback",
+        "note": "Identity from the roster registry (nflverse); value from the model’s learned QB layer.",
+        "cols": [
+          "Denver Broncos",
+          "Carolina Panthers"
+        ],
+        "rows": [
+          {
+            "k": "Confirmation",
+            "a": "STARTER CONFIRMED",
+            "h": "STARTER CONFIRMED",
+            "note": "from the schedule feed’s own starter id"
+          },
+          {
+            "k": "Quarterback",
+            "a": "Bo Nix",
+            "h": "Bryce Young",
+            "note": null
+          },
+          {
+            "k": "Roster check",
+            "a": "on the active roster",
+            "h": "on the active roster",
+            "note": null
+          },
+          {
+            "k": "Learned sample",
+            "a": "43 learned starts",
+            "h": "52 learned starts",
+            "note": "starts the QB layer has actually absorbed"
+          },
+          {
+            "k": "Model adjustment",
+            "a": "0.0 — an absence, not an average",
+            "h": "0.0 — an absence, not an average",
+            "note": "this quarterback against his own team’s QB baseline. With no confirmed starter the term contributes nothing, which is not a claim that the position is league average"
+          },
+          {
+            "k": "Active room",
+            "a": "Jarrett Stidham, Sam Ehlinger, Bo Nix",
+            "h": "Kenny Pickett, Bryce Young",
+            "note": "who is rostered at the position — identity only"
+          }
+        ],
+        "reads": [
+          "The quarterback difference is worth -0.2 points of the projected spread — the engine’s own qb_adj_diff term, and the only place a quarterback moves this number.",
+          "Both starters are confirmed by the schedule feed, so the quarterback term is priced from the learned value of the two players actually named.",
+          "The learned QB layer is identity-keyed and value-only: it says how a quarterback has played, never how he is feeling, and it knows nothing about a start nobody has announced."
+        ]
+      },
+      {
+        "title": "Injuries and availability",
+        "note": "EdgeDesk has not loaded an NFL injury report in this session.",
+        "cols": [
+          "Denver Broncos",
+          "Carolina Panthers"
+        ],
+        "rows": [],
+        "reads": [
+          "No availability data reached this brief. That is a gap in what EdgeDesk knows, not a statement that both teams are healthy — nobody here is being carried as available."
+        ],
+        "missing": [
+          "NFL injury report — not loaded in this session."
+        ]
+      },
+      {
+        "title": "Situation",
+        "note": "From the schedule row and the engine’s context model.",
+        "cols": [
+          "Denver Broncos",
+          "Carolina Panthers"
+        ],
+        "rows": [
+          {
+            "k": "Rest days",
+            "a": "7",
+            "h": "10",
+            "note": "the engine prices the DIFFERENCE, at 0.0 pts"
+          },
+          {
+            "k": "Short week",
+            "a": "no",
+            "h": "no",
+            "note": "away 0.0 pts · home 0.0 pts"
+          },
+          {
+            "k": "Off a bye",
+            "a": "no",
+            "h": "no",
+            "note": "away 0.0 pts · home 0.0 pts"
+          },
+          {
+            "k": "Venue",
+            "v": "Bank of America Stadium · outdoors · grass",
+            "span": true,
+            "note": "dome 0.0 pts · grass -0.7 pts"
+          },
+          {
+            "k": "Weather at kickoff",
+            "span": true,
+            "v": "no forecast reached this game — the total model used its neutral defaults",
+            "note": "temperature and wind enter the TOTAL model only, never the spread"
+          },
+          {
+            "k": "Division game",
+            "v": "yes",
+            "span": true,
+            "note": "0.0 pts"
+          },
+          {
+            "k": "Week",
+            "v": "9",
+            "span": true,
+            "note": "the model leans less on the trained prior as the season runs"
+          }
+        ],
+        "reads": [
+          "Each situational factor is shown with the points the engine’s own context model assigned it, so nothing here is a rule of thumb. A factor with no weight in the fit is worth nothing in this number and says so rather than being quietly rounded up.",
+          "No forecast reached this game, so temperature and wind entered the total at their neutral defaults. That is a missing input, not a mild day.",
+          "The ratings behind this projection are the trained seeds plus 108 absorbed 2026 games; early in a season that means the prior is still carrying most of the weight."
+        ]
+      }
+    ],
+    "cases": {
+      "favourite": {
+        "team": "Denver Broncos",
+        "heading": "Why Denver Broncos can pull away",
+        "bullets": [
+          "Base team strength — Denver Broncos by 5.2 points (last season -3.5, this season -1.7) (-5.2 pts).",
+          "Passing — Denver Broncos by 0.4 points (last season -0.2, this season -0.2) (-0.4 pts).",
+          "Context (venue, division) — Denver Broncos by 0.7 points (-0.7 pts).",
+          "Sacks generated per dropback: Denver Broncos +1.9 pp (#3 of 32) vs Carolina Panthers −1.5 pp (#27 of 32) — 24 places on the league board.",
+          "Defence · EPA allowed per play: Denver Broncos −0.078 (#3 of 32) vs Carolina Panthers +0.056 (#26 of 32) — 23 places on the league board."
+        ]
+      },
+      "underdog": {
+        "team": "Carolina Panthers",
+        "heading": "Why Carolina Panthers can keep it close",
+        "bullets": [
+          "Home field — Carolina Panthers by 3.2 points (+3.2 pts).",
+          "Rest / travel — Carolina Panthers by 0.6 points (+0.6 pts).",
+          "Explosive runs allowed: Carolina Panthers −1.0 pp (#10 of 32) vs Denver Broncos +1.4 pp (#24 of 32) — 14 places on the league board.",
+          "Explosive run rate: Carolina Panthers −0.2 pp (#19 of 32) vs Denver Broncos −1.6 pp (#28 of 32) — 9 places on the league board.",
+          "Explosive pass rate: Carolina Panthers −0.6 pp (#17 of 32) vs Denver Broncos −1.2 pp (#23 of 32) — 6 places on the league board."
+        ]
+      },
+      "note": "Football cases assembled from measured states — a fitted driver, a rating gap, a combined matchup or the model’s own range. Neither side is a bet and neither is advice."
+    },
+    "uncertainty": {
+      "items": [
+        {
+          "sev": "HIGH",
+          "label": "availability not on file",
+          "text": "NFL injury report — not loaded in this session.",
+          "widening": null
+        },
+        {
+          "sev": "HIGH",
+          "label": "the model does not beat the closing line",
+          "text": "Out of sample 2016–2025 this model’s spread MAE is 10.2 against the closing market’s 9.777. It is research, and this brief is the research; it is not a claim that the number is better than the market’s.",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "weather not supplied",
+          "text": "No forecast reached this game, so the total model used its neutral temperature and zero wind. Those defaults are a missing input, not a mild day.",
+          "widening": null
+        }
+      ],
+      "unmeasured": [
+        {
+          "item": "Offensive-line, receiver, linebacker and secondary grades",
+          "why": "EdgeDesk’s position-group player layer is college-only. There is no NFL unit grade in this repo, so the trench and coverage sections report the trench and coverage facts the NFL model does carry — sacks taken, sacks generated, EPA allowed by phase, explosive rates — and claim nothing beyond them."
+        },
+        {
+          "item": "Special teams",
+          "why": "the NFL rating state carries no special-teams feature at all. It is absent from the projection and from every comparison above."
+        },
+        {
+          "item": "Coaching, scheme and play-calling tendency",
+          "why": "no public feed for it is wired into this model; a new coordinator changes a team in ways these ratings only learn after the fact."
+        },
+        {
+          "item": "Snap counts and personnel packages",
+          "why": "not present in the public team-week feed this model reads."
+        },
+        {
+          "item": "Individual player grades",
+          "why": "the NFL layer rates TEAMS and quarterbacks. No other individual player carries a rating here."
+        },
+        {
+          "item": "Who is actually available",
+          "why": "EdgeDesk has not loaded an NFL injury report in this session."
+        }
+      ],
+      "note": "Unknown is never scored as zero-and-forgotten. Where the model has no input it contributes no points, and the gap is carried here instead of being filled in."
+    },
+    "market": {
+      "available": true,
+      "model": "Carolina Panthers +3.0",
+      "model_raw": "Carolina Panthers +2.9",
+      "market": "Carolina Panthers +2.5",
+      "difference": "0.4 points",
+      "rounding_note": "Fair lines rounded to nearest half-point; differences use unrounded projections.",
+      "key_number": {
+        "text": "Market is below 3; model sits on 3.",
+        "detail": "Denver Broncos: market −2.5, model fair −3.0.",
+        "note": "Key margins are where football games often finish. How often differs between the NFL and college football; this note marks where the two lines sit and does not change any probability."
+      },
+      "total_model": "43.5",
+      "total_model_raw": "43.5",
+      "total_market": "44.5",
+      "total_rounding_note": null,
+      "total_difference": "1.0 points",
+      "book": "nflverse reference",
+      "capture_age": null,
+      "stale": false,
+      "classification": "STALE MARKET",
+      "classification_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 0.4-point gap is context only and the game is excluded from research ranking.",
+      "reference": "These are nflverse consensus reference numbers, not a live bettable quote.",
+      "note": "EdgeDesk compares its own number with a captured price. The comparison is a research state, not a bet — and out of sample this model does not beat the close."
+    },
+    "headline": "EdgeDesk projects Denver Broncos 23, Carolina Panthers 20.",
+    "state": {
+      "label": "STALE MARKET",
+      "note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 0.4-point gap is context only and the game is excluded from research ranking.",
+      "scope": "This describes the state of EdgeDesk’s model-versus-market research on this game. It is not a statement about whether the matchup is worth researching."
+    },
+    "score": {
+      "away": {
+        "team": "Denver Broncos",
+        "points": "23"
+      },
+      "home": {
+        "team": "Carolina Panthers",
+        "points": "20"
+      },
+      "expected": {
+        "text": "Denver Broncos 23.19, Carolina Panthers 20.32",
+        "home": 20.32,
+        "away": 23.19,
+        "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
+      },
+      "note": "Split from EdgeDesk’s own fair spread and fair total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
+    },
+    "table": {
+      "cols": [
+        "Denver Broncos",
+        "Carolina Panthers"
+      ],
+      "rows": [
+        {
+          "k": "Net EPA per play",
+          "a": "+0.078  #7 of 32",
+          "h": "−0.081  #26 of 32",
+          "note": "offence EPA per play minus defence EPA allowed per play — the engine’s own net_epa half"
+        },
+        {
+          "k": "Points scored",
+          "a": "−0.17  #16 of 32",
+          "h": "−0.95  #19 of 32",
+          "note": null
+        },
+        {
+          "k": "Points allowed",
+          "a": "−3.69  #3 of 32",
+          "h": "+2.44  #25 of 32",
+          "note": null
+        },
+        {
+          "k": "Offence · EPA per play",
+          "a": "+0.000  #15 of 32",
+          "h": "−0.025  #21 of 32",
+          "note": null
+        },
+        {
+          "k": "Pass offence · EPA per dropback",
+          "a": "−0.024  #18 of 32",
+          "h": "−0.049  #21 of 32",
+          "note": null
+        },
+        {
+          "k": "Run offence · EPA per carry",
+          "a": "+0.024  #14 of 32",
+          "h": "+0.004  #18 of 32",
+          "note": null
+        },
+        {
+          "k": "Explosive pass rate",
+          "a": "−1.2 pp  #23 of 32",
+          "h": "−0.6 pp  #17 of 32",
+          "note": "20+ yard pass plays per attempt"
+        },
+        {
+          "k": "Explosive run rate",
+          "a": "−1.6 pp  #28 of 32",
+          "h": "−0.2 pp  #19 of 32",
+          "note": "10+ yard runs per carry"
+        },
+        {
+          "k": "Defence · EPA allowed per play",
+          "a": "−0.078  #3 of 32",
+          "h": "+0.056  #26 of 32",
+          "note": null
+        },
+        {
+          "k": "Pass defence · EPA allowed per dropback",
+          "a": "−0.181  #3 of 32",
+          "h": "+0.073  #25 of 32",
+          "note": null
+        },
+        {
+          "k": "Run defence · EPA allowed per carry",
+          "a": "+0.051  #27 of 32",
+          "h": "+0.058  #29 of 32",
+          "note": null
+        },
+        {
+          "k": "Explosive passes allowed",
+          "a": "−2.5 pp  #5 of 32",
+          "h": "−2.9 pp  #3 of 32",
+          "note": null
+        },
+        {
+          "k": "Explosive runs allowed",
+          "a": "+1.4 pp  #24 of 32",
+          "h": "−1.0 pp  #10 of 32",
+          "note": null
+        },
+        {
+          "k": "Sacks taken per dropback",
+          "a": "−2.2 pp  #4 of 32",
+          "h": "+0.8 pp  #25 of 32",
+          "note": "pass protection — the only offensive-line number the NFL model carries"
+        },
+        {
+          "k": "Sacks generated per dropback",
+          "a": "+1.9 pp  #3 of 32",
+          "h": "−1.5 pp  #27 of 32",
+          "note": "pass rush — the only defensive-front number the NFL model carries"
+        },
+        {
+          "k": "Pass rate",
+          "a": "+1.8 pp",
+          "h": "+3.2 pp",
+          "note": "how often they throw. A tendency, not a quality, so no side is marked ahead"
+        },
+        {
+          "k": "Plays per game",
+          "a": "−1.9",
+          "h": "+1.0",
+          "note": "pace. A tendency, not a quality"
+        }
+      ]
+    },
+    "notes": [
+      "EdgeDesk’s line is Carolina Panthers +3.0 with a fair total of 43.5, before any book is consulted.",
+      "Carolina Panthers wins 42% of the time in EdgeDesk’s distribution, Denver Broncos 58%."
+    ],
+    "missing": [],
+    "priced_label": "PRICED BY MODEL — the projection and its additive drivers, from the inputs the NFL model actually fits.",
+    "context_label": "RESEARCH CONTEXT — every rating below is opponent-adjusted and printed as a deviation from the league mean. The injury report and the quarterback panel explain the matchup and move no priced number.",
+    "source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 108 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice."
+  },
+  "checks": {
+    "ok": true,
+    "failed": [],
+    "at": "2026-11-02T00:36:55.151Z"
+  }
+}

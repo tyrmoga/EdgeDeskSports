@@ -9,7 +9,7 @@
   "aliases": [],
   "title": "Boston College vs. Duke: EdgeDesk Model Projection, Matchup Analysis and Fair Spread",
   "seo_title": "Boston College vs. Duke 2026: EdgeDesk Fair Spread & Model Projection",
-  "seo_description": "EdgeDesk fair spread for Boston College at Duke: Duke −5.5, fair total 51.5. Duke wins 65% of simulations. Data confidence 83%. Model status NO MARKET. Research, not picks.",
+  "seo_description": "EdgeDesk fair spread for Boston College at Duke: Duke −5.5, fair total 51.5. Duke wins 65% of simulations. Data confidence 88%. Model status NO MARKET. Research, not picks.",
   "excerpt": "Boston College carries the stronger underlying team rating — +1.1 against -1.4, a 2.5-point separation on a neutral field before home advantage, travel or rest. EdgeDesk makes it Duke −5.5 before any sportsbook number is consulted, with Duke winning 65% of…",
   "home_team": "Duke",
   "away_team": "Boston College",
@@ -21,12 +21,12 @@
   "game_time": "2026-10-31T16:00:00.000Z",
   "game_when_label": "2026-10-31 16:00 UTC",
   "published_at": null,
-  "updated_at": "2026-10-27T08:53:29.281Z",
-  "generated_at": "2026-10-27T08:53:29.281Z",
+  "updated_at": "2026-10-31T12:13:51.302Z",
+  "generated_at": "2026-10-31T12:13:51.302Z",
   "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
   "model_status": "NO MARKET",
   "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
-  "confidence": 83,
+  "confidence": 88,
   "priced": true,
   "fair_spread_text": "Duke −5.5",
   "fair_total": "51.5",
@@ -37,11 +37,11 @@
   "status": "ready",
   "article_type": "pregame",
   "related": null,
-  "frozen": false,
-  "frozen_at": null,
+  "frozen": true,
+  "frozen_at": "2026-10-31T16:00:00.000Z",
   "author": "EdgeDesk Research",
   "publisher": "EdgeDesk Sports",
-  "research_source": "Ratings: football/rankings/current.json — 2026 Week 8, built 2026-10-26. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser.",
+  "research_source": "Ratings: football/rankings/current.json — 2026 Week 9, built 2026-10-30. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser.",
   "market_source": null,
   "research": {
     "kind": "CFB_GAME",
@@ -65,8 +65,8 @@
     "lede": [
       "Boston College carries the stronger underlying team rating — +1.1 against -1.4, a 2.5-point separation on a neutral field before home advantage, travel or rest.",
       "EdgeDesk makes it Duke −5.5 before any sportsbook number is consulted, with Duke winning 65% of simulations.",
-      "The position-group comparison shows where the separation comes from: the widest measured gap is qb room, where Duke leads Boston College by 97 places nationally.",
-      "Data confidence on this matchup is 83% — high by this board’s standards, so the margin is the strongest part of the read."
+      "The position-group comparison shows where the separation comes from: the widest measured gap is qb room, where Duke leads Boston College by 98 places nationally.",
+      "Data confidence on this matchup is 88% — high by this board’s standards, so the margin is the strongest part of the read."
     ],
     "projection": {
       "priced": true,
@@ -123,22 +123,22 @@
         "volatility_discriminates": false,
         "note": "Quoted from Duke’s perspective, as the engine publishes it. Eight results in ten land inside p10–p90."
       },
-      "confidence_pct": 83,
-      "inputs_reached_pct": 73,
+      "confidence_pct": 88,
+      "inputs_reached_pct": 89,
       "input_contract": {
         "fields": 26,
         "applicable": 26,
-        "known": 19,
-        "priced": 11,
-        "priced_coverage_pct": 42,
+        "known": 23,
+        "priced": 15,
+        "priced_coverage_pct": 58,
         "by_state": {
-          "USABLE": 11,
+          "USABLE": 15,
           "RESEARCH_ONLY": 8,
           "STALE": 0,
           "CONFLICTING": 0,
           "NOT_APPLICABLE": 0,
           "NOT_REQUIRED": 0,
-          "NOT_DUE_YET": 4,
+          "NOT_DUE_YET": 0,
           "FETCH_FAILED": 0,
           "UNAVAILABLE": 3
         },
@@ -258,7 +258,7 @@
         "source": "cfbfastR-data player_stats — play attribution",
         "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
         "published_at": "2026-10-24T19:30:00.000Z",
-        "retrieved_at": "2026-10-26T23:10:58.149Z"
+        "retrieved_at": "2026-10-30T18:39:07.674Z"
       },
       "home": {
         "team": "Duke",
@@ -348,9 +348,9 @@
         "source": "cfbfastR-data player_stats — play attribution",
         "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
         "published_at": "2026-10-23T23:00:00.000Z",
-        "retrieved_at": "2026-10-26T23:10:58.149Z"
+        "retrieved_at": "2026-10-30T18:39:07.674Z"
       },
-      "generated_at": "2026-10-26T23:10:56.259Z",
+      "generated_at": "2026-10-30T18:39:06.430Z",
       "source": "football/starters/cfb_2026.json",
       "note": "An expected starter is not a confirmed one. EdgeDesk publishes which kind of answer each of these is, and no number on this page is priced from any of them. Availability is a separate axis: an absent report is UNKNOWN and is never read as healthy."
     },
@@ -394,14 +394,14 @@
               "note": "points vs an average FBS team, neutral field",
               "a": {
                 "v": "+1.1",
-                "n": 1.11,
+                "n": 1.1,
                 "rank": "#62 of 138",
                 "rank_n": 62,
                 "note": null
               },
               "h": {
                 "v": "-1.4",
-                "n": -1.35,
+                "n": -1.37,
                 "rank": "#79 of 138",
                 "rank_n": 79,
                 "note": null
@@ -417,23 +417,23 @@
               "k": "Talent",
               "note": null,
               "a": {
-                "v": "41.6",
-                "n": 41.6,
+                "v": "41.8",
+                "n": 41.8,
                 "rank": "#114 of 138",
                 "rank_n": 114,
                 "note": null
               },
               "h": {
-                "v": "51.6",
-                "n": 51.6,
-                "rank": "#57 of 138",
-                "rank_n": 57,
+                "v": "51.3",
+                "n": 51.3,
+                "rank": "#59 of 138",
+                "rank_n": 59,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 10,
-                "rank_gap": 57
+                "gap": 9.5,
+                "rank_gap": 55
               }
             },
             {
@@ -441,8 +441,8 @@
               "k": "Performance",
               "note": null,
               "a": {
-                "v": "54.2",
-                "n": 54.2,
+                "v": "54.1",
+                "n": 54.1,
                 "rank": "#51 of 138",
                 "rank_n": 51,
                 "note": null
@@ -450,14 +450,14 @@
               "h": {
                 "v": "47.2",
                 "n": 47.2,
-                "rank": "#82 of 138",
-                "rank_n": 82,
+                "rank": "#81 of 138",
+                "rank_n": 81,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 7,
-                "rank_gap": 31
+                "gap": 6.9,
+                "rank_gap": 30
               }
             },
             {
@@ -472,16 +472,16 @@
                 "note": null
               },
               "h": {
-                "v": "49.6",
-                "n": 49.6,
-                "rank": "#89 of 138",
-                "rank_n": 89,
+                "v": "49.5",
+                "n": 49.5,
+                "rank": "#90 of 138",
+                "rank_n": 90,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 1.2,
-                "rank_gap": 35
+                "gap": 1.1,
+                "rank_gap": 34
               }
             }
           ]
@@ -494,8 +494,8 @@
               "k": "Offense",
               "note": null,
               "a": {
-                "v": "51.0",
-                "n": 51,
+                "v": "50.9",
+                "n": 50.9,
                 "rank": "#62 of 138",
                 "rank_n": 62,
                 "note": null
@@ -509,7 +509,7 @@
               },
               "edge": {
                 "side": "a",
-                "gap": 6.5,
+                "gap": 6.4,
                 "rank_gap": 42
               }
             },
@@ -551,14 +551,14 @@
               "h": {
                 "v": "51.5",
                 "n": 51.5,
-                "rank": "#38 of 130",
-                "rank_n": 38,
+                "rank": "#40 of 130",
+                "rank_n": 40,
                 "note": null
               },
               "edge": {
                 "side": "h",
                 "gap": 5.9,
-                "rank_gap": 85
+                "rank_gap": 83
               }
             },
             {
@@ -575,14 +575,14 @@
               "h": {
                 "v": "41.2",
                 "n": 41.2,
-                "rank": "#110 of 138",
-                "rank_n": 110,
+                "rank": "#109 of 138",
+                "rank_n": 109,
                 "note": null
               },
               "edge": {
                 "side": "a",
                 "gap": 21.6,
-                "rank_gap": 95
+                "rank_gap": 94
               }
             },
             {
@@ -590,15 +590,15 @@
               "k": "Pass offense",
               "note": null,
               "a": {
-                "v": "42.4",
-                "n": 42.4,
+                "v": "42.3",
+                "n": 42.3,
                 "rank": "#108 of 137",
                 "rank_n": 108,
                 "note": null
               },
               "h": {
-                "v": "51.4",
-                "n": 51.4,
+                "v": "51.3",
+                "n": 51.3,
                 "rank": "#60 of 137",
                 "rank_n": 60,
                 "note": null
@@ -616,20 +616,20 @@
               "a": {
                 "v": "57.1",
                 "n": 57.1,
-                "rank": "#52 of 138",
-                "rank_n": 52,
+                "rank": "#51 of 138",
+                "rank_n": 51,
                 "note": null
               },
               "h": {
-                "v": "60.1",
-                "n": 60.1,
-                "rank": "#39 of 138",
-                "rank_n": 39,
+                "v": "60.3",
+                "n": 60.3,
+                "rank": "#38 of 138",
+                "rank_n": 38,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 3,
+                "gap": 3.2,
                 "rank_gap": 13
               }
             },
@@ -640,21 +640,21 @@
               "a": {
                 "v": "51.9",
                 "n": 51.9,
-                "rank": "#60 of 138",
-                "rank_n": 60,
+                "rank": "#58 of 138",
+                "rank_n": 58,
                 "note": null
               },
               "h": {
-                "v": "48.1",
-                "n": 48.1,
-                "rank": "#77 of 138",
-                "rank_n": 77,
+                "v": "48.2",
+                "n": 48.2,
+                "rank": "#76 of 138",
+                "rank_n": 76,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 3.8,
-                "rank_gap": 17
+                "gap": 3.7,
+                "rank_gap": 18
               }
             }
           ]
@@ -669,21 +669,21 @@
               "a": {
                 "v": "53.6",
                 "n": 53.6,
-                "rank": "#126 of 138",
-                "rank_n": 126,
+                "rank": "#124 of 138",
+                "rank_n": 124,
                 "note": null
               },
               "h": {
                 "v": "60.9",
                 "n": 60.9,
-                "rank": "#29 of 138",
-                "rank_n": 29,
+                "rank": "#26 of 138",
+                "rank_n": 26,
                 "note": null
               },
               "edge": {
                 "side": "h",
                 "gap": 7.3,
-                "rank_gap": 97
+                "rank_gap": 98
               }
             },
             {
@@ -722,16 +722,16 @@
                 "note": null
               },
               "h": {
-                "v": "55.2",
-                "n": 55.2,
-                "rank": "#72 of 138",
-                "rank_n": 72,
+                "v": "54.9",
+                "n": 54.9,
+                "rank": "#79 of 138",
+                "rank_n": 79,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.6,
-                "rank_gap": 18
+                "gap": 0.3,
+                "rank_gap": 11
               }
             },
             {
@@ -739,22 +739,22 @@
               "k": "Tight ends",
               "note": "rated by the player layer; the board publishes no national TE rank",
               "a": {
-                "v": "55.5",
-                "n": 55.5,
+                "v": "55.6",
+                "n": 55.6,
                 "rank": null,
                 "rank_n": null,
                 "note": "rated, held out of the national rank by the confidence gate"
               },
               "h": {
-                "v": "56.8",
-                "n": 56.8,
+                "v": "56.1",
+                "n": 56.1,
                 "rank": null,
                 "rank_n": null,
                 "note": "rated, held out of the national rank by the confidence gate"
               },
               "edge": {
                 "side": "h",
-                "gap": 1.3,
+                "gap": 0.5,
                 "rank_gap": null
               }
             },
@@ -763,23 +763,23 @@
               "k": "Running backs",
               "note": null,
               "a": {
-                "v": "56.6",
-                "n": 56.6,
-                "rank": "#58 of 138",
-                "rank_n": 58,
+                "v": "55.1",
+                "n": 55.1,
+                "rank": "#110 of 138",
+                "rank_n": 110,
                 "note": null
               },
               "h": {
                 "v": "56.0",
                 "n": 56,
-                "rank": "#76 of 138",
-                "rank_n": 76,
+                "rank": "#75 of 138",
+                "rank_n": 75,
                 "note": null
               },
               "edge": {
-                "side": "a",
-                "gap": 0.6,
-                "rank_gap": 18
+                "side": "h",
+                "gap": 0.9,
+                "rank_gap": 35
               }
             },
             {
@@ -794,16 +794,16 @@
                 "note": null
               },
               "h": {
-                "v": "57.1",
-                "n": 57.1,
-                "rank": "#33 of 138",
-                "rank_n": 33,
+                "v": "57.2",
+                "n": 57.2,
+                "rank": "#32 of 138",
+                "rank_n": 32,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 1.3,
-                "rank_gap": 15
+                "gap": 1.4,
+                "rank_gap": 16
               }
             },
             {
@@ -811,22 +811,22 @@
               "k": "Linebackers",
               "note": null,
               "a": {
-                "v": "51.8",
-                "n": 51.8,
-                "rank": "#90 of 138",
-                "rank_n": 90,
+                "v": "51.9",
+                "n": 51.9,
+                "rank": "#89 of 138",
+                "rank_n": 89,
                 "note": null
               },
               "h": {
-                "v": "54.5",
-                "n": 54.5,
-                "rank": "#50 of 138",
-                "rank_n": 50,
+                "v": "54.7",
+                "n": 54.7,
+                "rank": "#49 of 138",
+                "rank_n": 49,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 2.7,
+                "gap": 2.8,
                 "rank_gap": 40
               }
             },
@@ -842,15 +842,15 @@
                 "note": null
               },
               "h": {
-                "v": "50.6",
-                "n": 50.6,
+                "v": "50.7",
+                "n": 50.7,
                 "rank": "#94 of 138",
                 "rank_n": 94,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 1.9,
+                "gap": 1.8,
                 "rank_gap": 15
               }
             },
@@ -861,22 +861,18 @@
               "a": {
                 "v": "57.9",
                 "n": 57.9,
-                "rank": "#20 of 138",
+                "rank": "#20 of 137",
                 "rank_n": 20,
                 "note": null
               },
               "h": {
-                "v": "55.3",
-                "n": 55.3,
-                "rank": "#90 of 138",
-                "rank_n": 90,
+                "v": null,
+                "n": null,
+                "rank": null,
+                "rank_n": null,
                 "note": null
               },
-              "edge": {
-                "side": "a",
-                "gap": 2.6,
-                "rank_gap": 70
-              }
+              "edge": null
             }
           ]
         },
@@ -897,14 +893,14 @@
               "h": {
                 "v": "53.0",
                 "n": 53,
-                "rank": "#88 of 138",
-                "rank_n": 88,
+                "rank": "#89 of 138",
+                "rank_n": 89,
                 "note": null
               },
               "edge": {
                 "side": "h",
                 "gap": 0.6,
-                "rank_gap": 40
+                "rank_gap": 39
               }
             },
             {
@@ -941,75 +937,75 @@
       "away": [
         {
           "k": "Run offense",
-          "rank_gap": 95,
+          "rank_gap": 94,
           "gap": 21.6,
           "lead": "Boston College",
           "trail": "Duke",
           "lead_cell": "62.8 · #15 of 138",
-          "trail_cell": "41.2 · #110 of 138",
-          "text": "Boston College 62.8 (#15 of 138) vs Duke 41.2 (#110 of 138) — 95 places on the national board."
-        },
-        {
-          "k": "Kicking",
-          "rank_gap": 70,
-          "gap": 2.6,
-          "lead": "Boston College",
-          "trail": "Duke",
-          "lead_cell": "57.9 · #20 of 138",
-          "trail_cell": "55.3 · #90 of 138",
-          "text": "Boston College 57.9 (#20 of 138) vs Duke 55.3 (#90 of 138) — 70 places on the national board."
+          "trail_cell": "41.2 · #109 of 138",
+          "text": "Boston College 62.8 (#15 of 138) vs Duke 41.2 (#109 of 138) — 94 places on the national board."
         },
         {
           "k": "Offense",
           "rank_gap": 42,
-          "gap": 6.5,
+          "gap": 6.4,
           "lead": "Boston College",
           "trail": "Duke",
-          "lead_cell": "51.0 · #62 of 138",
+          "lead_cell": "50.9 · #62 of 138",
           "trail_cell": "44.5 · #104 of 138",
-          "text": "Boston College 51.0 (#62 of 138) vs Duke 44.5 (#104 of 138) — 42 places on the national board."
+          "text": "Boston College 50.9 (#62 of 138) vs Duke 44.5 (#104 of 138) — 42 places on the national board."
         },
         {
           "k": "Performance",
-          "rank_gap": 31,
-          "gap": 7,
+          "rank_gap": 30,
+          "gap": 6.9,
           "lead": "Boston College",
           "trail": "Duke",
-          "lead_cell": "54.2 · #51 of 138",
-          "trail_cell": "47.2 · #82 of 138",
-          "text": "Boston College 54.2 (#51 of 138) vs Duke 47.2 (#82 of 138) — 31 places on the national board."
+          "lead_cell": "54.1 · #51 of 138",
+          "trail_cell": "47.2 · #81 of 138",
+          "text": "Boston College 54.1 (#51 of 138) vs Duke 47.2 (#81 of 138) — 30 places on the national board."
         },
         {
-          "k": "Running backs",
+          "k": "Pass defense",
           "rank_gap": 18,
-          "gap": 0.6,
+          "gap": 3.7,
           "lead": "Boston College",
           "trail": "Duke",
-          "lead_cell": "56.6 · #58 of 138",
-          "trail_cell": "56.0 · #76 of 138",
-          "text": "Boston College 56.6 (#58 of 138) vs Duke 56.0 (#76 of 138) — 18 places on the national board."
+          "lead_cell": "51.9 · #58 of 138",
+          "trail_cell": "48.2 · #76 of 138",
+          "text": "Boston College 51.9 (#58 of 138) vs Duke 48.2 (#76 of 138) — 18 places on the national board."
+        },
+        {
+          "k": "ETSR (overall)",
+          "rank_gap": 17,
+          "gap": 2.5,
+          "lead": "Boston College",
+          "trail": "Duke",
+          "lead_cell": "+1.1 · #62 of 138",
+          "trail_cell": "-1.4 · #79 of 138",
+          "text": "Boston College +1.1 (#62 of 138) vs Duke -1.4 (#79 of 138) — 17 places on the national board."
         }
       ],
       "home": [
         {
           "k": "QB room",
-          "rank_gap": 97,
+          "rank_gap": 98,
           "gap": 7.3,
           "lead": "Duke",
           "trail": "Boston College",
-          "lead_cell": "60.9 · #29 of 138",
-          "trail_cell": "53.6 · #126 of 138",
-          "text": "Duke 60.9 (#29 of 138) vs Boston College 53.6 (#126 of 138) — 97 places on the national board."
+          "lead_cell": "60.9 · #26 of 138",
+          "trail_cell": "53.6 · #124 of 138",
+          "text": "Duke 60.9 (#26 of 138) vs Boston College 53.6 (#124 of 138) — 98 places on the national board."
         },
         {
           "k": "Special teams",
-          "rank_gap": 85,
+          "rank_gap": 83,
           "gap": 5.9,
           "lead": "Duke",
           "trail": "Boston College",
-          "lead_cell": "51.5 · #38 of 130",
+          "lead_cell": "51.5 · #40 of 130",
           "trail_cell": "45.6 · #123 of 130",
-          "text": "Duke 51.5 (#38 of 130) vs Boston College 45.6 (#123 of 130) — 85 places on the national board."
+          "text": "Duke 51.5 (#40 of 130) vs Boston College 45.6 (#123 of 130) — 83 places on the national board."
         },
         {
           "k": "Offensive line",
@@ -1023,13 +1019,13 @@
         },
         {
           "k": "Talent",
-          "rank_gap": 57,
-          "gap": 10,
+          "rank_gap": 55,
+          "gap": 9.5,
           "lead": "Duke",
           "trail": "Boston College",
-          "lead_cell": "51.6 · #57 of 138",
-          "trail_cell": "41.6 · #114 of 138",
-          "text": "Duke 51.6 (#57 of 138) vs Boston College 41.6 (#114 of 138) — 57 places on the national board."
+          "lead_cell": "51.3 · #59 of 138",
+          "trail_cell": "41.8 · #114 of 138",
+          "text": "Duke 51.3 (#59 of 138) vs Boston College 41.8 (#114 of 138) — 55 places on the national board."
         },
         {
           "k": "Pass offense",
@@ -1037,9 +1033,9 @@
           "gap": 9,
           "lead": "Duke",
           "trail": "Boston College",
-          "lead_cell": "51.4 · #60 of 137",
-          "trail_cell": "42.4 · #108 of 137",
-          "text": "Duke 51.4 (#60 of 137) vs Boston College 42.4 (#108 of 137) — 48 places on the national board."
+          "lead_cell": "51.3 · #60 of 137",
+          "trail_cell": "42.3 · #108 of 137",
+          "text": "Duke 51.3 (#60 of 137) vs Boston College 42.3 (#108 of 137) — 48 places on the national board."
         }
       ],
       "measured": [],
@@ -1053,19 +1049,19 @@
         "att": {
           "team": "Boston College",
           "label": "pass offense",
-          "v": "42.4",
+          "v": "42.3",
           "rank": "#108 of 137",
           "note": null
         },
         "def": {
           "team": "Duke",
           "label": "pass defense",
-          "v": "48.1",
-          "rank": "#77 of 138",
+          "v": "48.2",
+          "rank": "#76 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Boston College’s pass offense rates 42.4 (#108 of 137) against Duke’s pass defense at 48.1 (#77 of 138). Duke’s unit stands higher among its own position group, by 31 places."
+        "read": "Boston College’s pass offense rates 42.3 (#108 of 137) against Duke’s pass defense at 48.2 (#76 of 138). Duke’s unit stands higher among its own position group, by 32 places."
       },
       {
         "title": "Boston College run offense vs Duke run defense",
@@ -1079,19 +1075,19 @@
         "def": {
           "team": "Duke",
           "label": "run defense",
-          "v": "60.1",
-          "rank": "#39 of 138",
+          "v": "60.3",
+          "rank": "#38 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Boston College’s run offense rates 62.8 (#15 of 138) against Duke’s run defense at 60.1 (#39 of 138). Boston College’s unit stands higher among its own position group, by 24 places."
+        "read": "Boston College’s run offense rates 62.8 (#15 of 138) against Duke’s run defense at 60.3 (#38 of 138). Boston College’s unit stands higher among its own position group, by 23 places."
       },
       {
         "title": "Duke pass offense vs Boston College pass defense",
         "att": {
           "team": "Duke",
           "label": "pass offense",
-          "v": "51.4",
+          "v": "51.3",
           "rank": "#60 of 137",
           "note": null
         },
@@ -1099,11 +1095,11 @@
           "team": "Boston College",
           "label": "pass defense",
           "v": "51.9",
-          "rank": "#60 of 138",
+          "rank": "#58 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Duke’s pass offense rates 51.4 (#60 of 137) against Boston College’s pass defense at 51.9 (#60 of 138). The two stand level."
+        "read": "Duke’s pass offense rates 51.3 (#60 of 137) against Boston College’s pass defense at 51.9 (#58 of 138). Boston College’s unit stands higher among its own position group, by 2 places."
       },
       {
         "title": "Duke run offense vs Boston College run defense",
@@ -1111,18 +1107,18 @@
           "team": "Duke",
           "label": "run offense",
           "v": "41.2",
-          "rank": "#110 of 138",
+          "rank": "#109 of 138",
           "note": null
         },
         "def": {
           "team": "Boston College",
           "label": "run defense",
           "v": "57.1",
-          "rank": "#52 of 138",
+          "rank": "#51 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Duke’s run offense rates 41.2 (#110 of 138) against Boston College’s run defense at 57.1 (#52 of 138). Boston College’s unit stands higher among its own position group, by 58 places."
+        "read": "Duke’s run offense rates 41.2 (#109 of 138) against Boston College’s run defense at 57.1 (#51 of 138). Boston College’s unit stands higher among its own position group, by 58 places."
       },
       {
         "title": "Boston College QB room vs Duke secondary",
@@ -1130,18 +1126,18 @@
           "team": "Boston College",
           "label": "QB room",
           "v": "53.6",
-          "rank": "#126 of 138",
+          "rank": "#124 of 138",
           "note": null
         },
         "def": {
           "team": "Duke",
           "label": "secondary",
-          "v": "50.6",
+          "v": "50.7",
           "rank": "#94 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Boston College’s QB room rates 53.6 (#126 of 138) against Duke’s secondary at 50.6 (#94 of 138). Duke’s unit stands higher among its own position group, by 32 places."
+        "read": "Boston College’s QB room rates 53.6 (#124 of 138) against Duke’s secondary at 50.7 (#94 of 138). Duke’s unit stands higher among its own position group, by 30 places."
       },
       {
         "title": "Duke QB room vs Boston College secondary",
@@ -1149,7 +1145,7 @@
           "team": "Duke",
           "label": "QB room",
           "v": "60.9",
-          "rank": "#29 of 138",
+          "rank": "#26 of 138",
           "note": null
         },
         "def": {
@@ -1160,7 +1156,7 @@
           "note": null
         },
         "complete": true,
-        "read": "Duke’s QB room rates 60.9 (#29 of 138) against Boston College’s secondary at 52.5 (#79 of 138). Duke’s unit stands higher among its own position group, by 50 places."
+        "read": "Duke’s QB room rates 60.9 (#26 of 138) against Boston College’s secondary at 52.5 (#79 of 138). Duke’s unit stands higher among its own position group, by 53 places."
       },
       {
         "title": "Boston College offensive line vs Duke defensive line",
@@ -1174,12 +1170,12 @@
         "def": {
           "team": "Duke",
           "label": "defensive line",
-          "v": "57.1",
-          "rank": "#33 of 138",
+          "v": "57.2",
+          "rank": "#32 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Boston College’s offensive line rates 41.1 (#136 of 138) against Duke’s defensive line at 57.1 (#33 of 138). Duke’s unit stands higher among its own position group, by 103 places."
+        "read": "Boston College’s offensive line rates 41.1 (#136 of 138) against Duke’s defensive line at 57.2 (#32 of 138). Duke’s unit stands higher among its own position group, by 104 places."
       },
       {
         "title": "Duke offensive line vs Boston College defensive line",
@@ -1205,19 +1201,19 @@
         "att": {
           "team": "Boston College",
           "label": "running backs",
-          "v": "56.6",
-          "rank": "#58 of 138",
+          "v": "55.1",
+          "rank": "#110 of 138",
           "note": null
         },
         "def": {
           "team": "Duke",
           "label": "linebackers",
-          "v": "54.5",
-          "rank": "#50 of 138",
+          "v": "54.7",
+          "rank": "#49 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Boston College’s running backs rates 56.6 (#58 of 138) against Duke’s linebackers at 54.5 (#50 of 138). Duke’s unit stands higher among its own position group, by 8 places."
+        "read": "Boston College’s running backs rates 55.1 (#110 of 138) against Duke’s linebackers at 54.7 (#49 of 138). Duke’s unit stands higher among its own position group, by 61 places."
       },
       {
         "title": "Duke running backs vs Boston College linebackers",
@@ -1225,18 +1221,18 @@
           "team": "Duke",
           "label": "running backs",
           "v": "56.0",
-          "rank": "#76 of 138",
+          "rank": "#75 of 138",
           "note": null
         },
         "def": {
           "team": "Boston College",
           "label": "linebackers",
-          "v": "51.8",
-          "rank": "#90 of 138",
+          "v": "51.9",
+          "rank": "#89 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Duke’s running backs rates 56.0 (#76 of 138) against Boston College’s linebackers at 51.8 (#90 of 138). Duke’s unit stands higher among its own position group, by 14 places."
+        "read": "Duke’s running backs rates 56.0 (#75 of 138) against Boston College’s linebackers at 51.9 (#89 of 138). Duke’s unit stands higher among its own position group, by 14 places."
       },
       {
         "title": "Boston College receivers vs Duke secondary",
@@ -1250,20 +1246,20 @@
         "def": {
           "team": "Duke",
           "label": "secondary",
-          "v": "50.6",
+          "v": "50.7",
           "rank": "#94 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Boston College’s receivers rates 54.6 (#90 of 138) against Duke’s secondary at 50.6 (#94 of 138). Boston College’s unit stands higher among its own position group, by 4 places."
+        "read": "Boston College’s receivers rates 54.6 (#90 of 138) against Duke’s secondary at 50.7 (#94 of 138). Boston College’s unit stands higher among its own position group, by 4 places."
       },
       {
         "title": "Duke receivers vs Boston College secondary",
         "att": {
           "team": "Duke",
           "label": "receivers",
-          "v": "55.2",
-          "rank": "#72 of 138",
+          "v": "54.9",
+          "rank": "#79 of 138",
           "note": null
         },
         "def": {
@@ -1274,7 +1270,7 @@
           "note": null
         },
         "complete": true,
-        "read": "Duke’s receivers rates 55.2 (#72 of 138) against Boston College’s secondary at 52.5 (#79 of 138). Duke’s unit stands higher among its own position group, by 7 places."
+        "read": "Duke’s receivers rates 54.9 (#79 of 138) against Boston College’s secondary at 52.5 (#79 of 138). The two stand level."
       }
     ],
     "roster": {
@@ -1380,15 +1376,15 @@
         {
           "k": "Availability records",
           "note": "an absence report reaching this roster. UNKNOWN is never read as healthy",
-          "a": "none on file — 100% unknown",
-          "h": "none on file — 100% unknown",
+          "a": "8 on file, 11% of starter value out",
+          "h": "8 on file, 12% of starter value out",
           "edge": null
         },
         {
           "k": "Data confidence",
           "note": "how much EdgeDesk knows about this roster, not how good it is",
-          "a": "53%",
-          "h": "53%",
+          "a": "63%",
+          "h": "63%",
           "edge": {
             "side": "h",
             "gap": 0.0030000000000000027
@@ -1431,8 +1427,8 @@
         "bullets": [
           "Duke is the better football team by 3.6 points on opponent-adjusted results, with roughly 35% of it still inherited from last season (+3.6 pts).",
           "Playing at Duke is worth 2.8 points — the league-wide home-field number, because a per-venue table was tested and could not be told apart from the home team’s own quality (+2.8 pts).",
-          "QB room: Duke 60.9 (#29 of 138) vs Boston College 53.6 (#126 of 138) — 97 places on the national board.",
-          "Special teams: Duke 51.5 (#38 of 130) vs Boston College 45.6 (#123 of 130) — 85 places on the national board.",
+          "QB room: Duke 60.9 (#26 of 138) vs Boston College 53.6 (#124 of 138) — 98 places on the national board.",
+          "Special teams: Duke 51.5 (#40 of 130) vs Boston College 45.6 (#123 of 130) — 83 places on the national board.",
           "Offensive line: Duke 51.7 (#66 of 138) vs Boston College 41.1 (#136 of 138) — 70 places on the national board."
         ]
       },
@@ -1441,9 +1437,9 @@
         "heading": "Why Boston College can keep it close",
         "bullets": [
           "Stylistically the matchup favours Boston College by 0.9 points: pass rush vs pass protection (-0.9 pts).",
-          "Run offense: Boston College 62.8 (#15 of 138) vs Duke 41.2 (#110 of 138) — 95 places on the national board.",
-          "Kicking: Boston College 57.9 (#20 of 138) vs Duke 55.3 (#90 of 138) — 70 places on the national board.",
-          "Offense: Boston College 51.0 (#62 of 138) vs Duke 44.5 (#104 of 138) — 42 places on the national board.",
+          "Run offense: Boston College 62.8 (#15 of 138) vs Duke 41.2 (#109 of 138) — 94 places on the national board.",
+          "Offense: Boston College 50.9 (#62 of 138) vs Duke 44.5 (#104 of 138) — 42 places on the national board.",
+          "Performance: Boston College 54.1 (#51 of 138) vs Duke 47.2 (#81 of 138) — 30 places on the national board.",
           "The outcome range is 14.6 points wide at one sigma — p10 -15.4 to p90 +26.6 for Duke, so a projection of +5.6 still produces results a long way either side of it."
         ]
       },
@@ -1459,20 +1455,8 @@
         },
         {
           "sev": "MEDIUM",
-          "label": "Boston College — injury uncertainty",
-          "text": "100% of projected starter value has no availability record.",
-          "widening": null
-        },
-        {
-          "sev": "MEDIUM",
           "label": "Boston College — extreme transfer turnover",
           "text": "84% of last season’s production value is gone. Most of last season’s production value has left, so the prior term is standing on much less than usual",
-          "widening": null
-        },
-        {
-          "sev": "MEDIUM",
-          "label": "Duke — injury uncertainty",
-          "text": "100% of projected starter value has no availability record.",
           "widening": null
         },
         {
@@ -1485,18 +1469,6 @@
           "sev": "LOW",
           "label": "missing",
           "text": "weather not supplied",
-          "widening": null
-        },
-        {
-          "sev": "LOW",
-          "label": "missing",
-          "text": "home injury report not supplied",
-          "widening": null
-        },
-        {
-          "sev": "LOW",
-          "label": "missing",
-          "text": "away injury report not supplied",
           "widening": null
         },
         {
@@ -1522,14 +1494,6 @@
           "why": "starting QB not supplied for away"
         },
         {
-          "item": "Home availability / injuries",
-          "why": "no injury report supplied for home"
-        },
-        {
-          "item": "Away availability / injuries",
-          "why": "no injury report supplied for away"
-        },
-        {
           "item": "Weather at kickoff",
           "why": "no weather supplied"
         },
@@ -1550,16 +1514,8 @@
           "why": "no legal, public, keyless recruiting feed is wired into EdgeDesk, so no recruiting rating exists for this roster. Nothing is estimated in its place."
         },
         {
-          "item": "Boston College — availability and injuries",
-          "why": "no availability record reached this roster. UNKNOWN is carried as unknown; it is never read as healthy."
-        },
-        {
           "item": "Duke — recruiting ratings",
           "why": "no legal, public, keyless recruiting feed is wired into EdgeDesk, so no recruiting rating exists for this roster. Nothing is estimated in its place."
-        },
-        {
-          "item": "Duke — availability and injuries",
-          "why": "no availability record reached this roster. UNKNOWN is carried as unknown; it is never read as healthy."
         }
       ],
       "note": "Unknown is never scored as zero. Every line here is a gap EdgeDesk carries as uncertainty rather than filling in."
@@ -1600,18 +1556,18 @@
         "reason": "no market line is joined to this game"
       },
       "confidence": {
-        "score": 83,
+        "score": 88,
         "tier": "HIGH",
         "label": "High"
       },
       "reliability": {
-        "pct": 89,
+        "pct": 95,
         "tier": "STRONG",
-        "text": "89 · STRONG",
-        "sub": "main deduction: Boston College’s availability report is not due yet",
-        "score": 89,
-        "grade": "STRONG",
-        "grade_label": "STRONG",
+        "text": "95 · VERY STRONG",
+        "sub": "main deduction: no market quote is joined to this game",
+        "score": 95,
+        "grade": "VERY_STRONG",
+        "grade_label": "VERY STRONG",
         "gate_label": null,
         "components": [
           {
@@ -1623,7 +1579,7 @@
           {
             "key": "roster_availability",
             "label": "Roster/status",
-            "score": 12.1,
+            "score": 18.2,
             "max": 20
           },
           {
@@ -1651,7 +1607,7 @@
             "max": 10
           }
         ],
-        "main_deduction": "Boston College’s availability report is not due yet; the impact of Boston College’s absences cannot be assessed: no graded availability read",
+        "main_deduction": "no market quote is joined to this game",
         "capped_by": [],
         "next_actions": [],
         "stability": {
@@ -1685,9 +1641,9 @@
         "reason": "no sportsbook quote has been captured for this game"
       },
       "projection_status": {
-        "key": "STABLE",
-        "label": "STABLE",
-        "text": "EdgeDesk’s number is unchanged since the latest published number."
+        "key": "INJURY_UNCERTAINTY",
+        "label": "INJURY UNCERTAINTY",
+        "text": "A supplied availability report lists 23 players with an unresolved status; the engine widens this game’s range for it."
       },
       "stability": {
         "tier": "LOW",
@@ -1766,19 +1722,19 @@
         },
         {
           "k": "Talent",
-          "a": "41.6  #114",
-          "h": "51.6  #57",
+          "a": "41.8  #114",
+          "h": "51.3  #59",
           "note": null
         },
         {
           "k": "Performance",
-          "a": "54.2  #51",
-          "h": "47.2  #82",
+          "a": "54.1  #51",
+          "h": "47.2  #81",
           "note": null
         },
         {
           "k": "Offense",
-          "a": "51.0  #62",
+          "a": "50.9  #62",
           "h": "44.5  #104",
           "note": null
         },
@@ -1791,37 +1747,37 @@
         {
           "k": "Special teams",
           "a": "45.6  #123",
-          "h": "51.5  #38",
+          "h": "51.5  #40",
           "note": null
         },
         {
           "k": "Run offense",
           "a": "62.8  #15",
-          "h": "41.2  #110",
+          "h": "41.2  #109",
           "note": null
         },
         {
           "k": "Pass offense",
-          "a": "42.4  #108",
-          "h": "51.4  #60",
+          "a": "42.3  #108",
+          "h": "51.3  #60",
           "note": null
         },
         {
           "k": "Run defense",
-          "a": "57.1  #52",
-          "h": "60.1  #39",
+          "a": "57.1  #51",
+          "h": "60.3  #38",
           "note": null
         },
         {
           "k": "Pass defense",
-          "a": "51.9  #60",
-          "h": "48.1  #77",
+          "a": "51.9  #58",
+          "h": "48.2  #76",
           "note": null
         },
         {
           "k": "QB room",
-          "a": "53.6  #126",
-          "h": "60.9  #29",
+          "a": "53.6  #124",
+          "h": "60.9  #26",
           "note": null
         },
         {
@@ -1833,37 +1789,37 @@
         {
           "k": "Receivers",
           "a": "54.6  #90",
-          "h": "55.2  #72",
+          "h": "54.9  #79",
           "note": null
         },
         {
           "k": "Running backs",
-          "a": "56.6  #58",
-          "h": "56.0  #76",
+          "a": "55.1  #110",
+          "h": "56.0  #75",
           "note": null
         },
         {
           "k": "Defensive line",
           "a": "55.8  #48",
-          "h": "57.1  #33",
+          "h": "57.2  #32",
           "note": null
         },
         {
           "k": "Linebackers",
-          "a": "51.8  #90",
-          "h": "54.5  #50",
+          "a": "51.9  #89",
+          "h": "54.7  #49",
           "note": null
         },
         {
           "k": "Secondary",
           "a": "52.5  #79",
-          "h": "50.6  #94",
+          "h": "50.7  #94",
           "note": null
         },
         {
           "k": "Depth",
           "a": "52.4  #128",
-          "h": "53.0  #88",
+          "h": "53.0  #89",
           "note": null
         },
         {
@@ -1874,14 +1830,14 @@
         },
         {
           "k": "Confidence",
-          "a": "53%",
-          "h": "53%",
+          "a": "63%",
+          "h": "63%",
           "note": "how much EdgeDesk knows, not how good the team is"
         },
         {
           "k": "Δ national rank, this week",
-          "a": "up 10",
-          "h": "up 4",
+          "a": "no change",
+          "h": "no change",
           "note": "differenced from last week’s committed snapshot"
         }
       ]
@@ -1900,90 +1856,12 @@
     ],
     "context_label": "RESEARCH CONTEXT — position-group, player-quality, roster and scheme figures explain this matchup and move no priced number.",
     "priced_label": "PRICED BY MODEL — the projection and its drivers, from validated inputs only.",
-    "source": "Ratings: football/rankings/current.json — 2026 Week 8, built 2026-10-26. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser."
+    "source": "Ratings: football/rankings/current.json — 2026 Week 9, built 2026-10-30. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser."
   },
-  "football_evidence": {
-    "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "1ex8ddsiq4142",
-    "status": "NO_MATERIAL_DISAGREEMENT",
-    "input_suspect": false,
-    "question": "Can Boston College’s pass rush get to Walker Eget?",
-    "assessment": "No material disagreement: EdgeDesk and the line are within 1.4 points.",
-    "gap": {
-      "points": 1.4,
-      "toward": "Boston College",
-      "other": "Duke"
-    },
-    "supporting": [
-      "When Duke has the ball (the red zone): Duke’s offense succeeds on 35.0% of its red-zone plays, and Boston College’s defense allows success on 33.0% of opponent red-zone plays (FBS average 43.6%).",
-      "When Boston College has the ball (big plays on the ground): Boston College’s offense turns 10.7% of its runs into explosive gains, and Duke’s defense gives up explosive gains on 6.2% of opponent runs (FBS average 6.5%).",
-      "In his last two games (North Carolina and Virginia), Mahan averaged 2.8 yards per attempt, against 14.0 in his three games before that.",
-      "In his last two games (Pittsburgh and Georgia Tech), McKenzie averaged 9.4 yards per attempt, against 7.0 in his five games before that."
-    ],
-    "contradicting": [
-      "When Boston College has the ball (pass protection against the pass rush): Boston College’s offense has allowed a sack on 8.4% of its dropbacks, and Duke’s defense sacks the quarterback on 10.7% of opponent dropbacks (FBS average 5.7%).",
-      "Dan Mahan has completed 8 of 15 passes (53.3%) for 143 yards, 9.5 yards per attempt, 3 touchdowns and no interceptions in five games for Duke, and has been sacked on 1 of 16 dropbacks.",
-      "EdgeDesk’s position-group ratings put Duke’s quarterback room No. 29 nationally and Boston College’s No. 126.",
-      "EdgeDesk’s position-group ratings put Duke’s offensive line No. 66 nationally and Boston College’s No. 136."
-    ],
-    "quarterbacks": [
-      "Walker Eget has completed 116 of 196 passes (59.2%) for 1,390 yards, 7.1 yards per attempt, 8 touchdowns and 3 interceptions in seven games for Duke, and has been sacked on 2 of 198 dropbacks.",
-      "Dan Mahan has completed 8 of 15 passes (53.3%) for 143 yards, 9.5 yards per attempt, 3 touchdowns and no interceptions in five games for Duke, and has been sacked on 1 of 16 dropbacks.",
-      "Mason McKenzie has completed 108 of 184 passes (58.7%) for 1,389 yards, 7.5 yards per attempt, 8 touchdowns and 7 interceptions in seven games for Boston College, and has been sacked on 17 of 201 dropbacks."
-    ],
-    "availability": [],
-    "script": {
-      "model": [
-        "Boston College’s defense has to come out ahead in the pass-rush matchup: it sacks the quarterback on 10.1% of opponent dropbacks, against an offense that has allowed a sack on 1.3% of its dropbacks.",
-        "Boston College’s offense has to hold its own in the pass-rush matchup against a defense that sacks the quarterback on 10.7% of opponent dropbacks.",
-        "Boston College’s offense has to hold its own on big pass plays against a defense that gives up explosive gains on 8.1% of opponent pass plays.",
-        "Boston College’s offense has to keep winning on long runs: it turns 10.7% of its runs into explosive gains, and Duke’s defense gives up explosive gains on 6.2% of opponent runs."
-      ],
-      "market": [
-        "Duke’s defense has to come out ahead in the pass-rush matchup: it sacks the quarterback on 10.7% of opponent dropbacks, against an offense that has allowed a sack on 8.4% of its dropbacks.",
-        "Duke’s defense has to come out ahead on big pass plays: it gives up explosive gains on 8.1% of opponent pass plays, against an offense that turns 10.6% of its pass plays into explosive gains.",
-        "Duke’s offense has to keep winning in the pass-rush matchup: it has allowed a sack on 1.3% of its dropbacks, and Boston College’s defense sacks the quarterback on 10.1% of opponent dropbacks."
-      ]
-    },
-    "unknown": [
-      "EdgeDesk’s own sources disagree on sack rate allowed and sack rate for Duke and Boston College.",
-      "Not in EdgeDesk’s verified data for this game: turnover rates, injuries and personnel and penalty rate."
-    ],
-    "flags": [
-      {
-        "key": "DATA_CONFLICT",
-        "severity": "medium",
-        "text": "EdgeDesk’s own sources disagree on sack rate allowed (Duke), sack rate (Duke), sack rate allowed (Boston College) and sack rate (Boston College); the evidence uses the corroborated figures, and any model term built on the play-by-play figure may be off."
-      }
-    ],
-    "sources": [
-      {
-        "label": "EdgeDesk play-by-play unit metrics (2026 season)",
-        "url": null,
-        "path": "football/matchup/metrics.json",
-        "observed_at": "2026-10-27T05:10:50.316Z",
-        "verification": "VERIFIED_DATA"
-      },
-      {
-        "label": "EdgeDesk play-by-play quarterback logs (2026)",
-        "url": null,
-        "path": "football/fbs_epa/qb_epa_2026.json",
-        "observed_at": "2026-10-25T02:15:00.000Z",
-        "verification": "VERIFIED_DATA"
-      },
-      {
-        "label": "EdgeDesk position-group ratings",
-        "url": null,
-        "path": "football/rankings/current.json",
-        "observed_at": "2026-10-26T17:25:44.371Z",
-        "verification": "RATING"
-      }
-    ],
-    "needs_confirmation": []
-  },
+  "football_evidence": null,
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-10-27T08:53:29.281Z"
+    "at": "2026-10-31T19:14:58.561Z"
   }
 }

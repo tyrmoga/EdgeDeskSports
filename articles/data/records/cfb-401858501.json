@@ -9,7 +9,7 @@
   "aliases": [],
   "title": "Minnesota vs. Indiana: EdgeDesk Model Projection, Matchup Analysis and Fair Spread",
   "seo_title": "Minnesota vs. Indiana 2026: EdgeDesk Fair Spread & Model Projection",
-  "seo_description": "EdgeDesk fair spread for Minnesota at Indiana: Indiana −22.0, fair total 44.5. Indiana wins 93% of simulations. Data confidence 83%. Model status NO MARKET. Research, not picks.",
+  "seo_description": "EdgeDesk fair spread for Minnesota at Indiana: Indiana −22.0, fair total 44.5. Indiana wins 93% of simulations. Data confidence 88%. Model status NO MARKET. Research, not picks.",
   "excerpt": "Indiana carries the stronger underlying team rating — +9.2 against -2.6, a 11.8-point separation on a neutral field before home advantage, travel or rest. EdgeDesk makes it Indiana −22.0 before any sportsbook number is consulted, with Indiana winning 93%…",
   "home_team": "Indiana",
   "away_team": "Minnesota",
@@ -21,12 +21,12 @@
   "game_time": "2026-10-31T19:30:00.000Z",
   "game_when_label": "2026-10-31 19:30 UTC",
   "published_at": null,
-  "updated_at": "2026-10-27T08:53:29.281Z",
-  "generated_at": "2026-10-27T08:53:29.281Z",
+  "updated_at": "2026-10-31T19:14:58.561Z",
+  "generated_at": "2026-10-31T19:14:58.561Z",
   "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
   "model_status": "NO MARKET",
   "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
-  "confidence": 83,
+  "confidence": 88,
   "priced": true,
   "fair_spread_text": "Indiana −22.0",
   "fair_total": "44.5",
@@ -37,11 +37,11 @@
   "status": "ready",
   "article_type": "pregame",
   "related": null,
-  "frozen": false,
-  "frozen_at": null,
+  "frozen": true,
+  "frozen_at": "2026-10-31T19:30:00.000Z",
   "author": "EdgeDesk Research",
   "publisher": "EdgeDesk Sports",
-  "research_source": "Ratings: football/rankings/current.json — 2026 Week 8, built 2026-10-26. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser.",
+  "research_source": "Ratings: football/rankings/current.json — 2026 Week 9, built 2026-10-31. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser.",
   "market_source": null,
   "research": {
     "kind": "CFB_GAME",
@@ -65,8 +65,8 @@
     "lede": [
       "Indiana carries the stronger underlying team rating — +9.2 against -2.6, a 11.8-point separation on a neutral field before home advantage, travel or rest.",
       "EdgeDesk makes it Indiana −22.0 before any sportsbook number is consulted, with Indiana winning 93% of simulations.",
-      "The position-group comparison shows where the separation comes from: the widest measured gap is special teams, where Minnesota leads Indiana by 113 places nationally.",
-      "Data confidence on this matchup is 83% — high by this board’s standards, so the margin is the strongest part of the read."
+      "The position-group comparison shows where the separation comes from: the widest measured gap is special teams, where Minnesota leads Indiana by 114 places nationally.",
+      "Data confidence on this matchup is 88% — high by this board’s standards, so the margin is the strongest part of the read."
     ],
     "projection": {
       "priced": true,
@@ -123,22 +123,22 @@
         "volatility_discriminates": false,
         "note": "Quoted from Indiana’s perspective, as the engine publishes it. Eight results in ten land inside p10–p90."
       },
-      "confidence_pct": 83,
-      "inputs_reached_pct": 73,
+      "confidence_pct": 88,
+      "inputs_reached_pct": 89,
       "input_contract": {
         "fields": 26,
         "applicable": 26,
-        "known": 19,
-        "priced": 11,
-        "priced_coverage_pct": 42,
+        "known": 23,
+        "priced": 15,
+        "priced_coverage_pct": 58,
         "by_state": {
-          "USABLE": 11,
+          "USABLE": 15,
           "RESEARCH_ONLY": 8,
           "STALE": 0,
           "CONFLICTING": 0,
           "NOT_APPLICABLE": 0,
           "NOT_REQUIRED": 0,
-          "NOT_DUE_YET": 4,
+          "NOT_DUE_YET": 0,
           "FETCH_FAILED": 0,
           "UNAVAILABLE": 3
         },
@@ -246,7 +246,7 @@
         "source": "cfbfastR-data player_stats — play attribution",
         "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
         "published_at": "2026-10-24T19:30:00.000Z",
-        "retrieved_at": "2026-10-26T23:10:58.149Z"
+        "retrieved_at": "2026-10-31T17:49:50.575Z"
       },
       "home": {
         "team": "Indiana",
@@ -330,9 +330,9 @@
         "source": "cfbfastR-data player_stats — play attribution",
         "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
         "published_at": "2026-10-24T16:00:00.000Z",
-        "retrieved_at": "2026-10-26T23:10:58.149Z"
+        "retrieved_at": "2026-10-31T17:49:50.575Z"
       },
-      "generated_at": "2026-10-26T23:10:56.259Z",
+      "generated_at": "2026-10-31T17:49:48.489Z",
       "source": "football/starters/cfb_2026.json",
       "note": "An expected starter is not a confirmed one. EdgeDesk publishes which kind of answer each of these is, and no number on this page is priced from any of them. Availability is a separate axis: an absent report is UNKNOWN and is never read as healthy."
     },
@@ -377,8 +377,8 @@
               "a": {
                 "v": "-2.6",
                 "n": -2.57,
-                "rank": "#90 of 138",
-                "rank_n": 90,
+                "rank": "#88 of 138",
+                "rank_n": 88,
                 "note": null
               },
               "h": {
@@ -391,7 +391,7 @@
               "edge": {
                 "side": "h",
                 "gap": 11.8,
-                "rank_gap": 78
+                "rank_gap": 76
               }
             },
             {
@@ -399,15 +399,15 @@
               "k": "Talent",
               "note": null,
               "a": {
-                "v": "55.5",
-                "n": 55.5,
-                "rank": "#32 of 138",
-                "rank_n": 32,
+                "v": "54.8",
+                "n": 54.8,
+                "rank": "#39 of 138",
+                "rank_n": 39,
                 "note": null
               },
               "h": {
-                "v": "71.7",
-                "n": 71.7,
+                "v": "71.0",
+                "n": 71,
                 "rank": "#3 of 138",
                 "rank_n": 3,
                 "note": null
@@ -415,7 +415,7 @@
               "edge": {
                 "side": "h",
                 "gap": 16.2,
-                "rank_gap": 29
+                "rank_gap": 36
               }
             },
             {
@@ -430,15 +430,15 @@
                 "note": null
               },
               "h": {
-                "v": "63.8",
-                "n": 63.8,
+                "v": "63.9",
+                "n": 63.9,
                 "rank": "#16 of 138",
                 "rank_n": 16,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 17.7,
+                "gap": 17.8,
                 "rank_gap": 70
               }
             },
@@ -447,23 +447,23 @@
               "k": "Scheme fit",
               "note": "personnel against this team’s own tendencies",
               "a": {
-                "v": "49.9",
-                "n": 49.9,
-                "rank": "#82 of 138",
-                "rank_n": 82,
+                "v": "50.0",
+                "n": 50,
+                "rank": "#80 of 138",
+                "rank_n": 80,
                 "note": null
               },
               "h": {
-                "v": "48.3",
-                "n": 48.3,
-                "rank": "#126 of 138",
-                "rank_n": 126,
+                "v": "48.4",
+                "n": 48.4,
+                "rank": "#125 of 138",
+                "rank_n": 125,
                 "note": null
               },
               "edge": {
                 "side": "a",
                 "gap": 1.6,
-                "rank_gap": 44
+                "rank_gap": 45
               }
             }
           ]
@@ -524,23 +524,23 @@
               "k": "Special teams",
               "note": null,
               "a": {
-                "v": "53.6",
-                "n": 53.6,
+                "v": "53.7",
+                "n": 53.7,
                 "rank": "#4 of 130",
                 "rank_n": 4,
                 "note": null
               },
               "h": {
-                "v": "46.7",
-                "n": 46.7,
-                "rank": "#117 of 130",
-                "rank_n": 117,
+                "v": "46.9",
+                "n": 46.9,
+                "rank": "#118 of 130",
+                "rank_n": 118,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 6.9,
-                "rank_gap": 113
+                "gap": 6.8,
+                "rank_gap": 114
               }
             },
             {
@@ -555,15 +555,15 @@
                 "note": null
               },
               "h": {
-                "v": "51.2",
-                "n": 51.2,
+                "v": "51.1",
+                "n": 51.1,
                 "rank": "#63 of 138",
                 "rank_n": 63,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 18,
+                "gap": 17.9,
                 "rank_gap": 67
               }
             },
@@ -572,8 +572,8 @@
               "k": "Pass offense",
               "note": null,
               "a": {
-                "v": "46.1",
-                "n": 46.1,
+                "v": "46.2",
+                "n": 46.2,
                 "rank": "#87 of 137",
                 "rank_n": 87,
                 "note": null
@@ -587,7 +587,7 @@
               },
               "edge": {
                 "side": "h",
-                "gap": 10.1,
+                "gap": 10,
                 "rank_gap": 53
               }
             },
@@ -596,15 +596,15 @@
               "k": "Run defense",
               "note": null,
               "a": {
-                "v": "56.1",
-                "n": 56.1,
+                "v": "56.2",
+                "n": 56.2,
                 "rank": "#56 of 138",
                 "rank_n": 56,
                 "note": null
               },
               "h": {
-                "v": "80.0",
-                "n": 80,
+                "v": "80.1",
+                "n": 80.1,
                 "rank": "#2 of 138",
                 "rank_n": 2,
                 "note": null
@@ -622,8 +622,8 @@
               "a": {
                 "v": "58.5",
                 "n": 58.5,
-                "rank": "#32 of 138",
-                "rank_n": 32,
+                "rank": "#31 of 138",
+                "rank_n": 31,
                 "note": null
               },
               "h": {
@@ -636,7 +636,7 @@
               "edge": {
                 "side": "a",
                 "gap": 1.8,
-                "rank_gap": 6
+                "rank_gap": 7
               }
             }
           ]
@@ -649,23 +649,23 @@
               "k": "QB room",
               "note": null,
               "a": {
-                "v": "57.8",
-                "n": 57.8,
-                "rank": "#80 of 138",
-                "rank_n": 80,
+                "v": "58.6",
+                "n": 58.6,
+                "rank": "#62 of 138",
+                "rank_n": 62,
                 "note": null
               },
               "h": {
-                "v": "64.7",
-                "n": 64.7,
+                "v": "64.5",
+                "n": 64.5,
                 "rank": "#5 of 138",
                 "rank_n": 5,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 6.9,
-                "rank_gap": 75
+                "gap": 5.9,
+                "rank_gap": 57
               }
             },
             {
@@ -673,8 +673,8 @@
               "k": "Offensive line",
               "note": null,
               "a": {
-                "v": "45.1",
-                "n": 45.1,
+                "v": "45.0",
+                "n": 45,
                 "rank": "#120 of 138",
                 "rank_n": 120,
                 "note": null
@@ -688,7 +688,7 @@
               },
               "edge": {
                 "side": "h",
-                "gap": 3.5,
+                "gap": 3.6,
                 "rank_gap": 20
               }
             },
@@ -697,23 +697,23 @@
               "k": "Receivers",
               "note": null,
               "a": {
-                "v": "55.0",
-                "n": 55,
-                "rank": "#80 of 138",
-                "rank_n": 80,
+                "v": "54.6",
+                "n": 54.6,
+                "rank": "#93 of 138",
+                "rank_n": 93,
                 "note": null
               },
               "h": {
-                "v": "56.0",
-                "n": 56,
-                "rank": "#33 of 138",
-                "rank_n": 33,
+                "v": "56.4",
+                "n": 56.4,
+                "rank": "#29 of 138",
+                "rank_n": 29,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 1,
-                "rank_gap": 47
+                "gap": 1.8,
+                "rank_gap": 64
               }
             },
             {
@@ -721,8 +721,8 @@
               "k": "Tight ends",
               "note": "rated by the player layer; the board publishes no national TE rank",
               "a": {
-                "v": "53.8",
-                "n": 53.8,
+                "v": "52.7",
+                "n": 52.7,
                 "rank": null,
                 "rank_n": null,
                 "note": "rated, held out of the national rank by the confidence gate"
@@ -736,7 +736,7 @@
               },
               "edge": {
                 "side": "a",
-                "gap": 2.5,
+                "gap": 1.4,
                 "rank_gap": null
               }
             },
@@ -747,15 +747,15 @@
               "a": {
                 "v": "55.6",
                 "n": 55.6,
-                "rank": "#93 of 138",
-                "rank_n": 93,
+                "rank": "#92 of 138",
+                "rank_n": 92,
                 "note": null
               },
               "h": {
                 "v": "58.0",
                 "n": 58,
-                "rank": "#24 of 138",
-                "rank_n": 24,
+                "rank": "#23 of 138",
+                "rank_n": 23,
                 "note": null
               },
               "edge": {
@@ -769,10 +769,10 @@
               "k": "Defensive line",
               "note": null,
               "a": {
-                "v": "58.6",
-                "n": 58.6,
-                "rank": "#22 of 138",
-                "rank_n": 22,
+                "v": "58.7",
+                "n": 58.7,
+                "rank": "#19 of 138",
+                "rank_n": 19,
                 "note": null
               },
               "h": {
@@ -784,8 +784,8 @@
               },
               "edge": {
                 "side": "h",
-                "gap": 12.2,
-                "rank_gap": 21
+                "gap": 12.1,
+                "rank_gap": 18
               }
             },
             {
@@ -819,8 +819,8 @@
               "a": {
                 "v": "55.5",
                 "n": 55.5,
-                "rank": "#50 of 138",
-                "rank_n": 50,
+                "rank": "#48 of 138",
+                "rank_n": 48,
                 "note": null
               },
               "h": {
@@ -833,7 +833,7 @@
               "edge": {
                 "side": "h",
                 "gap": 0.2,
-                "rank_gap": 5
+                "rank_gap": 3
               }
             },
             {
@@ -843,14 +843,14 @@
               "a": {
                 "v": "60.3",
                 "n": 60.3,
-                "rank": "#3 of 138",
+                "rank": "#3 of 137",
                 "rank_n": 3,
                 "note": null
               },
               "h": {
                 "v": "58.8",
                 "n": 58.8,
-                "rank": "#10 of 138",
+                "rank": "#10 of 137",
                 "rank_n": 10,
                 "note": null
               },
@@ -872,21 +872,21 @@
               "a": {
                 "v": "53.3",
                 "n": 53.3,
-                "rank": "#65 of 138",
-                "rank_n": 65,
+                "rank": "#67 of 138",
+                "rank_n": 67,
                 "note": null
               },
               "h": {
                 "v": "52.7",
                 "n": 52.7,
-                "rank": "#107 of 138",
-                "rank_n": 107,
+                "rank": "#108 of 138",
+                "rank_n": 108,
                 "note": null
               },
               "edge": {
                 "side": "a",
                 "gap": 0.6,
-                "rank_gap": 42
+                "rank_gap": 41
               }
             },
             {
@@ -923,33 +923,33 @@
       "away": [
         {
           "k": "Special teams",
-          "rank_gap": 113,
-          "gap": 6.9,
+          "rank_gap": 114,
+          "gap": 6.8,
           "lead": "Minnesota",
           "trail": "Indiana",
-          "lead_cell": "53.6 · #4 of 130",
-          "trail_cell": "46.7 · #117 of 130",
-          "text": "Minnesota 53.6 (#4 of 130) vs Indiana 46.7 (#117 of 130) — 113 places on the national board."
+          "lead_cell": "53.7 · #4 of 130",
+          "trail_cell": "46.9 · #118 of 130",
+          "text": "Minnesota 53.7 (#4 of 130) vs Indiana 46.9 (#118 of 130) — 114 places on the national board."
         },
         {
           "k": "Scheme fit",
-          "rank_gap": 44,
+          "rank_gap": 45,
           "gap": 1.6,
           "lead": "Minnesota",
           "trail": "Indiana",
-          "lead_cell": "49.9 · #82 of 138",
-          "trail_cell": "48.3 · #126 of 138",
-          "text": "Minnesota 49.9 (#82 of 138) vs Indiana 48.3 (#126 of 138) — 44 places on the national board."
+          "lead_cell": "50.0 · #80 of 138",
+          "trail_cell": "48.4 · #125 of 138",
+          "text": "Minnesota 50.0 (#80 of 138) vs Indiana 48.4 (#125 of 138) — 45 places on the national board."
         },
         {
           "k": "Depth",
-          "rank_gap": 42,
+          "rank_gap": 41,
           "gap": 0.6,
           "lead": "Minnesota",
           "trail": "Indiana",
-          "lead_cell": "53.3 · #65 of 138",
-          "trail_cell": "52.7 · #107 of 138",
-          "text": "Minnesota 53.3 (#65 of 138) vs Indiana 52.7 (#107 of 138) — 42 places on the national board."
+          "lead_cell": "53.3 · #67 of 138",
+          "trail_cell": "52.7 · #108 of 138",
+          "text": "Minnesota 53.3 (#67 of 138) vs Indiana 52.7 (#108 of 138) — 41 places on the national board."
         },
         {
           "k": "Continuity",
@@ -962,36 +962,26 @@
           "text": "Minnesota 55.9 (#18 of 138) vs Indiana 47.3 (#56 of 138) — 38 places on the national board."
         },
         {
-          "k": "Kicking",
+          "k": "Pass defense",
           "rank_gap": 7,
-          "gap": 1.5,
+          "gap": 1.8,
           "lead": "Minnesota",
           "trail": "Indiana",
-          "lead_cell": "60.3 · #3 of 138",
-          "trail_cell": "58.8 · #10 of 138",
-          "text": "Minnesota 60.3 (#3 of 138) vs Indiana 58.8 (#10 of 138) — 7 places on the national board."
+          "lead_cell": "58.5 · #31 of 138",
+          "trail_cell": "56.7 · #38 of 138",
+          "text": "Minnesota 58.5 (#31 of 138) vs Indiana 56.7 (#38 of 138) — 7 places on the national board."
         }
       ],
       "home": [
         {
           "k": "ETSR (overall)",
-          "rank_gap": 78,
+          "rank_gap": 76,
           "gap": 11.8,
           "lead": "Indiana",
           "trail": "Minnesota",
           "lead_cell": "+9.2 · #12 of 138",
-          "trail_cell": "-2.6 · #90 of 138",
-          "text": "Indiana +9.2 (#12 of 138) vs Minnesota -2.6 (#90 of 138) — 78 places on the national board."
-        },
-        {
-          "k": "QB room",
-          "rank_gap": 75,
-          "gap": 6.9,
-          "lead": "Indiana",
-          "trail": "Minnesota",
-          "lead_cell": "64.7 · #5 of 138",
-          "trail_cell": "57.8 · #80 of 138",
-          "text": "Indiana 64.7 (#5 of 138) vs Minnesota 57.8 (#80 of 138) — 75 places on the national board."
+          "trail_cell": "-2.6 · #88 of 138",
+          "text": "Indiana +9.2 (#12 of 138) vs Minnesota -2.6 (#88 of 138) — 76 places on the national board."
         },
         {
           "k": "Offense",
@@ -1006,12 +996,12 @@
         {
           "k": "Performance",
           "rank_gap": 70,
-          "gap": 17.7,
+          "gap": 17.8,
           "lead": "Indiana",
           "trail": "Minnesota",
-          "lead_cell": "63.8 · #16 of 138",
+          "lead_cell": "63.9 · #16 of 138",
           "trail_cell": "46.1 · #86 of 138",
-          "text": "Indiana 63.8 (#16 of 138) vs Minnesota 46.1 (#86 of 138) — 70 places on the national board."
+          "text": "Indiana 63.9 (#16 of 138) vs Minnesota 46.1 (#86 of 138) — 70 places on the national board."
         },
         {
           "k": "Running backs",
@@ -1019,9 +1009,19 @@
           "gap": 2.4,
           "lead": "Indiana",
           "trail": "Minnesota",
-          "lead_cell": "58.0 · #24 of 138",
-          "trail_cell": "55.6 · #93 of 138",
-          "text": "Indiana 58.0 (#24 of 138) vs Minnesota 55.6 (#93 of 138) — 69 places on the national board."
+          "lead_cell": "58.0 · #23 of 138",
+          "trail_cell": "55.6 · #92 of 138",
+          "text": "Indiana 58.0 (#23 of 138) vs Minnesota 55.6 (#92 of 138) — 69 places on the national board."
+        },
+        {
+          "k": "Run offense",
+          "rank_gap": 67,
+          "gap": 17.9,
+          "lead": "Indiana",
+          "trail": "Minnesota",
+          "lead_cell": "51.1 · #63 of 138",
+          "trail_cell": "33.2 · #130 of 138",
+          "text": "Indiana 51.1 (#63 of 138) vs Minnesota 33.2 (#130 of 138) — 67 places on the national board."
         }
       ],
       "measured": [],
@@ -1035,7 +1035,7 @@
         "att": {
           "team": "Minnesota",
           "label": "pass offense",
-          "v": "46.1",
+          "v": "46.2",
           "rank": "#87 of 137",
           "note": null
         },
@@ -1047,7 +1047,7 @@
           "note": null
         },
         "complete": true,
-        "read": "Minnesota’s pass offense rates 46.1 (#87 of 137) against Indiana’s pass defense at 56.7 (#38 of 138). Indiana’s unit stands higher among its own position group, by 49 places."
+        "read": "Minnesota’s pass offense rates 46.2 (#87 of 137) against Indiana’s pass defense at 56.7 (#38 of 138). Indiana’s unit stands higher among its own position group, by 49 places."
       },
       {
         "title": "Minnesota run offense vs Indiana run defense",
@@ -1061,12 +1061,12 @@
         "def": {
           "team": "Indiana",
           "label": "run defense",
-          "v": "80.0",
+          "v": "80.1",
           "rank": "#2 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Minnesota’s run offense rates 33.2 (#130 of 138) against Indiana’s run defense at 80.0 (#2 of 138). Indiana’s unit stands higher among its own position group, by 128 places."
+        "read": "Minnesota’s run offense rates 33.2 (#130 of 138) against Indiana’s run defense at 80.1 (#2 of 138). Indiana’s unit stands higher among its own position group, by 128 places."
       },
       {
         "title": "Indiana pass offense vs Minnesota pass defense",
@@ -1081,38 +1081,38 @@
           "team": "Minnesota",
           "label": "pass defense",
           "v": "58.5",
-          "rank": "#32 of 138",
+          "rank": "#31 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Indiana’s pass offense rates 56.2 (#34 of 137) against Minnesota’s pass defense at 58.5 (#32 of 138). Minnesota’s unit stands higher among its own position group, by 2 places."
+        "read": "Indiana’s pass offense rates 56.2 (#34 of 137) against Minnesota’s pass defense at 58.5 (#31 of 138). Minnesota’s unit stands higher among its own position group, by 3 places."
       },
       {
         "title": "Indiana run offense vs Minnesota run defense",
         "att": {
           "team": "Indiana",
           "label": "run offense",
-          "v": "51.2",
+          "v": "51.1",
           "rank": "#63 of 138",
           "note": null
         },
         "def": {
           "team": "Minnesota",
           "label": "run defense",
-          "v": "56.1",
+          "v": "56.2",
           "rank": "#56 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Indiana’s run offense rates 51.2 (#63 of 138) against Minnesota’s run defense at 56.1 (#56 of 138). Minnesota’s unit stands higher among its own position group, by 7 places."
+        "read": "Indiana’s run offense rates 51.1 (#63 of 138) against Minnesota’s run defense at 56.2 (#56 of 138). Minnesota’s unit stands higher among its own position group, by 7 places."
       },
       {
         "title": "Minnesota QB room vs Indiana secondary",
         "att": {
           "team": "Minnesota",
           "label": "QB room",
-          "v": "57.8",
-          "rank": "#80 of 138",
+          "v": "58.6",
+          "rank": "#62 of 138",
           "note": null
         },
         "def": {
@@ -1123,14 +1123,14 @@
           "note": null
         },
         "complete": true,
-        "read": "Minnesota’s QB room rates 57.8 (#80 of 138) against Indiana’s secondary at 55.7 (#45 of 138). Indiana’s unit stands higher among its own position group, by 35 places."
+        "read": "Minnesota’s QB room rates 58.6 (#62 of 138) against Indiana’s secondary at 55.7 (#45 of 138). Indiana’s unit stands higher among its own position group, by 17 places."
       },
       {
         "title": "Indiana QB room vs Minnesota secondary",
         "att": {
           "team": "Indiana",
           "label": "QB room",
-          "v": "64.7",
+          "v": "64.5",
           "rank": "#5 of 138",
           "note": null
         },
@@ -1138,18 +1138,18 @@
           "team": "Minnesota",
           "label": "secondary",
           "v": "55.5",
-          "rank": "#50 of 138",
+          "rank": "#48 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Indiana’s QB room rates 64.7 (#5 of 138) against Minnesota’s secondary at 55.5 (#50 of 138). Indiana’s unit stands higher among its own position group, by 45 places."
+        "read": "Indiana’s QB room rates 64.5 (#5 of 138) against Minnesota’s secondary at 55.5 (#48 of 138). Indiana’s unit stands higher among its own position group, by 43 places."
       },
       {
         "title": "Minnesota offensive line vs Indiana defensive line",
         "att": {
           "team": "Minnesota",
           "label": "offensive line",
-          "v": "45.1",
+          "v": "45.0",
           "rank": "#120 of 138",
           "note": null
         },
@@ -1161,7 +1161,7 @@
           "note": null
         },
         "complete": true,
-        "read": "Minnesota’s offensive line rates 45.1 (#120 of 138) against Indiana’s defensive line at 70.8 (#1 of 138). Indiana’s unit stands higher among its own position group, by 119 places."
+        "read": "Minnesota’s offensive line rates 45.0 (#120 of 138) against Indiana’s defensive line at 70.8 (#1 of 138). Indiana’s unit stands higher among its own position group, by 119 places."
       },
       {
         "title": "Indiana offensive line vs Minnesota defensive line",
@@ -1175,12 +1175,12 @@
         "def": {
           "team": "Minnesota",
           "label": "defensive line",
-          "v": "58.6",
-          "rank": "#22 of 138",
+          "v": "58.7",
+          "rank": "#19 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Indiana’s offensive line rates 48.6 (#100 of 138) against Minnesota’s defensive line at 58.6 (#22 of 138). Minnesota’s unit stands higher among its own position group, by 78 places."
+        "read": "Indiana’s offensive line rates 48.6 (#100 of 138) against Minnesota’s defensive line at 58.7 (#19 of 138). Minnesota’s unit stands higher among its own position group, by 81 places."
       },
       {
         "title": "Minnesota running backs vs Indiana linebackers",
@@ -1188,7 +1188,7 @@
           "team": "Minnesota",
           "label": "running backs",
           "v": "55.6",
-          "rank": "#93 of 138",
+          "rank": "#92 of 138",
           "note": null
         },
         "def": {
@@ -1199,7 +1199,7 @@
           "note": null
         },
         "complete": true,
-        "read": "Minnesota’s running backs rates 55.6 (#93 of 138) against Indiana’s linebackers at 60.0 (#5 of 138). Indiana’s unit stands higher among its own position group, by 88 places."
+        "read": "Minnesota’s running backs rates 55.6 (#92 of 138) against Indiana’s linebackers at 60.0 (#5 of 138). Indiana’s unit stands higher among its own position group, by 87 places."
       },
       {
         "title": "Indiana running backs vs Minnesota linebackers",
@@ -1207,7 +1207,7 @@
           "team": "Indiana",
           "label": "running backs",
           "v": "58.0",
-          "rank": "#24 of 138",
+          "rank": "#23 of 138",
           "note": null
         },
         "def": {
@@ -1218,15 +1218,15 @@
           "note": null
         },
         "complete": true,
-        "read": "Indiana’s running backs rates 58.0 (#24 of 138) against Minnesota’s linebackers at 55.8 (#39 of 138). Indiana’s unit stands higher among its own position group, by 15 places."
+        "read": "Indiana’s running backs rates 58.0 (#23 of 138) against Minnesota’s linebackers at 55.8 (#39 of 138). Indiana’s unit stands higher among its own position group, by 16 places."
       },
       {
         "title": "Minnesota receivers vs Indiana secondary",
         "att": {
           "team": "Minnesota",
           "label": "receivers",
-          "v": "55.0",
-          "rank": "#80 of 138",
+          "v": "54.6",
+          "rank": "#93 of 138",
           "note": null
         },
         "def": {
@@ -1237,26 +1237,26 @@
           "note": null
         },
         "complete": true,
-        "read": "Minnesota’s receivers rates 55.0 (#80 of 138) against Indiana’s secondary at 55.7 (#45 of 138). Indiana’s unit stands higher among its own position group, by 35 places."
+        "read": "Minnesota’s receivers rates 54.6 (#93 of 138) against Indiana’s secondary at 55.7 (#45 of 138). Indiana’s unit stands higher among its own position group, by 48 places."
       },
       {
         "title": "Indiana receivers vs Minnesota secondary",
         "att": {
           "team": "Indiana",
           "label": "receivers",
-          "v": "56.0",
-          "rank": "#33 of 138",
+          "v": "56.4",
+          "rank": "#29 of 138",
           "note": null
         },
         "def": {
           "team": "Minnesota",
           "label": "secondary",
           "v": "55.5",
-          "rank": "#50 of 138",
+          "rank": "#48 of 138",
           "note": null
         },
         "complete": true,
-        "read": "Indiana’s receivers rates 56.0 (#33 of 138) against Minnesota’s secondary at 55.5 (#50 of 138). Indiana’s unit stands higher among its own position group, by 17 places."
+        "read": "Indiana’s receivers rates 56.4 (#29 of 138) against Minnesota’s secondary at 55.5 (#48 of 138). Indiana’s unit stands higher among its own position group, by 19 places."
       }
     ],
     "roster": {
@@ -1362,18 +1362,18 @@
         {
           "k": "Availability records",
           "note": "an absence report reaching this roster. UNKNOWN is never read as healthy",
-          "a": "none on file — 100% unknown",
-          "h": "none on file — 100% unknown",
+          "a": "8 on file, 14% of starter value out",
+          "h": "8 on file, 3% of starter value out",
           "edge": null
         },
         {
           "k": "Data confidence",
           "note": "how much EdgeDesk knows about this roster, not how good it is",
-          "a": "64%",
-          "h": "55%",
+          "a": "74%",
+          "h": "65%",
           "edge": {
             "side": "a",
-            "gap": 0.08199999999999996
+            "gap": 0.08599999999999997
           }
         }
       ],
@@ -1414,17 +1414,17 @@
           "Indiana is the better football team by 16.8 points on opponent-adjusted results, with roughly 30% of it still inherited from last season (+16.8 pts).",
           "Playing at Indiana is worth 2.8 points — the league-wide home-field number, because a per-venue table was tested and could not be told apart from the home team’s own quality (+2.8 pts).",
           "Stylistically the matchup favours Indiana by 2.5 points: ball control vs front disruption (+2.5 pts).",
-          "ETSR (overall): Indiana +9.2 (#12 of 138) vs Minnesota -2.6 (#90 of 138) — 78 places on the national board.",
-          "QB room: Indiana 64.7 (#5 of 138) vs Minnesota 57.8 (#80 of 138) — 75 places on the national board."
+          "ETSR (overall): Indiana +9.2 (#12 of 138) vs Minnesota -2.6 (#88 of 138) — 76 places on the national board.",
+          "Offense: Indiana 53.0 (#50 of 138) vs Minnesota 40.1 (#122 of 138) — 72 places on the national board."
         ]
       },
       "underdog": {
         "team": "Minnesota",
         "heading": "Why Minnesota can keep it close",
         "bullets": [
-          "Special teams: Minnesota 53.6 (#4 of 130) vs Indiana 46.7 (#117 of 130) — 113 places on the national board.",
-          "Scheme fit: Minnesota 49.9 (#82 of 138) vs Indiana 48.3 (#126 of 138) — 44 places on the national board.",
-          "Depth: Minnesota 53.3 (#65 of 138) vs Indiana 52.7 (#107 of 138) — 42 places on the national board.",
+          "Special teams: Minnesota 53.7 (#4 of 130) vs Indiana 46.9 (#118 of 130) — 114 places on the national board.",
+          "Scheme fit: Minnesota 50.0 (#80 of 138) vs Indiana 48.4 (#125 of 138) — 45 places on the national board.",
+          "Depth: Minnesota 53.3 (#67 of 138) vs Indiana 52.7 (#108 of 138) — 41 places on the national board.",
           "The outcome range is 14.6 points wide at one sigma — p10 +1.0 to p90 +43.0 for Indiana, so a projection of +22.0 still produces results a long way either side of it.",
           "College ratings are built on twelve-game seasons against wildly uneven schedules; even a clean rating gap carries more estimation error than the number implies."
         ]
@@ -1441,18 +1441,6 @@
         },
         {
           "sev": "MEDIUM",
-          "label": "Minnesota — injury uncertainty",
-          "text": "100% of projected starter value has no availability record.",
-          "widening": null
-        },
-        {
-          "sev": "MEDIUM",
-          "label": "Indiana — injury uncertainty",
-          "text": "100% of projected starter value has no availability record.",
-          "widening": null
-        },
-        {
-          "sev": "MEDIUM",
           "label": "Indiana — extreme transfer turnover",
           "text": "75% of last season’s production value is gone. Most of last season’s production value has left, so the prior term is standing on much less than usual",
           "widening": null
@@ -1461,18 +1449,6 @@
           "sev": "LOW",
           "label": "missing",
           "text": "weather not supplied",
-          "widening": null
-        },
-        {
-          "sev": "LOW",
-          "label": "missing",
-          "text": "home injury report not supplied",
-          "widening": null
-        },
-        {
-          "sev": "LOW",
-          "label": "missing",
-          "text": "away injury report not supplied",
           "widening": null
         },
         {
@@ -1504,14 +1480,6 @@
           "why": "starting QB not supplied for away"
         },
         {
-          "item": "Home availability / injuries",
-          "why": "no injury report supplied for home"
-        },
-        {
-          "item": "Away availability / injuries",
-          "why": "no injury report supplied for away"
-        },
-        {
           "item": "Weather at kickoff",
           "why": "no weather supplied"
         },
@@ -1532,16 +1500,8 @@
           "why": "no legal, public, keyless recruiting feed is wired into EdgeDesk, so no recruiting rating exists for this roster. Nothing is estimated in its place."
         },
         {
-          "item": "Minnesota — availability and injuries",
-          "why": "no availability record reached this roster. UNKNOWN is carried as unknown; it is never read as healthy."
-        },
-        {
           "item": "Indiana — recruiting ratings",
           "why": "no legal, public, keyless recruiting feed is wired into EdgeDesk, so no recruiting rating exists for this roster. Nothing is estimated in its place."
-        },
-        {
-          "item": "Indiana — availability and injuries",
-          "why": "no availability record reached this roster. UNKNOWN is carried as unknown; it is never read as healthy."
         }
       ],
       "note": "Unknown is never scored as zero. Every line here is a gap EdgeDesk carries as uncertainty rather than filling in."
@@ -1582,18 +1542,18 @@
         "reason": "no market line is joined to this game"
       },
       "confidence": {
-        "score": 83,
+        "score": 88,
         "tier": "HIGH",
         "label": "High"
       },
       "reliability": {
-        "pct": 89,
+        "pct": 94,
         "tier": "STRONG",
-        "text": "89 · STRONG",
-        "sub": "main deduction: Minnesota’s availability report is not due yet",
-        "score": 89,
-        "grade": "STRONG",
-        "grade_label": "STRONG",
+        "text": "94 · VERY STRONG",
+        "sub": "main deduction: no market quote is joined to this game",
+        "score": 94,
+        "grade": "VERY_STRONG",
+        "grade_label": "VERY STRONG",
         "gate_label": null,
         "components": [
           {
@@ -1605,7 +1565,7 @@
           {
             "key": "roster_availability",
             "label": "Roster/status",
-            "score": 12.5,
+            "score": 17.6,
             "max": 20
           },
           {
@@ -1633,7 +1593,7 @@
             "max": 10
           }
         ],
-        "main_deduction": "Minnesota’s availability report is not due yet; the impact of Minnesota’s absences cannot be assessed: no graded availability read",
+        "main_deduction": "no market quote is joined to this game",
         "capped_by": [],
         "next_actions": [],
         "stability": {
@@ -1673,9 +1633,9 @@
         "reason": "no sportsbook quote has been captured for this game"
       },
       "projection_status": {
-        "key": "STABLE",
-        "label": "STABLE",
-        "text": "EdgeDesk’s number is unchanged since the latest published number."
+        "key": "INJURY_UNCERTAINTY",
+        "label": "INJURY UNCERTAINTY",
+        "text": "A supplied availability report lists 9 players with an unresolved status; the engine widens this game’s range for it."
       },
       "stability": {
         "tier": "LOW",
@@ -1690,25 +1650,25 @@
           "text": "Indiana -25.4"
         },
         {
-          "at": "2026-10-26T15:03:38.857Z",
+          "at": "2026-10-31T17:50:57.268Z",
           "source": "latest published",
           "home_margin": 22.04,
           "text": "Indiana -22.0"
         }
       ],
-      "revisions": 6,
+      "revisions": 8,
       "change_since_published": {
         "comparable": true,
         "points": 0,
         "toward_team": "Minnesota",
-        "since_at": "2026-10-26T15:03:38.857Z",
+        "since_at": "2026-10-31T17:50:57.268Z",
         "text": "unchanged since the latest published number"
       },
       "what_changed": {
         "available": true,
         "summary": "EdgeDesk moved 3.4 points toward Minnesota since the first published number.",
         "attribution_text": "Projection changed 3.4 points since the first published number. Component-level attribution is unavailable: the stored snapshot keeps the number, not the terms behind it.",
-        "market": null,
+        "market": "Market moved 2.0 pts toward Minnesota (espn · Draft Kings)",
         "model_version": null
       },
       "parity": {
@@ -1748,20 +1708,20 @@
       "rows": [
         {
           "k": "ETSR (overall)",
-          "a": "-2.6  #90",
+          "a": "-2.6  #88",
           "h": "+9.2  #12",
           "note": "points vs an average FBS team, neutral field"
         },
         {
           "k": "Talent",
-          "a": "55.5  #32",
-          "h": "71.7  #3",
+          "a": "54.8  #39",
+          "h": "71.0  #3",
           "note": null
         },
         {
           "k": "Performance",
           "a": "46.1  #86",
-          "h": "63.8  #16",
+          "h": "63.9  #16",
           "note": null
         },
         {
@@ -1778,61 +1738,61 @@
         },
         {
           "k": "Special teams",
-          "a": "53.6  #4",
-          "h": "46.7  #117",
+          "a": "53.7  #4",
+          "h": "46.9  #118",
           "note": null
         },
         {
           "k": "Run offense",
           "a": "33.2  #130",
-          "h": "51.2  #63",
+          "h": "51.1  #63",
           "note": null
         },
         {
           "k": "Pass offense",
-          "a": "46.1  #87",
+          "a": "46.2  #87",
           "h": "56.2  #34",
           "note": null
         },
         {
           "k": "Run defense",
-          "a": "56.1  #56",
-          "h": "80.0  #2",
+          "a": "56.2  #56",
+          "h": "80.1  #2",
           "note": null
         },
         {
           "k": "Pass defense",
-          "a": "58.5  #32",
+          "a": "58.5  #31",
           "h": "56.7  #38",
           "note": null
         },
         {
           "k": "QB room",
-          "a": "57.8  #80",
-          "h": "64.7  #5",
+          "a": "58.6  #62",
+          "h": "64.5  #5",
           "note": null
         },
         {
           "k": "Offensive line",
-          "a": "45.1  #120",
+          "a": "45.0  #120",
           "h": "48.6  #100",
           "note": null
         },
         {
           "k": "Receivers",
-          "a": "55.0  #80",
-          "h": "56.0  #33",
+          "a": "54.6  #93",
+          "h": "56.4  #29",
           "note": null
         },
         {
           "k": "Running backs",
-          "a": "55.6  #93",
-          "h": "58.0  #24",
+          "a": "55.6  #92",
+          "h": "58.0  #23",
           "note": null
         },
         {
           "k": "Defensive line",
-          "a": "58.6  #22",
+          "a": "58.7  #19",
           "h": "70.8  #1",
           "note": null
         },
@@ -1844,14 +1804,14 @@
         },
         {
           "k": "Secondary",
-          "a": "55.5  #50",
+          "a": "55.5  #48",
           "h": "55.7  #45",
           "note": null
         },
         {
           "k": "Depth",
-          "a": "53.3  #65",
-          "h": "52.7  #107",
+          "a": "53.3  #67",
+          "h": "52.7  #108",
           "note": null
         },
         {
@@ -1862,14 +1822,14 @@
         },
         {
           "k": "Confidence",
-          "a": "64%",
-          "h": "55%",
+          "a": "74%",
+          "h": "65%",
           "note": "how much EdgeDesk knows, not how good the team is"
         },
         {
           "k": "Δ national rank, this week",
-          "a": "up 6",
-          "h": "down 1",
+          "a": "up 2",
+          "h": "no change",
           "note": "differenced from last week’s committed snapshot"
         }
       ]
@@ -1888,80 +1848,12 @@
     ],
     "context_label": "RESEARCH CONTEXT — position-group, player-quality, roster and scheme figures explain this matchup and move no priced number.",
     "priced_label": "PRICED BY MODEL — the projection and its drivers, from validated inputs only.",
-    "source": "Ratings: football/rankings/current.json — 2026 Week 8, built 2026-10-26. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser."
+    "source": "Ratings: football/rankings/current.json — 2026 Week 9, built 2026-10-31. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser."
   },
-  "football_evidence": {
-    "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "yx41cd1ywxj1r",
-    "status": "NO_MATERIAL_DISAGREEMENT",
-    "input_suspect": false,
-    "question": "Can Indiana’s pass rush get to Drake Lindsey?",
-    "assessment": "No material disagreement: EdgeDesk and the line are within 1.5 points.",
-    "gap": {
-      "points": 1.5,
-      "toward": "Indiana",
-      "other": "Minnesota"
-    },
-    "supporting": [
-      "When Minnesota has the ball (pass protection against the pass rush): Minnesota’s offense has allowed a sack on 2.5% of its dropbacks, and Indiana’s defense sacks the quarterback on 13.5% of opponent dropbacks (FBS average 5.7%).",
-      "When Minnesota has the ball (the run game against the run defense): Minnesota’s offense averages 3.3 yards per carry, and Indiana’s defense allows 3.5 yards per carry (FBS average 5.0).",
-      "When Minnesota has the ball (the red zone): Minnesota’s offense succeeds on 31.4% of its red-zone plays, and Indiana’s defense allows success on 32.6% of opponent red-zone plays (FBS average 43.6%).",
-      "When Minnesota has the ball (big plays on the ground): Minnesota’s offense turns 3.5% of its runs into explosive gains, and Indiana’s defense gives up explosive gains on 3.8% of opponent runs (FBS average 6.5%)."
-    ],
-    "contradicting": [
-      "When Indiana has the ball (third down): Indiana’s offense converts 36.0% of its third downs, and Minnesota’s defense allows opponents to convert 30.1% of their third downs (FBS average 39.5%).",
-      "In his last two games (Ohio State and Michigan), Hoover averaged 6.5 yards per attempt, against 10.7 in his six games before that."
-    ],
-    "quarterbacks": [
-      "Josh Hoover has completed 116 of 186 passes (62.4%) for 1,742 yards, 9.4 yards per attempt, 18 touchdowns and 1 interception in eight games for Indiana, and has been sacked on 10 of 196 dropbacks.",
-      "Drake Lindsey has completed 141 of 221 passes (63.8%) for 1,490 yards, 6.7 yards per attempt, 10 touchdowns and 6 interceptions in seven games for Minnesota, and has been sacked on 5 of 226 dropbacks."
-    ],
-    "availability": [],
-    "script": {
-      "model": [
-        "Indiana’s defense has to come out ahead in the pass-rush matchup: it sacks the quarterback on 13.5% of opponent dropbacks, against an offense that has allowed a sack on 2.5% of its dropbacks.",
-        "Indiana’s offense has to hold its own on third down against a defense that allows opponents to convert 30.1% of their third downs.",
-        "Indiana’s defense has to come out ahead on long runs: it gives up explosive gains on 3.8% of opponent runs, against an offense that turns 3.5% of its runs into explosive gains.",
-        "Indiana’s defense has to come out ahead on the ground: it allows 3.5 yards per carry, against an offense that averages 3.3 yards per carry."
-      ],
-      "market": [
-        "Minnesota’s defense has to come out ahead on third down: it allows opponents to convert 30.1% of their third downs, against an offense that converts 36.0% of its third downs.",
-        "Minnesota’s offense has to keep winning in the pass-rush matchup: it has allowed a sack on 2.5% of its dropbacks, and Indiana’s defense sacks the quarterback on 13.5% of opponent dropbacks.",
-        "Lindsey keeps producing at his season rate (63.8% completions, 6.7 yards per attempt, 10 TD, 6 INT)."
-      ]
-    },
-    "unknown": [
-      "EdgeDesk’s own sources disagree on sack rate allowed and sack rate for Indiana and Minnesota.",
-      "Not in EdgeDesk’s verified data for this game: turnover rates, injuries and personnel and penalty rate."
-    ],
-    "flags": [
-      {
-        "key": "DATA_CONFLICT",
-        "severity": "medium",
-        "text": "EdgeDesk’s own sources disagree on sack rate allowed (Indiana), sack rate (Indiana) and sack rate allowed (Minnesota); the evidence uses the corroborated figures, and any model term built on the play-by-play figure may be off."
-      }
-    ],
-    "sources": [
-      {
-        "label": "EdgeDesk play-by-play metrics, quarterback logs and box scores",
-        "url": null,
-        "path": "football/matchup/metrics.json",
-        "observed_at": "2026-10-27T05:10:50.316Z",
-        "verification": "VERIFIED_DATA"
-      },
-      {
-        "label": "EdgeDesk play-by-play quarterback logs (2026)",
-        "url": null,
-        "path": "football/fbs_epa/qb_epa_2026.json",
-        "observed_at": "2026-10-25T02:15:00.000Z",
-        "verification": "VERIFIED_DATA"
-      }
-    ],
-    "needs_confirmation": []
-  },
+  "football_evidence": null,
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-10-27T08:53:29.281Z"
+    "at": "2026-11-01T00:02:55.724Z"
   }
 }

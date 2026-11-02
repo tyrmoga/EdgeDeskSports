@@ -1,0 +1,128 @@
+{
+ "schema": "edgedesk_availability_report_v1",
+ "version": 1,
+ "conference": "Big 12 Conference",
+ "conference_id": "big12",
+ "team": "Arizona",
+ "game_id": "401856842",
+ "kickoff": "2026-10-31T16:00:00.000Z",
+ "source_url": "https://app.hdintelligence.com/?source=B12&sport=Football&conf=B12&type=report",
+ "published_at": "2026-10-31T14:30:00.000Z",
+ "retrieved_at": "2026-10-31T17:39:55.706Z",
+ "scope": "CONFERENCE_GAMES",
+ "comprehensive": true,
+ "vocabulary": [
+  "AVAILABLE",
+  "PROBABLE",
+  "QUESTIONABLE",
+  "DOUBTFUL",
+  "OUT"
+ ],
+ "applicability": {
+  "state": "REQUIRED",
+  "why": "Big 12 Conference requires an availability report for this game: filed daily from three days before a conference game, with a final report 90 minutes before kickoff"
+ },
+ "format": "published-listing",
+ "platform": "hdintelligence",
+ "report_type": "Game Day",
+ "report_id": "3414",
+ "listing_scope": "FULL_ROSTER",
+ "lines_read": 110,
+ "listed_n": 110,
+ "rows": [
+  {
+   "player_name": "Max Harris",
+   "player_id": "5158129",
+   "position": "LB",
+   "jersey": "5",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "LB #5 Max Harris · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Jay'Vion Cole",
+   "player_id": "5083142",
+   "position": "CB",
+   "jersey": "8",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "CB #8 Jay'Vion Cole · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Shane King",
+   "player_id": "5236393",
+   "position": "TE",
+   "jersey": "8",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "TE #8 Shane King · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Cole Rusk",
+   "player_id": "4709804",
+   "position": "TE",
+   "jersey": "14",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "TE #14 Cole Rusk · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Ismail Mahdi",
+   "player_id": "5084798",
+   "position": "RB",
+   "jersey": "21",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "RB #21 Ismail Mahdi · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Swayde Griffin",
+   "player_id": "5183931",
+   "position": "CB",
+   "jersey": "28",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "CB #28 Swayde Griffin · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Kevin Moorer Jr.",
+   "player_id": "5377779",
+   "position": "DL",
+   "jersey": "38",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "DL #38 Kevin Moorer Jr. · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Ezra Funa",
+   "player_id": "5306763",
+   "position": "DL",
+   "jersey": "92",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "DL #92 Ezra Funa · Out",
+   "on_roster": true
+  }
+ ],
+ "unparsed": [],
+ "ok": true,
+ "names_nobody": false,
+ "explicit_none": false,
+ "silence_means_available": false,
+ "why": "8 player(s) designated on the published listing (Game Day)"
+}

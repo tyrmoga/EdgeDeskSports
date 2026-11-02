@@ -96,6 +96,10 @@ select option:checked{background-color:var(--surface2,#221c15);color:var(--text,
 .hppop .hpr .l i{display:block;font-style:normal;font-size:10.5px;color:var(--faint);margin-top:2px;line-height:1.45}
 .hppop .hpr .v{flex:0 0 auto;font-size:11px;font-family:'JetBrains Mono',monospace;color:var(--text)}
 .hppop .hpr .v.ok{color:var(--pos)}.hppop .hpr .v.warn{color:var(--warn)}.hppop .hpr .v.err{color:var(--neg)}.hppop .hpr .v.mut{color:var(--faint)}
+.hppop .hpr .v.pause,.hppop .hpr .v.na{color:var(--dim)}
+.hppop .hps{font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);font-weight:700;margin:12px 0 0;padding-top:8px;border-top:1px solid var(--border)}
+.hppop .hps:first-of-type{margin-top:0;padding-top:0;border-top:none}
+.hppop .hps+.hpr{border-top:none}
 .hppop .hpact{display:block;width:100%;margin-top:10px;background:none;border:1px solid var(--border);border-radius:9px;color:var(--accent);font-family:inherit;font-size:11.5px;font-weight:600;padding:8px 10px;cursor:pointer;text-align:left}
 .hppop .hpact:hover{border-color:var(--accent)}
 .hppop .hpn{font-size:10.5px;color:var(--faint);line-height:1.5;margin:8px 0 0}
@@ -132,6 +136,7 @@ select option:checked{background-color:var(--surface2,#221c15);color:var(--text,
 .rs-mat-exp{color:var(--warn);border-color:rgba(217,154,43,.4);background:rgba(217,154,43,.07)}
 .rs-mat-val{color:#5bbf87;border-color:rgba(91,191,135,.35);background:rgba(91,191,135,.07)}
 .rs-mat-na{color:var(--faint)}
+.rs-mat-ext{color:var(--dim);border-color:var(--border);background:transparent}
 .rs-prov{border:1px solid var(--border);border-radius:11px;background:var(--surface);margin-bottom:12px;overflow:hidden}
 .rs-prov summary{list-style:none;cursor:pointer;padding:9px 12px;font-size:11.5px;color:var(--dim);display:flex;align-items:center;gap:7px}
 .rs-prov summary::-webkit-details-marker{display:none}
@@ -1873,6 +1878,13 @@ textarea{min-height:110px;font-family:'JetBrains Mono',monospace;resize:vertical
   .fbs-flab{width:auto;min-width:52px;font-size:8.5px;text-align:left}
   .fbs-confmenu{margin-left:0}
   .fbs-counts{gap:2px 10px;font-size:10px}
+  /* one scrolling line, like each filter row: the counts grow with the slate
+     (a "kickoff TBA" count appears only when there are such games), the
+     controls above the board do not */
+  .fbs-counts{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:thin;padding-bottom:2px}
+  .fbs-counts::-webkit-scrollbar{height:3px}
+  .fbs-counts::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
+  .fbs-count{flex:0 0 auto;white-space:nowrap}
 }
 
 /* ===== Settings ===== */
@@ -1955,6 +1967,12 @@ textarea{min-height:110px;font-family:'JetBrains Mono',monospace;resize:vertical
 .avmenu button{display:block;width:100%;text-align:left;background:transparent;border:none;color:var(--dim);font-size:12px;padding:7px 10px;border-radius:6px;cursor:pointer;font-family:inherit}
 .avmenu button:hover{background:var(--surface2);color:var(--text)}
 .avmenu button.danger:hover{color:var(--neg)}
+/* back to Juice Reel: only for a reader whose access came through it (edJrBackSync); the header
+   chip from 600 px, where the header has room; the account menu item at every width */
+#edJrBack,#avJr{display:none}
+#edJrBack.on{display:inline-flex}
+#avJr.on{display:block}
+@media(max-width:599px){#edJrBack.on{display:none}}
 .avmenu hr{border:none;border-top:1px solid var(--border);margin:4px 0}
 /* density / motion / text prefs */
 body.ed-compact .set-card,body.ed-compact .card{padding:9px}
@@ -2923,7 +2941,7 @@ body.focus .dk-focusnote{display:block}
 <link rel="stylesheet" href="/lib/edgedesk_first_run.css?v=20260930a">
 <link rel="stylesheet" href="/lib/edgedesk_pnl.css?v=20261003y">
 <link rel="stylesheet" href="/lib/edgedesk_workspace.css?v=20261004b">
-<link rel="stylesheet" href="/lib/edgedesk_portfolio.css?v=20261014bs2">
+<link rel="stylesheet" href="/lib/edgedesk_portfolio.css?v=20261030jr4">
 <link rel="stylesheet" href="/lib/edgedesk_bet_import.css?v=20261024bi2">
 <link rel="stylesheet" href="/lib/edgedesk_simulator.css?v=20261024preseason1">
 <link rel="stylesheet" href="/lib/edgedesk_signal_center.css?v=20261024sc1">
@@ -2934,7 +2952,7 @@ body.focus .dk-focusnote{display:block}
 <link rel="stylesheet" href="/lib/edgedesk_grade.css?v=20261021inj1">
 <!-- THE APP SHELL (docs/research-os/DESIGN.md): the sidebar / Menu sheet, Overview, search, Performance,
      the game page's workspace; Market Foresight's record drawn inside the terminal (foresight/app.js) -->
-<link rel="stylesheet" href="/lib/edgedesk_shell.css?v=20261026ros1">
+<link rel="stylesheet" href="/lib/edgedesk_shell.css?v=20261101rc1">
 <link rel="stylesheet" href="/foresight/foresight.css?v=20261025mf1">
 <link rel="stylesheet" href="/foresight/app.css?v=20261026ros2">
 </head>
@@ -2963,6 +2981,10 @@ body.focus .dk-focusnote{display:block}
        game, team, place and saved item the terminal holds (Ctrl/⌘ K or "/"), and the research desk -->
   <button type="button" class="ed-hb" id="edSearchBtn" data-ed-search aria-haspopup="dialog" aria-label="Search EdgeDesk (Ctrl K or /)" title="Search · Ctrl K or /" aria-keyshortcuts="Control+K Meta+K /"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><span class="ed-hb-l">Search</span><kbd>/</kbd></button>
   <button type="button" class="ed-hb ed-ask" id="edAskBtn" onclick="edAsk(null,'header')" aria-label="Ask EdgeDesk AI" title="Ask EdgeDesk AI"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.2 5.8L20 11l-5.8 2.2L12 19l-2.2-5.8L4 11l5.8-2.2L12 3z"/></svg><span class="ed-hb-l">Ask AI</span></button>
+  <!-- BACK TO JUICE REEL, for a reader whose access came through Juice Reel
+       (docs/juicereel-billing.md), who comes and goes between the two: shown
+       by edJrBackSync(), never to anybody else -->
+  <a class="ed-hb" id="edJrBack" href="https://www.juicereel.com/" target="_blank" rel="noopener" aria-label="Back to Juice Reel (opens a new tab)" title="Back to Juice Reel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg><span class="ed-hb-l">Juice Reel</span></a>
   <!-- HELP — Learn EdgeDesk (lib/edgedesk_guide.js): this page's walkthrough,
        the other tasks, every term explained, the introduction again. -->
   <button type="button" class="edg-hbtn" id="edHelpBtn" aria-haspopup="dialog" aria-expanded="false" aria-controls="edgHelp" aria-label="Help: learn EdgeDesk" title="Help · Learn EdgeDesk" onclick="window.EDGuide&&window.EDGuide.openHelp()"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8.9c0 1.7-2.4 2.2-2.4 3.6"/><path d="M12 17.2v.1"/></svg><span class="edg-hbtn-l">Help</span></button>
@@ -2973,6 +2995,7 @@ body.focus .dk-focusnote{display:block}
       <button onclick="__avGo('account')">Profile</button>
       <button onclick="__avGo('edge')">Settings</button>
       <button onclick="__avGo('subscription')">Billing</button>
+      <button id="avJr" onclick="try{document.getElementById('avMenu').classList.remove('open')}catch(_){}window.open('https://www.juicereel.com/','_blank','noopener')">Back to Juice Reel &#8599;</button>
       <button data-ed-report onclick="try{document.getElementById('avMenu').classList.remove('open')}catch(_){}">Report a problem</button>
       <button onclick="__avGo('feedback')">Release notes</button>
       <button onclick="try{var m=document.getElementById('avMenu');if(m)m.classList.remove('open');window.EDGuide&&window.EDGuide.openHelp('home',{returnTo:document.getElementById('edHelpBtn')})}catch(_){}">Learn EdgeDesk</button>
@@ -4059,10 +4082,13 @@ window.mcRefresh=function(){
 <script src="/lib/edgedesk_process.js?v=20261004b"></script>
 <script src="/lib/edgedesk_workspace_ui.js?v=20261026nav1"></script>
 <script src="/lib/edgedesk_share_card.js?v=20261001a"></script>
-<script src="/lib/edgedesk_pricing.js?v=20261024a"></script>
+<script src="/lib/edgedesk_pricing.js?v=20261029fl2"></script>
 <!-- the one access decision (public.my_billing_access) and the server
      reconciliation the paywall asks for before it locks anybody out -->
-<script src="/lib/edgedesk_access.js?v=20261004a"></script>
+<script src="/lib/edgedesk_access.js?v=20261029fl2"></script>
+<!-- EdgeDesk bought through Juice Reel: the checkout, the account link and the
+     return from oauth/juicereel-subscribe.html (supabase/functions/juicereel_billing) -->
+<script src="/lib/edgedesk_juicereel_billing.js?v=20261029jr2"></script>
 <!-- the funnel's one client (supabase/funnel.sql ed_track); configured below with the session token -->
 <script src="/lib/edgedesk_track.js?v=20261026ros1"></script>
 <!-- The CFB research view: what a reader sees first on the college board
@@ -4104,6 +4130,10 @@ window.mcRefresh=function(){
 <script src="/lib/market_consensus.js?v=20260925e"></script>
 <script src="/lib/game_evidence.js?v=20260925e"></script>
 <script src="/lib/cfb_research_view.js?v=20261008i"></script>
+<!-- SP+ (football/sp_plus/README.md): an EXTERNAL estimate (T3 rating, T2
+     derived line) shown beside EdgeDesk's CFB fair spread on the board card
+     and the game page, never combined with it and never read by the model -->
+<script src="/lib/cfb_sp_plus.js?v=20261029sp1"></script>
 <!-- THE MAJOR-DISAGREEMENT INTEGRITY GATE: a 7+ point gap between EdgeDesk and
      the market is INVESTIGATE until it passes every check (game, market, team
      state, QB, roster, components, cross-model, football-only calibration),
@@ -4165,12 +4195,21 @@ window.mcRefresh=function(){
 <!-- the model integrity audit's warnings on each game (engine/model_integrity.json), read by the games board -->
 <script src="/lib/edgedesk_model_integrity_ui.js?v=20261026mi1"></script>
 <script src="/lib/edgedesk_games_ui.js?v=20261027sl1"></script>
+<!-- DraftKings vs Novig on the football cards (window.fbNovigHTML): renders nothing for a reader who may not see Novig prices. docs/novig/README.md -->
+<script src="/lib/edgedesk_venue_compare.js?v=20261030nv1"></script>
+<script src="/lib/edgedesk_lead_lag.js?v=20261030nv1"></script>
+<script src="/lib/edgedesk_compare_cards.js?v=20261030nv1"></script>
+<script src="/lib/edgedesk_market_compare_ui.js?v=20261030nv1"></script>
 <!-- THE RESEARCH OS (docs/research-os/DESIGN.md): the research context carried between features, the
      shell (navigation, quiet reads, services), the Overview, search and Performance; Market Foresight's
      small service (its record and controller load on first use) -->
 <script src="/lib/edgedesk_context.js?v=20261026ros1"></script>
 <script src="/lib/edgedesk_shell.js?v=20261026nav1"></script>
-<script src="/lib/edgedesk_overview.js?v=20261026ros1"></script>
+<!-- Prediction Radar (docs/prediction-radar.md): Smart Money Tonight at the top of the Overview, and the trader sheet -->
+<!-- one comparison path for the Research Queue and the Smart Money cards (docs/research-compare/README.md) -->
+<script src="/lib/edgedesk_research_compare.js?v=20261101rc1"></script>
+<script src="/lib/edgedesk_radar_ui.js?v=20261101rc1"></script>
+<script src="/lib/edgedesk_overview.js?v=20261101rc1"></script>
 <script src="/lib/edgedesk_search.js?v=20261026ros1"></script>
 <script src="/lib/edgedesk_perf_hub.js?v=20261026ros1"></script>
 <script src="/foresight/service.js?v=20261026ros1"></script>
@@ -4274,6 +4313,10 @@ window.mcRefresh=function(){
     market:function(league,gid){return league==='cfb'?gvCfb(gid):gvNfl(gid);},
     /* Sharp lag (Experimental): this game's research flags, read under the reader's own token */
     sharpLag:function(league,gid,g){return window.slData?window.slData.forGame({sport_key:league==='cfb'?'americanfootball_ncaaf':'americanfootball_nfl',home:g.home,away:g.away,start:g.kickoff}):Promise.resolve({state:'error'});},
+    /* SP+ (lib/cfb_sp_plus.js): college football only; the page draws the row
+       from EDCfbSpPlus once its weekly file is read, and says unavailable if it is not */
+    spPlus:function(league){if(league!=='cfb'||!window.EDCfbSpPlus)return Promise.resolve(null);
+      return window.EDCfbSpPlus.fetchLines(window.EDCfbSpPlus.URL).then(function(){return {loaded:true};},function(){return {loaded:true,error:true};});},
     /* a #game link opens this page while the document is still parsing: the Kalshi section's
        script sits near its end, so wait for the parse before deciding it is absent */
     /* at the snapshot's model time when the page names it (EDGameGraphic compares Kalshi only there) */
@@ -4325,7 +4368,7 @@ window.mcRefresh=function(){
 </script>
 <script src="/lib/edgedesk_intel_ui.js?v=20261012ia9"></script>
 <script src="/lib/edgedesk_portfolio_connectors.js?v=20261005pf3"></script>
-<script src="/lib/edgedesk_portfolio_connect_core.js?v=20261022jr3"></script>
+<script src="/lib/edgedesk_portfolio_connect_core.js?v=20261030jr5"></script>
 <script src="/lib/edgedesk_portfolio_process.js?v=20261005pf3"></script>
 <!-- THE DECISION RECORD: context quality, edge capture, process memory and Card → Record Position (supabase/portfolio_decision.sql) -->
 <script src="/lib/edgedesk_decision_record.js?v=20261005dr1"></script>
@@ -4333,7 +4376,7 @@ window.mcRefresh=function(){
 <!-- IMPORT PICKS: screenshots or pasted text → Claude reads them (supabase/functions/parse_bet_import) → the reader reviews every row → the Portfolio's own import commit (supabase/bet_import.sql). Core first: the review table checks rows with the same code the server does. -->
 <script src="/lib/edgedesk_bet_import_core.js?v=20261024bi4"></script>
 <script src="/lib/edgedesk_bet_import.js?v=20261024bi4"></script>
-<script src="/lib/edgedesk_portfolio_ui.js?v=20261024bi2"></script>
+<script src="/lib/edgedesk_portfolio_ui.js?v=20261030jr5"></script>
 <!-- THE BASEBALL RUN MODEL. Constants first, engine second, the same order
      and the same dual-target shape football/params.js + football/engine.js
      use. Both are plain scripts with no dependency on the page: the engine
@@ -6265,7 +6308,8 @@ var RS_PROV={
   cfb:[
     {nm:'Scores, records, season totals, recruiting, AP poll, roster',tier:'T0',src:'CollegeFootballData ingest (cfb.games / records / team_season_stats / recruiting / rankings / roster)'},
     {nm:'Book line (spread, total, moneyline)',tier:'T0',src:'cfb.lines — consensus book numbers, not Pinnacle'},
-    {nm:'SP+ rating, ranking, SOS',tier:'T3',model:'cfbd.sp_plus',src:'Third-party opponent-adjusted model, ingested from CollegeFootballData'},
+    {nm:'SP+ rating, ranking, SOS',tier:'T3',model:'cfbd.sp_plus',src:'Third-party opponent-adjusted model (ESPN, Bill Connelly), ingested from CollegeFootballData. External: never an EdgeDesk model (football/sp_plus/registry.json)'},
+    {nm:'SP+ projected line on CFB cards',tier:'T2',src:'football/sp_plus/lines.json: home SP+ − away SP+ + EdgeDesk’s home field (cfb_sp_projection_v1), from the weekly CollegeFootballData capture; shown beside EdgeDesk’s number, never combined with it'},
     {nm:'Pregame Elo',tier:'T3',model:'cfbd.elo',src:'Third-party rating model, ingested from CollegeFootballData (cfb.games.*_pregame_elo)'},
     {nm:'SP+ favourite margin shown on game rows',tier:'T2',src:'Computed in the browser as home SP+ minus away SP+'},
     {nm:'Analyst flag drivers and flag-to-close CLV',tier:'T2',src:'cfb.analyst_flags — deterministic rules computed server-side from stored drivers'},
@@ -6383,6 +6427,11 @@ var RS_LIMITS={
    is no validation report to show. */
 var RS_MODELS={rows:null,state:'unread',at:0,loading:null};
 var RS_NO_REPORT='No validation report exists for this model.';
+/* EXTERNAL models (football/sp_plus/registry.json): a third party's model, shown
+   as research context and never as EdgeDesk's. Pinned here, ahead of the
+   registry, so no registry row can ever present one as Validated. */
+var RS_EXTERNAL={'cfbd.sp_plus':{owner:'ESPN (Bill Connelly)',via:'CollegeFootballData.com',registry:'football/sp_plus/registry.json',
+  note:'SP+ is ESPN’s opponent-adjusted efficiency rating. EdgeDesk shows a line derived from it beside its own number and grades both against the close; it feeds no EdgeDesk projection, EV, ranking or grade.'}};
 function rsModelsLoad(force){
   if(!force&&RS_MODELS.state!=='unread'&&(Date.now()-RS_MODELS.at)<300000)return Promise.resolve(RS_MODELS);
   if(RS_MODELS.loading)return RS_MODELS.loading;
@@ -6407,6 +6456,8 @@ function rsModelRow(key){
 /* maturity NEVER upgrades on missing evidence: no row => Experimental. */
 function rsMaturity(key){
   if(!key)return null;
+  var ext=RS_EXTERNAL[String(key).toLowerCase()];
+  if(ext)return {label:'External',cls:'rs-mat-ext',hasReport:false,row:null,external:ext};
   var row=rsModelRow(key);
   if(!row)return {label:'Experimental',cls:'rs-mat-exp',hasReport:false,row:null};
   var st=String(rsField(row,['status','model_status'])||'').toLowerCase();
@@ -6441,6 +6492,8 @@ function rsDossierHTML(tier,key){
   if(!key){
     return head+'<div class="rs-none">Maturity is a property of models. This value is not a model output, so there is no model record to show.</div>';
   }
+  var ext=RS_EXTERNAL[String(key).toLowerCase()];
+  if(ext)return head+'<div class="rs-none"><b>External model — not EdgeDesk’s, and not validated by EdgeDesk.</b><br>'+stEsc(ext.note)+' Source: '+stEsc(ext.owner)+', via '+stEsc(ext.via)+'.</div>';
   if(RS_MODELS.state==='unread')return head+'<div class="rs-none">Reading the model registry…</div>';
   var m=rsMaturity(key),row=m&&m.row;
   if(!row){
@@ -20019,7 +20072,9 @@ function renderSetAccount(){
    refuses any URL that is not a billing.stripe.com portal link, so the button
    hides rather than double-charging someone. Get the real one from
    Stripe > Settings > Billing > Customer portal > no-code login link. */
-var STRIPE_PORTAL_URL="https://billing.stripe.com/p/login/9B64gy5LA3QpcHc8L08IU00";
+/* written once, in lib/edgedesk_pricing.js (PORTAL_LINK), because the Bet
+   Checker page sends its subscribers to the same portal */
+var STRIPE_PORTAL_URL=(window.EDPricing&&window.EDPricing.PORTAL_LINK)||'';
 
 function stripePortalHref(){
   var u=(typeof STRIPE_PORTAL_URL==='string')?STRIPE_PORTAL_URL.trim():'';
@@ -20075,11 +20130,20 @@ function subIsComp(sub){
    looking like an ordinary subscription with no way to have been paid for. */
 var PG_SUB_COLS='status,price_id,current_period_end,cancel_at_period_end,stripe_customer_id';
 
+/* BACK TO JUICE REEL. A reader whose access came through Juice Reel
+   (price_id 'juicereel', lib/edgedesk_juicereel_billing.js) comes and goes
+   between EdgeDesk and Juice Reel's app, so the header and the account menu
+   carry a way back. Nobody else sees it. Run wherever window.SUB is set. */
+function edJrBackSync(){
+  var on=!!(window.EDJuiceReel&&window.EDJuiceReel.isJuiceReelRow(window.SUB));
+  ['edJrBack','avJr'].forEach(function(id){var el=$(id);if(el)el.classList.toggle('on',on);});
+}
 async function loadSubStatus(){
   try{
     var rows=await sbGet('subscriptions?select='+PG_SUB_COLS+'&limit=1');
     window.SUB=(rows&&rows[0])||null;
   }catch(e){ window.SUB=undefined; }   // undefined = couldn't read; null = no subscription
+  edJrBackSync();
   if(SET_ACTIVE==='subscription')renderSettings();
   loadSubPrice();
 }
@@ -20181,6 +20245,26 @@ function renderSetSub(){
       '<div class="set-note" style="border:none;padding-top:0">Nothing to cancel. This account has full access '+
       'without a subscription, so it has no Stripe customer, no payment method and no billing history — '+
       'there is nothing here that can charge you.</div>');
+    return out;
+  }
+  /* BOUGHT THROUGH JUICE REEL (price_id 'juicereel'). Juice Reel took the
+     payment and renews or cancels it; EdgeDesk has no card, no price and no
+     portal for it, so none of the Stripe rows below are true of it. The date
+     is Juice Reel's own expiry, as Juice Reel last reported it. */
+  if(window.EDJuiceReel&&window.EDJuiceReel.isJuiceReelRow(sub)){
+    var jEnd=sub.current_period_end?new Date(sub.current_period_end):null;
+    var jEndStr=jEnd&&isFinite(jEnd.getTime())?jEnd.toLocaleDateString(undefined,{month:'long',day:'numeric',year:'numeric'}):'—';
+    var jOn=sub.status==='active'&&jEnd&&jEnd.getTime()>Date.now();
+    out+=setCard('Subscription',null,
+      setRow('Plan','<span class="set-val">'+stEsc(SUB_PLAN_NAME)+'</span>')+
+      setRow('Status','<span class="set-val '+(jOn?'pos':'')+'">'+(jOn?'Active':'Ended')+'</span>')+
+      setRow('Billed through','<span class="set-val">Juice Reel</span>','Paid on Juice Reel’s secure checkout. Juice Reel bills and renews it')+
+      setRow(jOn?(sub.cancel_at_period_end?'Access ends':'Paid through'):'Access ended','<span class="set-val">'+stEsc(jEndStr)+'</span>',
+        jOn?(sub.cancel_at_period_end?'Cancelled on Juice Reel — no further charges':'When Juice Reel renews it, EdgeDesk updates this date'):'Subscribe again to reopen the terminal'));
+    out+=setCard('Manage','Your subscription is managed on Juice Reel. EdgeDesk cannot change or cancel it, and holds no card for it.',
+      '<div class="set-act"><a class="btn ghost sm" href="https://www.juicereel.com/" target="_blank" rel="noopener" style="text-decoration:none">Manage on Juice Reel</a>'+
+      (window.EDJuiceReel?'<button class="btn ghost sm" onclick="pgJuiceReelStart(\'link\',this)">Renewed? Re-check with Juice Reel</button>':'')+
+      '<span class="set-msg" id="setAccessMsg"></span></div>');
     return out;
   }
   var trialing=sub.status==='trialing';
@@ -20913,7 +20997,7 @@ document.addEventListener('click',function(){var m=$('avMenu');if(m)m.classList.
    This panel INVENTS NOTHING. Every row is a number some existing part of the
    app already computed, or it says it does not know yet. A section whose
    source has not loaded reads "not loaded", never a reassuring tick. */
-var SH={open:false,health:null,healthErr:null,healthAt:0,pending:null,hb:0,hbReadAt:0,probe:null,probeAt:0,loops:null,loopsErr:null,loopsAt:0,loopsP:null,nbaInj:null,nbaInjErr:null,nbaInjAt:0,nbaInjP:null,ks:null,ksErr:null,ksAt:0,ksP:null};
+var SH={open:false,health:null,healthErr:null,healthAt:0,pending:null,hb:0,hbReadAt:0,probe:null,probeAt:0,loops:null,loopsErr:null,loopsAt:0,loopsP:null,nbaInj:null,nbaInjErr:null,nbaInjAt:0,nbaInjP:null,ks:null,ksErr:null,ksAt:0,ksP:null,nce:null,nceErr:null,nceAt:0,nceP:null,odds:null,oddsErr:null,oddsAt:0,oddsP:null};
 
 /* The single read of football/health.json. Both the football module and this
    control call it; whichever asks first does the fetch and the other joins the
@@ -20989,11 +21073,44 @@ function sysHealthNhlGoalieLoad(force){
     .then(function(){SH.nglAt=Date.now();SH.nglP=null;try{sysHealthPaint();}catch(_){}return SH.ngl;});
   return SH.nglP;
 }
+/* NCAAM-EARLY (the early-season college basketball model's T0 store): public.ncaam_es_readiness(),
+   callable as anon (security definer), KPIs only — freshness, failures, box coverage, live rosters,
+   the shared CBBD/CFBD quota — never a row of data (supabase/ncaam_early.sql). Its states are
+   ok | warn | down | not_started; down is a failed system check here, not_started is not counted. */
+function sysHealthNcaamEarlyLoad(force){
+  if(SH.nceP)return SH.nceP;
+  if(SH.nceAt&&!force&&(Date.now()-SH.nceAt)<300000)return Promise.resolve(SH.nce);
+  if(typeof SB_URL==='undefined'||typeof SB_KEY==='undefined')return Promise.resolve(null);
+  SH.nceP=fetch(SB_URL+'/rest/v1/rpc/ncaam_es_readiness',{method:'POST',headers:{apikey:SB_KEY,authorization:'Bearer '+SB_KEY,'content-type':'application/json'},body:'{}'})
+    .then(function(r){if(!r.ok)throw new Error('HTTP '+r.status+(r.status===404?' (the NCAAM early-season layer is not deployed)':''));return r.json();})
+    .then(function(j){if(!j||typeof j.state!=='string')throw new Error('no state in the answer');return j;})
+    .then(function(j){SH.nce=j;SH.nceErr=null;},function(e){SH.nce=null;SH.nceErr=(e&&e.message)||'unreadable';})
+    .then(function(){SH.nceAt=Date.now();SH.nceP=null;try{sysHealthPaint();}catch(_){}return SH.nce;});
+  return SH.nceP;
+}
+/* public.odds_feed_status(): what the odds gateway will do right now — live, degraded or paused, and why
+   (breaker off, no budget, this cycle's provider quota not confirmed, the provider at its reserve) — with
+   each sport's last VERIFIED capture. Callable as anon (security definer), so it answers for every reader,
+   unlike public.signals, which the paywall rule hides from a reader without access: that is why the capture
+   heartbeat alone read "unknown" for most accounts. A read that fails is monitoring failing, never the feed. */
+function sysHealthOddsLoad(force){
+  if(SH.oddsP)return SH.oddsP;
+  if(SH.oddsAt&&!force&&(Date.now()-SH.oddsAt)<300000)return Promise.resolve(SH.odds);
+  if(typeof SB_URL==='undefined'||typeof SB_KEY==='undefined')return Promise.resolve(null);
+  SH.oddsP=fetch(SB_URL+'/rest/v1/rpc/odds_feed_status',{method:'POST',headers:{apikey:SB_KEY,authorization:'Bearer '+SB_KEY,'content-type':'application/json'},body:'{}'})
+    .then(function(r){if(!r.ok)throw new Error('HTTP '+r.status+(r.status===404?' (odds_feed_status is not deployed)':''));return r.json();})
+    .then(function(j){if(!j||typeof j.state!=='string')throw new Error('no feed state in the answer');return j;})
+    .then(function(j){SH.odds=j;SH.oddsErr=null;},function(e){SH.odds=null;SH.oddsErr=(e&&e.message)||'unreadable';})
+    .then(function(){SH.oddsAt=Date.now();SH.oddsP=null;try{sysHealthPaint();}catch(_){}return SH.odds;});
+  return SH.oddsP;
+}
 function sysHealthLoad(force){
   try{sysHealthLoopsLoad(force);}catch(_){}
   try{sysHealthNbaLoad(force);}catch(_){}
   try{sysHealthKalshiLoad(force);}catch(_){}
   try{sysHealthNhlGoalieLoad(force);}catch(_){}
+  try{sysHealthNcaamEarlyLoad(force);}catch(_){}
+  try{sysHealthOddsLoad(force);}catch(_){}
   if(window.FB&&FB.health&&!force){SH.health=FB.health;SH.healthErr=null;return Promise.resolve(SH.health);}
   if(SH.pending)return SH.pending;
   if(SH.health&&!force&&(Date.now()-SH.healthAt)<300000)return Promise.resolve(SH.health);
@@ -21004,6 +21121,52 @@ function sysHealthLoad(force){
   return SH.pending;
 }
 
+/* THE ODDS CAPTURE, IN ONE OF SIX STATES — never a guess, and never "now" for a write that is not on record.
+     healthy   live, and the newest verified write is inside twice the tightest expected refresh
+     delayed   live, but the newest write is older than that, or none is on record
+     paused    the gateway refuses paid calls by configuration or an unconfirmed cycle quota
+     quota exhausted   the provider is at the reserve
+     degraded  provider cooldown or budget shedding: refreshing, less often
+     unknown   the status could not be read: monitoring failed, not the feed
+   The last write is the newer of the gateway's verified capture and the board's own heartbeat. */
+var SH_ODDS_PAUSE={
+  breaker_off:['paused','paused by configuration: the paid-request breaker is off'],
+  no_budget:['paused','paused by configuration: no request budget is set'],
+  quota_unconfirmed:['paused','the provider quota for this billing cycle is not confirmed, so the gateway makes no paid request until an operator confirms it'],
+  provider_reserve:['quota exhausted','the provider quota is down to its reserve for this billing cycle']};
+function sysHealthOdds(){
+  var f=SH.odds,last=null,src=null,due=null,o;
+  if(f&&f.sports)f.sports.forEach(function(x){
+    var t=x?shStamp(x.last_verified_at):null;if(t&&(last==null||t>last))last=t;
+    if(x&&x.next_kickoff&&x.expected_refresh_minutes!=null){var m=+x.expected_refresh_minutes;if(isFinite(m)&&(due==null||m<due))due=m;}});
+  if(last)src='the odds gateway';
+  var hb=sysHealthHeartbeat();if(hb&&(last==null||hb>last)){last=hb;src='the live board';}
+  o={last:last,src:src,due:due,count:null};
+  if(!f){o.status='unknown';o.cls='mut';
+    o.why=SH.oddsErr?('the feed status could not be read ('+SH.oddsErr+'): monitoring failed, not necessarily the feed'):(SH.oddsP?'reading the feed status\u2026':'the feed status has not been read yet');return o;}
+  if(f.state==='paused'){var P=SH_ODDS_PAUSE[f.paused_by]||['paused','paused'+(f.paused_by?' ('+f.paused_by+')':'')];
+    o.status=P[0];o.cls='pause';o.count='warn';o.why=P[1]+'; every board shows its last verified prices with their capture time';return o;}
+  if(f.state==='degraded'){o.status='degraded';o.cls='warn';o.count='warn';o.why='refreshing less often than usual (provider cooldown or budget shedding)';return o;}
+  if(f.state!=='live'){o.status='unknown';o.cls='mut';o.why='the feed reported a state this panel does not know ('+f.state+')';return o;}
+  if(!last){o.status='delayed';o.cls='warn';o.count='warn';o.why='live, but no successful capture write is on record';return o;}
+  var age=(Date.now()-last)/60000,lim=due!=null?Math.max(2*due,30):180;
+  if(age>lim){o.status='delayed';o.cls='warn';o.count='warn';o.why='live, but the newest write is older than '+Math.round(lim)+' min (twice the tightest expected refresh)';return o;}
+  o.status='healthy';o.cls='ok';o.why='capturing on its event-aware schedule';return o;
+}
+/* the football daily self-check's job ledger (football/health.json pipeline_meta): one <job>_last_status per
+   job. Timestamps and row counts are not jobs — counting every key made six jobs read "15/15" — and a status
+   is a string, so "fail" has to be read as one. */
+function sysHealthJobs(h){
+  var pm=h&&h.pipeline_meta,jobs=[],bad=[];
+  if(!pm)return null;
+  Object.keys(pm).forEach(function(k){
+    var v=pm[k],m=/^(.+)_last_status$/.exec(k);
+    if(m){jobs.push(m[1]);if(String(v).toLowerCase()!=='ok')bad.push(m[1].replace(/_/g,' ')+' '+String(v));}
+    else if(v&&typeof v==='object'){jobs.push(k);if(v.ok===false||v.status==='fail')bad.push(k.replace(/_/g,' ')+' failed');}
+  });
+  return jobs.length?{n:jobs.length,bad:bad}:null;
+}
+
 /* THE THREE STATES, KEPT APART ON PURPOSE.
      ok    everything that reports, reports healthy
      warn  something needs attention — a stale feed, a structural fault on a
@@ -21012,6 +21175,12 @@ function sysHealthLoad(force){
            self-check check reported fail.
    A fault on a futures board is not a broken system, and colouring it red
    would teach a reader to ignore red.
+
+   EVERY COUNT NAMES ITS SUBSYSTEM. The model self-check's own failures are
+   kept apart from the data syncs' (modelFails): on 2026-10-30 the NHL goalie
+   sync's error was added into the self-check's count, and "Model health 21/22,
+   1 failing" sent readers looking for a broken football check that did not
+   exist. `failing` and `warning` name what each count is made of.
 
    THE DATABASE IS JUDGED BY ITS LATEST ANSWER, NOT ITS WORST ONE. #dbPill is
    written by three loaders and nothing else, so one failed read — a sleeping
@@ -21029,22 +21198,27 @@ function sysHealthState(){
   var db=$('dbPill'),dbc=db?db.className:'',pillErr=/\berr\b/.test(dbc),pillOk=/\bok\b/.test(dbc);
   var E=sysHealthDb(),answered=!!(E&&E.ok);
   var dbErr=pillErr&&!answered,dbWarn=pillErr&&answered,dbOk=pillOk||answered;
-  var h=SH.health,fails=0,warns=0;
-  if(h&&h.checks)h.checks.forEach(function(c){if(c.status==='fail')fails++;else if(c.status==='warn')warns++;});
-  /* the NBA injury sync: a failed check or a silent scheduler is a failed system check; degradation is attention */
-  var ni=SH.nbaInj;if(ni){if(ni.state==='error')fails++;else if(ni.state==='warn')warns++;}
-  /* the Kalshi sync: the same rule — a failed snapshot or a silent scheduler fails, degradation is attention */
-  var ksr=SH.ks;if(ksr){if(ksr.state==='error')fails++;else if(ksr.state==='warn')warns++;}
-  /* the NHL starter sync's state counts the same way */
-  var ngr=SH.ngl;if(ngr){if(ngr.state==='error')fails++;else if(ngr.state==='warn')warns++;}
+  var h=SH.health,mf=0,mw=0,failing=[],warning=[];
+  if(h&&h.checks)h.checks.forEach(function(c){if(c.status==='fail')mf++;else if(c.status==='warn')mw++;});
+  var fails=mf,warns=mw;
+  if(mf)failing.push('model self-check');if(mw)warning.push('model self-check');
+  /* the data syncs: a failed check or a silent scheduler is a failed system check; degradation is attention */
+  [['NBA injury sync',SH.nbaInj],['Kalshi snapshot sync',SH.ks],['NHL goalie sync',SH.ngl],['NCAAM early-season sync',SH.nce?{state:SH.nce.state==='down'?'error':SH.nce.state}:null]].forEach(function(x){
+    var r=x[1];if(!r)return;
+    if(r.state==='error'){fails++;failing.push(x[0]);}else if(r.state==='warn'){warns++;warning.push(x[0]);}});
+  var od=sysHealthOdds();
+  if(od.count==='err'){fails++;failing.push('odds capture');}else if(od.count==='warn'){warns++;warning.push('odds capture '+od.status);}
+  var jb=sysHealthJobs(h);if(jb&&jb.bad.length){warns++;warning.push('football pipeline job');}
   var faults=(window.FL&&FL.faults)?FL.faults.length:null;
+  if(faults)warning.push(faults+' structural fault'+(faults===1?'':'s'));
+  if(dbErr)failing.unshift('database');if(dbWarn)warning.push('database (answered since)');
   var st=dbErr||fails>0?'err':(warns>0||(faults!=null&&faults>0)||dbWarn||!dbOk?'warn':'ok');
   /* the count belongs to the state it is shown in: a red pill counts failed
      system checks, an amber one counts the things asking for attention. A red
      "HEALTH 2" that was really two research warnings would teach a reader that
      red means nothing. */
   var n=st==='err'?(fails+(dbErr?1:0)):(warns+(faults||0)+(dbWarn?1:0));
-  return {state:st,fails:fails,warns:warns,faults:faults,n:n,dbOk:dbOk,dbErr:dbErr,dbWarn:dbWarn,health:h};
+  return {state:st,fails:fails,warns:warns,modelFails:mf,modelWarns:mw,failing:failing,warning:warning,odds:od,jobs:jb,faults:faults,n:n,dbOk:dbOk,dbErr:dbErr,dbWarn:dbWarn,health:h};
 }
 /* THE RE-CHECK. One small read — the capture heartbeat, which is also the number
    the feed rows need — asked when the panel opens, while the database is failing
@@ -21077,13 +21251,13 @@ function sysHealthHeartbeat(){var a=window.__edgeLatest||0,b=SH.hb||0;return a>b
 /* One compact status: "System ● Healthy", "System ● 1 warning". A phone
    drops the word and keeps the dot and the count (.hpc), so the three states
    still read without colour alone; the button's aria-label always carries the
-   whole sentence. */
+   whole sentence, with the subsystems the count is made of. */
 function sysHealthPillParts(){
   var s=sysHealthState();
-  if(!SH.health&&!SH.healthErr&&!s.dbOk&&!s.dbErr)return {cls:'',word:'Checking',count:'…',title:'Checking system status'};
+  if(!SH.health&&!SH.healthErr&&!s.dbOk&&!s.dbErr)return {cls:'',word:'Checking',count:'\u2026',title:'Checking system status'};
   if(s.state==='ok')return {cls:'ok',word:'Healthy',count:'',title:'All reporting checks healthy'};
-  if(s.state==='err')return {cls:'err',word:s.n>0?(s.n+' failing'):'Failing',count:s.n>0?String(s.n):'!',title:'A system check failed'};
-  return {cls:'warn',word:s.n>0?(s.n+' warning'+(s.n===1?'':'s')):'Attention',count:s.n>0?String(s.n):'!',title:'Something needs attention'};
+  if(s.state==='err')return {cls:'err',word:s.n>0?(s.n+' failing'):'Failing',count:s.n>0?String(s.n):'!',title:'Failing: '+(s.failing.join(', ')||'a system check'),who:s.failing.join(', ')};
+  return {cls:'warn',word:s.n>0?(s.n+' warning'+(s.n===1?'':'s')):'Attention',count:s.n>0?String(s.n):'!',title:'Needs attention: '+(s.warning.join(', ')||'a check'),who:s.warning.join(', ')};
 }
 function sysHealthPill(){
   var el=$('sysHealthPill');if(!el)return;
@@ -21093,20 +21267,55 @@ function sysHealthPill(){
   el.className='pill hpsum'+(p.cls?' '+p.cls:'');
   el.title=p.title;
   var btn=$('sysHealthBtn');
-  if(btn)btn.setAttribute('aria-label','System status: '+p.word.toLowerCase()+'. Open system health');
+  if(btn)btn.setAttribute('aria-label','System status: '+p.word.toLowerCase()+(p.who?' ('+p.who+')':'')+'. Open system health');
 }
+/* A row is label, note and value as three separate pieces of text. The spaces between them are not
+   decoration: the row is a flex box, so they draw nothing, but without them the row's text ran together
+   ("…(game day)421 min", "…matched to a gameclean") for anything that reads text rather than pixels —
+   a screen reader's flattened text, a copy, a page-to-text tool — and one such tool rendered each value's
+   first character as an entity (&#x34;21 min, &#x63;lean). Every piece is escaped exactly once, here. */
 function shRow(label,note,value,cls){
-  return '<div class="hpr"><span class="l">'+edEsc(label)+(note?'<i>'+edEsc(note)+'</i>':'')
-    +'</span><span class="v '+(cls||'')+'">'+edEsc(value)+'</span></div>';
+  return '<div class="hpr"><span class="l">'+edEsc(label)+(note?' <i>'+edEsc(note)+'</i>':'')
+    +'</span> <span class="v '+(cls||'')+'">'+edEsc(value)+'</span></div>';
 }
-function shAgo(t){return t?ago(t):'—';}
+/* a section heading: model, data sources, scheduled jobs, data quality, research governance, history */
+function shSec(t){return '<div class="hps" role="heading" aria-level="3">'+edEsc(t)+'</div>';}
+function shAgo(t){return t?ago(t):'\u2014';}
 function shStamp(iso){var t=iso?new Date(iso).getTime():NaN;return isNaN(t)?null:t;}
+function shPl(n,w){return n+' '+w+(n===1?'':'s');}
 
 function sysHealthHTML(){
   var s=sysHealthState(),h=s.health,out='';
   out+='<div class="hph">System health</div>';
+  /* the aggregate, explained: which subsystems the header's count is made of */
+  if(s.failing.length||s.warning.length)
+    out+='<p class="hpn" style="margin:0 0 8px">'+(s.failing.length?'<b>Failing:</b> '+edEsc(s.failing.join(', '))+'. ':'')
+      +(s.warning.length?'<b>Needs attention:</b> '+edEsc(s.warning.join(', '))+'.':'')+'</p>';
 
-  /* 1 · DATABASE — and WHY, whenever there is a why. "read failed" on its own
+  /* ── 1 · MODEL HEALTH ─────────────────────────────────────────────── */
+  out+=shSec('Model health');
+  /* the daily self-check over the football engines, and nothing else: a data sync's state is its own row */
+  if(h&&h.checks){
+    var n=h.checks.length,ck=function(st){return h.checks.filter(function(c){return c.status===st;}).map(function(c){return (c.label||c.id)+(c.detail?' ('+c.detail+')':'');});};
+    var cf=ck('fail'),cw=ck('warn');
+    out+=shRow('Model health',cf.length?(shPl(cf.length,'failing check')+': '+cf.join('; ')):(cw.length?(shPl(cw.length,'check')+' warning, none failing: '+cw.join('; ')):'every check passing'),
+      (n-cf.length)+'/'+n,cf.length?'err':(cw.length?'warn':'ok'));
+  } else out+=shRow('Model health',SH.healthErr?('football/health.json '+SH.healthErr):'the daily self-check record has not loaded','not loaded','mut');
+  /* BUILD FRESHNESS is the age of the TRAINED parameters, which is not the age of the ratings. The football
+     parameters are fitted before each season on completed seasons and held fixed through it by design
+     (model_loop/adapters/nfl/baselines/README.md: "refit before each season"); the ratings they drive learn
+     from every completed game, and that is what goes stale if the daily run stops. So the row says both. */
+  var pb=h&&h.run&&h.run.params_built_at,newest=null,ln=h&&h.learning,thru=[];
+  if(pb)Object.keys(pb).forEach(function(k){var t=shStamp(pb[k]);if(t&&(newest==null||t>newest))newest=t;});
+  if(ln)Object.keys(ln).forEach(function(k){if(ln[k]&&ln[k].data_through)thru.push(k.toUpperCase()+' '+ln[k].data_through);});
+  var mv=h&&h.run&&h.run.model_versions?Object.keys(h.run.model_versions).map(function(k){return h.run.model_versions[k];}).join(', '):'';
+  out+=shRow('Build freshness',newest?('football parameters'+(mv?' '+mv:'')+' built '+shAgo(newest)+': fitted before the season and held fixed through it by design, not stale'
+      +(thru.length?' \u00b7 ratings learn daily, results absorbed through '+thru.join(', '):'')):'no parameter build stamp on file',
+    newest?'season-fixed':'\u2014',newest?'na':'mut');
+
+  /* ── 2 · DATA SOURCES ─────────────────────────────────────────────── */
+  out+=shSec('Data sources');
+  /* DATABASE — and WHY, whenever there is a why. "read failed" on its own
      sent the reader to the browser console: a refused key, an unexposed table, an
      unapplied migration and a paused project all read identically and none of them
      are fixed the same way. sbFetch already captures the status and the PostgREST
@@ -21120,119 +21329,138 @@ function sysHealthHTML(){
   if(s.dbWarn)dbWhy=(V&&V.where?V.where:'a view')+' could not be read '+(V&&V.at?shAgo(V.at):'earlier')
     +(V&&V.reason?': '+V.reason:'')+' \u00b7 the database has answered since, so retry that view';
   out+=shRow('Database',dbWhy,
-    s.dbErr?'read failed':(s.dbOk?'connected':'connecting…'),
+    s.dbErr?'read failed':(s.dbOk?'connected':'connecting\u2026'),
     s.dbErr?'err':(s.dbWarn?'warn':(s.dbOk?'ok':'mut')));
   /* An expired login is not an outage and must not be reported as one. Reads fall
      back to the anon reader, so the public boards keep answering while anything
      user-scoped is legitimately empty — which would otherwise read as lost data. */
   if(window.__EDGE_SESSION_DEAD)
     out+=shRow('Sign-in',window.__EDGE_SESSION_DEAD,'signed out','warn');
-
-  /* 2 · MODEL HEALTH — the daily self-check over the football engines */
-  if(h&&h.checks){
-    var n=h.checks.length;
-    out+=shRow('Model health',s.fails?(s.fails+' failing check'+(s.fails===1?'':'s')):(s.warns?(s.warns+' check'+(s.warns===1?'':'s')+' warning'):'every check passing'),
-      (n-s.fails)+'/'+n,s.fails?'err':(s.warns?'warn':'ok'));
-  } else out+=shRow('Model health',SH.healthErr?('football/health.json '+SH.healthErr):'the daily self-check record has not loaded','not loaded','mut');
-
-  /* 3 · DATA / FEED HEALTH — the capture heartbeat is the one feed every board
-     depends on; the research modules publish their own build times. */
-  var hb=sysHealthHeartbeat();
-  var hbAge=hb?(Date.now()-hb)/60000:null;
-  out+=shRow('Data / feed health',hb?(hbAge>180?'odds capture has not written in over 3 hours':'odds capture is writing'):(SH.probe?'reading the capture heartbeat…':(SH.hbReadAt?'the database answered with no capture row visible to this account':'no capture heartbeat read yet')),
-    hb?(hbAge>180?'stale':'fresh'):'unknown',hb?(hbAge>180?'warn':'ok'):'mut');
-  if(h&&h.pipeline_meta){
-    var pm=h.pipeline_meta,bad=0,tot=0;
-    Object.keys(pm).forEach(function(k){tot++;var v=pm[k];if(v&&(v.ok===false||v.status==='fail'))bad++;});
-    if(tot)out+=shRow('Pipeline jobs',bad?(bad+' reporting a failure'):'all reporting clean',(tot-bad)+'/'+tot,bad?'warn':'ok');
+  /* DATA / FEED HEALTH — the odds capture every board depends on, in one of its six states */
+  var od=s.odds;
+  out+=shRow('Data / feed health','odds capture: '+od.why,od.status,od.cls);
+  /* LAST SUCCESSFUL SYNC — a write on record, or "none on record". Never the time of this read. */
+  var noneWhy=SH.odds?'the odds gateway records no verified capture for any sport':'';
+  if(!od.last&&SH.hbReadAt&&!SH.hb)noneWhy+=(noneWhy?', and ':'')+'the board\u2019s capture rows are not readable by this account';
+  out+=shRow('Last successful sync',od.last?('most recent successful odds capture write'+(od.src?', from '+od.src:'')):('no successful odds capture write is on record'+(noneWhy?': '+noneWhy:'')),
+    od.last?shAgo(od.last):'none on record',od.last?(od.status==='healthy'?'ok':''):'mut');
+  var NI=SH.nbaInj,KS=SH.ks,NG=SH.ngl;
+  if(NI){
+    /* TWO AGES, KEPT APART: how old the league's newest report is (their side — on 2026-10-30 the league
+       published nothing between 6:00 AM and 2 PM ET, and every later slot answered AccessDenied) and how long
+       since the sync last checked (ours). A quiet league is information; a sync that stopped checking is the
+       fault. 75 min is the sync's own check_max_age_minutes. */
+    var offMin=NI.minutes_since_official_report,chkMin=NI.minutes_since_success,syncStale=chkMin==null||chkMin>75;
+    out+=shRow('NBA injury report freshness',NI.last_official_report_at?('league report published '+shAgo(shStamp(NI.last_official_report_at))+(NI.game_day?' (game day)':' (no game today)')
+        +(chkMin!=null?' \u00b7 sync last checked '+chkMin+' min ago'+(syncStale?', which is late':', so the league has not published a newer one'):'')
+        +(NI.fallback_in_use?' \u00b7 ESPN fallback in use':'')):'no league report read yet',
+      offMin==null?'\u2014':offMin+' min',NI.fallback_in_use||(NI.game_day&&offMin!=null&&offMin>120&&syncStale)?'warn':(offMin==null?'mut':(NI.game_day&&offMin>120?'na':'ok')));
   }
+  if(KS){
+    var ksAge=KS.minutes_since_snapshot;
+    out+=shRow('Kalshi last successful snapshot',(KS.markets_last_snapshot||0)+' market'+(KS.markets_last_snapshot===1?'':'s')+' \u00b7 '+(KS.tracked_series||0)+' tracked series'+(KS.last_discover_at?' \u00b7 series list read '+shAgo(shStamp(KS.last_discover_at)):' \u00b7 series list never read'),
+      KS.last_successful_snapshot_at?shAgo(shStamp(KS.last_successful_snapshot_at)):'\u2014',KS.last_successful_snapshot_at?(ksAge!=null&&ksAge>15?'warn':'ok'):'mut');
+  }
+  if(NG)out+=shRow('NHL starter sources','Daily Faceoff '+(NG.daily_faceoff_ok===false?'could not be read on the last check':NG.daily_faceoff_ok?'read on the last check':'not read on the last check')
+      +' \u00b7 NHL boxscore '+(NG.nhl_api_ok===false?'could not be read':NG.nhl_api_ok?'read':'not needed (no lineup posted yet)')+(NG.last_success_at?' \u00b7 last good run '+shAgo(shStamp(NG.last_success_at)):''),
+    NG.daily_faceoff_ok===false||NG.nhl_api_ok===false?'source down':(NG.daily_faceoff_ok?'reading':'unknown'),NG.daily_faceoff_ok===false||NG.nhl_api_ok===false?'err':(NG.daily_faceoff_ok?'ok':'mut'));
 
-  /* 3b · LEARNING LOOPS — each model's weekly learning loop (model_loop/health.json).
+  /* ── 3 · SCHEDULED JOBS ───────────────────────────────────────────── */
+  out+=shSec('Scheduled jobs');
+  var jb=s.jobs;
+  if(jb)out+=shRow('Pipeline jobs',(jb.bad.length?(shPl(jb.bad.length,'job')+' reporting a failure: '+jb.bad.join(', ')):'all reporting clean')+' (football daily self-check run)',
+    (jb.n-jb.bad.length)+'/'+jb.n,jb.bad.length?'warn':'ok');
+  var sc=h?shStamp(h.last_ok_at||h.generated_at):null;
+  out+=shRow('Last self-check',h&&h.run&&h.run.trigger?('run by '+h.run.trigger):null,sc?shAgo(sc):'\u2014',sc?'':'mut');
+  /* LEARNING LOOPS — each model's weekly learning loop (model_loop/health.json).
      A stale or degraded loop is something needing attention, not a failed system
-     check: its numbers still publish, labelled with what is missing. */
+     check: its numbers still publish, labelled with what is missing. A loop that is
+     NOT_SERVED is research-only by governance; it is counted here and named under
+     Research governance, never called broken. */
   var LH=SH.loops;
   if(LH&&LH.loops&&LH.summary){
     var lbad=LH.loops.filter(function(x){return x.status==='STALE'||x.status==='DEGRADED';});
     out+=shRow('Learning loops',lbad.length?lbad.map(function(x){return x.label+' '+String(x.status).toLowerCase()+(x.reasons&&x.reasons[0]?': '+x.reasons[0]:'');}).join(' \u00b7 '):'every loop in season refreshed, researched and fed',
-      (LH.summary.OK||0)+' ok'+(lbad.length?' \u00b7 '+lbad.length+' need'+(lbad.length===1?'s':'')+' attention':'')+(LH.summary.OFF_SEASON?' \u00b7 '+LH.summary.OFF_SEASON+' off season':'')+(LH.summary.NOT_SERVED?' \u00b7 '+LH.summary.NOT_SERVED+' not served':''),
+      (LH.summary.OK||0)+' ok'+(lbad.length?' \u00b7 '+lbad.length+' need'+(lbad.length===1?'s':'')+' attention':'')+(LH.summary.OFF_SEASON?' \u00b7 '+LH.summary.OFF_SEASON+' off season':'')+(LH.summary.NOT_SERVED?' \u00b7 '+LH.summary.NOT_SERVED+' not served (research-only)':''),
       lbad.length?'warn':'ok');
   } else out+=shRow('Learning loops',SH.loopsErr?('model_loop/health.json '+SH.loopsErr):'the learning-loop record has not loaded','not loaded','mut');
-
-  /* 3c · NBA INJURY LAYER — public.nba_injury_readiness. The sync logs every run (skipped ones too), so
+  /* NBA INJURY LAYER — public.nba_injury_readiness. The sync logs every run (skipped ones too), so
      a silent scheduler, a failed check, the fallback in use and layout drift each show here. */
-  var NI=SH.nbaInj;
   if(NI){
-    var niCls=NI.state==='error'?'err':(NI.state==='warn'?'warn':'ok');
     out+=shRow('NBA injury sync',(NI.state_reason||(NI.last_check_at?'last check '+shAgo(shStamp(NI.last_check_at)):'no check yet'))
       +' \u00b7 '+(NI.failures_24h||0)+' failure'+(NI.failures_24h===1?'':'s')+', '+(NI.degraded_24h||0)+' degraded, '+(NI.drift_24h||0)+' drift in 24 h'+(NI.consecutive_failures?' \u00b7 '+NI.consecutive_failures+' failed in a row':''),
-      NI.state==='error'?'failing':(NI.state==='warn'?'degraded':'healthy'),niCls);
-    var offMin=NI.minutes_since_official_report;
-    out+=shRow('NBA injury report freshness',NI.last_official_report_at?('league report published '+shAgo(shStamp(NI.last_official_report_at))+(NI.game_day?' (game day)':' (no game today)')+(NI.fallback_in_use?' \u00b7 ESPN fallback in use':'')):'no league report read yet',
-      offMin==null?'\u2014':offMin+' min',NI.fallback_in_use||(NI.game_day&&offMin!=null&&offMin>120)?'warn':(offMin==null?'mut':'ok'));
-    var dq=(NI.unmatched_players||0)+(NI.teams_missing_count||0)+(NI.unread_lines||0);
-    out+=shRow('NBA injury data quality',(NI.unmatched_players||0)+' unmatched name'+(NI.unmatched_players===1?'':'s')+' \u00b7 '+(NI.teams_missing_count||0)+' team'+(NI.teams_missing_count===1?'':'s')+' missing on a game day'+((NI.teams_missing||[]).length?' ('+NI.teams_missing.join(', ')+')':'')+' \u00b7 '+(NI.unread_lines||0)+' unread report line'+(NI.unread_lines===1?'':'s')+' \u00b7 rosters for '+(NI.teams_with_roster||0)+'/30 teams',
-      dq?(dq+' issue'+(dq===1?'':'s')):'clean',dq?'warn':'ok');
+      NI.state==='error'?'failing':(NI.state==='warn'?'degraded':'healthy'),NI.state==='error'?'err':(NI.state==='warn'?'warn':'ok'));
   } else out+=shRow('NBA injury sync',SH.nbaInjErr?('public.nba_injury_readiness '+SH.nbaInjErr):'the NBA injury layer\u2019s readiness has not loaded','not loaded','mut');
-
-  /* 3d · KALSHI MARKET DATA — public.kalshi_readiness. Every run is logged; a failed snapshot, a scheduler
-     that stops calling, a degraded or drifted run, unmatched game markets and missed closes each show here. */
-  var KS=SH.ks;
+  /* KALSHI MARKET DATA — public.kalshi_readiness. Every run is logged; a failed snapshot, a scheduler
+     that stops calling, a degraded or drifted run, unmatched game markets and missed closes each show here.
+     A reason the view leaves empty is said from the counts, never left blank. */
   if(KS){
-    var ksCls=KS.state==='error'?'err':(KS.state==='warn'?'warn':'ok');
-    out+=shRow('Kalshi snapshot sync',(KS.state_reason||'every 5 minutes, every tracked series')
+    var ksWhy=KS.state_reason||(KS.state==='warn'&&KS.failures_24h&&!KS.consecutive_failures&&KS.last_snapshot_run_status==='ok'
+      ?shPl(KS.failures_24h,'failed run')+' in 24 h, recovered: the latest snapshot succeeded':'every 5 minutes, every tracked series');
+    /* a recovered failure turns the state back to ok but stays named (kalshi_readiness.recent_incident) */
+    if(KS.recent_incident&&KS.state==='ok')ksWhy=KS.recent_incident;
+    out+=shRow('Kalshi snapshot sync',ksWhy
       +' \u00b7 '+(KS.failures_24h||0)+' failure'+(KS.failures_24h===1?'':'s')+', '+(KS.degraded_24h||0)+' degraded, '+(KS.drift_24h||0)+' drift in 24 h'+(KS.consecutive_failures?' \u00b7 '+KS.consecutive_failures+' failed in a row':''),
-      KS.state==='error'?'failing':(KS.state==='warn'?'degraded':'healthy'),ksCls);
-    var ksAge=KS.minutes_since_snapshot;
-    out+=shRow('Kalshi last successful snapshot',(KS.markets_last_snapshot||0)+' market'+(KS.markets_last_snapshot===1?'':'s')+' \u00b7 '+(KS.tracked_series||0)+' tracked series'+(KS.last_discover_at?' \u00b7 series list read '+shAgo(shStamp(KS.last_discover_at)):' \u00b7 series list never read'),
-      KS.last_successful_snapshot_at?shAgo(shStamp(KS.last_successful_snapshot_at)):'\u2014',KS.last_successful_snapshot_at?(ksAge!=null&&ksAge>15?'warn':'ok'):'mut');
-    out+=shRow('Kalshi close capture',KS.closes_7d?((KS.closes_captured_7d||0)+' of '+KS.closes_7d+' game closes captured within 10 min of kickoff in 7 days ('+(KS.closes_usable_7d||0)+' with a trusted mid)'):'no matched game has kicked off in 7 days',
-      KS.close_capture_pct_7d==null?'\u2014':KS.close_capture_pct_7d+'%',KS.close_capture_pct_7d==null?'mut':(KS.close_capture_pct_7d<90?'warn':'ok'));
-    /* unmatched includes games no book prices (FCS, weeks capture has not reached): unmapped by design, never a
-       fault. Only a game a book prices that could not be matched within 30 h is attention (unmapped_settling_soon). */
-    out+=shRow('Kalshi game links',(KS.open_game_markets_linked||0)+' open game market'+(KS.open_game_markets_linked===1?'':'s')+' matched to a game \u00b7 '+(KS.open_game_markets_unmapped||0)+' unmatched (a game no book prices stays unmatched by design)'
-      +(KS.unmapped_settling_soon?' \u00b7 '+KS.unmapped_settling_soon+' priced game'+(KS.unmapped_settling_soon===1?'':'s')+' settling within 30 h could not be matched':''),
-      KS.unmapped_settling_soon?(KS.unmapped_settling_soon+' to check'):'clean',KS.unmapped_settling_soon?'warn':'ok');
-    out+='<p class="hpn">Kalshi: 5-minute snapshots, not live; a market whose YES spread is wider than 6\u00a2 is excluded from the mid; Kalshi\u2019s trading fees are not reflected in the raw gap.</p>';
+      KS.state==='error'?'failing':(KS.state==='warn'?'degraded':'healthy'),KS.state==='error'?'err':(KS.state==='warn'?'warn':'ok'));
   } else out+=shRow('Kalshi snapshot sync',SH.ksErr?('public.kalshi_readiness '+SH.ksErr):'the Kalshi layer\u2019s readiness has not loaded','not loaded','mut');
-
-  /* 3e · NHL STARTING GOALIES — public.nhl_goalie_readiness. Every run is logged (a quiet morning as an hourly
+  /* NHL STARTING GOALIES — public.nhl_goalie_readiness. Every run is logged (a quiet morning as an hourly
      skipped row), so a silent scheduler, a failed check, a source down or drifted, games whose starters were not
      Confirmed by T-30 and open source conflicts each show here. */
-  var NG=SH.ngl;
   if(NG){
-    var ngCls=NG.state==='error'?'err':(NG.state==='warn'?'warn':'ok');
     out+=shRow('NHL goalie sync',(NG.state_reason||(NG.last_check_at?'last check '+shAgo(shStamp(NG.last_check_at)):'no check yet'))
       +' \u00b7 '+(NG.sync_failures_24h||0)+' failed run'+(NG.sync_failures_24h===1?'':'s')+', '+(NG.degraded_24h||0)+' degraded, '+(NG.drift_24h||0)+' drift in 24 h'
       +(NG.consecutive_failures?' \u00b7 '+NG.consecutive_failures+' failed in a row':'')
       +' \u00b7 Daily Faceoff '+(NG.daily_faceoff_ok===false?'down':NG.daily_faceoff_ok?'read':'not read')+', NHL boxscore '+(NG.nhl_api_ok===false?'down':NG.nhl_api_ok?'read':'not needed'),
-      NG.state==='error'?'failing':(NG.state==='warn'?'degraded':'healthy'),ngCls);
-    var t30=NG.pct_confirmed_by_t30_7d;
-    out+=shRow('NHL starters confirmed by T-30',NG.games_7d?((NG.games_confirmed_by_t30_7d||0)+' of '+NG.games_7d+' games in 7 days had both starters Confirmed 30 minutes before puck drop ('+(NG.pct_sides_confirmed_by_t30_7d==null?'\u2014':NG.pct_sides_confirmed_by_t30_7d+'%')+' of starters)'):'no carded game has started in 7 days',
-      t30==null?'\u2014':t30+'%',t30==null?'mut':(NG.games_7d>=5&&t30<(NG.confirmed_by_t30_target_pct||90)?'warn':'ok'));
-    out+=shRow('NHL goalie source conflicts',(NG.conflicts_open||0)+' open on upcoming games \u00b7 '+(NG.conflicts_24h||0)+' in 24 h \u00b7 '+(NG.conflicts_7d||0)+' in 7 days'
-      +(NG.sides_next_3h?' \u00b7 '+(NG.sides_unconfirmed_next_3h||0)+' of '+NG.sides_next_3h+' starters inside 3 h not Confirmed':'')+(NG.unmatched_names?' \u00b7 '+NG.unmatched_names+' unmatched name'+(NG.unmatched_names===1?'':'s'):''),
-      NG.conflicts_open?(NG.conflicts_open+' open'):'clean',NG.conflicts_open||NG.unmatched_names?'warn':'ok');
+      NG.state==='error'?'failing':(NG.state==='warn'?'degraded':'healthy'),NG.state==='error'?'err':(NG.state==='warn'?'warn':'ok'));
   } else out+=shRow('NHL goalie sync',SH.nglErr?('public.nhl_goalie_readiness '+SH.nglErr):'the NHL goalie layer\u2019s readiness has not loaded','not loaded','mut');
+  /* NCAAM EARLY-SEASON (CBBD rosters, games, box lines, portal; hand-entered coaches and availability) —
+     public.ncaam_es_readiness(): KPIs only. */
+  var CE=SH.nce;
+  if(CE){
+    var cc=CE.completeness||{};
+    out+=shRow('NCAAM early-season sync',(CE.reasons&&CE.reasons.length?CE.reasons.join(' \u00b7 '):(CE.state==='not_started'?'no sync has run yet':'every part current'))
+      +(CE.state==='not_started'?'':' \u00b7 box coverage '+(cc.box_coverage==null?'\u2014':Math.round(cc.box_coverage*1000)/10+'%')+', rosters '+(cc.teams_with_roster||0)+' teams ('+(cc.teams_with_live_roster||0)+' captured before the first tip)'
+      +', coach records '+(cc.coach_records||0)+(CE.quota_remaining!=null?' \u00b7 shared CBBD/CFBD quota '+CE.quota_remaining+' left':'')),
+      CE.state==='down'?'failing':(CE.state==='warn'?'degraded':(CE.state==='ok'?'healthy':'not started')),CE.state==='down'?'err':(CE.state==='warn'?'warn':(CE.state==='ok'?'ok':'mut')));
+  } else out+=shRow('NCAAM early-season sync',SH.nceErr?('public.ncaam_es_readiness '+SH.nceErr):'the NCAAM early-season layer\u2019s readiness has not loaded','not loaded','mut');
 
-  /* 4 · FAULTS — the Faultline scan. Not loaded is not zero. */
+  /* ── 4 · DATA QUALITY AND COVERAGE ────────────────────────────────── */
+  out+=shSec('Data quality and coverage');
+  if(NI){
+    var dq=(NI.unmatched_players||0)+(NI.teams_missing_count||0)+(NI.unread_lines||0);
+    out+=shRow('NBA injury data quality',(NI.unmatched_players||0)+' unmatched name'+(NI.unmatched_players===1?'':'s')+' \u00b7 '+(NI.teams_missing_count||0)+' team'+(NI.teams_missing_count===1?'':'s')+' missing on a game day'+((NI.teams_missing||[]).length?' ('+NI.teams_missing.join(', ')+')':'')+' \u00b7 '+(NI.unread_lines||0)+' unread report line'+(NI.unread_lines===1?'':'s')+' \u00b7 rosters for '+(NI.teams_with_roster||0)+'/30 teams',
+      dq?(dq+' issue'+(dq===1?'':'s')):'clean',dq?'warn':'ok');
+  }
+  /* unmatched includes games no book prices (FCS, weeks capture has not reached): unmapped by design, never a
+     fault. Only a game a book prices that could not be matched within 30 h is attention (unmapped_settling_soon). */
+  if(KS)out+=shRow('Kalshi game links',(KS.open_game_markets_linked||0)+' open game market'+(KS.open_game_markets_linked===1?'':'s')+' matched to a game \u00b7 '+(KS.open_game_markets_unmapped||0)+' unmatched (a game no book prices stays unmatched by design)'
+      +(KS.unmapped_settling_soon?' \u00b7 '+KS.unmapped_settling_soon+' priced game'+(KS.unmapped_settling_soon===1?'':'s')+' settling within 30 h could not be matched':''),
+    KS.unmapped_settling_soon?(KS.unmapped_settling_soon+' to check'):'clean',KS.unmapped_settling_soon?'warn':'ok');
+  if(NG)out+=shRow('NHL goalie source conflicts',(NG.conflicts_open||0)+' open on upcoming games \u00b7 '+(NG.conflicts_24h||0)+' in 24 h \u00b7 '+(NG.conflicts_7d||0)+' in 7 days'
+      +(NG.sides_next_3h?' \u00b7 '+(NG.sides_unconfirmed_next_3h||0)+' of '+NG.sides_next_3h+' starters inside 3 h not Confirmed':'')+(NG.unmatched_names?' \u00b7 '+NG.unmatched_names+' unmatched name'+(NG.unmatched_names===1?'':'s'):''),
+    NG.conflicts_open?(NG.conflicts_open+' open'):'clean',NG.conflicts_open||NG.unmatched_names?'warn':'ok');
+  /* FAULTS — the Faultline scan. Not loaded is not zero. */
   var fl=(window.FL&&FL.faults)?FL.faults:null;
   out+=shRow('Faults / warnings',
     fl?(fl.length?'structural faults on the boards under watch':'no structural fault on the boards under watch'):'the fault scan has not run this session',
     fl?String(fl.length):'not scanned',fl?(fl.length?'warn':'ok'):'mut');
 
-  /* 5 · LAST SUCCESSFUL SYNC */
-  out+=shRow('Last successful sync','most recent odds capture write',hb?shAgo(hb):'—',hb?'':'mut');
+  /* ── 5 · RESEARCH GOVERNANCE ──────────────────────────────────────── */
+  out+=shSec('Research governance');
+  var ns=LH&&LH.loops?LH.loops.filter(function(x){return x.status==='NOT_SERVED';}):[];
+  out+=shRow('Research-only (not served)',LH&&LH.loops?(ns.length?ns.map(function(x){return x.label+(x.reasons&&x.reasons[0]?': '+x.reasons[0]:'');}).join(' \u00b7 '):'every loop with a version on file is served'):'the learning-loop record has not loaded',
+    LH&&LH.loops?(ns.length?ns.length+' research-only':'none'):'not loaded',LH&&LH.loops?'na':'mut');
+  if(KS)out+='<p class="hpn">Kalshi: 5-minute snapshots, not live; a market whose YES spread is wider than 6\u00a2 is excluded from the mid; Kalshi\u2019s trading fees are not reflected in the raw gap.</p>';
 
-  /* 6 · LAST SELF-CHECK */
-  var sc=h?shStamp(h.last_ok_at||h.generated_at):null;
-  out+=shRow('Last self-check',h&&h.run&&h.run.trigger?('run by '+h.run.trigger):null,sc?shAgo(sc):'—',sc?'':'mut');
-
-  /* 7 · BUILD FRESHNESS — when the model parameters the app is reading were
-     built. A rating is only as current as the params behind it. */
-  var pb=h&&h.run&&h.run.params_built_at,newest=null;
-  if(pb)Object.keys(pb).forEach(function(k){var t=shStamp(pb[k]);if(t&&(newest==null||t>newest))newest=t;});
-  out+=shRow('Build freshness',pb?'newest football parameter build':'no parameter build stamp on file',
-    newest?shAgo(newest):'—',newest?'':'mut');
+  /* ── 6 · HISTORICAL PERFORMANCE (7 days) ──────────────────────────── */
+  if(KS||NG)out+=shSec('Historical performance (7 days)');
+  if(KS)out+=shRow('Kalshi close capture',KS.closes_7d?((KS.closes_captured_7d||0)+' of '+KS.closes_7d+' game closes captured within 10 min of kickoff in 7 days ('+(KS.closes_usable_7d||0)+' with a trusted mid)'):'no matched game has kicked off in 7 days',
+    KS.close_capture_pct_7d==null?'\u2014':KS.close_capture_pct_7d+'%',KS.close_capture_pct_7d==null?'mut':(KS.close_capture_pct_7d<90?'warn':'ok'));
+  if(NG){
+    var t30=NG.pct_confirmed_by_t30_7d;
+    out+=shRow('NHL starters confirmed by T-30',NG.games_7d?((NG.games_confirmed_by_t30_7d||0)+' of '+NG.games_7d+' games in 7 days had both starters Confirmed 30 minutes before puck drop ('+(NG.pct_sides_confirmed_by_t30_7d==null?'\u2014':NG.pct_sides_confirmed_by_t30_7d+'%')+' of starters)'):'no carded game has started in 7 days',
+      t30==null?'\u2014':t30+'%',t30==null?'mut':(NG.games_7d>=5&&t30<(NG.confirmed_by_t30_target_pct||90)?'warn':'ok'));
+  }
 
   out+='<button class="hpact" onclick="sysHealthGoFaults()">View all faults &rarr;</button>';
   out+='<p class="hpn">Faults are structural errors EdgeDesk finds on public boards and in its own pipeline. A clean scan is the correct result, not a missing one. Nothing here is a bet signal.</p>';
@@ -21252,6 +21480,8 @@ function sysHealthOpen(){
   try{if(SH.nbaInjAt&&(Date.now()-SH.nbaInjAt)>60000)sysHealthNbaLoad(true);}catch(_){}
   /* the Kalshi sync snapshots every 5 minutes: likewise */
   try{if(SH.ksAt&&(Date.now()-SH.ksAt)>60000)sysHealthKalshiLoad(true);}catch(_){}
+  /* the odds gateway's state changes with the budget and the breaker: likewise */
+  try{if(SH.oddsAt&&(Date.now()-SH.oddsAt)>60000)sysHealthOddsLoad(true);}catch(_){}
   /* opening the panel is asking "is it working NOW": answer from a fresh read
      whenever the database is in doubt or the heartbeat has not been read */
   var s=sysHealthState();
@@ -21292,7 +21522,7 @@ function moreItem(ic,title,note,call,id){
     +'<b style="font-weight:600">'+edEsc(title)+'<span>'+edEsc(note)+'</span></b><span class="go">&rsaquo;</span></button>';
 }
 /* MORE — everything secondary, in sections, never a drawer of leftovers:
-     Community & tools   Collective, EdgeDesk Games
+     Community & tools   Collective, EdgeDesk Games, Bet Checker
      Transparency        Model performance, Methodology, Data sources
      System              Model & data health, Faults, News & moat alerts
      Account             Settings & account, Set up EdgeDesk, Learn EdgeDesk
@@ -21312,7 +21542,8 @@ function loadMore(){
     news:'<path d="M4 5h16v14H4z"/><path d="M8 9h8M8 13h8M8 17h5"/>',
     start:'<path d="M5 12h14"/><path d="M13 6l6 6-6 6"/>',
     legal:'<path d="M12 3l7 4v5c0 4-3 7-7 9-4-2-7-5-7-9V7z"/>',
-    help:'<circle cx="12" cy="12" r="9"/><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8.9c0 1.7-2.4 2.2-2.4 3.6"/><path d="M12 17.2v.1"/>'
+    help:'<circle cx="12" cy="12" r="9"/><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8.9c0 1.7-2.4 2.2-2.4 3.6"/><path d="M12 17.2v.1"/>',
+    check:'<path d="M4 12.5l5 5L20 6.5"/>'
   };
   var sec=[];
   function group(title,rows){rows=rows.filter(Boolean);if(rows.length)sec.push('<div class="morehd">'+title+'</div>'+rows.join(''));}
@@ -21321,7 +21552,11 @@ function loadMore(){
     /* EdgeDesk Games is a SEPARATE public product, not a view in this app: it
        needs no account, and its traffic is meant to run Games -> EdgeDesk rather
        than the other way round. It opens in its own tab so nobody loses a board. */
-    moreItem(IC.games,'EdgeDesk Games ↗','Free football games — price a matchup against the model, or make your weekly five. No account needed.','moreGoGames()','games')]);
+    moreItem(IC.games,'EdgeDesk Games ↗','Free football games — price a matchup against the model, or make your weekly five. No account needed.','moreGoGames()','games'),
+    /* Bet Checker is its own page as well: free and Bet Checker readers cannot
+       open this app, so the page they use lives outside it. Your plan includes
+       it (docs/bet-checker.md). */
+    moreItem(IC.check,'Bet Checker ↗','Log the bets you place: each graded against EdgeDesk’s fair price when you log it, then against the close. Included in your plan.','moreGoBetChecker()','bet_checker')]);
   group('Transparency',[
     /* EdgeDesk's record, never the reader's: the reader's results are Portfolio */
     $('v-record')?moreItem(IC.model,'Model performance','How EdgeDesk’s model and flagged edges have performed — every graded call. Not your bets.','show(\'record\')','model_performance'):'',
@@ -21361,6 +21596,10 @@ function moreGoProvenance(){
 function moreGoGames(){
   try{window.open('/games/?ref=app','_blank','noopener');}
   catch(_){location.href='/games/?ref=app';}
+}
+function moreGoBetChecker(){
+  try{window.open('/bet-checker/?ref=app','_blank','noopener');}
+  catch(_){location.href='/bet-checker/?ref=app';}
 }
 function moreGoPerformance(){
   try{window.open('/performance/','_blank','noopener');}
@@ -22646,6 +22885,7 @@ function pgAccessCfg(){ return {url:SB_URL,key:SB_KEY,token:function(){return (t
 async function pgReadAccess(){
   var a=await window.EDAccess.read(pgAccessCfg());
   if(a.ok){ window.ED_ACCESS=a.access; window.SUB=a.access.subscription||null; }
+  if(typeof edJrBackSync==='function')edJrBackSync();
   return a;
 }
 async function pgCheck(){
@@ -22707,6 +22947,78 @@ function pgCheckoutURL(){
   return url;
 }
 
+/* ---- BOUGHT THROUGH JUICE REEL (docs/juicereel-billing.md) ----------------
+   window.ED_JR is the server's word on whether this reader may buy through
+   Juice Reel (its JUICE_REEL_CHECKOUT switch). Unknown or unreachable reads
+   as unavailable, and the Stripe offer stands alone exactly as before. A
+   return from Juice Reel opens nothing by itself: the server exchanges the
+   code and asks Juice Reel, and the page re-reads my_billing_access. */
+window.ED_JR=null;
+async function pgLoadJuiceReel(){
+  if(!window.EDJuiceReel){ window.ED_JR=null; return null; }
+  try{ window.ED_JR=await window.EDJuiceReel.status(pgAccessCfg()); }catch(_){ window.ED_JR=null; }
+  return window.ED_JR;
+}
+function pgJuiceReelOn(){ return !!(window.ED_JR&&window.ED_JR.available); }
+async function pgJuiceReelStart(kind,btn){
+  var m=$('pgMsg')||$('setAccessMsg');
+  if(btn)btn.disabled=true;
+  if(m){m.className=(m.id==='pgMsg'?'pg-msg':'set-msg')+' mut';m.innerHTML='<span class="pg-spin"></span>'+(kind==='link'?'Opening Juice Reel…':'Opening Juice Reel’s secure checkout…');}
+  var r=await window.EDJuiceReel.start(pgAccessCfg(),kind);
+  /* the Stripe return poll must not run for a Juice Reel purchase */
+  if(r.ok){ try{localStorage.removeItem('edgedesk_pending_sub');}catch(_){} window.EDJuiceReel.go(r.url); return; }
+  if(btn)btn.disabled=false;
+  if(r.reason==='already_entitled'&&typeof pgRecheck==='function'){ pgRecheck(); return; }
+  if(m){m.className=(m.id==='pgMsg'?'pg-msg':'set-msg')+' err';m.innerHTML=stEsc(r.message)+(r.ref?' Reference <b>'+stEsc(r.ref)+'</b>.':'');}
+}
+function pgJuiceReelButtons(primary){
+  return '<button class="pg-btn'+(primary?'':' ghost')+'" onclick="pgJuiceReelStart(\'checkout\',this)">Subscribe with Juice Reel</button>'+
+    '<button class="pg-btn ghost" onclick="pgJuiceReelStart(\'link\',this)">I bought EdgeDesk on Juice Reel — link my account</button>';
+}
+function pgJuiceReelPendingHTML(line){
+  return '<h1 class="pg-h"><span class="pg-spin"></span>Confirming your Juice Reel checkout…</h1>'+
+    '<p class="pg-p">EdgeDesk is checking your purchase with Juice Reel and opening your account. This usually takes a few seconds.</p>'+
+    (line?'<div class="pg-status">'+line+'</div>':'')+
+    '<div class="pg-msg mut" id="pgMsg"></div>';
+}
+/* back from Juice Reel (oauth/juicereel-subscribe.html left the return in this
+   tab). Signed out: the return waits in the tab for sign-in, and nothing is
+   decided. */
+async function pgJuiceReelReturn(){
+  var X=window.EDJuiceReel;
+  var tok=null; try{ tok=(typeof edToken==='function')?await edToken():null; }catch(_){ tok=null; }
+  if(!X||!tok||!X.peekReturn())return false;
+  var ret=X.takeReturn();
+  try{ history.replaceState(null,'',location.pathname+location.hash); }catch(_){}
+  if(!ret)return false;
+  pgShow(pgJuiceReelPendingHTML(''));
+  var r=await X.complete(pgAccessCfg(),ret);
+  var unlock=function(){ pgHide(); pgWarnBar(window.SUB); pgOnUnlock(); return true; };
+  var a=await pgReadAccess();
+  if(a.ok&&a.access.has_access)return unlock();
+  /* paid, but Juice Reel's purchase event is a moment behind: bounded re-reads */
+  if(r.outcome==='pending'){
+    var waits=[2000,3000,5000,8000,12000];
+    for(var i=0;i<waits.length;i++){
+      pgShow(pgJuiceReelPendingHTML('Checked '+(i+1)+' of '+waits.length+' times. Leave this page open.'));
+      await new Promise(function(ok){setTimeout(ok,waits[i]);});
+      a=await pgReadAccess();
+      if(a.ok&&a.access.has_access)return unlock();
+    }
+  }
+  await pgLoadJuiceReel();
+  var ref=r.ref?' Reference <b>'+stEsc(r.ref)+'</b>.':'';
+  var note=r.outcome==='cancelled'
+      ? 'The Juice Reel checkout was cancelled, or access to your Juice Reel account was not allowed, so nothing was opened. <b>If you did pay on Juice Reel, do not pay again</b> — choose “I bought EdgeDesk on Juice Reel” below.'
+    : r.outcome==='pending'
+      ? 'Your Juice Reel payment is safe — Juice Reel has not confirmed it to EdgeDesk yet, and EdgeDesk keeps checking. <b>Do not pay again.</b> If this persists, email <a href="mailto:'+PG_SUPPORT+'">'+PG_SUPPORT+'</a>.'+ref
+    : r.outcome==='not_subscribed'
+      ? 'Your Juice Reel account'+(r.display_name?' (<b>'+stEsc(r.display_name)+'</b>)':'')+' is linked, but Juice Reel shows no EdgeDesk subscription on it. If you bought with a different Juice Reel account, link that one.'
+      : stEsc(r.message||'The Juice Reel checkout could not be finished.')+ref;
+  pgShow(pgLockedHTML(note));
+  return true;
+}
+
 function pgLockedHTML(note){
   var u=(typeof edUser==='function')?edUser():null;
   var s=window.SUB;
@@ -22719,6 +23031,28 @@ function pgLockedHTML(note){
   var acc=window.ED_ACCESS;
   var X=window.EDPricing, fresh=acc&&acc.offer?acc.offer==='trial':!s;
   var price=SUB_PRICE_DISPLAY;
+  /* BET CHECKER (tier red) IS PAID FOR, JUST NOT FOR THIS. The terminal is a
+     plan switch in the billing portal: one subscription changing price, never
+     a second checkout beside the first (create_checkout_session refuses that
+     with switch_plan). Their own product is one tap away. */
+  if(acc&&acc.offer==='upgrade'){
+    var portal=stripePortalHref();
+    /* what the reader has now: Fairline (tier black) or Bet Checker (tier red) */
+    var curPlan=acc.tier==='black'?'Fairline':'Bet Checker';
+    var curWhat=acc.tier==='black'?'Fairline measures your prices and your bets (Bet Checker included)':'Bet Checker grades the bets you place';
+    return '<h1 class="pg-h">Your plan is '+curPlan+'</h1>'+
+      '<p class="pg-p">You\u2019re signed in'+(u&&u.email?' as <b>'+stEsc(u.email)+'</b>':'')+'. '+curWhat+'; the research terminal is the '+stEsc(SUB_PLAN_NAME)+' plan. '+
+      'Switch plans in the billing portal \u2014 the switch replaces '+curPlan+', so you are never billed for both, and '+curPlan+' stays included.</p>'+
+      (note?'<div class="pg-status">'+note+'</div>':'')+
+      '<div class="pg-price"><span class="n">'+stEsc(price)+'</span><span class="per">per month for the terminal</span></div>'+
+      '<ul class="pg-list two">'+((X&&X.FEATURES)||[]).map(function(f){return '<li>'+stEsc(f)+'</li>';}).join('')+'</ul>'+
+      (portal?'<a class="pg-btn" href="'+portal+'" target="_blank" rel="noopener">Switch plan in the billing portal</a>'
+             :'<a class="pg-btn" href="mailto:'+PG_SUPPORT+'?subject='+encodeURIComponent('Switch my plan to the EdgeDesk terminal')+'">Switch plan \u2014 email us</a>')+
+      '<a class="pg-btn ghost" href="/bet-checker/" style="display:block;text-align:center;text-decoration:none;line-height:1.35;padding-top:13px;padding-bottom:13px">Open Bet Checker</a>'+
+      '<button class="pg-btn ghost" onclick="pgRecheck()">I already switched \u2014 check again</button>'+
+      '<button class="pg-btn ghost" onclick="edSignOut()">Sign out</button>'+
+      '<div class="pg-msg mut" id="pgMsg"></div>';
+  }
   var head=failed?'Your payment didn\u2019t go through'
           :canceled?'Your subscription has ended'
           :fresh?'Unlock '+stEsc(SUB_PLAN_NAME)
@@ -22727,9 +23061,20 @@ function pgLockedHTML(note){
           :canceled?'Your subscription was cancelled, so the terminal is closed. You can restart it any time.'
           :'You\u2019re signed in'+(u&&u.email?' as <b>'+stEsc(u.email)+'</b>':'')+', but the terminal needs an active subscription. This is a locked board, not an empty one.';
   var resub=pgCheckoutURL();
+  /* JUICE REEL, when the server offers it: first, and the Stripe offer below
+     it unchanged (a ghost button), so nothing the landing page promises about
+     the trial stops being true. */
+  var jr=pgJuiceReelOn();
+  var stripeCls=jr?'pg-btn ghost" style="display:block;text-align:center;text-decoration:none;line-height:1.35;padding-top:13px;padding-bottom:13px':'pg-btn';
   return '<h1 class="pg-h">'+head+'</h1>'+
     '<p class="pg-p">'+body+'</p>'+
     (note?'<div class="pg-status">'+note+'</div>':'')+
+    /* Juice Reel's offer is its own: its checkout states the plan and price,
+       so it sits ABOVE the card trial's figures, which are labelled as the
+       card's and never read as Juice Reel's. */
+    (jr?'<div class="pg-status">Subscribe through EdgeDesk’s partner Juice Reel: its secure checkout shows the plan and price before you pay, '+
+        'Juice Reel bills it, and this account opens when you come back.</div>'+pgJuiceReelButtons(true)+
+        '<p class="pg-p" style="margin-top:18px">Or with a card:</p>':'')+
     /* THE WHOLE OFFER, BEFORE ANY CLICK. A reader who has never subscribed
        is sent through the landing page's trial flow, which records the
        auto-renewal consent before Stripe; a reader whose subscription lapsed
@@ -22742,19 +23087,21 @@ function pgLockedHTML(note){
     /* What Full Access includes: the same list the landing page's plan card
        carries, from the same file. Player props are in it, not sold apart. */
     '<ul class="pg-list two">'+((X&&X.FEATURES)||[]).map(function(f){return '<li>'+stEsc(f)+'</li>';}).join('')+'</ul>'+
-    (fresh?'<a class="pg-btn" href="./index.html#subscribe">Start '+(X?X.TRIAL_DAYS:'')+' days free</a>'
-       :resub?'<a class="pg-btn" href="'+resub+'">Subscribe \u2014 '+stEsc(price)+'/mo</a>'
-       :'<a class="pg-btn" href="mailto:'+PG_SUPPORT+'?subject='+encodeURIComponent('Restart my EdgeDesk subscription')+'">Restart your subscription \u2014 email us</a>')+
+    (fresh?'<a class="'+stripeCls+'" href="./index.html#subscribe">Start '+(X?X.TRIAL_DAYS:'')+' days free</a>'
+       :resub?'<a class="'+stripeCls+'" href="'+resub+'">Subscribe \u2014 '+stEsc(price)+'/mo</a>'
+       :'<a class="'+stripeCls+'" href="mailto:'+PG_SUPPORT+'?subject='+encodeURIComponent('Restart my EdgeDesk subscription')+'">Restart your subscription \u2014 email us</a>')+
     '<button class="pg-btn ghost" onclick="pgRecheck()">I already paid \u2014 check again</button>'+
     /* THIS SCREEN USED TO BE A DEAD END. Three buttons — pay, re-check, sign
        out — for the one visitor most likely to have hit a bug: brand new,
        just signed up, not yet paid. There was no way from here to say so, and
        no way to reach the free half of the product they can use today. */
     '<a class="pg-btn ghost" href="/games/?ref=paygate" style="display:block;text-align:center;text-decoration:none;line-height:1.35;padding-top:13px;padding-bottom:13px">Play EdgeDesk Games \u2014 free, no subscription</a>'+
+    '<a class="pg-btn ghost" href="/bet-checker/?ref=paygate" style="display:block;text-align:center;text-decoration:none;line-height:1.35;padding-top:13px;padding-bottom:13px">Grade the bets you place \u2014 Bet Checker, free</a>'+
     '<button class="pg-btn ghost" data-ed-report="Payment or billing">Report a problem</button>'+
     '<button class="pg-btn ghost" onclick="edSignOut()">Sign out</button>'+
     '<div class="pg-msg mut" id="pgMsg"></div>'+
-    '<div class="pg-foot">Billed monthly by Rackler Tech Ventures LLC. Renews automatically until cancelled. '+
+    '<div class="pg-foot">'+(jr?'Card trial and subscription: ':'')+'Billed monthly by Rackler Tech Ventures LLC. Renews automatically until cancelled. '+
+      (jr?'Through Juice Reel: billed, renewed and cancelled on Juice Reel. ':'')+
       'Questions or cancellation: <a href="mailto:'+PG_SUPPORT+'">'+PG_SUPPORT+'</a><br>'+
       'Research tool only, not betting advice. 21+.</div>';
 }
@@ -22784,6 +23131,7 @@ async function pgRecheck(){
       ? 'Could not reach the database to verify. Check your connection and try again.'
       : (limited?'Checked a moment ago \u2014 try again in a minute. '
                 :'Stripe has no active subscription or trial for this account yet. If you just paid, give it a minute. ')+
+        (pgJuiceReelOn()?'Bought on Juice Reel? Choose “I bought EdgeDesk on Juice Reel” above. ':'')+
         '<b>Please do not pay again or create another account.</b> Email <a href="mailto:'+PG_SUPPORT+
         (ref?'?subject='+encodeURIComponent('Access not active \u2014 '+ref):'')+'">'+PG_SUPPORT+'</a>'+
         (ref?' with reference <b>'+stEsc(ref)+'</b>':'')+' and it is fixed in one step.';
@@ -22847,6 +23195,9 @@ async function pgPollForSub(){
   var justPaid=/[?&]checkout=success/.test(qs);
   var pending=false; try{pending=localStorage.getItem('edgedesk_pending_sub')==='1';}catch(_){}
 
+  /* back from Juice Reel: the server finishes it before anything else is decided */
+  if(/[?&]jrsub=return/.test(qs)&&window.EDAccess&&window.EDJuiceReel&&await pgJuiceReelReturn())return;
+
   var st=await pgCheck();
   if(st==='ok'){
     try{localStorage.removeItem('edgedesk_pending_sub');}catch(_){}
@@ -22857,6 +23208,7 @@ async function pgPollForSub(){
   if(st==='unknown'){ pgEntitledSignal('unknown'); return; }   /* fail open; RLS still governs data */
 
   if(justPaid||pending){ await pgPollForSub(); return; }
+  await pgLoadJuiceReel();
   pgShow(pgLockedHTML(''));
 })();
 /* ===== end paywall gate ===== */
@@ -51886,7 +52238,7 @@ function fbGameCardNfl(u){
   var p=fbPredict('nfl',fbNflGameReq(g),mkt,fbNum(g.season));
   if(p.status!=='PREDICTED')
     return '<div class="mdl-card" id="fbg-nfl-'+fbEsc(String(g.game_id))+'"><div class="mdl-card-h"><div class="mdl-card-match">'+fbEsc(awayName)+' @ '+fbEsc(homeName)+'</div></div>'
-      +'<div class="gd-nodata">'+fbEsc(p.status)+': '+fbEsc(p.reason||(p.missing||[]).join(', '))+'</div>'+fbPropsSecHTML('nfl',g.game_id,u.t)+(window.fbMarketStructureHTML?window.fbMarketStructureHTML('nfl',g,u,M.mkt):'')+(window.fbKalshiHTML?window.fbKalshiHTML('nfl',g,u.t,M.ev):'')+'</div>';
+      +'<div class="gd-nodata">'+fbEsc(p.status)+': '+fbEsc(p.reason||(p.missing||[]).join(', '))+'</div>'+fbPropsSecHTML('nfl',g.game_id,u.t)+(window.fbMarketStructureHTML?window.fbMarketStructureHTML('nfl',g,u,M.mkt):'')+(window.fbKalshiHTML?window.fbKalshiHTML('nfl',g,u.t,M.ev):'')+(window.fbNovigHTML?window.fbNovigHTML('nfl',g,u.t,M.ev):'')+(window.fbSituationalHTML?window.fbSituationalHTML('nfl',g.game_id):'')+'</div>';
   var mdl=p.model;
   var cov=p.cover,ov=p.over;
   var lines='';
@@ -51925,7 +52277,7 @@ function fbGameCardNfl(u){
     +'<div class="mdl-card-when">NFL · week '+fbEsc(String(g.week))+' · '+fbEsc(whenLabel(new Date(u.t).toISOString()))+'</div>'
     +fbMineActs('nfl',g.game_id,homeName,awayName,u.t)+'</div>'
     +fbGameResearchLead('nfl',g.game_id,homeName,awayName,mdl.fair_spread,mdl.fair_total,mdl.home_win_prob,u.t!=null&&u.t<=Date.now())
-    +fbDecCardHTML(dn)+lines+fbNflCoachingHTML(g)+qb+pa+fbPropsSecHTML('nfl',g.game_id,u.t)+(window.fbMarketStructureHTML?window.fbMarketStructureHTML('nfl',g,u,M.mkt):'')+(window.fbKalshiHTML?window.fbKalshiHTML('nfl',g,u.t,M.ev):'')+fbQualityLine(p,extra)+(window.fbBriefBtn?fbBriefBtn('nfl',g,u,homeName,awayName):'')+'</div>';
+    +fbDecCardHTML(dn)+lines+fbNflCoachingHTML(g)+qb+pa+fbPropsSecHTML('nfl',g.game_id,u.t)+(window.fbMarketStructureHTML?window.fbMarketStructureHTML('nfl',g,u,M.mkt):'')+(window.fbKalshiHTML?window.fbKalshiHTML('nfl',g,u.t,M.ev):'')+(window.fbNovigHTML?window.fbNovigHTML('nfl',g,u.t,M.ev,{pred:p}):'')+(window.fbSituationalHTML?window.fbSituationalHTML('nfl',g.game_id):'')+fbQualityLine(p,extra)+(window.fbBriefBtn?fbBriefBtn('nfl',g,u,homeName,awayName):'')+'</div>';
 }
 
 /* ---- week scan, grading and CSV export (NFL) --------------------------------
@@ -52587,7 +52939,7 @@ function fbGameCardCfb(u){
     neutral_site:String(g.neutral_site).toUpperCase()==='TRUE'},mkt,fbNum(g.season));
   if(p.status!=='PREDICTED')
     return '<div class="mdl-card"><div class="mdl-card-h"><div class="mdl-card-match">'+fbEsc(g.away_team)+' @ '+fbEsc(g.home_team)+'</div></div>'
-      +'<div class="gd-nodata">'+fbEsc(p.status)+': '+fbEsc(p.reason||(p.missing||[]).join(', '))+'</div>'+(window.fbKalshiHTML?window.fbKalshiHTML('cfb',g,u.t,ev):'')+'</div>';
+      +'<div class="gd-nodata">'+fbEsc(p.status)+': '+fbEsc(p.reason||(p.missing||[]).join(', '))+'</div>'+(window.fbKalshiHTML?window.fbKalshiHTML('cfb',g,u.t,ev):'')+(window.fbNovigHTML?window.fbNovigHTML('cfb',g,u.t,ev):'')+'</div>';
   var mdl=p.model,cov=p.cover,ov=p.over;
   var lines='';
   lines+='<div class="gd-line"><span class="l" data-ed-term="fair-line">Model fair</span><span class="v mdl">'+fbEsc(g.home_team)+' '+fbPts(-mdl.fair_spread)
@@ -52606,7 +52958,7 @@ function fbGameCardCfb(u){
   return '<div class="mdl-card">'
     +'<div class="mdl-card-h"><div class="mdl-card-match">'+fbEsc(g.away_team)+' @ '+fbEsc(g.home_team)+'</div>'
     +'<div class="mdl-card-when">CFB · week '+fbEsc(String(g.week))+' · '+fbEsc(whenLabel(new Date(u.t).toISOString()))+'</div></div>'
-    +lines+(window.fbKalshiHTML?window.fbKalshiHTML('cfb',g,u.t,ev):'')+fbQualityLine(p,['no market backtest exists for CFB — gaps are context, not edges'])+(window.fbBriefBtn?fbBriefBtn('cfb',g,u):'')+'</div>';
+    +lines+(window.fbKalshiHTML?window.fbKalshiHTML('cfb',g,u.t,ev):'')+(window.fbNovigHTML?window.fbNovigHTML('cfb',g,u.t,ev,{pred:p}):'')+fbQualityLine(p,['no market backtest exists for CFB — gaps are context, not edges'])+(window.fbBriefBtn?fbBriefBtn('cfb',g,u):'')+'</div>';
 }
 function fbRatingsBoard(sport){
   var E=window.EDFootball;
@@ -52785,6 +53137,10 @@ function fbP4Ensure(){
       return fetch('football/cfb_production/reports/champion.json',{cache:'no-store'}).then(function(r){return r.ok?r.json():null;})
         .then(function(j){if(window.EDCfbChampion)window.EDCfbChampion.load(j);});
     }).catch(function(){if(window.EDCfbChampion)window.EDCfbChampion.load(null);});})
+    /* SP+ (lib/cfb_sp_plus.js): the weekly derived lines each card shows
+       beside EdgeDesk's number (football/sp_plus/lines.json). A failed read
+       leaves no file, and every card's SP+ row says it is unavailable */
+    .then(function(){return window.EDCfbSpPlus?window.EDCfbSpPlus.fetchLines(window.EDCfbSpPlus.URL).catch(function(){}):null;})
     .then(function(){return fbScript('football/cfb_p4/disagreement_params.js').catch(function(){});})
     .then(function(){fbDgSubEnsure();})
     /* THE CONFIDENCE LEDGER AND THE OUTCOME RENDERER, shared with the offline
@@ -56069,6 +56425,17 @@ function fbGxSummary(u,p,gid){
     gap!=null&&gap>=FB_GUARD.p4.game?'neg':(gap!=null&&gap>=2?'warn':''),
     gap!=null?'model minus market':'no market number');
   }
+  /* SP+ (lib/cfb_sp_plus.js): an EXTERNAL estimate beside EdgeDesk's number,
+     never combined with it. Unavailable, with the reason, rather than stale */
+  var SPX=window.EDCfbSpPlus;
+  if(SPX&&SPX.rowFor){
+    var SPR=SPX.rowFor(String(g.game_id),{now:Date.now(),home:g.home_team,away:g.away_team,edgedesk_home_margin:m?m.fair_spread:null});
+    out+=cell(SPR.label,SPR.state==='AVAILABLE'?fbEsc(SPR.text):'<span class="gx-miss">unavailable</span>',
+      SPR.disagree?'warn':'',
+      SPR.state==='AVAILABLE'
+        ?fbEsc(SPR.tier_text+' · '+SPR.source_text)+(SPR.disagree?'<br><b>Models disagree</b> · '+fbEsc(SPR.disagree_text):'')+'<br><span class="mut">'+fbEsc(SPR.attribution)+'</span>'
+        :fbEsc(SPR.reason));
+  }
   out+=cell('Projected score',
     sc?('<span class="gx-sc"><i>'+h+'</i><b>'+sc.home+'</b></span>'
        +'<span class="gx-sc"><i>'+a+'</i><b>'+sc.away+'</b></span>')
@@ -56941,7 +57308,7 @@ function fbPropsBody(lg,gid,ko){
 function fbPropsSecHTML(lg,gid,ko){return '<details class="qev-more fb-props" open><summary>Player prop research</summary>'+fbPropsBody(lg,gid,ko)+'</details>';}
 window.fbPropsSecHTML=fbPropsSecHTML; /* the NFL card's section, for tools/props/props_ui.e2e.js */
 var FB_GX_DEFAULT={props:true,why:true,proj:true,changed:false,best:true,drivers:true,wrong:true,qb:true,cases:true,scale:true,detail:false,scores:false,edr:false,quality:false,
-  research:true,decomp:true,price:true,alts:true,dq:false,scen:false,watch:false,explain:false,personnel:true,grade:false};
+  research:true,decomp:true,price:true,alts:true,dq:false,scen:false,watch:false,explain:false,personnel:true,grade:false,situational:false};
 
 /* ── COPY RESEARCH BRIEF ────────────────────────────────────────────────
    Plain text that stands alone away from this page. No ids, no JSON, no
@@ -58721,6 +59088,8 @@ function fbP4Card(u){
     +fbGxSec(gid,'drivers','Why EdgeDesk prices it here',fbGxDrivers(p),true)
     +fbGxSec(gid,'wrong','Why this number could be wrong',fbGxWrong(p),true)
     +fbGxSec(gid,'personnel','Personnel availability',fbPersonnelHTML(gid),true,fbPersonnelNote(gid))
+    +fbGxSec(gid,'situational','Situational intelligence',(window.fbSituationalHTML?window.fbSituationalHTML('cfb',gid,{bare:true}):''),false,
+      'observed tendencies · experimental volume model (research, moves no number)')
     +fbGxSec(gid,'qb','The quarterbacks · measured',fbGxQb(u),true,
       'passing EPA per dropback, with the sample it came off — research context, not priced')
     +fbGxSec(gid,'cases','The case for each side',fbGxCases(u,p),true)
@@ -59537,6 +59906,27 @@ window.fbP4Gate=function(gid){
   var u=null;FB.p4.up.forEach(function(x){if(String(x.g.game_id)===String(gid))u=x;});
   el.innerHTML=u?('<div style="margin:8px 0 12px">'+fbP4Card(u)+(window.fbBriefBtn?fbBriefBtn('cfb',u.g,u):'')+'</div>'):'';
 };
+/* the cards a reader has open. The board draws every row closed, and the
+   loaders repaint it when their artifact lands (the season record, the
+   quote-EV tables, the grades), so renderFootball reopens these after each
+   repaint, as fbP4Gate opens them, without counting a second visit */
+function fbP4OpenGates(host){
+  var gates=[];
+  try{Array.prototype.forEach.call(host.querySelectorAll('[id^="p4gate-"][data-open]'),function(el){gates.push(el.id.slice(7));});}catch(_){}
+  return gates;
+}
+function fbP4Reopen(gates){
+  gates.forEach(function(gid){
+    try{
+      var el=document.getElementById('p4gate-'+gid),ar=document.getElementById('p4arr-'+gid),u=null;
+      if(!el||el.getAttribute('data-open'))return;
+      FB.p4.up.forEach(function(x){if(String(x.g.game_id)===String(gid))u=x;});
+      if(!u)return;
+      el.setAttribute('data-open','1');if(ar)ar.textContent='▾';
+      el.innerHTML='<div style="margin:8px 0 12px">'+fbP4Card(u)+(window.fbBriefBtn?fbBriefBtn('cfb',u.g,u):'')+'</div>';
+    }catch(_){}
+  });
+}
 function fbP4StatusStrip(){
   var S=FB.p4,h=FB.health;
   function chip(label,txt,color){
@@ -61432,9 +61822,11 @@ window.fbRefreshClick=function(){
 
 window.renderFootball=function(){
   var host=$('fbBody');if(!host)return;
+  var gates=fbP4OpenGates(host);
   fbRenderOverview();
   fbRenderSystem();          /* creates the rsMeta-football host the shell paints into */
   fbRenderBoard(host);
+  fbP4Reopen(gates);
   fbAfterRender();
 };
 /* ═══ EDGEDESK PLAYER QUALITY + SCHEME MATCHUP ENGINE ══════════════════════
@@ -65561,27 +65953,15 @@ function fbRepaintKeepingPlace(){
       return false;
     }
   }catch(_){}
-  var open=[],gates=[],y=null;
+  var open=[],y=null;
   try{
     y=window.scrollY;
     Array.prototype.forEach.call(host.querySelectorAll('details[open]'),function(d){
       var c=d.parentElement&&d.parentElement.closest?d.parentElement.closest('[id]'):null;if(!c||!c.id)return;
       open.push([c.id,Array.prototype.indexOf.call(c.querySelectorAll('details'),d)]);
     });
-    Array.prototype.forEach.call(host.querySelectorAll('[id^="p4gate-"][data-open]'),function(el){gates.push(el.id.slice(7));});
   }catch(_){}
-  window.renderFootball();
-  gates.forEach(function(gid){
-    /* reopened as fbP4Gate opens it, without counting a second visit */
-    try{
-      var el=document.getElementById('p4gate-'+gid),ar=document.getElementById('p4arr-'+gid),u=null;
-      if(!el||el.getAttribute('data-open'))return;
-      FB.p4.up.forEach(function(x){if(String(x.g.game_id)===String(gid))u=x;});
-      if(!u)return;
-      el.setAttribute('data-open','1');if(ar)ar.textContent='▾';
-      el.innerHTML='<div style="margin:8px 0 12px">'+fbP4Card(u)+(window.fbBriefBtn?fbBriefBtn('cfb',u.g,u):'')+'</div>';
-    }catch(_){}
-  });
+  window.renderFootball();   /* reopens the open cards itself (fbP4Reopen) */
   open.forEach(function(o){
     try{var c=document.getElementById(o[0]),d=c?c.querySelectorAll('details')[o[1]]:null;if(d)d.open=true;}catch(_){}
   });
@@ -66740,6 +67120,190 @@ try{
     try{return cardHTML(sport,g,t,ev,opts);}
     catch(e){try{console.error('EdgeDesk Kalshi: the section failed in the page',e);}catch(_){}return '';}
   };
+})();
+</script>
+<!-- DraftKings vs Novig on the football cards (lib/edgedesk_market_compare_ui.js, docs/novig/README.md):
+     '' for every reader who may not see Novig prices, and '' when the module did not load -->
+<script>
+window.fbNovigHTML=function(sport,g,t,ev,opts){
+  try{return window.EDMarketCompareUI?window.EDMarketCompareUI.html(sport,g,t,ev,opts):'';}
+  catch(e){try{console.error('EdgeDesk Novig: the section failed in the page',e);}catch(_){}return '';}
+};
+</script>
+<!-- ═══ ADDED: FOOTBALL SITUATIONAL INTELLIGENCE (football/situational/README.md) ═══
+     A "Situational Intelligence" section on every NFL and FBS game card in the
+     upcoming window: each team's OBSERVED situational tendencies (season-to-date
+     rates from quality-accepted play-by-play, with sample, window and coverage
+     tier — facts, never graded) and, apart from them, "Research Models
+     (Experimental)": projected plays, pass rate, pass and rush attempts with
+     P10–P90, eligible player opportunities, market disagreement, the holdout
+     summary and the known limitations. It reads ONE committed artifact
+     (football/situational/data/cards.json), computes nothing, and changes no
+     projection, spread, total, probability, EV, ranking or grade: the football
+     module calls window.fbSituationalHTML() from guarded one-line hooks and
+     appends what it returns. -->
+<style id="fsie-styles">
+.fsie-wrap{margin:8px 12px 10px;border:1px solid var(--border);border-radius:9px;background:var(--surface,rgba(255,255,255,.015))}
+.fsie-wrap>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:6px;flex-wrap:wrap;padding:7px 10px;font-size:11px;color:var(--dim)}
+.fsie-wrap>summary::-webkit-details-marker{display:none}
+.fsie-wrap>summary>b{font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--text);margin-right:2px}
+.fsie-wrap>summary .fsie-chev{margin-left:auto;color:var(--faint);transition:transform .15s}
+.fsie-wrap[open]>summary .fsie-chev{transform:rotate(90deg)}
+.fsie-body{padding:0 10px 9px}
+.fsie-bare{padding:2px 0 4px}
+.fsie-h{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin:10px 0 4px;font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.06em;text-transform:uppercase;color:var(--faint)}
+.fsie-team{margin:6px 0 2px;font-size:11.5px;color:var(--text);font-weight:600;display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.fsie-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:4px 16px}
+.fsie-bar{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(40px,1fr) auto;align-items:center;gap:8px;padding:3px 0;font-size:11px}
+.fsie-bar .k{color:var(--dim);min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.fsie-bar .t{height:6px;border-radius:3px;background:var(--surface2,rgba(255,255,255,.06));overflow:hidden}
+.fsie-bar .t>i{display:block;height:100%;background:var(--accent,#5b8def);border-radius:3px}
+.fsie-bar .v{font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--text);text-align:right;white-space:nowrap}
+.fsie-bar .v .n{color:var(--faint);font-size:9.5px;margin-left:4px}
+.fsie-miss{color:var(--faint);font-style:italic}
+.fsie-chip{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.05em;text-transform:uppercase;border:1px solid var(--border);border-radius:4px;padding:1px 5px;color:var(--dim);white-space:nowrap}
+.fsie-chip.warn{color:var(--warn);border-color:rgba(217,154,43,.45)}
+.fsie-chip.ok{color:var(--pos);border-color:rgba(91,191,135,.4)}
+.fsie-t{width:100%;border-collapse:collapse;font-family:'JetBrains Mono',monospace;font-size:10.5px;margin:2px 0 4px}
+.fsie-t th{color:var(--faint);font-weight:600;text-align:right;padding:3px 4px;font-size:9px;text-transform:uppercase;letter-spacing:.04em}
+.fsie-t th:first-child,.fsie-t td:first-child{text-align:left;font-family:'Inter',sans-serif;color:var(--dim)}
+.fsie-t td{padding:3px 4px;text-align:right;border-top:1px dashed var(--border);color:var(--text);white-space:nowrap}
+.fsie-note{font-size:10.5px;color:var(--faint);line-height:1.45;margin:3px 0 4px}
+.fsie-lim{font-size:10.5px;color:var(--faint);margin-top:8px;padding-top:7px;border-top:1px solid var(--border);line-height:1.45}
+.fsie-lim b{color:var(--dim);font-weight:600}
+.fsie-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
+@media(max-width:560px){.fsie-wrap{margin:8px 8px 10px}.fsie-t{font-size:10px}.fsie-bar{grid-template-columns:minmax(0,1.4fr) minmax(30px,.8fr) auto}}
+</style>
+<script>
+/* ═══ FOOTBALL SITUATIONAL INTELLIGENCE ═══════════════════════════════════════
+   GLUE ONLY: reads /football/situational/data/cards.json (built by
+   football/situational/run.js build) and renders it. Observed numbers are
+   season-to-date rates with their sample; research numbers are labelled
+   experimental with their model version and as-of time. A missing value is
+   an explanation, never a zero. */
+(function(){
+  'use strict';
+  if(window.__edFsie)return;
+  window.__edFsie=true;
+  var ART='/football/situational/data/cards.json';
+  var TTL=10*60e3;
+  var S={data:null,st:'idle',at:0,err:null};
+  var OPEN={};
+
+  function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+  function isNum(x){return typeof x==='number'&&isFinite(x);}
+  function pct(x){return isNum(x)?Math.round(100*x)+'%':'—';}
+  function f1(x){return isNum(x)?(Math.round(x*10)/10).toFixed(1):'—';}
+  function int(x){return isNum(x)?String(Math.round(x)):'—';}
+  function day(iso){try{return iso?new Date(iso).toLocaleDateString('en-US',{month:'short',day:'numeric'}):'—';}catch(_){return '—';}}
+  function stamp(iso){try{return iso?new Date(iso).toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}):'—';}catch(_){return '—';}}
+  function chip(t,cls,title){return '<span class="fsie-chip'+(cls?' '+cls:'')+'"'+(title?' title="'+esc(title)+'"':'')+'>'+esc(t)+'</span>';}
+  function badge(cls,label){return '<span class="rs-badge '+cls+'" style="cursor:default"><span class="dot"></span>'+esc(label)+'</span>';}
+
+  function repaint(){setTimeout(function(){try{if(window.FB&&(window.FB.sport==='nfl'||window.FB.sport==='p4')&&typeof window.renderFootball==='function')window.renderFootball();}catch(_){}} ,60);}
+  function ensure(){
+    if(S.st==='loading')return;
+    if(S.at&&Date.now()-S.at<TTL)return;
+    S.st='loading';
+    fetch(ART,{cache:'no-cache'}).then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}).then(function(j){
+      if(!j||j.schema!=='edgedesk_fsie_cards_v1')throw new Error('unexpected artifact');
+      S.data=j;S.err=null;S.st='ok';S.at=Date.now();repaint();
+    },function(e){S.err=String(e&&e.message||e).slice(0,140);S.st='error';S.at=Date.now();});
+  }
+
+  /* one observed rate as a bar; a missing rate says why */
+  function bar(label,x,why){
+    if(!x||!isNum(x.v))return '<div class="fsie-bar"><span class="k">'+esc(label)+'</span><span class="t"></span><span class="v fsie-miss">'+esc(why||'not observed')+'</span></div>';
+    return '<div class="fsie-bar"><span class="k">'+esc(label)+'</span><span class="t"><i style="width:'+Math.max(2,Math.min(100,Math.round(100*x.v)))+'%"></i></span><span class="v">'+pct(x.v)+'<span class="n">n '+int(x.n)+'</span></span></div>';
+  }
+  function val(label,x,unit,why){
+    if(!x||!isNum(x.v))return '<div class="fsie-bar"><span class="k">'+esc(label)+'</span><span class="t"></span><span class="v fsie-miss">'+esc(why||'not observed')+'</span></div>';
+    return '<div class="fsie-bar"><span class="k">'+esc(label)+'</span><span class="t"></span><span class="v">'+f1(x.v)+(unit?' '+esc(unit):'')+'<span class="n">n '+int(x.n)+'</span></span></div>';
+  }
+  function observedTeam(sport,side){
+    var o=side.observed||{},of=o.offense,df=o.defense,nm=(side.team&&side.team.name)||'';
+    var head='<div class="fsie-team">'+esc(nm)+' '+chip('tier '+(o.tier||'—'),o.tier==='A'||o.tier==='B'?'ok':'warn','A: play-by-play + observed formation · B: play-by-play · C: box only · D: insufficient')
+      +(o.sample?chip((o.sample.games||0)+' games · '+(o.sample.plays||0)+' plays'):'')
+      +(o.sample&&o.sample.window?chip(day(o.sample.window.first)+' – '+day(o.sample.window.last)):'')+'</div>';
+    if(!of)return head+'<div class="fsie-note">No accepted play-by-play this season'+(o.missing_fields&&o.missing_fields.length?': '+esc(o.missing_fields.join('; ')):'')+'.</div>';
+    var noForm=sport==='cfb'?'no college feed':'charting not on file';
+    var off='<div class="fsie-h">Offense · how it plays</div><div class="fsie-grid">'
+      +bar('Early-down pass rate',of.early_down_pass_rate)+bar('Neutral-script pass rate',of.neutral_pass_rate)
+      +bar('Third-down pass rate',of.third_down_pass_rate)+bar('Red-zone pass rate',of.red_zone_pass_rate)
+      +bar('Trailing pass rate',of.trailing_pass_rate,'no trailing snaps')+bar('Leading run rate',of.leading_run_rate,'no leading snaps')
+      +val('Plays per game',of.plays_per_game)+val('Neutral pace',of.neutral_seconds_per_play,'sec/play')
+      +bar('Shotgun (charted plays)',of.shotgun_rate,noForm)+bar('No-huddle (charted plays)',of.no_huddle_rate,noForm)
+      +(sport==='nfl'?bar('Play action',of.play_action_rate,'no FTN charting')+bar('Pre-snap motion',of.motion_rate,'no FTN charting'):'')
+      +'</div>';
+    var def='<div class="fsie-h">Defense · what it faces</div><div class="fsie-grid">'
+      +bar('Pass rate faced',df&&df.pass_rate_faced)+bar('Rush rate faced',df&&df.rush_rate_faced)+bar('Neutral pass rate faced',df&&df.neutral_pass_rate_faced)
+      +val('Plays allowed per game',df&&df.plays_per_game_allowed)
+      +(sport==='nfl'?val('Box count (observed)',df&&df.box_count_avg,'defenders','no FTN charting')+bar('8+ box vs run (observed)',df&&df.eight_plus_box_rate_vs_run,'no FTN charting')
+        :'<div class="fsie-bar"><span class="k">Box / coverage</span><span class="t"></span><span class="v fsie-miss">not observed in any college feed</span></div>')
+      +'</div>';
+    var miss=o.missing_fields&&o.missing_fields.length?'<div class="fsie-note">Missing: '+esc(o.missing_fields.join('; '))+'</div>':'';
+    return head+off+def+miss;
+  }
+  function rng(p,k){if(!p||!p.p10)return '—';return int(p.p10[k])+'–'+int(p.p90[k]);}
+  function researchTeam(side){
+    var p=side.projection,nm=(side.team&&side.team.name)||'';
+    if(!p)return '<div class="fsie-note">'+esc(nm)+': no projection.</div>';
+    return '<tr><td>'+esc(nm)+'</td><td>'+f1(p.point.plays)+'<br><span class="fsie-miss">'+rng(p,'plays')+'</span></td><td>'+pct(p.point.pass_rate)+'</td><td>'+f1(p.point.pass_att)+'<br><span class="fsie-miss">'+rng(p,'pass_att')+'</span></td><td>'+f1(p.point.rush_att)+'<br><span class="fsie-miss">'+rng(p,'rush_att')+'</span></td><td>'+f1(p.point.drives)+'</td></tr>';
+  }
+  function players(side){
+    var ps=(side.players||[]).slice();
+    if(!ps.length)return side.players_note?'<div class="fsie-note">'+esc((side.team&&side.team.name)||'')+': no player projections — '+esc(side.players_note)+'.</div>':'';
+    var w=function(x){var m=x.markets||{};return (m.pass_att?m.pass_att.p50*2:0)+(m.rush_att?m.rush_att.p50:0)+(m.targets?m.targets.p50:0);};
+    ps.sort(function(a,b){return w(b)-w(a);});
+    var cell=function(m){return m?int(m.p50)+' <span class="fsie-miss">'+int(m.p10)+'–'+int(m.p90)+'</span>':'—';};
+    return '<div class="fsie-scroll"><table class="fsie-t"><tr><th>'+esc((side.team&&side.team.name)||'')+'</th><th>Pass att</th><th>Rush att</th><th>Targets</th><th>Rec</th></tr>'
+      +ps.slice(0,6).map(function(x){return '<tr><td>'+esc(x.name||x.id)+(x.availability&&x.availability!=='NO_REPORT_LISTING'?' '+chip(x.availability==='UNVERIFIED'?'avail. unverified':x.availability,'warn'):'')+'</td><td>'+cell(x.markets.pass_att)+'</td><td>'+cell(x.markets.rush_att)+'</td><td>'+cell(x.markets.targets)+'</td><td>'+cell(x.markets.receptions)+'</td></tr>';}).join('')
+      +'</table></div>';
+  }
+  function research(sport,g){
+    var r=g.research||{};
+    var head='<div class="fsie-h">Research Models (Experimental) '+badge('rs-t3','Research model')+' '+badge('rs-mat-exp','Experimental')+'</div>';
+    if(r.status!=='projected')return head+'<div class="fsie-note">'+esc(r.note||'No projection for this game.')+'</div>';
+    var meta='<div class="fsie-note">Model '+esc(r.model_version||'—')+' · as of '+esc(stamp(r.as_of))+' · P10–P90 shown under each median. SHADOW: moves no EdgeDesk number.</div>';
+    var dq=[];[g.home,g.away].forEach(function(s){var p=s.projection;if(p&&p.missing_reasons&&p.missing_reasons.length)dq.push(((s.team&&s.team.name)||'')+': '+p.missing_reasons.join('; '));});
+    var team='<div class="fsie-scroll"><table class="fsie-t"><tr><th>Team</th><th>Plays</th><th>Pass rate</th><th>Pass att</th><th>Rush att</th><th>Drives</th></tr>'+researchTeam(g.home)+researchTeam(g.away)+'</table></div>'
+      +(dq.length?'<div class="fsie-note">'+esc(dq.join(' · '))+'</div>':'');
+    var sc=g.home.projection&&g.home.projection.script;
+    var script=sc?'<div class="fsie-note">'+esc((g.home.team&&g.home.team.name)||'Home')+' script mix: competitive '+pct(sc.competitive)+' · leading '+pct(sc.leading)+' · trailing '+pct(sc.trailing)+' · garbage '+pct(sc.garbage)+' · two-minute '+pct(sc.two_minute)+'</div>':'';
+    var mk=r.market||[];
+    var ms=r.market_state||{};
+    var market='<div class="fsie-h">Model vs market · projection disagreement, not an edge</div>'
+      +(mk.length?'<div class="fsie-scroll"><table class="fsie-t"><tr><th>Player</th><th>Market</th><th>Model</th><th>Line</th><th>Diff</th><th>Line at</th></tr>'
+        +mk.map(function(c){return '<tr><td>'+esc(c.player||'')+'</td><td>'+esc(c.market)+'</td><td>'+int(c.model_median)+'</td><td>'+esc(c.line)+'</td><td>'+(isNum(c.difference)?(c.difference>0?'+':'')+c.difference:'—')+'</td><td>'+esc(stamp(c.market_at))+'</td></tr>';}).join('')+'</table></div>'
+        :'<div class="fsie-note">No captured price for these markets'+(ms.capture&&ms.capture.reason?' (the props capture reports '+esc(ms.capture.status||'')+': '+esc(ms.capture.reason)+')':'')+'. Nothing is compared without a real line.</div>');
+    var v=r.validation||{};
+    var valid='<div class="fsie-h">Validation</div>'+(v.state==='holdout_evaluated'
+      ?'<div class="fsie-note">Untouched '+esc(v.holdout_season)+' holdout, '+int(v.n_team_games)+' team-games. Plays MAE '+f1(v.plays.model_mae)+' vs season average '+f1(v.plays.season_avg_mae)+' and market-only '+f1(v.plays.market_only_mae)+'; pass attempts '+f1(v.pass_att.model_mae)+' vs '+f1(v.pass_att.season_avg_mae)+' / '+f1(v.pass_att.market_only_mae)+'; rush attempts '+f1(v.rush_att.model_mae)+' vs '+f1(v.rush_att.season_avg_mae)+' / '+f1(v.rush_att.market_only_mae)+'. Preregistered team criteria '+(v.team_criteria_passed?'met':'NOT met')+'; player criteria '+(v.player_criteria_passed?'met':'NOT met')+'.</div>'
+      :'<div class="fsie-note">Holdout not yet evaluated.</div>');
+    var lim='<div class="fsie-lim"><b>Known limitations.</b> '+esc((r.limitations||[]).join(' '))+'</div>';
+    return head+meta+team+script+'<div class="fsie-h">Player opportunity · eligible players only</div>'+players(g.home)+players(g.away)+market+valid+lim;
+  }
+
+  /* fbSituationalHTML(sport, gameId, {bare}) -> '' when there is nothing to show */
+  window.fbSituationalHTML=function(sport,gameId,opts){
+    try{
+      ensure();
+      if(!S.data||!S.data.games)return '';
+      var g=S.data.games[String(gameId)];
+      if(!g||g.sport!==sport)return '';
+      var o=g.home.observed||{},a=g.away.observed||{};
+      var body='<div class="fsie-h">Observed · season to date, accepted play-by-play only</div>'
+        +observedTeam(sport,g.home)+observedTeam(sport,g.away)
+        +'<div class="fsie-note">Last updated '+esc(stamp(g.updated_at))+'. Observed tendencies are facts from validated data; they carry no grade.</div>'
+        +research(sport,g);
+      if(opts&&opts.bare)return '<div class="fsie-bare">'+body+'</div>';
+      var gid=String(gameId);
+      var sum='<summary><b>Situational Intelligence</b>'+chip('tier '+(o.tier||'—')+' / '+(a.tier||'—'))+chip('experimental','warn')+'<span class="fsie-chev">›</span></summary>';
+      return '<details class="fsie-wrap" data-fsie="'+esc(gid)+'"'+(OPEN[gid]?' open':'')+' ontoggle="window.__fsieToggle&&window.__fsieToggle(this)">'+sum+'<div class="fsie-body">'+body+'</div></details>';
+    }catch(_){return '';}
+  };
+  window.__fsieToggle=function(el){try{OPEN[el.getAttribute('data-fsie')]=el.open;}catch(_){}};
+  window.__fsieState=function(){return {st:S.st,err:S.err,games:S.data&&S.data.games?Object.keys(S.data.games).length:0};};
 })();
 </script>
 <!-- =====================================================================

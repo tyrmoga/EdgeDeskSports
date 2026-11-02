@@ -1,0 +1,117 @@
+{
+ "schema": "edgedesk_availability_report_v1",
+ "version": 1,
+ "conference": "Big 12 Conference",
+ "conference_id": "big12",
+ "team": "UCF",
+ "game_id": "401856844",
+ "kickoff": "2026-10-30T23:30:00.000Z",
+ "source_url": "https://app.hdintelligence.com/?source=B12&sport=Football&conf=B12&type=report",
+ "published_at": "2026-10-30T22:00:00.000Z",
+ "retrieved_at": "2026-10-31T12:13:24.426Z",
+ "scope": "CONFERENCE_GAMES",
+ "comprehensive": true,
+ "vocabulary": [
+  "AVAILABLE",
+  "PROBABLE",
+  "QUESTIONABLE",
+  "DOUBTFUL",
+  "OUT"
+ ],
+ "applicability": {
+  "state": "REQUIRED",
+  "why": "Big 12 Conference requires an availability report for this game: filed daily from three days before a conference game, with a final report 90 minutes before kickoff"
+ },
+ "format": "published-listing",
+ "platform": "hdintelligence",
+ "report_type": "Game Day",
+ "report_id": "3408",
+ "listing_scope": "FULL_ROSTER",
+ "lines_read": 109,
+ "listed_n": 109,
+ "rows": [
+  {
+   "player_name": "Taevion Swint",
+   "player_id": "5141668",
+   "position": "RB",
+   "jersey": "4",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "RB #4 Taevion Swint · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "DJ Bell",
+   "player_id": "5092994",
+   "position": "DB",
+   "jersey": "5",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "DB #5 DJ Bell · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Demari Henderson",
+   "player_id": "4808748",
+   "position": "DB",
+   "jersey": "8",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "DB #8 Demari Henderson · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Caleb Rollerson",
+   "player_id": "5221393",
+   "position": "WR",
+   "jersey": "13",
+   "status": "GAME_TIME_DECISION",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "WR #13 Caleb Rollerson · Game Time Decision",
+   "on_roster": true
+  },
+  {
+   "player_name": "Alonza Barnett III",
+   "player_id": "4911929",
+   "position": "QB",
+   "jersey": "14",
+   "status": "GAME_TIME_DECISION",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "QB #14 Alonza Barnett III · Game Time Decision",
+   "on_roster": true
+  },
+  {
+   "player_name": "Lewis Carter",
+   "player_id": "4870654",
+   "position": "LB",
+   "jersey": "20",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "LB #20 Lewis Carter · Out",
+   "on_roster": true
+  },
+  {
+   "player_name": "Tyler Gibson",
+   "player_id": "4869496",
+   "position": "OL",
+   "jersey": "75",
+   "status": "OUT",
+   "practice_status": null,
+   "body_part": null,
+   "raw_text": "OL #75 Tyler Gibson · Out",
+   "on_roster": true
+  }
+ ],
+ "unparsed": [],
+ "ok": true,
+ "names_nobody": false,
+ "explicit_none": false,
+ "silence_means_available": false,
+ "why": "7 player(s) designated on the published listing (Game Day)"
+}

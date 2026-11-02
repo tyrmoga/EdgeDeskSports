@@ -1,0 +1,1979 @@
+{
+  "schema": "edgedesk_article_v1",
+  "id": "cfb-401862820",
+  "game_id": "401862820",
+  "sport": "CFB",
+  "sport_slug": "college-football",
+  "sport_label": "College Football",
+  "slug": "temple-vs-navy-2026",
+  "aliases": [],
+  "title": "Temple vs. Navy: EdgeDesk Model Projection, Matchup Analysis and Fair Spread",
+  "seo_title": "Temple vs. Navy 2026: EdgeDesk Fair Spread & Model Projection",
+  "seo_description": "EdgeDesk fair spread for Temple at Navy: Navy −9.0, fair total 53.5. Navy wins 74% of simulations. Data confidence 71%. Model status NO MARKET. Research, not picks.",
+  "excerpt": "Navy carries the stronger underlying team rating — +1.6 against -4.4, a 6.0-point separation on a neutral field before home advantage, travel or rest. EdgeDesk makes it Navy −9.0 before any sportsbook number is consulted, with Navy winning 74% of simulations.",
+  "home_team": "Navy",
+  "away_team": "Temple",
+  "venue": "Navy-Marine Corps Memorial Stadium",
+  "neutral_site": false,
+  "conference_line": "American Athletic conference game",
+  "week": 10,
+  "season": 2026,
+  "game_time": "2026-11-07T20:30:00.000Z",
+  "game_when_label": "2026-11-07 20:30 UTC",
+  "published_at": null,
+  "updated_at": "2026-11-02T00:36:55.151Z",
+  "generated_at": "2026-11-02T00:36:55.151Z",
+  "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
+  "model_status": "NO MARKET",
+  "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
+  "confidence": 71,
+  "priced": true,
+  "fair_spread_text": "Navy −9.0",
+  "fair_total": "53.5",
+  "hero_image": null,
+  "canonical_url": "https://edgedesksports.com/articles/temple-vs-navy-2026",
+  "terminal_url": "https://edgedesksports.com/app.html#research/football",
+  "hub_url": "https://edgedesksports.com/articles/college-football",
+  "status": "ready",
+  "article_type": "pregame",
+  "related": null,
+  "frozen": false,
+  "frozen_at": null,
+  "author": "EdgeDesk Research",
+  "publisher": "EdgeDesk Sports",
+  "research_source": "Ratings: football/rankings/current.json — 2026 Week 9, built 2026-10-31. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser.",
+  "market_source": null,
+  "research": {
+    "kind": "CFB_GAME",
+    "game": {
+      "away": "Temple",
+      "home": "Navy",
+      "title": "Temple at Navy",
+      "when": "2026-11-07 20:30 UTC",
+      "kickoff": "2026-11-07T20:30:00.000Z",
+      "venue": "Navy-Marine Corps Memorial Stadium",
+      "neutral": false,
+      "week": "Week 10",
+      "season": "2026",
+      "game_id": "401862820",
+      "week_no": 10,
+      "season_no": 2026,
+      "conference_line": "American Athletic conference game",
+      "away_conference": "American Athletic",
+      "home_conference": "American Athletic"
+    },
+    "lede": [
+      "Navy carries the stronger underlying team rating — +1.6 against -4.4, a 6.0-point separation on a neutral field before home advantage, travel or rest.",
+      "EdgeDesk makes it Navy −9.0 before any sportsbook number is consulted, with Navy winning 74% of simulations.",
+      "The position-group comparison shows where the separation comes from: the widest measured gap is scheme fit, where Temple leads Navy by 77 places nationally.",
+      "Data confidence on this matchup is 71% — high by this board’s standards, so the margin is the strongest part of the read."
+    ],
+    "projection": {
+      "priced": true,
+      "fair_spread": 9.196738017832638,
+      "fair_spread_text": "Navy −9.0",
+      "fair_spread_raw_text": "Navy -9.2",
+      "near_pickem": false,
+      "raw_margin_text": null,
+      "favourite": "Navy",
+      "underdog": "Temple",
+      "margin": "9.0",
+      "margin_raw": "9.2",
+      "total": "53.5",
+      "total_raw": "53.3",
+      "display_policy": "football_half_point_v1",
+      "score": {
+        "away": {
+          "team": "Temple",
+          "points": "22"
+        },
+        "home": {
+          "team": "Navy",
+          "points": "31"
+        },
+        "expected": {
+          "text": "Navy 31.26, Temple 22.06",
+          "home": 31.26,
+          "away": 22.06,
+          "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
+        },
+        "note": "Split from EdgeDesk’s own projected margin and total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
+      },
+      "score_absent_reason": null,
+      "win_prob": {
+        "home": "Navy",
+        "away": "Temple",
+        "home_pct": 74,
+        "away_pct": 26,
+        "home_text": "74%",
+        "away_text": "26%",
+        "bounded": false,
+        "bounded_note": null,
+        "favourite": "Navy",
+        "favourite_pct": 74,
+        "favourite_text": "74%"
+      },
+      "outcome_range": {
+        "basis_team": "Navy",
+        "p10": "-11.8",
+        "median": "+9.2",
+        "p90": "+30.2",
+        "sigma": "14.6",
+        "volatility": "0.00",
+        "volatility_discriminates": false,
+        "note": "Quoted from Navy’s perspective, as the engine publishes it. Eight results in ten land inside p10–p90."
+      },
+      "confidence_pct": 71,
+      "inputs_reached_pct": 73,
+      "input_contract": {
+        "fields": 26,
+        "applicable": 26,
+        "known": 19,
+        "priced": 11,
+        "priced_coverage_pct": 42,
+        "by_state": {
+          "USABLE": 11,
+          "RESEARCH_ONLY": 8,
+          "STALE": 0,
+          "CONFLICTING": 0,
+          "NOT_APPLICABLE": 0,
+          "NOT_REQUIRED": 0,
+          "NOT_DUE_YET": 4,
+          "FETCH_FAILED": 0,
+          "UNAVAILABLE": 3
+        },
+        "absent": [
+          {
+            "field": "weather",
+            "side": null,
+            "state": "UNAVAILABLE",
+            "why": "no forecast provider was called in this build; the venue’s coordinates are known, so this is a build that did not ask rather than a source that did not answer"
+          },
+          {
+            "field": "off_field",
+            "side": "home",
+            "state": "UNAVAILABLE",
+            "why": "no source is registered for this programme, so nothing has been read and an empty result would be a false clean bill of health rather than a finding. The engine scores this input and it is missing on every game, so it is published here rather than left invisible. A signal must be all four of public, sourced, dated and severity-graded before it may move even the confidence score — a general news search supplies neither a severity nor a reliability a model may use, and a wire that supplies all four may not be redistributed as a committed artifact. The availability layer answers a different question (who can play) and is never substituted for this one"
+          },
+          {
+            "field": "off_field",
+            "side": "away",
+            "state": "UNAVAILABLE",
+            "why": "no source is registered for this programme, so nothing has been read and an empty result would be a false clean bill of health rather than a finding. The engine scores this input and it is missing on every game, so it is published here rather than left invisible. A signal must be all four of public, sourced, dated and severity-graded before it may move even the confidence score — a general news search supplies neither a severity nor a reliability a model may use, and a wire that supplies all four may not be redistributed as a committed artifact. The availability layer answers a different question (who can play) and is never substituted for this one"
+          }
+        ],
+        "basis": "Every applicable field EdgeDesk retrieved, over every applicable field. A question that does not arise here (weather in a dome, travel at a neutral site) leaves the denominator; a source that refused does not."
+      },
+      "status": "NO MARKET",
+      "status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
+      "engine": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
+      "validation": "UNPROVEN — research only. Nothing on this page is graded as a bet."
+    },
+    "starters": {
+      "away": {
+        "team": "Temple",
+        "status": "PREVIOUS_GAME",
+        "confirmed": false,
+        "player": "Ajani Sheppard",
+        "player_id": "5078166",
+        "label": "Ajani Sheppard — started the last game; no announcement for this one.",
+        "priced": false,
+        "priced_why": "the starter layer is research-only until it has an out-of-sample record of its own; football/matchup/inputs.js PRICED_STARTER_STATUSES is the single switch",
+        "availability": {
+          "state": "UNKNOWN",
+          "evidence": "NONE",
+          "why": "the availability sources EdgeDesk reads were checked and carried no report on this player — no report found is not the same as healthy",
+          "source_url": null
+        },
+        "experience": {
+          "starts": 7,
+          "dropbacks": 152,
+          "seasons_observed": 1,
+          "seasons_read": [
+            2025,
+            2026
+          ],
+          "basis": "games this player opened, counted from the play feed across the seasons this build read — a measured start count over a stated window, not a career total",
+          "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv"
+        },
+        "competition": {
+          "contested": false,
+          "games": 2,
+          "players": [
+            {
+              "player_id": "5078166",
+              "player_name": "Ajani Sheppard",
+              "dropbacks": 40,
+              "share": 0.87
+            },
+            {
+              "player_id": "5077787",
+              "player_name": "Jaxon Smolik",
+              "dropbacks": 4,
+              "share": 0.087
+            },
+            {
+              "player_id": "5089003",
+              "player_name": "Colin Chase",
+              "dropbacks": 2,
+              "share": 0.043
+            }
+          ]
+        },
+        "conflicts": 0,
+        "history": [
+          {
+            "week": 7,
+            "game_id": "401862803",
+            "opponent": "Charlotte",
+            "dropbacks": 27,
+            "starter": null,
+            "settled": false,
+            "why": "the player who took the first dropback threw 15% of the dropbacks; the usage leader was Ajani Sheppard"
+          },
+          {
+            "week": 9,
+            "game_id": "401862815",
+            "opponent": "East Carolina",
+            "dropbacks": 19,
+            "starter": {
+              "player_id": "5078166",
+              "player_name": "Ajani Sheppard",
+              "share": 0.895
+            },
+            "settled": true,
+            "why": "took the first dropback of the game"
+          }
+        ],
+        "source": "cfbfastR-data player_stats — play attribution",
+        "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
+        "published_at": "2026-10-31T19:00:00.000Z",
+        "retrieved_at": "2026-11-01T22:55:06.784Z"
+      },
+      "home": {
+        "team": "Navy",
+        "status": "PREVIOUS_GAME",
+        "confirmed": false,
+        "player": "Braxton Woodson",
+        "player_id": "5158343",
+        "label": "Braxton Woodson — started the last game (did not finish week 9; no injury report on file); no announcement for this one.",
+        "priced": false,
+        "priced_why": "the starter layer is research-only until it has an out-of-sample record of its own; football/matchup/inputs.js PRICED_STARTER_STATUSES is the single switch",
+        "availability": {
+          "state": "UNKNOWN",
+          "evidence": "NONE",
+          "why": "the availability sources EdgeDesk reads were checked and carried no report on this player — no report found is not the same as healthy",
+          "source_url": null
+        },
+        "experience": {
+          "starts": 4,
+          "dropbacks": 46,
+          "seasons_observed": 2,
+          "seasons_read": [
+            2025,
+            2026
+          ],
+          "basis": "games this player opened, counted from the play feed across the seasons this build read — a measured start count over a stated window, not a career total",
+          "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv"
+        },
+        "competition": {
+          "contested": false,
+          "games": 2,
+          "players": [
+            {
+              "player_id": "5220473",
+              "player_name": "Jackson Gutierrez",
+              "dropbacks": 17,
+              "share": 0.739
+            },
+            {
+              "player_id": "5158343",
+              "player_name": "Braxton Woodson",
+              "dropbacks": 4,
+              "share": 0.174
+            },
+            {
+              "player_id": "4801307",
+              "player_name": "Tayven Jackson",
+              "dropbacks": 2,
+              "share": 0.087
+            }
+          ]
+        },
+        "conflicts": 1,
+        "history": [
+          {
+            "week": 8,
+            "game_id": "401862810",
+            "opponent": "North Texas",
+            "dropbacks": 14,
+            "starter": {
+              "player_id": "5220473",
+              "player_name": "Jackson Gutierrez",
+              "share": 0.714
+            },
+            "settled": true,
+            "why": "took the first dropback of the game"
+          },
+          {
+            "week": 9,
+            "game_id": "401859185",
+            "opponent": "Notre Dame",
+            "dropbacks": 9,
+            "starter": {
+              "player_id": "5158343",
+              "player_name": "Braxton Woodson",
+              "share": 0.222
+            },
+            "settled": true,
+            "why": "took the first dropback of the game"
+          }
+        ],
+        "source": "cfbfastR-data player_stats — play attribution",
+        "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
+        "published_at": "2026-10-31T16:00:00.000Z",
+        "retrieved_at": "2026-11-01T22:55:06.784Z"
+      },
+      "generated_at": "2026-11-01T22:55:05.546Z",
+      "source": "football/starters/cfb_2026.json",
+      "note": "An expected starter is not a confirmed one. EdgeDesk publishes which kind of answer each of these is, and no number on this page is priced from any of them. Availability is a separate axis: an absent report is UNKNOWN and is never read as healthy."
+    },
+    "drivers": {
+      "rows": [
+        {
+          "points": "+6.0",
+          "points_n": 5.959758738559806,
+          "text": "Navy is the better football team by 6.0 points on opponent-adjusted results, with roughly 30% of it still inherited from last season",
+          "favours": "Navy"
+        },
+        {
+          "points": "+2.8",
+          "points_n": 2.8,
+          "text": "Playing at Navy is worth 2.8 points — the league-wide home-field number, because a per-venue table was tested and could not be told apart from the home team’s own quality",
+          "favours": "Navy"
+        },
+        {
+          "points": "+0.4",
+          "points_n": 0.43697927927283087,
+          "text": "Stylistically the matchup favours Navy by 0.4 points: ball control vs front disruption",
+          "favours": "Navy"
+        }
+      ],
+      "basis": "Points are the engine’s own contributions to the projected spread, from Navy’s perspective, and they sum toward it.",
+      "excluded": "Player quality, position-group ratings and scheme fit are NOT in this number. Neither has cleared walk-forward validation, so neither is allowed to move a priced figure — they appear below as research context and nowhere else.",
+      "empty": null
+    },
+    "compare": {
+      "cols": [
+        "Temple",
+        "Navy"
+      ],
+      "groups": [
+        {
+          "title": "Team rating",
+          "rows": [
+            {
+              "cat": "overall",
+              "k": "ETSR (overall)",
+              "note": "points vs an average FBS team, neutral field",
+              "a": {
+                "v": "-4.4",
+                "n": -4.4,
+                "rank": "#100 of 138",
+                "rank_n": 100,
+                "note": null
+              },
+              "h": {
+                "v": "+1.6",
+                "n": 1.62,
+                "rank": "#58 of 138",
+                "rank_n": 58,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 6,
+                "rank_gap": 42
+              }
+            },
+            {
+              "cat": "talent",
+              "k": "Talent",
+              "note": null,
+              "a": {
+                "v": "48.0",
+                "n": 48,
+                "rank": "#81 of 138",
+                "rank_n": 81,
+                "note": null
+              },
+              "h": {
+                "v": "46.1",
+                "n": 46.1,
+                "rank": "#93 of 138",
+                "rank_n": 93,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 1.9,
+                "rank_gap": 12
+              }
+            },
+            {
+              "cat": "performance",
+              "k": "Performance",
+              "note": null,
+              "a": {
+                "v": "42.9",
+                "n": 42.9,
+                "rank": "#97 of 138",
+                "rank_n": 97,
+                "note": null
+              },
+              "h": {
+                "v": "51.8",
+                "n": 51.8,
+                "rank": "#61 of 138",
+                "rank_n": 61,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 8.9,
+                "rank_gap": 36
+              }
+            },
+            {
+              "cat": "scheme_fit",
+              "k": "Scheme fit",
+              "note": "personnel against this team’s own tendencies",
+              "a": {
+                "v": "50.8",
+                "n": 50.8,
+                "rank": "#56 of 138",
+                "rank_n": 56,
+                "note": null
+              },
+              "h": {
+                "v": "47.6",
+                "n": 47.6,
+                "rank": "#133 of 138",
+                "rank_n": 133,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 3.2,
+                "rank_gap": 77
+              }
+            }
+          ]
+        },
+        {
+          "title": "Units",
+          "rows": [
+            {
+              "cat": "offense",
+              "k": "Offense",
+              "note": null,
+              "a": {
+                "v": "53.7",
+                "n": 53.7,
+                "rank": "#46 of 138",
+                "rank_n": 46,
+                "note": null
+              },
+              "h": {
+                "v": "59.5",
+                "n": 59.5,
+                "rank": "#16 of 138",
+                "rank_n": 16,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 5.8,
+                "rank_gap": 30
+              }
+            },
+            {
+              "cat": "defense",
+              "k": "Defense",
+              "note": null,
+              "a": {
+                "v": "37.9",
+                "n": 37.9,
+                "rank": "#126 of 138",
+                "rank_n": 126,
+                "note": null
+              },
+              "h": {
+                "v": "42.8",
+                "n": 42.8,
+                "rank": "#107 of 138",
+                "rank_n": 107,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 4.9,
+                "rank_gap": 19
+              }
+            },
+            {
+              "cat": "special_teams",
+              "k": "Special teams",
+              "note": null,
+              "a": {
+                "v": "50.1",
+                "n": 50.1,
+                "rank": "#73 of 130",
+                "rank_n": 73,
+                "note": null
+              },
+              "h": {
+                "v": "46.3",
+                "n": 46.3,
+                "rank": "#120 of 130",
+                "rank_n": 120,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 3.8,
+                "rank_gap": 47
+              }
+            },
+            {
+              "cat": "run_offense",
+              "k": "Run offense",
+              "note": null,
+              "a": {
+                "v": "58.7",
+                "n": 58.7,
+                "rank": "#35 of 138",
+                "rank_n": 35,
+                "note": null
+              },
+              "h": {
+                "v": "65.0",
+                "n": 65,
+                "rank": "#10 of 138",
+                "rank_n": 10,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 6.3,
+                "rank_gap": 25
+              }
+            },
+            {
+              "cat": "pass_offense",
+              "k": "Pass offense",
+              "note": null,
+              "a": {
+                "v": "52.4",
+                "n": 52.4,
+                "rank": "#55 of 138",
+                "rank_n": 55,
+                "note": null
+              },
+              "h": {
+                "v": "50.6",
+                "n": 50.6,
+                "rank": "#65 of 138",
+                "rank_n": 65,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 1.8,
+                "rank_gap": 10
+              }
+            },
+            {
+              "cat": "run_defense",
+              "k": "Run defense",
+              "note": null,
+              "a": {
+                "v": "44.7",
+                "n": 44.7,
+                "rank": "#85 of 138",
+                "rank_n": 85,
+                "note": null
+              },
+              "h": {
+                "v": "54.3",
+                "n": 54.3,
+                "rank": "#62 of 138",
+                "rank_n": 62,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 9.6,
+                "rank_gap": 23
+              }
+            },
+            {
+              "cat": "pass_defense",
+              "k": "Pass defense",
+              "note": null,
+              "a": {
+                "v": "34.0",
+                "n": 34,
+                "rank": "#132 of 138",
+                "rank_n": 132,
+                "note": null
+              },
+              "h": {
+                "v": "31.8",
+                "n": 31.8,
+                "rank": "#137 of 138",
+                "rank_n": 137,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 2.2,
+                "rank_gap": 5
+              }
+            }
+          ]
+        },
+        {
+          "title": "Position groups",
+          "rows": [
+            {
+              "cat": "qb",
+              "k": "QB room",
+              "note": null,
+              "a": {
+                "v": "58.6",
+                "n": 58.6,
+                "rank": "#67 of 138",
+                "rank_n": 67,
+                "note": null
+              },
+              "h": {
+                "v": "58.1",
+                "n": 58.1,
+                "rank": "#73 of 138",
+                "rank_n": 73,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 0.5,
+                "rank_gap": 6
+              }
+            },
+            {
+              "cat": "ol",
+              "k": "Offensive line",
+              "note": null,
+              "a": {
+                "v": "51.8",
+                "n": 51.8,
+                "rank": "#65 of 138",
+                "rank_n": 65,
+                "note": null
+              },
+              "h": {
+                "v": "48.1",
+                "n": 48.1,
+                "rank": "#100 of 138",
+                "rank_n": 100,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 3.7,
+                "rank_gap": 35
+              }
+            },
+            {
+              "cat": "wr",
+              "k": "Receivers",
+              "note": null,
+              "a": {
+                "v": "56.0",
+                "n": 56,
+                "rank": "#37 of 138",
+                "rank_n": 37,
+                "note": null
+              },
+              "h": {
+                "v": "54.0",
+                "n": 54,
+                "rank": "#111 of 138",
+                "rank_n": 111,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 2,
+                "rank_gap": 74
+              }
+            },
+            {
+              "cat": "te",
+              "k": "Tight ends",
+              "note": "rated by the player layer; the board publishes no national TE rank",
+              "a": {
+                "v": "57.9",
+                "n": 57.9,
+                "rank": null,
+                "rank_n": null,
+                "note": "rated, held out of the national rank by the confidence gate"
+              },
+              "h": {
+                "v": "54.3",
+                "n": 54.3,
+                "rank": null,
+                "rank_n": null,
+                "note": "rated, held out of the national rank by the confidence gate"
+              },
+              "edge": {
+                "side": "a",
+                "gap": 3.6,
+                "rank_gap": null
+              }
+            },
+            {
+              "cat": "rb",
+              "k": "Running backs",
+              "note": null,
+              "a": {
+                "v": "55.0",
+                "n": 55,
+                "rank": "#113 of 138",
+                "rank_n": 113,
+                "note": null
+              },
+              "h": {
+                "v": "55.6",
+                "n": 55.6,
+                "rank": "#96 of 138",
+                "rank_n": 96,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 0.6,
+                "rank_gap": 17
+              }
+            },
+            {
+              "cat": "dl",
+              "k": "Defensive line",
+              "note": null,
+              "a": {
+                "v": "49.9",
+                "n": 49.9,
+                "rank": "#100 of 138",
+                "rank_n": 100,
+                "note": null
+              },
+              "h": {
+                "v": "55.8",
+                "n": 55.8,
+                "rank": "#46 of 138",
+                "rank_n": 46,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 5.9,
+                "rank_gap": 54
+              }
+            },
+            {
+              "cat": "lb",
+              "k": "Linebackers",
+              "note": null,
+              "a": {
+                "v": "51.1",
+                "n": 51.1,
+                "rank": "#98 of 138",
+                "rank_n": 98,
+                "note": null
+              },
+              "h": {
+                "v": "55.5",
+                "n": 55.5,
+                "rank": "#37 of 138",
+                "rank_n": 37,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 4.4,
+                "rank_gap": 61
+              }
+            },
+            {
+              "cat": "secondary",
+              "k": "Secondary",
+              "note": null,
+              "a": {
+                "v": "44.6",
+                "n": 44.6,
+                "rank": "#132 of 138",
+                "rank_n": 132,
+                "note": null
+              },
+              "h": {
+                "v": "42.0",
+                "n": 42,
+                "rank": "#135 of 138",
+                "rank_n": 135,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 2.6,
+                "rank_gap": 3
+              }
+            },
+            {
+              "cat": "k_room",
+              "k": "Kicking",
+              "note": null,
+              "a": {
+                "v": "55.7",
+                "n": 55.7,
+                "rank": "#77 of 138",
+                "rank_n": 77,
+                "note": null
+              },
+              "h": {
+                "v": "53.1",
+                "n": 53.1,
+                "rank": "#132 of 138",
+                "rank_n": 132,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 2.6,
+                "rank_gap": 55
+              }
+            }
+          ]
+        },
+        {
+          "title": "Roster shape",
+          "rows": [
+            {
+              "cat": "depth",
+              "k": "Depth",
+              "note": "quality behind the projected starters",
+              "a": {
+                "v": "53.5",
+                "n": 53.5,
+                "rank": "#52 of 138",
+                "rank_n": 52,
+                "note": null
+              },
+              "h": {
+                "v": "53.4",
+                "n": 53.4,
+                "rank": "#59 of 138",
+                "rank_n": 59,
+                "note": null
+              },
+              "edge": {
+                "side": "a",
+                "gap": 0.1,
+                "rank_gap": 7
+              }
+            },
+            {
+              "cat": "continuity",
+              "k": "Continuity",
+              "note": "how much of last season is still here",
+              "a": {
+                "v": "41.5",
+                "n": 41.5,
+                "rank": "#84 of 138",
+                "rank_n": 84,
+                "note": null
+              },
+              "h": {
+                "v": "49.7",
+                "n": 49.7,
+                "rank": "#43 of 138",
+                "rank_n": 43,
+                "note": null
+              },
+              "edge": {
+                "side": "h",
+                "gap": 8.2,
+                "rank_gap": 41
+              }
+            }
+          ]
+        }
+      ],
+      "one_sided_team": null,
+      "one_sided_note": null
+    },
+    "advantages": {
+      "away": [
+        {
+          "k": "Scheme fit",
+          "rank_gap": 77,
+          "gap": 3.2,
+          "lead": "Temple",
+          "trail": "Navy",
+          "lead_cell": "50.8 · #56 of 138",
+          "trail_cell": "47.6 · #133 of 138",
+          "text": "Temple 50.8 (#56 of 138) vs Navy 47.6 (#133 of 138) — 77 places on the national board."
+        },
+        {
+          "k": "Receivers",
+          "rank_gap": 74,
+          "gap": 2,
+          "lead": "Temple",
+          "trail": "Navy",
+          "lead_cell": "56.0 · #37 of 138",
+          "trail_cell": "54.0 · #111 of 138",
+          "text": "Temple 56.0 (#37 of 138) vs Navy 54.0 (#111 of 138) — 74 places on the national board."
+        },
+        {
+          "k": "Kicking",
+          "rank_gap": 55,
+          "gap": 2.6,
+          "lead": "Temple",
+          "trail": "Navy",
+          "lead_cell": "55.7 · #77 of 138",
+          "trail_cell": "53.1 · #132 of 138",
+          "text": "Temple 55.7 (#77 of 138) vs Navy 53.1 (#132 of 138) — 55 places on the national board."
+        },
+        {
+          "k": "Special teams",
+          "rank_gap": 47,
+          "gap": 3.8,
+          "lead": "Temple",
+          "trail": "Navy",
+          "lead_cell": "50.1 · #73 of 130",
+          "trail_cell": "46.3 · #120 of 130",
+          "text": "Temple 50.1 (#73 of 130) vs Navy 46.3 (#120 of 130) — 47 places on the national board."
+        },
+        {
+          "k": "Offensive line",
+          "rank_gap": 35,
+          "gap": 3.7,
+          "lead": "Temple",
+          "trail": "Navy",
+          "lead_cell": "51.8 · #65 of 138",
+          "trail_cell": "48.1 · #100 of 138",
+          "text": "Temple 51.8 (#65 of 138) vs Navy 48.1 (#100 of 138) — 35 places on the national board."
+        }
+      ],
+      "home": [
+        {
+          "k": "Linebackers",
+          "rank_gap": 61,
+          "gap": 4.4,
+          "lead": "Navy",
+          "trail": "Temple",
+          "lead_cell": "55.5 · #37 of 138",
+          "trail_cell": "51.1 · #98 of 138",
+          "text": "Navy 55.5 (#37 of 138) vs Temple 51.1 (#98 of 138) — 61 places on the national board."
+        },
+        {
+          "k": "Defensive line",
+          "rank_gap": 54,
+          "gap": 5.9,
+          "lead": "Navy",
+          "trail": "Temple",
+          "lead_cell": "55.8 · #46 of 138",
+          "trail_cell": "49.9 · #100 of 138",
+          "text": "Navy 55.8 (#46 of 138) vs Temple 49.9 (#100 of 138) — 54 places on the national board."
+        },
+        {
+          "k": "ETSR (overall)",
+          "rank_gap": 42,
+          "gap": 6,
+          "lead": "Navy",
+          "trail": "Temple",
+          "lead_cell": "+1.6 · #58 of 138",
+          "trail_cell": "-4.4 · #100 of 138",
+          "text": "Navy +1.6 (#58 of 138) vs Temple -4.4 (#100 of 138) — 42 places on the national board."
+        },
+        {
+          "k": "Continuity",
+          "rank_gap": 41,
+          "gap": 8.2,
+          "lead": "Navy",
+          "trail": "Temple",
+          "lead_cell": "49.7 · #43 of 138",
+          "trail_cell": "41.5 · #84 of 138",
+          "text": "Navy 49.7 (#43 of 138) vs Temple 41.5 (#84 of 138) — 41 places on the national board."
+        },
+        {
+          "k": "Performance",
+          "rank_gap": 36,
+          "gap": 8.9,
+          "lead": "Navy",
+          "trail": "Temple",
+          "lead_cell": "51.8 · #61 of 138",
+          "trail_cell": "42.9 · #97 of 138",
+          "text": "Navy 51.8 (#61 of 138) vs Temple 42.9 (#97 of 138) — 36 places on the national board."
+        }
+      ],
+      "measured": [],
+      "measured_note": null,
+      "unproven": [],
+      "note": "An advantage is only claimed where BOTH teams carry a national rank in that category — the national rank is the one scale on which a QB room and a run defence are comparable. A category where one side is unrated appears here as a measurement and as uncertainty, never as an edge."
+    },
+    "matchups": [
+      {
+        "title": "Temple pass offense vs Navy pass defense",
+        "att": {
+          "team": "Temple",
+          "label": "pass offense",
+          "v": "52.4",
+          "rank": "#55 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Navy",
+          "label": "pass defense",
+          "v": "31.8",
+          "rank": "#137 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Temple’s pass offense rates 52.4 (#55 of 138) against Navy’s pass defense at 31.8 (#137 of 138). Temple’s unit stands higher among its own position group, by 82 places."
+      },
+      {
+        "title": "Temple run offense vs Navy run defense",
+        "att": {
+          "team": "Temple",
+          "label": "run offense",
+          "v": "58.7",
+          "rank": "#35 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Navy",
+          "label": "run defense",
+          "v": "54.3",
+          "rank": "#62 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Temple’s run offense rates 58.7 (#35 of 138) against Navy’s run defense at 54.3 (#62 of 138). Temple’s unit stands higher among its own position group, by 27 places."
+      },
+      {
+        "title": "Navy pass offense vs Temple pass defense",
+        "att": {
+          "team": "Navy",
+          "label": "pass offense",
+          "v": "50.6",
+          "rank": "#65 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Temple",
+          "label": "pass defense",
+          "v": "34.0",
+          "rank": "#132 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Navy’s pass offense rates 50.6 (#65 of 138) against Temple’s pass defense at 34.0 (#132 of 138). Navy’s unit stands higher among its own position group, by 67 places."
+      },
+      {
+        "title": "Navy run offense vs Temple run defense",
+        "att": {
+          "team": "Navy",
+          "label": "run offense",
+          "v": "65.0",
+          "rank": "#10 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Temple",
+          "label": "run defense",
+          "v": "44.7",
+          "rank": "#85 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Navy’s run offense rates 65.0 (#10 of 138) against Temple’s run defense at 44.7 (#85 of 138). Navy’s unit stands higher among its own position group, by 75 places."
+      },
+      {
+        "title": "Temple QB room vs Navy secondary",
+        "att": {
+          "team": "Temple",
+          "label": "QB room",
+          "v": "58.6",
+          "rank": "#67 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Navy",
+          "label": "secondary",
+          "v": "42.0",
+          "rank": "#135 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Temple’s QB room rates 58.6 (#67 of 138) against Navy’s secondary at 42.0 (#135 of 138). Temple’s unit stands higher among its own position group, by 68 places."
+      },
+      {
+        "title": "Navy QB room vs Temple secondary",
+        "att": {
+          "team": "Navy",
+          "label": "QB room",
+          "v": "58.1",
+          "rank": "#73 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Temple",
+          "label": "secondary",
+          "v": "44.6",
+          "rank": "#132 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Navy’s QB room rates 58.1 (#73 of 138) against Temple’s secondary at 44.6 (#132 of 138). Navy’s unit stands higher among its own position group, by 59 places."
+      },
+      {
+        "title": "Temple offensive line vs Navy defensive line",
+        "att": {
+          "team": "Temple",
+          "label": "offensive line",
+          "v": "51.8",
+          "rank": "#65 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Navy",
+          "label": "defensive line",
+          "v": "55.8",
+          "rank": "#46 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Temple’s offensive line rates 51.8 (#65 of 138) against Navy’s defensive line at 55.8 (#46 of 138). Navy’s unit stands higher among its own position group, by 19 places."
+      },
+      {
+        "title": "Navy offensive line vs Temple defensive line",
+        "att": {
+          "team": "Navy",
+          "label": "offensive line",
+          "v": "48.1",
+          "rank": "#100 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Temple",
+          "label": "defensive line",
+          "v": "49.9",
+          "rank": "#100 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Navy’s offensive line rates 48.1 (#100 of 138) against Temple’s defensive line at 49.9 (#100 of 138). The two stand level."
+      },
+      {
+        "title": "Temple running backs vs Navy linebackers",
+        "att": {
+          "team": "Temple",
+          "label": "running backs",
+          "v": "55.0",
+          "rank": "#113 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Navy",
+          "label": "linebackers",
+          "v": "55.5",
+          "rank": "#37 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Temple’s running backs rates 55.0 (#113 of 138) against Navy’s linebackers at 55.5 (#37 of 138). Navy’s unit stands higher among its own position group, by 76 places."
+      },
+      {
+        "title": "Navy running backs vs Temple linebackers",
+        "att": {
+          "team": "Navy",
+          "label": "running backs",
+          "v": "55.6",
+          "rank": "#96 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Temple",
+          "label": "linebackers",
+          "v": "51.1",
+          "rank": "#98 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Navy’s running backs rates 55.6 (#96 of 138) against Temple’s linebackers at 51.1 (#98 of 138). Navy’s unit stands higher among its own position group, by 2 places."
+      },
+      {
+        "title": "Temple receivers vs Navy secondary",
+        "att": {
+          "team": "Temple",
+          "label": "receivers",
+          "v": "56.0",
+          "rank": "#37 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Navy",
+          "label": "secondary",
+          "v": "42.0",
+          "rank": "#135 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Temple’s receivers rates 56.0 (#37 of 138) against Navy’s secondary at 42.0 (#135 of 138). Temple’s unit stands higher among its own position group, by 98 places."
+      },
+      {
+        "title": "Navy receivers vs Temple secondary",
+        "att": {
+          "team": "Navy",
+          "label": "receivers",
+          "v": "54.0",
+          "rank": "#111 of 138",
+          "note": null
+        },
+        "def": {
+          "team": "Temple",
+          "label": "secondary",
+          "v": "44.6",
+          "rank": "#132 of 138",
+          "note": null
+        },
+        "complete": true,
+        "read": "Navy’s receivers rates 54.0 (#111 of 138) against Temple’s secondary at 44.6 (#132 of 138). Navy’s unit stands higher among its own position group, by 21 places."
+      }
+    ],
+    "roster": {
+      "cols": [
+        "Temple",
+        "Navy"
+      ],
+      "rows": [
+        {
+          "k": "Returning production value",
+          "note": "share of last season’s production value still on the roster",
+          "a": "28%",
+          "h": "27%",
+          "edge": {
+            "side": "a",
+            "gap": 0.007000000000000006
+          }
+        },
+        {
+          "k": "Returning headcount",
+          "note": "share of the roster that was here last season",
+          "a": "43%",
+          "h": "52%",
+          "edge": {
+            "side": "h",
+            "gap": 0.09300000000000003
+          }
+        },
+        {
+          "k": "QB-room continuity",
+          "note": "is the projected starter last season’s player",
+          "a": "17%",
+          "h": "44%",
+          "edge": {
+            "side": "h",
+            "gap": 0.277
+          }
+        },
+        {
+          "k": "Offensive-line continuity",
+          "note": null,
+          "a": "53%",
+          "h": "72%",
+          "edge": {
+            "side": "h",
+            "gap": 0.19299999999999995
+          }
+        },
+        {
+          "k": "Returning starters",
+          "note": null,
+          "a": "65%",
+          "h": "48%",
+          "edge": {
+            "side": "a",
+            "gap": 0.16500000000000004
+          }
+        },
+        {
+          "k": "Transfers in / out",
+          "note": "portal movement counted from the roster feed",
+          "a": "21 in / 8 out",
+          "h": "0 in / 3 out",
+          "edge": null
+        },
+        {
+          "k": "Transfer starters in / out",
+          "note": null,
+          "a": "3 in / 1 out",
+          "h": "0 in / 0 out",
+          "edge": null
+        },
+        {
+          "k": "Starter quality",
+          "note": "projected starters, weighted by position value",
+          "a": "56.6",
+          "h": "56.5",
+          "edge": {
+            "side": "a",
+            "gap": 0.10000000000000142
+          }
+        },
+        {
+          "k": "Rotation quality",
+          "note": null,
+          "a": "53.6",
+          "h": "53.4",
+          "edge": {
+            "side": "a",
+            "gap": 0.20000000000000284
+          }
+        },
+        {
+          "k": "Depth quality",
+          "note": "behind the projected starters",
+          "a": "53.5",
+          "h": "53.4",
+          "edge": {
+            "side": "a",
+            "gap": 0.10000000000000142
+          }
+        },
+        {
+          "k": "Availability records",
+          "note": "an absence report reaching this roster. UNKNOWN is never read as healthy",
+          "a": "8 on file, 11% of starter value out",
+          "h": "none on file — 100% unknown",
+          "edge": null
+        },
+        {
+          "k": "Data confidence",
+          "note": "how much EdgeDesk knows about this roster, not how good it is",
+          "a": "63%",
+          "h": "56%",
+          "edge": {
+            "side": "a",
+            "gap": 0.06999999999999995
+          }
+        }
+      ],
+      "highlights": [
+        {
+          "k": "QB-room continuity",
+          "lead": "Navy",
+          "text": "Navy leads on qb-room continuity — Temple 17%, Navy 44%."
+        },
+        {
+          "k": "Rotation quality",
+          "lead": "Temple",
+          "text": "Temple leads on rotation quality — Temple 53.6, Navy 53.4."
+        },
+        {
+          "k": "Offensive-line continuity",
+          "lead": "Navy",
+          "text": "Navy leads on offensive-line continuity — Temple 53%, Navy 72%."
+        },
+        {
+          "k": "Returning starters",
+          "lead": "Temple",
+          "text": "Temple leads on returning starters — Temple 65%, Navy 48%."
+        },
+        {
+          "k": "Starter quality",
+          "lead": "Temple",
+          "text": "Temple leads on starter quality — Temple 56.6, Navy 56.5."
+        }
+      ],
+      "note": "Roster construction from the committed rankings build. No recruiting star and no NIL figure appears here: no public feed this repo reads carries either, and a number nobody published is not estimated in its place."
+    },
+    "cases": {
+      "favourite": {
+        "team": "Navy",
+        "heading": "Why Navy can pull away",
+        "bullets": [
+          "Navy is the better football team by 6.0 points on opponent-adjusted results, with roughly 30% of it still inherited from last season (+6.0 pts).",
+          "Playing at Navy is worth 2.8 points — the league-wide home-field number, because a per-venue table was tested and could not be told apart from the home team’s own quality (+2.8 pts).",
+          "Stylistically the matchup favours Navy by 0.4 points: ball control vs front disruption (+0.4 pts).",
+          "Linebackers: Navy 55.5 (#37 of 138) vs Temple 51.1 (#98 of 138) — 61 places on the national board.",
+          "Defensive line: Navy 55.8 (#46 of 138) vs Temple 49.9 (#100 of 138) — 54 places on the national board."
+        ]
+      },
+      "underdog": {
+        "team": "Temple",
+        "heading": "Why Temple can keep it close",
+        "bullets": [
+          "Scheme fit: Temple 50.8 (#56 of 138) vs Navy 47.6 (#133 of 138) — 77 places on the national board.",
+          "Receivers: Temple 56.0 (#37 of 138) vs Navy 54.0 (#111 of 138) — 74 places on the national board.",
+          "Kicking: Temple 55.7 (#77 of 138) vs Navy 53.1 (#132 of 138) — 55 places on the national board.",
+          "The outcome range is 14.6 points wide at one sigma — p10 -11.8 to p90 +30.2 for Navy, so a projection of +9.2 still produces results a long way either side of it.",
+          "College ratings are built on twelve-game seasons against wildly uneven schedules; even a clean rating gap carries more estimation error than the number implies."
+        ]
+      },
+      "note": "These are football cases assembled from measured states. Neither is a bet, and neither is advice."
+    },
+    "uncertainty": {
+      "items": [
+        {
+          "sev": "MEDIUM",
+          "label": "sample",
+          "text": "College ratings are built on twelve-game seasons against wildly uneven schedules; even a clean rating gap carries more estimation error than the number implies.",
+          "widening": null
+        },
+        {
+          "sev": "MEDIUM",
+          "label": "Temple — extreme transfer turnover",
+          "text": "72% of last season’s production value is gone. Most of last season’s production value has left, so the prior term is standing on much less than usual",
+          "widening": null
+        },
+        {
+          "sev": "MEDIUM",
+          "label": "Navy — injury uncertainty",
+          "text": "100% of projected starter value has no availability record.",
+          "widening": null
+        },
+        {
+          "sev": "MEDIUM",
+          "label": "Navy — extreme transfer turnover",
+          "text": "73% of last season’s production value is gone. Most of last season’s production value has left, so the prior term is standing on much less than usual",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "weather not supplied",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "home injury report not supplied",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "away injury report not supplied",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "no book spread joined to this game — no edge is claimed",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "missing",
+          "text": "no book total joined to this game",
+          "widening": null
+        },
+        {
+          "sev": "LOW",
+          "label": "low confidence",
+          "text": "rivalry situational effect is in the number but rests on a thin sample",
+          "widening": null
+        }
+      ],
+      "unmeasured": [
+        {
+          "item": "Home starting quarterback",
+          "why": "starting QB not supplied for home"
+        },
+        {
+          "item": "Away starting quarterback",
+          "why": "starting QB not supplied for away"
+        },
+        {
+          "item": "Home availability / injuries",
+          "why": "no injury report supplied for home"
+        },
+        {
+          "item": "Away availability / injuries",
+          "why": "no injury report supplied for away"
+        },
+        {
+          "item": "Weather at kickoff",
+          "why": "no weather supplied"
+        },
+        {
+          "item": "Off-field, culture and NIL situation",
+          "why": "no public feed for NIL figures, locker-room reporting or discipline exists that this engine reads; nothing is inferred and the gap is carried as uncertainty"
+        },
+        {
+          "item": "Coaching and coordinator continuity",
+          "why": "no public coaching-tenure feed is wired; a new coordinator changes a team’s identity in ways the ratings only learn after the fact"
+        },
+        {
+          "item": "Motivation, lookahead and locker-room state",
+          "why": "not measurable from any public source; treated as variance, never as a point adjustment"
+        },
+        {
+          "item": "Temple — recruiting ratings",
+          "why": "no legal, public, keyless recruiting feed is wired into EdgeDesk, so no recruiting rating exists for this roster. Nothing is estimated in its place."
+        },
+        {
+          "item": "Navy — recruiting ratings",
+          "why": "no legal, public, keyless recruiting feed is wired into EdgeDesk, so no recruiting rating exists for this roster. Nothing is estimated in its place."
+        },
+        {
+          "item": "Navy — availability and injuries",
+          "why": "no availability record reached this roster. UNKNOWN is carried as unknown; it is never read as healthy."
+        }
+      ],
+      "note": "Unknown is never scored as zero. Every line here is a gap EdgeDesk carries as uncertainty rather than filling in."
+    },
+    "market": {
+      "available": false,
+      "model": "Navy −9.0",
+      "model_raw": "Navy -9.2",
+      "headline": "No sportsbook spread is currently joined to this game.",
+      "note": "There is no model-vs-market comparison yet. Everything above is still EdgeDesk’s current view of the matchup; a missing price removes the comparison and nothing else."
+    },
+    "research_view": {
+      "contract": "cfb_research_brief/1",
+      "view": "cfb_research_view/1",
+      "game_id": "401862820",
+      "home": "Navy",
+      "away": "Temple",
+      "projected": true,
+      "engine_status": "PREDICTED",
+      "label": {
+        "key": "NO_MARKET",
+        "label": "NO MARKET",
+        "rule": "no_market",
+        "means": "There is no current market line to compare with: no market line is joined to this game. The projection stands on its own until a quote lands."
+      },
+      "disagreement": null,
+      "fair": {
+        "line_text": "Navy −9.0",
+        "favorite_team": "Navy",
+        "underdog_team": "Temple",
+        "display_fair_spread": 9.2,
+        "raw_home_margin": 9.2,
+        "raw_line_text": "Navy -9.20",
+        "is_near_pickem": false
+      },
+      "market_gap": {
+        "available": false,
+        "reason": "no market line is joined to this game"
+      },
+      "confidence": {
+        "score": 71,
+        "tier": "HIGH",
+        "label": "High"
+      },
+      "reliability": {
+        "pct": 84,
+        "tier": "STRONG",
+        "text": "84 · STRONG",
+        "sub": "main deduction: Braxton Woodson started the last game",
+        "score": 84,
+        "grade": "STRONG",
+        "grade_label": "STRONG",
+        "gate_label": null,
+        "components": [
+          {
+            "key": "team_data",
+            "label": "Team data",
+            "score": 20,
+            "max": 20
+          },
+          {
+            "key": "roster_availability",
+            "label": "Roster/status",
+            "score": 8.8,
+            "max": 20
+          },
+          {
+            "key": "projection_stability",
+            "label": "Stability",
+            "score": 20,
+            "max": 20
+          },
+          {
+            "key": "freshness",
+            "label": "Freshness",
+            "score": 12.9,
+            "max": 15
+          },
+          {
+            "key": "source_integrity",
+            "label": "Source integrity",
+            "score": 13.3,
+            "max": 15
+          },
+          {
+            "key": "environment",
+            "label": "Environment",
+            "score": 8.5,
+            "max": 10
+          }
+        ],
+        "main_deduction": "Braxton Woodson started the last game — no announcement for this one (the evidence class holds for the next game 6% of the time)",
+        "capped_by": [],
+        "next_actions": [
+          {
+            "action": "Re-read availability inside the filing window (Temple)",
+            "potential_gain": 3,
+            "text": "up to +3"
+          },
+          {
+            "action": "Re-read availability inside the filing window (Navy)",
+            "potential_gain": 3,
+            "text": "up to +3"
+          },
+          {
+            "action": "Confirm Navy’s starting QB (Braxton Woodson)",
+            "potential_gain": 3,
+            "text": "up to +3"
+          }
+        ],
+        "stability": {
+          "tier": "VERY_STABLE",
+          "sd": 0.81,
+          "favorite_flip_rate": 0
+        },
+        "scale": "0-100 reliability score, not a probability"
+      },
+      "drivers": {
+        "team": "Navy",
+        "none": false,
+        "text": null,
+        "reasons": [
+          {
+            "kind": "component",
+            "key": "rating",
+            "points": 5.96,
+            "text": "+6.0 pts team-strength edge (opponent-adjusted results)"
+          },
+          {
+            "kind": "component",
+            "key": "hfa",
+            "points": 2.8,
+            "text": "+2.8 pts home-field advantage"
+          }
+        ]
+      },
+      "best_available_line": {
+        "available": false,
+        "reason": "no sportsbook quote has been captured for this game"
+      },
+      "projection_status": {
+        "key": "STABLE",
+        "label": "STABLE",
+        "text": "EdgeDesk’s number is unchanged since the latest published number."
+      },
+      "stability": {
+        "tier": "HIGH",
+        "label": "High",
+        "text": "the stored numbers span 0.5 pts across 3 readings"
+      },
+      "published": [
+        {
+          "at": "2026-10-28T22:44:48.157Z",
+          "source": "first published",
+          "home_margin": 9.74,
+          "text": "Navy -9.7"
+        },
+        {
+          "at": "2026-11-01T18:01:05.765Z",
+          "source": "latest published",
+          "home_margin": 9.2,
+          "text": "Navy -9.2"
+        }
+      ],
+      "revisions": 3,
+      "change_since_published": {
+        "comparable": true,
+        "points": 0,
+        "toward_team": "Temple",
+        "since_at": "2026-11-01T18:01:05.765Z",
+        "text": "unchanged since the latest published number"
+      },
+      "what_changed": {
+        "available": true,
+        "summary": "EdgeDesk moved 0.5 points toward Temple since the first published number.",
+        "attribution_text": "Projection changed 0.5 points since the first published number. Component-level attribution is unavailable: the stored snapshot keeps the number, not the terms behind it.",
+        "market": "Market moved 0.5 pts toward Temple (espn · Draft Kings)",
+        "model_version": null
+      },
+      "parity": {
+        "ok": true,
+        "gaps": []
+      },
+      "note": "Research, not picks. Every value is read off EdgeDesk’s own projection and the market it was compared with; nothing here is a recommendation to bet."
+    },
+    "headline": "EdgeDesk projects Navy 31, Temple 22.",
+    "state": {
+      "label": "NO MARKET",
+      "note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
+      "scope": "This describes the state of EdgeDesk’s model-versus-market research on this game. It is not a statement about whether the matchup is worth researching."
+    },
+    "score": {
+      "away": {
+        "team": "Temple",
+        "points": "22"
+      },
+      "home": {
+        "team": "Navy",
+        "points": "31"
+      },
+      "expected": {
+        "text": "Navy 31.26, Temple 22.06",
+        "home": 31.26,
+        "away": 22.06,
+        "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
+      },
+      "note": "Split from EdgeDesk’s own projected margin and total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
+    },
+    "table": {
+      "cols": [
+        "Temple",
+        "Navy"
+      ],
+      "rows": [
+        {
+          "k": "ETSR (overall)",
+          "a": "-4.4  #100",
+          "h": "+1.6  #58",
+          "note": "points vs an average FBS team, neutral field"
+        },
+        {
+          "k": "Talent",
+          "a": "48.0  #81",
+          "h": "46.1  #93",
+          "note": null
+        },
+        {
+          "k": "Performance",
+          "a": "42.9  #97",
+          "h": "51.8  #61",
+          "note": null
+        },
+        {
+          "k": "Offense",
+          "a": "53.7  #46",
+          "h": "59.5  #16",
+          "note": null
+        },
+        {
+          "k": "Defense",
+          "a": "37.9  #126",
+          "h": "42.8  #107",
+          "note": null
+        },
+        {
+          "k": "Special teams",
+          "a": "50.1  #73",
+          "h": "46.3  #120",
+          "note": null
+        },
+        {
+          "k": "Run offense",
+          "a": "58.7  #35",
+          "h": "65.0  #10",
+          "note": null
+        },
+        {
+          "k": "Pass offense",
+          "a": "52.4  #55",
+          "h": "50.6  #65",
+          "note": null
+        },
+        {
+          "k": "Run defense",
+          "a": "44.7  #85",
+          "h": "54.3  #62",
+          "note": null
+        },
+        {
+          "k": "Pass defense",
+          "a": "34.0  #132",
+          "h": "31.8  #137",
+          "note": null
+        },
+        {
+          "k": "QB room",
+          "a": "58.6  #67",
+          "h": "58.1  #73",
+          "note": null
+        },
+        {
+          "k": "Offensive line",
+          "a": "51.8  #65",
+          "h": "48.1  #100",
+          "note": null
+        },
+        {
+          "k": "Receivers",
+          "a": "56.0  #37",
+          "h": "54.0  #111",
+          "note": null
+        },
+        {
+          "k": "Running backs",
+          "a": "55.0  #113",
+          "h": "55.6  #96",
+          "note": null
+        },
+        {
+          "k": "Defensive line",
+          "a": "49.9  #100",
+          "h": "55.8  #46",
+          "note": null
+        },
+        {
+          "k": "Linebackers",
+          "a": "51.1  #98",
+          "h": "55.5  #37",
+          "note": null
+        },
+        {
+          "k": "Secondary",
+          "a": "44.6  #132",
+          "h": "42.0  #135",
+          "note": null
+        },
+        {
+          "k": "Depth",
+          "a": "53.5  #52",
+          "h": "53.4  #59",
+          "note": null
+        },
+        {
+          "k": "Continuity",
+          "a": "41.5  #84",
+          "h": "49.7  #43",
+          "note": null
+        },
+        {
+          "k": "Confidence",
+          "a": "63%",
+          "h": "56%",
+          "note": "how much EdgeDesk knows, not how good the team is"
+        },
+        {
+          "k": "Δ national rank, this week",
+          "a": "no change",
+          "h": "no change",
+          "note": "differenced from last week’s committed snapshot"
+        }
+      ]
+    },
+    "notes": [
+      "EdgeDesk’s line is Navy −9.0 on a neutral read of the two teams, before any book is consulted. Projected total 53.5.",
+      "Navy wins 74% of the time in EdgeDesk’s simulation, Temple 26%.",
+      "Eight games in ten land between -11.8 and +30.2 for Navy. A single result inside that band tells you nothing new about either team.",
+      "No sportsbook spread is joined to this game, so there is no model-versus-market comparison. EdgeDesk’s own number and the research behind it are unchanged by that.",
+      "Temple quarterback: Ajani Sheppard — started the last game; no announcement for this one.",
+      "Navy quarterback: Braxton Woodson — started the last game (did not finish week 9; no injury report on file); no announcement for this one."
+    ],
+    "missing": [
+      "No availability report reached Ajani Sheppard — unknown is carried as unknown, never as healthy.",
+      "No availability report reached Braxton Woodson — unknown is carried as unknown, never as healthy."
+    ],
+    "context_label": "RESEARCH CONTEXT — position-group, player-quality, roster and scheme figures explain this matchup and move no priced number.",
+    "priced_label": "PRICED BY MODEL — the projection and its drivers, from validated inputs only.",
+    "source": "Ratings: football/rankings/current.json — 2026 Week 9, built 2026-10-31. Projection: the same EdgeDesk Power 4 game model the board runs. Every number is read from one committed build; nothing on this page was computed in your browser."
+  },
+  "football_evidence": {
+    "schema": "edgedesk_article_evidence_v1",
+    "packet_hash": "1uyd5ly1pioyx0",
+    "status": "NO_MATERIAL_DISAGREEMENT",
+    "input_suspect": false,
+    "question": "Can Temple contain Navy’s explosive runs?",
+    "assessment": "No material disagreement: EdgeDesk and the line are within 1.7 points.",
+    "gap": {
+      "points": 1.7,
+      "toward": "Navy",
+      "other": "Temple"
+    },
+    "supporting": [
+      "When Navy has the ball (the passing game against the pass defense): Navy’s offense averages 9.7 yards per pass attempt, and Temple’s defense allows 9.3 yards per pass attempt (FBS average 7.4).",
+      "When Navy has the ball (big plays through the air): Navy’s offense turns 15.2% of its pass plays into explosive gains, and Temple’s defense gives up explosive gains on 15.1% of opponent pass plays (FBS average 10.2%).",
+      "When Temple has the ball (pass protection against the pass rush): Temple’s offense has allowed a sack on 9.1% of its dropbacks, and Navy’s defense sacks the quarterback on 7.4% of opponent dropbacks (FBS average 5.7%).",
+      "When Navy has the ball (third down): Navy’s offense converts 40.2% of its third downs, and Temple’s defense allows opponents to convert 49.9% of their third downs (FBS average 39.6%)."
+    ],
+    "contradicting": [
+      "When Temple has the ball (the passing game against the pass defense): Temple’s offense averages 9.3 yards per pass attempt, and Navy’s defense allows 9.5 yards per pass attempt (FBS average 7.4).",
+      "When Temple has the ball (big plays through the air): Temple’s offense turns 15.4% of its pass plays into explosive gains, and Navy’s defense gives up explosive gains on 15.3% of opponent pass plays (FBS average 10.2%).",
+      "When Temple has the ball (big plays on the ground): Temple’s offense turns 10.5% of its runs into explosive gains, and Navy’s defense gives up explosive gains on 5.2% of opponent runs (FBS average 6.5%).",
+      "When Navy has the ball (pass protection against the pass rush): Navy’s offense has allowed a sack on 8.7% of its dropbacks, and Temple’s defense sacks the quarterback on 3.9% of opponent dropbacks (FBS average 5.7%)."
+    ],
+    "quarterbacks": [
+      "Jackson Gutierrez has completed 36 of 70 passes (51.4%) for 717 yards, 10.2 yards per attempt, 7 touchdowns and 1 interception in seven games for Navy, and has been sacked on 8 of 78 dropbacks.",
+      "Braxton Woodson has completed 10 of 24 passes (41.7%) for 152 yards, 6.3 yards per attempt, no touchdowns and 1 interception in six games for Navy, and has been sacked on 1 of 25 dropbacks.",
+      "Ajani Sheppard has completed 86 of 140 passes (61.4%) for 1,246 yards, 8.9 yards per attempt, 9 touchdowns and 3 interceptions in eight games for Temple, and has been sacked on 13 of 153 dropbacks.",
+      "Jaxon Smolik has completed 16 of 27 passes (59.3%) for 129 yards, 4.8 yards per attempt, 1 touchdown and 1 interception in four games for Temple, and has been sacked on 4 of 31 dropbacks."
+    ],
+    "availability": [],
+    "script": {
+      "model": [
+        "Navy’s offense has to keep winning on long runs: it turns 7.9% of its runs into explosive gains, and Temple’s defense gives up explosive gains on 5.2% of opponent runs.",
+        "Navy’s defense has to slow Temple on big pass plays — Temple’s offense turns 15.4% of its pass plays into explosive gains.",
+        "Navy’s defense has to slow Temple through the air — Temple’s offense averages 9.3 yards per pass attempt.",
+        "Navy’s offense has to keep winning on big pass plays: it turns 15.2% of its pass plays into explosive gains, and Temple’s defense gives up explosive gains on 15.1% of opponent pass plays."
+      ],
+      "market": [
+        "Temple’s offense has to keep winning on big pass plays: it turns 15.4% of its pass plays into explosive gains, and Navy’s defense gives up explosive gains on 15.3% of opponent pass plays.",
+        "Temple’s offense has to keep winning through the air: it averages 9.3 yards per pass attempt, and Navy’s defense allows 9.5 yards per pass attempt.",
+        "Temple’s defense has to come out ahead on long runs: it gives up explosive gains on 5.2% of opponent runs, against an offense that turns 7.9% of its runs into explosive gains."
+      ]
+    },
+    "unknown": [
+      "EdgeDesk’s own sources disagree on sack rate allowed and sack rate for Navy and Temple.",
+      "Not in EdgeDesk’s verified data for this game: turnover rates, injuries and personnel and penalty rate."
+    ],
+    "flags": [
+      {
+        "key": "DATA_CONFLICT",
+        "severity": "medium",
+        "text": "EdgeDesk’s own sources disagree on sack rate allowed (Navy), sack rate (Navy), sack rate allowed (Temple) and sack rate (Temple); the evidence uses the corroborated figures, and any model term built on the play-by-play figure may be off."
+      }
+    ],
+    "sources": [
+      {
+        "label": "EdgeDesk play-by-play unit metrics (2026 season)",
+        "url": null,
+        "path": "football/matchup/metrics.json",
+        "observed_at": "2026-11-01T22:55:26.361Z",
+        "verification": "VERIFIED_DATA"
+      },
+      {
+        "label": "EdgeDesk play-by-play quarterback logs (2026)",
+        "url": null,
+        "path": "football/fbs_epa/qb_epa_2026.json",
+        "observed_at": "2026-11-01T03:00:00.000Z",
+        "verification": "VERIFIED_DATA"
+      }
+    ],
+    "needs_confirmation": []
+  },
+  "checks": {
+    "ok": true,
+    "failed": [],
+    "at": "2026-11-02T00:36:55.151Z"
+  }
+}

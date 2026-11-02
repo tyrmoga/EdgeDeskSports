@@ -1,6 +1,1711 @@
 # Changelog
 
+## 2026-11-01 — Juice Reel: an authorize error is no longer reported as "you did not authorize"
 
+- **What happened.** Connect Juice Reel sent every reader back with "You did not authorize EdgeDesk on Juice Reel". Asked directly on 2026-11-01, Juice Reel's authorize endpoint answers `error=invalid_scope` ("One or more requested scopes are not allowed") for the Integration app (`jr_UcOwwS…`) whenever `bets.settled.read` is requested, before any sign-in or consent screen. `bets.open.read` alone reaches Juice Reel's sign-in. `jr_callback` read any `error` as a refusal, so the cause was hidden.
+- **Fix.** `jr_callback` (`portfolio_connect`, build `2026-11-01-jr7`) maps Juice Reel's error with `K.jrAuthorizeError`: `access_denied` and `status=cancelled` stay `JR_CONSENT_DENIED`; `invalid_scope` is `JR_AUTHORIZE_SCOPE` (names `bets.settled.read`, says it is on EdgeDesk's side); `unauthorized_client`/`invalid_client` is `JR_CLIENT_REFUSED`; anything else is `JR_AUTHORIZE_FAILED`. Juice Reel's code is logged (`juicereel.authorize_error`).
+- **Still needed.** Juice Reel must enable `bets.settled.read` on the EdgeDesk Sports Integration application. The requested scopes are unchanged.
+- **Test.** `tools/portfolio/juicereel.test.js`: the new check failed on the previous build (every error read as `JR_CONSENT_DENIED`) and passes now.
+## 2026-11-01 — Smart Money Tonight: the recorded best ask beside each card (methodology surface, H-RADAR-02)
+
+- **What.** `radar_tonight()` (`supabase/radar.sql` and its byte-identical migration mirror) adds `ask_price`, `ask_size`, `ask_at` and `fee_per_share` to each card. They come from the new read-only `radar_card_ask()`: the best ask, the size at it, its `quoted_at` and the taker fee at it, from the card's `radar_cards` row (the values `radar_publish_cards()` recorded at publication). They are null when no row is on file, never a midpoint. `radar_tonight_cards()`, `radar_rules()`, `radar_publish_cards()`, grading and `research/radar/**` are unchanged.
+- **Cards.** An ask inside its 15-minute limit is compared as an executable ask: depth, the gap before fees, and an EV only with a recorded fee. Past the limit, the displayed price is compared (indicative, no EV), and the publication ask is listed as not compared.
+- **Tests.** `tools/radar/radar_sql.test.js`: 259 passed, 0 failed. Against `main`'s `radar.sql`, the 6 new checks fail. The published records dumped from the suite (`RADAR_RECORD_DUMP`) are byte-identical before and after. `tools/research_compare/research_compare.test.js`: 119 passed, 0 failed. Its frozen-file check now allows only this block in `radar.sql`.
+
+## 2026-11-01 — Portfolio: a status message is no longer erased by a repaint (the flaky BetSync Chromium test)
+
+- **What was wrong.** `BetSync in Chromium` (`tools/portfolio/sharpsports_ui.e2e.js`, in Portfolio tests and `npm run verify`) failed now and then at "a refresh says SharpSports is reading the book": 2 of 5 runs on an unchanged `main` on 2026-10-31. The cause was in the page, not the test. `flash()` in `lib/edgedesk_portfolio_ui.js` puts its message inside the portfolio body, and every `paint()` rewrites that body. A load still in flight (here, the one started by the return from SharpSports) could finish after the message appeared, repaint the Accounts tab, and erase the message before its 3.5 s were up. A reader saw it flash and vanish; the test, reading once 400 ms after the click, sometimes saw nothing.
+- **The fix.** `paint()` puts back any status message still within its time. Each message still leaves after 3.5 s.
+- **The test.** It waits for the message instead of a fixed 400 ms. A new check reopens the Accounts tab while the message is up, which forces the repaint, and requires the message to still be there. Against the old page that check failed 3 of 3 runs; with the fix the suite passed 19 of 19 (22 passed each), 9 of them three at a time.
+
+## 2026-11-02 — Research OS journey: an NFL journey game gets the NFL schedule it needs (red since the Sunday-evening slate)
+
+- **What failed.** Research OS tests / `browser` (`tools/research_os/journey.e2e.js`) went red at 23:36 UTC on 2026-11-01, on `main` and on every pull request that starts it: `FAIL | desktop/phone: asking about the game sends the desk its ids, not only its names` (124 passed, 2 failed). The journey takes the first upcoming NFL or FBS game in the committed slate. The slate pushed at 22:21 UTC made that Philadelphia Eagles at Washington Commanders; from Sunday evening to Monday night the first upcoming game is always NFL.
+- **Why.** The AI desk finds an NFL game on the NFL board, which the page builds from nflverse's `games.csv`. The test answers every request outside the site with an empty 204, so the board never loaded. The desk then replied locally that no game with both sides "is on any card EdgeDesk publishes (68 games were checked on the FBS slate)", and never asked the desk with the game's ids.
+- **The fix (test only).** When the journey game is NFL, the test serves the nflverse schedule as it stood at the test's pinned clock. Results of games kicking off after that clock are blanked, the same way `tools/football/market_structure_ui.e2e.js` serves it. The schedule is read from the gitignored `football/nfl/.cache/`, else fetched once. ET kickoffs use the New York offset in force that day (DST ended 2026-11-01). If the schedule cannot be had, the suite fails in CI (`ROS_E2E_REQUIRED`) and reports SKIPPED (not verified) locally. No assertion changed; an FBS journey game is unaffected.
+- **Tests.** On `main`: 124 passed, 2 failed. With the fix: 126 passed, 0 failed, 3 runs of 3.
+- **Not changed here.** When the NFL board cannot be read, the desk still tells the reader the game is on no card, instead of saying the NFL board could not be read (`resolveFootballMatchup` in `app.html` checks "this pair is on no card" before "a card could not be read"). That is a separate fix.
+## 2026-11-01 — CFB terminal rules: a rounded-zero edge has no sign
+
+- **What failed.** `football/cfb_terminal/tests.js` (run by CFB research terminal and CFB validation tests) is red on `main`. The check "available EV … and the edge has the same sign" failed on game 401858285 at −110: model cover 0.523806 against a break-even of 0.5238095. The true edge is −0.00035 pp, which `lib/edgedesk_quote_ev.js` rounds to 3 decimals as 0 (or −0), while the EV rounds to −0.001%. The test then compared the sign of a rounded zero with −1.
+- **Fix (test only; the assertion compared rounded values).** The signs must agree unless the printed edge is zero, and it may be zero only when the true edge (cover − 1/d) rounds to it. The EV arithmetic and break-even checks are unchanged, and nothing in the EV engine, its rounding or the board changes.
+- **Tests.** `football/cfb_terminal/tests.js`: 128 / 1 → 129 / 0.
+
+## 2026-11-01 — NCAAM matchup graphic: neutral-site games drawn, last season's ratings on the card
+
+- **Bug.** The matchup view refused a neutral-site game whose home and away ESPN's scoreboard and `basketball/slate.json` list the other way round ("…list this game's sides the other way round, so no graphic is drawn"), e.g. Northern Illinois v Grambling on 2 November. Across the 237 Division I scoreboard events for 2–4 November, 2 were affected, both at neutral sites. Under the home-games-only intercept (`bb_cal_v2_home_intercept`) the model prices a neutral game the same either way round, so `EDSportGraphic.labGame` now reads it with the schedule's sides (`flipGame`: moneyline, spread lines at −L, margin, rest and sample inputs move to their own team). A home game listed the other way round is still refused. No model output changed.
+- **Stats.** For men's games the graphic reads `basketball/ncaam_research/published/index.json`, already served for the research page, by ESPN id. What to watch for shows each team's 2025-26 record and adjusted net-rating rank, and each offense's rank against the other team's defense. The no-price strip shows the records and net ratings. Each school is drawn in its own colour. A team the index does not rate (a non-Division I opponent) reads "unrated". Without the index the graphic draws as before.
+- **Workflow.** `sport-graphic-tests.yml` also runs on a push of the research index to `main`.
+- **Tests.** `tools/sport_graphic/sport_graphic.test.js` gets new checks for the flip, the refusals that remain, ratings in what to watch and in the strip, one side unrated, no index, the cache key, and `forEvent` end to end with a stubbed fetch. Against the old builder 18 of them fail. With the change all 25,481 checks pass. `sport_graphic_ui.e2e.js`: 57 passed, 0 failed.
+## 2026-11-01 — NCAAM-EARLY T3 model: prior, registered decay, in-season fit, projections, market comparison and Conviction
+
+- **What.** New `basketball/ncaam_early/model.js`, `market.js` and `project.js`, a `project` part in the sync (daily, last), and a new table, `ncaam_es_projections`.
+  - **Constants.** Every constant is registered (`config/model_v0.json`) or the engine's frozen state. `ratings.js` now also exposes the engine's home term, residual variance and λ.
+  - **Preseason prior.**
+    - 0.5 × the carried rating + 0.5 × the roster build.
+    - A coaching change shrinks the carried part further (coach_shrink 0.15).
+    - Tempo blends in the coach's tempo history.
+    - Prior variance = the engine's opening variance × the registered variance multiplier.
+  - **In-season.** The registered decay table, scaled by the variance multiplier (w / (w + vm (1 − w))), so rebuilt teams update sooner. A joint opponent-adjusted ridge fit with per-team prior strength.
+  - **Projection.** Margin, total, win probability, sd, and cover/over probabilities with whole-number pushes. Every projection uses only the finals known 30 minutes before tip, and the tests check this.
+  - **Market comparison.** Edge vs the best fresh price at its own line, the reference (Pinnacle else consensus) with its capture time, thin and stale flags, the registered Conviction tiers and angle tags. No stake or unit is returned. For a price-only bet between 1.5% and 3% the registered tier text overlaps, so LOW, the conservative reading, is taken and stated.
+  - **Prospective record.** The `project` part stores the next 48 hours of D-I v D-I projections in the append-only `ncaam_es_projections`. The database refuses a row at or after tip, or with inputs that postdate it. In-season finals and the schedule come from the NCAAM forecast's committed ESPN dataset (no CBBD call).
+- **SQL.** `supabase/ncaam_early.sql` and its mirror: the 21st table, its before-tip trigger, append-only guards, and a `translation_shift` column on the features table.
+- **Tests.**
+  - New `tests/model.test.js`: 49 passed. It covers the prior, the weights, fit recovery, the high-variance update, projection math, point in time, the market, the tiers and the angles.
+  - `features.test.js`: 50 passed (the `project` part end to end). `sql.test.js`: 45 passed (prospective guard). `data.test.js`: 77 passed. `registration.test.js`: 27 passed.
+- **Not verified.** A run on real CBBD data (no key in this environment). The market join to captured NCAAB prices is the next pull request.
+
+## 2026-11-01 — NCAAM-EARLY T2 features: player values, transfer translation, returning and departed production, the preseason team row
+
+- **What.** New `basketball/ncaam_early/features.js` and `ratings.js`, a `features` part in the sync (daily and weekly, after `moves`), and a new derived table, `ncaam_es_team_features`.
+  - **Registered values only.** Every number comes from the registered `config/model_v0.json` (its sha256 is checked against the registration). Nothing is learned. A missing input is null with a flag, never zero.
+  - **Prior-season ratings.** The existing engine (`team_model.js`, NCAAM-FORECAST's frozen parameters) is walked over the committed hoopR/ESPN dataset, crosswalked to CBBD ids by `sourceId`. Conference strength is 100 + the mean net rating.
+  - **Player value.** The registered box formula, per 100 on-floor possessions vs the D-I average, shrunk by minutes / (minutes + 250).
+  - **Newcomers.**
+    - D-I transfers: conference-strength translation, with the usage adjustment.
+    - Non-D-I transfers: replacement level with the level's registered uncertainty. CBBD has no statistics below D-I, flagged `NO_SOURCE_STATS`.
+    - Freshmen: by stars.
+    - Unknowns: replacement level, uncertainty 3.0.
+  - **The team row.** Expected minutes normalised to 200 a game. Also holds returning minutes and value share, departed production, minutes shares by origin, coach facts and coach tempo history, size, and the registered variance multiplier.
+  - **Not owned.** Travel distance and time zones are null with the reason: there are no venue coordinates.
+- **Fix found by the new SQL check.** `ncaam_es_put` wrote null over a column's default when a row omitted that key (`jsonb_populate_recordset`). It now takes the column default. Against the old function the new features check failed ("null value in column as_of_key"); with the fix the SQL suite passes 41 of 41.
+- **SQL.** `supabase/ncaam_early.sql` and its byte-identical migration mirror (idempotent: running Deploy NCAAM early-season SQL again adds the new table and replaces the two functions; nothing is dropped):
+  - the new 20th table;
+  - `ncaam_es_replace_derived` now also replaces stale feature rows for a `features` run;
+  - the default fix.
+- **Tests.**
+  - New `basketball/ncaam_early/tests/features.test.js`: 47 passed, 0 failed. It covers synthetic players, the engine on the committed 2025–2026 data, and the part end to end.
+  - `sql.test.js`: 41 passed. `data.test.js`: 77 passed. `registration.test.js`: 27 passed.
+  - NCAAM early-season suites runs the new suite and now also triggers on the engine files it reads.
+- **Not verified.** Any run on real CBBD data (no key in this environment).
+
+## 2026-11-01 — NCAAM-EARLY registered (v0.1.0, EXPERIMENTAL, T3) before any result
+
+- **What.** `basketball/ncaam_early/research/registration.json` and the registered starting configuration `basketball/ncaam_early/config/model_v0.json` (pinned in the registration by sha256), with `supabase/ncaam_early_registry.sql` generated from them by `research/build_registry_sql.js`. It is adapted from the NBA roster-adjusted generator: it reads the live registry columns, refuses rather than guesses, and writes no result row.
+- **Windows.**
+  - Training: the early-season windows (first game to 15 December) of 2020 and 2022–2025. 2021 is excluded before anything ran.
+  - Retrospective holdout: 2025-26, scored once after the configuration is frozen. It is descriptive and cannot promote.
+  - Prospective 2026-27 early season: the only promotion window.
+- **Promotion criteria.**
+  - C1: CLV of flagged bets > 0 with the 95% lower bound > 0 on ≥ 300 bets.
+  - C2: calibration no worse than the de-vigged close (+0.005 log-loss tolerance).
+  - C3: margin MAE not worse than NCAAM-FORECAST.
+  - C4: honest 80% coverage, and predicted sd ranks residuals.
+  - C5: HIGH-tier CLV ≥ LOW-tier CLV.
+- **Also registered.** Conviction thresholds (3% / 1.5% / 0.5%; Conviction only, no stake shown), the selection rule (training only, frozen before the holdout), the weekly-learning rule and the forking-paths disclosure, including the engine's earlier unconfirmed continuity/transfer prior.
+- **Deploy.** Deploy NCAAM early-season SQL gains `apply_registry` (default on).
+- **Tests.** New `basketball/ncaam_early/tests/registration.test.js` (static, plus the registry SQL on a real PostgreSQL with a stand-in registry): 27 passed, 0 failed. It runs in NCAAM early-season suites.
+
+## 2026-11-01 — NCAAM-EARLY data layer: the T0 store of the early-season college basketball model
+
+- **What.** `basketball/ncaam_early/` (model `edgedesk_ncaam_early_v1`, EXPERIMENTAL), the observation layer of the early-season men's college basketball research model, which builds on the existing ratings engine (`basketball/ncaam_research/team_model.js`).
+  - A CollegeBasketballData.com client whose every path and parameter is checked against the published OpenAPI document (1.30.1, sha256 recorded). It caps calls per run and stops before a call once the shared CBBD/CFBD quota falls below a 300-call reserve.
+  - Normalisers that reject rather than repair, and check the END-year season convention against CBBD's own labels.
+  - Derived player moves: returning, D-I transfer, portal transfer by source level, freshman, departures.
+  - Hand-entered coach, availability and school-level files with validators. CBBD has no coaches endpoint.
+  - A sync (`ingest.js`) with one run row per part and season, and alerts.
+- **Storage.** New `supabase/ncaam_early.sql` (and its byte-identical migration mirror): 19 `ncaam_es_*` tables. Rosters are point in time (a team's roster is stored again only when it changes); portal, recruit and line rows are stored on change, append-only. Only `service_role` can read: CBBD's terms forbid publishing its data in bulk, and this repository is public, so no CBBD row is committed. `ncaam_es_readiness()` returns KPIs only, and System health shows it as *NCAAM early-season sync*.
+- **Workflows.** `ncaam-early-tests.yml` (pull requests; in `sports-models`). `ncaam-early-sync.yml`: daily, plus weekly parts on Mondays; **off** until `NCAAM_EARLY_SYNC = on`; needs `CBBD_API_KEY`; commits nothing. `deploy-ncaam-early.yml` (manual).
+- **Tests.** `basketball/ncaam_early/tests/data.test.js`: 77 passed, 0 failed. `basketball/ncaam_early/tests/sql.test.js` (real PostgreSQL): 39 passed, 0 failed. The SQL suite caught an upsert that left unchanged derived rows on the old run, so the stale-row cleanup would have deleted current rows. It was fixed before commit.
+- **Not verified here:** any call to CBBD (no key in this environment), so endpoint field population, the portal year offset and the ESPN id crosswalk are measured on the first real run.
+
+## 2026-11-01 — Research Queue and Smart Money Tonight compare through one path
+
+- **One path** (`lib/edgedesk_research_compare.js`, `docs/research-compare/README.md`). The Research Queue and the Smart Money Tonight cards now compare a model with a price through the same module. For NHL it uses `EDNHLCompare`, as the matchup page does, so all three show the same gap. A comparison needs the same sport, game, side, market, period, line and settlement. NCAAM and NCAAW stay distinct. Every result carries its status and reason, and `calc: edgedesk_research_compare/1`.
+- **Root causes found**
+  - **Stale queue prices.** `games-slate.yml` (scheduled every 30 min) ran every 3.5–7.5 h on GitHub between Oct 28 and Nov 1. That is a refresh gap, not a display bug. New opt-in `supabase/games_slate_dispatch.sql` (pg_cron → `workflow_dispatch` every 30 min, debounced and logged). It is **not active until installed**.
+  - **"EdgeDesk fair" on the cards.** It was `signals.sharp_fair`, Pinnacle's de-vigged reference, whose feed is out. It is now labelled as a reference and not compared when stale. "Model fair" is now EdgeDesk's own probability for the exact contract.
+  - **Moneyline beside a puck line.** The queue picked the model's and the market's numbers through separate fallbacks, so it could set a model moneyline beside a market puck line. Both numbers now come from one shared market.
+  - **ET on cards.** The cards printed times in a hard-coded ET. They now use the reader's zone.
+  - **Rounding.** Each price was rounded on its own ("50¢ → 54¢, up 3¢"). Printed differences are now the differences of the printed prices.
+  - **Queue order.** Completeness came before start time. The default view is now **Starting soon**, with **Research priority** ranked only within one sport and market.
+  - **High Point–Liberty, 10:59 PM CST.** This is correct: ESPN gives 11:59 PM EST for an overnight marathon game.
+- **Cards.** Each card shows:
+  - wallet cost basis held at the last holders read, with the historical average entry;
+  - model fair, with the model and its age;
+  - the price, with its kind (displayed price, or an executable ask);
+  - one interpretation.
+
+  EV is shown only at an ask with a recorded fee. Wallet/model agreement adds nothing. The method and observed activity fold below the cards. The Radar record shows its denominators ("over 2 graded cards, not validated").
+- **Slate.** `tools/slate/research.js` stamps each model block with its artifact's `generated_at`.
+- **Unchanged.** Radar selection, publication, grading and the H-RADAR-01/02 registrations.
+- **Rollback.** Set `EDResearchCompare.FLAG.on = false` (or `?rc=0` for one page view). The previous renderers are kept.
+- **Tests**
+  - `tools/research_compare/research_compare.test.js` (new): 111 checks, from provider fixture to queue row and card.
+  - `tools/slate/dispatch_sql.test.js` (new, real PostgreSQL): 11 checks.
+  - `tools/radar/radar_ui.test.js`: 2 wiring regexes updated for the new `opts` argument.
+## 2026-11-01 — Odds gateway: men's college basketball (NCAAB) registered, disabled
+
+- **Why.** No NCAAB price is captured (`basketball_ncaab` has no gateway row, so every request is `denied_sport`), so neither men's college basketball model can be graded against the market. The season opens 2026-11-02. The owner approved about 2,000 credits a month for NCAAB main markets.
+- **What.** New `supabase/ncaab_odds_sport.sql` (and its byte-identical migration mirror): `basketball_ncaab`, group `ncaab`, **disabled**, priority 4. No cadence row: the `'*'` bands apply (hourly inside 24 h). One board of about 3 credits per purchase, at most about 2,160 credits a month. Nothing turns on until the owner runs `odds_api_set_sport('basketball_ncaab', true)` and adds the key to `CAPTURE_SPORTS`. Budget, breaker, categories, caps, cadence, capture and close are unchanged. Methodology note and operator steps: `docs/odds-api-incident-2026-10/METHODOLOGY-2026-11-01-ncaab-lines.md`.
+- **Tests.** New `tools/odds/ncaab_odds_sport_sql.test.js` (real PostgreSQL): 22 passed, 0 failed. `tools/odds/no_bypass.test.js` gains one check (the NCAAB row is created disabled). The suite runs in Odds gateway tests and before Deploy odds gateway ships anything (new input `apply_ncaab_sport`).
+
+## 2026-10-31 — Football enrichment refresh: the QB resolver no longer crashes when every candidate is ruled out
+
+- **What failed.** Football enrichment refresh runs 143 and 144 (41174482032, 41202537139) on `main` stopped at `build_enrichment.js` with `TypeError: Cannot read properties of null (reading 'player_name')` at `football/enrichment/qb/resolver.js:290`. Kansas State (game 401856846): last game's opener Jacob Knuth (100% of dropbacks) and the quality ranking's Avery Johnson are both listed OUT. The resolver settled the conflict (observed start over model), ruled the starter out, found no available alternative and set no QB, then wrote the resolution text from the missing QB.
+- **The fix.** When every name the evidence supports is ruled out, the answer is UNKNOWN with the ruled-out starter in `handed_from`, the conflict is reported `UNRESOLVED` (`conflict_resolved: false`), and `resolution_text` says every candidate is ruled out. No hierarchy, threshold or grading rule changed.
+- **Tests.** `football/enrichment/enrichment.test.js`: 138 → 141. Against the old resolver: 3 failed, with the production error. `node football/enrichment/build_enrichment.js` now completes on the current data.
+
+## 2026-10-31 — NBA injury readiness: a warning always says why
+
+- **What was wrong.** After the 2026-10-30 deploy, `public.nba_injury_readiness` read `warn` with `state_reason` null. The cause was one name on the league's report (Michael Ajayi, CHA, two-way) that matched no rostered player. The view's `state` turns `warn` on seven conditions, but its `state_reason` named only two of them (the ESPN fallback and drift). The other five fell through to null, so System health printed "degraded" with no explanation.
+- **Fix** (`supabase/nba_injury_layer.sql` and its byte-identical migration mirror). One reason branch for each remaining condition: failed or degraded checks in 24 h, teams missing on a game day (named), unmatched names, and a league report older than `official_report_max_age_minutes` on a game day (with its age). Only `state_reason` changes: `state` and every other column are the same, so no threshold moved.
+- **Tests** (`tools/nba/nba_injury_sql.test.js`, real PostgreSQL). Four new checks, one per newly named condition. On the old view: 59 passed, 5 failed (the four new checks, plus the mirror check, which failed only because the test swapped the file in place). On the fix: 64 passed, 0 failed.
+- **Deploy:** run Deploy NBA injury layer with `apply_sql`.
+## 2026-10-30 — Juice Reel: the check says which application the client id is, and which scopes the last token got
+
+- **Juice Reel approved `bets.settled.read` on EdgeDesk Sports Integration** (`jr_UcOwwS-Ep-nxQu7WeaStFHXfelzzjVrK`), and both redirect URIs are registered on it: `https://edgedesksports.com/oauth/juicereel-callback.html` (bet sync) and `https://edgedesksports.com/oauth/juicereel-subscribe.html` (billing). The other application, EdgeDeskSports (`jr_AFk36va1…`, Sign in With Juice Reel off), is to be disabled once the Integration app passes `check`. Today's `check` named its owner "EdgeDeskSports".
+- **Which application.** `jr_check` (`portfolio_connect`, build `2026-10-30-jr6`) and billing's `check` (`juicereel_billing-2026-10-30-1`) now answer `app`: the client id's first 10 characters, matched against `jr_UcOwwS` (Integration, correct) and `jr_AFk36va1` (EdgeDeskSports, wrong). On the wrong one, Actions → Juice Reel setup and Actions → Deploy Juice Reel billing fail with what to put in Supabase. An id that is neither is a warning. The secret is never read for this and never printed.
+- **Scopes.** `jr_check` answers `scopes`: what the bet sync requests (`bets.open.read bets.settled.read`) against what Juice Reel granted on the most recent stored token, with any missing scope flagged. The new service-only `portfolio_svc_jr_latest_scopes(env)` (`supabase/portfolio_juicereel.sql`) returns the scopes, time and status only: no reader, token or Juice Reel id. `supabase/parts/portfolio_juicereel.part*` regenerated (now 5 parts). `tools/portfolio/juicereel_smoke.js probe` prints both lines.
+- **Docs.** `docs/juicereel.md` § 1 and `docs/juicereel-billing.md` § 1.
+- **Tests.**
+  - `tools/portfolio/juicereel.test.js`: 196 → 207. Against the old function: 3 failed, and the run stopped at the first missing `app`.
+  - `tools/billing/juicereel_billing.test.js`: 113 → 118. Against the old function the suite stops at the first new check (`app` absent).
+- **Deploy:** Actions → Deploy Portfolio schema (`deploy_function` ticked) for the SQL and `portfolio_connect`, and Actions → Deploy Juice Reel billing for `juicereel_billing`. Then run Actions → Juice Reel setup → `check`.
+
+## 2026-10-30 — Deploy football situational tables (SQL): a button that applies supabase/football_situational.sql
+
+- **Why.** The Football situational pipeline's last step copies its artifacts into the `fsie_` tables, which do not exist in production (`Could not find the table 'public.fsie_source_files'`, run 41093420059). Until they do, every run of the pipeline fails.
+- **The workflow.** `deploy-football-situational.yml`, manual only (`workflow_dispatch`), `contents: read`. It runs `football/situational/tests/sql.test.js` against a throwaway PostgreSQL first, and fails if that suite fails or prints NOT VERIFIED. It applies the file with `SB_DB_URL` in one transaction (`--single-transaction`, `ON_ERROR_STOP`). It fails on any report row saying CHECK THIS, or unless all eleven `public.fsie_*` tables exist afterwards. Without `SB_DB_URL` the run fails: nothing was applied.
+- **What it installs.** Eleven `fsie_` tables (RLS on), the `fsie_team_games_current` view and the `fsie_prune()` retention function. It drops, truncates and deletes nothing. The registry file is not part of it.
+- **Checked here, not in production.** Each run step, taken from the workflow, was run against a throwaway PostgreSQL 16 with the Supabase shim. A first run applied it (SQL suite 35/35, 11 tables) and a second run was idempotent. A missing secret fails at the credential step, a suite printing NOT VERIFIED fails at the suite step, and a failing suite fails with its output shown. The production apply is NOT VERIFIED: no credential here.
+## 2026-10-30 — NHL goalie sync: a failed check is tried again instead of waiting for the next slot (the header's "1 failing")
+
+- **What the header showed.** The site's System pill read "1 failing" from 16:34 UTC. The one failing check was `nhl_goalie_readiness` (state `error`): "the last check failed: no starter source could be read (Daily Faceoff)". Deploy NHL goalie layer (run 41090811837) ended with a forced run at 16:34. Daily Faceoff answered HTTP 403 to both date pages, and the NHL API was not due (no game inside three hours). The cron run at 16:00 had read both pages, 18 rows. Daily Faceoff refused the function the same way on 2026-10-26 at 00:35 UTC. These are intermittent refusals from an outside source; EdgeDesk's parser and data were fine.
+- **What was ours.** After an error run the sync asked nothing until the next scheduled slot (18:00 UTC), so one refused read held readiness, and the site-wide header, in error for 86 minutes. The starters on file were kept and nothing was written in their place, so readers lost freshness, not data.
+- **Fix** (`supabase/functions/nhl_goalie_sync/index.ts`, build `nhl_goalie_sync@2026-10-30.4`). It complements #941, which retries a refused page inside one run and adds ESPN as a second source. A run still ends in error when every source is down, and #941 carries nothing over between runs. After an error run, the sync runs again 10 minutes later, then 20, then every 40 while it keeps failing, besides the schedule's own slots (`due_kinds` `retry_after_error`). The error run's `next_due_at` names the retry time. No change to what a run writes, how readiness judges a run, or the header's rule: a failed check still shows as failing until a check succeeds.
+- **Tests** (`tools/hockey/nhl_goalie_sync.test.js`), replaying production. A forced off-slot run refused with 403 is an error, and its `next_due_at` is 10 minutes on. Then:
+  - nothing runs at 6 minutes;
+  - at 11 minutes it runs and recovers;
+  - after the recovery, nothing extra runs;
+  - a source that stays down is retried 10, 20, then 40 minutes apart.
+
+  On the old code: 86 passed, 8 failed. On the fix: 94/0.
+## 2026-10-30 — Football situational pipeline: a failure after the build no longer throws away the derived seasons
+
+- **Why.** All four scheduled runs since the pipeline was added failed. Three were market refreshes (`build --offline`): `no derived season` for NFL and CFB at ingest. The fourth, a full build (run 41093420059), built and committed its data, then the Supabase copy failed (`fsie_source_files` does not exist in production; `supabase/football_situational.sql` has not been applied there). `actions/cache` saves only when every step passes, so its "Post Cached source downloads" was skipped and the derived seasons that build made were discarded. The market refreshes read only that cache.
+- **The change.** `football-situational.yml` restores the cache with `actions/cache/restore@v4` and saves it with `actions/cache/save@v4` right after the engine stages, before the commit and the Supabase copy. A failed build still saves nothing.
+- **Not fixed here.** The Supabase step fails on every run until the migration is applied to production. That is the owner's deployment.
+- **Test.** `football/situational/tests/integration.test.js`: on the old workflow 25 passed and 4 failed (the 4 new checks); now 29 of 29. Each new check also fails when the save is moved after the Supabase copy, runs on `always()`, or uses a key the next run does not restore.
+## 2026-10-30 — Franchise SQL: the founding-age spread is held on forty fixed rosters, not on one random roster per run
+
+**What failed.** A full `npm run verify` on 2026-10-30 went red at `games-sql.yml` "Refuse a silent skip". The franchise SQL suite had stopped after 724 checks:
+
+```
+FAIL: and no one age dominates it, which is what made the wave — 13 of 38
+```
+
+Two re-runs of the same tree passed. Nothing in the game was wrong.
+
+**Why.** The check read the founding roster of one fresh franchise. `franchise_create` gives every franchise a new random seed (`md5` of a random uuid and the clock), so the suite checked a different roster every run.
+
+The generator (`franchise_generate_roster`, `career_v1`) spreads ages uniformly over 21 to 32, as its comment says. Over 3,000 generated rosters, the size of each roster's biggest single age matched a uniform draw of 38 over 12 ages in every bucket:
+
+| biggest age group | 6 | 8 | 10 | 12 |
+|---|---|---|---|---|
+| expected | 1,180 | 292 | 24 | 1.1 |
+| measured | 1,207 | 283 | 19 | 1 |
+
+So a correct generator puts 13 or more of 38 at one age (over a third) about once in 12,000 rosters. It fails the neighbouring "spread across its whole age range" check about once in 52,000: no one aged 21 to 23, or fewer than eight ages. Searching seeds, the unchanged generator built such a roster, with only 7 distinct ages (seed `feaa68f2…`, the 10,758th tried). Both checks failed at random on a working game.
+
+**The repair.** Test only (`tools/games/sql/games_franchise.test.sql`). No game code, data or threshold changed.
+- The two claims are held on forty fixed seeds (`age-spread:1` … `age-spread:40`). `franchise_generate_roster`, the generator `franchise_create` calls and a pure function of its seed, turns them into the same forty rosters every run. Each must be spread across the range and have no age at a third or more, the same thresholds as before.
+- A new check requires the forty together to be flat: every age of the range holds its even share of the 1,520 players, give or take 30% (measured: 104 to 145 against 127).
+- The rosters are built and measured in a block that is rolled back, so no later check sees them. The fresh franchise is still created and still re-seeds the generator at random for everything after it.
+- The fresh franchise keeps its deterministic checks: 38 founding players, every age inside the published range.
+
+**Before and after** (`node tools/games/franchise_sql.test.js`, real PostgreSQL):
+
+| | old test | new test |
+|---|---|---|
+| unchanged generator, the fresh franchise drawing seed `feaa68f2…` | FAIL: spread, `21,22,24,25,26,27,32` | PASS |
+| mutation A: ages skewed young, `power(random(), 2)` | not run | FAIL: biggest single age 21 of 38 |
+| mutation B: ages bunched on 21, 24, 27, 30 | not run | FAIL: fewest ages 4 |
+| mutation C: a mild lean young, `power(random(), 1.35)` | not run | FAIL: biggest single age 16 of 38 |
+| mutation D: off by one, age 32 never drawn | PASS (993): every age still sits inside the range | FAIL: not flat, 11 of the 12 ages |
+
+The suite runs 999 checks, or 996 when the simulated first season earns no bowl. The bowl branch guards three checks; that was true before, when the counts were 996 and 993. The file has three more checks than before:
+- the two spread claims moved from the fresh roster to the forty fixed ones;
+- three are new: forty rosters of 38 were built, the forty are flat, and the fresh franchise has 38 founding players.
+## 2026-10-30 — Methodology change (integrity guard, owner's decision): the Polymarket request budget settles a dead run's grant at what it may have used
+
+**A change to the gateway's budget guard (AGENTS.md §3). It needs the owner's explicit review before it is deployed.**
+
+- **Why.** A run that dies (out of compute, a 502 from the database) never calls `poly_api_settle`, so its whole grant stayed reserved for the rest of the UTC day.
+  - On 2026-10-30 (stage report, run 41069288565), 56 tonight grants were never settled and held 22,215 requests. The day read granted 40,000 and used 17,785.
+  - Every run after 09:55 UTC was refused (`denied_budget`), so Smart Money Tonight had no current holders.
+- **What.**
+  - Each run reports its requests so far every 20 requests (`poly_api_progress()`, a new table of the same name). The report never goes backwards, never exceeds the grant, and never lands after the settlement.
+  - Under the day's lock, `poly_api_acquire()` first settles every grant still unsettled 15 minutes after it was given, at its last report plus 100, capped at the grant. Each is recorded as expired. A run lives at most about 7 minutes, so it is gone by then.
+  - The day gets back only what the dead run cannot have used.
+  - The daily ceiling (40,000) and the per-run cap (3,000) are unchanged, and `radar_rules()` is unchanged. `polymarket_sync` is build `.10`.
+- **Tests, failing first.**
+  - SQL 237 -> 245: two dead grants (no report: 100 of 400; reported 300: 400 of 900), a fresh one left alone, the day's totals (910 granted, 500 used), a late settlement changing nothing, and no client access. Before `poly_api_progress()` existed, the suite stopped on its first call.
+  - Sync 83 -> 84: runs report in steps of 20, never more than they used. On the old function: 83 passed, 1 failed (no report).
+
+## 2026-10-30 — NHL goalie sync: ESPN's probable goalies are a second starter source
+
+- **What failed.** Daily Faceoff refused the function (HTTP 403) from 16:34 UTC; the 16:00 run had read it. More than three hours out it is the only source, so every run was a `sources_down` error and tonight's starters could only be confirmed by hand (`hockey/data/confirmed_starters.json`).
+- **The source.** ESPN's public NHL scoreboard (`site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=<ET date>`) answers a plain request with each team's `probableStartingGoalie` and ESPN's status word. On 2026-10-30 it named all six starters (two Confirmed, four Expected); every name matched a rated goalie.
+- **The change** (build `nhl_goalie_sync@2026-10-30.3`). The sync reads ESPN on its own cadence (pg_cron, every five minutes; runs at the due slots), for each Eastern date, and stores each probable goalie as an `espn` observation. Nothing is entered by hand.
+  - ESPN's "Confirmed" is Confirmed, its "Expected" is Likely, as Daily Faceoff's words are read. A goalie only Expected never opens the edge gate or the lineup lock.
+  - When ESPN and Daily Faceoff name different goalies, it is a conflict: Daily Faceoff leads, at Likely at most.
+  - `sources_down` now needs Daily Faceoff and ESPN both unreadable. ESPN down alone is DEGRADED; a changed response shape is a DRIFT.
+- **SQL.** `supabase/nhl_goalie_layer.sql` (and its migration copy) adds `espn` to the starters' source check; applying the file again replaces the check on the live table. It must be applied before the function is deployed.
+- **Tests,** shown failing on the old code first:
+  - core: 113/0 (the suite crashes on the old core);
+  - sync: 104/0 (main's function at `761147e24`, which retries Daily Faceoff: 96/8; Daily Faceoff refusing is still `sources_down`, and there are no ESPN rows);
+  - SQL on a real PostgreSQL: 85/0 (old 14/2: the old check refuses the `espn` row);
+  - UI: 48/0 (old 46/2).
+
+  ESPN's parser is tested on its real 2026-10-30 response, trimmed to the fields it reads.
+- **Terms.** ESPN's response is public but unlicensed, like the ESPN NHL pack: the source registry names it beside Daily Faceoff for the owner's review before paid use.
+## 2026-10-30 — Novig in production: DraftKings from the prices production keeps; ingestion only on a key Novig lists as read-only
+
+- **What production showed.** Deploy run 41112694540 applied nothing. The layer's guard refused: `needs public.sharp_price_snapshots (the DraftKings tape): apply supabase/sharp_lag.sql first`. Production has no Sharp-lag tape. It keeps DraftKings in `book_quote_ticks` (capture's per-book history, joined to `signals` by `sig_key`), and only for actionable signals. The project's secret names (run 41113406385, names only) show `NOVIG_MANAGEMENT_KEY_ID` and `NOVIG_MANAGEMENT_PRIVATE_KEY` NOT set, and an unexplained `NOVIG_READ_KEY_ID` / `NOVIG_READ_PRIVATE_KEY` pair set.
+- **DraftKings source.** `novig_market_data.sql` reads DraftKings through one service-only view, `novig_dk_tape`. It is built from the Sharp-lag tape where it exists, otherwise from `book_quote_ticks`. `novig_dk_price`, `novig_history`, the report, `novig_sync`'s line choice and the deploy check all read the view. Nothing is written to either source. Applied again after `sharp_lag.sql`, the layer switches to the full tape. The comparison's source line says which one is in use.
+- **Least privilege, enforced.** `discover` and `snapshot` now run only after a probe in the last 30 hours saw Novig list the key as `management::read`. A `management` or `trading` key, or an unlisted one, is a FAILURE (`key_not_read_only`; it used to be a WARNING). Every later run is skipped (`scope_unverified`) and calls nobody. A newer refusal is never shadowed by an older pass.
+- **Provisioning.** When the bootstrap cannot sign at all (the management key is not set), `whoami` exits 4: "Novig was never asked". It no longer reports that as Novig's answer. Not retried.
+- **Tests.**
+  - `novig_sql.test.js`: 65 → 74, adding a second real-PostgreSQL world shaped like production (`signals` and `book_quote_ticks` only). On the old layer: 2 failed, with production's exact guard error.
+  - `novig_sync.test.js`: 44 → 50. On the old code the source check fails (`GET sharp_price_snapshots`), and a management key only warned.
+  - `novig_bootstrap.test.js`: 22 → 23.
+
+## 2026-10-30 — NBA injury report: two-line reasons go to the right player, and nothing is left unread
+
+- **The 5 drift alerts in 24 h were a parser bug, not a format change.** They are `report_unread_lines`, from 2026-10-29 17:07 to 19:07Z, and each one is the line `"/ Bone Bruise"` (Jalen Suggs, ORL). The league's PDF centres each row vertically. A two-line reason prints one line above the player's row and one below it. A row cut by a page break carries its reason over to the next page. The parser knew only the "line above" case. So the line below a row was given to the next player, and a trailing line before NOT YET SUBMITTED was left unread. 56 of 92 official reports since 10-21 were affected. On 1,029 of 6,231 rows the stored reason text belongs to another player. Statuses and names were unaffected, so no projection was mispriced. The stored rows are append-only and were left as they are.
+- **Fix** (`nba/injury/core.js` `nbaAssignWraps`/`nbaSolveWraps`, core `nba-injury-core-2026-10-30-1`; `nba_injury_sync@2026-10-30.1`, parser `nba-official-lines-2`). The parser assigns the wrapped lines for a whole run of rows at once. It prefers the centred layout and allows the page split. A layout that fits no split, or two splits equally well, is counted as unread, never guessed.
+- **Names.** "Udeh, Jr., Ernest" now reads as "Ernest Udeh Jr.". An alias maps "Hansen Yang" to "Yang Hansen", checked against ESPN's POR roster (5217746). Michael Ajayi (CHA, two-way) is on no captured roster, so he stays unmatched. That is missing roster data, and no fuzzy match is made.
+- **Freshness.** On 10-30 the league published nothing after 6:00 AM ET: every later slot answered S3 AccessDenied. Each run now records `details.official` (`newest_listed_at`, `read_url`, `tried`). System health keeps the two ages apart: a quiet league with a current sync is information, and a sync that has not checked in 75 min is attention.
+- **Tests:** a new fixture `tools/nba/fixtures/nba_injury_report_wraps_2026-10-28_29.json` holds three real reports' line streams, with their expected reasons taken from page geometry. `nba_injury_core.test.js` went from 80/16 to 96/0. `nba_injury_sync.test.js` went from 41/1 to 42/0.
+- **Deploy:** run Deploy NBA injury layer (`deploy-nba-injury.yml`).
+
+## 2026-10-30 — Kalshi sync: a timed-out database read is retried; readiness always says why it is not ok
+
+- **What failed.** The snapshot run at 09:20 UTC (`ec23a067…`) failed after exactly 20 s with "snapshot error: Signal timed out.". Its first database read (`kalshi_series?tracked=is.true`) stalled. Kalshi was never called and nothing was written. Every snapshot from 09:25 on succeeded (268 markets). `db()` retried Kalshi's 429/5xx answers but never a PostgREST read.
+- **Fix** (`supabase/functions/kalshi_sync/index.ts`, build `kalshi_sync@2026-10-30.1`). A read (GET) is tried at most 3 times, after a timeout, a lost connection or a 429/5xx, with waits of 250 ms and then 500 ms. A write is never resent: `kalshi_price_snapshots` has no natural key, so a resent insert could duplicate rows.
+- **Readiness** (`supabase/kalshi_market_data.sql` and its byte-identical migration mirror). One recovered failure held `kalshi_readiness` at `warn` for 24 h, with `state_reason` null. A failed run is now judged by what came after it:
+  - 2 or more failed runs in 24 h: warn.
+  - Not recovered: a snapshot is error, a discover is warn.
+  - Recovering, with less than 30 min of good runs: warn, and the reason says so.
+  - One failure followed by 30 min of good runs of the same mode: ok. It stays named in `recent_incident`, `last_failure_at` and `last_failure_message`, and it is still counted in `failures_24h`.
+  - DEGRADED and DRIFT alerts still warn for 24 h.
+  - `state_reason` is never null when the state is not ok.
+  - New rule key `recovery_confirm_minutes` = 30.
+  - `open_game_events_unmapped` reconciles events with markets. Each game event has 2 markets, so 231 unmapped events are 462 markets.
+- **The 462 unmatched markets are not mapping faults.** All are CFB, all have the reason `no_book_event`, and none is a name or alias failure. The breakdown:
+  - 118 events are FCS vs FCS, out of scope.
+  - 113 events are FBS games with no book event in the capture:
+    - 69 are on this week's slate, and an offline replay of the deployed linker links all 69, so the gap is in the CFB moneyline capture;
+    - 32 carry Kalshi's placeholder date (`26OCT30` for Saturday games);
+    - 3 have a TBA kickoff;
+    - 8 are beyond the horizon;
+    - 1 is FBS vs FCS.
+
+  No matching rule was changed. The 6¢ spread exclusion and the trusted mid are untouched.
+- **System health** shows `recent_incident` on the Kalshi row while the view reads ok.
+- **Tests:** `kalshi_sync.test.js` went from 48/3 to 51/0. `kalshi_sql.test.js` went from 75/7 to 82/0; on the old view, five reads were warn with a null reason.
+- **Deploy:** run Deploy Kalshi market data with `deploy_function` and `apply_sql`.
+
+## 2026-10-30 — System health: every count names its subsystem, and the odds capture shows its real state
+
+- **"Model health 21/22, 1 failing" was not a model failure.** `sysHealthState` added the NHL goalie sync's `error` into the football self-check's fail count, and the Model health row printed that count. In production that day the self-check had 22 checks: 21 passed, 1 warned (the NFL line guard), and none failed. Model health now counts the self-check alone (22/22, amber for its warning, which it names). The syncs still add to the header's count, and the header, its title and its aria-label name the subsystems the count is made of ("2 failing (database, NHL goalie sync)").
+- **The odds capture read "unknown", and that was wrong.** The heartbeat came only from `public.signals`, which the paywall rule hides from a reader without access, so most accounts saw no row. The panel now also reads `rpc/odds_feed_status` (anon, security definer), and shows one of six states: healthy, delayed, paused, quota exhausted, degraded, or unknown (the status read failed: monitoring failed, not the feed). Production answers `paused` / `quota_unconfirmed`: the October quota was spent on 2026-10-10, and paid calls wait for the November cycle's quota to be confirmed (docs/odds-api-incident-2026-10/INCIDENT.md §9). The pause is now reported as such. "Last successful sync" shows a write on record or "none on record", never the time of the read.
+- **Pipeline jobs "15/15" counted keys, not jobs, and could not see a failure.** It counted every `pipeline_meta` key (timestamps and row counts), and it compared the string statuses against `ok===false`. It now counts the six `<job>_last_status` jobs, and a status other than `ok` is attention, named.
+- **Build freshness "68d ago" now says what the date means.** The football parameters (`edgedesk_football_v1.0.0`, `edgedesk_cfb_p4_v1.0.0`, trained through 2025) are fitted before each season and held fixed through it by design (model_loop/adapters/nfl/baselines/README.md: "refit before each season"). The ratings learn daily. The row reads `season-fixed`, beside the date results were absorbed through. Nothing was retrained.
+- **The not-served learning loop** (MLB lab brain, research-only by governance: the card uses `mlb/engine.js`) is named with its reason under Research governance, not left as a bare count.
+- **Kalshi** shows a reason when the view leaves `state_reason` empty ("1 failed run in 24 h, recovered").
+- **Six sections:** model health, data sources, scheduled jobs, data quality and coverage, research governance, and historical performance (7 days). The NHL starter sources have their own row.
+- **Entities.** The source data and the renderer never produced `&#x34;21 min`. In Chromium, the panel's text on production data holds no entity. What was missing were separators between the label, the note and the value. The row is a flex box, so the separators draw nothing, but without them the row's text ran together ("(game day)421 min") for anything that reads text rather than pixels, and the tool that produced the report encoded each value's first character. Each row now has the separators. Every value is still escaped exactly once (`edEsc`), and a reason that holds markup or an entity is shown as written.
+- **Tests:** `tools/app/system_health.test.js` (new, run by Research OS tests). On the old `app.html`: 14 passed, 37 failed. On the new one: 51 passed, 0 failed. One static assertion in `tools/kalshi/kalshi_ui.test.js` was updated to the shared rule (an error fails, a warn asks for attention), and the new suite runs that rule.
+
+## 2026-10-30 — NHL goalie sync: a Daily Faceoff page Cloudflare refuses is tried again in the same run
+
+- **What failed.** The manual run at 16:34 UTC (build `nhl_goalie_sync@2026-10-30.1`) found both Daily Faceoff pages answering HTTP 403. The previous run, at 16:00, had read them. More than three hours before puck drop Daily Faceoff is the only source, so the run was `sources_down` and readiness went to error. The page is up: from a test container it answers 200 with the function's browser headers, and its parser reads it (3 games, 6 rows). With other headers it answers 403 with Cloudflare's "Attention Required!" page. The refusal is Cloudflare's bot protection, and it comes and goes. The function never tried a page a second time.
+- **Fix** (`supabase/functions/nhl_goalie_sync/index.ts`, build `nhl_goalie_sync@2026-10-30.2`). Each page is tried at most twice more in the same run, after a 403, 408, 425, 429 or 5xx, a timeout or a lost connection. The waits are 2 s and then 4 s, plus up to 1 s of jitter, or the server's Retry-After, capped at 8 s. All the retries in one run share a 45-second budget. A 404 is not retried, and neither is a page that changed shape (DRIFT). A Cloudflare block page (its title or a `cf-mitigated` header) is named "Daily Faceoff blocked by Cloudflare bot protection (HTTP 403)". An empty 200 or a challenge served as 200 is never parsed into starters. Each page's attempts are kept in the run row. Unchanged: an unreadable page writes nothing, the starters on file stay, and nothing becomes Confirmed. Nothing carries over between runs.
+- **Tests** (`tools/hockey/nhl_goalie_sync.test.js`). The fake network can script Daily Faceoff's answers call by call, with headers. The backoff records its waits instead of sleeping. 14 new checks cover: a 403 and then a 200 (read in the same run); a 429 with Retry-After and then a 503; a lost connection; a 404 (not retried); three refusals (an error run named as Cloudflare, nothing written, nothing Confirmed, the next run recovers); the stored starters untouched by a block, an empty 200 or a 200 challenge; the shared budget; DRIFT not fetched again. On the old function: 89 passed, 9 failed. On the fix: 98 passed, 0 failed.
+- **Deploy:** after merge, run Deploy NHL goalie layer with `deploy_function`.
+## 2026-10-30 — Novig provisioning: Novig's own refusal stops the run (no 451 retries); the card hook is defined in app.html
+
+- **What was wrong.** The `whoami` step of `.github/workflows/novig-provision.yml` retried `provision.js whoami` up to 10 times on any failure. That includes the answer where Novig refuses the management key on both hosts with a 451 location check. Each try signs one echo per host, so a refused network would have sent up to 20 signed requests into 451s, and Novig warns that repeated 451 retries can lock the account. The workflow had never run.
+- **The fix.** `provision.js whoami` now exits 0 when an environment accepted the key, 3 when Novig answered and neither did (each host's answer is printed), and 1 only when the transient bootstrap cannot be asked yet. The loop retries only 1; 3 ends the run at once.
+- **The deploy check.** `deploy-novig.yml` gains a `verify` step. Its log is public (a public repository), so `tools/novig/deploy_check.js` prints only facts that are not prices: the tables, RLS, policies, grants, indexes, switches, jobs, rows by environment, a halt in force, and what a non-admin and the owner's admin account can read. Any `CHECK THIS` row fails the job. With `report_key`, the admin's actual view is added sealed (RSA-OAEP + AES-GCM), never printed. `provision.js whoami` shows subaccount ids by their first 8 characters only.
+- **The card hook.** `window.fbNovigHTML` is now defined in `app.html` beside `fbKalshiHTML`, with the same guard. It returns `''` when the module is missing or throws. `lib/edgedesk_market_compare_ui.js` exposes `EDMarketCompareUI.html` and leaves the global to the page.
+- **Tests.** `tools/novig/novig_bootstrap.test.js` gains 5 checks. On the old code, 4 of them failed (17 passed, 4 failed): the CLI had no exit codes, and the loop was `if node tools/novig/provision.js whoami; then …`. After: 22 passed. `tools/novig/novig_sql.test.js` runs the deploy check on real PostgreSQL (53 → 65): it is all `ok` on a correct layer, reports a halt, and reads `CHECK THIS` with display on or with anon granted a table. It writes nothing, prints no price, and the seal opens only with its private key. `tools/novig/novig_ui.test.js` goes from 38 to 41 and renders through the page's own hook. `tools/football/brief_wiring.test.js` passes 72/72 either way.
+## 2026-10-30 — Prediction Radar: H-RADAR-02 registered, the page says whether its sync is current, and a stage-by-stage report
+
+- **Why.** Smart Money Tonight showed nothing. On Polymarket's own data, the 18 wallets H-RADAR-01 graded "top" held one open position ending within 60 hours, on an uncovered esports market: those all-time leaders mostly no longer bet. The owner merged H-RADAR-02 (#924) and asked for the rollout to be finished and verified end to end, with the count at each stage and the point where it reaches zero, and with "sync pending", "sync failed" and "no current qualifying position" told apart on the page. No qualification rule changes.
+- **Registered.** `research/radar/registration_h_radar_02.json` is frozen: EXPERIMENTAL, version 0.2.0, registered 2026-10-30 13:30:16 UTC. Its prospective window is 2026-10-31 00:00 UTC to 2027-01-23 00:00 UTC (84 days, fixed end), the day after registration and deployment as the registration requires. Its data-already-seen disclosure adds what was looked at since the draft: probe run 40982170115, production's H-RADAR-01 counts of 2026-10-30, and those 18 wallets' open positions.
+- **The registry.** `tools/radar/build_registry_sql.js` writes both hypotheses into the research registry, and `registry_ref:H-RADAR-02` beside H-RADAR-01's. H-RADAR-01's block is unchanged, and so is its result row.
+- **The sync state.** `radar_sync_state()` (internal) goes into the subscribers' door as `sync`:
+  - *pending* means no grade under the live rules yet;
+  - *failed* means the holders update ended in error or has not succeeded for 30 minutes, or a grade failed after the current one, or the current grade is over 36 hours old;
+  - *ok* means both are current.
+
+  The page says which, and with no card says "no featured bettor holds a position on tonight's covered games right now", with when the holders were checked. Observed Activity says the same under its own heading. These thresholds are presentation only.
+- **The report.** `tools/radar/sql/radar_pipeline_report.sql` is read-only. Deploy Prediction Radar prints it last (`report`, on by default), together with the four schedules' last runs. It shows the rules, the hypothesis and the sync state, then the runs, discovery with exclusions by reason, the grade by style, the matched games, and every stage in order to the cards, marking where the featured path first reaches zero.
+- **run_now** ends with one tonight run, so the holders and the cards are current at once. A failed tonight run fails the step.
+- **The tonight runs stop dying (`polymarket_sync` build `.9`).**
+  - What the report found on 2026-10-30 (run 41066621513): the holders sync had not succeeded since 2026-10-29 15:02 UTC. pg_net shows the function answering HTTP 546 (out of compute) 9 times, 500 five times and 502 five times, besides runs refused for the budget.
+  - Each run rewrote every unmatched covered market (2,535 college football alternate lines) one request at a time.
+  - Runs that die never settle their request grant, so they also held about 22,000 of the day's 40,000 requests (used: 17,785).
+  - Now an unmatched market is written once per reason. Test: on the old code, the next run rewrote 301 of 301 unmatched markets; on the new, none (sync 81 -> 83).
+- **Tests**, each failing first:
+  - SQL 223 -> 237. On the old registry builder the new checks fail: 142 passed and 2 failed, with H-RADAR-02 not registered. Before `radar_sync_state()` existed, the suite stopped on its first call.
+  - UI 84 -> 95. Before the change, 6 of the 7 new checks failed. The seventh, observed activity shown when nobody is featured, already passed.
+
+## 2026-10-30 — Juice Reel: readers can connect while the PRODUCTION live test runs (methodology change)
+
+**What was wrong.** Add a position and Accounts told every reader "EdgeDesk's Juice Reel application is awaiting Juice Reel's approval". That rested on the 2026-10-22 check, when Juice Reel answered 401. Today's check (Actions → Juice Reel setup → `check`, run 41091907710) says: *"Juice Reel accepted EdgeDesk's client id and secret (the application's owner: EdgeDeskSports)."* `start_live_test` (run 41092029965) then started PRODUCTION live test `eab424e0-44c5-4f47-b890-7be64e3d3ce7`.
+
+**The change.**
+- **Who may link (methodology change, the account owner's decision).** `portfolio_connect` admitted only operators under a running PRODUCTION live test. It now admits every signed-in reader under it. A reader cannot name a test: the server uses the running one. The database already admitted any grant under a running PRODUCTION test (`portfolio_svc_ag_allowed`), and is unchanged. When the test is finished, linking and scheduled syncs of those grants stop until the registry row is switched on, which still needs a PASSED ten-stage test and a cleared terms review (`portfolio_registry_guard`, unchanged).
+- **No expiry.** A running PRODUCTION live test of Juice Reel used to lapse after 30 days (`portfolio_svc_ag_allowed`, `portfolio_svc_jr_smoke_current`). It now runs until it is finished. Other connectors' tests keep the 30 days. The 30-day freshness of the PASSED test needed to throw the switch is unchanged.
+- **Wording.** "Awaiting provider approval" / "awaiting Juice Reel's approval" becomes **Not open yet**: Juice Reel opens with EdgeDesk's live test of the connection.
+- `portfolio_connect` build `2026-10-30-jr5`. `app.html` loads the Portfolio page and the connector core at `?v=20261030jr5`.
+
+**Evidence.**
+- `tools/portfolio/juicereel.test.js`: three new checks. A reader under the running live test may connect and is not told the test. They start linking under the running test, whatever id they send. Once the test is over and the switch is off, they can no longer start. On the old gate: 193 passed, 2 failed. On the change: 195/0.
+- The same suite: a live test started 45 days ago and still running still lets a reader connect, and the database still admits its grants. With the 30-day window: 195 passed, 1 failed. Without it: 196/0. `sharpsports.test.js` (which shares `portfolio_svc_ag_allowed`): 97/0.
+- `tools/portfolio/juicereel_ui.e2e.js`: the reader sees Not open yet before the test, then a working Connect once it starts. 34/0.
+
+**Deploy:** after merge, Actions → **Deploy Portfolio schema** with `deploy_function` ticked. It applies the SQL (the window) and deploys the function (the gate). Production still runs build `2026-10-22-jr3`, so the 2026-10-30 jr4 changes ship with it too.
+## 2026-10-30 — Data pushes to `main` carry an "All checks" certificate, so `main` can require All checks of every pull request
+
+**Why.** Nothing stops a pull request from merging while its checks are red or still running. #926, #928 and #930 merged within 11 seconds of their checks starting today, and `main` went red. The fix is one rule on `main`: require `All checks`. That rule also binds the 65 data jobs that push straight to `main` with `GITHUB_TOKEN`, and this account has no bypass that lets them through. GitHub refused the GitHub Actions app as a bypass actor ("invalid actor", 2026-10-27). A Write-role bypass still refused a `GITHUB_TOKEN` push (TEMP bypass probe, run 41092698463, `GH013: Required status check "All checks" is expected`).
+
+**What.** `tools/ci/certified_push.sh` is `git push`, certified first when it updates `main` from GitHub Actions:
+- the commit goes to a `ci-certify/…` side branch;
+- the job's own token posts an `All checks` check run on it, titled "Data publish, not the pull-request gate" and naming the workflow and run;
+- then the push, then the side branch is deleted.
+
+Against a scratch ruleset with no bypass, that push was **accepted** where a plain one was refused (run 41094226276).
+- `push_generated.sh` certifies every attempt, so the commit that lands is the one certified.
+- The 12 workflows with their own `git push` to `main` now call the certifier. Each of these is a one-line swap with the same refspec.
+- The 66 jobs that push to `main` get `checks: write`, in whichever permissions block is in effect for each job.
+- Pushes to any other branch, and the suites' local repositories, are plain `git push`. A certificate that cannot be made never stops the push: it warns.
+- `docs/ci/BRANCH_PROTECTION.md` and `docs/ci/main-ruleset.json` describe the rule: `All checks` required, bypass list empty, no pull-request rule (that rule binds direct pushes too, and no certificate can satisfy it).
+
+**What it is not.** The certificate does what a bypass would. Data commits are no more checked than before. Any workflow with `checks: write` could post an `All checks` success, so the rule stops accidents, not someone faking the check.
+
+**Not yet on.** The rule itself is a repository setting for the owner, after one data push shows the certificate. The steps are in `docs/ci/BRANCH_PROTECTION.md`, "Applying it".
+
+**Tests.** `tools/ci/certified_push.test.js`: 32/0, against a real bare repository with a stand-in check-runs API. With `main`'s old `push_generated.sh` it fails (31/1: no certificate on the commit that landed). With the certificate on the wrong commit it fails 28/4. `tools/ci/push_generated.test.js`: 32/0, unchanged.
+
+## 2026-10-30 — Game research test: the "lower" Kalshi check prices the home side from the model, not at a fixed 70.5
+
+**What broke.** `tools/football/game_research.test.js` §14 put Kalshi's home mid at a fixed 70.5% and required the card to say EdgeDesk is "lower" on the home team. That held only while the first NFL game on the hourly slate had its home side under 70.5%. Once CAR at GB (69.6%) kicked off, the slate's first game became ARI at DAL (76.0%), and the card correctly said "EdgeDesk 5.5 pts higher on DAL". `main` went red with no code change (254 passed, 1 failed), and so did NFL model suites and Game research tests on every pull request that started them (#926, #928).
+
+**The fix.** The fixture was nondeterministic: it depended on the hourly slate. The home quote is now one cent above EdgeDesk's home %, rounded down to the cent (a mid half a point to a point and a half above the model). The assertion is unchanged: the team is the home team and the sentence says "lower" by exactly that gap. On CAR at GB it is the same 0.70/0.71 quote as before. No code changed.
+
+**Evidence.** Today's slate: before 254/1, after 255/0. Yesterday's slate (`84859411`): after 253/0. With each of the 28 NFL games on today's slate forced as the card's game, the "lower" check holds for 28 of 28. The fixed 70.5 held for 20 and failed 8. With "higher" and "lower" swapped in `lib/edgedesk_game_graphic.js`, the check fails.
+## 2026-10-30 — NHL goalie sync: one slow database answer no longer fails a run
+
+- **What failed.** The pg_cron run at 12:10 UTC hit a database request past its 20-second deadline ("Signal timed out."). The function's database helper had no handling for it, unlike the source readers, so the whole run became `sync_error`. Readiness keeps the last check's error until the next due slot (14:00 UTC). So NHL goalie sync failed every time it ran in between: run 23 at 13:18 failed with "readiness: the last check failed: sync error: Signal timed out."
+- **Restored.** A forced run of NHL goalie sync at 13:23 UTC recorded a successful check. Readiness went back to warn (the standing "Confirmed by T-30" KPI), and the job passed (run 24).
+- **Fix** (`supabase/functions/nhl_goalie_sync/index.ts`, build `nhl_goalie_sync@2026-10-30.1`). A read that times out or loses its connection is sent once more. A write is never sent twice: it may have landed, and every table is append-only. An HTTP error from the database is not retried either.
+- **Tests** (`tools/hockey/nhl_goalie_sync.test.js`). The fake network can make a chosen database request throw Deno's `TimeoutError` ("Signal timed out."). Three new checks:
+  - one timed-out read: the run completes with no sync error;
+  - the same read timing out twice: still a named sync error;
+  - a timed-out write: never sent again.
+
+  On the old code: 82 passed, 2 failed, with production's exact error. On the fix: 84/0.
+- **Deploy:** after merge, run Deploy NHL goalie layer with `deploy_function`.
+## 2026-10-30 — Brief wiring test: a `window.fb*` hook defined by a script the page loads counts as defined
+
+**What broke.** `tools/football/brief_wiring.test.js` §2 requires every `window.fb*` that `app.html` reaches for outside the football module to be defined by somebody. It looked for definitions only in `app.html`. Novig (#928) is the first hook defined by a script the page loads: `lib/edgedesk_market_compare_ui.js` puts `fbNovigHTML` on the page's global, and `app.html` names `window.fbNovigHTML` beside that script's tag. Collective suites never ran on #928, so `main` merged with that step red (71 of 72). Every pull request that starts Collective suites inherited the failure.
+
+**The fix.** For a name not defined in `app.html`, the test runs each `/lib/` script the page loads that names it, in a bare global, and counts the name defined only if the script actually puts a function there. A script that only mentions the name does not count. No code changed.
+
+**Evidence.** Before 71 of 72, after 72 of 72. Each of these still fails:
+- page code outside the module reaching for a `window.fbNopeHTML` nobody defines (also with a loaded script that only mentions it);
+- the Novig script tag removed from the page;
+- the lib's `root.fbNovigHTML =` assignment removed.
+
+## 2026-10-30 — Novig: DraftKings vs Novig at the price a stake actually gets (built and tested; not deployed)
+
+- **Why.** A line's price is not what it costs. An exchange's best price holds only so much size, a larger stake walks the book, and a sportsbook's margin is inside its price. EdgeDesk now compares the SAME bet at DraftKings and at Novig, at the reader's stake, and says when it cannot.
+- **What.** (`docs/novig/README.md`)
+  - `lib/novig_signing.js`: NOVIG-V3 signing (Ed25519 and P-256 via WebCrypto, no package), 30/30 of Novig's published vectors.
+  - `lib/edgedesk_venue_compare.js`: the executable-price engine in exact integer arithmetic (1¢ contracts, the price grid, per-fill fees half up to $0.00001, VWAP, partial fills), implied probability, hold on complete markets only, no-vig as an estimate, EV only through a model gate, freshness rules shared with SQL.
+  - `lib/novig_market_map.js`: matching to `public.signals` on teams, home/away, kickoff, market type, period, exact line and orientation; anything else queued with its reason.
+  - `supabase/functions/novig_sync` + `supabase/novig_market_data.sql` (+ cron, rollback, migrations): signed REST ingestion, append-only snapshots, links, the comparison against the existing DraftKings tape (`sharp_price_snapshots`), history, a research summary, readiness.
+  - Credentials: a transient bootstrap and `novig-provision.yml` register a `management::read` key from the existing management key (public key only; the private key goes straight to Edge Function secrets).
+  - `lib/novig_stream.js` + `tools/novig/stream_worker.js`: the websocket book channel, off until a persistent host and a `trading::read` key exist.
+  - `lib/edgedesk_market_compare_ui.js` on the NFL/CFB cards (beside Kalshi), `lib/edgedesk_compare_cards.js` (seven PNG templates), `lib/edgedesk_lead_lag.js`, `admin/novig/`.
+- **Gates.** Public display is OFF in the database (`novig_config.public_display`) and in code (`NOVIG_PUBLIC_DISPLAY_ENABLED = false`) until Novig's written permission is on record; until then only operators see Novig prices, and graphics are watermarked internal. Ingestion is off until `NOVIG_INGEST_ENABLED=true`. No model, ranking, threshold, grade or historical record changed; no order route exists.
+- **Tests.** New suites, all green here: signing 98, venue compare 59, market map 34, novig_sync 44, bootstrap 17, stream 30, SQL 53 (real PostgreSQL), lead-lag 11, UI and graphics 38. `.github/workflows/novig.yml` runs them (category market-odds).
+- **Not verified here.** No deploy, no signed call to Novig and no read of the production database were possible from the build environment (no Supabase or Novig credentials); real Novig prices were read only from Novig's unsigned public catalog for the test fixture.
+
+## 2026-10-30 — Juice Reel: connect from Add a position, and no bet counted twice (look-alikes held for the reader's review)
+
+- **What was already built.** Juice Reel's OAuth 2.0 + PKCE connection, sealed tokens, the refresh lease, the initial import, the `/bets/changed` sync, the 10-minute schedule and the Accounts panel (`docs/juicereel.md`). It is not live for readers: the registry row stays off until Juice Reel approves the application, the PRODUCTION smoke test passes and the terms review clears (§ 9). This change does not touch that switch.
+- **The bug.** Connecting Juice Reel over bets the reader had already recorded counted many of them twice. The sync adopted a typed or imported bet only when exactly one matched within 15 minutes. It kept two identical bets apart and reported them, and it never compared a screenshot whose time was hours off, or a bet typed later. Both copies then counted in P&L, ROI, the record and every count.
+- **The fix** (`supabase/portfolio_juicereel.sql` 2b, `portfolio_svc_jr_ingest`). A synced bet that resembles one of the reader's own records is no longer stored. It is HELD in `public.portfolio_sync_matches`, its newest copy kept, until the reader decides. A look-alike is the same book, the stake within a cent, the same price, and either:
+  - placed within 2 hours;
+  - placed within 36 hours with the same event start or a word of the pick in common;
+  - the same event start, placed up to 14 days later.
+
+  "The same bet" merges it into the record the reader picks. The record takes the Juice Reel id and figures, keeps its notes and journal, and keeps what it said before on the decision. "A different bet" stores it as its own position. Until then the reader's own record is the one counted. Nothing is merged without the reader, including the exact matches the old automatic adoption took: those are marked exact and can be confirmed together. The shared ingest gains `"adopt": false` for this, and SharpSports is unchanged.
+- **Also.**
+  - **Add a position** opens with **Connect Juice Reel** and its description. It offers only what the server allows: disabled with the reason before approval, the connection's state once connected. The manual and import options are underneath, unchanged.
+  - **Accounts** counts the bets imported and the platforms they came from, both from the stored bets, and prompts the review when bets are held.
+  - History and Open label each position's source quietly.
+  - A Juice Reel bet's details show Juice Reel's own `clvPct`, labelled as Juice Reel's figure, never EdgeDesk's closing-line value or a Decision Grade input.
+  - Odds or a line adjusted in Juice Reel are flagged.
+  - The database enforces one position per reader and Juice Reel bet id.
+  - New edge function actions: `jr_matches` and `jr_match_resolve`.
+- **Tests.** On the code before the fix, the new reader-D scenario in `tools/portfolio/juicereel.test.js` failed. P&L went from +105 to +192.73 after connecting, where the fix gives +90: four bets were counted twice. That run had 140 passed and 11 failed. On the fix, `juicereel.test.js` gives 192/0 and `juicereel_ui.e2e.js` gives 33/0 in Chromium at 1280 and 390 px.
+
+## 2026-10-30 — NHL goalie sync: the card table shows when the NHL boxscore listed each game's lineups
+
+- **Why.** The card table's first run (01:39 UTC) showed that the lineup lock priced none of the night's games. Eight had started, and all eight were still at the slate's price. For every one of them both starters were Confirmed and the inputs carried the lineup block (35/35 games). That leaves the one input nothing showed: whether the NHL boxscore listed at least 12 skaters a side before puck drop. Each sync run records what every boxscore read saw (the timing probe, `nhl_goalie_sync_runs.sources`), but no job read it.
+- **What.** `tools/hockey/sql/nhl_goalie_cards_check.sql` gives each card its game's boxscore reads, from the runs recorded from 4 hours before puck drop to an hour after:
+  - the number of reads;
+  - the minutes before puck drop at which both lineups were first listed (negative: after puck drop);
+  - the last read before puck drop: its game state, the skaters listed a side and the starters flagged.
+
+  NHL goalie sync's card table adds an "NHL boxscore lineups" column: "listed T−22 min", "listed T+4 min, after puck drop (…)", "not listed by T−3 (PRE, 0 / 0 skaters, 2 starters flagged; 7 reads)" or "not read". Its summary line also counts the started games whose lineups were listed before puck drop. Read-only, as before.
+- **Tests.** On the code before this change: `nhl_goalie_sync.test.js` passed 80 and failed 1, and `nhl_goalie_sql.test.js` passed 80 and failed 2. On the change: 81/0 and 82/0 on a real PostgreSQL. The SQL suite records three runs whose probe has one game listed at T−30 and one never listed by T−21, and checks that each card reads only its own game's reads.
+## 2026-10-30 — Research OS journey: the workspace's links are read once Market Foresight's card has its answer
+
+- **What failed.** On #924, the Research OS browser job failed one check on the phone: "the workspace links Signals, Foresight and the Simulator for this game" found `["#signals/cfb","#simulator/cfb"]` (run 41008198329; 125 passed, 1 failed). The same check passed on the desktop in that run.
+- **Why.** The game page draws its Market Foresight card as "Checking the record…", with no link, and `EDContext.railFill` adds the record's link when `mf_game` answers. The test read the links as soon as `#gvWs` appeared. Its step 4 already waits for that card to settle; this check did not.
+- **The fix** (`tools/research_os/journey.e2e.js`, test only). Before reading the links, the check waits for the Foresight card the same way step 4 does. The assertion is unchanged.
+- **Regression.** The test's PostgREST stand-in now answers `mf_game` 2 seconds late, every run, so the race is always exercised.
+  - Before the fix, with the late answer: 124 passed, 2 failed (desktop and phone, `["#signals/cfb","#simulator/cfb"]`).
+  - After: 126 passed, 0 failed.
+- **How it reached `main`.** #924 carried the same change, byte for byte, and merged first; this entry records it.
+
+## 2026-10-30 — Methodology change (owner's decision, DRAFT for review): Prediction Radar H-RADAR-02, featured bettors from complete recent histories, at what a follower pays
+
+**Methodology change; needs the owner's explicit review. Not registered: its SQL is not to be applied until H-RADAR-02 is registered.**
+
+- **Why.** H-RADAR-01 failed its holdout and left almost nobody to show. 172 of 200 wallets were excluded for histories longer than 30 pages. That left 13 qualifying wallets, 5 of whose top 10 scored below zero, and they bet on about 4 to 5 covered games a week. Smart Money Tonight is a paid feature that needs current research every day, without lowering any standard.
+- **Evidence first** (`tools/radar/probe_h02.js`, from GitHub's runner, 4 runs).
+  - There is no 90-day leaderboard. The 30-day board counts shares, not dollars, and was exact to the cent against wallets' own trades.
+  - Its top is high-frequency wallets: about 3,000 pages for 90 days at rank 1.
+  - Screening the top 300 separated the two groups: flagged wallets' 10th percentile is 64 position changes a day; unflagged wallets' 90th percentile is 58.
+  - Polymarket's fee formula, confirmed from its documentation on 2026-10-30: the taker fee is shares × rate × (p × (1 − p))^exponent from each market's own schedule. Sports lists 0.05; the covered markets probed charge 0 today.
+  - Every price Radar records is the midpoint, half a cent under the ask.
+  - A newest-first read can be resumed with its cursor.
+  - All of it is in `research/radar/H-RADAR-02/DESIGN.md`.
+- **The rules** (`radar_rules()` version 2, `research/radar/registration_h_radar_02.json`, a draft).
+  - Candidates come from the 30-day board. Each is read completely for 90 days, newest first; more than 30 pages is insufficient history, ungraded.
+  - High-frequency (not followable) only when three known 24-hour samples each exceed 100 position changes a day.
+  - The pool is the 200 evaluated wallets with the most covered-league dollars, each with at least 20 covered bets.
+  - Grades follow at the midpoint plus 1 cent, plus the market's taker fee; a schedule that cannot be read is never guessed.
+  - Featured: a Radar Score above 0, at most 10, fewer when fewer qualify.
+  - The record publishes at the order book's best ask, plus the market's taker fee at it.
+  - The prospective test runs 12 weeks, with a fixed end.
+- **Built**:
+  - the grading core (rules versioned: H-RADAR-01's frozen rules still grade exactly as before);
+  - the SQL: rules, discovery state, fee schedules, version-2 bets beside version 1's, the featured guard, Observed Activity, the record at the ask, the current run of the live version, registration of the live hypothesis;
+  - `polymarket_sync` build `.8`: discovery, the screen, the complete read, the pool, quotes;
+  - the page: featured bettors, how many qualify, Observed Activity apart, discovery counts;
+  - the docs (`docs/prediction-radar.md`, H-RADAR-02).
+- **Tests**:
+  - core 100 -> 130 (the fee against Polymarket's published fee tables);
+  - SQL 199 -> 223 (the fee in SQL equals the core's; a card on a market charging the Sports rate is graded net of its fee);
+  - sync rewritten for version 2, 81 (its cursor check fails without its fix: 79/1);
+  - UI 72 -> 84;
+  - browser 54 -> 56;
+  - gateway 29 -> 30.
+  - The version-1 sync suite passes 67/0 against the new function.
+  - Applying the version-2 SQL over a version-1 database with data was checked on PostgreSQL.
+- **Open before registration:**
+  - the window's start date;
+  - the registry builder for H-RADAR-02.
+
+## 2026-10-30 — Football evidence test: a pull request reads "today's" research pinned on 2026-10-29; a daily sweep reads today's
+
+**What kept breaking.** Two checks in `tools/content/evidence.test.js` read "today". S 3c checks every claim the evidence builder makes; section L checks every article the engine would offer. Both read today's committed research at the real clock, so `main` went red with no code change whenever new data exposed the writer:
+- `1c3b5c07a`, 197 of 198;
+- `c933dc468`;
+- Week 9 on 2026-10-29, red until 20:15 UTC and again until 23:35.
+
+Each time, every pull request that started Content engine was blocked until someone repaired the writer. The check was right each time: the writer was wrong.
+
+**The repair.**
+- **A pull request reads a pinned snapshot.** By default, S 3c and section L read `tools/content/fixtures/research_2026_w9.json.gz`: the research `main` held at `ca6f867a0`, read at 2026-10-29T20:14:42Z. That is the moment its own code blocked two Week 9 articles: the upset-watch preview (`injuries_addressed`) and Utah–Cincinnati (`numbers_in_evidence`).
+- **It keeps the inputs, not the outputs.** It stores the research files and each game's evidence-builder inputs. `ART.fromFiles()` builds the packets with the code under test (`tools/content/evidence.js` `buildFrom()`), and the engine drafts from them.
+- **It can't go stale silently.** `tools/content/fixtures/freeze_live.js` builds it. It trims what nothing reads and checks that the fixture, read back, gives byte for byte the evidence set, research, drafts and gate verdicts that the full files give. A new check requires the two Week 9 articles to still be drafted.
+- **Today's research still runs daily.** `--live` reads today's committed research at the real clock (`--now` replays a moment). `.github/workflows/content-engine-live.yml` runs it daily at 12:41 UTC and by hand. Its red run blocks no pull request.
+- **Nothing was weakened.** No check, gate, threshold or engine output changed. `ART.frozen()` and the Week 6 fixture are unchanged.
+
+**Before and after** (`node tools/content/evidence.test.js`):
+
+| | result |
+|---|---|
+| old test, `main`'s own code at `ca6f867a0`, clock at 20:14:42Z | 202 / 1: L, both Week 9 articles BLOCKED |
+| new test, pinned, this code | 213 / 0 |
+| … the wall clock at 2027-03-01 or at 2026-10-26 | 213 / 0 |
+| … on `ca6f867a0`'s data instead of today's | 213 / 0, byte-identical output |
+| … `lib/content_engine.js` as it was at `ca6f867a0` (mutation) | 208 / 5: L, the upset-watch preview BLOCKED |
+| … `lib/football_evidence.js` as it was at `ca6f867a0` (mutation) | 208 / 5: S 3c and L, Utah–Cincinnati BLOCKED |
+| `--live --now 2026-10-29T20:14:42Z` on `ca6f867a0`, this code | 212 / 0 |
+| … with both files as they were (what the sweep would have said) | 203 / 9: S 3c and L, both articles BLOCKED |
+| `--live` on today's `main` | 212 / 0 |
+
+## 2026-10-29 — NHL goalie sync: the job lists every game's card, and whether the lineup lock priced it
+
+- **Why.** On the first night of the lineup lock (#902), nothing on GitHub could say whether a game had locked. The job summary listed only the cards a run wrote, and pg_cron writes the lock. A dry run at 22:54 UTC, six minutes before the 7 PM ET games, changed none of the 14 cards: either they had locked already or they never would. And Supabase could not be reached from the agent's environment to read the cards directly.
+- **What.** A read-only query, `tools/hockey/sql/nhl_goalie_cards_check.sql`, returns the current version of every game from 6 hours ago to 24 hours ahead (`public.nhl_game_cards_current`). NHL goalie sync runs it in a new step, and `tools/hockey/nhl_goalie_run_summary.js` lists the cards.
+  - Each row has the puck drop, the version and when it was written (T−minutes), both statuses, the gate, the headline's home win %, and what priced it: "lineup lock" with the skaters listed and the slate's price before lock, or "slate" with its model.
+  - Above the table: the started games, and how many were priced at lineup lock before puck drop.
+  - The watchdog runs every half hour, so the night's locks can be read from it. Cards that cannot be read fail the job, as readiness does.
+- **Tests.** On the code before this change, `nhl_goalie_sync.test.js` passed 78 and failed 3 (no cards table, an unreadable result passing, no empty-window line), and `nhl_goalie_sql.test.js` crashed (no query file). On the change: sync 81/0, and SQL 81/0 on a real PostgreSQL. The SQL suite checks that a locked game reads as "lineup lock" with its price before lock, that a slate card reads as the slate, that each game appears once, and that nothing over a day ahead is listed.
+## 2026-10-29 — Trial emails: day 1 and day 3 wait when the board cannot be read
+
+**What was wrong.** The trial email sender reads the live board, `public_home_board()`, once per run. When that call failed, it logged "emails go without live research" and sent day 1 and day 3 anyway, built from the committed `football/home/board.json` alone. That file carries no game lines, so:
+- day 1 told the reader "No game clears EdgeDesk's research gates right now. PASS is a normal answer.";
+- day 3 said "EdgeDesk re-priced 0 games … and priced 0 research-grade player props."
+
+Both statements were made about a board nobody had read.
+
+**What changed** (`tools/lifecycle/send.js`):
+- **When the board call throws or answers without `ok`,** day 1 and day 3 are held: marked `failed` with "held: the board could not be read (…)". The next run retries them, at most three times, and `lifecycle_due()` already skips a tip that is more than a day late.
+- **The welcome and the renewal reminder still go.** The welcome leaves out its board lines when there is no data, and the reminder is a billing notice that doesn't use the board.
+- **A dry run** releases held rows, as it does every other row.
+- **The run's summary line** now counts `held`.
+
+**Tests.** `tools/lifecycle/lifecycle.test.js` §6 runs the sender with the board failing, with it answering without `ok`, in a dry run, and with it read normally.
+- On `main`'s sender, 7 of those checks fail: all four emails go out, day 1 and day 3 included (66 passed, 7 failed).
+- With this change, 73 passed, 0 failed.
+
+## 2026-10-29 — Prediction Radar: the wallet sync grades only the bets the grade reads, and reads the wallets that can be top-graded first
+
+- **Bug.** Smart Money Tonight showed "No top-graded bettor holds a position" because there was almost no one to show. `run_now` on build `.6` ([run 40916807612](https://github.com/dsrackler17/EdgeDeskSports/actions/runs/40916807612)) made 123 wallet calls in 2 h 45 m. At the end 6 of the pool's 200 wallets had been read in full, 6 were ranked and 1 was top-graded. The Radar record had no card to publish, so "How following has done" stayed at 0 graded.
+- **Cause** (`supabase/functions/polymarket_sync/index.ts`, `wallets`).
+  - Every resolved bet in a wallet's history was graded, at one or two price reads a bet. The grade reads only the newest 150 (`max_bets_per_wallet`).
+  - Bets were graded while the activity read was still short of the present. Newer bets read later pushed them out of the grade.
+  - Due wallets were taken by pool rank, which is by volume. So the busiest wallets were read first and kept the queue for dozens of runs each. Most of them (172 of 200 in H-RADAR-01) have truncated histories and can never be top-graded.
+- **Fix** (build `polymarket_sync@2026-10-29.7`). A wallet's bets are graded only once its activity is read up to the present, and only the newest 150 resolved ones, newest first. The grade reads exactly these, so every grade is the same as before. Wallets whose history is not truncated are read before truncated ones. No rule in `radar_rules()` changes.
+- **Visible change.** A trader page lists a wallet's newest 150 resolved bets from Radar's first read of it, and every one after. Before, it listed up to 500.
+- **Tests** (`tools/radar/sync_fn.test.js`, with `max_bets_per_wallet` at 20 against a wallet with 63 bets):
+  - a read stopped at 10 pages grades nothing yet;
+  - once the read is complete, exactly the newest 20 bets are graded, in at most 4 runs;
+  - a wallet that is not truncated is read before truncated wallets that rank higher and have waited longer.
+
+  On the old code: 64 passed, 3 failed. It graded 20 bets before the read was complete, then all 63 over 5 more runs, and took the three truncated wallets first. On the fix: 67 passed, 0 failed.
+
+## 2026-10-29 — Authorization change: Juice Reel `set_product *` opens every product of the seller, so buyers get access without its id
+
+**Authorization change; needs the owner's explicit review.**
+
+- **The problem.** After #906, a Juice Reel purchase opens only a product that is mapped by its id. Juice Reel shows a subscription product's id nowhere until someone has bought it. `check` on production reads "Product ids on Juice Reel's subscriber list: none yet", so EdgeDesk could not be mapped, and so could not be sold, without a purchase first.
+- **The fix** (`supabase/juicereel_billing.sql`).
+  - `billing_jr_tier_of_product` reads a product's own row first, then the row `*`: every product of this seller.
+  - `billing_jr_set_product('*', …)` re-checks every linked buyer at once.
+  - `billing_jr_products` no longer lists products that `*` covers as not mapped.
+  - Report row 9 names `*`.
+  - A product's own row still wins: a Bet Checker product mapped by its id never opens the terminal. A purchase naming no product is not covered.
+- **The workflow** (`deploy-juicereel-billing.yml`).
+  - `set_product` accepts `*` as the product id. Anything else outside letters, digits and `_ . : -` is still refused (`**`, `prod*`, quotes).
+  - The summary shows "every product (*)".
+  - Run against a throwaway PostgreSQL before committing: `*` → terminal mapped, and `set_mode on` then passes; `**` and `prod*` refused.
+- **Tests** (`tools/billing/juicereel_billing.test.js` § 13).
+  - `*` opens a buyer of an id nobody knew, at once and on a later return.
+  - A product's own Bet Checker row wins over `*`.
+  - `check` lists `*`.
+  - Unmapping `*` ends what it alone granted.
+  - On the old code: 110 passed, 3 failed. On the fix: 113 passed, 0 failed.
+- **Production.** Deploy Juice Reel billing → `deploy`, then `set_product` with `product_id` `*` and `opens` `terminal`, then `set_mode` → `on`.
+## 2026-10-29 — Content engine: a capsule says each quarterback listing once (two merged fixes said it up to three times)
+
+**Why.** #904 and #907 fixed the same weekly-preview capsule in parallel, and the conflict resolution in `329df540e` kept both. Each quarterback listing was then printed up to three times, `no_repetition` blocked the Week 9 preview, and four content suites went red on `main`: evidence 209/2, core 331/5, edge function 21/8, weekly job 27/3.
+
+- **Fix** (`lib/content_engine.js`, `capsuleEv`). It keeps #904's loop, which writes every conflict and every listed quarterback once per side, and removes the two lines and the trailing loop that #907 added. `capsuleEv` is now exactly #904's. `supabase/functions/content_engine/index.ts` was regenerated with `node tools/content/inline.js`.
+- **Rounding is unchanged.** #904 prints 0.5185 as 51.9%, and #907's citation follows the printed text, so both say 51.9. Test S 3d now expects 51.9 instead of 51.8; it still requires the citation to equal the printed figure.
+
+Tests: `tools/content/evidence.test.js` gains S 3e (each quarterback sentence in a capsule appears once).
+- Against `main`: `FAIL | football evidence pipeline | 210 passed, 2 failed`, with the conflict sentence and the "listed as out" sentence repeated.
+- After: evidence 212/212, core 336/336, edge function 70/70, weekly job 30/30.
+
+## 2026-10-29 — Football situational browser suite: the FBS schedule is fetched when no local cache exists, so CI stops failing every `app.html` pull request
+
+**Why.** `tools/football/fsie_ui.e2e.js` (Football situational tests, job `suites`) failed "the FBS board lists a game the artifact covers" on every pull request that touches `app.html`, and on `main` (`189bf8a75`): `9 passed, 1 failed`.
+- The suite served the FBS schedule (`cfb_schedules_<year>.csv`) only from a local cache (`football/situational/.cache/raw/` or `football/fbs/.cache/`). Neither is committed, and the workflow never builds one. So on a runner the board's schedule request got a 404, the FBS board listed no games, and the four FBS card checks never ran.
+- The NFL schedule already fell back to its published file. The FBS schedule now does the same, from the URL the page itself requests (`FBP4_URL_SCHED`), once per year per run. A local cache still wins when one exists.
+
+Tests: the suite itself.
+- On `main`: `FAIL | situational intelligence (browser) | 9 passed, 1 failed`.
+- After: `PASS | situational intelligence (browser) | 14 passed, 0 failed` (the four FBS card checks now run).
+
+## 2026-10-29 — Landing page: "Came from Juice Reel?" in the login and sign-up window
+
+**Why.** A reader who bought EdgeDesk on Juice Reel and then tapped **Log in** on edgedesksports.com saw only an email and a password. Nothing told them their Juice Reel purchase could be linked, or that they needed an EdgeDesk account first. Linking existed, but only on the terminal's paywall and behind the landing band's **Bought on Juice Reel? Open EdgeDesk**.
+
+- **The line** (`lib/edgedesk_juicereel_billing.js`, `landing`): above the form, **Came from Juice Reel? Link your Juice Reel account**. It is shown only while the Juice Reel switch is ON, and not to a reader already headed for Juice Reel's checkout.
+- **Pressed**, the window keeps its own form and says Juice Reel opens after they log in or sign up, with **Undo**. It stands in for the lede, whose sign-up wording promises the card trial.
+- **After sign-in** (a login, a sign-up, or an email confirmation), the reader goes to Juice Reel's authorize page through `juicereel_billing` (start `link`), then back through `oauth/juicereel-subscribe.html` to the terminal, as the paywall's link button does. The card trial's renewal terms never open, and no consent is recorded.
+  - How: a `link` intent is stored beside the existing checkout intent, with the page's pending flag, so the existing `openArl` → `resume()` path carries it. **Undo** restores the pending flag as it was, so a reader who pressed **Start free trial** first still goes on to the trial.
+  - If the switch has gone off before they sign in, they go to the terminal, where the paywall decides; never to the card trial's terms.
+- **`index.html` is unchanged** apart from the library's `?v=` stamp: the page is 7 characters under its 216 KB budget. The line is drawn and styled inline by the library. `app.html` takes the same stamp; `tools/presentation/landing_asset_stamps.json` records it.
+- Docs: `docs/juicereel-billing.md` § 4 and § 10.
+
+Tests: `tools/billing/juicereel_checkout.e2e.js` gains the login window: switch OFF, then ON at 390 px and 1280 px (line → Undo → line → log in → kind `link` → terminal open), sign-up after **Start free trial**, Undo keeping the trial, the switch going off before sign-in, and a stale intent dropped.
+- Against the old library: the run stops at the first new check (`#jrAuth` does not exist), exit 1.
+- After: `89 passed, 0 failed` (was 50).
+
+## 2026-10-29 — NHL goalie sync: a build stamp for the lineup lock, and the job summary shows the headline
+
+- **Why.** #902 (the lineup lock) left two gaps. The function's build stayed at `nhl_goalie_sync@2026-10-25.1`, so after its deploy a `GET` could not tell the new code from the old. And the job summary's "Home win %" is the goalie pairing's number, so a lock never showed in NHL goalie sync or in the deploy's first run.
+- **What.** `supabase/functions/nhl_goalie_sync/index.ts` answers `nhl_goalie_sync@2026-10-29.1`. Nothing else in the function changes. `tools/hockey/nhl_goalie_run_summary.js` adds a "Headline home win %" column, marked "(lineup lock)" once the card is locked, and labels the old column "(pairing)".
+- **Tests.** `tools/hockey/nhl_goalie_sync.test.js`: the summary row carries the headline, and at lock it shows the lock price marked "(lineup lock)". On the old summary code: 76 passed, 2 failed. On the fix: 78/0. `docs/engine/NHL_GOALIES.md` §11 records the first deploy: Deploy NHL goalie layer run 4 deployed it, and its first run read the site's previous inputs, which the site had not yet replaced.
+
+## 2026-10-29 — Changelog: eleven entries that merges dropped are back
+
+Conflict resolutions in "Update branch" merges dropped whole entries again. Each one is restored verbatim from the last commit that held it. Every line on `main` is kept, except the second copy of one Prediction Radar entry, which a merge had duplicated.
+
+- Football situational intelligence, apart from its "Tests:" list (merge `46c6060256d`, #903).
+- Prediction Radar: run_now grades every 25 wallet calls (merge `46c6060256d`, #903).
+- Prediction Radar: a wallet whose run dies part way is set aside (merges `1b1be847057` and `46c6060256d`).
+- NHL methodology change: the headline is priced at lineup lock (merge `1b1be847057`, #902).
+- Deploy Fairline: a regression test for the email switch step (merges `1b1be847057` and `91b1fe15116`).
+- Juice Reel billing reads Juice Reel's confirmed answers (merge `91b1fe15116`).
+- Methodology change (owner's decision): NHL favourites priced with the split factor fitted on the moneyline (merge `11000daf9da`).
+- Methodology change: NBA and NHL game lines every two hours in the odds gateway (merge `73fcc93075d`).
+- Fairline, part 3: The Tape (merge `a91cb0238c0`).
+- Authorization change: the terminal's paywall, `has_active_sub()`, defers to the one access rule (merge `502dc44665f`, #890). The later entry on EdgeDesk's operators was a separate change and stays.
+- Bet Checker says when sportsbook prices are paused: its heading survived, but merge `2ac8fc949b4` dropped its body.
+- Prediction Radar: a grade reads only the price stretches it uses. #908 removed one copy of the duplicate and `23630b7fa9a` removed the other, so merge `dcf3ee7b028` left none. It is restored once, from `316a47722ff`, which added it.
+
+## 2026-10-29 — Prediction Radar: run_now grades every 25 wallet calls and stops the wallet calls after 5 hours, so a long run never loses its grade
+
+- **Bug.** `run_now` graded only once, after the last wallet call. On build `.6` ([run 40916807612](https://github.com/dsrackler17/EdgeDeskSports/actions/runs/40916807612)) the wallet calls were still going after 77 minutes, at about 76 s a call, with many wallets needing several calls. GitHub stops a job at 6 hours. A job stopped there would have ended before its grade, so the site would have shown nothing from all those calls.
+- **Fix** (`.github/workflows/deploy-radar.yml`). A grade also runs after every 25 good wallet calls; it asks Polymarket nothing. The wallet calls stop after 5 hours, so the last grade runs well inside the 6-hour limit, and the 06:10 UTC schedule takes the wallets still due. A grade along the way that fails is a warning: the wallet calls go on, the last grade still runs, and the step ends red.
+- **Test.** The workflow step was run against a stand-in function and a throwaway PostgreSQL. With the job stopped by a time limit (scaled down to seconds), main's loop made 19 wallet calls and no grade; this one stopped the wallet calls at its limit and graded. 31 wallet calls graded after the 25th and at the end. A failed grade along the way went on and ended red. The 546 and three-in-a-row cases are unchanged, and at most one call was ever in flight.
+## 2026-10-29 — Props capture: the odds gateway refused the GitHub jobs' credential for 19 days, and said "deferred"
+
+**Why.** Every player-props capture since the odds gateway went live (2026-10-10 14:29Z) was refused with `unauthorized`. The capture filed the refusal as `NOT_RUN / GATEWAY_DEFERRED`, so the workflow stayed green, the boards read "deferred", and no prop has been priced since 2026-10-10.
+
+- **Cause.**
+  - `supabase/functions/odds_gateway` compares the bearer byte for byte with its own `SUPABASE_SERVICE_ROLE_KEY`.
+  - The repository secret `SB_SERVICE_ROLE` is a different string, though still a valid service-role key. In the same runs PostgREST accepts it for `rpc/odds_api_dashboard` (restricted to the service role) and for the props health record.
+  - `tools/collective/odds_doctor.js` already documents this failure for a key in the newer `sb_secret_` format.
+- **Fix (code).**
+  - The three steps that call the gateway now also send the gateway's own shared secret, `ODDS_GATEWAY_SECRET`. The client already sends it as `x-odds-gateway-secret`, and the gateway already accepts it. The steps are `player-props.yml` capture, the `props-factory.yml` backfill and the `cfb-lab.yml` alternates.
+  - `football/props/capture.js` now reports a refused credential as an **ERROR** (`GATEWAY_UNAUTHORIZED`), with a `::error::` naming the secret. It is not a deferral. It is still not a provider failure: no back-off, no failure count.
+  - The credential registry in `tools/games/builder.test.js` lists the new secret, with its reason.
+- **Fix (owner).** Code alone does not restore capture:
+  1. Set `ODDS_GATEWAY_SECRET` on Supabase (Edge Functions → Secrets).
+  2. Set the same value as a GitHub repository secret.
+
+  `docs/odds-api-incident-2026-10/INCIDENT.md` §9 step 4 now says so.
+- **Not changed.** The gateway's authorization check, budget, breaker and every other guard (AGENTS.md §3).
+  - Paid retrieval stays paused until the 2026-11-01 reset and the runbook's re-enable.
+  - Until then a working credential shows `PROVIDER_PAUSED` or a budget deferral, not prices.
+
+Tests: `football/props/pipeline.test.js`.
+- Against the old `capture.js`: `FAILED player props pipeline — 153 passed, 2 failed`. The run returned `["NOT_RUN","GATEWAY_DEFERRED","The odds gateway deferred the event index (unauthorized): no prop was requested."]`.
+- After the fix: 155 passed, 0 failed.
+- The `::error::` annotation prints the capture's error message, which first read only "odds gateway: unauthorized". It now names the secret and the runbook step. A third check failed on that (`155 passed, 1 failed`) and passes now: 156 passed, 0 failed.
+
+## 2026-10-29 — Content engine: the evidence gate refused two correct week-9 articles and passed an incomplete one, from two writer bugs
+
+**Why.** `tools/content/evidence.test.js` ("every article generated from today's research passes the gate") went red on `main` from data alone: 202 passed, 1 failed, at `c933dc468`, `adcb2b7f8` and `9957decf9`. Two articles were blocked, for two different reasons.
+
+- **A number the claim itself prints was "not in the evidence"** (Utah at Cincinnati, `numbers_in_evidence`: 51.8, 44, 42.6). The gate was wrong.
+  - A claim's printed figure and its citation number were rounded by two different functions: `pct1` (`toFixed`) for the text, `rnd` for `cite.nums`.
+  - They disagree at x.x5. For example, 0.5185 prints as 51.8% but was cited as 51.9.
+  - So an article quoting the claim word for word could not cite it, and the FBS average in the same sentence fell with it.
+  - Today's research had 71 such claims out of 4,260, across third down, red zone, explosive plays, run blocking, early downs, efficiency, protection and the metric-conflict claims. One more claim cited a pick'em's 0.0 while printing "a pick'em".
+  - Fix (`lib/football_evidence.js`): `metricNum` now derives from `metricText`, the same formatter the reader sees, so no printed number changes. `other_models` cites only a number it prints. All 4,260 claims are now consistent.
+- **A starting quarterback listed out went unmentioned** (Kansas State at Colorado, upset watch, `injuries_addressed`: "Avery Johnson is listed as out on the Big 12 availability report"). The gate was right; the writer was wrong.
+  - The weekly-preview capsule printed either a team's quarterback input conflict or its first official listing, never both. So the conflict about Jacob Knuth (doubtful) hid Avery Johnson (out).
+  - Fix (`lib/content_engine.js`, `capsuleEv`): the capsule also prints every other quarterback listing and input conflict that the gate requires (`mustAddress`), and never repeats a player it has already covered. The single-game writer already did this.
+- `supabase/functions/content_engine/index.ts` was regenerated with `node tools/content/inline.js` (its `--check` passes).
+
+Tests: `tools/content/evidence.test.js` gains S 3b (a second quarterback listed out is named, and the gate passes), S 3c (every claim the current build makes cites only numbers its text prints) and S 3d (0.5185 is cited exactly as printed).
+- Against `main`'s library logic: `FAIL | football evidence pipeline | 202 passed, 4 failed` (S 3b, S 3c, S 3d and the live check).
+- After: `206 passed, 0 failed`.
+- The frozen week-6 fixture keeps the citations its own build wrote: it is a record and is not rewritten.
+
+
+## 2026-10-29 — Football situational intelligence (NFL + every FBS team): observed tendencies on the cards, four experimental volume models, SHADOW beside the existing models
+
+**Why.** EdgeDesk's football models price games but do not describe how each team plays by situation (down and distance, field position, clock, score, script), or how much volume a team and its players are likely to get. This engine observes that from public play-by-play, and tests whether it predicts volume better than averages. The full write-up is `football/situational/README.md`.
+
+**It changes no EdgeDesk number.**
+- Every integration target is SHADOW: a labelled block with `applied_points: 0` beside the NFL slate, the FBS slate and both simulators.
+- ACTIVE needs three locks, and no file in the repository opens the first.
+- On today's real feeds, the NFL slate builder and the FBS coverage builder produce the same artifacts with `FSIE_MODE=OFF` and in SHADOW, apart from the block and clock stamps.
+- No pricing file reads the layer (enforced by `tests/integration.test.js`).
+
+- **A · ingestion and quality** (`football/situational/{nfl,cfb}/source.js`, `core/ingest.js`, `core/quality.js`).
+  - Sources: nflverse (play-by-play, FTN charting, rosters, injury reports, team box) and the sportsdataverse ESPN college mirror. Every download is hashed and stamped, and a completed season is never fetched again.
+  - Play, game and team gates: volume, situation and player validity are judged separately, and every rejection carries its reason.
+  - NFL 2026: 107 / 107 games accepted, and pass and rush attempts match the team box on 214 / 214 team-games.
+  - CFB 2026: 138 / 138 FBS teams, 561 of 570 games accepted (7 partial, 2 rejected, 0 missing).
+  - Backfill: NFL 2015–2026, CFB 2014–2026.
+- **B · observed tendencies on the cards.** `app.html` adds a *Situational intelligence* section to NFL and FBS game cards.
+  - It shows season-to-date rates with their samples, the team's coverage tier and gaps, and a separate *Research Models (Experimental)* block with the holdout outcome.
+  - The rest of the board is unchanged (`tools/football/fsie_ui.e2e.js`).
+- **C · four EXPERIMENTAL models** (`core/volume_model.js`, `core/player_model.js`, `core/research.js`).
+  - NFL and CFB team play volume; NFL and CFB player opportunity.
+  - Preregistered and frozen before the 2025 holdout, which was evaluated once.
+  - **All four failed their criteria and stay EXPERIMENTAL.** The team models beat season and recent averages on every target. Against market-only, CFB was better on all three targets; NFL was better on plays and pass attempts, but rush attempts crossed 0.
+  - Both team models failed on bias, and the player models failed on bias and sample size.
+  - A harness defect was found after the look. The holdout's interval coverage was simulated on the `formation` rung instead of the primary `pace_script`. It is recorded, not fixed: a labelled post-hoc file (`research/posthoc_interval_variant_<sport>.json`) changes no verdict, and the fix belongs to a v2 registration.
+- **D · against the market and the existing forecast** (`core/market_study.js`).
+  - On the 2026 props the pipeline captured (NFL weeks 4–5, CFB weeks 5–6; capture has been down since Oct 10), the line was as good as or better than the model.
+  - Probability CLV was negative in every market.
+  - The existing props model, the situational model and the line could not be told apart on shared rows.
+  - Missing closes are excluded with their reason.
+- **E · database** (`supabase/football_situational.sql`, `_rollback.sql`, `_registry.sql`).
+  - 11 `fsie_` tables with write-once triggers, RLS (signed-in read, service write, no anon), pregame and CLV checks, and a shadow row that cannot apply points unless ACTIVE.
+  - The registry records the four models as EXPERIMENTAL with their holdout results.
+  - `football/situational/sync_supabase.js` copies insert-only.
+  - **Not applied to production here (no credentials): NOT VERIFIED.**
+- **F · automation.** `.github/workflows/football-situational.yml`: a daily build, an extra pass on Sun/Mon, a market refresh every 3 h, and the Tuesday prop study.
+  - The suites run first.
+  - `football-situational-tests.yml` runs every suite on a pull request (registered in `tools/ci/checks.json`).
+- **Rollback.** Set the modes in `football/situational/config/integration.json` to OFF, or set `FSIE_MODE=OFF` for one run. Then disable the workflow, remove the `app.html` section, and run the rollback SQL. The steps are in the README.
+- **The CFB freeze.** `football/fbs/build_coverage.js` is on the CFB champion freeze's pricing path. Its new guarded hook therefore gets the declared PATCH row `edgedesk_cfb_r1+p13`, appended by `football/cfb_validation/build.js`. No price moves. The validation dashboards are left as `main`'s scheduled build writes them; its next run regenerates them with `p13` in place.
+- **Next scheduled builds.** The NFL slate and the FBS slate gain the SHADOW block on their next scheduled build.
+
+Tests:
+- `football/situational/tests/core.test.js` (69)
+- `model.test.js` (44)
+- `market.test.js` (22)
+- `integration.test.js` (25)
+- `sql.test.js` (35, real PostgreSQL)
+- `tools/football/fsie_card_ui.test.js` (22)
+- `tools/football/fsie_ui.e2e.js` (14, Chromium)
+
+## 2026-10-29 — NHL methodology change: the headline is priced at lineup lock, from the dressed lineups and both Confirmed starters
+
+**Methodology change; needs the owner's explicit review.** Evidence and the decision are in `docs/engine/NHL_GOALIES.md` §11.
+
+- **What.** Until now an NHL card's headline was `xg_core` until puck drop, whoever dressed. Now the goalie sync (`supabase/functions/nhl_goalie_sync`) reads each side's dressed skaters from the NHL boxscore it already polls. Once both lineups are listed and both starters are Confirmed with no conflict, the card's headline is priced by `xg_all_confirmed`: the xG core plus the confirmed goalie and both clubs' confirmed lineup value. The card gets a new version (reason `lineup_locked`, trigger `inputs_changed`). The page, EdgeDesk vs the market, Check a price and the edge events read that price.
+- **Evidence** (`hockey/validation/nhl_walkforward.json`). Log loss against `xg_core`: selection −0.00030 (9,205 games), confirmation −0.00119 (7,945), live +0.00008 (198). It fails the lab's rule 1 (0.001 on selection). Using it at lock anyway is the owner's decision.
+- **Before and after on the committed slate** (33 games, each club's last lineup and the likeliest starters). The home win probability moves 1.7 pp on average, by 5.1 pp at most (OTT @ LAK, 47.6% → 42.5%). The mean distance from 50% goes from 8.34 pp to 8.46 pp, so this does not fix the favourite compression; the split factor does.
+- **Unchanged:** the slate, its ledger and the public record, which grade the slate's `xg_core` price. Also unchanged: the SQL, and everything before lock.
+- **Inputs** (`hockey/build_slate.js` → `hockey/goalie_inputs.json`): the variant's η without its goalie and lineup terms, each club's typical lineup value and last lineup, every skater's value, the betas and its own pair calibration. `--check` re-prices every game at lock from those inputs and fails unless it matches the build's own GLM path within 0.00015. All 33 games pass.
+- **Timing.** The sync checks every 5 minutes from T−25 to T−5, after the T−30 final pass. Each boxscore read records the minutes to start, the skaters listed and the starters in the run's `sources`, a timing probe. When lineups post has not been measured live.
+- **A failed read never unlocks.** The card keeps the lineups it locked with (`headline.lineup.ids`). A run whose boxscore read fails, or lists none, prices from them (`nhlgLockedLineups`). Found in review: before this, an NHL API outage after lock wrote a version `lineup_unlocked` and put the slate's price back minutes before puck drop. The regression checks failed on that code (core 103 passed, 1 failed; sync 75 passed, 2 failed).
+- **Tests:** goalie core 104/0, sync 77/0, SQL 79/0 (PostgreSQL), block and gate 46/0, compare 55/0, engine UI 164/0 (Chromium, desktop and phone). With the page's lock price disabled, the engine UI fails 6 checks: the Overview headline, the Markets banner and the list card, on desktop and phone.
+- **Not wired:** Today's Games and the matchup graphic still show the slate's price. Deploy: run NHL engine build, then Deploy NHL goalie layer with `deploy_function`.
+
+## 2026-10-29 — Deploy Fairline: a regression test for the email switch step
+
+**Why.** *Deploy Fairline*'s last step, "The Tape's email switch", read psql's answer as `t` followed by `UPDATE 1`, and compared it with the word `true`. So it reported `fairline_tape_settings was not updated` on every run, after the UPDATE had committed. The owner's run of 2026-10-29 14:19Z (run 40890282549) set the switch on and failed.
+
+The step was fixed in the paywall change (`a5f15fb6600`, below): it now reads with `psql -X -q -At` and compares `t` / `f`. That change has no test of its own for this step.
+
+**What changed.** New `tools/fairline/deploy_switch.test.js`:
+- **What it runs:** the step's own script, read out of `deploy-fairline.yml`, with `bash`, against a real PostgreSQL carrying `fairline_tape_settings` as `fairline_tape.sql` creates it.
+- **What it checks:** `on` and `off` set the switch and pass; a warning appears only when the email pipeline's own switch is off; a missing settings row or table fails.
+- **Where it runs:** in Fairline CI's database job (the workflow now also starts on `deploy-fairline.yml`), and in Deploy Fairline's tests before anything ships.
+
+**Evidence.**
+- On the step as it was before the fix (`78a8315b4ac`), 5 checks fail, each with the production error.
+- On `main`'s fixed step it passes 10 / 0.
+
+## 2026-10-29 — Prediction Radar: a wallet whose run dies part way is set aside, never blocking the pool; run_now grades whatever happens
+
+- **Bug.** `run_now` on build `.5` ([run 40905865196](https://github.com/dsrackler17/EdgeDeskSports/actions/runs/40905865196)) made 32 wallet calls in about 76 s each, all HTTP 200. The 33rd got HTTP 546, out of compute. A run that dies cannot record anything, so that wallet stayed first in line, and every later call, the 06:10 UTC schedule included, would have died on it. `run_now` also stopped before its grade, so nothing reached the site.
+- **Fix** (`supabase/functions/polymarket_sync/index.ts`, build `polymarket_sync@2026-10-29.6`). Each wallet is marked (`attempt_at`, `attempts` in its cursor) before its work, and the mark is cleared when the work ends. A wallet still marked was in a run that died, or one in flight: it is set aside for 15 minutes, and after 3 such runs read only once a day. A WARNING `wallet_skipped` names it.
+- **run_now** (`.github/workflows/deploy-radar.yml`) carries on after a failed wallet call, since the function now sets that wallet aside. It stops after three failures in a row, always runs the grade, reports how many wallets are set aside, and ends red if any call failed.
+- **Tests.** `tools/radar/sync_fn.test.js`: a wallet whose run died 2 minutes ago is set aside and the next wallet read; after 15 minutes it is read again, marked before the work starts, and its mark cleared when done; after three dead runs it is read only once a day. On the old code: 61 passed, 3 failed. On the fix: 64 passed, 0 failed. The workflow step was run against a stand-in function and a throwaway PostgreSQL: one HTTP 546 among the calls went on, graded and ended red; three in a row stopped, graded and ended red; a normal run ended green; at most one call was ever in flight.
+
+## 2026-10-29 — Content engine: two Week 9 articles the gate blocked on main now pass it (the writer, not the gate, was wrong)
+
+- **What failed.** `node tools/content/evidence.test.js`, section "L live", on `main` since the Week 9 data landed. Two of today's generated articles were BLOCKED by the editorial gate: the upset watch (`injuries_addressed`) and the Utah at Cincinnati matchup piece (`numbers_in_evidence`). The gate was right both times, so it is unchanged.
+- **Rounding** (`lib/football_evidence.js`). Utah's early-down success is 0.5185. The claim's text printed it with `toFixed` as 51.8% (0.5185 × 100 is stored as 51.849999…), but its citation used EdgeDesk's rounding, half away from zero: 51.9. So the sentence did not cite its own claim, and 51.8, 44 and 42.6 counted as numbers from nowhere. `pct1` now rounds as `f1` and the citation do.
+- **Quarterbacks** (`lib/content_engine.js`, the weekly-preview capsule). Kansas State's Big 12 report listed Jacob Knuth doubtful (the starter EdgeDesk's model expects, an input conflict) and Avery Johnson out. When a side had a conflict, the capsule wrote it and dropped every other report line for that side; otherwise it kept only the first. It now writes every conflict and every quarterback on a report, which is what the gate requires (`mustAddress`, as the upset list and the gap paragraph already did). A conflict's own quarterback is not repeated.
+- **Tests** (`tools/content/evidence.test.js`). Section R builds a packet from Utah's and Cincinnati's early-down rates and requires 51.9%/44.1% and a self-citing sentence. Section K adds a second quarterback listed out beside the Vanderbilt conflict in the frozen Week 6 slate, and requires the capsule to say so and the slate to pass. On the old code: 202 passed, 6 failed (R ×2, K ×3, L). On the fix: 208 passed, 0 failed.
+- `supabase/functions/content_engine/index.ts` carries the two libraries verbatim and was regenerated with `node tools/content/inline.js`. The editorial page (`admin/content/index.html`) loads both with new stamps, so a browser does not keep the old writer. The committed `football/evidence/packets.json` is left to its own build, the scheduled editorial job.
+
+## 2026-10-29 — Juice Reel billing reads Juice Reel's confirmed answers: isCurrentlySubscribed decides
+
+**Why.** Juice Reel approved the webhook on 2026-10-29 and pointed to its API docs for the shapes EdgeDesk had guessed (`docs/juicereel-billing.md` § 9). Tracing the documented answers through `supabase/functions/juicereel_billing` found four ways to get access wrong:
+- **`isCurrentlySubscribed` was never read.** Access followed `expiresDate` alone, so a list entry Juice Reel marks `false` with a future date (a refund) would let a buyer in. The hourly reconcile would then re-grant it every hour.
+- **The subscriber list holds everyone who ever subscribed**, a buyer's older entries included. The link check stopped at the buyer's first entry, so a returning buyer whose ended entry is listed before the current one was told "not subscribed".
+- **The reconcile counted every listed buyer as present**, so the "paid here, not on Juice Reel" alert could never fire.
+- **Webhook events carry `isCurrentlySubscribed` too.** A purchase or renewal event saying `false` would still have granted access.
+
+**What changed** (`supabase/functions/juicereel_billing/index.ts`, build `juicereel_billing-2026-10-29-1`):
+- `isCurrentlySubscribed` decides, on the status answer, each list entry and webhook data.
+- A bare yes with no subscription is not a purchase. Status answers `{isCurrentlySubscribed: true}`, with nothing else, to the application's owner, and linking the seller's own Juice Reel account opens nothing.
+- The link check reads the buyer's whole entry list.
+- The reconcile counts as present only buyers Juice Reel says have access now. It still never cuts anyone off; it raises the alert for a human.
+- An event saying `isCurrentlySubscribed: false` ends access, whatever its type or `expiresDate`.
+
+**The fake** (`tools/billing/_fake_juicereel_billing.js`) now answers in the documented shapes by default. That covers the owner's bare yes, a bare no for expired or never-subscribed buyers, the full one-page list with older entries first, and new `refund()` and `history()` helpers. The shapes guessed before stay available.
+
+**Tests:**
+- `tools/billing/juicereel_billing.test.js`: **90 passed, 0 failed** on a real PostgreSQL. Against the old function, the 4 new checks fail and everything else passes: 86 passed, 4 failed. The checks that fail on the old code are the refund, the returning buyer, the `false` event and the reconcile alert. A fifth new check, the owner's bare yes, passes on both.
+- `juicereel_client.test.js`: 25 passed, 0 failed.
+- `juicereel_checkout.e2e.js`: 50 passed, 0 failed.
+- `fairline_tier.test.js`: 72 passed, 0 failed.
+- `verify:core`: green.
+
+**To apply.** After merging, run **Actions → Deploy Juice Reel billing → deploy**. The function's health answer then reads build `juicereel_billing-2026-10-29-1`.
+
+## 2026-10-29 — Prediction Radar: a grade reads only the price stretches it uses, and a wallets run holds at most 10 activity pages
+
+- **Bug.** The first `run_now` on build `.4` ([run 40902894704](https://github.com/dsrackler17/EdgeDeskSports/actions/runs/40902894704)) answered four wallet calls in about 75 s each (HTTP 200, 131 to 172 requests), then got HTTP 546 on the fifth: "Function failed due to not having enough compute resources". A run fetched every bet's price history a point a minute, from 15 minutes before the entry to the start. A bet placed days early is thousands of points, and up to 150 bets a run. It also held up to 30 pages (30,000 rows) of a wallet's activity at once.
+- **Fix.** The grade reads only the follows' stretch ([entry − 6, entry + 16] minutes) and the close's ([start − 61, start + 1]), two short reads; a bet placed shortly before its game is one read, as before. `R.priceAt` takes the last point at or before its moment, at most a gap older, so the grade is identical. A wallets run holds at most 10 activity pages; the 30-page cap still counts across runs. Build `polymarket_sync@2026-10-29.5`.
+- **Tests.** `tools/radar/core.test.js`: 3,000 random bets graded from only those stretches come out exactly as from the whole history, and each stretch is at most 62 minutes. `tools/radar/sync_fn.test.js`: every price read is at most 62 minutes, and a never-ending history is read 10, 10 and 10 pages, then truncated. On the old code: core failed (no `R.gradeWindows`); sync 58 passed, 2 failed (reads of 136 minutes; 30 pages in one run). Fixed: core 100/0, sync 60/0.
+
+## 2026-10-29 — Prediction Radar: a wallets run answers within Supabase's 150 s limit, and finishes a big wallet over several runs
+
+- **Bug.** The first live wallets call (run_now, 15:06 UTC) got HTTP 504, "Request idle timeout limit (150s) reached". One run took three new wallets: up to 30 activity pages each, then every resolved bet's price history (up to 150 a wallet). That is minutes of requests, and a function must answer within 150 s. The overnight schedule runs the same calls, so it would have stalled the same way.
+- **Fix** (`supabase/functions/polymarket_sync/index.ts`, build `polymarket_sync@2026-10-29.4`). After 75 s a wallets run starts no new wallet, activity page or graded bet. A wallet it did not finish stays due, with its place kept: the activity cursor, plus `first_pages` while the first read is cut. The next run carries on. The 30-page cap counts pages across runs, so a history is still marked truncated only when it really passes 30. Trades and bets are still stored once each.
+- **Test** (`tools/radar/sync_fn.test.js`). A fake clock, where every Polymarket request costs 4 s. A wallet joining with 63 bets to grade must be graded over several runs, each within 79 s, ending with all 63. A history that never ends, cut by time, must keep its page count and be marked truncated only at 30 pages. On the old code: 55 passed, 4 failed (one run took 256 s; 30 pages read at once). On the fix: 59 passed, 0 failed.
+- **run_now** allows up to 300 wallet calls, since a call may now finish only part of a wallet. The day's request reserve still stops it first.
+
+## 2026-10-29 — Prediction Radar: Deploy Prediction Radar can run the overnight work now (run_now)
+
+- **What.** `.github/workflows/deploy-radar.yml` gains `run_now`. It calls the live `polymarket_sync` for the pool, then for wallets (3 a call) until none is due, then for the grade, instead of waiting for 06:07–10:17 UTC.
+- **One call at a time.** Each answer is awaited before the next call, as pg_cron's 5-minute spacing does overnight. Two wallet calls at once would pick the same wallets.
+- **The day's budget.** The wallet calls stop while fewer than `run_now_reserve` (default 8,000) of the day's 40,000 Polymarket requests remain, read from the gateway's own ledger. The 10-minute tonight runs keep theirs, and the 06:10 UTC schedule takes any wallets still due.
+- **Checked** against a stand-in function and a throwaway PostgreSQL before committing. A normal run went pool, wallets 3/3/2/0, then grade. With 5,000 requests left, no wallet call was made. A failing call stopped the run red. Calls never overlapped (at most one in flight).
+
+## 2026-10-29 — Prediction Radar: the tonight sync looks markets up 100 at a time (production failed "Invalid URL")
+
+- **Bug.** The first production `tonight` runs (13:50 UTC on) ended in `error`: "tonight error: Invalid URL https://…/rest/v1/poly_markets?select=…&condition_id=in.(…)". The run looked up every market it saw in one request. On a full slate that URL is longer than fetch takes (65,534 bytes), so nothing was matched, no holders were read and no card was drawn.
+- **Fix.** `supabase/functions/polymarket_sync/index.ts` makes that lookup 100 ids a request, as the run's two other lookups already did. Build `polymarket_sync@2026-10-29.3`.
+- **Test.** `tools/radar/sync_fn.test.js`'s fake network now refuses a URL over 65,534 bytes, as Deno's fetch does. A new check runs `tonight` on a full slate of 1,200 more markets. On the old code: 54 passed, 1 failed, with production's error. On the fix: 55 passed, 0 failed.
+
+
+
+## 2026-10-29 — Methodology change (owner's decision): NHL favourites priced with the split factor fitted on the moneyline (b 0.90 → 1.125)
+
+**What changes for readers.** Every 2026-27 NHL price now uses the pair recalibration's split factor fitted on the moneyline. Favourites move up 1.58 points on average across the 33 games on the slate. Examples (fair price, before → after):
+
+| Game | Favourite | Before | After |
+|---|---|---|---|
+| VAN at SJS | SJS | −133 | −142 |
+| NYI at MIN | MIN | −146 | −161 |
+| CBJ at CAR | CAR | −186 | −218 |
+| CGY at COL | COL | −262 | −335 |
+
+Near-even games barely move (PIT −104 → −105). Expected totals move by at most 0.01 goals.
+
+**Why.** This is the cause measured in the entry below. The goal-split fit gave 2026-27 a split factor of 0.90, the lowest since 2013-14. It priced every favourite short of DraftKings: 35 of 47 settled games, mean gap 2.2 points, market slope 1.215 (1.036–1.394). The owner directed the switch the same day.
+
+**What it does not meet.** It is a methodology change against the out-of-sample record:
+- On 2021-26 the moneyline fit is +0.00027 log loss (−0.00013 to +0.00063) against the rule it replaces.
+- It fails the lab's promotion rule (§1).
+- It was promoted before its own pre-registered rule could decide (`rule_status` IN_PROGRESS).
+
+The record says all of this. It does not close the club-strength gaps either: Vancouver and Minnesota are rated differently by the market, and that is most of the SJS and MIN distance from DraftKings.
+
+**What changed.**
+- `hockey/model/split_shadow.js`: `PROTOCOL.promoted` and `promote()`. The shadow stops pricing, since it is now the price. Its 33 frozen ledger rows stay and are graded. The live record reads PROMOTED.
+- `hockey/model/walkforward.js` (amendment in its header): the season in progress takes the promoted `b` for every model, keeping `a`, `c` and the goal-split value as `goal_split_b`. Completed seasons keep the goal-split rule.
+- `hockey/lab/base.js`: the live season is priced the same way, so the lab and the diagnostics match production.
+- Rebuilt with their own builds: `hockey/model/params/live.json` and `hockey/validation/nhl_walkforward.json` (`walkforward.js --no-cache`, after `ingest/lineups.js`).
+  - `live.json` differs only in `generated_at` and the nine `b` values (0.85–0.925 → 1.125).
+  - Selection, confirmation, every completed season, the model choice, the comparisons and every market status are byte-identical. The live window (198 games) moves from LL 0.66324 to 0.66309, slope 1.452 to 1.155.
+- `simulator/data/nhl_strength_uncertainty.json`, re-run (`simulator/src/research/nhl_strength_uncertainty.ts`): it is tied to `live.json`'s hash.
+- `hockey/validation/nhl_split_shadow.json` (`--live`): PROMOTED.
+- `docs/engine/NHL_LAB.md` §6.3: the amendment.
+
+**Evidence.** The slate was built before and after at its own `generated_at` (2026-10-29T06:25:48Z):
+- every new production moneyline and home −1.5 equals, to the digit, the shadow price main already published for that game;
+- the old build equals the committed slate.
+
+The published slate changes at the next NHL engine build after merge. The model id stays `edgedesk_nhl_v1:xg_core`, because the goalie layer enforces that prefix. The switch shows in `slate.model.pair_calibration` (`b` 1.125, `goal_split_b` 0.9, `split_basis`).
+
+**Tests.** `tools/hockey/nhl_v2.test.js`: 147 pass (5 new checks). The rule tests now read `rule_status`.
+- The season in progress takes 1.125 and keeps `a` and `c`.
+- A completed season and an identity calibration are untouched.
+- Promoting twice keeps the first goal-split value.
+- The committed live parameters publish 1.125 for every model the slate prices with.
+
+## 2026-10-29 — Authorization change: EdgeDesk's operators keep the terminal under the paywall rule
+
+**Authorization change; needs the owner's explicit review.** The first `paywall_rule = dry_run` against production refused, and nothing changed. One account had the terminal through production's old `has_active_sub()` without a `subscriptions` row, and the rule alone would have locked it out. The owner chose to keep operators in.
+
+- **`supabase/paywall_rule.sql`** (and its mirror): `has_active_sub()` is the rule **or** `billing_is_admin()`, the business consoles' existing operator list (the partner-program admins, else the problem-report admins, else the founding operator). It is still never red or black for anyone else. A new report row 04 checks it.
+- **`tools/billing/sql/paywall_after.psql`**: a refusal now also names the accounts it protects, masked as the billing logs mask them (the first 8 characters). If the account is not an operator, the next dry run refuses again and says which.
+- **Tests**: `paywall_rule.test.js` 29 / 0. An operator with no row keeps the terminal and reads `signals`; everything else is as before. Mutation: the fix without the operator clause, 26 passed, 3 failed.
+
+## 2026-10-29 — Bet Checker says when sportsbook prices are paused
+
+**Why.** The odds account's October credits ran out on 2026-10-10, and paid price refresh is paused until the reset on 2026-11-01 (`docs/odds-api-incident-2026-10/INCIDENT.md`). Meanwhile most fair prices are older than the 6½ hours a grade accepts, so most bets logged on Bet Checker are saved Not graded, and nothing on the page said why. The owner asked for a notice (2026-10-29).
+
+**What changed.**
+- **The page** reads the public `odds_feed_status()`, the same read the terminal's banner uses. While it says `paused`, a notice above the sign-in and the form tells everyone, signed in or not, what that means for a bet logged now:
+  - it is still saved;
+  - it is graded only on a fair price under the rules' age;
+  - otherwise it is Not graded, which uses no free grade;
+  - a game that starts before prices refresh may show No close available.
+- **The title** names November 1 only while that date is ahead.
+- **It goes away on its own** when the feed is live again, whenever buying resumes.
+- **It fails soft:** a failed read shows no notice, never an error.
+- **Files:** `lib/edgedesk_bet_checker_core.js` (`feedNotice()`, `hoursText()`), `lib/edgedesk_bet_checker.js`, `bet-checker/index.html` (stamps `20261029bc4`), `lib/edgedesk_bet_checker.css`, `docs/bet-checker.md`.
+
+**Tests.**
+- `core.test.js` 60 / 0.
+- `page.test.js` 52 / 0: read with the page's key, never a token; live, a 404 and a network failure show none.
+- `page.e2e.js` 64 / 0: a signed-out visitor and a signed-in reader see it while paused, and it is gone after a reload once the feed is live.
+- On `main`'s page code the core suite crashes (no `feedNotice`), the wiring suite throws (no `loadFeed`), and the browser suite fails 2.
+
+
+
+## 2026-10-29 — Authorization change: the terminal's paywall, `has_active_sub()`, defers to the one access rule
+
+**Authorization change; needs the owner's explicit review.** *Deploy Fairline*'s read-only paywall check ran against production. It reported `has_active_sub(): RESTATES THE RULE`. The function gates the Research Terminal's data (the RLS on `signals`, and the readers in `kalshi_market_data.sql`, `sharp_lag.sql` and `radar.sql`), and it read `subscriptions`' status itself. A status-only check cannot tell what a price sells, so **a Bet Checker (red) or Fairline (black) subscription would have read the terminal's data**. Stripe holds no red or black subscription (all 30 read, 8 active, all terminal prices), so nothing had leaked. The Fairline prices stay inactive until this is fixed.
+
+- **`supabase/paywall_rule.sql`** (mirror: `migrations/20261029140000_paywall_rule.sql`) replaces its body with the rule itself: a reader has the terminal when one of their `subscriptions` rows passes `billing_row_grants_access()` (blue, a comp, or a price never learned; never red or black). It is the definition `fairline_tier.test.js` has always tested against. `CREATE OR REPLACE` keeps its owner and grants, and no policy changes. It ends in a report.
+- **`deploy-fairline.yml`** gains `paywall_rule` (`dry_run` or `apply`). In one transaction it records every account's answer before (`tools/billing/sql/paywall_before.psql`), applies the fix, and records every answer after (`paywall_after.psql`). It prints counts only: granted before and after, gained, lost, and why each lost it (a Fairline row, a Bet Checker row, a lapsed or unpaid row). It refuses to commit, and changes nothing, if an account would lose access through something other than a `subscriptions` row, which the rule cannot see. A dry run always rolls back. The same file fixes the Tape email switch's check (psql answers `t`, not `true`).
+- **Tests**: `tools/billing/paywall_rule.test.js` (27, new, real PostgreSQL; in `fairline-tests.yml`).
+  - Before the fix, production's shape lets black and red read `signals`.
+  - After it, they never do. Blue, comps, an unlearned price and a `past_due` row in its 21-day grace do, as the rule says.
+  - Lapsed, cancelled and no row never do. It agrees with `community_is_entitled()` for every account, and anon still cannot run it.
+  - The comparison counts and names the losses. It refuses access the rule cannot see, and a dry run changes nothing.
+  - The deploy's paywall check fails before the fix and passes after.
+  - Mutations: the fix restating the statuses, 17 passed, 10 failed. The comparison never refusing, 25 passed, 2 failed.
+
+
+
+## 2026-10-29 — Fairline, part 3: The Tape (Monday's recap, in the app and by email)
+
+**What it is.** Every Monday morning (America/Chicago), one snapshot of each Fairline reader's last week, kept for good: the record and P/L, average CLV and the beat-close rate, the prices they got against EdgeDesk's fair, any leak that crossed the minimum sample or changed label, and the best number they got. On the Fairline page (The Tape tab, no longer Coming Soon) and in their inbox. No picks. Narrative: [docs/fairline.md](docs/fairline.md).
+
+- **`supabase/fairline_tape.sql`** (new; mirrored in `migrations/20261029120000_fairline_tape.sql`):
+  - `fairline_tapes`, **append-only**: one Tape per reader per week. Triggers refuse UPDATE, TRUNCATE and any DELETE while the reader exists, for every role; deleting the account still removes its Tapes.
+  - `fairline_tape_build()`: due Monday from 06:00 in Chicago (CDT or CST), Fairline readers only (`fairline_paid()`), once per week however often it runs.
+  - What a Tape holds is The Leaks' own arithmetic over the week, through the new `fairline_slices_at()`. Price quality uses only Bet Checker's frozen entry edge; a bet never checked is counted, never guessed. Each Tape stores the rules it was read by.
+  - The email: `fairline_tape_due()` / `fairline_tape_mark()` claim once and re-check the reader at send time (opted out, bounced, no longer Fairline, more than 48 hours after the week, a quiet week: skipped with the reason). `fairline_tape_unsubscribe(token)` and `fairline_tape_email(on)` touch only `user_preferences.fairline_tape_emails`.
+  - Nothing is emailed until `lifecycle_settings.sending_enabled` **and** the new `fairline_tape_settings.email_enabled` (**off by default**) are on. Until then the page shows the email as Coming Soon.
+- **`supabase/fairline_tape_cron.sql`** (new; mirrored in `migrations/20261029120100_fairline_tape_cron.sql`): one pg_cron job, Mondays at :23 past 11:00 and 12:00 UTC; the build decides which is 06:00 in Chicago. No HTTP call, no secret.
+- **`supabase/fairline.sql`**: `fairline_slices_at(user, from, to)`, the slices over one window of bets; `fairline_slices_for()` is now it over every bet (same answer, tested). `fairline_rules()` gains the `tape` keys (time zone, build hour, email deadline, weeks listed).
+- **The existing email pipeline sends it**: `tools/fairline/tape_send.js` reuses `tools/lifecycle/send.js` (the Resend sender) and the trial emails' copy rule, settings, tokens and bounce list. It runs in the same hourly job (`lifecycle-email.yml`), after its own tests (`tape_email.test.js`); a failure there stops only The Tape. Each email has its own Idempotency-Key (`edgedesk-lifecycle-fairline-tape-<id>`). New opt-out page: `email/tape/` (a button, never a page load).
+- **The page**: The Tape tab (the week, the numbers, price quality, what changed, the best number; past weeks; the email switch). The words are `lib/edgedesk_fairline_core.js` `tapeView()`, the same ones the email uses. A free or Bet Checker reader sees placeholders under a blur and the offer; no Tape is built for them.
+- **The landing page sells Fairline.** A Fairline card sits between Bet Checker and Full Access. It carries the price, `FAIRLINE.FEATURES` verbatim, and *Get Fairline* to `/fairline/`, where the renewal terms are shown and ticked before Stripe. The price strip names it too, cheapest first. Its figures are new `fl_` words in `lib/edgedesk_pricing.js` (`priceWords()`), so the landing page loads the pricing file under `?v=20261029fl5`. The Tape is no longer "coming soon" in `FAIRLINE.FEATURES`. The page stays under its 216 KB budget.
+- **Deploying, `deploy-fairline.yml`** (new, manual, `main` only): first a read-only check of production's paywall (docs/billing-hardening.md §11 query 10). It fails, and nothing else runs, if `has_active_sub()`, an RLS policy or a production-only function reads `subscriptions`' status without deferring to `billing_row_grants_access()`, since a Fairline subscription would then read the terminal's data. Its log prints names and verdicts only. Then, as asked: `fairline.sql`, `fairline_tape.sql`, `fairline_tape_cron.sql` and The Tape's email switch. A `CHECK THIS` report row fails the run.
+- **Tests**: `tools/fairline/tape_sql.test.js` (90, new, real PostgreSQL), `tools/fairline/tape_email.test.js` (40, new, offline), both in `fairline-tests.yml`. The page suites cover The Tape (page 40, browser 58).
+- **Not built, on purpose** (unchanged): a DK Predictions price feed; selling Fairline through Juice Reel's checkout.
+
+## 2026-10-29 — The site deploys from one workflow, and the data jobs' pushes reach it again
+
+**What was wrong, once Pages' source was switched to GitHub Actions:**
+
+- **Three workflows deployed the site on every merge.** `jekyll-gh-pages.yml` and `static.yml`, the two starter workflows from the Pages settings screen, were added on 2026-10-28 at 21:20 UTC. They shared the `pages` queue with `pages-deploy.yml`, which keeps one waiting run, so each merge cancelled two of the three. Of 50 runs, 20 were cancelled.
+  - Whichever finished last decided the site. At 12:41 UTC that was `static.yml`, which uploads the repository without the Jekyll build.
+- **The data jobs' updates stopped reaching the site between merges.** The data jobs push with `GITHUB_TOKEN`, which starts no workflow, and `pages-deploy.yml` relied on an every-10-minutes timer.
+  - GitHub's cron fires only every 4 to 7 hours in this repository. The data jobs themselves are started by Supabase `pg_cron`.
+  - The timer ran twice in 15 hours (01:56 and 07:56 UTC). Nothing deployed between 07:59 and 12:22.
+
+**What changed:**
+- **`jekyll-gh-pages.yml` and `static.yml` are removed.** `pages-deploy.yml` is the only deployer.
+- **`pages-deploy.yml` now also runs when any of the 65 workflows that push to `main` finishes** (`workflow_run`, by name), the pattern `editorial.yml` already uses.
+  - The timer becomes an hourly backstop at :41.
+  - The comments now say what the queue really does. The deploy in progress always finishes; waiting runs are replaced by the newest and show as cancelled.
+- **`tools/ci/pages_deploy.test.js`** (Core validation) now also fails:
+  - when a workflow that pushes to `main` is missing from the list, naming it;
+  - when a listed name matches no workflow;
+  - when any other workflow deploys Pages or queues in `pages`.
+  - Results: 22 passed, 0 failed. Against `main` before this change, 17 passed, 5 failed. With one data workflow left out of the list, 21 passed, 1 failed.
+- **Docs:** `docs/ci/README.md`, "Publishing the site", and the shipping table in `docs/intelligence.md`.
+
+## 2026-10-29 — CFB: SP+ beside EdgeDesk's number on every card, as an external estimate, graded against the close
+
+**Why.** On 2026-10-28 EdgeDesk had Middle Tennessee −4.5 against Kennesaw State. SP+ had about Middle Tennessee −1, and the game closed Kennesaw State −1.5 (KSU won 44–28). A results-based number had missed a team that was losing close games while playing efficiently. SP+ (ESPN's opponent-adjusted efficiency rating, by Bill Connelly) is now a visible second opinion, measured against the close. The full write-up is `football/sp_plus/README.md`.
+
+**It changes no EdgeDesk number.** SP+ feeds no projection, EV, ranking, grade or record, and it can never be a Model Lab role or a promotion candidate. `football/sp_plus/registry.test.js` fails if any of that code reads it.
+
+- **A · the weekly capture** (`football/sp_plus/sync.js`, `.github/workflows/cfb-sp-plus.yml`: Monday, retried Tuesday and Wednesday, plus a manual run).
+  - It reads CollegeFootballData `/ratings/sp` with `CFBD_API_KEY` and maps teams through the identity master. An unmapped or prefix-only name is logged, never guessed.
+  - Each team's overall, offense and defense are stored in `public.cfb_sp_ratings`: append-only by trigger, row level security with no policy, service role only (`supabase/cfb_sp_plus.sql`). Every attempt goes to `cfb_sp_sync_runs`.
+  - UNCHANGED when CFBD still serves last week's numbers. The sync fails closed. **No rating is ever committed:** the repository is public, CFBD's terms forbid a public mirror (§5), and SP+ is ESPN's.
+- **B · the projected line** (`lib/cfb_sp_plus.js`). A T2 transform of the T3 rating: home SP+ − away SP+ + the home field the CFB engine applies (2.8 today), 0 at a neutral site. It is pure and deterministic. `football/sp_plus/lines.json` publishes the derived line per game of the captured week.
+- **C · on the cards.**
+  - Where it appears:
+    - the board card, beside EdgeDesk fair and the market;
+    - the game page, after Fair spread;
+    - the research terminal: section 1 after Fair spread, the summary strip, and section A.
+  - Each row shows the SP+ line, "T3 external model · T2 computed line", the SP+ week, and the attribution "Projection derived from SP+ (ESPN, Bill Connelly). Data provided by CollegeFootballData.com."
+  - A 3+ point gap to EdgeDesk adds a plain "Models disagree" note. The two numbers are never combined.
+  - The line shows only from a capture of the game's own week, no older than 8 days. Otherwise the row reads unavailable, with the reason.
+- **D · tracking** (`football/sp_plus/track.js`, in the hourly Model Lab job).
+  - For every upcoming game: EdgeDesk's fair line, the SP+ line and the Lab's consensus market at the same moment, appended on change.
+  - Each game is graded once against the Lab's close and the final: MAE against each, the right side of the close, and whether the close moved toward it.
+  - A weekly and season report. Append-only, and checked before publish.
+- **E · the registry** (`football/sp_plus/registry.json`, `public.cfb_external_estimates`).
+  - *SP+ projected line* is registered as an `EXTERNAL_ESTIMATE` with its source, version and terms.
+  - The server refuses to mark it an EdgeDesk model or validated.
+  - The page pins its badge to "External" ahead of the model registry.
+- **Terms.** CFBD's terms (2026-08-12, read as quoted; the site was unreachable from the build environment) allow commercial use and reasonable portions of factual data in a larger product, and recommend the attribution line. **No licence from ESPN for SP+ was found or obtained.** The owner chose to show the derived projected line only, publicly, with attribution.
+- **To switch it on.**
+  1. Apply `supabase/cfb_sp_plus.sql`.
+  2. Add the repository secret `CFBD_API_KEY`.
+  3. Run *CFB SP+ weekly sync*.
+
+  Until then every card reads "SP+ has not been synced yet".
+
+Tests:
+- `football/sp_plus/ingest.test.js` (66, mocked CFBD and Supabase)
+- `projection.test.js` (42)
+- `display.test.js` (39)
+- `card_ui.test.js` (23, the real football module)
+- `ui.e2e.js` (22, Chromium)
+- `track.test.js` (38)
+- `registry.test.js` (22)
+- `sql.test.js` (46, a real PostgreSQL)
+
+All run in `cfb-sp-plus-tests.yml`.
+
+## 2026-10-29 — Prediction Radar: radar_registry.sql applies on the production registry (games_tested), and Deploy Prediction Radar
+
+- **Bug.** Applying `supabase/radar_registry.sql` in production stopped with "research_model_results requires games_tested and this file has nothing to put there". The registry's tables exist only in production. That table requires `games_tested`, and the generator had no mapping for it, so nothing was registered.
+- **Fix.** `tools/radar/build_registry_sql.js` fills `games_tested`, or the first of `n_games`, `holdout_games` and `games` that exists, with the report's holdout games (37). It fills a followed-bets column (`bets_tested`, `n_bets`, `n_followed` or `sample_size`) with the report's followed bets (41). `supabase/radar_registry.sql` is regenerated from it. The report and the verdict are unchanged (FAILED).
+- **Test.** `tools/radar/radar_sql.test.js`'s stand-in registry now requires `games_tested`, as production does. On the old SQL: 131 passed, 1 failed, with the production error. On the fix: 199 passed, 0 failed.
+- **Deploy Prediction Radar** (`.github/workflows/deploy-radar.yml`, run by hand, the `deploy-bet-checker.yml` pattern) runs the runbook in order with the repository's Supabase secrets, after the Radar suites pass:
+  - `apply_sql`: radar.sql, then radar_registry.sql, then radar_record.sql;
+  - `deploy_function`: `polymarket_sync`, checked by the build it serves;
+  - `set_cron_secret`: the function's and Vault's secrets made one value, never printed, and proved by a dry probe;
+  - `data_enabled`: both halves of the switch; `on` records `enable_note` in `radar_config`;
+  - `apply_cron`: the four schedules.
+
+  A report row that says CHECK THIS fails the run.
+
+## 2026-10-29 — Prediction Radar 3/3: the Radar record, "How following has done", append-only and graded against the close and the result
+
+**What it is.** A record of every Smart Money Tonight card, kept so nobody can edit it, and graded the way a follower would have done. Full write-up: [docs/prediction-radar.md](docs/prediction-radar.md) ("The Radar record").
+- **`radar_cards`.** Every card is published once per game and side, at the Polymarket price at that moment, by the same function that draws Smart Money Tonight (`radar_publish_cards()`).
+- **`radar_card_results`.** Each card is graded once after its game (`radar_grade_cards()`):
+  - the close, whether the card beat it, and its CLV%;
+  - the result, from the market's own resolution;
+  - the ROI of one unit at the published price.
+
+  A card with no resolution a week after its start is void. Both tables are append-only. Their guards refuse a grade whose arithmetic is not the database's own.
+- **`radar_record()`**, for subscribers. It reports record, ROI and beat-close rate, plus a small-sample flag under 200 graded cards. It stays labelled **Experimental** until H-RADAR-01 passes its criteria, and quotes what H-RADAR-01 found verbatim.
+- **"How following has done"** sits under Smart Money Tonight on the Overview.
+- **`polymarket_sync`** publishes and grades in the 10-minute run, after it stores holders, prices and resolutions. While the record is not installed it raises a warning.
+
+**Tests.** `radar_sql.test.js` 198, `sync_fn.test.js` with the record, `radar_ui.test.js` 72, `radar_ui.e2e.js` 54.
+
+## 2026-10-29 — Prediction Radar 2/3: Smart Money Tonight on the Overview, trader pages, and the free /radar/ page
+
+**What a reader sees.** Nothing is drawn while Radar is off or H-RADAR-01 is not registered. Full write-up: [docs/prediction-radar.md](docs/prediction-radar.md) ("Where it shows").
+- **Smart Money Tonight** is the first thing on the Overview, for subscribers. Each card leads with one plain sentence ("7 top bettors, $84K, on Chiefs -3"). Then come the average entry, the price now and whether it moved, EdgeDesk's fair with "Smart money agrees/disagrees with the sharp fair price" (or why there is no comparison), conviction flags, the other side, and each bettor. Cards are sorted by bettors, then dollars. A game with no graded bettor shows nothing.
+- **Trader pages** (a sheet in the terminal, a route on `/radar/`): the public name only when the wallet made it public, else a short address. They show record, ROI, CLV, follow ROI, style, sample, open positions (subscribers) and every graded bet with Polygonscan links. No bio.
+- **`/radar/`**, free: the graded leaderboard, trader pages, what H-RADAR-01 found, and a teaser of the first card that never names its side (`radar_teaser()`, new in `supabase/radar.sql`; the migration mirror stays byte-identical).
+- **Labels and limits.** Experimental, Small sample and High conviction are always visible. The Radar Score is never shown without its components. Every surface carries the Known limitations block. There are no bet or copy buttons, no affiliate links, and no promises.
+
+**Tests.** `tools/radar/radar_ui.test.js` 59, `tools/radar/radar_ui.e2e.js` 50 (Chromium at 390 and 1280 px), `radar_sql.test.js` 172 (with the teaser), `tools/site/free_access.test.js` with the new page and doors.
+
+## 2026-10-29 — Prediction Radar 1/3: Polymarket sports bettors graded from their own trades, behind a gateway and a switch; H-RADAR-01 registered before any data and run once
+
+**What it is.** Radar grades the Polymarket sports wallets with the most volume on their own trades: record, profit, ROI, CLV, the ROI a follower would have had 5 (and 15) minutes later, conviction and a style (Directional, Market Maker, Hedger). It is research, labelled Experimental, the same for every reader, and nothing trades for anyone. No UI ships in this change. Full write-up: [docs/prediction-radar.md](docs/prediction-radar.md).
+
+**What changed.**
+- **The grading core** (`lib/edgedesk_radar.js`). Every rule comes from one constant, `public.radar_rules()`, and nothing runs without it. P&L is computed from trades; Polymarket's P&L and rankings hosts are never read.
+- **The gateway** (`lib/edgedesk_poly_gateway.js`), the only Radar client of Polymarket: the `POLYMARKET_DATA_ENABLED` switch (off by default, one SQL statement turns it on or off, no deploy), a budget granted under a row lock, pacing, bounded backoff, a breaker. `tools/radar/no_bypass.test.js` fails if any other file names a Polymarket host.
+- **The data** (`supabase/radar.sql`, mirrored in `supabase/migrations/20261029120000_radar.sql`): append-only trades with transaction hashes, bets, versioned grades, holder and price snapshots. Anon reads the graded leaderboard and trader pages once Radar is on and H-RADAR-01 is registered; Smart Money Tonight and open positions are for subscribers (`has_active_sub()`). No existing policy changes.
+- **The job** (`supabase/functions/polymarket_sync`, schedules in `supabase/polymarket_sync_cron.sql`): holders every 10 minutes, the pool and wallet histories nightly, then a regrade.
+- **H-RADAR-01** (`research/radar/registration_h_radar_01.json`), committed before any Polymarket response was read: the top 25 directional wallets, followed 5 minutes after entry, must beat the close more than half the time and make money, each with a game-clustered 95% interval. The runner (`research/radar/run_validation.js`) runs it once, on GitHub's runner (`.github/workflows/radar-validation.yml`), and `research/radar/one_look.js` stops any later run from looking again until its report is committed.
+
+**What H-RADAR-01 found** (run 40823328433, `research/radar/H-RADAR-01/RESULTS.md`): **FAILED** on all three criteria. 41 followed bets over 37 games; beat-close rate 24.4% (95% CI 10.3% to 39.0%); follow ROI −1.7% (95% CI −33.4% to +30.5%). 172 of the 200 pool wallets had more than 30 pages of history and were excluded by the registered rule, so only 13 qualified, and 3 of them bet in the holdout. Radar stays Experimental; `supabase/radar_registry.sql` records the result with `passed = false`.
+
+**What the live probe found before the look** (`.github/workflows/radar-sources.yml`, each fixed with a regression test shown failing on the old code):
+- Gamma answers a resolved market only when asked with `closed=true`. Without it the H-RADAR-01 run would have read no market and spent its one look on an empty report.
+- `/v2/holders` refuses more than 100 holders with `include_pnl`, so Smart Money Tonight would never have shown a card.
+- One unwindowed page of open NFL events was 48 MB; events are now asked in a window, 5 a page.
+- Gamma's `spread` is the order book's spread, not a point; the line is read from `line` only.
+
+**Tests.** `tools/radar/`: core 96, fixtures 43 (recorded from the live probe), gateway 29, no-bypass 11, the runner and the one-look guard 30, the SQL on a real PostgreSQL as anon, a signed-in reader, a subscriber and the service role, and the shipped function against it 51. All run by `.github/workflows/radar-tests.yml`.
+
+## 2026-10-28 — Billing change: the Fairline tier (`black`), and Fairline gated on it
+
+**Authorization change; needs the owner's explicit review.** A third Stripe product, Fairline (`tier = black`, $19.99/month or $159/year, lookup keys `fairline_monthly` / `fairline_annual`). It includes Bet Checker and never opens the Research Terminal. The ladder is red ⊂ black ⊂ blue. Detail: [docs/billing-hardening.md §15](docs/billing-hardening.md), [docs/fairline.md](docs/fairline.md).
+
+- **`supabase/billing_hardening.sql`**:
+  - Both tier CHECK constraints know `black`. Each is dropped and re-added in one statement, and only when it does not.
+  - `billing_learn_price_tier()` accepts `black`.
+  - `has_bet_checker_paid()` is red, black or blue.
+  - New `has_fairline_paid(uuid, timestamptz)`: black or blue in good standing. Service role only.
+  - `billing_access_for()` adds `fairline_paid` and reason `fairline_only`, and offers a black row `upgrade` (a portal switch).
+  - Report row 15 checks every learned red and black price against the rule.
+  - The access rule itself is unchanged.
+- **`supabase/fairline.sql`**: `fairline_paid()` now calls `has_fairline_paid()`. Bet Checker alone is no longer Fairline.
+- **`create_checkout_session`**: `{kind: 'fairline'}`. It sells only a price whose product says `black` at the consented figure, and records the tier before the session exists. It **refuses to sell** (503, nothing created) when the database could not record it: an error, or `refused:tier` from a database without this SQL. Bet Checker's checkout now refuses that answer too. A Bet Checker customer buying Fairline, or a Fairline customer buying the terminal's trial, gets `switch_plan`.
+- **The billing core** (`tools/billing/billing_core.js`, inlined into the three functions):
+  - The tier list knows `black`.
+  - A price Stripe cannot name is named by the price itself: its metadata, else the EdgeDesk lookup key (`bet_checker_*` red, `fairline_*` black). It is then learned.
+  - The webhook does this for the event's own price before its Stripe-down fallback write.
+  - Without this, a portal switch to a never-learned Fairline price during a Stripe outage opened the terminal (`has_access: true`, mutation-tested).
+- **`supabase/juicereel_billing.sql`**: when a Juice Reel buyer's row holds a live red or black Stripe plan, the terminal still replaces it. `juicereel_and_stripe_both_paid` is now raised, so a human cancels the Stripe plan. Before, it was orphaned silently.
+- **`sync_subscription`**: its access answer carries `fairline_paid`.
+- **Pages**:
+  - `lib/edgedesk_pricing.js` gains a `FAIRLINE` block (the one place the price is written), `fairlineOffer()` and `fairlineTerms()`.
+  - `lib/edgedesk_access.js` gains `fairline()`, and black in `betChecker()` and `offerFor()`.
+  - The Fairline page sells Fairline with the automatic-renewal consent, in Bet Checker's order. It gains Settings › Subscription. A Bet Checker reader is offered the portal switch.
+  - The terminal's paywall and the Bet Checker page name a Fairline plan as Fairline.
+  - `index.html`, `app.html` and `bet-checker/index.html` load the changed `edgedesk_pricing.js`, `edgedesk_access.js` (and, on Bet Checker, `edgedesk_bet_checker.js`, at `?v=20261029fl4` since it merged with main's own Bet Checker changes) under a new stamp (`?v=20261029fl2`), so a returning browser cannot keep the old copies. On Bet Checker an old `edgedesk_access.js` would show a Fairline customer as free. The landing page's stamp check failed until this was done; a new check in `tools/fairline/page.test.js` fails on any of these pages loading a stamp from before the `black` tier.
+- **Tests**: `tools/billing/fairline_tier.test.js` (72, new; in `personal-tests.yml`, `fairline-tests.yml` and `deploy-billing.yml`). The Fairline suites now run with black as paid and red as free (SQL 116, page 37, browser 42). `billing_hardening_sql.test.js` expects 15 report rows instead of 14.
+- **Not verified here:** production's `has_active_sub()` and paywall RLS are not in this repository. Run `docs/billing-hardening.md` §11 query 10 before selling Fairline.
+
+## 2026-10-29 — Bet Checker grades the NBA and the NHL (once their odds are on)
+
+**What changed.**
+- **`supabase/bet_checker.sql`** (mirrored in `migrations/20261028120000_bet_checker.sql`):
+  - `bet_checker_rules().sports` adds `basketball_nba` → NBA and `icehockey_nhl` → NHL. The grade thresholds, the fair-price freshness, the free allowance and the CLV formula are unchanged.
+  - `user_bets.sport`'s check (`bettor_decisions.sql`: CFB, NFL) is replaced by one that takes all four leagues, in the same transaction. Every existing row passes it.
+  - Report row 12 says the check takes every league in the rules.
+- **The page**: NBA and NHL pills. An NHL moneyline says it includes overtime and the shootout, because the board carries no 60-minute line.
+- **`docs/bet-checker.md`**: "The leagues", including where results come from. For these two leagues that is only `settle`'s word on the signal.
+
+**When it shows.** Only when capture prices the leagues. Both are off in the odds gateway until the owner turns them on after the November reset, every two hours ([METHODOLOGY-2026-10-29-nba-nhl-lines.md](docs/odds-api-incident-2026-10/METHODOLOGY-2026-10-29-nba-nhl-lines.md)). Until then the page offers no NBA or NHL game.
+
+**Tests.** `bet_checker_sql.test.js` 137 / 0: the widened check, MLB still refused, NBA and NHL games offered and filtered, an NBA spread and an NHL moneyline graded on the same rules, the puck line, the free allowance, and an NHL close and result. On the previous SQL, 5 fail and the suite stops. `page.e2e.js` 61 / 0: the NHL pill, and the overtime note.
+
+## 2026-10-29 — Methodology change: NBA and NHL game lines every two hours in the odds gateway (both leagues still off)
+
+**Why.** Bet Checker can grade only what EdgeDesk prices, and the NBA and NHL are registered with the odds gateway disabled. The owner approved buying their main markets (h2h, spreads, totals) every **two hours**, about **2,160 credits a month for both leagues**, instead of the gateway's hourly default (about 4,320). Narrative, evidence and budget: [METHODOLOGY-2026-10-29-nba-nhl-lines.md](docs/odds-api-incident-2026-10/METHODOLOGY-2026-10-29-nba-nhl-lines.md).
+
+**What changed.**
+- **`supabase/odds_api_nba_nhl_lines.sql`** (new, idempotent): cadence rows for the groups `nba` and `nhl` in `featured` (capture) and `close` (close), which share one fingerprint. They are 120 minutes up to 72 h from the next start and 360 minutes beyond. It also registers both leagues **disabled**, as their own files do. Every other sport, category, the floor, the breaker and the budget are untouched.
+- **`.github/workflows/deploy-odds-gateway.yml`**: input `apply_nba_nhl_lines` (default on), and the suite runs before anything ships. **`odds-gateway-tests.yml`** runs it on every pull request.
+- **`.github/workflows/capture.yml`** prints capture's `sports_list`, so the switch-on can show whether the production `CAPTURE_SPORTS` asks for the two leagues.
+- **`INCIDENT.md`** §9 step 12: the owner's switch-on (`odds_api_set_sport`), after the November reset and only once base spend tracks.
+
+**Evidence.** `tools/odds/nba_nhl_lines_sql.test.js`, 24 / 0 on a real PostgreSQL. An NBA or NHL board 65 or 117 minutes old was bought before and is a free cache hit after, for capture and close alike. NFL is still bought hourly. Leaving the NBA `close` band at 60 fails 5 checks.
+
+## 2026-10-29 — Bet Checker: tap the bet you placed (the best price fills in for a paid reader)
+
+**What it does.** After a reader picks a game, the board's lines show as buttons: spread, total and moneyline, away and over first. Each spread and total shows the line most books hang, or the priced line where none is modal. One tap fills the market, the side and the line. For a paid reader (Bet Checker or the terminal), it also fills the best price on EdgeDesk's board at exactly that line, and its book. A note under the form says where the price came from and how old it is, and asks the reader to change it to the price they got, because the grade is on the odds they submit. A free reader taps the line and types the odds (owner's decision, 2026-10-29: the best price across the board's books is line shopping, which the paid tiers sell). The form still works as before for any line not on the buttons.
+
+**What changed.**
+- **`supabase/bet_checker.sql`** (mirrored in `migrations/20261028120000_bet_checker.sql`), additive:
+  - `bet_checker_line_prices(p_event_id)`, a security-definer function beside `bet_checker_lines()`, which is unchanged. It answers capture's `best_dec` as American odds, `best_book` and `last_seen_at` at each line of a game that has not started. It answers only lines seen within `fair_max_age_min`, the window `priced` already uses. **A free reader gets no rows**, anon is refused, and the grant is `authenticated` and the service role.
+  - `bet_checker_decimal_to_american()`, for display.
+  - The startup guard also requires `signals.best_dec` and `signals.best_book`.
+- **The page**: `lib/edgedesk_bet_checker.js`, `lib/edgedesk_bet_checker_core.js` (`tapLines()`, `bookOption()`), `lib/edgedesk_bet_checker.css`, `bet-checker/index.html` (the buttons and the note; stamps `20261029bc1`). A book EdgeDesk's list does not carry is set to Other, and the note says so.
+- **Nothing about grading changes.** The entry grade, the CLV and the free allowance are computed as before, from the odds the reader submits.
+- **Tests**: `bet_checker_sql.test.js` 127 (a free reader gets no prices, paid readers get each line's price and book, a stale or unpriced line is left out, the conversion), `core.test.js` 53, `page.e2e.js` 59 (a free reader's tap leaves the odds empty; a paid reader's tap fills -110 at DraftKings, a book outside the list becomes Other, and an edited price is the one logged).
+
+## 2026-10-29 — NHL: every favourite less favoured than DraftKings. The cause measured, a pre-registered shadow, a nightly spread check; no published price moves
+
+**The report.** EdgeDesk priced every favourite below DraftKings again: VAN at SJS −133 against −198, NYI at MIN −146 against −192. The hourly ESPN capture (`research/clv/openers/nhl`) confirms the pattern on the published prices. In 35 of 47 settled 2026-27 games the book's favourite was less favoured here, by 2.2 points on average. The market's logit on the model's has slope 1.215 (1.036–1.394). Both rank clubs alike (correlation 0.89). The scale differs. Full write-up: [docs/engine/NHL_LAB.md](docs/engine/NHL_LAB.md) §6.3.
+
+**What causes it.**
+- **This season's split factor.** The pair recalibration (`hockey/model/glm.js`) refits a home/away split factor `b` each season on the regulation goal split of the three seasons before. For 2026-27 it is 0.90, the lowest since 2013-14 (0.975–1.175 before). It pulls every goal share 10% toward even.
+- **Fitted on goals, not on what is published.** On the goal split the right `b` is 1.025 in both windows. On the two-way moneyline it is 1.125 (2014-20) and 1.15 (2021-26).
+- **Club information.** Most of the two named games' gap is not scale. Model and market rate SJS the same. The market rates VAN the league's weakest club and MIN much higher than the model does. No calibration closes that part.
+
+**Why production keeps its price.** Every fix was walked forward through the production pipeline, and none passes the lab's promotion rule (§1). On 2021-26 every variant is worse:
+- `b` = 1: +0.00057 log loss.
+- `b` fitted on the goal split over every earlier season: +0.00036, interval above zero.
+- `b` fitted on the moneyline: +0.00027 (−0.00013 to +0.00063).
+
+The 2026-27 games so far and DraftKings both favour the moneyline fit, but the live season never chooses, and no market archive is licensed.
+
+**What changed.**
+- **The shadow** (`hockey/model/split_shadow.js`, protocol `nhl_split_ml_v1`). It is production with `b` fitted on the moneyline of every earlier out-of-sample game: 1.125 for 2026-27, frozen.
+  - Every slate game carries `calibration_shadow`, labelled SHADOW, never the price. In it VAN at SJS reads −142 and NYI at MIN −161.
+  - Each build freezes it beside production's price in its own append-only, hash-checked ledger, `hockey/ledger/split_shadow_2027.jsonl`. `build_slate.js --check` verifies it. The production ledger is untouched.
+- **The rule, written before that ledger held a row.**
+  - It is read once, on the first 1,000 graded games.
+  - `ELIGIBLE` needs three things: the shadow-minus-production moneyline log loss interval wholly below zero, calibration slope 0.85–1.15 with |mean p − mean y| ≤ 0.02, and a home −1.5 log loss at most 0.001 worse.
+  - DraftKings' closes are reported, never deciding.
+  - Promotion is a methodology-change pull request.
+  - **Power, stated now:** an effect the size seen so far needs about 810 games, one of 0.001 about 5,700, so `NOT_CONFIRMED` is the likeliest end.
+- **The study and the live record** (`hockey/lab/split_shadow.js` → `hockey/validation/nhl_split_shadow.json`).
+  - The study reproduces the production record on both completed windows and every variant scored.
+  - `--live` grades the shadow ledger and writes `market_spread`, production against DraftKings' closes (`NARROWER_THAN_MARKET` today). The NHL build and validate jobs run it.
+  - `--check` fails if the frozen 1.125 is not what the rule gives.
+- `hockey/lab/base.js` `glmPredictions` also returns the raw λ.
+
+**Evidence that no published number moves.** The slate was built with the old and the new code at its own `generated_at` (2026-10-28T22:50:39Z). With `calibration_shadow` removed, the two builds are byte-identical. Every production moneyline equals the committed slate's. `goalie_inputs.json` is identical.
+
+**Tests.** `tools/hockey/nhl_v2.test.js` gains 31 checks (142 pass), on synthetic data where the answer is known:
+- the moneyline fit recovers a known split, and the shadow moves the split, never the total;
+- DraftKings closes are read and matched exactly;
+- the spread monitor reads narrow, wide, consistent and too early;
+- the shadow ledger refuses a started game and catches an edited row;
+- the rule decides once, on 1,000 games, and refuses a shadow that is no better, overshoots, or worsens the puck line.
+
+## 2026-10-29 — Landing checkout: "Start 7 days free" reaches Stripe again (an undeclared `promo` stopped it after the consent)
+
+**What was wrong.** The landing page sends a new reader through sign-up and the renewal terms. It records their consent, then sends them to Stripe. Between those last two steps, `confirmArl()` in `index.html` sends the funnel and analytics events with `promo:!!promo`. Nothing in the page declares `promo`. The creator's code is `affiliateCode`, set a few lines earlier in the same function. The call threw `ReferenceError: promo is not defined`, so `window.location.href=url` never ran. The reader stayed on "Opening secure checkout…". Their consent was recorded, and no checkout opened. This is the path every Full Access trial takes, server checkout and Payment Link alike. Bet Checker checks out from `/bet-checker/` and was not affected. The line predates the oldest commit in this clone (2026-10-27), so it has been live at least since then.
+
+**Why nothing went red.** Only `tools/billing/checkout_flow.e2e.js` drives this flow in a browser. No workflow ran it, and it had failed at step 5 on `main` without anyone seeing.
+
+**What changed.**
+- `index.html`: `promo:!!affiliateCode` in the `checkout_started` funnel and analytics events. The events still report whether a creator's code was used.
+- `tools/billing/checkout_flow.e2e.js`: when step 5 fails, it reports the page's script errors, so this bug reads `ReferenceError: promo is not defined` instead of an empty URL. It no longer crashes on `new URL('')`. With `CHECKOUT_FLOW_UI_REQUIRED=1`, a missing browser fails rather than skips.
+- `.github/workflows/funnel-tests.yml`: the browser job runs it, with `CHECKOUT_FLOW_UI_REQUIRED=1`. The workflow also starts on `lib/edgedesk_access.js` (the checkout client) and on the test itself.
+
+**Evidence.** On `main`'s page: `FAIL 5 checkout opened the configured link — {"to":"","errors":["ReferenceError: promo is not defined"]}`. With the fix: `PASS | checkout flow | 40 passed, 0 failed`.
+
+## 2026-10-28 — Fairline, part 1: The Board and The Leaks (behind the Bet Checker and terminal tiers)
+
+**What it is.** A new page, [`/fairline/`](fairline/index.html), that answers two questions from prices and the reader's own bets, never from picks: **"Am I getting a good number right now?"** (The Board) and **"Where am I losing money, and is it bad bets or bad luck?"** (The Leaks). The weekly recap (The Tape) shows as Coming Soon. Narrative: [docs/fairline.md](docs/fairline.md).
+
+- **`supabase/fairline.sql`** (new, additive; mirrored in `migrations/20261028180000_fairline.sql`). Functions and one view; no table, row or policy changes. `signals` keeps its terminal-only RLS.
+  - `fairline_rules()`: the one constant (a label from 15 settled bets; a label about the close from 15 captured closes; the odds, lead-time and stake buckets; capture's own freshness limits).
+  - `fairline_paid()`: the one gate. Today it is `has_bet_checker_paid()` (Bet Checker `red` or the terminal `blue`). No billing change in this part.
+  - `fairline_bets_for()` / `fairline_my_bets()` / view `fairline_bets`: the reader's bets from Bet Checker and the Portfolio, one row per bet. A bet in both is counted once (linked, same market key, or same game), keeping the book's money and Bet Checker's close.
+  - `fairline_leaks()`: every slice by sport, market, bet type, odds range, lead time, book and stake vs median, with bets, record, units and dollars P/L, ROI, average CLV and beat-close rate, and a label: real leak, bad luck, running hot, real edge; P/L only when too few closes were captured; none below the sample. Free: the biggest leak's slice name, no number.
+  - `fairline_board()`: a security-definer door. Fair (probability and odds), best price (`book_quotes` where present, else `signals`), edge vs fair, quote age with stale rows greyed and sorted last, Kalshi only when its card says OK, DK Predictions marked inactive. Free: the top 3 fresh rows.
+- **The page**: `fairline/index.html`, `lib/edgedesk_fairline_app.js`, `lib/edgedesk_fairline_app.css`, `lib/edgedesk_fairline_core.js`. Mobile first, on the tools frame and the game cards. Each leak card leads with one plain sentence; labels are chips with words. The Board says it is prices, not picks, and carries a Known limitations block. Added to `sitemap-pages.xml`.
+- **Tests** (`.github/workflows/fairline-tests.yml`, in `tools/ci/checks.json` under Frontend and navigation): `fairline_sql.test.js` (115, real PostgreSQL), `core.test.js` (55), `page.test.js` (27), `page.e2e.js` (30, Chromium).
+- **Out of scope, noted in the docs:** a DK Predictions price feed (no source exists), and selling Fairline through Juice Reel's checkout (that sells only the terminal today).
+
+## 2026-10-28 — Deploying Bet Checker: the checkout stage probes Bet Checker's purchase too
+
+**What was missing.** `create_checkout_session` was deployed to production at 20:33 (`create_checkout_session-2026-10-28-bet-checker-2`). Its Phase 8 probes (`tools/billing/prod_probe.js checkout`) never asked for a Bet Checker checkout. They also stop early while `STRIPE_PRICE_ID` is unset, and it is unset in production, so the terminal keeps its Payment Link. Bet Checker needs no `STRIPE_PRICE_ID`: its prices are found by Stripe lookup key. So nothing had shown that the live Stripe key can read `bet_checker_monthly` and `bet_checker_annual` and open a checkout for them.
+
+**What changed.** `checkout` now probes Bet Checker first, whether or not the terminal's price is set. All of it runs as probe A, never a customer:
+- An unauthenticated request is refused (401).
+- A price the customer did not consent to is refused (409) and creates nothing.
+- Monthly and annual each open a live `checkout.stripe.com` session. Each is recorded for the caller with no trial, on the price whose lookup key is `bet_checker_monthly` / `bet_checker_annual`, and `billing_price_tiers` knows that price as tier red.
+- Opening checkout grants nothing.
+
+It leaves one open, unpaid session per price, each expiring within 24 hours. `docs/billing-hardening.md` and the stage's heading say so.
+
+**Tests.** `tools/billing/prod_probe.test.js`, which runs the probe against the shipped function and a fake Stripe:
+- With the kill switch on, the Bet Checker probes still run and pass.
+- A Bet Checker product without metadata `tier = red` FAILS them.
+- Probe A ends with exactly one open session per price.
+
+## 2026-10-28 — main is red: the "Integrated with Juice Reel" line pushed the free calculator off a short phone's first screen (#864)
+
+**What failed.** Funnel tests, browser job, `tools/home/landing.e2e.js`: "first visit: the top of the free calculator shows, labelled Free". On a 375×548 screen (an iPhone SE inside X's in-app browser), the calculator's top bar ended at 581 px on the runner, past the 548 px fold. #864 added the hero line inside the text column, and on phones that column stacks above the calculator, so the line pushed the calculator down by 43 px.
+- On this machine, the same layout put the bar at exactly 548 of 548 px, which is why the full local `verify` passed. The runner's fallback fonts set the hero 33 px taller.
+
+**The fix** (`index.html`, `lib/edgedesk_landing_desk.css`):
+- The line moves out of the text column to right after the hero's two columns.
+- On a wide screen, the text column is the taller one, so the line sits in the same place as before: under the hero's text, on the first screen (1024 to 1440 px measured).
+- Where the columns stack, it follows the calculator. The calculator's top bar is back where it was before #864: 505 of 548 px here.
+- Stylesheet stamp `20261028jr3`, recorded.
+
+**Tests:**
+- `tools/home/landing.e2e.js`: 327 passed, 0 failed.
+- `tools/billing/juicereel_checkout.e2e.js` now checks both placements: under the text at 1280 px, and right after the calculator at 390 px. With the fix, 50 passed, 0 failed. With #864's layout, 49 passed, 1 failed.
+
+## 2026-10-28 — The site's deploy is no longer cancelled by the next push (inert until Pages' source is switched)
+
+**Why.** Pages' own "Deploy from a branch" build cancels the build before it on every push. The data jobs push every few minutes, and a build takes about four. On 2026-10-28, 23 builds in a row were cancelled (19:54 to 20:38 UTC). The site served a 19:49 copy through the merges of #860, #861 and #862.
+
+**What changed:**
+- **`.github/workflows/pages-deploy.yml`** (new).
+  - The build is the same one Pages ran: Jekyll over the repository root, then deployed to the `github-pages` environment.
+  - A new run waits for the one in progress (`cancel-in-progress: false`), so every run that starts finishes.
+  - It runs on a merge to `main`, every 10 minutes (the data jobs' pushes start no workflow), and by hand.
+  - While Settings › Pages › Source is still "Deploy from a branch", it deploys nothing and says so in the run's summary.
+- **To switch on:** set Settings › Pages › Source to **GitHub Actions**, then run **Pages deploy** once by hand. Steps and undo: `docs/ci/README.md`, "Publishing the site".
+- **`tools/ci/pages_deploy.test.js`** (new, run by Core validation): 18 passed, 0 failed. It fails without the workflow (2 passed, 16 failed), with `cancel-in-progress: true` (17 passed, 1 failed) and without the schedule (17 passed, 1 failed).
+  - It also runs the source check against a stand-in `gh`. "workflow" deploys. "legacy" deploys nothing and says why. A failed read fails the job.
+- `docs/intelligence.md`: the shipping table names the new run.
+
+## 2026-10-28 — The landing page's hero says "Integrated with Juice Reel"
+
+**Why.** The Juice Reel integration matters most as a credential. Until now the landing page said so only in the partner band, eleven sections down, and only once a script had drawn it.
+
+**What changed:**
+- `index.html`: a line, **Integrated with Juice Reel**, sits under the hero's audience line. The words are in the page itself, so a reader without the script, or a crawler, sees them too. It is on the first screen at phone and desktop widths.
+- `lib/edgedesk_landing_desk.css`: its pill style, kept out of the page's own sheet for the 216 KB budget. The stamp moves to `20261028jr2` and is recorded in `tools/presentation/landing_asset_stamps.json`.
+- A shared link's preview leads with it too. `og:description` (LinkedIn, Slack) and `twitter:description` (X) now open with "Integrated with Juice Reel.", because previews cut long text.
+  - To fit the budget, "the whole terminal:" and "the whole desk:" left those two lines. Every feature they list is still listed.
+  - The search description (`<meta name="description">`) is unchanged.
+- The page now has 20 characters of room under the budget (it had 56).
+- `tools/billing/juicereel_checkout.e2e.js` gains four checks: the line is in the hero's HTML, it is on the first screen at 390 px and at 1280 px, and both share descriptions lead with it. With these changes, 50 passed, 0 failed. Without the hero line, its three checks fail (46 passed, 3 failed). Without the preview change, its check fails (49 passed, 1 failed).
+
+## 2026-10-28 — main is red: Personal research CI after the Juice Reel merge (#860)
+
+**What was wrong.** #860 merged with Personal research CI red, and `main` has stayed red since. Two checks fail there, both in tests, not in what a reader sees:
+- `tools/personal/personal_wiring.test.js`: two checks pinned the paywall's card-trial button as `<a class="pg-btn" …>`. #860 moved its class into `stripeCls`, so the button can sit below Juice Reel's as a secondary one when the switch is on. The checks no longer matched the code, which still sends a new account through `index.html#subscribe`.
+- `tools/billing/juicereel_checkout.e2e.js`, "a cancelled Juice Reel checkout": after the click, the test waited for `/app.html`. The page was already there, so the wait returned at once, and the next poll ran into the navigation to Juice Reel ("Execution context was destroyed"). It failed on every run here.
+
+**What changed.**
+- The two wiring checks match `class="'+stripeCls+'"`. A new check requires that with Juice Reel off, `stripeCls` is the plain `pg-btn`, so the card trial is still the primary button. Making it `pg-btn ghost` fails that check.
+- The e2e waits for the return from `oauth/juicereel-subscribe.html` (`/app.html?jrsub=return`).
+
+**Evidence.** On `main`: personal wiring 72 passed, 2 failed; the Juice Reel e2e failed 2 of 2 runs. With this change: 75 / 0, and 42 / 0 on each of 3 runs. No page, function or SQL changed.
+
+## 2026-10-28 — Juice Reel buyers get a way back to Juice Reel from the terminal
+
+**Why.** People who subscribe on Juice Reel come and go between Juice Reel's app and EdgeDesk on the web. Once signed in, the terminal offered them no way back.
+
+**What changed** (`app.html`):
+- A reader whose access came through Juice Reel (`price_id 'juicereel'`) now sees **Back to Juice Reel ↗** in the account menu at every width.
+- From 600 px they also see a **↗ Juice Reel** chip in the header, beside Ask AI and Help. The phone header has no room for it.
+- Both open juicereel.com in a new tab, so EdgeDesk stays open.
+- Nobody else sees either: not a Stripe subscriber, not a comp, not a reader without access, and nobody while the switch is off.
+- One function, `edJrBackSync()`, decides, wherever the page learns the reader's subscription (`loadSubStatus`, `pgReadAccess`).
+- `tools/billing/juicereel_checkout.e2e.js` gains four checks: 46 passed, 0 failed.
+
+## 2026-10-28 — EdgeDesk sold through Juice Reel: hosted checkout, account link, webhook and reconcile (off until switched on)
+
+**What it adds.** A reader can pay for EdgeDesk on Juice Reel's hosted checkout, and the EdgeDesk account they are signed in to opens. A reader who bought on Juice Reel's marketplace can link their Juice Reel account and get in. The landing page shows the partnership with Juice Reel. Juice Reel's CEO approved this by phone on 2026-10-28, as the account owner reports. Runbook: [docs/juicereel-billing.md](docs/juicereel-billing.md).
+
+- **`supabase/functions/juicereel_billing`** (new). It covers `start`, `complete`, `status`, the webhook, the hourly `reconcile` and an operator `check`.
+  - The checkout is created server-side (`POST /checkout/sessions`, HTTP Basic), with PKCE S256 and a state bound to the reader.
+  - The code is exchanged with the success URL as `redirect_uri`. `/oauth2/me` names the buyer, and Juice Reel is asked whether they are subscribed.
+  - Webhooks are verified with HMAC-SHA256 over the raw body.
+  - No verifier, token or secret is stored or logged.
+- **`supabase/juicereel_billing.sql`** (new, additive). It adds the sessions (SHA-256 of the state, single use), the EdgeDesk ↔ Juice Reel link (one to one), what Juice Reel said per buyer, and the webhook ledger.
+  - `billing_jr_project` is the one writer into `subscriptions`. It writes `price_id 'juicereel'`, active until Juice Reel's expiry, under the existing access rule, unchanged.
+  - Juice Reel only revokes what it granted. It never writes over `owner_comp`, a Stripe-backed row in good standing (it raises an alert instead) or a hand grant.
+  - When it takes over a row whose Stripe subscription ended, it clears that id, so the Stripe sweep cannot end a paid buyer.
+- **`supabase/juicereel_billing_cron.sql`** (new): the hourly reconcile, debounced in the database.
+- **Pages.**
+  - `oauth/juicereel-subscribe.html` (new): the return page. It strips the code and state, hands them to this tab only, and loads nothing.
+  - `lib/edgedesk_juicereel_billing.js` (new).
+  - `app.html`: when the server offers it, the paywall puts Juice Reel first, with "link my account" and the card trial below, labelled as the card's. The return is finished on the server. Settings shows a Juice Reel row as billed through Juice Reel, with no Stripe price or portal.
+  - `index.html`: an EdgeDesk × Juice Reel band in Pricing ("Get EdgeDesk on Juice Reel"). Its checkout button appears only when the server's switch is on. The band is drawn by the library and styled in `lib/edgedesk_landing_desk.css`, so the page stays within its 216 KB budget; both asset stamps are recorded.
+- **Off by default** (`JUICE_REEL_CHECKOUT=off`). Then `operators` for the live test, then `on`: **Actions → Deploy Juice Reel billing**. Stripe billing and the card trial are unchanged.
+- **Not yet confirmed with Juice Reel:** the shapes of the subscriber-status answer, the owner subscriber list and the webhook body, and the signature's exact input. Reading them fails closed (docs/juicereel-billing.md § 9).
+- **Tests:** `juicereel_billing.test.js` (82, real PostgreSQL), `juicereel_client.test.js` (25), `juicereel_checkout.e2e.js` (42, Chromium). All are in `personal-tests.yml`, the browser suite in a new `browser` job.
+- `docs/juicereel.md` § 1–2 no longer say EdgeDesk does not sell through Juice Reel. What they say about the bet-sync connector is unchanged.
+
+## 2026-10-28 — Deploying Bet Checker: checkout works with a Stripe key that can't read Products
+
+**What was wrong.** Bet Checker made `create_checkout_session` read every price with its product expanded, to learn the product's metadata `tier`. The restricted key that `docs/billing-hardening.md` set up has no Products read, and Stripe refuses such a key the expanded product (403). Once deployed, every terminal checkout would have answered `stripe_unavailable`. The reconciler already fell back to what the database had learned. But a Bet Checker price nobody learned at checkout would have stayed unknown, and the access rule reads an unknown price as the terminal.
+
+**What changed.**
+- When Stripe refuses the product (a 403, nothing else), the checkout reads the price again on its own. The terminal's checkout never needs the product.
+- In that case only, the price's own metadata `tier` stands in, in the checkout and in the reconciler. Both live Bet Checker prices carry `tier = red`.
+- A product that was read and names no tier is still never overruled by its price.
+- Products read is now optional: the function headers, `docs/billing-hardening.md` and `docs/bet-checker.md` say so.
+
+**Regression check.** New section 4b of `tools/billing/tier_flow.test.js` (a key Stripe refuses every product): main's code fails 7 of its 8 checks, including "the terminal's trial checkout still sells STRIPE_PRICE_ID" (it answered `stripe_unavailable`). With this change: 52 / 0.
+
+**Also.** `deploy-bet-checker.yml` applies `bet_checker.sql` in one transaction (`psql --single-transaction`), and a requested part whose secret is missing now fails the run instead of finishing green.
+
+## 2026-10-28 — Bet Checker installs on production's board (the page's "board could not be loaded")
+
+**What was wrong.** `/bet-checker/` told every reader "EdgeDesk’s board could not be loaded", and under it "No upcoming games on EdgeDesk’s board". The database half of Bet Checker had never been installed. Both *Deploy Bet Checker* runs stopped in `bet_checker.sql`'s first check, before anything was created:
+
+| Run | Stopped on |
+|---|---|
+| 1, 13:18 UTC | `has_bet_checker_paid()` missing: billing had not been applied yet |
+| 2, 13:46 UTC | `public.signals has no column(s) is_player_prop` |
+
+`is_player_prop` comes from `capture_v11_player_props.sql`, which is optional. Capture writes game rows without it, and production has not run it. Bet Checker used the column only in a redundant filter: every query also pins `market` to `h2h` / `spreads` / `totals`, and a player row's market is always `player_*`.
+
+**The change.**
+- `bet_checker.sql` and its byte-identical migration mirror no longer require `is_player_prop`, and the 12 redundant predicates are gone. Every query selects the same rows as before. The grade thresholds, the free allowance and the CLV formula are unchanged.
+- The game picker says "EdgeDesk’s board could not be loaded" when the load failed. "No upcoming games" is kept for a board that loaded empty.
+
+Nothing changes in production until an operator runs *Deploy Bet Checker* with `apply_sql` and `apply_cron`.
+
+**Regression check.** The new tests were run against the old code first:
+
+| Suite | old code | this change |
+|---|---|---|
+| `tools/bet_checker/bet_checker_sql.test.js` | **111 / 1**: production's exact error; the checks that depend on the install did not run | 116 / 0 |
+| `tools/bet_checker/page.test.js` | **32 / 1** | 33 / 0 |
+
+## 2026-10-28 — Changelog and incident note: what this morning's "Update branch" merges deleted is back
+
+**What was lost.** Between 13:14 and 13:17 UTC, #854, #855 and #853 merged. Two of them merged seconds after an "Update branch" merge commit whose conflicts were resolved in GitHub's editor, before any check ran on it:
+
+| "Update branch" merge | Merged | What it dropped |
+|---|---|---|
+| `b97f6f61c` on #855 | 13 s later | #854's entry, already on `main`, and #855's own |
+| `0ffe1e1be` on #853 | 15 s later | #853's own entry, and both 2026-10-28 amendments to `docs/odds-api-incident-2026-10/INCIDENT.md`, #853's and #855's |
+
+The code of all three pull requests reached `main` intact. Only these notes were lost.
+
+**The repair.**
+- The three entries are back, verbatim from their own commits (`c78e90fd`, `7f19bf1ed`, and `main` at `cc2f8c04f` for #854), newest merge first.
+- Both `INCIDENT.md` amendments are back, verbatim from `c78e90fd` and `7f19bf1ed`.
+- The blank lines the deletions left at the top of this file are removed.
+- Nothing else changes. AGENTS.md §5 asks for conflicts to be resolved locally, keeping both sides' entries, and for the update commit's checks before a merge.
+
+## 2026-10-28 — Odds emergency stop: the Collective's own jobs are covered (methodology change)
+
+**What was wrong.** The emergency stop and the hourly limits find a paid pg_cron job by its command, with `public.odds_api_spend_patterns()`, a list of function URLs. The Collective's two odds jobs, `collective_nfl_odds` (`35 12 * * *`) and `collective_cfb_odds` (`40 12 * * *`), run `select odds.run_ingest(...)`. That function posts to `collective_odds_ingest` at a URL held in `odds.settings`, so the commands match nothing. The 2026-10-14 stop never paused them, and they ran every day through the incident. The stop's own "no active paid job" row could not count them, and the hourly limits never saw them. In production `provider.default` is `theoddsapi`, so they do reach a paid path. The jobs were read from production by the read-only Collective odds doctor.
+
+**The change** ([methodology note](docs/odds-api-incident-2026-10/METHODOLOGY-2026-10-28-collective-jobs.md)):
+- `odds_api_spend_patterns()` gains `%odds.run_ingest%`, in `odds_api_emergency_stop.sql` and in the gateway's identical copy.
+- `odds_api_resume_schedules()` resumes them too: the repository's ingest buys only through the gateway.
+- `odds_api_gateway.sql` now re-creates the resume verbatim, as it already re-creates the pattern list. Otherwise a database that took the new patterns would pair the stop with an older resume that keeps the Collective's jobs paused. A test keeps the two definitions identical.
+- Report row 13 confirms both production commands match and the resume names them.
+- The six SQL-editor parts are regenerated with `tools/sql/split_sql.js`, which reproduces `main`'s parts byte for byte from `main`'s file. Parts 5 and 6 change.
+
+Nothing changes in production until an operator applies a file or calls the stop. Both jobs already run once a day, so the hourly limits leave their schedules as they are. No committed data changes.
+
+**Regression check.** The new tests were run against `main`'s SQL first:
+
+| Suite | `main` | new tests, `main`'s SQL | new tests, this SQL |
+|---|---|---|---|
+| `tools/odds/no_bypass.test.js` | 102 / 0 | **102 / 1** | 103 / 0 |
+| `tools/odds/gateway_sql.test.js` | 104 / 0 | **27 / 8**, the stale resume aborts the live layer | 107 / 0 |
+| `tools/odds/hourly_limits_sql.test.js` | 36 / 0 | **37 / 2** | 39 / 0 |
+
+`tools/sharp_lag/sharp_lag_sql.test.js` (77) and `tools/sql/split_sql.test.js` also pass. Three existing checks count what the new fixture adds, and their expected numbers rise with it: paused jobs 6 to 8, fixture jobs 8 to 10, report rows 12 to 13. No check is relaxed.
+
+## 2026-10-28 — Collective: polls with its own key until the Nov 1 reset (methodology change, time-boxed)
+
+**Why.** Since 2026-10-22 every daily Collective poll was refused by `odds_gateway` (`denied_unconfirmed_quota`), so no closing line was captured. The gateway buys from the main account, which is empty until 2026-11-01 00:00 UTC. Until 2026-10-21 the Collective had bought with its own key, on its own account (443 credits left). Without a change, week 8 loses its closes as week 7 did, starting with Thursday night's game.
+
+**The change** ([methodology note](docs/odds-api-incident-2026-10/METHODOLOGY-2026-10-28-collective-own-key.md)):
+- `collective_odds_ingest` gains one marked block. Until 2026-11-01T00:00:00Z, The Odds API requests go to the provider with `COLLECTIVE_ODDS_API_KEY`, a new name, never the main key's.
+- That happens only while the key is set and `public.odds_api_enabled()` reads on. An unreadable breaker is off.
+- It makes the same request as before 2026-10-21 (3 credits, american prices) and records the provider's balance, so the existing reserve guard applies. The key is redacted from every error.
+- From the reset on, every request goes to `odds_gateway` again.
+- `tools/odds/no_bypass.test.js` is amended openly. Rules 1 and 2 cut this one block out of this one file. `COLLECTIVE_ODDS_API_KEY` joins the forbidden key names everywhere else. A new section, 1b, pins the block: one block, this file, this expiry, this key name, the breaker before the call, and one call site.
+- `deploy-odds-gateway.yml` gains a `callers` input, so `collective_odds_ingest` can be deployed alone. `close` has a pending change on `main`.
+
+**Tests.**
+- `node tools/odds/collective_own_key.test.js` (new, 29) runs the deployed handler with the database, gateway and provider stubbed and the clock injected. It covers:
+  - before the reset, at its last second, and at the reset;
+  - no key, a blank key, and the old key names;
+  - the breaker off and unreadable;
+  - a 401 echoing the key;
+  - the reserve guard.
+
+  Against `main`'s function it is 13 passed, 16 failed.
+- `no_bypass.test.js`: the unamended guard catches the block (100 / 2). The amended guard passes 110 / 0, and six mutations each turn it red.
+- `tsc --strict`: no new error.
+
+**Operator steps:** set `COLLECTIVE_ODDS_API_KEY`, merge, then run Deploy odds gateway with `callers` = `collective_odds_ingest` and the other options unchecked. After Nov 1:
+- unset the key;
+- confirm the gateway's new-cycle quota;
+- remove the block.
+
+## 2026-10-28 — Bet Checker v1, and two billing tiers: a Bet Checker subscription never opens the terminal
+
+**What it is.** A cheaper entry product (`/bet-checker/`, `docs/bet-checker.md`). A reader logs a bet they already placed; EdgeDesk grades the price against its own fair price at that moment (green ≥ +1.5 points of implied probability, red ≤ −1.5, from one constant, `bet_checker_rules()`), then against its own captured close (CLV by the house formula, `close/index.ts` `decideClose()`). No fair at exactly that line, or a close at a different line, is said out loud — ungraded, or *no close available* — never estimated. Free: ten grades a month and CLV on every bet; Bet Checker ($7.99/month, $59/year, Stripe product metadata `tier = red`): every bet graded, stats, splits, full history; the Research Terminal (`tier = blue`) includes it.
+
+**What it builds on.** `public.user_bets` (bettor_decisions.sql), extended — no second bets table; `public.signals` for games, fair prices, closes and flags (there is no events table); `settle`'s word and the Collective's final scores for results; the billing core, `create_checkout_session` and the landing page's automatic-renewal consent order for checkout; the Games sign-in door, configured to come back to the page.
+
+**What was wrong, in billing, before it could ship.** `billing_row_grants_access()` granted the terminal to any subscription in good standing, so a $7.99 Bet Checker purchase would have opened the $49.99 terminal. This is an authorization change (AGENTS.md §3), kept in its own commit:
+- what each Stripe price sells is learned only from its product's metadata (`billing_price_tiers`, `billing_learn_price_tier()`), before payment and on every sync;
+- `billing_row_in_good_standing()` is the old rule; `billing_row_grants_access()` is it and a price that does not sell red;
+- `subscriptions.tier` follows the price (a red ↔ blue switch in Stripe flips it), `has_bet_checker_paid()` is the one Bet Checker gate;
+- a Bet Checker customer is never sold the terminal's trial beside it (`switch_plan`), and the terminal's paywall sends them to the billing portal.
+
+**Also.** `tools/personal/research_state.js` now leaves Bet Checker rows to Bet Checker's grader (it would have graded them from the record files too). The billing portal link moved from `app.html` into `lib/edgedesk_pricing.js` (`PORTAL_LINK`), which the Bet Checker page needs as well. Seven database suites that copy the access rule out of `billing_hardening.sql` (Research OS journey, signal center, simulator, NCAAM/NCAAW forecast) were stale: they now also copy what the rule calls (`billing_row_in_good_standing()`, `billing_tier_of_price()`, `billing_price_tiers`); no assertion changed.
+
+**Regression check.**
+
+| check | old code | this change |
+|---|---|---|
+| `tools/billing/tier_flow.test.js` with the rule made tier-blind again | — | **FAIL** 8 of 44, among them "THE TERMINAL IS NOT: a $7.99 purchase never opens the $49.99 product" |
+| `tools/billing/tier_flow.test.js` | — | 44 / 0 |
+| `tools/bettor/decision.test.js`, the new "a Bet Checker bet is left to Bet Checker's own grader" | **FAIL** (196 / 1) | 197 / 0 |
+| `tools/billing/billing_hardening_sql.test.js` | 86 / 0 | 109 / 0 (a 150-case red / blue / unknown / comp grid; the report-row count moves 11 → 14 for the three new rows) |
+
+New suites: `tools/bet_checker/bet_checker_sql.test.js` (110), `functions.test.js` (37), `core.test.js` (46), `page.test.js` (30), `page.e2e.js` (36, Chromium); CI `bet-checker-tests.yml`. No model number, signal, ranking, research protocol or signal CLV changed.
+
+## 2026-10-28 — Landing pricing: Bet Checker beside Full Access
+
+**What changed.** The landing page's `#pricing` sold one plan. Now it shows three cards: Free, **Bet Checker** ($7.99/month or $59.00/year, no trial) and Full Access ($49.99/month after a 7-day free trial, unchanged). Bet Checker grades bets a reader already placed. Full Access is the research before the bet, and it includes Bet Checker. The heading and a one-sentence lede say this, and the Full Access card says it includes Bet Checker. The hero's price strip names Bet Checker's price beside Full Access's. Every Full Access element, id (`#subscribe`, `#subBtn`, `#edOffer`) and the trial timeline are as they were.
+
+- `lib/edgedesk_pricing.js`: `priceWords()` is the one map `apply()` fills from. The new words `bc_plan`, `bc_price`, `bc_monthly`, `bc_annual` and `bc_free` are derived from `BET_CHECKER` through `betCheckerOffer()`, so the landing page types no figure. The annual figure keeps its cents ("$59.00/year"), as the consent sheet shows it.
+- `lib/edgedesk_bet_checker.js`: `/bet-checker/?upgrade=monthly|annual` (the card's button) is kept in `sessionStorage` through the sign-in round trip. After sign-in it opens the renewal-terms sheet on that plan, unticked, or tells a reader whose plan already includes Bet Checker. It never skips the consent. A signed-out reader sees a line by the sign-in door saying checkout opens next.
+- `/bet-checker/`, seen on production before `bet_checker.sql` was applied: a stats call that FAILS used to read as "not paid", so a paying or comped reader was shown the blurred stats and an upgrade button. It now says the stats could not be loaded. A comped account (`owner_comp`) is now named complimentary in Settings, with no billing portal and nothing to cancel.
+- The page's 216 KB weight budget is unchanged. The new card's few rules stay inline, because app.html sends readers straight to `#subscribe`. To make room, `#trust`'s styles (3.9 KB, below the fold, linked from nowhere) moved out of the page into the two stylesheets that already load the same way: the press list (`.press`, 1.2 KB) went to `lib/edgedesk_landing_pictures.css`, the rest to `lib/edgedesk_landing_desk.css`. Juice Reel's hero line took the desk sheet's room, and each sheet stays under its 12 KB budget (11.1 KB and 9.9 KB). A "Which one do I need?" table was built and then left out: with it the page needed 221 KB, and the owner chose to keep the budget.
+- `?v=20261028b` for `lib/edgedesk_pricing.js` (index.html, app.html, bet-checker/, methodology/, research/sample/); `?v=20261028bc3` for `lib/edgedesk_bet_checker.js` (after #857's `bc2`); `?v=20261029a` for `lib/edgedesk_landing_desk.css` and `lib/edgedesk_landing_pictures.css`.
+
+Tests: `landing_positioning.test.js` covers the card, its FEATURES lines, both links and the strip. Its "one plan card" and Free-card checks were updated for the deliberate third card. `personal_wiring.test.js` checks the derived words, `apply()` and the static copies. `bet_checker/page.test.js` checks the deep link in Node with blocked or missing storage. `bet_checker/page.e2e.js` covers a signed-in free reader on `?upgrade=annual`, the signed-out round trip and an already-paid reader. `home/landing.e2e.js` checks the filled words at six widths. `billing/juicereel_checkout.e2e.js` and `billing/checkout_flow.e2e.js` took the first non-Free card to be Full Access's, which is now Bet Checker's (no trial). They select `.pcard:not(.freecard):not(.bccard)`.
+
+## 2026-10-28 — Collective: why last week has no against-the-spread results, and a read-only doctor that shows it
+
+**What was wrong.** All 14 NFL week 7 games settled with a final score and no captured closing line. So none of them has an against-the-spread (ATS) result. The last close on file is WAS @ SF (kickoff 2026-10-20 00:15Z). The settlement refresh puts every week-7 game in class L: snapshots exist, but none falls inside the final 360 minutes before kickoff. College week 8 has no closes either. College closes have been mostly missing all season (the ten-character name join in `collective/settled/README.md`), so the stop shows most clearly in the NFL.
+
+**The cause, read from production.**
+- The Collective polls The Odds API once a day (`provider.default = theoddsapi`; pg_cron `collective_nfl_odds` at 12:35Z, `collective_cfb_odds` at 12:40Z) through `odds.run_ingest`. Its own quota read 57 used and 443 remaining on 2026-10-21.
+- The last successful poll was 2026-10-21 12:35Z, which wrote 872 snapshots.
+- That evening, Deploy odds gateway (21:51Z) put this repository's reconstruction of `collective_odds_ingest` live for the first time. In that version, The Odds API is reached only through `odds_gateway`, in category `collective`.
+- From 2026-10-22 through 2026-10-27, all 11 polls (NFL and college) ended `odds_gateway: denied_unconfirmed_quota`. No snapshot was written.
+- The gateway's switch is on (since 2026-10-21 20:46Z), with a 60,000 budget, and the `collective` category is enabled. But the gateway has seen no provider quota header in the October cycle (`provider_observed_at` is empty, `quota_confirmed` false), so it refuses every paid request. Its spend this cycle is 0.
+
+**What this changes.** Nothing in production. It adds the tool that read the cause:
+- `tools/collective/odds_doctor.js` reads `collective_odds_ingest`'s `GET /v1/status` and, inside `BEGIN TRANSACTION READ ONLY`, the pg_cron jobs that poll the ingest, the emergency stop's paused-jobs log, the jobs' runs, pg_net's recent answers, `odds.ingest_runs`, snapshot and closing-line counts by day, `odds.settings` (no setting whose name contains token, secret or key), and the gateway's switch, cycle, categories and decisions on the Collective's requests. It calls no provider and writes nothing. Every printed value is redacted first.
+- `.github/workflows/collective-odds-doctor.yml` runs it from Run workflow, or from a push to `claude/**` with `[odds-doctor]` in the head commit. Any other push runs only its tests.
+
+**Not changed, and why.**
+- Last week stays graded on scores alone. The Collective never stored those closes. Its rule allows only its own captured close, and filling them from another source would be a methodology change.
+- Restoring the polls means either confirming the gateway's quota (the main account was spent on 2026-10-10 and resets 2026-11-01 00:00 UTC) or giving the Collective its own key back. Both are odds gateway budget and bypass decisions (AGENTS.md §3), so they are left to the owner.
+
+Tests: `node tools/collective/odds_doctor.test.js` (40) covers redaction of tokens, JWTs, connection strings and header values; read-only wrapping; argument and identifier validation; and the report end to end on stubs. The test was mutation-checked: dropping the header-value rule, or `READ ONLY`, turns it red. Every section also ran against a local PostgreSQL 16 with pg_cron-, pg_net-, odds- and gateway-shaped tables, and a planted cron token never appeared. `collective-tests.yml` runs the suite.
+
+## 2026-10-27 — FBS board: a card the reader opened stays open when late data repaints the board
+
+**What was wrong.** Opening a game on the FBS board draws its card into `#p4gate-<id>` (`fbP4Gate`). The board draws every row closed. About 40 places call `renderFootball()` when their data lands, among them the season record, the quote-EV tables, the grades and the matchup data. Only the 60-second price refresh went through `fbRepaintKeepingPlace()`, which reopens the open cards. So a card opened in the first seconds after load could shut again, empty, when a late artifact arrived.
+
+**How it showed.** `tools/football/game_research_ui.e2e.js` failed once inside a full `npm run verify`: 53 / 1, "an FBS card opens with EdgeDesk's projection above the decision", `{"lead":null,…}`. Run alone, it passed. The check opens a card 1.5 s after the board first paints. In a normal run the board repaints four more times in that window, the last at +1.4 s. Under load, one of those repaints can land on the card just opened.
+- One `renderFootball()` after the open reproduces the failure exactly: 53 / 1, `{"lead":null,"before":false,"hasBtn":false}`.
+- Nothing forced, with the season record (`record/football/cfb_<season>.json`) served 4 s late: its own repaint, 2.5 s after the click, closed the card. Six seconds after the click, the card was still closed and empty.
+
+**The repair.**
+- `renderFootball()` notes the open cards before it repaints (`fbP4OpenGates`) and reopens them after (`fbP4Reopen`). It does this the way `fbRepaintKeepingPlace()` did, without counting a second visit.
+- `fbRepaintKeepingPlace()` keeps its scroll and `<details>` restore, and leaves reopening the cards to `renderFootball()`.
+- No model number, threshold, record or existing assertion changed.
+
+**Regression check.** `game_research_ui.e2e.js` now repaints the board once after the card opens. It requires the card to stay open with the same lead.
+
+| `node tools/football/game_research_ui.e2e.js` | old `app.html` | this `app.html` |
+|---|---|---|
+| the new check | **FAIL** `{"open":false,"lead":null}` (54 / 3) | 58 / 0, twice |
+| season record served 4 s late, nothing forced (local probe, not committed) | closed and empty 6 s after the click | open, same lead |
+
+## 2026-10-27 — Research OS journey and changelog: what this morning's "Update branch" merges deleted is back
+
+**What was lost.** Between 12:51 and 12:59 UTC, #844, #841, #840, #842 and #843 merged. Three of them merged on an "Update branch" merge commit, two of them within ten seconds of it. Those three merges dropped work that no check had seen:
+
+| "Update branch" merge | Merged | What it dropped |
+|---|---|---|
+| `6f51155e8` on #841 | 1 min 51 s later | #844's entry and #841's own |
+| `70440b1fe` on #842 | 9 s later | #842's entry, and the journey check itself |
+| `a3e2dd729` on #843 | 10 s later | #843's own entry |
+
+#841 and #842 had fixed the same journey check in parallel. #841 merged first. The conflict on #842 was resolved by deleting both versions: `SNAP_HOME`/`SNAP_AWAY` and the "the game is the research context" check, on desktop and phone. `tools/research_os/journey.e2e.js` stayed green, with two checks fewer, and it stopped noticing a game page that carries the wrong team.
+
+**The repair.**
+- `tools/research_os/journey.e2e.js` is again exactly #841's version (`d57ddc4c4`). It is the stronger of the two fixes: it checks the home and away names against the research snapshot, and requires both to exist.
+- The four entries are back, verbatim from their own commits, in merge order (`a3e2dd729^1`, `10145b2cd`, `6f51155e8^1`, `e68bdbfda`).
+- #842's entry describes #842's version of the check. That version never reached `main`, because the merge deleted it along with #841's. The code that stands is #841's.
+- #840 added no entry. Its change to `discover()` reached `main` first through #844, which carried it byte for byte.
+
+No other file changed.
+
+**Before and after.** `ROS_SQL_REQUIRED=1 ROS_E2E_REQUIRED=1 node tools/research_os/journey.e2e.js` on `main` (`43e1d8ea4`, Delaware at Western Kentucky):
+
+| | today's data | `gvCtx` handed the away team's name (local mutation, not committed) |
+|---|---|---|
+| `main` | 124 / 0 | **124 / 0**: the wrong name passes |
+| this branch | 126 / 0 | **124 / 2**: "the game is the research context" fails |
+
+The lesson is §5's, again: after "Update branch", wait for that new commit's checks, and resolve conflicts locally, keeping both sides' changelog entries.
+
+## 2026-10-27 — NHL engine browser suite: read the goalie block after the starter sync answers
+
+**The intermittent failure.** `NHL engine › The NHL and Engine panels in Chromium` sometimes failed "the slate fallback says the starter sync has no card for the game yet" (`tools/engine/engine_ui.e2e.js`). It failed once on a fully loaded machine. It passed six reruns at the same commits.
+
+**The cause.** `goalieBlock` (`lib/edgedesk_engine_ui.js`) draws the slate's goalie block at once. It then asks the starter sync, and draws the block again with the answer, which is when the "no card" note appears. The suite read the block once "Starting goalies" was drawn. That is already true before the answer, so a slow reply lost the race.
+
+**The fix (test only).** The suite also waits until `EDNHLGoalies.state(game)` has finished loading and holds an answer or an error, then reads the block. The assertion is unchanged.
+
+**Tests.**
+- **Unchanged suite, sync reply held 2 s:** 150 passed, 2 failed (desktop and phone), the same failure as the loaded machine.
+- **Fixed suite:** 152/0, and still 152/0 with the reply held 2 s.
+- **Mutation:** with the note removed from `lib/edgedesk_nhl_goalies.js`, it still fails 150/2, so the wait masks nothing.
+
+## 2026-10-27 — The jobs that refit a model record publish the registry rebuilt from it
+
+**Why.** `engine/registry.json` reads each sport's state from its committed record. On 2026-10-26 the college baseball weekly validation pushed a record whose state had changed, but not the registry. For 100 minutes `main` disagreed with itself, and Multi-sport lab failed on every pull request (#828 fixed that job). Three more jobs publish a record the registry reads without the registry:
+- the UFC model loop (`model_loop/published/ufc/validation.json`);
+- the basketball model loop (`basketball/validation/<league>_walkforward.json` on a promotion);
+- the college baseball model loop's `release` mode (`college_baseball/validation/walkforward.json`).
+
+The four jobs that do publish the registry (`lab-build`, `lab-validate`, `nhl-build`, `nhl-validate`) carried their own copy over a newer tip when a push was rejected. That copy drops whatever record another job had just published.
+
+**What.**
+- `model-loop-ufc.yml`, `model-loop-basketball.yml` and `model-loop-college-baseball.yml` (release only) rebuild the registry and board after the record, `--check` both, and push them with the record.
+- Every job that publishes the registry sets `PUSH_REBUILD: node engine/build_registry.js && node engine/build_board.js`, so on a rejected push both are rebuilt on the new tip (`tools/ci/push_generated.sh`).
+- `lab.yml` also runs on pull requests that change the record-refitting workflows.
+
+**Evidence.** A local race through the real `tools/ci/push_generated.sh`: one job published an NBA record change and the registry, and a UFC loop that had started from the same commit lost the push.
+- Before: the UFC loop's carried registry still said NBA moneyline `OUTCOME_VALIDATED` over a record that said `PROVISIONAL`, and `engine/build_registry.js --check` FAILED on the result.
+- After: the registry on the new tip held both changes, and `--check` passed.
+
+**Tests.**
+- `tools/lab/lab.test.js`: each of the seven jobs that refit a record the registry reads rebuilds, checks, pushes and `PUSH_REBUILD`s the registry and board. 15 checks fail on the old workflows.
+- `tools/ci/push_generated.test.js` §11 lists the registry and board as aggregates. It fails on the four jobs that carried them.
+
+**Not here.** The football records (`football/validation/linemaker_*.json`, `pricing_*.json`) are rewritten by `linemaker-calibrate.yml`, `learning-loop.yml` and `football-weekly-build.yml`. Their registry is rebuilt only by the next lab or NHL build. `linemaker-calibrate.yml` pushes with `git pull --rebase`, which conflicts on a file another job rewrote, so it needs `tools/ci/push_generated.sh` before it can carry the registry. That is a separate change.
+
+## 2026-10-27 — Research OS journey: the game page's context is checked against the label the game page carries
+
+**What broke.** Since the scheduled slate push at 00:22 UTC (`f213b5eb`, "slate: today's games"), `tools/research_os/journey.e2e.js` has failed on `main` with 124 passed and 2 failed:
+
+```
+FAIL | desktop: the game is the research context  {..."researchKey":"cfb|401871071",..."home":"Western Kentucky",...}
+FAIL | phone: the game is the research context  {..."researchKey":"cfb|401871071",..."home":"Western Kentucky",...}
+```
+
+It turns Research OS tests (`browser`) and All checks red on every pull request that starts them. #835 was the first, and it merged with this check red. Research OS tests runs only on pull requests, so `main` did not report the failure itself.
+
+**Why.** The journey takes the earliest upcoming NFL or FBS game on the committed slate. Before the push that was Dallas at Philadelphia (`nfl|2026_07_DAL_PHI`); after it, Delaware at Western Kentucky (`cfb|401871071`). The game page builds the research context from the game research snapshot (`gvCtx` in `app.html`, through `EDContext.fromResearchKey`), so its `home` is the snapshot's label, "Western Kentucky". The check compared it with the slate's label, "Western Kentucky Hilltoppers". NFL snapshots and the slate use the same names, so the check passed only while the first game was an NFL game. `home` and `away` are display labels only (DESIGN.md §2), and the code is right. The check depended on which sport the day's first game was.
+
+**The repair.** The check compares the context's `home` with the research snapshot's `home.name`, the label the game page is built from. It is still an exact match, together with the research key. Every other check is unchanged. No app code, data or fixture changed.
+
+**Before and after.** `ROS_SQL_REQUIRED=1 ROS_E2E_REQUIRED=1 node tools/research_os/journey.e2e.js`:
+
+| Data | old test | this test |
+|---|---|---|
+| `main` before the slate push (`f213b5eb~1`, DAL @ PHI) | 126 / 0 | 126 / 0 |
+| `main` after it (`1b8a82be`, DEL @ WKU) | **124 / 2** | 126 / 0 |
+| `main` after #835 and #839 (`b48f627d`, DEL @ WKU) | **124 / 2** | 126 / 0 |
+| `1b8a82be`, with `gvCtx` handed the away team's label (local mutation, not committed) | 124 / 2 | **124 / 2** |
+
+The last row shows the check still fails when the game page carries the wrong label.
+
+## 2026-10-27 — Research OS journey: the research context is checked against the names the game page shows
+
+**What broke.** Since the scheduled slate push at 00:22 UTC (`f213b5eb6`, "slate: today's games"), `tools/research_os/journey.e2e.js` has failed on `main` with 124 passed and 2 failed:
+
+```
+FAIL | desktop: the game is the research context  {..."researchKey":"cfb|401871071",..."home":"Western Kentucky","away":"Delaware",...}
+FAIL | phone: the game is the research context  (the same)
+```
+
+It turns Research OS tests (`browser`), Market Foresight tests (`database`) and All checks red on every pull request that starts them.
+
+**Why.** The journey takes the earliest upcoming NFL or CFB game on `today/slate.json` that has a research snapshot. Before the push, that was Dallas at Philadelphia, which the slate and the snapshot both call "Philadelphia Eagles". After it, the game was Delaware at Western Kentucky:
+- the slate calls the home side "Western Kentucky Hilltoppers";
+- the research snapshot calls it "Western Kentucky".
+
+The game page builds the research context from its snapshot (`gvCtx` in `app.html`, through `EDContext.fromResearchKey`, "the labels the caller saw"). So the context carries the name the page shows. The test compared that name with the slate's. The app is right; the test's expectation was wrong.
+
+**The repair.** The test only.
+- The check now compares `ctx.home` and `ctx.away` with the snapshot's names, and requires both to exist.
+- The research-key check is unchanged.
+- The search check and the seeded watchlist rows still use the slate's names, which is what they read.
+- No app code, data or threshold changed.
+
+**Before and after.** `node tools/research_os/journey.e2e.js`, run locally with `ROS_SQL_REQUIRED=1 ROS_E2E_REQUIRED=1`:
+
+| Data | Old test | This test |
+|---|---|---|
+| `main` (`c91cc05ab`): Delaware at Western Kentucky | 124 / 2 | 126 / 0 |
+| slate and snapshot at `4630c7685` (before the push): Dallas at Philadelphia | 126 / 0 | 126 / 0 |
+| `main`, with the game page's home and away swapped in `gvCtx` (mutation, not committed) | not run (already red on this data) | 124 / 2: the context check fails |
+
+## 2026-10-27 — Content engine: an NFL stat lifted out of its "When X have the ball" heading names X
+
+**What was wrong.** An NFL matchup claim reads "When Tennessee Titans have the ball: their passing game ranks No. 29, and Cincinnati Bengals' pass defense ranks No. 17." The matchup analysis lifts such claims into its thesis ("The football that does point toward Cincinnati Bengals:") and its counterargument ("The case for …"). It dropped the clause and kept "their", so the bullet read "Their passing game ranks No. 29": Cincinnati's by every reading, and it was Tennessee's. The frozen Week 6 / NFL Week 5 drafts held 20 such sentences, at least one in every NFL matchup analysis.
+
+**The repair.** `stripWhen()` puts the team back where "their" stood ("Tennessee Titans' passing game ranks No. 29"). Under the evidence section's "**When X have the ball.**" heading, which names X, the pronoun stays. College claims carry no "their" and are unchanged. The Edge Function's copy is regenerated with `node tools/content/inline.js`; it reaches production only on a manual deploy.
+
+**Also on this branch.** #840's `discover()` change (a matchup analysis only where the evidence argues both sides), ported byte-for-byte so this branch's Content engine check passes while `main` fails it on Tennessee at Cincinnati. It is a no-op once #840 merges, and its record is #840's.
+
+| `node tools/content/content.test.js` | result |
+|---|---|
+| without this change | 334 / 1: "- Their run game ranks No. 3, and Atlanta Falcons' run defense ranks No. 25." (BAL @ ATL) |
+| with it | 335 / 0 |
+
+## 2026-10-27 — College football: the graphic's chips add up to the line, and a game-by-game trust audit
+
+**The question.** Is EdgeDesk overrating teams like Missouri State (fair −6.65, DraftKings −4.5) and Western Kentucky (fair −3.3, DraftKings +1.5)? Does the model take account of past weeks?
+
+**What the season says.** These are 393 graded FBS-vs-FBS games, as of 2026-10-27 13:30 UTC.
+- EdgeDesk missed by 11.90 a game and the close by 10.99. The close finished nearer the final in 59.3% of games.
+- A disagreement with the close carries no measurable information: slope −0.13, 95% CI −0.42 to +0.16. At a 7+ point gap the close was nearer in 69%.
+- There is no systematic lean: today's 15 lined games average +0.28 points toward the home side.
+- A team's earlier misses do not predict its next one (slope +0.02, 95% CI −0.13 to +0.17, n 278), so the ratings do absorb past weeks.
+- Missouri State's 2.2-point gap is mostly its 1.74-point stylistic matchup term. That term's held-out gain is not significant. On this season's games alone, Sam Houston rates 1.0 better on a neutral field. The long-run track, weighted 60%, has Missouri State 4.2 better.
+
+**Fixed: a college card's chips add up to its line** (`lib/edgedesk_game_snapshot.js`). The "What to watch for" chips were picked on story strength alone. On 2026-10-27, 59 of 63 college cards left a priced engine term off every chip:
+- SHSU @ MOST printed MOST +2.1 and +2.8 on 6.65, with the matchup term nowhere.
+- DEL @ WKU printed WKU +0.1 and +0.4 on 3.27, without the 2.8-point home field.
+
+Each engine term now sits on exactly one in-number chip. A missing term takes the place of the weakest item that carries no points. The regression test in `tools/football/game_research.test.js` §15 failed on the old code (59 of 63) and passes now.
+
+**Fixed: no term on two chips, NFL included.** BAL @ BUF printed BUF +3.2 twice (its QB watch and the quarterback term's own item). LAC @ LAR printed LAC +1.8 twice (travel and the rest-and-travel term). The item that tells the story keeps the chip. The other gives its place to the strongest item that adds no term already shown. The regression test failed on the old code (those 2 games) and passes now.
+
+**New: `npm run cfb:trust`** (`football/cfb_validation/trust.js`, `docs/cfb-validation/TRUST.md`). For every upcoming college game it gives:
+- the gap to the latest pregame line, and the terms behind the number;
+- both rating tracks;
+- each team's season against EdgeDesk and the close;
+- the season's record at that size of gap.
+
+It is research only: it writes nothing by default and changes no number, grade or label. Its 47 contracts run in CFB validation.
 
 ## 2026-10-27 — Football decision test: one fix for the NFL hold-rule guard, and the merge that broke it reverted
 
@@ -225,6 +1930,20 @@ In both, the predicted workflows were exactly the ones GitHub started.
 
 Seven injected bugs each turn it red: cancelled counted as passing, its own run not excluded, the oldest run kept, a missing run passed, waiting on a failure, unpredicted runs ignored, and no request timeout.
 
+## 2026-10-26 — CI: no run on `main` cancels another, the 2ad15afadd damage pinned byte for byte, and a bypass probe before protecting `main`
+
+These follow up #805 and #806.
+
+- **Concurrency.** 30 test workflows grouped by `github.ref` with `cancel-in-progress`, so each merge into `main` cancelled the previous merge's run. 27 of the last 100 runs on `main` were cancelled. They now use #805's pattern: a pull request's newer push replaces its older run, and every run on `main` keeps its own group.
+- **A guard on it.** `tools/ci/workflows.test.js` §8 evaluates every concurrency block a push to `main` reaches, with the workflow reader's own expression evaluator, and fails if two pushes would share a cancelling group. It fails on the previous `main`, naming all 30.
+- **The #800 damage, byte for byte.** `tools/ci/fixtures/2ad15afadd/` holds the damaged regions of `lib/edgedesk_quote_ev.js` and `slate_audit.json` exactly as that merge left them. `tools/ci/integrity.test.js` checks the gate fails each one with main's own error (line 37, `missing ) after argument list`; line 69) and passes it once repaired.
+- **`docs/ci/BRANCH_PROTECTION.md`.**
+  - Step 1a: prove the GitHub Actions bypass on two scratch-branch copies of `main-ruleset.json`, one of them a control with no bypass, before activating it on `main`. GitHub's docs do not say whether the app's bypass covers `GITHUB_TOKEN` pushes on a personal account's repository, and the page accepting the actor does not show that it does.
+  - A bot commit into a pull request branch reports no checks, so the pull request waits as "Expected"; how to unblock one.
+- **[`docs/ci/GENERATED_FILES.md`](docs/ci/GENERATED_FILES.md).** 18,600 of 23,161 tracked files are written by scheduled jobs. It records the rule that separates #800's legitimate `slate_audit.json` from its accidental `forecasts.json`, and 21 owned paths no served page reads.
+
+Tests: `tools/ci/integrity.test.js` 38/38 (+4), `tools/ci/workflows.test.js` 61/61 (+4), `tools/ci/verify.test.js` 32/32, and `node tools/ci/integrity.js` 0 problems.
+
 ## 2026-10-26 — Content Engine: a player's name is not a team; and the two #805 commits that did not merge
 
 **The failure on `main`.** `tools/content/evidence.test.js` failed on clean `main` (`1c3b5c07a`): "every article generated from today's research passes the gate", 197 of 198.
@@ -252,6 +1971,31 @@ Seven injected bugs each turn it red: cancelled counted as passing, its own run 
 - **New:** a failure in a job that checks out full history (`fetch-depth: 0`) is NOT VERIFIED on a shallow clone, never a pass. `desk-tests`' pinned-commit check failed here for that reason alone: 159 of 159 once the commit is present.
 - `verify.test.js`: 32 of 32.
 
+
+## 2026-10-26 — NHL: are projected totals bunched too tightly? An audit, a club monitor, and production kept
+
+Projected totals were audited against the totals played, out of sample. The test was whether the board is too compressed, and whether anything scores better. Nothing passed a rule written before scoring, so **no price moves**. The model, calibration, ratings, ledgers and historical records are unchanged ([docs/engine/NHL_LAB.md](docs/engine/NHL_LAB.md) §6.2).
+
+- **Findings.**
+  - Played-on-projected slope: 1.035 on 2014-20 (OK) and 0.76 on 2021-26 (too wide, not bunched). Live it is 3.6 on 184 games, driven by the top fifth (+1.02 ± 0.82 goals, n 36). The live window never chooses.
+  - This season's within-season sd (0.139) is close to 2025-26 at the same point (0.149).
+  - Each game's own distribution is about 5% too wide since 2021. This is monitored, not changed.
+- **Candidates.** Fourteen were scored on the full-game total RPS over four windows (SELECT 2014-20, CONFIRM 2021-25, HOLDOUT 2025-26, LIVE): goalie and special-teams variants, `goals_only`, pace, matchup interaction, three total-calibration variants, and rating prior and half-life. All fail. The near miss, `xg_core` plus confirmed-starter quality, is not significant on SELECT and needs a confirmed starter at pricing time.
+- **`hockey/model/diagnostics.js`** adds:
+  - `totals`: projected vs played by window, within-season fifths, by season; MAE, RMSE, RPS, Poisson deviance, last season's mean as a baseline; dispersion; home and away; goalie status.
+  - `clubs`: each club's goals scored and conceded against λ over this season, last season, the season before and its last 82 games. It needs 41 games, WATCH at |z| 2, FLAG past the Bonferroni bound (3.36), and PERSISTENT across two windows that share no game. Today: 0 flagged, 9 watch, 0 persistent. It never adjusts a rating.
+  - `--check` requires both.
+- **Record tab** (`lib/edgedesk_engine_ui.js`, `lib/edgedesk_engine.css`, tokens `20261026tt1`): the totals table, the calibration fifths, spread by season, and the club monitor. The record tables wrap to a phone's width instead of scrolling sideways.
+- **Tests.** `tools/hockey/nhl_v2.test.js` gains 31 deterministic checks (111 pass). They cover:
+  - expected goals, missing inputs and clamps;
+  - totals invariants (regulation mean λH + λA; full-game mean adds P(tie));
+  - low and high totals, and extreme matchups;
+  - calibration identity and recovery;
+  - shrinkage and the goalie variant;
+  - the Bonferroni bound, club status and persistence;
+  - the totals audit on synthetic seasons.
+
+  `tools/engine/engine_ui.e2e.js` checks both new sections at desktop and phone width (152 pass).
 
 ## 2026-10-26 — CI: a gate on every pull request, `npm run verify`, and the rules that would have stopped today's eighteen failed runs
 

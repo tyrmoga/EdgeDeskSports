@@ -3,53 +3,53 @@
  "note": "Opening-line collection (research/clv/collect_openers.py). Counts per ESPN season label. listed .. testable_live: games seen pregame by the hourly capture (testable_live = priced with a later close: ESPN's close at settle, or a second quote). archive_*: finished games read back from ESPN's summaries (backfill), with the book's own open and close. testable: games with either. Nothing here is served.",
  "sports": {
   "nhl": {
-   "through": "2026-10-27T11:01:32Z",
+   "through": "2026-11-01T23:55:25Z",
    "seasons": {
     "2027": {
-     "listed": 84,
-     "priced": 47,
-     "with_espn_open": 47,
-     "settled_with_close": 36,
-     "testable_live": 46,
+     "listed": 125,
+     "priced": 84,
+     "with_espn_open": 84,
+     "settled_with_close": 76,
+     "testable_live": 84,
      "archive_games": 0,
      "archive_with_open_and_close": 0,
-     "testable": 46,
-     "priced_share": 0.56,
-     "first_quote_hours_before_start_median": 29.5
+     "testable": 84,
+     "priced_share": 0.672,
+     "first_quote_hours_before_start_median": 29.4
     }
    }
   },
   "mlb": {
-   "through": "2026-10-27T11:01:32Z",
+   "through": "2026-10-29T10:30:18Z",
    "seasons": {
     "2026": {
      "listed": 7,
-     "priced": 4,
-     "with_espn_open": 4,
-     "settled_with_close": 3,
-     "testable_live": 4,
+     "priced": 5,
+     "with_espn_open": 5,
+     "settled_with_close": 5,
+     "testable_live": 5,
      "archive_games": 0,
      "archive_with_open_and_close": 0,
-     "testable": 4,
-     "priced_share": 0.571,
-     "first_quote_hours_before_start_median": 30.5
+     "testable": 5,
+     "priced_share": 0.714,
+     "first_quote_hours_before_start_median": 18.4
     }
    }
   },
   "ncaaw": {
-   "through": "2026-10-27T05:38:23Z",
+   "through": "2026-11-01T23:55:25Z",
    "seasons": {
     "2027": {
-     "listed": 165,
-     "priced": 0,
-     "with_espn_open": 0,
-     "settled_with_close": 0,
-     "testable_live": 0,
+     "listed": 419,
+     "priced": 1,
+     "with_espn_open": 1,
+     "settled_with_close": 1,
+     "testable_live": 1,
      "archive_games": 0,
      "archive_with_open_and_close": 0,
-     "testable": 0,
-     "priced_share": 0.0,
-     "first_quote_hours_before_start_median": null
+     "testable": 1,
+     "priced_share": 0.002,
+     "first_quote_hours_before_start_median": 22.2
     }
    }
   },
@@ -58,19 +58,19 @@
    "seasons": {}
   },
   "ufc": {
-   "through": "2026-10-27T00:06:11Z",
+   "through": "2026-11-01T08:11:18Z",
    "seasons": {
     "2026": {
-     "listed": 65,
-     "priced": 26,
-     "with_espn_open": 26,
+     "listed": 76,
+     "priced": 46,
+     "with_espn_open": 46,
      "settled_with_close": 0,
-     "testable_live": 25,
+     "testable_live": 30,
      "archive_games": 0,
      "archive_with_open_and_close": 0,
-     "testable": 25,
-     "priced_share": 0.4,
-     "first_quote_hours_before_start_median": 69.1
+     "testable": 30,
+     "priced_share": 0.605,
+     "first_quote_hours_before_start_median": 160.8
     }
    }
   }
