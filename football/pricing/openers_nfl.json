@@ -3298,13 +3298,13 @@
     "seen_at": "2026-10-27T18:43:57.911Z"
    },
    "latest": {
-    "home_line": -3,
+    "home_line": -2.5,
     "total": 47.5,
     "home_moneyline": -148,
     "away_moneyline": 124,
-    "seen_at": "2026-11-02T06:12:18.326Z"
+    "seen_at": "2026-11-02T06:42:29.929Z"
    },
-   "moves": 4,
+   "moves": 5,
    "closed": false
   },
   "2026_09_JAX_BAL": {
@@ -3390,13 +3390,13 @@
     "seen_at": "2026-10-27T18:43:57.911Z"
    },
    "latest": {
-    "home_line": 2.5,
+    "home_line": 3,
     "total": 40.5,
-    "home_moneyline": 120,
-    "away_moneyline": -142,
-    "seen_at": "2026-11-02T06:12:18.326Z"
+    "home_moneyline": 124,
+    "away_moneyline": -148,
+    "seen_at": "2026-11-02T06:42:29.929Z"
    },
-   "moves": 2,
+   "moves": 3,
    "closed": false
   },
   "2026_09_NYJ_KC": {
@@ -3492,12 +3492,12 @@
    "closed": false
   }
  },
- "updated_at": "2026-11-02T06:12:18.326Z",
+ "updated_at": "2026-11-02T06:42:29.929Z",
  "counts": {
   "games": 120,
   "closed": 104,
   "added_this_run": 0,
-  "moved_this_run": 15
+  "moved_this_run": 2
  },
  "note": "EdgeDesk’s own opener capture from the nflverse consensus feed: open = the first number this build saw, latest = the last, close = the last before the result posted. Coverage starts at started_at; a game seen first with a result gets no opener. Per-book openers for captured signals live in book_quote_ticks."
 }

@@ -4,7 +4,7 @@
  "sport": "NFL",
  "season": 2026,
  "week": 8,
- "generated_at": "2026-11-01T22:55:05.546Z",
+ "generated_at": "2026-11-02T06:41:49.825Z",
  "coverage": {
   "total": 32,
   "by_status": {
@@ -40,7 +40,7 @@
    "from": "network",
    "status": 200,
    "error": null,
-   "retrieved_at": "2026-11-01T22:55:13.557Z"
+   "retrieved_at": "2026-11-02T06:42:00.267Z"
   },
   {
    "field": "roster identity",
@@ -49,7 +49,7 @@
    "from": "network",
    "status": 200,
    "error": null,
-   "retrieved_at": "2026-11-01T22:55:13.707Z"
+   "retrieved_at": "2026-11-02T06:42:00.342Z"
   },
   {
    "field": "availability",
@@ -58,7 +58,7 @@
    "from": "network",
    "status": 200,
    "error": null,
-   "retrieved_at": "2026-11-01T22:55:13.756Z"
+   "retrieved_at": "2026-11-02T06:42:00.620Z"
   },
   {
    "field": "depth chart",
@@ -67,7 +67,7 @@
    "from": "network",
    "status": 200,
    "error": null,
-   "retrieved_at": "2026-11-01T22:55:14.448Z"
+   "retrieved_at": "2026-11-02T06:42:01.100Z"
   }
  ],
  "notes": [
@@ -75,7 +75,7 @@
  ],
  "availability": {
   "checked": true,
-  "generated_at": "2026-11-01T22:55:13.756Z",
+  "generated_at": "2026-11-02T06:42:00.620Z",
   "teams_with_records": 28
  },
  "depth_chart": {
@@ -102,7 +102,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -112,7 +112,7 @@
     "source": null,
     "source_url": null,
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -144,7 +144,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -159,7 +159,7 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -168,7 +168,7 @@
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.393Z",
+   "resolved_at": "2026-11-02T06:42:04.769Z",
    "label": "Jacoby Brissett — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
@@ -244,7 +244,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -254,7 +254,7 @@
     "source": null,
     "source_url": null,
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -280,7 +280,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -295,7 +295,7 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -304,7 +304,7 @@
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.393Z",
+   "resolved_at": "2026-11-02T06:42:04.769Z",
    "label": "Michael Penix Jr. — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
@@ -380,7 +380,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -390,7 +390,7 @@
     "source": "nflverse injuries (league injury report)",
     "source_url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": {
      "evidence": "PARTICIPATION",
@@ -449,7 +449,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -464,7 +464,7 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -473,7 +473,7 @@
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.393Z",
+   "resolved_at": "2026-11-02T06:42:04.770Z",
    "label": "Lamar Jackson — leads the published depth chart (did not finish week 8; no injury report on file); no start has been announced.",
    "field_state": "USABLE",
    "history": [
@@ -549,7 +549,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -559,7 +559,7 @@
     "source": null,
     "source_url": null,
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -585,7 +585,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -600,7 +600,7 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -609,7 +609,7 @@
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.394Z",
+   "resolved_at": "2026-11-02T06:42:04.770Z",
    "label": "Josh Allen — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
@@ -685,7 +685,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -695,7 +695,7 @@
     "source": "nflverse injuries (league injury report)",
     "source_url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -727,7 +727,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -742,7 +742,7 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -751,7 +751,7 @@
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.394Z",
+   "resolved_at": "2026-11-02T06:42:04.774Z",
    "label": "Bryce Young — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
@@ -827,7 +827,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -837,7 +837,7 @@
     "source": null,
     "source_url": null,
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -863,7 +863,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -878,7 +878,7 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -887,7 +887,7 @@
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.394Z",
+   "resolved_at": "2026-11-02T06:42:04.774Z",
    "label": "Caleb Williams — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
@@ -963,7 +963,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -973,7 +973,7 @@
     "source": null,
     "source_url": null,
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -999,7 +999,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -1014,7 +1014,7 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -1023,7 +1023,7 @@
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.394Z",
+   "resolved_at": "2026-11-02T06:42:04.774Z",
    "label": "Joe Burrow — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
@@ -1099,7 +1099,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -1109,7 +1109,7 @@
     "source": null,
     "source_url": null,
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -1141,7 +1141,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -1156,7 +1156,7 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -1165,7 +1165,7 @@
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.395Z",
+   "resolved_at": "2026-11-02T06:42:04.775Z",
    "label": "Deshaun Watson — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
@@ -1241,7 +1241,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -1251,7 +1251,7 @@
     "source": null,
     "source_url": null,
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -1277,7 +1277,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -1292,7 +1292,7 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -1301,7 +1301,7 @@
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.395Z",
+   "resolved_at": "2026-11-02T06:42:04.775Z",
    "label": "Dak Prescott — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
@@ -1377,7 +1377,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -1387,7 +1387,7 @@
     "source": null,
     "source_url": null,
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -1398,7 +1398,7 @@
      {
       "player_id": "00-0039732",
       "player_name": "B.Nix",
-      "dropbacks": 59,
+      "dropbacks": 64,
       "share": 1
      }
     ]
@@ -1413,7 +1413,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -1428,32 +1428,19 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
-     "detail": "30 of 30 dropbacks in week 7 vs ARI; took the first dropback of the game",
-     "week": 7
+     "detail": "34 of 34 dropbacks in week 8 vs KC; took the first dropback of the game",
+     "week": 8
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.395Z",
+   "resolved_at": "2026-11-02T06:42:04.775Z",
    "label": "Bo Nix — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
-    {
-     "week": 4,
-     "game_id": "2026_04_DEN_SF",
-     "opponent": "SF",
-     "dropbacks": 42,
-     "starter": {
-      "player_id": "00-0039732",
-      "player_name": "B.Nix",
-      "share": 1
-     },
-     "settled": true,
-     "why": "took the first dropback of the game"
-    },
     {
      "week": 5,
      "game_id": "2026_05_DEN_LAC",
@@ -1492,6 +1479,19 @@
      },
      "settled": true,
      "why": "took the first dropback of the game"
+    },
+    {
+     "week": 8,
+     "game_id": "2026_08_KC_DEN",
+     "opponent": "KC",
+     "dropbacks": 34,
+     "starter": {
+      "player_id": "00-0039732",
+      "player_name": "B.Nix",
+      "share": 1
+     },
+     "settled": true,
+     "why": "took the first dropback of the game"
     }
    ]
   },
@@ -1513,7 +1513,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -1523,7 +1523,7 @@
     "source": null,
     "source_url": null,
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -1549,7 +1549,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -1564,7 +1564,7 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -1573,7 +1573,7 @@
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.395Z",
+   "resolved_at": "2026-11-02T06:42:04.776Z",
    "label": "Jared Goff — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
@@ -1649,7 +1649,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -1659,7 +1659,7 @@
     "source": null,
     "source_url": null,
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -1685,7 +1685,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -1700,7 +1700,7 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -1709,7 +1709,7 @@
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.395Z",
+   "resolved_at": "2026-11-02T06:42:04.776Z",
    "label": "Jordan Love — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
@@ -1785,7 +1785,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -1795,7 +1795,7 @@
     "source": null,
     "source_url": null,
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -1821,7 +1821,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -1836,7 +1836,7 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -1845,7 +1845,7 @@
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.396Z",
+   "resolved_at": "2026-11-02T06:42:04.777Z",
    "label": "C.J. Stroud — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
@@ -1921,7 +1921,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -1931,7 +1931,7 @@
     "source": null,
     "source_url": null,
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -1963,7 +1963,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -1978,7 +1978,7 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -1987,7 +1987,7 @@
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.396Z",
+   "resolved_at": "2026-11-02T06:42:04.777Z",
    "label": "Daniel Jones — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
@@ -2063,7 +2063,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -2073,7 +2073,7 @@
     "source": null,
     "source_url": null,
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -2105,7 +2105,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -2120,7 +2120,7 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -2129,7 +2129,7 @@
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.396Z",
+   "resolved_at": "2026-11-02T06:42:04.778Z",
    "label": "Trevor Lawrence — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
@@ -2205,7 +2205,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -2215,7 +2215,7 @@
     "source": "nflverse injuries (league injury report)",
     "source_url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -2226,7 +2226,7 @@
      {
       "player_id": "00-0033873",
       "player_name": "P.Mahomes",
-      "dropbacks": 64,
+      "dropbacks": 77,
       "share": 1
      }
     ]
@@ -2241,7 +2241,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -2256,32 +2256,19 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
-     "detail": "34 of 34 dropbacks in week 7 vs SEA; took the first dropback of the game",
-     "week": 7
+     "detail": "43 of 43 dropbacks in week 8 vs DEN; took the first dropback of the game",
+     "week": 8
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.396Z",
+   "resolved_at": "2026-11-02T06:42:04.778Z",
    "label": "Patrick Mahomes — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
-    {
-     "week": 3,
-     "game_id": "2026_03_KC_MIA",
-     "opponent": "MIA",
-     "dropbacks": 24,
-     "starter": {
-      "player_id": "00-0033873",
-      "player_name": "P.Mahomes",
-      "share": 1
-     },
-     "settled": true,
-     "why": "took the first dropback of the game"
-    },
     {
      "week": 4,
      "game_id": "2026_04_KC_LV",
@@ -2320,6 +2307,19 @@
      },
      "settled": true,
      "why": "took the first dropback of the game"
+    },
+    {
+     "week": 8,
+     "game_id": "2026_08_KC_DEN",
+     "opponent": "DEN",
+     "dropbacks": 43,
+     "starter": {
+      "player_id": "00-0033873",
+      "player_name": "P.Mahomes",
+      "share": 1
+     },
+     "settled": true,
+     "why": "took the first dropback of the game"
     }
    ]
   },
@@ -2341,7 +2341,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -2351,7 +2351,7 @@
     "source": null,
     "source_url": null,
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -2362,7 +2362,7 @@
      {
       "player_id": "00-0026498",
       "player_name": "M.Stafford",
-      "dropbacks": 67,
+      "dropbacks": 56,
       "share": 1
      }
     ]
@@ -2377,7 +2377,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -2392,32 +2392,19 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
-     "detail": "30 of 30 dropbacks in week 7 vs LV; took the first dropback of the game",
-     "week": 7
+     "detail": "26 of 26 dropbacks in week 8 vs LAC; took the first dropback of the game",
+     "week": 8
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.397Z",
+   "resolved_at": "2026-11-02T06:42:04.778Z",
    "label": "Matthew Stafford — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
-    {
-     "week": 4,
-     "game_id": "2026_04_LA_PHI",
-     "opponent": "PHI",
-     "dropbacks": 52,
-     "starter": {
-      "player_id": "00-0026498",
-      "player_name": "M.Stafford",
-      "share": 1
-     },
-     "settled": true,
-     "why": "took the first dropback of the game"
-    },
     {
      "week": 5,
      "game_id": "2026_05_BUF_LA",
@@ -2456,6 +2443,19 @@
      },
      "settled": true,
      "why": "took the first dropback of the game"
+    },
+    {
+     "week": 8,
+     "game_id": "2026_08_LAC_LA",
+     "opponent": "LAC",
+     "dropbacks": 26,
+     "starter": {
+      "player_id": "00-0026498",
+      "player_name": "M.Stafford",
+      "share": 1
+     },
+     "settled": true,
+     "why": "took the first dropback of the game"
     }
    ]
   },
@@ -2477,7 +2477,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -2487,7 +2487,7 @@
     "source": null,
     "source_url": null,
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -2498,7 +2498,7 @@
      {
       "player_id": "00-0036355",
       "player_name": "J.Herbert",
-      "dropbacks": 69,
+      "dropbacks": 74,
       "share": 1
      }
     ]
@@ -2513,7 +2513,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -2528,32 +2528,19 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
-     "stale": true,
-     "stale_why": "the start it records is 3 weeks old",
-     "detail": "41 of 41 dropbacks in week 6 vs KC; took the first dropback of the game",
-     "week": 6
+     "stale": false,
+     "stale_why": null,
+     "detail": "33 of 33 dropbacks in week 8 vs LA; took the first dropback of the game",
+     "week": 8
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.397Z",
+   "resolved_at": "2026-11-02T06:42:04.779Z",
    "label": "Justin Herbert — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
-    {
-     "week": 3,
-     "game_id": "2026_03_LAC_BUF",
-     "opponent": "BUF",
-     "dropbacks": 36,
-     "starter": {
-      "player_id": "00-0036355",
-      "player_name": "J.Herbert",
-      "share": 1
-     },
-     "settled": true,
-     "why": "took the first dropback of the game"
-    },
     {
      "week": 4,
      "game_id": "2026_04_LAC_SEA",
@@ -2592,6 +2579,19 @@
      },
      "settled": true,
      "why": "took the first dropback of the game"
+    },
+    {
+     "week": 8,
+     "game_id": "2026_08_LAC_LA",
+     "opponent": "LA",
+     "dropbacks": 33,
+     "starter": {
+      "player_id": "00-0036355",
+      "player_name": "J.Herbert",
+      "share": 1
+     },
+     "settled": true,
+     "why": "took the first dropback of the game"
     }
    ]
   },
@@ -2613,7 +2613,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -2623,7 +2623,7 @@
     "source": null,
     "source_url": null,
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -2655,7 +2655,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -2670,7 +2670,7 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -2679,7 +2679,7 @@
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.397Z",
+   "resolved_at": "2026-11-02T06:42:04.779Z",
    "label": "Kirk Cousins — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
@@ -2755,7 +2755,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -2765,7 +2765,7 @@
     "source": "nflverse injuries (league injury report)",
     "source_url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -2776,7 +2776,7 @@
      {
       "player_id": "00-0038128",
       "player_name": "M.Willis",
-      "dropbacks": 53,
+      "dropbacks": 61,
       "share": 1
      }
     ]
@@ -2791,7 +2791,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -2806,32 +2806,19 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
-     "detail": "23 of 23 dropbacks in week 7 vs NYJ; took the first dropback of the game",
-     "week": 7
+     "detail": "38 of 38 dropbacks in week 8 vs NE; took the first dropback of the game",
+     "week": 8
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.397Z",
+   "resolved_at": "2026-11-02T06:42:04.780Z",
    "label": "Malik Willis — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
-    {
-     "week": 3,
-     "game_id": "2026_03_KC_MIA",
-     "opponent": "KC",
-     "dropbacks": 36,
-     "starter": {
-      "player_id": "00-0038128",
-      "player_name": "M.Willis",
-      "share": 1
-     },
-     "settled": true,
-     "why": "took the first dropback of the game"
-    },
     {
      "week": 4,
      "game_id": "2026_04_MIA_MIN",
@@ -2870,6 +2857,19 @@
      },
      "settled": true,
      "why": "took the first dropback of the game"
+    },
+    {
+     "week": 8,
+     "game_id": "2026_08_NE_MIA",
+     "opponent": "NE",
+     "dropbacks": 38,
+     "starter": {
+      "player_id": "00-0038128",
+      "player_name": "M.Willis",
+      "share": 1
+     },
+     "settled": true,
+     "why": "took the first dropback of the game"
     }
    ]
   },
@@ -2891,7 +2891,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -2901,7 +2901,7 @@
     "source": null,
     "source_url": null,
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -2927,7 +2927,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -2942,7 +2942,7 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -2951,7 +2951,7 @@
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.398Z",
+   "resolved_at": "2026-11-02T06:42:04.780Z",
    "label": "Kyler Murray — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
@@ -3027,7 +3027,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -3037,7 +3037,7 @@
     "source": "nflverse injuries (league injury report)",
     "source_url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -3048,7 +3048,7 @@
      {
       "player_id": "00-0039851",
       "player_name": "D.Maye",
-      "dropbacks": 64,
+      "dropbacks": 55,
       "share": 1
      }
     ]
@@ -3063,7 +3063,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -3078,32 +3078,19 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
-     "detail": "32 of 32 dropbacks in week 7 vs CHI; took the first dropback of the game",
-     "week": 7
+     "detail": "23 of 23 dropbacks in week 8 vs MIA; took the first dropback of the game",
+     "week": 8
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.398Z",
+   "resolved_at": "2026-11-02T06:42:04.781Z",
    "label": "Drake Maye — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
-    {
-     "week": 4,
-     "game_id": "2026_04_NE_BUF",
-     "opponent": "BUF",
-     "dropbacks": 39,
-     "starter": {
-      "player_id": "00-0039851",
-      "player_name": "D.Maye",
-      "share": 1
-     },
-     "settled": true,
-     "why": "took the first dropback of the game"
-    },
     {
      "week": 5,
      "game_id": "2026_05_LV_NE",
@@ -3142,6 +3129,19 @@
      },
      "settled": true,
      "why": "took the first dropback of the game"
+    },
+    {
+     "week": 8,
+     "game_id": "2026_08_NE_MIA",
+     "opponent": "MIA",
+     "dropbacks": 23,
+     "starter": {
+      "player_id": "00-0039851",
+      "player_name": "D.Maye",
+      "share": 1
+     },
+     "settled": true,
+     "why": "took the first dropback of the game"
     }
    ]
   },
@@ -3163,7 +3163,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -3173,7 +3173,7 @@
     "source": null,
     "source_url": null,
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -3199,7 +3199,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -3214,7 +3214,7 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -3223,7 +3223,7 @@
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.398Z",
+   "resolved_at": "2026-11-02T06:42:04.781Z",
    "label": "Tyler Shough — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
@@ -3299,7 +3299,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -3309,7 +3309,7 @@
     "source": null,
     "source_url": null,
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -3341,7 +3341,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -3356,7 +3356,7 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -3365,7 +3365,7 @@
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.398Z",
+   "resolved_at": "2026-11-02T06:42:04.782Z",
    "label": "J.J. McCarthy — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
@@ -3441,7 +3441,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -3451,7 +3451,7 @@
     "source": null,
     "source_url": null,
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -3477,7 +3477,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -3492,7 +3492,7 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -3501,7 +3501,7 @@
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.399Z",
+   "resolved_at": "2026-11-02T06:42:04.782Z",
    "label": "Geno Smith — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
@@ -3577,7 +3577,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -3587,7 +3587,7 @@
     "source": null,
     "source_url": null,
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -3598,7 +3598,7 @@
      {
       "player_id": "00-0038400",
       "player_name": "T.McKee",
-      "dropbacks": 85,
+      "dropbacks": 76,
       "share": 1
      }
     ]
@@ -3613,7 +3613,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -3628,32 +3628,19 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
-     "detail": "37 of 37 dropbacks in week 7 vs DAL; took the first dropback of the game",
-     "week": 7
+     "detail": "39 of 39 dropbacks in week 8 vs WAS; took the first dropback of the game",
+     "week": 8
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.399Z",
+   "resolved_at": "2026-11-02T06:42:04.783Z",
    "label": "Tanner McKee — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
-    {
-     "week": 4,
-     "game_id": "2026_04_LA_PHI",
-     "opponent": "LA",
-     "dropbacks": 31,
-     "starter": {
-      "player_id": "00-0036389",
-      "player_name": "J.Hurts",
-      "share": 1
-     },
-     "settled": true,
-     "why": "took the first dropback of the game"
-    },
     {
      "week": 5,
      "game_id": "2026_05_PHI_JAX",
@@ -3692,6 +3679,19 @@
      },
      "settled": true,
      "why": "took the first dropback of the game"
+    },
+    {
+     "week": 8,
+     "game_id": "2026_08_PHI_WAS",
+     "opponent": "WAS",
+     "dropbacks": 39,
+     "starter": {
+      "player_id": "00-0038400",
+      "player_name": "T.McKee",
+      "share": 1
+     },
+     "settled": true,
+     "why": "took the first dropback of the game"
     }
    ]
   },
@@ -3713,7 +3713,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -3723,7 +3723,7 @@
     "source": null,
     "source_url": null,
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -3749,7 +3749,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -3764,7 +3764,7 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -3773,7 +3773,7 @@
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.399Z",
+   "resolved_at": "2026-11-02T06:42:04.783Z",
    "label": "Aaron Rodgers — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
@@ -3849,7 +3849,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -3859,7 +3859,7 @@
     "source": null,
     "source_url": null,
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -3885,7 +3885,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -3900,7 +3900,7 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -3909,7 +3909,7 @@
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.399Z",
+   "resolved_at": "2026-11-02T06:42:04.784Z",
    "label": "Sam Darnold — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
@@ -3985,7 +3985,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -3995,7 +3995,7 @@
     "source": null,
     "source_url": null,
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -4021,7 +4021,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -4036,7 +4036,7 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -4045,7 +4045,7 @@
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.400Z",
+   "resolved_at": "2026-11-02T06:42:04.784Z",
    "label": "Brock Purdy — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
@@ -4121,7 +4121,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -4131,7 +4131,7 @@
     "source": "nflverse injuries (league injury report)",
     "source_url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -4157,7 +4157,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -4172,7 +4172,7 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -4181,7 +4181,7 @@
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.400Z",
+   "resolved_at": "2026-11-02T06:42:04.784Z",
    "label": "Baker Mayfield — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
@@ -4257,7 +4257,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -4267,7 +4267,7 @@
     "source": null,
     "source_url": null,
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -4293,7 +4293,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -4308,7 +4308,7 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -4317,7 +4317,7 @@
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.400Z",
+   "resolved_at": "2026-11-02T06:42:04.785Z",
    "label": "Cam Ward — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
@@ -4393,7 +4393,7 @@
    "source": "nflverse depth charts",
    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
    "published_at": "2026-11-01T14:14:27Z",
-   "retrieved_at": "2026-11-01T22:55:14.448Z",
+   "retrieved_at": "2026-11-02T06:42:01.100Z",
    "basis": "tier 2 evidence, one name",
    "availability": {
     "state": "UNKNOWN",
@@ -4403,7 +4403,7 @@
     "source": "nflverse injuries (league injury report)",
     "source_url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
     "published_at": null,
-    "retrieved_at": "2026-11-01T22:55:13.756Z",
+    "retrieved_at": "2026-11-02T06:42:00.620Z",
     "checked": true,
     "participation": null
    },
@@ -4429,7 +4429,7 @@
      "source": "nflverse depth charts",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv",
      "published_at": "2026-11-01T14:14:27Z",
-     "retrieved_at": "2026-11-01T22:55:14.448Z",
+     "retrieved_at": "2026-11-02T06:42:01.100Z",
      "age_hours": 0,
      "stale": false,
      "stale_why": null,
@@ -4444,32 +4444,19 @@
      "source": "nflverse play-by-play",
      "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
      "published_at": null,
-     "retrieved_at": "2026-11-01T22:55:13.557Z",
+     "retrieved_at": "2026-11-02T06:42:00.267Z",
      "age_hours": 0,
-     "stale": true,
-     "stale_why": "the start it records is 3 weeks old",
-     "detail": "42 of 42 dropbacks in week 6 vs SF; took the first dropback of the game",
-     "week": 6
+     "stale": false,
+     "stale_why": null,
+     "detail": "31 of 31 dropbacks in week 8 vs PHI; took the first dropback of the game",
+     "week": 8
     }
    ],
    "refused": [],
-   "resolved_at": "2026-11-01T22:55:17.400Z",
+   "resolved_at": "2026-11-02T06:42:04.785Z",
    "label": "Jayden Daniels — leads the published depth chart; no start has been announced.",
    "field_state": "USABLE",
    "history": [
-    {
-     "week": 3,
-     "game_id": "2026_03_SEA_WAS",
-     "opponent": "SEA",
-     "dropbacks": 33,
-     "starter": {
-      "player_id": "00-0032268",
-      "player_name": "M.Mariota",
-      "share": 1
-     },
-     "settled": true,
-     "why": "took the first dropback of the game"
-    },
     {
      "week": 4,
      "game_id": "2026_04_IND_WAS",
@@ -4497,6 +4484,19 @@
      "game_id": "2026_06_WAS_SF",
      "opponent": "SF",
      "dropbacks": 42,
+     "starter": {
+      "player_id": "00-0039910",
+      "player_name": "J.Daniels",
+      "share": 1
+     },
+     "settled": true,
+     "why": "took the first dropback of the game"
+    },
+    {
+     "week": 8,
+     "game_id": "2026_08_PHI_WAS",
+     "opponent": "PHI",
+     "dropbacks": 31,
      "starter": {
       "player_id": "00-0039910",
       "player_name": "J.Daniels",
