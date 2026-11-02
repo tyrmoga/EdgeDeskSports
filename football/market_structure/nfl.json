@@ -1,14 +1,14 @@
 {
  "schema": "edgedesk_nfl_market_structure_v1",
  "version": 1,
- "generated_at": "2026-11-01T22:06:10.597Z",
+ "generated_at": "2026-11-02T06:12:18.844Z",
  "engine": "edgedesk_market_structure_v1",
  "tier": "T0 observations and T2 deterministic transforms; nothing here is a model, a price, a projection or a grade",
  "source": {
   "lines": {
    "file": "football/pricing/lines_nfl.json",
    "schema": "edgedesk_lines_archive_v1",
-   "generated_at": "2026-11-01T22:06:09.978Z",
+   "generated_at": "2026-11-02T06:12:18.325Z",
    "basis": "nflverse/nfldata games.csv; the spread, total and moneyline columns are the consensus close as nflverse carries them, no book, no capture time"
   },
   "schedule": {
@@ -63,187 +63,187 @@
     "note": "every settled game in the archive",
     "abs": {
      "basis": "abs",
-     "n_games": 7392,
+     "n_games": 7396,
      "rows": [
       {
        "margin": 0,
        "games": 16,
-       "frequency": 0.002165
+       "frequency": 0.002163
       },
       {
        "margin": 1,
        "games": 304,
-       "frequency": 0.041126
+       "frequency": 0.041103
       },
       {
        "margin": 2,
        "games": 300,
-       "frequency": 0.040584
+       "frequency": 0.040562
       },
       {
        "margin": 3,
        "games": 1120,
-       "frequency": 0.151515
+       "frequency": 0.151433
       },
       {
        "margin": 4,
-       "games": 361,
-       "frequency": 0.048837
+       "games": 362,
+       "frequency": 0.048945
       },
       {
        "margin": 5,
-       "games": 266,
-       "frequency": 0.035985
+       "games": 267,
+       "frequency": 0.036101
       },
       {
        "margin": 6,
        "games": 448,
-       "frequency": 0.060606
+       "frequency": 0.060573
       },
       {
        "margin": 7,
        "games": 669,
-       "frequency": 0.090503
+       "frequency": 0.090454
       },
       {
        "margin": 8,
        "games": 277,
-       "frequency": 0.037473
+       "frequency": 0.037453
       },
       {
        "margin": 9,
        "games": 118,
-       "frequency": 0.015963
+       "frequency": 0.015955
       },
       {
        "margin": 10,
        "games": 405,
-       "frequency": 0.054789
+       "frequency": 0.054759
       },
       {
        "margin": 11,
        "games": 173,
-       "frequency": 0.023404
+       "frequency": 0.023391
       },
       {
        "margin": 12,
        "games": 124,
-       "frequency": 0.016775
+       "frequency": 0.016766
       },
       {
        "margin": 13,
        "games": 202,
-       "frequency": 0.027327
+       "frequency": 0.027312
       },
       {
        "margin": 14,
        "games": 360,
-       "frequency": 0.048701
+       "frequency": 0.048675
       },
       {
        "margin": 15,
-       "games": 109,
-       "frequency": 0.014746
+       "games": 110,
+       "frequency": 0.014873
       },
       {
        "margin": 16,
        "games": 156,
-       "frequency": 0.021104
+       "frequency": 0.021092
       },
       {
        "margin": 17,
-       "games": 266,
-       "frequency": 0.035985
+       "games": 267,
+       "frequency": 0.036101
       },
       {
        "margin": 18,
        "games": 170,
-       "frequency": 0.022998
+       "frequency": 0.022985
       },
       {
        "margin": 19,
        "games": 86,
-       "frequency": 0.011634
+       "frequency": 0.011628
       },
       {
        "margin": 20,
        "games": 158,
-       "frequency": 0.021374
+       "frequency": 0.021363
       },
       {
        "margin": 21,
        "games": 197,
-       "frequency": 0.02665
+       "frequency": 0.026636
       },
       {
        "margin": 22,
        "games": 79,
-       "frequency": 0.010687
+       "frequency": 0.010681
       },
       {
        "margin": 23,
        "games": 84,
-       "frequency": 0.011364
+       "frequency": 0.011357
       },
       {
        "margin": 24,
        "games": 160,
-       "frequency": 0.021645
+       "frequency": 0.021633
       },
       {
        "margin": 25,
        "games": 83,
-       "frequency": 0.011228
+       "frequency": 0.011222
       },
       {
        "margin": 26,
        "games": 58,
-       "frequency": 0.007846
+       "frequency": 0.007842
       },
       {
        "margin": 27,
        "games": 94,
-       "frequency": 0.012716
+       "frequency": 0.01271
       },
       {
        "margin": 28,
        "games": 121,
-       "frequency": 0.016369
+       "frequency": 0.01636
       },
       {
        "margin": 29,
        "games": 40,
-       "frequency": 0.005411
+       "frequency": 0.005408
       },
       {
        "margin": 30,
        "games": 36,
-       "frequency": 0.00487
+       "frequency": 0.004867
       },
       {
        "margin": 31,
        "games": 87,
-       "frequency": 0.011769
+       "frequency": 0.011763
       },
       {
        "margin": 32,
        "games": 36,
-       "frequency": 0.00487
+       "frequency": 0.004867
       },
       {
        "margin": 33,
        "games": 19,
-       "frequency": 0.00257
+       "frequency": 0.002569
       },
       {
        "margin": 34,
        "games": 41,
-       "frequency": 0.005547
+       "frequency": 0.005544
       },
       {
        "margin": 35,
        "games": 44,
-       "frequency": 0.005952
+       "frequency": 0.005949
       },
       {
        "margin": 36,
@@ -253,12 +253,12 @@
       {
        "margin": 37,
        "games": 23,
-       "frequency": 0.003111
+       "frequency": 0.00311
       },
       {
        "margin": 38,
        "games": 34,
-       "frequency": 0.0046
+       "frequency": 0.004597
       },
       {
        "margin": 39,
@@ -268,17 +268,17 @@
       {
        "margin": 40,
        "games": 10,
-       "frequency": 0.001353
+       "frequency": 0.001352
       },
       {
        "margin": 41,
        "games": 13,
-       "frequency": 0.001759
+       "frequency": 0.001758
       },
       {
        "margin": 42,
        "games": 7,
-       "frequency": 0.000947
+       "frequency": 0.000946
       },
       {
        "margin": 43,
@@ -288,7 +288,7 @@
       {
        "margin": 44,
        "games": 2,
-       "frequency": 0.000271
+       "frequency": 0.00027
       },
       {
        "margin": 45,
@@ -303,7 +303,7 @@
       {
        "margin": 48,
        "games": 2,
-       "frequency": 0.000271
+       "frequency": 0.00027
       },
       {
        "margin": 49,
@@ -323,7 +323,7 @@
       {
        "margin": 55,
        "games": 2,
-       "frequency": 0.000271
+       "frequency": 0.00027
       },
       {
        "margin": 58,
@@ -339,14 +339,14 @@
     },
     "fav_signed": {
      "basis": "fav_signed",
-     "n_games": 7361,
+     "n_games": 7365,
      "excluded_pickem": 31,
      "excluded_no_line": 0,
      "rows": [
       {
        "margin": -45,
        "games": 3,
-       "frequency": 0.000408
+       "frequency": 0.000407
       },
       {
        "margin": -43,
@@ -391,12 +391,12 @@
       {
        "margin": -31,
        "games": 17,
-       "frequency": 0.002309
+       "frequency": 0.002308
       },
       {
        "margin": -30,
        "games": 10,
-       "frequency": 0.001359
+       "frequency": 0.001358
       },
       {
        "margin": -29,
@@ -406,322 +406,322 @@
       {
        "margin": -28,
        "games": 23,
-       "frequency": 0.003125
+       "frequency": 0.003123
       },
       {
        "margin": -27,
        "games": 19,
-       "frequency": 0.002581
+       "frequency": 0.00258
       },
       {
        "margin": -26,
        "games": 12,
-       "frequency": 0.00163
+       "frequency": 0.001629
       },
       {
        "margin": -25,
        "games": 16,
-       "frequency": 0.002174
+       "frequency": 0.002172
       },
       {
        "margin": -24,
        "games": 32,
-       "frequency": 0.004347
+       "frequency": 0.004345
       },
       {
        "margin": -23,
        "games": 21,
-       "frequency": 0.002853
+       "frequency": 0.002851
       },
       {
        "margin": -22,
        "games": 13,
-       "frequency": 0.001766
+       "frequency": 0.001765
       },
       {
        "margin": -21,
        "games": 40,
-       "frequency": 0.005434
+       "frequency": 0.005431
       },
       {
        "margin": -20,
        "games": 35,
-       "frequency": 0.004755
+       "frequency": 0.004752
       },
       {
        "margin": -19,
        "games": 25,
-       "frequency": 0.003396
+       "frequency": 0.003394
       },
       {
        "margin": -18,
        "games": 45,
-       "frequency": 0.006113
+       "frequency": 0.00611
       },
       {
        "margin": -17,
        "games": 80,
-       "frequency": 0.010868
+       "frequency": 0.010862
       },
       {
        "margin": -16,
        "games": 40,
-       "frequency": 0.005434
+       "frequency": 0.005431
       },
       {
        "margin": -15,
        "games": 41,
-       "frequency": 0.00557
+       "frequency": 0.005567
       },
       {
        "margin": -14,
        "games": 102,
-       "frequency": 0.013857
+       "frequency": 0.013849
       },
       {
        "margin": -13,
        "games": 72,
-       "frequency": 0.009781
+       "frequency": 0.009776
       },
       {
        "margin": -12,
        "games": 38,
-       "frequency": 0.005162
+       "frequency": 0.00516
       },
       {
        "margin": -11,
        "games": 50,
-       "frequency": 0.006793
+       "frequency": 0.006789
       },
       {
        "margin": -10,
        "games": 135,
-       "frequency": 0.01834
+       "frequency": 0.01833
       },
       {
        "margin": -9,
        "games": 47,
-       "frequency": 0.006385
+       "frequency": 0.006382
       },
       {
        "margin": -8,
        "games": 95,
-       "frequency": 0.012906
+       "frequency": 0.012899
       },
       {
        "margin": -7,
        "games": 253,
-       "frequency": 0.03437
+       "frequency": 0.034352
       },
       {
        "margin": -6,
        "games": 179,
-       "frequency": 0.024317
+       "frequency": 0.024304
       },
       {
        "margin": -5,
        "games": 102,
-       "frequency": 0.013857
+       "frequency": 0.013849
       },
       {
        "margin": -4,
        "games": 146,
-       "frequency": 0.019834
+       "frequency": 0.019823
       },
       {
        "margin": -3,
        "games": 475,
-       "frequency": 0.064529
+       "frequency": 0.064494
       },
       {
        "margin": -2,
        "games": 130,
-       "frequency": 0.017661
+       "frequency": 0.017651
       },
       {
        "margin": -1,
        "games": 138,
-       "frequency": 0.018747
+       "frequency": 0.018737
       },
       {
        "margin": 0,
        "games": 16,
-       "frequency": 0.002174
+       "frequency": 0.002172
       },
       {
        "margin": 1,
        "games": 165,
-       "frequency": 0.022415
+       "frequency": 0.022403
       },
       {
        "margin": 2,
        "games": 169,
-       "frequency": 0.022959
+       "frequency": 0.022946
       },
       {
        "margin": 3,
        "games": 641,
-       "frequency": 0.087081
+       "frequency": 0.087033
       },
       {
        "margin": 4,
-       "games": 213,
-       "frequency": 0.028936
+       "games": 214,
+       "frequency": 0.029056
       },
       {
        "margin": 5,
-       "games": 164,
-       "frequency": 0.02228
+       "games": 165,
+       "frequency": 0.022403
       },
       {
        "margin": 6,
        "games": 267,
-       "frequency": 0.036272
+       "frequency": 0.036253
       },
       {
        "margin": 7,
        "games": 413,
-       "frequency": 0.056107
+       "frequency": 0.056076
       },
       {
        "margin": 8,
        "games": 180,
-       "frequency": 0.024453
+       "frequency": 0.02444
       },
       {
        "margin": 9,
        "games": 71,
-       "frequency": 0.009645
+       "frequency": 0.00964
       },
       {
        "margin": 10,
        "games": 270,
-       "frequency": 0.03668
+       "frequency": 0.03666
       },
       {
        "margin": 11,
        "games": 123,
-       "frequency": 0.01671
+       "frequency": 0.016701
       },
       {
        "margin": 12,
        "games": 86,
-       "frequency": 0.011683
+       "frequency": 0.011677
       },
       {
        "margin": 13,
        "games": 128,
-       "frequency": 0.017389
+       "frequency": 0.017379
       },
       {
        "margin": 14,
        "games": 258,
-       "frequency": 0.03505
+       "frequency": 0.035031
       },
       {
        "margin": 15,
-       "games": 67,
-       "frequency": 0.009102
+       "games": 68,
+       "frequency": 0.009233
       },
       {
        "margin": 16,
        "games": 114,
-       "frequency": 0.015487
+       "frequency": 0.015479
       },
       {
        "margin": 17,
-       "games": 182,
-       "frequency": 0.024725
+       "games": 183,
+       "frequency": 0.024847
       },
       {
        "margin": 18,
        "games": 124,
-       "frequency": 0.016846
+       "frequency": 0.016836
       },
       {
        "margin": 19,
        "games": 61,
-       "frequency": 0.008287
+       "frequency": 0.008282
       },
       {
        "margin": 20,
        "games": 119,
-       "frequency": 0.016166
+       "frequency": 0.016158
       },
       {
        "margin": 21,
        "games": 157,
-       "frequency": 0.021329
+       "frequency": 0.021317
       },
       {
        "margin": 22,
        "games": 66,
-       "frequency": 0.008966
+       "frequency": 0.008961
       },
       {
        "margin": 23,
        "games": 62,
-       "frequency": 0.008423
+       "frequency": 0.008418
       },
       {
        "margin": 24,
        "games": 128,
-       "frequency": 0.017389
+       "frequency": 0.017379
       },
       {
        "margin": 25,
        "games": 67,
-       "frequency": 0.009102
+       "frequency": 0.009097
       },
       {
        "margin": 26,
        "games": 46,
-       "frequency": 0.006249
+       "frequency": 0.006246
       },
       {
        "margin": 27,
        "games": 75,
-       "frequency": 0.010189
+       "frequency": 0.010183
       },
       {
        "margin": 28,
        "games": 97,
-       "frequency": 0.013178
+       "frequency": 0.01317
       },
       {
        "margin": 29,
        "games": 35,
-       "frequency": 0.004755
+       "frequency": 0.004752
       },
       {
        "margin": 30,
        "games": 26,
-       "frequency": 0.003532
+       "frequency": 0.00353
       },
       {
        "margin": 31,
        "games": 70,
-       "frequency": 0.00951
+       "frequency": 0.009504
       },
       {
        "margin": 32,
        "games": 34,
-       "frequency": 0.004619
+       "frequency": 0.004616
       },
       {
        "margin": 33,
        "games": 17,
-       "frequency": 0.002309
+       "frequency": 0.002308
       },
       {
        "margin": 34,
        "games": 37,
-       "frequency": 0.005026
+       "frequency": 0.005024
       },
       {
        "margin": 35,
        "games": 38,
-       "frequency": 0.005162
+       "frequency": 0.00516
       },
       {
        "margin": 36,
@@ -731,12 +731,12 @@
       {
        "margin": 37,
        "games": 19,
-       "frequency": 0.002581
+       "frequency": 0.00258
       },
       {
        "margin": 38,
        "games": 33,
-       "frequency": 0.004483
+       "frequency": 0.004481
       },
       {
        "margin": 39,
@@ -746,17 +746,17 @@
       {
        "margin": 40,
        "games": 10,
-       "frequency": 0.001359
+       "frequency": 0.001358
       },
       {
        "margin": 41,
        "games": 12,
-       "frequency": 0.00163
+       "frequency": 0.001629
       },
       {
        "margin": 42,
        "games": 7,
-       "frequency": 0.000951
+       "frequency": 0.00095
       },
       {
        "margin": 43,
@@ -776,7 +776,7 @@
       {
        "margin": 46,
        "games": 3,
-       "frequency": 0.000408
+       "frequency": 0.000407
       },
       {
        "margin": 48,
@@ -786,7 +786,7 @@
       {
        "margin": 49,
        "games": 3,
-       "frequency": 0.000408
+       "frequency": 0.000407
       },
       {
        "margin": 50,
@@ -823,585 +823,585 @@
     "note": "2023 onward",
     "abs": {
      "basis": "abs",
-     "n_games": 971,
+     "n_games": 975,
      "rows": [
       {
        "margin": 0,
        "games": 2,
-       "frequency": 0.00206
+       "frequency": 0.002051
       },
       {
        "margin": 1,
        "games": 45,
-       "frequency": 0.046344
+       "frequency": 0.046154
       },
       {
        "margin": 2,
        "games": 52,
-       "frequency": 0.053553
+       "frequency": 0.053333
       },
       {
        "margin": 3,
        "games": 147,
-       "frequency": 0.15139
+       "frequency": 0.150769
       },
       {
        "margin": 4,
-       "games": 50,
-       "frequency": 0.051493
+       "games": 51,
+       "frequency": 0.052308
       },
       {
        "margin": 5,
-       "games": 48,
-       "frequency": 0.049434
+       "games": 49,
+       "frequency": 0.050256
       },
       {
        "margin": 6,
        "games": 67,
-       "frequency": 0.069001
+       "frequency": 0.068718
       },
       {
        "margin": 7,
        "games": 81,
-       "frequency": 0.083419
+       "frequency": 0.083077
       },
       {
        "margin": 8,
        "games": 40,
-       "frequency": 0.041195
+       "frequency": 0.041026
       },
       {
        "margin": 9,
        "games": 12,
-       "frequency": 0.012358
+       "frequency": 0.012308
       },
       {
        "margin": 10,
        "games": 38,
-       "frequency": 0.039135
+       "frequency": 0.038974
       },
       {
        "margin": 11,
        "games": 11,
-       "frequency": 0.011329
+       "frequency": 0.011282
       },
       {
        "margin": 12,
        "games": 20,
-       "frequency": 0.020597
+       "frequency": 0.020513
       },
       {
        "margin": 13,
        "games": 19,
-       "frequency": 0.019567
+       "frequency": 0.019487
       },
       {
        "margin": 14,
        "games": 44,
-       "frequency": 0.045314
+       "frequency": 0.045128
       },
       {
        "margin": 15,
-       "games": 10,
-       "frequency": 0.010299
+       "games": 11,
+       "frequency": 0.011282
       },
       {
        "margin": 16,
        "games": 18,
-       "frequency": 0.018538
+       "frequency": 0.018462
       },
       {
        "margin": 17,
-       "games": 46,
-       "frequency": 0.047374
+       "games": 47,
+       "frequency": 0.048205
       },
       {
        "margin": 18,
        "games": 21,
-       "frequency": 0.021627
+       "frequency": 0.021538
       },
       {
        "margin": 19,
        "games": 12,
-       "frequency": 0.012358
+       "frequency": 0.012308
       },
       {
        "margin": 20,
        "games": 18,
-       "frequency": 0.018538
+       "frequency": 0.018462
       },
       {
        "margin": 21,
        "games": 22,
-       "frequency": 0.022657
+       "frequency": 0.022564
       },
       {
        "margin": 22,
        "games": 14,
-       "frequency": 0.014418
+       "frequency": 0.014359
       },
       {
        "margin": 23,
        "games": 18,
-       "frequency": 0.018538
+       "frequency": 0.018462
       },
       {
        "margin": 24,
        "games": 25,
-       "frequency": 0.025747
+       "frequency": 0.025641
       },
       {
        "margin": 25,
        "games": 12,
-       "frequency": 0.012358
+       "frequency": 0.012308
       },
       {
        "margin": 26,
        "games": 7,
-       "frequency": 0.007209
+       "frequency": 0.007179
       },
       {
        "margin": 27,
        "games": 6,
-       "frequency": 0.006179
+       "frequency": 0.006154
       },
       {
        "margin": 28,
        "games": 13,
-       "frequency": 0.013388
+       "frequency": 0.013333
       },
       {
        "margin": 29,
        "games": 4,
-       "frequency": 0.004119
+       "frequency": 0.004103
       },
       {
        "margin": 30,
        "games": 4,
-       "frequency": 0.004119
+       "frequency": 0.004103
       },
       {
        "margin": 31,
        "games": 13,
-       "frequency": 0.013388
+       "frequency": 0.013333
       },
       {
        "margin": 32,
        "games": 6,
-       "frequency": 0.006179
+       "frequency": 0.006154
       },
       {
        "margin": 33,
        "games": 2,
-       "frequency": 0.00206
+       "frequency": 0.002051
       },
       {
        "margin": 34,
        "games": 9,
-       "frequency": 0.009269
+       "frequency": 0.009231
       },
       {
        "margin": 35,
        "games": 4,
-       "frequency": 0.004119
+       "frequency": 0.004103
       },
       {
        "margin": 37,
        "games": 3,
-       "frequency": 0.00309
+       "frequency": 0.003077
       },
       {
        "margin": 38,
        "games": 4,
-       "frequency": 0.004119
+       "frequency": 0.004103
       },
       {
        "margin": 40,
        "games": 1,
-       "frequency": 0.00103
+       "frequency": 0.001026
       },
       {
        "margin": 42,
        "games": 1,
-       "frequency": 0.00103
+       "frequency": 0.001026
       },
       {
        "margin": 46,
        "games": 1,
-       "frequency": 0.00103
+       "frequency": 0.001026
       },
       {
        "margin": 50,
        "games": 1,
-       "frequency": 0.00103
+       "frequency": 0.001026
       }
      ]
     },
     "fav_signed": {
      "basis": "fav_signed",
-     "n_games": 971,
+     "n_games": 975,
      "excluded_pickem": 0,
      "excluded_no_line": 0,
      "rows": [
       {
        "margin": -34,
        "games": 1,
-       "frequency": 0.00103
+       "frequency": 0.001026
       },
       {
        "margin": -31,
        "games": 3,
-       "frequency": 0.00309
+       "frequency": 0.003077
       },
       {
        "margin": -30,
        "games": 2,
-       "frequency": 0.00206
+       "frequency": 0.002051
       },
       {
        "margin": -29,
        "games": 1,
-       "frequency": 0.00103
+       "frequency": 0.001026
       },
       {
        "margin": -28,
        "games": 1,
-       "frequency": 0.00103
+       "frequency": 0.001026
       },
       {
        "margin": -27,
        "games": 1,
-       "frequency": 0.00103
+       "frequency": 0.001026
       },
       {
        "margin": -25,
        "games": 2,
-       "frequency": 0.00206
+       "frequency": 0.002051
       },
       {
        "margin": -24,
        "games": 5,
-       "frequency": 0.005149
+       "frequency": 0.005128
       },
       {
        "margin": -23,
        "games": 4,
-       "frequency": 0.004119
+       "frequency": 0.004103
       },
       {
        "margin": -22,
        "games": 1,
-       "frequency": 0.00103
+       "frequency": 0.001026
       },
       {
        "margin": -21,
        "games": 5,
-       "frequency": 0.005149
+       "frequency": 0.005128
       },
       {
        "margin": -20,
        "games": 7,
-       "frequency": 0.007209
+       "frequency": 0.007179
       },
       {
        "margin": -19,
        "games": 3,
-       "frequency": 0.00309
+       "frequency": 0.003077
       },
       {
        "margin": -18,
        "games": 6,
-       "frequency": 0.006179
+       "frequency": 0.006154
       },
       {
        "margin": -17,
        "games": 15,
-       "frequency": 0.015448
+       "frequency": 0.015385
       },
       {
        "margin": -16,
        "games": 6,
-       "frequency": 0.006179
+       "frequency": 0.006154
       },
       {
        "margin": -15,
        "games": 3,
-       "frequency": 0.00309
+       "frequency": 0.003077
       },
       {
        "margin": -14,
        "games": 13,
-       "frequency": 0.013388
+       "frequency": 0.013333
       },
       {
        "margin": -13,
        "games": 2,
-       "frequency": 0.00206
+       "frequency": 0.002051
       },
       {
        "margin": -12,
        "games": 8,
-       "frequency": 0.008239
+       "frequency": 0.008205
       },
       {
        "margin": -10,
        "games": 10,
-       "frequency": 0.010299
+       "frequency": 0.010256
       },
       {
        "margin": -9,
        "games": 5,
-       "frequency": 0.005149
+       "frequency": 0.005128
       },
       {
        "margin": -8,
        "games": 14,
-       "frequency": 0.014418
+       "frequency": 0.014359
       },
       {
        "margin": -7,
        "games": 22,
-       "frequency": 0.022657
+       "frequency": 0.022564
       },
       {
        "margin": -6,
        "games": 19,
-       "frequency": 0.019567
+       "frequency": 0.019487
       },
       {
        "margin": -5,
        "games": 17,
-       "frequency": 0.017508
+       "frequency": 0.017436
       },
       {
        "margin": -4,
        "games": 20,
-       "frequency": 0.020597
+       "frequency": 0.020513
       },
       {
        "margin": -3,
        "games": 68,
-       "frequency": 0.070031
+       "frequency": 0.069744
       },
       {
        "margin": -2,
        "games": 28,
-       "frequency": 0.028836
+       "frequency": 0.028718
       },
       {
        "margin": -1,
        "games": 22,
-       "frequency": 0.022657
+       "frequency": 0.022564
       },
       {
        "margin": 0,
        "games": 2,
-       "frequency": 0.00206
+       "frequency": 0.002051
       },
       {
        "margin": 1,
        "games": 23,
-       "frequency": 0.023687
+       "frequency": 0.02359
       },
       {
        "margin": 2,
        "games": 24,
-       "frequency": 0.024717
+       "frequency": 0.024615
       },
       {
        "margin": 3,
        "games": 79,
-       "frequency": 0.081359
+       "frequency": 0.081026
       },
       {
        "margin": 4,
-       "games": 30,
-       "frequency": 0.030896
+       "games": 31,
+       "frequency": 0.031795
       },
       {
        "margin": 5,
-       "games": 31,
-       "frequency": 0.031926
+       "games": 32,
+       "frequency": 0.032821
       },
       {
        "margin": 6,
        "games": 48,
-       "frequency": 0.049434
+       "frequency": 0.049231
       },
       {
        "margin": 7,
        "games": 59,
-       "frequency": 0.060762
+       "frequency": 0.060513
       },
       {
        "margin": 8,
        "games": 26,
-       "frequency": 0.026777
+       "frequency": 0.026667
       },
       {
        "margin": 9,
        "games": 7,
-       "frequency": 0.007209
+       "frequency": 0.007179
       },
       {
        "margin": 10,
        "games": 28,
-       "frequency": 0.028836
+       "frequency": 0.028718
       },
       {
        "margin": 11,
        "games": 11,
-       "frequency": 0.011329
+       "frequency": 0.011282
       },
       {
        "margin": 12,
        "games": 12,
-       "frequency": 0.012358
+       "frequency": 0.012308
       },
       {
        "margin": 13,
        "games": 17,
-       "frequency": 0.017508
+       "frequency": 0.017436
       },
       {
        "margin": 14,
        "games": 31,
-       "frequency": 0.031926
+       "frequency": 0.031795
       },
       {
        "margin": 15,
-       "games": 7,
-       "frequency": 0.007209
+       "games": 8,
+       "frequency": 0.008205
       },
       {
        "margin": 16,
        "games": 12,
-       "frequency": 0.012358
+       "frequency": 0.012308
       },
       {
        "margin": 17,
-       "games": 31,
-       "frequency": 0.031926
+       "games": 32,
+       "frequency": 0.032821
       },
       {
        "margin": 18,
        "games": 15,
-       "frequency": 0.015448
+       "frequency": 0.015385
       },
       {
        "margin": 19,
        "games": 9,
-       "frequency": 0.009269
+       "frequency": 0.009231
       },
       {
        "margin": 20,
        "games": 11,
-       "frequency": 0.011329
+       "frequency": 0.011282
       },
       {
        "margin": 21,
        "games": 17,
-       "frequency": 0.017508
+       "frequency": 0.017436
       },
       {
        "margin": 22,
        "games": 13,
-       "frequency": 0.013388
+       "frequency": 0.013333
       },
       {
        "margin": 23,
        "games": 14,
-       "frequency": 0.014418
+       "frequency": 0.014359
       },
       {
        "margin": 24,
        "games": 20,
-       "frequency": 0.020597
+       "frequency": 0.020513
       },
       {
        "margin": 25,
        "games": 10,
-       "frequency": 0.010299
+       "frequency": 0.010256
       },
       {
        "margin": 26,
        "games": 7,
-       "frequency": 0.007209
+       "frequency": 0.007179
       },
       {
        "margin": 27,
        "games": 5,
-       "frequency": 0.005149
+       "frequency": 0.005128
       },
       {
        "margin": 28,
        "games": 12,
-       "frequency": 0.012358
+       "frequency": 0.012308
       },
       {
        "margin": 29,
        "games": 3,
-       "frequency": 0.00309
+       "frequency": 0.003077
       },
       {
        "margin": 30,
        "games": 2,
-       "frequency": 0.00206
+       "frequency": 0.002051
       },
       {
        "margin": 31,
        "games": 10,
-       "frequency": 0.010299
+       "frequency": 0.010256
       },
       {
        "margin": 32,
        "games": 6,
-       "frequency": 0.006179
+       "frequency": 0.006154
       },
       {
        "margin": 33,
        "games": 2,
-       "frequency": 0.00206
+       "frequency": 0.002051
       },
       {
        "margin": 34,
        "games": 8,
-       "frequency": 0.008239
+       "frequency": 0.008205
       },
       {
        "margin": 35,
        "games": 4,
-       "frequency": 0.004119
+       "frequency": 0.004103
       },
       {
        "margin": 37,
        "games": 3,
-       "frequency": 0.00309
+       "frequency": 0.003077
       },
       {
        "margin": 38,
        "games": 4,
-       "frequency": 0.004119
+       "frequency": 0.004103
       },
       {
        "margin": 40,
        "games": 1,
-       "frequency": 0.00103
+       "frequency": 0.001026
       },
       {
        "margin": 42,
        "games": 1,
-       "frequency": 0.00103
+       "frequency": 0.001026
       },
       {
        "margin": 46,
        "games": 1,
-       "frequency": 0.00103
+       "frequency": 0.001026
       },
       {
        "margin": 50,
        "games": 1,
-       "frequency": 0.00103
+       "frequency": 0.001026
       }
      ]
     }
@@ -4303,73 +4303,73 @@
   "ats": {
    "season": 2026,
    "through": "2026-11-01",
-   "n_games": 116,
+   "n_games": 120,
    "basis": "closing consensus line (nflverse games.csv), pushes shown and excluded from the rate",
    "buckets": {
     "favorites": {
-     "w": 53,
-     "l": 57,
+     "w": 56,
+     "l": 58,
      "p": 6,
-     "n": 116,
-     "cover_rate": 0.4818,
+     "n": 120,
+     "cover_rate": 0.4912,
      "ci95": [
-      0.3906,
-      0.5742
+      0.4013,
+      0.5818
      ]
     },
     "underdogs": {
-     "w": 57,
-     "l": 53,
+     "w": 58,
+     "l": 56,
      "p": 6,
-     "n": 116,
-     "cover_rate": 0.5182,
+     "n": 120,
+     "cover_rate": 0.5088,
      "ci95": [
-      0.4258,
-      0.6094
+      0.4182,
+      0.5987
      ]
     },
     "home_favorites": {
-     "w": 30,
+     "w": 33,
      "l": 36,
      "p": 3,
-     "n": 69,
-     "cover_rate": 0.4545,
+     "n": 72,
+     "cover_rate": 0.4783,
      "ci95": [
-      0.3402,
-      0.5739
+      0.3647,
+      0.5941
      ]
     },
     "home_underdogs": {
-     "w": 18,
+     "w": 19,
      "l": 21,
      "p": 2,
-     "n": 41,
-     "cover_rate": 0.4615,
+     "n": 42,
+     "cover_rate": 0.475,
      "ci95": [
-      0.3157,
-      0.6143
+      0.3294,
+      0.625
      ]
     },
     "road_favorites": {
      "w": 21,
-     "l": 18,
+     "l": 19,
      "p": 2,
-     "n": 41,
-     "cover_rate": 0.5385,
+     "n": 42,
+     "cover_rate": 0.525,
      "ci95": [
-      0.3857,
-      0.6843
+      0.375,
+      0.6706
      ]
     },
     "road_underdogs": {
      "w": 36,
-     "l": 30,
+     "l": 33,
      "p": 3,
-     "n": 69,
-     "cover_rate": 0.5455,
+     "n": 72,
+     "cover_rate": 0.5217,
      "ci95": [
-      0.4261,
-      0.6598
+      0.4059,
+      0.6353
      ]
     },
     "neutral_favorites": {
@@ -4395,36 +4395,36 @@
      ]
     },
     "divisional_favorites": {
-     "w": 14,
-     "l": 23,
+     "w": 16,
+     "l": 24,
      "p": 0,
-     "n": 37,
-     "cover_rate": 0.3784,
+     "n": 40,
+     "cover_rate": 0.4,
      "ci95": [
-      0.2406,
-      0.539
+      0.2635,
+      0.554
      ]
     },
     "divisional_underdogs": {
-     "w": 23,
-     "l": 14,
+     "w": 24,
+     "l": 16,
      "p": 0,
-     "n": 37,
-     "cover_rate": 0.6216,
+     "n": 40,
+     "cover_rate": 0.6,
      "ci95": [
-      0.461,
-      0.7594
+      0.446,
+      0.7365
      ]
     },
     "divisional_home_underdogs": {
-     "w": 7,
+     "w": 8,
      "l": 6,
      "p": 0,
-     "n": 13,
-     "cover_rate": 0.5385,
+     "n": 14,
+     "cover_rate": 0.5714,
      "ci95": [
-      0.2914,
-      0.7679
+      0.3259,
+      0.7862
      ]
     }
    }
@@ -5397,10 +5397,130 @@
     "neutral": false,
     "divisional": false,
     "location": "Home"
+   },
+   "2026_09_ARI_SEA": {
+    "week": 9,
+    "home": "SEA",
+    "away": "ARI",
+    "neutral": false,
+    "divisional": true,
+    "location": "Home"
+   },
+   "2026_09_BUF_MIN": {
+    "week": 9,
+    "home": "MIN",
+    "away": "BUF",
+    "neutral": false,
+    "divisional": false,
+    "location": "Home"
+   },
+   "2026_09_CIN_ATL": {
+    "week": 9,
+    "home": "ATL",
+    "away": "CIN",
+    "neutral": true,
+    "divisional": false,
+    "location": "Neutral"
+   },
+   "2026_09_CLE_NO": {
+    "week": 9,
+    "home": "NO",
+    "away": "CLE",
+    "neutral": false,
+    "divisional": false,
+    "location": "Home"
+   },
+   "2026_09_DAL_IND": {
+    "week": 9,
+    "home": "IND",
+    "away": "DAL",
+    "neutral": false,
+    "divisional": false,
+    "location": "Home"
+   },
+   "2026_09_DEN_CAR": {
+    "week": 9,
+    "home": "CAR",
+    "away": "DEN",
+    "neutral": false,
+    "divisional": false,
+    "location": "Home"
+   },
+   "2026_09_DET_MIA": {
+    "week": 9,
+    "home": "MIA",
+    "away": "DET",
+    "neutral": false,
+    "divisional": false,
+    "location": "Home"
+   },
+   "2026_09_GB_NE": {
+    "week": 9,
+    "home": "NE",
+    "away": "GB",
+    "neutral": false,
+    "divisional": false,
+    "location": "Home"
+   },
+   "2026_09_HOU_LAC": {
+    "week": 9,
+    "home": "LAC",
+    "away": "HOU",
+    "neutral": false,
+    "divisional": false,
+    "location": "Home"
+   },
+   "2026_09_JAX_BAL": {
+    "week": 9,
+    "home": "BAL",
+    "away": "JAX",
+    "neutral": false,
+    "divisional": false,
+    "location": "Home"
+   },
+   "2026_09_LA_WAS": {
+    "week": 9,
+    "home": "WAS",
+    "away": "LA",
+    "neutral": false,
+    "divisional": false,
+    "location": "Home"
+   },
+   "2026_09_LV_SF": {
+    "week": 9,
+    "home": "SF",
+    "away": "LV",
+    "neutral": false,
+    "divisional": false,
+    "location": "Home"
+   },
+   "2026_09_NYG_PHI": {
+    "week": 9,
+    "home": "PHI",
+    "away": "NYG",
+    "neutral": false,
+    "divisional": true,
+    "location": "Home"
+   },
+   "2026_09_NYJ_KC": {
+    "week": 9,
+    "home": "KC",
+    "away": "NYJ",
+    "neutral": false,
+    "divisional": false,
+    "location": "Home"
+   },
+   "2026_09_TB_CHI": {
+    "week": 9,
+    "home": "CHI",
+    "away": "TB",
+    "neutral": false,
+    "divisional": false,
+    "location": "Home"
    }
   },
   "division_check": {
-   "checked": 121,
+   "checked": 136,
    "mismatches": []
   },
   "neutral_source": "nflverse games.csv location"
