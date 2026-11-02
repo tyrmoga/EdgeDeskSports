@@ -1,7 +1,7 @@
 {
  "schema": "edgedesk_fbs_epa_index_v1",
  "version": 1,
- "generated_at": "2026-11-02T06:42:04.960Z",
+ "generated_at": "2026-11-02T17:06:13.906Z",
  "season": 2026,
  "source": {
   "repository": "https://github.com/sportsdataverse/cfbfastR-cfb-data",
@@ -12,7 +12,7 @@
   },
   "manifest": null,
   "refreshed": {
-   "at": "2026-11-02T06:42:04.960Z",
+   "at": "2026-11-02T17:06:13.906Z",
    "commit": "main",
    "season": 2026
   }
@@ -26,28 +26,28 @@
     "file": "adv_passing_2026.parquet",
     "url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-cfb-data/main/cfb/adv_passing/parquet/adv_passing_2026.parquet",
     "ok": true,
-    "bytes": 189061,
-    "sha256": "274b00e19eef522c2d4006d27203e37878e48f78c63c980a4b8c3a5aa638fa15",
+    "bytes": 189041,
+    "sha256": "acfd09700eb03b3c73471e5f84b36be029ee9c6e292b97e51c8a8d7413a63b3e",
     "why": null,
-    "retrieved_at": "2026-11-02T06:42:04.960Z"
+    "retrieved_at": "2026-11-02T17:06:13.906Z"
    },
    {
     "file": "adv_team_2026.parquet",
     "url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-cfb-data/main/cfb/adv_team/parquet/adv_team_2026.parquet",
     "ok": true,
-    "bytes": 229119,
-    "sha256": "c9aeccaf3e49b46957e9c55f21d310691290acc41e69393702cb5f4b175c33b4",
+    "bytes": 229098,
+    "sha256": "cdf462aea78f6623f87755ed2e70dfa3d7c2b09a17e3a92058c6f59c08a7c39e",
     "why": null,
-    "retrieved_at": "2026-11-02T06:42:04.960Z"
+    "retrieved_at": "2026-11-02T17:06:13.906Z"
    },
    {
     "file": "cfb_schedules_2026.parquet",
     "url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-cfb-data/main/cfb/cfb_schedules/parquet/cfb_schedules_2026.parquet",
     "ok": true,
-    "bytes": 94504,
-    "sha256": "26afc59f452c701dd0a8d4e6518eea5222e0fb8b6af8f89e0d225b05aee0c676",
+    "bytes": 94514,
+    "sha256": "b5b65c65b725e5657f8eb18fd00b5d7f0974e3d49b9a8665314c55e87a9a55be",
     "why": null,
-    "retrieved_at": "2026-11-02T06:42:04.960Z"
+    "retrieved_at": "2026-11-02T17:06:13.906Z"
    },
    {
     "file": "cfb_rosters_2026.parquet",
@@ -56,7 +56,7 @@
     "bytes": 2861033,
     "sha256": "97eefdbcd9bc0f7d3e300cf3bcb6ae86da2a4ca4d15f354f0748325ff507c8d7",
     "why": null,
-    "retrieved_at": "2026-11-02T06:42:04.960Z"
+    "retrieved_at": "2026-11-02T17:06:13.906Z"
    }
   ],
   "built": {
@@ -75,15 +75,15 @@
   }
  },
  "freshness": {
-  "generated_at": "2026-11-02T06:42:04.960Z",
+  "generated_at": "2026-11-02T17:06:13.906Z",
   "observations_through": "2026-11-01T03:00:00.000Z",
   "last_completed_game": "2026-11-01T03:00:00.000Z",
-  "observation_age_hours": 27.701,
+  "observation_age_hours": 38.104,
   "completed_games_without_passing_data": 0,
   "coverage": "COMPLETE",
   "coverage_why": null,
   "source_commit": null,
-  "source_retrieved_at": "2026-11-02T06:42:04.960Z",
+  "source_retrieved_at": "2026-11-02T17:06:13.906Z",
   "source_age_hours": 0,
   "state": "FRESH",
   "why": null

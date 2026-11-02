@@ -2,7 +2,7 @@
  "schema": "edgedesk_starters_v1_index",
  "version": 1,
  "season": 2026,
- "generated_at": "2026-11-02T06:41:49.825Z",
+ "generated_at": "2026-11-02T17:06:02.030Z",
  "sports": {
   "CFB": {
    "ok": true,
@@ -43,7 +43,7 @@
      "from": "network",
      "status": 200,
      "error": null,
-     "retrieved_at": "2026-11-02T06:41:51.781Z"
+     "retrieved_at": "2026-11-02T17:06:03.437Z"
     },
     {
      "field": "roster identity",
@@ -52,7 +52,7 @@
      "from": "network",
      "status": 200,
      "error": null,
-     "retrieved_at": "2026-11-02T06:41:52.469Z"
+     "retrieved_at": "2026-11-02T17:06:03.904Z"
     },
     {
      "field": "schedule",
@@ -61,7 +61,7 @@
      "from": "network",
      "status": 200,
      "error": null,
-     "retrieved_at": "2026-11-02T06:41:52.544Z"
+     "retrieved_at": "2026-11-02T17:06:03.918Z"
     },
     {
      "field": "start count 2025",
@@ -70,7 +70,7 @@
      "from": "network",
      "status": 200,
      "error": null,
-     "retrieved_at": "2026-11-02T06:41:56.814Z"
+     "retrieved_at": "2026-11-02T17:06:05.968Z"
     }
    ],
    "notes": [
@@ -118,7 +118,7 @@
      "from": "network",
      "status": 200,
      "error": null,
-     "retrieved_at": "2026-11-02T06:42:00.267Z"
+     "retrieved_at": "2026-11-02T17:06:09.501Z"
     },
     {
      "field": "roster identity",
@@ -127,7 +127,7 @@
      "from": "network",
      "status": 200,
      "error": null,
-     "retrieved_at": "2026-11-02T06:42:00.342Z"
+     "retrieved_at": "2026-11-02T17:06:09.697Z"
     },
     {
      "field": "availability",
@@ -136,7 +136,7 @@
      "from": "network",
      "status": 200,
      "error": null,
-     "retrieved_at": "2026-11-02T06:42:00.620Z"
+     "retrieved_at": "2026-11-02T17:06:09.847Z"
     },
     {
      "field": "depth chart",
@@ -145,7 +145,7 @@
      "from": "network",
      "status": 200,
      "error": null,
-     "retrieved_at": "2026-11-02T06:42:01.100Z"
+     "retrieved_at": "2026-11-02T17:06:10.306Z"
     }
    ],
    "notes": [
@@ -155,10 +155,10 @@
   }
  },
  "retrieval": {
-  "started_at": "2026-11-02T06:41:49.825Z",
-  "elapsed_ms": 14962,
+  "started_at": "2026-11-02T17:06:02.030Z",
+  "elapsed_ms": 11702,
   "requests": 8,
-  "bytes": 221552444,
+  "bytes": 222007244,
   "ok": 8,
   "failed": 0,
   "from_cache": 0,
