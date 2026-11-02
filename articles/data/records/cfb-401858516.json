@@ -18,11 +18,11 @@
   "conference_line": "Big Ten conference game",
   "week": 10,
   "season": 2026,
-  "game_time": "2026-11-07T05:00:00.000Z",
-  "game_when_label": "2026-11-07 05:00 UTC",
+  "game_time": "2026-11-07T20:30:00.000Z",
+  "game_when_label": "2026-11-07 20:30 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T00:36:55.151Z",
-  "generated_at": "2026-11-02T00:36:55.151Z",
+  "updated_at": "2026-11-02T19:27:46.096Z",
+  "generated_at": "2026-11-02T19:27:46.096Z",
   "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
   "model_status": "NO MARKET",
   "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
@@ -49,8 +49,8 @@
       "away": "Penn State",
       "home": "Washington",
       "title": "Penn State at Washington",
-      "when": "2026-11-07 05:00 UTC",
-      "kickoff": "2026-11-07T05:00:00.000Z",
+      "when": "2026-11-07 20:30 UTC",
+      "kickoff": "2026-11-07T20:30:00.000Z",
       "venue": "Husky Stadium",
       "neutral": false,
       "week": "Week 10",
@@ -252,7 +252,7 @@
         "source": "cfbfastR-data player_stats — play attribution",
         "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
         "published_at": "2026-10-31T20:15:00.000Z",
-        "retrieved_at": "2026-11-01T22:55:06.784Z"
+        "retrieved_at": "2026-11-02T17:06:03.437Z"
       },
       "home": {
         "team": "Washington",
@@ -332,7 +332,7 @@
         "published_at": "2026-10-31T20:46:39.491Z",
         "retrieved_at": "2026-10-31T20:46:39.491Z"
       },
-      "generated_at": "2026-11-01T22:55:05.546Z",
+      "generated_at": "2026-11-02T17:06:02.030Z",
       "source": "football/starters/cfb_2026.json",
       "note": "An expected starter is not a confirmed one. EdgeDesk publishes which kind of answer each of these is, and no number on this page is priced from any of them. Availability is a separate axis: an absent report is UNKNOWN and is never read as healthy."
     },
@@ -1613,7 +1613,7 @@
           {
             "key": "freshness",
             "label": "Freshness",
-            "score": 12.9,
+            "score": 11.3,
             "max": 15
           },
           {
@@ -1641,8 +1641,8 @@
           },
           {
             "action": "Confirm Washington’s starting QB (Demond Williams Jr.)",
-            "potential_gain": 9,
-            "text": "up to +9 once resolve Washington’s starter conflict is done"
+            "potential_gain": 7,
+            "text": "up to +7 once resolve Washington’s starter conflict is done"
           }
         ],
         "stability": {
@@ -1901,7 +1901,7 @@
   },
   "football_evidence": {
     "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "yzv2i89t6cb6",
+    "packet_hash": "1g9txwy1dw27gw",
     "status": "PARTIALLY_EXPLAINED",
     "input_suspect": false,
     "question": "Can Penn State take away Washington’s big plays?",
@@ -1968,7 +1968,7 @@
         "label": "EdgeDesk play-by-play unit metrics (2026 season)",
         "url": null,
         "path": "football/matchup/metrics.json",
-        "observed_at": "2026-11-01T22:55:26.361Z",
+        "observed_at": "2026-11-02T17:06:24.448Z",
         "verification": "VERIFIED_DATA"
       },
       {
@@ -1991,6 +1991,6 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T00:36:55.151Z"
+    "at": "2026-11-02T19:27:46.096Z"
   }
 }

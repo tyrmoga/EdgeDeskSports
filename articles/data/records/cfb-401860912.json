@@ -21,8 +21,8 @@
   "game_time": "2026-11-08T03:30:00.000Z",
   "game_when_label": "2026-11-08 03:30 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T00:36:55.151Z",
-  "generated_at": "2026-11-02T00:36:55.151Z",
+  "updated_at": "2026-11-02T19:27:46.096Z",
+  "generated_at": "2026-11-02T19:27:46.096Z",
   "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
   "model_status": "NO MARKET",
   "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
@@ -252,7 +252,7 @@
         "source": "cfbfastR-data player_stats — play attribution",
         "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
         "published_at": "2026-11-01T02:00:00.000Z",
-        "retrieved_at": "2026-11-01T22:55:06.784Z"
+        "retrieved_at": "2026-11-02T17:06:03.437Z"
       },
       "home": {
         "team": "Oregon State",
@@ -330,9 +330,9 @@
         "source": "cfbfastR-data player_stats — play attribution",
         "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
         "published_at": "2026-11-01T03:00:00.000Z",
-        "retrieved_at": "2026-11-01T22:55:06.784Z"
+        "retrieved_at": "2026-11-02T17:06:03.437Z"
       },
-      "generated_at": "2026-11-01T22:55:05.546Z",
+      "generated_at": "2026-11-02T17:06:02.030Z",
       "source": "football/starters/cfb_2026.json",
       "note": "An expected starter is not a confirmed one. EdgeDesk publishes which kind of answer each of these is, and no number on this page is priced from any of them. Availability is a separate axis: an absent report is UNKNOWN and is never read as healthy."
     },
@@ -1571,11 +1571,11 @@
         "label": "High"
       },
       "reliability": {
-        "pct": 89,
+        "pct": 88,
         "tier": "STRONG",
-        "text": "89 · STRONG",
-        "sub": "main deduction: no source has established whether Oregon State or Texas State’s starting QB can play",
-        "score": 89,
+        "text": "88 · STRONG",
+        "sub": "main deduction: Texas State’s availability report is not due yet",
+        "score": 88,
         "grade": "STRONG",
         "grade_label": "STRONG",
         "gate_label": null,
@@ -1601,7 +1601,7 @@
           {
             "key": "freshness",
             "label": "Freshness",
-            "score": 12.9,
+            "score": 11.8,
             "max": 15
           },
           {
@@ -1617,20 +1617,23 @@
             "max": 10
           }
         ],
-        "main_deduction": "no source has established whether Oregon State or Texas State’s starting QB can play — a known starter nobody has cleared is not VERY STRONG information",
-        "capped_by": [
-          "QB_STATUS_UNCONFIRMED"
-        ],
+        "main_deduction": "Texas State’s availability report is not due yet; the impact of Texas State’s absences cannot be assessed: no graded availability read",
+        "capped_by": [],
         "next_actions": [
           {
-            "action": "Capture a market quote",
-            "potential_gain": 2,
-            "text": "up to +2 once re-read availability inside the filing window (Oregon State) and Re-read availability inside the filing window (Texas State) is done"
+            "action": "Re-read availability inside the filing window (Texas State)",
+            "potential_gain": 1,
+            "text": "up to +1"
           },
           {
-            "action": "Fetch the venue forecast",
+            "action": "Re-read availability inside the filing window (Oregon State)",
             "potential_gain": 1,
-            "text": "up to +1 once re-read availability inside the filing window (Oregon State) and Re-read availability inside the filing window (Texas State) is done"
+            "text": "up to +1"
+          },
+          {
+            "action": "Capture a market quote",
+            "potential_gain": 1,
+            "text": "up to +1"
           }
         ],
         "stability": {
@@ -1877,7 +1880,7 @@
   },
   "football_evidence": {
     "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "13u1bgqzk0hm0",
+    "packet_hash": "2njtzi2vmgdo",
     "status": "PARTIALLY_EXPLAINED",
     "input_suspect": false,
     "question": "Can Texas State contain Oregon State’s explosive runs?",
@@ -1933,7 +1936,7 @@
         "label": "EdgeDesk play-by-play unit metrics (2026 season)",
         "url": null,
         "path": "football/matchup/metrics.json",
-        "observed_at": "2026-11-01T22:55:26.361Z",
+        "observed_at": "2026-11-02T17:06:24.448Z",
         "verification": "VERIFIED_DATA"
       },
       {
@@ -1949,6 +1952,6 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T00:36:55.151Z"
+    "at": "2026-11-02T19:27:46.096Z"
   }
 }

@@ -21,8 +21,8 @@
   "game_time": "2026-11-07T17:00:00.000Z",
   "game_when_label": "2026-11-07 17:00 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T00:36:55.151Z",
-  "generated_at": "2026-11-02T00:36:55.151Z",
+  "updated_at": "2026-11-02T19:27:46.096Z",
+  "generated_at": "2026-11-02T19:27:46.096Z",
   "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
   "model_status": "NO MARKET",
   "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
@@ -242,7 +242,7 @@
         "source": "cfbfastR-data player_stats — play attribution",
         "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
         "published_at": "2026-10-31T23:00:00.000Z",
-        "retrieved_at": "2026-11-01T22:55:06.784Z"
+        "retrieved_at": "2026-11-02T17:06:03.437Z"
       },
       "home": {
         "team": "Syracuse",
@@ -314,9 +314,9 @@
         "source": "cfbfastR-data player_stats — play attribution",
         "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
         "published_at": "2026-10-31T16:00:00.000Z",
-        "retrieved_at": "2026-11-01T22:55:06.784Z"
+        "retrieved_at": "2026-11-02T17:06:03.437Z"
       },
-      "generated_at": "2026-11-01T22:55:05.546Z",
+      "generated_at": "2026-11-02T17:06:02.030Z",
       "source": "football/starters/cfb_2026.json",
       "note": "An expected starter is not a confirmed one. EdgeDesk publishes which kind of answer each of these is, and no number on this page is priced from any of them. Availability is a separate axis: an absent report is UNKNOWN and is never read as healthy."
     },
@@ -1554,11 +1554,11 @@
         "label": "High"
       },
       "reliability": {
-        "pct": 88,
+        "pct": 87,
         "tier": "STRONG",
-        "text": "88 · STRONG",
+        "text": "87 · STRONG",
         "sub": "main deduction: the projection flips favorite in 11% of sensitivity runs",
-        "score": 88,
+        "score": 87,
         "grade": "STRONG",
         "grade_label": "STRONG",
         "gate_label": null,
@@ -1584,7 +1584,7 @@
           {
             "key": "freshness",
             "label": "Freshness",
-            "score": 12.9,
+            "score": 11.8,
             "max": 15
           },
           {
@@ -1605,18 +1605,18 @@
         "next_actions": [
           {
             "action": "Re-read availability inside the filing window (Clemson)",
-            "potential_gain": 1,
-            "text": "up to +1"
+            "potential_gain": 2,
+            "text": "up to +2"
           },
           {
             "action": "Re-read availability inside the filing window (Syracuse)",
-            "potential_gain": 1,
-            "text": "up to +1"
+            "potential_gain": 2,
+            "text": "up to +2"
           },
           {
             "action": "Capture a market quote",
-            "potential_gain": 1,
-            "text": "up to +1"
+            "potential_gain": 2,
+            "text": "up to +2"
           }
         ],
         "stability": {
@@ -1863,13 +1863,13 @@
   },
   "football_evidence": {
     "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "12swoq71q5q51p",
-    "status": "NO_MATERIAL_DISAGREEMENT",
+    "packet_hash": "1dfoqvao6l278",
+    "status": "PARTIALLY_EXPLAINED",
     "input_suspect": false,
     "question": "Can Syracuse’s pass rush get to Tait Reynolds?",
-    "assessment": "No material disagreement: EdgeDesk and the line are within 1.5 points.",
+    "assessment": "Some measured evidence supports EdgeDesk’s lean toward Syracuse, and its own breakdown accounts for about 1.3 of the 2.5 points, but not the full gap. It is a research question, not a bet.",
     "gap": {
-      "points": 1.5,
+      "points": 2.5,
       "toward": "Syracuse",
       "other": "Clemson"
     },
@@ -1926,7 +1926,7 @@
         "label": "EdgeDesk play-by-play metrics, quarterback logs and box scores",
         "url": null,
         "path": "football/matchup/metrics.json",
-        "observed_at": "2026-11-01T22:55:26.361Z",
+        "observed_at": "2026-11-02T17:06:24.448Z",
         "verification": "VERIFIED_DATA"
       },
       {
@@ -1949,6 +1949,6 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T00:36:55.151Z"
+    "at": "2026-11-02T19:27:46.096Z"
   }
 }

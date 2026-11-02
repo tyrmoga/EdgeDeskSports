@@ -21,8 +21,8 @@
   "game_time": "2026-11-08T00:30:00.000Z",
   "game_when_label": "2026-11-08 00:30 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T00:36:55.151Z",
-  "generated_at": "2026-11-02T00:36:55.151Z",
+  "updated_at": "2026-11-02T19:27:46.096Z",
+  "generated_at": "2026-11-02T19:27:46.096Z",
   "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
   "model_status": "NO MARKET",
   "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
@@ -258,7 +258,7 @@
         "source": "cfbfastR-data player_stats — play attribution",
         "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
         "published_at": "2026-10-31T19:15:00.000Z",
-        "retrieved_at": "2026-11-01T22:55:06.784Z"
+        "retrieved_at": "2026-11-02T17:06:03.437Z"
       },
       "home": {
         "team": "Georgia Tech",
@@ -342,9 +342,9 @@
         "source": "cfbfastR-data player_stats — play attribution",
         "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
         "published_at": "2026-10-31T23:30:00.000Z",
-        "retrieved_at": "2026-11-01T22:55:06.784Z"
+        "retrieved_at": "2026-11-02T17:06:03.437Z"
       },
-      "generated_at": "2026-11-01T22:55:05.546Z",
+      "generated_at": "2026-11-02T17:06:02.030Z",
       "source": "football/starters/cfb_2026.json",
       "note": "An expected starter is not a confirmed one. EdgeDesk publishes which kind of answer each of these is, and no number on this page is priced from any of them. Availability is a separate axis: an absent report is UNKNOWN and is never read as healthy."
     },
@@ -1569,11 +1569,11 @@
         "label": "High"
       },
       "reliability": {
-        "pct": 88,
+        "pct": 87,
         "tier": "STRONG",
-        "text": "88 · STRONG",
+        "text": "87 · STRONG",
         "sub": "main deduction: Louisville’s availability report is not due yet",
-        "score": 88,
+        "score": 87,
         "grade": "STRONG",
         "grade_label": "STRONG",
         "gate_label": null,
@@ -1599,7 +1599,7 @@
           {
             "key": "freshness",
             "label": "Freshness",
-            "score": 12.9,
+            "score": 11.8,
             "max": 15
           },
           {
@@ -1620,18 +1620,18 @@
         "next_actions": [
           {
             "action": "Re-read availability inside the filing window (Louisville)",
-            "potential_gain": 1,
-            "text": "up to +1"
+            "potential_gain": 2,
+            "text": "up to +2"
           },
           {
             "action": "Re-read availability inside the filing window (Georgia Tech)",
-            "potential_gain": 1,
-            "text": "up to +1"
+            "potential_gain": 2,
+            "text": "up to +2"
           },
           {
             "action": "Capture a market quote",
-            "potential_gain": 1,
-            "text": "up to +1"
+            "potential_gain": 2,
+            "text": "up to +2"
           }
         ],
         "stability": {
@@ -1884,7 +1884,7 @@
   },
   "football_evidence": {
     "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "16zno42a817zk",
+    "packet_hash": "15t9hkl160d4wn",
     "status": "PARTIALLY_EXPLAINED",
     "input_suspect": false,
     "question": "Can Louisville contain Georgia Tech’s explosive runs?",
@@ -1940,7 +1940,7 @@
         "label": "EdgeDesk play-by-play unit metrics (2026 season)",
         "url": null,
         "path": "football/matchup/metrics.json",
-        "observed_at": "2026-11-01T22:55:26.361Z",
+        "observed_at": "2026-11-02T17:06:24.448Z",
         "verification": "VERIFIED_DATA"
       },
       {
@@ -1963,6 +1963,6 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T00:36:55.151Z"
+    "at": "2026-11-02T19:27:46.096Z"
   }
 }

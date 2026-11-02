@@ -18,11 +18,11 @@
   "conference_line": "Big Ten conference game",
   "week": 10,
   "season": 2026,
-  "game_time": "2026-11-07T17:30:00.000Z",
-  "game_when_label": "2026-11-07 17:30 UTC",
+  "game_time": "2026-11-07T21:15:00.000Z",
+  "game_when_label": "2026-11-07 21:15 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T00:36:55.151Z",
-  "generated_at": "2026-11-02T00:36:55.151Z",
+  "updated_at": "2026-11-02T19:27:46.096Z",
+  "generated_at": "2026-11-02T19:27:46.096Z",
   "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
   "model_status": "NO MARKET",
   "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
@@ -49,8 +49,8 @@
       "away": "Rutgers",
       "home": "Wisconsin",
       "title": "Rutgers at Wisconsin",
-      "when": "2026-11-07 17:30 UTC",
-      "kickoff": "2026-11-07T17:30:00.000Z",
+      "when": "2026-11-07 21:15 UTC",
+      "kickoff": "2026-11-07T21:15:00.000Z",
       "venue": "Camp Randall Stadium",
       "neutral": false,
       "week": "Week 10",
@@ -246,7 +246,7 @@
         "source": "cfbfastR-data player_stats — play attribution",
         "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
         "published_at": "2026-10-31T16:30:00.000Z",
-        "retrieved_at": "2026-11-01T22:55:06.784Z"
+        "retrieved_at": "2026-11-02T17:06:03.437Z"
       },
       "home": {
         "team": "Wisconsin",
@@ -324,9 +324,9 @@
         "source": "cfbfastR-data player_stats — play attribution",
         "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
         "published_at": "2026-10-31T16:00:00.000Z",
-        "retrieved_at": "2026-11-01T22:55:06.784Z"
+        "retrieved_at": "2026-11-02T17:06:03.437Z"
       },
-      "generated_at": "2026-11-01T22:55:05.546Z",
+      "generated_at": "2026-11-02T17:06:02.030Z",
       "source": "football/starters/cfb_2026.json",
       "note": "An expected starter is not a confirmed one. EdgeDesk publishes which kind of answer each of these is, and no number on this page is priced from any of them. Availability is a separate axis: an absent report is UNKNOWN and is never read as healthy."
     },
@@ -1581,11 +1581,11 @@
         "label": "High"
       },
       "reliability": {
-        "pct": 86,
+        "pct": 85,
         "tier": "STRONG",
-        "text": "86 · STRONG",
+        "text": "85 · STRONG",
         "sub": "main deduction: Rutgers’s availability report is not due yet",
-        "score": 86,
+        "score": 85,
         "grade": "STRONG",
         "grade_label": "STRONG",
         "gate_label": null,
@@ -1611,7 +1611,7 @@
           {
             "key": "freshness",
             "label": "Freshness",
-            "score": 12.9,
+            "score": 11.8,
             "max": 15
           },
           {
@@ -1896,7 +1896,7 @@
   },
   "football_evidence": {
     "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "u28z1m1v5p154",
+    "packet_hash": "v2x8hsg7mbqa",
     "status": "UNEXPLAINED",
     "input_suspect": false,
     "question": "Can Rutgers’ pass rush get to Colton Joseph?",
@@ -1966,7 +1966,7 @@
         "label": "EdgeDesk play-by-play unit metrics (2026 season)",
         "url": null,
         "path": "football/matchup/metrics.json",
-        "observed_at": "2026-11-01T22:55:26.361Z",
+        "observed_at": "2026-11-02T17:06:24.448Z",
         "verification": "VERIFIED_DATA"
       }
     ],
@@ -1975,6 +1975,6 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T00:36:55.151Z"
+    "at": "2026-11-02T19:27:46.096Z"
   }
 }

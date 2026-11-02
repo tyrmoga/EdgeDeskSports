@@ -11,8 +11,8 @@
   ],
   "title": "Houston Texans vs. Los Angeles Chargers: EdgeDesk Model Projection, Matchup Analysis and Fair Spread",
   "seo_title": "Houston Texans vs. Los Angeles Chargers 2026: EdgeDesk Fair Spread & Model Projection",
-  "seo_description": "EdgeDesk fair spread for Houston Texans at Los Angeles Chargers: Los Angeles Chargers +4.5, fair total 42.0. Houston Texans wins 67% of simulations. Model status STALE MARKET. Research, not picks.",
-  "excerpt": "Houston Texans carries the stronger EdgeDesk offensive profile (#17 in EPA per play), while Los Angeles Chargers owns the more favourable defensive matchup (#4 in EPA allowed per play). EdgeDesk’s independent projection makes it Los Angeles Chargers +4.5…",
+  "seo_description": "EdgeDesk fair spread for Houston Texans at Los Angeles Chargers: Los Angeles Chargers +5.5, fair total 41.5. Houston Texans wins 69% of simulations. Model status STALE MARKET. Research, not picks.",
+  "excerpt": "Houston Texans carries the stronger EdgeDesk offensive profile (#17 in EPA per play), while Los Angeles Chargers owns the more favourable defensive matchup (#4 in EPA allowed per play). EdgeDesk’s independent projection makes it Los Angeles Chargers +5.5…",
   "home_team": "Los Angeles Chargers",
   "away_team": "Houston Texans",
   "venue": "SoFi Stadium",
@@ -23,15 +23,15 @@
   "game_time": "2026-11-08T21:05:00.000Z",
   "game_when_label": "2026-11-08 21:05 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T00:36:55.151Z",
-  "generated_at": "2026-11-02T00:36:55.151Z",
+  "updated_at": "2026-11-02T19:27:46.096Z",
+  "generated_at": "2026-11-02T19:27:46.096Z",
   "model_version": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
   "model_status": "STALE MARKET",
-  "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 1.0-point gap is context only and the game is excluded from research ranking.",
+  "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 0.9-point gap is context only and the game is excluded from research ranking.",
   "confidence": null,
   "priced": true,
-  "fair_spread_text": "Los Angeles Chargers +4.5",
-  "fair_total": "42.0",
+  "fair_spread_text": "Los Angeles Chargers +5.5",
+  "fair_total": "41.5",
   "hero_image": null,
   "canonical_url": "https://edgedesksports.com/articles/houston-texans-vs-los-angeles-chargers-2026",
   "terminal_url": "https://edgedesksports.com/app.html#research/football",
@@ -43,7 +43,7 @@
   "frozen_at": null,
   "author": "EdgeDesk Research",
   "publisher": "EdgeDesk Sports",
-  "research_source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 108 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice.",
+  "research_source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 120 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice.",
   "market_source": null,
   "research": {
     "kind": "NFL_GAME",
@@ -64,21 +64,21 @@
     },
     "lede": [
       "Houston Texans carries the stronger EdgeDesk offensive profile (#17 in EPA per play), while Los Angeles Chargers owns the more favourable defensive matchup (#4 in EPA allowed per play).",
-      "EdgeDesk’s independent projection makes it Los Angeles Chargers +4.5 with a fair total of 42.0 — inside a touchdown, before any sportsbook number is consulted.",
-      "The widest measured matchup on the board is Los Angeles Chargers pass offence vs Houston Texans pass defence, which sits −0.238 from the league mean once the two ratings are combined the way the model combines them.",
+      "EdgeDesk’s independent projection makes it Los Angeles Chargers +5.5 with a fair total of 41.5 — inside a touchdown, before any sportsbook number is consulted.",
+      "The widest measured matchup on the board is Los Angeles Chargers pass offence vs Houston Texans pass defence, which sits −0.266 from the league mean once the two ratings are combined the way the model combines them.",
       "The largest uncertainty is availability: NFL injury report — not loaded in this session."
     ],
     "projection": {
       "priced": true,
-      "fair_spread": -4.459217690092359,
-      "fair_spread_text": "Los Angeles Chargers +4.5",
-      "fair_spread_raw_text": "Los Angeles Chargers +4.5",
+      "fair_spread": -5.421840369787489,
+      "fair_spread_text": "Los Angeles Chargers +5.5",
+      "fair_spread_raw_text": "Los Angeles Chargers +5.4",
       "favourite": "Houston Texans",
       "underdog": "Los Angeles Chargers",
-      "margin": "4.5",
-      "margin_raw": "4.5",
-      "total": "42.0",
-      "total_raw": "42.1",
+      "margin": "5.5",
+      "margin_raw": "5.4",
+      "total": "41.5",
+      "total_raw": "41.4",
       "display_policy": "football_half_point_v1",
       "score": {
         "away": {
@@ -87,12 +87,12 @@
         },
         "home": {
           "team": "Los Angeles Chargers",
-          "points": "19"
+          "points": "18"
         },
         "expected": {
-          "text": "Houston Texans 23.27, Los Angeles Chargers 18.81",
-          "home": 18.81,
-          "away": 23.27,
+          "text": "Houston Texans 23.41, Los Angeles Chargers 17.99",
+          "home": 17.99,
+          "away": 23.41,
           "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
         },
         "note": "Split from EdgeDesk’s own fair spread and fair total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
@@ -101,64 +101,64 @@
       "win_prob": {
         "home": "Los Angeles Chargers",
         "away": "Houston Texans",
-        "home_pct": 33,
-        "away_pct": 67,
-        "home_text": "33%",
-        "away_text": "67%",
+        "home_pct": 31,
+        "away_pct": 69,
+        "home_text": "31%",
+        "away_text": "69%",
         "bounded": false,
         "bounded_note": null,
         "favourite": "Houston Texans",
-        "favourite_pct": 67,
-        "favourite_text": "67%"
+        "favourite_pct": 69,
+        "favourite_text": "69%"
       },
       "moneyline": {
         "home": "Los Angeles Chargers",
         "away": "Houston Texans",
-        "home_odds": "+206",
-        "away_odds": "-206",
+        "home_odds": "+227",
+        "away_odds": "-227",
         "note": "EdgeDesk’s own fair price, with no margin in it. It is not a quote and nobody offers it."
       },
       "outcome_range": {
         "basis_team": "Los Angeles Chargers",
-        "p10": "-23.0",
-        "median": "-4.0",
+        "p10": "-24.0",
+        "median": "-5.0",
         "p90": "+10.0",
         "sigma": "10.7",
         "note": "Quoted from the perspective of Los Angeles Chargers, off the engine’s own learned margin distribution (conditioned on this spread, so real key-number mass is kept). Eight results in ten land inside p10–p90."
       },
       "confidence_pct": null,
-      "confidence_absent_reason": "The NFL model publishes no single confidence score. What it publishes instead is the width of the outcome range above and the sample the ratings rest on: the trained seeds through 2025, plus 108 absorbed 2026 games.",
-      "sample_games": 108,
+      "confidence_absent_reason": "The NFL model publishes no single confidence score. What it publishes instead is the width of the outcome range above and the sample the ratings rest on: the trained seeds through 2025, plus 120 absorbed 2026 games.",
+      "sample_games": 120,
       "seeded": true,
       "status": "STALE MARKET",
-      "status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 1.0-point gap is context only and the game is excluded from research ranking.",
+      "status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 0.9-point gap is context only and the game is excluded from research ranking.",
       "engine": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
       "validation": "UNPROVEN — this model does NOT beat the closing line out of sample. Research only; nothing here is graded as a bet."
     },
     "drivers": {
       "rows": [
         {
-          "points": "-3.3",
-          "points_n": -3.291134198580949,
-          "text": "Base team strength — Houston Texans by 3.3 points (last season -1.5, this season -1.8)",
+          "points": "-3.8",
+          "points_n": -3.7519260639616485,
+          "text": "Base team strength — Houston Texans by 3.8 points (last season -1.6, this season -2.2)",
           "favours": "Houston Texans"
         },
         {
           "points": "-0.2",
-          "points_n": -0.2101466586961031,
+          "points_n": -0.22195602788830926,
           "text": "Passing — Houston Texans by 0.2 points (last season -0.1, this season -0.1)",
           "favours": "Houston Texans"
         },
         {
-          "points": "+0.3",
-          "points_n": 0.2803950819758002,
-          "text": "Rushing — Los Angeles Chargers by 0.3 points (last season +0.1, this season +0.2)",
+          "points": "+0.1",
+          "points_n": 0.10499747149530513,
+          "text": "Rushing — Los Angeles Chargers by 0.1 points (last season +0.1, this season 0.0)",
           "favours": "Los Angeles Chargers"
         },
         {
-          "points": "-2.3",
-          "points_n": -2.3020543997911074,
-          "text": "Quarterback — Houston Texans by 2.3 points",
+          "points": "-2.6",
+          "points_n": -2.616678234432837,
+          "text": "Quarterback — Houston Texans by 2.6 points",
           "favours": "Houston Texans"
         },
         {
@@ -187,9 +187,9 @@
           "text": "Model baseline — home field and the league constant"
         },
         {
-          "points": "-2.6",
-          "points_n": -2.6198652475527555,
-          "text": "Combined scoring ratings — under by 2.6 points"
+          "points": "-2.9",
+          "points_n": -2.9077042773266992,
+          "text": "Combined scoring ratings — under by 2.9 points"
         },
         {
           "points": "+1.6",
@@ -197,18 +197,18 @@
           "text": "Indoors — over by 1.6 points"
         },
         {
-          "points": "-1.3",
-          "points_n": -1.2745357763646818,
-          "text": "Passing matchup, both directions — under by 1.3 points"
+          "points": "-1.5",
+          "points_n": -1.465764578761033,
+          "text": "Passing matchup, both directions — under by 1.5 points"
         },
         {
-          "points": "-0.5",
-          "points_n": -0.49006664724773064,
-          "text": "Both offences, EPA per play — under by 0.5 points"
+          "points": "-0.6",
+          "points_n": -0.6045554815608186,
+          "text": "Both offences, EPA per play — under by 0.6 points"
         },
         {
           "points": "-0.4",
-          "points_n": -0.3962778949188753,
+          "points_n": -0.4358924812895454,
           "text": "Running matchup, both directions — under by 0.4 points"
         }
       ],
@@ -233,21 +233,21 @@
               "a": {
                 "v": "+0.043",
                 "n": 0.042605879406211015,
-                "rank": "#12 of 32",
-                "rank_n": 12,
+                "rank": "#11 of 32",
+                "rank_n": 11,
                 "note": null
               },
               "h": {
-                "v": "−0.033",
-                "n": -0.03316560787377078,
-                "rank": "#20 of 32",
-                "rank_n": 20,
+                "v": "−0.057",
+                "n": -0.05716940027172973,
+                "rank": "#21 of 32",
+                "rank_n": 21,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.07577148727998179,
-                "rank_gap": 8
+                "gap": 0.09977527967794075,
+                "rank_gap": 10
               }
             },
             {
@@ -262,16 +262,16 @@
                 "note": null
               },
               "h": {
-                "v": "−3.27",
-                "n": -3.265956599310484,
-                "rank": "#29 of 32",
-                "rank_n": 29,
+                "v": "−3.86",
+                "n": -3.8616210815614735,
+                "rank": "#31 of 32",
+                "rank_n": 31,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 3.5736709184094235,
-                "rank_gap": 16
+                "gap": 4.1693354006604135,
+                "rank_gap": 18
               }
             },
             {
@@ -281,21 +281,21 @@
               "a": {
                 "v": "−1.94",
                 "n": -1.9389421957946458,
-                "rank": "#8 of 32",
-                "rank_n": 8,
+                "rank": "#9 of 32",
+                "rank_n": 9,
                 "note": null
               },
               "h": {
-                "v": "−0.97",
-                "n": -0.9743076509886047,
-                "rank": "#11 of 32",
-                "rank_n": 11,
+                "v": "−1.02",
+                "n": -1.0237315368276227,
+                "rank": "#13 of 32",
+                "rank_n": 13,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.964634544806041,
-                "rank_gap": 3
+                "gap": 0.915210658967023,
+                "rank_gap": 4
               }
             }
           ]
@@ -315,16 +315,16 @@
                 "note": null
               },
               "h": {
-                "v": "−0.110",
-                "n": -0.11002558207563498,
-                "rank": "#31 of 32",
-                "rank_n": 31,
+                "v": "−0.139",
+                "n": -0.1394327324882213,
+                "rank": "#32 of 32",
+                "rank_n": 32,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.09417457806956125,
-                "rank_gap": 14
+                "gap": 0.12358172848214757,
+                "rank_gap": 15
               }
             },
             {
@@ -334,21 +334,21 @@
               "a": {
                 "v": "+0.008",
                 "n": 0.008415506144983799,
-                "rank": "#13 of 32",
-                "rank_n": 13,
+                "rank": "#15 of 32",
+                "rank_n": 15,
                 "note": null
               },
               "h": {
-                "v": "−0.148",
-                "n": -0.1479852938545823,
+                "v": "−0.176",
+                "n": -0.17638910759915574,
                 "rank": "#30 of 32",
                 "rank_n": 30,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.1564007999995661,
-                "rank_gap": 17
+                "gap": 0.18480461374413953,
+                "rank_gap": 15
               }
             },
             {
@@ -363,16 +363,16 @@
                 "note": null
               },
               "h": {
-                "v": "−0.031",
-                "n": -0.030546976034243844,
-                "rank": "#23 of 32",
-                "rank_n": 23,
+                "v": "−0.062",
+                "n": -0.06153933713834908,
+                "rank": "#26 of 32",
+                "rank_n": 26,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.040983528593717705,
-                "rank_gap": 6
+                "gap": 0.00999116748961247,
+                "rank_gap": 3
               }
             },
             {
@@ -382,21 +382,21 @@
               "a": {
                 "v": "+0.5 pp",
                 "n": 0.004787177119079013,
-                "rank": "#11 of 32",
-                "rank_n": 11,
+                "rank": "#10 of 32",
+                "rank_n": 10,
                 "note": null
               },
               "h": {
-                "v": "−1.6 pp",
-                "n": -0.01584828856180495,
-                "rank": "#27 of 32",
-                "rank_n": 27,
+                "v": "−0.9 pp",
+                "n": -0.009255183351554567,
+                "rank": "#25 of 32",
+                "rank_n": 25,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.020635465680883962,
-                "rank_gap": 16
+                "gap": 0.014042360470633581,
+                "rank_gap": 15
               }
             },
             {
@@ -411,16 +411,16 @@
                 "note": null
               },
               "h": {
-                "v": "−0.1 pp",
-                "n": -0.0012653413853088834,
-                "rank": "#18 of 32",
-                "rank_n": 18,
+                "v": "−0.6 pp",
+                "n": -0.0058138536800800495,
+                "rank": "#21 of 32",
+                "rank_n": 21,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.01958911026989843,
-                "rank_gap": 11
+                "gap": 0.015040597975127266,
+                "rank_gap": 8
               }
             }
           ]
@@ -435,21 +435,21 @@
               "a": {
                 "v": "−0.058",
                 "n": -0.05845688341228475,
-                "rank": "#5 of 32",
-                "rank_n": 5,
+                "rank": "#7 of 32",
+                "rank_n": 7,
                 "note": null
               },
               "h": {
-                "v": "−0.077",
-                "n": -0.0768599742018642,
+                "v": "−0.082",
+                "n": -0.08226333221649157,
                 "rank": "#4 of 32",
                 "rank_n": 4,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.018403090789579454,
-                "rank_gap": 1
+                "gap": 0.02380644880420682,
+                "rank_gap": 3
               }
             },
             {
@@ -459,20 +459,20 @@
               "a": {
                 "v": "−0.090",
                 "n": -0.08988616110740218,
-                "rank": "#5 of 32",
-                "rank_n": 5,
+                "rank": "#7 of 32",
+                "rank_n": 7,
                 "note": null
               },
               "h": {
-                "v": "−0.091",
-                "n": -0.09100612565655683,
-                "rank": "#4 of 32",
-                "rank_n": 4,
+                "v": "−0.111",
+                "n": -0.11068380154252186,
+                "rank": "#6 of 32",
+                "rank_n": 6,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.0011199645491546534,
+                "gap": 0.020797640435119683,
                 "rank_gap": 1
               }
             },
@@ -483,21 +483,21 @@
               "a": {
                 "v": "−0.025",
                 "n": -0.024794732609251063,
-                "rank": "#9 of 32",
-                "rank_n": 9,
+                "rank": "#11 of 32",
+                "rank_n": 11,
                 "note": null
               },
               "h": {
-                "v": "−0.054",
-                "n": -0.05399698171252104,
-                "rank": "#3 of 32",
-                "rank_n": 3,
+                "v": "−0.041",
+                "n": -0.04108551393695524,
+                "rank": "#8 of 32",
+                "rank_n": 8,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.02920224910326998,
-                "rank_gap": 6
+                "gap": 0.016290781327704177,
+                "rank_gap": 3
               }
             },
             {
@@ -507,21 +507,21 @@
               "a": {
                 "v": "+1.9 pp",
                 "n": 0.01850381526528278,
-                "rank": "#29 of 32",
-                "rank_n": 29,
+                "rank": "#28 of 32",
+                "rank_n": 28,
                 "note": null
               },
               "h": {
-                "v": "+0.4 pp",
-                "n": 0.004005945179937444,
-                "rank": "#19 of 32",
-                "rank_n": 19,
+                "v": "−0.1 pp",
+                "n": -0.0010590313087855416,
+                "rank": "#14 of 32",
+                "rank_n": 14,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.014497870085345338,
-                "rank_gap": 10
+                "gap": 0.019562846574068322,
+                "rank_gap": 14
               }
             },
             {
@@ -531,21 +531,21 @@
               "a": {
                 "v": "−1.5 pp",
                 "n": -0.015356517810358832,
-                "rank": "#6 of 32",
-                "rank_n": 6,
+                "rank": "#7 of 32",
+                "rank_n": 7,
                 "note": null
               },
               "h": {
-                "v": "+0.7 pp",
-                "n": 0.006664823487119048,
+                "v": "+0.4 pp",
+                "n": 0.0043857451069673,
                 "rank": "#20 of 32",
                 "rank_n": 20,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.02202134129747788,
-                "rank_gap": 14
+                "gap": 0.01974226291732613,
+                "rank_gap": 13
               }
             }
           ]
@@ -560,21 +560,21 @@
               "a": {
                 "v": "−1.0 pp",
                 "n": -0.010425867206029601,
-                "rank": "#10 of 32",
-                "rank_n": 10,
+                "rank": "#11 of 32",
+                "rank_n": 11,
                 "note": null
               },
               "h": {
-                "v": "+3.5 pp",
-                "n": 0.03520423043553879,
-                "rank": "#31 of 32",
-                "rank_n": 31,
+                "v": "+3.2 pp",
+                "n": 0.0318084845755771,
+                "rank": "#30 of 32",
+                "rank_n": 30,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.04563009764156839,
-                "rank_gap": 21
+                "gap": 0.0422343517816067,
+                "rank_gap": 19
               }
             },
             {
@@ -584,21 +584,21 @@
               "a": {
                 "v": "+1.6 pp",
                 "n": 0.015552563304807338,
-                "rank": "#4 of 32",
-                "rank_n": 4,
+                "rank": "#5 of 32",
+                "rank_n": 5,
                 "note": null
               },
               "h": {
-                "v": "+0.8 pp",
-                "n": 0.007656604933912241,
-                "rank": "#10 of 32",
-                "rank_n": 10,
+                "v": "+0.6 pp",
+                "n": 0.006282586480624302,
+                "rank": "#12 of 32",
+                "rank_n": 12,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.007895958370895097,
-                "rank_gap": 6
+                "gap": 0.009269976824183035,
+                "rank_gap": 7
               }
             }
           ]
@@ -618,8 +618,8 @@
                 "note": "tendency, not a quality"
               },
               "h": {
-                "v": "−2.3 pp",
-                "n": -0.022813517528032973,
+                "v": "−1.8 pp",
+                "n": -0.01825127041606724,
                 "rank": null,
                 "rank_n": null,
                 "note": "tendency, not a quality"
@@ -638,8 +638,8 @@
                 "note": "tendency, not a quality"
               },
               "h": {
-                "v": "+0.7",
-                "n": 0.6844720503045735,
+                "v": "+0.3",
+                "n": 0.27606282982682284,
                 "rank": null,
                 "rank_n": null,
                 "note": "tendency, not a quality"
@@ -656,105 +656,105 @@
       "away": [
         {
           "k": "Sacks taken per dropback",
-          "rank_gap": 21,
-          "gap": 0.04563009764156839,
+          "rank_gap": 19,
+          "gap": 0.0422343517816067,
           "lead": "Houston Texans",
           "trail": "Los Angeles Chargers",
-          "lead_cell": "−1.0 pp · #10 of 32",
-          "trail_cell": "+3.5 pp · #31 of 32",
-          "text": "Houston Texans −1.0 pp (#10 of 32) vs Los Angeles Chargers +3.5 pp (#31 of 32) — 21 places on the league board."
-        },
-        {
-          "k": "Pass offence · EPA per dropback",
-          "rank_gap": 17,
-          "gap": 0.1564007999995661,
-          "lead": "Houston Texans",
-          "trail": "Los Angeles Chargers",
-          "lead_cell": "+0.008 · #13 of 32",
-          "trail_cell": "−0.148 · #30 of 32",
-          "text": "Houston Texans +0.008 (#13 of 32) vs Los Angeles Chargers −0.148 (#30 of 32) — 17 places on the league board."
+          "lead_cell": "−1.0 pp · #11 of 32",
+          "trail_cell": "+3.2 pp · #30 of 32",
+          "text": "Houston Texans −1.0 pp (#11 of 32) vs Los Angeles Chargers +3.2 pp (#30 of 32) — 19 places on the league board."
         },
         {
           "k": "Points scored",
-          "rank_gap": 16,
-          "gap": 3.5736709184094235,
+          "rank_gap": 18,
+          "gap": 4.1693354006604135,
           "lead": "Houston Texans",
           "trail": "Los Angeles Chargers",
           "lead_cell": "+0.31 · #13 of 32",
-          "trail_cell": "−3.27 · #29 of 32",
-          "text": "Houston Texans +0.31 (#13 of 32) vs Los Angeles Chargers −3.27 (#29 of 32) — 16 places on the league board."
-        },
-        {
-          "k": "Explosive pass rate",
-          "rank_gap": 16,
-          "gap": 0.020635465680883962,
-          "lead": "Houston Texans",
-          "trail": "Los Angeles Chargers",
-          "lead_cell": "+0.5 pp · #11 of 32",
-          "trail_cell": "−1.6 pp · #27 of 32",
-          "text": "Houston Texans +0.5 pp (#11 of 32) vs Los Angeles Chargers −1.6 pp (#27 of 32) — 16 places on the league board."
+          "trail_cell": "−3.86 · #31 of 32",
+          "text": "Houston Texans +0.31 (#13 of 32) vs Los Angeles Chargers −3.86 (#31 of 32) — 18 places on the league board."
         },
         {
           "k": "Offence · EPA per play",
-          "rank_gap": 14,
-          "gap": 0.09417457806956125,
+          "rank_gap": 15,
+          "gap": 0.12358172848214757,
           "lead": "Houston Texans",
           "trail": "Los Angeles Chargers",
           "lead_cell": "−0.016 · #17 of 32",
-          "trail_cell": "−0.110 · #31 of 32",
-          "text": "Houston Texans −0.016 (#17 of 32) vs Los Angeles Chargers −0.110 (#31 of 32) — 14 places on the league board."
+          "trail_cell": "−0.139 · #32 of 32",
+          "text": "Houston Texans −0.016 (#17 of 32) vs Los Angeles Chargers −0.139 (#32 of 32) — 15 places on the league board."
+        },
+        {
+          "k": "Pass offence · EPA per dropback",
+          "rank_gap": 15,
+          "gap": 0.18480461374413953,
+          "lead": "Houston Texans",
+          "trail": "Los Angeles Chargers",
+          "lead_cell": "+0.008 · #15 of 32",
+          "trail_cell": "−0.176 · #30 of 32",
+          "text": "Houston Texans +0.008 (#15 of 32) vs Los Angeles Chargers −0.176 (#30 of 32) — 15 places on the league board."
+        },
+        {
+          "k": "Explosive pass rate",
+          "rank_gap": 15,
+          "gap": 0.014042360470633581,
+          "lead": "Houston Texans",
+          "trail": "Los Angeles Chargers",
+          "lead_cell": "+0.5 pp · #10 of 32",
+          "trail_cell": "−0.9 pp · #25 of 32",
+          "text": "Houston Texans +0.5 pp (#10 of 32) vs Los Angeles Chargers −0.9 pp (#25 of 32) — 15 places on the league board."
         }
       ],
       "home": [
         {
-          "k": "Explosive run rate",
-          "rank_gap": 11,
-          "gap": 0.01958911026989843,
+          "k": "Explosive passes allowed",
+          "rank_gap": 14,
+          "gap": 0.019562846574068322,
           "lead": "Los Angeles Chargers",
           "trail": "Houston Texans",
-          "lead_cell": "−0.1 pp · #18 of 32",
-          "trail_cell": "−2.1 pp · #29 of 32",
-          "text": "Los Angeles Chargers −0.1 pp (#18 of 32) vs Houston Texans −2.1 pp (#29 of 32) — 11 places on the league board."
+          "lead_cell": "−0.1 pp · #14 of 32",
+          "trail_cell": "+1.9 pp · #28 of 32",
+          "text": "Los Angeles Chargers −0.1 pp (#14 of 32) vs Houston Texans +1.9 pp (#28 of 32) — 14 places on the league board."
         },
         {
-          "k": "Explosive passes allowed",
-          "rank_gap": 10,
-          "gap": 0.014497870085345338,
+          "k": "Explosive run rate",
+          "rank_gap": 8,
+          "gap": 0.015040597975127266,
           "lead": "Los Angeles Chargers",
           "trail": "Houston Texans",
-          "lead_cell": "+0.4 pp · #19 of 32",
-          "trail_cell": "+1.9 pp · #29 of 32",
-          "text": "Los Angeles Chargers +0.4 pp (#19 of 32) vs Houston Texans +1.9 pp (#29 of 32) — 10 places on the league board."
+          "lead_cell": "−0.6 pp · #21 of 32",
+          "trail_cell": "−2.1 pp · #29 of 32",
+          "text": "Los Angeles Chargers −0.6 pp (#21 of 32) vs Houston Texans −2.1 pp (#29 of 32) — 8 places on the league board."
         },
         {
           "k": "Run offence · EPA per carry",
-          "rank_gap": 6,
-          "gap": 0.040983528593717705,
+          "rank_gap": 3,
+          "gap": 0.00999116748961247,
           "lead": "Los Angeles Chargers",
           "trail": "Houston Texans",
-          "lead_cell": "−0.031 · #23 of 32",
+          "lead_cell": "−0.062 · #26 of 32",
           "trail_cell": "−0.072 · #29 of 32",
-          "text": "Los Angeles Chargers −0.031 (#23 of 32) vs Houston Texans −0.072 (#29 of 32) — 6 places on the league board."
-        },
-        {
-          "k": "Run defence · EPA allowed per carry",
-          "rank_gap": 6,
-          "gap": 0.02920224910326998,
-          "lead": "Los Angeles Chargers",
-          "trail": "Houston Texans",
-          "lead_cell": "−0.054 · #3 of 32",
-          "trail_cell": "−0.025 · #9 of 32",
-          "text": "Los Angeles Chargers −0.054 (#3 of 32) vs Houston Texans −0.025 (#9 of 32) — 6 places on the league board."
+          "text": "Los Angeles Chargers −0.062 (#26 of 32) vs Houston Texans −0.072 (#29 of 32) — 3 places on the league board."
         },
         {
           "k": "Defence · EPA allowed per play",
-          "rank_gap": 1,
-          "gap": 0.018403090789579454,
+          "rank_gap": 3,
+          "gap": 0.02380644880420682,
           "lead": "Los Angeles Chargers",
           "trail": "Houston Texans",
-          "lead_cell": "−0.077 · #4 of 32",
-          "trail_cell": "−0.058 · #5 of 32",
-          "text": "Los Angeles Chargers −0.077 (#4 of 32) vs Houston Texans −0.058 (#5 of 32) — 1 place on the league board."
+          "lead_cell": "−0.082 · #4 of 32",
+          "trail_cell": "−0.058 · #7 of 32",
+          "text": "Los Angeles Chargers −0.082 (#4 of 32) vs Houston Texans −0.058 (#7 of 32) — 3 places on the league board."
+        },
+        {
+          "k": "Run defence · EPA allowed per carry",
+          "rank_gap": 3,
+          "gap": 0.016290781327704177,
+          "lead": "Los Angeles Chargers",
+          "trail": "Houston Texans",
+          "lead_cell": "−0.041 · #8 of 32",
+          "trail_cell": "−0.025 · #11 of 32",
+          "text": "Los Angeles Chargers −0.041 (#8 of 32) vs Houston Texans −0.025 (#11 of 32) — 3 places on the league board."
         }
       ],
       "measured": [],
@@ -769,26 +769,26 @@
           "team": "Houston Texans",
           "label": "pass offence",
           "v": "+0.008",
-          "rank": "#13 of 32",
+          "rank": "#15 of 32",
           "note": null
         },
         "def": {
           "team": "Los Angeles Chargers",
           "label": "pass defence",
-          "v": "−0.091",
-          "rank": "#4 of 32",
+          "v": "−0.111",
+          "rank": "#6 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.08259061951157304,
-        "read": "Houston Texans’ pass offence rates +0.008 (#13 of 32) and Los Angeles Chargers’ pass defence rates −0.091 (#4 of 32). Added the way the model adds them, this pairing sits −0.083 from the league mean, which favours Los Angeles Chargers."
+        "net": -0.10226829539753807,
+        "read": "Houston Texans’ pass offence rates +0.008 (#15 of 32) and Los Angeles Chargers’ pass defence rates −0.111 (#6 of 32). Added the way the model adds them, this pairing sits −0.102 from the league mean, which favours Los Angeles Chargers."
       },
       {
         "title": "Los Angeles Chargers pass offence vs Houston Texans pass defence",
         "att": {
           "team": "Los Angeles Chargers",
           "label": "pass offence",
-          "v": "−0.148",
+          "v": "−0.176",
           "rank": "#30 of 32",
           "note": null
         },
@@ -796,12 +796,12 @@
           "team": "Houston Texans",
           "label": "pass defence",
           "v": "−0.090",
-          "rank": "#5 of 32",
+          "rank": "#7 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.23787145496198447,
-        "read": "Los Angeles Chargers’ pass offence rates −0.148 (#30 of 32) and Houston Texans’ pass defence rates −0.090 (#5 of 32). Added the way the model adds them, this pairing sits −0.238 from the league mean, which favours Houston Texans."
+        "net": -0.26627526870655793,
+        "read": "Los Angeles Chargers’ pass offence rates −0.176 (#30 of 32) and Houston Texans’ pass defence rates −0.090 (#7 of 32). Added the way the model adds them, this pairing sits −0.266 from the league mean, which favours Houston Texans."
       },
       {
         "title": "Houston Texans run offence vs Los Angeles Chargers run defence",
@@ -815,33 +815,33 @@
         "def": {
           "team": "Los Angeles Chargers",
           "label": "run defence",
-          "v": "−0.054",
-          "rank": "#3 of 32",
+          "v": "−0.041",
+          "rank": "#8 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.1255274863404826,
-        "read": "Houston Texans’ run offence rates −0.072 (#29 of 32) and Los Angeles Chargers’ run defence rates −0.054 (#3 of 32). Added the way the model adds them, this pairing sits −0.126 from the league mean, which favours Los Angeles Chargers."
+        "net": -0.11261601856491679,
+        "read": "Houston Texans’ run offence rates −0.072 (#29 of 32) and Los Angeles Chargers’ run defence rates −0.041 (#8 of 32). Added the way the model adds them, this pairing sits −0.113 from the league mean, which favours Los Angeles Chargers."
       },
       {
         "title": "Los Angeles Chargers run offence vs Houston Texans run defence",
         "att": {
           "team": "Los Angeles Chargers",
           "label": "run offence",
-          "v": "−0.031",
-          "rank": "#23 of 32",
+          "v": "−0.062",
+          "rank": "#26 of 32",
           "note": null
         },
         "def": {
           "team": "Houston Texans",
           "label": "run defence",
           "v": "−0.025",
-          "rank": "#9 of 32",
+          "rank": "#11 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.05534170864349491,
-        "read": "Los Angeles Chargers’ run offence rates −0.031 (#23 of 32) and Houston Texans’ run defence rates −0.025 (#9 of 32). Added the way the model adds them, this pairing sits −0.055 from the league mean, which favours Houston Texans."
+        "net": -0.08633406974760015,
+        "read": "Los Angeles Chargers’ run offence rates −0.062 (#26 of 32) and Houston Texans’ run defence rates −0.025 (#11 of 32). Added the way the model adds them, this pairing sits −0.086 from the league mean, which favours Houston Texans."
       },
       {
         "title": "Houston Texans pass protection vs Los Angeles Chargers pass rush",
@@ -849,39 +849,39 @@
           "team": "Houston Texans",
           "label": "pass protection",
           "v": "−1.0 pp",
-          "rank": "#10 of 32",
+          "rank": "#11 of 32",
           "note": null
         },
         "def": {
           "team": "Los Angeles Chargers",
           "label": "pass rush",
-          "v": "+0.8 pp",
-          "rank": "#10 of 32",
+          "v": "+0.6 pp",
+          "rank": "#12 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.0027692622721173605,
-        "read": "Houston Texans’ pass protection rates −1.0 pp (#10 of 32) and Los Angeles Chargers’ pass rush rates +0.8 pp (#10 of 32). Added the way the model adds them, this pairing sits −0.3 pp from the league mean, which favours Houston Texans."
+        "net": -0.004143280725405299,
+        "read": "Houston Texans’ pass protection rates −1.0 pp (#11 of 32) and Los Angeles Chargers’ pass rush rates +0.6 pp (#12 of 32). Added the way the model adds them, this pairing sits −0.4 pp from the league mean, which favours Houston Texans."
       },
       {
         "title": "Los Angeles Chargers pass protection vs Houston Texans pass rush",
         "att": {
           "team": "Los Angeles Chargers",
           "label": "pass protection",
-          "v": "+3.5 pp",
-          "rank": "#31 of 32",
+          "v": "+3.2 pp",
+          "rank": "#30 of 32",
           "note": null
         },
         "def": {
           "team": "Houston Texans",
           "label": "pass rush",
           "v": "+1.6 pp",
-          "rank": "#4 of 32",
+          "rank": "#5 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.050756793740346126,
-        "read": "Los Angeles Chargers’ pass protection rates +3.5 pp (#31 of 32) and Houston Texans’ pass rush rates +1.6 pp (#4 of 32). Added the way the model adds them, this pairing sits +5.1 pp from the league mean, which favours Houston Texans."
+        "net": 0.047361047880384435,
+        "read": "Los Angeles Chargers’ pass protection rates +3.2 pp (#30 of 32) and Houston Texans’ pass rush rates +1.6 pp (#5 of 32). Added the way the model adds them, this pairing sits +4.7 pp from the league mean, which favours Houston Texans."
       },
       {
         "title": "Houston Texans explosive passing vs Los Angeles Chargers explosive passes allowed",
@@ -889,39 +889,39 @@
           "team": "Houston Texans",
           "label": "explosive passing",
           "v": "+0.5 pp",
-          "rank": "#11 of 32",
+          "rank": "#10 of 32",
           "note": null
         },
         "def": {
           "team": "Los Angeles Chargers",
           "label": "explosive passes allowed",
-          "v": "+0.4 pp",
-          "rank": "#19 of 32",
+          "v": "−0.1 pp",
+          "rank": "#14 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.008793122299016458,
-        "read": "Houston Texans’ explosive passing rates +0.5 pp (#11 of 32) and Los Angeles Chargers’ explosive passes allowed rates +0.4 pp (#19 of 32). Added the way the model adds them, this pairing sits +0.9 pp from the league mean, which favours Houston Texans."
+        "net": 0.0037281458102934716,
+        "read": "Houston Texans’ explosive passing rates +0.5 pp (#10 of 32) and Los Angeles Chargers’ explosive passes allowed rates −0.1 pp (#14 of 32). Added the way the model adds them, this pairing sits +0.4 pp from the league mean, which favours Houston Texans."
       },
       {
         "title": "Los Angeles Chargers explosive passing vs Houston Texans explosive passes allowed",
         "att": {
           "team": "Los Angeles Chargers",
           "label": "explosive passing",
-          "v": "−1.6 pp",
-          "rank": "#27 of 32",
+          "v": "−0.9 pp",
+          "rank": "#25 of 32",
           "note": null
         },
         "def": {
           "team": "Houston Texans",
           "label": "explosive passes allowed",
           "v": "+1.9 pp",
-          "rank": "#29 of 32",
+          "rank": "#28 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.0026555267034778333,
-        "read": "Los Angeles Chargers’ explosive passing rates −1.6 pp (#27 of 32) and Houston Texans’ explosive passes allowed rates +1.9 pp (#29 of 32). Added the way the model adds them, this pairing sits +0.3 pp from the league mean, which favours Los Angeles Chargers."
+        "net": 0.009248631913728215,
+        "read": "Los Angeles Chargers’ explosive passing rates −0.9 pp (#25 of 32) and Houston Texans’ explosive passes allowed rates +1.9 pp (#28 of 32). Added the way the model adds them, this pairing sits +0.9 pp from the league mean, which favours Los Angeles Chargers."
       },
       {
         "title": "Houston Texans explosive running vs Los Angeles Chargers explosive runs allowed",
@@ -935,33 +935,33 @@
         "def": {
           "team": "Los Angeles Chargers",
           "label": "explosive runs allowed",
-          "v": "+0.7 pp",
+          "v": "+0.4 pp",
           "rank": "#20 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.014189628168088268,
-        "read": "Houston Texans’ explosive running rates −2.1 pp (#29 of 32) and Los Angeles Chargers’ explosive runs allowed rates +0.7 pp (#20 of 32). Added the way the model adds them, this pairing sits −1.4 pp from the league mean, which favours Los Angeles Chargers."
+        "net": -0.016468706548240016,
+        "read": "Houston Texans’ explosive running rates −2.1 pp (#29 of 32) and Los Angeles Chargers’ explosive runs allowed rates +0.4 pp (#20 of 32). Added the way the model adds them, this pairing sits −1.6 pp from the league mean, which favours Los Angeles Chargers."
       },
       {
         "title": "Los Angeles Chargers explosive running vs Houston Texans explosive runs allowed",
         "att": {
           "team": "Los Angeles Chargers",
           "label": "explosive running",
-          "v": "−0.1 pp",
-          "rank": "#18 of 32",
+          "v": "−0.6 pp",
+          "rank": "#21 of 32",
           "note": null
         },
         "def": {
           "team": "Houston Texans",
           "label": "explosive runs allowed",
           "v": "−1.5 pp",
-          "rank": "#6 of 32",
+          "rank": "#7 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.016621859195667714,
-        "read": "Los Angeles Chargers’ explosive running rates −0.1 pp (#18 of 32) and Houston Texans’ explosive runs allowed rates −1.5 pp (#6 of 32). Added the way the model adds them, this pairing sits −1.7 pp from the league mean, which favours Houston Texans."
+        "net": -0.02117037149043888,
+        "read": "Los Angeles Chargers’ explosive running rates −0.6 pp (#21 of 32) and Houston Texans’ explosive runs allowed rates −1.5 pp (#7 of 32). Added the way the model adds them, this pairing sits −2.1 pp from the league mean, which favours Houston Texans."
       }
     ],
     "panels": [
@@ -994,7 +994,7 @@
           {
             "k": "Learned sample",
             "a": "57 learned starts",
-            "h": "103 learned starts",
+            "h": "104 learned starts",
             "note": "starts the QB layer has actually absorbed"
           },
           {
@@ -1011,7 +1011,7 @@
           }
         ],
         "reads": [
-          "The quarterback difference is worth -2.3 points of the projected spread — the engine’s own qb_adj_diff term, and the only place a quarterback moves this number.",
+          "The quarterback difference is worth -2.6 points of the projected spread — the engine’s own qb_adj_diff term, and the only place a quarterback moves this number.",
           "Both starters are confirmed by the schedule feed, so the quarterback term is priced from the learned value of the two players actually named.",
           "The learned QB layer is identity-keyed and value-only: it says how a quarterback has played, never how he is feeling, and it knows nothing about a start nobody has announced."
         ]
@@ -1084,7 +1084,7 @@
         ],
         "reads": [
           "Each situational factor is shown with the points the engine’s own context model assigned it, so nothing here is a rule of thumb. A factor with no weight in the fit is worth nothing in this number and says so rather than being quietly rounded up.",
-          "The ratings behind this projection are the trained seeds plus 108 absorbed 2026 games; early in a season that means the prior is still carrying most of the weight."
+          "The ratings behind this projection are the trained seeds plus 120 absorbed 2026 games; early in a season that means the prior is still carrying most of the weight."
         ]
       }
     ],
@@ -1093,9 +1093,9 @@
         "team": "Houston Texans",
         "heading": "Why Houston Texans can pull away",
         "bullets": [
-          "Base team strength — Houston Texans by 3.3 points (last season -1.5, this season -1.8) (-3.3 pts).",
+          "Base team strength — Houston Texans by 3.8 points (last season -1.6, this season -2.2) (-3.8 pts).",
           "Passing — Houston Texans by 0.2 points (last season -0.1, this season -0.1) (-0.2 pts).",
-          "Quarterback — Houston Texans by 2.3 points (-2.3 pts).",
+          "Quarterback — Houston Texans by 2.6 points (-2.6 pts).",
           "Context (venue, division) — Houston Texans by 0.3 points (-0.3 pts).",
           "Rest / travel — Houston Texans by 1.8 points (-1.8 pts)."
         ]
@@ -1104,11 +1104,11 @@
         "team": "Los Angeles Chargers",
         "heading": "Why Los Angeles Chargers can keep it close",
         "bullets": [
-          "Rushing — Los Angeles Chargers by 0.3 points (last season +0.1, this season +0.2) (+0.3 pts).",
           "Home field — Los Angeles Chargers by 3.2 points (+3.2 pts).",
-          "Explosive run rate: Los Angeles Chargers −0.1 pp (#18 of 32) vs Houston Texans −2.1 pp (#29 of 32) — 11 places on the league board.",
-          "Explosive passes allowed: Los Angeles Chargers +0.4 pp (#19 of 32) vs Houston Texans +1.9 pp (#29 of 32) — 10 places on the league board.",
-          "Run offence · EPA per carry: Los Angeles Chargers −0.031 (#23 of 32) vs Houston Texans −0.072 (#29 of 32) — 6 places on the league board."
+          "Explosive passes allowed: Los Angeles Chargers −0.1 pp (#14 of 32) vs Houston Texans +1.9 pp (#28 of 32) — 14 places on the league board.",
+          "Explosive run rate: Los Angeles Chargers −0.6 pp (#21 of 32) vs Houston Texans −2.1 pp (#29 of 32) — 8 places on the league board.",
+          "Run offence · EPA per carry: Los Angeles Chargers −0.062 (#26 of 32) vs Houston Texans −0.072 (#29 of 32) — 3 places on the league board.",
+          "The outcome range runs -24.0 to +10.0 for Los Angeles Chargers, off the engine’s own learned margin distribution. A projection of about 5.5 points still loses outright often."
         ]
       },
       "note": "Football cases assembled from measured states — a fitted driver, a rating gap, a combined matchup or the model’s own range. Neither side is a bet and neither is advice."
@@ -1158,29 +1158,29 @@
     },
     "market": {
       "available": true,
-      "model": "Los Angeles Chargers +4.5",
-      "model_raw": "Los Angeles Chargers +4.5",
-      "market": "Los Angeles Chargers +3.5",
-      "difference": "1.0 points",
-      "rounding_note": null,
+      "model": "Los Angeles Chargers +5.5",
+      "model_raw": "Los Angeles Chargers +5.4",
+      "market": "Los Angeles Chargers +4.5",
+      "difference": "0.9 points",
+      "rounding_note": "Fair lines rounded to nearest half-point; differences use unrounded projections.",
       "key_number": null,
-      "total_model": "42.0",
-      "total_model_raw": "42.1",
-      "total_market": "42.5",
+      "total_model": "41.5",
+      "total_model_raw": "41.4",
+      "total_market": "40.5",
       "total_rounding_note": "Fair lines rounded to nearest half-point; differences use unrounded projections.",
-      "total_difference": "0.4 points",
+      "total_difference": "0.9 points",
       "book": "nflverse reference",
       "capture_age": null,
       "stale": false,
       "classification": "STALE MARKET",
-      "classification_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 1.0-point gap is context only and the game is excluded from research ranking.",
+      "classification_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 0.9-point gap is context only and the game is excluded from research ranking.",
       "reference": "These are nflverse consensus reference numbers, not a live bettable quote.",
       "note": "EdgeDesk compares its own number with a captured price. The comparison is a research state, not a bet — and out of sample this model does not beat the close."
     },
-    "headline": "EdgeDesk projects Houston Texans 23, Los Angeles Chargers 19.",
+    "headline": "EdgeDesk projects Houston Texans 23, Los Angeles Chargers 18.",
     "state": {
       "label": "STALE MARKET",
-      "note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 1.0-point gap is context only and the game is excluded from research ranking.",
+      "note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 0.9-point gap is context only and the game is excluded from research ranking.",
       "scope": "This describes the state of EdgeDesk’s model-versus-market research on this game. It is not a statement about whether the matchup is worth researching."
     },
     "score": {
@@ -1190,12 +1190,12 @@
       },
       "home": {
         "team": "Los Angeles Chargers",
-        "points": "19"
+        "points": "18"
       },
       "expected": {
-        "text": "Houston Texans 23.27, Los Angeles Chargers 18.81",
-        "home": 18.81,
-        "away": 23.27,
+        "text": "Houston Texans 23.41, Los Angeles Chargers 17.99",
+        "home": 17.99,
+        "away": 23.41,
         "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
       },
       "note": "Split from EdgeDesk’s own fair spread and fair total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
@@ -1208,120 +1208,120 @@
       "rows": [
         {
           "k": "Net EPA per play",
-          "a": "+0.043  #12 of 32",
-          "h": "−0.033  #20 of 32",
+          "a": "+0.043  #11 of 32",
+          "h": "−0.057  #21 of 32",
           "note": "offence EPA per play minus defence EPA allowed per play — the engine’s own net_epa half"
         },
         {
           "k": "Points scored",
           "a": "+0.31  #13 of 32",
-          "h": "−3.27  #29 of 32",
+          "h": "−3.86  #31 of 32",
           "note": null
         },
         {
           "k": "Points allowed",
-          "a": "−1.94  #8 of 32",
-          "h": "−0.97  #11 of 32",
+          "a": "−1.94  #9 of 32",
+          "h": "−1.02  #13 of 32",
           "note": null
         },
         {
           "k": "Offence · EPA per play",
           "a": "−0.016  #17 of 32",
-          "h": "−0.110  #31 of 32",
+          "h": "−0.139  #32 of 32",
           "note": null
         },
         {
           "k": "Pass offence · EPA per dropback",
-          "a": "+0.008  #13 of 32",
-          "h": "−0.148  #30 of 32",
+          "a": "+0.008  #15 of 32",
+          "h": "−0.176  #30 of 32",
           "note": null
         },
         {
           "k": "Run offence · EPA per carry",
           "a": "−0.072  #29 of 32",
-          "h": "−0.031  #23 of 32",
+          "h": "−0.062  #26 of 32",
           "note": null
         },
         {
           "k": "Explosive pass rate",
-          "a": "+0.5 pp  #11 of 32",
-          "h": "−1.6 pp  #27 of 32",
+          "a": "+0.5 pp  #10 of 32",
+          "h": "−0.9 pp  #25 of 32",
           "note": "20+ yard pass plays per attempt"
         },
         {
           "k": "Explosive run rate",
           "a": "−2.1 pp  #29 of 32",
-          "h": "−0.1 pp  #18 of 32",
+          "h": "−0.6 pp  #21 of 32",
           "note": "10+ yard runs per carry"
         },
         {
           "k": "Defence · EPA allowed per play",
-          "a": "−0.058  #5 of 32",
-          "h": "−0.077  #4 of 32",
+          "a": "−0.058  #7 of 32",
+          "h": "−0.082  #4 of 32",
           "note": null
         },
         {
           "k": "Pass defence · EPA allowed per dropback",
-          "a": "−0.090  #5 of 32",
-          "h": "−0.091  #4 of 32",
+          "a": "−0.090  #7 of 32",
+          "h": "−0.111  #6 of 32",
           "note": null
         },
         {
           "k": "Run defence · EPA allowed per carry",
-          "a": "−0.025  #9 of 32",
-          "h": "−0.054  #3 of 32",
+          "a": "−0.025  #11 of 32",
+          "h": "−0.041  #8 of 32",
           "note": null
         },
         {
           "k": "Explosive passes allowed",
-          "a": "+1.9 pp  #29 of 32",
-          "h": "+0.4 pp  #19 of 32",
+          "a": "+1.9 pp  #28 of 32",
+          "h": "−0.1 pp  #14 of 32",
           "note": null
         },
         {
           "k": "Explosive runs allowed",
-          "a": "−1.5 pp  #6 of 32",
-          "h": "+0.7 pp  #20 of 32",
+          "a": "−1.5 pp  #7 of 32",
+          "h": "+0.4 pp  #20 of 32",
           "note": null
         },
         {
           "k": "Sacks taken per dropback",
-          "a": "−1.0 pp  #10 of 32",
-          "h": "+3.5 pp  #31 of 32",
+          "a": "−1.0 pp  #11 of 32",
+          "h": "+3.2 pp  #30 of 32",
           "note": "pass protection — the only offensive-line number the NFL model carries"
         },
         {
           "k": "Sacks generated per dropback",
-          "a": "+1.6 pp  #4 of 32",
-          "h": "+0.8 pp  #10 of 32",
+          "a": "+1.6 pp  #5 of 32",
+          "h": "+0.6 pp  #12 of 32",
           "note": "pass rush — the only defensive-front number the NFL model carries"
         },
         {
           "k": "Pass rate",
           "a": "+2.3 pp",
-          "h": "−2.3 pp",
+          "h": "−1.8 pp",
           "note": "how often they throw. A tendency, not a quality, so no side is marked ahead"
         },
         {
           "k": "Plays per game",
           "a": "+0.2",
-          "h": "+0.7",
+          "h": "+0.3",
           "note": "pace. A tendency, not a quality"
         }
       ]
     },
     "notes": [
-      "EdgeDesk’s line is Los Angeles Chargers +4.5 with a fair total of 42.0, before any book is consulted.",
-      "Los Angeles Chargers wins 33% of the time in EdgeDesk’s distribution, Houston Texans 67%."
+      "EdgeDesk’s line is Los Angeles Chargers +5.5 with a fair total of 41.5, before any book is consulted.",
+      "Los Angeles Chargers wins 31% of the time in EdgeDesk’s distribution, Houston Texans 69%."
     ],
     "missing": [],
     "priced_label": "PRICED BY MODEL — the projection and its additive drivers, from the inputs the NFL model actually fits.",
     "context_label": "RESEARCH CONTEXT — every rating below is opponent-adjusted and printed as a deviation from the league mean. The injury report and the quarterback panel explain the matchup and move no priced number.",
-    "source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 108 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice."
+    "source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 120 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice."
   },
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T00:36:55.151Z"
+    "at": "2026-11-02T19:27:46.096Z"
   }
 }

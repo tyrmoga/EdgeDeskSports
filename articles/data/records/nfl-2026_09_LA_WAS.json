@@ -11,8 +11,8 @@
   ],
   "title": "Los Angeles Rams vs. Washington Commanders: EdgeDesk Model Projection, Matchup Analysis and Fair Spread",
   "seo_title": "Los Angeles Rams vs. Washington Commanders 2026: EdgeDesk Fair Spread & Model Projection",
-  "seo_description": "EdgeDesk fair spread for Los Angeles Rams at Washington Commanders: Washington Commanders +4.0, fair total 49.0. Los Angeles Rams wins 65% of simulations. Model status STALE MARKET. Research, not picks.",
-  "excerpt": "Los Angeles Rams carries the stronger EdgeDesk offensive profile (#8 in EPA per play) and the better defensive rating with it, so the ratings point the same way on both sides of the ball. EdgeDesk’s independent projection makes it Washington Commanders…",
+  "seo_description": "EdgeDesk fair spread for Los Angeles Rams at Washington Commanders: Washington Commanders +3.0, fair total 48.0. Los Angeles Rams wins 57% of simulations. Model status STALE MARKET. Research, not picks.",
+  "excerpt": "Los Angeles Rams carries the stronger EdgeDesk offensive profile (#7 in EPA per play) and the better defensive rating with it, so the ratings point the same way on both sides of the ball. EdgeDesk’s independent projection makes it Washington Commanders…",
   "home_team": "Washington Commanders",
   "away_team": "Los Angeles Rams",
   "venue": "Northwest Stadium",
@@ -23,15 +23,15 @@
   "game_time": "2026-11-08T18:00:00.000Z",
   "game_when_label": "2026-11-08 18:00 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T00:36:55.151Z",
-  "generated_at": "2026-11-02T00:36:55.151Z",
+  "updated_at": "2026-11-02T19:27:46.096Z",
+  "generated_at": "2026-11-02T19:27:46.096Z",
   "model_version": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
   "model_status": "STALE MARKET",
-  "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 1.5-point gap is context only and the game is excluded from research ranking.",
+  "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.7-point gap is context only and the game is excluded from research ranking.",
   "confidence": null,
   "priced": true,
-  "fair_spread_text": "Washington Commanders +4.0",
-  "fair_total": "49.0",
+  "fair_spread_text": "Washington Commanders +3.0",
+  "fair_total": "48.0",
   "hero_image": null,
   "canonical_url": "https://edgedesksports.com/articles/los-angeles-rams-vs-washington-commanders-2026",
   "terminal_url": "https://edgedesksports.com/app.html#research/football",
@@ -43,7 +43,7 @@
   "frozen_at": null,
   "author": "EdgeDesk Research",
   "publisher": "EdgeDesk Sports",
-  "research_source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 108 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice.",
+  "research_source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 120 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice.",
   "market_source": null,
   "research": {
     "kind": "NFL_GAME",
@@ -63,36 +63,36 @@
       "conference_line": "outdoors · grass · division game"
     },
     "lede": [
-      "Los Angeles Rams carries the stronger EdgeDesk offensive profile (#8 in EPA per play) and the better defensive rating with it, so the ratings point the same way on both sides of the ball.",
-      "EdgeDesk’s independent projection makes it Washington Commanders +4.0 with a fair total of 49.0 — inside a touchdown, before any sportsbook number is consulted.",
-      "The widest measured matchup on the board is Los Angeles Rams pass offence vs Washington Commanders pass defence, which sits +0.141 from the league mean once the two ratings are combined the way the model combines them.",
+      "Los Angeles Rams carries the stronger EdgeDesk offensive profile (#7 in EPA per play) and the better defensive rating with it, so the ratings point the same way on both sides of the ball.",
+      "EdgeDesk’s independent projection makes it Washington Commanders +3.0 with a fair total of 48.0 — approximately a one-score game, before any sportsbook number is consulted.",
+      "The widest measured matchup on the board is Los Angeles Rams run offence vs Washington Commanders run defence, which sits +0.129 from the league mean once the two ratings are combined the way the model combines them.",
       "The largest uncertainty is availability: NFL injury report — not loaded in this session."
     ],
     "projection": {
       "priced": true,
-      "fair_spread": -3.9833541046238845,
-      "fair_spread_text": "Washington Commanders +4.0",
-      "fair_spread_raw_text": "Washington Commanders +4.0",
+      "fair_spread": -2.7829844444779814,
+      "fair_spread_text": "Washington Commanders +3.0",
+      "fair_spread_raw_text": "Washington Commanders +2.8",
       "favourite": "Los Angeles Rams",
       "underdog": "Washington Commanders",
-      "margin": "4.0",
-      "margin_raw": "4.0",
-      "total": "49.0",
-      "total_raw": "48.9",
+      "margin": "3.0",
+      "margin_raw": "2.8",
+      "total": "48.0",
+      "total_raw": "48.0",
       "display_policy": "football_half_point_v1",
       "score": {
         "away": {
           "team": "Los Angeles Rams",
-          "points": "26"
+          "points": "25"
         },
         "home": {
           "team": "Washington Commanders",
-          "points": "22"
+          "points": "23"
         },
         "expected": {
-          "text": "Los Angeles Rams 26.43, Washington Commanders 22.45",
-          "home": 22.45,
-          "away": 26.43,
+          "text": "Los Angeles Rams 25.39, Washington Commanders 22.61",
+          "home": 22.61,
+          "away": 25.39,
           "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
         },
         "note": "Split from EdgeDesk’s own fair spread and fair total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
@@ -101,65 +101,65 @@
       "win_prob": {
         "home": "Washington Commanders",
         "away": "Los Angeles Rams",
-        "home_pct": 35,
-        "away_pct": 65,
-        "home_text": "35%",
-        "away_text": "65%",
+        "home_pct": 43,
+        "away_pct": 57,
+        "home_text": "43%",
+        "away_text": "57%",
         "bounded": false,
         "bounded_note": null,
         "favourite": "Los Angeles Rams",
-        "favourite_pct": 65,
-        "favourite_text": "65%"
+        "favourite_pct": 57,
+        "favourite_text": "57%"
       },
       "moneyline": {
         "home": "Washington Commanders",
         "away": "Los Angeles Rams",
-        "home_odds": "+189",
-        "away_odds": "-189",
+        "home_odds": "+132",
+        "away_odds": "-132",
         "note": "EdgeDesk’s own fair price, with no margin in it. It is not a quote and nobody offers it."
       },
       "outcome_range": {
         "basis_team": "Washington Commanders",
-        "p10": "-22.0",
-        "median": "-4.0",
-        "p90": "+11.0",
+        "p10": "-20.0",
+        "median": "-3.0",
+        "p90": "+16.0",
         "sigma": "10.7",
         "note": "Quoted from the perspective of Washington Commanders, off the engine’s own learned margin distribution (conditioned on this spread, so real key-number mass is kept). Eight results in ten land inside p10–p90."
       },
       "confidence_pct": null,
-      "confidence_absent_reason": "The NFL model publishes no single confidence score. What it publishes instead is the width of the outcome range above and the sample the ratings rest on: the trained seeds through 2025, plus 108 absorbed 2026 games.",
-      "sample_games": 108,
+      "confidence_absent_reason": "The NFL model publishes no single confidence score. What it publishes instead is the width of the outcome range above and the sample the ratings rest on: the trained seeds through 2025, plus 120 absorbed 2026 games.",
+      "sample_games": 120,
       "seeded": true,
       "status": "STALE MARKET",
-      "status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 1.5-point gap is context only and the game is excluded from research ranking.",
+      "status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.7-point gap is context only and the game is excluded from research ranking.",
       "engine": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
       "validation": "UNPROVEN — this model does NOT beat the closing line out of sample. Research only; nothing here is graded as a bet."
     },
     "drivers": {
       "rows": [
         {
-          "points": "-5.5",
-          "points_n": -5.527854521152816,
-          "text": "Base team strength — Los Angeles Rams by 5.5 points (last season -3.8, this season -1.7)",
-          "favours": "Los Angeles Rams"
-        },
-        {
-          "points": "-0.3",
-          "points_n": -0.2757095537059163,
-          "text": "Passing — Los Angeles Rams by 0.3 points (last season -0.2, this season -0.1)",
-          "favours": "Los Angeles Rams"
-        },
-        {
-          "points": "-0.5",
-          "points_n": -0.4613457891967559,
-          "text": "Rushing — Los Angeles Rams by 0.5 points (last season -0.2, this season -0.3)",
+          "points": "-5.1",
+          "points_n": -5.055554350249592,
+          "text": "Base team strength — Los Angeles Rams by 5.1 points (last season -3.6, this season -1.5)",
           "favours": "Los Angeles Rams"
         },
         {
           "points": "-0.2",
-          "points_n": -0.15550946556839643,
-          "text": "Quarterback — Los Angeles Rams by 0.2 points",
+          "points_n": -0.24519254399814766,
+          "text": "Passing — Los Angeles Rams by 0.2 points (last season -0.2, this season -0.1)",
           "favours": "Los Angeles Rams"
+        },
+        {
+          "points": "-0.5",
+          "points_n": -0.5420117603534542,
+          "text": "Rushing — Los Angeles Rams by 0.5 points (last season -0.2, this season -0.4)",
+          "favours": "Los Angeles Rams"
+        },
+        {
+          "points": "+0.6",
+          "points_n": 0.6227089851232123,
+          "text": "Quarterback — Washington Commanders by 0.6 points",
+          "favours": "Washington Commanders"
         },
         {
           "points": "+3.2",
@@ -187,29 +187,29 @@
           "text": "Model baseline — home field and the league constant"
         },
         {
-          "points": "+2.4",
-          "points_n": 2.410155958838848,
-          "text": "Combined scoring ratings — over by 2.4 points"
-        },
-        {
-          "points": "+0.4",
-          "points_n": 0.36182743139414175,
-          "text": "Combined pace — over by 0.4 points"
+          "points": "+1.9",
+          "points_n": 1.9305537473505066,
+          "text": "Combined scoring ratings — over by 1.9 points"
         },
         {
           "points": "+0.3",
-          "points_n": 0.3112571378778682,
-          "text": "Passing matchup, both directions — over by 0.3 points"
-        },
-        {
-          "points": "+0.3",
-          "points_n": 0.310054400330244,
+          "points_n": 0.3329040559154382,
           "text": "Both offences, EPA per play — over by 0.3 points"
         },
         {
           "points": "+0.3",
-          "points_n": 0.28332881150496586,
+          "points_n": 0.26724038696645663,
           "text": "Running matchup, both directions — over by 0.3 points"
+        },
+        {
+          "points": "+0.2",
+          "points_n": 0.1907021040956631,
+          "text": "Combined pace — over by 0.2 points"
+        },
+        {
+          "points": "+0.2",
+          "points_n": 0.177357865,
+          "text": "Point in the season — over by 0.2 points"
         }
       ],
       "reconciles": true,
@@ -231,23 +231,23 @@
               "k": "Net EPA per play",
               "note": "offence EPA per play minus defence EPA allowed per play — the engine’s own net_epa half",
               "a": {
-                "v": "+0.111",
-                "n": 0.11110389010787268,
-                "rank": "#5 of 32",
-                "rank_n": 5,
+                "v": "+0.134",
+                "n": 0.13419414537573762,
+                "rank": "#4 of 32",
+                "rank_n": 4,
                 "note": null
               },
               "h": {
-                "v": "−0.075",
-                "n": -0.07482216840352167,
-                "rank": "#25 of 32",
-                "rank_n": 25,
+                "v": "−0.046",
+                "n": -0.04592584303955448,
+                "rank": "#19 of 32",
+                "rank_n": 19,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.18592605851139435,
-                "rank_gap": 20
+                "gap": 0.1801199884152921,
+                "rank_gap": 15
               }
             },
             {
@@ -255,23 +255,23 @@
               "k": "Points scored",
               "note": null,
               "a": {
-                "v": "+3.46",
-                "n": 3.4649169953339,
-                "rank": "#3 of 32",
-                "rank_n": 3,
+                "v": "+3.40",
+                "n": 3.3967615793132495,
+                "rank": "#5 of 32",
+                "rank_n": 5,
                 "note": null
               },
               "h": {
-                "v": "−0.44",
-                "n": -0.4366129040866641,
-                "rank": "#17 of 32",
-                "rank_n": 17,
+                "v": "−0.04",
+                "n": -0.0399018114306359,
+                "rank": "#15 of 32",
+                "rank_n": 15,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 3.901529899420564,
-                "rank_gap": 14
+                "gap": 3.4366633907438855,
+                "rank_gap": 10
               }
             },
             {
@@ -279,23 +279,23 @@
               "k": "Points allowed",
               "note": null,
               "a": {
-                "v": "−0.48",
-                "n": -0.478710000718587,
-                "rank": "#15 of 32",
-                "rank_n": 15,
+                "v": "−1.07",
+                "n": -1.0703436018375576,
+                "rank": "#12 of 32",
+                "rank_n": 12,
                 "note": null
               },
               "h": {
-                "v": "+2.85",
-                "n": 2.851909574734551,
-                "rank": "#29 of 32",
-                "rank_n": 29,
+                "v": "+2.04",
+                "n": 2.040130457821252,
+                "rank": "#24 of 32",
+                "rank_n": 24,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 3.330619575453138,
-                "rank_gap": 14
+                "gap": 3.1104740596588094,
+                "rank_gap": 12
               }
             }
           ]
@@ -308,22 +308,22 @@
               "k": "Offence · EPA per play",
               "note": null,
               "a": {
-                "v": "+0.079",
-                "n": 0.07867705259791845,
-                "rank": "#8 of 32",
-                "rank_n": 8,
+                "v": "+0.072",
+                "n": 0.07231821129838521,
+                "rank": "#7 of 32",
+                "rank_n": 7,
                 "note": null
               },
               "h": {
-                "v": "+0.001",
-                "n": 0.0009622977483486864,
-                "rank": "#14 of 32",
-                "rank_n": 14,
+                "v": "+0.013",
+                "n": 0.013190211457441649,
+                "rank": "#13 of 32",
+                "rank_n": 13,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.07771475484956976,
+                "gap": 0.059127999840943565,
                 "rank_gap": 6
               }
             },
@@ -332,22 +332,22 @@
               "k": "Pass offence · EPA per dropback",
               "note": null,
               "a": {
-                "v": "+0.103",
-                "n": 0.10289931843476832,
-                "rank": "#9 of 32",
-                "rank_n": 9,
+                "v": "+0.082",
+                "n": 0.08218683423864215,
+                "rank": "#10 of 32",
+                "rank_n": 10,
                 "note": null
               },
               "h": {
-                "v": "−0.012",
-                "n": -0.012134957731984993,
-                "rank": "#16 of 32",
-                "rank_n": 16,
+                "v": "−0.002",
+                "n": -0.0019201136997257803,
+                "rank": "#17 of 32",
+                "rank_n": 17,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.11503427616675331,
+                "gap": 0.08410694793836793,
                 "rank_gap": 7
               }
             },
@@ -356,23 +356,23 @@
               "k": "Run offence · EPA per carry",
               "note": null,
               "a": {
-                "v": "+0.033",
-                "n": 0.03320317439676679,
+                "v": "+0.045",
+                "n": 0.04538302842098925,
+                "rank": "#8 of 32",
+                "rank_n": 8,
+                "note": null
+              },
+              "h": {
+                "v": "+0.029",
+                "n": 0.02948243981328473,
                 "rank": "#11 of 32",
                 "rank_n": 11,
                 "note": null
               },
-              "h": {
-                "v": "+0.013",
-                "n": 0.012503821227446553,
-                "rank": "#16 of 32",
-                "rank_n": 16,
-                "note": null
-              },
               "edge": {
                 "side": "a",
-                "gap": 0.020699353169320235,
-                "rank_gap": 5
+                "gap": 0.01590058860770452,
+                "rank_gap": 3
               }
             },
             {
@@ -380,23 +380,23 @@
               "k": "Explosive pass rate",
               "note": "20+ yard pass plays per attempt",
               "a": {
-                "v": "+0.3 pp",
-                "n": 0.0026569479373534863,
-                "rank": "#13 of 32",
-                "rank_n": 13,
+                "v": "−0.2 pp",
+                "n": -0.002337435045660233,
+                "rank": "#16 of 32",
+                "rank_n": 16,
                 "note": null
               },
               "h": {
-                "v": "+0.3 pp",
-                "n": 0.003430811982553802,
-                "rank": "#12 of 32",
-                "rank_n": 12,
+                "v": "+1.1 pp",
+                "n": 0.01109794296965085,
+                "rank": "#9 of 32",
+                "rank_n": 9,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.0007738640452003157,
-                "rank_gap": 1
+                "gap": 0.013435378015311084,
+                "rank_gap": 7
               }
             },
             {
@@ -404,23 +404,23 @@
               "k": "Explosive run rate",
               "note": "10+ yard runs per carry",
               "a": {
-                "v": "−0.3 pp",
-                "n": -0.002806898286654505,
+                "v": "−0.5 pp",
+                "n": -0.005205907521179011,
                 "rank": "#20 of 32",
                 "rank_n": 20,
                 "note": null
               },
               "h": {
-                "v": "+0.5 pp",
-                "n": 0.0050005125682301525,
-                "rank": "#17 of 32",
-                "rank_n": 17,
+                "v": "+0.7 pp",
+                "n": 0.007132389551573677,
+                "rank": "#13 of 32",
+                "rank_n": 13,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.007807410854884658,
-                "rank_gap": 3
+                "gap": 0.012338297072752687,
+                "rank_gap": 7
               }
             }
           ]
@@ -433,23 +433,23 @@
               "k": "Defence · EPA allowed per play",
               "note": null,
               "a": {
-                "v": "−0.032",
-                "n": -0.03242683750995423,
-                "rank": "#9 of 32",
-                "rank_n": 9,
+                "v": "−0.062",
+                "n": -0.06187593407735242,
+                "rank": "#6 of 32",
+                "rank_n": 6,
                 "note": null
               },
               "h": {
-                "v": "+0.076",
-                "n": 0.07578446615187036,
-                "rank": "#29 of 32",
-                "rank_n": 29,
+                "v": "+0.059",
+                "n": 0.059116054496996126,
+                "rank": "#28 of 32",
+                "rank_n": 28,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.10821130366182459,
-                "rank_gap": 20
+                "gap": 0.12099198857434854,
+                "rank_gap": 22
               }
             },
             {
@@ -457,23 +457,23 @@
               "k": "Pass defence · EPA allowed per dropback",
               "note": null,
               "a": {
-                "v": "−0.051",
-                "n": -0.050597844676425495,
-                "rank": "#8 of 32",
-                "rank_n": 8,
+                "v": "−0.079",
+                "n": -0.07932910489054835,
+                "rank": "#9 of 32",
+                "rank_n": 9,
                 "note": null
               },
               "h": {
-                "v": "+0.038",
-                "n": 0.038094220116762785,
-                "rank": "#21 of 32",
-                "rank_n": 21,
+                "v": "+0.018",
+                "n": 0.017740765848478068,
+                "rank": "#19 of 32",
+                "rank_n": 19,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.08869206479318828,
-                "rank_gap": 13
+                "gap": 0.09706987073902643,
+                "rank_gap": 10
               }
             },
             {
@@ -481,23 +481,23 @@
               "k": "Run defence · EPA allowed per carry",
               "note": null,
               "a": {
-                "v": "−0.006",
-                "n": -0.0055851414530773275,
-                "rank": "#17 of 32",
-                "rank_n": 17,
+                "v": "−0.036",
+                "n": -0.03633106198561161,
+                "rank": "#9 of 32",
+                "rank_n": 9,
                 "note": null
               },
               "h": {
-                "v": "+0.089",
-                "n": 0.08919510927735783,
-                "rank": "#31 of 32",
-                "rank_n": 31,
+                "v": "+0.083",
+                "n": 0.08343947692169398,
+                "rank": "#30 of 32",
+                "rank_n": 30,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.09478025073043515,
-                "rank_gap": 14
+                "gap": 0.1197705389073056,
+                "rank_gap": 21
               }
             },
             {
@@ -505,23 +505,23 @@
               "k": "Explosive passes allowed",
               "note": null,
               "a": {
-                "v": "−0.7 pp",
-                "n": -0.007498081519288194,
-                "rank": "#9 of 32",
-                "rank_n": 9,
+                "v": "−0.1 pp",
+                "n": -0.0009784314264787738,
+                "rank": "#15 of 32",
+                "rank_n": 15,
                 "note": null
               },
               "h": {
-                "v": "+0.4 pp",
-                "n": 0.004177144542142964,
-                "rank": "#20 of 32",
-                "rank_n": 20,
+                "v": "+0.7 pp",
+                "n": 0.007019615398162782,
+                "rank": "#19 of 32",
+                "rank_n": 19,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.011675226061431159,
-                "rank_gap": 11
+                "gap": 0.007998046824641556,
+                "rank_gap": 4
               }
             },
             {
@@ -529,22 +529,22 @@
               "k": "Explosive runs allowed",
               "note": null,
               "a": {
-                "v": "−0.7 pp",
-                "n": -0.0070531335429384,
-                "rank": "#13 of 32",
-                "rank_n": 13,
+                "v": "−1.2 pp",
+                "n": -0.01163015673124908,
+                "rank": "#10 of 32",
+                "rank_n": 10,
                 "note": null
               },
               "h": {
-                "v": "+0.0 pp",
-                "n": 0.00023231790038361934,
-                "rank": "#18 of 32",
-                "rank_n": 18,
+                "v": "−0.5 pp",
+                "n": -0.0045522088496720205,
+                "rank": "#15 of 32",
+                "rank_n": 15,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.007285451443322019,
+                "gap": 0.007077947881577059,
                 "rank_gap": 5
               }
             }
@@ -558,23 +558,23 @@
               "k": "Sacks taken per dropback",
               "note": "pass protection — the only offensive-line number the NFL model carries",
               "a": {
-                "v": "−2.3 pp",
-                "n": -0.023392365951016646,
-                "rank": "#3 of 32",
-                "rank_n": 3,
+                "v": "−2.5 pp",
+                "n": -0.024788431469599328,
+                "rank": "#2 of 32",
+                "rank_n": 2,
                 "note": null
               },
               "h": {
                 "v": "+0.4 pp",
-                "n": 0.0043438972353015,
-                "rank": "#23 of 32",
-                "rank_n": 23,
+                "n": 0.003963740345640305,
+                "rank": "#21 of 32",
+                "rank_n": 21,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.027736263186318146,
-                "rank_gap": 20
+                "gap": 0.028752171815239633,
+                "rank_gap": 19
               }
             },
             {
@@ -582,23 +582,23 @@
               "k": "Sacks generated per dropback",
               "note": "pass rush — the only defensive-front number the NFL model carries",
               "a": {
-                "v": "−1.0 pp",
-                "n": -0.009987268764568213,
-                "rank": "#25 of 32",
-                "rank_n": 25,
+                "v": "−1.3 pp",
+                "n": -0.013438960298987468,
+                "rank": "#28 of 32",
+                "rank_n": 28,
                 "note": null
               },
               "h": {
-                "v": "+0.1 pp",
-                "n": 0.0012890588228581202,
-                "rank": "#13 of 32",
-                "rank_n": 13,
+                "v": "+0.7 pp",
+                "n": 0.006595338539180596,
+                "rank": "#10 of 32",
+                "rank_n": 10,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.011276327587426332,
-                "rank_gap": 12
+                "gap": 0.020034298838168065,
+                "rank_gap": 18
               }
             }
           ]
@@ -611,15 +611,15 @@
               "k": "Pass rate",
               "note": "how often they throw. A tendency, not a quality, so no side is marked ahead",
               "a": {
-                "v": "+3.8 pp",
-                "n": 0.03758097394136661,
+                "v": "+2.9 pp",
+                "n": 0.028938609755723772,
                 "rank": null,
                 "rank_n": null,
                 "note": "tendency, not a quality"
               },
               "h": {
-                "v": "−2.0 pp",
-                "n": -0.02012600583524328,
+                "v": "−1.9 pp",
+                "n": -0.01855541955392707,
                 "rank": null,
                 "rank_n": null,
                 "note": "tendency, not a quality"
@@ -631,15 +631,15 @@
               "k": "Plays per game",
               "note": "pace. A tendency, not a quality",
               "a": {
-                "v": "+4.8",
-                "n": 4.775120513607025,
+                "v": "+3.3",
+                "n": 3.338463548524594,
                 "rank": null,
                 "rank_n": null,
                 "note": "tendency, not a quality"
               },
               "h": {
-                "v": "−0.8",
-                "n": -0.8245861084679442,
+                "v": "−1.3",
+                "n": -1.2563239482750117,
                 "rank": null,
                 "rank_n": null,
                 "note": "tendency, not a quality"
@@ -655,86 +655,86 @@
     "advantages": {
       "away": [
         {
-          "k": "Net EPA per play",
-          "rank_gap": 20,
-          "gap": 0.18592605851139435,
+          "k": "Defence · EPA allowed per play",
+          "rank_gap": 22,
+          "gap": 0.12099198857434854,
           "lead": "Los Angeles Rams",
           "trail": "Washington Commanders",
-          "lead_cell": "+0.111 · #5 of 32",
-          "trail_cell": "−0.075 · #25 of 32",
-          "text": "Los Angeles Rams +0.111 (#5 of 32) vs Washington Commanders −0.075 (#25 of 32) — 20 places on the league board."
+          "lead_cell": "−0.062 · #6 of 32",
+          "trail_cell": "+0.059 · #28 of 32",
+          "text": "Los Angeles Rams −0.062 (#6 of 32) vs Washington Commanders +0.059 (#28 of 32) — 22 places on the league board."
         },
         {
-          "k": "Defence · EPA allowed per play",
-          "rank_gap": 20,
-          "gap": 0.10821130366182459,
+          "k": "Run defence · EPA allowed per carry",
+          "rank_gap": 21,
+          "gap": 0.1197705389073056,
           "lead": "Los Angeles Rams",
           "trail": "Washington Commanders",
-          "lead_cell": "−0.032 · #9 of 32",
-          "trail_cell": "+0.076 · #29 of 32",
-          "text": "Los Angeles Rams −0.032 (#9 of 32) vs Washington Commanders +0.076 (#29 of 32) — 20 places on the league board."
+          "lead_cell": "−0.036 · #9 of 32",
+          "trail_cell": "+0.083 · #30 of 32",
+          "text": "Los Angeles Rams −0.036 (#9 of 32) vs Washington Commanders +0.083 (#30 of 32) — 21 places on the league board."
         },
         {
           "k": "Sacks taken per dropback",
-          "rank_gap": 20,
-          "gap": 0.027736263186318146,
+          "rank_gap": 19,
+          "gap": 0.028752171815239633,
           "lead": "Los Angeles Rams",
           "trail": "Washington Commanders",
-          "lead_cell": "−2.3 pp · #3 of 32",
-          "trail_cell": "+0.4 pp · #23 of 32",
-          "text": "Los Angeles Rams −2.3 pp (#3 of 32) vs Washington Commanders +0.4 pp (#23 of 32) — 20 places on the league board."
+          "lead_cell": "−2.5 pp · #2 of 32",
+          "trail_cell": "+0.4 pp · #21 of 32",
+          "text": "Los Angeles Rams −2.5 pp (#2 of 32) vs Washington Commanders +0.4 pp (#21 of 32) — 19 places on the league board."
         },
         {
-          "k": "Points scored",
-          "rank_gap": 14,
-          "gap": 3.901529899420564,
+          "k": "Net EPA per play",
+          "rank_gap": 15,
+          "gap": 0.1801199884152921,
           "lead": "Los Angeles Rams",
           "trail": "Washington Commanders",
-          "lead_cell": "+3.46 · #3 of 32",
-          "trail_cell": "−0.44 · #17 of 32",
-          "text": "Los Angeles Rams +3.46 (#3 of 32) vs Washington Commanders −0.44 (#17 of 32) — 14 places on the league board."
+          "lead_cell": "+0.134 · #4 of 32",
+          "trail_cell": "−0.046 · #19 of 32",
+          "text": "Los Angeles Rams +0.134 (#4 of 32) vs Washington Commanders −0.046 (#19 of 32) — 15 places on the league board."
         },
         {
           "k": "Points allowed",
-          "rank_gap": 14,
-          "gap": 3.330619575453138,
+          "rank_gap": 12,
+          "gap": 3.1104740596588094,
           "lead": "Los Angeles Rams",
           "trail": "Washington Commanders",
-          "lead_cell": "−0.48 · #15 of 32",
-          "trail_cell": "+2.85 · #29 of 32",
-          "text": "Los Angeles Rams −0.48 (#15 of 32) vs Washington Commanders +2.85 (#29 of 32) — 14 places on the league board."
+          "lead_cell": "−1.07 · #12 of 32",
+          "trail_cell": "+2.04 · #24 of 32",
+          "text": "Los Angeles Rams −1.07 (#12 of 32) vs Washington Commanders +2.04 (#24 of 32) — 12 places on the league board."
         }
       ],
       "home": [
         {
           "k": "Sacks generated per dropback",
-          "rank_gap": 12,
-          "gap": 0.011276327587426332,
+          "rank_gap": 18,
+          "gap": 0.020034298838168065,
           "lead": "Washington Commanders",
           "trail": "Los Angeles Rams",
-          "lead_cell": "+0.1 pp · #13 of 32",
-          "trail_cell": "−1.0 pp · #25 of 32",
-          "text": "Washington Commanders +0.1 pp (#13 of 32) vs Los Angeles Rams −1.0 pp (#25 of 32) — 12 places on the league board."
-        },
-        {
-          "k": "Explosive run rate",
-          "rank_gap": 3,
-          "gap": 0.007807410854884658,
-          "lead": "Washington Commanders",
-          "trail": "Los Angeles Rams",
-          "lead_cell": "+0.5 pp · #17 of 32",
-          "trail_cell": "−0.3 pp · #20 of 32",
-          "text": "Washington Commanders +0.5 pp (#17 of 32) vs Los Angeles Rams −0.3 pp (#20 of 32) — 3 places on the league board."
+          "lead_cell": "+0.7 pp · #10 of 32",
+          "trail_cell": "−1.3 pp · #28 of 32",
+          "text": "Washington Commanders +0.7 pp (#10 of 32) vs Los Angeles Rams −1.3 pp (#28 of 32) — 18 places on the league board."
         },
         {
           "k": "Explosive pass rate",
-          "rank_gap": 1,
-          "gap": 0.0007738640452003157,
+          "rank_gap": 7,
+          "gap": 0.013435378015311084,
           "lead": "Washington Commanders",
           "trail": "Los Angeles Rams",
-          "lead_cell": "+0.3 pp · #12 of 32",
-          "trail_cell": "+0.3 pp · #13 of 32",
-          "text": "Washington Commanders +0.3 pp (#12 of 32) vs Los Angeles Rams +0.3 pp (#13 of 32) — 1 place on the league board."
+          "lead_cell": "+1.1 pp · #9 of 32",
+          "trail_cell": "−0.2 pp · #16 of 32",
+          "text": "Washington Commanders +1.1 pp (#9 of 32) vs Los Angeles Rams −0.2 pp (#16 of 32) — 7 places on the league board."
+        },
+        {
+          "k": "Explosive run rate",
+          "rank_gap": 7,
+          "gap": 0.012338297072752687,
+          "lead": "Washington Commanders",
+          "trail": "Los Angeles Rams",
+          "lead_cell": "+0.7 pp · #13 of 32",
+          "trail_cell": "−0.5 pp · #20 of 32",
+          "text": "Washington Commanders +0.7 pp (#13 of 32) vs Los Angeles Rams −0.5 pp (#20 of 32) — 7 places on the league board."
         }
       ],
       "measured": [],
@@ -748,100 +748,100 @@
         "att": {
           "team": "Los Angeles Rams",
           "label": "pass offence",
-          "v": "+0.103",
-          "rank": "#9 of 32",
+          "v": "+0.082",
+          "rank": "#10 of 32",
           "note": null
         },
         "def": {
           "team": "Washington Commanders",
           "label": "pass defence",
-          "v": "+0.038",
-          "rank": "#21 of 32",
+          "v": "+0.018",
+          "rank": "#19 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.1409935385515311,
-        "read": "Los Angeles Rams’ pass offence rates +0.103 (#9 of 32) and Washington Commanders’ pass defence rates +0.038 (#21 of 32). Added the way the model adds them, this pairing sits +0.141 from the league mean, which favours Los Angeles Rams."
+        "net": 0.09992760008712022,
+        "read": "Los Angeles Rams’ pass offence rates +0.082 (#10 of 32) and Washington Commanders’ pass defence rates +0.018 (#19 of 32). Added the way the model adds them, this pairing sits +0.100 from the league mean, which favours Los Angeles Rams."
       },
       {
         "title": "Washington Commanders pass offence vs Los Angeles Rams pass defence",
         "att": {
           "team": "Washington Commanders",
           "label": "pass offence",
-          "v": "−0.012",
-          "rank": "#16 of 32",
+          "v": "−0.002",
+          "rank": "#17 of 32",
           "note": null
         },
         "def": {
           "team": "Los Angeles Rams",
           "label": "pass defence",
-          "v": "−0.051",
-          "rank": "#8 of 32",
+          "v": "−0.079",
+          "rank": "#9 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.06273280240841049,
-        "read": "Washington Commanders’ pass offence rates −0.012 (#16 of 32) and Los Angeles Rams’ pass defence rates −0.051 (#8 of 32). Added the way the model adds them, this pairing sits −0.063 from the league mean, which favours Los Angeles Rams."
+        "net": -0.08124921859027413,
+        "read": "Washington Commanders’ pass offence rates −0.002 (#17 of 32) and Los Angeles Rams’ pass defence rates −0.079 (#9 of 32). Added the way the model adds them, this pairing sits −0.081 from the league mean, which favours Los Angeles Rams."
       },
       {
         "title": "Los Angeles Rams run offence vs Washington Commanders run defence",
         "att": {
           "team": "Los Angeles Rams",
           "label": "run offence",
-          "v": "+0.033",
-          "rank": "#11 of 32",
+          "v": "+0.045",
+          "rank": "#8 of 32",
           "note": null
         },
         "def": {
           "team": "Washington Commanders",
           "label": "run defence",
-          "v": "+0.089",
-          "rank": "#31 of 32",
+          "v": "+0.083",
+          "rank": "#30 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.12239828367412461,
-        "read": "Los Angeles Rams’ run offence rates +0.033 (#11 of 32) and Washington Commanders’ run defence rates +0.089 (#31 of 32). Added the way the model adds them, this pairing sits +0.122 from the league mean, which favours Los Angeles Rams."
+        "net": 0.12882250534268325,
+        "read": "Los Angeles Rams’ run offence rates +0.045 (#8 of 32) and Washington Commanders’ run defence rates +0.083 (#30 of 32). Added the way the model adds them, this pairing sits +0.129 from the league mean, which favours Los Angeles Rams."
       },
       {
         "title": "Washington Commanders run offence vs Los Angeles Rams run defence",
         "att": {
           "team": "Washington Commanders",
           "label": "run offence",
-          "v": "+0.013",
-          "rank": "#16 of 32",
+          "v": "+0.029",
+          "rank": "#11 of 32",
           "note": null
         },
         "def": {
           "team": "Los Angeles Rams",
           "label": "run defence",
-          "v": "−0.006",
-          "rank": "#17 of 32",
+          "v": "−0.036",
+          "rank": "#9 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.0069186797743692255,
-        "read": "Washington Commanders’ run offence rates +0.013 (#16 of 32) and Los Angeles Rams’ run defence rates −0.006 (#17 of 32). Added the way the model adds them, this pairing sits +0.007 from the league mean, which favours Washington Commanders."
+        "net": -0.006848622172326881,
+        "read": "Washington Commanders’ run offence rates +0.029 (#11 of 32) and Los Angeles Rams’ run defence rates −0.036 (#9 of 32). Added the way the model adds them, this pairing sits −0.007 from the league mean, which favours Los Angeles Rams."
       },
       {
         "title": "Los Angeles Rams pass protection vs Washington Commanders pass rush",
         "att": {
           "team": "Los Angeles Rams",
           "label": "pass protection",
-          "v": "−2.3 pp",
-          "rank": "#3 of 32",
+          "v": "−2.5 pp",
+          "rank": "#2 of 32",
           "note": null
         },
         "def": {
           "team": "Washington Commanders",
           "label": "pass rush",
-          "v": "+0.1 pp",
-          "rank": "#13 of 32",
+          "v": "+0.7 pp",
+          "rank": "#10 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.022103307128158525,
-        "read": "Los Angeles Rams’ pass protection rates −2.3 pp (#3 of 32) and Washington Commanders’ pass rush rates +0.1 pp (#13 of 32). Added the way the model adds them, this pairing sits −2.2 pp from the league mean, which favours Los Angeles Rams."
+        "net": -0.018193092930418733,
+        "read": "Los Angeles Rams’ pass protection rates −2.5 pp (#2 of 32) and Washington Commanders’ pass rush rates +0.7 pp (#10 of 32). Added the way the model adds them, this pairing sits −1.8 pp from the league mean, which favours Los Angeles Rams."
       },
       {
         "title": "Washington Commanders pass protection vs Los Angeles Rams pass rush",
@@ -849,99 +849,99 @@
           "team": "Washington Commanders",
           "label": "pass protection",
           "v": "+0.4 pp",
-          "rank": "#23 of 32",
+          "rank": "#21 of 32",
           "note": null
         },
         "def": {
           "team": "Los Angeles Rams",
           "label": "pass rush",
-          "v": "−1.0 pp",
-          "rank": "#25 of 32",
+          "v": "−1.3 pp",
+          "rank": "#28 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.005643371529266713,
-        "read": "Washington Commanders’ pass protection rates +0.4 pp (#23 of 32) and Los Angeles Rams’ pass rush rates −1.0 pp (#25 of 32). Added the way the model adds them, this pairing sits −0.6 pp from the league mean, which favours Washington Commanders."
+        "net": -0.009475219953347163,
+        "read": "Washington Commanders’ pass protection rates +0.4 pp (#21 of 32) and Los Angeles Rams’ pass rush rates −1.3 pp (#28 of 32). Added the way the model adds them, this pairing sits −0.9 pp from the league mean, which favours Washington Commanders."
       },
       {
         "title": "Los Angeles Rams explosive passing vs Washington Commanders explosive passes allowed",
         "att": {
           "team": "Los Angeles Rams",
           "label": "explosive passing",
-          "v": "+0.3 pp",
-          "rank": "#13 of 32",
+          "v": "−0.2 pp",
+          "rank": "#16 of 32",
           "note": null
         },
         "def": {
           "team": "Washington Commanders",
           "label": "explosive passes allowed",
-          "v": "+0.4 pp",
-          "rank": "#20 of 32",
+          "v": "+0.7 pp",
+          "rank": "#19 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.00683409247949645,
-        "read": "Los Angeles Rams’ explosive passing rates +0.3 pp (#13 of 32) and Washington Commanders’ explosive passes allowed rates +0.4 pp (#20 of 32). Added the way the model adds them, this pairing sits +0.7 pp from the league mean, which favours Los Angeles Rams."
+        "net": 0.004682180352502549,
+        "read": "Los Angeles Rams’ explosive passing rates −0.2 pp (#16 of 32) and Washington Commanders’ explosive passes allowed rates +0.7 pp (#19 of 32). Added the way the model adds them, this pairing sits +0.5 pp from the league mean, which favours Los Angeles Rams."
       },
       {
         "title": "Washington Commanders explosive passing vs Los Angeles Rams explosive passes allowed",
         "att": {
           "team": "Washington Commanders",
           "label": "explosive passing",
-          "v": "+0.3 pp",
-          "rank": "#12 of 32",
+          "v": "+1.1 pp",
+          "rank": "#9 of 32",
           "note": null
         },
         "def": {
           "team": "Los Angeles Rams",
           "label": "explosive passes allowed",
-          "v": "−0.7 pp",
-          "rank": "#9 of 32",
+          "v": "−0.1 pp",
+          "rank": "#15 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.004067269536734392,
-        "read": "Washington Commanders’ explosive passing rates +0.3 pp (#12 of 32) and Los Angeles Rams’ explosive passes allowed rates −0.7 pp (#9 of 32). Added the way the model adds them, this pairing sits −0.4 pp from the league mean, which favours Los Angeles Rams."
+        "net": 0.010119511543172076,
+        "read": "Washington Commanders’ explosive passing rates +1.1 pp (#9 of 32) and Los Angeles Rams’ explosive passes allowed rates −0.1 pp (#15 of 32). Added the way the model adds them, this pairing sits +1.0 pp from the league mean, which favours Washington Commanders."
       },
       {
         "title": "Los Angeles Rams explosive running vs Washington Commanders explosive runs allowed",
         "att": {
           "team": "Los Angeles Rams",
           "label": "explosive running",
-          "v": "−0.3 pp",
+          "v": "−0.5 pp",
           "rank": "#20 of 32",
           "note": null
         },
         "def": {
           "team": "Washington Commanders",
           "label": "explosive runs allowed",
-          "v": "+0.0 pp",
-          "rank": "#18 of 32",
+          "v": "−0.5 pp",
+          "rank": "#15 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.002574580386270886,
-        "read": "Los Angeles Rams’ explosive running rates −0.3 pp (#20 of 32) and Washington Commanders’ explosive runs allowed rates +0.0 pp (#18 of 32). Added the way the model adds them, this pairing sits −0.3 pp from the league mean, which favours Washington Commanders."
+        "net": -0.009758116370851031,
+        "read": "Los Angeles Rams’ explosive running rates −0.5 pp (#20 of 32) and Washington Commanders’ explosive runs allowed rates −0.5 pp (#15 of 32). Added the way the model adds them, this pairing sits −1.0 pp from the league mean, which favours Washington Commanders."
       },
       {
         "title": "Washington Commanders explosive running vs Los Angeles Rams explosive runs allowed",
         "att": {
           "team": "Washington Commanders",
           "label": "explosive running",
-          "v": "+0.5 pp",
-          "rank": "#17 of 32",
+          "v": "+0.7 pp",
+          "rank": "#13 of 32",
           "note": null
         },
         "def": {
           "team": "Los Angeles Rams",
           "label": "explosive runs allowed",
-          "v": "−0.7 pp",
-          "rank": "#13 of 32",
+          "v": "−1.2 pp",
+          "rank": "#10 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.002052620974708247,
-        "read": "Washington Commanders’ explosive running rates +0.5 pp (#17 of 32) and Los Angeles Rams’ explosive runs allowed rates −0.7 pp (#13 of 32). Added the way the model adds them, this pairing sits −0.2 pp from the league mean, which favours Los Angeles Rams."
+        "net": -0.004497767179675403,
+        "read": "Washington Commanders’ explosive running rates +0.7 pp (#13 of 32) and Los Angeles Rams’ explosive runs allowed rates −1.2 pp (#10 of 32). Added the way the model adds them, this pairing sits −0.4 pp from the league mean, which favours Los Angeles Rams."
       }
     ],
     "panels": [
@@ -973,8 +973,8 @@
           },
           {
             "k": "Learned sample",
-            "a": "256 learned starts",
-            "h": "29 learned starts",
+            "a": "257 learned starts",
+            "h": "30 learned starts",
             "note": "starts the QB layer has actually absorbed"
           },
           {
@@ -985,13 +985,13 @@
           },
           {
             "k": "Active room",
-            "a": "Matthew Stafford, Stetson Bennett, Ty Simpson",
-            "h": "Marcus Mariota, Jayden Daniels, Athan Kaliakmanis",
+            "a": "Matthew Stafford, Stetson Bennett",
+            "h": "Marcus Mariota, Jayden Daniels",
             "note": "who is rostered at the position — identity only"
           }
         ],
         "reads": [
-          "The quarterback difference is worth -0.2 points of the projected spread — the engine’s own qb_adj_diff term, and the only place a quarterback moves this number.",
+          "The quarterback difference is worth +0.6 points of the projected spread — the engine’s own qb_adj_diff term, and the only place a quarterback moves this number.",
           "Both starters are confirmed by the schedule feed, so the quarterback term is priced from the learned value of the two players actually named.",
           "The learned QB layer is identity-keyed and value-only: it says how a quarterback has played, never how he is feeling, and it knows nothing about a start nobody has announced."
         ]
@@ -1065,7 +1065,7 @@
         "reads": [
           "Each situational factor is shown with the points the engine’s own context model assigned it, so nothing here is a rule of thumb. A factor with no weight in the fit is worth nothing in this number and says so rather than being quietly rounded up.",
           "No forecast reached this game, so temperature and wind entered the total at their neutral defaults. That is a missing input, not a mild day.",
-          "The ratings behind this projection are the trained seeds plus 108 absorbed 2026 games; early in a season that means the prior is still carrying most of the weight."
+          "The ratings behind this projection are the trained seeds plus 120 absorbed 2026 games; early in a season that means the prior is still carrying most of the weight."
         ]
       }
     ],
@@ -1074,22 +1074,22 @@
         "team": "Los Angeles Rams",
         "heading": "Why Los Angeles Rams can pull away",
         "bullets": [
-          "Base team strength — Los Angeles Rams by 5.5 points (last season -3.8, this season -1.7) (-5.5 pts).",
-          "Passing — Los Angeles Rams by 0.3 points (last season -0.2, this season -0.1) (-0.3 pts).",
-          "Rushing — Los Angeles Rams by 0.5 points (last season -0.2, this season -0.3) (-0.5 pts).",
+          "Base team strength — Los Angeles Rams by 5.1 points (last season -3.6, this season -1.5) (-5.1 pts).",
+          "Passing — Los Angeles Rams by 0.2 points (last season -0.2, this season -0.1) (-0.2 pts).",
+          "Rushing — Los Angeles Rams by 0.5 points (last season -0.2, this season -0.4) (-0.5 pts).",
           "Context (venue, division) — Los Angeles Rams by 0.7 points (-0.7 pts).",
-          "Net EPA per play: Los Angeles Rams +0.111 (#5 of 32) vs Washington Commanders −0.075 (#25 of 32) — 20 places on the league board."
+          "Defence · EPA allowed per play: Los Angeles Rams −0.062 (#6 of 32) vs Washington Commanders +0.059 (#28 of 32) — 22 places on the league board."
         ]
       },
       "underdog": {
         "team": "Washington Commanders",
         "heading": "Why Washington Commanders can keep it close",
         "bullets": [
+          "Quarterback — Washington Commanders by 0.6 points (+0.6 pts).",
           "Home field — Washington Commanders by 3.2 points (+3.2 pts).",
-          "Sacks generated per dropback: Washington Commanders +0.1 pp (#13 of 32) vs Los Angeles Rams −1.0 pp (#25 of 32) — 12 places on the league board.",
-          "Explosive run rate: Washington Commanders +0.5 pp (#17 of 32) vs Los Angeles Rams −0.3 pp (#20 of 32) — 3 places on the league board.",
-          "Explosive pass rate: Washington Commanders +0.3 pp (#12 of 32) vs Los Angeles Rams +0.3 pp (#13 of 32) — 1 place on the league board.",
-          "The outcome range runs -22.0 to +11.0 for Washington Commanders, off the engine’s own learned margin distribution. A projection of about 4.0 points still loses outright often."
+          "Sacks generated per dropback: Washington Commanders +0.7 pp (#10 of 32) vs Los Angeles Rams −1.3 pp (#28 of 32) — 18 places on the league board.",
+          "Explosive pass rate: Washington Commanders +1.1 pp (#9 of 32) vs Los Angeles Rams −0.2 pp (#16 of 32) — 7 places on the league board.",
+          "Explosive run rate: Washington Commanders +0.7 pp (#13 of 32) vs Los Angeles Rams −0.5 pp (#20 of 32) — 7 places on the league board."
         ]
       },
       "note": "Football cases assembled from measured states — a fitted driver, a rating gap, a combined matchup or the model’s own range. Neither side is a bet and neither is advice."
@@ -1145,44 +1145,48 @@
     },
     "market": {
       "available": true,
-      "model": "Washington Commanders +4.0",
-      "model_raw": "Washington Commanders +4.0",
+      "model": "Washington Commanders +3.0",
+      "model_raw": "Washington Commanders +2.8",
       "market": "Washington Commanders +5.5",
-      "difference": "1.5 points",
-      "rounding_note": null,
-      "key_number": null,
-      "total_model": "49.0",
-      "total_model_raw": "48.9",
-      "total_market": "48.5",
-      "total_rounding_note": "Fair lines rounded to nearest half-point; differences use unrounded projections.",
-      "total_difference": "0.4 points",
+      "difference": "2.7 points",
+      "rounding_note": "Fair lines rounded to nearest half-point; differences use unrounded projections.",
+      "key_number": {
+        "text": "Market is above 3; model sits on 3.",
+        "detail": "Los Angeles Rams: market −5.5, model fair −3.0.",
+        "note": "Key margins are where football games often finish. How often differs between the NFL and college football; this note marks where the two lines sit and does not change any probability."
+      },
+      "total_model": "48.0",
+      "total_model_raw": "48.0",
+      "total_market": "47.5",
+      "total_rounding_note": null,
+      "total_difference": "0.5 points",
       "book": "nflverse reference",
       "capture_age": null,
       "stale": false,
       "classification": "STALE MARKET",
-      "classification_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 1.5-point gap is context only and the game is excluded from research ranking.",
+      "classification_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.7-point gap is context only and the game is excluded from research ranking.",
       "reference": "These are nflverse consensus reference numbers, not a live bettable quote.",
       "note": "EdgeDesk compares its own number with a captured price. The comparison is a research state, not a bet — and out of sample this model does not beat the close."
     },
-    "headline": "EdgeDesk projects Los Angeles Rams 26, Washington Commanders 22.",
+    "headline": "EdgeDesk projects Los Angeles Rams 25, Washington Commanders 23.",
     "state": {
       "label": "STALE MARKET",
-      "note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 1.5-point gap is context only and the game is excluded from research ranking.",
+      "note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.7-point gap is context only and the game is excluded from research ranking.",
       "scope": "This describes the state of EdgeDesk’s model-versus-market research on this game. It is not a statement about whether the matchup is worth researching."
     },
     "score": {
       "away": {
         "team": "Los Angeles Rams",
-        "points": "26"
+        "points": "25"
       },
       "home": {
         "team": "Washington Commanders",
-        "points": "22"
+        "points": "23"
       },
       "expected": {
-        "text": "Los Angeles Rams 26.43, Washington Commanders 22.45",
-        "home": 22.45,
-        "away": 26.43,
+        "text": "Los Angeles Rams 25.39, Washington Commanders 22.61",
+        "home": 22.61,
+        "away": 25.39,
         "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
       },
       "note": "Split from EdgeDesk’s own fair spread and fair total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
@@ -1195,120 +1199,120 @@
       "rows": [
         {
           "k": "Net EPA per play",
-          "a": "+0.111  #5 of 32",
-          "h": "−0.075  #25 of 32",
+          "a": "+0.134  #4 of 32",
+          "h": "−0.046  #19 of 32",
           "note": "offence EPA per play minus defence EPA allowed per play — the engine’s own net_epa half"
         },
         {
           "k": "Points scored",
-          "a": "+3.46  #3 of 32",
-          "h": "−0.44  #17 of 32",
+          "a": "+3.40  #5 of 32",
+          "h": "−0.04  #15 of 32",
           "note": null
         },
         {
           "k": "Points allowed",
-          "a": "−0.48  #15 of 32",
-          "h": "+2.85  #29 of 32",
+          "a": "−1.07  #12 of 32",
+          "h": "+2.04  #24 of 32",
           "note": null
         },
         {
           "k": "Offence · EPA per play",
-          "a": "+0.079  #8 of 32",
-          "h": "+0.001  #14 of 32",
+          "a": "+0.072  #7 of 32",
+          "h": "+0.013  #13 of 32",
           "note": null
         },
         {
           "k": "Pass offence · EPA per dropback",
-          "a": "+0.103  #9 of 32",
-          "h": "−0.012  #16 of 32",
+          "a": "+0.082  #10 of 32",
+          "h": "−0.002  #17 of 32",
           "note": null
         },
         {
           "k": "Run offence · EPA per carry",
-          "a": "+0.033  #11 of 32",
-          "h": "+0.013  #16 of 32",
+          "a": "+0.045  #8 of 32",
+          "h": "+0.029  #11 of 32",
           "note": null
         },
         {
           "k": "Explosive pass rate",
-          "a": "+0.3 pp  #13 of 32",
-          "h": "+0.3 pp  #12 of 32",
+          "a": "−0.2 pp  #16 of 32",
+          "h": "+1.1 pp  #9 of 32",
           "note": "20+ yard pass plays per attempt"
         },
         {
           "k": "Explosive run rate",
-          "a": "−0.3 pp  #20 of 32",
-          "h": "+0.5 pp  #17 of 32",
+          "a": "−0.5 pp  #20 of 32",
+          "h": "+0.7 pp  #13 of 32",
           "note": "10+ yard runs per carry"
         },
         {
           "k": "Defence · EPA allowed per play",
-          "a": "−0.032  #9 of 32",
-          "h": "+0.076  #29 of 32",
+          "a": "−0.062  #6 of 32",
+          "h": "+0.059  #28 of 32",
           "note": null
         },
         {
           "k": "Pass defence · EPA allowed per dropback",
-          "a": "−0.051  #8 of 32",
-          "h": "+0.038  #21 of 32",
+          "a": "−0.079  #9 of 32",
+          "h": "+0.018  #19 of 32",
           "note": null
         },
         {
           "k": "Run defence · EPA allowed per carry",
-          "a": "−0.006  #17 of 32",
-          "h": "+0.089  #31 of 32",
+          "a": "−0.036  #9 of 32",
+          "h": "+0.083  #30 of 32",
           "note": null
         },
         {
           "k": "Explosive passes allowed",
-          "a": "−0.7 pp  #9 of 32",
-          "h": "+0.4 pp  #20 of 32",
+          "a": "−0.1 pp  #15 of 32",
+          "h": "+0.7 pp  #19 of 32",
           "note": null
         },
         {
           "k": "Explosive runs allowed",
-          "a": "−0.7 pp  #13 of 32",
-          "h": "+0.0 pp  #18 of 32",
+          "a": "−1.2 pp  #10 of 32",
+          "h": "−0.5 pp  #15 of 32",
           "note": null
         },
         {
           "k": "Sacks taken per dropback",
-          "a": "−2.3 pp  #3 of 32",
-          "h": "+0.4 pp  #23 of 32",
+          "a": "−2.5 pp  #2 of 32",
+          "h": "+0.4 pp  #21 of 32",
           "note": "pass protection — the only offensive-line number the NFL model carries"
         },
         {
           "k": "Sacks generated per dropback",
-          "a": "−1.0 pp  #25 of 32",
-          "h": "+0.1 pp  #13 of 32",
+          "a": "−1.3 pp  #28 of 32",
+          "h": "+0.7 pp  #10 of 32",
           "note": "pass rush — the only defensive-front number the NFL model carries"
         },
         {
           "k": "Pass rate",
-          "a": "+3.8 pp",
-          "h": "−2.0 pp",
+          "a": "+2.9 pp",
+          "h": "−1.9 pp",
           "note": "how often they throw. A tendency, not a quality, so no side is marked ahead"
         },
         {
           "k": "Plays per game",
-          "a": "+4.8",
-          "h": "−0.8",
+          "a": "+3.3",
+          "h": "−1.3",
           "note": "pace. A tendency, not a quality"
         }
       ]
     },
     "notes": [
-      "EdgeDesk’s line is Washington Commanders +4.0 with a fair total of 49.0, before any book is consulted.",
-      "Washington Commanders wins 35% of the time in EdgeDesk’s distribution, Los Angeles Rams 65%."
+      "EdgeDesk’s line is Washington Commanders +3.0 with a fair total of 48.0, before any book is consulted.",
+      "Washington Commanders wins 43% of the time in EdgeDesk’s distribution, Los Angeles Rams 57%."
     ],
     "missing": [],
     "priced_label": "PRICED BY MODEL — the projection and its additive drivers, from the inputs the NFL model actually fits.",
     "context_label": "RESEARCH CONTEXT — every rating below is opponent-adjusted and printed as a deviation from the league mean. The injury report and the quarterback panel explain the matchup and move no priced number.",
-    "source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 108 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice."
+    "source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 120 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice."
   },
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T00:36:55.151Z"
+    "at": "2026-11-02T19:27:46.096Z"
   }
 }

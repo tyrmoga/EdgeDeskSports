@@ -21,8 +21,8 @@
   "game_time": "2026-11-07T21:00:00.000Z",
   "game_when_label": "2026-11-07 21:00 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T00:36:55.151Z",
-  "generated_at": "2026-11-02T00:36:55.151Z",
+  "updated_at": "2026-11-02T19:27:46.096Z",
+  "generated_at": "2026-11-02T19:27:46.096Z",
   "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
   "model_status": "NO MARKET",
   "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
@@ -252,7 +252,7 @@
         "source": "cfbfastR-data player_stats — play attribution",
         "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
         "published_at": "2026-11-01T02:30:00.000Z",
-        "retrieved_at": "2026-11-01T22:55:06.784Z"
+        "retrieved_at": "2026-11-02T17:06:03.437Z"
       },
       "home": {
         "team": "San José State",
@@ -332,9 +332,9 @@
         "source": "cfbfastR-data player_stats — play attribution",
         "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
         "published_at": "2026-10-31T20:00:00.000Z",
-        "retrieved_at": "2026-11-01T22:55:06.784Z"
+        "retrieved_at": "2026-11-02T17:06:03.437Z"
       },
-      "generated_at": "2026-11-01T22:55:05.546Z",
+      "generated_at": "2026-11-02T17:06:02.030Z",
       "source": "football/starters/cfb_2026.json",
       "note": "An expected starter is not a confirmed one. EdgeDesk publishes which kind of answer each of these is, and no number on this page is priced from any of them. Availability is a separate axis: an absent report is UNKNOWN and is never read as healthy."
     },
@@ -1591,11 +1591,11 @@
         "label": "High"
       },
       "reliability": {
-        "pct": 89,
+        "pct": 88,
         "tier": "STRONG",
-        "text": "89 · STRONG",
+        "text": "88 · STRONG",
         "sub": "main deduction: Northern Illinois’s availability report is not due yet",
-        "score": 89,
+        "score": 88,
         "grade": "STRONG",
         "grade_label": "STRONG",
         "gate_label": null,
@@ -1621,7 +1621,7 @@
           {
             "key": "freshness",
             "label": "Freshness",
-            "score": 12.9,
+            "score": 11.8,
             "max": 15
           },
           {
@@ -1639,7 +1639,23 @@
         ],
         "main_deduction": "Northern Illinois’s availability report is not due yet; the impact of Northern Illinois’s absences cannot be assessed: no graded availability read",
         "capped_by": [],
-        "next_actions": [],
+        "next_actions": [
+          {
+            "action": "Re-read availability inside the filing window (Northern Illinois)",
+            "potential_gain": 1,
+            "text": "up to +1"
+          },
+          {
+            "action": "Re-read availability inside the filing window (San José State)",
+            "potential_gain": 1,
+            "text": "up to +1"
+          },
+          {
+            "action": "Capture a market quote",
+            "potential_gain": 1,
+            "text": "up to +1"
+          }
+        ],
         "stability": {
           "tier": "VERY_STABLE",
           "sd": 0.81,
@@ -1891,7 +1907,7 @@
   },
   "football_evidence": {
     "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "lk1mpj16cvk2d",
+    "packet_hash": "44lq5f1xb4czl",
     "status": "PARTIALLY_EXPLAINED",
     "input_suspect": false,
     "question": "Can San José State’s pass rush get to Taron Dickens?",
@@ -1954,7 +1970,7 @@
         "label": "EdgeDesk play-by-play metrics, quarterback logs and box scores",
         "url": null,
         "path": "football/matchup/metrics.json",
-        "observed_at": "2026-11-01T22:55:26.361Z",
+        "observed_at": "2026-11-02T17:06:24.448Z",
         "verification": "VERIFIED_DATA"
       },
       {
@@ -1977,6 +1993,6 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T00:36:55.151Z"
+    "at": "2026-11-02T19:27:46.096Z"
   }
 }

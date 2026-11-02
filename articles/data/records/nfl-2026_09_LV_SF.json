@@ -9,7 +9,7 @@
   "aliases": [],
   "title": "Las Vegas Raiders vs. San Francisco 49ers: EdgeDesk Model Projection, Matchup Analysis and Fair Spread",
   "seo_title": "Las Vegas Raiders vs. San Francisco 49ers 2026: EdgeDesk Fair Spread & Model Projection",
-  "seo_description": "EdgeDesk fair spread for Las Vegas Raiders at San Francisco 49ers: San Francisco 49ers −10.5, fair total 47.5. San Francisco 49ers wins 84% of simulations. Model status STALE MARKET. Research, not picks.",
+  "seo_description": "EdgeDesk fair spread for Las Vegas Raiders at San Francisco 49ers: San Francisco 49ers −9.5, fair total 49.0. San Francisco 49ers wins 80% of simulations. Model status STALE MARKET. Research, not picks.",
   "excerpt": "San Francisco 49ers carries the stronger EdgeDesk offensive profile (#2 in EPA per play) and the better defensive rating with it, so the ratings point the same way on both sides of the ball. EdgeDesk’s independent projection makes it San Francisco 49ers…",
   "home_team": "San Francisco 49ers",
   "away_team": "Las Vegas Raiders",
@@ -21,15 +21,15 @@
   "game_time": "2026-11-08T21:05:00.000Z",
   "game_when_label": "2026-11-08 21:05 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T00:36:55.151Z",
-  "generated_at": "2026-11-02T00:36:55.151Z",
+  "updated_at": "2026-11-02T19:27:46.096Z",
+  "generated_at": "2026-11-02T19:27:46.096Z",
   "model_version": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
   "model_status": "STALE MARKET",
-  "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.1-point gap is context only and the game is excluded from research ranking.",
+  "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 0.1-point gap is context only and the game is excluded from research ranking.",
   "confidence": null,
   "priced": true,
-  "fair_spread_text": "San Francisco 49ers −10.5",
-  "fair_total": "47.5",
+  "fair_spread_text": "San Francisco 49ers −9.5",
+  "fair_total": "49.0",
   "hero_image": null,
   "canonical_url": "https://edgedesksports.com/articles/las-vegas-raiders-vs-san-francisco-49ers-2026",
   "terminal_url": "https://edgedesksports.com/app.html#research/football",
@@ -41,7 +41,7 @@
   "frozen_at": null,
   "author": "EdgeDesk Research",
   "publisher": "EdgeDesk Sports",
-  "research_source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 108 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice.",
+  "research_source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 120 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice.",
   "market_source": null,
   "research": {
     "kind": "NFL_GAME",
@@ -62,35 +62,35 @@
     },
     "lede": [
       "San Francisco 49ers carries the stronger EdgeDesk offensive profile (#2 in EPA per play) and the better defensive rating with it, so the ratings point the same way on both sides of the ball.",
-      "EdgeDesk’s independent projection makes it San Francisco 49ers −10.5 with a fair total of 47.5, before any sportsbook number is consulted.",
-      "The widest measured matchup on the board is San Francisco 49ers pass offence vs Las Vegas Raiders pass defence, which sits +0.270 from the league mean once the two ratings are combined the way the model combines them.",
+      "EdgeDesk’s independent projection makes it San Francisco 49ers −9.5 with a fair total of 49.0, before any sportsbook number is consulted.",
+      "The widest measured matchup on the board is San Francisco 49ers pass offence vs Las Vegas Raiders pass defence, which sits +0.306 from the league mean once the two ratings are combined the way the model combines them.",
       "The largest uncertainty is availability: NFL injury report — not loaded in this session."
     ],
     "projection": {
       "priced": true,
-      "fair_spread": 10.623156110166315,
-      "fair_spread_text": "San Francisco 49ers −10.5",
-      "fair_spread_raw_text": "San Francisco 49ers -10.6",
+      "fair_spread": 9.59263096879195,
+      "fair_spread_text": "San Francisco 49ers −9.5",
+      "fair_spread_raw_text": "San Francisco 49ers -9.6",
       "favourite": "San Francisco 49ers",
       "underdog": "Las Vegas Raiders",
-      "margin": "10.5",
-      "margin_raw": "10.6",
-      "total": "47.5",
-      "total_raw": "47.5",
+      "margin": "9.5",
+      "margin_raw": "9.6",
+      "total": "49.0",
+      "total_raw": "48.8",
       "display_policy": "football_half_point_v1",
       "score": {
         "away": {
           "team": "Las Vegas Raiders",
-          "points": "18"
+          "points": "20"
         },
         "home": {
           "team": "San Francisco 49ers",
           "points": "29"
         },
         "expected": {
-          "text": "San Francisco 49ers 29.08, Las Vegas Raiders 18.46",
-          "home": 29.08,
-          "away": 18.46,
+          "text": "San Francisco 49ers 29.18, Las Vegas Raiders 19.59",
+          "home": 29.18,
+          "away": 19.59,
           "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
         },
         "note": "Split from EdgeDesk’s own fair spread and fair total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
@@ -99,64 +99,64 @@
       "win_prob": {
         "home": "San Francisco 49ers",
         "away": "Las Vegas Raiders",
-        "home_pct": 84,
-        "away_pct": 16,
-        "home_text": "84%",
-        "away_text": "16%",
+        "home_pct": 80,
+        "away_pct": 20,
+        "home_text": "80%",
+        "away_text": "20%",
         "bounded": false,
         "bounded_note": null,
         "favourite": "San Francisco 49ers",
-        "favourite_pct": 84,
-        "favourite_text": "84%"
+        "favourite_pct": 80,
+        "favourite_text": "80%"
       },
       "moneyline": {
         "home": "San Francisco 49ers",
         "away": "Las Vegas Raiders",
-        "home_odds": "-512",
-        "away_odds": "+512",
+        "home_odds": "-407",
+        "away_odds": "+407",
         "note": "EdgeDesk’s own fair price, with no margin in it. It is not a quote and nobody offers it."
       },
       "outcome_range": {
         "basis_team": "San Francisco 49ers",
-        "p10": "-3.0",
-        "median": "+11.0",
-        "p90": "+30.0",
+        "p10": "-6.0",
+        "median": "+10.0",
+        "p90": "+28.0",
         "sigma": "10.7",
         "note": "Quoted from the perspective of San Francisco 49ers, off the engine’s own learned margin distribution (conditioned on this spread, so real key-number mass is kept). Eight results in ten land inside p10–p90."
       },
       "confidence_pct": null,
-      "confidence_absent_reason": "The NFL model publishes no single confidence score. What it publishes instead is the width of the outcome range above and the sample the ratings rest on: the trained seeds through 2025, plus 108 absorbed 2026 games.",
-      "sample_games": 108,
+      "confidence_absent_reason": "The NFL model publishes no single confidence score. What it publishes instead is the width of the outcome range above and the sample the ratings rest on: the trained seeds through 2025, plus 120 absorbed 2026 games.",
+      "sample_games": 120,
       "seeded": true,
       "status": "STALE MARKET",
-      "status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.1-point gap is context only and the game is excluded from research ranking.",
+      "status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 0.1-point gap is context only and the game is excluded from research ranking.",
       "engine": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
       "validation": "UNPROVEN — this model does NOT beat the closing line out of sample. Research only; nothing here is graded as a bet."
     },
     "drivers": {
       "rows": [
         {
-          "points": "+6.5",
-          "points_n": 6.505808243654158,
-          "text": "Base team strength — San Francisco 49ers by 6.5 points (last season +3.8, this season +2.7)",
+          "points": "+6.4",
+          "points_n": 6.391222845174958,
+          "text": "Base team strength — San Francisco 49ers by 6.4 points (last season +3.5, this season +2.8)",
           "favours": "San Francisco 49ers"
         },
         {
           "points": "+0.3",
-          "points_n": 0.3366347917743189,
+          "points_n": 0.32351807166280855,
           "text": "Passing — San Francisco 49ers by 0.3 points (last season +0.2, this season +0.2)",
           "favours": "San Francisco 49ers"
         },
         {
           "points": "+1.2",
-          "points_n": 1.2097816023764665,
+          "points_n": 1.2460052756964555,
           "text": "Rushing — San Francisco 49ers by 1.2 points (last season +0.1, this season +1.1)",
           "favours": "San Francisco 49ers"
         },
         {
-          "points": "-0.9",
-          "points_n": -0.8769875326386256,
-          "text": "Quarterback — Las Vegas Raiders by 0.9 points",
+          "points": "-1.8",
+          "points_n": -1.816034228742272,
+          "text": "Quarterback — Las Vegas Raiders by 1.8 points",
           "favours": "Las Vegas Raiders"
         },
         {
@@ -185,29 +185,29 @@
           "text": "Model baseline — home field and the league constant"
         },
         {
+          "points": "+2.3",
+          "points_n": 2.256296299661897,
+          "text": "Combined scoring ratings — over by 2.3 points"
+        },
+        {
           "points": "+1.5",
-          "points_n": 1.546357468831646,
-          "text": "Combined scoring ratings — over by 1.5 points"
+          "points_n": 1.481241005679688,
+          "text": "Passing matchup, both directions — over by 1.5 points"
         },
         {
-          "points": "+1.2",
-          "points_n": 1.156998219997739,
-          "text": "Passing matchup, both directions — over by 1.2 points"
-        },
-        {
-          "points": "-0.3",
-          "points_n": -0.30674081563927136,
-          "text": "Running matchup, both directions — under by 0.3 points"
+          "points": "+0.3",
+          "points_n": 0.33196580431447076,
+          "text": "Both offences, EPA per play — over by 0.3 points"
         },
         {
           "points": "-0.3",
-          "points_n": -0.2880438964805503,
+          "points_n": -0.29807315289798564,
           "text": "Combined pace — under by 0.3 points"
         },
         {
-          "points": "+0.2",
-          "points_n": 0.23675036148371081,
-          "text": "Both offences, EPA per play — over by 0.2 points"
+          "points": "-0.2",
+          "points_n": -0.21280944281075234,
+          "text": "Running matchup, both directions — under by 0.2 points"
         }
       ],
       "reconciles": true,
@@ -229,23 +229,23 @@
               "k": "Net EPA per play",
               "note": "offence EPA per play minus defence EPA allowed per play — the engine’s own net_epa half",
               "a": {
-                "v": "−0.096",
-                "n": -0.09596273187914026,
-                "rank": "#29 of 32",
-                "rank_n": 29,
+                "v": "−0.103",
+                "n": -0.10254341611643956,
+                "rank": "#28 of 32",
+                "rank_n": 28,
                 "note": null
               },
               "h": {
                 "v": "+0.125",
                 "n": 0.12473553082353166,
-                "rank": "#3 of 32",
-                "rank_n": 3,
+                "rank": "#5 of 32",
+                "rank_n": 5,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.2206982627026719,
-                "rank_gap": 26
+                "gap": 0.22727894693997122,
+                "rank_gap": 23
               }
             },
             {
@@ -253,10 +253,10 @@
               "k": "Points scored",
               "note": null,
               "a": {
-                "v": "−1.93",
-                "n": -1.9313441832015725,
-                "rank": "#24 of 32",
-                "rank_n": 24,
+                "v": "−1.03",
+                "n": -1.0261196425074508,
+                "rank": "#22 of 32",
+                "rank_n": 22,
                 "note": null
               },
               "h": {
@@ -268,8 +268,8 @@
               },
               "edge": {
                 "side": "h",
-                "gap": 4.7155788547697615,
-                "rank_gap": 16
+                "gap": 3.81035431407564,
+                "rank_gap": 14
               }
             },
             {
@@ -277,8 +277,8 @@
               "k": "Points allowed",
               "note": null,
               "a": {
-                "v": "+3.20",
-                "n": 3.1981224094647285,
+                "v": "+3.88",
+                "n": 3.8839721653442396,
                 "rank": "#30 of 32",
                 "rank_n": 30,
                 "note": null
@@ -286,14 +286,14 @@
               "h": {
                 "v": "−0.59",
                 "n": -0.58540499595708,
-                "rank": "#14 of 32",
-                "rank_n": 14,
+                "rank": "#15 of 32",
+                "rank_n": 15,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 3.7835274054218084,
-                "rank_gap": 16
+                "gap": 4.46937716130132,
+                "rank_gap": 15
               }
             }
           ]
@@ -306,10 +306,10 @@
               "k": "Offence · EPA per play",
               "note": null,
               "a": {
-                "v": "−0.074",
-                "n": -0.07407165413224287,
-                "rank": "#27 of 32",
-                "rank_n": 27,
+                "v": "−0.050",
+                "n": -0.04961499103732406,
+                "rank": "#25 of 32",
+                "rank_n": 25,
                 "note": null
               },
               "h": {
@@ -321,8 +321,8 @@
               },
               "edge": {
                 "side": "h",
-                "gap": 0.2089540723198394,
-                "rank_gap": 25
+                "gap": 0.18449740922492058,
+                "rank_gap": 23
               }
             },
             {
@@ -330,10 +330,10 @@
               "k": "Pass offence · EPA per dropback",
               "note": null,
               "a": {
-                "v": "−0.004",
-                "n": -0.00396302714233096,
-                "rank": "#15 of 32",
-                "rank_n": 15,
+                "v": "+0.042",
+                "n": 0.041645940404718806,
+                "rank": "#13 of 32",
+                "rank_n": 13,
                 "note": null
               },
               "h": {
@@ -345,8 +345,8 @@
               },
               "edge": {
                 "side": "h",
-                "gap": 0.19701691381345987,
-                "rank_gap": 12
+                "gap": 0.1514079462664101,
+                "rank_gap": 10
               }
             },
             {
@@ -354,8 +354,8 @@
               "k": "Run offence · EPA per carry",
               "note": null,
               "a": {
-                "v": "−0.208",
-                "n": -0.20774139176907114,
+                "v": "−0.191",
+                "n": -0.1908388879575474,
                 "rank": "#32 of 32",
                 "rank_n": 32,
                 "note": null
@@ -369,7 +369,7 @@
               },
               "edge": {
                 "side": "h",
-                "gap": 0.3026029304161608,
+                "gap": 0.2857004266046371,
                 "rank_gap": 29
               }
             },
@@ -378,23 +378,23 @@
               "k": "Explosive pass rate",
               "note": "20+ yard pass plays per attempt",
               "a": {
-                "v": "−0.6 pp",
-                "n": -0.0057330252214619366,
-                "rank": "#18 of 32",
-                "rank_n": 18,
+                "v": "−0.2 pp",
+                "n": -0.002218678837344508,
+                "rank": "#15 of 32",
+                "rank_n": 15,
                 "note": null
               },
               "h": {
                 "v": "+2.3 pp",
                 "n": 0.022873975371701917,
-                "rank": "#3 of 32",
-                "rank_n": 3,
+                "rank": "#5 of 32",
+                "rank_n": 5,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.028607000593163852,
-                "rank_gap": 15
+                "gap": 0.025092654209046425,
+                "rank_gap": 10
               }
             },
             {
@@ -402,8 +402,8 @@
               "k": "Explosive run rate",
               "note": "10+ yard runs per carry",
               "a": {
-                "v": "−3.4 pp",
-                "n": -0.03402665557030479,
+                "v": "−3.7 pp",
+                "n": -0.03716393491802131,
                 "rank": "#31 of 32",
                 "rank_n": 31,
                 "note": null
@@ -417,7 +417,7 @@
               },
               "edge": {
                 "side": "h",
-                "gap": 0.05369017477497334,
+                "gap": 0.05682745412268986,
                 "rank_gap": 27
               }
             }
@@ -431,23 +431,23 @@
               "k": "Defence · EPA allowed per play",
               "note": null,
               "a": {
-                "v": "+0.022",
-                "n": 0.02189107774689738,
-                "rank": "#19 of 32",
-                "rank_n": 19,
+                "v": "+0.053",
+                "n": 0.05292842507911551,
+                "rank": "#26 of 32",
+                "rank_n": 26,
                 "note": null
               },
               "h": {
                 "v": "+0.010",
                 "n": 0.010146887364064865,
-                "rank": "#17 of 32",
-                "rank_n": 17,
+                "rank": "#18 of 32",
+                "rank_n": 18,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.011744190382832514,
-                "rank_gap": 2
+                "gap": 0.04278153771505064,
+                "rank_gap": 8
               }
             },
             {
@@ -455,22 +455,22 @@
               "k": "Pass defence · EPA allowed per dropback",
               "note": null,
               "a": {
-                "v": "+0.077",
-                "n": 0.07677316361905992,
-                "rank": "#26 of 32",
-                "rank_n": 26,
+                "v": "+0.113",
+                "n": 0.1126899701299927,
+                "rank": "#27 of 32",
+                "rank_n": 27,
                 "note": null
               },
               "h": {
                 "v": "+0.025",
                 "n": 0.025045072240767595,
-                "rank": "#19 of 32",
-                "rank_n": 19,
+                "rank": "#20 of 32",
+                "rank_n": 20,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.051728091378292325,
+                "gap": 0.08764489788922511,
                 "rank_gap": 7
               }
             },
@@ -479,23 +479,23 @@
               "k": "Run defence · EPA allowed per carry",
               "note": null,
               "a": {
-                "v": "−0.013",
-                "n": -0.013452475736142302,
-                "rank": "#13 of 32",
-                "rank_n": 13,
+                "v": "+0.013",
+                "n": 0.012517186689898315,
+                "rank": "#20 of 32",
+                "rank_n": 20,
                 "note": null
               },
               "h": {
                 "v": "−0.014",
                 "n": -0.013670343773316735,
-                "rank": "#12 of 32",
-                "rank_n": 12,
+                "rank": "#14 of 32",
+                "rank_n": 14,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.0002178680371744332,
-                "rank_gap": 1
+                "gap": 0.02618753046321505,
+                "rank_gap": 6
               }
             },
             {
@@ -503,10 +503,10 @@
               "k": "Explosive passes allowed",
               "note": null,
               "a": {
-                "v": "−1.3 pp",
-                "n": -0.013082403893869807,
-                "rank": "#7 of 32",
-                "rank_n": 7,
+                "v": "−0.3 pp",
+                "n": -0.002923842999979691,
+                "rank": "#13 of 32",
+                "rank_n": 13,
                 "note": null
               },
               "h": {
@@ -518,8 +518,8 @@
               },
               "edge": {
                 "side": "h",
-                "gap": 0.012236326414527373,
-                "rank_gap": 3
+                "gap": 0.022394887308417488,
+                "rank_gap": 9
               }
             },
             {
@@ -527,10 +527,10 @@
               "k": "Explosive runs allowed",
               "note": null,
               "a": {
-                "v": "+2.0 pp",
-                "n": 0.01963916047898926,
-                "rank": "#28 of 32",
-                "rank_n": 28,
+                "v": "+2.6 pp",
+                "n": 0.02607486513578577,
+                "rank": "#30 of 32",
+                "rank_n": 30,
                 "note": null
               },
               "h": {
@@ -542,8 +542,8 @@
               },
               "edge": {
                 "side": "h",
-                "gap": 0.06927974702278239,
-                "rank_gap": 27
+                "gap": 0.07571545167957891,
+                "rank_gap": 29
               }
             }
           ]
@@ -556,23 +556,23 @@
               "k": "Sacks taken per dropback",
               "note": "pass protection — the only offensive-line number the NFL model carries",
               "a": {
-                "v": "−0.0 pp",
-                "n": -0.00005522949075528229,
-                "rank": "#19 of 32",
-                "rank_n": 19,
+                "v": "−0.2 pp",
+                "n": -0.0024319912813740383,
+                "rank": "#16 of 32",
+                "rank_n": 16,
                 "note": null
               },
               "h": {
                 "v": "−2.7 pp",
                 "n": -0.02722255723577101,
-                "rank": "#2 of 32",
-                "rank_n": 2,
+                "rank": "#1 of 32",
+                "rank_n": 1,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.027167327745015728,
-                "rank_gap": 17
+                "gap": 0.02479056595439697,
+                "rank_gap": 15
               }
             },
             {
@@ -580,10 +580,10 @@
               "k": "Sacks generated per dropback",
               "note": "pass rush — the only defensive-front number the NFL model carries",
               "a": {
-                "v": "−0.2 pp",
-                "n": -0.001853919678728347,
-                "rank": "#18 of 32",
-                "rank_n": 18,
+                "v": "−0.5 pp",
+                "n": -0.005374086235883575,
+                "rank": "#19 of 32",
+                "rank_n": 19,
                 "note": null
               },
               "h": {
@@ -595,8 +595,8 @@
               },
               "edge": {
                 "side": "a",
-                "gap": 0.007682231379258058,
-                "rank_gap": 6
+                "gap": 0.00416206482210283,
+                "rank_gap": 5
               }
             }
           ]
@@ -609,8 +609,8 @@
               "k": "Pass rate",
               "note": "how often they throw. A tendency, not a quality, so no side is marked ahead",
               "a": {
-                "v": "+4.9 pp",
-                "n": 0.04862470021875276,
+                "v": "+3.5 pp",
+                "n": 0.03509355284659679,
                 "rank": null,
                 "rank_n": null,
                 "note": "tendency, not a quality"
@@ -629,8 +629,8 @@
               "k": "Plays per game",
               "note": "pace. A tendency, not a quality",
               "a": {
-                "v": "−1.2",
-                "n": -1.236605121883585,
+                "v": "−1.3",
+                "n": -1.3461073848335738,
                 "rank": null,
                 "rank_n": null,
                 "note": "tendency, not a quality"
@@ -654,65 +654,65 @@
       "away": [
         {
           "k": "Sacks generated per dropback",
-          "rank_gap": 6,
-          "gap": 0.007682231379258058,
+          "rank_gap": 5,
+          "gap": 0.00416206482210283,
           "lead": "Las Vegas Raiders",
           "trail": "San Francisco 49ers",
-          "lead_cell": "−0.2 pp · #18 of 32",
+          "lead_cell": "−0.5 pp · #19 of 32",
           "trail_cell": "−1.0 pp · #24 of 32",
-          "text": "Las Vegas Raiders −0.2 pp (#18 of 32) vs San Francisco 49ers −1.0 pp (#24 of 32) — 6 places on the league board."
+          "text": "Las Vegas Raiders −0.5 pp (#19 of 32) vs San Francisco 49ers −1.0 pp (#24 of 32) — 5 places on the league board."
         }
       ],
       "home": [
         {
           "k": "Run offence · EPA per carry",
           "rank_gap": 29,
-          "gap": 0.3026029304161608,
+          "gap": 0.2857004266046371,
           "lead": "San Francisco 49ers",
           "trail": "Las Vegas Raiders",
           "lead_cell": "+0.095 · #3 of 32",
-          "trail_cell": "−0.208 · #32 of 32",
-          "text": "San Francisco 49ers +0.095 (#3 of 32) vs Las Vegas Raiders −0.208 (#32 of 32) — 29 places on the league board."
+          "trail_cell": "−0.191 · #32 of 32",
+          "text": "San Francisco 49ers +0.095 (#3 of 32) vs Las Vegas Raiders −0.191 (#32 of 32) — 29 places on the league board."
+        },
+        {
+          "k": "Explosive runs allowed",
+          "rank_gap": 29,
+          "gap": 0.07571545167957891,
+          "lead": "San Francisco 49ers",
+          "trail": "Las Vegas Raiders",
+          "lead_cell": "−5.0 pp · #1 of 32",
+          "trail_cell": "+2.6 pp · #30 of 32",
+          "text": "San Francisco 49ers −5.0 pp (#1 of 32) vs Las Vegas Raiders +2.6 pp (#30 of 32) — 29 places on the league board."
         },
         {
           "k": "Explosive run rate",
           "rank_gap": 27,
-          "gap": 0.05369017477497334,
+          "gap": 0.05682745412268986,
           "lead": "San Francisco 49ers",
           "trail": "Las Vegas Raiders",
           "lead_cell": "+2.0 pp · #4 of 32",
-          "trail_cell": "−3.4 pp · #31 of 32",
-          "text": "San Francisco 49ers +2.0 pp (#4 of 32) vs Las Vegas Raiders −3.4 pp (#31 of 32) — 27 places on the league board."
-        },
-        {
-          "k": "Explosive runs allowed",
-          "rank_gap": 27,
-          "gap": 0.06927974702278239,
-          "lead": "San Francisco 49ers",
-          "trail": "Las Vegas Raiders",
-          "lead_cell": "−5.0 pp · #1 of 32",
-          "trail_cell": "+2.0 pp · #28 of 32",
-          "text": "San Francisco 49ers −5.0 pp (#1 of 32) vs Las Vegas Raiders +2.0 pp (#28 of 32) — 27 places on the league board."
+          "trail_cell": "−3.7 pp · #31 of 32",
+          "text": "San Francisco 49ers +2.0 pp (#4 of 32) vs Las Vegas Raiders −3.7 pp (#31 of 32) — 27 places on the league board."
         },
         {
           "k": "Net EPA per play",
-          "rank_gap": 26,
-          "gap": 0.2206982627026719,
+          "rank_gap": 23,
+          "gap": 0.22727894693997122,
           "lead": "San Francisco 49ers",
           "trail": "Las Vegas Raiders",
-          "lead_cell": "+0.125 · #3 of 32",
-          "trail_cell": "−0.096 · #29 of 32",
-          "text": "San Francisco 49ers +0.125 (#3 of 32) vs Las Vegas Raiders −0.096 (#29 of 32) — 26 places on the league board."
+          "lead_cell": "+0.125 · #5 of 32",
+          "trail_cell": "−0.103 · #28 of 32",
+          "text": "San Francisco 49ers +0.125 (#5 of 32) vs Las Vegas Raiders −0.103 (#28 of 32) — 23 places on the league board."
         },
         {
           "k": "Offence · EPA per play",
-          "rank_gap": 25,
-          "gap": 0.2089540723198394,
+          "rank_gap": 23,
+          "gap": 0.18449740922492058,
           "lead": "San Francisco 49ers",
           "trail": "Las Vegas Raiders",
           "lead_cell": "+0.135 · #2 of 32",
-          "trail_cell": "−0.074 · #27 of 32",
-          "text": "San Francisco 49ers +0.135 (#2 of 32) vs Las Vegas Raiders −0.074 (#27 of 32) — 25 places on the league board."
+          "trail_cell": "−0.050 · #25 of 32",
+          "text": "San Francisco 49ers +0.135 (#2 of 32) vs Las Vegas Raiders −0.050 (#25 of 32) — 23 places on the league board."
         }
       ],
       "measured": [],
@@ -726,20 +726,20 @@
         "att": {
           "team": "Las Vegas Raiders",
           "label": "pass offence",
-          "v": "−0.004",
-          "rank": "#15 of 32",
+          "v": "+0.042",
+          "rank": "#13 of 32",
           "note": null
         },
         "def": {
           "team": "San Francisco 49ers",
           "label": "pass defence",
           "v": "+0.025",
-          "rank": "#19 of 32",
+          "rank": "#20 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.021082045098436634,
-        "read": "Las Vegas Raiders’ pass offence rates −0.004 (#15 of 32) and San Francisco 49ers’ pass defence rates +0.025 (#19 of 32). Added the way the model adds them, this pairing sits +0.021 from the league mean, which favours Las Vegas Raiders."
+        "net": 0.06669101264548641,
+        "read": "Las Vegas Raiders’ pass offence rates +0.042 (#13 of 32) and San Francisco 49ers’ pass defence rates +0.025 (#20 of 32). Added the way the model adds them, this pairing sits +0.067 from the league mean, which favours Las Vegas Raiders."
       },
       {
         "title": "San Francisco 49ers pass offence vs Las Vegas Raiders pass defence",
@@ -753,20 +753,20 @@
         "def": {
           "team": "Las Vegas Raiders",
           "label": "pass defence",
-          "v": "+0.077",
-          "rank": "#26 of 32",
+          "v": "+0.113",
+          "rank": "#27 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.26982705029018883,
-        "read": "San Francisco 49ers’ pass offence rates +0.193 (#3 of 32) and Las Vegas Raiders’ pass defence rates +0.077 (#26 of 32). Added the way the model adds them, this pairing sits +0.270 from the league mean, which favours San Francisco 49ers."
+        "net": 0.3057438568011216,
+        "read": "San Francisco 49ers’ pass offence rates +0.193 (#3 of 32) and Las Vegas Raiders’ pass defence rates +0.113 (#27 of 32). Added the way the model adds them, this pairing sits +0.306 from the league mean, which favours San Francisco 49ers."
       },
       {
         "title": "Las Vegas Raiders run offence vs San Francisco 49ers run defence",
         "att": {
           "team": "Las Vegas Raiders",
           "label": "run offence",
-          "v": "−0.208",
+          "v": "−0.191",
           "rank": "#32 of 32",
           "note": null
         },
@@ -774,12 +774,12 @@
           "team": "San Francisco 49ers",
           "label": "run defence",
           "v": "−0.014",
-          "rank": "#12 of 32",
+          "rank": "#14 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.22141173554238788,
-        "read": "Las Vegas Raiders’ run offence rates −0.208 (#32 of 32) and San Francisco 49ers’ run defence rates −0.014 (#12 of 32). Added the way the model adds them, this pairing sits −0.221 from the league mean, which favours San Francisco 49ers."
+        "net": -0.20450923173086413,
+        "read": "Las Vegas Raiders’ run offence rates −0.191 (#32 of 32) and San Francisco 49ers’ run defence rates −0.014 (#14 of 32). Added the way the model adds them, this pairing sits −0.205 from the league mean, which favours San Francisco 49ers."
       },
       {
         "title": "San Francisco 49ers run offence vs Las Vegas Raiders run defence",
@@ -793,21 +793,21 @@
         "def": {
           "team": "Las Vegas Raiders",
           "label": "run defence",
-          "v": "−0.013",
-          "rank": "#13 of 32",
+          "v": "+0.013",
+          "rank": "#20 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.0814090629109474,
-        "read": "San Francisco 49ers’ run offence rates +0.095 (#3 of 32) and Las Vegas Raiders’ run defence rates −0.013 (#13 of 32). Added the way the model adds them, this pairing sits +0.081 from the league mean, which favours San Francisco 49ers."
+        "net": 0.10737872533698803,
+        "read": "San Francisco 49ers’ run offence rates +0.095 (#3 of 32) and Las Vegas Raiders’ run defence rates +0.013 (#20 of 32). Added the way the model adds them, this pairing sits +0.107 from the league mean, which favours San Francisco 49ers."
       },
       {
         "title": "Las Vegas Raiders pass protection vs San Francisco 49ers pass rush",
         "att": {
           "team": "Las Vegas Raiders",
           "label": "pass protection",
-          "v": "−0.0 pp",
-          "rank": "#19 of 32",
+          "v": "−0.2 pp",
+          "rank": "#16 of 32",
           "note": null
         },
         "def": {
@@ -818,8 +818,8 @@
           "note": null
         },
         "complete": true,
-        "net": -0.009591380548741688,
-        "read": "Las Vegas Raiders’ pass protection rates −0.0 pp (#19 of 32) and San Francisco 49ers’ pass rush rates −1.0 pp (#24 of 32). Added the way the model adds them, this pairing sits −1.0 pp from the league mean, which favours Las Vegas Raiders."
+        "net": -0.011968142339360444,
+        "read": "Las Vegas Raiders’ pass protection rates −0.2 pp (#16 of 32) and San Francisco 49ers’ pass rush rates −1.0 pp (#24 of 32). Added the way the model adds them, this pairing sits −1.2 pp from the league mean, which favours Las Vegas Raiders."
       },
       {
         "title": "San Francisco 49ers pass protection vs Las Vegas Raiders pass rush",
@@ -827,27 +827,27 @@
           "team": "San Francisco 49ers",
           "label": "pass protection",
           "v": "−2.7 pp",
-          "rank": "#2 of 32",
+          "rank": "#1 of 32",
           "note": null
         },
         "def": {
           "team": "Las Vegas Raiders",
           "label": "pass rush",
-          "v": "−0.2 pp",
-          "rank": "#18 of 32",
+          "v": "−0.5 pp",
+          "rank": "#19 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.029076476914499355,
-        "read": "San Francisco 49ers’ pass protection rates −2.7 pp (#2 of 32) and Las Vegas Raiders’ pass rush rates −0.2 pp (#18 of 32). Added the way the model adds them, this pairing sits −2.9 pp from the league mean, which favours San Francisco 49ers."
+        "net": -0.032596643471654585,
+        "read": "San Francisco 49ers’ pass protection rates −2.7 pp (#1 of 32) and Las Vegas Raiders’ pass rush rates −0.5 pp (#19 of 32). Added the way the model adds them, this pairing sits −3.3 pp from the league mean, which favours San Francisco 49ers."
       },
       {
         "title": "Las Vegas Raiders explosive passing vs San Francisco 49ers explosive passes allowed",
         "att": {
           "team": "Las Vegas Raiders",
           "label": "explosive passing",
-          "v": "−0.6 pp",
-          "rank": "#18 of 32",
+          "v": "−0.2 pp",
+          "rank": "#15 of 32",
           "note": null
         },
         "def": {
@@ -858,8 +858,8 @@
           "note": null
         },
         "complete": true,
-        "net": -0.031051755529859115,
-        "read": "Las Vegas Raiders’ explosive passing rates −0.6 pp (#18 of 32) and San Francisco 49ers’ explosive passes allowed rates −2.5 pp (#4 of 32). Added the way the model adds them, this pairing sits −3.1 pp from the league mean, which favours San Francisco 49ers."
+        "net": -0.02753740914574169,
+        "read": "Las Vegas Raiders’ explosive passing rates −0.2 pp (#15 of 32) and San Francisco 49ers’ explosive passes allowed rates −2.5 pp (#4 of 32). Added the way the model adds them, this pairing sits −2.8 pp from the league mean, which favours San Francisco 49ers."
       },
       {
         "title": "San Francisco 49ers explosive passing vs Las Vegas Raiders explosive passes allowed",
@@ -867,26 +867,26 @@
           "team": "San Francisco 49ers",
           "label": "explosive passing",
           "v": "+2.3 pp",
-          "rank": "#3 of 32",
+          "rank": "#5 of 32",
           "note": null
         },
         "def": {
           "team": "Las Vegas Raiders",
           "label": "explosive passes allowed",
-          "v": "−1.3 pp",
-          "rank": "#7 of 32",
+          "v": "−0.3 pp",
+          "rank": "#13 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.00979157147783211,
-        "read": "San Francisco 49ers’ explosive passing rates +2.3 pp (#3 of 32) and Las Vegas Raiders’ explosive passes allowed rates −1.3 pp (#7 of 32). Added the way the model adds them, this pairing sits +1.0 pp from the league mean, which favours San Francisco 49ers."
+        "net": 0.019950132371722225,
+        "read": "San Francisco 49ers’ explosive passing rates +2.3 pp (#5 of 32) and Las Vegas Raiders’ explosive passes allowed rates −0.3 pp (#13 of 32). Added the way the model adds them, this pairing sits +2.0 pp from the league mean, which favours San Francisco 49ers."
       },
       {
         "title": "Las Vegas Raiders explosive running vs San Francisco 49ers explosive runs allowed",
         "att": {
           "team": "Las Vegas Raiders",
           "label": "explosive running",
-          "v": "−3.4 pp",
+          "v": "−3.7 pp",
           "rank": "#31 of 32",
           "note": null
         },
@@ -898,8 +898,8 @@
           "note": null
         },
         "complete": true,
-        "net": -0.08366724211409793,
-        "read": "Las Vegas Raiders’ explosive running rates −3.4 pp (#31 of 32) and San Francisco 49ers’ explosive runs allowed rates −5.0 pp (#1 of 32). Added the way the model adds them, this pairing sits −8.4 pp from the league mean, which favours San Francisco 49ers."
+        "net": -0.08680452146181444,
+        "read": "Las Vegas Raiders’ explosive running rates −3.7 pp (#31 of 32) and San Francisco 49ers’ explosive runs allowed rates −5.0 pp (#1 of 32). Added the way the model adds them, this pairing sits −8.7 pp from the league mean, which favours San Francisco 49ers."
       },
       {
         "title": "San Francisco 49ers explosive running vs Las Vegas Raiders explosive runs allowed",
@@ -913,13 +913,13 @@
         "def": {
           "team": "Las Vegas Raiders",
           "label": "explosive runs allowed",
-          "v": "+2.0 pp",
-          "rank": "#28 of 32",
+          "v": "+2.6 pp",
+          "rank": "#30 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.03930267968365781,
-        "read": "San Francisco 49ers’ explosive running rates +2.0 pp (#4 of 32) and Las Vegas Raiders’ explosive runs allowed rates +2.0 pp (#28 of 32). Added the way the model adds them, this pairing sits +3.9 pp from the league mean, which favours San Francisco 49ers."
+        "net": 0.045738384340454324,
+        "read": "San Francisco 49ers’ explosive running rates +2.0 pp (#4 of 32) and Las Vegas Raiders’ explosive runs allowed rates +2.6 pp (#30 of 32). Added the way the model adds them, this pairing sits +4.6 pp from the league mean, which favours San Francisco 49ers."
       }
     ],
     "panels": [
@@ -951,7 +951,7 @@
           },
           {
             "k": "Learned sample",
-            "a": "179 learned starts",
+            "a": "180 learned starts",
             "h": "60 learned starts",
             "note": "starts the QB layer has actually absorbed"
           },
@@ -963,13 +963,13 @@
           },
           {
             "k": "Active room",
-            "a": "Kirk Cousins, Aidan O'Connell, Fernando Mendoza",
+            "a": "Kirk Cousins, Fernando Mendoza",
             "h": "Mac Jones, Brock Purdy",
             "note": "who is rostered at the position — identity only"
           }
         ],
         "reads": [
-          "The quarterback difference is worth -0.9 points of the projected spread — the engine’s own qb_adj_diff term, and the only place a quarterback moves this number.",
+          "The quarterback difference is worth -1.8 points of the projected spread — the engine’s own qb_adj_diff term, and the only place a quarterback moves this number.",
           "Both starters are confirmed by the schedule feed, so the quarterback term is priced from the learned value of the two players actually named.",
           "The learned QB layer is identity-keyed and value-only: it says how a quarterback has played, never how he is feeling, and it knows nothing about a start nobody has announced."
         ]
@@ -1043,7 +1043,7 @@
         "reads": [
           "Each situational factor is shown with the points the engine’s own context model assigned it, so nothing here is a rule of thumb. A factor with no weight in the fit is worth nothing in this number and says so rather than being quietly rounded up.",
           "No forecast reached this game, so temperature and wind entered the total at their neutral defaults. That is a missing input, not a mild day.",
-          "The ratings behind this projection are the trained seeds plus 108 absorbed 2026 games; early in a season that means the prior is still carrying most of the weight."
+          "The ratings behind this projection are the trained seeds plus 120 absorbed 2026 games; early in a season that means the prior is still carrying most of the weight."
         ]
       }
     ],
@@ -1052,7 +1052,7 @@
         "team": "San Francisco 49ers",
         "heading": "Why San Francisco 49ers can pull away",
         "bullets": [
-          "Base team strength — San Francisco 49ers by 6.5 points (last season +3.8, this season +2.7) (+6.5 pts).",
+          "Base team strength — San Francisco 49ers by 6.4 points (last season +3.5, this season +2.8) (+6.4 pts).",
           "Passing — San Francisco 49ers by 0.3 points (last season +0.2, this season +0.2) (+0.3 pts).",
           "Rushing — San Francisco 49ers by 1.2 points (last season +0.1, this season +1.1) (+1.2 pts).",
           "Home field — San Francisco 49ers by 3.2 points (+3.2 pts).",
@@ -1063,10 +1063,11 @@
         "team": "Las Vegas Raiders",
         "heading": "Why Las Vegas Raiders can keep it close",
         "bullets": [
-          "Quarterback — Las Vegas Raiders by 0.9 points (-0.9 pts).",
+          "Quarterback — Las Vegas Raiders by 1.8 points (-1.8 pts).",
           "Context (venue, division) — Las Vegas Raiders by 0.7 points (-0.7 pts).",
-          "Sacks generated per dropback: Las Vegas Raiders −0.2 pp (#18 of 32) vs San Francisco 49ers −1.0 pp (#24 of 32) — 6 places on the league board.",
-          "The outcome range runs -3.0 to +30.0 for San Francisco 49ers, off the engine’s own learned margin distribution. A projection of about 10.5 points still loses outright often."
+          "Sacks generated per dropback: Las Vegas Raiders −0.5 pp (#19 of 32) vs San Francisco 49ers −1.0 pp (#24 of 32) — 5 places on the league board.",
+          "Las Vegas Raiders pass offence vs San Francisco 49ers pass defence: the pairing sits +0.067 from the league mean.",
+          "The outcome range runs -6.0 to +28.0 for San Francisco 49ers, off the engine’s own learned margin distribution. A projection of about 9.5 points still loses outright often."
         ]
       },
       "note": "Football cases assembled from measured states — a fitted driver, a rating gap, a combined matchup or the model’s own range. Neither side is a bet and neither is advice."
@@ -1122,44 +1123,44 @@
     },
     "market": {
       "available": true,
-      "model": "San Francisco 49ers −10.5",
-      "model_raw": "San Francisco 49ers -10.6",
-      "market": "San Francisco 49ers −8.5",
-      "difference": "2.1 points",
+      "model": "San Francisco 49ers −9.5",
+      "model_raw": "San Francisco 49ers -9.6",
+      "market": "San Francisco 49ers −9.5",
+      "difference": "0.1 points",
       "rounding_note": "Fair lines rounded to nearest half-point; differences use unrounded projections.",
       "key_number": null,
-      "total_model": "47.5",
-      "total_model_raw": "47.5",
-      "total_market": "50.5",
-      "total_rounding_note": null,
-      "total_difference": "3.0 points",
+      "total_model": "49.0",
+      "total_model_raw": "48.8",
+      "total_market": "51.5",
+      "total_rounding_note": "Fair lines rounded to nearest half-point; differences use unrounded projections.",
+      "total_difference": "2.7 points",
       "book": "nflverse reference",
       "capture_age": null,
       "stale": false,
       "classification": "STALE MARKET",
-      "classification_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.1-point gap is context only and the game is excluded from research ranking.",
+      "classification_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 0.1-point gap is context only and the game is excluded from research ranking.",
       "reference": "These are nflverse consensus reference numbers, not a live bettable quote.",
       "note": "EdgeDesk compares its own number with a captured price. The comparison is a research state, not a bet — and out of sample this model does not beat the close."
     },
-    "headline": "EdgeDesk projects San Francisco 49ers 29, Las Vegas Raiders 18.",
+    "headline": "EdgeDesk projects San Francisco 49ers 29, Las Vegas Raiders 20.",
     "state": {
       "label": "STALE MARKET",
-      "note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.1-point gap is context only and the game is excluded from research ranking.",
+      "note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 0.1-point gap is context only and the game is excluded from research ranking.",
       "scope": "This describes the state of EdgeDesk’s model-versus-market research on this game. It is not a statement about whether the matchup is worth researching."
     },
     "score": {
       "away": {
         "team": "Las Vegas Raiders",
-        "points": "18"
+        "points": "20"
       },
       "home": {
         "team": "San Francisco 49ers",
         "points": "29"
       },
       "expected": {
-        "text": "San Francisco 49ers 29.08, Las Vegas Raiders 18.46",
-        "home": 29.08,
-        "away": 18.46,
+        "text": "San Francisco 49ers 29.18, Las Vegas Raiders 19.59",
+        "home": 29.18,
+        "away": 19.59,
         "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
       },
       "note": "Split from EdgeDesk’s own fair spread and fair total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
@@ -1172,120 +1173,120 @@
       "rows": [
         {
           "k": "Net EPA per play",
-          "a": "−0.096  #29 of 32",
-          "h": "+0.125  #3 of 32",
+          "a": "−0.103  #28 of 32",
+          "h": "+0.125  #5 of 32",
           "note": "offence EPA per play minus defence EPA allowed per play — the engine’s own net_epa half"
         },
         {
           "k": "Points scored",
-          "a": "−1.93  #24 of 32",
+          "a": "−1.03  #22 of 32",
           "h": "+2.78  #8 of 32",
           "note": null
         },
         {
           "k": "Points allowed",
-          "a": "+3.20  #30 of 32",
-          "h": "−0.59  #14 of 32",
+          "a": "+3.88  #30 of 32",
+          "h": "−0.59  #15 of 32",
           "note": null
         },
         {
           "k": "Offence · EPA per play",
-          "a": "−0.074  #27 of 32",
+          "a": "−0.050  #25 of 32",
           "h": "+0.135  #2 of 32",
           "note": null
         },
         {
           "k": "Pass offence · EPA per dropback",
-          "a": "−0.004  #15 of 32",
+          "a": "+0.042  #13 of 32",
           "h": "+0.193  #3 of 32",
           "note": null
         },
         {
           "k": "Run offence · EPA per carry",
-          "a": "−0.208  #32 of 32",
+          "a": "−0.191  #32 of 32",
           "h": "+0.095  #3 of 32",
           "note": null
         },
         {
           "k": "Explosive pass rate",
-          "a": "−0.6 pp  #18 of 32",
-          "h": "+2.3 pp  #3 of 32",
+          "a": "−0.2 pp  #15 of 32",
+          "h": "+2.3 pp  #5 of 32",
           "note": "20+ yard pass plays per attempt"
         },
         {
           "k": "Explosive run rate",
-          "a": "−3.4 pp  #31 of 32",
+          "a": "−3.7 pp  #31 of 32",
           "h": "+2.0 pp  #4 of 32",
           "note": "10+ yard runs per carry"
         },
         {
           "k": "Defence · EPA allowed per play",
-          "a": "+0.022  #19 of 32",
-          "h": "+0.010  #17 of 32",
+          "a": "+0.053  #26 of 32",
+          "h": "+0.010  #18 of 32",
           "note": null
         },
         {
           "k": "Pass defence · EPA allowed per dropback",
-          "a": "+0.077  #26 of 32",
-          "h": "+0.025  #19 of 32",
+          "a": "+0.113  #27 of 32",
+          "h": "+0.025  #20 of 32",
           "note": null
         },
         {
           "k": "Run defence · EPA allowed per carry",
-          "a": "−0.013  #13 of 32",
-          "h": "−0.014  #12 of 32",
+          "a": "+0.013  #20 of 32",
+          "h": "−0.014  #14 of 32",
           "note": null
         },
         {
           "k": "Explosive passes allowed",
-          "a": "−1.3 pp  #7 of 32",
+          "a": "−0.3 pp  #13 of 32",
           "h": "−2.5 pp  #4 of 32",
           "note": null
         },
         {
           "k": "Explosive runs allowed",
-          "a": "+2.0 pp  #28 of 32",
+          "a": "+2.6 pp  #30 of 32",
           "h": "−5.0 pp  #1 of 32",
           "note": null
         },
         {
           "k": "Sacks taken per dropback",
-          "a": "−0.0 pp  #19 of 32",
-          "h": "−2.7 pp  #2 of 32",
+          "a": "−0.2 pp  #16 of 32",
+          "h": "−2.7 pp  #1 of 32",
           "note": "pass protection — the only offensive-line number the NFL model carries"
         },
         {
           "k": "Sacks generated per dropback",
-          "a": "−0.2 pp  #18 of 32",
+          "a": "−0.5 pp  #19 of 32",
           "h": "−1.0 pp  #24 of 32",
           "note": "pass rush — the only defensive-front number the NFL model carries"
         },
         {
           "k": "Pass rate",
-          "a": "+4.9 pp",
+          "a": "+3.5 pp",
           "h": "−0.4 pp",
           "note": "how often they throw. A tendency, not a quality, so no side is marked ahead"
         },
         {
           "k": "Plays per game",
-          "a": "−1.2",
+          "a": "−1.3",
           "h": "−1.9",
           "note": "pace. A tendency, not a quality"
         }
       ]
     },
     "notes": [
-      "EdgeDesk’s line is San Francisco 49ers −10.5 with a fair total of 47.5, before any book is consulted.",
-      "San Francisco 49ers wins 84% of the time in EdgeDesk’s distribution, Las Vegas Raiders 16%."
+      "EdgeDesk’s line is San Francisco 49ers −9.5 with a fair total of 49.0, before any book is consulted.",
+      "San Francisco 49ers wins 80% of the time in EdgeDesk’s distribution, Las Vegas Raiders 20%."
     ],
     "missing": [],
     "priced_label": "PRICED BY MODEL — the projection and its additive drivers, from the inputs the NFL model actually fits.",
     "context_label": "RESEARCH CONTEXT — every rating below is opponent-adjusted and printed as a deviation from the league mean. The injury report and the quarterback panel explain the matchup and move no priced number.",
-    "source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 108 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice."
+    "source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 120 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice."
   },
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T00:36:55.151Z"
+    "at": "2026-11-02T19:27:46.096Z"
   }
 }

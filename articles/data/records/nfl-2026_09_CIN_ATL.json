@@ -11,8 +11,8 @@
   ],
   "title": "Cincinnati Bengals vs. Atlanta Falcons: EdgeDesk Model Projection, Matchup Analysis and Fair Spread",
   "seo_title": "Cincinnati Bengals vs. Atlanta Falcons 2026: EdgeDesk Fair Spread & Model Projection",
-  "seo_description": "EdgeDesk fair spread for Cincinnati Bengals at Atlanta Falcons: Atlanta Falcons +3.5, fair total 48.0. Cincinnati Bengals wins 64% of simulations. Model status STALE MARKET. Research, not picks.",
-  "excerpt": "Cincinnati Bengals carries the stronger EdgeDesk offensive profile (#4 in EPA per play), while Atlanta Falcons owns the more favourable defensive matchup (#12 in EPA allowed per play). EdgeDesk’s independent projection makes it Atlanta Falcons +3.5 with a…",
+  "seo_description": "EdgeDesk fair spread for Cincinnati Bengals at Atlanta Falcons: Atlanta Falcons +5.5, fair total 47.0. Cincinnati Bengals wins 70% of simulations. Model status STALE MARKET. Research, not picks.",
+  "excerpt": "Cincinnati Bengals carries the stronger EdgeDesk offensive profile (#4 in EPA per play), while Atlanta Falcons owns the more favourable defensive matchup (#10 in EPA allowed per play). EdgeDesk’s independent projection makes it Atlanta Falcons +5.5 with a…",
   "home_team": "Atlanta Falcons",
   "away_team": "Cincinnati Bengals",
   "venue": "Bernabeu",
@@ -23,15 +23,15 @@
   "game_time": "2026-11-08T14:30:00.000Z",
   "game_when_label": "2026-11-08 14:30 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T00:36:55.151Z",
-  "generated_at": "2026-11-02T00:36:55.151Z",
+  "updated_at": "2026-11-02T19:27:46.096Z",
+  "generated_at": "2026-11-02T19:27:46.096Z",
   "model_version": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
   "model_status": "STALE MARKET",
-  "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 0.2-point gap is context only and the game is excluded from research ranking.",
+  "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.6-point gap is context only and the game is excluded from research ranking.",
   "confidence": null,
   "priced": true,
-  "fair_spread_text": "Atlanta Falcons +3.5",
-  "fair_total": "48.0",
+  "fair_spread_text": "Atlanta Falcons +5.5",
+  "fair_total": "47.0",
   "hero_image": null,
   "canonical_url": "https://edgedesksports.com/articles/cincinnati-bengals-vs-atlanta-falcons-2026",
   "terminal_url": "https://edgedesksports.com/app.html#research/football",
@@ -43,7 +43,7 @@
   "frozen_at": null,
   "author": "EdgeDesk Research",
   "publisher": "EdgeDesk Sports",
-  "research_source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 108 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice.",
+  "research_source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 120 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice.",
   "market_source": null,
   "research": {
     "kind": "NFL_GAME",
@@ -63,22 +63,22 @@
       "conference_line": "outdoors · grass · division game"
     },
     "lede": [
-      "Cincinnati Bengals carries the stronger EdgeDesk offensive profile (#4 in EPA per play), while Atlanta Falcons owns the more favourable defensive matchup (#12 in EPA allowed per play).",
-      "EdgeDesk’s independent projection makes it Atlanta Falcons +3.5 with a fair total of 48.0 — inside a touchdown, before any sportsbook number is consulted.",
-      "The widest measured matchup on the board is Cincinnati Bengals pass offence vs Atlanta Falcons pass defence, which sits +0.099 from the league mean once the two ratings are combined the way the model combines them.",
+      "Cincinnati Bengals carries the stronger EdgeDesk offensive profile (#4 in EPA per play), while Atlanta Falcons owns the more favourable defensive matchup (#10 in EPA allowed per play).",
+      "EdgeDesk’s independent projection makes it Atlanta Falcons +5.5 with a fair total of 47.0 — inside a touchdown, before any sportsbook number is consulted.",
+      "The widest measured matchup on the board is Atlanta Falcons pass offence vs Cincinnati Bengals pass defence, which sits −0.100 from the league mean once the two ratings are combined the way the model combines them.",
       "The largest uncertainty is availability: NFL injury report — not loaded in this session."
     ],
     "projection": {
       "priced": true,
-      "fair_spread": -3.711673605449455,
-      "fair_spread_text": "Atlanta Falcons +3.5",
-      "fair_spread_raw_text": "Atlanta Falcons +3.7",
+      "fair_spread": -5.599479880075393,
+      "fair_spread_text": "Atlanta Falcons +5.5",
+      "fair_spread_raw_text": "Atlanta Falcons +5.6",
       "favourite": "Cincinnati Bengals",
       "underdog": "Atlanta Falcons",
-      "margin": "3.5",
-      "margin_raw": "3.7",
-      "total": "48.0",
-      "total_raw": "48.2",
+      "margin": "5.5",
+      "margin_raw": "5.6",
+      "total": "47.0",
+      "total_raw": "47.1",
       "display_policy": "football_half_point_v1",
       "score": {
         "away": {
@@ -87,12 +87,12 @@
         },
         "home": {
           "team": "Atlanta Falcons",
-          "points": "22"
+          "points": "21"
         },
         "expected": {
-          "text": "Cincinnati Bengals 25.93, Atlanta Falcons 22.22",
-          "home": 22.22,
-          "away": 25.93,
+          "text": "Cincinnati Bengals 26.35, Atlanta Falcons 20.75",
+          "home": 20.75,
+          "away": 26.35,
           "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
         },
         "note": "Split from EdgeDesk’s own fair spread and fair total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
@@ -101,64 +101,64 @@
       "win_prob": {
         "home": "Atlanta Falcons",
         "away": "Cincinnati Bengals",
-        "home_pct": 36,
-        "away_pct": 64,
-        "home_text": "36%",
-        "away_text": "64%",
+        "home_pct": 30,
+        "away_pct": 70,
+        "home_text": "30%",
+        "away_text": "70%",
         "bounded": false,
         "bounded_note": null,
         "favourite": "Cincinnati Bengals",
-        "favourite_pct": 64,
-        "favourite_text": "64%"
+        "favourite_pct": 70,
+        "favourite_text": "70%"
       },
       "moneyline": {
         "home": "Atlanta Falcons",
         "away": "Cincinnati Bengals",
-        "home_odds": "+181",
-        "away_odds": "-181",
+        "home_odds": "+232",
+        "away_odds": "-232",
         "note": "EdgeDesk’s own fair price, with no margin in it. It is not a quote and nobody offers it."
       },
       "outcome_range": {
         "basis_team": "Atlanta Falcons",
-        "p10": "-22.0",
-        "median": "-4.0",
-        "p90": "+12.0",
+        "p10": "-24.0",
+        "median": "-6.0",
+        "p90": "+10.0",
         "sigma": "10.7",
         "note": "Quoted from the perspective of Atlanta Falcons, off the engine’s own learned margin distribution (conditioned on this spread, so real key-number mass is kept). Eight results in ten land inside p10–p90."
       },
       "confidence_pct": null,
-      "confidence_absent_reason": "The NFL model publishes no single confidence score. What it publishes instead is the width of the outcome range above and the sample the ratings rest on: the trained seeds through 2025, plus 108 absorbed 2026 games.",
-      "sample_games": 108,
+      "confidence_absent_reason": "The NFL model publishes no single confidence score. What it publishes instead is the width of the outcome range above and the sample the ratings rest on: the trained seeds through 2025, plus 120 absorbed 2026 games.",
+      "sample_games": 120,
       "seeded": true,
       "status": "STALE MARKET",
-      "status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 0.2-point gap is context only and the game is excluded from research ranking.",
+      "status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.6-point gap is context only and the game is excluded from research ranking.",
       "engine": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
       "validation": "UNPROVEN — this model does NOT beat the closing line out of sample. Research only; nothing here is graded as a bet."
     },
     "drivers": {
       "rows": [
         {
-          "points": "-2.5",
-          "points_n": -2.4832077041081346,
-          "text": "Base team strength — Cincinnati Bengals by 2.5 points (last season -0.6, this season -1.9)",
+          "points": "-3.0",
+          "points_n": -2.955301014811429,
+          "text": "Base team strength — Cincinnati Bengals by 3.0 points (last season -0.6, this season -2.4)",
           "favours": "Cincinnati Bengals"
         },
         {
-          "points": "-0.2",
-          "points_n": -0.17963676132075979,
-          "text": "Passing — Cincinnati Bengals by 0.2 points (last season 0.0, this season -0.2)",
+          "points": "-0.1",
+          "points_n": -0.06798017308740441,
+          "text": "Passing — Cincinnati Bengals by 0.1 points (last season 0.0, this season -0.1)",
           "favours": "Cincinnati Bengals"
         },
         {
-          "points": "0.0",
-          "points_n": 0.010150987071308808,
-          "text": "Rushing — no lean (last season -0.1, this season +0.1)",
+          "points": "+0.3",
+          "points_n": 0.2778721277906992,
+          "text": "Rushing — Atlanta Falcons by 0.3 points (last season -0.1, this season +0.4)",
           "favours": "Atlanta Falcons"
         },
         {
-          "points": "-0.9",
-          "points_n": -0.8973772020918694,
-          "text": "Quarterback — Cincinnati Bengals by 0.9 points",
+          "points": "-2.7",
+          "points_n": -2.6924678949672582,
+          "text": "Quarterback — Cincinnati Bengals by 2.7 points",
           "favours": "Cincinnati Bengals"
         },
         {
@@ -188,18 +188,13 @@
         },
         {
           "points": "+2.5",
-          "points_n": 2.482660730829201,
+          "points_n": 2.497475831336139,
           "text": "Combined scoring ratings — over by 2.5 points"
         },
         {
-          "points": "+0.3",
-          "points_n": 0.26136106655555813,
-          "text": "Both offences, EPA per play — over by 0.3 points"
-        },
-        {
-          "points": "+0.3",
-          "points_n": 0.2582658586031701,
-          "text": "Passing matchup, both directions — over by 0.3 points"
+          "points": "-0.6",
+          "points_n": -0.593892777310885,
+          "text": "Passing matchup, both directions — under by 0.6 points"
         },
         {
           "points": "+0.2",
@@ -208,8 +203,13 @@
         },
         {
           "points": "+0.1",
-          "points_n": 0.06609141762576026,
+          "points_n": 0.08910484654232231,
           "text": "Sack environment — over by 0.1 points"
+        },
+        {
+          "points": "-0.1",
+          "points_n": -0.08438174618886092,
+          "text": "Combined pace — under by 0.1 points"
         }
       ],
       "reconciles": true,
@@ -231,23 +231,23 @@
               "k": "Net EPA per play",
               "note": "offence EPA per play minus defence EPA allowed per play — the engine’s own net_epa half",
               "a": {
-                "v": "+0.073",
-                "n": 0.0727775817176721,
-                "rank": "#8 of 32",
-                "rank_n": 8,
+                "v": "+0.041",
+                "n": 0.04055215994567676,
+                "rank": "#12 of 32",
+                "rank_n": 12,
                 "note": null
               },
               "h": {
-                "v": "−0.015",
-                "n": -0.015457567483356619,
-                "rank": "#17 of 32",
-                "rank_n": 17,
+                "v": "−0.047",
+                "n": -0.04655840909350334,
+                "rank": "#20 of 32",
+                "rank_n": 20,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.08823514920102872,
-                "rank_gap": 9
+                "gap": 0.0871105690391801,
+                "rank_gap": 8
               }
             },
             {
@@ -255,23 +255,23 @@
               "k": "Points scored",
               "note": null,
               "a": {
-                "v": "+3.09",
-                "n": 3.0875779743250193,
-                "rank": "#5 of 32",
-                "rank_n": 5,
+                "v": "+3.98",
+                "n": 3.9780529826407607,
+                "rank": "#3 of 32",
+                "rank_n": 3,
                 "note": null
               },
               "h": {
-                "v": "+0.13",
-                "n": 0.1258527957904485,
-                "rank": "#14 of 32",
-                "rank_n": 14,
+                "v": "−1.26",
+                "n": -1.2626463311501017,
+                "rank": "#24 of 32",
+                "rank_n": 24,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 2.9617251785345706,
-                "rank_gap": 9
+                "gap": 5.240699313790863,
+                "rank_gap": 21
               }
             },
             {
@@ -279,23 +279,23 @@
               "k": "Points allowed",
               "note": null,
               "a": {
-                "v": "+1.05",
-                "n": 1.0474324829100126,
+                "v": "+2.09",
+                "n": 2.0871175288256216,
+                "rank": "#25 of 32",
+                "rank_n": 25,
+                "note": null
+              },
+              "h": {
+                "v": "+0.79",
+                "n": 0.7946757881735642,
                 "rank": "#19 of 32",
                 "rank_n": 19,
                 "note": null
               },
-              "h": {
-                "v": "+1.30",
-                "n": 1.3031339596858444,
-                "rank": "#20 of 32",
-                "rank_n": 20,
-                "note": null
-              },
               "edge": {
-                "side": "a",
-                "gap": 0.2557014767758319,
-                "rank_gap": 1
+                "side": "h",
+                "gap": 1.2924417406520574,
+                "rank_gap": 6
               }
             }
           ]
@@ -308,23 +308,23 @@
               "k": "Offence · EPA per play",
               "note": null,
               "a": {
-                "v": "+0.096",
-                "n": 0.09597108781870965,
+                "v": "+0.093",
+                "n": 0.09330280966666282,
                 "rank": "#4 of 32",
                 "rank_n": 4,
                 "note": null
               },
               "h": {
-                "v": "−0.029",
-                "n": -0.028838915128619986,
-                "rank": "#23 of 32",
-                "rank_n": 23,
+                "v": "−0.075",
+                "n": -0.07522934340879588,
+                "rank": "#28 of 32",
+                "rank_n": 28,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.12481000294732963,
-                "rank_gap": 19
+                "gap": 0.1685321530754587,
+                "rank_gap": 24
               }
             },
             {
@@ -332,23 +332,23 @@
               "k": "Pass offence · EPA per dropback",
               "note": null,
               "a": {
-                "v": "+0.120",
-                "n": 0.11994638605463781,
+                "v": "+0.124",
+                "n": 0.12449235212034764,
                 "rank": "#6 of 32",
                 "rank_n": 6,
                 "note": null
               },
               "h": {
-                "v": "−0.045",
-                "n": -0.04495825330733218,
-                "rank": "#20 of 32",
-                "rank_n": 20,
+                "v": "−0.143",
+                "n": -0.14317444754555725,
+                "rank": "#27 of 32",
+                "rank_n": 27,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.16490463936196997,
-                "rank_gap": 14
+                "gap": 0.2676667996659049,
+                "rank_gap": 21
               }
             },
             {
@@ -356,23 +356,23 @@
               "k": "Run offence · EPA per carry",
               "note": null,
               "a": {
-                "v": "+0.034",
-                "n": 0.033534900652002785,
-                "rank": "#10 of 32",
-                "rank_n": 10,
-                "note": null
-              },
-              "h": {
-                "v": "−0.014",
-                "n": -0.013894782671195725,
+                "v": "+0.000",
+                "n": 0.00028171992704591545,
                 "rank": "#20 of 32",
                 "rank_n": 20,
                 "note": null
               },
+              "h": {
+                "v": "−0.016",
+                "n": -0.016030281963474793,
+                "rank": "#21 of 32",
+                "rank_n": 21,
+                "note": null
+              },
               "edge": {
                 "side": "a",
-                "gap": 0.04742968332319851,
-                "rank_gap": 10
+                "gap": 0.01631200189052071,
+                "rank_gap": 1
               }
             },
             {
@@ -380,22 +380,22 @@
               "k": "Explosive pass rate",
               "note": "20+ yard pass plays per attempt",
               "a": {
-                "v": "−1.4 pp",
-                "n": -0.014060386488216753,
-                "rank": "#24 of 32",
-                "rank_n": 24,
+                "v": "−1.1 pp",
+                "n": -0.011494266593525655,
+                "rank": "#26 of 32",
+                "rank_n": 26,
                 "note": null
               },
               "h": {
-                "v": "+0.8 pp",
-                "n": 0.008454264511015604,
-                "rank": "#9 of 32",
-                "rank_n": 9,
+                "v": "+0.4 pp",
+                "n": 0.004263992221585416,
+                "rank": "#11 of 32",
+                "rank_n": 11,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.022514650999232357,
+                "gap": 0.015758258815111073,
                 "rank_gap": 15
               }
             },
@@ -404,23 +404,23 @@
               "k": "Explosive run rate",
               "note": "10+ yard runs per carry",
               "a": {
-                "v": "−1.5 pp",
-                "n": -0.014812125107272164,
-                "rank": "#25 of 32",
-                "rank_n": 25,
+                "v": "−1.9 pp",
+                "n": -0.01889692042916054,
+                "rank": "#27 of 32",
+                "rank_n": 27,
                 "note": null
               },
               "h": {
-                "v": "+1.0 pp",
-                "n": 0.00998510263782022,
-                "rank": "#7 of 32",
-                "rank_n": 7,
+                "v": "+0.7 pp",
+                "n": 0.007068087700529945,
+                "rank": "#14 of 32",
+                "rank_n": 14,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.02479722774509238,
-                "rank_gap": 18
+                "gap": 0.025965008129690485,
+                "rank_gap": 13
               }
             }
           ]
@@ -433,23 +433,23 @@
               "k": "Defence · EPA allowed per play",
               "note": null,
               "a": {
-                "v": "+0.023",
-                "n": 0.023193506101037563,
-                "rank": "#20 of 32",
-                "rank_n": 20,
+                "v": "+0.053",
+                "n": 0.05275064972098606,
+                "rank": "#25 of 32",
+                "rank_n": 25,
                 "note": null
               },
               "h": {
-                "v": "−0.013",
-                "n": -0.013381347645263367,
-                "rank": "#12 of 32",
-                "rank_n": 12,
+                "v": "−0.029",
+                "n": -0.028670934315292537,
+                "rank": "#10 of 32",
+                "rank_n": 10,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.03657485374630093,
-                "rank_gap": 8
+                "gap": 0.0814215840362786,
+                "rank_gap": 15
               }
             },
             {
@@ -457,23 +457,23 @@
               "k": "Pass defence · EPA allowed per dropback",
               "note": null,
               "a": {
-                "v": "+0.011",
-                "n": 0.011058423155161014,
-                "rank": "#18 of 32",
-                "rank_n": 18,
+                "v": "+0.043",
+                "n": 0.043396089236977534,
+                "rank": "#21 of 32",
+                "rank_n": 21,
                 "note": null
               },
               "h": {
-                "v": "−0.021",
-                "n": -0.021109647619097244,
-                "rank": "#12 of 32",
-                "rank_n": 12,
+                "v": "−0.174",
+                "n": -0.1740390382406915,
+                "rank": "#3 of 32",
+                "rank_n": 3,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.03216807077425826,
-                "rank_gap": 6
+                "gap": 0.21743512747766902,
+                "rank_gap": 18
               }
             },
             {
@@ -481,23 +481,23 @@
               "k": "Run defence · EPA allowed per carry",
               "note": null,
               "a": {
-                "v": "+0.007",
-                "n": 0.0072925095628357806,
-                "rank": "#20 of 32",
-                "rank_n": 20,
+                "v": "+0.037",
+                "n": 0.0370171770308822,
+                "rank": "#26 of 32",
+                "rank_n": 26,
                 "note": null
               },
               "h": {
-                "v": "−0.043",
-                "n": -0.042678070401529086,
-                "rank": "#7 of 32",
-                "rank_n": 7,
+                "v": "−0.049",
+                "n": -0.048849081132186695,
+                "rank": "#5 of 32",
+                "rank_n": 5,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.04997057996436487,
-                "rank_gap": 13
+                "gap": 0.08586625816306889,
+                "rank_gap": 21
               }
             },
             {
@@ -505,23 +505,23 @@
               "k": "Explosive passes allowed",
               "note": null,
               "a": {
-                "v": "+1.1 pp",
-                "n": 0.011235929393520496,
-                "rank": "#23 of 32",
-                "rank_n": 23,
+                "v": "+1.6 pp",
+                "n": 0.016251839251284164,
+                "rank": "#27 of 32",
+                "rank_n": 27,
                 "note": null
               },
               "h": {
-                "v": "−0.7 pp",
-                "n": -0.006838127511029396,
-                "rank": "#11 of 32",
-                "rank_n": 11,
+                "v": "−1.3 pp",
+                "n": -0.012883794127876292,
+                "rank": "#7 of 32",
+                "rank_n": 7,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.01807405690454989,
-                "rank_gap": 12
+                "gap": 0.029135633379160454,
+                "rank_gap": 20
               }
             },
             {
@@ -530,22 +530,22 @@
               "note": null,
               "a": {
                 "v": "+2.0 pp",
-                "n": 0.01975138350532972,
+                "n": 0.01972644976708217,
                 "rank": "#29 of 32",
                 "rank_n": 29,
                 "note": null
               },
               "h": {
-                "v": "−1.1 pp",
-                "n": -0.01090631028323293,
-                "rank": "#8 of 32",
-                "rank_n": 8,
+                "v": "−0.2 pp",
+                "n": -0.0024127606210353246,
+                "rank": "#16 of 32",
+                "rank_n": 16,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.030657693788562652,
-                "rank_gap": 21
+                "gap": 0.022139210388117492,
+                "rank_gap": 13
               }
             }
           ]
@@ -559,22 +559,22 @@
               "note": "pass protection — the only offensive-line number the NFL model carries",
               "a": {
                 "v": "−1.6 pp",
-                "n": -0.016182467486912495,
+                "n": -0.015889240091158625,
                 "rank": "#6 of 32",
                 "rank_n": 6,
                 "note": null
               },
               "h": {
-                "v": "−0.6 pp",
-                "n": -0.006108262342548928,
-                "rank": "#15 of 32",
-                "rank_n": 15,
+                "v": "−1.1 pp",
+                "n": -0.011285504372137314,
+                "rank": "#10 of 32",
+                "rank_n": 10,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.010074205144363567,
-                "rank_gap": 9
+                "gap": 0.004603735719021311,
+                "rank_gap": 4
               }
             },
             {
@@ -582,23 +582,23 @@
               "k": "Sacks generated per dropback",
               "note": "pass rush — the only defensive-front number the NFL model carries",
               "a": {
-                "v": "+2.1 pp",
-                "n": 0.021399016286790314,
+                "v": "+1.8 pp",
+                "n": 0.017692038226136964,
+                "rank": "#3 of 32",
+                "rank_n": 3,
+                "note": null
+              },
+              "h": {
+                "v": "+2.7 pp",
+                "n": 0.026781705677091504,
                 "rank": "#2 of 32",
                 "rank_n": 2,
                 "note": null
               },
-              "h": {
-                "v": "+0.9 pp",
-                "n": 0.009453829689551716,
-                "rank": "#7 of 32",
-                "rank_n": 7,
-                "note": null
-              },
               "edge": {
-                "side": "a",
-                "gap": 0.011945186597238597,
-                "rank_gap": 5
+                "side": "h",
+                "gap": 0.00908966745095454,
+                "rank_gap": 1
               }
             }
           ]
@@ -611,15 +611,15 @@
               "k": "Pass rate",
               "note": "how often they throw. A tendency, not a quality, so no side is marked ahead",
               "a": {
-                "v": "+6.2 pp",
-                "n": 0.06245374479261446,
+                "v": "+7.3 pp",
+                "n": 0.07346943188616147,
                 "rank": null,
                 "rank_n": null,
                 "note": "tendency, not a quality"
               },
               "h": {
-                "v": "−2.3 pp",
-                "n": -0.023335818240379034,
+                "v": "−2.8 pp",
+                "n": -0.028264097555845948,
                 "rank": null,
                 "rank_n": null,
                 "note": "tendency, not a quality"
@@ -631,15 +631,15 @@
               "k": "Plays per game",
               "note": "pace. A tendency, not a quality",
               "a": {
-                "v": "+0.3",
-                "n": 0.2570804597976344,
+                "v": "+1.0",
+                "n": 1.027459892177086,
                 "rank": null,
                 "rank_n": null,
                 "note": "tendency, not a quality"
               },
               "h": {
-                "v": "−0.9",
-                "n": -0.9158546410518976,
+                "v": "−1.9",
+                "n": -1.9487637032241933,
                 "rank": null,
                 "rank_n": null,
                 "note": "tendency, not a quality"
@@ -656,105 +656,105 @@
       "away": [
         {
           "k": "Offence · EPA per play",
-          "rank_gap": 19,
-          "gap": 0.12481000294732963,
+          "rank_gap": 24,
+          "gap": 0.1685321530754587,
           "lead": "Cincinnati Bengals",
           "trail": "Atlanta Falcons",
-          "lead_cell": "+0.096 · #4 of 32",
-          "trail_cell": "−0.029 · #23 of 32",
-          "text": "Cincinnati Bengals +0.096 (#4 of 32) vs Atlanta Falcons −0.029 (#23 of 32) — 19 places on the league board."
-        },
-        {
-          "k": "Pass offence · EPA per dropback",
-          "rank_gap": 14,
-          "gap": 0.16490463936196997,
-          "lead": "Cincinnati Bengals",
-          "trail": "Atlanta Falcons",
-          "lead_cell": "+0.120 · #6 of 32",
-          "trail_cell": "−0.045 · #20 of 32",
-          "text": "Cincinnati Bengals +0.120 (#6 of 32) vs Atlanta Falcons −0.045 (#20 of 32) — 14 places on the league board."
-        },
-        {
-          "k": "Run offence · EPA per carry",
-          "rank_gap": 10,
-          "gap": 0.04742968332319851,
-          "lead": "Cincinnati Bengals",
-          "trail": "Atlanta Falcons",
-          "lead_cell": "+0.034 · #10 of 32",
-          "trail_cell": "−0.014 · #20 of 32",
-          "text": "Cincinnati Bengals +0.034 (#10 of 32) vs Atlanta Falcons −0.014 (#20 of 32) — 10 places on the league board."
-        },
-        {
-          "k": "Net EPA per play",
-          "rank_gap": 9,
-          "gap": 0.08823514920102872,
-          "lead": "Cincinnati Bengals",
-          "trail": "Atlanta Falcons",
-          "lead_cell": "+0.073 · #8 of 32",
-          "trail_cell": "−0.015 · #17 of 32",
-          "text": "Cincinnati Bengals +0.073 (#8 of 32) vs Atlanta Falcons −0.015 (#17 of 32) — 9 places on the league board."
+          "lead_cell": "+0.093 · #4 of 32",
+          "trail_cell": "−0.075 · #28 of 32",
+          "text": "Cincinnati Bengals +0.093 (#4 of 32) vs Atlanta Falcons −0.075 (#28 of 32) — 24 places on the league board."
         },
         {
           "k": "Points scored",
-          "rank_gap": 9,
-          "gap": 2.9617251785345706,
+          "rank_gap": 21,
+          "gap": 5.240699313790863,
           "lead": "Cincinnati Bengals",
           "trail": "Atlanta Falcons",
-          "lead_cell": "+3.09 · #5 of 32",
-          "trail_cell": "+0.13 · #14 of 32",
-          "text": "Cincinnati Bengals +3.09 (#5 of 32) vs Atlanta Falcons +0.13 (#14 of 32) — 9 places on the league board."
+          "lead_cell": "+3.98 · #3 of 32",
+          "trail_cell": "−1.26 · #24 of 32",
+          "text": "Cincinnati Bengals +3.98 (#3 of 32) vs Atlanta Falcons −1.26 (#24 of 32) — 21 places on the league board."
+        },
+        {
+          "k": "Pass offence · EPA per dropback",
+          "rank_gap": 21,
+          "gap": 0.2676667996659049,
+          "lead": "Cincinnati Bengals",
+          "trail": "Atlanta Falcons",
+          "lead_cell": "+0.124 · #6 of 32",
+          "trail_cell": "−0.143 · #27 of 32",
+          "text": "Cincinnati Bengals +0.124 (#6 of 32) vs Atlanta Falcons −0.143 (#27 of 32) — 21 places on the league board."
+        },
+        {
+          "k": "Net EPA per play",
+          "rank_gap": 8,
+          "gap": 0.0871105690391801,
+          "lead": "Cincinnati Bengals",
+          "trail": "Atlanta Falcons",
+          "lead_cell": "+0.041 · #12 of 32",
+          "trail_cell": "−0.047 · #20 of 32",
+          "text": "Cincinnati Bengals +0.041 (#12 of 32) vs Atlanta Falcons −0.047 (#20 of 32) — 8 places on the league board."
+        },
+        {
+          "k": "Sacks taken per dropback",
+          "rank_gap": 4,
+          "gap": 0.004603735719021311,
+          "lead": "Cincinnati Bengals",
+          "trail": "Atlanta Falcons",
+          "lead_cell": "−1.6 pp · #6 of 32",
+          "trail_cell": "−1.1 pp · #10 of 32",
+          "text": "Cincinnati Bengals −1.6 pp (#6 of 32) vs Atlanta Falcons −1.1 pp (#10 of 32) — 4 places on the league board."
         }
       ],
       "home": [
         {
-          "k": "Explosive runs allowed",
+          "k": "Run defence · EPA allowed per carry",
           "rank_gap": 21,
-          "gap": 0.030657693788562652,
+          "gap": 0.08586625816306889,
           "lead": "Atlanta Falcons",
           "trail": "Cincinnati Bengals",
-          "lead_cell": "−1.1 pp · #8 of 32",
-          "trail_cell": "+2.0 pp · #29 of 32",
-          "text": "Atlanta Falcons −1.1 pp (#8 of 32) vs Cincinnati Bengals +2.0 pp (#29 of 32) — 21 places on the league board."
+          "lead_cell": "−0.049 · #5 of 32",
+          "trail_cell": "+0.037 · #26 of 32",
+          "text": "Atlanta Falcons −0.049 (#5 of 32) vs Cincinnati Bengals +0.037 (#26 of 32) — 21 places on the league board."
         },
         {
-          "k": "Explosive run rate",
-          "rank_gap": 18,
-          "gap": 0.02479722774509238,
+          "k": "Explosive passes allowed",
+          "rank_gap": 20,
+          "gap": 0.029135633379160454,
           "lead": "Atlanta Falcons",
           "trail": "Cincinnati Bengals",
-          "lead_cell": "+1.0 pp · #7 of 32",
-          "trail_cell": "−1.5 pp · #25 of 32",
-          "text": "Atlanta Falcons +1.0 pp (#7 of 32) vs Cincinnati Bengals −1.5 pp (#25 of 32) — 18 places on the league board."
+          "lead_cell": "−1.3 pp · #7 of 32",
+          "trail_cell": "+1.6 pp · #27 of 32",
+          "text": "Atlanta Falcons −1.3 pp (#7 of 32) vs Cincinnati Bengals +1.6 pp (#27 of 32) — 20 places on the league board."
+        },
+        {
+          "k": "Pass defence · EPA allowed per dropback",
+          "rank_gap": 18,
+          "gap": 0.21743512747766902,
+          "lead": "Atlanta Falcons",
+          "trail": "Cincinnati Bengals",
+          "lead_cell": "−0.174 · #3 of 32",
+          "trail_cell": "+0.043 · #21 of 32",
+          "text": "Atlanta Falcons −0.174 (#3 of 32) vs Cincinnati Bengals +0.043 (#21 of 32) — 18 places on the league board."
         },
         {
           "k": "Explosive pass rate",
           "rank_gap": 15,
-          "gap": 0.022514650999232357,
+          "gap": 0.015758258815111073,
           "lead": "Atlanta Falcons",
           "trail": "Cincinnati Bengals",
-          "lead_cell": "+0.8 pp · #9 of 32",
-          "trail_cell": "−1.4 pp · #24 of 32",
-          "text": "Atlanta Falcons +0.8 pp (#9 of 32) vs Cincinnati Bengals −1.4 pp (#24 of 32) — 15 places on the league board."
+          "lead_cell": "+0.4 pp · #11 of 32",
+          "trail_cell": "−1.1 pp · #26 of 32",
+          "text": "Atlanta Falcons +0.4 pp (#11 of 32) vs Cincinnati Bengals −1.1 pp (#26 of 32) — 15 places on the league board."
         },
         {
-          "k": "Run defence · EPA allowed per carry",
-          "rank_gap": 13,
-          "gap": 0.04997057996436487,
+          "k": "Defence · EPA allowed per play",
+          "rank_gap": 15,
+          "gap": 0.0814215840362786,
           "lead": "Atlanta Falcons",
           "trail": "Cincinnati Bengals",
-          "lead_cell": "−0.043 · #7 of 32",
-          "trail_cell": "+0.007 · #20 of 32",
-          "text": "Atlanta Falcons −0.043 (#7 of 32) vs Cincinnati Bengals +0.007 (#20 of 32) — 13 places on the league board."
-        },
-        {
-          "k": "Explosive passes allowed",
-          "rank_gap": 12,
-          "gap": 0.01807405690454989,
-          "lead": "Atlanta Falcons",
-          "trail": "Cincinnati Bengals",
-          "lead_cell": "−0.7 pp · #11 of 32",
-          "trail_cell": "+1.1 pp · #23 of 32",
-          "text": "Atlanta Falcons −0.7 pp (#11 of 32) vs Cincinnati Bengals +1.1 pp (#23 of 32) — 12 places on the league board."
+          "lead_cell": "−0.029 · #10 of 32",
+          "trail_cell": "+0.053 · #25 of 32",
+          "text": "Atlanta Falcons −0.029 (#10 of 32) vs Cincinnati Bengals +0.053 (#25 of 32) — 15 places on the league board."
         }
       ],
       "measured": [],
@@ -768,80 +768,80 @@
         "att": {
           "team": "Cincinnati Bengals",
           "label": "pass offence",
-          "v": "+0.120",
+          "v": "+0.124",
           "rank": "#6 of 32",
           "note": null
         },
         "def": {
           "team": "Atlanta Falcons",
           "label": "pass defence",
-          "v": "−0.021",
-          "rank": "#12 of 32",
+          "v": "−0.174",
+          "rank": "#3 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.09883673843554057,
-        "read": "Cincinnati Bengals’ pass offence rates +0.120 (#6 of 32) and Atlanta Falcons’ pass defence rates −0.021 (#12 of 32). Added the way the model adds them, this pairing sits +0.099 from the league mean, which favours Cincinnati Bengals."
+        "net": -0.049546686120343866,
+        "read": "Cincinnati Bengals’ pass offence rates +0.124 (#6 of 32) and Atlanta Falcons’ pass defence rates −0.174 (#3 of 32). Added the way the model adds them, this pairing sits −0.050 from the league mean, which favours Atlanta Falcons."
       },
       {
         "title": "Atlanta Falcons pass offence vs Cincinnati Bengals pass defence",
         "att": {
           "team": "Atlanta Falcons",
           "label": "pass offence",
-          "v": "−0.045",
-          "rank": "#20 of 32",
+          "v": "−0.143",
+          "rank": "#27 of 32",
           "note": null
         },
         "def": {
           "team": "Cincinnati Bengals",
           "label": "pass defence",
-          "v": "+0.011",
-          "rank": "#18 of 32",
+          "v": "+0.043",
+          "rank": "#21 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.03389983015217116,
-        "read": "Atlanta Falcons’ pass offence rates −0.045 (#20 of 32) and Cincinnati Bengals’ pass defence rates +0.011 (#18 of 32). Added the way the model adds them, this pairing sits −0.034 from the league mean, which favours Cincinnati Bengals."
+        "net": -0.09977835830857971,
+        "read": "Atlanta Falcons’ pass offence rates −0.143 (#27 of 32) and Cincinnati Bengals’ pass defence rates +0.043 (#21 of 32). Added the way the model adds them, this pairing sits −0.100 from the league mean, which favours Cincinnati Bengals."
       },
       {
         "title": "Cincinnati Bengals run offence vs Atlanta Falcons run defence",
         "att": {
           "team": "Cincinnati Bengals",
           "label": "run offence",
-          "v": "+0.034",
-          "rank": "#10 of 32",
+          "v": "+0.000",
+          "rank": "#20 of 32",
           "note": null
         },
         "def": {
           "team": "Atlanta Falcons",
           "label": "run defence",
-          "v": "−0.043",
-          "rank": "#7 of 32",
+          "v": "−0.049",
+          "rank": "#5 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.009143169749526302,
-        "read": "Cincinnati Bengals’ run offence rates +0.034 (#10 of 32) and Atlanta Falcons’ run defence rates −0.043 (#7 of 32). Added the way the model adds them, this pairing sits −0.009 from the league mean, which favours Atlanta Falcons."
+        "net": -0.04856736120514078,
+        "read": "Cincinnati Bengals’ run offence rates +0.000 (#20 of 32) and Atlanta Falcons’ run defence rates −0.049 (#5 of 32). Added the way the model adds them, this pairing sits −0.049 from the league mean, which favours Atlanta Falcons."
       },
       {
         "title": "Atlanta Falcons run offence vs Cincinnati Bengals run defence",
         "att": {
           "team": "Atlanta Falcons",
           "label": "run offence",
-          "v": "−0.014",
-          "rank": "#20 of 32",
+          "v": "−0.016",
+          "rank": "#21 of 32",
           "note": null
         },
         "def": {
           "team": "Cincinnati Bengals",
           "label": "run defence",
-          "v": "+0.007",
-          "rank": "#20 of 32",
+          "v": "+0.037",
+          "rank": "#26 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.006602273108359945,
-        "read": "Atlanta Falcons’ run offence rates −0.014 (#20 of 32) and Cincinnati Bengals’ run defence rates +0.007 (#20 of 32). Added the way the model adds them, this pairing sits −0.007 from the league mean, which favours Cincinnati Bengals."
+        "net": 0.020986895067407405,
+        "read": "Atlanta Falcons’ run offence rates −0.016 (#21 of 32) and Cincinnati Bengals’ run defence rates +0.037 (#26 of 32). Added the way the model adds them, this pairing sits +0.021 from the league mean, which favours Atlanta Falcons."
       },
       {
         "title": "Cincinnati Bengals pass protection vs Atlanta Falcons pass rush",
@@ -855,101 +855,101 @@
         "def": {
           "team": "Atlanta Falcons",
           "label": "pass rush",
-          "v": "+0.9 pp",
-          "rank": "#7 of 32",
+          "v": "+2.7 pp",
+          "rank": "#2 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.006728637797360779,
-        "read": "Cincinnati Bengals’ pass protection rates −1.6 pp (#6 of 32) and Atlanta Falcons’ pass rush rates +0.9 pp (#7 of 32). Added the way the model adds them, this pairing sits −0.7 pp from the league mean, which favours Cincinnati Bengals."
+        "net": 0.010892465585932879,
+        "read": "Cincinnati Bengals’ pass protection rates −1.6 pp (#6 of 32) and Atlanta Falcons’ pass rush rates +2.7 pp (#2 of 32). Added the way the model adds them, this pairing sits +1.1 pp from the league mean, which favours Atlanta Falcons."
       },
       {
         "title": "Atlanta Falcons pass protection vs Cincinnati Bengals pass rush",
         "att": {
           "team": "Atlanta Falcons",
           "label": "pass protection",
-          "v": "−0.6 pp",
-          "rank": "#15 of 32",
+          "v": "−1.1 pp",
+          "rank": "#10 of 32",
           "note": null
         },
         "def": {
           "team": "Cincinnati Bengals",
           "label": "pass rush",
-          "v": "+2.1 pp",
-          "rank": "#2 of 32",
+          "v": "+1.8 pp",
+          "rank": "#3 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.015290753944241385,
-        "read": "Atlanta Falcons’ pass protection rates −0.6 pp (#15 of 32) and Cincinnati Bengals’ pass rush rates +2.1 pp (#2 of 32). Added the way the model adds them, this pairing sits +1.5 pp from the league mean, which favours Cincinnati Bengals."
+        "net": 0.0064065338539996495,
+        "read": "Atlanta Falcons’ pass protection rates −1.1 pp (#10 of 32) and Cincinnati Bengals’ pass rush rates +1.8 pp (#3 of 32). Added the way the model adds them, this pairing sits +0.6 pp from the league mean, which favours Cincinnati Bengals."
       },
       {
         "title": "Cincinnati Bengals explosive passing vs Atlanta Falcons explosive passes allowed",
         "att": {
           "team": "Cincinnati Bengals",
           "label": "explosive passing",
-          "v": "−1.4 pp",
-          "rank": "#24 of 32",
+          "v": "−1.1 pp",
+          "rank": "#26 of 32",
           "note": null
         },
         "def": {
           "team": "Atlanta Falcons",
           "label": "explosive passes allowed",
-          "v": "−0.7 pp",
-          "rank": "#11 of 32",
+          "v": "−1.3 pp",
+          "rank": "#7 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.020898513999246148,
-        "read": "Cincinnati Bengals’ explosive passing rates −1.4 pp (#24 of 32) and Atlanta Falcons’ explosive passes allowed rates −0.7 pp (#11 of 32). Added the way the model adds them, this pairing sits −2.1 pp from the league mean, which favours Atlanta Falcons."
+        "net": -0.024378060721401945,
+        "read": "Cincinnati Bengals’ explosive passing rates −1.1 pp (#26 of 32) and Atlanta Falcons’ explosive passes allowed rates −1.3 pp (#7 of 32). Added the way the model adds them, this pairing sits −2.4 pp from the league mean, which favours Atlanta Falcons."
       },
       {
         "title": "Atlanta Falcons explosive passing vs Cincinnati Bengals explosive passes allowed",
         "att": {
           "team": "Atlanta Falcons",
           "label": "explosive passing",
-          "v": "+0.8 pp",
-          "rank": "#9 of 32",
+          "v": "+0.4 pp",
+          "rank": "#11 of 32",
           "note": null
         },
         "def": {
           "team": "Cincinnati Bengals",
           "label": "explosive passes allowed",
-          "v": "+1.1 pp",
-          "rank": "#23 of 32",
+          "v": "+1.6 pp",
+          "rank": "#27 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.0196901939045361,
-        "read": "Atlanta Falcons’ explosive passing rates +0.8 pp (#9 of 32) and Cincinnati Bengals’ explosive passes allowed rates +1.1 pp (#23 of 32). Added the way the model adds them, this pairing sits +2.0 pp from the league mean, which favours Atlanta Falcons."
+        "net": 0.020515831472869582,
+        "read": "Atlanta Falcons’ explosive passing rates +0.4 pp (#11 of 32) and Cincinnati Bengals’ explosive passes allowed rates +1.6 pp (#27 of 32). Added the way the model adds them, this pairing sits +2.1 pp from the league mean, which favours Atlanta Falcons."
       },
       {
         "title": "Cincinnati Bengals explosive running vs Atlanta Falcons explosive runs allowed",
         "att": {
           "team": "Cincinnati Bengals",
           "label": "explosive running",
-          "v": "−1.5 pp",
-          "rank": "#25 of 32",
+          "v": "−1.9 pp",
+          "rank": "#27 of 32",
           "note": null
         },
         "def": {
           "team": "Atlanta Falcons",
           "label": "explosive runs allowed",
-          "v": "−1.1 pp",
-          "rank": "#8 of 32",
+          "v": "−0.2 pp",
+          "rank": "#16 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.025718435390505095,
-        "read": "Cincinnati Bengals’ explosive running rates −1.5 pp (#25 of 32) and Atlanta Falcons’ explosive runs allowed rates −1.1 pp (#8 of 32). Added the way the model adds them, this pairing sits −2.6 pp from the league mean, which favours Atlanta Falcons."
+        "net": -0.021309681050195865,
+        "read": "Cincinnati Bengals’ explosive running rates −1.9 pp (#27 of 32) and Atlanta Falcons’ explosive runs allowed rates −0.2 pp (#16 of 32). Added the way the model adds them, this pairing sits −2.1 pp from the league mean, which favours Atlanta Falcons."
       },
       {
         "title": "Atlanta Falcons explosive running vs Cincinnati Bengals explosive runs allowed",
         "att": {
           "team": "Atlanta Falcons",
           "label": "explosive running",
-          "v": "+1.0 pp",
-          "rank": "#7 of 32",
+          "v": "+0.7 pp",
+          "rank": "#14 of 32",
           "note": null
         },
         "def": {
@@ -960,8 +960,8 @@
           "note": null
         },
         "complete": true,
-        "net": 0.02973648614314994,
-        "read": "Atlanta Falcons’ explosive running rates +1.0 pp (#7 of 32) and Cincinnati Bengals’ explosive runs allowed rates +2.0 pp (#29 of 32). Added the way the model adds them, this pairing sits +3.0 pp from the league mean, which favours Atlanta Falcons."
+        "net": 0.026794537467612112,
+        "read": "Atlanta Falcons’ explosive running rates +0.7 pp (#14 of 32) and Cincinnati Bengals’ explosive runs allowed rates +2.0 pp (#29 of 32). Added the way the model adds them, this pairing sits +2.7 pp from the league mean, which favours Atlanta Falcons."
       }
     ],
     "panels": [
@@ -993,8 +993,8 @@
           },
           {
             "k": "Learned sample",
-            "a": "89 learned starts",
-            "h": "17 learned starts",
+            "a": "90 learned starts",
+            "h": "18 learned starts",
             "note": "starts the QB layer has actually absorbed"
           },
           {
@@ -1006,12 +1006,12 @@
           {
             "k": "Active room",
             "a": "Joe Flacco, Joe Burrow",
-            "h": "Andy Dalton, Tua Tagovailoa, Michael Penix Jr., Jack Strand",
+            "h": "Tua Tagovailoa, Michael Penix Jr.",
             "note": "who is rostered at the position — identity only"
           }
         ],
         "reads": [
-          "The quarterback difference is worth -0.9 points of the projected spread — the engine’s own qb_adj_diff term, and the only place a quarterback moves this number.",
+          "The quarterback difference is worth -2.7 points of the projected spread — the engine’s own qb_adj_diff term, and the only place a quarterback moves this number.",
           "Both starters are confirmed by the schedule feed, so the quarterback term is priced from the learned value of the two players actually named.",
           "The learned QB layer is identity-keyed and value-only: it says how a quarterback has played, never how he is feeling, and it knows nothing about a start nobody has announced."
         ]
@@ -1085,7 +1085,7 @@
         "reads": [
           "Each situational factor is shown with the points the engine’s own context model assigned it, so nothing here is a rule of thumb. A factor with no weight in the fit is worth nothing in this number and says so rather than being quietly rounded up.",
           "No forecast reached this game, so temperature and wind entered the total at their neutral defaults. That is a missing input, not a mild day.",
-          "The ratings behind this projection are the trained seeds plus 108 absorbed 2026 games; early in a season that means the prior is still carrying most of the weight."
+          "The ratings behind this projection are the trained seeds plus 120 absorbed 2026 games; early in a season that means the prior is still carrying most of the weight."
         ]
       }
     ],
@@ -1094,22 +1094,22 @@
         "team": "Cincinnati Bengals",
         "heading": "Why Cincinnati Bengals can pull away",
         "bullets": [
-          "Base team strength — Cincinnati Bengals by 2.5 points (last season -0.6, this season -1.9) (-2.5 pts).",
-          "Quarterback — Cincinnati Bengals by 0.9 points (-0.9 pts).",
+          "Base team strength — Cincinnati Bengals by 3.0 points (last season -0.6, this season -2.4) (-3.0 pts).",
+          "Quarterback — Cincinnati Bengals by 2.7 points (-2.7 pts).",
           "Context (venue, division) — Cincinnati Bengals by 0.7 points (-0.7 pts).",
-          "Offence · EPA per play: Cincinnati Bengals +0.096 (#4 of 32) vs Atlanta Falcons −0.029 (#23 of 32) — 19 places on the league board.",
-          "Pass offence · EPA per dropback: Cincinnati Bengals +0.120 (#6 of 32) vs Atlanta Falcons −0.045 (#20 of 32) — 14 places on the league board."
+          "Offence · EPA per play: Cincinnati Bengals +0.093 (#4 of 32) vs Atlanta Falcons −0.075 (#28 of 32) — 24 places on the league board.",
+          "Points scored: Cincinnati Bengals +3.98 (#3 of 32) vs Atlanta Falcons −1.26 (#24 of 32) — 21 places on the league board."
         ]
       },
       "underdog": {
         "team": "Atlanta Falcons",
         "heading": "Why Atlanta Falcons can keep it close",
         "bullets": [
+          "Rushing — Atlanta Falcons by 0.3 points (last season -0.1, this season +0.4) (+0.3 pts).",
           "Home field — Atlanta Falcons by 0.6 points (+0.6 pts).",
-          "Explosive runs allowed: Atlanta Falcons −1.1 pp (#8 of 32) vs Cincinnati Bengals +2.0 pp (#29 of 32) — 21 places on the league board.",
-          "Explosive run rate: Atlanta Falcons +1.0 pp (#7 of 32) vs Cincinnati Bengals −1.5 pp (#25 of 32) — 18 places on the league board.",
-          "Explosive pass rate: Atlanta Falcons +0.8 pp (#9 of 32) vs Cincinnati Bengals −1.4 pp (#24 of 32) — 15 places on the league board.",
-          "The outcome range runs -22.0 to +12.0 for Atlanta Falcons, off the engine’s own learned margin distribution. A projection of about 3.5 points still loses outright often."
+          "Run defence · EPA allowed per carry: Atlanta Falcons −0.049 (#5 of 32) vs Cincinnati Bengals +0.037 (#26 of 32) — 21 places on the league board.",
+          "Explosive passes allowed: Atlanta Falcons −1.3 pp (#7 of 32) vs Cincinnati Bengals +1.6 pp (#27 of 32) — 20 places on the league board.",
+          "Pass defence · EPA allowed per dropback: Atlanta Falcons −0.174 (#3 of 32) vs Cincinnati Bengals +0.043 (#21 of 32) — 18 places on the league board."
         ]
       },
       "note": "Football cases assembled from measured states — a fitted driver, a rating gap, a combined matchup or the model’s own range. Neither side is a bet and neither is advice."
@@ -1165,29 +1165,33 @@
     },
     "market": {
       "available": true,
-      "model": "Atlanta Falcons +3.5",
-      "model_raw": "Atlanta Falcons +3.7",
-      "market": "Atlanta Falcons +3.5",
-      "difference": "0.2 points",
+      "model": "Atlanta Falcons +5.5",
+      "model_raw": "Atlanta Falcons +5.6",
+      "market": "Atlanta Falcons +3.0",
+      "difference": "2.6 points",
       "rounding_note": "Fair lines rounded to nearest half-point; differences use unrounded projections.",
-      "key_number": null,
-      "total_model": "48.0",
-      "total_model_raw": "48.2",
-      "total_market": "49.5",
+      "key_number": {
+        "text": "Market sits on 3; model is above 3.",
+        "detail": "Cincinnati Bengals: market −3.0, model fair −5.5.",
+        "note": "Key margins are where football games often finish. How often differs between the NFL and college football; this note marks where the two lines sit and does not change any probability."
+      },
+      "total_model": "47.0",
+      "total_model_raw": "47.1",
+      "total_market": "51.5",
       "total_rounding_note": "Fair lines rounded to nearest half-point; differences use unrounded projections.",
-      "total_difference": "1.3 points",
+      "total_difference": "4.4 points",
       "book": "nflverse reference",
       "capture_age": null,
       "stale": false,
       "classification": "STALE MARKET",
-      "classification_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 0.2-point gap is context only and the game is excluded from research ranking.",
+      "classification_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.6-point gap is context only and the game is excluded from research ranking.",
       "reference": "These are nflverse consensus reference numbers, not a live bettable quote.",
       "note": "EdgeDesk compares its own number with a captured price. The comparison is a research state, not a bet — and out of sample this model does not beat the close."
     },
-    "headline": "EdgeDesk projects Cincinnati Bengals 26, Atlanta Falcons 22.",
+    "headline": "EdgeDesk projects Cincinnati Bengals 26, Atlanta Falcons 21.",
     "state": {
       "label": "STALE MARKET",
-      "note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 0.2-point gap is context only and the game is excluded from research ranking.",
+      "note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.6-point gap is context only and the game is excluded from research ranking.",
       "scope": "This describes the state of EdgeDesk’s model-versus-market research on this game. It is not a statement about whether the matchup is worth researching."
     },
     "score": {
@@ -1197,12 +1201,12 @@
       },
       "home": {
         "team": "Atlanta Falcons",
-        "points": "22"
+        "points": "21"
       },
       "expected": {
-        "text": "Cincinnati Bengals 25.93, Atlanta Falcons 22.22",
-        "home": 22.22,
-        "away": 25.93,
+        "text": "Cincinnati Bengals 26.35, Atlanta Falcons 20.75",
+        "home": 20.75,
+        "away": 26.35,
         "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
       },
       "note": "Split from EdgeDesk’s own fair spread and fair total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
@@ -1215,120 +1219,120 @@
       "rows": [
         {
           "k": "Net EPA per play",
-          "a": "+0.073  #8 of 32",
-          "h": "−0.015  #17 of 32",
+          "a": "+0.041  #12 of 32",
+          "h": "−0.047  #20 of 32",
           "note": "offence EPA per play minus defence EPA allowed per play — the engine’s own net_epa half"
         },
         {
           "k": "Points scored",
-          "a": "+3.09  #5 of 32",
-          "h": "+0.13  #14 of 32",
+          "a": "+3.98  #3 of 32",
+          "h": "−1.26  #24 of 32",
           "note": null
         },
         {
           "k": "Points allowed",
-          "a": "+1.05  #19 of 32",
-          "h": "+1.30  #20 of 32",
+          "a": "+2.09  #25 of 32",
+          "h": "+0.79  #19 of 32",
           "note": null
         },
         {
           "k": "Offence · EPA per play",
-          "a": "+0.096  #4 of 32",
-          "h": "−0.029  #23 of 32",
+          "a": "+0.093  #4 of 32",
+          "h": "−0.075  #28 of 32",
           "note": null
         },
         {
           "k": "Pass offence · EPA per dropback",
-          "a": "+0.120  #6 of 32",
-          "h": "−0.045  #20 of 32",
+          "a": "+0.124  #6 of 32",
+          "h": "−0.143  #27 of 32",
           "note": null
         },
         {
           "k": "Run offence · EPA per carry",
-          "a": "+0.034  #10 of 32",
-          "h": "−0.014  #20 of 32",
+          "a": "+0.000  #20 of 32",
+          "h": "−0.016  #21 of 32",
           "note": null
         },
         {
           "k": "Explosive pass rate",
-          "a": "−1.4 pp  #24 of 32",
-          "h": "+0.8 pp  #9 of 32",
+          "a": "−1.1 pp  #26 of 32",
+          "h": "+0.4 pp  #11 of 32",
           "note": "20+ yard pass plays per attempt"
         },
         {
           "k": "Explosive run rate",
-          "a": "−1.5 pp  #25 of 32",
-          "h": "+1.0 pp  #7 of 32",
+          "a": "−1.9 pp  #27 of 32",
+          "h": "+0.7 pp  #14 of 32",
           "note": "10+ yard runs per carry"
         },
         {
           "k": "Defence · EPA allowed per play",
-          "a": "+0.023  #20 of 32",
-          "h": "−0.013  #12 of 32",
+          "a": "+0.053  #25 of 32",
+          "h": "−0.029  #10 of 32",
           "note": null
         },
         {
           "k": "Pass defence · EPA allowed per dropback",
-          "a": "+0.011  #18 of 32",
-          "h": "−0.021  #12 of 32",
+          "a": "+0.043  #21 of 32",
+          "h": "−0.174  #3 of 32",
           "note": null
         },
         {
           "k": "Run defence · EPA allowed per carry",
-          "a": "+0.007  #20 of 32",
-          "h": "−0.043  #7 of 32",
+          "a": "+0.037  #26 of 32",
+          "h": "−0.049  #5 of 32",
           "note": null
         },
         {
           "k": "Explosive passes allowed",
-          "a": "+1.1 pp  #23 of 32",
-          "h": "−0.7 pp  #11 of 32",
+          "a": "+1.6 pp  #27 of 32",
+          "h": "−1.3 pp  #7 of 32",
           "note": null
         },
         {
           "k": "Explosive runs allowed",
           "a": "+2.0 pp  #29 of 32",
-          "h": "−1.1 pp  #8 of 32",
+          "h": "−0.2 pp  #16 of 32",
           "note": null
         },
         {
           "k": "Sacks taken per dropback",
           "a": "−1.6 pp  #6 of 32",
-          "h": "−0.6 pp  #15 of 32",
+          "h": "−1.1 pp  #10 of 32",
           "note": "pass protection — the only offensive-line number the NFL model carries"
         },
         {
           "k": "Sacks generated per dropback",
-          "a": "+2.1 pp  #2 of 32",
-          "h": "+0.9 pp  #7 of 32",
+          "a": "+1.8 pp  #3 of 32",
+          "h": "+2.7 pp  #2 of 32",
           "note": "pass rush — the only defensive-front number the NFL model carries"
         },
         {
           "k": "Pass rate",
-          "a": "+6.2 pp",
-          "h": "−2.3 pp",
+          "a": "+7.3 pp",
+          "h": "−2.8 pp",
           "note": "how often they throw. A tendency, not a quality, so no side is marked ahead"
         },
         {
           "k": "Plays per game",
-          "a": "+0.3",
-          "h": "−0.9",
+          "a": "+1.0",
+          "h": "−1.9",
           "note": "pace. A tendency, not a quality"
         }
       ]
     },
     "notes": [
-      "EdgeDesk’s line is Atlanta Falcons +3.5 with a fair total of 48.0, before any book is consulted.",
-      "Atlanta Falcons wins 36% of the time in EdgeDesk’s distribution, Cincinnati Bengals 64%."
+      "EdgeDesk’s line is Atlanta Falcons +5.5 with a fair total of 47.0, before any book is consulted.",
+      "Atlanta Falcons wins 30% of the time in EdgeDesk’s distribution, Cincinnati Bengals 70%."
     ],
     "missing": [],
     "priced_label": "PRICED BY MODEL — the projection and its additive drivers, from the inputs the NFL model actually fits.",
     "context_label": "RESEARCH CONTEXT — every rating below is opponent-adjusted and printed as a deviation from the league mean. The injury report and the quarterback panel explain the matchup and move no priced number.",
-    "source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 108 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice."
+    "source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 120 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice."
   },
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T00:36:55.151Z"
+    "at": "2026-11-02T19:27:46.096Z"
   }
 }

@@ -11,8 +11,8 @@
   ],
   "title": "Cleveland Browns vs. New Orleans Saints: EdgeDesk Model Projection, Matchup Analysis and Fair Spread",
   "seo_title": "Cleveland Browns vs. New Orleans Saints 2026: EdgeDesk Fair Spread & Model Projection",
-  "seo_description": "EdgeDesk fair spread for Cleveland Browns at New Orleans Saints: New Orleans Saints −3.0, fair total 42.5. New Orleans Saints wins 61% of simulations. Model status STALE MARKET. Research, not picks.",
-  "excerpt": "New Orleans Saints carries the stronger EdgeDesk offensive profile (#24 in EPA per play), while Cleveland Browns owns the more favourable defensive matchup (#7 in EPA allowed per play). EdgeDesk’s independent projection makes it New Orleans Saints −3.0…",
+  "seo_description": "EdgeDesk fair spread for Cleveland Browns at New Orleans Saints: New Orleans Saints −4.5, fair total 42.5. New Orleans Saints wins 66% of simulations. Model status STALE MARKET. Research, not picks.",
+  "excerpt": "New Orleans Saints carries the stronger EdgeDesk offensive profile (#22 in EPA per play), while Cleveland Browns owns the more favourable defensive matchup (#11 in EPA allowed per play). EdgeDesk’s independent projection makes it New Orleans Saints −4.5…",
   "home_team": "New Orleans Saints",
   "away_team": "Cleveland Browns",
   "venue": "Caesars Superdome",
@@ -23,14 +23,14 @@
   "game_time": "2026-11-08T18:00:00.000Z",
   "game_when_label": "2026-11-08 18:00 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T00:36:55.151Z",
-  "generated_at": "2026-11-02T00:36:55.151Z",
+  "updated_at": "2026-11-02T19:27:46.096Z",
+  "generated_at": "2026-11-02T19:27:46.096Z",
   "model_version": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
   "model_status": "STALE MARKET",
-  "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 0.7-point gap is context only and the game is excluded from research ranking.",
+  "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 1.9-point gap is context only and the game is excluded from research ranking.",
   "confidence": null,
   "priced": true,
-  "fair_spread_text": "New Orleans Saints −3.0",
+  "fair_spread_text": "New Orleans Saints −4.5",
   "fair_total": "42.5",
   "hero_image": null,
   "canonical_url": "https://edgedesksports.com/articles/cleveland-browns-vs-new-orleans-saints-2026",
@@ -43,7 +43,7 @@
   "frozen_at": null,
   "author": "EdgeDesk Research",
   "publisher": "EdgeDesk Sports",
-  "research_source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 108 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice.",
+  "research_source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 120 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice.",
   "market_source": null,
   "research": {
     "kind": "NFL_GAME",
@@ -63,36 +63,36 @@
       "conference_line": "indoors · sportturf · division game"
     },
     "lede": [
-      "New Orleans Saints carries the stronger EdgeDesk offensive profile (#24 in EPA per play), while Cleveland Browns owns the more favourable defensive matchup (#7 in EPA allowed per play).",
-      "EdgeDesk’s independent projection makes it New Orleans Saints −3.0 with a fair total of 42.5 — approximately a one-score game, before any sportsbook number is consulted.",
-      "The widest measured matchup on the board is Cleveland Browns pass offence vs New Orleans Saints pass defence, which sits −0.104 from the league mean once the two ratings are combined the way the model combines them.",
+      "New Orleans Saints carries the stronger EdgeDesk offensive profile (#22 in EPA per play), while Cleveland Browns owns the more favourable defensive matchup (#11 in EPA allowed per play).",
+      "EdgeDesk’s independent projection makes it New Orleans Saints −4.5 with a fair total of 42.5 — inside a touchdown, before any sportsbook number is consulted.",
+      "The widest measured matchup on the board is Cleveland Browns pass offence vs New Orleans Saints pass defence, which sits −0.105 from the league mean once the two ratings are combined the way the model combines them.",
       "The largest uncertainty is availability: NFL injury report — not loaded in this session."
     ],
     "projection": {
       "priced": true,
-      "fair_spread": 3.168906111173094,
-      "fair_spread_text": "New Orleans Saints −3.0",
-      "fair_spread_raw_text": "New Orleans Saints -3.2",
+      "fair_spread": 4.383036229803193,
+      "fair_spread_text": "New Orleans Saints −4.5",
+      "fair_spread_raw_text": "New Orleans Saints -4.4",
       "favourite": "New Orleans Saints",
       "underdog": "Cleveland Browns",
-      "margin": "3.0",
-      "margin_raw": "3.2",
+      "margin": "4.5",
+      "margin_raw": "4.4",
       "total": "42.5",
-      "total_raw": "42.7",
+      "total_raw": "42.5",
       "display_policy": "football_half_point_v1",
       "score": {
         "away": {
           "team": "Cleveland Browns",
-          "points": "20"
+          "points": "19"
         },
         "home": {
           "team": "New Orleans Saints",
           "points": "23"
         },
         "expected": {
-          "text": "New Orleans Saints 22.93, Cleveland Browns 19.76",
-          "home": 22.93,
-          "away": 19.76,
+          "text": "New Orleans Saints 23.46, Cleveland Browns 19.08",
+          "home": 23.46,
+          "away": 19.08,
           "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
         },
         "note": "Split from EdgeDesk’s own fair spread and fair total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
@@ -101,64 +101,64 @@
       "win_prob": {
         "home": "New Orleans Saints",
         "away": "Cleveland Browns",
-        "home_pct": 61,
-        "away_pct": 39,
-        "home_text": "61%",
-        "away_text": "39%",
+        "home_pct": 66,
+        "away_pct": 34,
+        "home_text": "66%",
+        "away_text": "34%",
         "bounded": false,
         "bounded_note": null,
         "favourite": "New Orleans Saints",
-        "favourite_pct": 61,
-        "favourite_text": "61%"
+        "favourite_pct": 66,
+        "favourite_text": "66%"
       },
       "moneyline": {
         "home": "New Orleans Saints",
         "away": "Cleveland Browns",
-        "home_odds": "-155",
-        "away_odds": "+155",
+        "home_odds": "-193",
+        "away_odds": "+193",
         "note": "EdgeDesk’s own fair price, with no margin in it. It is not a quote and nobody offers it."
       },
       "outcome_range": {
         "basis_team": "New Orleans Saints",
-        "p10": "-14.0",
-        "median": "+3.0",
-        "p90": "+21.0",
+        "p10": "-11.0",
+        "median": "+4.0",
+        "p90": "+23.0",
         "sigma": "10.7",
         "note": "Quoted from the perspective of New Orleans Saints, off the engine’s own learned margin distribution (conditioned on this spread, so real key-number mass is kept). Eight results in ten land inside p10–p90."
       },
       "confidence_pct": null,
-      "confidence_absent_reason": "The NFL model publishes no single confidence score. What it publishes instead is the width of the outcome range above and the sample the ratings rest on: the trained seeds through 2025, plus 108 absorbed 2026 games.",
-      "sample_games": 108,
+      "confidence_absent_reason": "The NFL model publishes no single confidence score. What it publishes instead is the width of the outcome range above and the sample the ratings rest on: the trained seeds through 2025, plus 120 absorbed 2026 games.",
+      "sample_games": 120,
       "seeded": true,
       "status": "STALE MARKET",
-      "status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 0.7-point gap is context only and the game is excluded from research ranking.",
+      "status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 1.9-point gap is context only and the game is excluded from research ranking.",
       "engine": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
       "validation": "UNPROVEN — this model does NOT beat the closing line out of sample. Research only; nothing here is graded as a bet."
     },
     "drivers": {
       "rows": [
         {
-          "points": "0.0",
-          "points_n": -0.02199425119598848,
-          "text": "Base team strength — no lean (last season +0.5, this season -0.6)",
-          "favours": "Cleveland Browns"
+          "points": "+0.8",
+          "points_n": 0.7713181984665496,
+          "text": "Base team strength — New Orleans Saints by 0.8 points (last season +0.4, this season +0.4)",
+          "favours": "New Orleans Saints"
         },
         {
           "points": "0.0",
-          "points_n": 0.04095837414840043,
+          "points_n": 0.03647104533765694,
           "text": "Passing — no lean (last season +0.1, this season 0.0)",
           "favours": "New Orleans Saints"
         },
         {
-          "points": "-0.5",
-          "points_n": -0.4527589170079097,
-          "text": "Rushing — Cleveland Browns by 0.5 points (last season 0.0, this season -0.5)",
+          "points": "-0.2",
+          "points_n": -0.1677775115825196,
+          "text": "Rushing — Cleveland Browns by 0.2 points (last season 0.0, this season -0.2)",
           "favours": "Cleveland Browns"
         },
         {
-          "points": "-0.3",
-          "points_n": -0.2534147397714083,
-          "text": "Quarterback — Cleveland Browns by 0.3 points",
+          "points": "-0.1",
+          "points_n": -0.1130911474184945,
+          "text": "Quarterback — Cleveland Browns by 0.1 points",
           "favours": "Cleveland Browns"
         },
         {
@@ -187,9 +187,9 @@
           "text": "Model baseline — home field and the league constant"
         },
         {
-          "points": "-2.7",
-          "points_n": -2.671604534343804,
-          "text": "Combined scoring ratings — under by 2.7 points"
+          "points": "-2.8",
+          "points_n": -2.783468455618212,
+          "text": "Combined scoring ratings — under by 2.8 points"
         },
         {
           "points": "+1.6",
@@ -198,13 +198,13 @@
         },
         {
           "points": "-0.7",
-          "points_n": -0.7073421721340651,
+          "points_n": -0.7261715676190608,
           "text": "Passing matchup, both directions — under by 0.7 points"
         },
         {
-          "points": "-0.5",
-          "points_n": -0.528127970406783,
-          "text": "Both offences, EPA per play — under by 0.5 points"
+          "points": "-0.6",
+          "points_n": -0.5778664509204213,
+          "text": "Both offences, EPA per play — under by 0.6 points"
         },
         {
           "points": "+0.2",
@@ -231,23 +231,23 @@
               "k": "Net EPA per play",
               "note": "offence EPA per play minus defence EPA allowed per play — the engine’s own net_epa half",
               "a": {
-                "v": "−0.068",
-                "n": -0.06772824474511677,
-                "rank": "#23 of 32",
-                "rank_n": 23,
+                "v": "−0.099",
+                "n": -0.09876046994566579,
+                "rank": "#27 of 32",
+                "rank_n": 27,
                 "note": null
               },
               "h": {
                 "v": "−0.074",
                 "n": -0.0739181124589828,
-                "rank": "#24 of 32",
-                "rank_n": 24,
+                "rank": "#23 of 32",
+                "rank_n": 23,
                 "note": null
               },
               "edge": {
-                "side": "a",
-                "gap": 0.006189867713866037,
-                "rank_gap": 1
+                "side": "h",
+                "gap": 0.02484235748668298,
+                "rank_gap": 4
               }
             },
             {
@@ -255,23 +255,23 @@
               "k": "Points scored",
               "note": null,
               "a": {
-                "v": "−4.69",
-                "n": -4.686938568399404,
-                "rank": "#31 of 32",
-                "rank_n": 31,
+                "v": "−5.32",
+                "n": -5.316762233450236,
+                "rank": "#32 of 32",
+                "rank_n": 32,
                 "note": null
               },
               "h": {
                 "v": "−2.06",
                 "n": -2.0581389904443173,
-                "rank": "#26 of 32",
-                "rank_n": 26,
+                "rank": "#25 of 32",
+                "rank_n": 25,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 2.6287995779550863,
-                "rank_gap": 5
+                "gap": 3.2586232430059185,
+                "rank_gap": 7
               }
             },
             {
@@ -279,23 +279,23 @@
               "k": "Points allowed",
               "note": null,
               "a": {
-                "v": "−0.93",
-                "n": -0.9318322063044033,
-                "rank": "#12 of 32",
-                "rank_n": 12,
+                "v": "−0.55",
+                "n": -0.5527115625906351,
+                "rank": "#16 of 32",
+                "rank_n": 16,
                 "note": null
               },
               "h": {
                 "v": "+1.69",
                 "n": 1.6894625082726078,
-                "rank": "#23 of 32",
-                "rank_n": 23,
+                "rank": "#22 of 32",
+                "rank_n": 22,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 2.621294714577011,
-                "rank_gap": 11
+                "gap": 2.2421740708632427,
+                "rank_gap": 6
               }
             }
           ]
@@ -308,8 +308,8 @@
               "k": "Offence · EPA per play",
               "note": null,
               "a": {
-                "v": "−0.103",
-                "n": -0.1034846471087784,
+                "v": "−0.116",
+                "n": -0.11626027703403521,
                 "rank": "#30 of 32",
                 "rank_n": 30,
                 "note": null
@@ -317,14 +317,14 @@
               "h": {
                 "v": "−0.032",
                 "n": -0.03216822031735794,
-                "rank": "#24 of 32",
-                "rank_n": 24,
+                "rank": "#22 of 32",
+                "rank_n": 22,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.07131642679142046,
-                "rank_gap": 6
+                "gap": 0.08409205671667727,
+                "rank_gap": 8
               }
             },
             {
@@ -332,23 +332,23 @@
               "k": "Pass offence · EPA per dropback",
               "note": null,
               "a": {
-                "v": "−0.176",
-                "n": -0.17599091848684292,
-                "rank": "#32 of 32",
-                "rank_n": 32,
+                "v": "−0.177",
+                "n": -0.176700216224021,
+                "rank": "#31 of 32",
+                "rank_n": 31,
                 "note": null
               },
               "h": {
                 "v": "−0.015",
                 "n": -0.01533525705069319,
-                "rank": "#17 of 32",
-                "rank_n": 17,
+                "rank": "#18 of 32",
+                "rank_n": 18,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.16065566143614973,
-                "rank_gap": 15
+                "gap": 0.1613649591733278,
+                "rank_gap": 13
               }
             },
             {
@@ -356,10 +356,10 @@
               "k": "Run offence · EPA per carry",
               "note": null,
               "a": {
-                "v": "−0.007",
-                "n": -0.006680833647424318,
-                "rank": "#19 of 32",
-                "rank_n": 19,
+                "v": "−0.043",
+                "n": -0.04317204344834107,
+                "rank": "#24 of 32",
+                "rank_n": 24,
                 "note": null
               },
               "h": {
@@ -371,8 +371,8 @@
               },
               "edge": {
                 "side": "a",
-                "gap": 0.06954113875257369,
-                "rank_gap": 11
+                "gap": 0.03304992895165693,
+                "rank_gap": 6
               }
             },
             {
@@ -380,10 +380,10 @@
               "k": "Explosive pass rate",
               "note": "20+ yard pass plays per attempt",
               "a": {
-                "v": "−0.9 pp",
-                "n": -0.008782334367556986,
-                "rank": "#20 of 32",
-                "rank_n": 20,
+                "v": "−0.7 pp",
+                "n": -0.007256702732085344,
+                "rank": "#22 of 32",
+                "rank_n": 22,
                 "note": null
               },
               "h": {
@@ -395,8 +395,8 @@
               },
               "edge": {
                 "side": "a",
-                "gap": 0.017718160850080704,
-                "rank_gap": 11
+                "gap": 0.019243792485552347,
+                "rank_gap": 9
               }
             },
             {
@@ -404,10 +404,10 @@
               "k": "Explosive run rate",
               "note": "10+ yard runs per carry",
               "a": {
-                "v": "−1.0 pp",
-                "n": -0.01046253548401037,
-                "rank": "#23 of 32",
-                "rank_n": 23,
+                "v": "−1.8 pp",
+                "n": -0.01793077333342069,
+                "rank": "#26 of 32",
+                "rank_n": 26,
                 "note": null
               },
               "h": {
@@ -419,8 +419,8 @@
               },
               "edge": {
                 "side": "a",
-                "gap": 0.03060561872205783,
-                "rank_gap": 9
+                "gap": 0.02313738087264751,
+                "rank_gap": 6
               }
             }
           ]
@@ -433,23 +433,23 @@
               "k": "Defence · EPA allowed per play",
               "note": null,
               "a": {
-                "v": "−0.036",
-                "n": -0.035756402363661635,
-                "rank": "#7 of 32",
-                "rank_n": 7,
+                "v": "−0.017",
+                "n": -0.01749980708836943,
+                "rank": "#11 of 32",
+                "rank_n": 11,
                 "note": null
               },
               "h": {
                 "v": "+0.042",
                 "n": 0.041749892141624854,
-                "rank": "#23 of 32",
-                "rank_n": 23,
+                "rank": "#22 of 32",
+                "rank_n": 22,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.07750629450528648,
-                "rank_gap": 16
+                "gap": 0.05924969922999428,
+                "rank_gap": 11
               }
             },
             {
@@ -457,10 +457,10 @@
               "k": "Pass defence · EPA allowed per dropback",
               "note": null,
               "a": {
-                "v": "−0.058",
-                "n": -0.0584573931632026,
-                "rank": "#6 of 32",
-                "rank_n": 6,
+                "v": "−0.062",
+                "n": -0.062482452240562626,
+                "rank": "#10 of 32",
+                "rank_n": 10,
                 "note": null
               },
               "h": {
@@ -472,8 +472,8 @@
               },
               "edge": {
                 "side": "a",
-                "gap": 0.13039084259050948,
-                "rank_gap": 18
+                "gap": 0.1344159016678695,
+                "rank_gap": 14
               }
             },
             {
@@ -481,23 +481,23 @@
               "k": "Run defence · EPA allowed per carry",
               "note": null,
               "a": {
-                "v": "−0.013",
-                "n": -0.013047725951991206,
-                "rank": "#14 of 32",
-                "rank_n": 14,
+                "v": "+0.022",
+                "n": 0.02179484595260646,
+                "rank": "#22 of 32",
+                "rank_n": 22,
                 "note": null
               },
               "h": {
                 "v": "+0.031",
                 "n": 0.030741356622885553,
-                "rank": "#26 of 32",
-                "rank_n": 26,
+                "rank": "#23 of 32",
+                "rank_n": 23,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.04378908257487676,
-                "rank_gap": 12
+                "gap": 0.008946510670279094,
+                "rank_gap": 1
               }
             },
             {
@@ -505,23 +505,23 @@
               "k": "Explosive passes allowed",
               "note": null,
               "a": {
-                "v": "−0.4 pp",
-                "n": -0.0041150280231286775,
-                "rank": "#12 of 32",
-                "rank_n": 12,
+                "v": "+0.1 pp",
+                "n": 0.0014676761539550566,
+                "rank": "#16 of 32",
+                "rank_n": 16,
                 "note": null
               },
               "h": {
                 "v": "+2.0 pp",
                 "n": 0.020324120656806416,
-                "rank": "#31 of 32",
-                "rank_n": 31,
+                "rank": "#30 of 32",
+                "rank_n": 30,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.024439148679935095,
-                "rank_gap": 19
+                "gap": 0.018856444502851358,
+                "rank_gap": 14
               }
             },
             {
@@ -529,8 +529,8 @@
               "k": "Explosive runs allowed",
               "note": null,
               "a": {
-                "v": "+2.3 pp",
-                "n": 0.023451009185131565,
+                "v": "+2.9 pp",
+                "n": 0.02892808142697518,
                 "rank": "#31 of 32",
                 "rank_n": 31,
                 "note": null
@@ -544,7 +544,7 @@
               },
               "edge": {
                 "side": "h",
-                "gap": 0.023856499759194613,
+                "gap": 0.029333572001038227,
                 "rank_gap": 14
               }
             }
@@ -558,23 +558,23 @@
               "k": "Sacks taken per dropback",
               "note": "pass protection — the only offensive-line number the NFL model carries",
               "a": {
-                "v": "+3.4 pp",
-                "n": 0.033502439418074195,
-                "rank": "#30 of 32",
-                "rank_n": 30,
+                "v": "+4.0 pp",
+                "n": 0.03953820321982792,
+                "rank": "#32 of 32",
+                "rank_n": 32,
                 "note": null
               },
               "h": {
                 "v": "−1.3 pp",
                 "n": -0.012719607387326012,
-                "rank": "#9 of 32",
-                "rank_n": 9,
+                "rank": "#8 of 32",
+                "rank_n": 8,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.04622204680540021,
-                "rank_gap": 21
+                "gap": 0.05225781060715393,
+                "rank_gap": 24
               }
             },
             {
@@ -582,23 +582,23 @@
               "k": "Sacks generated per dropback",
               "note": "pass rush — the only defensive-front number the NFL model carries",
               "a": {
-                "v": "+1.0 pp",
-                "n": 0.010405252318732187,
-                "rank": "#6 of 32",
-                "rank_n": 6,
+                "v": "+0.6 pp",
+                "n": 0.0064795598354817855,
+                "rank": "#11 of 32",
+                "rank_n": 11,
                 "note": null
               },
               "h": {
                 "v": "+0.3 pp",
                 "n": 0.0025451857386428853,
-                "rank": "#12 of 32",
-                "rank_n": 12,
+                "rank": "#15 of 32",
+                "rank_n": 15,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.007860066580089302,
-                "rank_gap": 6
+                "gap": 0.003934374096838901,
+                "rank_gap": 4
               }
             }
           ]
@@ -611,8 +611,8 @@
               "k": "Pass rate",
               "note": "how often they throw. A tendency, not a quality, so no side is marked ahead",
               "a": {
-                "v": "−1.5 pp",
-                "n": -0.0146168515826941,
+                "v": "−0.1 pp",
+                "n": -0.0012611835331812781,
                 "rank": null,
                 "rank_n": null,
                 "note": "tendency, not a quality"
@@ -631,8 +631,8 @@
               "k": "Plays per game",
               "note": "pace. A tendency, not a quality",
               "a": {
-                "v": "−1.5",
-                "n": -1.5407584479378738,
+                "v": "−1.3",
+                "n": -1.2813669502767224,
                 "rank": null,
                 "rank_n": null,
                 "note": "tendency, not a quality"
@@ -655,106 +655,106 @@
     "advantages": {
       "away": [
         {
-          "k": "Explosive passes allowed",
-          "rank_gap": 19,
-          "gap": 0.024439148679935095,
+          "k": "Pass defence · EPA allowed per dropback",
+          "rank_gap": 14,
+          "gap": 0.1344159016678695,
           "lead": "Cleveland Browns",
           "trail": "New Orleans Saints",
-          "lead_cell": "−0.4 pp · #12 of 32",
-          "trail_cell": "+2.0 pp · #31 of 32",
-          "text": "Cleveland Browns −0.4 pp (#12 of 32) vs New Orleans Saints +2.0 pp (#31 of 32) — 19 places on the league board."
+          "lead_cell": "−0.062 · #10 of 32",
+          "trail_cell": "+0.072 · #24 of 32",
+          "text": "Cleveland Browns −0.062 (#10 of 32) vs New Orleans Saints +0.072 (#24 of 32) — 14 places on the league board."
         },
         {
-          "k": "Pass defence · EPA allowed per dropback",
-          "rank_gap": 18,
-          "gap": 0.13039084259050948,
+          "k": "Explosive passes allowed",
+          "rank_gap": 14,
+          "gap": 0.018856444502851358,
           "lead": "Cleveland Browns",
           "trail": "New Orleans Saints",
-          "lead_cell": "−0.058 · #6 of 32",
-          "trail_cell": "+0.072 · #24 of 32",
-          "text": "Cleveland Browns −0.058 (#6 of 32) vs New Orleans Saints +0.072 (#24 of 32) — 18 places on the league board."
+          "lead_cell": "+0.1 pp · #16 of 32",
+          "trail_cell": "+2.0 pp · #30 of 32",
+          "text": "Cleveland Browns +0.1 pp (#16 of 32) vs New Orleans Saints +2.0 pp (#30 of 32) — 14 places on the league board."
         },
         {
           "k": "Defence · EPA allowed per play",
-          "rank_gap": 16,
-          "gap": 0.07750629450528648,
+          "rank_gap": 11,
+          "gap": 0.05924969922999428,
           "lead": "Cleveland Browns",
           "trail": "New Orleans Saints",
-          "lead_cell": "−0.036 · #7 of 32",
-          "trail_cell": "+0.042 · #23 of 32",
-          "text": "Cleveland Browns −0.036 (#7 of 32) vs New Orleans Saints +0.042 (#23 of 32) — 16 places on the league board."
+          "lead_cell": "−0.017 · #11 of 32",
+          "trail_cell": "+0.042 · #22 of 32",
+          "text": "Cleveland Browns −0.017 (#11 of 32) vs New Orleans Saints +0.042 (#22 of 32) — 11 places on the league board."
         },
         {
-          "k": "Run defence · EPA allowed per carry",
-          "rank_gap": 12,
-          "gap": 0.04378908257487676,
+          "k": "Explosive pass rate",
+          "rank_gap": 9,
+          "gap": 0.019243792485552347,
           "lead": "Cleveland Browns",
           "trail": "New Orleans Saints",
-          "lead_cell": "−0.013 · #14 of 32",
-          "trail_cell": "+0.031 · #26 of 32",
-          "text": "Cleveland Browns −0.013 (#14 of 32) vs New Orleans Saints +0.031 (#26 of 32) — 12 places on the league board."
+          "lead_cell": "−0.7 pp · #22 of 32",
+          "trail_cell": "−2.7 pp · #31 of 32",
+          "text": "Cleveland Browns −0.7 pp (#22 of 32) vs New Orleans Saints −2.7 pp (#31 of 32) — 9 places on the league board."
         },
         {
           "k": "Points allowed",
-          "rank_gap": 11,
-          "gap": 2.621294714577011,
+          "rank_gap": 6,
+          "gap": 2.2421740708632427,
           "lead": "Cleveland Browns",
           "trail": "New Orleans Saints",
-          "lead_cell": "−0.93 · #12 of 32",
-          "trail_cell": "+1.69 · #23 of 32",
-          "text": "Cleveland Browns −0.93 (#12 of 32) vs New Orleans Saints +1.69 (#23 of 32) — 11 places on the league board."
+          "lead_cell": "−0.55 · #16 of 32",
+          "trail_cell": "+1.69 · #22 of 32",
+          "text": "Cleveland Browns −0.55 (#16 of 32) vs New Orleans Saints +1.69 (#22 of 32) — 6 places on the league board."
         }
       ],
       "home": [
         {
           "k": "Sacks taken per dropback",
-          "rank_gap": 21,
-          "gap": 0.04622204680540021,
+          "rank_gap": 24,
+          "gap": 0.05225781060715393,
           "lead": "New Orleans Saints",
           "trail": "Cleveland Browns",
-          "lead_cell": "−1.3 pp · #9 of 32",
-          "trail_cell": "+3.4 pp · #30 of 32",
-          "text": "New Orleans Saints −1.3 pp (#9 of 32) vs Cleveland Browns +3.4 pp (#30 of 32) — 21 places on the league board."
-        },
-        {
-          "k": "Pass offence · EPA per dropback",
-          "rank_gap": 15,
-          "gap": 0.16065566143614973,
-          "lead": "New Orleans Saints",
-          "trail": "Cleveland Browns",
-          "lead_cell": "−0.015 · #17 of 32",
-          "trail_cell": "−0.176 · #32 of 32",
-          "text": "New Orleans Saints −0.015 (#17 of 32) vs Cleveland Browns −0.176 (#32 of 32) — 15 places on the league board."
+          "lead_cell": "−1.3 pp · #8 of 32",
+          "trail_cell": "+4.0 pp · #32 of 32",
+          "text": "New Orleans Saints −1.3 pp (#8 of 32) vs Cleveland Browns +4.0 pp (#32 of 32) — 24 places on the league board."
         },
         {
           "k": "Explosive runs allowed",
           "rank_gap": 14,
-          "gap": 0.023856499759194613,
+          "gap": 0.029333572001038227,
           "lead": "New Orleans Saints",
           "trail": "Cleveland Browns",
           "lead_cell": "−0.0 pp · #17 of 32",
-          "trail_cell": "+2.3 pp · #31 of 32",
-          "text": "New Orleans Saints −0.0 pp (#17 of 32) vs Cleveland Browns +2.3 pp (#31 of 32) — 14 places on the league board."
+          "trail_cell": "+2.9 pp · #31 of 32",
+          "text": "New Orleans Saints −0.0 pp (#17 of 32) vs Cleveland Browns +2.9 pp (#31 of 32) — 14 places on the league board."
+        },
+        {
+          "k": "Pass offence · EPA per dropback",
+          "rank_gap": 13,
+          "gap": 0.1613649591733278,
+          "lead": "New Orleans Saints",
+          "trail": "Cleveland Browns",
+          "lead_cell": "−0.015 · #18 of 32",
+          "trail_cell": "−0.177 · #31 of 32",
+          "text": "New Orleans Saints −0.015 (#18 of 32) vs Cleveland Browns −0.177 (#31 of 32) — 13 places on the league board."
         },
         {
           "k": "Offence · EPA per play",
-          "rank_gap": 6,
-          "gap": 0.07131642679142046,
+          "rank_gap": 8,
+          "gap": 0.08409205671667727,
           "lead": "New Orleans Saints",
           "trail": "Cleveland Browns",
-          "lead_cell": "−0.032 · #24 of 32",
-          "trail_cell": "−0.103 · #30 of 32",
-          "text": "New Orleans Saints −0.032 (#24 of 32) vs Cleveland Browns −0.103 (#30 of 32) — 6 places on the league board."
+          "lead_cell": "−0.032 · #22 of 32",
+          "trail_cell": "−0.116 · #30 of 32",
+          "text": "New Orleans Saints −0.032 (#22 of 32) vs Cleveland Browns −0.116 (#30 of 32) — 8 places on the league board."
         },
         {
           "k": "Points scored",
-          "rank_gap": 5,
-          "gap": 2.6287995779550863,
+          "rank_gap": 7,
+          "gap": 3.2586232430059185,
           "lead": "New Orleans Saints",
           "trail": "Cleveland Browns",
-          "lead_cell": "−2.06 · #26 of 32",
-          "trail_cell": "−4.69 · #31 of 32",
-          "text": "New Orleans Saints −2.06 (#26 of 32) vs Cleveland Browns −4.69 (#31 of 32) — 5 places on the league board."
+          "lead_cell": "−2.06 · #25 of 32",
+          "trail_cell": "−5.32 · #32 of 32",
+          "text": "New Orleans Saints −2.06 (#25 of 32) vs Cleveland Browns −5.32 (#32 of 32) — 7 places on the league board."
         }
       ],
       "measured": [],
@@ -768,8 +768,8 @@
         "att": {
           "team": "Cleveland Browns",
           "label": "pass offence",
-          "v": "−0.176",
-          "rank": "#32 of 32",
+          "v": "−0.177",
+          "rank": "#31 of 32",
           "note": null
         },
         "def": {
@@ -780,8 +780,8 @@
           "note": null
         },
         "complete": true,
-        "net": -0.10405746905953606,
-        "read": "Cleveland Browns’ pass offence rates −0.176 (#32 of 32) and New Orleans Saints’ pass defence rates +0.072 (#24 of 32). Added the way the model adds them, this pairing sits −0.104 from the league mean, which favours New Orleans Saints."
+        "net": -0.10476676679671412,
+        "read": "Cleveland Browns’ pass offence rates −0.177 (#31 of 32) and New Orleans Saints’ pass defence rates +0.072 (#24 of 32). Added the way the model adds them, this pairing sits −0.105 from the league mean, which favours New Orleans Saints."
       },
       {
         "title": "New Orleans Saints pass offence vs Cleveland Browns pass defence",
@@ -789,39 +789,39 @@
           "team": "New Orleans Saints",
           "label": "pass offence",
           "v": "−0.015",
-          "rank": "#17 of 32",
+          "rank": "#18 of 32",
           "note": null
         },
         "def": {
           "team": "Cleveland Browns",
           "label": "pass defence",
-          "v": "−0.058",
-          "rank": "#6 of 32",
+          "v": "−0.062",
+          "rank": "#10 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.07379265021389579,
-        "read": "New Orleans Saints’ pass offence rates −0.015 (#17 of 32) and Cleveland Browns’ pass defence rates −0.058 (#6 of 32). Added the way the model adds them, this pairing sits −0.074 from the league mean, which favours Cleveland Browns."
+        "net": -0.07781770929125581,
+        "read": "New Orleans Saints’ pass offence rates −0.015 (#18 of 32) and Cleveland Browns’ pass defence rates −0.062 (#10 of 32). Added the way the model adds them, this pairing sits −0.078 from the league mean, which favours Cleveland Browns."
       },
       {
         "title": "Cleveland Browns run offence vs New Orleans Saints run defence",
         "att": {
           "team": "Cleveland Browns",
           "label": "run offence",
-          "v": "−0.007",
-          "rank": "#19 of 32",
+          "v": "−0.043",
+          "rank": "#24 of 32",
           "note": null
         },
         "def": {
           "team": "New Orleans Saints",
           "label": "run defence",
           "v": "+0.031",
-          "rank": "#26 of 32",
+          "rank": "#23 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.024060522975461233,
-        "read": "Cleveland Browns’ run offence rates −0.007 (#19 of 32) and New Orleans Saints’ run defence rates +0.031 (#26 of 32). Added the way the model adds them, this pairing sits +0.024 from the league mean, which favours Cleveland Browns."
+        "net": -0.01243068682545552,
+        "read": "Cleveland Browns’ run offence rates −0.043 (#24 of 32) and New Orleans Saints’ run defence rates +0.031 (#23 of 32). Added the way the model adds them, this pairing sits −0.012 from the league mean, which favours New Orleans Saints."
       },
       {
         "title": "New Orleans Saints run offence vs Cleveland Browns run defence",
@@ -835,33 +835,33 @@
         "def": {
           "team": "Cleveland Browns",
           "label": "run defence",
-          "v": "−0.013",
-          "rank": "#14 of 32",
+          "v": "+0.022",
+          "rank": "#22 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.08926969835198921,
-        "read": "New Orleans Saints’ run offence rates −0.076 (#30 of 32) and Cleveland Browns’ run defence rates −0.013 (#14 of 32). Added the way the model adds them, this pairing sits −0.089 from the league mean, which favours Cleveland Browns."
+        "net": -0.05442712644739155,
+        "read": "New Orleans Saints’ run offence rates −0.076 (#30 of 32) and Cleveland Browns’ run defence rates +0.022 (#22 of 32). Added the way the model adds them, this pairing sits −0.054 from the league mean, which favours Cleveland Browns."
       },
       {
         "title": "Cleveland Browns pass protection vs New Orleans Saints pass rush",
         "att": {
           "team": "Cleveland Browns",
           "label": "pass protection",
-          "v": "+3.4 pp",
-          "rank": "#30 of 32",
+          "v": "+4.0 pp",
+          "rank": "#32 of 32",
           "note": null
         },
         "def": {
           "team": "New Orleans Saints",
           "label": "pass rush",
           "v": "+0.3 pp",
-          "rank": "#12 of 32",
+          "rank": "#15 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.036047625156717084,
-        "read": "Cleveland Browns’ pass protection rates +3.4 pp (#30 of 32) and New Orleans Saints’ pass rush rates +0.3 pp (#12 of 32). Added the way the model adds them, this pairing sits +3.6 pp from the league mean, which favours New Orleans Saints."
+        "net": 0.04208338895847081,
+        "read": "Cleveland Browns’ pass protection rates +4.0 pp (#32 of 32) and New Orleans Saints’ pass rush rates +0.3 pp (#15 of 32). Added the way the model adds them, this pairing sits +4.2 pp from the league mean, which favours New Orleans Saints."
       },
       {
         "title": "New Orleans Saints pass protection vs Cleveland Browns pass rush",
@@ -869,39 +869,39 @@
           "team": "New Orleans Saints",
           "label": "pass protection",
           "v": "−1.3 pp",
-          "rank": "#9 of 32",
+          "rank": "#8 of 32",
           "note": null
         },
         "def": {
           "team": "Cleveland Browns",
           "label": "pass rush",
-          "v": "+1.0 pp",
-          "rank": "#6 of 32",
+          "v": "+0.6 pp",
+          "rank": "#11 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.0023143550685938256,
-        "read": "New Orleans Saints’ pass protection rates −1.3 pp (#9 of 32) and Cleveland Browns’ pass rush rates +1.0 pp (#6 of 32). Added the way the model adds them, this pairing sits −0.2 pp from the league mean, which favours New Orleans Saints."
+        "net": -0.006240047551844227,
+        "read": "New Orleans Saints’ pass protection rates −1.3 pp (#8 of 32) and Cleveland Browns’ pass rush rates +0.6 pp (#11 of 32). Added the way the model adds them, this pairing sits −0.6 pp from the league mean, which favours New Orleans Saints."
       },
       {
         "title": "Cleveland Browns explosive passing vs New Orleans Saints explosive passes allowed",
         "att": {
           "team": "Cleveland Browns",
           "label": "explosive passing",
-          "v": "−0.9 pp",
-          "rank": "#20 of 32",
+          "v": "−0.7 pp",
+          "rank": "#22 of 32",
           "note": null
         },
         "def": {
           "team": "New Orleans Saints",
           "label": "explosive passes allowed",
           "v": "+2.0 pp",
-          "rank": "#31 of 32",
+          "rank": "#30 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.01154178628924943,
-        "read": "Cleveland Browns’ explosive passing rates −0.9 pp (#20 of 32) and New Orleans Saints’ explosive passes allowed rates +2.0 pp (#31 of 32). Added the way the model adds them, this pairing sits +1.2 pp from the league mean, which favours Cleveland Browns."
+        "net": 0.013067417924721072,
+        "read": "Cleveland Browns’ explosive passing rates −0.7 pp (#22 of 32) and New Orleans Saints’ explosive passes allowed rates +2.0 pp (#30 of 32). Added the way the model adds them, this pairing sits +1.3 pp from the league mean, which favours Cleveland Browns."
       },
       {
         "title": "New Orleans Saints explosive passing vs Cleveland Browns explosive passes allowed",
@@ -915,21 +915,21 @@
         "def": {
           "team": "Cleveland Browns",
           "label": "explosive passes allowed",
-          "v": "−0.4 pp",
-          "rank": "#12 of 32",
+          "v": "+0.1 pp",
+          "rank": "#16 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.03061552324076637,
-        "read": "New Orleans Saints’ explosive passing rates −2.7 pp (#31 of 32) and Cleveland Browns’ explosive passes allowed rates −0.4 pp (#12 of 32). Added the way the model adds them, this pairing sits −3.1 pp from the league mean, which favours Cleveland Browns."
+        "net": -0.025032819063682633,
+        "read": "New Orleans Saints’ explosive passing rates −2.7 pp (#31 of 32) and Cleveland Browns’ explosive passes allowed rates +0.1 pp (#16 of 32). Added the way the model adds them, this pairing sits −2.5 pp from the league mean, which favours Cleveland Browns."
       },
       {
         "title": "Cleveland Browns explosive running vs New Orleans Saints explosive runs allowed",
         "att": {
           "team": "Cleveland Browns",
           "label": "explosive running",
-          "v": "−1.0 pp",
-          "rank": "#23 of 32",
+          "v": "−1.8 pp",
+          "rank": "#26 of 32",
           "note": null
         },
         "def": {
@@ -940,8 +940,8 @@
           "note": null
         },
         "complete": true,
-        "net": -0.01086802605807342,
-        "read": "Cleveland Browns’ explosive running rates −1.0 pp (#23 of 32) and New Orleans Saints’ explosive runs allowed rates −0.0 pp (#17 of 32). Added the way the model adds them, this pairing sits −1.1 pp from the league mean, which favours New Orleans Saints."
+        "net": -0.01833626390748374,
+        "read": "Cleveland Browns’ explosive running rates −1.8 pp (#26 of 32) and New Orleans Saints’ explosive runs allowed rates −0.0 pp (#17 of 32). Added the way the model adds them, this pairing sits −1.8 pp from the league mean, which favours New Orleans Saints."
       },
       {
         "title": "New Orleans Saints explosive running vs Cleveland Browns explosive runs allowed",
@@ -955,13 +955,13 @@
         "def": {
           "team": "Cleveland Browns",
           "label": "explosive runs allowed",
-          "v": "+2.3 pp",
+          "v": "+2.9 pp",
           "rank": "#31 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.017617145020936635,
-        "read": "New Orleans Saints’ explosive running rates −4.1 pp (#32 of 32) and Cleveland Browns’ explosive runs allowed rates +2.3 pp (#31 of 32). Added the way the model adds them, this pairing sits −1.8 pp from the league mean, which favours Cleveland Browns."
+        "net": -0.012140072779093021,
+        "read": "New Orleans Saints’ explosive running rates −4.1 pp (#32 of 32) and Cleveland Browns’ explosive runs allowed rates +2.9 pp (#31 of 32). Added the way the model adds them, this pairing sits −1.2 pp from the league mean, which favours Cleveland Browns."
       }
     ],
     "panels": [
@@ -993,7 +993,7 @@
           },
           {
             "k": "Learned sample",
-            "a": "81 learned starts",
+            "a": "82 learned starts",
             "h": "17 learned starts",
             "note": "starts the QB layer has actually absorbed"
           },
@@ -1005,13 +1005,13 @@
           },
           {
             "k": "Active room",
-            "a": "Deshaun Watson, Shedeur Sanders, Dillon Gabriel, Taylen Green",
+            "a": "Deshaun Watson, Shedeur Sanders",
             "h": "Spencer Rattler, Tyler Shough",
             "note": "who is rostered at the position — identity only"
           }
         ],
         "reads": [
-          "The quarterback difference is worth -0.3 points of the projected spread — the engine’s own qb_adj_diff term, and the only place a quarterback moves this number.",
+          "The quarterback difference is worth -0.1 points of the projected spread — the engine’s own qb_adj_diff term, and the only place a quarterback moves this number.",
           "Both starters are confirmed by the schedule feed, so the quarterback term is priced from the learned value of the two players actually named.",
           "The learned QB layer is identity-keyed and value-only: it says how a quarterback has played, never how he is feeling, and it knows nothing about a start nobody has announced."
         ]
@@ -1084,7 +1084,7 @@
         ],
         "reads": [
           "Each situational factor is shown with the points the engine’s own context model assigned it, so nothing here is a rule of thumb. A factor with no weight in the fit is worth nothing in this number and says so rather than being quietly rounded up.",
-          "The ratings behind this projection are the trained seeds plus 108 absorbed 2026 games; early in a season that means the prior is still carrying most of the weight."
+          "The ratings behind this projection are the trained seeds plus 120 absorbed 2026 games; early in a season that means the prior is still carrying most of the weight."
         ]
       }
     ],
@@ -1093,22 +1093,22 @@
         "team": "New Orleans Saints",
         "heading": "Why New Orleans Saints can pull away",
         "bullets": [
+          "Base team strength — New Orleans Saints by 0.8 points (last season +0.4, this season +0.4) (+0.8 pts).",
           "Home field — New Orleans Saints by 3.2 points (+3.2 pts).",
           "Rest / travel — New Orleans Saints by 1.0 points (+1.0 pts).",
-          "Sacks taken per dropback: New Orleans Saints −1.3 pp (#9 of 32) vs Cleveland Browns +3.4 pp (#30 of 32) — 21 places on the league board.",
-          "Pass offence · EPA per dropback: New Orleans Saints −0.015 (#17 of 32) vs Cleveland Browns −0.176 (#32 of 32) — 15 places on the league board.",
-          "Explosive runs allowed: New Orleans Saints −0.0 pp (#17 of 32) vs Cleveland Browns +2.3 pp (#31 of 32) — 14 places on the league board."
+          "Sacks taken per dropback: New Orleans Saints −1.3 pp (#8 of 32) vs Cleveland Browns +4.0 pp (#32 of 32) — 24 places on the league board.",
+          "Explosive runs allowed: New Orleans Saints −0.0 pp (#17 of 32) vs Cleveland Browns +2.9 pp (#31 of 32) — 14 places on the league board."
         ]
       },
       "underdog": {
         "team": "Cleveland Browns",
         "heading": "Why Cleveland Browns can keep it close",
         "bullets": [
-          "Rushing — Cleveland Browns by 0.5 points (last season 0.0, this season -0.5) (-0.5 pts).",
-          "Quarterback — Cleveland Browns by 0.3 points (-0.3 pts).",
           "Context (venue, division) — Cleveland Browns by 0.3 points (-0.3 pts).",
-          "Explosive passes allowed: Cleveland Browns −0.4 pp (#12 of 32) vs New Orleans Saints +2.0 pp (#31 of 32) — 19 places on the league board.",
-          "Pass defence · EPA allowed per dropback: Cleveland Browns −0.058 (#6 of 32) vs New Orleans Saints +0.072 (#24 of 32) — 18 places on the league board."
+          "Pass defence · EPA allowed per dropback: Cleveland Browns −0.062 (#10 of 32) vs New Orleans Saints +0.072 (#24 of 32) — 14 places on the league board.",
+          "Explosive passes allowed: Cleveland Browns +0.1 pp (#16 of 32) vs New Orleans Saints +2.0 pp (#30 of 32) — 14 places on the league board.",
+          "Defence · EPA allowed per play: Cleveland Browns −0.017 (#11 of 32) vs New Orleans Saints +0.042 (#22 of 32) — 11 places on the league board.",
+          "The outcome range runs -11.0 to +23.0 for New Orleans Saints, off the engine’s own learned margin distribution. A projection of about 4.5 points still loses outright often."
         ]
       },
       "note": "Football cases assembled from measured states — a fitted driver, a rating gap, a combined matchup or the model’s own range. Neither side is a bet and neither is advice."
@@ -1158,48 +1158,48 @@
     },
     "market": {
       "available": true,
-      "model": "New Orleans Saints −3.0",
-      "model_raw": "New Orleans Saints -3.2",
+      "model": "New Orleans Saints −4.5",
+      "model_raw": "New Orleans Saints -4.4",
       "market": "New Orleans Saints −2.5",
-      "difference": "0.7 points",
+      "difference": "1.9 points",
       "rounding_note": "Fair lines rounded to nearest half-point; differences use unrounded projections.",
       "key_number": {
-        "text": "Market is below 3; model sits on 3.",
-        "detail": "New Orleans Saints: market −2.5, model fair −3.0.",
+        "text": "Market is below 3; model is above 3.",
+        "detail": "New Orleans Saints: market −2.5, model fair −4.5.",
         "note": "Key margins are where football games often finish. How often differs between the NFL and college football; this note marks where the two lines sit and does not change any probability."
       },
       "total_model": "42.5",
-      "total_model_raw": "42.7",
+      "total_model_raw": "42.5",
       "total_market": "43.5",
-      "total_rounding_note": "Fair lines rounded to nearest half-point; differences use unrounded projections.",
-      "total_difference": "0.8 points",
+      "total_rounding_note": null,
+      "total_difference": "1.0 points",
       "book": "nflverse reference",
       "capture_age": null,
       "stale": false,
       "classification": "STALE MARKET",
-      "classification_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 0.7-point gap is context only and the game is excluded from research ranking.",
+      "classification_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 1.9-point gap is context only and the game is excluded from research ranking.",
       "reference": "These are nflverse consensus reference numbers, not a live bettable quote.",
       "note": "EdgeDesk compares its own number with a captured price. The comparison is a research state, not a bet — and out of sample this model does not beat the close."
     },
-    "headline": "EdgeDesk projects New Orleans Saints 23, Cleveland Browns 20.",
+    "headline": "EdgeDesk projects New Orleans Saints 23, Cleveland Browns 19.",
     "state": {
       "label": "STALE MARKET",
-      "note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 0.7-point gap is context only and the game is excluded from research ranking.",
+      "note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 1.9-point gap is context only and the game is excluded from research ranking.",
       "scope": "This describes the state of EdgeDesk’s model-versus-market research on this game. It is not a statement about whether the matchup is worth researching."
     },
     "score": {
       "away": {
         "team": "Cleveland Browns",
-        "points": "20"
+        "points": "19"
       },
       "home": {
         "team": "New Orleans Saints",
         "points": "23"
       },
       "expected": {
-        "text": "New Orleans Saints 22.93, Cleveland Browns 19.76",
-        "home": 22.93,
-        "away": 19.76,
+        "text": "New Orleans Saints 23.46, Cleveland Browns 19.08",
+        "home": 23.46,
+        "away": 19.08,
         "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
       },
       "note": "Split from EdgeDesk’s own fair spread and fair total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
@@ -1212,120 +1212,120 @@
       "rows": [
         {
           "k": "Net EPA per play",
-          "a": "−0.068  #23 of 32",
-          "h": "−0.074  #24 of 32",
+          "a": "−0.099  #27 of 32",
+          "h": "−0.074  #23 of 32",
           "note": "offence EPA per play minus defence EPA allowed per play — the engine’s own net_epa half"
         },
         {
           "k": "Points scored",
-          "a": "−4.69  #31 of 32",
-          "h": "−2.06  #26 of 32",
+          "a": "−5.32  #32 of 32",
+          "h": "−2.06  #25 of 32",
           "note": null
         },
         {
           "k": "Points allowed",
-          "a": "−0.93  #12 of 32",
-          "h": "+1.69  #23 of 32",
+          "a": "−0.55  #16 of 32",
+          "h": "+1.69  #22 of 32",
           "note": null
         },
         {
           "k": "Offence · EPA per play",
-          "a": "−0.103  #30 of 32",
-          "h": "−0.032  #24 of 32",
+          "a": "−0.116  #30 of 32",
+          "h": "−0.032  #22 of 32",
           "note": null
         },
         {
           "k": "Pass offence · EPA per dropback",
-          "a": "−0.176  #32 of 32",
-          "h": "−0.015  #17 of 32",
+          "a": "−0.177  #31 of 32",
+          "h": "−0.015  #18 of 32",
           "note": null
         },
         {
           "k": "Run offence · EPA per carry",
-          "a": "−0.007  #19 of 32",
+          "a": "−0.043  #24 of 32",
           "h": "−0.076  #30 of 32",
           "note": null
         },
         {
           "k": "Explosive pass rate",
-          "a": "−0.9 pp  #20 of 32",
+          "a": "−0.7 pp  #22 of 32",
           "h": "−2.7 pp  #31 of 32",
           "note": "20+ yard pass plays per attempt"
         },
         {
           "k": "Explosive run rate",
-          "a": "−1.0 pp  #23 of 32",
+          "a": "−1.8 pp  #26 of 32",
           "h": "−4.1 pp  #32 of 32",
           "note": "10+ yard runs per carry"
         },
         {
           "k": "Defence · EPA allowed per play",
-          "a": "−0.036  #7 of 32",
-          "h": "+0.042  #23 of 32",
+          "a": "−0.017  #11 of 32",
+          "h": "+0.042  #22 of 32",
           "note": null
         },
         {
           "k": "Pass defence · EPA allowed per dropback",
-          "a": "−0.058  #6 of 32",
+          "a": "−0.062  #10 of 32",
           "h": "+0.072  #24 of 32",
           "note": null
         },
         {
           "k": "Run defence · EPA allowed per carry",
-          "a": "−0.013  #14 of 32",
-          "h": "+0.031  #26 of 32",
+          "a": "+0.022  #22 of 32",
+          "h": "+0.031  #23 of 32",
           "note": null
         },
         {
           "k": "Explosive passes allowed",
-          "a": "−0.4 pp  #12 of 32",
-          "h": "+2.0 pp  #31 of 32",
+          "a": "+0.1 pp  #16 of 32",
+          "h": "+2.0 pp  #30 of 32",
           "note": null
         },
         {
           "k": "Explosive runs allowed",
-          "a": "+2.3 pp  #31 of 32",
+          "a": "+2.9 pp  #31 of 32",
           "h": "−0.0 pp  #17 of 32",
           "note": null
         },
         {
           "k": "Sacks taken per dropback",
-          "a": "+3.4 pp  #30 of 32",
-          "h": "−1.3 pp  #9 of 32",
+          "a": "+4.0 pp  #32 of 32",
+          "h": "−1.3 pp  #8 of 32",
           "note": "pass protection — the only offensive-line number the NFL model carries"
         },
         {
           "k": "Sacks generated per dropback",
-          "a": "+1.0 pp  #6 of 32",
-          "h": "+0.3 pp  #12 of 32",
+          "a": "+0.6 pp  #11 of 32",
+          "h": "+0.3 pp  #15 of 32",
           "note": "pass rush — the only defensive-front number the NFL model carries"
         },
         {
           "k": "Pass rate",
-          "a": "−1.5 pp",
+          "a": "−0.1 pp",
           "h": "+4.0 pp",
           "note": "how often they throw. A tendency, not a quality, so no side is marked ahead"
         },
         {
           "k": "Plays per game",
-          "a": "−1.5",
+          "a": "−1.3",
           "h": "+1.4",
           "note": "pace. A tendency, not a quality"
         }
       ]
     },
     "notes": [
-      "EdgeDesk’s line is New Orleans Saints −3.0 with a fair total of 42.5, before any book is consulted.",
-      "New Orleans Saints wins 61% of the time in EdgeDesk’s distribution, Cleveland Browns 39%."
+      "EdgeDesk’s line is New Orleans Saints −4.5 with a fair total of 42.5, before any book is consulted.",
+      "New Orleans Saints wins 66% of the time in EdgeDesk’s distribution, Cleveland Browns 34%."
     ],
     "missing": [],
     "priced_label": "PRICED BY MODEL — the projection and its additive drivers, from the inputs the NFL model actually fits.",
     "context_label": "RESEARCH CONTEXT — every rating below is opponent-adjusted and printed as a deviation from the league mean. The injury report and the quarterback panel explain the matchup and move no priced number.",
-    "source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 108 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice."
+    "source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 120 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice."
   },
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T00:36:55.151Z"
+    "at": "2026-11-02T19:27:46.096Z"
   }
 }

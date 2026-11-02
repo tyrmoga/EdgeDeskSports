@@ -11,8 +11,8 @@
   ],
   "title": "Buffalo Bills vs. Minnesota Vikings: EdgeDesk Model Projection, Matchup Analysis and Fair Spread",
   "seo_title": "Buffalo Bills vs. Minnesota Vikings 2026: EdgeDesk Fair Spread & Model Projection",
-  "seo_description": "EdgeDesk fair spread for Buffalo Bills at Minnesota Vikings: Minnesota Vikings −1.0, fair total 46.0. Minnesota Vikings wins 51% of simulations. Model status STALE MARKET. Research, not picks.",
-  "excerpt": "Buffalo Bills carries the stronger EdgeDesk offensive profile (#1 in EPA per play), while Minnesota Vikings owns the more favourable defensive matchup (#1 in EPA allowed per play). EdgeDesk’s independent projection makes it Minnesota Vikings −1.0 with a…",
+  "seo_description": "EdgeDesk fair spread for Buffalo Bills at Minnesota Vikings: Minnesota Vikings +0.5, fair total 45.0. Minnesota Vikings wins 50% of simulations. Model status STALE MARKET. Research, not picks.",
+  "excerpt": "Buffalo Bills carries the stronger EdgeDesk offensive profile (#1 in EPA per play), while Minnesota Vikings owns the more favourable defensive matchup (#1 in EPA allowed per play). EdgeDesk’s independent projection makes it Minnesota Vikings +0.5 with a…",
   "home_team": "Minnesota Vikings",
   "away_team": "Buffalo Bills",
   "venue": "U.S. Bank Stadium",
@@ -23,15 +23,15 @@
   "game_time": "2026-11-10T01:15:00.000Z",
   "game_when_label": "2026-11-10 01:15 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T00:36:55.151Z",
-  "generated_at": "2026-11-02T00:36:55.151Z",
+  "updated_at": "2026-11-02T19:27:46.096Z",
+  "generated_at": "2026-11-02T19:27:46.096Z",
   "model_version": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
   "model_status": "STALE MARKET",
-  "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 3.9-point gap is context only and the game is excluded from research ranking.",
+  "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.0-point gap is context only and the game is excluded from research ranking.",
   "confidence": null,
   "priced": true,
-  "fair_spread_text": "Minnesota Vikings −1.0",
-  "fair_total": "46.0",
+  "fair_spread_text": "Minnesota Vikings +0.5",
+  "fair_total": "45.0",
   "hero_image": null,
   "canonical_url": "https://edgedesksports.com/articles/buffalo-bills-vs-minnesota-vikings-2026",
   "terminal_url": "https://edgedesksports.com/app.html#research/football",
@@ -43,7 +43,7 @@
   "frozen_at": null,
   "author": "EdgeDesk Research",
   "publisher": "EdgeDesk Sports",
-  "research_source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 108 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice.",
+  "research_source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 120 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice.",
   "market_source": null,
   "research": {
     "kind": "NFL_GAME",
@@ -64,35 +64,35 @@
     },
     "lede": [
       "Buffalo Bills carries the stronger EdgeDesk offensive profile (#1 in EPA per play), while Minnesota Vikings owns the more favourable defensive matchup (#1 in EPA allowed per play).",
-      "EdgeDesk’s independent projection makes it Minnesota Vikings −1.0 with a fair total of 46.0 — approximately a one-score game, before any sportsbook number is consulted.",
-      "The widest measured matchup on the board is Minnesota Vikings pass offence vs Buffalo Bills pass defence, which sits −0.137 from the league mean once the two ratings are combined the way the model combines them.",
+      "EdgeDesk’s independent projection makes it Minnesota Vikings +0.5 with a fair total of 45.0 — approximately a one-score game, before any sportsbook number is consulted.",
+      "The widest measured matchup on the board is Minnesota Vikings pass offence vs Buffalo Bills pass defence, which sits −0.216 from the league mean once the two ratings are combined the way the model combines them.",
       "The largest uncertainty is availability: NFL injury report — not loaded in this session."
     ],
     "projection": {
       "priced": true,
-      "fair_spread": 0.9071703144829432,
-      "fair_spread_text": "Minnesota Vikings −1.0",
-      "fair_spread_raw_text": "Minnesota Vikings -0.9",
-      "favourite": "Minnesota Vikings",
-      "underdog": "Buffalo Bills",
-      "margin": "1.0",
-      "margin_raw": "0.9",
-      "total": "46.0",
-      "total_raw": "45.8",
+      "fair_spread": -0.5399534966445664,
+      "fair_spread_text": "Minnesota Vikings +0.5",
+      "fair_spread_raw_text": "Minnesota Vikings +0.5",
+      "favourite": "Buffalo Bills",
+      "underdog": "Minnesota Vikings",
+      "margin": "0.5",
+      "margin_raw": "0.5",
+      "total": "45.0",
+      "total_raw": "44.9",
       "display_policy": "football_half_point_v1",
       "score": {
         "away": {
           "team": "Buffalo Bills",
-          "points": "22"
+          "points": "23"
         },
         "home": {
           "team": "Minnesota Vikings",
-          "points": "23"
+          "points": "22"
         },
         "expected": {
-          "text": "Minnesota Vikings 23.38, Buffalo Bills 22.47",
-          "home": 23.38,
-          "away": 22.47,
+          "text": "Buffalo Bills 22.73, Minnesota Vikings 22.19",
+          "home": 22.19,
+          "away": 22.73,
           "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
         },
         "note": "Split from EdgeDesk’s own fair spread and fair total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
@@ -101,63 +101,63 @@
       "win_prob": {
         "home": "Minnesota Vikings",
         "away": "Buffalo Bills",
-        "home_pct": 51,
-        "away_pct": 49,
-        "home_text": "51%",
-        "away_text": "49%",
+        "home_pct": 50,
+        "away_pct": 50,
+        "home_text": "50%",
+        "away_text": "50%",
         "bounded": false,
         "bounded_note": null,
         "favourite": "Minnesota Vikings",
-        "favourite_pct": 51,
-        "favourite_text": "51%"
+        "favourite_pct": 50,
+        "favourite_text": "50%"
       },
       "moneyline": {
         "home": "Minnesota Vikings",
         "away": "Buffalo Bills",
-        "home_odds": "-104",
-        "away_odds": "+104",
+        "home_odds": "+101",
+        "away_odds": "-101",
         "note": "EdgeDesk’s own fair price, with no margin in it. It is not a quote and nobody offers it."
       },
       "outcome_range": {
         "basis_team": "Minnesota Vikings",
         "p10": "-17.0",
-        "median": "+1.0",
+        "median": "-1.0",
         "p90": "+18.0",
         "sigma": "10.7",
         "note": "Quoted from the perspective of Minnesota Vikings, off the engine’s own learned margin distribution (conditioned on this spread, so real key-number mass is kept). Eight results in ten land inside p10–p90."
       },
       "confidence_pct": null,
-      "confidence_absent_reason": "The NFL model publishes no single confidence score. What it publishes instead is the width of the outcome range above and the sample the ratings rest on: the trained seeds through 2025, plus 108 absorbed 2026 games.",
-      "sample_games": 108,
+      "confidence_absent_reason": "The NFL model publishes no single confidence score. What it publishes instead is the width of the outcome range above and the sample the ratings rest on: the trained seeds through 2025, plus 120 absorbed 2026 games.",
+      "sample_games": 120,
       "seeded": true,
       "status": "STALE MARKET",
-      "status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 3.9-point gap is context only and the game is excluded from research ranking.",
+      "status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.0-point gap is context only and the game is excluded from research ranking.",
       "engine": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
       "validation": "UNPROVEN — this model does NOT beat the closing line out of sample. Research only; nothing here is graded as a bet."
     },
     "drivers": {
       "rows": [
         {
-          "points": "-1.3",
-          "points_n": -1.3381886784036356,
-          "text": "Base team strength — Buffalo Bills by 1.3 points (last season -1.5, this season +0.2)",
-          "favours": "Buffalo Bills"
-        },
-        {
-          "points": "-0.1",
-          "points_n": -0.07396093262871284,
-          "text": "Passing — Buffalo Bills by 0.1 points (last season -0.1, this season +0.1)",
-          "favours": "Buffalo Bills"
-        },
-        {
-          "points": "-0.3",
-          "points_n": -0.2989143916764848,
-          "text": "Rushing — Buffalo Bills by 0.3 points (last season +0.1, this season -0.4)",
+          "points": "-2.6",
+          "points_n": -2.603064025188832,
+          "text": "Base team strength — Buffalo Bills by 2.6 points (last season -1.4, this season -1.2)",
           "favours": "Buffalo Bills"
         },
         {
           "points": "-0.2",
-          "points_n": -0.22702754780822337,
+          "points_n": -0.1589556032018599,
+          "text": "Passing — Buffalo Bills by 0.2 points (last season -0.1, this season 0.0)",
+          "favours": "Buffalo Bills"
+        },
+        {
+          "points": "-0.4",
+          "points_n": -0.4356345217659485,
+          "text": "Rushing — Buffalo Bills by 0.4 points (last season +0.1, this season -0.5)",
+          "favours": "Buffalo Bills"
+        },
+        {
+          "points": "-0.2",
+          "points_n": -0.18756121148792582,
           "text": "Quarterback — Buffalo Bills by 0.2 points",
           "favours": "Buffalo Bills"
         },
@@ -192,24 +192,24 @@
           "text": "Indoors — over by 1.6 points"
         },
         {
-          "points": "-0.9",
-          "points_n": -0.8697429932703097,
-          "text": "Passing matchup, both directions — under by 0.9 points"
+          "points": "-1.3",
+          "points_n": -1.2513409310212114,
+          "text": "Passing matchup, both directions — under by 1.3 points"
+        },
+        {
+          "points": "-0.7",
+          "points_n": -0.7028219973077686,
+          "text": "Combined scoring ratings — under by 0.7 points"
         },
         {
           "points": "+0.2",
-          "points_n": 0.2245926086486379,
+          "points_n": 0.177357865,
+          "text": "Point in the season — over by 0.2 points"
+        },
+        {
+          "points": "+0.2",
+          "points_n": 0.15993156955875687,
           "text": "Both offences, EPA per play — over by 0.2 points"
-        },
-        {
-          "points": "-0.2",
-          "points_n": -0.2175692130868646,
-          "text": "Combined scoring ratings — under by 0.2 points"
-        },
-        {
-          "points": "-0.2",
-          "points_n": -0.1868075744659835,
-          "text": "Combined pace — under by 0.2 points"
         }
       ],
       "reconciles": true,
@@ -231,23 +231,23 @@
               "k": "Net EPA per play",
               "note": "offence EPA per play minus defence EPA allowed per play — the engine’s own net_epa half",
               "a": {
-                "v": "+0.117",
-                "n": 0.11749522003961037,
-                "rank": "#4 of 32",
-                "rank_n": 4,
+                "v": "+0.163",
+                "n": 0.1625912875956027,
+                "rank": "#2 of 32",
+                "rank_n": 2,
                 "note": null
               },
               "h": {
-                "v": "+0.051",
-                "n": 0.05140191363250543,
-                "rank": "#11 of 32",
-                "rank_n": 11,
+                "v": "+0.047",
+                "n": 0.04698591843119912,
+                "rank": "#10 of 32",
+                "rank_n": 10,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.06609330640710494,
-                "rank_gap": 7
+                "gap": 0.11560536916440359,
+                "rank_gap": 8
               }
             },
             {
@@ -255,22 +255,22 @@
               "k": "Points scored",
               "note": null,
               "a": {
-                "v": "+6.41",
-                "n": 6.405819135477946,
+                "v": "+6.84",
+                "n": 6.838563175064044,
                 "rank": "#1 of 32",
                 "rank_n": 1,
                 "note": null
               },
               "h": {
-                "v": "−2.45",
-                "n": -2.4480859268998394,
+                "v": "−2.87",
+                "n": -2.8695880770600044,
                 "rank": "#27 of 32",
                 "rank_n": 27,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 8.853905062377786,
+                "gap": 9.708151252124049,
                 "rank_gap": 26
               }
             },
@@ -279,23 +279,23 @@
               "k": "Points allowed",
               "note": null,
               "a": {
-                "v": "+1.40",
-                "n": 1.3990772932313955,
-                "rank": "#21 of 32",
-                "rank_n": 21,
+                "v": "+0.47",
+                "n": 0.4725889842124444,
+                "rank": "#18 of 32",
+                "rank_n": 18,
                 "note": null
               },
               "h": {
-                "v": "−5.84",
-                "n": -5.84441417642951,
+                "v": "−6.02",
+                "n": -6.016688538608291,
                 "rank": "#1 of 32",
                 "rank_n": 1,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 7.243491469660905,
-                "rank_gap": 20
+                "gap": 6.489277522820735,
+                "rank_gap": 17
               }
             }
           ]
@@ -308,23 +308,23 @@
               "k": "Offence · EPA per play",
               "note": null,
               "a": {
-                "v": "+0.182",
-                "n": 0.18203545437387364,
+                "v": "+0.166",
+                "n": 0.16634297172113793,
                 "rank": "#1 of 32",
                 "rank_n": 1,
                 "note": null
               },
               "h": {
-                "v": "−0.124",
-                "n": -0.12434748275889307,
-                "rank": "#32 of 32",
-                "rank_n": 32,
+                "v": "−0.125",
+                "n": -0.12526357956946388,
+                "rank": "#31 of 32",
+                "rank_n": 31,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.3063829371327667,
-                "rank_gap": 31
+                "gap": 0.2916065512906018,
+                "rank_gap": 30
               }
             },
             {
@@ -332,23 +332,23 @@
               "k": "Pass offence · EPA per dropback",
               "note": null,
               "a": {
-                "v": "+0.226",
-                "n": 0.2261817904397932,
+                "v": "+0.212",
+                "n": 0.21186679077653164,
                 "rank": "#1 of 32",
                 "rank_n": 1,
                 "note": null
               },
               "h": {
-                "v": "−0.168",
-                "n": -0.16787026985659265,
-                "rank": "#31 of 32",
-                "rank_n": 31,
+                "v": "−0.164",
+                "n": -0.16352609150159764,
+                "rank": "#29 of 32",
+                "rank_n": 29,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.39405206029638584,
-                "rank_gap": 30
+                "gap": 0.3753928822781293,
+                "rank_gap": 28
               }
             },
             {
@@ -356,22 +356,22 @@
               "k": "Run offence · EPA per carry",
               "note": null,
               "a": {
-                "v": "+0.132",
-                "n": 0.1319369897100336,
+                "v": "+0.124",
+                "n": 0.12401661889283158,
                 "rank": "#1 of 32",
                 "rank_n": 1,
                 "note": null
               },
               "h": {
-                "v": "−0.062",
-                "n": -0.0616569609954636,
+                "v": "−0.066",
+                "n": -0.06617538642974903,
                 "rank": "#27 of 32",
                 "rank_n": 27,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.19359395070549718,
+                "gap": 0.19019200532258063,
                 "rank_gap": 26
               }
             },
@@ -380,23 +380,23 @@
               "k": "Explosive pass rate",
               "note": "20+ yard pass plays per attempt",
               "a": {
-                "v": "+4.2 pp",
-                "n": 0.04170388134185847,
+                "v": "+4.0 pp",
+                "n": 0.04007693673995003,
                 "rank": "#1 of 32",
                 "rank_n": 1,
                 "note": null
               },
               "h": {
-                "v": "−0.9 pp",
-                "n": -0.00902335045018663,
-                "rank": "#21 of 32",
-                "rank_n": 21,
+                "v": "−0.8 pp",
+                "n": -0.007703298704172845,
+                "rank": "#23 of 32",
+                "rank_n": 23,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.0507272317920451,
-                "rank_gap": 20
+                "gap": 0.047780235444122875,
+                "rank_gap": 22
               }
             },
             {
@@ -404,23 +404,23 @@
               "k": "Explosive run rate",
               "note": "10+ yard runs per carry",
               "a": {
-                "v": "+4.0 pp",
-                "n": 0.039869202181847425,
+                "v": "+3.5 pp",
+                "n": 0.03450036351577364,
                 "rank": "#1 of 32",
                 "rank_n": 1,
                 "note": null
               },
               "h": {
-                "v": "+0.5 pp",
-                "n": 0.005223769768130059,
-                "rank": "#16 of 32",
-                "rank_n": 16,
+                "v": "+1.1 pp",
+                "n": 0.010632716858643497,
+                "rank": "#10 of 32",
+                "rank_n": 10,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.03464543241371737,
-                "rank_gap": 15
+                "gap": 0.02386764665713014,
+                "rank_gap": 9
               }
             }
           ]
@@ -433,23 +433,23 @@
               "k": "Defence · EPA allowed per play",
               "note": null,
               "a": {
-                "v": "+0.065",
-                "n": 0.06454023433426327,
-                "rank": "#27 of 32",
-                "rank_n": 27,
+                "v": "+0.004",
+                "n": 0.003751684125535232,
+                "rank": "#15 of 32",
+                "rank_n": 15,
                 "note": null
               },
               "h": {
-                "v": "−0.176",
-                "n": -0.1757493963913985,
+                "v": "−0.172",
+                "n": -0.172249498000663,
                 "rank": "#1 of 32",
                 "rank_n": 1,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.24028963072566178,
-                "rank_gap": 26
+                "gap": 0.17600118212619822,
+                "rank_gap": 14
               }
             },
             {
@@ -457,23 +457,23 @@
               "k": "Pass defence · EPA allowed per dropback",
               "note": null,
               "a": {
-                "v": "+0.031",
-                "n": 0.03120316069424363,
-                "rank": "#20 of 32",
-                "rank_n": 20,
+                "v": "−0.053",
+                "n": -0.0525164150169127,
+                "rank": "#11 of 32",
+                "rank_n": 11,
                 "note": null
               },
               "h": {
-                "v": "−0.308",
-                "n": -0.3081979454516583,
+                "v": "−0.310",
+                "n": -0.31045437786944646,
                 "rank": "#1 of 32",
                 "rank_n": 1,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.3394011061459019,
-                "rank_gap": 19
+                "gap": 0.2579379628525338,
+                "rank_gap": 10
               }
             },
             {
@@ -481,23 +481,23 @@
               "k": "Run defence · EPA allowed per carry",
               "note": null,
               "a": {
-                "v": "+0.057",
-                "n": 0.057133427662219904,
-                "rank": "#28 of 32",
-                "rank_n": 28,
+                "v": "+0.036",
+                "n": 0.03574042571831279,
+                "rank": "#25 of 32",
+                "rank_n": 25,
                 "note": null
               },
               "h": {
-                "v": "−0.062",
-                "n": -0.061639171339088944,
-                "rank": "#2 of 32",
-                "rank_n": 2,
+                "v": "−0.045",
+                "n": -0.04540777082435049,
+                "rank": "#7 of 32",
+                "rank_n": 7,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.11877259900130885,
-                "rank_gap": 26
+                "gap": 0.08114819654266328,
+                "rank_gap": 18
               }
             },
             {
@@ -505,23 +505,23 @@
               "k": "Explosive passes allowed",
               "note": null,
               "a": {
-                "v": "+0.1 pp",
-                "n": 0.0014266023348594422,
-                "rank": "#15 of 32",
-                "rank_n": 15,
+                "v": "−0.4 pp",
+                "n": -0.003772143655300994,
+                "rank": "#11 of 32",
+                "rank_n": 11,
                 "note": null
               },
               "h": {
-                "v": "−4.1 pp",
-                "n": -0.04072257623368125,
+                "v": "−4.3 pp",
+                "n": -0.043116462972401126,
                 "rank": "#1 of 32",
                 "rank_n": 1,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.042149178568540696,
-                "rank_gap": 14
+                "gap": 0.039344319317100133,
+                "rank_gap": 10
               }
             },
             {
@@ -529,23 +529,23 @@
               "k": "Explosive runs allowed",
               "note": null,
               "a": {
-                "v": "+2.3 pp",
-                "n": 0.02254685909448905,
-                "rank": "#30 of 32",
-                "rank_n": 30,
+                "v": "+1.4 pp",
+                "n": 0.013770426128396558,
+                "rank": "#25 of 32",
+                "rank_n": 25,
                 "note": null
               },
               "h": {
-                "v": "−1.3 pp",
-                "n": -0.012829571632393436,
-                "rank": "#7 of 32",
-                "rank_n": 7,
+                "v": "+0.4 pp",
+                "n": 0.0040169987976977775,
+                "rank": "#19 of 32",
+                "rank_n": 19,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.035376430726882485,
-                "rank_gap": 23
+                "gap": 0.00975342733069878,
+                "rank_gap": 6
               }
             }
           ]
@@ -558,23 +558,23 @@
               "k": "Sacks taken per dropback",
               "note": "pass protection — the only offensive-line number the NFL model carries",
               "a": {
-                "v": "−0.5 pp",
-                "n": -0.005212552927191798,
-                "rank": "#16 of 32",
-                "rank_n": 16,
+                "v": "−0.8 pp",
+                "n": -0.00810895483067766,
+                "rank": "#13 of 32",
+                "rank_n": 13,
                 "note": null
               },
               "h": {
-                "v": "+4.1 pp",
-                "n": 0.04133506642322782,
-                "rank": "#32 of 32",
-                "rank_n": 32,
+                "v": "+3.9 pp",
+                "n": 0.0389770076753243,
+                "rank": "#31 of 32",
+                "rank_n": 31,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.046547619350419615,
-                "rank_gap": 16
+                "gap": 0.04708596250600196,
+                "rank_gap": 18
               }
             },
             {
@@ -582,23 +582,23 @@
               "k": "Sacks generated per dropback",
               "note": "pass rush — the only defensive-front number the NFL model carries",
               "a": {
-                "v": "−2.0 pp",
-                "n": -0.020424558255789094,
-                "rank": "#29 of 32",
-                "rank_n": 29,
+                "v": "−1.3 pp",
+                "n": -0.012836081064522288,
+                "rank": "#26 of 32",
+                "rank_n": 26,
                 "note": null
               },
               "h": {
-                "v": "+4.2 pp",
-                "n": 0.042277490006677076,
+                "v": "+4.6 pp",
+                "n": 0.04589441715205821,
                 "rank": "#1 of 32",
                 "rank_n": 1,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.06270204826246617,
-                "rank_gap": 28
+                "gap": 0.0587304982165805,
+                "rank_gap": 25
               }
             }
           ]
@@ -611,15 +611,15 @@
               "k": "Pass rate",
               "note": "how often they throw. A tendency, not a quality, so no side is marked ahead",
               "a": {
-                "v": "−4.6 pp",
-                "n": -0.04643697131176118,
+                "v": "−4.9 pp",
+                "n": -0.04937661602088448,
                 "rank": null,
                 "rank_n": null,
                 "note": "tendency, not a quality"
               },
               "h": {
-                "v": "−5.0 pp",
-                "n": -0.05006841424985747,
+                "v": "−3.9 pp",
+                "n": -0.03860128676982898,
                 "rank": null,
                 "rank_n": null,
                 "note": "tendency, not a quality"
@@ -631,15 +631,15 @@
               "k": "Plays per game",
               "note": "pace. A tendency, not a quality",
               "a": {
-                "v": "+0.5",
-                "n": 0.485649844700315,
+                "v": "+1.8",
+                "n": 1.7690396080541246,
                 "rank": null,
                 "rank_n": null,
                 "note": "tendency, not a quality"
               },
               "h": {
-                "v": "−2.5",
-                "n": -2.5252678670954993,
+                "v": "−3.5",
+                "n": -3.51015201904396,
                 "rank": null,
                 "rank_n": null,
                 "note": "tendency, not a quality"
@@ -656,105 +656,105 @@
       "away": [
         {
           "k": "Offence · EPA per play",
-          "rank_gap": 31,
-          "gap": 0.3063829371327667,
+          "rank_gap": 30,
+          "gap": 0.2916065512906018,
           "lead": "Buffalo Bills",
           "trail": "Minnesota Vikings",
-          "lead_cell": "+0.182 · #1 of 32",
-          "trail_cell": "−0.124 · #32 of 32",
-          "text": "Buffalo Bills +0.182 (#1 of 32) vs Minnesota Vikings −0.124 (#32 of 32) — 31 places on the league board."
+          "lead_cell": "+0.166 · #1 of 32",
+          "trail_cell": "−0.125 · #31 of 32",
+          "text": "Buffalo Bills +0.166 (#1 of 32) vs Minnesota Vikings −0.125 (#31 of 32) — 30 places on the league board."
         },
         {
           "k": "Pass offence · EPA per dropback",
-          "rank_gap": 30,
-          "gap": 0.39405206029638584,
+          "rank_gap": 28,
+          "gap": 0.3753928822781293,
           "lead": "Buffalo Bills",
           "trail": "Minnesota Vikings",
-          "lead_cell": "+0.226 · #1 of 32",
-          "trail_cell": "−0.168 · #31 of 32",
-          "text": "Buffalo Bills +0.226 (#1 of 32) vs Minnesota Vikings −0.168 (#31 of 32) — 30 places on the league board."
+          "lead_cell": "+0.212 · #1 of 32",
+          "trail_cell": "−0.164 · #29 of 32",
+          "text": "Buffalo Bills +0.212 (#1 of 32) vs Minnesota Vikings −0.164 (#29 of 32) — 28 places on the league board."
         },
         {
           "k": "Points scored",
           "rank_gap": 26,
-          "gap": 8.853905062377786,
+          "gap": 9.708151252124049,
           "lead": "Buffalo Bills",
           "trail": "Minnesota Vikings",
-          "lead_cell": "+6.41 · #1 of 32",
-          "trail_cell": "−2.45 · #27 of 32",
-          "text": "Buffalo Bills +6.41 (#1 of 32) vs Minnesota Vikings −2.45 (#27 of 32) — 26 places on the league board."
+          "lead_cell": "+6.84 · #1 of 32",
+          "trail_cell": "−2.87 · #27 of 32",
+          "text": "Buffalo Bills +6.84 (#1 of 32) vs Minnesota Vikings −2.87 (#27 of 32) — 26 places on the league board."
         },
         {
           "k": "Run offence · EPA per carry",
           "rank_gap": 26,
-          "gap": 0.19359395070549718,
+          "gap": 0.19019200532258063,
           "lead": "Buffalo Bills",
           "trail": "Minnesota Vikings",
-          "lead_cell": "+0.132 · #1 of 32",
-          "trail_cell": "−0.062 · #27 of 32",
-          "text": "Buffalo Bills +0.132 (#1 of 32) vs Minnesota Vikings −0.062 (#27 of 32) — 26 places on the league board."
+          "lead_cell": "+0.124 · #1 of 32",
+          "trail_cell": "−0.066 · #27 of 32",
+          "text": "Buffalo Bills +0.124 (#1 of 32) vs Minnesota Vikings −0.066 (#27 of 32) — 26 places on the league board."
         },
         {
           "k": "Explosive pass rate",
-          "rank_gap": 20,
-          "gap": 0.0507272317920451,
+          "rank_gap": 22,
+          "gap": 0.047780235444122875,
           "lead": "Buffalo Bills",
           "trail": "Minnesota Vikings",
-          "lead_cell": "+4.2 pp · #1 of 32",
-          "trail_cell": "−0.9 pp · #21 of 32",
-          "text": "Buffalo Bills +4.2 pp (#1 of 32) vs Minnesota Vikings −0.9 pp (#21 of 32) — 20 places on the league board."
+          "lead_cell": "+4.0 pp · #1 of 32",
+          "trail_cell": "−0.8 pp · #23 of 32",
+          "text": "Buffalo Bills +4.0 pp (#1 of 32) vs Minnesota Vikings −0.8 pp (#23 of 32) — 22 places on the league board."
         }
       ],
       "home": [
         {
           "k": "Sacks generated per dropback",
-          "rank_gap": 28,
-          "gap": 0.06270204826246617,
+          "rank_gap": 25,
+          "gap": 0.0587304982165805,
           "lead": "Minnesota Vikings",
           "trail": "Buffalo Bills",
-          "lead_cell": "+4.2 pp · #1 of 32",
-          "trail_cell": "−2.0 pp · #29 of 32",
-          "text": "Minnesota Vikings +4.2 pp (#1 of 32) vs Buffalo Bills −2.0 pp (#29 of 32) — 28 places on the league board."
-        },
-        {
-          "k": "Defence · EPA allowed per play",
-          "rank_gap": 26,
-          "gap": 0.24028963072566178,
-          "lead": "Minnesota Vikings",
-          "trail": "Buffalo Bills",
-          "lead_cell": "−0.176 · #1 of 32",
-          "trail_cell": "+0.065 · #27 of 32",
-          "text": "Minnesota Vikings −0.176 (#1 of 32) vs Buffalo Bills +0.065 (#27 of 32) — 26 places on the league board."
+          "lead_cell": "+4.6 pp · #1 of 32",
+          "trail_cell": "−1.3 pp · #26 of 32",
+          "text": "Minnesota Vikings +4.6 pp (#1 of 32) vs Buffalo Bills −1.3 pp (#26 of 32) — 25 places on the league board."
         },
         {
           "k": "Run defence · EPA allowed per carry",
-          "rank_gap": 26,
-          "gap": 0.11877259900130885,
+          "rank_gap": 18,
+          "gap": 0.08114819654266328,
           "lead": "Minnesota Vikings",
           "trail": "Buffalo Bills",
-          "lead_cell": "−0.062 · #2 of 32",
-          "trail_cell": "+0.057 · #28 of 32",
-          "text": "Minnesota Vikings −0.062 (#2 of 32) vs Buffalo Bills +0.057 (#28 of 32) — 26 places on the league board."
-        },
-        {
-          "k": "Explosive runs allowed",
-          "rank_gap": 23,
-          "gap": 0.035376430726882485,
-          "lead": "Minnesota Vikings",
-          "trail": "Buffalo Bills",
-          "lead_cell": "−1.3 pp · #7 of 32",
-          "trail_cell": "+2.3 pp · #30 of 32",
-          "text": "Minnesota Vikings −1.3 pp (#7 of 32) vs Buffalo Bills +2.3 pp (#30 of 32) — 23 places on the league board."
+          "lead_cell": "−0.045 · #7 of 32",
+          "trail_cell": "+0.036 · #25 of 32",
+          "text": "Minnesota Vikings −0.045 (#7 of 32) vs Buffalo Bills +0.036 (#25 of 32) — 18 places on the league board."
         },
         {
           "k": "Points allowed",
-          "rank_gap": 20,
-          "gap": 7.243491469660905,
+          "rank_gap": 17,
+          "gap": 6.489277522820735,
           "lead": "Minnesota Vikings",
           "trail": "Buffalo Bills",
-          "lead_cell": "−5.84 · #1 of 32",
-          "trail_cell": "+1.40 · #21 of 32",
-          "text": "Minnesota Vikings −5.84 (#1 of 32) vs Buffalo Bills +1.40 (#21 of 32) — 20 places on the league board."
+          "lead_cell": "−6.02 · #1 of 32",
+          "trail_cell": "+0.47 · #18 of 32",
+          "text": "Minnesota Vikings −6.02 (#1 of 32) vs Buffalo Bills +0.47 (#18 of 32) — 17 places on the league board."
+        },
+        {
+          "k": "Defence · EPA allowed per play",
+          "rank_gap": 14,
+          "gap": 0.17600118212619822,
+          "lead": "Minnesota Vikings",
+          "trail": "Buffalo Bills",
+          "lead_cell": "−0.172 · #1 of 32",
+          "trail_cell": "+0.004 · #15 of 32",
+          "text": "Minnesota Vikings −0.172 (#1 of 32) vs Buffalo Bills +0.004 (#15 of 32) — 14 places on the league board."
+        },
+        {
+          "k": "Pass defence · EPA allowed per dropback",
+          "rank_gap": 10,
+          "gap": 0.2579379628525338,
+          "lead": "Minnesota Vikings",
+          "trail": "Buffalo Bills",
+          "lead_cell": "−0.310 · #1 of 32",
+          "trail_cell": "−0.053 · #11 of 32",
+          "text": "Minnesota Vikings −0.310 (#1 of 32) vs Buffalo Bills −0.053 (#11 of 32) — 10 places on the league board."
         }
       ],
       "measured": [],
@@ -768,200 +768,200 @@
         "att": {
           "team": "Buffalo Bills",
           "label": "pass offence",
-          "v": "+0.226",
+          "v": "+0.212",
           "rank": "#1 of 32",
           "note": null
         },
         "def": {
           "team": "Minnesota Vikings",
           "label": "pass defence",
-          "v": "−0.308",
+          "v": "−0.310",
           "rank": "#1 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.0820161550118651,
-        "read": "Buffalo Bills’ pass offence rates +0.226 (#1 of 32) and Minnesota Vikings’ pass defence rates −0.308 (#1 of 32). Added the way the model adds them, this pairing sits −0.082 from the league mean, which favours Minnesota Vikings."
+        "net": -0.09858758709291482,
+        "read": "Buffalo Bills’ pass offence rates +0.212 (#1 of 32) and Minnesota Vikings’ pass defence rates −0.310 (#1 of 32). Added the way the model adds them, this pairing sits −0.099 from the league mean, which favours Minnesota Vikings."
       },
       {
         "title": "Minnesota Vikings pass offence vs Buffalo Bills pass defence",
         "att": {
           "team": "Minnesota Vikings",
           "label": "pass offence",
-          "v": "−0.168",
-          "rank": "#31 of 32",
+          "v": "−0.164",
+          "rank": "#29 of 32",
           "note": null
         },
         "def": {
           "team": "Buffalo Bills",
           "label": "pass defence",
-          "v": "+0.031",
-          "rank": "#20 of 32",
+          "v": "−0.053",
+          "rank": "#11 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.13666710916234903,
-        "read": "Minnesota Vikings’ pass offence rates −0.168 (#31 of 32) and Buffalo Bills’ pass defence rates +0.031 (#20 of 32). Added the way the model adds them, this pairing sits −0.137 from the league mean, which favours Buffalo Bills."
+        "net": -0.21604250651851034,
+        "read": "Minnesota Vikings’ pass offence rates −0.164 (#29 of 32) and Buffalo Bills’ pass defence rates −0.053 (#11 of 32). Added the way the model adds them, this pairing sits −0.216 from the league mean, which favours Buffalo Bills."
       },
       {
         "title": "Buffalo Bills run offence vs Minnesota Vikings run defence",
         "att": {
           "team": "Buffalo Bills",
           "label": "run offence",
-          "v": "+0.132",
+          "v": "+0.124",
           "rank": "#1 of 32",
           "note": null
         },
         "def": {
           "team": "Minnesota Vikings",
           "label": "run defence",
-          "v": "−0.062",
-          "rank": "#2 of 32",
+          "v": "−0.045",
+          "rank": "#7 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.07029781837094465,
-        "read": "Buffalo Bills’ run offence rates +0.132 (#1 of 32) and Minnesota Vikings’ run defence rates −0.062 (#2 of 32). Added the way the model adds them, this pairing sits +0.070 from the league mean, which favours Buffalo Bills."
+        "net": 0.07860884806848109,
+        "read": "Buffalo Bills’ run offence rates +0.124 (#1 of 32) and Minnesota Vikings’ run defence rates −0.045 (#7 of 32). Added the way the model adds them, this pairing sits +0.079 from the league mean, which favours Buffalo Bills."
       },
       {
         "title": "Minnesota Vikings run offence vs Buffalo Bills run defence",
         "att": {
           "team": "Minnesota Vikings",
           "label": "run offence",
-          "v": "−0.062",
+          "v": "−0.066",
           "rank": "#27 of 32",
           "note": null
         },
         "def": {
           "team": "Buffalo Bills",
           "label": "run defence",
-          "v": "+0.057",
-          "rank": "#28 of 32",
+          "v": "+0.036",
+          "rank": "#25 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.004523533333243693,
-        "read": "Minnesota Vikings’ run offence rates −0.062 (#27 of 32) and Buffalo Bills’ run defence rates +0.057 (#28 of 32). Added the way the model adds them, this pairing sits −0.005 from the league mean, which favours Buffalo Bills."
+        "net": -0.03043496071143624,
+        "read": "Minnesota Vikings’ run offence rates −0.066 (#27 of 32) and Buffalo Bills’ run defence rates +0.036 (#25 of 32). Added the way the model adds them, this pairing sits −0.030 from the league mean, which favours Buffalo Bills."
       },
       {
         "title": "Buffalo Bills pass protection vs Minnesota Vikings pass rush",
         "att": {
           "team": "Buffalo Bills",
           "label": "pass protection",
-          "v": "−0.5 pp",
-          "rank": "#16 of 32",
+          "v": "−0.8 pp",
+          "rank": "#13 of 32",
           "note": null
         },
         "def": {
           "team": "Minnesota Vikings",
           "label": "pass rush",
-          "v": "+4.2 pp",
+          "v": "+4.6 pp",
           "rank": "#1 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.03706493707948528,
-        "read": "Buffalo Bills’ pass protection rates −0.5 pp (#16 of 32) and Minnesota Vikings’ pass rush rates +4.2 pp (#1 of 32). Added the way the model adds them, this pairing sits +3.7 pp from the league mean, which favours Minnesota Vikings."
+        "net": 0.03778546232138055,
+        "read": "Buffalo Bills’ pass protection rates −0.8 pp (#13 of 32) and Minnesota Vikings’ pass rush rates +4.6 pp (#1 of 32). Added the way the model adds them, this pairing sits +3.8 pp from the league mean, which favours Minnesota Vikings."
       },
       {
         "title": "Minnesota Vikings pass protection vs Buffalo Bills pass rush",
         "att": {
           "team": "Minnesota Vikings",
           "label": "pass protection",
-          "v": "+4.1 pp",
-          "rank": "#32 of 32",
+          "v": "+3.9 pp",
+          "rank": "#31 of 32",
           "note": null
         },
         "def": {
           "team": "Buffalo Bills",
           "label": "pass rush",
-          "v": "−2.0 pp",
-          "rank": "#29 of 32",
+          "v": "−1.3 pp",
+          "rank": "#26 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.020910508167438724,
-        "read": "Minnesota Vikings’ pass protection rates +4.1 pp (#32 of 32) and Buffalo Bills’ pass rush rates −2.0 pp (#29 of 32). Added the way the model adds them, this pairing sits +2.1 pp from the league mean, which favours Buffalo Bills."
+        "net": 0.026140926610802008,
+        "read": "Minnesota Vikings’ pass protection rates +3.9 pp (#31 of 32) and Buffalo Bills’ pass rush rates −1.3 pp (#26 of 32). Added the way the model adds them, this pairing sits +2.6 pp from the league mean, which favours Buffalo Bills."
       },
       {
         "title": "Buffalo Bills explosive passing vs Minnesota Vikings explosive passes allowed",
         "att": {
           "team": "Buffalo Bills",
           "label": "explosive passing",
-          "v": "+4.2 pp",
-          "rank": "#1 of 32",
-          "note": null
-        },
-        "def": {
-          "team": "Minnesota Vikings",
-          "label": "explosive passes allowed",
-          "v": "−4.1 pp",
-          "rank": "#1 of 32",
-          "note": null
-        },
-        "complete": true,
-        "net": 0.000981305108177219,
-        "read": "Buffalo Bills’ explosive passing rates +4.2 pp (#1 of 32) and Minnesota Vikings’ explosive passes allowed rates −4.1 pp (#1 of 32). Added the way the model adds them, this pairing sits +0.1 pp from the league mean, which favours Buffalo Bills."
-      },
-      {
-        "title": "Minnesota Vikings explosive passing vs Buffalo Bills explosive passes allowed",
-        "att": {
-          "team": "Minnesota Vikings",
-          "label": "explosive passing",
-          "v": "−0.9 pp",
-          "rank": "#21 of 32",
-          "note": null
-        },
-        "def": {
-          "team": "Buffalo Bills",
-          "label": "explosive passes allowed",
-          "v": "+0.1 pp",
-          "rank": "#15 of 32",
-          "note": null
-        },
-        "complete": true,
-        "net": -0.007596748115327188,
-        "read": "Minnesota Vikings’ explosive passing rates −0.9 pp (#21 of 32) and Buffalo Bills’ explosive passes allowed rates +0.1 pp (#15 of 32). Added the way the model adds them, this pairing sits −0.8 pp from the league mean, which favours Buffalo Bills."
-      },
-      {
-        "title": "Buffalo Bills explosive running vs Minnesota Vikings explosive runs allowed",
-        "att": {
-          "team": "Buffalo Bills",
-          "label": "explosive running",
           "v": "+4.0 pp",
           "rank": "#1 of 32",
           "note": null
         },
         "def": {
           "team": "Minnesota Vikings",
-          "label": "explosive runs allowed",
-          "v": "−1.3 pp",
-          "rank": "#7 of 32",
+          "label": "explosive passes allowed",
+          "v": "−4.3 pp",
+          "rank": "#1 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.02703963054945399,
-        "read": "Buffalo Bills’ explosive running rates +4.0 pp (#1 of 32) and Minnesota Vikings’ explosive runs allowed rates −1.3 pp (#7 of 32). Added the way the model adds them, this pairing sits +2.7 pp from the league mean, which favours Buffalo Bills."
+        "net": -0.003039526232451094,
+        "read": "Buffalo Bills’ explosive passing rates +4.0 pp (#1 of 32) and Minnesota Vikings’ explosive passes allowed rates −4.3 pp (#1 of 32). Added the way the model adds them, this pairing sits −0.3 pp from the league mean, which favours Minnesota Vikings."
+      },
+      {
+        "title": "Minnesota Vikings explosive passing vs Buffalo Bills explosive passes allowed",
+        "att": {
+          "team": "Minnesota Vikings",
+          "label": "explosive passing",
+          "v": "−0.8 pp",
+          "rank": "#23 of 32",
+          "note": null
+        },
+        "def": {
+          "team": "Buffalo Bills",
+          "label": "explosive passes allowed",
+          "v": "−0.4 pp",
+          "rank": "#11 of 32",
+          "note": null
+        },
+        "complete": true,
+        "net": -0.011475442359473838,
+        "read": "Minnesota Vikings’ explosive passing rates −0.8 pp (#23 of 32) and Buffalo Bills’ explosive passes allowed rates −0.4 pp (#11 of 32). Added the way the model adds them, this pairing sits −1.1 pp from the league mean, which favours Buffalo Bills."
+      },
+      {
+        "title": "Buffalo Bills explosive running vs Minnesota Vikings explosive runs allowed",
+        "att": {
+          "team": "Buffalo Bills",
+          "label": "explosive running",
+          "v": "+3.5 pp",
+          "rank": "#1 of 32",
+          "note": null
+        },
+        "def": {
+          "team": "Minnesota Vikings",
+          "label": "explosive runs allowed",
+          "v": "+0.4 pp",
+          "rank": "#19 of 32",
+          "note": null
+        },
+        "complete": true,
+        "net": 0.038517362313471415,
+        "read": "Buffalo Bills’ explosive running rates +3.5 pp (#1 of 32) and Minnesota Vikings’ explosive runs allowed rates +0.4 pp (#19 of 32). Added the way the model adds them, this pairing sits +3.9 pp from the league mean, which favours Buffalo Bills."
       },
       {
         "title": "Minnesota Vikings explosive running vs Buffalo Bills explosive runs allowed",
         "att": {
           "team": "Minnesota Vikings",
           "label": "explosive running",
-          "v": "+0.5 pp",
-          "rank": "#16 of 32",
+          "v": "+1.1 pp",
+          "rank": "#10 of 32",
           "note": null
         },
         "def": {
           "team": "Buffalo Bills",
           "label": "explosive runs allowed",
-          "v": "+2.3 pp",
-          "rank": "#30 of 32",
+          "v": "+1.4 pp",
+          "rank": "#25 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.02777062886261911,
-        "read": "Minnesota Vikings’ explosive running rates +0.5 pp (#16 of 32) and Buffalo Bills’ explosive runs allowed rates +2.3 pp (#30 of 32). Added the way the model adds them, this pairing sits +2.8 pp from the league mean, which favours Minnesota Vikings."
+        "net": 0.024403142987040057,
+        "read": "Minnesota Vikings’ explosive running rates +1.1 pp (#10 of 32) and Buffalo Bills’ explosive runs allowed rates +1.4 pp (#25 of 32). Added the way the model adds them, this pairing sits +2.4 pp from the league mean, which favours Minnesota Vikings."
       }
     ],
     "panels": [
@@ -993,8 +993,8 @@
           },
           {
             "k": "Learned sample",
-            "a": "145 learned starts",
-            "h": "90 learned starts",
+            "a": "146 learned starts",
+            "h": "91 learned starts",
             "note": "starts the QB layer has actually absorbed"
           },
           {
@@ -1006,7 +1006,7 @@
           {
             "k": "Active room",
             "a": "Kyle Allen, Josh Allen",
-            "h": "Carson Wentz, Kyler Murray, Max Brosmer",
+            "h": "Carson Wentz, Kyler Murray",
             "note": "who is rostered at the position — identity only"
           }
         ],
@@ -1084,30 +1084,31 @@
         ],
         "reads": [
           "Each situational factor is shown with the points the engine’s own context model assigned it, so nothing here is a rule of thumb. A factor with no weight in the fit is worth nothing in this number and says so rather than being quietly rounded up.",
-          "The ratings behind this projection are the trained seeds plus 108 absorbed 2026 games; early in a season that means the prior is still carrying most of the weight."
+          "The ratings behind this projection are the trained seeds plus 120 absorbed 2026 games; early in a season that means the prior is still carrying most of the weight."
         ]
       }
     ],
     "cases": {
       "favourite": {
-        "team": "Minnesota Vikings",
-        "heading": "Why Minnesota Vikings can pull away",
+        "team": "Buffalo Bills",
+        "heading": "Why Buffalo Bills can pull away",
         "bullets": [
-          "Home field — Minnesota Vikings by 3.2 points (+3.2 pts).",
-          "Sacks generated per dropback: Minnesota Vikings +4.2 pp (#1 of 32) vs Buffalo Bills −2.0 pp (#29 of 32) — 28 places on the league board.",
-          "Defence · EPA allowed per play: Minnesota Vikings −0.176 (#1 of 32) vs Buffalo Bills +0.065 (#27 of 32) — 26 places on the league board.",
-          "Run defence · EPA allowed per carry: Minnesota Vikings −0.062 (#2 of 32) vs Buffalo Bills +0.057 (#28 of 32) — 26 places on the league board."
+          "Base team strength — Buffalo Bills by 2.6 points (last season -1.4, this season -1.2) (-2.6 pts).",
+          "Rushing — Buffalo Bills by 0.4 points (last season +0.1, this season -0.5) (-0.4 pts).",
+          "Context (venue, division) — Buffalo Bills by 0.3 points (-0.3 pts).",
+          "Offence · EPA per play: Buffalo Bills +0.166 (#1 of 32) vs Minnesota Vikings −0.125 (#31 of 32) — 30 places on the league board.",
+          "Pass offence · EPA per dropback: Buffalo Bills +0.212 (#1 of 32) vs Minnesota Vikings −0.164 (#29 of 32) — 28 places on the league board."
         ]
       },
       "underdog": {
-        "team": "Buffalo Bills",
-        "heading": "Why Buffalo Bills can keep it close",
+        "team": "Minnesota Vikings",
+        "heading": "Why Minnesota Vikings can keep it close",
         "bullets": [
-          "Base team strength — Buffalo Bills by 1.3 points (last season -1.5, this season +0.2) (-1.3 pts).",
-          "Rushing — Buffalo Bills by 0.3 points (last season +0.1, this season -0.4) (-0.3 pts).",
-          "Quarterback — Buffalo Bills by 0.2 points (-0.2 pts).",
-          "Context (venue, division) — Buffalo Bills by 0.3 points (-0.3 pts).",
-          "Offence · EPA per play: Buffalo Bills +0.182 (#1 of 32) vs Minnesota Vikings −0.124 (#32 of 32) — 31 places on the league board."
+          "Home field — Minnesota Vikings by 3.2 points (+3.2 pts).",
+          "Sacks generated per dropback: Minnesota Vikings +4.6 pp (#1 of 32) vs Buffalo Bills −1.3 pp (#26 of 32) — 25 places on the league board.",
+          "Run defence · EPA allowed per carry: Minnesota Vikings −0.045 (#7 of 32) vs Buffalo Bills +0.036 (#25 of 32) — 18 places on the league board.",
+          "Points allowed: Minnesota Vikings −6.02 (#1 of 32) vs Buffalo Bills +0.47 (#18 of 32) — 17 places on the league board.",
+          "The outcome range runs -17.0 to +18.0 for Minnesota Vikings, off the engine’s own learned margin distribution. A projection of about 0.5 points still loses outright often."
         ]
       },
       "note": "Football cases assembled from measured states — a fitted driver, a rating gap, a combined matchup or the model’s own range. Neither side is a bet and neither is advice."
@@ -1157,48 +1158,44 @@
     },
     "market": {
       "available": true,
-      "model": "Minnesota Vikings −1.0",
-      "model_raw": "Minnesota Vikings -0.9",
-      "market": "Minnesota Vikings +3.0",
-      "difference": "3.9 points",
-      "rounding_note": "Fair lines rounded to nearest half-point; differences use unrounded projections.",
-      "key_number": {
-        "text": "Model favors Minnesota Vikings outright; market gives Minnesota Vikings exactly a field goal.",
-        "detail": "Minnesota Vikings: model fair −1.0, market +3.0.",
-        "note": "Key margins are where football games often finish. How often differs between the NFL and college football; this note marks where the two lines sit and does not change any probability."
-      },
-      "total_model": "46.0",
-      "total_model_raw": "45.8",
+      "model": "Minnesota Vikings +0.5",
+      "model_raw": "Minnesota Vikings +0.5",
+      "market": "Minnesota Vikings +2.5",
+      "difference": "2.0 points",
+      "rounding_note": null,
+      "key_number": null,
+      "total_model": "45.0",
+      "total_model_raw": "44.9",
       "total_market": "46.5",
       "total_rounding_note": "Fair lines rounded to nearest half-point; differences use unrounded projections.",
-      "total_difference": "0.7 points",
+      "total_difference": "1.6 points",
       "book": "nflverse reference",
       "capture_age": null,
       "stale": false,
       "classification": "STALE MARKET",
-      "classification_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 3.9-point gap is context only and the game is excluded from research ranking.",
+      "classification_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.0-point gap is context only and the game is excluded from research ranking.",
       "reference": "These are nflverse consensus reference numbers, not a live bettable quote.",
       "note": "EdgeDesk compares its own number with a captured price. The comparison is a research state, not a bet — and out of sample this model does not beat the close."
     },
-    "headline": "EdgeDesk projects Minnesota Vikings 23, Buffalo Bills 22.",
+    "headline": "EdgeDesk projects Buffalo Bills 23, Minnesota Vikings 22.",
     "state": {
       "label": "STALE MARKET",
-      "note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 3.9-point gap is context only and the game is excluded from research ranking.",
+      "note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.0-point gap is context only and the game is excluded from research ranking.",
       "scope": "This describes the state of EdgeDesk’s model-versus-market research on this game. It is not a statement about whether the matchup is worth researching."
     },
     "score": {
       "away": {
         "team": "Buffalo Bills",
-        "points": "22"
+        "points": "23"
       },
       "home": {
         "team": "Minnesota Vikings",
-        "points": "23"
+        "points": "22"
       },
       "expected": {
-        "text": "Minnesota Vikings 23.38, Buffalo Bills 22.47",
-        "home": 23.38,
-        "away": 22.47,
+        "text": "Buffalo Bills 22.73, Minnesota Vikings 22.19",
+        "home": 22.19,
+        "away": 22.73,
         "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
       },
       "note": "Split from EdgeDesk’s own fair spread and fair total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
@@ -1211,120 +1208,120 @@
       "rows": [
         {
           "k": "Net EPA per play",
-          "a": "+0.117  #4 of 32",
-          "h": "+0.051  #11 of 32",
+          "a": "+0.163  #2 of 32",
+          "h": "+0.047  #10 of 32",
           "note": "offence EPA per play minus defence EPA allowed per play — the engine’s own net_epa half"
         },
         {
           "k": "Points scored",
-          "a": "+6.41  #1 of 32",
-          "h": "−2.45  #27 of 32",
+          "a": "+6.84  #1 of 32",
+          "h": "−2.87  #27 of 32",
           "note": null
         },
         {
           "k": "Points allowed",
-          "a": "+1.40  #21 of 32",
-          "h": "−5.84  #1 of 32",
+          "a": "+0.47  #18 of 32",
+          "h": "−6.02  #1 of 32",
           "note": null
         },
         {
           "k": "Offence · EPA per play",
-          "a": "+0.182  #1 of 32",
-          "h": "−0.124  #32 of 32",
+          "a": "+0.166  #1 of 32",
+          "h": "−0.125  #31 of 32",
           "note": null
         },
         {
           "k": "Pass offence · EPA per dropback",
-          "a": "+0.226  #1 of 32",
-          "h": "−0.168  #31 of 32",
+          "a": "+0.212  #1 of 32",
+          "h": "−0.164  #29 of 32",
           "note": null
         },
         {
           "k": "Run offence · EPA per carry",
-          "a": "+0.132  #1 of 32",
-          "h": "−0.062  #27 of 32",
+          "a": "+0.124  #1 of 32",
+          "h": "−0.066  #27 of 32",
           "note": null
         },
         {
           "k": "Explosive pass rate",
-          "a": "+4.2 pp  #1 of 32",
-          "h": "−0.9 pp  #21 of 32",
+          "a": "+4.0 pp  #1 of 32",
+          "h": "−0.8 pp  #23 of 32",
           "note": "20+ yard pass plays per attempt"
         },
         {
           "k": "Explosive run rate",
-          "a": "+4.0 pp  #1 of 32",
-          "h": "+0.5 pp  #16 of 32",
+          "a": "+3.5 pp  #1 of 32",
+          "h": "+1.1 pp  #10 of 32",
           "note": "10+ yard runs per carry"
         },
         {
           "k": "Defence · EPA allowed per play",
-          "a": "+0.065  #27 of 32",
-          "h": "−0.176  #1 of 32",
+          "a": "+0.004  #15 of 32",
+          "h": "−0.172  #1 of 32",
           "note": null
         },
         {
           "k": "Pass defence · EPA allowed per dropback",
-          "a": "+0.031  #20 of 32",
-          "h": "−0.308  #1 of 32",
+          "a": "−0.053  #11 of 32",
+          "h": "−0.310  #1 of 32",
           "note": null
         },
         {
           "k": "Run defence · EPA allowed per carry",
-          "a": "+0.057  #28 of 32",
-          "h": "−0.062  #2 of 32",
+          "a": "+0.036  #25 of 32",
+          "h": "−0.045  #7 of 32",
           "note": null
         },
         {
           "k": "Explosive passes allowed",
-          "a": "+0.1 pp  #15 of 32",
-          "h": "−4.1 pp  #1 of 32",
+          "a": "−0.4 pp  #11 of 32",
+          "h": "−4.3 pp  #1 of 32",
           "note": null
         },
         {
           "k": "Explosive runs allowed",
-          "a": "+2.3 pp  #30 of 32",
-          "h": "−1.3 pp  #7 of 32",
+          "a": "+1.4 pp  #25 of 32",
+          "h": "+0.4 pp  #19 of 32",
           "note": null
         },
         {
           "k": "Sacks taken per dropback",
-          "a": "−0.5 pp  #16 of 32",
-          "h": "+4.1 pp  #32 of 32",
+          "a": "−0.8 pp  #13 of 32",
+          "h": "+3.9 pp  #31 of 32",
           "note": "pass protection — the only offensive-line number the NFL model carries"
         },
         {
           "k": "Sacks generated per dropback",
-          "a": "−2.0 pp  #29 of 32",
-          "h": "+4.2 pp  #1 of 32",
+          "a": "−1.3 pp  #26 of 32",
+          "h": "+4.6 pp  #1 of 32",
           "note": "pass rush — the only defensive-front number the NFL model carries"
         },
         {
           "k": "Pass rate",
-          "a": "−4.6 pp",
-          "h": "−5.0 pp",
+          "a": "−4.9 pp",
+          "h": "−3.9 pp",
           "note": "how often they throw. A tendency, not a quality, so no side is marked ahead"
         },
         {
           "k": "Plays per game",
-          "a": "+0.5",
-          "h": "−2.5",
+          "a": "+1.8",
+          "h": "−3.5",
           "note": "pace. A tendency, not a quality"
         }
       ]
     },
     "notes": [
-      "EdgeDesk’s line is Minnesota Vikings −1.0 with a fair total of 46.0, before any book is consulted.",
-      "Minnesota Vikings wins 51% of the time in EdgeDesk’s distribution, Buffalo Bills 49%."
+      "EdgeDesk’s line is Minnesota Vikings +0.5 with a fair total of 45.0, before any book is consulted.",
+      "Minnesota Vikings wins 50% of the time in EdgeDesk’s distribution, Buffalo Bills 50%."
     ],
     "missing": [],
     "priced_label": "PRICED BY MODEL — the projection and its additive drivers, from the inputs the NFL model actually fits.",
     "context_label": "RESEARCH CONTEXT — every rating below is opponent-adjusted and printed as a deviation from the league mean. The injury report and the quarterback panel explain the matchup and move no priced number.",
-    "source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 108 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice."
+    "source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 120 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice."
   },
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T00:36:55.151Z"
+    "at": "2026-11-02T19:27:46.096Z"
   }
 }

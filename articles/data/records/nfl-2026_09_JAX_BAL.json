@@ -11,8 +11,8 @@
   ],
   "title": "Jacksonville Jaguars vs. Baltimore Ravens: EdgeDesk Model Projection, Matchup Analysis and Fair Spread",
   "seo_title": "Jacksonville Jaguars vs. Baltimore Ravens 2026: EdgeDesk Fair Spread & Model Projection",
-  "seo_description": "EdgeDesk fair spread for Jacksonville Jaguars at Baltimore Ravens: Baltimore Ravens +5.5, fair total 48.0. Jacksonville Jaguars wins 69% of simulations. Model status STALE MARKET. Research, not picks.",
-  "excerpt": "Jacksonville Jaguars carries the stronger EdgeDesk offensive profile (#3 in EPA per play) and the better defensive rating with it, so the ratings point the same way on both sides of the ball. EdgeDesk’s independent projection makes it Baltimore Ravens +5.5…",
+  "seo_description": "EdgeDesk fair spread for Jacksonville Jaguars at Baltimore Ravens: Baltimore Ravens +8.0, fair total 46.5. Jacksonville Jaguars wins 78% of simulations. Model status STALE MARKET. Research, not picks.",
+  "excerpt": "Jacksonville Jaguars carries the stronger EdgeDesk offensive profile (#3 in EPA per play) and the better defensive rating with it, so the ratings point the same way on both sides of the ball. EdgeDesk’s independent projection makes it Baltimore Ravens +8.0…",
   "home_team": "Baltimore Ravens",
   "away_team": "Jacksonville Jaguars",
   "venue": "M&T Bank Stadium",
@@ -23,15 +23,15 @@
   "game_time": "2026-11-06T01:15:00.000Z",
   "game_when_label": "2026-11-06 01:15 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T00:36:55.151Z",
-  "generated_at": "2026-11-02T00:36:55.151Z",
+  "updated_at": "2026-11-02T19:27:46.096Z",
+  "generated_at": "2026-11-02T19:27:46.096Z",
   "model_version": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
   "model_status": "STALE MARKET",
-  "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.1-point gap is context only and the game is excluded from research ranking.",
+  "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 0.4-point gap is context only and the game is excluded from research ranking.",
   "confidence": null,
   "priced": true,
-  "fair_spread_text": "Baltimore Ravens +5.5",
-  "fair_total": "48.0",
+  "fair_spread_text": "Baltimore Ravens +8.0",
+  "fair_total": "46.5",
   "hero_image": null,
   "canonical_url": "https://edgedesksports.com/articles/jacksonville-jaguars-vs-baltimore-ravens-2026",
   "terminal_url": "https://edgedesksports.com/app.html#research/football",
@@ -43,7 +43,7 @@
   "frozen_at": null,
   "author": "EdgeDesk Research",
   "publisher": "EdgeDesk Sports",
-  "research_source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 108 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice.",
+  "research_source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 120 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice.",
   "market_source": null,
   "research": {
     "kind": "NFL_GAME",
@@ -64,21 +64,21 @@
     },
     "lede": [
       "Jacksonville Jaguars carries the stronger EdgeDesk offensive profile (#3 in EPA per play) and the better defensive rating with it, so the ratings point the same way on both sides of the ball.",
-      "EdgeDesk’s independent projection makes it Baltimore Ravens +5.5 with a fair total of 48.0 — inside a touchdown, before any sportsbook number is consulted.",
-      "The widest measured matchup on the board is Jacksonville Jaguars pass offence vs Baltimore Ravens pass defence, which sits +0.288 from the league mean once the two ratings are combined the way the model combines them.",
+      "EdgeDesk’s independent projection makes it Baltimore Ravens +8.0 with a fair total of 46.5, before any sportsbook number is consulted.",
+      "The widest measured matchup on the board is Jacksonville Jaguars pass offence vs Baltimore Ravens pass defence, which sits +0.270 from the league mean once the two ratings are combined the way the model combines them.",
       "The largest uncertainty is availability: NFL injury report — not loaded in this session."
     ],
     "projection": {
       "priced": true,
-      "fair_spread": -5.386436503694467,
-      "fair_spread_text": "Baltimore Ravens +5.5",
-      "fair_spread_raw_text": "Baltimore Ravens +5.4",
+      "fair_spread": -8.096506635755858,
+      "fair_spread_text": "Baltimore Ravens +8.0",
+      "fair_spread_raw_text": "Baltimore Ravens +8.1",
       "favourite": "Jacksonville Jaguars",
       "underdog": "Baltimore Ravens",
-      "margin": "5.5",
-      "margin_raw": "5.4",
-      "total": "48.0",
-      "total_raw": "47.8",
+      "margin": "8.0",
+      "margin_raw": "8.1",
+      "total": "46.5",
+      "total_raw": "46.4",
       "display_policy": "football_half_point_v1",
       "score": {
         "away": {
@@ -87,12 +87,12 @@
         },
         "home": {
           "team": "Baltimore Ravens",
-          "points": "21"
+          "points": "19"
         },
         "expected": {
-          "text": "Jacksonville Jaguars 26.60, Baltimore Ravens 21.21",
-          "home": 21.21,
-          "away": 26.6,
+          "text": "Jacksonville Jaguars 27.27, Baltimore Ravens 19.17",
+          "home": 19.17,
+          "away": 27.27,
           "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
         },
         "note": "Split from EdgeDesk’s own fair spread and fair total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
@@ -101,64 +101,64 @@
       "win_prob": {
         "home": "Baltimore Ravens",
         "away": "Jacksonville Jaguars",
-        "home_pct": 31,
-        "away_pct": 69,
-        "home_text": "31%",
-        "away_text": "69%",
+        "home_pct": 22,
+        "away_pct": 78,
+        "home_text": "22%",
+        "away_text": "78%",
         "bounded": false,
         "bounded_note": null,
         "favourite": "Jacksonville Jaguars",
-        "favourite_pct": 69,
-        "favourite_text": "69%"
+        "favourite_pct": 78,
+        "favourite_text": "78%"
       },
       "moneyline": {
         "home": "Baltimore Ravens",
         "away": "Jacksonville Jaguars",
-        "home_odds": "+227",
-        "away_odds": "-227",
+        "home_odds": "+354",
+        "away_odds": "-354",
         "note": "EdgeDesk’s own fair price, with no margin in it. It is not a quote and nobody offers it."
       },
       "outcome_range": {
         "basis_team": "Baltimore Ravens",
-        "p10": "-24.0",
-        "median": "-5.0",
-        "p90": "+10.0",
+        "p10": "-27.0",
+        "median": "-8.0",
+        "p90": "+7.0",
         "sigma": "10.7",
         "note": "Quoted from the perspective of Baltimore Ravens, off the engine’s own learned margin distribution (conditioned on this spread, so real key-number mass is kept). Eight results in ten land inside p10–p90."
       },
       "confidence_pct": null,
-      "confidence_absent_reason": "The NFL model publishes no single confidence score. What it publishes instead is the width of the outcome range above and the sample the ratings rest on: the trained seeds through 2025, plus 108 absorbed 2026 games.",
-      "sample_games": 108,
+      "confidence_absent_reason": "The NFL model publishes no single confidence score. What it publishes instead is the width of the outcome range above and the sample the ratings rest on: the trained seeds through 2025, plus 120 absorbed 2026 games.",
+      "sample_games": 120,
       "seeded": true,
       "status": "STALE MARKET",
-      "status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.1-point gap is context only and the game is excluded from research ranking.",
+      "status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 0.4-point gap is context only and the game is excluded from research ranking.",
       "engine": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
       "validation": "UNPROVEN — this model does NOT beat the closing line out of sample. Research only; nothing here is graded as a bet."
     },
     "drivers": {
       "rows": [
         {
-          "points": "-3.3",
-          "points_n": -3.3174508406674845,
-          "text": "Base team strength — Jacksonville Jaguars by 3.3 points (last season -0.2, this season -3.1)",
+          "points": "-5.7",
+          "points_n": -5.719562227667206,
+          "text": "Base team strength — Jacksonville Jaguars by 5.7 points (last season -0.2, this season -5.5)",
           "favours": "Jacksonville Jaguars"
         },
         {
-          "points": "-0.3",
-          "points_n": -0.29189763059399476,
-          "text": "Passing — Jacksonville Jaguars by 0.3 points (last season -0.1, this season -0.2)",
+          "points": "-0.5",
+          "points_n": -0.4523800270852501,
+          "text": "Passing — Jacksonville Jaguars by 0.5 points (last season -0.1, this season -0.3)",
           "favours": "Jacksonville Jaguars"
         },
         {
-          "points": "0.0",
-          "points_n": -0.004003309804258403,
-          "text": "Rushing — no lean (last season +0.5, this season -0.5)",
+          "points": "-0.2",
+          "points_n": -0.23927196178412488,
+          "text": "Rushing — Jacksonville Jaguars by 0.2 points (last season +0.4, this season -0.7)",
           "favours": "Jacksonville Jaguars"
         },
         {
-          "points": "-3.6",
-          "points_n": -3.60916842762873,
-          "text": "Quarterback — Jacksonville Jaguars by 3.6 points",
+          "points": "-3.5",
+          "points_n": -3.5213761242192767,
+          "text": "Quarterback — Jacksonville Jaguars by 3.5 points",
           "favours": "Jacksonville Jaguars"
         },
         {
@@ -187,29 +187,29 @@
           "text": "Model baseline — home field and the league constant"
         },
         {
-          "points": "+1.4",
-          "points_n": 1.4298431795708806,
-          "text": "Passing matchup, both directions — over by 1.4 points"
-        },
-        {
           "points": "+0.8",
-          "points_n": 0.771196565434866,
-          "text": "Combined scoring ratings — over by 0.8 points"
+          "points_n": 0.81772250192356,
+          "text": "Passing matchup, both directions — over by 0.8 points"
         },
         {
-          "points": "+0.7",
-          "points_n": 0.668657391974827,
-          "text": "Both offences, EPA per play — over by 0.7 points"
+          "points": "+0.5",
+          "points_n": 0.5377430317250903,
+          "text": "Combined scoring ratings — over by 0.5 points"
+        },
+        {
+          "points": "+0.5",
+          "points_n": 0.45802600811398936,
+          "text": "Both offences, EPA per play — over by 0.5 points"
+        },
+        {
+          "points": "-0.4",
+          "points_n": -0.35692977320902314,
+          "text": "Combined pace — under by 0.4 points"
         },
         {
           "points": "+0.2",
           "points_n": 0.177357865,
           "text": "Point in the season — over by 0.2 points"
-        },
-        {
-          "points": "-0.2",
-          "points_n": -0.1544827809967644,
-          "text": "Combined pace — under by 0.2 points"
         }
       ],
       "reconciles": true,
@@ -231,23 +231,23 @@
               "k": "Net EPA per play",
               "note": "offence EPA per play minus defence EPA allowed per play — the engine’s own net_epa half",
               "a": {
-                "v": "+0.146",
-                "n": 0.14636737258070986,
-                "rank": "#2 of 32",
-                "rank_n": 2,
+                "v": "+0.196",
+                "n": 0.19633236371574422,
+                "rank": "#1 of 32",
+                "rank_n": 1,
                 "note": null
               },
               "h": {
-                "v": "+0.019",
-                "n": 0.018738383079547456,
-                "rank": "#15 of 32",
-                "rank_n": 15,
+                "v": "−0.025",
+                "n": -0.025329908027632256,
+                "rank": "#17 of 32",
+                "rank_n": 17,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.12762898950116242,
-                "rank_gap": 13
+                "gap": 0.2216622717433765,
+                "rank_gap": 16
               }
             },
             {
@@ -255,23 +255,23 @@
               "k": "Points scored",
               "note": null,
               "a": {
-                "v": "+2.98",
-                "n": 2.984879096598595,
-                "rank": "#7 of 32",
-                "rank_n": 7,
+                "v": "+3.83",
+                "n": 3.832191010921739,
+                "rank": "#4 of 32",
+                "rank_n": 4,
                 "note": null
               },
               "h": {
-                "v": "+1.15",
-                "n": 1.1496230386096002,
-                "rank": "#12 of 32",
-                "rank_n": 12,
+                "v": "+0.24",
+                "n": 0.23838877837654504,
+                "rank": "#14 of 32",
+                "rank_n": 14,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 1.835256057988995,
-                "rank_gap": 5
+                "gap": 3.593802232545194,
+                "rank_gap": 10
               }
             },
             {
@@ -279,23 +279,23 @@
               "k": "Points allowed",
               "note": null,
               "a": {
-                "v": "−2.40",
-                "n": -2.4021541208219532,
-                "rank": "#6 of 32",
-                "rank_n": 6,
+                "v": "−3.28",
+                "n": -3.279807893834173,
+                "rank": "#4 of 32",
+                "rank_n": 4,
                 "note": null
               },
               "h": {
-                "v": "−0.00",
-                "n": -0.003986387181955209,
+                "v": "+0.41",
+                "n": 0.41438702638100977,
                 "rank": "#17 of 32",
                 "rank_n": 17,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 2.398167733639998,
-                "rank_gap": 11
+                "gap": 3.6941949202151827,
+                "rank_gap": 13
               }
             }
           ]
@@ -308,23 +308,23 @@
               "k": "Offence · EPA per play",
               "note": null,
               "a": {
-                "v": "+0.117",
-                "n": 0.11675583232092508,
+                "v": "+0.123",
+                "n": 0.1233642491362763,
                 "rank": "#3 of 32",
                 "rank_n": 3,
                 "note": null
               },
               "h": {
-                "v": "+0.055",
-                "n": 0.05499286805031795,
-                "rank": "#9 of 32",
-                "rank_n": 9,
+                "v": "−0.006",
+                "n": -0.005717495247152156,
+                "rank": "#16 of 32",
+                "rank_n": 16,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.06176296427060713,
-                "rank_gap": 6
+                "gap": 0.12908174438342845,
+                "rank_gap": 13
               }
             },
             {
@@ -332,23 +332,23 @@
               "k": "Pass offence · EPA per dropback",
               "note": null,
               "a": {
-                "v": "+0.199",
-                "n": 0.19918544146654274,
+                "v": "+0.197",
+                "n": 0.19723795101434383,
                 "rank": "#2 of 32",
                 "rank_n": 2,
                 "note": null
               },
               "h": {
-                "v": "+0.104",
-                "n": 0.10352414219844805,
-                "rank": "#8 of 32",
-                "rank_n": 8,
+                "v": "+0.020",
+                "n": 0.020120893712774778,
+                "rank": "#14 of 32",
+                "rank_n": 14,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.09566129926809469,
-                "rank_gap": 6
+                "gap": 0.17711705730156904,
+                "rank_gap": 12
               }
             },
             {
@@ -356,23 +356,23 @@
               "k": "Run offence · EPA per carry",
               "note": null,
               "a": {
-                "v": "+0.029",
-                "n": 0.028802141831544302,
-                "rank": "#12 of 32",
-                "rank_n": 12,
+                "v": "+0.049",
+                "n": 0.04854608868390848,
+                "rank": "#7 of 32",
+                "rank_n": 7,
                 "note": null
               },
               "h": {
-                "v": "+0.025",
-                "n": 0.025370335468196982,
-                "rank": "#13 of 32",
-                "rank_n": 13,
+                "v": "+0.004",
+                "n": 0.003989603387933416,
+                "rank": "#19 of 32",
+                "rank_n": 19,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.00343180636334732,
-                "rank_gap": 1
+                "gap": 0.044556485295975064,
+                "rank_gap": 12
               }
             },
             {
@@ -380,23 +380,23 @@
               "k": "Explosive pass rate",
               "note": "20+ yard pass plays per attempt",
               "a": {
-                "v": "+2.1 pp",
-                "n": 0.021027726921494575,
-                "rank": "#4 of 32",
-                "rank_n": 4,
+                "v": "+3.4 pp",
+                "n": 0.0341917025588103,
+                "rank": "#2 of 32",
+                "rank_n": 2,
                 "note": null
               },
               "h": {
-                "v": "+0.8 pp",
-                "n": 0.008232220618841988,
-                "rank": "#10 of 32",
-                "rank_n": 10,
+                "v": "+0.3 pp",
+                "n": 0.0031057458145129354,
+                "rank": "#12 of 32",
+                "rank_n": 12,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.012795506302652587,
-                "rank_gap": 6
+                "gap": 0.031085956744297365,
+                "rank_gap": 10
               }
             },
             {
@@ -405,22 +405,22 @@
               "note": "10+ yard runs per carry",
               "a": {
                 "v": "+0.7 pp",
-                "n": 0.006903394079463598,
-                "rank": "#13 of 32",
-                "rank_n": 13,
+                "n": 0.006614169120077542,
+                "rank": "#15 of 32",
+                "rank_n": 15,
                 "note": null
               },
               "h": {
-                "v": "+2.4 pp",
-                "n": 0.023587961197924497,
-                "rank": "#2 of 32",
-                "rank_n": 2,
+                "v": "+1.5 pp",
+                "n": 0.014760399537537782,
+                "rank": "#8 of 32",
+                "rank_n": 8,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.016684567118460898,
-                "rank_gap": 11
+                "gap": 0.00814623041746024,
+                "rank_gap": 7
               }
             }
           ]
@@ -433,23 +433,23 @@
               "k": "Defence · EPA allowed per play",
               "note": null,
               "a": {
-                "v": "−0.030",
-                "n": -0.029611540259784776,
-                "rank": "#10 of 32",
-                "rank_n": 10,
+                "v": "−0.073",
+                "n": -0.07296811457946792,
+                "rank": "#5 of 32",
+                "rank_n": 5,
                 "note": null
               },
               "h": {
-                "v": "+0.036",
-                "n": 0.036254484970770495,
-                "rank": "#22 of 32",
-                "rank_n": 22,
+                "v": "+0.020",
+                "n": 0.0196124127804801,
+                "rank": "#20 of 32",
+                "rank_n": 20,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.06586602523055526,
-                "rank_gap": 12
+                "gap": 0.09258052735994801,
+                "rank_gap": 15
               }
             },
             {
@@ -457,22 +457,22 @@
               "k": "Pass defence · EPA allowed per dropback",
               "note": null,
               "a": {
-                "v": "−0.032",
-                "n": -0.03161228608637079,
-                "rank": "#10 of 32",
-                "rank_n": 10,
+                "v": "−0.084",
+                "n": -0.0844546660481614,
+                "rank": "#8 of 32",
+                "rank_n": 8,
                 "note": null
               },
               "h": {
-                "v": "+0.088",
-                "n": 0.08841439286924735,
-                "rank": "#27 of 32",
-                "rank_n": 27,
+                "v": "+0.073",
+                "n": 0.07269934706715084,
+                "rank": "#25 of 32",
+                "rank_n": 25,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.12002667895561814,
+                "gap": 0.15715401311531224,
                 "rank_gap": 17
               }
             },
@@ -481,23 +481,23 @@
               "k": "Run defence · EPA allowed per carry",
               "note": null,
               "a": {
-                "v": "−0.047",
-                "n": -0.04684386688672429,
-                "rank": "#6 of 32",
-                "rank_n": 6,
+                "v": "−0.073",
+                "n": -0.07280315228600487,
+                "rank": "#1 of 32",
+                "rank_n": 1,
                 "note": null
               },
               "h": {
-                "v": "−0.049",
-                "n": -0.04927360356327838,
+                "v": "−0.057",
+                "n": -0.05746740052643806,
                 "rank": "#4 of 32",
                 "rank_n": 4,
                 "note": null
               },
               "edge": {
-                "side": "h",
-                "gap": 0.0024297366765540923,
-                "rank_gap": 2
+                "side": "a",
+                "gap": 0.015335751759566807,
+                "rank_gap": 3
               }
             },
             {
@@ -505,23 +505,23 @@
               "k": "Explosive passes allowed",
               "note": null,
               "a": {
-                "v": "+0.2 pp",
-                "n": 0.0022076603515297187,
-                "rank": "#16 of 32",
-                "rank_n": 16,
+                "v": "−0.5 pp",
+                "n": -0.004668510559750446,
+                "rank": "#10 of 32",
+                "rank_n": 10,
                 "note": null
               },
               "h": {
-                "v": "+1.3 pp",
-                "n": 0.012977278451419536,
-                "rank": "#25 of 32",
-                "rank_n": 25,
+                "v": "+1.1 pp",
+                "n": 0.01127006894291704,
+                "rank": "#20 of 32",
+                "rank_n": 20,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.010769618099889817,
-                "rank_gap": 9
+                "gap": 0.015938579502667485,
+                "rank_gap": 10
               }
             },
             {
@@ -529,23 +529,23 @@
               "k": "Explosive runs allowed",
               "note": null,
               "a": {
-                "v": "−2.8 pp",
-                "n": -0.02775436418073732,
-                "rank": "#2 of 32",
-                "rank_n": 2,
+                "v": "−2.0 pp",
+                "n": -0.019550886904441622,
+                "rank": "#4 of 32",
+                "rank_n": 4,
                 "note": null
               },
               "h": {
-                "v": "−0.7 pp",
-                "n": -0.0069396431463855475,
-                "rank": "#14 of 32",
-                "rank_n": 14,
+                "v": "−1.2 pp",
+                "n": -0.012384676254887117,
+                "rank": "#9 of 32",
+                "rank_n": 9,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.020814721034351773,
-                "rank_gap": 12
+                "gap": 0.007166210649554505,
+                "rank_gap": 5
               }
             }
           ]
@@ -558,23 +558,23 @@
               "k": "Sacks taken per dropback",
               "note": "pass protection — the only offensive-line number the NFL model carries",
               "a": {
-                "v": "−1.6 pp",
-                "n": -0.01623534842008164,
-                "rank": "#5 of 32",
-                "rank_n": 5,
+                "v": "−0.5 pp",
+                "n": -0.005107139954146705,
+                "rank": "#14 of 32",
+                "rank_n": 14,
                 "note": null
               },
               "h": {
-                "v": "+1.4 pp",
-                "n": 0.013996333078714101,
-                "rank": "#26 of 32",
-                "rank_n": 26,
+                "v": "+2.2 pp",
+                "n": 0.021501154058603617,
+                "rank": "#27 of 32",
+                "rank_n": 27,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.03023168149879574,
-                "rank_gap": 21
+                "gap": 0.026608294012750323,
+                "rank_gap": 13
               }
             },
             {
@@ -582,23 +582,23 @@
               "k": "Sacks generated per dropback",
               "note": "pass rush — the only defensive-front number the NFL model carries",
               "a": {
-                "v": "−2.1 pp",
-                "n": -0.02050578291121389,
-                "rank": "#30 of 32",
-                "rank_n": 30,
+                "v": "−1.3 pp",
+                "n": -0.013110931291315842,
+                "rank": "#27 of 32",
+                "rank_n": 27,
                 "note": null
               },
               "h": {
-                "v": "−0.3 pp",
-                "n": -0.003337747870470551,
-                "rank": "#19 of 32",
-                "rank_n": 19,
+                "v": "−0.6 pp",
+                "n": -0.006085305344409589,
+                "rank": "#20 of 32",
+                "rank_n": 20,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.017168035040743337,
-                "rank_gap": 11
+                "gap": 0.007025625946906254,
+                "rank_gap": 7
               }
             }
           ]
@@ -611,15 +611,15 @@
               "k": "Pass rate",
               "note": "how often they throw. A tendency, not a quality, so no side is marked ahead",
               "a": {
-                "v": "−1.0 pp",
-                "n": -0.010221922085720151,
+                "v": "−2.9 pp",
+                "n": -0.029285870108236016,
                 "rank": null,
                 "rank_n": null,
                 "note": "tendency, not a quality"
               },
               "h": {
-                "v": "−7.0 pp",
-                "n": -0.06977419316899183,
+                "v": "−6.2 pp",
+                "n": -0.06204061003144639,
                 "rank": null,
                 "rank_n": null,
                 "note": "tendency, not a quality"
@@ -631,15 +631,15 @@
               "k": "Plays per game",
               "note": "pace. A tendency, not a quality",
               "a": {
-                "v": "−0.4",
-                "n": -0.3753026206957401,
+                "v": "−1.3",
+                "n": -1.320850108672626,
                 "rank": null,
                 "rank_n": null,
                 "note": "tendency, not a quality"
               },
               "h": {
-                "v": "−1.3",
-                "n": -1.3113841486788291,
+                "v": "−2.6",
+                "n": -2.576210276847843,
                 "rank": null,
                 "rank_n": null,
                 "note": "tendency, not a quality"
@@ -655,86 +655,76 @@
     "advantages": {
       "away": [
         {
-          "k": "Sacks taken per dropback",
-          "rank_gap": 21,
-          "gap": 0.03023168149879574,
-          "lead": "Jacksonville Jaguars",
-          "trail": "Baltimore Ravens",
-          "lead_cell": "−1.6 pp · #5 of 32",
-          "trail_cell": "+1.4 pp · #26 of 32",
-          "text": "Jacksonville Jaguars −1.6 pp (#5 of 32) vs Baltimore Ravens +1.4 pp (#26 of 32) — 21 places on the league board."
-        },
-        {
           "k": "Pass defence · EPA allowed per dropback",
           "rank_gap": 17,
-          "gap": 0.12002667895561814,
+          "gap": 0.15715401311531224,
           "lead": "Jacksonville Jaguars",
           "trail": "Baltimore Ravens",
-          "lead_cell": "−0.032 · #10 of 32",
-          "trail_cell": "+0.088 · #27 of 32",
-          "text": "Jacksonville Jaguars −0.032 (#10 of 32) vs Baltimore Ravens +0.088 (#27 of 32) — 17 places on the league board."
+          "lead_cell": "−0.084 · #8 of 32",
+          "trail_cell": "+0.073 · #25 of 32",
+          "text": "Jacksonville Jaguars −0.084 (#8 of 32) vs Baltimore Ravens +0.073 (#25 of 32) — 17 places on the league board."
         },
         {
           "k": "Net EPA per play",
-          "rank_gap": 13,
-          "gap": 0.12762898950116242,
+          "rank_gap": 16,
+          "gap": 0.2216622717433765,
           "lead": "Jacksonville Jaguars",
           "trail": "Baltimore Ravens",
-          "lead_cell": "+0.146 · #2 of 32",
-          "trail_cell": "+0.019 · #15 of 32",
-          "text": "Jacksonville Jaguars +0.146 (#2 of 32) vs Baltimore Ravens +0.019 (#15 of 32) — 13 places on the league board."
+          "lead_cell": "+0.196 · #1 of 32",
+          "trail_cell": "−0.025 · #17 of 32",
+          "text": "Jacksonville Jaguars +0.196 (#1 of 32) vs Baltimore Ravens −0.025 (#17 of 32) — 16 places on the league board."
         },
         {
           "k": "Defence · EPA allowed per play",
-          "rank_gap": 12,
-          "gap": 0.06586602523055526,
+          "rank_gap": 15,
+          "gap": 0.09258052735994801,
           "lead": "Jacksonville Jaguars",
           "trail": "Baltimore Ravens",
-          "lead_cell": "−0.030 · #10 of 32",
-          "trail_cell": "+0.036 · #22 of 32",
-          "text": "Jacksonville Jaguars −0.030 (#10 of 32) vs Baltimore Ravens +0.036 (#22 of 32) — 12 places on the league board."
+          "lead_cell": "−0.073 · #5 of 32",
+          "trail_cell": "+0.020 · #20 of 32",
+          "text": "Jacksonville Jaguars −0.073 (#5 of 32) vs Baltimore Ravens +0.020 (#20 of 32) — 15 places on the league board."
         },
         {
-          "k": "Explosive runs allowed",
-          "rank_gap": 12,
-          "gap": 0.020814721034351773,
+          "k": "Points allowed",
+          "rank_gap": 13,
+          "gap": 3.6941949202151827,
           "lead": "Jacksonville Jaguars",
           "trail": "Baltimore Ravens",
-          "lead_cell": "−2.8 pp · #2 of 32",
-          "trail_cell": "−0.7 pp · #14 of 32",
-          "text": "Jacksonville Jaguars −2.8 pp (#2 of 32) vs Baltimore Ravens −0.7 pp (#14 of 32) — 12 places on the league board."
+          "lead_cell": "−3.28 · #4 of 32",
+          "trail_cell": "+0.41 · #17 of 32",
+          "text": "Jacksonville Jaguars −3.28 (#4 of 32) vs Baltimore Ravens +0.41 (#17 of 32) — 13 places on the league board."
+        },
+        {
+          "k": "Offence · EPA per play",
+          "rank_gap": 13,
+          "gap": 0.12908174438342845,
+          "lead": "Jacksonville Jaguars",
+          "trail": "Baltimore Ravens",
+          "lead_cell": "+0.123 · #3 of 32",
+          "trail_cell": "−0.006 · #16 of 32",
+          "text": "Jacksonville Jaguars +0.123 (#3 of 32) vs Baltimore Ravens −0.006 (#16 of 32) — 13 places on the league board."
         }
       ],
       "home": [
         {
           "k": "Explosive run rate",
-          "rank_gap": 11,
-          "gap": 0.016684567118460898,
+          "rank_gap": 7,
+          "gap": 0.00814623041746024,
           "lead": "Baltimore Ravens",
           "trail": "Jacksonville Jaguars",
-          "lead_cell": "+2.4 pp · #2 of 32",
-          "trail_cell": "+0.7 pp · #13 of 32",
-          "text": "Baltimore Ravens +2.4 pp (#2 of 32) vs Jacksonville Jaguars +0.7 pp (#13 of 32) — 11 places on the league board."
+          "lead_cell": "+1.5 pp · #8 of 32",
+          "trail_cell": "+0.7 pp · #15 of 32",
+          "text": "Baltimore Ravens +1.5 pp (#8 of 32) vs Jacksonville Jaguars +0.7 pp (#15 of 32) — 7 places on the league board."
         },
         {
           "k": "Sacks generated per dropback",
-          "rank_gap": 11,
-          "gap": 0.017168035040743337,
+          "rank_gap": 7,
+          "gap": 0.007025625946906254,
           "lead": "Baltimore Ravens",
           "trail": "Jacksonville Jaguars",
-          "lead_cell": "−0.3 pp · #19 of 32",
-          "trail_cell": "−2.1 pp · #30 of 32",
-          "text": "Baltimore Ravens −0.3 pp (#19 of 32) vs Jacksonville Jaguars −2.1 pp (#30 of 32) — 11 places on the league board."
-        },
-        {
-          "k": "Run defence · EPA allowed per carry",
-          "rank_gap": 2,
-          "gap": 0.0024297366765540923,
-          "lead": "Baltimore Ravens",
-          "trail": "Jacksonville Jaguars",
-          "lead_cell": "−0.049 · #4 of 32",
-          "trail_cell": "−0.047 · #6 of 32",
-          "text": "Baltimore Ravens −0.049 (#4 of 32) vs Jacksonville Jaguars −0.047 (#6 of 32) — 2 places on the league board."
+          "lead_cell": "−0.6 pp · #20 of 32",
+          "trail_cell": "−1.3 pp · #27 of 32",
+          "text": "Baltimore Ravens −0.6 pp (#20 of 32) vs Jacksonville Jaguars −1.3 pp (#27 of 32) — 7 places on the league board."
         }
       ],
       "measured": [],
@@ -748,160 +738,160 @@
         "att": {
           "team": "Jacksonville Jaguars",
           "label": "pass offence",
-          "v": "+0.199",
+          "v": "+0.197",
           "rank": "#2 of 32",
           "note": null
         },
         "def": {
           "team": "Baltimore Ravens",
           "label": "pass defence",
-          "v": "+0.088",
-          "rank": "#27 of 32",
+          "v": "+0.073",
+          "rank": "#25 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.28759983433579006,
-        "read": "Jacksonville Jaguars’ pass offence rates +0.199 (#2 of 32) and Baltimore Ravens’ pass defence rates +0.088 (#27 of 32). Added the way the model adds them, this pairing sits +0.288 from the league mean, which favours Jacksonville Jaguars."
+        "net": 0.2699372980814947,
+        "read": "Jacksonville Jaguars’ pass offence rates +0.197 (#2 of 32) and Baltimore Ravens’ pass defence rates +0.073 (#25 of 32). Added the way the model adds them, this pairing sits +0.270 from the league mean, which favours Jacksonville Jaguars."
       },
       {
         "title": "Baltimore Ravens pass offence vs Jacksonville Jaguars pass defence",
         "att": {
           "team": "Baltimore Ravens",
           "label": "pass offence",
-          "v": "+0.104",
-          "rank": "#8 of 32",
+          "v": "+0.020",
+          "rank": "#14 of 32",
           "note": null
         },
         "def": {
           "team": "Jacksonville Jaguars",
           "label": "pass defence",
-          "v": "−0.032",
-          "rank": "#10 of 32",
+          "v": "−0.084",
+          "rank": "#8 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.07191185611207726,
-        "read": "Baltimore Ravens’ pass offence rates +0.104 (#8 of 32) and Jacksonville Jaguars’ pass defence rates −0.032 (#10 of 32). Added the way the model adds them, this pairing sits +0.072 from the league mean, which favours Baltimore Ravens."
+        "net": -0.06433377233538662,
+        "read": "Baltimore Ravens’ pass offence rates +0.020 (#14 of 32) and Jacksonville Jaguars’ pass defence rates −0.084 (#8 of 32). Added the way the model adds them, this pairing sits −0.064 from the league mean, which favours Jacksonville Jaguars."
       },
       {
         "title": "Jacksonville Jaguars run offence vs Baltimore Ravens run defence",
         "att": {
           "team": "Jacksonville Jaguars",
           "label": "run offence",
-          "v": "+0.029",
-          "rank": "#12 of 32",
+          "v": "+0.049",
+          "rank": "#7 of 32",
           "note": null
         },
         "def": {
           "team": "Baltimore Ravens",
           "label": "run defence",
-          "v": "−0.049",
+          "v": "−0.057",
           "rank": "#4 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.02047146173173408,
-        "read": "Jacksonville Jaguars’ run offence rates +0.029 (#12 of 32) and Baltimore Ravens’ run defence rates −0.049 (#4 of 32). Added the way the model adds them, this pairing sits −0.020 from the league mean, which favours Baltimore Ravens."
+        "net": -0.008921311842529582,
+        "read": "Jacksonville Jaguars’ run offence rates +0.049 (#7 of 32) and Baltimore Ravens’ run defence rates −0.057 (#4 of 32). Added the way the model adds them, this pairing sits −0.009 from the league mean, which favours Baltimore Ravens."
       },
       {
         "title": "Baltimore Ravens run offence vs Jacksonville Jaguars run defence",
         "att": {
           "team": "Baltimore Ravens",
           "label": "run offence",
-          "v": "+0.025",
-          "rank": "#13 of 32",
+          "v": "+0.004",
+          "rank": "#19 of 32",
           "note": null
         },
         "def": {
           "team": "Jacksonville Jaguars",
           "label": "run defence",
-          "v": "−0.047",
-          "rank": "#6 of 32",
+          "v": "−0.073",
+          "rank": "#1 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.021473531418527307,
-        "read": "Baltimore Ravens’ run offence rates +0.025 (#13 of 32) and Jacksonville Jaguars’ run defence rates −0.047 (#6 of 32). Added the way the model adds them, this pairing sits −0.021 from the league mean, which favours Jacksonville Jaguars."
+        "net": -0.06881354889807145,
+        "read": "Baltimore Ravens’ run offence rates +0.004 (#19 of 32) and Jacksonville Jaguars’ run defence rates −0.073 (#1 of 32). Added the way the model adds them, this pairing sits −0.069 from the league mean, which favours Jacksonville Jaguars."
       },
       {
         "title": "Jacksonville Jaguars pass protection vs Baltimore Ravens pass rush",
         "att": {
           "team": "Jacksonville Jaguars",
           "label": "pass protection",
-          "v": "−1.6 pp",
-          "rank": "#5 of 32",
+          "v": "−0.5 pp",
+          "rank": "#14 of 32",
           "note": null
         },
         "def": {
           "team": "Baltimore Ravens",
           "label": "pass rush",
-          "v": "−0.3 pp",
-          "rank": "#19 of 32",
+          "v": "−0.6 pp",
+          "rank": "#20 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.01957309629055219,
-        "read": "Jacksonville Jaguars’ pass protection rates −1.6 pp (#5 of 32) and Baltimore Ravens’ pass rush rates −0.3 pp (#19 of 32). Added the way the model adds them, this pairing sits −2.0 pp from the league mean, which favours Jacksonville Jaguars."
+        "net": -0.011192445298556293,
+        "read": "Jacksonville Jaguars’ pass protection rates −0.5 pp (#14 of 32) and Baltimore Ravens’ pass rush rates −0.6 pp (#20 of 32). Added the way the model adds them, this pairing sits −1.1 pp from the league mean, which favours Jacksonville Jaguars."
       },
       {
         "title": "Baltimore Ravens pass protection vs Jacksonville Jaguars pass rush",
         "att": {
           "team": "Baltimore Ravens",
           "label": "pass protection",
-          "v": "+1.4 pp",
-          "rank": "#26 of 32",
+          "v": "+2.2 pp",
+          "rank": "#27 of 32",
           "note": null
         },
         "def": {
           "team": "Jacksonville Jaguars",
           "label": "pass rush",
-          "v": "−2.1 pp",
-          "rank": "#30 of 32",
+          "v": "−1.3 pp",
+          "rank": "#27 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.006509449832499788,
-        "read": "Baltimore Ravens’ pass protection rates +1.4 pp (#26 of 32) and Jacksonville Jaguars’ pass rush rates −2.1 pp (#30 of 32). Added the way the model adds them, this pairing sits −0.7 pp from the league mean, which favours Baltimore Ravens."
+        "net": 0.008390222767287774,
+        "read": "Baltimore Ravens’ pass protection rates +2.2 pp (#27 of 32) and Jacksonville Jaguars’ pass rush rates −1.3 pp (#27 of 32). Added the way the model adds them, this pairing sits +0.8 pp from the league mean, which favours Jacksonville Jaguars."
       },
       {
         "title": "Jacksonville Jaguars explosive passing vs Baltimore Ravens explosive passes allowed",
         "att": {
           "team": "Jacksonville Jaguars",
           "label": "explosive passing",
-          "v": "+2.1 pp",
-          "rank": "#4 of 32",
+          "v": "+3.4 pp",
+          "rank": "#2 of 32",
           "note": null
         },
         "def": {
           "team": "Baltimore Ravens",
           "label": "explosive passes allowed",
-          "v": "+1.3 pp",
-          "rank": "#25 of 32",
+          "v": "+1.1 pp",
+          "rank": "#20 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.03400500537291411,
-        "read": "Jacksonville Jaguars’ explosive passing rates +2.1 pp (#4 of 32) and Baltimore Ravens’ explosive passes allowed rates +1.3 pp (#25 of 32). Added the way the model adds them, this pairing sits +3.4 pp from the league mean, which favours Jacksonville Jaguars."
+        "net": 0.04546177150172734,
+        "read": "Jacksonville Jaguars’ explosive passing rates +3.4 pp (#2 of 32) and Baltimore Ravens’ explosive passes allowed rates +1.1 pp (#20 of 32). Added the way the model adds them, this pairing sits +4.5 pp from the league mean, which favours Jacksonville Jaguars."
       },
       {
         "title": "Baltimore Ravens explosive passing vs Jacksonville Jaguars explosive passes allowed",
         "att": {
           "team": "Baltimore Ravens",
           "label": "explosive passing",
-          "v": "+0.8 pp",
-          "rank": "#10 of 32",
+          "v": "+0.3 pp",
+          "rank": "#12 of 32",
           "note": null
         },
         "def": {
           "team": "Jacksonville Jaguars",
           "label": "explosive passes allowed",
-          "v": "+0.2 pp",
-          "rank": "#16 of 32",
+          "v": "−0.5 pp",
+          "rank": "#10 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.010439880970371707,
-        "read": "Baltimore Ravens’ explosive passing rates +0.8 pp (#10 of 32) and Jacksonville Jaguars’ explosive passes allowed rates +0.2 pp (#16 of 32). Added the way the model adds them, this pairing sits +1.0 pp from the league mean, which favours Baltimore Ravens."
+        "net": -0.001562764745237511,
+        "read": "Baltimore Ravens’ explosive passing rates +0.3 pp (#12 of 32) and Jacksonville Jaguars’ explosive passes allowed rates −0.5 pp (#10 of 32). Added the way the model adds them, this pairing sits −0.2 pp from the league mean, which favours Jacksonville Jaguars."
       },
       {
         "title": "Jacksonville Jaguars explosive running vs Baltimore Ravens explosive runs allowed",
@@ -909,39 +899,39 @@
           "team": "Jacksonville Jaguars",
           "label": "explosive running",
           "v": "+0.7 pp",
-          "rank": "#13 of 32",
+          "rank": "#15 of 32",
           "note": null
         },
         "def": {
           "team": "Baltimore Ravens",
           "label": "explosive runs allowed",
-          "v": "−0.7 pp",
-          "rank": "#14 of 32",
+          "v": "−1.2 pp",
+          "rank": "#9 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.000036249066921949236,
-        "read": "Jacksonville Jaguars’ explosive running rates +0.7 pp (#13 of 32) and Baltimore Ravens’ explosive runs allowed rates −0.7 pp (#14 of 32). Added the way the model adds them, this pairing sits −0.0 pp from the league mean, which favours Baltimore Ravens."
+        "net": -0.005770507134809575,
+        "read": "Jacksonville Jaguars’ explosive running rates +0.7 pp (#15 of 32) and Baltimore Ravens’ explosive runs allowed rates −1.2 pp (#9 of 32). Added the way the model adds them, this pairing sits −0.6 pp from the league mean, which favours Baltimore Ravens."
       },
       {
         "title": "Baltimore Ravens explosive running vs Jacksonville Jaguars explosive runs allowed",
         "att": {
           "team": "Baltimore Ravens",
           "label": "explosive running",
-          "v": "+2.4 pp",
-          "rank": "#2 of 32",
+          "v": "+1.5 pp",
+          "rank": "#8 of 32",
           "note": null
         },
         "def": {
           "team": "Jacksonville Jaguars",
           "label": "explosive runs allowed",
-          "v": "−2.8 pp",
-          "rank": "#2 of 32",
+          "v": "−2.0 pp",
+          "rank": "#4 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.004166402982812824,
-        "read": "Baltimore Ravens’ explosive running rates +2.4 pp (#2 of 32) and Jacksonville Jaguars’ explosive runs allowed rates −2.8 pp (#2 of 32). Added the way the model adds them, this pairing sits −0.4 pp from the league mean, which favours Jacksonville Jaguars."
+        "net": -0.00479048736690384,
+        "read": "Baltimore Ravens’ explosive running rates +1.5 pp (#8 of 32) and Jacksonville Jaguars’ explosive runs allowed rates −2.0 pp (#4 of 32). Added the way the model adds them, this pairing sits −0.5 pp from the league mean, which favours Jacksonville Jaguars."
       }
     ],
     "panels": [
@@ -973,7 +963,7 @@
           },
           {
             "k": "Learned sample",
-            "a": "85 learned starts",
+            "a": "86 learned starts",
             "h": "23 learned starts",
             "note": "starts the QB layer has actually absorbed"
           },
@@ -991,7 +981,7 @@
           }
         ],
         "reads": [
-          "The quarterback difference is worth -1.8 points of the projected spread — the engine’s own qb_adj_diff term, and the only place a quarterback moves this number.",
+          "The quarterback difference is worth -1.7 points of the projected spread — the engine’s own qb_adj_diff term, and the only place a quarterback moves this number.",
           "Both starters are confirmed by the schedule feed, so the quarterback term is priced from the learned value of the two players actually named.",
           "The learned QB layer is identity-keyed and value-only: it says how a quarterback has played, never how he is feeling, and it knows nothing about a start nobody has announced."
         ]
@@ -1065,7 +1055,7 @@
         "reads": [
           "Each situational factor is shown with the points the engine’s own context model assigned it, so nothing here is a rule of thumb. A factor with no weight in the fit is worth nothing in this number and says so rather than being quietly rounded up.",
           "No forecast reached this game, so temperature and wind entered the total at their neutral defaults. That is a missing input, not a mild day.",
-          "The ratings behind this projection are the trained seeds plus 108 absorbed 2026 games; early in a season that means the prior is still carrying most of the weight."
+          "The ratings behind this projection are the trained seeds plus 120 absorbed 2026 games; early in a season that means the prior is still carrying most of the weight."
         ]
       }
     ],
@@ -1074,11 +1064,11 @@
         "team": "Jacksonville Jaguars",
         "heading": "Why Jacksonville Jaguars can pull away",
         "bullets": [
-          "Base team strength — Jacksonville Jaguars by 3.3 points (last season -0.2, this season -3.1) (-3.3 pts).",
-          "Passing — Jacksonville Jaguars by 0.3 points (last season -0.1, this season -0.2) (-0.3 pts).",
-          "Quarterback — Jacksonville Jaguars by 3.6 points (-3.6 pts).",
-          "Context (venue, division) — Jacksonville Jaguars by 0.7 points (-0.7 pts).",
-          "Rest / travel — Jacksonville Jaguars by 0.6 points (-0.6 pts)."
+          "Base team strength — Jacksonville Jaguars by 5.7 points (last season -0.2, this season -5.5) (-5.7 pts).",
+          "Passing — Jacksonville Jaguars by 0.5 points (last season -0.1, this season -0.3) (-0.5 pts).",
+          "Rushing — Jacksonville Jaguars by 0.2 points (last season +0.4, this season -0.7) (-0.2 pts).",
+          "Quarterback — Jacksonville Jaguars by 3.5 points (-3.5 pts).",
+          "Context (venue, division) — Jacksonville Jaguars by 0.7 points (-0.7 pts)."
         ]
       },
       "underdog": {
@@ -1086,10 +1076,9 @@
         "heading": "Why Baltimore Ravens can keep it close",
         "bullets": [
           "Home field — Baltimore Ravens by 3.2 points (+3.2 pts).",
-          "Explosive run rate: Baltimore Ravens +2.4 pp (#2 of 32) vs Jacksonville Jaguars +0.7 pp (#13 of 32) — 11 places on the league board.",
-          "Sacks generated per dropback: Baltimore Ravens −0.3 pp (#19 of 32) vs Jacksonville Jaguars −2.1 pp (#30 of 32) — 11 places on the league board.",
-          "Run defence · EPA allowed per carry: Baltimore Ravens −0.049 (#4 of 32) vs Jacksonville Jaguars −0.047 (#6 of 32) — 2 places on the league board.",
-          "Baltimore Ravens pass offence vs Jacksonville Jaguars pass defence: the pairing sits +0.072 from the league mean."
+          "Explosive run rate: Baltimore Ravens +1.5 pp (#8 of 32) vs Jacksonville Jaguars +0.7 pp (#15 of 32) — 7 places on the league board.",
+          "Sacks generated per dropback: Baltimore Ravens −0.6 pp (#20 of 32) vs Jacksonville Jaguars −1.3 pp (#27 of 32) — 7 places on the league board.",
+          "The outcome range runs -27.0 to +7.0 for Baltimore Ravens, off the engine’s own learned margin distribution. A projection of about 8.0 points still loses outright often."
         ]
       },
       "note": "Football cases assembled from measured states — a fitted driver, a rating gap, a combined matchup or the model’s own range. Neither side is a bet and neither is advice."
@@ -1145,33 +1134,29 @@
     },
     "market": {
       "available": true,
-      "model": "Baltimore Ravens +5.5",
-      "model_raw": "Baltimore Ravens +5.4",
-      "market": "Baltimore Ravens +7.5",
-      "difference": "2.1 points",
+      "model": "Baltimore Ravens +8.0",
+      "model_raw": "Baltimore Ravens +8.1",
+      "market": "Baltimore Ravens +8.5",
+      "difference": "0.4 points",
       "rounding_note": "Fair lines rounded to nearest half-point; differences use unrounded projections.",
-      "key_number": {
-        "text": "Market is above 7; model is below 7.",
-        "detail": "Jacksonville Jaguars: market −7.5, model fair −5.5.",
-        "note": "Key margins are where football games often finish. How often differs between the NFL and college football; this note marks where the two lines sit and does not change any probability."
-      },
-      "total_model": "48.0",
-      "total_model_raw": "47.8",
+      "key_number": null,
+      "total_model": "46.5",
+      "total_model_raw": "46.4",
       "total_market": "43.5",
       "total_rounding_note": "Fair lines rounded to nearest half-point; differences use unrounded projections.",
-      "total_difference": "4.3 points",
+      "total_difference": "2.9 points",
       "book": "nflverse reference",
       "capture_age": null,
       "stale": false,
       "classification": "STALE MARKET",
-      "classification_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.1-point gap is context only and the game is excluded from research ranking.",
+      "classification_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 0.4-point gap is context only and the game is excluded from research ranking.",
       "reference": "These are nflverse consensus reference numbers, not a live bettable quote.",
       "note": "EdgeDesk compares its own number with a captured price. The comparison is a research state, not a bet — and out of sample this model does not beat the close."
     },
-    "headline": "EdgeDesk projects Jacksonville Jaguars 27, Baltimore Ravens 21.",
+    "headline": "EdgeDesk projects Jacksonville Jaguars 27, Baltimore Ravens 19.",
     "state": {
       "label": "STALE MARKET",
-      "note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.1-point gap is context only and the game is excluded from research ranking.",
+      "note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 0.4-point gap is context only and the game is excluded from research ranking.",
       "scope": "This describes the state of EdgeDesk’s model-versus-market research on this game. It is not a statement about whether the matchup is worth researching."
     },
     "score": {
@@ -1181,12 +1166,12 @@
       },
       "home": {
         "team": "Baltimore Ravens",
-        "points": "21"
+        "points": "19"
       },
       "expected": {
-        "text": "Jacksonville Jaguars 26.60, Baltimore Ravens 21.21",
-        "home": 21.21,
-        "away": 26.6,
+        "text": "Jacksonville Jaguars 27.27, Baltimore Ravens 19.17",
+        "home": 19.17,
+        "away": 27.27,
         "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
       },
       "note": "Split from EdgeDesk’s own fair spread and fair total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
@@ -1199,120 +1184,120 @@
       "rows": [
         {
           "k": "Net EPA per play",
-          "a": "+0.146  #2 of 32",
-          "h": "+0.019  #15 of 32",
+          "a": "+0.196  #1 of 32",
+          "h": "−0.025  #17 of 32",
           "note": "offence EPA per play minus defence EPA allowed per play — the engine’s own net_epa half"
         },
         {
           "k": "Points scored",
-          "a": "+2.98  #7 of 32",
-          "h": "+1.15  #12 of 32",
+          "a": "+3.83  #4 of 32",
+          "h": "+0.24  #14 of 32",
           "note": null
         },
         {
           "k": "Points allowed",
-          "a": "−2.40  #6 of 32",
-          "h": "−0.00  #17 of 32",
+          "a": "−3.28  #4 of 32",
+          "h": "+0.41  #17 of 32",
           "note": null
         },
         {
           "k": "Offence · EPA per play",
-          "a": "+0.117  #3 of 32",
-          "h": "+0.055  #9 of 32",
+          "a": "+0.123  #3 of 32",
+          "h": "−0.006  #16 of 32",
           "note": null
         },
         {
           "k": "Pass offence · EPA per dropback",
-          "a": "+0.199  #2 of 32",
-          "h": "+0.104  #8 of 32",
+          "a": "+0.197  #2 of 32",
+          "h": "+0.020  #14 of 32",
           "note": null
         },
         {
           "k": "Run offence · EPA per carry",
-          "a": "+0.029  #12 of 32",
-          "h": "+0.025  #13 of 32",
+          "a": "+0.049  #7 of 32",
+          "h": "+0.004  #19 of 32",
           "note": null
         },
         {
           "k": "Explosive pass rate",
-          "a": "+2.1 pp  #4 of 32",
-          "h": "+0.8 pp  #10 of 32",
+          "a": "+3.4 pp  #2 of 32",
+          "h": "+0.3 pp  #12 of 32",
           "note": "20+ yard pass plays per attempt"
         },
         {
           "k": "Explosive run rate",
-          "a": "+0.7 pp  #13 of 32",
-          "h": "+2.4 pp  #2 of 32",
+          "a": "+0.7 pp  #15 of 32",
+          "h": "+1.5 pp  #8 of 32",
           "note": "10+ yard runs per carry"
         },
         {
           "k": "Defence · EPA allowed per play",
-          "a": "−0.030  #10 of 32",
-          "h": "+0.036  #22 of 32",
+          "a": "−0.073  #5 of 32",
+          "h": "+0.020  #20 of 32",
           "note": null
         },
         {
           "k": "Pass defence · EPA allowed per dropback",
-          "a": "−0.032  #10 of 32",
-          "h": "+0.088  #27 of 32",
+          "a": "−0.084  #8 of 32",
+          "h": "+0.073  #25 of 32",
           "note": null
         },
         {
           "k": "Run defence · EPA allowed per carry",
-          "a": "−0.047  #6 of 32",
-          "h": "−0.049  #4 of 32",
+          "a": "−0.073  #1 of 32",
+          "h": "−0.057  #4 of 32",
           "note": null
         },
         {
           "k": "Explosive passes allowed",
-          "a": "+0.2 pp  #16 of 32",
-          "h": "+1.3 pp  #25 of 32",
+          "a": "−0.5 pp  #10 of 32",
+          "h": "+1.1 pp  #20 of 32",
           "note": null
         },
         {
           "k": "Explosive runs allowed",
-          "a": "−2.8 pp  #2 of 32",
-          "h": "−0.7 pp  #14 of 32",
+          "a": "−2.0 pp  #4 of 32",
+          "h": "−1.2 pp  #9 of 32",
           "note": null
         },
         {
           "k": "Sacks taken per dropback",
-          "a": "−1.6 pp  #5 of 32",
-          "h": "+1.4 pp  #26 of 32",
+          "a": "−0.5 pp  #14 of 32",
+          "h": "+2.2 pp  #27 of 32",
           "note": "pass protection — the only offensive-line number the NFL model carries"
         },
         {
           "k": "Sacks generated per dropback",
-          "a": "−2.1 pp  #30 of 32",
-          "h": "−0.3 pp  #19 of 32",
+          "a": "−1.3 pp  #27 of 32",
+          "h": "−0.6 pp  #20 of 32",
           "note": "pass rush — the only defensive-front number the NFL model carries"
         },
         {
           "k": "Pass rate",
-          "a": "−1.0 pp",
-          "h": "−7.0 pp",
+          "a": "−2.9 pp",
+          "h": "−6.2 pp",
           "note": "how often they throw. A tendency, not a quality, so no side is marked ahead"
         },
         {
           "k": "Plays per game",
-          "a": "−0.4",
-          "h": "−1.3",
+          "a": "−1.3",
+          "h": "−2.6",
           "note": "pace. A tendency, not a quality"
         }
       ]
     },
     "notes": [
-      "EdgeDesk’s line is Baltimore Ravens +5.5 with a fair total of 48.0, before any book is consulted.",
-      "Baltimore Ravens wins 31% of the time in EdgeDesk’s distribution, Jacksonville Jaguars 69%."
+      "EdgeDesk’s line is Baltimore Ravens +8.0 with a fair total of 46.5, before any book is consulted.",
+      "Baltimore Ravens wins 22% of the time in EdgeDesk’s distribution, Jacksonville Jaguars 78%."
     ],
     "missing": [],
     "priced_label": "PRICED BY MODEL — the projection and its additive drivers, from the inputs the NFL model actually fits.",
     "context_label": "RESEARCH CONTEXT — every rating below is opponent-adjusted and printed as a deviation from the league mean. The injury report and the quarterback panel explain the matchup and move no priced number.",
-    "source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 108 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice."
+    "source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 120 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice."
   },
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T00:36:55.151Z"
+    "at": "2026-11-02T19:27:46.096Z"
   }
 }

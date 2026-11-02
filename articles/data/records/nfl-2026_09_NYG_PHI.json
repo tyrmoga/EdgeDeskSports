@@ -11,8 +11,8 @@
   ],
   "title": "New York Giants vs. Philadelphia Eagles: EdgeDesk Model Projection, Matchup Analysis and Fair Spread",
   "seo_title": "New York Giants vs. Philadelphia Eagles 2026: EdgeDesk Fair Spread & Model Projection",
-  "seo_description": "EdgeDesk fair spread for New York Giants at Philadelphia Eagles: Philadelphia Eagles −1.5, fair total 41.0. Philadelphia Eagles wins 52% of simulations. Model status STALE MARKET. Research, not picks.",
-  "excerpt": "New York Giants carries the stronger EdgeDesk offensive profile (#20 in EPA per play), while Philadelphia Eagles owns the more favourable defensive matchup (#13 in EPA allowed per play). EdgeDesk’s independent projection makes it Philadelphia Eagles −1.5…",
+  "seo_description": "EdgeDesk fair spread for New York Giants at Philadelphia Eagles: Philadelphia Eagles +2.0, fair total 41.0. New York Giants wins 53% of simulations. Model status STALE MARKET. Research, not picks.",
+  "excerpt": "New York Giants carries the stronger EdgeDesk offensive profile (#18 in EPA per play), while Philadelphia Eagles owns the more favourable defensive matchup (#16 in EPA allowed per play). EdgeDesk’s independent projection makes it Philadelphia Eagles +2.0…",
   "home_team": "Philadelphia Eagles",
   "away_team": "New York Giants",
   "venue": "Lincoln Financial Field",
@@ -23,14 +23,14 @@
   "game_time": "2026-11-08T18:00:00.000Z",
   "game_when_label": "2026-11-08 18:00 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T00:36:55.151Z",
-  "generated_at": "2026-11-02T00:36:55.151Z",
+  "updated_at": "2026-11-02T19:27:46.096Z",
+  "generated_at": "2026-11-02T19:27:46.096Z",
   "model_version": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
   "model_status": "STALE MARKET",
-  "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 3.9-point gap is context only and the game is excluded from research ranking.",
+  "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 1.6-point gap is context only and the game is excluded from research ranking.",
   "confidence": null,
   "priced": true,
-  "fair_spread_text": "Philadelphia Eagles −1.5",
+  "fair_spread_text": "Philadelphia Eagles +2.0",
   "fair_total": "41.0",
   "hero_image": null,
   "canonical_url": "https://edgedesksports.com/articles/new-york-giants-vs-philadelphia-eagles-2026",
@@ -43,7 +43,7 @@
   "frozen_at": null,
   "author": "EdgeDesk Research",
   "publisher": "EdgeDesk Sports",
-  "research_source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 108 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice.",
+  "research_source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 120 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice.",
   "market_source": null,
   "research": {
     "kind": "NFL_GAME",
@@ -63,36 +63,36 @@
       "conference_line": "outdoors · grass · division game"
     },
     "lede": [
-      "New York Giants carries the stronger EdgeDesk offensive profile (#20 in EPA per play), while Philadelphia Eagles owns the more favourable defensive matchup (#13 in EPA allowed per play).",
-      "EdgeDesk’s independent projection makes it Philadelphia Eagles −1.5 with a fair total of 41.0 — approximately a one-score game, before any sportsbook number is consulted.",
-      "The widest measured matchup on the board is Philadelphia Eagles pass offence vs New York Giants pass defence, which sits −0.174 from the league mean once the two ratings are combined the way the model combines them.",
+      "New York Giants carries the stronger EdgeDesk offensive profile (#18 in EPA per play), while Philadelphia Eagles owns the more favourable defensive matchup (#16 in EPA allowed per play).",
+      "EdgeDesk’s independent projection makes it Philadelphia Eagles +2.0 with a fair total of 41.0 — approximately a one-score game, before any sportsbook number is consulted.",
+      "The widest measured matchup on the board is Philadelphia Eagles pass offence vs New York Giants pass defence, which sits −0.195 from the league mean once the two ratings are combined the way the model combines them.",
       "The largest uncertainty is availability: NFL injury report — not loaded in this session."
     ],
     "projection": {
       "priced": true,
-      "fair_spread": 1.3586771351294304,
-      "fair_spread_text": "Philadelphia Eagles −1.5",
-      "fair_spread_raw_text": "Philadelphia Eagles -1.4",
-      "favourite": "Philadelphia Eagles",
-      "underdog": "New York Giants",
-      "margin": "1.5",
-      "margin_raw": "1.4",
+      "fair_spread": -1.940987469862723,
+      "fair_spread_text": "Philadelphia Eagles +2.0",
+      "fair_spread_raw_text": "Philadelphia Eagles +1.9",
+      "favourite": "New York Giants",
+      "underdog": "Philadelphia Eagles",
+      "margin": "2.0",
+      "margin_raw": "1.9",
       "total": "41.0",
-      "total_raw": "41.0",
+      "total_raw": "40.8",
       "display_policy": "football_half_point_v1",
       "score": {
         "away": {
           "team": "New York Giants",
-          "points": "20"
+          "points": "21"
         },
         "home": {
           "team": "Philadelphia Eagles",
-          "points": "21"
+          "points": "19"
         },
         "expected": {
-          "text": "Philadelphia Eagles 21.17, New York Giants 19.81",
-          "home": 21.17,
-          "away": 19.81,
+          "text": "New York Giants 21.36, Philadelphia Eagles 19.42",
+          "home": 19.42,
+          "away": 21.36,
           "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
         },
         "note": "Split from EdgeDesk’s own fair spread and fair total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
@@ -101,65 +101,65 @@
       "win_prob": {
         "home": "Philadelphia Eagles",
         "away": "New York Giants",
-        "home_pct": 52,
-        "away_pct": 48,
-        "home_text": "52%",
-        "away_text": "48%",
+        "home_pct": 47,
+        "away_pct": 53,
+        "home_text": "47%",
+        "away_text": "53%",
         "bounded": false,
         "bounded_note": null,
-        "favourite": "Philadelphia Eagles",
-        "favourite_pct": 52,
-        "favourite_text": "52%"
+        "favourite": "New York Giants",
+        "favourite_pct": 53,
+        "favourite_text": "53%"
       },
       "moneyline": {
         "home": "Philadelphia Eagles",
         "away": "New York Giants",
-        "home_odds": "-109",
-        "away_odds": "+109",
+        "home_odds": "+114",
+        "away_odds": "-114",
         "note": "EdgeDesk’s own fair price, with no margin in it. It is not a quote and nobody offers it."
       },
       "outcome_range": {
         "basis_team": "Philadelphia Eagles",
-        "p10": "-16.0",
-        "median": "+1.0",
-        "p90": "+18.0",
+        "p10": "-18.0",
+        "median": "-2.0",
+        "p90": "+17.0",
         "sigma": "10.7",
         "note": "Quoted from the perspective of Philadelphia Eagles, off the engine’s own learned margin distribution (conditioned on this spread, so real key-number mass is kept). Eight results in ten land inside p10–p90."
       },
       "confidence_pct": null,
-      "confidence_absent_reason": "The NFL model publishes no single confidence score. What it publishes instead is the width of the outcome range above and the sample the ratings rest on: the trained seeds through 2025, plus 108 absorbed 2026 games.",
-      "sample_games": 108,
+      "confidence_absent_reason": "The NFL model publishes no single confidence score. What it publishes instead is the width of the outcome range above and the sample the ratings rest on: the trained seeds through 2025, plus 120 absorbed 2026 games.",
+      "sample_games": 120,
       "seeded": true,
       "status": "STALE MARKET",
-      "status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 3.9-point gap is context only and the game is excluded from research ranking.",
+      "status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 1.6-point gap is context only and the game is excluded from research ranking.",
       "engine": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
       "validation": "UNPROVEN — this model does NOT beat the closing line out of sample. Research only; nothing here is graded as a bet."
     },
     "drivers": {
       "rows": [
         {
-          "points": "+0.8",
-          "points_n": 0.8452746402625797,
-          "text": "Base team strength — Philadelphia Eagles by 0.8 points (last season +2.7, this season -1.9)",
-          "favours": "Philadelphia Eagles"
+          "points": "-0.1",
+          "points_n": -0.055807557239082595,
+          "text": "Base team strength — New York Giants by 0.1 points (last season +2.6, this season -2.7)",
+          "favours": "New York Giants"
         },
         {
           "points": "-0.1",
-          "points_n": -0.09938103805462177,
-          "text": "Passing — New York Giants by 0.1 points (last season +0.1, this season -0.2)",
+          "points_n": -0.13993106687983684,
+          "text": "Passing — New York Giants by 0.1 points (last season +0.1, this season -0.3)",
           "favours": "New York Giants"
         },
         {
-          "points": "0.0",
-          "points_n": -0.04278474131320827,
-          "text": "Rushing — no lean (last season +0.1, this season -0.2)",
+          "points": "-0.1",
+          "points_n": -0.13219442305139636,
+          "text": "Rushing — New York Giants by 0.1 points (last season +0.1, this season -0.3)",
           "favours": "New York Giants"
         },
         {
-          "points": "+0.8",
-          "points_n": 0.7806704092346809,
-          "text": "Quarterback — Philadelphia Eagles by 0.8 points",
-          "favours": "Philadelphia Eagles"
+          "points": "-1.5",
+          "points_n": -1.4879522876924072,
+          "text": "Quarterback — New York Giants by 1.5 points",
+          "favours": "New York Giants"
         },
         {
           "points": "+3.2",
@@ -187,9 +187,9 @@
           "text": "Model baseline — home field and the league constant"
         },
         {
-          "points": "-1.7",
-          "points_n": -1.7096494207413833,
-          "text": "Combined scoring ratings — under by 1.7 points"
+          "points": "-1.9",
+          "points_n": -1.8992675063461304,
+          "text": "Combined scoring ratings — under by 1.9 points"
         },
         {
           "points": "-1.2",
@@ -198,18 +198,18 @@
         },
         {
           "points": "-1.1",
-          "points_n": -1.0951717694107872,
+          "points_n": -1.137320032641104,
           "text": "Passing matchup, both directions — under by 1.1 points"
         },
         {
-          "points": "-0.4",
-          "points_n": -0.4317110279250546,
-          "text": "Both offences, EPA per play — under by 0.4 points"
+          "points": "-0.5",
+          "points_n": -0.49597488653769795,
+          "text": "Both offences, EPA per play — under by 0.5 points"
         },
         {
-          "points": "+0.2",
-          "points_n": 0.23132153204875644,
-          "text": "Running matchup, both directions — over by 0.2 points"
+          "points": "+0.3",
+          "points_n": 0.25671408450471983,
+          "text": "Running matchup, both directions — over by 0.3 points"
         }
       ],
       "reconciles": true,
@@ -233,21 +233,21 @@
               "a": {
                 "v": "−0.030",
                 "n": -0.029580718029592674,
-                "rank": "#19 of 32",
-                "rank_n": 19,
+                "rank": "#18 of 32",
+                "rank_n": 18,
                 "note": null
               },
               "h": {
-                "v": "−0.085",
-                "n": -0.08543146386114815,
-                "rank": "#27 of 32",
-                "rank_n": 27,
+                "v": "−0.114",
+                "n": -0.11386837436363231,
+                "rank": "#30 of 32",
+                "rank_n": 30,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.05585074583155548,
-                "rank_gap": 8
+                "gap": 0.08428765633403965,
+                "rank_gap": 12
               }
             },
             {
@@ -257,20 +257,20 @@
               "a": {
                 "v": "−1.19",
                 "n": -1.1908604267819167,
-                "rank": "#22 of 32",
-                "rank_n": 22,
+                "rank": "#23 of 32",
+                "rank_n": 23,
                 "note": null
               },
               "h": {
-                "v": "−2.02",
-                "n": -2.018543516909122,
-                "rank": "#25 of 32",
-                "rank_n": 25,
+                "v": "−2.83",
+                "n": -2.826697298744445,
+                "rank": "#26 of 32",
+                "rank_n": 26,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.8276830901272052,
+                "gap": 1.6358368719625282,
                 "rank_gap": 3
               }
             },
@@ -281,20 +281,20 @@
               "a": {
                 "v": "+0.94",
                 "n": 0.9362204669120132,
-                "rank": "#18 of 32",
-                "rank_n": 18,
+                "rank": "#20 of 32",
+                "rank_n": 20,
                 "note": null
               },
               "h": {
-                "v": "−1.56",
-                "n": -1.5583850068218112,
-                "rank": "#9 of 32",
-                "rank_n": 9,
+                "v": "−1.18",
+                "n": -1.1751924315997226,
+                "rank": "#11 of 32",
+                "rank_n": 11,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 2.4946054737338246,
+                "gap": 2.1114128985117357,
                 "rank_gap": 9
               }
             }
@@ -310,21 +310,21 @@
               "a": {
                 "v": "−0.019",
                 "n": -0.01875102382292361,
-                "rank": "#20 of 32",
-                "rank_n": 20,
+                "rank": "#18 of 32",
+                "rank_n": 18,
                 "note": null
               },
               "h": {
-                "v": "−0.092",
-                "n": -0.09213656804692431,
-                "rank": "#28 of 32",
-                "rank_n": 28,
+                "v": "−0.109",
+                "n": -0.10864312929941448,
+                "rank": "#29 of 32",
+                "rank_n": 29,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.0733855442240007,
-                "rank_gap": 8
+                "gap": 0.08989210547649087,
+                "rank_gap": 11
               }
             },
             {
@@ -334,21 +334,21 @@
               "a": {
                 "v": "−0.077",
                 "n": -0.07737535160194117,
-                "rank": "#23 of 32",
-                "rank_n": 23,
+                "rank": "#24 of 32",
+                "rank_n": 24,
                 "note": null
               },
               "h": {
-                "v": "−0.126",
-                "n": -0.125850112489914,
+                "v": "−0.146",
+                "n": -0.1461304159467012,
                 "rank": "#28 of 32",
                 "rank_n": 28,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.04847476088797284,
-                "rank_gap": 5
+                "gap": 0.06875506434476003,
+                "rank_gap": 4
               }
             },
             {
@@ -363,15 +363,15 @@
                 "note": null
               },
               "h": {
-                "v": "−0.051",
-                "n": -0.050844099972258104,
+                "v": "−0.056",
+                "n": -0.05623934657938426,
                 "rank": "#25 of 32",
                 "rank_n": 25,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.09239776733559357,
+                "gap": 0.09779301394271972,
                 "rank_gap": 16
               }
             },
@@ -382,21 +382,21 @@
               "a": {
                 "v": "−0.0 pp",
                 "n": -0.00023844167445967327,
-                "rank": "#15 of 32",
-                "rank_n": 15,
+                "rank": "#13 of 32",
+                "rank_n": 13,
                 "note": null
               },
               "h": {
-                "v": "−3.3 pp",
-                "n": -0.032544390184522334,
+                "v": "−3.0 pp",
+                "n": -0.029553616955751486,
                 "rank": "#32 of 32",
                 "rank_n": 32,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.03230594851006266,
-                "rank_gap": 17
+                "gap": 0.02931517528129181,
+                "rank_gap": 19
               }
             },
             {
@@ -406,21 +406,21 @@
               "a": {
                 "v": "−0.4 pp",
                 "n": -0.004019397378078582,
-                "rank": "#21 of 32",
-                "rank_n": 21,
+                "rank": "#19 of 32",
+                "rank_n": 19,
                 "note": null
               },
               "h": {
-                "v": "−1.5 pp",
-                "n": -0.015126328756087888,
-                "rank": "#26 of 32",
-                "rank_n": 26,
+                "v": "−2.0 pp",
+                "n": -0.019883591748357073,
+                "rank": "#28 of 32",
+                "rank_n": 28,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.011106931378009305,
-                "rank_gap": 5
+                "gap": 0.01586419437027849,
+                "rank_gap": 9
               }
             }
           ]
@@ -435,21 +435,21 @@
               "a": {
                 "v": "+0.011",
                 "n": 0.010829694206669065,
-                "rank": "#18 of 32",
-                "rank_n": 18,
+                "rank": "#19 of 32",
+                "rank_n": 19,
                 "note": null
               },
               "h": {
-                "v": "−0.007",
-                "n": -0.006705104185776162,
-                "rank": "#13 of 32",
-                "rank_n": 13,
+                "v": "+0.005",
+                "n": 0.005225245064217836,
+                "rank": "#16 of 32",
+                "rank_n": 16,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.017534798392445226,
-                "rank_gap": 5
+                "gap": 0.005604449142451229,
+                "rank_gap": 3
               }
             },
             {
@@ -459,21 +459,21 @@
               "a": {
                 "v": "−0.049",
                 "n": -0.04854893335337318,
-                "rank": "#9 of 32",
-                "rank_n": 9,
+                "rank": "#12 of 32",
+                "rank_n": 12,
                 "note": null
               },
               "h": {
-                "v": "−0.024",
-                "n": -0.023589404527669167,
-                "rank": "#11 of 32",
-                "rank_n": 11,
+                "v": "−0.014",
+                "n": -0.013906622239546418,
+                "rank": "#13 of 32",
+                "rank_n": 13,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.024959528825704014,
-                "rank_gap": 2
+                "gap": 0.03464231111382676,
+                "rank_gap": 1
               }
             },
             {
@@ -488,16 +488,16 @@
                 "note": null
               },
               "h": {
-                "v": "+0.017",
-                "n": 0.016590961373750802,
-                "rank": "#21 of 32",
-                "rank_n": 21,
+                "v": "+0.034",
+                "n": 0.03357587921963915,
+                "rank": "#24 of 32",
+                "rank_n": 24,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.08168830580912098,
-                "rank_gap": 11
+                "gap": 0.06470338796323263,
+                "rank_gap": 8
               }
             },
             {
@@ -507,21 +507,21 @@
               "a": {
                 "v": "−0.9 pp",
                 "n": -0.008612463023716974,
-                "rank": "#8 of 32",
-                "rank_n": 8,
+                "rank": "#9 of 32",
+                "rank_n": 9,
                 "note": null
               },
               "h": {
-                "v": "+0.6 pp",
-                "n": 0.005586054044699435,
-                "rank": "#21 of 32",
-                "rank_n": 21,
+                "v": "+1.3 pp",
+                "n": 0.01327987375867003,
+                "rank": "#24 of 32",
+                "rank_n": 24,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.014198517068416409,
-                "rank_gap": 13
+                "gap": 0.021892336782387004,
+                "rank_gap": 15
               }
             },
             {
@@ -536,16 +536,16 @@
                 "note": null
               },
               "h": {
-                "v": "−0.7 pp",
-                "n": -0.006634733600567834,
-                "rank": "#15 of 32",
-                "rank_n": 15,
+                "v": "−0.5 pp",
+                "n": -0.004617987170021308,
+                "rank": "#14 of 32",
+                "rank_n": 14,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.04573632152460726,
-                "rank_gap": 17
+                "gap": 0.04371957509406073,
+                "rank_gap": 18
               }
             }
           ]
@@ -560,21 +560,21 @@
               "a": {
                 "v": "+2.1 pp",
                 "n": 0.020800798743784973,
-                "rank": "#28 of 32",
-                "rank_n": 28,
+                "rank": "#25 of 32",
+                "rank_n": 25,
                 "note": null
               },
               "h": {
-                "v": "+0.3 pp",
-                "n": 0.002904851077801674,
-                "rank": "#22 of 32",
-                "rank_n": 22,
+                "v": "+0.8 pp",
+                "n": 0.008195430918320378,
+                "rank": "#23 of 32",
+                "rank_n": 23,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.0178959476659833,
-                "rank_gap": 6
+                "gap": 0.012605367825464595,
+                "rank_gap": 2
               }
             },
             {
@@ -584,20 +584,20 @@
               "a": {
                 "v": "−0.7 pp",
                 "n": -0.007350446400050892,
+                "rank": "#21 of 32",
+                "rank_n": 21,
+                "note": null
+              },
+              "h": {
+                "v": "−0.9 pp",
+                "n": -0.008536998095828556,
                 "rank": "#22 of 32",
                 "rank_n": 22,
                 "note": null
               },
-              "h": {
-                "v": "−0.8 pp",
-                "n": -0.008273613371829797,
-                "rank": "#23 of 32",
-                "rank_n": 23,
-                "note": null
-              },
               "edge": {
                 "side": "a",
-                "gap": 0.0009231669717789052,
+                "gap": 0.0011865516957776639,
                 "rank_gap": 1
               }
             }
@@ -618,8 +618,8 @@
                 "note": "tendency, not a quality"
               },
               "h": {
-                "v": "+1.6 pp",
-                "n": 0.015990434085017192,
+                "v": "+1.3 pp",
+                "n": 0.013045260794205014,
                 "rank": null,
                 "rank_n": null,
                 "note": "tendency, not a quality"
@@ -638,8 +638,8 @@
                 "note": "tendency, not a quality"
               },
               "h": {
-                "v": "−1.6",
-                "n": -1.6255939443451328,
+                "v": "−0.9",
+                "n": -0.8652758260880304,
                 "rank": null,
                 "rank_n": null,
                 "note": "tendency, not a quality"
@@ -656,105 +656,105 @@
       "away": [
         {
           "k": "Explosive pass rate",
-          "rank_gap": 17,
-          "gap": 0.03230594851006266,
+          "rank_gap": 19,
+          "gap": 0.02931517528129181,
           "lead": "New York Giants",
           "trail": "Philadelphia Eagles",
-          "lead_cell": "−0.0 pp · #15 of 32",
-          "trail_cell": "−3.3 pp · #32 of 32",
-          "text": "New York Giants −0.0 pp (#15 of 32) vs Philadelphia Eagles −3.3 pp (#32 of 32) — 17 places on the league board."
+          "lead_cell": "−0.0 pp · #13 of 32",
+          "trail_cell": "−3.0 pp · #32 of 32",
+          "text": "New York Giants −0.0 pp (#13 of 32) vs Philadelphia Eagles −3.0 pp (#32 of 32) — 19 places on the league board."
         },
         {
           "k": "Run offence · EPA per carry",
           "rank_gap": 16,
-          "gap": 0.09239776733559357,
+          "gap": 0.09779301394271972,
           "lead": "New York Giants",
           "trail": "Philadelphia Eagles",
           "lead_cell": "+0.042 · #9 of 32",
-          "trail_cell": "−0.051 · #25 of 32",
-          "text": "New York Giants +0.042 (#9 of 32) vs Philadelphia Eagles −0.051 (#25 of 32) — 16 places on the league board."
+          "trail_cell": "−0.056 · #25 of 32",
+          "text": "New York Giants +0.042 (#9 of 32) vs Philadelphia Eagles −0.056 (#25 of 32) — 16 places on the league board."
         },
         {
           "k": "Explosive passes allowed",
-          "rank_gap": 13,
-          "gap": 0.014198517068416409,
+          "rank_gap": 15,
+          "gap": 0.021892336782387004,
           "lead": "New York Giants",
           "trail": "Philadelphia Eagles",
-          "lead_cell": "−0.9 pp · #8 of 32",
-          "trail_cell": "+0.6 pp · #21 of 32",
-          "text": "New York Giants −0.9 pp (#8 of 32) vs Philadelphia Eagles +0.6 pp (#21 of 32) — 13 places on the league board."
+          "lead_cell": "−0.9 pp · #9 of 32",
+          "trail_cell": "+1.3 pp · #24 of 32",
+          "text": "New York Giants −0.9 pp (#9 of 32) vs Philadelphia Eagles +1.3 pp (#24 of 32) — 15 places on the league board."
         },
         {
           "k": "Net EPA per play",
-          "rank_gap": 8,
-          "gap": 0.05585074583155548,
+          "rank_gap": 12,
+          "gap": 0.08428765633403965,
           "lead": "New York Giants",
           "trail": "Philadelphia Eagles",
-          "lead_cell": "−0.030 · #19 of 32",
-          "trail_cell": "−0.085 · #27 of 32",
-          "text": "New York Giants −0.030 (#19 of 32) vs Philadelphia Eagles −0.085 (#27 of 32) — 8 places on the league board."
+          "lead_cell": "−0.030 · #18 of 32",
+          "trail_cell": "−0.114 · #30 of 32",
+          "text": "New York Giants −0.030 (#18 of 32) vs Philadelphia Eagles −0.114 (#30 of 32) — 12 places on the league board."
         },
         {
           "k": "Offence · EPA per play",
-          "rank_gap": 8,
-          "gap": 0.0733855442240007,
+          "rank_gap": 11,
+          "gap": 0.08989210547649087,
           "lead": "New York Giants",
           "trail": "Philadelphia Eagles",
-          "lead_cell": "−0.019 · #20 of 32",
-          "trail_cell": "−0.092 · #28 of 32",
-          "text": "New York Giants −0.019 (#20 of 32) vs Philadelphia Eagles −0.092 (#28 of 32) — 8 places on the league board."
+          "lead_cell": "−0.019 · #18 of 32",
+          "trail_cell": "−0.109 · #29 of 32",
+          "text": "New York Giants −0.019 (#18 of 32) vs Philadelphia Eagles −0.109 (#29 of 32) — 11 places on the league board."
         }
       ],
       "home": [
         {
           "k": "Explosive runs allowed",
-          "rank_gap": 17,
-          "gap": 0.04573632152460726,
+          "rank_gap": 18,
+          "gap": 0.04371957509406073,
           "lead": "Philadelphia Eagles",
           "trail": "New York Giants",
-          "lead_cell": "−0.7 pp · #15 of 32",
+          "lead_cell": "−0.5 pp · #14 of 32",
           "trail_cell": "+3.9 pp · #32 of 32",
-          "text": "Philadelphia Eagles −0.7 pp (#15 of 32) vs New York Giants +3.9 pp (#32 of 32) — 17 places on the league board."
-        },
-        {
-          "k": "Run defence · EPA allowed per carry",
-          "rank_gap": 11,
-          "gap": 0.08168830580912098,
-          "lead": "Philadelphia Eagles",
-          "trail": "New York Giants",
-          "lead_cell": "+0.017 · #21 of 32",
-          "trail_cell": "+0.098 · #32 of 32",
-          "text": "Philadelphia Eagles +0.017 (#21 of 32) vs New York Giants +0.098 (#32 of 32) — 11 places on the league board."
+          "text": "Philadelphia Eagles −0.5 pp (#14 of 32) vs New York Giants +3.9 pp (#32 of 32) — 18 places on the league board."
         },
         {
           "k": "Points allowed",
           "rank_gap": 9,
-          "gap": 2.4946054737338246,
+          "gap": 2.1114128985117357,
           "lead": "Philadelphia Eagles",
           "trail": "New York Giants",
-          "lead_cell": "−1.56 · #9 of 32",
-          "trail_cell": "+0.94 · #18 of 32",
-          "text": "Philadelphia Eagles −1.56 (#9 of 32) vs New York Giants +0.94 (#18 of 32) — 9 places on the league board."
+          "lead_cell": "−1.18 · #11 of 32",
+          "trail_cell": "+0.94 · #20 of 32",
+          "text": "Philadelphia Eagles −1.18 (#11 of 32) vs New York Giants +0.94 (#20 of 32) — 9 places on the league board."
         },
         {
-          "k": "Sacks taken per dropback",
-          "rank_gap": 6,
-          "gap": 0.0178959476659833,
+          "k": "Run defence · EPA allowed per carry",
+          "rank_gap": 8,
+          "gap": 0.06470338796323263,
           "lead": "Philadelphia Eagles",
           "trail": "New York Giants",
-          "lead_cell": "+0.3 pp · #22 of 32",
-          "trail_cell": "+2.1 pp · #28 of 32",
-          "text": "Philadelphia Eagles +0.3 pp (#22 of 32) vs New York Giants +2.1 pp (#28 of 32) — 6 places on the league board."
+          "lead_cell": "+0.034 · #24 of 32",
+          "trail_cell": "+0.098 · #32 of 32",
+          "text": "Philadelphia Eagles +0.034 (#24 of 32) vs New York Giants +0.098 (#32 of 32) — 8 places on the league board."
         },
         {
           "k": "Defence · EPA allowed per play",
-          "rank_gap": 5,
-          "gap": 0.017534798392445226,
+          "rank_gap": 3,
+          "gap": 0.005604449142451229,
           "lead": "Philadelphia Eagles",
           "trail": "New York Giants",
-          "lead_cell": "−0.007 · #13 of 32",
-          "trail_cell": "+0.011 · #18 of 32",
-          "text": "Philadelphia Eagles −0.007 (#13 of 32) vs New York Giants +0.011 (#18 of 32) — 5 places on the league board."
+          "lead_cell": "+0.005 · #16 of 32",
+          "trail_cell": "+0.011 · #19 of 32",
+          "text": "Philadelphia Eagles +0.005 (#16 of 32) vs New York Giants +0.011 (#19 of 32) — 3 places on the league board."
+        },
+        {
+          "k": "Sacks taken per dropback",
+          "rank_gap": 2,
+          "gap": 0.012605367825464595,
+          "lead": "Philadelphia Eagles",
+          "trail": "New York Giants",
+          "lead_cell": "+0.8 pp · #23 of 32",
+          "trail_cell": "+2.1 pp · #25 of 32",
+          "text": "Philadelphia Eagles +0.8 pp (#23 of 32) vs New York Giants +2.1 pp (#25 of 32) — 2 places on the league board."
         }
       ],
       "measured": [],
@@ -769,26 +769,26 @@
           "team": "New York Giants",
           "label": "pass offence",
           "v": "−0.077",
-          "rank": "#23 of 32",
+          "rank": "#24 of 32",
           "note": null
         },
         "def": {
           "team": "Philadelphia Eagles",
           "label": "pass defence",
-          "v": "−0.024",
-          "rank": "#11 of 32",
+          "v": "−0.014",
+          "rank": "#13 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.10096475612961034,
-        "read": "New York Giants’ pass offence rates −0.077 (#23 of 32) and Philadelphia Eagles’ pass defence rates −0.024 (#11 of 32). Added the way the model adds them, this pairing sits −0.101 from the league mean, which favours Philadelphia Eagles."
+        "net": -0.09128197384148759,
+        "read": "New York Giants’ pass offence rates −0.077 (#24 of 32) and Philadelphia Eagles’ pass defence rates −0.014 (#13 of 32). Added the way the model adds them, this pairing sits −0.091 from the league mean, which favours Philadelphia Eagles."
       },
       {
         "title": "Philadelphia Eagles pass offence vs New York Giants pass defence",
         "att": {
           "team": "Philadelphia Eagles",
           "label": "pass offence",
-          "v": "−0.126",
+          "v": "−0.146",
           "rank": "#28 of 32",
           "note": null
         },
@@ -796,12 +796,12 @@
           "team": "New York Giants",
           "label": "pass defence",
           "v": "−0.049",
-          "rank": "#9 of 32",
+          "rank": "#12 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.1743990458432872,
-        "read": "Philadelphia Eagles’ pass offence rates −0.126 (#28 of 32) and New York Giants’ pass defence rates −0.049 (#9 of 32). Added the way the model adds them, this pairing sits −0.174 from the league mean, which favours New York Giants."
+        "net": -0.19467934930007438,
+        "read": "Philadelphia Eagles’ pass offence rates −0.146 (#28 of 32) and New York Giants’ pass defence rates −0.049 (#12 of 32). Added the way the model adds them, this pairing sits −0.195 from the league mean, which favours New York Giants."
       },
       {
         "title": "New York Giants run offence vs Philadelphia Eagles run defence",
@@ -815,20 +815,20 @@
         "def": {
           "team": "Philadelphia Eagles",
           "label": "run defence",
-          "v": "+0.017",
-          "rank": "#21 of 32",
+          "v": "+0.034",
+          "rank": "#24 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.058144628737086264,
-        "read": "New York Giants’ run offence rates +0.042 (#9 of 32) and Philadelphia Eagles’ run defence rates +0.017 (#21 of 32). Added the way the model adds them, this pairing sits +0.058 from the league mean, which favours New York Giants."
+        "net": 0.0751295465829746,
+        "read": "New York Giants’ run offence rates +0.042 (#9 of 32) and Philadelphia Eagles’ run defence rates +0.034 (#24 of 32). Added the way the model adds them, this pairing sits +0.075 from the league mean, which favours New York Giants."
       },
       {
         "title": "Philadelphia Eagles run offence vs New York Giants run defence",
         "att": {
           "team": "Philadelphia Eagles",
           "label": "run offence",
-          "v": "−0.051",
+          "v": "−0.056",
           "rank": "#25 of 32",
           "note": null
         },
@@ -840,8 +840,8 @@
           "note": null
         },
         "complete": true,
-        "net": 0.04743516721061367,
-        "read": "Philadelphia Eagles’ run offence rates −0.051 (#25 of 32) and New York Giants’ run defence rates +0.098 (#32 of 32). Added the way the model adds them, this pairing sits +0.047 from the league mean, which favours Philadelphia Eagles."
+        "net": 0.04203992060348752,
+        "read": "Philadelphia Eagles’ run offence rates −0.056 (#25 of 32) and New York Giants’ run defence rates +0.098 (#32 of 32). Added the way the model adds them, this pairing sits +0.042 from the league mean, which favours Philadelphia Eagles."
       },
       {
         "title": "New York Giants pass protection vs Philadelphia Eagles pass rush",
@@ -849,39 +849,39 @@
           "team": "New York Giants",
           "label": "pass protection",
           "v": "+2.1 pp",
-          "rank": "#28 of 32",
+          "rank": "#25 of 32",
           "note": null
         },
         "def": {
           "team": "Philadelphia Eagles",
           "label": "pass rush",
-          "v": "−0.8 pp",
-          "rank": "#23 of 32",
+          "v": "−0.9 pp",
+          "rank": "#22 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.012527185371955176,
-        "read": "New York Giants’ pass protection rates +2.1 pp (#28 of 32) and Philadelphia Eagles’ pass rush rates −0.8 pp (#23 of 32). Added the way the model adds them, this pairing sits +1.3 pp from the league mean, which favours Philadelphia Eagles."
+        "net": 0.012263800647956418,
+        "read": "New York Giants’ pass protection rates +2.1 pp (#25 of 32) and Philadelphia Eagles’ pass rush rates −0.9 pp (#22 of 32). Added the way the model adds them, this pairing sits +1.2 pp from the league mean, which favours Philadelphia Eagles."
       },
       {
         "title": "Philadelphia Eagles pass protection vs New York Giants pass rush",
         "att": {
           "team": "Philadelphia Eagles",
           "label": "pass protection",
-          "v": "+0.3 pp",
-          "rank": "#22 of 32",
+          "v": "+0.8 pp",
+          "rank": "#23 of 32",
           "note": null
         },
         "def": {
           "team": "New York Giants",
           "label": "pass rush",
           "v": "−0.7 pp",
-          "rank": "#22 of 32",
+          "rank": "#21 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.004445595322249218,
-        "read": "Philadelphia Eagles’ pass protection rates +0.3 pp (#22 of 32) and New York Giants’ pass rush rates −0.7 pp (#22 of 32). Added the way the model adds them, this pairing sits −0.4 pp from the league mean, which favours Philadelphia Eagles."
+        "net": 0.0008449845182694864,
+        "read": "Philadelphia Eagles’ pass protection rates +0.8 pp (#23 of 32) and New York Giants’ pass rush rates −0.7 pp (#21 of 32). Added the way the model adds them, this pairing sits +0.1 pp from the league mean, which favours New York Giants."
       },
       {
         "title": "New York Giants explosive passing vs Philadelphia Eagles explosive passes allowed",
@@ -889,26 +889,26 @@
           "team": "New York Giants",
           "label": "explosive passing",
           "v": "−0.0 pp",
-          "rank": "#15 of 32",
+          "rank": "#13 of 32",
           "note": null
         },
         "def": {
           "team": "Philadelphia Eagles",
           "label": "explosive passes allowed",
-          "v": "+0.6 pp",
-          "rank": "#21 of 32",
+          "v": "+1.3 pp",
+          "rank": "#24 of 32",
           "note": null
         },
         "complete": true,
-        "net": 0.005347612370239762,
-        "read": "New York Giants’ explosive passing rates −0.0 pp (#15 of 32) and Philadelphia Eagles’ explosive passes allowed rates +0.6 pp (#21 of 32). Added the way the model adds them, this pairing sits +0.5 pp from the league mean, which favours New York Giants."
+        "net": 0.013041432084210358,
+        "read": "New York Giants’ explosive passing rates −0.0 pp (#13 of 32) and Philadelphia Eagles’ explosive passes allowed rates +1.3 pp (#24 of 32). Added the way the model adds them, this pairing sits +1.3 pp from the league mean, which favours New York Giants."
       },
       {
         "title": "Philadelphia Eagles explosive passing vs New York Giants explosive passes allowed",
         "att": {
           "team": "Philadelphia Eagles",
           "label": "explosive passing",
-          "v": "−3.3 pp",
+          "v": "−3.0 pp",
           "rank": "#32 of 32",
           "note": null
         },
@@ -916,12 +916,12 @@
           "team": "New York Giants",
           "label": "explosive passes allowed",
           "v": "−0.9 pp",
-          "rank": "#8 of 32",
+          "rank": "#9 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.04115685320823931,
-        "read": "Philadelphia Eagles’ explosive passing rates −3.3 pp (#32 of 32) and New York Giants’ explosive passes allowed rates −0.9 pp (#8 of 32). Added the way the model adds them, this pairing sits −4.1 pp from the league mean, which favours New York Giants."
+        "net": -0.038166079979468456,
+        "read": "Philadelphia Eagles’ explosive passing rates −3.0 pp (#32 of 32) and New York Giants’ explosive passes allowed rates −0.9 pp (#9 of 32). Added the way the model adds them, this pairing sits −3.8 pp from the league mean, which favours New York Giants."
       },
       {
         "title": "New York Giants explosive running vs Philadelphia Eagles explosive runs allowed",
@@ -929,27 +929,27 @@
           "team": "New York Giants",
           "label": "explosive running",
           "v": "−0.4 pp",
-          "rank": "#21 of 32",
+          "rank": "#19 of 32",
           "note": null
         },
         "def": {
           "team": "Philadelphia Eagles",
           "label": "explosive runs allowed",
-          "v": "−0.7 pp",
-          "rank": "#15 of 32",
+          "v": "−0.5 pp",
+          "rank": "#14 of 32",
           "note": null
         },
         "complete": true,
-        "net": -0.010654130978646415,
-        "read": "New York Giants’ explosive running rates −0.4 pp (#21 of 32) and Philadelphia Eagles’ explosive runs allowed rates −0.7 pp (#15 of 32). Added the way the model adds them, this pairing sits −1.1 pp from the league mean, which favours Philadelphia Eagles."
+        "net": -0.00863738454809989,
+        "read": "New York Giants’ explosive running rates −0.4 pp (#19 of 32) and Philadelphia Eagles’ explosive runs allowed rates −0.5 pp (#14 of 32). Added the way the model adds them, this pairing sits −0.9 pp from the league mean, which favours Philadelphia Eagles."
       },
       {
         "title": "Philadelphia Eagles explosive running vs New York Giants explosive runs allowed",
         "att": {
           "team": "Philadelphia Eagles",
           "label": "explosive running",
-          "v": "−1.5 pp",
-          "rank": "#26 of 32",
+          "v": "−2.0 pp",
+          "rank": "#28 of 32",
           "note": null
         },
         "def": {
@@ -960,8 +960,8 @@
           "note": null
         },
         "complete": true,
-        "net": 0.023975259167951533,
-        "read": "Philadelphia Eagles’ explosive running rates −1.5 pp (#26 of 32) and New York Giants’ explosive runs allowed rates +3.9 pp (#32 of 32). Added the way the model adds them, this pairing sits +2.4 pp from the league mean, which favours Philadelphia Eagles."
+        "net": 0.019217996175682348,
+        "read": "Philadelphia Eagles’ explosive running rates −2.0 pp (#28 of 32) and New York Giants’ explosive runs allowed rates +3.9 pp (#32 of 32). Added the way the model adds them, this pairing sits +1.9 pp from the league mean, which favours Philadelphia Eagles."
       }
     ],
     "panels": [
@@ -982,19 +982,19 @@
           {
             "k": "Quarterback",
             "a": "J.J. McCarthy",
-            "h": "Jalen Hurts",
+            "h": "Tanner McKee",
             "note": null
           },
           {
             "k": "Roster check",
             "a": "on the active roster",
-            "h": "id not in the roster registry",
+            "h": "on the active roster",
             "note": null
           },
           {
             "k": "Learned sample",
             "a": "11 learned starts",
-            "h": "95 learned starts",
+            "h": "5 learned starts",
             "note": "starts the QB layer has actually absorbed"
           },
           {
@@ -1011,7 +1011,7 @@
           }
         ],
         "reads": [
-          "The quarterback difference is worth -1.0 points of the projected spread — the engine’s own qb_adj_diff term, and the only place a quarterback moves this number.",
+          "The quarterback difference is worth -1.5 points of the projected spread — the engine’s own qb_adj_diff term, and the only place a quarterback moves this number.",
           "Both starters are confirmed by the schedule feed, so the quarterback term is priced from the learned value of the two players actually named.",
           "The learned QB layer is identity-keyed and value-only: it says how a quarterback has played, never how he is feeling, and it knows nothing about a start nobody has announced."
         ]
@@ -1085,31 +1085,31 @@
         "reads": [
           "Each situational factor is shown with the points the engine’s own context model assigned it, so nothing here is a rule of thumb. A factor with no weight in the fit is worth nothing in this number and says so rather than being quietly rounded up.",
           "No forecast reached this game, so temperature and wind entered the total at their neutral defaults. That is a missing input, not a mild day.",
-          "The ratings behind this projection are the trained seeds plus 108 absorbed 2026 games; early in a season that means the prior is still carrying most of the weight."
+          "The ratings behind this projection are the trained seeds plus 120 absorbed 2026 games; early in a season that means the prior is still carrying most of the weight."
         ]
       }
     ],
     "cases": {
       "favourite": {
-        "team": "Philadelphia Eagles",
-        "heading": "Why Philadelphia Eagles can pull away",
+        "team": "New York Giants",
+        "heading": "Why New York Giants can pull away",
         "bullets": [
-          "Base team strength — Philadelphia Eagles by 0.8 points (last season +2.7, this season -1.9) (+0.8 pts).",
-          "Quarterback — Philadelphia Eagles by 0.8 points (+0.8 pts).",
-          "Home field — Philadelphia Eagles by 3.2 points (+3.2 pts).",
-          "Explosive runs allowed: Philadelphia Eagles −0.7 pp (#15 of 32) vs New York Giants +3.9 pp (#32 of 32) — 17 places on the league board.",
-          "Run defence · EPA allowed per carry: Philadelphia Eagles +0.017 (#21 of 32) vs New York Giants +0.098 (#32 of 32) — 11 places on the league board."
+          "Quarterback — New York Giants by 1.5 points (-1.5 pts).",
+          "Context (venue, division) — New York Giants by 1.5 points (-1.5 pts).",
+          "Rest / travel — New York Giants by 1.8 points (-1.8 pts).",
+          "Explosive pass rate: New York Giants −0.0 pp (#13 of 32) vs Philadelphia Eagles −3.0 pp (#32 of 32) — 19 places on the league board.",
+          "Run offence · EPA per carry: New York Giants +0.042 (#9 of 32) vs Philadelphia Eagles −0.056 (#25 of 32) — 16 places on the league board."
         ]
       },
       "underdog": {
-        "team": "New York Giants",
-        "heading": "Why New York Giants can keep it close",
+        "team": "Philadelphia Eagles",
+        "heading": "Why Philadelphia Eagles can keep it close",
         "bullets": [
-          "Context (venue, division) — New York Giants by 1.5 points (-1.5 pts).",
-          "Rest / travel — New York Giants by 1.8 points (-1.8 pts).",
-          "Explosive pass rate: New York Giants −0.0 pp (#15 of 32) vs Philadelphia Eagles −3.3 pp (#32 of 32) — 17 places on the league board.",
-          "Run offence · EPA per carry: New York Giants +0.042 (#9 of 32) vs Philadelphia Eagles −0.051 (#25 of 32) — 16 places on the league board.",
-          "Explosive passes allowed: New York Giants −0.9 pp (#8 of 32) vs Philadelphia Eagles +0.6 pp (#21 of 32) — 13 places on the league board."
+          "Home field — Philadelphia Eagles by 3.2 points (+3.2 pts).",
+          "Explosive runs allowed: Philadelphia Eagles −0.5 pp (#14 of 32) vs New York Giants +3.9 pp (#32 of 32) — 18 places on the league board.",
+          "Points allowed: Philadelphia Eagles −1.18 (#11 of 32) vs New York Giants +0.94 (#20 of 32) — 9 places on the league board.",
+          "Run defence · EPA allowed per carry: Philadelphia Eagles +0.034 (#24 of 32) vs New York Giants +0.098 (#32 of 32) — 8 places on the league board.",
+          "The outcome range runs -18.0 to +17.0 for Philadelphia Eagles, off the engine’s own learned margin distribution. A projection of about 2.0 points still loses outright often."
         ]
       },
       "note": "Football cases assembled from measured states — a fitted driver, a rating gap, a combined matchup or the model’s own range. Neither side is a bet and neither is advice."
@@ -1165,44 +1165,48 @@
     },
     "market": {
       "available": true,
-      "model": "Philadelphia Eagles −1.5",
-      "model_raw": "Philadelphia Eagles -1.4",
-      "market": "Philadelphia Eagles +2.5",
-      "difference": "3.9 points",
+      "model": "Philadelphia Eagles +2.0",
+      "model_raw": "Philadelphia Eagles +1.9",
+      "market": "Philadelphia Eagles +3.5",
+      "difference": "1.6 points",
       "rounding_note": "Fair lines rounded to nearest half-point; differences use unrounded projections.",
-      "key_number": null,
+      "key_number": {
+        "text": "Market is above 3; model is below 3.",
+        "detail": "New York Giants: market −3.5, model fair −2.0.",
+        "note": "Key margins are where football games often finish. How often differs between the NFL and college football; this note marks where the two lines sit and does not change any probability."
+      },
       "total_model": "41.0",
-      "total_model_raw": "41.0",
-      "total_market": "40.5",
-      "total_rounding_note": null,
-      "total_difference": "0.5 points",
+      "total_model_raw": "40.8",
+      "total_market": "39.5",
+      "total_rounding_note": "Fair lines rounded to nearest half-point; differences use unrounded projections.",
+      "total_difference": "1.3 points",
       "book": "nflverse reference",
       "capture_age": null,
       "stale": false,
       "classification": "STALE MARKET",
-      "classification_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 3.9-point gap is context only and the game is excluded from research ranking.",
+      "classification_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 1.6-point gap is context only and the game is excluded from research ranking.",
       "reference": "These are nflverse consensus reference numbers, not a live bettable quote.",
       "note": "EdgeDesk compares its own number with a captured price. The comparison is a research state, not a bet — and out of sample this model does not beat the close."
     },
-    "headline": "EdgeDesk projects Philadelphia Eagles 21, New York Giants 20.",
+    "headline": "EdgeDesk projects New York Giants 21, Philadelphia Eagles 19.",
     "state": {
       "label": "STALE MARKET",
-      "note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 3.9-point gap is context only and the game is excluded from research ranking.",
+      "note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 1.6-point gap is context only and the game is excluded from research ranking.",
       "scope": "This describes the state of EdgeDesk’s model-versus-market research on this game. It is not a statement about whether the matchup is worth researching."
     },
     "score": {
       "away": {
         "team": "New York Giants",
-        "points": "20"
+        "points": "21"
       },
       "home": {
         "team": "Philadelphia Eagles",
-        "points": "21"
+        "points": "19"
       },
       "expected": {
-        "text": "Philadelphia Eagles 21.17, New York Giants 19.81",
-        "home": 21.17,
-        "away": 19.81,
+        "text": "New York Giants 21.36, Philadelphia Eagles 19.42",
+        "home": 19.42,
+        "away": 21.36,
         "note": "Projected scores are rounded to whole points on their own; the fair spread and total are rounded from the unrounded projection, so they can differ by a point."
       },
       "note": "Split from EdgeDesk’s own fair spread and fair total, rounded to whole points. It is the centre of a distribution, not a prediction of the exact score."
@@ -1215,120 +1219,120 @@
       "rows": [
         {
           "k": "Net EPA per play",
-          "a": "−0.030  #19 of 32",
-          "h": "−0.085  #27 of 32",
+          "a": "−0.030  #18 of 32",
+          "h": "−0.114  #30 of 32",
           "note": "offence EPA per play minus defence EPA allowed per play — the engine’s own net_epa half"
         },
         {
           "k": "Points scored",
-          "a": "−1.19  #22 of 32",
-          "h": "−2.02  #25 of 32",
+          "a": "−1.19  #23 of 32",
+          "h": "−2.83  #26 of 32",
           "note": null
         },
         {
           "k": "Points allowed",
-          "a": "+0.94  #18 of 32",
-          "h": "−1.56  #9 of 32",
+          "a": "+0.94  #20 of 32",
+          "h": "−1.18  #11 of 32",
           "note": null
         },
         {
           "k": "Offence · EPA per play",
-          "a": "−0.019  #20 of 32",
-          "h": "−0.092  #28 of 32",
+          "a": "−0.019  #18 of 32",
+          "h": "−0.109  #29 of 32",
           "note": null
         },
         {
           "k": "Pass offence · EPA per dropback",
-          "a": "−0.077  #23 of 32",
-          "h": "−0.126  #28 of 32",
+          "a": "−0.077  #24 of 32",
+          "h": "−0.146  #28 of 32",
           "note": null
         },
         {
           "k": "Run offence · EPA per carry",
           "a": "+0.042  #9 of 32",
-          "h": "−0.051  #25 of 32",
+          "h": "−0.056  #25 of 32",
           "note": null
         },
         {
           "k": "Explosive pass rate",
-          "a": "−0.0 pp  #15 of 32",
-          "h": "−3.3 pp  #32 of 32",
+          "a": "−0.0 pp  #13 of 32",
+          "h": "−3.0 pp  #32 of 32",
           "note": "20+ yard pass plays per attempt"
         },
         {
           "k": "Explosive run rate",
-          "a": "−0.4 pp  #21 of 32",
-          "h": "−1.5 pp  #26 of 32",
+          "a": "−0.4 pp  #19 of 32",
+          "h": "−2.0 pp  #28 of 32",
           "note": "10+ yard runs per carry"
         },
         {
           "k": "Defence · EPA allowed per play",
-          "a": "+0.011  #18 of 32",
-          "h": "−0.007  #13 of 32",
+          "a": "+0.011  #19 of 32",
+          "h": "+0.005  #16 of 32",
           "note": null
         },
         {
           "k": "Pass defence · EPA allowed per dropback",
-          "a": "−0.049  #9 of 32",
-          "h": "−0.024  #11 of 32",
+          "a": "−0.049  #12 of 32",
+          "h": "−0.014  #13 of 32",
           "note": null
         },
         {
           "k": "Run defence · EPA allowed per carry",
           "a": "+0.098  #32 of 32",
-          "h": "+0.017  #21 of 32",
+          "h": "+0.034  #24 of 32",
           "note": null
         },
         {
           "k": "Explosive passes allowed",
-          "a": "−0.9 pp  #8 of 32",
-          "h": "+0.6 pp  #21 of 32",
+          "a": "−0.9 pp  #9 of 32",
+          "h": "+1.3 pp  #24 of 32",
           "note": null
         },
         {
           "k": "Explosive runs allowed",
           "a": "+3.9 pp  #32 of 32",
-          "h": "−0.7 pp  #15 of 32",
+          "h": "−0.5 pp  #14 of 32",
           "note": null
         },
         {
           "k": "Sacks taken per dropback",
-          "a": "+2.1 pp  #28 of 32",
-          "h": "+0.3 pp  #22 of 32",
+          "a": "+2.1 pp  #25 of 32",
+          "h": "+0.8 pp  #23 of 32",
           "note": "pass protection — the only offensive-line number the NFL model carries"
         },
         {
           "k": "Sacks generated per dropback",
-          "a": "−0.7 pp  #22 of 32",
-          "h": "−0.8 pp  #23 of 32",
+          "a": "−0.7 pp  #21 of 32",
+          "h": "−0.9 pp  #22 of 32",
           "note": "pass rush — the only defensive-front number the NFL model carries"
         },
         {
           "k": "Pass rate",
           "a": "−2.3 pp",
-          "h": "+1.6 pp",
+          "h": "+1.3 pp",
           "note": "how often they throw. A tendency, not a quality, so no side is marked ahead"
         },
         {
           "k": "Plays per game",
           "a": "+3.0",
-          "h": "−1.6",
+          "h": "−0.9",
           "note": "pace. A tendency, not a quality"
         }
       ]
     },
     "notes": [
-      "EdgeDesk’s line is Philadelphia Eagles −1.5 with a fair total of 41.0, before any book is consulted.",
-      "Philadelphia Eagles wins 52% of the time in EdgeDesk’s distribution, New York Giants 48%."
+      "EdgeDesk’s line is Philadelphia Eagles +2.0 with a fair total of 41.0, before any book is consulted.",
+      "Philadelphia Eagles wins 47% of the time in EdgeDesk’s distribution, New York Giants 53%."
     ],
     "missing": [],
     "priced_label": "PRICED BY MODEL — the projection and its additive drivers, from the inputs the NFL model actually fits.",
     "context_label": "RESEARCH CONTEXT — every rating below is opponent-adjusted and printed as a deviation from the league mean. The injury report and the quarterback panel explain the matchup and move no priced number.",
-    "source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 108 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice."
+    "source": "Ratings: EdgeDesk’s NFL rating state — trained seeds through 2025 plus 120 absorbed 2026 games, opponent-adjusted from the public nflverse team-week feed. Projection: the same edgedesk_football_v1.0.0 call the game card makes. Nothing on this page was computed in your browser twice."
   },
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T00:36:55.151Z"
+    "at": "2026-11-02T19:27:46.096Z"
   }
 }
