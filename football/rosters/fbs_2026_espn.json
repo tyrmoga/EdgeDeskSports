@@ -2,7 +2,7 @@
  "schema": "edgedesk_fbs_rosters_v2",
  "source": "ESPN public APIs: core seasons/<season>/types/2/groups/80/teams (membership), site teams/{id}/roster (detail), core seasons/<season>/teams/{id}/athletes (completeness top-up)",
  "requested_season": 2026,
- "retrieved_at": "2026-10-26T16:32:15.221Z",
+ "retrieved_at": "2026-11-02T19:58:52.162Z",
  "team_count": 138,
  "sample_raw_site_athlete": {
   "id": "5369936",
@@ -75339,9 +75339,9 @@
    "nickname": "Syracuse",
    "season_reported": 2026,
    "fetch_error": null,
-   "site_player_count": 112,
-   "core_athlete_count": 112,
-   "player_count": 112,
+   "site_player_count": 113,
+   "core_athlete_count": 113,
+   "player_count": 113,
    "players": [
     {
      "name": "Adam Boeheim",
@@ -76420,6 +76420,19 @@
      "high_school": "",
      "previous_school": "",
      "espn_id": "5263879",
+     "source_detail": "site_roster"
+    },
+    {
+     "name": "Quinn Olcott",
+     "jersey": "32",
+     "position": "PK",
+     "class": "Junior",
+     "height": "6' 4\"",
+     "weight": "170 lbs",
+     "hometown": "",
+     "high_school": "",
+     "previous_school": "",
+     "espn_id": "5470041",
      "source_detail": "site_roster"
     },
     {
@@ -103639,9 +103652,9 @@
    "nickname": "North Texas",
    "season_reported": 2026,
    "fetch_error": null,
-   "site_player_count": 104,
-   "core_athlete_count": 104,
-   "player_count": 104,
+   "site_player_count": 105,
+   "core_athlete_count": 105,
+   "player_count": 105,
    "players": [
     {
      "name": "Aaden Little",
@@ -103693,6 +103706,19 @@
      "high_school": "",
      "previous_school": "",
      "espn_id": "5295996",
+     "source_detail": "site_roster"
+    },
+    {
+     "name": "Alonzo Welch",
+     "jersey": "38",
+     "position": "S",
+     "class": "Freshman",
+     "height": "6' 2\"",
+     "weight": "195 lbs",
+     "hometown": "Mesquite, TX",
+     "high_school": "",
+     "previous_school": "",
+     "espn_id": "5469240",
      "source_detail": "site_roster"
     },
     {
@@ -155675,7 +155701,7 @@
     {
      "name": "Alexander Kocher",
      "jersey": "55",
-     "position": "DB",
+     "position": "DE",
      "class": "Senior",
      "height": "6' 5\"",
      "weight": "250 lbs",
@@ -156026,7 +156052,7 @@
     {
      "name": "Deshaun Batiste",
      "jersey": "5",
-     "position": "DB",
+     "position": "DE",
      "class": "Senior",
      "height": "6' 3\"",
      "weight": "258 lbs",
@@ -156169,7 +156195,7 @@
     {
      "name": "Gavench Marcelin",
      "jersey": "11",
-     "position": "DB",
+     "position": "DE",
      "class": "Junior",
      "height": "6' 3\"",
      "weight": "260 lbs",
@@ -156247,7 +156273,7 @@
     {
      "name": "Jackson Forte",
      "jersey": "18",
-     "position": "DB",
+     "position": "DE",
      "class": "Senior",
      "height": "6' 2\"",
      "weight": "260 lbs",
@@ -156273,7 +156299,7 @@
     {
      "name": "Jay Crable",
      "jersey": "12",
-     "position": "DB",
+     "position": "DE",
      "class": "Senior",
      "height": "6' 3\"",
      "weight": "240 lbs",
@@ -156351,7 +156377,7 @@
     {
      "name": "Jonathan Bax",
      "jersey": "9",
-     "position": "DB",
+     "position": "DE",
      "class": "Senior",
      "height": "6' 3\"",
      "weight": "245 lbs",
@@ -156390,7 +156416,7 @@
     {
      "name": "Josh Roberts",
      "jersey": "10",
-     "position": "DB",
+     "position": "DE",
      "class": "Sophomore",
      "height": "6' 4\"",
      "weight": "220 lbs",
@@ -156481,7 +156507,7 @@
     {
      "name": "Kenyon Garner",
      "jersey": "31",
-     "position": "DB",
+     "position": "DE",
      "class": "Junior",
      "height": "6' 3\"",
      "weight": "238 lbs",
@@ -156702,7 +156728,7 @@
     {
      "name": "Nick Toussaint",
      "jersey": "89",
-     "position": "DB",
+     "position": "DE",
      "class": "Senior",
      "height": "6' 3\"",
      "weight": "240 lbs",
@@ -156845,7 +156871,7 @@
     {
      "name": "Roman Garcia IV",
      "jersey": "44",
-     "position": "DB",
+     "position": "DE",
      "class": "Senior",
      "height": "6' 2\"",
      "weight": "260 lbs",
@@ -156949,7 +156975,7 @@
     {
      "name": "Tyclean Luman",
      "jersey": "15",
-     "position": "DB",
+     "position": "DE",
      "class": "Junior",
      "height": "6' 4\"",
      "weight": "280 lbs",
@@ -177146,9 +177172,9 @@
    "nickname": "UNLV",
    "season_reported": 2026,
    "fetch_error": null,
-   "site_player_count": 108,
-   "core_athlete_count": 108,
-   "player_count": 108,
+   "site_player_count": 109,
+   "core_athlete_count": 109,
+   "player_count": 109,
    "players": [
     {
      "name": "Ace Robinson",
@@ -178032,6 +178058,19 @@
      "high_school": "",
      "previous_school": "",
      "espn_id": "4685289",
+     "source_detail": "site_roster"
+    },
+    {
+     "name": "Kyron Chambers",
+     "jersey": "38",
+     "position": "DB",
+     "class": "Senior",
+     "height": "6' 0\"",
+     "weight": "200 lbs",
+     "hometown": "Dallas, TX",
+     "high_school": "",
+     "previous_school": "",
+     "espn_id": "4833595",
      "source_detail": "site_roster"
     },
     {
