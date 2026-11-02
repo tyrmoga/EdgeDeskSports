@@ -5,7 +5,7 @@
  "season": 2026,
  "model": "EdgeDesk CFB Power 4 Model · all FBS",
  "projection_source": "football/fbs/slate.json",
- "updated_at": "2026-11-02T06:45:29.552Z",
+ "updated_at": "2026-11-02T16:35:11.515Z",
  "conventions": {
   "home_line": "the line the HOME side lays, as a book prints it: negative = home favoured",
   "clv_points": "points the market moved toward the side the model leaned, from the recorded quote to the close; positive = the market came to the model",
@@ -103391,6 +103391,21 @@
      "at": "2026-11-02T06:42:47.388Z"
     },
     "pnl": null
+   },
+   "last_quote": {
+    "home_line": 13.5,
+    "total": 51.5,
+    "source": "espn",
+    "book": "DraftKings",
+    "at": "2026-11-02T16:35:11.515Z",
+    "prices": {
+     "home": -108,
+     "away": -112,
+     "over": -102,
+     "under": -118,
+     "home_ml": 400,
+     "away_ml": -535
+    }
    }
   },
   "401866454": {
@@ -103584,6 +103599,21 @@
      "at": "2026-11-02T06:42:47.388Z"
     },
     "pnl": null
+   },
+   "last_quote": {
+    "home_line": -6.5,
+    "total": 44.5,
+    "source": "espn",
+    "book": "DraftKings",
+    "at": "2026-11-02T16:35:11.515Z",
+    "prices": {
+     "home": -108,
+     "away": -112,
+     "over": -110,
+     "under": -110,
+     "home_ml": -238,
+     "away_ml": 195
+    }
    }
   },
   "401866455": {
