@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-01T16:45:56.251Z",
+ "as_of": "2026-11-02T20:11:18.738Z",
  "critical_failures": [],
  "season": 2026,
  "sources": [
@@ -10,11 +10,11 @@
    "error_rate": null,
    "freshness_bound_hours": null,
    "freshness_hours": null,
-   "last_successful_ingestion": "2026-11-01T16:45:56.251Z",
+   "last_successful_ingestion": "2026-11-02T20:11:18.738Z",
    "source": "schedule",
    "status": "HEALTHY",
    "used_by_pure_model": true,
-   "version": "9fdd1291e82d8c842db8e5f9"
+   "version": "9bf05867241d8eb323fd3754"
   },
   {
    "coverage": 1.0,
@@ -23,11 +23,11 @@
    "error_rate": 0.0,
    "freshness_bound_hours": null,
    "freshness_hours": null,
-   "last_successful_ingestion": "2026-11-01T16:45:56.251Z",
+   "last_successful_ingestion": "2026-11-02T20:11:18.738Z",
    "source": "pbp",
    "status": "HEALTHY",
    "used_by_pure_model": true,
-   "version": "68286f3f6f3dcd218e7b208b"
+   "version": "5b723c77dedfe695f15ad71e"
   },
   {
    "coverage": null,
@@ -35,12 +35,12 @@
    "detail": "weekly roster sync (Mon 10:00 UTC)",
    "error_rate": null,
    "freshness_bound_hours": 192,
-   "freshness_hours": 144.23,
-   "last_successful_ingestion": "2026-11-01T16:45:56.251Z",
+   "freshness_hours": 0.21,
+   "last_successful_ingestion": "2026-11-02T20:11:18.738Z",
    "source": "roster",
    "status": "HEALTHY",
    "used_by_pure_model": false,
-   "version": "c1aa9fb807de0e075ff0e4be"
+   "version": "df21e1e1784850738fb057f2"
   },
   {
    "coverage": 0.0,
@@ -48,25 +48,25 @@
    "detail": "0 of 138 teams with an official report; 276 failed sources; not a pure-model input",
    "error_rate": null,
    "freshness_bound_hours": 12,
-   "freshness_hours": 3.59,
+   "freshness_hours": 22.23,
    "last_successful_ingestion": null,
    "source": "injury",
    "status": "DEGRADED",
    "used_by_pure_model": false,
-   "version": "ff613e3f458df0b4fbd52070"
+   "version": "14cb87a0766f9caad5da8047"
   },
   {
-   "coverage": 0.9031,
+   "coverage": 0.9135,
    "critical": true,
    "detail": "starter context; the pure model derives the expected starter from play-by-play",
    "error_rate": null,
    "freshness_bound_hours": 36,
-   "freshness_hours": 2.41,
-   "last_successful_ingestion": "2026-11-01T16:45:56.251Z",
+   "freshness_hours": 3.09,
+   "last_successful_ingestion": "2026-11-02T20:11:18.738Z",
    "source": "qb_status",
    "status": "HEALTHY",
    "used_by_pure_model": false,
-   "version": "4abb5fb6b614fadf0d6a4d89"
+   "version": "6f3cbe62db59c68310c1a5a7"
   },
   {
    "coverage": null,
@@ -74,12 +74,12 @@
    "detail": "newest quote in the Model Lab ledger; never a pure-model input",
    "error_rate": null,
    "freshness_bound_hours": 6,
-   "freshness_hours": 0.63,
-   "last_successful_ingestion": "2026-11-01T16:45:56.251Z",
+   "freshness_hours": 2.79,
+   "last_successful_ingestion": "2026-11-02T20:11:18.738Z",
    "source": "market",
    "status": "HEALTHY",
    "used_by_pure_model": false,
-   "version": "3eb30c4faf96b34823d08190"
+   "version": "7c7733558991451c0fdf5a06"
   },
   {
    "coverage": null,
@@ -87,12 +87,12 @@
    "detail": "football/venues/forecasts.json; V2.1 has no weather input (adding one is a model change)",
    "error_rate": null,
    "freshness_bound_hours": null,
-   "freshness_hours": 2.39,
-   "last_successful_ingestion": "2026-11-01T16:45:56.251Z",
+   "freshness_hours": 3.07,
+   "last_successful_ingestion": "2026-11-02T20:11:18.738Z",
    "source": "weather",
    "status": "NOT_USED_BY_MODEL",
    "used_by_pure_model": false,
-   "version": "fc8fd2406f4ba85bb0938653"
+   "version": "b992e4332fd35557ac793c2a"
   }
  ]
 }

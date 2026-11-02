@@ -226,19 +226,19 @@
    "week": 9
   }
  ],
- "current_json_age_hours": 0.0,
+ "current_json_age_hours": 0.1,
  "feature_drift_psi": {
-  "ens_pred": 0.183,
-  "ens_pred_noise_q99": 0.317,
-  "ens_sd": 0.112,
-  "ens_sd_noise_q99": 0.317,
-  "pred_total": 0.119,
-  "pred_total_noise_q99": 0.317,
+  "ens_pred": 0.19,
+  "ens_pred_noise_q99": 0.312,
+  "ens_sd": 0.122,
+  "ens_sd_noise_q99": 0.312,
+  "pred_total": 0.126,
+  "pred_total_noise_q99": 0.312,
   "reference_weeks": "week9",
-  "sigma": 0.22,
-  "sigma_noise_q99": 0.317
+  "sigma": 0.213,
+  "sigma_noise_q99": 0.312
  },
- "generated_at": "2026-11-01T16:48:33Z",
+ "generated_at": "2026-11-02T20:14:35Z",
  "learning": {
   "bias": -1.389042105263158,
   "by_model_version": {
