@@ -1,9 +1,9 @@
 {
- "built_at": "2026-11-01T22:12:53.507Z",
+ "built_at": "2026-11-02T06:27:22.570Z",
  "schema": "edgedesk_fsie_coverage_v1",
  "sports": {
   "cfb": {
-   "built_at": "2026-11-01T22:12:53.507Z",
+   "built_at": "2026-11-02T06:27:22.570Z",
    "charting": {
     "formation_text": {
      "available": true,
@@ -27,7 +27,7 @@
    },
    "fcs_teams_listed": 100,
    "freshness": {
-    "hours_since_pull": 1.4,
+    "hours_since_pull": 9.6,
     "pulled_at": "2026-11-01T20:51:17.839Z",
     "source": "sportsdataverse espn_cfb_pbp",
     "source_last_modified": "Sun, 01 Nov 2026 09:30:04 GMT",
@@ -6240,7 +6240,7 @@
    ]
   },
   "nfl": {
-   "built_at": "2026-11-01T22:12:53.507Z",
+   "built_at": "2026-11-02T06:27:22.570Z",
    "charting": {
     "box_check": {
      "available": true
@@ -6269,7 +6269,7 @@
    },
    "fcs_teams_listed": 0,
    "freshness": {
-    "hours_since_pull": 1.4,
+    "hours_since_pull": 9.6,
     "pulled_at": "2026-11-01T20:51:11.775Z",
     "source": "nflverse play_by_play",
     "source_last_modified": "Sun, 01 Nov 2026 16:00:01 GMT",
@@ -6278,15 +6278,93 @@
    "games": {
     "accepted": 108,
     "available": 108,
-    "expected": 108,
-    "missing": 0,
+    "expected": 119,
+    "missing": 11,
     "partial": 0,
     "rejected": 0,
     "scheduled": 272
    },
    "ingested_teams": 32,
    "latest_complete_week": 7,
-   "missing_games": [],
+   "missing_games": [
+    {
+     "away": "BAL",
+     "game_id": "2026_08_BAL_BUF",
+     "home": "BUF",
+     "kickoff_at": "2026-11-01T18:00:00.000Z",
+     "week": 8
+    },
+    {
+     "away": "TEN",
+     "game_id": "2026_08_TEN_CIN",
+     "home": "CIN",
+     "kickoff_at": "2026-11-01T18:00:00.000Z",
+     "week": 8
+    },
+    {
+     "away": "ARI",
+     "game_id": "2026_08_ARI_DAL",
+     "home": "DAL",
+     "kickoff_at": "2026-11-01T18:00:00.000Z",
+     "week": 8
+    },
+    {
+     "away": "MIN",
+     "game_id": "2026_08_MIN_DET",
+     "home": "DET",
+     "kickoff_at": "2026-11-01T18:00:00.000Z",
+     "week": 8
+    },
+    {
+     "away": "IND",
+     "game_id": "2026_08_IND_JAX",
+     "home": "JAX",
+     "kickoff_at": "2026-11-01T18:00:00.000Z",
+     "week": 8
+    },
+    {
+     "away": "LV",
+     "game_id": "2026_08_LV_NYJ",
+     "home": "NYJ",
+     "kickoff_at": "2026-11-01T18:00:00.000Z",
+     "week": 8
+    },
+    {
+     "away": "CLE",
+     "game_id": "2026_08_CLE_PIT",
+     "home": "PIT",
+     "kickoff_at": "2026-11-01T18:00:00.000Z",
+     "week": 8
+    },
+    {
+     "away": "ATL",
+     "game_id": "2026_08_ATL_TB",
+     "home": "TB",
+     "kickoff_at": "2026-11-01T18:00:00.000Z",
+     "week": 8
+    },
+    {
+     "away": "LAC",
+     "game_id": "2026_08_LAC_LA",
+     "home": "LA",
+     "kickoff_at": "2026-11-01T21:05:00.000Z",
+     "week": 8
+    },
+    {
+     "away": "KC",
+     "game_id": "2026_08_KC_DEN",
+     "home": "DEN",
+     "kickoff_at": "2026-11-01T21:25:00.000Z",
+     "week": 8
+    },
+    {
+     "away": "NE",
+     "game_id": "2026_08_NE_MIA",
+     "home": "MIA",
+     "kickoff_at": "2026-11-01T21:25:00.000Z",
+     "week": 8
+    }
+   ],
    "play_failures": {
     "missing_target": 309
    },
@@ -6337,18 +6415,26 @@
      "formation_observed_share": 1,
      "games_accepted": 7,
      "games_available": 7,
-     "games_expected": 7,
+     "games_expected": 8,
      "games_player_ok": 7,
      "games_rejected": 0,
      "games_scheduled": 17,
      "games_situation_ok": 7,
      "last_game_at": "2026-10-25T20:05:00.000Z",
      "missing_fields": [
+      "1 expected game(s) not in the play-by-play source",
       "personnel / coverage: not yet published for 2026 (nflverse releases it after the postseason)"
      ],
      "name": "ARI",
      "plays_accepted": 479,
-     "rejected": [],
+     "rejected": [
+      {
+       "game_id": "2026_08_ARI_DAL",
+       "reasons": [
+        "not_in_source"
+       ]
+      }
+     ],
      "team": "ARI",
      "tier": "A"
     },
@@ -6359,18 +6445,26 @@
      "formation_observed_share": 1,
      "games_accepted": 7,
      "games_available": 7,
-     "games_expected": 7,
+     "games_expected": 8,
      "games_player_ok": 7,
      "games_rejected": 0,
      "games_scheduled": 17,
      "games_situation_ok": 7,
      "last_game_at": "2026-10-25T17:00:00.000Z",
      "missing_fields": [
+      "1 expected game(s) not in the play-by-play source",
       "personnel / coverage: not yet published for 2026 (nflverse releases it after the postseason)"
      ],
      "name": "ATL",
      "plays_accepted": 423,
-     "rejected": [],
+     "rejected": [
+      {
+       "game_id": "2026_08_ATL_TB",
+       "reasons": [
+        "not_in_source"
+       ]
+      }
+     ],
      "team": "ATL",
      "tier": "A"
     },
@@ -6381,18 +6475,26 @@
      "formation_observed_share": 1,
      "games_accepted": 7,
      "games_available": 7,
-     "games_expected": 7,
+     "games_expected": 8,
      "games_player_ok": 7,
      "games_rejected": 0,
      "games_scheduled": 17,
      "games_situation_ok": 7,
      "last_game_at": "2026-10-25T17:00:00.000Z",
      "missing_fields": [
+      "1 expected game(s) not in the play-by-play source",
       "personnel / coverage: not yet published for 2026 (nflverse releases it after the postseason)"
      ],
      "name": "BAL",
      "plays_accepted": 432,
-     "rejected": [],
+     "rejected": [
+      {
+       "game_id": "2026_08_BAL_BUF",
+       "reasons": [
+        "not_in_source"
+       ]
+      }
+     ],
      "team": "BAL",
      "tier": "A"
     },
@@ -6403,18 +6505,26 @@
      "formation_observed_share": 1,
      "games_accepted": 6,
      "games_available": 6,
-     "games_expected": 6,
+     "games_expected": 7,
      "games_player_ok": 6,
      "games_rejected": 0,
      "games_scheduled": 17,
      "games_situation_ok": 6,
      "last_game_at": "2026-10-18T20:25:00.000Z",
      "missing_fields": [
+      "1 expected game(s) not in the play-by-play source",
       "personnel / coverage: not yet published for 2026 (nflverse releases it after the postseason)"
      ],
      "name": "BUF",
      "plays_accepted": 359,
-     "rejected": [],
+     "rejected": [
+      {
+       "game_id": "2026_08_BAL_BUF",
+       "reasons": [
+        "not_in_source"
+       ]
+      }
+     ],
      "team": "BUF",
      "tier": "A"
     },
@@ -6469,18 +6579,26 @@
      "formation_observed_share": 1,
      "games_accepted": 6,
      "games_available": 6,
-     "games_expected": 6,
+     "games_expected": 7,
      "games_player_ok": 6,
      "games_rejected": 0,
      "games_scheduled": 17,
      "games_situation_ok": 6,
      "last_game_at": "2026-10-25T17:00:00.000Z",
      "missing_fields": [
+      "1 expected game(s) not in the play-by-play source",
       "personnel / coverage: not yet published for 2026 (nflverse releases it after the postseason)"
      ],
      "name": "CIN",
      "plays_accepted": 363,
-     "rejected": [],
+     "rejected": [
+      {
+       "game_id": "2026_08_TEN_CIN",
+       "reasons": [
+        "not_in_source"
+       ]
+      }
+     ],
      "team": "CIN",
      "tier": "A"
     },
@@ -6491,18 +6609,26 @@
      "formation_observed_share": 1,
      "games_accepted": 7,
      "games_available": 7,
-     "games_expected": 7,
+     "games_expected": 8,
      "games_player_ok": 7,
      "games_rejected": 0,
      "games_scheduled": 17,
      "games_situation_ok": 7,
      "last_game_at": "2026-10-25T17:00:00.000Z",
      "missing_fields": [
+      "1 expected game(s) not in the play-by-play source",
       "personnel / coverage: not yet published for 2026 (nflverse releases it after the postseason)"
      ],
      "name": "CLE",
      "plays_accepted": 420,
-     "rejected": [],
+     "rejected": [
+      {
+       "game_id": "2026_08_CLE_PIT",
+       "reasons": [
+        "not_in_source"
+       ]
+      }
+     ],
      "team": "CLE",
      "tier": "A"
     },
@@ -6513,18 +6639,26 @@
      "formation_observed_share": 1,
      "games_accepted": 7,
      "games_available": 7,
-     "games_expected": 7,
+     "games_expected": 8,
      "games_player_ok": 7,
      "games_rejected": 0,
      "games_scheduled": 17,
      "games_situation_ok": 7,
      "last_game_at": "2026-10-27T00:15:00.000Z",
      "missing_fields": [
+      "1 expected game(s) not in the play-by-play source",
       "personnel / coverage: not yet published for 2026 (nflverse releases it after the postseason)"
      ],
      "name": "DAL",
      "plays_accepted": 440,
-     "rejected": [],
+     "rejected": [
+      {
+       "game_id": "2026_08_ARI_DAL",
+       "reasons": [
+        "not_in_source"
+       ]
+      }
+     ],
      "team": "DAL",
      "tier": "A"
     },
@@ -6535,18 +6669,26 @@
      "formation_observed_share": 1,
      "games_accepted": 7,
      "games_available": 7,
-     "games_expected": 7,
+     "games_expected": 8,
      "games_player_ok": 7,
      "games_rejected": 0,
      "games_scheduled": 17,
      "games_situation_ok": 7,
      "last_game_at": "2026-10-25T20:05:00.000Z",
      "missing_fields": [
+      "1 expected game(s) not in the play-by-play source",
       "personnel / coverage: not yet published for 2026 (nflverse releases it after the postseason)"
      ],
      "name": "DEN",
      "plays_accepted": 400,
-     "rejected": [],
+     "rejected": [
+      {
+       "game_id": "2026_08_KC_DEN",
+       "reasons": [
+        "not_in_source"
+       ]
+      }
+     ],
      "team": "DEN",
      "tier": "A"
     },
@@ -6557,18 +6699,26 @@
      "formation_observed_share": 1,
      "games_accepted": 6,
      "games_available": 6,
-     "games_expected": 6,
+     "games_expected": 7,
      "games_player_ok": 6,
      "games_rejected": 0,
      "games_scheduled": 17,
      "games_situation_ok": 6,
      "last_game_at": "2026-10-25T20:25:00.000Z",
      "missing_fields": [
+      "1 expected game(s) not in the play-by-play source",
       "personnel / coverage: not yet published for 2026 (nflverse releases it after the postseason)"
      ],
      "name": "DET",
      "plays_accepted": 398,
-     "rejected": [],
+     "rejected": [
+      {
+       "game_id": "2026_08_MIN_DET",
+       "reasons": [
+        "not_in_source"
+       ]
+      }
+     ],
      "team": "DET",
      "tier": "A"
     },
@@ -6623,18 +6773,26 @@
      "formation_observed_share": 1,
      "games_accepted": 7,
      "games_available": 7,
-     "games_expected": 7,
+     "games_expected": 8,
      "games_player_ok": 7,
      "games_rejected": 0,
      "games_scheduled": 17,
      "games_situation_ok": 7,
      "last_game_at": "2026-10-25T17:00:00.000Z",
      "missing_fields": [
+      "1 expected game(s) not in the play-by-play source",
       "personnel / coverage: not yet published for 2026 (nflverse releases it after the postseason)"
      ],
      "name": "IND",
      "plays_accepted": 459,
-     "rejected": [],
+     "rejected": [
+      {
+       "game_id": "2026_08_IND_JAX",
+       "reasons": [
+        "not_in_source"
+       ]
+      }
+     ],
      "team": "IND",
      "tier": "A"
     },
@@ -6645,18 +6803,26 @@
      "formation_observed_share": 1,
      "games_accepted": 6,
      "games_available": 6,
-     "games_expected": 6,
+     "games_expected": 7,
      "games_player_ok": 6,
      "games_rejected": 0,
      "games_scheduled": 17,
      "games_situation_ok": 6,
      "last_game_at": "2026-10-18T13:30:00.000Z",
      "missing_fields": [
+      "1 expected game(s) not in the play-by-play source",
       "personnel / coverage: not yet published for 2026 (nflverse releases it after the postseason)"
      ],
      "name": "JAX",
      "plays_accepted": 361,
-     "rejected": [],
+     "rejected": [
+      {
+       "game_id": "2026_08_IND_JAX",
+       "reasons": [
+        "not_in_source"
+       ]
+      }
+     ],
      "team": "JAX",
      "tier": "A"
     },
@@ -6667,18 +6833,26 @@
      "formation_observed_share": 1,
      "games_accepted": 6,
      "games_available": 6,
-     "games_expected": 6,
+     "games_expected": 7,
      "games_player_ok": 6,
      "games_rejected": 0,
      "games_scheduled": 17,
      "games_situation_ok": 6,
      "last_game_at": "2026-10-26T00:20:00.000Z",
      "missing_fields": [
+      "1 expected game(s) not in the play-by-play source",
       "personnel / coverage: not yet published for 2026 (nflverse releases it after the postseason)"
      ],
      "name": "KC",
      "plays_accepted": 359,
-     "rejected": [],
+     "rejected": [
+      {
+       "game_id": "2026_08_KC_DEN",
+       "reasons": [
+        "not_in_source"
+       ]
+      }
+     ],
      "team": "KC",
      "tier": "A"
     },
@@ -6689,18 +6863,26 @@
      "formation_observed_share": 1,
      "games_accepted": 7,
      "games_available": 7,
-     "games_expected": 7,
+     "games_expected": 8,
      "games_player_ok": 7,
      "games_rejected": 0,
      "games_scheduled": 17,
      "games_situation_ok": 7,
      "last_game_at": "2026-10-25T20:25:00.000Z",
      "missing_fields": [
+      "1 expected game(s) not in the play-by-play source",
       "personnel / coverage: not yet published for 2026 (nflverse releases it after the postseason)"
      ],
      "name": "LA",
      "plays_accepted": 478,
-     "rejected": [],
+     "rejected": [
+      {
+       "game_id": "2026_08_LAC_LA",
+       "reasons": [
+        "not_in_source"
+       ]
+      }
+     ],
      "team": "LA",
      "tier": "A"
     },
@@ -6711,18 +6893,26 @@
      "formation_observed_share": 1,
      "games_accepted": 6,
      "games_available": 6,
-     "games_expected": 6,
+     "games_expected": 7,
      "games_player_ok": 6,
      "games_rejected": 0,
      "games_scheduled": 17,
      "games_situation_ok": 6,
      "last_game_at": "2026-10-18T20:25:00.000Z",
      "missing_fields": [
+      "1 expected game(s) not in the play-by-play source",
       "personnel / coverage: not yet published for 2026 (nflverse releases it after the postseason)"
      ],
      "name": "LAC",
      "plays_accepted": 371,
-     "rejected": [],
+     "rejected": [
+      {
+       "game_id": "2026_08_LAC_LA",
+       "reasons": [
+        "not_in_source"
+       ]
+      }
+     ],
      "team": "LAC",
      "tier": "A"
     },
@@ -6733,18 +6923,26 @@
      "formation_observed_share": 1,
      "games_accepted": 7,
      "games_available": 7,
-     "games_expected": 7,
+     "games_expected": 8,
      "games_player_ok": 7,
      "games_rejected": 0,
      "games_scheduled": 17,
      "games_situation_ok": 7,
      "last_game_at": "2026-10-25T20:25:00.000Z",
      "missing_fields": [
+      "1 expected game(s) not in the play-by-play source",
       "personnel / coverage: not yet published for 2026 (nflverse releases it after the postseason)"
      ],
      "name": "LV",
      "plays_accepted": 450,
-     "rejected": [],
+     "rejected": [
+      {
+       "game_id": "2026_08_LV_NYJ",
+       "reasons": [
+        "not_in_source"
+       ]
+      }
+     ],
      "team": "LV",
      "tier": "A"
     },
@@ -6755,18 +6953,26 @@
      "formation_observed_share": 1,
      "games_accepted": 6,
      "games_available": 6,
-     "games_expected": 6,
+     "games_expected": 7,
      "games_player_ok": 6,
      "games_rejected": 0,
      "games_scheduled": 17,
      "games_situation_ok": 6,
      "last_game_at": "2026-10-25T17:00:00.000Z",
      "missing_fields": [
+      "1 expected game(s) not in the play-by-play source",
       "personnel / coverage: not yet published for 2026 (nflverse releases it after the postseason)"
      ],
      "name": "MIA",
      "plays_accepted": 338,
-     "rejected": [],
+     "rejected": [
+      {
+       "game_id": "2026_08_NE_MIA",
+       "reasons": [
+        "not_in_source"
+       ]
+      }
+     ],
      "team": "MIA",
      "tier": "A"
     },
@@ -6777,18 +6983,26 @@
      "formation_observed_share": 1,
      "games_accepted": 6,
      "games_available": 6,
-     "games_expected": 6,
+     "games_expected": 7,
      "games_player_ok": 6,
      "games_rejected": 0,
      "games_scheduled": 17,
      "games_situation_ok": 6,
      "last_game_at": "2026-10-25T17:00:00.000Z",
      "missing_fields": [
+      "1 expected game(s) not in the play-by-play source",
       "personnel / coverage: not yet published for 2026 (nflverse releases it after the postseason)"
      ],
      "name": "MIN",
      "plays_accepted": 363,
-     "rejected": [],
+     "rejected": [
+      {
+       "game_id": "2026_08_MIN_DET",
+       "reasons": [
+        "not_in_source"
+       ]
+      }
+     ],
      "team": "MIN",
      "tier": "A"
     },
@@ -6799,18 +7013,26 @@
      "formation_observed_share": 1,
      "games_accepted": 7,
      "games_available": 7,
-     "games_expected": 7,
+     "games_expected": 8,
      "games_player_ok": 7,
      "games_rejected": 0,
      "games_scheduled": 17,
      "games_situation_ok": 7,
      "last_game_at": "2026-10-23T00:15:00.000Z",
      "missing_fields": [
+      "1 expected game(s) not in the play-by-play source",
       "personnel / coverage: not yet published for 2026 (nflverse releases it after the postseason)"
      ],
      "name": "NE",
      "plays_accepted": 437,
-     "rejected": [],
+     "rejected": [
+      {
+       "game_id": "2026_08_NE_MIA",
+       "reasons": [
+        "not_in_source"
+       ]
+      }
+     ],
      "team": "NE",
      "tier": "A"
     },
@@ -6865,18 +7087,26 @@
      "formation_observed_share": 1,
      "games_accepted": 7,
      "games_available": 7,
-     "games_expected": 7,
+     "games_expected": 8,
      "games_player_ok": 7,
      "games_rejected": 0,
      "games_scheduled": 17,
      "games_situation_ok": 7,
      "last_game_at": "2026-10-25T17:00:00.000Z",
      "missing_fields": [
+      "1 expected game(s) not in the play-by-play source",
       "personnel / coverage: not yet published for 2026 (nflverse releases it after the postseason)"
      ],
      "name": "NYJ",
      "plays_accepted": 407,
-     "rejected": [],
+     "rejected": [
+      {
+       "game_id": "2026_08_LV_NYJ",
+       "reasons": [
+        "not_in_source"
+       ]
+      }
+     ],
      "team": "NYJ",
      "tier": "A"
     },
@@ -6909,18 +7139,26 @@
      "formation_observed_share": 1,
      "games_accepted": 7,
      "games_available": 7,
-     "games_expected": 7,
+     "games_expected": 8,
      "games_player_ok": 7,
      "games_rejected": 0,
      "games_scheduled": 17,
      "games_situation_ok": 7,
      "last_game_at": "2026-10-25T13:30:00.000Z",
      "missing_fields": [
+      "1 expected game(s) not in the play-by-play source",
       "personnel / coverage: not yet published for 2026 (nflverse releases it after the postseason)"
      ],
      "name": "PIT",
      "plays_accepted": 447,
-     "rejected": [],
+     "rejected": [
+      {
+       "game_id": "2026_08_CLE_PIT",
+       "reasons": [
+        "not_in_source"
+       ]
+      }
+     ],
      "team": "PIT",
      "tier": "A"
     },
@@ -6975,18 +7213,26 @@
      "formation_observed_share": 1,
      "games_accepted": 7,
      "games_available": 7,
-     "games_expected": 7,
+     "games_expected": 8,
      "games_player_ok": 7,
      "games_rejected": 0,
      "games_scheduled": 17,
      "games_situation_ok": 7,
      "last_game_at": "2026-10-25T17:00:00.000Z",
      "missing_fields": [
+      "1 expected game(s) not in the play-by-play source",
       "personnel / coverage: not yet published for 2026 (nflverse releases it after the postseason)"
      ],
      "name": "TB",
      "plays_accepted": 437,
-     "rejected": [],
+     "rejected": [
+      {
+       "game_id": "2026_08_ATL_TB",
+       "reasons": [
+        "not_in_source"
+       ]
+      }
+     ],
      "team": "TB",
      "tier": "A"
     },
@@ -6997,18 +7243,26 @@
      "formation_observed_share": 1,
      "games_accepted": 7,
      "games_available": 7,
-     "games_expected": 7,
+     "games_expected": 8,
      "games_player_ok": 7,
      "games_rejected": 0,
      "games_scheduled": 17,
      "games_situation_ok": 7,
      "last_game_at": "2026-10-25T17:00:00.000Z",
      "missing_fields": [
+      "1 expected game(s) not in the play-by-play source",
       "personnel / coverage: not yet published for 2026 (nflverse releases it after the postseason)"
      ],
      "name": "TEN",
      "plays_accepted": 380,
-     "rejected": [],
+     "rejected": [
+      {
+       "game_id": "2026_08_TEN_CIN",
+       "reasons": [
+        "not_in_source"
+       ]
+      }
+     ],
      "team": "TEN",
      "tier": "A"
     },
@@ -7094,7 +7348,7 @@
     {
      "accepted": 1,
      "available": 1,
-     "expected": 1,
+     "expected": 12,
      "scheduled": 14,
      "week": 8
     },

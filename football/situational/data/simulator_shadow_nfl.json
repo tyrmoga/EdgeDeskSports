@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-01T22:12:53.507Z",
+ "built_at": "2026-11-02T06:27:22.570Z",
  "games": {
   "2026_08_CHI_SEA": {
    "away": {
@@ -71,76 +71,6 @@
    },
    "simulator_draws_changed": 0
   },
-  "2026_08_PHI_WAS": {
-   "away": {
-    "drives": [
-     9,
-     11,
-     13
-    ],
-    "mean_plays": 62.36,
-    "pass_att": [
-     27,
-     35,
-     44
-    ],
-    "plays": [
-     52,
-     62,
-     73
-    ],
-    "rush_att": [
-     17,
-     24,
-     33
-    ],
-    "script": {
-     "competitive": 0.5748,
-     "garbage": 0.0289,
-     "leading": 0.0745,
-     "trailing": 0.206,
-     "two_minute": 0.1158
-    }
-   },
-   "conditioned_on": {
-    "fair_home_margin": 3.48,
-    "fair_total": 42.45,
-    "sigma": 10.7,
-    "source": "football/nfl/slate.json"
-   },
-   "game_possessions_mean": 21.98,
-   "home": {
-    "drives": [
-     9,
-     11,
-     13
-    ],
-    "mean_plays": 63.42,
-    "pass_att": [
-     22,
-     30,
-     39
-    ],
-    "plays": [
-     53,
-     63,
-     74
-    ],
-    "rush_att": [
-     22,
-     31,
-     41
-    ],
-    "script": {
-     "competitive": 0.6032,
-     "garbage": 0.0221,
-     "leading": 0.148,
-     "trailing": 0.1167,
-     "two_minute": 0.1101
-    }
-   },
-   "simulator_draws_changed": 0
-  },
   "2026_09_ARI_SEA": {
    "away": {
     "drives": [
@@ -207,6 +137,76 @@
      "leading": 0.2556,
      "trailing": 0.048,
      "two_minute": 0.0982
+    }
+   },
+   "simulator_draws_changed": 0
+  },
+  "2026_09_BUF_MIN": {
+   "away": {
+    "drives": [
+     8,
+     10,
+     12
+    ],
+    "mean_plays": 61.28,
+    "pass_att": [
+     21,
+     29,
+     37
+    ],
+    "plays": [
+     51,
+     61,
+     71
+    ],
+    "rush_att": [
+     21,
+     29,
+     39
+    ],
+    "script": {
+     "competitive": 0.5901,
+     "garbage": 0.0223,
+     "leading": 0.1,
+     "trailing": 0.1733,
+     "two_minute": 0.1143
+    }
+   },
+   "conditioned_on": {
+    "fair_home_margin": 0.91,
+    "fair_total": 45.84,
+    "sigma": 10.7,
+    "source": "football/nfl/slate.json"
+   },
+   "game_possessions_mean": 20.91,
+   "home": {
+    "drives": [
+     9,
+     10,
+     12
+    ],
+    "mean_plays": 61.72,
+    "pass_att": [
+     23,
+     31,
+     41
+    ],
+    "plays": [
+     52,
+     62,
+     72
+    ],
+    "rush_att": [
+     19,
+     27,
+     37
+    ],
+    "script": {
+     "competitive": 0.5974,
+     "garbage": 0.02,
+     "leading": 0.1205,
+     "trailing": 0.149,
+     "two_minute": 0.113
     }
    },
    "simulator_draws_changed": 0
