@@ -845,20 +845,20 @@
   },
   "2027": {
    "file": "basketball/ncaam_forecast/data/games_2027.csv.gz",
-   "sha256": "d005329b9ac3af0b402a97784ba28b91f313fc05b587e04c65123bc7cb05def1",
+   "sha256": "65a0ffea1d76552317fde9fd9b69d8ab3a164d38e00021becbd5a654a712b432",
    "stats": {
-    "rows": 6068,
-    "final": 0,
-    "scheduled": 6068,
+    "rows": 6069,
+    "final": 3,
+    "scheduled": 6066,
     "not_played": {},
     "duplicate_ids": 0,
     "duplicate_suspects": 49,
-    "score_ok": 0,
-    "box_ok": 0,
+    "score_ok": 3,
+    "box_ok": 3,
     "quarantined": {
      "DUPLICATE_SUSPECT": 49
     },
-    "box_rows": 0,
+    "box_rows": 6,
     "ncaa": {
      "games": 0,
      "structural_issues": [],
@@ -867,7 +867,7 @@
     }
    },
    "reconciliation_with_incumbent": {
-    "checked": 0,
+    "checked": 3,
     "mismatched": 0,
     "only_incumbent": 0,
     "examples": []
@@ -876,13 +876,15 @@
    "sources": {
     "schedule": {
      "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-mbb-data/main/mbb/schedules/parquet/mbb_schedule_2027.parquet",
-     "sha256": "a7c8fce7c1223079b12b3dd4780453235a7c64a3c7d8f29e18d6707d78947efd",
-     "bytes": 426859,
-     "fetched_at": "2026-11-01T18:33:04.027Z"
+     "sha256": "eb0f077201fea782c3891eb4d2b0df6d1c504068572ea622343460cab568da5c",
+     "bytes": 429012,
+     "fetched_at": "2026-11-02T20:44:08.390Z"
     },
     "team_box": {
      "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-mbb-data/main/mbb/team_box/parquet/team_box_2027.parquet",
-     "unavailable": "not published by the source yet"
+     "sha256": "7d65dc901b3d3415d1c1b347cb50fa943fe66c23eb67acf94301b2e29405579c",
+     "bytes": 24678,
+     "fetched_at": "2026-11-02T20:44:08.743Z"
     }
    }
   }
