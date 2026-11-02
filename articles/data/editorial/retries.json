@@ -1,6 +1,6 @@
 {
   "schema": "edgedesk_editorial_retries_v1",
-  "generated_at": "2026-11-01T21:51:03.630Z",
+  "generated_at": "2026-11-02T21:42:21.789Z",
   "entries": {
     "NFL:2026_02_DET_BUF|pregame": {
       "key": "NFL:2026_02_DET_BUF",
@@ -271,6 +271,15 @@
       "next_retry_at": null,
       "last_error": "REFUSED: snapshot snap_d511c5e3754add51 already exists with different content. A snapshot is immutable by construction; something has changed how it is hashed.",
       "exhausted": true
+    },
+    "NFL:2026_08_CHI_SEA|pregame": {
+      "key": "NFL:2026_08_CHI_SEA",
+      "step": "pregame",
+      "attempt_count": 1,
+      "last_attempt_at": "2026-11-02T21:42:21.789Z",
+      "next_retry_at": "2026-11-02T21:47:21.789Z",
+      "last_error": "REFUSED: snapshot snap_9155d04f19a47a5e already exists with different content. A snapshot is immutable by construction; something has changed how it is hashed.",
+      "exhausted": false
     }
   }
 }
