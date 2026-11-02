@@ -127,74 +127,22 @@
    }
   },
   {
-   "step": "weekly",
-   "sports": [
-    "baseball",
-    "softball",
-    "football",
-    "mens-basketball",
-    "womens-basketball",
-    "womens-volleyball",
-    "mens-soccer",
-    "womens-soccer"
-   ],
-   "schools": 358,
-   "ok": 4466,
-   "misses_by_reason": {
-    "HTTP": 590,
-    "SEASON_MISMATCH": 97,
-    "NO_ROSTER": 425,
-    "EMPTY_ROSTER": 6,
-    "REFUSED": 40,
-    "PLATFORM_NOT_READ": 32
-   },
-   "platforms": {
-    "sidearm_legacy": 161,
-    "sidearm": 153,
-    "wmt": 28,
-    "unread": 4
-   }
-  },
-  {
-   "step": "schedules",
-   "sport": "baseball",
-   "ok": 399,
-   "misses_by_reason": {
-    "PLATFORM_NOT_READ": 16,
-    "SEASON_MISMATCH": 167,
-    "NO_SCHEDULE": 106,
-    "HTTP": 8,
-    "SPORT_MISMATCH": 2,
-    "EMPTY_SCHEDULE": 1,
-    "SHRUNK": 1
-   }
-  },
-  {
-   "step": "schedules",
-   "sport": "mens-basketball",
-   "ok": 656,
-   "misses_by_reason": {
-    "PLATFORM_NOT_READ": 16,
-    "SPORT_MISMATCH": 16,
-    "HTTP": 8,
-    "NO_SCHEDULE": 4
-   }
-  },
-  {
-   "step": "schedules",
-   "sport": "womens-basketball",
-   "ok": 654,
-   "misses_by_reason": {
-    "PLATFORM_NOT_READ": 16,
-    "SPORT_MISMATCH": 10,
-    "NO_SCHEDULE": 8,
-    "HTTP": 12
-   }
-  },
-  {
    "step": "team_ids",
    "schools": 42,
    "hosts": 93
+  },
+  {
+   "step": "boxscores",
+   "id": "baseball-boxscores-2013-2026",
+   "planned": 93616,
+   "unjoinable": 2978,
+   "ok": 295,
+   "left": 1551,
+   "misses_by_reason": {
+    "NO_BOXSCORE": 743,
+    "HTTP": 5,
+    "NO_TEAM_CODE": 141
+   }
   },
   {
    "step": "portal",
@@ -362,5 +310,5 @@
   "schedules:mens-basketball": "2026-11-02",
   "schedules:womens-basketball": "2026-11-02"
  },
- "backfill_read_at": "2026-11-01"
+ "backfill_read_at": "2026-11-02"
 }
