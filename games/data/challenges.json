@@ -1,6 +1,6 @@
 {
  "schema": "edgedesk_games_challenges_v1",
- "generated_at": "2026-11-01T17:14:09.583Z",
+ "generated_at": "2026-11-02T06:43:05.176Z",
  "season": 2026,
  "model_version": "edgedesk_cfb_p4_v1.0.0",
  "feature_version": "cfb_p4_fv1",
@@ -18,384 +18,12 @@
   "week": "Week 9"
  },
  "counts": {
-  "games": 68,
-  "playable": 68,
-  "with_market": 6
+  "games": 69,
+  "playable": 69,
+  "with_market": 0
  },
  "basis": "EdgeDesk’s projection is research, not a proven edge: it does not beat the closing line. Free to play, no real-money wagering.",
  "challenges": [
-  {
-   "game_id": "401858511",
-   "season": 2026,
-   "week": 10,
-   "kickoff": "2026-11-07 05:00",
-   "home_team": "Michigan",
-   "away_team": "Michigan State",
-   "home_conference": "Big Ten",
-   "away_conference": "Big Ten",
-   "neutral_site": false,
-   "venue": "Michigan Stadium",
-   "edgedesk_spread": -11.5,
-   "market_spread": -17.5,
-   "market_source": "supplied --lines file (reference, not a live bettable quote)",
-   "spread_gap": 5.9,
-   "confidence": 42,
-   "status": "PREDICTED",
-   "research_state": "REVIEW",
-   "research_state_label": "Worth researching",
-   "research_state_means": "EdgeDesk differs from the market by 5.9 points — enough to justify deeper research, but the disagreement has not been validated as a betting edge.",
-   "factors": [
-    {
-     "sign": "+",
-     "text": "Michigan is the better football team by 8.1 points on opponent-adjusted results, with roughly 30% of it still…"
-    },
-    {
-     "sign": "+",
-     "text": "Playing at Michigan is worth 2.8 points"
-    },
-    {
-     "sign": "+",
-     "text": "Stylistically the matchup favours Michigan by 0.6 points: ball control vs front disruption"
-    },
-    {
-     "sign": "-",
-     "text": "The projection could be wrong because 100% of the model’s own input contract was empty for this game"
-    }
-   ],
-   "qb_status": "home QB unknown; away QB unknown",
-   "context": {
-    "home": {
-     "conference": "Big Ten",
-     "returning_production": 56,
-     "qb_continuity": 40,
-     "ol_continuity": 68,
-     "starts_continuity": 42,
-     "transfer_churn": 35
-    },
-    "away": {
-     "conference": "Big Ten",
-     "returning_production": 30,
-     "qb_continuity": 40,
-     "ol_continuity": 44,
-     "starts_continuity": 17,
-     "transfer_churn": 0
-    }
-   },
-   "p4": true,
-   "both_fbs": true,
-   "unproven": true,
-   "slug": "michigan-state-michigan"
-  },
-  {
-   "game_id": "401856849",
-   "season": 2026,
-   "week": 10,
-   "kickoff": "2026-11-07 17:00",
-   "home_team": "Utah",
-   "away_team": "BYU",
-   "home_conference": "Big 12",
-   "away_conference": "Big 12",
-   "neutral_site": false,
-   "venue": "Rice-Eccles Stadium",
-   "edgedesk_spread": -12.1,
-   "market_spread": -3,
-   "market_source": "supplied --lines file (reference, not a live bettable quote)",
-   "spread_gap": -9.1,
-   "confidence": 42,
-   "status": "PREDICTED",
-   "research_state": "INVESTIGATE",
-   "research_state_label": "Investigate",
-   "research_state_means": "EdgeDesk and the market are 9.1 points apart and the integrity gate has not verified it. Missing or stale information is more likely than a hidden opportunity until the gap is explained.",
-   "factors": [
-    {
-     "sign": "+",
-     "text": "Utah is the better football team by 8.2 points on opponent-adjusted results, with roughly 30% of it still…"
-    },
-    {
-     "sign": "+",
-     "text": "Playing at Utah is worth 2.8 points"
-    },
-    {
-     "sign": "+",
-     "text": "Stylistically the matchup favours Utah by 1.1 points: ball control vs front disruption"
-    },
-    {
-     "sign": "-",
-     "text": "The projection could be wrong because 100% of the model’s own input contract was empty for this game"
-    }
-   ],
-   "qb_status": "home QB unknown; away QB unknown",
-   "context": {
-    "home": {
-     "conference": "Big 12",
-     "returning_production": 67,
-     "qb_continuity": 40,
-     "ol_continuity": 53,
-     "starts_continuity": 55,
-     "transfer_churn": 38
-    },
-    "away": {
-     "conference": "Big 12",
-     "returning_production": 70,
-     "qb_continuity": 40,
-     "ol_continuity": 58,
-     "starts_continuity": 45,
-     "transfer_churn": 73
-    }
-   },
-   "p4": true,
-   "both_fbs": true,
-   "unproven": true,
-   "slug": "byu-utah"
-  },
-  {
-   "game_id": "401856740",
-   "season": 2026,
-   "week": 10,
-   "kickoff": "2026-11-07 20:30",
-   "home_team": "LSU",
-   "away_team": "Alabama",
-   "home_conference": "SEC",
-   "away_conference": "SEC",
-   "neutral_site": false,
-   "venue": "Tiger Stadium (LA)",
-   "edgedesk_spread": -4,
-   "market_spread": -3.5,
-   "market_source": "supplied --lines file (reference, not a live bettable quote)",
-   "spread_gap": -0.5,
-   "confidence": 42,
-   "status": "PREDICTED",
-   "research_state": "PASS",
-   "research_state_label": "Market aligned",
-   "research_state_means": "EdgeDesk and the market are effectively in agreement — 0.5 points apart, inside the 2-point research threshold.",
-   "factors": [
-    {
-     "sign": "+",
-     "text": "LSU is the better football team by 3.0 points on opponent-adjusted results, with roughly 30% of it still inherited…"
-    },
-    {
-     "sign": "+",
-     "text": "Playing at LSU is worth 2.8 points"
-    },
-    {
-     "sign": "+",
-     "text": "Stylistically the matchup favours Alabama by 1.9 points: early-down offence vs early-down defence"
-    },
-    {
-     "sign": "-",
-     "text": "The projection could be wrong because 100% of the model’s own input contract was empty for this game"
-    }
-   ],
-   "qb_status": "home QB unknown; away QB unknown",
-   "context": {
-    "home": {
-     "conference": "SEC",
-     "returning_production": 22,
-     "qb_continuity": 0,
-     "ol_continuity": 40,
-     "starts_continuity": 46,
-     "transfer_churn": 0
-    },
-    "away": {
-     "conference": "SEC",
-     "returning_production": 28,
-     "qb_continuity": 67,
-     "ol_continuity": 48,
-     "starts_continuity": 22,
-     "transfer_churn": 22
-    }
-   },
-   "p4": true,
-   "both_fbs": true,
-   "unproven": true,
-   "slug": "alabama-lsu"
-  },
-  {
-   "game_id": "401858514",
-   "season": 2026,
-   "week": 10,
-   "kickoff": "2026-11-07 20:30",
-   "home_team": "Ohio State",
-   "away_team": "Oregon",
-   "home_conference": "Big Ten",
-   "away_conference": "Big Ten",
-   "neutral_site": false,
-   "venue": "Ohio Stadium",
-   "edgedesk_spread": -12.2,
-   "market_spread": -6,
-   "market_source": "supplied --lines file (reference, not a live bettable quote)",
-   "spread_gap": -6.2,
-   "confidence": 42,
-   "status": "PREDICTED",
-   "research_state": "REVIEW",
-   "research_state_label": "Worth researching",
-   "research_state_means": "EdgeDesk differs from the market by 6.2 points — enough to justify deeper research, but the disagreement has not been validated as a betting edge.",
-   "factors": [
-    {
-     "sign": "+",
-     "text": "Ohio State is the better football team by 7.9 points on opponent-adjusted results, with roughly 30% of it still…"
-    },
-    {
-     "sign": "+",
-     "text": "Playing at Ohio State is worth 2.8 points"
-    },
-    {
-     "sign": "+",
-     "text": "Stylistically the matchup favours Ohio State by 1.5 points: ball control vs front disruption"
-    },
-    {
-     "sign": "-",
-     "text": "The projection could be wrong because 100% of the model’s own input contract was empty for this game"
-    }
-   ],
-   "qb_status": "home QB unknown; away QB unknown",
-   "context": {
-    "home": {
-     "conference": "Big Ten",
-     "returning_production": 70,
-     "qb_continuity": 50,
-     "ol_continuity": 65,
-     "starts_continuity": 41,
-     "transfer_churn": 8
-    },
-    "away": {
-     "conference": "Big Ten",
-     "returning_production": 72,
-     "qb_continuity": 67,
-     "ol_continuity": 70,
-     "starts_continuity": 47,
-     "transfer_churn": 18
-    }
-   },
-   "p4": true,
-   "both_fbs": true,
-   "unproven": true,
-   "slug": "oregon-ohio-state"
-  },
-  {
-   "game_id": "401856741",
-   "season": 2026,
-   "week": 10,
-   "kickoff": "2026-11-08 00:30",
-   "home_team": "Ole Miss",
-   "away_team": "Georgia",
-   "home_conference": "SEC",
-   "away_conference": "SEC",
-   "neutral_site": false,
-   "venue": "Vaught-Hemingway Stadium",
-   "edgedesk_spread": -5,
-   "market_spread": 4.5,
-   "market_source": "supplied --lines file (reference, not a live bettable quote)",
-   "spread_gap": -9.5,
-   "confidence": 42,
-   "status": "PREDICTED",
-   "research_state": "INVESTIGATE",
-   "research_state_label": "Investigate",
-   "research_state_means": "EdgeDesk and the market are 9.5 points apart and the integrity gate has not verified it. Missing or stale information is more likely than a hidden opportunity until the gap is explained.",
-   "factors": [
-    {
-     "sign": "+",
-     "text": "Playing at Ole Miss is worth 2.8 points"
-    },
-    {
-     "sign": "+",
-     "text": "Stylistically the matchup favours Ole Miss by 1.7 points: ball control vs front disruption"
-    },
-    {
-     "sign": "+",
-     "text": "Ole Miss is the better football team by 0.5 points on opponent-adjusted results, with roughly 30% of it still…"
-    },
-    {
-     "sign": "-",
-     "text": "The projection could be wrong because 100% of the model’s own input contract was empty for this game"
-    }
-   ],
-   "qb_status": "home QB unknown; away QB unknown",
-   "context": {
-    "home": {
-     "conference": "SEC",
-     "returning_production": 54,
-     "qb_continuity": 50,
-     "ol_continuity": 56,
-     "starts_continuity": 49,
-     "transfer_churn": 12
-    },
-    "away": {
-     "conference": "SEC",
-     "returning_production": 78,
-     "qb_continuity": 71,
-     "ol_continuity": 71,
-     "starts_continuity": 52,
-     "transfer_churn": 62
-    }
-   },
-   "p4": true,
-   "both_fbs": true,
-   "unproven": true,
-   "slug": "georgia-ole-miss"
-  },
-  {
-   "game_id": "401858291",
-   "season": 2026,
-   "week": 10,
-   "kickoff": "2026-11-08 00:30",
-   "home_team": "Notre Dame",
-   "away_team": "Miami",
-   "home_conference": "FBS Independents",
-   "away_conference": "ACC",
-   "neutral_site": false,
-   "venue": "Notre Dame Stadium",
-   "edgedesk_spread": -2,
-   "market_spread": -5.5,
-   "market_source": "supplied --lines file (reference, not a live bettable quote)",
-   "spread_gap": 3.5,
-   "confidence": 42,
-   "status": "PREDICTED",
-   "research_state": "REVIEW",
-   "research_state_label": "Worth researching",
-   "research_state_means": "EdgeDesk differs from the market by 3.5 points — enough to justify deeper research, but the disagreement has not been validated as a betting edge.",
-   "factors": [
-    {
-     "sign": "+",
-     "text": "Playing at Notre Dame is worth 2.8 points"
-    },
-    {
-     "sign": "+",
-     "text": "Stylistically the matchup favours Miami by 0.7 points: ball control vs front disruption"
-    },
-    {
-     "sign": "+",
-     "text": "Miami is the better football team by 0.1 points on opponent-adjusted results, with roughly 30% of it still…"
-    },
-    {
-     "sign": "-",
-     "text": "The projection could be wrong because 100% of the model’s own input contract was empty for this game"
-    }
-   ],
-   "qb_status": "home QB unknown; away QB unknown",
-   "context": {
-    "home": {
-     "conference": "FBS Independents",
-     "returning_production": 70,
-     "qb_continuity": 50,
-     "ol_continuity": 73,
-     "starts_continuity": 50,
-     "transfer_churn": 58
-    },
-    "away": {
-     "conference": "ACC",
-     "returning_production": 35,
-     "qb_continuity": 67,
-     "ol_continuity": 53,
-     "starts_continuity": 44,
-     "transfer_churn": 47
-    }
-   },
-   "p4": true,
-   "both_fbs": true,
-   "unproven": true,
-   "slug": "miami-notre-dame"
-  },
   {
    "game_id": "401858288",
    "season": 2026,
@@ -707,6 +335,68 @@
    "slug": "iowa-state-baylor"
   },
   {
+   "game_id": "401858511",
+   "season": 2026,
+   "week": 10,
+   "kickoff": "2026-11-07 05:00",
+   "home_team": "Michigan",
+   "away_team": "Michigan State",
+   "home_conference": "Big Ten",
+   "away_conference": "Big Ten",
+   "neutral_site": false,
+   "venue": "Michigan Stadium",
+   "edgedesk_spread": -11.5,
+   "market_spread": null,
+   "market_source": "none joined — no book number available for this game",
+   "spread_gap": null,
+   "confidence": 42,
+   "status": "PREDICTED",
+   "research_state": "NO_MARKET",
+   "research_state_label": "No market",
+   "research_state_means": "No book number has joined this game yet, so there is nothing to agree or disagree with. The projection stands on its own until a quote lands.",
+   "factors": [
+    {
+     "sign": "+",
+     "text": "Michigan is the better football team by 8.1 points on opponent-adjusted results, with roughly 30% of it still…"
+    },
+    {
+     "sign": "+",
+     "text": "Playing at Michigan is worth 2.8 points"
+    },
+    {
+     "sign": "+",
+     "text": "Stylistically the matchup favours Michigan by 0.6 points: ball control vs front disruption"
+    },
+    {
+     "sign": "-",
+     "text": "The projection could be wrong because 100% of the model’s own input contract was empty for this game"
+    }
+   ],
+   "qb_status": "home QB unknown; away QB unknown",
+   "context": {
+    "home": {
+     "conference": "Big Ten",
+     "returning_production": 56,
+     "qb_continuity": 40,
+     "ol_continuity": 68,
+     "starts_continuity": 42,
+     "transfer_churn": 35
+    },
+    "away": {
+     "conference": "Big Ten",
+     "returning_production": 30,
+     "qb_continuity": 40,
+     "ol_continuity": 44,
+     "starts_continuity": 17,
+     "transfer_churn": 0
+    }
+   },
+   "p4": true,
+   "both_fbs": true,
+   "unproven": true,
+   "slug": "michigan-state-michigan"
+  },
+  {
    "game_id": "401858512",
    "season": 2026,
    "week": 10,
@@ -953,6 +643,68 @@
    "both_fbs": true,
    "unproven": true,
    "slug": "texas-missouri"
+  },
+  {
+   "game_id": "401856849",
+   "season": 2026,
+   "week": 10,
+   "kickoff": "2026-11-07 17:00",
+   "home_team": "Utah",
+   "away_team": "BYU",
+   "home_conference": "Big 12",
+   "away_conference": "Big 12",
+   "neutral_site": false,
+   "venue": "Rice-Eccles Stadium",
+   "edgedesk_spread": -12.1,
+   "market_spread": null,
+   "market_source": "none joined — no book number available for this game",
+   "spread_gap": null,
+   "confidence": 42,
+   "status": "PREDICTED",
+   "research_state": "NO_MARKET",
+   "research_state_label": "No market",
+   "research_state_means": "No book number has joined this game yet, so there is nothing to agree or disagree with. The projection stands on its own until a quote lands.",
+   "factors": [
+    {
+     "sign": "+",
+     "text": "Utah is the better football team by 8.2 points on opponent-adjusted results, with roughly 30% of it still…"
+    },
+    {
+     "sign": "+",
+     "text": "Playing at Utah is worth 2.8 points"
+    },
+    {
+     "sign": "+",
+     "text": "Stylistically the matchup favours Utah by 1.1 points: ball control vs front disruption"
+    },
+    {
+     "sign": "-",
+     "text": "The projection could be wrong because 100% of the model’s own input contract was empty for this game"
+    }
+   ],
+   "qb_status": "home QB unknown; away QB unknown",
+   "context": {
+    "home": {
+     "conference": "Big 12",
+     "returning_production": 67,
+     "qb_continuity": 40,
+     "ol_continuity": 53,
+     "starts_continuity": 55,
+     "transfer_churn": 38
+    },
+    "away": {
+     "conference": "Big 12",
+     "returning_production": 70,
+     "qb_continuity": 40,
+     "ol_continuity": 58,
+     "starts_continuity": 45,
+     "transfer_churn": 73
+    }
+   },
+   "p4": true,
+   "both_fbs": true,
+   "unproven": true,
+   "slug": "byu-utah"
   },
   {
    "game_id": "401856854",
@@ -1513,6 +1265,130 @@
    "slug": "texas-a-m-south-carolina"
   },
   {
+   "game_id": "401856740",
+   "season": 2026,
+   "week": 10,
+   "kickoff": "2026-11-07 20:30",
+   "home_team": "LSU",
+   "away_team": "Alabama",
+   "home_conference": "SEC",
+   "away_conference": "SEC",
+   "neutral_site": false,
+   "venue": "Tiger Stadium (LA)",
+   "edgedesk_spread": -4,
+   "market_spread": null,
+   "market_source": "none joined — no book number available for this game",
+   "spread_gap": null,
+   "confidence": 42,
+   "status": "PREDICTED",
+   "research_state": "NO_MARKET",
+   "research_state_label": "No market",
+   "research_state_means": "No book number has joined this game yet, so there is nothing to agree or disagree with. The projection stands on its own until a quote lands.",
+   "factors": [
+    {
+     "sign": "+",
+     "text": "LSU is the better football team by 3.0 points on opponent-adjusted results, with roughly 30% of it still inherited…"
+    },
+    {
+     "sign": "+",
+     "text": "Playing at LSU is worth 2.8 points"
+    },
+    {
+     "sign": "+",
+     "text": "Stylistically the matchup favours Alabama by 1.9 points: early-down offence vs early-down defence"
+    },
+    {
+     "sign": "-",
+     "text": "The projection could be wrong because 100% of the model’s own input contract was empty for this game"
+    }
+   ],
+   "qb_status": "home QB unknown; away QB unknown",
+   "context": {
+    "home": {
+     "conference": "SEC",
+     "returning_production": 22,
+     "qb_continuity": 0,
+     "ol_continuity": 40,
+     "starts_continuity": 46,
+     "transfer_churn": 0
+    },
+    "away": {
+     "conference": "SEC",
+     "returning_production": 28,
+     "qb_continuity": 67,
+     "ol_continuity": 48,
+     "starts_continuity": 22,
+     "transfer_churn": 22
+    }
+   },
+   "p4": true,
+   "both_fbs": true,
+   "unproven": true,
+   "slug": "alabama-lsu"
+  },
+  {
+   "game_id": "401858514",
+   "season": 2026,
+   "week": 10,
+   "kickoff": "2026-11-07 20:30",
+   "home_team": "Ohio State",
+   "away_team": "Oregon",
+   "home_conference": "Big Ten",
+   "away_conference": "Big Ten",
+   "neutral_site": false,
+   "venue": "Ohio Stadium",
+   "edgedesk_spread": -12.2,
+   "market_spread": null,
+   "market_source": "none joined — no book number available for this game",
+   "spread_gap": null,
+   "confidence": 42,
+   "status": "PREDICTED",
+   "research_state": "NO_MARKET",
+   "research_state_label": "No market",
+   "research_state_means": "No book number has joined this game yet, so there is nothing to agree or disagree with. The projection stands on its own until a quote lands.",
+   "factors": [
+    {
+     "sign": "+",
+     "text": "Ohio State is the better football team by 7.9 points on opponent-adjusted results, with roughly 30% of it still…"
+    },
+    {
+     "sign": "+",
+     "text": "Playing at Ohio State is worth 2.8 points"
+    },
+    {
+     "sign": "+",
+     "text": "Stylistically the matchup favours Ohio State by 1.5 points: ball control vs front disruption"
+    },
+    {
+     "sign": "-",
+     "text": "The projection could be wrong because 100% of the model’s own input contract was empty for this game"
+    }
+   ],
+   "qb_status": "home QB unknown; away QB unknown",
+   "context": {
+    "home": {
+     "conference": "Big Ten",
+     "returning_production": 70,
+     "qb_continuity": 50,
+     "ol_continuity": 65,
+     "starts_continuity": 41,
+     "transfer_churn": 8
+    },
+    "away": {
+     "conference": "Big Ten",
+     "returning_production": 72,
+     "qb_continuity": 67,
+     "ol_continuity": 70,
+     "starts_continuity": 47,
+     "transfer_churn": 18
+    }
+   },
+   "p4": true,
+   "both_fbs": true,
+   "unproven": true,
+   "slug": "oregon-ohio-state"
+  },
+  {
    "game_id": "401856850",
    "season": 2026,
    "week": 10,
@@ -1699,6 +1575,68 @@
    "slug": "kentucky-tennessee"
   },
   {
+   "game_id": "401856741",
+   "season": 2026,
+   "week": 10,
+   "kickoff": "2026-11-08 00:30",
+   "home_team": "Ole Miss",
+   "away_team": "Georgia",
+   "home_conference": "SEC",
+   "away_conference": "SEC",
+   "neutral_site": false,
+   "venue": "Vaught-Hemingway Stadium",
+   "edgedesk_spread": -5,
+   "market_spread": null,
+   "market_source": "none joined — no book number available for this game",
+   "spread_gap": null,
+   "confidence": 42,
+   "status": "PREDICTED",
+   "research_state": "NO_MARKET",
+   "research_state_label": "No market",
+   "research_state_means": "No book number has joined this game yet, so there is nothing to agree or disagree with. The projection stands on its own until a quote lands.",
+   "factors": [
+    {
+     "sign": "+",
+     "text": "Playing at Ole Miss is worth 2.8 points"
+    },
+    {
+     "sign": "+",
+     "text": "Stylistically the matchup favours Ole Miss by 1.7 points: ball control vs front disruption"
+    },
+    {
+     "sign": "+",
+     "text": "Ole Miss is the better football team by 0.5 points on opponent-adjusted results, with roughly 30% of it still…"
+    },
+    {
+     "sign": "-",
+     "text": "The projection could be wrong because 100% of the model’s own input contract was empty for this game"
+    }
+   ],
+   "qb_status": "home QB unknown; away QB unknown",
+   "context": {
+    "home": {
+     "conference": "SEC",
+     "returning_production": 54,
+     "qb_continuity": 50,
+     "ol_continuity": 56,
+     "starts_continuity": 49,
+     "transfer_churn": 12
+    },
+    "away": {
+     "conference": "SEC",
+     "returning_production": 78,
+     "qb_continuity": 71,
+     "ol_continuity": 71,
+     "starts_continuity": 52,
+     "transfer_churn": 62
+    }
+   },
+   "p4": true,
+   "both_fbs": true,
+   "unproven": true,
+   "slug": "georgia-ole-miss"
+  },
+  {
    "game_id": "401856852",
    "season": 2026,
    "week": 10,
@@ -1821,6 +1759,68 @@
    "both_fbs": true,
    "unproven": true,
    "slug": "louisville-georgia-tech"
+  },
+  {
+   "game_id": "401858291",
+   "season": 2026,
+   "week": 10,
+   "kickoff": "2026-11-08 00:30",
+   "home_team": "Notre Dame",
+   "away_team": "Miami",
+   "home_conference": "FBS Independents",
+   "away_conference": "ACC",
+   "neutral_site": false,
+   "venue": "Notre Dame Stadium",
+   "edgedesk_spread": -2,
+   "market_spread": null,
+   "market_source": "none joined — no book number available for this game",
+   "spread_gap": null,
+   "confidence": 42,
+   "status": "PREDICTED",
+   "research_state": "NO_MARKET",
+   "research_state_label": "No market",
+   "research_state_means": "No book number has joined this game yet, so there is nothing to agree or disagree with. The projection stands on its own until a quote lands.",
+   "factors": [
+    {
+     "sign": "+",
+     "text": "Playing at Notre Dame is worth 2.8 points"
+    },
+    {
+     "sign": "+",
+     "text": "Stylistically the matchup favours Miami by 0.7 points: ball control vs front disruption"
+    },
+    {
+     "sign": "+",
+     "text": "Miami is the better football team by 0.1 points on opponent-adjusted results, with roughly 30% of it still…"
+    },
+    {
+     "sign": "-",
+     "text": "The projection could be wrong because 100% of the model’s own input contract was empty for this game"
+    }
+   ],
+   "qb_status": "home QB unknown; away QB unknown",
+   "context": {
+    "home": {
+     "conference": "FBS Independents",
+     "returning_production": 70,
+     "qb_continuity": 50,
+     "ol_continuity": 73,
+     "starts_continuity": 50,
+     "transfer_churn": 58
+    },
+    "away": {
+     "conference": "ACC",
+     "returning_production": 35,
+     "qb_continuity": 67,
+     "ol_continuity": 53,
+     "starts_continuity": 44,
+     "transfer_churn": 47
+    }
+   },
+   "p4": true,
+   "both_fbs": true,
+   "unproven": true,
+   "slug": "miami-notre-dame"
   },
   {
    "game_id": "401856739",
@@ -4163,6 +4163,68 @@
    "both_fbs": true,
    "unproven": true,
    "slug": "missouri-state-florida-international"
+  },
+  {
+   "game_id": "401866462",
+   "season": 2026,
+   "week": 11,
+   "kickoff": "2026-11-12 00:30",
+   "home_team": "Central Michigan",
+   "away_team": "Sacramento State",
+   "home_conference": "Mid-American",
+   "away_conference": "Mid-American",
+   "neutral_site": false,
+   "venue": "Kelly/Shorts Stadium",
+   "edgedesk_spread": -13.5,
+   "market_spread": null,
+   "market_source": "none joined — no book number available for this game",
+   "spread_gap": null,
+   "confidence": 30,
+   "status": "PREDICTED",
+   "research_state": "THIN",
+   "research_state_label": "Limited data",
+   "research_state_means": "EdgeDesk does not have enough reliable information to price this matchup confidently yet. Read the number as provisional, not as a disagreement with anyone.",
+   "factors": [
+    {
+     "sign": "+",
+     "text": "Central Michigan is the better football team by 10.7 points on opponent-adjusted results, with roughly 30% of it…"
+    },
+    {
+     "sign": "+",
+     "text": "Playing at Central Michigan is worth 2.8 points"
+    },
+    {
+     "sign": "-",
+     "text": "The projection could be wrong because 100% of the model’s own input contract was empty for this game"
+    },
+    {
+     "sign": "?",
+     "text": "9 inputs EdgeDesk could not read for this game"
+    }
+   ],
+   "qb_status": "home QB unknown; away QB unknown",
+   "context": {
+    "home": {
+     "conference": "Mid-American",
+     "returning_production": 27,
+     "qb_continuity": 67,
+     "ol_continuity": 48,
+     "starts_continuity": 28,
+     "transfer_churn": 55
+    },
+    "away": {
+     "conference": "Mid-American",
+     "returning_production": null,
+     "qb_continuity": 0,
+     "ol_continuity": 50,
+     "starts_continuity": null,
+     "transfer_churn": 53
+    }
+   },
+   "p4": false,
+   "both_fbs": true,
+   "unproven": true,
+   "slug": "sacramento-state-central-michigan"
   },
   {
    "game_id": "401866457",
