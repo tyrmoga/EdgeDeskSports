@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "georgetown",
+ "host": "guhoyas.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2025,
+ "season_label": "2025",
+ "url": "https://guhoyas.com/sports/womens-volleyball/roster/2025",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:grace-albaugh","name":"Grace Albaugh","first":"Grace","last":"Albaugh","jersey":"15","pos":"Outside Hitter","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Jacksonville, Fla.","high_school":"Bolles School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:vaughan-anoa-i","name":"Vaughan Anoa'i","first":"Vaughan","last":"Anoa'i","jersey":"8","pos":"Middle Blocker","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"Los Angeles, Calif.","high_school":"Archer School for Girls","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maria-filippova","name":"Maria Filippova","first":"Maria","last":"Filippova","jersey":"2","pos":"Outside Hitter","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Gaithersburg, Md.","high_school":"Northwest","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jessica-lee","name":"Jessica Lee","first":"Jessica","last":"Lee","jersey":"5","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"Ypsilanti, Mich.","high_school":"Skyline High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kamryn-lee-caracci","name":"Kamryn Lee-Caracci","first":"Kamryn","last":"Lee-Caracci","jersey":"9","pos":"Middle Blocker","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"La Grange, Ill.","high_school":"Lyons Township","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:katherine-mcgregor","name":"Katherine McGregor","first":"Katherine","last":"McGregor","jersey":"11","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Wilmette, Ill.","high_school":"New Trier Township High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sydney-mercado","name":"Sydney Mercado","first":"Sydney","last":"Mercado","jersey":"17","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":63,"weight":null,"hometown":"Long Beach, Calif.","high_school":"Long Beach Polytechnic High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:taylor-mercado","name":"Taylor Mercado","first":"Taylor","last":"Mercado","jersey":"3","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":63,"weight":null,"hometown":"Long Beach, Calif.","high_school":"Long Beach Polytechnic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dionna-mitchell","name":"Dionna Mitchell","first":"Dionna","last":"Mitchell","jersey":"22","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Orlando, Fla.","high_school":"Timber Creek","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:natalie-nguyen","name":"Natalie Nguyen","first":"Natalie","last":"Nguyen","jersey":"7","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":65,"weight":null,"hometown":"Vienna, Va.","high_school":"Flint Hill","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:berkeley-ploder","name":"Berkeley Ploder","first":"Berkeley","last":"Ploder","jersey":"13","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Barrington, Ill.","high_school":"Barrington","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jade-smith","name":"Jade Smith","first":"Jade","last":"Smith","jersey":"4","pos":"Libero","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":64,"weight":null,"hometown":"Houston, Texas","high_school":"Mayde Creek HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:samantha-soderlund","name":"Samantha Soderlund","first":"Samantha","last":"Soderlund","jersey":"23","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Naples, Fla.","high_school":"Seacrest Country Day School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:fiona-turnbull","name":"Fiona Turnbull","first":"Fiona","last":"Turnbull","jersey":"21","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Geneva, Ill.","high_school":"Geneva Community High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:juleigh-urbina","name":"Juleigh Urbina","first":"Juleigh","last":"Urbina","jersey":"20","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Lakeland, Fla.","high_school":"McKeel Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

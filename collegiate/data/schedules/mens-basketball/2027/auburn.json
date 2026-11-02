@@ -8,15 +8,12 @@
  "season_label": "2026-27",
  "url": "https://auburntigers.com/sports/mens-basketball/schedule/season/2026-27",
  "first_read": "2026-10-26",
- "last_read": "2026-10-26",
+ "last_read": "2026-11-02",
  "readers": "sidearm,sidearm_vue,sidearm_legacy,wmt+themes10+sport_path+plain_page",
- "games_listed": 36,
- "finals": 1,
+ "games_listed": 33,
+ "finals": 0,
  "undated": 0,
  "games": [
-  {"game_key":null,"date":"2026-10-14","time":"19:00","site":"N","opponent":"Florida State (Exh.)","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"final","us":71,"them":82,"outcome":"L","innings":null,"location":"Birmingham, AL","event":null,"boxscore":null,"note":null,"exhibition":true},
-  {"game_key":null,"date":"2026-10-22","time":"19:00","site":"N","opponent":"Alabama (Exh.)","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"final","us":85,"them":87,"outcome":"L","innings":null,"location":"Birmingham, AL","event":null,"boxscore":null,"note":null,"exhibition":true},
-  {"game_key":null,"date":"2026-10-29","time":"19:00","site":"H","opponent":"Samford (Exh.)","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Auburn, AL","event":null,"boxscore":null,"note":null,"exhibition":true},
   {"game_key":null,"date":"2026-11-04","time":"19:00","site":"H","opponent":"Southeastern Louisiana","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Auburn, AL","event":null,"boxscore":null,"note":null},
   {"game_key":null,"date":"2026-11-09","time":"20:00","site":"H","opponent":"Appalachian State","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Auburn, AL","event":null,"boxscore":null,"note":null},
   {"game_key":null,"date":"2026-11-13","time":"20:00","site":"H","opponent":"Arizona","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Auburn, AL","event":null,"boxscore":null,"note":null},
@@ -49,6 +46,6 @@
   {"game_key":null,"date":"2027-02-27","time":"10:28","site":"A","opponent":"Kentucky","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Lexington, KY","event":null,"boxscore":null,"note":null},
   {"game_key":null,"date":"2027-03-02","time":"21:00","site":"A","opponent":"Ole Miss","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Oxford, MS","event":null,"boxscore":null,"note":null},
   {"game_key":null,"date":"2027-03-06","time":"17:00","site":"H","opponent":"Alabama","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Auburn, AL","event":null,"boxscore":null,"note":null},
-  {"game_key":null,"date":"2026-10-14","time":"19:00","site":"N","opponent":"SEC Tournament","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"final","us":71,"them":82,"outcome":"L","innings":null,"location":"Nashville, TN","event":null,"boxscore":null,"note":null}
+  {"game_key":null,"date":"2026-11-04","time":"19:00","site":"N","opponent":"SEC Tournament","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Nashville, TN","event":null,"boxscore":null,"note":null}
  ]
 }

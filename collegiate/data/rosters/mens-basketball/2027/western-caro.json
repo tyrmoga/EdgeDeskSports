@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "western-caro",
+ "host": "catamountsports.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://catamountsports.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:cross-arias","name":"Cross Arias","first":"Cross","last":"Arias","jersey":"14","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":180,"hometown":"Lincolnton, N.C.","high_school":"Maiden HS","previous_school":"Emory & Henry","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jake-baker","name":"Jake Baker","first":"Jake","last":"Baker","jersey":"9","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":174,"hometown":"Concord, N.C.","high_school":"Cannon HS","previous_school":"East Carolina","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:malachi-brown","name":"Malachi Brown","first":"Malachi","last":"Brown","jersey":"22","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":175,"hometown":"Buford, Ga.","high_school":"Legacy Early College","previous_school":"Georgia State/Seton Hall","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:travelle-bryson","name":"Travelle Bryson","first":"Travelle","last":"Bryson","jersey":"4","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":195,"hometown":"Anderson, S.C.","high_school":"Hopewell HS","previous_school":"Howard/Vincennes","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:samuel-dada","name":"Samuel Dada","first":"Samuel","last":"Dada","jersey":"12","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":81,"weight":225,"hometown":"Lagos, Nigeria","high_school":"Link Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:titian-derosa","name":"Titian DeRosa","first":"Titian","last":"DeRosa","jersey":"5","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":150,"hometown":"Bethesda, Md.","high_school":"Whitman HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:drew-hollifield","name":"Drew Hollifield","first":"Drew","last":"Hollifield","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":190,"hometown":"Shelby, N.C.","high_school":"Shelby HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isaiah-manning","name":"Isaiah Manning","first":"Isaiah","last":"Manning","jersey":"7","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":225,"hometown":"Mansfield, Texas","high_school":"Mansfield Legacy","previous_school":"Sam Houston State/TCU","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jose-martins","name":"Jose Martins","first":"Jose","last":"Martins","jersey":"3","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":175,"hometown":"Katy, Texas","high_school":"Seven Lakes HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:antonio-mckoy","name":"Antonio McKoy","first":"Antonio","last":"McKoy","jersey":"6","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":210,"hometown":"Salemburg, N.C.","high_school":"Harrells Christian Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaxon-prunty","name":"Jaxon Prunty","first":"Jaxon","last":"Prunty","jersey":"0","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":203,"hometown":"Charlotte, N.C.","high_school":"Lexington HS","previous_school":"College of Charleston","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:donovan-raymond","name":"Donovan Raymond","first":"Donovan","last":"Raymond","jersey":"8","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":82,"weight":225,"hometown":"Charlotte, N.C.","high_school":"West Charlotte HS","previous_school":"Old Dominion/Hampton","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaeden-roberts","name":"Jaeden Roberts","first":"Jaeden","last":"Roberts","jersey":"2","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":175,"hometown":"Boston, Mass.","high_school":"Putnam Science Academy","previous_school":"Hofstra","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tayeshaun-smith","name":"Tayeshaun Smith","first":"Tayeshaun","last":"Smith","jersey":"21","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":220,"hometown":"Raleigh, N.C.","high_school":"Combine Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:fola-sodipo","name":"Fola Sodipo","first":"Fola","last":"Sodipo","jersey":"23","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":215,"hometown":"Katy, Texas","high_school":"Tompkins HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jacob-zhu","name":"Jacob Zhu","first":"Jacob","last":"Zhu","jersey":"11","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":175,"hometown":"Atlanta, Ga.","high_school":"Overtime Elite","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

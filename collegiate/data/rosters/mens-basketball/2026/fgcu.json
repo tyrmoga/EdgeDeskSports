@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "fgcu",
+ "host": "fgcuathletics.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://fgcuathletics.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:evan-barlow","name":"Evan Barlow","first":"Evan","last":"Barlow","jersey":"12","pos":null,"class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":76,"weight":null,"hometown":"Morton, Ill.","high_school":"Morton HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rahmir-barno","name":"Rahmir Barno","first":"Rahmir","last":"Barno","jersey":"1","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Philadelphia, Pa.","high_school":"Imhotep Charter","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:michael-duax","name":"Michael Duax","first":"Michael","last":"Duax","jersey":"15","pos":null,"class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":77,"weight":null,"hometown":"Dubuque, Iowa","high_school":"Dubuque Hempstead","previous_school":"UNI","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brandon-dwyer","name":"Brandon Dwyer","first":"Brandon","last":"Dwyer","jersey":"31","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":75,"weight":null,"hometown":"Newark, Del.","high_school":"Sanford School","previous_school":"La Salle","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jordan-ellerbee","name":"Jordan Ellerbee","first":"Jordan","last":"Ellerbee","jersey":"7","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Philadelphia, Pa.","high_school":"St. Joes Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tristen-guillouette","name":"Tristen Guillouette","first":"Tristen","last":"Guillouette","jersey":"21","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":82,"weight":null,"hometown":"Willingboro, N.J.","high_school":"George School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chase-konieczny","name":"Chase Konieczny","first":"Chase","last":"Konieczny","jersey":"23","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":null,"hometown":"South Bend, Ind.","high_school":"St. Joseph HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:j-r-konieczny","name":"J.R. Konieczny","first":"J.R.","last":"Konieczny","jersey":"20","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":79,"weight":null,"hometown":"South Bend, Ind.","high_school":"South Bend St. Joseph","previous_school":"Notre Dame","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isaiah-malone","name":"Isaiah Malone","first":"Isaiah","last":"Malone","jersey":"32","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":null,"hometown":"LaGrange, Ind.","high_school":"Prairie Heights HS","previous_school":"Saint Francis","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:matt-mccarthy","name":"Matt McCarthy","first":"Matt","last":"McCarthy","jersey":"4","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":null,"hometown":"Aston, Pa.","high_school":"Episcopal Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jack-reddick","name":"Jack Reddick","first":"Jack","last":"Reddick","jersey":"0","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":null,"hometown":"Eddyville, Ky.","high_school":"Lyon County","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rory-stewart","name":"Rory Stewart","first":"Rory","last":"Stewart","jersey":"6","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":null,"hometown":"London, England","high_school":null,"previous_school":"Rhode Island","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gabe-tanner","name":"Gabe Tanner","first":"Gabe","last":"Tanner","jersey":"3","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":null,"hometown":"Scranton, Pa.","high_school":"The Perkiomen School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bb-washington","name":"BB Washington","first":"BB","last":"Washington","jersey":"8","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":null,"hometown":"Houston, Texas","high_school":"Christian Academy of Louisville","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:george-washington-iii","name":"George Washington III","first":"George","last":"Washington III","jersey":"10","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Louisville, Ky.","high_school":"Chaminade Julienne HS","previous_school":"Richmond / Michigan","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:darren-williams","name":"Darren Williams","first":"Darren","last":"Williams","jersey":"2","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":null,"hometown":"Philadelphia, Pa.","high_school":"Archbishop Ryan HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

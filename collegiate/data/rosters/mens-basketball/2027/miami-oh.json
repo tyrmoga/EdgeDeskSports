@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "miami-oh",
+ "host": "miamiredhawks.com",
+ "platform": "sidearm",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://miamiredhawks.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"3277","name":"Blake Anderson","first":"Blake","last":"Anderson","jersey":"33","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":195,"hometown":"Evansville, Ind.","high_school":"Evansville Memorial","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3609","name":"Almar Atlason","first":"Almar","last":"Atlason","jersey":"11","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":230,"hometown":"Reykjavík, Iceland","high_school":"Sunrise Christian Academy","previous_school":"Bradley University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3882","name":"Preston Copeland","first":"Preston","last":"Copeland","jersey":"5","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":81,"weight":215,"hometown":"Clayton, N.C.","high_school":"Clayton High School","previous_school":"Ball State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3881","name":"Stevie Elam","first":"Stevie","last":"Elam","jersey":"8","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":210,"hometown":"Adrian, Mich.","high_school":"Adrian High School","previous_school":"Milwaukee","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3886","name":"Anthony Fresh","first":"Anthony","last":"Fresh","jersey":"1","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":180,"hometown":"Jeffersonville, Ind.","high_school":"Charlestown","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3885","name":"Alan Horton","first":"Alan","last":"Horton","jersey":"00","pos":"F/C","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":81,"weight":240,"hometown":"Toledo, Ohio","high_school":"St. Francis de Sales School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3272","name":"Evan Ipsaro","first":"Evan","last":"Ipsaro","jersey":"2","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":185,"hometown":"Cincinnati, Ohio","high_school":"Covington Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3884","name":"Danny Kelly","first":"Danny","last":"Kelly","jersey":"35","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":210,"hometown":"Cincinnati, Ohio","high_school":"Archbishop Moeller High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3622","name":"Justin Kirby","first":"Justin","last":"Kirby","jersey":"6","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":190,"hometown":"Fishers, Ind","high_school":"Fishers High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3275","name":"Jackson Kotecki","first":"Jackson","last":"Kotecki","jersey":"24","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":81,"weight":225,"hometown":"Chicago, Ill.","high_school":"St. Ignatius College Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3624","name":"Tyler Robbins","first":"Tyler","last":"Robbins","jersey":"20","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":82,"weight":250,"hometown":"Pittsburgh, Pa.","high_school":"Upper St. Clair","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3883","name":"Rich Rolf","first":"Rich","last":"Rolf","jersey":"9","pos":"F","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":79,"weight":220,"hometown":"Centerville, Ohio","high_school":"Centerville High School","previous_school":"Youngstown State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3458","name":"Luke Skaljac","first":"Luke","last":"Skaljac","jersey":"3","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":190,"hometown":"Brecksville, Ohio","high_school":"Brecksville-Broadview Heights","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3625","name":"Leshawn Stowers","first":"Leshawn","last":"Stowers","jersey":"21","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":77,"weight":195,"hometown":"Peoria, Ill.","high_school":"Peoria Central","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3626","name":"Kyle Waltz","first":"Kyle","last":"Waltz","jersey":"25","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":220,"hometown":"Elmhurst, Ill.","high_school":"York","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3461","name":"Antwone Woolfolk","first":"Antwone","last":"Woolfolk","jersey":"13","pos":"F","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":81,"weight":250,"hometown":"Cleveland, Ohio","high_school":"Charles F. Brush","previous_school":"Rutgers","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3510","name":"Ethan Wright","first":"Ethan","last":"Wright","jersey":"7","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":190,"hometown":"Philadelphia, Pa.","high_school":"Spring Valley Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

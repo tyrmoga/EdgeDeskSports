@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "arkansas-st",
+ "host": "astateredwolves.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://astateredwolves.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:grayson-bennett","name":"Grayson Bennett","first":"Grayson","last":"Bennett","jersey":"6","pos":"F","class":null,"redshirt":false,"class_raw":"2nd Year","height_in":80,"weight":198,"hometown":"Houston, Texas","high_school":"La Lumiere (IN) HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:royal-blue-smith","name":"Royal Blue Smith","first":"Royal","last":"Blue Smith","jersey":"3","pos":"G","class":null,"redshirt":false,"class_raw":"2nd Year","height_in":76,"weight":189,"hometown":"Parkland, Fla.","high_school":"Gillion Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:diggy-coleman","name":"Diggy Coleman","first":"Diggy","last":"Coleman","jersey":"13","pos":"G","class":null,"redshirt":false,"class_raw":"1st Year","height_in":71,"weight":193,"hometown":"Marianna, Fla.","high_school":"Dothan HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:amadou-doumbia","name":"Amadou Doumbia","first":"Amadou","last":"Doumbia","jersey":"14","pos":"F","class":null,"redshirt":false,"class_raw":"3rd Year","height_in":84,"weight":212,"hometown":"Bamako, Mali","high_school":"Putnam Science Academy","previous_school":"North Carolina A&T","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tameron-ferguson","name":"Tameron Ferguson","first":"Tameron","last":"Ferguson","jersey":"2","pos":"G","class":null,"redshirt":false,"class_raw":"3rd Year","height_in":76,"weight":179,"hometown":"St. Cloud, Minn.","high_school":"St. Cloud Tech HS","previous_school":"Augustana","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cj-geathers","name":"CJ Geathers","first":"CJ","last":"Geathers","jersey":"5","pos":"G","class":null,"redshirt":false,"class_raw":"2nd Year","height_in":77,"weight":190,"hometown":"Lithia Springs, Ga.","high_school":"Chapel Hill HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anthony-hester","name":"Anthony Hester","first":"Anthony","last":"Hester","jersey":"10","pos":"G","class":null,"redshirt":false,"class_raw":"1st Year","height_in":78,"weight":200,"hometown":"Little Rock, Ark.","high_school":"Mills University Studies HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aliou-maiga","name":"Aliou Maiga","first":"Aliou","last":"Maiga","jersey":"34","pos":"F","class":null,"redshirt":false,"class_raw":"3rd Year","height_in":80,"weight":204,"hometown":"Bamako, Mali","high_school":null,"previous_school":"South Plains College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aaron-mcgee","name":"Aaron McGee","first":"Aaron","last":"McGee","jersey":"1","pos":"G","class":null,"redshirt":false,"class_raw":"1st Year","height_in":75,"weight":179,"hometown":"Melbourne, Fla.","high_school":"Gillion Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:delang-muon","name":"Delang Muon","first":"Delang","last":"Muon","jersey":"4","pos":"F","class":null,"redshirt":false,"class_raw":"4th Year","height_in":80,"weight":203,"hometown":"Frankston, Australia","high_school":"Grace Baptist HS","previous_school":"New Mexico Junior College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rho-omed","name":"Rho Omed","first":"Rho","last":"Omed","jersey":"11","pos":"F","class":null,"redshirt":false,"class_raw":"2nd Year","height_in":83,"weight":210,"hometown":"Calgary, Canada","high_school":"The Academy Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jordan-pyke","name":"Jordan Pyke","first":"Jordan","last":"Pyke","jersey":"7","pos":"G","class":null,"redshirt":false,"class_raw":"4th Year","height_in":79,"weight":205,"hometown":"Greensboro, N.C.","high_school":"Shining Light Academy","previous_school":"Incarnate Word","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:moussa-sy","name":"Moussa Sy","first":"Moussa","last":"Sy","jersey":"43","pos":"F","class":null,"redshirt":false,"class_raw":"1st Year","height_in":84,"weight":204,"hometown":"Dakar, Senegal","high_school":"West Oaks (FL) Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:layne-taylor","name":"Layne Taylor","first":"Layne","last":"Taylor","jersey":"33","pos":"G","class":null,"redshirt":false,"class_raw":"3rd Year","height_in":71,"weight":176,"hometown":"Farmington, Ark.","high_school":"Farmington HS","previous_school":"Murray State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chaz-watson","name":"Chaz Watson","first":"Chaz","last":"Watson","jersey":"0","pos":"G","class":null,"redshirt":false,"class_raw":"3rd Year","height_in":75,"weight":187,"hometown":"Kansas City, Mo.","high_school":"Lee's Summit West HS","previous_school":"Indian Hills CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

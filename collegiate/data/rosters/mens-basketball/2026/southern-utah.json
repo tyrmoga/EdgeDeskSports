@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "southern-utah",
+ "host": "suutbirds.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://suutbirds.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:jalen-roc-lee","name":"Jalen (Roc) Lee","first":"Jalen","last":"(Roc) Lee","jersey":"9","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":null,"hometown":"Atlanta, Georgia","high_school":"West Oaks Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lorenzo-abellar","name":"Lorenzo Abellar","first":"Lorenzo","last":"Abellar","jersey":"4","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Las Vegas, NV","high_school":"Liberty High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cale-barclay","name":"Cale Barclay","first":"Cale","last":"Barclay","jersey":"24","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":null,"hometown":"Herriman, Utah","high_school":"Herriman High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:langston-binns","name":"Langston Binns","first":"Langston","last":"Binns","jersey":"10","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"Saint Paul, MN","high_school":"Tartan High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kai-burdick","name":"Kai Burdick","first":"Kai","last":"Burdick","jersey":"25","pos":"C","class":"SR","redshirt":false,"class_raw":"Senior","height_in":84,"weight":null,"hometown":"Carlsbad, CA","high_school":"Carlsbad High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isaiah-cottrell","name":"Isaiah Cottrell","first":"Isaiah","last":"Cottrell","jersey":"0","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":83,"weight":null,"hometown":"Las Vegas, Nevada","high_school":"Bishop Gorman High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elijah-duval","name":"Elijah Duval","first":"Elijah","last":"Duval","jersey":"1","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":null,"hometown":"Wilmington, Delaware","high_school":"Martin County High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaiden-feroah","name":"Jaiden Feroah","first":"Jaiden","last":"Feroah","jersey":"35","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":81,"weight":null,"hometown":"Draper, Utah","high_school":"Corner Canyon High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tanner-hayhurst","name":"Tanner Hayhurst","first":"Tanner","last":"Hayhurst","jersey":"3","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":null,"hometown":"Eagle, Idaho","high_school":"Eagle High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chuks-isitua","name":"Chuks Isitua","first":"Chuks","last":"Isitua","jersey":"23","pos":"F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":82,"weight":null,"hometown":"Lagos, Nigeria","high_school":"Yates High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brayden-johnson","name":"Brayden Johnson","first":"Brayden","last":"Johnson","jersey":"13","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Tulsa, Oklahoma","high_school":"Broken Arrow High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dylan-jones","name":"Dylan Jones","first":"Dylan","last":"Jones","jersey":"20","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":null,"hometown":"Saratoga Springs, Utah","high_school":"West Lake High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zeplin-kidd","name":"Zeplin Kidd","first":"Zeplin","last":"Kidd","jersey":"7","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":null,"hometown":"Atlanta, Georgia","high_school":"King's Ridge High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:juok-riak","name":"Juok Riak","first":"Juok","last":"Riak","jersey":"11","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":null,"hometown":"Madison, Wisconsin","high_school":"Madison La Follette High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:logan-stephens","name":"Logan Stephens","first":"Logan","last":"Stephens","jersey":"2","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":null,"hometown":"Decatur, Georgia","high_school":"Woodward Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

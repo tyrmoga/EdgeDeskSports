@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "butler",
+ "host": "butlersports.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://butlersports.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:samu-adler","name":"Samu Adler","first":"Samu","last":"Adler","jersey":"12","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":225,"hometown":"Espoo, Finland","high_school":null,"previous_school":"Salon Vilpas","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:treyson-anderson","name":"Treyson Anderson","first":"Treyson","last":"Anderson","jersey":"44","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":240,"hometown":"Lincoln, Neb.","high_school":"Pius X","previous_school":"North Dakota State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:herly-brutus","name":"Herly Brutus","first":"Herly","last":"Brutus","jersey":"0","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":210,"hometown":"Eustis, Fla.","high_school":"The Villages Charter School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:samis-calderon","name":"Samis Calderon","first":"Samis","last":"Calderon","jersey":"6","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":210,"hometown":"Vitoria ES, Brazil","high_school":"NBA Academy Latin America/Overtime Elite","previous_school":"Kansas","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bryson-cardinal","name":"Bryson Cardinal","first":"Bryson","last":"Cardinal","jersey":"35","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":79,"weight":210,"hometown":"Westfield, Ind.","high_school":"Guerin Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:asim-djulovic","name":"Asim Djulovic","first":"Asim","last":"Djulovic","jersey":"33","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":220,"hometown":"Novi Pazar, Serbia","high_school":null,"previous_school":"Mega Superbet","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jordan-ellerbee","name":"Jordan Ellerbee","first":"Jordan","last":"Ellerbee","jersey":"2","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":180,"hometown":"Philadelphia, Pa.","high_school":"St. Joseph's Prep","previous_school":"Florida Gulf Coast","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jalen-jackson","name":"Jalen Jackson","first":"Jalen","last":"Jackson","jersey":"1","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":74,"weight":200,"hometown":"Fort Wayne, Ind.","high_school":"Northrop","previous_school":"Purdue Fort Wayne","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:drayton-jones","name":"Drayton Jones","first":"Drayton","last":"Jones","jersey":"13","pos":"C","class":"SR","redshirt":false,"class_raw":"Senior","height_in":83,"weight":250,"hometown":"Houston, Texas","high_school":"Oak Hill Academy (Va.)","previous_school":"South Carolina State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:eduardo-klafke","name":"Eduardo Klafke","first":"Eduardo","last":"Klafke","jersey":"8","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":200,"hometown":"Franca SP, Brazil","high_school":"NBA Academy Latin America","previous_school":"Ole Miss","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:marko-maric","name":"Marko Maric","first":"Marko","last":"Maric","jersey":"11","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":84,"weight":210,"hometown":"Zagreb, Croatia","high_school":null,"previous_school":"Novi Zagreb","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ethan-mccomb","name":"Ethan McComb","first":"Ethan","last":"McComb","jersey":"3","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":190,"hometown":"Greenwood, Ind.","high_school":"Center Grove","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:christian-moore","name":"Christian Moore","first":"Christian","last":"Moore","jersey":"5","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":78,"weight":230,"hometown":"Los Angeles, Calif.","high_school":"Avon Old Farms School (Conn.)","previous_school":"The Citadel","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kevin-ndzie","name":"Kevin Ndzie","first":"Kevin","last":"Ndzie","jersey":"39","pos":"C","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":85,"weight":250,"hometown":"Yaoundé, Cameroon","high_school":null,"previous_school":"Urania Milano (Italy)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:baron-walker","name":"Baron Walker","first":"Baron","last":"Walker","jersey":"4","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":190,"hometown":"Noblesville, Ind.","high_school":"Noblesville","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

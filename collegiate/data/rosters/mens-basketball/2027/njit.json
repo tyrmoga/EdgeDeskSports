@@ -1,0 +1,29 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "njit",
+ "host": "njithighlanders.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://njithighlanders.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 13,
+ "players": [
+  {"pid":"slug:aj-altobelli","name":"AJ Altobelli","first":"AJ","last":"Altobelli","jersey":"5","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":165,"hometown":"Westfield, N.J.","high_school":"Union Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rocco-awad","name":"Rocco Awad","first":"Rocco","last":"Awad","jersey":"44","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":195,"hometown":"Windsor, Ontario","high_school":"London Basketball Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:david-bolden","name":"David Bolden","first":"David","last":"Bolden","jersey":"1","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":185,"hometown":"Milwaukee, Wis.","high_school":"Nicolet","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:math-o-coffi","name":"Mathéo Coffi","first":"Mathéo","last":"Coffi","jersey":"10","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":82,"weight":210,"hometown":"Strasbourg, France","high_school":"Lycée Marc Bloch","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:quentin-duncan","name":"Quentin Duncan","first":"Quentin","last":"Duncan","jersey":"14","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":180,"hometown":"Waterbury, Conn.","high_school":"Putnam Science Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jayonni-durrough","name":"Jayonni Durrough","first":"Jayonni","last":"Durrough","jersey":"0","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":210,"hometown":"Las Vegas, Nev.","high_school":"ABC Pep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:stefan-jimenez-vojnic","name":"Stefan Jimenez-Vojnic","first":"Stefan","last":"Jimenez-Vojnic","jersey":"13","pos":null,"class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":83,"weight":230,"hometown":"Toronto, Canada","high_school":"Academy of Central Florida","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:john-kelly","name":"John Kelly","first":"John","last":"Kelly","jersey":"25","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":215,"hometown":"Hillsborough, N.J.","high_school":"Rutgers Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brendan-oliver","name":"Brendan Oliver","first":"Brendan","last":"Oliver","jersey":"22","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":195,"hometown":"West Orange, N.J.","high_school":"Blair Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zack-scherler","name":"Zack Scherler","first":"Zack","last":"Scherler","jersey":"33","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":83,"weight":245,"hometown":"Clarkston, Mich.","high_school":"Vermont Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brandon-stores-jr-","name":"Brandon Stores Jr.","first":"Brandon","last":"Stores Jr.","jersey":"12","pos":null,"class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":77,"weight":210,"hometown":"Bronx, N.Y.","high_school":"St. Raymond High School for Boys","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mario-tatum-jr-","name":"Mario Tatum Jr.","first":"Mario","last":"Tatum Jr.","jersey":"2","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":190,"hometown":"Edgewood, Md.","high_school":"Our Lady of Mount Carmel","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:victor-vanderstraeten","name":"Victor Vanderstraeten","first":"Victor","last":"Vanderstraeten","jersey":"6","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":230,"hometown":"Antwerp, Belgium","high_school":"Topsportschool Antwerp","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

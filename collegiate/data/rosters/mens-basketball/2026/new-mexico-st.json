@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "new-mexico-st",
+ "host": "nmstatesports.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://nmstatesports.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:amarco-doyle","name":"Amarco Doyle","first":"Amarco","last":"Doyle","jersey":"20","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":null,"hometown":"Queensland, Australia","high_school":"The Southport School","previous_school":"Southern Idaho","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:teysean-eaglestaff","name":"Teysean Eaglestaff","first":"Teysean","last":"Eaglestaff","jersey":"7","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":null,"hometown":"Eagle Butte, S.D.","high_school":"Bismarck","previous_school":"UMKC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:augustine-ekwe","name":"Augustine Ekwe","first":"Augustine","last":"Ekwe","jersey":"66","pos":"C","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":81,"weight":null,"hometown":"Lagos, Nigeria","high_school":"Wasatch Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elijah-elliott","name":"Elijah Elliott","first":"Elijah","last":"Elliott","jersey":"11","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":73,"weight":null,"hometown":"Houston, Texas","high_school":"Jack Yates","previous_school":"Southern Illinois","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jemel-jones","name":"Jemel Jones","first":"Jemel","last":"Jones","jersey":"21","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":null,"hometown":"Chicago, Ill.","high_school":"Dwight D. Eisenhower HS","previous_school":"Cal State Bakersfield","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cyr-malonga","name":"Cyr Malonga","first":"Cyr","last":"Malonga","jersey":"24","pos":"C","class":"JR","redshirt":false,"class_raw":"Junior","height_in":83,"weight":null,"hometown":"Pointe-Noire, Congo","high_school":"Evangel Christian","previous_school":"East Carolina","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:julius-mims","name":"Julius Mims","first":"Julius","last":"Mims","jersey":"0","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":81,"weight":null,"hometown":"Billings, Mont.","high_school":"Skyview HS","previous_school":"Idaho","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kyrese-mullen","name":"Kyrese Mullen","first":"Kyrese","last":"Mullen","jersey":"3","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":null,"hometown":"Norfolk, VA","high_school":"Massanutten Military Academy","previous_school":"Hampton","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jae-coby-osborne","name":"Jae’Coby Osborne","first":"Jae’Coby","last":"Osborne","jersey":"4","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":null,"hometown":"Navasota, Texas","high_school":"Bella Vista Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gabe-pickens","name":"Gabe Pickens","first":"Gabe","last":"Pickens","jersey":"1","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Phoenix, Ariz.","high_school":"Dream City Christian","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jayland-randall","name":"Jayland Randall","first":"Jayland","last":"Randall","jersey":"8","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":null,"hometown":"Detroit, MI.","high_school":"Chandler Park Academy","previous_school":"Southern Indiana","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:omarr-smith","name":"Omarr Smith","first":"Omarr","last":"Smith","jersey":"2","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":null,"hometown":"Baltimore, Md.","high_school":"City College","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chris-terrell","name":"Chris Terrell","first":"Chris","last":"Terrell","jersey":"5","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Horn Lake, Miss.","high_school":"Horn Lake HS","previous_school":"Delta State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:christian-villegas","name":"Christian Villegas","first":"Christian","last":"Villegas","jersey":"12","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"El Paso, Texas","high_school":"Andress HS","previous_school":"Texas A&M Corpus Christi","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anthony-wrzeszcz","name":"Anthony Wrzeszcz","first":"Anthony","last":"Wrzeszcz","jersey":"9","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":null,"hometown":"Gdynia, Poland","high_school":"Wasatch Academy","previous_school":"McMaster","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

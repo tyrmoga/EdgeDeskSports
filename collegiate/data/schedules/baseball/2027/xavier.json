@@ -8,9 +8,11 @@
  "season_label": "2027",
  "url": "https://goxavier.com/sports/baseball/schedule/2027",
  "first_read": "2026-10-21",
- "last_read": "2026-10-21",
+ "last_read": "2026-11-02",
+ "readers": "sidearm,sidearm_vue,sidearm_legacy,wmt+themes10+sport_path+plain_page",
  "games_listed": 3,
  "finals": 0,
+ "undated": 0,
  "games": [
   {"game_key":"13466","date":"2026-09-20","time":"12:30 PM","site":"H","opponent":"Louisville","opponent_host":"gocards.com","conference":false,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Mason, Ohio","event":"2026 Fall Schedule","boxscore":null,"note":null},
   {"game_key":"13467","date":"2026-09-27","time":"3:00 PM","site":"A","opponent":"Michigan State","opponent_host":"msuspartans.com","conference":false,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"East Lansing, Mich.","event":"2026 Fall Schedule","boxscore":null,"note":null},

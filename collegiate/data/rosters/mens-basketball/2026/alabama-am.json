@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "alabama-am",
+ "host": "aamusports.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://aamusports.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:bilal-abdur-rahman","name":"Bilal Abdur-Rahman","first":"Bilal","last":"Abdur-Rahman","jersey":"2","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":160,"hometown":"Atlanta, Ga.","high_school":null,"previous_school":"Norcross HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:angok-anyang","name":"Angok Anyang","first":"Angok","last":"Anyang","jersey":"13","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":215,"hometown":"Adelaide, South Australia","high_school":null,"previous_school":"Ottawa University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jalen-carruth","name":"Jalen Carruth","first":"Jalen","last":"Carruth","jersey":"5","pos":"G/F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":79,"weight":190,"hometown":"Atlanta, Ga.","high_school":null,"previous_school":"Wallace State-Hanceville CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:koron-davis","name":"Koron Davis","first":"Koron","last":"Davis","jersey":"1","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":79,"weight":185,"hometown":"Gary, Ind.","high_school":null,"previous_school":"Louisiana","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tajden-davis","name":"Tajden Davis","first":"Tajden","last":"Davis","jersey":"11","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":77,"weight":205,"hometown":"Tallahassee, Fla.","high_school":null,"previous_school":"Southern Union CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kintavious-dozier","name":"Kintavious Dozier","first":"Kintavious","last":"Dozier","jersey":"00","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":195,"hometown":"Lanett, Ala.","high_school":null,"previous_school":"Grambling State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:pj-eason","name":"PJ Eason","first":"PJ","last":"Eason","jersey":"10","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":81,"weight":225,"hometown":"Dadeville, Ala.","high_school":null,"previous_school":"Grambling State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:james-flippin","name":"James Flippin","first":"James","last":"Flippin","jersey":"30","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":82,"weight":275,"hometown":"Milwaukee, Wis.","high_school":null,"previous_school":"Grambling State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:james-graham-iii","name":"James Graham III","first":"James","last":"Graham III","jersey":"21","pos":"G/F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":80,"weight":215,"hometown":"Milwaukee, Wis.","high_school":null,"previous_school":"Grambling State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lou-hutchinson","name":"Lou Hutchinson","first":"Lou","last":"Hutchinson","jersey":"24","pos":"G/F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":79,"weight":195,"hometown":"Washington, DC","high_school":null,"previous_school":"Grambling State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jayden-jackson","name":"Jayden Jackson","first":"Jayden","last":"Jackson","jersey":"7","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":175,"hometown":"West Monroe, La.","high_school":null,"previous_school":"West Monroe HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gabe-kincy","name":"Gabe Kincy","first":"Gabe","last":"Kincy","jersey":"4","pos":"G/F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":79,"weight":210,"hometown":"Broward County, Fla.","high_school":null,"previous_school":"Grambling State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:samuel-onu","name":"Samuel Onu","first":"Samuel","last":"Onu","jersey":"23","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":83,"weight":260,"hometown":"Malvern, Pa.","high_school":null,"previous_school":"Grambling State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sami-pissis","name":"Sami Pissis","first":"Sami","last":"Pissis","jersey":"3","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":190,"hometown":"Paris, France","high_school":null,"previous_school":"New Hampshire","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isaiah-ramey","name":"Isaiah Ramey","first":"Isaiah","last":"Ramey","jersey":"20","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":79,"weight":205,"hometown":"Cedarville, Ohio","high_school":null,"previous_school":"Midway","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

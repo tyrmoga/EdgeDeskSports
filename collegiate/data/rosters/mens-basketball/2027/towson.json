@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "towson",
+ "host": "towsontigers.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://towsontigers.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:stephon-ashley-wright","name":"Stephon Ashley Wright","first":"Stephon","last":"Ashley Wright","jersey":"0","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":165,"hometown":"Wilmington, Del.","high_school":"Neumann-Goretti","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alex-atkinson","name":"Alex Atkinson","first":"Alex","last":"Atkinson","jersey":"12","pos":"F/C","class":"JR","redshirt":false,"class_raw":"Junior","height_in":82,"weight":210,"hometown":"Columbia, S.C.","high_school":"Lower Richland H.S.","previous_school":"Claflin University/Francis Marion University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:denis-b-259-d-259-l-259-u","name":"Denis B&#259;d&#259;l&#259;u","first":"Denis","last":"B&#259;d&#259;l&#259;u","jersey":"27","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":81,"weight":220,"hometown":"Giurgiu, Romania","high_school":"Centro Studi Alessandro Manzoni","previous_school":"Rutgers University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jon-barton","name":"Jon Barton","first":"Jon","last":"Barton","jersey":"5","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":75,"weight":210,"hometown":"Waldorf, Md.","high_school":"St. John's College (H.S.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:christian-doerr","name":"Christian Doerr","first":"Christian","last":"Doerr","jersey":"2","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":76,"weight":200,"hometown":"Louisville, Ky.","high_school":"Evangel Christian School","previous_school":"John A. Logan College/Morehead State University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:caleb-embeya","name":"Caleb Embeya","first":"Caleb","last":"Embeya","jersey":"23","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":82,"weight":240,"hometown":"Kinshasa, Democratic Republic of Congo","high_school":"St. Maria Goretti (Md.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brandon-holmes","name":"Brandon Holmes","first":"Brandon","last":"Holmes","jersey":"30","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":81,"weight":240,"hometown":"Columbia, Md.","high_school":"Mount St. Joseph's H.S.","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:devan-kirk","name":"Devan Kirk","first":"Devan","last":"Kirk","jersey":"4","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":205,"hometown":"Red Oak, Texas","high_school":"Red Oak H.S.","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chike-ndefo","name":"Chike Ndefo","first":"Chike","last":"Ndefo","jersey":"13","pos":"G/F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":80,"weight":215,"hometown":"Elmont, N.Y.","high_school":"Vermont Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ben-roseborough","name":"Ben Roseborough","first":"Ben","last":"Roseborough","jersey":"11","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":77,"weight":215,"hometown":"Sacramento, Calif.","high_school":"Bella Vista Prep","previous_school":"San Jose State University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mani-sajid","name":"Mani Sajid","first":"Mani","last":"Sajid","jersey":"3","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":180,"hometown":"Plymouth Meeting, Pa.","high_school":"Plymouth Whitemarsh H.S.","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ryan-skerry","name":"Ryan Skerry","first":"Ryan","last":"Skerry","jersey":"22","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":210,"hometown":"Timonium, Md.","high_school":"Dulaney","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zion-stanford","name":"Zion Stanford","first":"Zion","last":"Stanford","jersey":"1","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":220,"hometown":"Philadelphia, Pa.","high_school":"West Catholic Prep H.S.","previous_school":"Villanova University/Temple University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaylin-williams-crawford","name":"Jaylin Williams Crawford","first":"Jaylin","last":"Williams Crawford","jersey":"15","pos":"G/F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":205,"hometown":"Charlestown, Mass.","high_school":"Charlestown H.S.","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaquan-womack","name":"Jaquan Womack","first":"Jaquan","last":"Womack","jersey":"24","pos":"G/F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":235,"hometown":"Manassas, Va.","high_school":"Paul VI H.S.","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

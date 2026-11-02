@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "arkansas-st",
+ "host": "astateredwolves.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://astateredwolves.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:grayson-bennett","name":"Grayson Bennett","first":"Grayson","last":"Bennett","jersey":"7","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":81,"weight":192,"hometown":"Houston, Texas","high_school":"La Lumiere (IN) HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:royal-blue-smith","name":"Royal Blue Smith","first":"Royal","last":"Blue Smith","jersey":"3","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":198,"hometown":"Parkland, Fla.","high_school":"Gillion Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tj-caldwell","name":"TJ Caldwell","first":"TJ","last":"Caldwell","jersey":"2","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":190,"hometown":"Dallas, Texas","high_school":"Faith Family Academy","previous_school":"Ole Miss","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:joey-chammaa","name":"Joey Chammaa","first":"Joey","last":"Chammaa","jersey":"20","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":172,"hometown":"Los Angeles, Calif.","high_school":"Crossroads School for Arts & Sciences","previous_school":"San Diego","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chudi-dioramma","name":"Chudi Dioramma","first":"Chudi","last":"Dioramma","jersey":"10","pos":"F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":82,"weight":240,"hometown":"London, England","high_school":"Haringey Sixth Form","previous_school":"Sacramento State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaxon-ellingsworth","name":"Jaxon Ellingsworth","first":"Jaxon","last":"Ellingsworth","jersey":"22","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":228,"hometown":"Morehead City, N.C.","high_school":"West Carteret HS","previous_school":"UT Arlington","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cj-geathers","name":"CJ Geathers","first":"CJ","last":"Geathers","jersey":"15","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":195,"hometown":"Lithia Springs, Ga.","high_school":"Chapel Hill HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jalen-hampton","name":"Jalen Hampton","first":"Jalen","last":"Hampton","jersey":"12","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":195,"hometown":"St. Louis, Mo.","high_school":"University Central HS","previous_school":"Missouri State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:christian-harmon","name":"Christian Harmon","first":"Christian","last":"Harmon","jersey":"5","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":209,"hometown":"Rochester, N.Y.","high_school":"Butchel HS","previous_school":"Gulf Coast State College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:matt-hayman","name":"Matt Hayman","first":"Matt","last":"Hayman","jersey":"1","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":77,"weight":200,"hometown":"Dehli, La.","high_school":"Ouachita Parish HS","previous_school":"Stephen F. Austin","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:weston-honeycutt","name":"Weston Honeycutt","first":"Weston","last":"Honeycutt","jersey":"8","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":182,"hometown":"Jonesboro, Ark.","high_school":"Westside HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chandler-jackson","name":"Chandler Jackson","first":"Chandler","last":"Jackson","jersey":"0","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":208,"hometown":"Memphis, Tenn.","high_school":"Christian Brothers Academy","previous_school":"Florida State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rho-omed","name":"Rho Omed","first":"Rho","last":"Omed","jersey":"23","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":82,"weight":null,"hometown":"Calgary, Canada","high_school":"The Academy Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:fredy-salam-sylla","name":"Fredy-Salam Sylla","first":"Fredy-Salam","last":"Sylla","jersey":"21","pos":"G/F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":210,"hometown":"Paris, France","high_school":"Potter's House Christian HS","previous_school":"Eastern Florida State College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aly-tounkara","name":"Aly Tounkara","first":"Aly","last":"Tounkara","jersey":"13","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":84,"weight":225,"hometown":"Conakry, Guinea","high_school":"Principia HS","previous_school":"Lindenwood","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

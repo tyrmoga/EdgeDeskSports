@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "green-bay",
+ "host": "greenbayphoenix.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://greenbayphoenix.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:justin-allen","name":"Justin Allen","first":"Justin","last":"Allen","jersey":"7","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":null,"hometown":"Mt. Kisco, N.Y.","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ramel-bethea","name":"Ramel Bethea","first":"Ramel","last":"Bethea","jersey":"0","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":81,"weight":null,"hometown":"Fort Washington, Md.","high_school":"Friendly","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maruan-cicic","name":"Maruan Cicic","first":"Maruan","last":"Cicic","jersey":"20","pos":"C","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":84,"weight":null,"hometown":"Bar, Montenegro","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brady-fitzgerald","name":"Brady Fitzgerald","first":"Brady","last":"Fitzgerald","jersey":"21","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":76,"weight":null,"hometown":"Fortville, Ind.","high_school":"Mt. Vernon High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:marcus-hall","name":"Marcus Hall","first":"Marcus","last":"Hall","jersey":"13","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":null,"hometown":"Schofield, Wis.","high_school":"D.C. Everest","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dontrell-hewlett","name":"Dontrell Hewlett","first":"Dontrell","last":"Hewlett","jersey":"12","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":76,"weight":null,"hometown":"Sacramento, Calif.","high_school":"Shelton HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:josh-hines","name":"Josh Hines","first":"Josh","last":"Hines","jersey":"1","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":74,"weight":null,"hometown":"Macomb, Mich.","high_school":"Dakota","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:c-j-o-hara","name":"C.J. O'Hara","first":"C.J.","last":"O'Hara","jersey":"10","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":null,"hometown":"Minneapolis, Minn.","high_school":"Totino-Grace","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:preston-ruedinger","name":"Preston Ruedinger","first":"Preston","last":"Ruedinger","jersey":"2","pos":"G","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":74,"weight":null,"hometown":"Oshkosh, Wis.","high_school":"Lourdes Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trey-schachter","name":"Trey Schachter","first":"Trey","last":"Schachter","jersey":"11","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":null,"hometown":"Pittsburgh, Pa.","high_school":"Allerdice","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rob-stroud","name":"Rob Stroud","first":"Rob","last":"Stroud","jersey":"15","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":77,"weight":null,"hometown":"Danville, Ill.","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lebron-thomas","name":"LeBron Thomas","first":"LeBron","last":"Thomas","jersey":"22","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":null,"hometown":"Bishopville, S.C.","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:vukasin-todorovic","name":"Vukasin Todorovic","first":"Vukasin","last":"Todorovic","jersey":"6","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":null,"hometown":"Lubijana, Slovenia","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:keegan-van-kauwenberg","name":"Keegan Van Kauwenberg","first":"Keegan","last":"Van Kauwenberg","jersey":"3","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":null,"hometown":"Kaukauna, Wis.","high_school":"Kaukauna","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:caden-wilkins","name":"Caden Wilkins","first":"Caden","last":"Wilkins","jersey":"23","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":78,"weight":null,"hometown":"Bettendorf, Iowa","high_school":"Bettendorf","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mac-wrecke","name":"Mac Wrecke","first":"Mac","last":"Wrecke","jersey":"4","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":77,"weight":null,"hometown":"Hartland, Wis.","high_school":"Arrowhead","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

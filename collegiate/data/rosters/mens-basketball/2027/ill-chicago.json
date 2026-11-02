@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "ill-chicago",
+ "host": "uicflames.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://uicflames.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:nano-barrantes","name":"Nano Barrantes","first":"Nano","last":"Barrantes","jersey":"4","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":82,"weight":232,"hometown":"Des Moines, Iowa","high_school":"Grand View Christian","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gabe-cupps","name":"Gabe Cupps","first":"Gabe","last":"Cupps","jersey":"23","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":74,"weight":180,"hometown":"Dayton, Ohio","high_school":"Centerville","previous_school":"Indiana/Ohio State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elijah-garrett","name":"Elijah Garrett","first":"Elijah","last":"Garrett","jersey":"2","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":190,"hometown":"Beaumont, Texas","high_school":"West Brook","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:benny-gealer","name":"Benny Gealer","first":"Benny","last":"Gealer","jersey":"55","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":73,"weight":185,"hometown":"Palos Verdes Estates, Calif.","high_school":"Rolling Hills Prep","previous_school":"Stanford","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ahmad-henderson-ii","name":"Ahmad Henderson II","first":"Ahmad","last":"Henderson II","jersey":"0","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":144,"hometown":"Chicago, Ill.","high_school":"Brother Rice","previous_school":"Niagara","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dj-hudson","name":"DJ Hudson","first":"DJ","last":"Hudson","jersey":"6","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":226,"hometown":"Fayetteville, Ark.","high_school":"Fayetteville","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:andy-johnson","name":"Andy Johnson","first":"Andy","last":"Johnson","jersey":"14","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":204,"hometown":"Union, Ky.","high_school":"Cooper","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mekhi-lowery","name":"Mekhi Lowery","first":"Mekhi","last":"Lowery","jersey":"22","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":212,"hometown":"Bellwood, Ill.","high_school":"Oswego East","previous_school":"Towson","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jayce-nathaniel","name":"Jayce Nathaniel","first":"Jayce","last":"Nathaniel","jersey":"1","pos":"F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":80,"weight":227,"hometown":"Atlanta, Ga.","high_school":"AZ Compass Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nicolas-ortiz","name":"Nicolas Ortiz","first":"Nicolas","last":"Ortiz","jersey":"7","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":73,"weight":175,"hometown":"Alameda, Calif.","high_school":"Alameda","previous_school":"Illinois Tech","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rocco-pagliocca","name":"Rocco Pagliocca","first":"Rocco","last":"Pagliocca","jersey":"13","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":170,"hometown":"Lincolnshire, Ill.","high_school":"Stevenson","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lucas-scroggins","name":"Lucas Scroggins","first":"Lucas","last":"Scroggins","jersey":"10","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":81,"weight":215,"hometown":"Woodbridge, Va.","high_school":"C.D. Hylton/Bosco Institute","previous_school":"Valparaiso/Saint Peter's","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dikembe-shaw","name":"Dikembe Shaw","first":"Dikembe","last":"Shaw","jersey":"18","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":210,"hometown":"Crown Point, Ind.","high_school":"Crown Point","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:asa-thomas","name":"Asa Thomas","first":"Asa","last":"Thomas","jersey":"3","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":79,"weight":200,"hometown":"Lake Forest, Ill.","high_school":"Lake Forest","previous_school":"Clemson/Furman","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rashund-washington-jr-","name":"Rashund Washington Jr.","first":"Rashund","last":"Washington Jr.","jersey":"5","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":205,"hometown":"Dublin, Ga.","high_school":"East Laurens","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mario-wooden-jr-","name":"Mario Wooden Jr.","first":"Mario","last":"Wooden Jr.","jersey":"8","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":210,"hometown":"Frisco, Texas","high_school":"Panther Creek/Leadership Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

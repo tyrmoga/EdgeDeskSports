@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "uc-santa-barbara",
+ "host": "ucsbgauchos.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://ucsbgauchos.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:bryce-bedgood","name":"Bryce Bedgood","first":"Bryce","last":"Bedgood","jersey":"35","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":83,"weight":210,"hometown":"Valencia, Calif.","high_school":"Valenica HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zachiah-clark","name":"Zachiah Clark","first":"Zachiah","last":"Clark","jersey":"44","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":74,"weight":205,"hometown":"Los Angeles, Calif.","high_school":"DNA Prep Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jason-fontenet-ii","name":"Jason Fontenet II","first":"Jason","last":"Fontenet II","jersey":"10","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":205,"hometown":"Phoenix, Ariz.","high_school":"Bella Vista Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kyle-haughy","name":"Kyle Haughy","first":"Kyle","last":"Haughy","jersey":"6","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":78,"weight":210,"hometown":"San Ramon, Calif.","high_school":"San Ramon Valley HS","previous_school":"Santa Barbara City College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:koat-keat-tong","name":"Koat Keat Tong","first":"Koat","last":"Keat Tong","jersey":"00","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":82,"weight":220,"hometown":"Orange County, Calif.","high_school":"Crean Lutheran HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:evans-kipruto","name":"Evans Kipruto","first":"Evans","last":"Kipruto","jersey":"12","pos":"C","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":80,"weight":240,"hometown":"Nairobi, Kenya","high_school":"Renaissance Academy","previous_school":"Barton Community College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hosana-kitenge","name":"Hosana Kitenge","first":"Hosana","last":"Kitenge","jersey":"34","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":80,"weight":235,"hometown":"Crawley, England","high_school":"Charnwood College","previous_school":"University of Louisiana","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:miro-little","name":"Miro Little","first":"Miro","last":"Little","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":195,"hometown":"Tampere, Finland","high_school":"Sunrise Christian Academy","previous_school":"University of Utah","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aidan-mahaney","name":"Aidan Mahaney","first":"Aidan","last":"Mahaney","jersey":"20","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":185,"hometown":"Lafayette, Calif.","high_school":"Campolindo HS","previous_school":"UConn","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:marvin-mcghee-iv","name":"Marvin McGhee IV","first":"Marvin","last":"McGhee IV","jersey":"4","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":200,"hometown":"Atlanta, Ga.","high_school":"Alexander HS","previous_school":"Cal State Bakersfield","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zion-sensley","name":"Zion Sensley","first":"Zion","last":"Sensley","jersey":"24","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":210,"hometown":"San Carlos, Calif.","high_school":"Archbishop Riordan","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cj-shaw","name":"CJ Shaw","first":"CJ","last":"Shaw","jersey":"3","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":190,"hometown":"North Las Vegas, Nev.","high_school":"Mojave HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isaac-shingange","name":"Isaac Shingange","first":"Isaac","last":"Shingange","jersey":"18","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":77,"weight":185,"hometown":"Johannesburg, South Africa","high_school":"The Phelps School","previous_school":"City College of San Francisco","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:john-simcoe","name":"John Simcoe","first":"John","last":"Simcoe","jersey":"21","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":200,"hometown":"Phoenix, Ariz.","high_school":"Sandra Day O'Connor HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:michael-simcoe","name":"Michael Simcoe","first":"Michael","last":"Simcoe","jersey":"23","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":225,"hometown":"Phoenix, Ariz.","high_school":"Sandra Day O'Connor HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:colin-smith","name":"Colin Smith","first":"Colin","last":"Smith","jersey":"7","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":80,"weight":220,"hometown":"Dallas, Texas","high_school":"Compass Prep (Ariz.)","previous_school":"Vanderbilt University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:luke-zuffelato","name":"Luke Zuffelato","first":"Luke","last":"Zuffelato","jersey":"2","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":200,"hometown":"Santa Barbara, Calif.","high_school":"Santa Barbara HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

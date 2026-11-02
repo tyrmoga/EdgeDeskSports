@@ -8,9 +8,11 @@
  "season_label": "2027",
  "url": "https://gofrogs.com/sports/baseball/schedule/2027",
  "first_read": "2026-10-21",
- "last_read": "2026-10-21",
+ "last_read": "2026-11-02",
+ "readers": "sidearm,sidearm_vue,sidearm_legacy,wmt+themes10+sport_path+plain_page",
  "games_listed": 51,
  "finals": 0,
+ "undated": 0,
  "games": [
   {"game_key":"20505","date":"2027-02-19","time":"3 p.m.","site":"N","opponent":"Virginia","opponent_host":"virginiasports.com","conference":false,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Arlington, Texas","event":"Shriners Children's College Showdown","boxscore":null,"note":null},
   {"game_key":"20506","date":"2027-02-20","time":"7 p.m.","site":"N","opponent":"Texas","opponent_host":"texaslonghorns.com","conference":false,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Arlington, Texas","event":"Shriners Children's College Showdown","boxscore":null,"note":null},
@@ -62,6 +64,6 @@
   {"game_key":"20404","date":"2027-05-16","time":"TBA","site":"A","opponent":"Houston","opponent_host":"uhcougars.com","conference":true,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Houston, Texas","event":null,"boxscore":null,"note":null},
   {"game_key":"20405","date":"2027-05-20","time":"6 p.m.","site":"H","opponent":"West Virginia","opponent_host":"wvusports.com","conference":true,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Fort Worth, Texas","event":null,"boxscore":null,"note":null},
   {"game_key":"20406","date":"2027-05-21","time":"6 p.m.","site":"H","opponent":"West Virginia","opponent_host":"wvusports.com","conference":true,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Fort Worth, Texas","event":null,"boxscore":null,"note":null},
-  {"game_key":"20407","date":"2027-05-22","time":"4 p.m.","site":"H","opponent":"West Virginia","opponent_host":"wvusports.com","conference":true,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Fort Worth, Texas","event":null,"boxscore":null,"note":null}
+  {"game_key":"20407","date":"2027-05-22","time":"2 p.m.","site":"H","opponent":"West Virginia","opponent_host":"wvusports.com","conference":true,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Fort Worth, Texas","event":null,"boxscore":null,"note":null}
  ]
 }

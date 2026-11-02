@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "nc-central",
+ "host": "nccueaglepride.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://nccueaglepride.com/sports/womens-volleyball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:aniah-bass","name":"Aniah Bass","first":"Aniah","last":"Bass","jersey":"7","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Clinton, Md.","high_school":null,"previous_school":"Oxen Hill HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:shalyn-bell","name":"Shalyn Bell","first":"Shalyn","last":"Bell","jersey":"12","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"New London, N.C.","high_school":null,"previous_school":"North Stanly HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lusiana-damuni","name":"Lusiana Damuni","first":"Lusiana","last":"Damuni","jersey":"13","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Providence, Utah","high_school":null,"previous_school":"Ridgeline HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jayla-egerton","name":"Jayla Egerton","first":"Jayla","last":"Egerton","jersey":"11","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":63,"weight":null,"hometown":"Cary, N.C.","high_school":null,"previous_school":"Green Level HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:talia-emmen","name":"Talia Emmen","first":"Talia","last":"Emmen","jersey":"16","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Florence, SC","high_school":null,"previous_school":"Shaw","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:breylan-fairley","name":"Breylan Fairley","first":"Breylan","last":"Fairley","jersey":"6","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":62,"weight":null,"hometown":"Clermont, Fla.","high_school":null,"previous_school":"East Ridge HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alex-fuller","name":"Alex Fuller","first":"Alex","last":"Fuller","jersey":"17","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":66,"weight":null,"hometown":"Bahama, N.C.","high_school":null,"previous_school":"Person County Virtual Academy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hailey-gibbons","name":"Hailey Gibbons","first":"Hailey","last":"Gibbons","jersey":"4","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":64,"weight":null,"hometown":"Pinehurst, N.C.","high_school":null,"previous_school":"Pinecrest HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:peyton-jenkins","name":"Peyton Jenkins","first":"Peyton","last":"Jenkins","jersey":"8","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Lawrenceville, Ga.","high_school":null,"previous_school":"Brookwood HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tabitha-newlin","name":"Tabitha Newlin","first":"Tabitha","last":"Newlin","jersey":"22","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Fayetteville, N.C.","high_school":null,"previous_school":"Cape Fear HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kayla-riley","name":"Kayla Riley","first":"Kayla","last":"Riley","jersey":"10","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Middleton, Del.","high_school":null,"previous_school":"St. Georges Technical HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isabella-rodriguez","name":"Isabella Rodriguez","first":"Isabella","last":"Rodriguez","jersey":"1/5","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":64,"weight":null,"hometown":"St. Cloud, Fla.","high_school":null,"previous_school":"St. Cloud HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:allyson-rouse","name":"Allyson Rouse","first":"Allyson","last":"Rouse","jersey":"3","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Fayetteville, N.C.","high_school":null,"previous_school":"Pine Forest HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mya-smith","name":"Mya Smith","first":"Mya","last":"Smith","jersey":"14","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Tampa, Fla.","high_school":null,"previous_school":"Land O'Lakes HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:morgan-wingo","name":"Morgan Wingo","first":"Morgan","last":"Wingo","jersey":"2","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Marietta, Ga.","high_school":null,"previous_school":"Bethune-Cookman","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

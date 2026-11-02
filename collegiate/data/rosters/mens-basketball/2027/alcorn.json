@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "alcorn",
+ "host": "alcornsports.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://alcornsports.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:bobby-cannon","name":"Bobby Cannon","first":"Bobby","last":"Cannon","jersey":"2","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":null,"hometown":"Winston Salem, NC","high_school":"Hutchinson CC","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaylin-craine","name":"Jaylin Craine","first":"Jaylin","last":"Craine","jersey":"8","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Horse Cave, KY","high_school":"Caverna HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jahseem-felton","name":"Jahseem Felton","first":"Jahseem","last":"Felton","jersey":"0","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":null,"hometown":"Charlotte, NC","high_school":"Seton Hall University","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ethan-griffin","name":"Ethan Griffin","first":"Ethan","last":"Griffin","jersey":"23","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":null,"hometown":"West Haven, CT","high_school":"Westminister School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:josh-powell","name":"Josh Powell","first":"Josh","last":"Powell","jersey":"6","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":null,"hometown":"Queens, NY","high_school":"Veritas Academy (CA)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:christian-richardson","name":"Christian Richardson","first":"Christian","last":"Richardson","jersey":"15","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":85,"weight":null,"hometown":"San Bernardino, CA","high_school":"Univ of Nebraksa Omaha","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:calvin-sirmans-iii","name":"Calvin Sirmans III","first":"Calvin","last":"Sirmans III","jersey":"3","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Lake Worth, FL","high_school":"Stetson University","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:saxby-sunderland","name":"Saxby Sunderland","first":"Saxby","last":"Sunderland","jersey":"11","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":null,"hometown":"Arlington, Va","high_school":"Chicago State University","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ma-kye-taylor","name":"Ma'Kye Taylor","first":"Ma'Kye","last":"Taylor","jersey":"13","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":null,"hometown":"Philadelphia, PA","high_school":"University of Albany","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:braylhan-thomas","name":"Braylhan Thomas","first":"Braylhan","last":"Thomas","jersey":"7","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":null,"hometown":"Atlanta, GA","high_school":"Winthrop University","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nigel-thomas","name":"Nigel Thomas","first":"Nigel","last":"Thomas","jersey":"10","pos":null,"class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":80,"weight":null,"hometown":"Cincinatti, OH","high_school":"Kennesaw State University","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trey-thomas","name":"Trey Thomas","first":"Trey","last":"Thomas","jersey":"1","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"Washington, D.C.","high_school":"Southern Indiana","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:adam-tokpah","name":"Adam Tokpah","first":"Adam","last":"Tokpah","jersey":"35","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":83,"weight":null,"hometown":"London, England","high_school":"University of North Carolina Wilmington","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jayan-walker","name":"Jayan Walker","first":"Jayan","last":"Walker","jersey":"5","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":null,"hometown":"Raleigh, NC","high_school":"Indiana State University","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cameron-zeigler","name":"Cameron Zeigler","first":"Cameron","last":"Zeigler","jersey":"12","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"New Orleans, LA","high_school":"Mt. Zion Prep (MD)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

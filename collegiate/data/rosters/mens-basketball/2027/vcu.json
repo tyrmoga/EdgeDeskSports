@@ -1,0 +1,30 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "vcu",
+ "host": "vcuathletics.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://vcuathletics.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 14,
+ "players": [
+  {"pid":"slug:torey-alston","name":"Torey Alston","first":"Torey","last":"Alston","jersey":"10","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":215,"hometown":"Durham, N.C.","high_school":"Winston-Salem Christian (MTSU)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:michael-belle","name":"Michael Belle","first":"Michael","last":"Belle","jersey":"8","pos":"G/F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":220,"hometown":"London, England","high_school":"(Strasbourg)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lazar-djokovic","name":"Lazar Djokovic","first":"Lazar","last":"Djokovic","jersey":"17","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":83,"weight":235,"hometown":"Gornji Milanovac, Serbia","high_school":"Graficko-Medijska (Xavier/Charleston)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:blake-harper","name":"Blake Harper","first":"Blake","last":"Harper","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":220,"hometown":"Washington, D.C.","high_school":"Gonzaga HS (Howard/Creighton)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sammy-jackson","name":"Sammy Jackson","first":"Sammy","last":"Jackson","jersey":"2","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":210,"hometown":"Odessa, Fla.","high_school":"Roman Catholic (Pa.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brandon-jennings","name":"Brandon Jennings","first":"Brandon","last":"Jennings","jersey":"0","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":180,"hometown":"Richmond, Va.","high_school":"St. Christopher's School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nyk-lewis","name":"Nyk Lewis","first":"Nyk","last":"Lewis","jersey":"5","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":195,"hometown":"Washington, D.C.","high_school":"Gonzaga HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ahmad-nowell","name":"Ahmad Nowell","first":"Ahmad","last":"Nowell","jersey":"4","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":190,"hometown":"Philadelphia, Pa.","high_school":"Imhotep (UConn)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:stefan-plisnic","name":"Stefan Plisnic","first":"Stefan","last":"Plisnic","jersey":"9","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":82,"weight":225,"hometown":"Belgrade, Serbia","high_school":"IMG Academy (Fla.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nyle-ralph-beyer","name":"Nyle Ralph-Beyer","first":"Nyle","last":"Ralph-Beyer","jersey":"22","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":180,"hometown":"West Chester, Pa.","high_school":"Henderson (Sacred Heart)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:collin-ross","name":"Collin Ross","first":"Collin","last":"Ross","jersey":"7","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":83,"weight":205,"hometown":"Atlanta, Ga.","high_school":"SPIRE Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jordan-tillery","name":"Jordan Tillery","first":"Jordan","last":"Tillery","jersey":"14","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":190,"hometown":"Orlando, Fla.","high_school":"IMG Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tyrell-ward","name":"Tyrell Ward","first":"Tyrell","last":"Ward","jersey":"15","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":185,"hometown":"Washington, D.C.","high_school":"Dematha Catholic (LSU)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:joshua-wyche","name":"Joshua Wyche","first":"Joshua","last":"Wyche","jersey":"23","pos":"G/F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":79,"weight":215,"hometown":"Philadelphia, Pa.","high_school":"Cristo Rey Philadelphia (Lafayette)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "loyola-maryland",
+ "host": "loyolagreyhounds.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://loyolagreyhounds.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:amandine-amorich","name":"Amandine Amorich","first":"Amandine","last":"Amorich","jersey":"34","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"Montpellier, France","high_school":"Cégep de Sainte-Foy Québec","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sydney-bass","name":"Sydney Bass","first":"Sydney","last":"Bass","jersey":"22","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Strongsville, Ohio","high_school":"Strongsville","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gabby-betton","name":"Gabby Betton","first":"Gabby","last":"Betton","jersey":"33","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Lakeville, Minnesota","high_school":"Lakeville North","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:allister-caretti","name":"Allister Caretti","first":"Allister","last":"Caretti","jersey":"24","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":null,"hometown":"Mercersburg, Pennsylvania","high_school":"Mercersburg Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tyler-edwards","name":"Tyler Edwards","first":"Tyler","last":"Edwards","jersey":"21","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":66,"weight":null,"hometown":"Townsend, Delaware","high_school":"Sanford","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kailey-kalet","name":"Kailey Kalet","first":"Kailey","last":"Kalet","jersey":"12","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Union Springs, NY","high_school":"Union Springs","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ava-kopetskie","name":"Ava Kopetskie","first":"Ava","last":"Kopetskie","jersey":"30","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Bethlehem, Pennsylvania","high_school":"Liberty","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aidan-langley","name":"Aidan Langley","first":"Aidan","last":"Langley","jersey":"20","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Coatesville, Pennsylvania","high_school":"Westtown School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maddie-oliver","name":"Maddie Oliver","first":"Maddie","last":"Oliver","jersey":"14","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Norwell, Massachusets","high_school":"Norwell","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:takeira-ramey","name":"Takeira Ramey","first":"Takeira","last":"Ramey","jersey":"1","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"Stafford, Virginia","high_school":"Massaponax","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:olivia-shaughnessy","name":"Olivia Shaughnessy","first":"Olivia","last":"Shaughnessy","jersey":"10","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":67,"weight":null,"hometown":"Freehold, New Jersey","high_school":"Manasquan","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:talia-shumate","name":"Talia Shumate","first":"Talia","last":"Shumate","jersey":"7","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Sicklerville, New Jersey","high_school":"Gloucester Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:avery-simmons","name":"Avery Simmons","first":"Avery","last":"Simmons","jersey":"23","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Parkville, Missouri","high_school":"Park Hill South","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kaitlin-totaro","name":"Kaitlin Totaro","first":"Kaitlin","last":"Totaro","jersey":"2","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Chicago, Illinois","high_school":"Depaul College Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:whitley-watkins","name":"Whitley Watkins","first":"Whitley","last":"Watkins","jersey":"55","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Pasadena, Maryland","high_school":"Archbishop Spalding","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:debra-wilson-osuide","name":"Debra Wilson-Osuide","first":"Debra","last":"Wilson-Osuide","jersey":"13","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"London, England","high_school":"City of London Academy, Southwark","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

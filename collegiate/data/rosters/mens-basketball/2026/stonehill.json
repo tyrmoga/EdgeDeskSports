@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "stonehill",
+ "host": "stonehillskyhawks.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://stonehillskyhawks.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:will-batchelder","name":"Will Batchelder","first":"Will","last":"Batchelder","jersey":"3","pos":"Guard","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":180,"hometown":"Newburyport, Mass.","high_school":"Governor's Academy","previous_school":"Holy Cross","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:colin-byrne","name":"Colin Byrne","first":"Colin","last":"Byrne","jersey":"21","pos":"Guard","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":170,"hometown":"Middletown, N.J.","high_school":"Middletown North","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:charlie-diamantis","name":"Charlie Diamantis","first":"Charlie","last":"Diamantis","jersey":"22","pos":"Guard","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":190,"hometown":"Milford, Conn.","high_school":"Joseph A. Foran","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:raymond-espinal-guzman","name":"Raymond Espinal-Guzman","first":"Raymond","last":"Espinal-Guzman","jersey":"13","pos":"Forward","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":80,"weight":220,"hometown":"Cranston, R.I.","high_school":"Woodstock Academy","previous_school":"Sacred Heart University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:davante-hackett","name":"Davante Hackett","first":"Davante","last":"Hackett","jersey":"4","pos":"Guard","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":180,"hometown":"Brampton, Ontario, Canada","high_school":"Bill Crothers Secondary School","previous_school":"Brock University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anthony-holden","name":"Anthony Holden","first":"Anthony","last":"Holden","jersey":"30","pos":"Guard","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":77,"weight":185,"hometown":"Lees Summit, Mo.","high_school":"St. Michael the Archangel Catholic","previous_school":"Maryville University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:norbu-jenpa","name":"Norbu Jenpa","first":"Norbu","last":"Jenpa","jersey":"15","pos":"Guard/Forward","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":180,"hometown":"Prior Lake, Minn.","high_school":"Prior Lake","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hermann-koffi","name":"Hermann Koffi","first":"Hermann","last":"Koffi","jersey":"10","pos":"Guard","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":203,"hometown":"Quebec City, Quebec","high_school":"Polyvalente de Thetford Mines","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cory-lovell","name":"Cory Lovell","first":"Cory","last":"Lovell","jersey":"20","pos":"Forward","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":209,"hometown":"Wellington, New Zealand","high_school":"Hutt International Boys School","previous_school":"Hercum College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:pearse-mcguinn","name":"Pearse McGuinn","first":"Pearse","last":"McGuinn","jersey":"31","pos":"Forward","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":205,"hometown":"Havertown, Pa.","high_school":"Cardinal O’Hara","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ethan-meuser","name":"Ethan Meuser","first":"Ethan","last":"Meuser","jersey":"33","pos":"Forward","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":205,"hometown":"Shavertown, Pa.","high_school":"Wyoming Seminary","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:eino-montin","name":"Eino Montin","first":"Eino","last":"Montin","jersey":"12","pos":"Guard","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":180,"hometown":"Oulu, Finland","high_school":"Schildt","previous_school":"Temple College (TX)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trenton-ruth","name":"Trenton Ruth","first":"Trenton","last":"Ruth","jersey":"2","pos":"Guard","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":185,"hometown":"Detroit, Mich.","high_school":"Ferndale","previous_school":"Coffeyville Community College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chas-stinson","name":"Chas Stinson","first":"Chas","last":"Stinson","jersey":"5","pos":"Guard","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":195,"hometown":"Charlotte, N.C.","high_school":"Liberty Heights","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rex-sunderland","name":"Rex Sunderland","first":"Rex","last":"Sunderland","jersey":"1","pos":"Guard","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":200,"hometown":"Kaysville, Utah","high_school":"Davis","previous_school":"New Hampshire","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ridvan-tutic","name":"Ridvan Tutic","first":"Ridvan","last":"Tutic","jersey":"11","pos":"Forward/Center","class":"JR","redshirt":false,"class_raw":"Junior","height_in":83,"weight":245,"hometown":"Novi Pazar, Serbia","high_school":"Gimnazija Novi Pazar","previous_school":"Maine","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

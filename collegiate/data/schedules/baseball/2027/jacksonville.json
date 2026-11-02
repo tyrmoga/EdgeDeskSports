@@ -1,0 +1,23 @@
+{
+ "schema": "edgedesk_collegiate_schedule_v1",
+ "school": "jacksonville",
+ "host": "judolphins.com",
+ "platform": "sidearm_legacy",
+ "sport": "baseball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://judolphins.com/sports/baseball/schedule/2026-27",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "readers": "sidearm,sidearm_vue,sidearm_legacy,wmt+themes10+sport_path+plain_page",
+ "games_listed": 5,
+ "finals": 0,
+ "undated": 0,
+ "games": [
+  {"game_key":"8305","date":"2026-10-16","time":"17:00","site":"A","opponent":"Florida State University","opponent_host":"seminoles.com","conference":false,"postseason":null,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Tallahassee, FL / Dick Howser Stadium","event":null,"boxscore":null,"note":null},
+  {"game_key":"8306","date":"2026-10-17","time":"14:00","site":"H","opponent":"Charleston Southern University","opponent_host":"csusports.com","conference":false,"postseason":null,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Jacksonville, Fla. / John Sessions Stadium","event":null,"boxscore":null,"note":null},
+  {"game_key":"8307","date":"2026-10-22","time":"17:00","site":"H","opponent":"St. Johns River Community College","opponent_host":"sjrvikings.com","conference":false,"postseason":null,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Jacksonville, Fla. / John Sessions Stadium","event":null,"boxscore":null,"note":null},
+  {"game_key":"8308","date":"2026-10-24","time":"17:00","site":"H","opponent":"Mercer University","opponent_host":"mercerbears.com","conference":false,"postseason":null,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Jacksonville, Fla. / John Sessions Stadium","event":null,"boxscore":null,"note":null},
+  {"game_key":"8309","date":"2026-11-13","time":null,"site":"H","opponent":"Green vs. Gold","opponent_host":null,"conference":false,"postseason":null,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Jacksonville, Fla. / John Sessions Stadium","event":null,"boxscore":null,"note":null}
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "george-washington",
+ "host": "gwsports.com",
+ "platform": "sidearm",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://gwsports.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"3722","name":"Jean Aranguren","first":"Jean","last":"Aranguren","jersey":"7","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":200,"hometown":"Valencia, Carabobo, Venezuela","high_school":"Upper Room Christian (NY)","previous_school":"Iona / Hofstra","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3869","name":"Terrance Arceneaux","first":"Terrance","last":"Arceneaux","jersey":"23","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":78,"weight":200,"hometown":"Beaumont, TX","high_school":"Beaumont United","previous_school":"Houston / NC State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3414","name":"Amir Arrington","first":"Amir","last":"Arrington","jersey":"32","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":190,"hometown":"Atlanta, GA","high_school":"The Galloway School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3879","name":"Malachi Arrington","first":"Malachi","last":"Arrington","jersey":"5","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":230,"hometown":"Somerville, NJ","high_school":"Immaculate Conception","previous_school":"NJIT","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3871","name":"Ryder Frost","first":"Ryder","last":"Frost","jersey":"3","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":215,"hometown":"Beverly, MA","high_school":"Phillips Exeter Academy (NH)","previous_school":"Notre Dame","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3872","name":"Dylan James","first":"Dylan","last":"James","jersey":"11","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":81,"weight":225,"hometown":"Winter Haven, FL","high_school":"Winter Haven","previous_school":"Georgia","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3868","name":"Felix Kossaras","first":"Felix","last":"Kossaras","jersey":"4","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":195,"hometown":"Montreal, Quebec, Canada","high_school":"Fort Erie International Academy","previous_school":"Colorado","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3891","name":"Deng Manyang","first":"Deng","last":"Manyang","jersey":"39","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":185,"hometown":"Adelaide, Australia","high_school":null,"previous_school":"Central District Lions","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3900","name":"Promis N'Landu","first":"Promis","last":"N'Landu","jersey":"8","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":195,"hometown":"Quebec City, Canada","high_school":"Fort Erie International Academy (Ont.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3899","name":"Andrew Phillips","first":"Andrew","last":"Phillips","jersey":"21","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":220,"hometown":"Chester Springs, PA","high_school":"Malvern Prep","previous_school":"Lafayette","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3923","name":"Jayvon Rampersant","first":"Jayvon","last":"Rampersant","jersey":"10","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":215,"hometown":"Brooklyn, NY","high_school":"Berkmar (GA)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3725","name":"Jalen Rougier-Roane","first":"Jalen","last":"Rougier-Roane","jersey":"1","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":215,"hometown":"Bowie, MD","high_school":"Sidwell Friends (DC)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3996","name":"Aidan Shaw","first":"Aidan","last":"Shaw","jersey":"2","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":81,"weight":210,"hometown":"Overland Park, KS","high_school":"Blue Valley","previous_school":"Missouri / Boston College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3880","name":"Lovro Urbiha","first":"Lovro","last":"Urbiha","jersey":"13","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":80,"weight":235,"hometown":"Ljubljana, Slovenia","high_school":null,"previous_school":"Krka Novo Mesto","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3873","name":"Andrija Vukovic","first":"Andrija","last":"Vukovic","jersey":"19","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":83,"weight":270,"hometown":"Belgrade, Serbia","high_school":"First Sport Basketball College Belgrade","previous_school":"Oklahoma State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3870","name":"Omari Witherspoon","first":"Omari","last":"Witherspoon","jersey":"0","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":225,"hometown":"Bowie, MD","high_school":"St. John's College (DC)","previous_school":"Pitt","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

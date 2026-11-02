@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "west-florida",
+ "host": "goargos.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://goargos.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:isaiah-alexander","name":"Isaiah Alexander","first":"Isaiah","last":"Alexander","jersey":"10","pos":"W/F","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":79,"weight":195,"hometown":"Bronx, N.Y.","high_school":"Arch Bishop Stepinac High School","previous_school":"Minot State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:oluwatomisin-ayodele-osho","name":"Oluwatomisin Ayodele-Osho","first":"Oluwatomisin","last":"Ayodele-Osho","jersey":"24","pos":"W","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":185,"hometown":"Sydney, Austrailia","high_school":"Bella Vista College Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:daylon-dickerson","name":"Daylon Dickerson","first":"Daylon","last":"Dickerson","jersey":"8","pos":"W/F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":205,"hometown":"Kaufman, Tex.","high_school":"Kaufman High School","previous_school":"UMBC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rodrigo-farias","name":"Rodrigo Farias","first":"Rodrigo","last":"Farias","jersey":"7","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":175,"hometown":"Queens, N.Y.","high_school":"NBA Academy","previous_school":"Ferrum College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alex-godley-jr-","name":"Alex Godley Jr.","first":"Alex","last":"Godley Jr.","jersey":"3","pos":"G/W","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":185,"hometown":"Burlington, N.C.","high_school":"Graham High School","previous_school":"Wingate","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tim-hall-jr","name":"Tim Hall Jr","first":"Tim","last":"Hall Jr","jersey":"0","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":210,"hometown":"Charlotte, N.C.","high_school":"Westminster Catawba Christian School","previous_school":"Georgia Southwestern","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jay-king","name":"Jay King","first":"Jay","last":"King","jersey":"1","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":185,"hometown":"Macon, Ga.","high_school":"First Presbyterian Day School","previous_school":"Tallahassee State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:christian-monroe","name":"Christian Monroe","first":"Christian","last":"Monroe","jersey":"21","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":200,"hometown":"Mooresville, N.C.","high_school":"Southlake Christian Academy","previous_school":"Erskine","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hutson-rowe","name":"Hutson Rowe","first":"Hutson","last":"Rowe","jersey":"11","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":73,"weight":175,"hometown":"Gulf Breeze, Fla.","high_school":"Gulf Breeze High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sano-rutatika","name":"Sano Rutatika","first":"Sano","last":"Rutatika","jersey":"23","pos":"F","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":81,"weight":230,"hometown":"Kigali, Rwanda","high_school":"Lake Forest Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jordan-samuel","name":"Jordan Samuel","first":"Jordan","last":"Samuel","jersey":"5","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":210,"hometown":"Atlanta, Ga.","high_school":"Winder-Barrow High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dj-shine","name":"DJ Shine","first":"DJ","last":"Shine","jersey":"2","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":190,"hometown":"Augusta, Ga.","high_school":"Brewster Academy","previous_school":"Northwest Florida State College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trajan-thompson","name":"Trajan Thompson","first":"Trajan","last":"Thompson","jersey":"6","pos":"W","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":78,"weight":190,"hometown":"Charlotte, N.C.","high_school":"Providence Day School","previous_school":"University of Denver","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:christian-valarezo","name":"Christian Valarezo","first":"Christian","last":"Valarezo","jersey":"32","pos":"G","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":74,"weight":195,"hometown":"Milton, Fla.","high_school":"Milton High School","previous_school":"Gulf Coast State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:eze-wali","name":"Eze Wali","first":"Eze","last":"Wali","jersey":"4","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":185,"hometown":"Providence, R.I.","high_school":"Pomfret School","previous_school":"The Citadel","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

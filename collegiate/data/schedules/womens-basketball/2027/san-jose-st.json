@@ -8,14 +8,14 @@
  "season_label": "2026-27",
  "url": "https://sjsuspartans.com/sports/womens-basketball/schedule/season/2026-27",
  "first_read": "2026-10-26",
- "last_read": "2026-10-26",
+ "last_read": "2026-11-02",
  "readers": "sidearm,sidearm_vue,sidearm_legacy,wmt+themes10+sport_path+plain_page",
  "games_listed": 32,
- "finals": 0,
+ "finals": 1,
  "undated": 0,
  "games": [
-  {"game_key":null,"date":"2026-10-28","time":null,"site":null,"opponent":"Cal State East Bay (exhibition)","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"San Jose, Calif. / Provident Credit Union Event Center","event":null,"boxscore":null,"note":null,"exhibition":true},
-  {"game_key":null,"date":"2026-11-02","time":null,"site":"A","opponent":"Nebraska","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Lincoln, Neb. / Pinnacle Bank Arena","event":null,"boxscore":null,"note":null},
+  {"game_key":null,"date":"2026-10-28","time":null,"site":null,"opponent":"Cal State East Bay (exhibition)","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"final","us":74,"them":76,"outcome":"L","innings":null,"location":"San Jose, Calif. / Provident Credit Union Event Center","event":null,"boxscore":null,"note":"OT","exhibition":true},
+  {"game_key":"9073","date":"2026-11-02","time":null,"site":"A","opponent":"Nebraska","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"final","us":54,"them":81,"outcome":"L","innings":null,"location":"Lincoln, Neb. / Pinnacle Bank Arena","event":null,"boxscore":"/boxscore/9073","note":null},
   {"game_key":null,"date":"2026-11-10","time":null,"site":"A","opponent":"Oklahoma","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Norman, Okla. / Lloyd Noble Center","event":null,"boxscore":null,"note":null},
   {"game_key":null,"date":"2026-11-15","time":null,"site":null,"opponent":"Portland State","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"San Jose, Calif. / Provident Credit Union Event Center","event":null,"boxscore":null,"note":null},
   {"game_key":null,"date":"2026-11-18","time":null,"site":null,"opponent":"California Baptist","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"San Jose, Calif. / Provident Credit Union Event Center","event":null,"boxscore":null,"note":null},
@@ -45,6 +45,6 @@
   {"game_key":null,"date":"2027-02-24","time":null,"site":"A","opponent":"UNLV","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Las Vegas, Nev. / The Pavilion","event":null,"boxscore":null,"note":null},
   {"game_key":null,"date":"2027-02-27","time":null,"site":null,"opponent":"UC Davis","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"San Jose, Calif. / Provident Credit Union Event Center","event":null,"boxscore":null,"note":null},
   {"game_key":null,"date":"2027-03-02","time":null,"site":"A","opponent":"Wyoming","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Laramie, Wyo. / Arena-Auditorium","event":null,"boxscore":null,"note":null},
-  {"game_key":null,"date":"2027-03-07","time":null,"site":"N","opponent":"TBA","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Las Vegas, Nev. / Thomas & Mack Arena","event":null,"boxscore":null,"note":null}
+  {"game_key":"9073","date":"2027-03-07","time":null,"site":"N","opponent":"TBA","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Las Vegas, Nev. / Thomas & Mack Arena","event":null,"boxscore":"/boxscore/9073","note":"OT"}
  ]
 }

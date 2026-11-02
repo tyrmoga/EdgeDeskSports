@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "fairfield",
+ "host": "fairfieldstags.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2025,
+ "season_label": "2025",
+ "url": "https://fairfieldstags.com/sports/womens-volleyball/roster/2025",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:emma-bortolotti","name":"Emma Bortolotti","first":"Emma","last":"Bortolotti","jersey":"6","pos":"RS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"San Pietro di Feletto, Italy","high_school":"Liceo Classico G. Marconi Conegliano","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:natalie-carlin","name":"Natalie Carlin","first":"Natalie","last":"Carlin","jersey":"18","pos":"L/DS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":65,"weight":null,"hometown":"Ashburn, Va.","high_school":"Riverside","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:caroline-collins","name":"Caroline Collins","first":"Caroline","last":"Collins","jersey":"16","pos":"RS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Lakeville, Minn.","high_school":"Lakeville North","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:katelyn-cook","name":"Katelyn Cook","first":"Katelyn","last":"Cook","jersey":"8","pos":"OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"San Jose, Calif.","high_school":"Archbishop Mitty","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:allie-elliott","name":"Allie Elliott","first":"Allie","last":"Elliott","jersey":"13","pos":"OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"Stewartville, Minn.","high_school":"Stewartville","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lindsey-healey","name":"Lindsey Healey","first":"Lindsey","last":"Healey","jersey":"14","pos":"OH","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":71,"weight":null,"hometown":"Bedford, N.H.","high_school":"Bedford","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:abby-jandro","name":"Abby Jandro","first":"Abby","last":"Jandro","jersey":"7","pos":"S","class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Lakeville, Minn.","high_school":"Lakeville North","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mia-jean-claude","name":"Mia Jean Claude","first":"Mia","last":"Jean Claude","jersey":"21","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Miami, Fla.","high_school":"Ransom Everglades","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mamie-krubally","name":"Mamie Krubally","first":"Mamie","last":"Krubally","jersey":"1","pos":"RS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Lucas, Texas","high_school":"Plano East","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nicole-macalintal","name":"Nicole Macalintal","first":"Nicole","last":"Macalintal","jersey":"9","pos":"L/DS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":65,"weight":null,"hometown":"San Jose, Calif.","high_school":"Archbishop Mitty","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:delaney-moon","name":"Delaney Moon","first":"Delaney","last":"Moon","jersey":"5","pos":"L/DS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":63,"weight":null,"hometown":"Plano, Texas","high_school":"Bishop Lynch","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sophia-nagy","name":"Sophia Nagy","first":"Sophia","last":"Nagy","jersey":"3","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Budapest, Hungary","high_school":"Obudai Arpad Gimnazium","previous_school":"American University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ella-paniagua","name":"Ella Paniagua","first":"Ella","last":"Paniagua","jersey":"24","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Orange County, Calif.","high_school":"Rosary Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:daniella-suarez","name":"Daniella Suarez","first":"Daniella","last":"Suarez","jersey":"15","pos":"OH/DS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Derwood, Md.","high_school":"Academy of the Holy Cross","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zofia-sykut","name":"Zofia Sykut","first":"Zofia","last":"Sykut","jersey":"11","pos":"S","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Dresden, Germany","high_school":"Sportgymnasium Dresden","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maya-walker","name":"Maya Walker","first":"Maya","last":"Walker","jersey":"12","pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Stone Mountain, Ga.","high_school":"Decatur","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:harlan-wyche","name":"Harlan Wyche","first":"Harlan","last":"Wyche","jersey":"22","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Reston, Va.","high_school":"South Lakes","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

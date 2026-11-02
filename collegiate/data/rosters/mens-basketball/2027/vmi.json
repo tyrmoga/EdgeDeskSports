@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "vmi",
+ "host": "vmikeydets.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://vmikeydets.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:walker-andrews","name":"Walker Andrews","first":"Walker","last":"Andrews","jersey":"14","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":180,"hometown":"Fincastle, Va.","high_school":null,"previous_school":"Northfield Mt. Hermon School (Mass.)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rickey-bradley-jr-","name":"Rickey Bradley, Jr.","first":"Rickey","last":"Bradley, Jr.","jersey":"1","pos":"G","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":74,"weight":200,"hometown":"Milwaukee, Wisc.","high_school":null,"previous_school":"Georgia State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aj-clark","name":"AJ Clark","first":"AJ","last":"Clark","jersey":"5","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":184,"hometown":"Suffolk, Va.","high_school":null,"previous_school":"Menchville","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alexander-daushvili","name":"Alexander Daushvili","first":"Alexander","last":"Daushvili","jersey":"9","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":211,"hometown":"Tbilisi, Georgia","high_school":null,"previous_school":"The Guivy Zaldastanishvili American Academy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:branford-edmonds-iii","name":"Branford Edmonds III","first":"Branford","last":"Edmonds III","jersey":"10","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":185,"hometown":"La Plata, Md.","high_school":null,"previous_school":"La Plata","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dionysis-exarchopoulos","name":"Dionysis Exarchopoulos","first":"Dionysis","last":"Exarchopoulos","jersey":"72","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":82,"weight":218,"hometown":"Kitsi, Koropi, Greece","high_school":null,"previous_school":"Kronos B.C.","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cazell-henderson-bradley","name":"Cazell Henderson-Bradley","first":"Cazell","last":"Henderson-Bradley","jersey":"4","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":175,"hometown":"Milwaukee, Wisc.","high_school":null,"previous_school":"PHHoenix Prep","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tj-johnson","name":"TJ Johnson","first":"TJ","last":"Johnson","jersey":"44","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":215,"hometown":"Belton, Texas","high_school":null,"previous_school":"Lipscomb","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trap-johnson","name":"Trap Johnson","first":"Trap","last":"Johnson","jersey":"23","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":214,"hometown":"Belton, Texas","high_school":null,"previous_school":"Belton HS / Montana State / UC San Diego","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rodrigas-jucevicius","name":"Rodrigas Jucevicius","first":"Rodrigas","last":"Jucevicius","jersey":"25","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":210,"hometown":"Stockholm, Sweden","high_school":null,"previous_school":"International English High School of Södermalm","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mason-lawson","name":"Mason Lawson","first":"Mason","last":"Lawson","jersey":"42","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":185,"hometown":"Boston, Mass.","high_school":null,"previous_school":"Boston Latin Academy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cal-liston","name":"Cal Liston","first":"Cal","last":"Liston","jersey":"0","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":217,"hometown":"Marietta, Ga.","high_school":null,"previous_school":"Lassiter","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:paulius-narvilas","name":"Paulius Narvilas","first":"Paulius","last":"Narvilas","jersey":"11","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":222,"hometown":"Klaipeda, Lithuania","high_school":null,"previous_school":"Western Wyoming CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:joao-panzo","name":"Joao Panzo","first":"Joao","last":"Panzo","jersey":"12","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":81,"weight":245,"hometown":"Porto, Portugal","high_school":null,"previous_school":"Hillcrest Prep (Ariz.)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:robert-peters","name":"Robert Peters","first":"Robert","last":"Peters","jersey":"32","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":220,"hometown":"West Allis, Wisc.","high_school":null,"previous_school":"Nathan Hale","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zion-vaamonde","name":"Zion Vaamonde","first":"Zion","last":"Vaamonde","jersey":"15","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":215,"hometown":"Stockholm, Sweden","high_school":null,"previous_school":"Southeastern Prep (Fla.)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rokas-zilys","name":"Rokas Zilys","first":"Rokas","last":"Zilys","jersey":"22","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":200,"hometown":"Naperville, Ill.","high_school":null,"previous_school":"Marist HS/Vermont Academy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

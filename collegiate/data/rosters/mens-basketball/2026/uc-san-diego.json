@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "uc-san-diego",
+ "host": "ucsdtritons.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://ucsdtritons.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:leo-beath","name":"Leo Beath","first":"Leo","last":"Beath","jersey":"8","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":80,"weight":215,"hometown":"Malibu, Calif.","high_school":"Oak Park HS","previous_school":"Lynn University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tom-beattie","name":"Tom Beattie","first":"Tom","last":"Beattie","jersey":"9","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":195,"hometown":"Auckland, New Zealand","high_school":"Rosmini College","previous_school":"Hawai‘i","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jasen-brooks","name":"Jasen Brooks","first":"Jasen","last":"Brooks","jersey":"11","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":72,"weight":195,"hometown":"Cleveland, Tenn.","high_school":"Cleveland HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aidan-burke","name":"Aidan Burke","first":"Aidan","last":"Burke","jersey":"20","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":190,"hometown":"Los Gatos, Calif.","high_school":"Phillips Exeter Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alex-chaikin","name":"Alex Chaikin","first":"Alex","last":"Chaikin","jersey":"10","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":170,"hometown":"Williamsburg, Va.","high_school":"Trinity Episcopal","previous_school":"Lafayette College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:christopher-cox","name":"Christopher Cox","first":"Christopher","last":"Cox","jersey":"2","pos":"G/F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":80,"weight":208,"hometown":"Salt Lake City, Utah","high_school":"Cottonwood HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bol-dengdit","name":"Bol Dengdit","first":"Bol","last":"Dengdit","jersey":"7","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":83,"weight":210,"hometown":"Melbourne, Australia","high_school":"NBA Global Academy","previous_school":"Portland","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tyson-dunn","name":"Tyson Dunn","first":"Tyson","last":"Dunn","jersey":"3","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":75,"weight":190,"hometown":"Newmarket, Ontario","high_school":"Newmarket HS","previous_school":"Univ. at Buffalo","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ryder-elisaldez","name":"Ryder Elisaldez","first":"Ryder","last":"Elisaldez","jersey":"1","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":175,"hometown":"Las Vegas, Nev.","high_school":"Bishop Gorman HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trap-johnson","name":"Trap Johnson","first":"Trap","last":"Johnson","jersey":"23","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":78,"weight":200,"hometown":"Belton, Texas","high_school":"Belton HS","previous_school":"Montana State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hudson-mayes","name":"Hudson Mayes","first":"Hudson","last":"Mayes","jersey":"0","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":200,"hometown":"Los Angeles, Calif.","high_school":"Redondo Union HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:yaqub-mir","name":"Yaqub Mir","first":"Yaqub","last":"Mir","jersey":"22","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":74,"weight":175,"hometown":"Granite Bay, Calif.","high_school":"Granite Bay HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cade-pendleton","name":"Cade Pendleton","first":"Cade","last":"Pendleton","jersey":"4","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":82,"weight":210,"hometown":"Chattanooga, Tenn.","high_school":"East Hamilton HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emanuel-prospere-ii","name":"Emanuel Prospere II","first":"Emanuel","last":"Prospere II","jersey":"5","pos":"G/F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":77,"weight":212,"hometown":"Miami, Fla.","high_school":"Jackson HS","previous_school":"Missouri-St. Louis","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:baylen-team-impact","name":"Baylen Team IMPACT","first":"Baylen","last":"Team IMPACT","jersey":null,"pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":null,"weight":null,"hometown":"Poway, Calif.","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaden-vance","name":"Jaden Vance","first":"Jaden","last":"Vance","jersey":"13","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":180,"hometown":"Phoenix, Ariz.","high_school":"Compass Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dimitrije-vukicevic","name":"Dimitrije Vukicevic","first":"Dimitrije","last":"Vukicevic","jersey":"33","pos":"C","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":84,"weight":245,"hometown":"Belgrade, Serbia","high_school":"SKN St. Pölten","previous_school":"Washington State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

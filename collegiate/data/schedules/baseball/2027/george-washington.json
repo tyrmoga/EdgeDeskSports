@@ -1,0 +1,22 @@
+{
+ "schema": "edgedesk_collegiate_schedule_v1",
+ "school": "george-washington",
+ "host": "gwsports.com",
+ "platform": "sidearm",
+ "sport": "baseball",
+ "season": 2027,
+ "season_label": "2027",
+ "url": "https://gwsports.com/sports/baseball/schedule/2027",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "readers": "sidearm,sidearm_vue,sidearm_legacy,wmt+themes10+sport_path+plain_page",
+ "games_listed": 4,
+ "finals": 0,
+ "undated": 0,
+ "games": [
+  {"game_key":"15763","date":"2026-10-11","time":"12 p.m.","site":"H","opponent":"Catholic","opponent_host":"catholicathletics.com","conference":false,"postseason":false,"doubleheader":false,"status":"cancelled","us":null,"them":null,"outcome":null,"innings":null,"location":"Arlington, VA","event":null,"boxscore":null,"note":"Canceled"},
+  {"game_key":"15764","date":"2026-10-18","time":"12:30 p.m.","site":"H","opponent":"Camp Community College","opponent_host":"pdc.edu","conference":false,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Arlington, VA","event":null,"boxscore":null,"note":null},
+  {"game_key":"15765","date":"2026-10-24","time":"12 p.m.","site":"A","opponent":"Old Dominion","opponent_host":"odusports.com","conference":false,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Norfolk, VA","event":null,"boxscore":null,"note":null},
+  {"game_key":"15769","date":"2026-11-06","time":"Fri. - 12:15 p.m. / Sat. & Sun. - 9:30 a.m.","site":"H","opponent":"Buff & Blue World Series","opponent_host":"gwsports.com","conference":false,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Arlington, VA","event":null,"boxscore":null,"note":null}
+ ]
+}

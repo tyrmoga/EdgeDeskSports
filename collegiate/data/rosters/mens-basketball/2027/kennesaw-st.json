@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "kennesaw-st",
+ "host": "ksuowls.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://ksuowls.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:levi-ball","name":"Levi Ball","first":"Levi","last":"Ball","jersey":"7","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":203,"hometown":"Columbia, S.C.","high_school":"Gray Collegiate","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cj-beaumont","name":"CJ Beaumont","first":"CJ","last":"Beaumont","jersey":"1","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":224,"hometown":"West Palm Beach, Fla.","high_school":"Palm Beach Prep","previous_school":"Sam Houston","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:keriawn-berry","name":"Keriawn Berry","first":"Keriawn","last":"Berry","jersey":"10","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":208,"hometown":"Louisville, Ky.","high_school":"North Hardin HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zyree-brown","name":"Zyree Brown","first":"Zyree","last":"Brown","jersey":"11","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":160,"hometown":"Austell, Ga.","high_school":"Pebblebrook HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:antwane-daniels","name":"Antwane Daniels","first":"Antwane","last":"Daniels","jersey":"3","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":193,"hometown":"Auburn, Ala.","high_school":null,"previous_school":"Auburn HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anthony-enoh","name":"Anthony Enoh","first":"Anthony","last":"Enoh","jersey":"12","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":224,"hometown":"Uyo, Nigeria","high_school":"Meitoku Gijuku HS","previous_school":"Georgia State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jacoby-hill","name":"Jacoby Hill","first":"Jacoby","last":"Hill","jersey":"0","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":200,"hometown":"Phenix City, Ala.","high_school":"Central HS","previous_school":"Jacksonville State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dozie-onyirimba","name":"Dozie Onyirimba","first":"Dozie","last":"Onyirimba","jersey":"30","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":196,"hometown":"Powder Springs, Ga.","high_school":"McEachern HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kris-parker","name":"Kris Parker","first":"Kris","last":"Parker","jersey":"55","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":81,"weight":207,"hometown":"Tallahassee, Fla.","high_school":"Crossroad Academy","previous_school":"UCF","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kaden-rickard","name":"Kaden Rickard","first":"Kaden","last":"Rickard","jersey":"4","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":211,"hometown":"Madison, Ala.","high_school":"Bob Jones HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trey-simpson","name":"Trey Simpson","first":"Trey","last":"Simpson","jersey":"2","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":212,"hometown":"Evergreen, Ala.","high_school":"DME Academy (Fla.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:amir-taylor","name":"Amir Taylor","first":"Amir","last":"Taylor","jersey":"23","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":81,"weight":250,"hometown":"Pittsburgh, Pa.","high_school":"Grayson HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kyler-theophile","name":"Kyler Theophile","first":"Kyler","last":"Theophile","jersey":"13","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":180,"hometown":"Coral Springs, Fla.","high_school":"Coral Glades HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:avery-thomas-ii","name":"Avery Thomas II","first":"Avery","last":"Thomas II","jersey":"5","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":213,"hometown":"Jackson, Miss.","high_school":"Terry HS","previous_school":"Louisiana Tech","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tobiaz-tolbert","name":"Tobiaz Tolbert","first":"Tobiaz","last":"Tolbert","jersey":"32","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":81,"weight":225,"hometown":"Columbus, Ga.","high_school":"Carver HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brendan-tousignaut","name":"Brendan Tousignaut","first":"Brendan","last":"Tousignaut","jersey":"24","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":185,"hometown":"Canton, Ga.","high_school":"Sequoyah HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

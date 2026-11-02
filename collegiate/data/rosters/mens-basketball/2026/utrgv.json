@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "utrgv",
+ "host": "goutrgv.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://goutrgv.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:kwo-agwa","name":"Kwo Agwa","first":"Kwo","last":"Agwa","jersey":"12","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":78,"weight":220,"hometown":"Calgary, Canada","high_school":"Kearns High School","previous_school":"Texas A&M-Commerce","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zae-blake","name":"Zae Blake","first":"Zae","last":"Blake","jersey":"5","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":73,"weight":180,"hometown":"Washington, D.C.","high_school":"Hargrave Military Academy","previous_school":"Wagner","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:filip-brankovic","name":"Filip Brankovic","first":"Filip","last":"Brankovic","jersey":"33","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":265,"hometown":"Indjija, Serbia","high_school":null,"previous_school":"Groningen","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dane-christensen","name":"Dane Christensen","first":"Dane","last":"Christensen","jersey":"3","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":220,"hometown":"Orem, Utah","high_school":"Orem High School","previous_school":"Gillette College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:koree-cotton","name":"Koree Cotton","first":"Koree","last":"Cotton","jersey":"4","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":210,"hometown":"Miami, Fla.","high_school":"Miami Southridge High School","previous_school":"Jacksonville State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:marshal-destremau","name":"Marshal Destremau","first":"Marshal","last":"Destremau","jersey":"21","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":81,"weight":238,"hometown":"Perth, Australia","high_school":"Aquinas College","previous_school":"Clarendon College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kye-dickson","name":"Kye Dickson","first":"Kye","last":"Dickson","jersey":"7","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":195,"hometown":"Toronto, Canada","high_school":"Balboa School","previous_school":"Northwest Nazarene","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:julien-gomez","name":"Julien Gomez","first":"Julien","last":"Gomez","jersey":"13","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":185,"hometown":"Huntington Park, Calif.","high_school":"La Mirada High School","previous_school":"La Mirada High School","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:marvin-mcghee-iii","name":"Marvin McGhee III","first":"Marvin","last":"McGhee III","jersey":"10","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":76,"weight":195,"hometown":"Atlanta, Ga.","high_school":"Alexander High School","previous_school":"CSU Bakersfield","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:luis-ramirez","name":"Luis Ramirez","first":"Luis","last":"Ramirez","jersey":"30","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":190,"hometown":"Brownsville, Texas","high_school":"Los Fresnos High School","previous_school":"Los Fresnos High School","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jalen-ricks","name":"Jalen Ricks","first":"Jalen","last":"Ricks","jersey":"22","pos":"G","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":79,"weight":195,"hometown":"Sherwood, Ark.","high_school":"Oak Hill Academy","previous_school":"South Plains College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mustafo-vanjov","name":"Mustafo Vanjov","first":"Mustafo","last":"Vanjov","jersey":"35","pos":"C","class":"SR","redshirt":false,"class_raw":"Senior","height_in":84,"weight":235,"hometown":"Khorog, Tajikistan","high_school":"Orangeville Prep","previous_school":"Curry College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaylen-washington","name":"Jaylen Washington","first":"Jaylen","last":"Washington","jersey":"0","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":166,"hometown":"Dallas, TX","high_school":"Lake Highlands High School","previous_school":"Lake Highlands High School","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:demarris-winters","name":"Demarris Winters","first":"Demarris","last":"Winters","jersey":"2","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":null,"hometown":"Cleveland, Ohio","high_school":"Richmond Heights High School","previous_school":"Richmond Heights High School","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:always-wright","name":"Always Wright","first":"Always","last":"Wright","jersey":"1","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":75,"weight":178,"hometown":"Durango, Mexico","high_school":"Joplin High School","previous_school":"Rhode Island","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

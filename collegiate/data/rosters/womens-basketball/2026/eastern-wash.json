@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "eastern-wash",
+ "host": "goeags.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://goeags.com/sports/womens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:autumn-agnew","name":"Autumn Agnew","first":"Autumn","last":"Agnew","jersey":"4","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Spokane Valley, Wash.","high_school":"Central Valley HS","previous_school":"Salt Lake CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elyn-bowers","name":"Elyn Bowers","first":"Elyn","last":"Bowers","jersey":"1","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Pinedale, Wyo.","high_school":"Pinedale HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dylyn-dress","name":"Dylyn Dress","first":"Dylyn","last":"Dress","jersey":"11","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Kennewick, Wash.","high_school":"Kennewick HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaecy-eggers","name":"Jaecy Eggers","first":"Jaecy","last":"Eggers","jersey":"10","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Woodinville, Wash.","high_school":"Woodinville HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ella-gallatin","name":"Ella Gallatin","first":"Ella","last":"Gallatin","jersey":"2","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Snohomish, Wash.","high_school":"Snohomish HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:madeline-gibbs","name":"Madeline Gibbs","first":"Madeline","last":"Gibbs","jersey":"3","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Aurora, Colo.","high_school":"Cherokee Trail HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:caitie-gingras","name":"Caitie Gingras","first":"Caitie","last":"Gingras","jersey":"13","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":69,"weight":null,"hometown":"Vernon, B.C.","high_school":"Edge Prep HS","previous_school":"Cal State Bakersfield","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kourtney-grossman","name":"Kourtney Grossman","first":"Kourtney","last":"Grossman","jersey":"22","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Billings, Mont.","high_school":"Billings West HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:addison-hall","name":"Addison Hall","first":"Addison","last":"Hall","jersey":"41","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Winlock, Wash.","high_school":"Winlock Senior HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bella-hays","name":"Bella Hays","first":"Bella","last":"Hays","jersey":"52","pos":"C","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":76,"weight":null,"hometown":"Wasilla, AK","high_school":"Wasilla, HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:camille-jentzsch","name":"Camille Jentzsch","first":"Camille","last":"Jentzsch","jersey":"44","pos":"F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":75,"weight":null,"hometown":"Lake Stevens, Wash.","high_school":"Lake Stevens HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:paris-kirk","name":"Paris Kirk","first":"Paris","last":"Kirk","jersey":"12","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"Kelowna, British Columbia","high_school":"Putnam Science HS","previous_school":"Robert Morris","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brielle-magnuson","name":"Brielle Magnuson","first":"Brielle","last":"Magnuson","jersey":"24","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Meridian, Idaho","high_school":"Rocky Mountain HS","previous_school":"Walla Walla JC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emily-mcelmurry","name":"Emily McElmurry","first":"Emily","last":"McElmurry","jersey":"23","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Missoula, Mont.","high_school":"Sentinel HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emma-myers","name":"Emma Myers","first":"Emma","last":"Myers","jersey":"15","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Spokane Valley, Wash.","high_school":"Ridgeline HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:l-233-a-line-romain","name":"L&#233;a-line Romain","first":"L&#233;a-line","last":"Romain","jersey":"21","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Paris, France","high_school":"Santa Margarita Catholic HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

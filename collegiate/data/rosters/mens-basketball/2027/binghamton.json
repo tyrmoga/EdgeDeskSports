@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "binghamton",
+ "host": "bubearcats.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://bubearcats.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:evan-ashe","name":"Evan Ashe","first":"Evan","last":"Ashe","jersey":"3","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":190,"hometown":"Charlotte, N.C.","high_school":"The Winchedon School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jake-blackburn","name":"Jake Blackburn","first":"Jake","last":"Blackburn","jersey":"30","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":200,"hometown":"Southborough, Mass.","high_school":"Worcester Academy Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dylan-godfrey","name":"Dylan Godfrey","first":"Dylan","last":"Godfrey","jersey":"10","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":210,"hometown":"Newport Beach, Calif.","high_school":"Pacifica Christian","previous_school":"UC Riverside","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nevin-ibroci","name":"Nevin Ibroci","first":"Nevin","last":"Ibroci","jersey":"11","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":180,"hometown":"Staten Island, N.Y.","high_school":"Hargrave Military Academy","previous_school":"Oral Roberts","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:joul-karram","name":"Joul Karram","first":"Joul","last":"Karram","jersey":"22","pos":"C","class":"JR","redshirt":false,"class_raw":"Junior","height_in":83,"weight":240,"hometown":"Nazareth, Israel","high_school":"Hakfar Hayarok","previous_school":"Utah Valley","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jayden-kelsey","name":"Jayden Kelsey","first":"Jayden","last":"Kelsey","jersey":"2","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":210,"hometown":"Phoenixville, Pa.","high_school":"Westtown School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jayden-lemond","name":"Jayden Lemond","first":"Jayden","last":"Lemond","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":185,"hometown":"Old Tappan, N.J.","high_school":"Blair Academy (N.J.)","previous_school":"William & Mary","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:demetrius-lilley","name":"Demetrius Lilley","first":"Demetrius","last":"Lilley","jersey":"14","pos":"C","class":"SR","redshirt":false,"class_raw":"Senior","height_in":81,"weight":220,"hometown":"Philadelphia, Pa.","high_school":"Lower Merion","previous_school":"La Salle","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bobby-montgomery-jr-","name":"Bobby Montgomery, Jr.","first":"Bobby","last":"Montgomery, Jr.","jersey":"5","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":200,"hometown":"Baltimore, Md.","high_school":"Mt. Zion Prep","previous_school":"UTEP","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kofi-peyton","name":"Kofi Peyton","first":"Kofi","last":"Peyton","jersey":"4","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":210,"hometown":"West Seattle, Wash.","high_school":"Federal Way","previous_school":"Eastern Arizona","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:konstantin-popovic","name":"Konstantin Popovic","first":"Konstantin","last":"Popovic","jersey":"24","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":200,"hometown":"Cacak, Serbia","high_school":"Medical","previous_school":"Coffeyville CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jeremiah-quigley","name":"Jeremiah Quigley","first":"Jeremiah","last":"Quigley","jersey":"0","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":170,"hometown":"Accokeek, Md.","high_school":"Bishop McNamara","previous_school":"George Mason","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kijan-robinson","name":"KiJan Robinson","first":"KiJan","last":"Robinson","jersey":"8","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":175,"hometown":"Apopka, Fla.","high_school":"Wekiva","previous_school":"New Hampshire","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sayerr-senghore","name":"Sayerr Senghore","first":"Sayerr","last":"Senghore","jersey":"33","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":205,"hometown":"Woodinville, Wash.","high_school":"Woodinville","previous_school":"Fort Valley State (Ga.)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:stephan-snagg","name":"Stephan Snagg","first":"Stephan","last":"Snagg","jersey":"13","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":220,"hometown":"Queens, N.Y.","high_school":"New Hampton School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

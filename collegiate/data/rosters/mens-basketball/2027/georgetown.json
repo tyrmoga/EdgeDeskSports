@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "georgetown",
+ "host": "guhoyas.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://guhoyas.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:justin-caldwell","name":"Justin Caldwell","first":"Justin","last":"Caldwell","jersey":"2","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":81,"weight":241,"hometown":"Fayetteville, N.C.","high_school":"Fayetteville Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:seal-diouf","name":"Seal Diouf","first":"Seal","last":"Diouf","jersey":"14","pos":"C","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":244,"hometown":"Gouda, Netherlands","high_school":"The Dunn School [Calif.]","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:vince-iwuchukwu","name":"Vince Iwuchukwu","first":"Vince","last":"Iwuchukwu","jersey":"3","pos":"C","class":"SR","redshirt":false,"class_raw":"Senior","height_in":85,"weight":262,"hometown":"Imo State, Nigeria","high_school":"Southern California Academy [Calif.]","previous_school":"St. John’s","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elmarko-jackson","name":"Elmarko Jackson","first":"Elmarko","last":"Jackson","jersey":"9","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":195,"hometown":"Marlton, N.J.","high_school":"South Kent School","previous_school":"Kansas","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gabriel-landeira","name":"Gabriel Landeira","first":"Gabriel","last":"Landeira","jersey":"22","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":202,"hometown":"Rio de Janeiro, Brazil","high_school":"Instituto de Formacao Profissional e Emprego","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaland-lowe","name":"Jaland Lowe","first":"Jaland","last":"Lowe","jersey":"15","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":175,"hometown":"Missouri City, Texas","high_school":"Fort Bend Marshall","previous_school":"Kentucky","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chol-machot","name":"Chol Machot","first":"Chol","last":"Machot","jersey":"11","pos":"C","class":"JR","redshirt":false,"class_raw":"Junior","height_in":84,"weight":199,"hometown":"Melbourne, Australia","high_school":"Winston Salem Christian [N.C.]","previous_school":"College of Charleston","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:vyctorius-miller","name":"Vyctorius Miller","first":"Vyctorius","last":"Miller","jersey":"5","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":190,"hometown":"Los Angeles, Calif.","high_school":"AZ Compass Prep [Ariz.]","previous_school":"Oklahoma State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mason-moses","name":"Mason Moses","first":"Mason","last":"Moses","jersey":"8","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":215,"hometown":"New York, N.Y.","high_school":"Brewster Academy [N.H.]","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kayvaun-mulready","name":"Kayvaun Mulready","first":"Kayvaun","last":"Mulready","jersey":"45","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":220,"hometown":"Worcester, Mass.","high_school":"Worcester Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:athan-olivier-iv","name":"Athan Olivier IV","first":"Athan","last":"Olivier IV","jersey":"1","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":170,"hometown":"Lafayette, La.","high_school":"The Dunham School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:josiah-parker","name":"Josiah Parker","first":"Josiah","last":"Parker","jersey":"7","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":234,"hometown":"Huber Heights, Ohio","high_school":"Combine Academy National","previous_school":"FAU","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:pedro-pastre","name":"Pedro Pastre","first":"Pedro","last":"Pastre","jersey":"25","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":218,"hometown":"Curitiba, Brazil","high_school":"Colégio Ábaco Sumaré","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:michael-van-raaphorst","name":"Michael Van Raaphorst","first":"Michael","last":"Van Raaphorst","jersey":"30","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":210,"hometown":"Chatham, N.J.","high_school":"Delbarton","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:caleb-williams","name":"Caleb Williams","first":"Caleb","last":"Williams","jersey":"4","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":228,"hometown":"Upper Marlboro, Md.","high_school":"Sidwell Friends [D.C.]","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

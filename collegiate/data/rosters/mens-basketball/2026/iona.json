@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "iona",
+ "host": "icgaels.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://icgaels.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:kosy-akametu","name":"Kosy Akametu","first":"Kosy","last":"Akametu","jersey":"13","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":215,"hometown":"Carson, CA","high_school":"King Drew","previous_school":"Santa Clara","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:denver-anglin","name":"Denver Anglin","first":"Denver","last":"Anglin","jersey":"2","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":185,"hometown":"Montclair, NJ","high_school":"Gill St. Bernard's","previous_school":"Georgetown / Rice","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cj-anthony","name":"CJ Anthony","first":"CJ","last":"Anthony","jersey":"11","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":72,"weight":195,"hometown":"Columbus, OH","high_school":"Putnam Science (CT)","previous_school":"Cincinnati","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:khalil-badru","name":"Khalil Badru","first":"Khalil","last":"Badru","jersey":"4","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":192,"hometown":"New Britain, CT","high_school":"Newman School (MA)","previous_school":"New Hampshire","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chase-cormier","name":"Chase Cormier","first":"Chase","last":"Cormier","jersey":"3","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":183,"hometown":"Atlanta, GA","high_school":"Milton","previous_school":"Northeastern / Wofford","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alliou-fall","name":"Alliou Fall","first":"Alliou","last":"Fall","jersey":"44","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":82,"weight":230,"hometown":"Stockholm, Sweden","high_school":"RIG Lulea","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:toby-harris","name":"Toby Harris","first":"Toby","last":"Harris","jersey":"30","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":80,"weight":225,"hometown":"Durham, NC","high_school":"Durham Academy","previous_school":"Brandeis University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:connor-horan","name":"Connor Horan","first":"Connor","last":"Horan","jersey":"31","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":80,"weight":230,"hometown":"Fairfax, VA","high_school":"Blue Ridge School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:oscar-hourruitiner-jr-","name":"Oscar Hourruitiner Jr.","first":"Oscar","last":"Hourruitiner Jr.","jersey":"12","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":165,"hometown":"Gurabo, Puerto Rico","high_school":"DME Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:luke-jungers","name":"Luke Jungers","first":"Luke","last":"Jungers","jersey":"7","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":81,"weight":220,"hometown":"Omaha, NE","high_school":"Creighton Prep","previous_school":"Nebraska-Omaha","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:deondrea-lindsey","name":"Deondrea Lindsey","first":"Deondrea","last":"Lindsey","jersey":"5","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":212,"hometown":"Knoxville, TN","high_school":"Knoxville Catholic","previous_school":"Oak Hill Academy (VA)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ore-odutayo","name":"Ore Odutayo","first":"Ore","last":"Odutayo","jersey":"21","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":210,"hometown":"Albany, NY","high_school":"Williston Northampton (MA)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:marko-pandiloski","name":"Marko Pandiloski","first":"Marko","last":"Pandiloski","jersey":"16","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":200,"hometown":"Mississauga, Ontario","high_school":"Hoosac School (NY)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:matt-reed","name":"Matt Reed","first":"Matt","last":"Reed","jersey":"1","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":82,"weight":230,"hometown":"Carrollton, TX","high_school":"ISchool Academy","previous_school":"Tulsa","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lamin-sabally","name":"Lamin Sabally","first":"Lamin","last":"Sabally","jersey":"9","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":80,"weight":215,"hometown":"Berlin, Germany","high_school":"Bella Vista Prep (AZ)","previous_school":"UTSA / Incarnate Word","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:keshawn-williams","name":"Keshawn Williams","first":"Keshawn","last":"Williams","jersey":"0","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":76,"weight":175,"hometown":"Chicago Heights, IL","high_school":"Bloom","previous_school":"Northern Illinois / Colorado State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

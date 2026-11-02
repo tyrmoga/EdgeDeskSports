@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "saint-louis",
+ "host": "slubillikens.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://slubillikens.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:yousaf-ahmad","name":"Yousaf Ahmad","first":"Yousaf","last":"Ahmad","jersey":"21","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":185,"hometown":"Toronto, Ontario","high_school":"King Heights Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:badara-diakite","name":"Badara Diakite","first":"Badara","last":"Diakite","jersey":"2","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":81,"weight":190,"hometown":"Bamako, Mali","high_school":"South Kent School (Conn.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trey-green","name":"Trey Green","first":"Trey","last":"Green","jersey":"3","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":165,"hometown":"Charlotte, N.C.","high_school":"Prolific Prep (Calif.)","previous_school":"Xavier","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isaac-holmes","name":"Isaac Holmes","first":"Isaac","last":"Holmes","jersey":"12","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":215,"hometown":"Apex, N.C.","high_school":"Apex","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cam-hutson","name":"Cam Hutson","first":"Cam","last":"Hutson","jersey":"24","pos":"G/F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":205,"hometown":"East Lansing, Mich.","high_school":"East Lansing","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:quentin-jones","name":"Quentin Jones","first":"Quentin","last":"Jones","jersey":"1","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":190,"hometown":"Chicago, Ill.","high_school":"Marian Catholic","previous_school":"Northern Illinois/Cal Poly","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jax-kerr","name":"Jax Kerr","first":"Jax","last":"Kerr","jersey":"15","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":83,"weight":220,"hometown":"Muskogee, Okla.","high_school":"Owasso","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:luke-laczkowski","name":"Luke Laczkowski","first":"Luke","last":"Laczkowski","jersey":"14","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":195,"hometown":"Dallas, Texas","high_school":"St. Mark's","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:amari-mccottry","name":"Amari McCottry","first":"Amari","last":"McCottry","jersey":"4","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":210,"hometown":"Milwaukee, Wis.","high_school":"St. Thomas More","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alon-michaeli","name":"Alon Michaeli","first":"Alon","last":"Michaeli","jersey":"7","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":81,"weight":235,"hometown":"Kfar Saba, Israel","high_school":"Bnei Hertzeliya","previous_school":"Colorado","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sheek-pearson","name":"Sheek Pearson","first":"Sheek","last":"Pearson","jersey":"6","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":83,"weight":210,"hometown":"St. Louis, Mo.","high_school":"John Burroughs School","previous_school":"Marquette","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ishan-sharma","name":"Ishan Sharma","first":"Ishan","last":"Sharma","jersey":"9","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":195,"hometown":"Milton, Ontario","high_school":"Fort Erie International Academy","previous_school":"Virginia","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elijah-strong","name":"Elijah Strong","first":"Elijah","last":"Strong","jersey":"31","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":245,"hometown":"Charlotte, N.C.","high_school":"Myers Park","previous_school":"South Carolina/Boston College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kellen-thames","name":"Kellen Thames","first":"Kellen","last":"Thames","jersey":"0","pos":"G","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":78,"weight":210,"hometown":"St. Louis, Mo.","high_school":"Pattonville","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jermel-thomas","name":"Jermel Thomas","first":"Jermel","last":"Thomas","jersey":"11","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":185,"hometown":"Bronx, N.Y.","high_school":"Our Saviour Lutheran School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jamison-white","name":"Jamison White","first":"Jamison","last":"White","jersey":"10","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":240,"hometown":"St. Louis, Mo.","high_school":"East St. Louis","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

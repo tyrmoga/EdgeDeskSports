@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "duquesne",
+ "host": "goduquesne.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://goduquesne.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:ethan-anish","name":"Ethan Anish","first":"Ethan","last":"Anish","jersey":"32","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":73,"weight":187,"hometown":"Pittsburgh, Pa.","high_school":"Taylor Allderdice","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:yoav-berman","name":"Yoav Berman","first":"Yoav","last":"Berman","jersey":"42","pos":"G/F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":215,"hometown":"Ganei Tikva, Israel","high_school":null,"previous_school":"Queens","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ege-demir","name":"Ege Demir","first":"Ege","last":"Demir","jersey":"16","pos":"C","class":"SR","redshirt":false,"class_raw":"Senior","height_in":83,"weight":275,"hometown":"Kaduna, Nigeria","high_school":"Darüssafaka Lassa","previous_school":"Oregon","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jake-dimichele","name":"Jake DiMichele","first":"Jake","last":"DiMichele","jersey":"44","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":76,"weight":185,"hometown":"McKees Rocks, Pa.","high_school":"OLSH","previous_school":"First Love Christian Academy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chaim-galbut","name":"Chaim Galbut","first":"Chaim","last":"Galbut","jersey":"18","pos":"G/F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":195,"hometown":"Miami, Fla.","high_school":"Miami Country Day","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tarence-guinyard","name":"Tarence Guinyard","first":"Tarence","last":"Guinyard","jersey":"1","pos":"G","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":74,"weight":170,"hometown":"Tampa, Fla.","high_school":"Lee","previous_school":"UTM","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brandon-hall","name":"Brandon Hall","first":"Brandon","last":"Hall","jersey":"0","pos":"G","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":76,"weight":190,"hometown":"Chicago, Ill.","high_school":"Thornton Township","previous_school":"Howard College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:frederik-jellum","name":"Frederik Jellum","first":"Frederik","last":"Jellum","jersey":"17","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":82,"weight":210,"hometown":"Copenhagen, Denmark","high_school":"Cushing Academy (Mass.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kerem-konan","name":"Kerem Konan","first":"Kerem","last":"Konan","jersey":"20","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":235,"hometown":"Denizli, Türkiye","high_school":"Doga College","previous_school":"Creighton","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:arness-lawson","name":"Arness Lawson","first":"Arness","last":"Lawson","jersey":"8","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":74,"weight":180,"hometown":"Columbus, Ohio","high_school":"Pickerington North","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dimitris-ntapsis","name":"Dimitris Ntapsis","first":"Dimitris","last":"Ntapsis","jersey":"21","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":83,"weight":280,"hometown":"Athens, Greece","high_school":"Veritas Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:stephen-olowoniyi","name":"Stephen Olowoniyi","first":"Stephen","last":"Olowoniyi","jersey":"3","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":210,"hometown":"Melbourne, Australia","high_school":"The Webb School","previous_school":"Oregon State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zoje-owinje","name":"Zoje Owinje","first":"Zoje","last":"Owinje","jersey":"5","pos":"G/F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":195,"hometown":"Bowie, Md.","high_school":"Clinton Grace","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:izaiah-pasha","name":"Izaiah Pasha","first":"Izaiah","last":"Pasha","jersey":"4","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":205,"hometown":"Harrisburg, Pa.","high_school":"Cardinal O'Hara","previous_school":"Virginia Tech","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:josh-smith","name":"Josh Smith","first":"Josh","last":"Smith","jersey":"19","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":185,"hometown":"Chicago, Ill.","high_school":"The Skill Factory","previous_school":"West Georgia","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jackson-williams","name":"Jackson Williams","first":"Jackson","last":"Williams","jersey":"14","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":170,"hometown":"Atlanta, Ga.","high_school":"Spire Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "sacramento-st",
+ "host": "hornetsports.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://hornetsports.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:zach-anderson","name":"Zach Anderson","first":"Zach","last":"Anderson","jersey":"3","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":190,"hometown":"Scottsdale, Ariz.","high_school":null,"previous_school":"Scottsdale JC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:giannis-asimakopoulos","name":"Giannis Asimakopoulos","first":"Giannis","last":"Asimakopoulos","jersey":"5","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":81,"weight":200,"hometown":"Thessaloniki, Greece","high_school":null,"previous_school":"Colby JC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sasa-ciani","name":"Sasa Ciani","first":"Sasa","last":"Ciani","jersey":"22","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":82,"weight":240,"hometown":"Nova Gorica, Slovenia","high_school":null,"previous_school":"Penn State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:joao-das-chagas","name":"Joao Das Chagas","first":"Joao","last":"Das Chagas","jersey":"34","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":82,"weight":250,"hometown":"Niquelandia, Brazil","high_school":null,"previous_school":"UAB","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:taj-glover","name":"Taj Glover","first":"Taj","last":"Glover","jersey":"2","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":195,"hometown":"Atlanta, Ga.","high_school":null,"previous_school":"South Florida","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:osiris-grady","name":"Osiris Grady","first":"Osiris","last":"Grady","jersey":"12","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":81,"weight":220,"hometown":"Las Vegas, Nev.","high_school":null,"previous_school":"UC Riverside","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:larry-hughes-ii","name":"Larry Hughes II","first":"Larry","last":"Hughes II","jersey":"0","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":187,"hometown":"St. Louis, Mo.","high_school":null,"previous_school":"CSUN","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mason-hunt","name":"Mason Hunt","first":"Mason","last":"Hunt","jersey":"4","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":210,"hometown":"Prescott, Ariz.","high_school":null,"previous_school":"Pima JC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:arman-madi","name":"Arman Madi","first":"Arman","last":"Madi","jersey":"23","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":210,"hometown":"Scottsdale, Ariz.","high_school":null,"previous_school":"Northern Arizona","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chidi-nwigwe","name":"Chidi Nwigwe","first":"Chidi","last":"Nwigwe","jersey":"8","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":210,"hometown":"Monroe, N.Y.","high_school":null,"previous_school":"Wasatch Academy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ashton-pierce","name":"Ashton Pierce","first":"Ashton","last":"Pierce","jersey":"24","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":180,"hometown":"Muncie, Ind.","high_school":null,"previous_school":"North Mecklenburg HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:romari-robinson","name":"Romari Robinson","first":"Romari","last":"Robinson","jersey":"7","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":195,"hometown":"Miami, Fla.","high_school":null,"previous_school":"Miami HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:melvin-stubbs-jr-","name":"Melvin Stubbs Jr.","first":"Melvin","last":"Stubbs Jr.","jersey":"9","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":180,"hometown":"Tucson, Ariz.","high_school":null,"previous_school":"Sandra Day O'Connor HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ridvan-tutic","name":"Ridvan Tutic","first":"Ridvan","last":"Tutic","jersey":"11","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":83,"weight":245,"hometown":"Novi Pazar, Serbia","high_school":null,"previous_school":"Stonehill","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mikey-williams","name":"Mikey Williams","first":"Mikey","last":"Williams","jersey":"1","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":203,"hometown":"San Diego, Calif.","high_school":null,"previous_school":"UCF","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:marcus-wilson","name":"Marcus Wilson","first":"Marcus","last":"Wilson","jersey":"10","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":180,"hometown":"Albuquerque, N.M.","high_school":null,"previous_school":"UC Davis","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -8,9 +8,11 @@
  "season_label": "2027",
  "url": "https://uhcougars.com/sports/baseball/schedule/2027",
  "first_read": "2026-10-21",
- "last_read": "2026-10-21",
+ "last_read": "2026-11-02",
+ "readers": "sidearm,sidearm_vue,sidearm_legacy,wmt+themes10+sport_path+plain_page",
  "games_listed": 37,
  "finals": 0,
+ "undated": 0,
  "games": [
   {"game_key":"17112","date":"2026-10-03","time":"Noon","site":"N","opponent":"Texas","opponent_host":"texaslonghorns.com","conference":false,"postseason":false,"doubleheader":false,"status":"cancelled","us":null,"them":null,"outcome":null,"innings":null,"location":"Dell Diamond / Round Rock, Texas","event":"Fall Ball","boxscore":null,"note":"CANCELED"},
   {"game_key":"17113","date":"2026-10-10","time":"Noon","site":"H","opponent":"ULM","opponent_host":"ulmwarhawks.com","conference":false,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Houston, Texas","event":"Fall Ball","boxscore":null,"note":null},

@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "wichita-st",
+ "host": "goshockers.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://goshockers.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:brian-amuneke","name":"Brian Amuneke","first":"Brian","last":"Amuneke","jersey":"5","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":188,"hometown":"Los Angeles, Calif.","high_school":null,"previous_school":"Fresno State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dillon-battie","name":"Dillon Battie","first":"Dillon","last":"Battie","jersey":"8","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":81,"weight":216,"hometown":"Dallas, Texas","high_school":null,"previous_school":"Temple","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:william-berg","name":"William Berg","first":"William","last":"Berg","jersey":"44","pos":"C","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":86,"weight":265,"hometown":"Stockholm, Sweden","high_school":null,"previous_school":"Purdue","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:karon-boyd","name":"Karon Boyd","first":"Karon","last":"Boyd","jersey":"0","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":225,"hometown":"Queens, N.Y.","high_school":null,"previous_school":"East Tennessee State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:pierre-couisnard","name":"Pierre Couisnard","first":"Pierre","last":"Couisnard","jersey":"11","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":172,"hometown":"Houston, Texas","high_school":null,"previous_school":"Legacy School of Sport Sciences","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kenyon-giles","name":"Kenyon Giles","first":"Kenyon","last":"Giles","jersey":"1","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":172,"hometown":"Chesapeake, Va.","high_school":null,"previous_school":"UNC Greensboro","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:michael-gray-jr-","name":"Michael Gray Jr.","first":"Michael","last":"Gray Jr.","jersey":"9","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":202,"hometown":"Fredericksburg, Va.","high_school":null,"previous_school":"Nicholls State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:noah-hill","name":"Noah Hill","first":"Noah","last":"Hill","jersey":"22","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":236,"hometown":"Frisco, Texas","high_school":null,"previous_school":"Sunrise Christian Academy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:joy-ighovodja","name":"Joy Ighovodja","first":"Joy","last":"Ighovodja","jersey":"12","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":214,"hometown":"Abeokuta, Nigeria","high_school":null,"previous_school":"NBA Academy Africa","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dre-kindell","name":"Dre Kindell","first":"Dre","last":"Kindell","jersey":"3","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":168,"hometown":"Cincinnati, Ohio","high_school":null,"previous_school":"Barton CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emmanuel-okorafor","name":"Emmanuel Okorafor","first":"Emmanuel","last":"Okorafor","jersey":"20","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":82,"weight":236,"hometown":"Abia, Nigeria","high_school":null,"previous_school":"Seton Hall","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tyrus-rathan-mayes","name":"Tyrus Rathan-Mayes","first":"Tyrus","last":"Rathan-Mayes","jersey":"10","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":204,"hometown":"Toronto, Ontario, Canada","high_school":null,"previous_school":"Legacy School of Sport Sciences","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:henry-thengvall","name":"Henry Thengvall","first":"Henry","last":"Thengvall","jersey":"21","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":79,"weight":208,"hometown":"Wichita, Kan.","high_school":null,"previous_school":"Kapaun-Mt. Carmel HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaret-valencia","name":"Jaret Valencia","first":"Jaret","last":"Valencia","jersey":"2","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":81,"weight":202,"hometown":"Quibdó, Colombia","high_school":null,"previous_school":"Monmouth","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tj-williams","name":"TJ Williams","first":"TJ","last":"Williams","jersey":"4","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":77,"weight":207,"hometown":"Wichita, Kan.","high_school":null,"previous_school":"Wichita Heights HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

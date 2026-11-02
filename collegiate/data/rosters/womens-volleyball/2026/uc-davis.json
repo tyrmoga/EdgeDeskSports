@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "uc-davis",
+ "host": "ucdavisaggies.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://ucdavisaggies.com/sports/womens-volleyball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:gianna-bogan","name":"Gianna Bogan","first":"Gianna","last":"Bogan","jersey":"7","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Rocklin, Calif.","high_school":"Rocklin","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:laela-burgess","name":"Laela Burgess","first":"Laela","last":"Burgess","jersey":"3","pos":"S","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":null,"hometown":"San Luis Obispo, Calif.","high_school":"San Luis Obispo","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:allie-caldwell","name":"Allie Caldwell","first":"Allie","last":"Caldwell","jersey":"10","pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"San Carlos, Calif.","high_school":"Sequoia","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ally-chandler","name":"Ally Chandler","first":"Ally","last":"Chandler","jersey":"13","pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"Loomis, Calif.","high_school":"Del Oro","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:demi-cole","name":"Demi Cole","first":"Demi","last":"Cole","jersey":"9","pos":"MB","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Romeoville, Ill.","high_school":"Romeoville","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ximena-cordero-barr","name":"Ximena Cordero Barr","first":"Ximena","last":"Cordero Barr","jersey":"14","pos":"L","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Tijuana, Mexico","high_school":"Otay Ranch","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:breeze-czapinski","name":"Breeze Czapinski","first":"Breeze","last":"Czapinski","jersey":"1","pos":"OPP","class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":null,"hometown":"Ramona, Calif.","high_school":"Poway","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:reese-diersbock","name":"Reese Diersbock","first":"Reese","last":"Diersbock","jersey":"21","pos":"OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Kailua, Hawaii","high_school":"Le Jardin Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rachel-dunagan","name":"Rachel Dunagan","first":"Rachel","last":"Dunagan","jersey":"5","pos":"L","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Seattle, Wash.","high_school":"Ballard","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brooke-hibino","name":"Brooke Hibino","first":"Brooke","last":"Hibino","jersey":"16","pos":"OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Salinas, Calif.","high_school":"Salinas","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jada-johnson","name":"Jada Johnson","first":"Jada","last":"Johnson","jersey":"4","pos":"OPP","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Portland, Ore.","high_school":"Jesuit","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:faith-rabb-patterson","name":"Faith Rabb-Patterson","first":"Faith","last":"Rabb-Patterson","jersey":"8","pos":"MB/OPP","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Sacramento, Calif.","high_school":"Christian Brothers","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:katelyn-sentous","name":"Katelyn Sentous","first":"Katelyn","last":"Sentous","jersey":"11","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"San Jose, Calif.","high_school":"Archbishop Mitty","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mia-starr","name":"Mia Starr","first":"Mia","last":"Starr","jersey":"2","pos":"S","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Portland, Ore.","high_school":"Central Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ana-stojanovic","name":"Ana Stojanovic","first":"Ana","last":"Stojanovic","jersey":"12","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"London, Ontario, Canada","high_school":"Oakridge Secondary","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isabella-umpierre","name":"Isabella Umpierre","first":"Isabella","last":"Umpierre","jersey":"17","pos":"OPP","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Windermere, Fla.","high_school":"Lake Highland Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:khloe-wong","name":"Khloe Wong","first":"Khloe","last":"Wong","jersey":"18","pos":"L/DS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":66,"weight":null,"hometown":"Folsom, Calif.","high_school":"Folsom","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

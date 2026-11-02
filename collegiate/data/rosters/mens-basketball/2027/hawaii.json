@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "hawaii",
+ "host": "hawaiiathletics.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-2027",
+ "url": "https://hawaiiathletics.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:marcus-adams-jr-","name":"Marcus Adams Jr.","first":"Marcus","last":"Adams Jr.","jersey":"8","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":230,"hometown":"Torrance, Calif.","high_school":"Narbonne HS","previous_school":"Arizona State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lueth-awan","name":"Lueth Awan","first":"Lueth","last":"Awan","jersey":"21","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":175,"hometown":"Sydney, Australia","high_school":"Doonside Technology HS","previous_school":"Sydney Kings","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:scotty-belnap","name":"Scotty Belnap","first":"Scotty","last":"Belnap","jersey":"5","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":185,"hometown":"San Celemente, Calif.","high_school":"Mater Dei HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tanner-cuff","name":"Tanner Cuff","first":"Tanner","last":"Cuff","jersey":"1","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":79,"weight":210,"hometown":"American Fork, Utah","high_school":"American Fork HS","previous_school":"Evansville","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tiger-cuff","name":"Tiger Cuff","first":"Tiger","last":"Cuff","jersey":"22","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":185,"hometown":"American Fork, Utah","high_school":"American Fork HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:houran-dan","name":"Houran Dan","first":"Houran","last":"Dan","jersey":"6","pos":"C","class":"JR","redshirt":false,"class_raw":"Junior","height_in":82,"weight":230,"hometown":"Neimenggu, China","high_school":"Canyon International Academy","previous_school":"Seattle","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zack-davidson","name":"Zack Davidson","first":"Zack","last":"Davidson","jersey":"12","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":225,"hometown":"Mission Viejo, Calif.","high_school":"Mater Dei HS","previous_school":"Northern Arizona","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bol-dengdit","name":"Bol Dengdit","first":"Bol","last":"Dengdit","jersey":"24","pos":"F/C","class":"SR","redshirt":false,"class_raw":"Senior","height_in":83,"weight":210,"hometown":"Melbourne, Australia","high_school":"NBA Global Academy","previous_school":"UC San Diego","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maidy-douglas","name":"Maidy Douglas","first":"Maidy","last":"Douglas","jersey":"9","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":170,"hometown":"Paris, France","high_school":null,"previous_school":"Nanterre 92","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kellen-hampton","name":"Kellen Hampton","first":"Kellen","last":"Hampton","jersey":"3","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":79,"weight":205,"hometown":"Hayward, Calif.","high_school":"Moreau Catholic HS","previous_school":"Pacific","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:manie-joses","name":"Manie Joses","first":"Manie","last":"Joses","jersey":"10","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":190,"hometown":"London, England","high_school":"NBA Global Academy","previous_school":"Davidson","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isaiah-kerr","name":"Isaiah Kerr","first":"Isaiah","last":"Kerr","jersey":"7","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":180,"hometown":"Palo Alto, Calif.","high_school":"Saint Francis HS","previous_school":"Chico State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alos-leyrolles","name":"Aloïs Leyrolles","first":"Aloïs","last":"Leyrolles","jersey":"27","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":210,"hometown":"Fribourg, Switzerland","high_school":null,"previous_school":"Fribourg Olympic","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaden-matingou","name":"Jaden Matingou","first":"Jaden","last":"Matingou","jersey":"0","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":175,"hometown":"Rancho Bernardo, Calif.","high_school":"St. Augustine HS","previous_school":"Point Loma","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chance-trujillo","name":"Chance Trujillo","first":"Chance","last":"Trujillo","jersey":"2","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":200,"hometown":"Kaysville, Utah","high_school":"Davis HS","previous_school":"Utah Tech","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

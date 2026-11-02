@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "nc-central",
+ "host": "nccueaglepride.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://nccueaglepride.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:viktor-alao","name":"Viktor Alao","first":"Viktor","last":"Alao","jersey":"11","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":190,"hometown":"Fuquay-Varina, N.C.","high_school":null,"previous_school":"Brunswick CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ryan-archey","name":"Ryan Archey","first":"Ryan","last":"Archey","jersey":"10","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":175,"hometown":"PG County, Md.","high_school":null,"previous_school":"Coppin State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alius-bowser","name":"Alius Bowser","first":"Alius","last":"Bowser","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":192,"hometown":"Charlotte, N.C.","high_school":null,"previous_school":"Brunswick CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trey-brown","name":"Trey Brown","first":"Trey","last":"Brown","jersey":"6","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":200,"hometown":"Phoenix, Ariz.","high_school":null,"previous_school":"Maryland Eastern Shore","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isaiah-buckley","name":"Isaiah Buckley","first":"Isaiah","last":"Buckley","jersey":"4","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":176,"hometown":"PG County, Md.","high_school":null,"previous_school":"Shaw","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:duor-duor","name":"Duor Duor","first":"Duor","last":"Duor","jersey":"3","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":83,"weight":205,"hometown":"Atlanta, Ga.","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:darius-kane","name":"Darius Kane","first":"Darius","last":"Kane","jersey":"2","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":185,"hometown":"Burlington, N.C.","high_school":null,"previous_school":"Brunswick CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tyler-mason","name":"Tyler Mason","first":"Tyler","last":"Mason","jersey":"12","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":82,"weight":240,"hometown":"Stafford, Va.","high_school":null,"previous_school":"Alabama State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:daniel-mbaeteka","name":"Daniel Mbaeteka","first":"Daniel","last":"Mbaeteka","jersey":"33","pos":"C","class":"JR","redshirt":false,"class_raw":"Junior","height_in":84,"weight":280,"hometown":"Benin City, Nigeria","high_school":null,"previous_school":"Shaw","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:christian-meeks","name":"Christian Meeks","first":"Christian","last":"Meeks","jersey":"0","pos":"F","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":78,"weight":220,"hometown":"Chicago, Ill.","high_school":null,"previous_school":"Morgan State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jozohn-price","name":"Jozohn Price","first":"Jozohn","last":"Price","jersey":"13","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":82,"weight":215,"hometown":"Charlotte, N.C.","high_school":null,"previous_school":"Gaston","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cristian-sanon","name":"Cristian Sanon","first":"Cristian","last":"Sanon","jersey":"23","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":205,"hometown":"Odessa, Fla.","high_school":null,"previous_school":"Claflin","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bryce-selby","name":"Bryce Selby","first":"Bryce","last":"Selby","jersey":"5","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":161,"hometown":"Waldorf, Md.","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chandler-thomas","name":"Chandler Thomas","first":"Chandler","last":"Thomas","jersey":"9","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":190,"hometown":"Warner Robins, Ga.","high_school":null,"previous_school":"South Georgia State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maurice-vassel","name":"Maurice Vassel","first":"Maurice","last":"Vassel","jersey":"8","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":205,"hometown":"St. Ann, Jamaica","high_school":null,"previous_school":"Maryland Eastern Shore","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

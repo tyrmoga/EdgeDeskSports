@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "cal-st-fullerton",
+ "host": "fullertontitans.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://fullertontitans.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:bryce-cofield","name":"Bryce Cofield","first":"Bryce","last":"Cofield","jersey":"12","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":210,"hometown":"Chatsworth, Calif.","high_school":"Sierra Canyon HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jefferson-de-la-cruz-monegro","name":"Jefferson De La Cruz Monegro","first":"Jefferson","last":"De La Cruz Monegro","jersey":"13","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":205,"hometown":"LaSalle, Quebec, Canada","high_school":"Orangeville Prep","previous_school":"Valparaiso","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kendrick-de-luna","name":"Kendrick De Luna","first":"Kendrick","last":"De Luna","jersey":"24","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":82,"weight":230,"hometown":"San Antonio, Texas","high_school":"TMI Episcopal","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kj-garris","name":"KJ Garris","first":"KJ","last":"Garris","jersey":"2","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":200,"hometown":"Atlanta, Ga.","high_school":"Grayson HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaden-henderson","name":"Jaden Henderson","first":"Jaden","last":"Henderson","jersey":"32","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":75,"weight":197,"hometown":"Sacramento, Calif","high_school":"Antelope HS","previous_school":"Concordia University Irvine","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nicholas-khatchikian","name":"Nicholas Khatchikian","first":"Nicholas","last":"Khatchikian","jersey":"15","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":170,"hometown":"Pasadena, Calif.","high_school":"Mesrobian HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:karan-kolappa","name":"Karan Kolappa","first":"Karan","last":"Kolappa","jersey":"10","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":190,"hometown":"Santa Clara, Calif.","high_school":"The King's Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bailey-nunn","name":"Bailey Nunn","first":"Bailey","last":"Nunn","jersey":"8","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":175,"hometown":"Melbourne, Australia","high_school":"Haileybury","previous_school":"Sacramento State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:matthew-quinlan","name":"Matthew Quinlan","first":"Matthew","last":"Quinlan","jersey":"22","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":170,"hometown":"Phoenix, Ariz.","high_school":"Rancho Solano HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:landon-seaman","name":"Landon Seaman","first":"Landon","last":"Seaman","jersey":"99","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":80,"weight":220,"hometown":"Vacaville, Calif.","high_school":"Will C. Wood High School","previous_school":"Menlo College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kidus-tilahun","name":"Kidus Tilahun","first":"Kidus","last":"Tilahun","jersey":"21","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":180,"hometown":"Los Angeles, Calif.","high_school":"Los Altos HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:joshua-ward","name":"Joshua Ward","first":"Joshua","last":"Ward","jersey":"3","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":185,"hometown":"Memphis, Tenn.","high_school":"First Assembly Christian School","previous_school":"Palm Beach Atlantic","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:yesan-warren","name":"Yesan Warren","first":"Yesan","last":"Warren","jersey":"5","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":185,"hometown":"Capital Heights, Md.","high_school":"Knoxville Catholic","previous_school":"Frank Phillips College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:davis-white","name":"Davis White","first":"Davis","last":"White","jersey":"1","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":210,"hometown":"Santa Clarita, Calif.","high_school":"Saugus HS","previous_school":"College of the Sequoias","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:christian-williams","name":"Christian Williams","first":"Christian","last":"Williams","jersey":"7","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":185,"hometown":"St. Louis, Mo.","high_school":"Vashon HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ben-winker","name":"Ben Winker","first":"Ben","last":"Winker","jersey":"33","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":82,"weight":230,"hometown":"St. Louis, Mo.","high_school":"Chaminade College Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

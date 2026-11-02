@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "belmont",
+ "host": "belmontbruins.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://belmontbruins.com/sports/womens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:jailyn-banks","name":"Jailyn Banks","first":"Jailyn","last":"Banks","jersey":"23","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Spring Hill, Tenn.","high_school":"Middle Tennessee Christian School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rylie-beers","name":"Rylie Beers","first":"Rylie","last":"Beers","jersey":"15","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Littleton, Colo.","high_school":"Valor Christian HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kk-brodie","name":"KK Brodie","first":"KK","last":"Brodie","jersey":"33","pos":"C","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":null,"hometown":"Columbia, Mo.","high_school":"Rock Bridge HS","previous_school":"Pepperdine","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:quinn-eubank","name":"Quinn Eubank","first":"Quinn","last":"Eubank","jersey":"22","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Union, Ky.","high_school":"Ryle HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kensley-feltner","name":"Kensley Feltner","first":"Kensley","last":"Feltner","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Louisa, Ky.","high_school":"Lawrence County HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hilary-fuller","name":"Hilary Fuller","first":"Hilary","last":"Fuller","jersey":"9","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Brisbane, Queensland, Australia","high_school":"All Hallows' School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:claire-hyde","name":"Claire Hyde","first":"Claire","last":"Hyde","jersey":"7","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":66,"weight":null,"hometown":"Wheaton, Ill.","high_school":"Wheaton North HS","previous_school":"Morton College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tuti-jones","name":"Tuti Jones","first":"Tuti","last":"Jones","jersey":"0","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":67,"weight":null,"hometown":"Troy, Ala.","high_school":"Charles Henderson HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emily-la-chapell","name":"Emily La Chapell","first":"Emily","last":"La Chapell","jersey":"21","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"Appleton, Wis.","high_school":"Appleton East HS","previous_school":"Marquette","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kate-mcginnis","name":"Kate McGinnis","first":"Kate","last":"McGinnis","jersey":"12","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Kimberly, Wis.","high_school":"Kimberly HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:avery-strickland","name":"Avery Strickland","first":"Avery","last":"Strickland","jersey":"13","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":70,"weight":null,"hometown":"Knoxville, Tenn.","high_school":"Farragut HS","previous_school":"Tennessee","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sanaa-tripp","name":"Sanaa Tripp","first":"Sanaa","last":"Tripp","jersey":"5","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":null,"hometown":"Covington, Ga.","high_school":"Newton HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dacarra-ward","name":"Dacarra Ward","first":"Dacarra","last":"Ward","jersey":"3","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Memphis, Tenn.","high_school":"Bartlett HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:leah-west","name":"Leah West","first":"Leah","last":"West","jersey":"55","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Greensburg, Ind.","high_school":"Greensburg Community HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tatum-woodson","name":"Tatum Woodson","first":"Tatum","last":"Woodson","jersey":"20","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Minnetonka, Minn.","high_school":"Hopkins HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

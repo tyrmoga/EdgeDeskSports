@@ -8,9 +8,11 @@
  "season_label": "2026-27",
  "url": "https://lipscombsports.com/sports/baseball/schedule/2027",
  "first_read": "2026-10-21",
- "last_read": "2026-10-21",
+ "last_read": "2026-11-02",
+ "readers": "sidearm,sidearm_vue,sidearm_legacy,wmt+themes10+sport_path+plain_page",
  "games_listed": 4,
  "finals": 0,
+ "undated": 0,
  "games": [
   {"game_key":"13719","date":"2026-10-07","time":null,"site":"A","opponent":"Belmont","opponent_host":"belmontbruins.com","conference":false,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Nashville, Tenn.","event":null,"boxscore":null,"note":null},
   {"game_key":"13720","date":"2026-10-16","time":"5 pm","site":"A","opponent":"Tennessee","opponent_host":"utsports.com","conference":false,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Knoxville, Tenn. / Covenant Health Park","event":null,"boxscore":null,"note":null},

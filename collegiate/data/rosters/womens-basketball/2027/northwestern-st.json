@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "northwestern-st",
+ "host": "nsudemons.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://nsudemons.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:stella-allison","name":"Stella Allison","first":"Stella","last":"Allison","jersey":"3","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"French Settlement, La.","high_school":"French Settlement HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:yaly-ben-harush","name":"Yaly Ben Harush","first":"Yaly","last":"Ben Harush","jersey":"8","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":null,"hometown":"Tel Aviv, Israel","high_school":"Kiryat Sharet HS","previous_school":"New Orleans, Northeastern JC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:erica-carr","name":"Erica Carr","first":"Erica","last":"Carr","jersey":"11","pos":"C","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":null,"hometown":"Grand Prairie, Texas","high_school":"South Grand Prairie HS","previous_school":"San Diego","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chloe-donnell","name":"Chloe Donnell","first":"Chloe","last":"Donnell","jersey":"0","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":null,"hometown":"Boerne, Texas","high_school":"Boerne HS","previous_school":"South Alabama","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:momina-kassim","name":"Momina Kassim","first":"Momina","last":"Kassim","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Houston, Texas","high_school":"C.E. King HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:india-mcmahon","name":"India McMahon","first":"India","last":"McMahon","jersey":"4","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"Beaumont, Texas","high_school":"Hardin-Jefferson HS","previous_school":"Angelina College/Nicholls","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:payton-miller","name":"Payton Miller","first":"Payton","last":"Miller","jersey":"12","pos":"G/F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"St. Paul, Texas","high_school":"Wylie HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:becca-milon","name":"Becca Milon","first":"Becca","last":"Milon","jersey":"14","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Nepean, Ontario, Canada","high_school":"Cairine Wilson Secondary School","previous_school":"Monmouth","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:val-montero","name":"Val Montero","first":"Val","last":"Montero","jersey":"23","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":null,"high_school":"IES Tarahales/Southeastern Prep (Fla.) Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kp-parr","name":"KP Parr","first":"KP","last":"Parr","jersey":"2","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":64,"weight":null,"hometown":"Waco, Texas","high_school":"La Vega HS","previous_school":"Wichita State/Texas State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chiara-pavitsits","name":"Chiara Pavitsits","first":"Chiara","last":"Pavitsits","jersey":"17","pos":"G/F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Eisenstadt, Austria","high_school":"BG BRG BORG Eisenstadt Kurzweise","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:delora-pricop","name":"Delora Pricop","first":"Delora","last":"Pricop","jersey":"15","pos":"C","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":null,"hometown":"Satu-Mare, Romania","high_school":"Sport HS","previous_school":"Vincennes/Hutchinson CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cimiya-rideaux","name":"Cimiya Rideaux","first":"Cimiya","last":"Rideaux","jersey":"24","pos":"C","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":null,"hometown":"Lafayette, La.","high_school":"Zachary HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:stephie-salumu","name":"Stephie Salumu","first":"Stephie","last":"Salumu","jersey":"13","pos":"G/F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Sint-Niklaas, Belgium","high_school":"Wichita Independent","previous_school":"South Georgia Tech","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:karma-wynn","name":"Karma Wynn","first":"Karma","last":"Wynn","jersey":"5","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":64,"weight":null,"hometown":"Birmingham, Ala.","high_school":"Pelham HS","previous_school":"Tulane/Wallace State CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

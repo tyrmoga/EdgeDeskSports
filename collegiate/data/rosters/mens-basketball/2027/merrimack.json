@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "merrimack",
+ "host": "merrimackathletics.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://merrimackathletics.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:quinn-turtle-kwasniak","name":"Quinn \"Turtle\" Kwasniak","first":"Quinn","last":"\"Turtle\" Kwasniak","jersey":"11","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":76,"weight":null,"hometown":"Chesterland, Ohio","high_school":"Cornerstone Christian","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jeremiah-anderson","name":"Jeremiah Anderson","first":"Jeremiah","last":"Anderson","jersey":"1","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Brooklyn, NY","high_school":"Eagle Academy / East Stroudsburg South High","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:denver-anglin","name":"Denver Anglin","first":"Denver","last":"Anglin","jersey":"2","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":73,"weight":null,"hometown":"Montclair, NJ","high_school":"Gill St. Bernard’s School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:todd-brogna","name":"Todd Brogna","first":"Todd","last":"Brogna","jersey":"20","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":null,"hometown":"Southborough, Mass.","high_school":"Worcester Academy / Stonehill","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tye-dorset","name":"Tye Dorset","first":"Tye","last":"Dorset","jersey":"4","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":null,"hometown":"Mount Laurel, N.J.","high_school":"Lenape High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:amare-guerra","name":"Amare Guerra","first":"Amare","last":"Guerra","jersey":"24","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"San Antonio, TX","high_school":"Antonian Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ayden-johnson","name":"Ayden Johnson","first":"Ayden","last":"Johnson","jersey":"3","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Summerfield, NC","high_school":"Caldwell Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aj-lesburt-jr-","name":"AJ Lesburt Jr.","first":"AJ","last":"Lesburt Jr.","jersey":"33","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":77,"weight":null,"hometown":"East Kingston, NH","high_school":"Bradford Christian Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jacob-moore","name":"Jacob Moore","first":"Jacob","last":"Moore","jersey":"14","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":81,"weight":null,"hometown":"Hamilton, Va.","high_school":"Paul VI Catholic High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:david-munro","name":"David Munro","first":"David","last":"Munro","jersey":"12","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":80,"weight":null,"hometown":"Neptune, N.J.","high_school":"Camden High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jp-skoric","name":"JP Skoric","first":"JP","last":"Skoric","jersey":"10","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":null,"hometown":"Ridgewood, NJ","high_school":"Don Bosco Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dylan-veillette","name":"Dylan Veillette","first":"Dylan","last":"Veillette","jersey":"0","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":null,"hometown":"Ridgefield, Conn.","high_school":"St. George's School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aram-vladimir-soqui-urbano","name":"Aram Vladimir Soqui Urbano","first":"Aram","last":"Vladimir Soqui Urbano","jersey":"7","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":null,"hometown":"Rosarito, MEX","high_school":"Veritas Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rocco-westfield","name":"Rocco Westfield","first":"Rocco","last":"Westfield","jersey":"13","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Philadelphia, Pa.","high_school":"Father Judge High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elijah-wilborn","name":"Elijah Wilborn","first":"Elijah","last":"Wilborn","jersey":"5","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":null,"hometown":"Middletown, Conn.","high_school":"Middletown High / South Kent School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

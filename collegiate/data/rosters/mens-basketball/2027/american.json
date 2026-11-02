@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "american",
+ "host": "aueagles.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://aueagles.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:jack-anderson","name":"Jack Anderson","first":"Jack","last":"Anderson","jersey":"8","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":190,"hometown":"Menlo Park, Calif.","high_school":"Menlo Atherton","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alexander-bryant","name":"Alexander Bryant","first":"Alexander","last":"Bryant","jersey":"5","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":200,"hometown":"New York, N.Y.","high_school":"South Kent","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:matthew-casey","name":"Matthew Casey","first":"Matthew","last":"Casey","jersey":"9","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":185,"hometown":"Miami, Fla.","high_school":"Riviera Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:madden-collins","name":"Madden Collins","first":"Madden","last":"Collins","jersey":"2","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":190,"hometown":"Columbia, S.C.","high_school":"Christ School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chris-eagan","name":"Chris Eagan","first":"Chris","last":"Eagan","jersey":"35","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":220,"hometown":"Charlotte, N.C.","high_school":"Charlotte Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dean-hogans","name":"Dean Hogans","first":"Dean","last":"Hogans","jersey":"3","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":205,"hometown":"White Plains, N.Y.","high_school":"The Hotchkiss School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:julen-iturbe","name":"Julen Iturbe","first":"Julen","last":"Iturbe","jersey":"32","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":225,"hometown":"Greenville, S.C.","high_school":"Riverside","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:greg-jones","name":"Greg Jones","first":"Greg","last":"Jones","jersey":"23","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":205,"hometown":"Alexandria, Va.","high_school":"Hayfield Secondary","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:noah-jones","name":"Noah Jones","first":"Noah","last":"Jones","jersey":"21","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":78,"weight":200,"hometown":"Manchester, Md.","high_school":"Mount Saint Joseph","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:matt-mayock","name":"Matt Mayock","first":"Matt","last":"Mayock","jersey":"33","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":195,"hometown":"Berwyn, Pa.","high_school":"The Westtown School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:carson-mcdonald","name":"Carson McDonald","first":"Carson","last":"McDonald","jersey":"13","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":81,"weight":225,"hometown":"Denver, Colo.","high_school":"The Newman School (Mass.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:eric-michaels","name":"Eric Michaels","first":"Eric","last":"Michaels","jersey":"25","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":240,"hometown":"Poughkeepsie, N.Y.","high_school":"Blair Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:wyatt-nausadis","name":"Wyatt Nausadis","first":"Wyatt","last":"Nausadis","jersey":"7","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":205,"hometown":"Traverse City, Mich.","high_school":"St. Francis","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kamran-prince","name":"Kamran Prince","first":"Kamran","last":"Prince","jersey":"1","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":185,"hometown":"Goldsboro. N.C.","high_school":"Trinity Academy of Raleigh","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dj-sandi","name":"DJ Sandi","first":"DJ","last":"Sandi","jersey":"0","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":185,"hometown":"Fort Lauderdale, Fla.","high_school":"St. Thomas Aquinas","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kade-sebastian","name":"Kade Sebastian","first":"Kade","last":"Sebastian","jersey":"4","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":190,"hometown":"Fairfax, Va.","high_school":"DeMatha Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:merrick-smith","name":"Merrick Smith","first":"Merrick","last":"Smith","jersey":"15","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":83,"weight":225,"hometown":"Belgrade, Maine","high_school":"Kimball Union Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

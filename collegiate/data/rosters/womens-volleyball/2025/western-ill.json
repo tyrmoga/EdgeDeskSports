@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "western-ill",
+ "host": "goleathernecks.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2025,
+ "season_label": "2025",
+ "url": "https://goleathernecks.com/sports/womens-volleyball/roster/2025",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:kennedy-adair","name":"Kennedy Adair","first":"Kennedy","last":"Adair","jersey":"12","pos":"OH","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Macomb, IL","high_school":"Macomb HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaleah-bauss","name":"Jaleah Bauss","first":"Jaleah","last":"Bauss","jersey":"15","pos":"S","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"Frisco, TX","high_school":"Wakeland HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:caroline-clayton","name":"Caroline Clayton","first":"Caroline","last":"Clayton","jersey":"11","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Lenexa, KS","high_school":"Olathe South HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:keyana-cruse","name":"Keyana Cruse","first":"Keyana","last":"Cruse","jersey":"21","pos":"OH","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":73,"weight":null,"hometown":"Bonner Springs, KS","high_school":"Bonner Springs HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hillary-estes","name":"Hillary Estes","first":"Hillary","last":"Estes","jersey":"9","pos":"MB","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Nixa, MO","high_school":"Nixa HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kiyah-franklin","name":"Kiyah Franklin","first":"Kiyah","last":"Franklin","jersey":"10","pos":"RS","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":72,"weight":null,"hometown":"Macomb, MI","high_school":"Romeo HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ella-haines","name":"Ella Haines","first":"Ella","last":"Haines","jersey":"2","pos":"DS/L","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Verona, WI","high_school":"Verona HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:melaina-hawblitzel","name":"Melaina Hawblitzel","first":"Melaina","last":"Hawblitzel","jersey":"16","pos":"OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Warsaw, IN","high_school":"Warsaw HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:grace-kremer","name":"Grace Kremer","first":"Grace","last":"Kremer","jersey":"1","pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"Elkhorn, NE","high_school":"Skutt Catholic HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:karlie-lane","name":"Karlie Lane","first":"Karlie","last":"Lane","jersey":"4","pos":"L/DS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":65,"weight":null,"hometown":"Arnold, MO","high_school":"St. Pius X HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ashlee-markert","name":"Ashlee Markert","first":"Ashlee","last":"Markert","jersey":"8","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":null,"hometown":"Mt. Sterling, IL","high_school":"Brown County HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:madelyn-norton","name":"Madelyn Norton","first":"Madelyn","last":"Norton","jersey":"6","pos":"S","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Dike, IA","high_school":"Dike-New Hartford HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:audrey-pender","name":"Audrey Pender","first":"Audrey","last":"Pender","jersey":"3","pos":"MB/RS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Rogers, AR","high_school":"Shiloh Christian","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alysia-perez","name":"Alysia Perez","first":"Alysia","last":"Perez","jersey":"14","pos":"S","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":69,"weight":null,"hometown":"Geneseo, IL","high_school":"Geneseo HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:martyna-sowiak","name":"Martyna Sowiak","first":"Martyna","last":"Sowiak","jersey":"18","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Bartlett, IL","high_school":"Bartlett High","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:grace-ulatowski","name":"Grace Ulatowski","first":"Grace","last":"Ulatowski","jersey":"5","pos":"DS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Lemont, IL","high_school":"Lemont Township HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elizabeth-ziegler","name":"Elizabeth Ziegler","first":"Elizabeth","last":"Ziegler","jersey":"7","pos":"RS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"Sandusky, OH","high_school":"Perkins HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

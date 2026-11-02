@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "fdu",
+ "host": "fduknights.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://fduknights.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:bol-agu","name":"Bol Agu","first":"Bol","last":"Agu","jersey":"8","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":249,"hometown":"Winnipeg, Canada","high_school":"The Potter's House Christian Academy","previous_school":"Saint Peter's/Cloud County CC/Murray State College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:danzelle-bullock-coles","name":"Danzelle Bullock Coles","first":"Danzelle","last":"Bullock Coles","jersey":"3","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":197,"hometown":"Richmond, Va.","high_school":"St. Anne's-Belfield","previous_school":"Queens","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:andrew-canda","name":"Andrew Canda","first":"Andrew","last":"Canda","jersey":"30","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":156,"hometown":"Woodbridge, Va.","high_school":"Virginia Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:myles-dickerson","name":"Myles Dickerson","first":"Myles","last":"Dickerson","jersey":"7","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":197,"hometown":"Plainfield, N.J.","high_school":"NY Military Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ras-elijah-godbolt","name":"Ras Elijah Godbolt","first":"Ras","last":"Elijah Godbolt","jersey":"24","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":175,"hometown":"Albany, N.Y.","high_school":"Albany Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sebastian-haubro","name":"Sebastian Haubro","first":"Sebastian","last":"Haubro","jersey":"9","pos":"F/C","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":82,"weight":229,"hometown":"Ballerup, Denmark","high_school":null,"previous_school":"BMS Herlev Wolfpack","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jr-jacobs","name":"JR Jacobs","first":"JR","last":"Jacobs","jersey":"0","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":71,"weight":162,"hometown":"Memphis, Tenn.","high_school":"Bartlett High School","previous_school":"Georgia Southwestern State/New Orleans/Walters State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:david-jevtic","name":"David Jevtic","first":"David","last":"Jevtic","jersey":"35","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":197,"hometown":"Belgrade, Serbia","high_school":null,"previous_school":"KK Kolubara Lazarevac 2003","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:raysean-johnson","name":"Raysean Johnson","first":"Raysean","last":"Johnson","jersey":"13","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":187,"hometown":"Montgomery, N.Y.","high_school":"Canterbury School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:diing-maiwen","name":"Diing Maiwen","first":"Diing","last":"Maiwen","jersey":"14","pos":"G/F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":178,"hometown":"Auburn, Maine","high_school":"Knox School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tyler-mcquaid","name":"Tyler McQuaid","first":"Tyler","last":"McQuaid","jersey":"11","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":194,"hometown":"Maywood, N.J.","high_school":"Bergen Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:vophcy-prophete","name":"Vophcy Prophete","first":"Vophcy","last":"Prophete","jersey":"2","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":164,"hometown":"Orlando, Fla.","high_school":"Olympia","previous_school":"Bishop State/Reid State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:austin-ratliff","name":"Austin Ratliff","first":"Austin","last":"Ratliff","jersey":"1","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":181,"hometown":"Jackson, Miss.","high_school":"Terry High School","previous_school":"Hinds Community College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:pavle-stosic","name":"Pavle Stosic","first":"Pavle","last":"Stosic","jersey":"6","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":82,"weight":231,"hometown":"Nis, Serbia","high_school":null,"previous_school":"Pepperdine/Utah State/Gonzaga","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:travis-torain","name":"Travis Torain","first":"Travis","last":"Torain","jersey":"22","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":205,"hometown":"Surprise, Ariz.","high_school":"Dream City Christian","previous_school":"Austin Peay/Panola College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:devin-wright","name":"Devin Wright","first":"Devin","last":"Wright","jersey":"4","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":206,"hometown":"Redondo Beach, Cali.","high_school":"Redondo Union","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

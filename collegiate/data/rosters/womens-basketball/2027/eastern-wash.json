@@ -1,0 +1,30 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "eastern-wash",
+ "host": "goeags.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://goeags.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 14,
+ "players": [
+  {"pid":"slug:alyse-aby","name":"Alyse Aby","first":"Alyse","last":"Aby","jersey":"4","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Laurel, Mont.","high_school":"Laurel HS","previous_school":"Idaho State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elyn-bowers","name":"Elyn Bowers","first":"Elyn","last":"Bowers","jersey":"1","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":null,"hometown":"Pinedale, Wyo.","high_school":"Pinedale HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:camille-dake","name":"Camille Dake","first":"Camille","last":"Dake","jersey":"5","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":72,"weight":null,"hometown":"Vista, Calif.","high_school":"Rancho Buena Vista HS","previous_school":"Portland","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jada-davis","name":"Jada Davis","first":"Jada","last":"Davis","jersey":"25","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"Bozeman, Mont.","high_school":"Gallatin HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:grace-dehoog","name":"Grace DeHoog","first":"Grace","last":"DeHoog","jersey":"50","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Sumas, Wash.","high_school":"Nooksack Valley HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dylyn-dress","name":"Dylyn Dress","first":"Dylyn","last":"Dress","jersey":"24","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Kennewick, Wash.","high_school":"Kennewick HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaecy-eggers","name":"Jaecy Eggers","first":"Jaecy","last":"Eggers","jersey":"10","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":null,"hometown":"Woodinville, Wash.","high_school":"Woodinville HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:martina-gelabert-blanco","name":"Martina Gelabert Blanco","first":"Martina","last":"Gelabert Blanco","jersey":"14","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":null,"weight":null,"hometown":"Barcelona, Spain","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:madeline-gibbs","name":"Madeline Gibbs","first":"Madeline","last":"Gibbs","jersey":"3","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Aurora, Colo.","high_school":"Cherokee Trail HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:caitie-gingras","name":"Caitie Gingras","first":"Caitie","last":"Gingras","jersey":"2","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":69,"weight":null,"hometown":"Vernon, B.C.","high_school":"Edge Prep HS","previous_school":"Cal State Bakersfield","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kourtney-grossman","name":"Kourtney Grossman","first":"Kourtney","last":"Grossman","jersey":"22","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Billings, Mont.","high_school":"Billings West HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emily-mcelmurry","name":"Emily McElmurry","first":"Emily","last":"McElmurry","jersey":"23","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Missoula, Mont.","high_school":"Sentinel HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emma-myers","name":"Emma Myers","first":"Emma","last":"Myers","jersey":"15","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Spokane Valley, Wash.","high_school":"Ridgeline HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:deets-parrish","name":"Deets Parrish","first":"Deets","last":"Parrish","jersey":"0","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Satus, Wash.","high_school":"A.C. Davis HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

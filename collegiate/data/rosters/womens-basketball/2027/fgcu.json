@@ -1,0 +1,29 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "fgcu",
+ "host": "fgcuathletics.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://fgcuathletics.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 13,
+ "players": [
+  {"pid":"slug:eve-alexander","name":"Eve Alexander","first":"Eve","last":"Alexander","jersey":"23","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Opelousas, La.","high_school":"Lafayette Christian Academy","previous_school":"Florida A&M","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gra-a-barbosa","name":"Graça Barbosa","first":"Graça","last":"Barbosa","jersey":"5","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":66,"weight":null,"hometown":"São Paulo, Brazil","high_school":"Colégio Campos Salles","previous_school":"Gulf Coast State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sinai-douglas","name":"Sinai Douglas","first":"Sinai","last":"Douglas","jersey":"11","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":64,"weight":null,"hometown":"Toledo, Ohio","high_school":"Roy C. Start HS","previous_school":"Michigan State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:karina-gordon","name":"Karina Gordon","first":"Karina","last":"Gordon","jersey":"4","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":null,"hometown":"Hallandale Beach, Fla.","high_school":"St. Thomas Aquinas HS","previous_school":"East Carolina","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:amelia-hobson","name":"Amelia Hobson","first":"Amelia","last":"Hobson","jersey":"8","pos":"G/F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Melbourne, Australia","high_school":"Parkdale Secondary College","previous_school":"North Dakota State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:airah-lavy","name":"Airah Lavy","first":"Airah","last":"Lavy","jersey":"20","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Nelsonville, Ohio","high_school":"Nelsonville-York HS","previous_school":"Saint Francis","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:denika-lightbourne","name":"Denika Lightbourne","first":"Denika","last":"Lightbourne","jersey":"0","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":null,"hometown":"Nassau, Bahamas","high_school":"Tallulah Falls HS","previous_school":"FIU","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elle-mcculloch","name":"Elle McCulloch","first":"Elle","last":"McCulloch","jersey":"1","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Brownsburg, Ind.","high_school":"Brownsburg HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jalei-pillow","name":"Jalei Pillow","first":"Jalei","last":"Pillow","jersey":"13","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Columbia, Tenn.","high_school":"Colonial HS","previous_school":"Eastern Florida State College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:shameir-quimby","name":"Shameir Quimby","first":"Shameir","last":"Quimby","jersey":"15","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Fort Walton, Fla.","high_school":"Fort Walton Beach HS","previous_school":"Miami Dade College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cerina-rolle","name":"Cerina Rolle","first":"Cerina","last":"Rolle","jersey":"3","pos":"G","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":69,"weight":null,"hometown":"Eustis, Fla.","high_school":"Eustis HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ari-turla","name":"Ari Turla","first":"Ari","last":"Turla","jersey":"7","pos":"G/F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Scarborough, Ontario","high_school":"Saint Paul Catholic HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lily-zeinstra","name":"Lily Zeinstra","first":"Lily","last":"Zeinstra","jersey":"10","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Byron Center, Mich.","high_school":"Byron Center HS","previous_school":"Butler","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "purdue",
+ "host": "purduesports.com",
+ "platform": "wmt",
+ "sport": "womens-volleyball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://purduesports.com/sports/womens-volleyball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"3118","name":"Taylor Anderson","first":"Taylor","last":"Anderson","jersey":"5","pos":"S","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"San Antonio, Texas","high_school":"Cornerstone Christian","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3977","name":"Isabelle Bardin","first":"Isabelle","last":"Bardin","jersey":"8","pos":"S","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":75,"weight":null,"hometown":"Washington, D.C.","high_school":"Flint Hill","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"4445","name":"Lily Bosworth","first":"Lily","last":"Bosworth","jersey":null,"pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":null,"hometown":"Mahomet, Ill.","high_school":"Mahomet-Seymour","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3126","name":"Dior Charles","first":"Dior","last":"Charles","jersey":"9","pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Los Angeles, Calif.","high_school":"Marymount","previous_school":"Wake Forest","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3123","name":"Sienna Foster","first":"Sienna","last":"Foster","jersey":"6","pos":"DS","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":69,"weight":null,"hometown":"Lafayette, Ind.","high_school":"Benton Central","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"4444","name":"Kate Hansen","first":"Kate","last":"Hansen","jersey":null,"pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":null,"hometown":"Weatherford, Texas","high_school":"Weatherford","previous_school":"Clemson","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3124","name":"Grace Heaney","first":"Grace","last":"Heaney","jersey":"14","pos":"OPP/RS","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":74,"weight":null,"hometown":"Omaha, Neb.","high_school":"Elkhorn North","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3120","name":"Bianka Lulić","first":"Bianka","last":"Lulić","jersey":"7","pos":"MB","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":77,"weight":null,"hometown":"San Diego, Calif.","high_school":"La Jolla Country Day","previous_school":"Miami","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"4362","name":"Lameen Mambu","first":"Lameen","last":"Mambu","jersey":"21","pos":"OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Chantilly, Va.","high_school":"Chantilly","previous_school":"Georgia Tech","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3122","name":"Ryan McAleer","first":"Ryan","last":"McAleer","jersey":"3","pos":"DS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":66,"weight":null,"hometown":"Overland Park, Kan.","high_school":"Blue Valley","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"4361","name":"Elle Schara","first":"Elle","last":"Schara","jersey":"19","pos":"DS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Crown Point, Ind.","high_school":"Crown Point","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"4364","name":"MaryKate Scheumann","first":"MaryKate","last":"Scheumann","jersey":"2","pos":"DS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Decatur, Ind.","high_school":"Bellmont","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3129","name":"Addy Tindall","first":"Addy","last":"Tindall","jersey":"18","pos":"OH","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":75,"weight":null,"hometown":"Roanoke, Ind.","high_school":"Homestead","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"4363","name":"Sydni Vice","first":"Sydni","last":"Vice","jersey":"17","pos":"OH/OPP","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":null,"hometown":"Collierville, Tenn.","high_school":"Houston","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3127","name":"Morgan Williams","first":"Morgan","last":"Williams","jersey":"16","pos":"MB","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":75,"weight":null,"hometown":"Enterprise, Ala.","high_school":"Enterprise","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3978","name":"Rachel Williams","first":"Rachel","last":"Williams","jersey":"15","pos":"OPP/RS","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":75,"weight":null,"hometown":"Bloomfield, N.J.","high_school":"Union Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"3119","name":"Kenna Wollard","first":"Kenna","last":"Wollard","jersey":"4","pos":"OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Dunlap, Ill.","high_school":"Illinois Valley Central","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

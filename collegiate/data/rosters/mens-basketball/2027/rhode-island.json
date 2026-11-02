@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "rhode-island",
+ "host": "gorhody.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://gorhody.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:jaymien-aponte","name":"Jaymien Aponte","first":"Jaymien","last":"Aponte","jersey":"13","pos":null,"class":null,"redshirt":false,"class_raw":"3rd Year","height_in":75,"weight":183,"hometown":"Cranston, R.I.","high_school":"Cranston West High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaen-chatman","name":"Jaen Chatman","first":"Jaen","last":"Chatman","jersey":"2","pos":"G","class":null,"redshirt":false,"class_raw":"1st Year","height_in":73,"weight":200,"hometown":"East Stroudsburg, Pa.","high_school":"Blair Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:matas-deniusas","name":"Matas Deniusas","first":"Matas","last":"Deniusas","jersey":"44","pos":"F","class":null,"redshirt":false,"class_raw":"2nd Year","height_in":81,"weight":220,"hometown":"Vilnius, Lithuania","high_school":"Vilniaus Žveryno Gimnazija (UT Martin)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jason-fontenet-ii","name":"Jason Fontenet II","first":"Jason","last":"Fontenet II","jersey":"1","pos":"G/F","class":null,"redshirt":false,"class_raw":"4th Year","height_in":78,"weight":205,"hometown":"Phoenix, Ariz.","high_school":"Bella Vista Prep (UC Santa Barbara)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jalen-harper","name":"Jalen Harper","first":"Jalen","last":"Harper","jersey":"7","pos":"G","class":null,"redshirt":false,"class_raw":"2nd Year","height_in":75,"weight":190,"hometown":"Philadelphia, Pa.","high_school":"St. Joe’s Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jonah-hinton","name":"Jonah Hinton","first":"Jonah","last":"Hinton","jersey":"5","pos":"G","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":75,"weight":200,"hometown":"Chicago, Ill.","high_school":"Naperville Central (St. Bonaventure)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:miftah-ibiyemi","name":"Miftah Ibiyemi","first":"Miftah","last":"Ibiyemi","jersey":"21","pos":"G","class":null,"redshirt":false,"class_raw":"4th Year","height_in":75,"weight":175,"hometown":"Providence, R.I.","high_school":"Highlander (Johnson & Wales)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:barrett-loer","name":"Barrett Loer","first":"Barrett","last":"Loer","jersey":"10","pos":"G","class":null,"redshirt":false,"class_raw":"2nd Year","height_in":78,"weight":190,"hometown":"Millis, Mass.","high_school":"St. George’s","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dashiell-mabilon","name":"Dashiell Mabilon","first":"Dashiell","last":"Mabilon","jersey":"31","pos":"F","class":null,"redshirt":false,"class_raw":"1st Year","height_in":82,"weight":225,"hometown":"Brooklyn, NY","high_school":"Canterbury School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tim-martin-ii","name":"Tim Martin II","first":"Tim","last":"Martin II","jersey":"14","pos":"F","class":null,"redshirt":false,"class_raw":"1st Year","height_in":80,"weight":210,"hometown":"Cincinnati, Ohio","high_school":"Summit Country Day","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:javon-perry","name":"Javon Perry","first":"Javon","last":"Perry","jersey":"11","pos":"F","class":null,"redshirt":false,"class_raw":"2nd Year","height_in":80,"weight":207,"hometown":"Springfield, Mass.","high_school":"MacDuffie","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nedas-raupelis","name":"Nedas Raupelis","first":"Nedas","last":"Raupelis","jersey":"9","pos":"F","class":null,"redshirt":false,"class_raw":"2nd Year","height_in":82,"weight":231,"hometown":"Vilnius, Lithuania","high_school":"Zalgiris II","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:steven-sherman","name":"Steven Sherman","first":"Steven","last":"Sherman","jersey":"6","pos":"G","class":null,"redshirt":false,"class_raw":"1st Year","height_in":74,"weight":160,"hometown":"La Vergne, Tenn.","high_school":"Ensworth","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mouhamed-sow","name":"Mouhamed Sow","first":"Mouhamed","last":"Sow","jersey":"35","pos":"F","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":81,"weight":217,"hometown":"Dakar, Senegal","high_school":"The Patrick School (St. Peter's)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jahmere-tripp","name":"Jahmere Tripp","first":"Jahmere","last":"Tripp","jersey":"0","pos":"G/F","class":null,"redshirt":false,"class_raw":"4th Year","height_in":78,"weight":234,"hometown":"Brooklyn, N.Y.","high_school":"Our Saviour Lutheran (Fordham)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dylan-williamson","name":"Dylan Williamson","first":"Dylan","last":"Williamson","jersey":"4","pos":"G","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":73,"weight":180,"hometown":"Upper Marlboro, Md.","high_school":"Our Lady of Good Counsel (Towson)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

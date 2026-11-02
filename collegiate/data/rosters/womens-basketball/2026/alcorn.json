@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "alcorn",
+ "host": "alcornsports.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://alcornsports.com/sports/womens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:jeanee-anderson","name":"Jeanee Anderson","first":"Jeanee","last":"Anderson","jersey":"15","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":67,"weight":null,"hometown":"Greenville, MS","high_school":"Coahoma CC","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:frances-anyakudo","name":"Frances Anyakudo","first":"Frances","last":"Anyakudo","jersey":"21","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"Macon, GA","high_school":"Central HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jayda-bowen","name":"Jayda Bowen","first":"Jayda","last":"Bowen","jersey":"3","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":67,"weight":null,"hometown":"Chicago, IL","high_school":"Prairie View A&M","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ariyah-burke","name":"Ariyah Burke","first":"Ariyah","last":"Burke","jersey":"4","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Monticello, GA","high_school":"Jackson HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nakia-cheatham","name":"Nakia Cheatham","first":"Nakia","last":"Cheatham","jersey":"2","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":72,"weight":null,"hometown":"Clarksdale, MS","high_school":"Coahoma CC","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kiarra-henderson","name":"Kiarra Henderson","first":"Kiarra","last":"Henderson","jersey":"24","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":null,"hometown":"Ft. Worth, TX","high_school":"Colby CC","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:leyah-houston","name":"Leyah Houston","first":"Leyah","last":"Houston","jersey":"11","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Gainsville, FL","high_school":"Santa Fe CC","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maya-hunkin-claytor","name":"Maya Hunkin-Claytor","first":"Maya","last":"Hunkin-Claytor","jersey":"30","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":67,"weight":null,"hometown":"Wahiawa, HI","high_school":"Kahuku HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ja-sharreah-hunt","name":"Ja'Sharreah Hunt","first":"Ja'Sharreah","last":"Hunt","jersey":"1","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":66,"weight":null,"hometown":"Roxie, MS","high_school":"Tougaloo College","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dalayja-hurt-floyd","name":"Dalayja Hurt-Floyd","first":"Dalayja","last":"Hurt-Floyd","jersey":"10","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"Compton, CA","high_school":"Crenshaw HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:arene-iyekekpolor","name":"Arene Iyekekpolor","first":"Arene","last":"Iyekekpolor","jersey":"14","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Edmonton, Alberta","high_school":"Edge School for Athletics","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jazlyn-johnson","name":"Jazlyn Johnson","first":"Jazlyn","last":"Johnson","jersey":"5","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Macon, GA","high_school":"Central HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:milaan-moore","name":"Milaan Moore","first":"Milaan","last":"Moore","jersey":"0","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Chicago, IL","high_school":"Kenwood HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lauren-nelson","name":"Lauren Nelson","first":"Lauren","last":"Nelson","jersey":"23","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"El Dorado, AR","high_school":"Mississippi Delta CC","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chrishunti-walker","name":"Chrishunti Walker","first":"Chrishunti","last":"Walker","jersey":"25","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Oakland, TN","high_school":"University of North Alabama","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

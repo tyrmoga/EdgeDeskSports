@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "elon",
+ "host": "elonphoenix.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://elonphoenix.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:alex-brabec","name":"Alex Brabec","first":"Alex","last":"Brabec","jersey":"14","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":185,"hometown":"Ann Arbor, MI","high_school":"Skyline HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ja-juan-carr","name":"Ja'Juan Carr","first":"Ja'Juan","last":"Carr","jersey":"3","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":74,"weight":195,"hometown":"Burgaw, NC","high_school":"Pender HS","previous_school":"UNC Pembroke","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bryson-cokley","name":"Bryson Cokley","first":"Bryson","last":"Cokley","jersey":"0","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":196,"hometown":"Whiteville, NC","high_school":"Christ School","previous_school":"George Mason","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chandler-cuthrell","name":"Chandler Cuthrell","first":"Chandler","last":"Cuthrell","jersey":"7","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":80,"weight":225,"hometown":"Baltimore, MD","high_school":"Baltimore City College","previous_school":"Purdue Fort Wayne","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:iker-garmendia","name":"Iker Garmendia","first":"Iker","last":"Garmendia","jersey":"4","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":81,"weight":220,"hometown":"Barcelona, Spain","high_school":"Joventut Badalona","previous_school":"UIC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isaac-harrell","name":"Isaac Harrell","first":"Isaac","last":"Harrell","jersey":"12","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":218,"hometown":"Jonesboro, AR","high_school":"Jonesboro HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ned-hull","name":"Ned Hull","first":"Ned","last":"Hull","jersey":"22","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":75,"weight":195,"hometown":"Charlotte, NC","high_school":"Latin School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:demarco-johnson","name":"DeMarco Johnson","first":"DeMarco","last":"Johnson","jersey":"8","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":176,"hometown":"Long Beach, CA","high_school":"Oak Hill Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kacper-klaczek","name":"Kacper Klaczek","first":"Kacper","last":"Klaczek","jersey":"6","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":80,"weight":225,"hometown":"Chorzow, Poland","high_school":"Long Island Lutheran HS","previous_school":"UAlbany","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:caleb-middleton","name":"Caleb Middleton","first":"Caleb","last":"Middleton","jersey":"5","pos":"C","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":83,"weight":230,"hometown":"Dover, NH","high_school":"Brewster Academy","previous_school":"New Hampshire","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trey-o-neil","name":"Trey O'Neil","first":"Trey","last":"O'Neil","jersey":"1","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":185,"hometown":"Ardmore, PA","high_school":"IMG Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alex-olander","name":"Alex Olander","first":"Alex","last":"Olander","jersey":"25","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":235,"hometown":"Raleigh, NC","high_school":"Millbrook HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:randall-pettus-ii","name":"Randall Pettus II","first":"Randall","last":"Pettus II","jersey":"11","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":197,"hometown":"Gastonia, NC","high_school":"Bessemer City HS","previous_school":"Northern Kentucky","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bryson-spell","name":"Bryson Spell","first":"Bryson","last":"Spell","jersey":"33","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":81,"weight":230,"hometown":"Virginia Beach, VA","high_school":"Cape Henry Collegiate School","previous_school":"Liberty","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:savion-taylor","name":"Savion Taylor","first":"Savion","last":"Taylor","jersey":"13","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":76,"weight":200,"hometown":"Burlington, NC","high_school":"The Burlington School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:austin-williams","name":"Austin Williams","first":"Austin","last":"Williams","jersey":"10","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":185,"hometown":"Laurel, MD","high_school":"Glenelg Country School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

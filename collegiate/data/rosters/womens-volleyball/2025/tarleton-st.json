@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "tarleton-st",
+ "host": "tarletonsports.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2025,
+ "season_label": "2025",
+ "url": "https://tarletonsports.com/sports/womens-volleyball/roster/2025",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:taylynn-biggs","name":"Taylynn Biggs","first":"Taylynn","last":"Biggs","jersey":"7","pos":"OPP","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":75,"weight":null,"hometown":"Fort Worth, TX","high_school":"R.L Paschal HS","previous_school":"Old Dominion","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emma-burke","name":"Emma Burke","first":"Emma","last":"Burke","jersey":"11","pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"Godley, TX","high_school":"Godley HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:morgan-carter","name":"Morgan Carter","first":"Morgan","last":"Carter","jersey":"22","pos":"DS / L","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":69,"weight":null,"hometown":"Plano,TX","high_school":"Plano HS","previous_school":"University of South Carolina","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alyssa-dinh","name":"Alyssa Dinh","first":"Alyssa","last":"Dinh","jersey":"23","pos":"MB","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":73,"weight":null,"hometown":"Houston, TX","high_school":"Cypress Creek HS","previous_school":"Texas Tech","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alexa-earle","name":"Alexa Earle","first":"Alexa","last":"Earle","jersey":"19","pos":"DS / L","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":66,"weight":null,"hometown":"Austin, TX","high_school":"Lake Travis HS","previous_school":"Old Dominion","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:victoria-fontenot","name":"Victoria Fontenot","first":"Victoria","last":"Fontenot","jersey":"12","pos":"S","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":69,"weight":null,"hometown":"Garden Ridge, TX","high_school":"Canyon HS","previous_school":"North Texas","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:madison-frank","name":"Madison Frank","first":"Madison","last":"Frank","jersey":"9","pos":"MB","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Aledo, TX","high_school":"Aledo HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:megan-hodges","name":"Megan Hodges","first":"Megan","last":"Hodges","jersey":"6","pos":"S","class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Celina, TX","high_school":"Celina HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:laneah-lara","name":"LaNeah Lara","first":"LaNeah","last":"Lara","jersey":"3","pos":"OH","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Anthony, NM","high_school":"Gadsden HS","previous_school":"Blinn College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tehana-mo-o","name":"Tehana Mo'o","first":"Tehana","last":"Mo'o","jersey":"1","pos":"OH","class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Syracuse, UT","high_school":"Syracuse HS","previous_school":"Central Wyoming College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:teya-nguyen","name":"Teya Nguyen","first":"Teya","last":"Nguyen","jersey":"24","pos":"S","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":69,"weight":null,"hometown":"San Jose, CA","high_school":"Valley Christian HS","previous_school":"San Jose State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:leila-paraoan","name":"Leila Paraoan","first":"Leila","last":"Paraoan","jersey":"2","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Kapolei, HI","high_school":"Kapolei HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:breannah-peterson","name":"Breannah Peterson","first":"Breannah","last":"Peterson","jersey":"4","pos":"OPP","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"El Paso, TX","high_school":"Franklin HS","previous_school":"Miami University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:leddy-rae-guinn","name":"Leddy Rae Guinn","first":"Leddy","last":"Rae Guinn","jersey":"8","pos":"DS / L","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":66,"weight":null,"hometown":"Stephenville, TX","high_school":"Stephenville, HS","previous_school":"Lubbock Christian","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:madison-rice-locket","name":"Madison Rice-Locket","first":"Madison","last":"Rice-Locket","jersey":"21","pos":"OH / OPP","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Louisville, KY","high_school":"Louisville Male High School","previous_school":"Memphis","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:makayla-white","name":"Makayla White","first":"Makayla","last":"White","jersey":"34","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":null,"hometown":"Kyle, TX","high_school":"Hays HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

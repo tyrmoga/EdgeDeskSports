@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "houston-christian",
+ "host": "hbuhuskies.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://hbuhuskies.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:tove-caesar","name":"Tove Caesar","first":"Tove","last":"Caesar","jersey":"13","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Stockholm, Sweden","high_school":"Lulea Gymnasieskola BC","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sidney-carr","name":"Sidney Carr","first":"Sidney","last":"Carr","jersey":"3","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":66,"weight":null,"hometown":"Lucas, Texas","high_school":"Lovejoy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tessa-engelman","name":"Tessa Engelman","first":"Tessa","last":"Engelman","jersey":"2","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":null,"hometown":"Calgary, Alberta, Canada","high_school":"DME Academy","previous_school":"Mount St. Mary's / Tarleton State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hannah-fields","name":"Hannah Fields","first":"Hannah","last":"Fields","jersey":"10","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Norman, Oklahoma","high_school":"Norman North","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sadie-hall","name":"Sadie Hall","first":"Sadie","last":"Hall","jersey":"1","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Shakopee, Minnesota","high_school":"Shakopee","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:remy-hearn","name":"Remy Hearn","first":"Remy","last":"Hearn","jersey":"0","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":66,"weight":null,"hometown":"Perth, Western Australia","high_school":"Willetton","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:pearson-hearne","name":"Pearson Hearne","first":"Pearson","last":"Hearne","jersey":"24","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Cisco, Texas","high_school":"Cisco","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:madison-hurta","name":"Madison Hurta","first":"Madison","last":"Hurta","jersey":"23","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"New Braunfels, Texas","high_school":"Home School","previous_school":"East Texas Baptist","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dasia-hyams","name":"Dasia Hyams","first":"Dasia","last":"Hyams","jersey":"22","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Tomball, Texas","high_school":"Memorial","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jordan-jackson","name":"Jordan Jackson","first":"Jordan","last":"Jackson","jersey":"11","pos":"G/F","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":72,"weight":null,"hometown":"Sachse, Texas","high_school":"Home School","previous_school":"Texas Woman's / Wichita State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:veronika-korchagina","name":"Veronika Korchagina","first":"Veronika","last":"Korchagina","jersey":"7","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":null,"hometown":"Moscow, Russia","high_school":"School 2030 / Dynamo Kursk","previous_school":"Morehead State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emelie-lindqvist","name":"Emelie Lindqvist","first":"Emelie","last":"Lindqvist","jersey":"5","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Vasteras, Sweden","high_school":"Widenska Gymnasiet","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:basak-orhan","name":"Basak Orhan","first":"Basak","last":"Orhan","jersey":"20","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Ankara, Turkey","high_school":"TED Ankara Kolejiler Spor Club","previous_school":"Cal State Fullerton","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:j-lee-salinas","name":"J'Lee Salinas","first":"J'Lee","last":"Salinas","jersey":"8","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Comanche, Texas","high_school":"Comanche","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nikki-stanic","name":"Nikki Stanic","first":"Nikki","last":"Stanic","jersey":"12","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"Melbourne, Australia","high_school":"Box Hill Senior","previous_school":"East Central CC / St. Petersburg CC / New Mexico State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

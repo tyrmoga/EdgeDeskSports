@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "utep",
+ "host": "utepathletics.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://utepathletics.com/sports/womens-volleyball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:laila-amos","name":"Laila Amos","first":"Laila","last":"Amos","jersey":"6","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Fairburn, Georgia","high_school":"North Atlanta HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:landry-braziel","name":"Landry Braziel","first":"Landry","last":"Braziel","jersey":"15","pos":"OH/RS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Norman, Oklahoma","high_school":"Community Christian HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:shea-bruntmyer","name":"Shea Bruntmyer","first":"Shea","last":"Bruntmyer","jersey":"4","pos":"S","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Abilene, Texas","high_school":"IMG Academy","previous_school":"Samford","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hannah-crowe","name":"Hannah Crowe","first":"Hannah","last":"Crowe","jersey":"10","pos":"MB/RS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Dillon, Colorado","high_school":"Summit HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mackenzi-davis","name":"Mackenzi Davis","first":"Mackenzi","last":"Davis","jersey":"16","pos":"OH","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":68,"weight":null,"hometown":"Melissa, Texas","high_school":"Melissa HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sydney-frazier","name":"Sydney Frazier","first":"Sydney","last":"Frazier","jersey":"3","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Atlanta, Georgia","high_school":"IMG Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kalia-kohler","name":"Kalia Kohler","first":"Kalia","last":"Kohler","jersey":"1","pos":"S","class":"SR","redshirt":false,"class_raw":"Senior","height_in":67,"weight":null,"hometown":"Alpine, Utah","high_school":"Lone Peak HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:caryme-molina","name":"Caryme Molina","first":"Caryme","last":"Molina","jersey":"18","pos":"S","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"Pasadena, Texas","high_school":"Pasadena HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:luvina-oguntimehin","name":"Luvina Oguntimehin","first":"Luvina","last":"Oguntimehin","jersey":"19","pos":"RS/MB","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Conroe, Texas","high_school":"Oak Ridge HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kaylynn-pardue","name":"Kaylynn Pardue","first":"Kaylynn","last":"Pardue","jersey":"7","pos":"MH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Greeley, Colorado","high_school":"Resurrection Christian HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lauren-perry","name":"Lauren Perry","first":"Lauren","last":"Perry","jersey":"13","pos":"OH/RS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Little Elm, Texas","high_school":"Denton HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lily-rose-pichon","name":"Lily-Rose Pichon","first":"Lily-Rose","last":"Pichon","jersey":"12","pos":"L/DS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":66,"weight":null,"hometown":"Saint-Saturnin, France","high_school":"Lycee David d'Angers","previous_school":"Norfolk State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elizabeth-pickett","name":"Elizabeth Pickett","first":"Elizabeth","last":"Pickett","jersey":"5","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Fort Worth, Texas","high_school":"Covenant Classical HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lexee-salas","name":"Lexee Salas","first":"Lexee","last":"Salas","jersey":"23","pos":"S","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":null,"hometown":"El Paso, Texas","high_school":"Americas HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ema-uskokovic","name":"Ema Uskokovic","first":"Ema","last":"Uskokovic","jersey":"14","pos":"OH","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":72,"weight":null,"hometown":"Belgrade, Serbia","high_school":"Third Belgrade Gymnasium","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:daisy-voskuhl","name":"Daisy Voskuhl","first":"Daisy","last":"Voskuhl","jersey":"17","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":null,"hometown":"Fulshear, Texas","high_school":"Fulshear HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bella-widmer","name":"Bella Widmer","first":"Bella","last":"Widmer","jersey":"11","pos":"L/DS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":66,"weight":null,"hometown":"West Lafayette, Indiana","high_school":"Benton Central HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

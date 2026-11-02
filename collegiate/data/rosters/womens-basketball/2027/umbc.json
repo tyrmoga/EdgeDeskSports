@@ -1,0 +1,30 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "umbc",
+ "host": "umbcretrievers.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://umbcretrievers.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 14,
+ "players": [
+  {"pid":"slug:kennedy-austin","name":"Kennedy Austin","first":"Kennedy","last":"Austin","jersey":"4","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Waldorf, Md.","high_school":"Maret","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:shariah-baynes","name":"Shariah Baynes","first":"Shariah","last":"Baynes","jersey":"0","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"Philadelphia, Pa.","high_school":"Paul VI HS","previous_school":"Towson","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tiara-bellamy","name":"Tiara Bellamy","first":"Tiara","last":"Bellamy","jersey":"1","pos":"G","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":67,"weight":null,"hometown":"Plainfield, N.J.","high_school":"Immaculate Conception","previous_school":"Saint Peter's","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jeanine-brandsma","name":"Jeanine Brandsma","first":"Jeanine","last":"Brandsma","jersey":"9","pos":"C","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":74,"weight":null,"hometown":"Eguzon Chantome, France","high_school":"Lycée Ernest Couteau","previous_school":"Austin Peay","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maisie-crowley","name":"Maisie Crowley","first":"Maisie","last":"Crowley","jersey":"17","pos":"F/C","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":null,"hometown":"London, England","high_school":"Bishop McNamara","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sadaya-jones","name":"Sadaya Jones","first":"Sadaya","last":"Jones","jersey":"5","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Morgantown, W.Va.","high_school":"Morgantown","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cai-roberson","name":"Cai Roberson","first":"Cai","last":"Roberson","jersey":"24","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Upper Marlboro, Md.","high_school":"IMG Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gabby-scott","name":"Gabby Scott","first":"Gabby","last":"Scott","jersey":"21","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Ellicott City, Md.","high_school":"Howard","previous_school":"Towson","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dagny-slomack","name":"Dagny Slomack","first":"Dagny","last":"Slomack","jersey":"2","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":66,"weight":null,"hometown":"South Orange, N.J.","high_school":"Newark Academy","previous_school":"Central Connecticut State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:syd-sutton","name":"Syd Sutton","first":"Syd","last":"Sutton","jersey":"8","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Glen Burnie, Md.","high_school":"St. Frances Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alaina-williams","name":"Alaina Williams","first":"Alaina","last":"Williams","jersey":"10","pos":"F/C","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Tampa, Florida","high_school":"Brooks DeBartelo","previous_school":"Idaho State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:angela-williams","name":"Angela Williams","first":"Angela","last":"Williams","jersey":"11","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"New Orleans, La.","high_school":"Shades Valley (Ala.)","previous_school":"James Madison","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:heidi-williams","name":"Heidi Williams","first":"Heidi","last":"Williams","jersey":"3","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Prince George’s County, Md.","high_school":"Saint Frances Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alden-yergey","name":"Alden Yergey","first":"Alden","last":"Yergey","jersey":"12","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Nokesville, Va.","high_school":"Brentsville District","previous_school":"Siena","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

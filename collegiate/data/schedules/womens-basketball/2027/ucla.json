@@ -8,15 +8,15 @@
  "season_label": "2026-27",
  "url": "https://uclabruins.com/sports/womens-basketball/schedule/season/2026-27",
  "first_read": "2026-10-26",
- "last_read": "2026-10-26",
+ "last_read": "2026-11-02",
  "readers": "sidearm,sidearm_vue,sidearm_legacy,wmt+themes10+sport_path+plain_page",
  "games_listed": 33,
- "finals": 0,
+ "finals": 1,
  "undated": 0,
  "games": [
   {"game_key":null,"date":"2026-10-14","time":"18:00","site":"A","opponent":"Cal (Exhibition)","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"final","us":87,"them":53,"outcome":"W","innings":null,"location":"Berkeley, Calif. / Haas Pavilion","event":null,"boxscore":null,"note":null,"exhibition":true},
   {"game_key":null,"date":"2026-10-25","time":"11:00","site":"A","opponent":"Texas (Exhibition)","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"final","us":64,"them":81,"outcome":"L","innings":null,"location":"Cedar Park, Texas / H-E-B Center at Cedar Park","event":null,"boxscore":null,"note":null,"exhibition":true},
-  {"game_key":null,"date":"2026-11-02","time":"11:30","site":"H","opponent":"Lehigh","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Los Angeles, Calif. / Pauley Pavilion presented by Wescom Financial","event":null,"boxscore":null,"note":null},
+  {"game_key":"19148","date":"2026-11-02","time":"11:30","site":"H","opponent":"Lehigh","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"final","us":73,"them":53,"outcome":"W","innings":null,"location":"Los Angeles, Calif. / Pauley Pavilion presented by Wescom Financial","event":null,"boxscore":"/boxscore/19148","note":null},
   {"game_key":null,"date":"2026-11-05","time":"19:00","site":"H","opponent":"UC Irvine","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Los Angeles, Calif. / Pauley Pavilion presented by Wescom Financial","event":null,"boxscore":null,"note":null},
   {"game_key":null,"date":"2026-11-12","time":"19:30","site":"H","opponent":"Arizona","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Los Angeles, Calif. / Pauley Pavilion presented by Wescom Financial","event":null,"boxscore":null,"note":null},
   {"game_key":null,"date":"2026-11-15","time":"15:00","site":"H","opponent":"Princeton","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Los Angeles, Calif. / Pauley Pavilion presented by Wescom Financial","event":null,"boxscore":null,"note":null},
@@ -46,6 +46,6 @@
   {"game_key":null,"date":"2027-02-18","time":"19:30","site":"H","opponent":"Ohio State","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Los Angeles, Calif. / Pauley Pavilion presented by Wescom Financial","event":null,"boxscore":null,"note":null},
   {"game_key":null,"date":"2027-02-21","time":"12:00","site":"H","opponent":"Michigan State","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Los Angeles, Calif. / Pauley Pavilion presented by Wescom Financial","event":null,"boxscore":null,"note":null},
   {"game_key":null,"date":"2027-02-25","time":"18:30","site":"A","opponent":"USC","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Los Angeles, Calif. / Galen Center","event":null,"boxscore":null,"note":null},
-  {"game_key":null,"date":"2027-02-28","time":"11:00","site":"A","opponent":"Washington","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Seattle, Wash. / Alaska Airlines Arena","event":null,"boxscore":null,"note":null}
+  {"game_key":"19148","date":"2027-02-28","time":"11:00","site":"A","opponent":"Washington","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Seattle, Wash. / Alaska Airlines Arena","event":null,"boxscore":"/boxscore/19148","note":null}
  ]
 }

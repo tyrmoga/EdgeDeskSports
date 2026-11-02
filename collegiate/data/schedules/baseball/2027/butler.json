@@ -1,0 +1,22 @@
+{
+ "schema": "edgedesk_collegiate_schedule_v1",
+ "school": "butler",
+ "host": "butlersports.com",
+ "platform": "sidearm_legacy",
+ "sport": "baseball",
+ "season": 2027,
+ "season_label": "2027",
+ "url": "https://butlersports.com/sports/baseball/schedule/2027",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "readers": "sidearm,sidearm_vue,sidearm_legacy,wmt+themes10+sport_path+plain_page",
+ "games_listed": 4,
+ "finals": 0,
+ "undated": 0,
+ "games": [
+  {"game_key":"15841","date":"2026-10-03","time":null,"site":"A","opponent":"Wright State","opponent_host":"wsuraiders.com","conference":false,"postseason":null,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Dayton, Ohio","event":null,"boxscore":null,"note":null},
+  {"game_key":"15842","date":"2026-10-11","time":null,"site":"H","opponent":"Harper College","opponent_host":"harperhawks.net","conference":false,"postseason":null,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Indianapolis, Ind. / Bulldog Park","event":null,"boxscore":null,"note":null},
+  {"game_key":"15843","date":"2026-10-18","time":null,"site":"A","opponent":"Ball State","opponent_host":"ballstatesports.com","conference":false,"postseason":null,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Muncie, Ind.","event":null,"boxscore":null,"note":null},
+  {"game_key":"15844","date":"2026-10-24","time":null,"site":"H","opponent":"UIC","opponent_host":"uicflames.com","conference":false,"postseason":null,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Indianapolis, Ind. / Bulldog Park","event":null,"boxscore":null,"note":null}
+ ]
+}

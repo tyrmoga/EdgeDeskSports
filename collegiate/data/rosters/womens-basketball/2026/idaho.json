@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "idaho",
+ "host": "govandals.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://govandals.com/sports/womens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:lorena-barbosa","name":"Lorena Barbosa","first":"Lorena","last":"Barbosa","jersey":"10","pos":"F","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":77,"weight":null,"hometown":"Itatiba, Brazil","high_school":"Gloria Azedia Bonetti","previous_school":"San Francisco","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ana-beatriz-passos-alves-da-silva","name":"Ana Beatriz Passos Alves da Silva","first":"Ana","last":"Beatriz Passos Alves da Silva","jersey":"23","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"São Paulo, Brazil","high_school":"Colégio Adventista de Vila Matilde and Colégio Tesla Digital","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sarah-brans","name":"Sarah Brans","first":"Sarah","last":"Brans","jersey":"2","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Dublin, California","high_school":"Monte Vista","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anja-bukvic","name":"Anja Bukvic","first":"Anja","last":"Bukvic","jersey":"12","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Belgrade, Serbia","high_school":"V Economic School","previous_school":"Louisiana Tech","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:reese-de-groot","name":"Reese de Groot","first":"Reese","last":"de Groot","jersey":"1","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Lewiston, Idaho","high_school":"Clarkston HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:catelyn-deaver","name":"Catelyn Deaver","first":"Catelyn","last":"Deaver","jersey":"13","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Sumner, Washington","high_school":"Sumner HS","previous_school":"Utah Tech","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:debora-dos-santos","name":"Debora dos Santos","first":"Debora","last":"dos Santos","jersey":"9","pos":"F","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":72,"weight":null,"hometown":"Rio de Janeiro, Brazil","high_school":"Wasatch Academy","previous_school":"San Francisco","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sofia-ekh","name":"Sofia Ekh","first":"Sofia","last":"Ekh","jersey":"6","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Västerås, Sweden","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kyra-gardner","name":"Kyra Gardner","first":"Kyra","last":"Gardner","jersey":"3","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"Raymond, Wash.","high_school":"Raymond HS","previous_school":"Washington State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hope-hassmann","name":"Hope Hassmann","first":"Hope","last":"Hassmann","jersey":"4","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Maple Valley, Washington","high_school":"Tahoma","previous_school":"Cal State Fullerton","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:niveya-henley","name":"Niveya Henley","first":"Niveya","last":"Henley","jersey":"21","pos":"G","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":72,"weight":null,"hometown":"Seattle, Wash.","high_school":"Montverde Academy","previous_school":"Furman","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:katlin-kangur","name":"Katlin Kangur","first":"Katlin","last":"Kangur","jersey":"14","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"Tallinn, Estonia","high_school":"Tallinna Arte Gymnasium","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mary-mcmorris","name":"Mary McMorris","first":"Mary","last":"McMorris","jersey":"24","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":66,"weight":null,"hometown":"Las Vegas, Nev.","high_school":null,"previous_school":"Valdosta State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ana-pinheiro","name":"Ana Pinheiro","first":"Ana","last":"Pinheiro","jersey":"37","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Braga, Portugal","high_school":"Escola Secundária de Águas Santas","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ella-uriarte","name":"Ella Uriarte","first":"Ella","last":"Uriarte","jersey":"5","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":null,"hometown":"Folsom, California","high_school":"Folsom HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "bethune-cookman",
+ "host": "bcuathletics.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://bcuathletics.com/sports/womens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:jordan-brooks","name":"Jordan Brooks","first":"Jordan","last":"Brooks","jersey":"3","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":63,"weight":null,"hometown":"Atlanta, Ga.","high_school":"Union Grove HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:indigo-brown","name":"Indigo Brown","first":"Indigo","last":"Brown","jersey":"4","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Jonesboro, Ga.","high_school":"Morrow HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tyler-butler","name":"Tyler Butler","first":"Tyler","last":"Butler","jersey":"15","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":73,"weight":null,"hometown":"Belleview, Ill.","high_school":"Belleville East HS","previous_school":"Coastal Georgia","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:daimoni-dorsey","name":"Daimoni Dorsey","first":"Daimoni","last":"Dorsey","jersey":"0","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":67,"weight":null,"hometown":"Baltimore, Md.","high_school":"St. Frances Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:keiara-gregory","name":"Keiara Gregory","first":"Keiara","last":"Gregory","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":66,"weight":null,"hometown":"Cincinnati, Ohio","high_school":"Lakota West HS","previous_school":"Danville Area CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:madison-holden","name":"Madison Holden","first":"Madison","last":"Holden","jersey":"23","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":66,"weight":null,"hometown":"Reseda, Calif.","high_school":"Campbell Hall HS","previous_school":"Central Arizona","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alexandria-johnson","name":"Alexandria Johnson","first":"Alexandria","last":"Johnson","jersey":"11","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":68,"weight":null,"hometown":"Little Rock, Ark.","high_school":"eStem Public Charter School","previous_school":"Tuskegee","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mya-johnson","name":"Mya Johnson","first":"Mya","last":"Johnson","jersey":"35","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Hollywood, Fla.","high_school":"St. Thomas Aquinas HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:janessa-kelley","name":"Janessa Kelley","first":"Janessa","last":"Kelley","jersey":"5","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Margate, Fla.","high_school":"Blanche Ely HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chanelle-mcdonald","name":"Chanelle McDonald","first":"Chanelle","last":"McDonald","jersey":"12","pos":"F","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":74,"weight":null,"hometown":"Lake Wales, Fla.","high_school":"Lake Wales HS","previous_school":"Warner (Fla.)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jade-parks","name":"Jade Parks","first":"Jade","last":"Parks","jersey":"2","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Daytona Beach, Fla.","high_school":"Spruce Creek HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kailyn-peters","name":"Kailyn Peters","first":"Kailyn","last":"Peters","jersey":"30","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"Houston, Texas","high_school":"Waller HS","previous_school":"Nicholls State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:shomari-phillips","name":"Shomari Phillips","first":"Shomari","last":"Phillips","jersey":"21","pos":"G","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":71,"weight":null,"hometown":"Winter Haven, Fla.","high_school":"Winter Haven HS","previous_school":"Texas Southern","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dariasia-pitts","name":"Dariasia Pitts","first":"Dariasia","last":"Pitts","jersey":"24","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Fort Meade, Fla.","high_school":"Winter Haven HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sanai-tyler","name":"Sanai Tyler","first":"Sanai","last":"Tyler","jersey":"25","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Chicago, Ill.","high_school":"Kenwood HS","previous_school":"Trinity Valley CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

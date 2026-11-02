@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "milwaukee",
+ "host": "mkepanthers.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://mkepanthers.com/sports/womens-volleyball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:braylin-bosetski","name":"Braylin Bosetski","first":"Braylin","last":"Bosetski","jersey":"10","pos":"DS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":66,"weight":null,"hometown":"De Pere, Wis.","high_school":"De Pere","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:liv-doerre","name":"Liv Doerre","first":"Liv","last":"Doerre","jersey":"1","pos":"DS/L","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"River Falls, Wis.","high_school":"River Falls","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emma-duffy","name":"Emma Duffy","first":"Emma","last":"Duffy","jersey":"17","pos":"S","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Woodland, Mich.","high_school":"Lakewood","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:annie-eschenbach","name":"Annie Eschenbach","first":"Annie","last":"Eschenbach","jersey":"3","pos":"OPP/MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":null,"hometown":"Downers Grove, Ill.","high_school":"Benet Academy","previous_school":"McHenry","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kati-goba","name":"Kati Goba","first":"Kati","last":"Goba","jersey":"9","pos":"L/DS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":65,"weight":null,"hometown":"Mukwonago, Wis.","high_school":"Wisconsin Lutheran","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:carol-herrero","name":"Carol Herrero","first":"Carol","last":"Herrero","jersey":"16","pos":"OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"João Dessoa, Brazil","high_school":"Colegio Eduardo Gomes","previous_school":"Iowa Western","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:julia-kellner","name":"Julia Kellner","first":"Julia","last":"Kellner","jersey":"2","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":null,"hometown":"Racine, Wis.","high_school":"Racine Lutheran","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kayla-landerud","name":"Kayla Landerud","first":"Kayla","last":"Landerud","jersey":"15","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"McFarland, Wis.","high_school":"McFarland","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bella-lipski","name":"Bella Lipski","first":"Bella","last":"Lipski","jersey":"12","pos":"MB","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":74,"weight":null,"hometown":"Milwaukee, Wis.","high_school":"Divine Savior Holy Angels","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:josie-noble","name":"Josie Noble","first":"Josie","last":"Noble","jersey":"6","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":null,"hometown":"Caledonia, Mich.","high_school":"Caledonia","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ella-parker","name":"Ella Parker","first":"Ella","last":"Parker","jersey":"4","pos":"OH","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Corrales, N.M.","high_school":"Cibola","previous_school":"St. John's","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ella-schuetz","name":"Ella Schuetz","first":"Ella","last":"Schuetz","jersey":"14","pos":"OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Lake Mills, Wis.","high_school":"Lakeside Lutheran","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kami-stover","name":"Kami Stover","first":"Kami","last":"Stover","jersey":"11","pos":"RS/DS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":67,"weight":null,"hometown":"Centerburg, Ohio","high_school":"Marengo Highland","previous_school":"Walsh","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:milica-tomic","name":"Milica Tomic","first":"Milica","last":"Tomic","jersey":"5","pos":"S","class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"Dyer, Ind.","high_school":"Lake Central","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hope-wagner","name":"Hope Wagner","first":"Hope","last":"Wagner","jersey":"7","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Batavia, Ill.","high_school":"Aurora Christian","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

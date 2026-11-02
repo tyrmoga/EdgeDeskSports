@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "holy-cross",
+ "host": "goholycross.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://goholycross.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:arius-alijosius","name":"Arius Alijosius","first":"Arius","last":"Alijosius","jersey":"0","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":198,"hometown":"Riverside, Ill.","high_school":"Riverside-Brookfield","previous_school":"Lewis","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ethan-clark","name":"Ethan Clark","first":"Ethan","last":"Clark","jersey":"5","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":200,"hometown":"Dartmouth, Mass.","high_school":"Wilbraham and Monson Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elijah-flowers","name":"Elijah Flowers","first":"Elijah","last":"Flowers","jersey":"1","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":192,"hometown":"Washington, D.C.","high_school":"Brewster Academy (N.H.)","previous_school":"Old Dominion","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bradyn-foster","name":"Bradyn Foster","first":"Bradyn","last":"Foster","jersey":"12","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":220,"hometown":"Natrona Heights, Pa.","high_school":"Highlands","previous_school":"Penn","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaelon-germany","name":"Jaelon Germany","first":"Jaelon","last":"Germany","jersey":"21","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":184,"hometown":"Irving, Texas","high_school":"Crowley","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jude-haigh","name":"Jude Haigh","first":"Jude","last":"Haigh","jersey":"2","pos":"G/F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":193,"hometown":"Altoona, Pa.","high_school":"Green Canyon (Utah)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kole-hanson","name":"Kole Hanson","first":"Kole","last":"Hanson","jersey":"3","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":175,"hometown":"Prior Lake, Minn.","high_school":"Holy Family Catholic","previous_school":"Minnesota Duluth","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chuck-hare","name":"Chuck Hare","first":"Chuck","last":"Hare","jersey":"22","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":83,"weight":230,"hometown":"Shelton, Conn.","high_school":"Kingswood Oxford","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:austin-mejia","name":"Austin Mejia","first":"Austin","last":"Mejia","jersey":"33","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":189,"hometown":"Wayne, N.J.","high_school":"Regis","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kosi-mgbejiofor","name":"Kosi Mgbejiofor","first":"Kosi","last":"Mgbejiofor","jersey":"15","pos":"C","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":83,"weight":202,"hometown":"Enugu, Nigeria","high_school":"Blue Ridge School (Va.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:joe-nugent","name":"Joe Nugent","first":"Joe","last":"Nugent","jersey":"30","pos":"G/F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":217,"hometown":"Berkley, Mass.","high_school":"Tabor Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aidan-richard","name":"Aidan Richard","first":"Aidan","last":"Richard","jersey":"23","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":203,"hometown":"San Antonio, Texas","high_school":"Ronald Reagan","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:liam-rigney","name":"Liam Rigney","first":"Liam","last":"Rigney","jersey":"35","pos":"G/F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":197,"hometown":"Lake Oswego, Ore.","high_school":"Lake Oswego","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:declan-ryan","name":"Declan Ryan","first":"Declan","last":"Ryan","jersey":"34","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":261,"hometown":"Buffalo, N.Y.","high_school":"Worcester Academy (Mass.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:john-st-germain-iii","name":"John St. Germain III","first":"John","last":"St. Germain III","jersey":"4","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":194,"hometown":"Charlottesville, Va.","high_school":"St. Anne’s-Belfield","previous_school":"Augusta","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tristen-wilson","name":"Tristen Wilson","first":"Tristen","last":"Wilson","jersey":"10","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":180,"hometown":"Baltimore, Md.","high_school":"Our Lady of Mount Carmel School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

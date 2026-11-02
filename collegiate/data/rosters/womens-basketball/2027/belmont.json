@@ -1,0 +1,27 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "belmont",
+ "host": "belmontbruins.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://belmontbruins.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 11,
+ "players": [
+  {"pid":"slug:rylie-beers","name":"Rylie Beers","first":"Rylie","last":"Beers","jersey":"15","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Littleton, Colo.","high_school":"Valor Christian HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kk-brodie","name":"KK Brodie","first":"KK","last":"Brodie","jersey":"33","pos":"C","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":75,"weight":null,"hometown":"Columbia, Mo.","high_school":"Rock Bridge HS","previous_school":"Pepperdine","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:katie-criswell","name":"Katie Criswell","first":"Katie","last":"Criswell","jersey":"13","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":70,"weight":null,"hometown":"Lawrenceburg, Tenn.","high_school":"Lawrence County HS","previous_school":"North Alabama","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:quinn-eubank","name":"Quinn Eubank","first":"Quinn","last":"Eubank","jersey":"22","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Union, Ky.","high_school":"Ryle HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:samiya-jones","name":"Samiya Jones","first":"Samiya","last":"Jones","jersey":"31","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Memphis, Tenn.","high_school":"Bartlett HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chelby-jordan","name":"Chelby Jordan","first":"Chelby","last":"Jordan","jersey":"11","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Trenton, Tenn.","high_school":"Dyersburg HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kenley-mccarn","name":"Kenley McCarn","first":"Kenley","last":"McCarn","jersey":"44","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":71,"weight":null,"hometown":"Melbourne, Ark.","high_school":"Melbourne HS","previous_school":"UT Martin","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kate-mcginnis","name":"Kate McGinnis","first":"Kate","last":"McGinnis","jersey":"12","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Kimberly, Wis.","high_school":"Kimberly HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lauren-rust","name":"Lauren Rust","first":"Lauren","last":"Rust","jersey":"3","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Victoria, British Columbia, Canada","high_school":"The Webb School","previous_school":"Pittsburgh","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:leah-west","name":"Leah West","first":"Leah","last":"West","jersey":"55","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Greensburg, Ind.","high_school":"Greensburg Community HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tatum-woodson","name":"Tatum Woodson","first":"Tatum","last":"Woodson","jersey":"20","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Minnetonka, Minn.","high_school":"Hopkins HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "loyola-marymount",
+ "host": "lmulions.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://lmulions.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:aaron-banks","name":"Aaron Banks","first":"Aaron","last":"Banks","jersey":"41","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":192,"hometown":"Valencia, CA","high_school":"SoCal Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:abdoul-bare","name":"Abdoul Bare","first":"Abdoul","last":"Bare","jersey":"34","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":81,"weight":228,"hometown":"Santa Maria, CA","high_school":"St. Joseph HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jj-harris","name":"JJ Harris","first":"JJ","last":"Harris","jersey":"1","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":195,"hometown":"Los Angeles, CA","high_school":"Windward HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:christian-humphrey-rembert","name":"Christian Humphrey-Rembert","first":"Christian","last":"Humphrey-Rembert","jersey":"22","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":81,"weight":208,"hometown":"Grand Rapids, MI","high_school":"East Kentwood HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aaron-mcbride","name":"Aaron McBride","first":"Aaron","last":"McBride","jersey":"16","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":235,"hometown":"Corona, CA","high_school":"Corona Centennial HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jasai-miles","name":"Jasai Miles","first":"Jasai","last":"Miles","jersey":"7","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":212,"hometown":"Miami, FL","high_school":"Miami Country Day HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:donovan-miller","name":"Donovan Miller","first":"Donovan","last":"Miller","jersey":"8","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":194,"hometown":"Portland, OR","high_school":"Central Catholic HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mazi-mosley","name":"Mazi Mosley","first":"Mazi","last":"Mosley","jersey":"0","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":176,"hometown":"Los Angeles, CA","high_school":"Prolific Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zamir-paschal","name":"Zamir Paschal","first":"Zamir","last":"Paschal","jersey":"11","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":171,"hometown":"Portland, OR","high_school":"Central Catholic HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jevon-porter","name":"Jevon Porter","first":"Jevon","last":"Porter","jersey":"14","pos":"F","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":83,"weight":230,"hometown":"Columbia, MO","high_school":"Father Tolton Catholic HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:donovan-rivers","name":"Donovan Rivers","first":"Donovan","last":"Rivers","jersey":"33","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":240,"hometown":"Columbia, SC","high_school":"The Skill Factory Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zion-sensley","name":"Zion Sensley","first":"Zion","last":"Sensley","jersey":"24","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":211,"hometown":"San Carlos, CA","high_school":"Archbishop Riordan HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:andy-sigiscar","name":"Andy Sigiscar","first":"Andy","last":"Sigiscar","jersey":"97","pos":"F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":81,"weight":235,"hometown":"Orléans, France","high_school":"Jaques Prevert","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cooper-smith","name":"Cooper Smith","first":"Cooper","last":"Smith","jersey":"40","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":185,"hometown":"Milwaukee, WI","high_school":"Greendale HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aj-thomas","name":"AJ Thomas","first":"AJ","last":"Thomas","jersey":"4","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":195,"hometown":"Lancaster, CA","high_school":"Eduprize HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:george-tupy","name":"George Tupy","first":"George","last":"Tupy","jersey":"42","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":220,"hometown":"Sierra Madre, CA","high_school":"St. Francis HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:all-wright","name":"All Wright","first":"All","last":"Wright","jersey":"3","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":190,"hometown":"Durango, Mexico","high_school":"Link Academy (Mo.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

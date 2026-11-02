@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "nevada",
+ "host": "nevadawolfpack.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2025,
+ "season_label": "2025",
+ "url": "https://nevadawolfpack.com/sports/womens-volleyball/roster/2025",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:haylee-brown","name":"Haylee Brown","first":"Haylee","last":"Brown","jersey":"21","pos":"OH","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Maricopa, Ariz.","high_school":"Maricopa HS","previous_school":"George Washington","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nicanora-clarke","name":"Nicanora Clarke","first":"Nicanora","last":"Clarke","jersey":"6","pos":"OH/OPP","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Waianae, Hawaii","high_school":"Waianae HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alexa-ham","name":"Alexa Ham","first":"Alexa","last":"Ham","jersey":"17","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Las Vegas, Nev.","high_school":"Bishop Gorman High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ambri-hanohano","name":"Ambri Hanohano","first":"Ambri","last":"Hanohano","jersey":"11","pos":"S","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":70,"weight":null,"hometown":"Honolulu, Hawaii","high_school":"'Iolani School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mckaley-herr","name":"Mckaley Herr","first":"Mckaley","last":"Herr","jersey":"2","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Gilbert, Ariz.","high_school":"Perry HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:audrey-jensen","name":"Audrey Jensen","first":"Audrey","last":"Jensen","jersey":"12","pos":"S","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Parker, Colo.","high_school":"Chaparral HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:masyn-navarro","name":"Masyn Navarro","first":"Masyn","last":"Navarro","jersey":"8","pos":"L/DS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":66,"weight":null,"hometown":"Carson City, Nev.","high_school":"Bishop Manogue HS","previous_school":"Eastern Illinois","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lara-pacheco","name":"Lara Pacheco","first":"Lara","last":"Pacheco","jersey":"15","pos":"DS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":null,"hometown":"Joao Pessoa, Brasil","high_school":"Reno HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:malia-pilimai","name":"Malia Pilimai","first":"Malia","last":"Pilimai","jersey":"0","pos":"OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Granite Bay, Calif.","high_school":"Granite Bay HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ceren-sert","name":"Ceren Sert","first":"Ceren","last":"Sert","jersey":"7","pos":"MB","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Ankara, Turkey","high_school":"TVF Sport","previous_school":"Idaho","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kinsley-singleton","name":"Kinsley Singleton","first":"Kinsley","last":"Singleton","jersey":"3","pos":"L/DS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":64,"weight":null,"hometown":"Phoenix, Ariz.","high_school":"O'Connor HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bella-snyder","name":"Bella Snyder","first":"Bella","last":"Snyder","jersey":"4","pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Salem, Ore.","high_school":"West Salem HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:summer-suppik","name":"Summer Suppik","first":"Summer","last":"Suppik","jersey":"5","pos":"L/DS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":65,"weight":null,"hometown":"Redondo Beach, Calif.","high_school":"Redondo Union HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kamryn-tifft","name":"Kamryn Tifft","first":"Kamryn","last":"Tifft","jersey":"16","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Thousand Oaks, Calif.","high_school":"Oaks Christian HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jess-walkenhorst","name":"Jess Walkenhorst","first":"Jess","last":"Walkenhorst","jersey":"19","pos":"OH","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":74,"weight":null,"hometown":"West Chester, Ohio","high_school":"Lakota West HS","previous_school":"Miami (OH)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

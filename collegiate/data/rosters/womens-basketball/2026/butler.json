@@ -1,0 +1,28 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "butler",
+ "host": "butlersports.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://butlersports.com/sports/womens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 12,
+ "players": [
+  {"pid":"slug:addison-baxter","name":"Addison Baxter","first":"Addison","last":"Baxter","jersey":"33","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Larwill, Ind.","high_school":"Columbia City","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:caroline-dotsey","name":"Caroline Dotsey","first":"Caroline","last":"Dotsey","jersey":"25","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Havertown, Pa.","high_school":"Haverford","previous_school":"Maine","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nevaeh-jackson","name":"Nevaeh Jackson","first":"Nevaeh","last":"Jackson","jersey":"11","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Fort Wayne, Ind.","high_school":"Northrop","previous_school":"Valparaiso","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:saniya-jackson","name":"Saniya Jackson","first":"Saniya","last":"Jackson","jersey":"12","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":72,"weight":null,"hometown":"Fort Wayne, Ind.","high_school":"Northrop","previous_school":"Valparaiso","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mckenna-johnson","name":"McKenna Johnson","first":"McKenna","last":"Johnson","jersey":"7","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Wilmot, Wis.","high_school":"Wilmot Union","previous_school":"Minnesota","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kennedy-langham","name":"Kennedy Langham","first":"Kennedy","last":"Langham","jersey":"4","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"Harvest, Ala.","high_school":"Sparkman","previous_school":"Samford","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mallory-miller","name":"Mallory Miller","first":"Mallory","last":"Miller","jersey":"24","pos":"F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":76,"weight":null,"hometown":"Aberdeen, S.D.","high_school":"Wolsey-Wessington","previous_school":"Arizona State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lilly-stoddard","name":"Lilly Stoddard","first":"Lilly","last":"Stoddard","jersey":"31","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":null,"hometown":"Crown Point, Ind.","high_school":"Crown Point","previous_school":"Purdue","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mckenzie-swanson","name":"Mckenzie Swanson","first":"Mckenzie","last":"Swanson","jersey":"5","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":75,"weight":null,"hometown":"Rochester, Mich.","high_school":"Birmingham Marian","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gabby-wilke","name":"Gabby Wilke","first":"Gabby","last":"Wilke","jersey":"1","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Beaver Dam, Wis.","high_school":"Beaver Dam","previous_school":"South Dakota","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anna-wypych","name":"Anna Wypych","first":"Anna","last":"Wypych","jersey":"2","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Rockford, Mich.","high_school":"Rockford","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lily-zeinstra","name":"Lily Zeinstra","first":"Lily","last":"Zeinstra","jersey":"10","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Byron Center, Mich.","high_school":"Byron Center","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

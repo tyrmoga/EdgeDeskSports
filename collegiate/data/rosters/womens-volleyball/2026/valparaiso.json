@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "valparaiso",
+ "host": "valpoathletics.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://valpoathletics.com/sports/womens-volleyball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:kyla-bellich","name":"Kyla Bellich","first":"Kyla","last":"Bellich","jersey":"9","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Thomson, Ill.","high_school":"Prince of Peace Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rylee-bumgardner","name":"Rylee Bumgardner","first":"Rylee","last":"Bumgardner","jersey":"1","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":65,"weight":null,"hometown":"Danville, Ind.","high_school":"Danville","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:drew-glaser","name":"Drew Glaser","first":"Drew","last":"Glaser","jersey":"5","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Edwardsburg, Mich.","high_school":"Edwardsburg","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:danica-goch","name":"Danica Goch","first":"Danica","last":"Goch","jersey":"17","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Baroda, Mich.","high_school":"Lakeshore","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jordyn-gove","name":"Jordyn Gove","first":"Jordyn","last":"Gove","jersey":"4","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Amarillo, Texas","high_school":"Randall","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ava-helming","name":"Ava Helming","first":"Ava","last":"Helming","jersey":"10","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Johnston, Iowa","high_school":"Johnston","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maddie-kmetz","name":"Maddie Kmetz","first":"Maddie","last":"Kmetz","jersey":"18","pos":null,"class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":69,"weight":null,"hometown":"St. John, Ind.","high_school":"Andrean","previous_school":"Western Michigan","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mia-liberti","name":"Mia Liberti","first":"Mia","last":"Liberti","jersey":"31","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":66,"weight":null,"hometown":"Chicago, Ill.","high_school":"De La Salle Institute","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:keira-lucas","name":"Keira Lucas","first":"Keira","last":"Lucas","jersey":"14","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Brazil, Ind.","high_school":"Northview","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lindley-martin","name":"Lindley Martin","first":"Lindley","last":"Martin","jersey":"3","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":66,"weight":null,"hometown":"North Judson, Ind.","high_school":"North Judson-San Pierre","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mia-mccall","name":"Mia McCall","first":"Mia","last":"McCall","jersey":"6","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"St. Charles, Ill.","high_school":"St. Charles North","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jessica-pickett","name":"Jessica Pickett","first":"Jessica","last":"Pickett","jersey":"27","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":null,"hometown":"Carmel, Ind.","high_school":"Carmel","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sarah-pippin","name":"Sarah Pippin","first":"Sarah","last":"Pippin","jersey":"21","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Niles, Mich.","high_school":"Edwardsburg","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maddie-steele","name":"Maddie Steele","first":"Maddie","last":"Steele","jersey":"12","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Cincinnati, Ohio","high_school":"Turpin","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mara-thomas","name":"Mara Thomas","first":"Mara","last":"Thomas","jersey":"7","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":67,"weight":null,"hometown":"Bogart, Ga.","high_school":"Athens Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maggie-uhwat","name":"Maggie Uhwat","first":"Maggie","last":"Uhwat","jersey":"11","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Spring Grove, Ill.","high_school":"Richmond Burton Community","previous_school":"Central Michigan","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:olivia-wagner","name":"Olivia Wagner","first":"Olivia","last":"Wagner","jersey":"2","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Lakeville, Minn.","high_school":"Lakeville South","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

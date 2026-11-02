@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "tennessee-st",
+ "host": "tsutigers.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://tsutigers.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:christian-alston","name":"Christian Alston","first":"Christian","last":"Alston","jersey":"7","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":200,"hometown":"Memphis, Tenn.","high_school":"Bartlett","previous_school":"Abilene Christian","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maddux-bodenhamer","name":"Maddux Bodenhamer","first":"Maddux","last":"Bodenhamer","jersey":"5","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":190,"hometown":"Nashville, Tenn.","high_school":"Antioch","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aaron-bradshaw","name":"Aaron Bradshaw","first":"Aaron","last":"Bradshaw","jersey":"2","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":85,"weight":225,"hometown":"Rahway, N.J.","high_school":"Camden","previous_school":"Kentucky / Ohio State / Memphis","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:damon-howard-jr-","name":"Damon Howard Jr.","first":"Damon","last":"Howard Jr.","jersey":"11","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":160,"hometown":"Indianapolis, Ind.","high_school":"Pike","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ty-laur-johnson","name":"Ty-Laur Johnson","first":"Ty-Laur","last":"Johnson","jersey":"10","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":150,"hometown":"Brooklyn, N.Y.","high_school":"Our Savior Lutheran (Bronx) / St. Benedict's Prep","previous_school":"San Diego / Wake Forest / Louisville","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jayden-jones","name":"Jayden Jones","first":"Jayden","last":"Jones","jersey":"20","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":195,"hometown":"Madison, Tenn.","high_school":"Goodpasture Christian","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kavien-jones","name":"Kavien Jones","first":"Kavien","last":"Jones","jersey":"23","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":260,"hometown":"Franklin, Tenn.","high_school":"Battle Ground Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:deondrea-lindsey","name":"Deondrea Lindsey","first":"Deondrea","last":"Lindsey","jersey":"0","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":212,"hometown":"Knoxville, Tenn.","high_school":"Knoxville Catholic / Oak Hill Academy (Va.)","previous_school":"Iona","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:arterio-morris","name":"Arterio Morris","first":"Arterio","last":"Morris","jersey":"1","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":200,"hometown":"Dallas, Texas","high_school":"Kimball","previous_school":"Bethune-Cookman / South Plains / Texas","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:presley-patterson","name":"Presley Patterson","first":"Presley","last":"Patterson","jersey":"4","pos":"G","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":71,"weight":180,"hometown":"Knoxville, Tenn.","high_school":"Knoxville Catholic","previous_school":"Rice","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:joshua-rivera","name":"Joshua Rivera","first":"Joshua","last":"Rivera","jersey":"15","pos":"F","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":78,"weight":225,"hometown":"New Brunswick, N.J.","high_school":"Putnam Science Academy","previous_school":"Seton Hall / Fordham","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:garrett-shelton","name":"Garrett Shelton","first":"Garrett","last":"Shelton","jersey":"6","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":165,"hometown":"St. Louis, Mo.","high_school":"Frisco Heritage (Tex.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ajayi-simmons","name":"Ajayi Simmons","first":"Ajayi","last":"Simmons","jersey":"24","pos":"G/F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":null,"hometown":"Seattle, Wash.","high_school":"Renton","previous_school":"North Idaho","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isaiah-stewart","name":"Isaiah Stewart","first":"Isaiah","last":"Stewart","jersey":"16","pos":"G/F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":190,"hometown":"Rockwall, Texas","high_school":"Big Tyme Prep","previous_school":"Northern Illinois","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:daniel-vieira-tuck","name":"Daniel Vieira-Tuck","first":"Daniel","last":"Vieira-Tuck","jersey":"3","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":175,"hometown":"Arlington, Texas","high_school":"Mansfield / BigTyme Sports Prep / Colorado Prep","previous_school":"Texas A&M Texarkana","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

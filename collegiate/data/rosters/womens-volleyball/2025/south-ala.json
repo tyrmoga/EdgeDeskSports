@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "south-ala",
+ "host": "usajaguars.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2025,
+ "season_label": "2025",
+ "url": "https://usajaguars.com/sports/womens-volleyball/roster/2025",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:dalayla-blackwell","name":"Dalayla Blackwell","first":"Dalayla","last":"Blackwell","jersey":"7","pos":"MH","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":71,"weight":null,"hometown":"Lafayette, La.","high_school":null,"previous_school":"Lafayette HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:eva-dittmar","name":"Eva Dittmar","first":"Eva","last":"Dittmar","jersey":"4","pos":"OH/RS","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":73,"weight":null,"hometown":"Zanesville, Ohio","high_school":null,"previous_school":"Tri-Valley HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cambria-gaier","name":"Cambria Gaier","first":"Cambria","last":"Gaier","jersey":"8","pos":"OH/RS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Caledonia, Mich.","high_school":null,"previous_school":"Caledonia HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sarah-gooch","name":"Sarah Gooch","first":"Sarah","last":"Gooch","jersey":"0","pos":"OH/RS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Apopka, Fla.","high_school":null,"previous_school":"West Virginia","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elyse-heffner","name":"Elyse Heffner","first":"Elyse","last":"Heffner","jersey":"6","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Traverse City, Mich.","high_school":null,"previous_school":"Traverse City Central HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:addison-hurst","name":"Addison Hurst","first":"Addison","last":"Hurst","jersey":"3","pos":"L/DS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Cleveland, Tenn.","high_school":null,"previous_school":"Cleveland HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anna-loberg","name":"Anna Loberg","first":"Anna","last":"Loberg","jersey":"9","pos":"S","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":72,"weight":null,"hometown":"Geneva, Ill.","high_school":null,"previous_school":"Geneva Community HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:halle-norvell","name":"Halle Norvell","first":"Halle","last":"Norvell","jersey":"15","pos":"S","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"London, Ky.","high_school":null,"previous_school":"Southwestern Pulaski HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maradith-o-gorman","name":"Maradith O'Gorman","first":"Maradith","last":"O'Gorman","jersey":"10","pos":"RS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"Lake Odessa, Mich.","high_school":null,"previous_school":"Michigan State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emily-ready","name":"Emily Ready","first":"Emily","last":"Ready","jersey":"5","pos":"OH/RS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Louisville, Ky.","high_school":null,"previous_school":"Assumption HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rachel-rossman","name":"Rachel Rossman","first":"Rachel","last":"Rossman","jersey":"12","pos":"S","class":"SR","redshirt":false,"class_raw":"Senior","height_in":67,"weight":null,"hometown":"Crown Point, Ind.","high_school":null,"previous_school":"Oakland","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:megan-smith","name":"Megan Smith","first":"Megan","last":"Smith","jersey":"23","pos":"OH/RS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Conway, Ark.","high_school":null,"previous_school":"Conway HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alexa-strandberg","name":"Alexa Strandberg","first":"Alexa","last":"Strandberg","jersey":"22","pos":"OH/MH/RS","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":75,"weight":null,"hometown":"Copley, Ohio","high_school":null,"previous_school":"Copley HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:marissa-taix","name":"Marissa Taix","first":"Marissa","last":"Taix","jersey":"1","pos":"DS/L","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"Kenner, La.","high_school":null,"previous_school":"John Curtis Christian School","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:preslee-thompson","name":"Preslee Thompson","first":"Preslee","last":"Thompson","jersey":"20","pos":"L/DS","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":66,"weight":null,"hometown":"Tuscaloosa, Ala.","high_school":null,"previous_school":"Northridge HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:briana-wilson","name":"Briana Wilson","first":"Briana","last":"Wilson","jersey":"13","pos":"L/DS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":64,"weight":null,"hometown":"Alabaster, Ala.","high_school":null,"previous_school":"Thompson HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

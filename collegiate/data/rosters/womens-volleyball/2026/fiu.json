@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "fiu",
+ "host": "fiusports.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://fiusports.com/sports/womens-volleyball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:alina-cebotari","name":"Alina Cebotari","first":"Alina","last":"Cebotari","jersey":"19","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":null,"hometown":"Chisinau, Moldova","high_school":"Liceul Teoretic \"Gheorghe Marinescu\"","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tiyana-cisse","name":"Tiyana Cisse","first":"Tiyana","last":"Cisse","jersey":"18","pos":"OPP","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Cannes, France","high_school":"CNED","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chiara-fabbrini","name":"Chiara Fabbrini","first":"Chiara","last":"Fabbrini","jersey":"8","pos":"OPP","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":72,"weight":null,"hometown":"Genova, Italy","high_school":"Liceo Classico","previous_school":"IULM University Milan","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gina-fedrigo","name":"Gina Fedrigo","first":"Gina","last":"Fedrigo","jersey":"16","pos":"OPP","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Macomb, Mich.","high_school":"Eisenhower","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mia-gonzalez","name":"Mia Gonzalez","first":"Mia","last":"Gonzalez","jersey":"10","pos":"S","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Homestead, Fla.","high_school":"John A. Ferguson","previous_school":"Lynn","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jillian-huckabey","name":"Jillian Huckabey","first":"Jillian","last":"Huckabey","jersey":"2","pos":"OH","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Olathe, Kan.","high_school":"Olathe Northwest","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kamryn-itzen","name":"Kamryn Itzen","first":"Kamryn","last":"Itzen","jersey":"17","pos":"MB","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Chandler, Ariz.","high_school":"Chandler","previous_school":"Georgia State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nichole-kelly","name":"Nichole Kelly","first":"Nichole","last":"Kelly","jersey":"9","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Palm Harbor, Fla.","high_school":"Calvary Christian","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kindyl-kilar","name":"Kindyl Kilar","first":"Kindyl","last":"Kilar","jersey":"12","pos":"OH/DS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"Whitewater, Wis.","high_school":"Whitewater","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ksenija-krunic","name":"Ksenija Krunic","first":"Ksenija","last":"Krunic","jersey":"20","pos":"DS/L","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Podgorica, Montenegro","high_school":"Secondary School \"Slobodan Škerovic\" Gymnasium","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ivona-lazovic","name":"Ivona Lazovic","first":"Ivona","last":"Lazovic","jersey":"1","pos":"S","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Cacak, Serbia","high_school":"Gimnazija Branko Radicevic","previous_school":"Saint Mary's","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:marta-lazzarin","name":"Marta Lazzarin","first":"Marta","last":"Lazzarin","jersey":"7","pos":"DS/L","class":"JR","redshirt":false,"class_raw":"Junior","height_in":64,"weight":null,"hometown":"Venice, Italy","high_school":"Institute of Tourism Andrea Gritti","previous_school":"Tennessee/Georgia State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lana-sesar","name":"Lana Sesar","first":"Lana","last":"Sesar","jersey":"11","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Mostar, Bosnia & Herzegovina","high_school":"OK Dinamo","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mariana-silva","name":"Mariana Silva","first":"Mariana","last":"Silva","jersey":"5","pos":"S","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"São Paulo, Brazil","high_school":"Colégio Saber","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:teodora-skocajic","name":"Teodora Skocajic","first":"Teodora","last":"Skocajic","jersey":"13","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Novi Sad, Serbia","high_school":"Medical School “7 April” Novi Sad","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:marla-valentin","name":"Marla Valentin","first":"Marla","last":"Valentin","jersey":"14","pos":"OH","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Guaynabo, Puerto Rico","high_school":"Baldwin School of Puerto Rico","previous_school":"Georgia State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rayne-williams","name":"Rayne Williams","first":"Rayne","last":"Williams","jersey":"15","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Snellville, Ga.","high_school":"Brookwood","previous_school":"Georgia State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

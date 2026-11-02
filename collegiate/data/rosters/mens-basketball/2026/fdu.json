@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "fdu",
+ "host": "fduknights.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://fduknights.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:cole-alexander","name":"Cole Alexander","first":"Cole","last":"Alexander","jersey":"21","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":79,"weight":215,"hometown":"Charleston, S.C.","high_school":"Bishop England","previous_school":"The Citadel","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:andrew-canda","name":"Andrew Canda","first":"Andrew","last":"Canda","jersey":"30","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":173,"hometown":"Woodbridge, Va.","high_school":"Virginia Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:arthur-cox","name":"Arthur Cox","first":"Arthur","last":"Cox","jersey":"55","pos":"F/C","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":80,"weight":215,"hometown":"Fayetteville, Ark.","high_school":"Fayetteville","previous_school":"West Virginia State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ras-elijah-godbolt","name":"Ras Elijah Godbolt","first":"Ras","last":"Elijah Godbolt","jersey":"24","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":177,"hometown":"Albany, N.Y.","high_school":"Albany Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:josiah-francis","name":"Josiah Francis","first":"Josiah","last":"Francis","jersey":"15","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":200,"hometown":"Scarborough, Ontario, Canada","high_school":"United Scholastic Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kody-frey","name":"Kody Frey","first":"Kody","last":"Frey","jersey":"1","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":177,"hometown":"Raleigh, N.C.","high_school":"Green Hope High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sebastian-haubro","name":"Sebastian Haubro","first":"Sebastian","last":"Haubro","jersey":"9","pos":"F/C","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":82,"weight":208,"hometown":"Ballerup, Denmark","high_school":null,"previous_school":"BMS Herlev Wolfpack","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:taeshaud-jackson","name":"Taeshaud Jackson","first":"Taeshaud","last":"Jackson","jersey":"2","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":221,"hometown":"Denver, Colo.","high_school":"Southern California Academy","previous_school":"Northern Colorado/VMI","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:david-jevtic","name":"David Jevtic","first":"David","last":"Jevtic","jersey":"35","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":197,"hometown":"Belgrade, Serbia","high_school":null,"previous_school":"KK Kolubara Lazarevac 2003","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:raysean-johnson","name":"Raysean Johnson","first":"Raysean","last":"Johnson","jersey":"3","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":180,"hometown":"Montgomery, N.Y.","high_school":"Canterbury School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cyril-martynov","name":"Cyril Martynov","first":"Cyril","last":"Martynov","jersey":"22","pos":"C","class":"SR","redshirt":false,"class_raw":"Senior","height_in":84,"weight":223,"hometown":"Barrie, Ontario, Canada","high_school":"Lawrenceville School","previous_school":"Eastern Kentucky/Eastern Michigan/Georgia Tech","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tyler-mcquaid","name":"Tyler McQuaid","first":"Tyler","last":"McQuaid","jersey":"11","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":181,"hometown":"Maywood, N.J.","high_school":"Bergen Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:noah-melson","name":"Noah Melson","first":"Noah","last":"Melson","jersey":"8","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":185,"hometown":"Douglasville, Ga.","high_school":"Alexander","previous_school":"Chattanooga","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:joey-niesman","name":"Joey Niesman","first":"Joey","last":"Niesman","jersey":"0","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":74,"weight":185,"hometown":"Oswego, Ill.","high_school":"Oswego High School","previous_school":"McKendree","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:eric-parnell","name":"Eric Parnell","first":"Eric","last":"Parnell","jersey":"7","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":178,"hometown":"Melbourne, FL","high_school":"Holy Trinity Episcopal Academy","previous_school":"Hofstra/Eastern Florida State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

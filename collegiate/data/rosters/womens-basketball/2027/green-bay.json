@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "green-bay",
+ "host": "greenbayphoenix.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://greenbayphoenix.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:jorey-buwalda","name":"Jorey Buwalda","first":"Jorey","last":"Buwalda","jersey":"32","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Randolph, Wis.","high_school":"Randolph HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gracie-grzesk","name":"Gracie Grzesk","first":"Gracie","last":"Grzesk","jersey":"22","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Green Bay, Wis.","high_school":"Notre Dame Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:madison-hoffmann","name":"Madison Hoffmann","first":"Madison","last":"Hoffmann","jersey":"13","pos":"G/F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Grayslake, Ill.","high_school":"Grayslake Central HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lillie-johnson","name":"Lillie Johnson","first":"Lillie","last":"Johnson","jersey":"11","pos":"G/F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Gladstone, Mich.","high_school":"Gladstone HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mckenna-johnson","name":"McKenna Johnson","first":"McKenna","last":"Johnson","jersey":"7","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Wilmot, Wis.","high_school":"Wilmot Union","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ady-ketterhagen","name":"Ady Ketterhagen","first":"Ady","last":"Ketterhagen","jersey":"0","pos":"G/F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Oostburg, Wis.","high_school":"Oostburg HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:riley-ketterhagen","name":"Riley Ketterhagen","first":"Riley","last":"Ketterhagen","jersey":"1","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Oostburg, Wis.","high_school":"Oostburg HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sophie-lahti","name":"Sophie Lahti","first":"Sophie","last":"Lahti","jersey":"5","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":73,"weight":null,"hometown":"Pine City, Minn.","high_school":"Pine City","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kyrin-lile","name":"Kyrin Lile","first":"Kyrin","last":"Lile","jersey":"2","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Elkhorn, Wis.","high_school":"Elkhorn HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elisa-mevius","name":"Elisa Mevius","first":"Elisa","last":"Mevius","jersey":"8","pos":"G","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":70,"weight":null,"hometown":"Rendsburg, Germany","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:julianna-ouimette","name":"Julianna Ouimette","first":"Julianna","last":"Ouimette","jersey":"10","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Minocqua, Wis.","high_school":"Lakeland Union","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kristina-ouimette","name":"Kristina Ouimette","first":"Kristina","last":"Ouimette","jersey":"44","pos":"G/F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Minocqua, Wis.","high_school":"Lakeland Union","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kallie-peppler","name":"Kallie Peppler","first":"Kallie","last":"Peppler","jersey":"21","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Hortonville, Wis.","high_school":"Hortonville","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:meghan-schultz","name":"Meghan Schultz","first":"Meghan","last":"Schultz","jersey":"55","pos":"F/C","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":76,"weight":null,"hometown":"Waukesha, Wis.","high_school":"New Berlin West","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maddy-skorupski","name":"Maddy Skorupski","first":"Maddy","last":"Skorupski","jersey":"3","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":68,"weight":null,"hometown":"Clarkston, Mich.","high_school":"Clarkston","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maren-westin","name":"Maren Westin","first":"Maren","last":"Westin","jersey":"4","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":68,"weight":null,"hometown":"Becker, Minn.","high_school":"Becker","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

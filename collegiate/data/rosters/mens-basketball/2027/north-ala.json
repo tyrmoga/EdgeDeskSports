@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "north-ala",
+ "host": "roarlions.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://roarlions.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:drey-carter","name":"Drey Carter","first":"Drey","last":"Carter","jersey":"2","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":81,"weight":220,"hometown":"Bellefontaine, Ohio","high_school":"Westerville South HS","previous_school":"Fairmont State / Wright State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mitchell-chaffee","name":"Mitchell Chaffee","first":"Mitchell","last":"Chaffee","jersey":"24","pos":"C","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":82,"weight":220,"hometown":"Muscle Shoals, Ala.","high_school":"Muscle Shoals HS","previous_school":"Calhoun CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:julius-clark","name":"Julius Clark","first":"Julius","last":"Clark","jersey":"23","pos":"W","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":79,"weight":205,"hometown":"Birmingham, Ala.","high_school":"Mountain Brook HS","previous_school":"Gardner-Webb","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mike-evbagharu","name":"Mike Evbagharu","first":"Mike","last":"Evbagharu","jersey":"99","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":220,"hometown":"Scarborough, Ontario, Canada","high_school":"Royal Crown Academic School","previous_school":"Canisius / Central Arkansas","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cortez-graham-howard","name":"Cortez Graham-Howard","first":"Cortez","last":"Graham-Howard","jersey":"12","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":210,"hometown":"Nashville, Tenn.","high_school":"Hillsboro HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jackson-gulley","name":"Jackson Gulley","first":"Jackson","last":"Gulley","jersey":"6","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":225,"hometown":"Fairhope, Ala.","high_school":"Fairhope HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:caden-harris","name":"Caden Harris","first":"Caden","last":"Harris","jersey":"7","pos":"W","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":215,"hometown":"Seattle, Wash.","high_school":"Summit HS","previous_school":"Point Loma","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ej-king","name":"EJ King","first":"EJ","last":"King","jersey":"14","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":185,"hometown":"Russellville, Ala.","high_school":"Russellville HS","previous_school":"Bevill State CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:quan-lax","name":"Quan Lax","first":"Quan","last":"Lax","jersey":"0","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":74,"weight":185,"hometown":"Bolivar, Tenn.","high_school":"Bolivar HS","previous_school":"Austin Peay / Freed-Hardeman","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maf-ndiaye","name":"Maf Ndiaye","first":"Maf","last":"Ndiaye","jersey":"55","pos":"W","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":190,"hometown":"Dallas, Texas","high_school":"Seguin HS","previous_school":"Ranger CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ansar-osman","name":"Ansar Osman","first":"Ansar","last":"Osman","jersey":"8","pos":"W","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":205,"hometown":"Snellville, Ga.","high_school":"South Gwinnett HS","previous_school":"Snead State CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:braylon-patton","name":"Braylon Patton","first":"Braylon","last":"Patton","jersey":"3","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":180,"hometown":"Birmingham, Ala.","high_school":"Hueytown HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jarron-talley","name":"Jarron Talley","first":"Jarron","last":"Talley","jersey":"4","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":200,"hometown":"Nashville, Tenn.","high_school":"Pope John Paul II HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jacobe-whitted","name":"Jacobe Whitted","first":"Jacobe","last":"Whitted","jersey":"5","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":225,"hometown":"Birmingham, Ala.","high_school":"McAdory HS","previous_school":"Tennessee Tech","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:damarien-yates","name":"Damarien Yates","first":"Damarien","last":"Yates","jersey":"1","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":235,"hometown":"Somerville, Tenn.","high_school":"Fayette-Ware HS","previous_school":"Alabama State / Memphis","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

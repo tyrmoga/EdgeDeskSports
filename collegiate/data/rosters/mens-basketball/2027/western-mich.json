@@ -1,0 +1,30 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "western-mich",
+ "host": "wmubroncos.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://wmubroncos.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 14,
+ "players": [
+  {"pid":"slug:mason-bendinger","name":"Mason Bendinger","first":"Mason","last":"Bendinger","jersey":"1","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":210,"hometown":"Salt Lake City, Utah","high_school":null,"previous_school":"USC Upstate","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ramere-draper","name":"Ramere Draper","first":"Ramere","last":"Draper","jersey":"22","pos":"G","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":76,"weight":185,"hometown":"Grand Rapids, Mich.","high_school":null,"previous_school":"Claflin","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:joshua-eli","name":"Joshua Eli","first":"Joshua","last":"Eli","jersey":"2","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":215,"hometown":"Woodbury, N.J.","high_school":null,"previous_school":"Army West Point","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isaac-finlinson","name":"Isaac Finlinson","first":"Isaac","last":"Finlinson","jersey":"8","pos":"F","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":80,"weight":185,"hometown":"St. George, Utah","high_school":null,"previous_school":"Hawaii","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:julien-gomez","name":"Julien Gomez","first":"Julien","last":"Gomez","jersey":"13","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":185,"hometown":"Huntington Park, Calif.","high_school":null,"previous_school":"UTRGV","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:adam-harakow","name":"Adam Harakow","first":"Adam","last":"Harakow","jersey":"10","pos":"G/F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":218,"hometown":"Edmonton, Alberta, Canada","high_school":null,"previous_school":"Wyoming","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tanner-hayhurst","name":"Tanner Hayhurst","first":"Tanner","last":"Hayhurst","jersey":"3","pos":"G/F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":210,"hometown":"Eagle, Idaho","high_school":null,"previous_school":"Southern Utah","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ben-johnson","name":"Ben Johnson","first":"Ben","last":"Johnson","jersey":"4","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":182,"hometown":"Portage, Mich.","high_school":null,"previous_school":"Portage Central","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:janis-j-nemann","name":"Janis Jünemann","first":"Janis","last":"Jünemann","jersey":"20","pos":"C","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":83,"weight":230,"hometown":"Riga, Latvia","high_school":null,"previous_school":"BG Göettingen","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:augustinas-kiudulas","name":"Augustinas Kiudulas","first":"Augustinas","last":"Kiudulas","jersey":"11","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":215,"hometown":"Vilnius, Lithuania","high_school":null,"previous_school":"Colorado State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rob-lee-jr-","name":"Rob Lee Jr.","first":"Rob","last":"Lee Jr.","jersey":"24","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":190,"hometown":"Flint, Mich.","high_school":null,"previous_school":"Lamar","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jordan-sigmon","name":"Jordan Sigmon","first":"Jordan","last":"Sigmon","jersey":"7","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":160,"hometown":"Detroit, Mich.","high_school":null,"previous_school":"Iowa United Prep","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaylen-washington","name":"Jaylen Washington","first":"Jaylen","last":"Washington","jersey":"0","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":166,"hometown":"Dallas, Texas","high_school":null,"previous_school":"UTRGV","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:deaaron-watkins","name":"DeAaron Watkins","first":"DeAaron","last":"Watkins","jersey":"23","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":230,"hometown":"Owensboro, Ky.","high_school":null,"previous_school":"Daviess County","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

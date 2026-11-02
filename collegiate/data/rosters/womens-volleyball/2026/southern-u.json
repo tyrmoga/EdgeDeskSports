@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "southern-u",
+ "host": "gojagsports.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://gojagsports.com/sports/womens-volleyball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:paulina-agudelo-marin","name":"Paulina Agudelo Marin","first":"Paulina","last":"Agudelo Marin","jersey":"18","pos":"MB","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Antioquia, Colombia","high_school":"Cibercolegio UCN","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:norielle-battle","name":"Norielle Battle","first":"Norielle","last":"Battle","jersey":"15","pos":"OH","class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Gilbert, Ariz.","high_school":"Hamilton HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maleah-faust","name":"Maleah Faust","first":"Maleah","last":"Faust","jersey":"9","pos":"S","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Inglewood, Calif.","high_school":"Da Vinci Design HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:najah-harris","name":"Najah Harris","first":"Najah","last":"Harris","jersey":"19","pos":"L/DS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":65,"weight":null,"hometown":"Dallas, Texas","high_school":"Braswell HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:logan-hart","name":"Logan Hart","first":"Logan","last":"Hart","jersey":"20","pos":"MB","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Cypress, Texas","high_school":"Cypress Ranch HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nyla-hoult","name":"Nyla Hoult","first":"Nyla","last":"Hoult","jersey":"12","pos":"DS/OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Jacksonville, Ala.","high_school":"Jacksonville HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ayana-johnson","name":"Ayana Johnson","first":"Ayana","last":"Johnson","jersey":"7","pos":"DS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"San Diego, Calif.","high_school":"Torrey Pines HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sereniti-johnson","name":"Sereniti Johnson","first":"Sereniti","last":"Johnson","jersey":"11","pos":"OH/DS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":null,"hometown":"Mesa, Ariz.","high_school":"Red Mountain HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elizabeth-lualemaga","name":"Elizabeth Lualemaga","first":"Elizabeth","last":"Lualemaga","jersey":"13","pos":"OH","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Henderson, Nev.","high_school":"Boulder City HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mariah-mott","name":"Mariah Mott","first":"Mariah","last":"Mott","jersey":"5","pos":"OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Luling, LA","high_school":"Hahnville HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zaria-nelson","name":"Zaria Nelson","first":"Zaria","last":"Nelson","jersey":"1","pos":"OH/RS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"New Orleans, LA","high_school":"Isidore Newman HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:braelynn-reese","name":"Braelynn Reese","first":"Braelynn","last":"Reese","jersey":"4","pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"St. Louis, Mo.","high_school":"Hazelwood Central HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:reagan-robinson","name":"Reagan Robinson","first":"Reagan","last":"Robinson","jersey":"2","pos":"L/DS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":null,"hometown":"Lacombe, La.","high_school":"Slidell HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:penina-vito","name":"Penina Vito","first":"Penina","last":"Vito","jersey":"10","pos":"S","class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"Phoenix, Ariz.","high_school":"Cactus HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alyssa-williams","name":"Alyssa Williams","first":"Alyssa","last":"Williams","jersey":"21","pos":"RS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":null,"hometown":"Riverside, Calif","high_school":"Corona Centennial","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alayah-wilson","name":"Alayah Wilson","first":"Alayah","last":"Wilson","jersey":"14","pos":"OH/OPP","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"Rockwall, Texas","high_school":"Rockwall HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

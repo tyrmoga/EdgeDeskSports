@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "alabama-st",
+ "host": "bamastatesports.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://bamastatesports.com/sports/womens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:kaitlyn-bryant","name":"Kaitlyn Bryant","first":"Kaitlyn","last":"Bryant","jersey":"4","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"Opelika, Ala.","high_school":null,"previous_school":"Chipola CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ny-keria-flowers","name":"Ny’Keria Flowers","first":"Ny’Keria","last":"Flowers","jersey":"6","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":64,"weight":null,"hometown":"Ft. Lauderdale, Fla.","high_school":null,"previous_school":"Northeast HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:amari-franklin","name":"Amari Franklin","first":"Amari","last":"Franklin","jersey":"0","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Pensacola, Fla.","high_school":null,"previous_school":"Bishop State CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ashley-gray","name":"Ashley Gray","first":"Ashley","last":"Gray","jersey":"15","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Sandersville, Ga.","high_school":null,"previous_school":"Washington County HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:talayah-hamilton","name":"Talayah Hamilton","first":"Talayah","last":"Hamilton","jersey":"33","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"Johnston, S.C.","high_school":null,"previous_school":"Strom Thurmond HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:charlese-mcclendon","name":"Charlese McClendon","first":"Charlese","last":"McClendon","jersey":"10","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Waycross, Ga.","high_school":null,"previous_school":"East Georgia State College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaqueline-osei","name":"Jaqueline Osei","first":"Jaqueline","last":"Osei","jersey":"34","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":null,"hometown":"London, England","high_school":null,"previous_school":"Monsignor Scanlan HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:clearia-peterson","name":"Clearia Peterson","first":"Clearia","last":"Peterson","jersey":"22","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Detroit, Mich.","high_school":null,"previous_school":"Miami Dade CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kaia-ponder","name":"Kaia Ponder","first":"Kaia","last":"Ponder","jersey":"7","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":72,"weight":null,"hometown":"Tulsa, Okla.","high_school":null,"previous_school":"Morgan State/Univ. Missouri-Kansas City","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alanah-pooler","name":"Alanah Pooler","first":"Alanah","last":"Pooler","jersey":"1","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Houston, Tx.","high_school":null,"previous_school":"Shelton State CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:samiah-puckett","name":"Samiah Puckett","first":"Samiah","last":"Puckett","jersey":"24","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":null,"hometown":"Griffin, Ga.","high_school":null,"previous_school":"East Tennessee State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:shamya-reid","name":"Shamya Reid","first":"Shamya","last":"Reid","jersey":"2","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":66,"weight":null,"hometown":"Detroit, Mich.","high_school":null,"previous_school":"Wabash Valley CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:meagan-scott","name":"Meagan Scott","first":"Meagan","last":"Scott","jersey":"5","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Bronx, N.Y.","high_school":null,"previous_school":"Monsignor Scanlon HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:caylee-simpson","name":"Caylee Simpson","first":"Caylee","last":"Simpson","jersey":"11","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":66,"weight":null,"hometown":"Columbus, Ga.","high_school":null,"previous_school":"Georgia Southwestern/East Georgia State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:taylor-smith","name":"Taylor Smith","first":"Taylor","last":"Smith","jersey":"23","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":65,"weight":null,"hometown":"Fosters, Ala.","high_school":null,"previous_school":"Shelton State/Alabama A&M","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:takya-walters-norman","name":"Takya Walters-Norman","first":"Takya","last":"Walters-Norman","jersey":"3","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Montgomery, Ala.","high_school":null,"previous_school":"Alabama A&M/Bishop State CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "western-caro",
+ "host": "catamountsports.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://catamountsports.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:fischer-brown","name":"Fischer Brown","first":"Fischer","last":"Brown","jersey":"20","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":180,"hometown":"Lewistown, Montana","high_school":"Wasatch Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:vernon-collins","name":"Vernon Collins","first":"Vernon","last":"Collins","jersey":"33","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":82,"weight":224,"hometown":"Chocowinity, N.C.","high_school":"Greensboro Day","previous_school":"Princeton","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:samuel-dada","name":"Samuel Dada","first":"Samuel","last":"Dada","jersey":"12","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":81,"weight":225,"hometown":"Lagos, Nigeria","high_school":"Link Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:titian-derosa","name":"Titian DeRosa","first":"Titian","last":"DeRosa","jersey":"5","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":150,"hometown":"Bethesda, Md.","high_school":"Whitman HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tidjiane-dioumassi","name":"Tidjiane Dioumassi","first":"Tidjiane","last":"Dioumassi","jersey":"22","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":76,"weight":200,"hometown":"Paris, France","high_school":"LGT Felix Eboue","previous_school":"Southern Univ./Lee College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:abdulai-fanta-kabba","name":"Abdulai Fanta Kabba","first":"Abdulai","last":"Fanta Kabba","jersey":"7","pos":"C","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":84,"weight":235,"hometown":"Kenema, Sierra Leone","high_school":"Rocky River HS","previous_school":"University of Denver","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:drew-hollifield","name":"Drew Hollifield","first":"Drew","last":"Hollifield","jersey":"11","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":71,"weight":190,"hometown":"Shelby, N.C.","high_school":"Shelby HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cj-hyland","name":"CJ Hyland","first":"CJ","last":"Hyland","jersey":"2","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":175,"hometown":"Loganville, Ga.","high_school":"Grayson HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:justin-johnson","name":"Justin Johnson","first":"Justin","last":"Johnson","jersey":"4","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":200,"hometown":"Miami, Fla.","high_school":"Putnam Science Academy","previous_school":"Arkansas State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:marcus-kell","name":"Marcus Kell","first":"Marcus","last":"Kell","jersey":"23","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":80,"weight":213,"hometown":"Rock Hill, S.C.","high_school":"Legion Collegiate Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chase-mckey","name":"Chase McKey","first":"Chase","last":"McKey","jersey":"1","pos":"F","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":82,"weight":202,"hometown":"Atlanta, Ga.","high_school":"TSF","previous_school":"Marshall","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tahlan-pettway","name":"Tahlan Pettway","first":"Tahlan","last":"Pettway","jersey":"8","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":165,"hometown":"Worcester, Mass.","high_school":"St. Thomas More","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tayeshaun-smith","name":"Tayeshaun Smith","first":"Tayeshaun","last":"Smith","jersey":"21","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":220,"hometown":"Raleigh, N.C.","high_school":"Combine Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:julien-soumaoro","name":"Julien Soumaoro","first":"Julien","last":"Soumaoro","jersey":"3","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":71,"weight":175,"hometown":"Bronx, N.Y.","high_school":"Cardinal Hayes HS","previous_school":"East Carolina/Gardner-Webb","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cord-stansberry","name":"Cord Stansberry","first":"Cord","last":"Stansberry","jersey":"0","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":76,"weight":195,"hometown":"Bermuda Dunes, Calif.","high_school":"Shadow Hill HS","previous_school":"Pepperdine","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:max-williams","name":"Max Williams","first":"Max","last":"Williams","jersey":"17","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":78,"weight":180,"hometown":"Hanover, Va.","high_school":"Hanover HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "san-diego",
+ "host": "usdtoreros.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2025,
+ "season_label": "2025",
+ "url": "https://usdtoreros.com/sports/womens-volleyball/roster/2025",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:reese-bates","name":"Reese Bates","first":"Reese","last":"Bates","jersey":"4","pos":"L/DS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Overland Park, KS","high_school":"Blue Valley Southwest HS","previous_school":"Butler","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nemo-beach","name":"Nemo Beach","first":"Nemo","last":"Beach","jersey":"1","pos":"OH","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Chandler, AZ","high_school":"Hamilton High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:olivia-bennett","name":"Olivia Bennett","first":"Olivia","last":"Bennett","jersey":"5","pos":"L/DS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":65,"weight":null,"hometown":"Lexington, KY","high_school":"Bryan Station High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isabel-clark","name":"Isabel Clark","first":"Isabel","last":"Clark","jersey":"7","pos":"OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Orange County, California","high_school":"Mater Dei High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ava-durgan","name":"Ava Durgan","first":"Ava","last":"Durgan","jersey":"10","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":null,"hometown":"Spokane, WA","high_school":"Mead Senior High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kali-engeman","name":"Kali Engeman","first":"Kali","last":"Engeman","jersey":"14","pos":"MB","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":73,"weight":null,"hometown":"Excelsior, MN","high_school":"Minnetonka High School","previous_school":"Minnesota / Georgia Tech","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kaylin-ginsburg","name":"Kaylin Ginsburg","first":"Kaylin","last":"Ginsburg","jersey":"11","pos":"L/DS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":66,"weight":null,"hometown":"Carrollton, TX","high_school":"Hebron High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:belle-groomes","name":"Belle Groomes","first":"Belle","last":"Groomes","jersey":"16","pos":"S","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Cleveland, OH","high_school":"Saint Joseph Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maya-kitna","name":"Maya Kitna","first":"Maya","last":"Kitna","jersey":"17","pos":"MB","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":74,"weight":null,"hometown":"Phoenix, AZ","high_school":"Sandra Day O'Connor High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tatum-lane","name":"Tatum Lane","first":"Tatum","last":"Lane","jersey":"9","pos":"S","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"San Pedro, CA","high_school":"Palos Verdes High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lauren-lynch","name":"Lauren Lynch","first":"Lauren","last":"Lynch","jersey":"2","pos":"L","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":65,"weight":null,"hometown":"Burbank, CA","high_school":"Sierra Canyon High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:eloise-mcgibben","name":"Eloise McGibben","first":"Eloise","last":"McGibben","jersey":"20","pos":"MB","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Santa Barbara, CA","high_school":"San Marcos Senior High School","previous_school":"Texas A&M Corpus Christi","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kylie-munday","name":"Kylie Munday","first":"Kylie","last":"Munday","jersey":"12","pos":"S","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Post Falls, ID","high_school":"Post Falls High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:grace-oliva","name":"Grace Oliva","first":"Grace","last":"Oliva","jersey":"3","pos":"O/OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Sausalito, CA","high_school":"Marin Catholic High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kennedy-osunsanmi","name":"Kennedy Osunsanmi","first":"Kennedy","last":"Osunsanmi","jersey":"6","pos":"OPP","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":null,"hometown":"Stevenson Ranch, CA","high_school":"West Ranch High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:baylea-sparks","name":"BayLea Sparks","first":"BayLea","last":"Sparks","jersey":"18","pos":"MB","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":74,"weight":null,"hometown":"Grand Junction, CO","high_school":"Fruita Monument High School","previous_school":"High Point","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kinley-swan","name":"Kinley Swan","first":"Kinley","last":"Swan","jersey":"13","pos":"MB","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":74,"weight":null,"hometown":"Orem, Utah","high_school":"Lone Peak High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

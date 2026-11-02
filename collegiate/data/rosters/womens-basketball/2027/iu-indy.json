@@ -1,0 +1,30 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "iu-indy",
+ "host": "iuindyjags.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-2027",
+ "url": "https://iuindyjags.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 14,
+ "players": [
+  {"pid":"slug:e-zaria-adams","name":"E'Zaria Adams","first":"E'Zaria","last":"Adams","jersey":"4","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":null,"hometown":"West Palm Beach, Fla.","high_school":"Palm Beach Central","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hailee-brennen","name":"Hailee Brennen","first":"Hailee","last":"Brennen","jersey":"15","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":null,"hometown":"Miami, Fla.","high_school":"Mainland HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:destini-craig","name":"Destini Craig","first":"Destini","last":"Craig","jersey":"1","pos":"G/F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":70,"weight":null,"hometown":"Fort Wayne, Ind.","high_school":"Northrop","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:olivia-flynn","name":"Olivia Flynn","first":"Olivia","last":"Flynn","jersey":"2","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Harbor Springs, Mich.","high_school":"Harbor Springs HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:julia-hall","name":"Julia Hall","first":"Julia","last":"Hall","jersey":"3","pos":"G/F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Westlake, Ohio","high_school":"Magnificat","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:swynn-jackson","name":"Swynn Jackson","first":"Swynn","last":"Jackson","jersey":"25","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Fort Wayne, Ind.","high_school":"Northrop","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emmy-lowe","name":"Emmy Lowe","first":"Emmy","last":"Lowe","jersey":"33","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":68,"weight":null,"hometown":"Byrdstown, Tenn.","high_school":"Pickett County","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kamara-mills","name":"Kamara Mills","first":"Kamara","last":"Mills","jersey":"12","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Indianapolis, Ind.","high_school":"Lawrence North","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kaylin-moorehead","name":"Kaylin Moorehead","first":"Kaylin","last":"Moorehead","jersey":"23","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":66,"weight":null,"hometown":"Redford, Mich.","high_school":"Westfield Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:reagan-sipla","name":"Reagan Sipla","first":"Reagan","last":"Sipla","jersey":"22","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":73,"weight":null,"hometown":"St. Charles, Ill.","high_school":"St. Charles North HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hailey-smith","name":"Hailey Smith","first":"Hailey","last":"Smith","jersey":"30","pos":"G/F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Fishers, Ind.","high_school":"Fishers","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:olivia-smith","name":"Olivia Smith","first":"Olivia","last":"Smith","jersey":"31","pos":"G/F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Fishers, Ind.","high_school":"Fishers","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mylie-wilkison","name":"Mylie Wilkison","first":"Mylie","last":"Wilkison","jersey":"24","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":67,"weight":null,"hometown":"Greensburg, Ind.","high_school":"Greensburg","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ariana-williams","name":"Ariana Williams","first":"Ariana","last":"Williams","jersey":"11","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Chicago, Ill.","high_school":"Example Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

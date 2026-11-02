@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "penn",
+ "host": "pennathletics.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://pennathletics.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:katie-collins","name":"Katie Collins","first":"Katie","last":"Collins","jersey":"25","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Manasquan, N.J.","high_school":"Manasquan","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jayah-curtis","name":"Jayah Curtis","first":"Jayah","last":"Curtis","jersey":"4","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Parsippany, NJ","high_school":"Morris Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mataya-gayle","name":"Mataya Gayle","first":"Mataya","last":"Gayle","jersey":"22","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":67,"weight":null,"hometown":"Woodstock, Ga.","high_school":"River Ridge","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ava-jones","name":"Ava Jones","first":"Ava","last":"Jones","jersey":"11","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Memphis, Tenn.","high_school":"Hutchinson School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gabriella-kelley","name":"Gabriella Kelley","first":"Gabriella","last":"Kelley","jersey":"33","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"San Francisco, Calif.","high_school":"University HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:madison-kocis","name":"Madison Kocis","first":"Madison","last":"Kocis","jersey":"3","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Chatham, N.J.","high_school":"Saint John Vianney","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:candice-lienafa","name":"Candice Lienafa","first":"Candice","last":"Lienafa","jersey":"17","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Quebec, Canada","high_school":"Champlain College Saint-Lambert","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kate-lipatova","name":"Kate Lipatova","first":"Kate","last":"Lipatova","jersey":"21","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":null,"hometown":"Moscow, Russia","high_school":"Putnam Science Academy (Conn.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tina-njike","name":"Tina Njike","first":"Tina","last":"Njike","jersey":"10","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"Salt Lake City, Utah","high_school":"Skyline","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ese-ogbevire","name":"Ese Ogbevire","first":"Ese","last":"Ogbevire","jersey":"23","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":67,"weight":null,"hometown":"Houston, Texas","high_school":"Fulshear","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ari-paraskevopoulou","name":"Ari Paraskevopoulou","first":"Ari","last":"Paraskevopoulou","jersey":"5","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Athens, Greece","high_school":"16th General HS of Athens","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:christina-pham","name":"Christina Pham","first":"Christina","last":"Pham","jersey":"30","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":66,"weight":null,"hometown":"Boston, Mass.","high_school":"Noble and Greenough School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:abby-sharpe","name":"Abby Sharpe","first":"Abby","last":"Sharpe","jersey":"20","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Lafayette Hill, Pa.","high_school":"Plymouth Whitemarsh","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brooke-suttle","name":"Brooke Suttle","first":"Brooke","last":"Suttle","jersey":"2","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Atlanta, Ga.","high_school":"Campbell","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ashna-tambe","name":"Ashna Tambe","first":"Ashna","last":"Tambe","jersey":"0","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"Plano, Texas","high_school":"The Hockaday School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rachel-thatcher","name":"Rachel Thatcher","first":"Rachel","last":"Thatcher","jersey":"24","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Haddon Township, N.J.","high_school":"Paul VI","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

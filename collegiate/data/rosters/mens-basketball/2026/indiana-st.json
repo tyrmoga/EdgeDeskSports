@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "indiana-st",
+ "host": "gosycamores.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://gosycamores.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:bruno-alocen","name":"Bruno Alocen","first":"Bruno","last":"Alocen","jersey":"4","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":195,"hometown":"Barcelona, Spain","high_school":null,"previous_school":"Manresa","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cooper-bean","name":"Cooper Bean","first":"Cooper","last":"Bean","jersey":"13","pos":null,"class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":75,"weight":190,"hometown":"Noblesville, Ind.","high_school":"Noblesville","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zyair-greene","name":"Zyair Greene","first":"Zyair","last":"Greene","jersey":"5","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":75,"weight":200,"hometown":"Atlanta, Ga.","high_school":"Miller Grove","previous_school":"Georgia College & State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:xavier-hall","name":"Xavier Hall","first":"Xavier","last":"Hall","jersey":"30","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":185,"hometown":"Shawnee Mission, Kan.","high_school":"Bishop Miege","previous_school":"Truman State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hunter-harding","name":"Hunter Harding","first":"Hunter","last":"Harding","jersey":"7","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":85,"weight":255,"hometown":"Toronto, Ontario, Canada","high_school":"Royal Crown Academy","previous_school":"Central Michigan","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:markus-harding","name":"Markus Harding","first":"Markus","last":"Harding","jersey":"11","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":82,"weight":255,"hometown":"Toronto, Ontario, Canada","high_school":"Toronto Basketball Academy","previous_school":"Central Michigan","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:caden-huttenlocker","name":"Caden Huttenlocker","first":"Caden","last":"Huttenlocker","jersey":"12","pos":null,"class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":74,"weight":185,"hometown":"Ellettsville, Ind.","high_school":"Edgewood","previous_school":"Lincoln Trail","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:martin-kaupanger","name":"Martin Kaupanger","first":"Martin","last":"Kaupanger","jersey":"21","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":190,"hometown":"Gig Harbor, Wash.","high_school":"Annie Wright","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ian-scott","name":"Ian Scott","first":"Ian","last":"Scott","jersey":"23","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":79,"weight":220,"hometown":"Plainfield, Ind.","high_school":"Plainfield","previous_school":"Grace College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:enel-st-bernard","name":"Enel St. Bernard","first":"Enel","last":"St. Bernard","jersey":"10","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":215,"hometown":"Harford Village, Grenada","high_school":null,"previous_school":"Panola College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jo-van-buggenhout","name":"Jo Van Buggenhout","first":"Jo","last":"Van Buggenhout","jersey":"6","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":195,"hometown":"Belgium","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:derek-vorst","name":"Derek Vorst","first":"Derek","last":"Vorst","jersey":"35","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":82,"weight":250,"hometown":"Luckey, Ohio","high_school":"Rossford High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sivert-w-rstad-nordheim","name":"Sivert Wærstad Nordheim","first":"Sivert","last":"Wærstad Nordheim","jersey":"9","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":190,"hometown":"Oslo, Norway","high_school":null,"previous_school":"Centrum","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:camp-wagner","name":"Camp Wagner","first":"Camp","last":"Wagner","jersey":"8","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":190,"hometown":"Dallas, Texas","high_school":"Link Prep Academy (Mo.)","previous_school":"Rice","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jayan-walker","name":"Jayan Walker","first":"Jayan","last":"Walker","jersey":"2","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":200,"hometown":"Raleigh, N.C.","high_school":"Combine Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sterling-young","name":"Sterling Young","first":"Sterling","last":"Young","jersey":"0","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":73,"weight":175,"hometown":"Queens, N.Y.","high_school":null,"previous_school":"Florida A&M","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

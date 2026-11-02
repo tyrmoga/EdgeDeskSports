@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "cal-st-fullerton",
+ "host": "fullertontitans.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://fullertontitans.com/sports/womens-volleyball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:italia-bernal","name":"Italia Bernal","first":"Italia","last":"Bernal","jersey":"12","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Mexicali, Mex.","high_school":"Preparatoria 16 de Septiembre","previous_school":"Washington State University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kaieva-christensen","name":"Kaieva Christensen","first":"Kaieva","last":"Christensen","jersey":"15","pos":null,"class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":68,"weight":null,"hometown":"Riverton, Utah","high_school":"Riverton HS","previous_school":"Brigham Young University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zariah-crosby","name":"Zariah Crosby","first":"Zariah","last":"Crosby","jersey":"18","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Glendora, Calif.","high_school":"Diamond Bar HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:arianna-ellis","name":"Arianna Ellis","first":"Arianna","last":"Ellis","jersey":"14","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"West Hills, Calif.","high_school":"El Camino Real HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mia-feldhaus","name":"Mia Feldhaus","first":"Mia","last":"Feldhaus","jersey":"11","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":66,"weight":null,"hometown":"Borken, Germany","high_school":"Gymnasium Mariengarden","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:neeva-gaine","name":"Neeva Gaine","first":"Neeva","last":"Gaine","jersey":"4","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Larkspur, Calif.","high_school":"Redwood HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emilia-graham","name":"Emilia Graham","first":"Emilia","last":"Graham","jersey":"13","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":null,"hometown":"Yucaipa, Calif.","high_school":"Yucaipa HS","previous_school":"Whittier College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hannah-hass","name":"Hannah Hass","first":"Hannah","last":"Hass","jersey":"9","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Corona, Calif.","high_school":"Corona HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kaia-herweg","name":"Kaia Herweg","first":"Kaia","last":"Herweg","jersey":"8","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Long Beach, Calif.","high_school":"Los Alamitos HS","previous_school":"Grand Canyon University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaiden-mojica","name":"Jaiden Mojica","first":"Jaiden","last":"Mojica","jersey":"7","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":65,"weight":null,"hometown":"Chula Vista, Calif.","high_school":"Bonita Vista HS","previous_school":"CSU Dominguez Hills","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:marisa-nakata","name":"Marisa Nakata","first":"Marisa","last":"Nakata","jersey":"17","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":66,"weight":null,"hometown":"Kailua, Hawai'i","high_school":"Hawai'i Baptist Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sibley-oster","name":"Sibley Oster","first":"Sibley","last":"Oster","jersey":"6","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Austin, Texas","high_school":"Cedar Park HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ava-pond","name":"Ava Pond","first":"Ava","last":"Pond","jersey":"21","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Lehi, Utah","high_school":"Skyridge HS","previous_school":"College of Southern Idaho","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bella-risling","name":"Bella Risling","first":"Bella","last":"Risling","jersey":"5","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Las Vegas, Nev.","high_school":"Doral Academy Red Rock","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sofia-shine","name":"Sofia Shine","first":"Sofia","last":"Shine","jersey":"3","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Placentia, Calif.","high_school":"El Dorado HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elon-smith","name":"Elon Smith","first":"Elon","last":"Smith","jersey":"1","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Antioch, Calif.","high_school":"Deer Valley HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:parys-taylor","name":"Parys Taylor","first":"Parys","last":"Taylor","jersey":"2","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Valencia, Calif.","high_school":"Canyon HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

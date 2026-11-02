@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "southern-u",
+ "host": "gojagsports.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://gojagsports.com/sports/womens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:mykayla-cunningham","name":"Mykayla Cunningham","first":"Mykayla","last":"Cunningham","jersey":"8","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Salina, KS","high_school":"Spire Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:olivia-delancy","name":"Olivia Delancy","first":"Olivia","last":"Delancy","jersey":"30","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"St. Petersburg, FL","high_school":"Boca Ciega HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jestiny-dixon","name":"Jestiny Dixon","first":"Jestiny","last":"Dixon","jersey":"14","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Foley, AL","high_school":"Foley HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:d-shantae-edwards","name":"D’Shantae Edwards","first":"D’Shantae","last":"Edwards","jersey":"5","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":67,"weight":null,"hometown":"Baltimore, MD","high_school":"Dallastown Area HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aniya-gourdine","name":"Aniya Gourdine","first":"Aniya","last":"Gourdine","jersey":"1","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":null,"hometown":"Baltimore, MD","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anaja-hall","name":"Anaja Hall","first":"Anaja","last":"Hall","jersey":"13","pos":"C","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":null,"hometown":"Alpharetta, GA","high_school":"Saint Francis HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:xyllize-harrison","name":"Xyllize Harrison","first":"Xyllize","last":"Harrison","jersey":"32","pos":"C","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":null,"hometown":"Garland, TX","high_school":"Garland HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zaria-hurston","name":"Zaria Hurston","first":"Zaria","last":"Hurston","jersey":"20","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Decatur, GA","high_school":"Norcross HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:demonnie-lagway","name":"Demonnie Lagway","first":"Demonnie","last":"Lagway","jersey":"10","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Los Angeles, CA","high_school":"Palisades Charter HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:taniya-lawson","name":"Taniya Lawson","first":"Taniya","last":"Lawson","jersey":"3","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Capitol Heights, MD","high_school":"Archbishop Carroll HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:demya-porter","name":"DeMya Porter","first":"DeMya","last":"Porter","jersey":"24","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Bogue Chitto, MS","high_school":"Bogue Chitto HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaylia-reed","name":"Jaylia Reed","first":"Jaylia","last":"Reed","jersey":"2","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":65,"weight":null,"hometown":"Hot Springs, AR","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jocelyn-tate","name":"Jocelyn Tate","first":"Jocelyn","last":"Tate","jersey":"4","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"North Little Rock, AR","high_school":"North Little Rock HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aubri-wilkins","name":"Aubri Wilkins","first":"Aubri","last":"Wilkins","jersey":"0","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":65,"weight":null,"hometown":"Columbus, GA","high_school":"Carver HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kiana-wilson","name":"Kiana Wilson","first":"Kiana","last":"Wilson","jersey":"23","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":67,"weight":null,"hometown":"Jacksonville, FL","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

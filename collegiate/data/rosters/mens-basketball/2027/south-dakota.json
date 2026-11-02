@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "south-dakota",
+ "host": "goyotes.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://goyotes.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:jake-brack","name":"Jake Brack","first":"Jake","last":"Brack","jersey":"34","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":81,"weight":null,"hometown":"Omaha, Neb.","high_school":"Skutt Catholic HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:vince-buzelis","name":"Vince Buzelis","first":"Vince","last":"Buzelis","jersey":"4","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":null,"hometown":"Willowbrook, Ill.","high_school":"Hinsdale Central","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brandon-domsch","name":"Brandon Domsch","first":"Brandon","last":"Domsch","jersey":"22","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":null,"hometown":"Broomfield, Colo.","high_school":"Legacy High School","previous_school":"North Platte CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:josiah-dotzler","name":"Josiah Dotzler","first":"Josiah","last":"Dotzler","jersey":"13","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":75,"weight":null,"hometown":"Omaha, Neb.","high_school":"Bellevue West","previous_school":"Saint Louis","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:iliam-fevry","name":"Iliam Fevry","first":"Iliam","last":"Fevry","jersey":"19","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":null,"hometown":"Paris, France","high_school":null,"previous_school":"Arizona Western","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cade-kelderman","name":"Cade Kelderman","first":"Cade","last":"Kelderman","jersey":"2","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Waukee, Iowa","high_school":"Northwest High School","previous_school":"Iowa State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ethan-kizer","name":"Ethan Kizer","first":"Ethan","last":"Kizer","jersey":"21","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":77,"weight":null,"hometown":"Metamora, Ill.","high_school":"Metamora HS","previous_school":"South Alabama","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kajus-kublickas","name":"Kajus Kublickas","first":"Kajus","last":"Kublickas","jersey":"9","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"Kaunas, Lithuania","high_school":"Zalgiris II","previous_school":"Pacific","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:michael-nee","name":"Michael Nee","first":"Michael","last":"Nee","jersey":"3","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Lombard, Ill.","high_school":"Glenbard East","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tyler-netolicky","name":"Tyler Netolicky","first":"Tyler","last":"Netolicky","jersey":"33","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":82,"weight":null,"hometown":"Cedar Rapids, Iowa","high_school":"Xavier High School","previous_school":"Kirkwood CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:marvin-richard-iii","name":"Marvin Richard III","first":"Marvin","last":"Richard III","jersey":"0","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Pine Ridge, S.D.","high_school":"Pine Ridge High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:melo-sanchez","name":"Melo Sanchez","first":"Melo","last":"Sanchez","jersey":"6","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":null,"hometown":"San Diego, Calif.","high_school":"Veritas Prep","previous_school":"Central Connecticut State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jahni-summers","name":"Jahni Summers","first":"Jahni","last":"Summers","jersey":"44","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":null,"hometown":"Evansville, Ind.","high_school":"Harrison HS","previous_school":"Sacramento State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:josh-townley-thomas","name":"Josh Townley-Thomas","first":"Josh","last":"Townley-Thomas","jersey":"8","pos":null,"class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":82,"weight":null,"hometown":"Omaha, Neb.","high_school":"Creighton Prep","previous_school":"Creighton","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:stef-van-bussel","name":"Stef van Bussel","first":"Stef","last":"van Bussel","jersey":"15","pos":null,"class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":82,"weight":null,"hometown":"Ommel, Netherlands","high_school":"Philips van Horne","previous_school":"Duquesne","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elisha-warren","name":"Elisha Warren","first":"Elisha","last":"Warren","jersey":"5","pos":null,"class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":75,"weight":null,"hometown":"Woodhaven, Mich.","high_school":"Woodhaven High School","previous_school":"D'Youville","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

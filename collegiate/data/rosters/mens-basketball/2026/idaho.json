@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "idaho",
+ "host": "govandals.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://govandals.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:trevon-blassingame","name":"Trevon Blassingame","first":"Trevon","last":"Blassingame","jersey":"1","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":76,"weight":180,"hometown":"Auburn, WA","high_school":"Auburn","previous_school":"Fairleigh Dickinson","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isaiah-brickner","name":"Isaiah Brickner","first":"Isaiah","last":"Brickner","jersey":"5","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":190,"hometown":"San Diego, CA","high_school":"Saint Augustine","previous_school":"Marist College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kristian-gonzalez","name":"Kristian Gonzalez","first":"Kristian","last":"Gonzalez","jersey":"10","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":180,"hometown":"Chula Vista, Calif.","high_school":"Mater Dei Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:talon-jenkins","name":"Talon Jenkins","first":"Talon","last":"Jenkins","jersey":"2","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":null,"hometown":"Bellingham, WA","high_school":"Meridian HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:will-jenson","name":"Will Jenson","first":"Will","last":"Jenson","jersey":"34","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":81,"weight":null,"hometown":"Bend, Ore.","high_school":"Caldera HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:seth-joba","name":"Seth Joba","first":"Seth","last":"Joba","jersey":"21","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":225,"hometown":"Orchard Park, NY","high_school":"Bridgton HS","previous_school":"Vermont","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:biko-johnson","name":"Biko Johnson","first":"Biko","last":"Johnson","jersey":"3","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":185,"hometown":"Carson, CA","high_school":"King Drew HS","previous_school":"Fort Lewis College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:miles-klapper","name":"Miles Klapper","first":"Miles","last":"Klapper","jersey":"24","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":75,"weight":185,"hometown":"Hillsborough, Calif.","high_school":"Junipero Serra","previous_school":"Bridgton Academy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tyler-linhardt","name":"Tyler Linhardt","first":"Tyler","last":"Linhardt","jersey":"22","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":220,"hometown":"Seattle, WA","high_school":"King's","previous_school":"Washington","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kolton-mitchell","name":"Kolton Mitchell","first":"Kolton","last":"Mitchell","jersey":"14","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":73,"weight":170,"hometown":"Coeur d'Alene, ID","high_school":"Lake City","previous_school":"Idaho State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jack-payne","name":"Jack Payne","first":"Jack","last":"Payne","jersey":"7","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":78,"weight":195,"hometown":"Boise, ID","high_school":"Owyhee","previous_school":"Colorado State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jackson-rasmussen","name":"Jackson Rasmussen","first":"Jackson","last":"Rasmussen","jersey":"12","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":200,"hometown":"Meridian, ID","high_school":"Utah Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brody-rowbury","name":"Brody Rowbury","first":"Brody","last":"Rowbury","jersey":"0","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":83,"weight":255,"hometown":"Meridian, ID","high_school":"Meridian HS","previous_school":"Southeastern Louisiana","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aidan-sevilla","name":"Aidan Sevilla","first":"Aidan","last":"Sevilla","jersey":"4","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":72,"weight":null,"hometown":"San Ramon, CA","high_school":null,"previous_school":"UC Merced","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ewan-steele","name":"Ewan Steele","first":"Ewan","last":"Steele","jersey":"15","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":81,"weight":220,"hometown":"Alton, Ontario, Canada","high_school":"Polaris Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:titus-yearout","name":"Titus Yearout","first":"Titus","last":"Yearout","jersey":"11","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":74,"weight":180,"hometown":"Lapwai, ID","high_school":"Lapwai","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

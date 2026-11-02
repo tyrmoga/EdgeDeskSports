@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "wagner",
+ "host": "wagnerathletics.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://wagnerathletics.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:agatha-agba","name":"Agatha Agba","first":"Agatha","last":"Agba","jersey":"2","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":65,"weight":null,"hometown":"Lagos, Nigeria","high_school":"St. Emma's Comprehensive","previous_school":"Southern Illinois","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lana-beslic","name":"Lana Beslic","first":"Lana","last":"Beslic","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Split, Croatia","high_school":"Western Reserve Academy","previous_school":"Wyoming","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:avery-blue","name":"Avery Blue","first":"Avery","last":"Blue","jersey":"0","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":66,"weight":null,"hometown":"Madison, WI","high_school":"Madison Memorial High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ama-boampong","name":"Ama Boampong","first":"Ama","last":"Boampong","jersey":"24","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Haarlem, Netherlands","high_school":"Triple Threat","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:shamique-cummings","name":"Shamique Cummings","first":"Shamique","last":"Cummings","jersey":"10","pos":"G/F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Montreal, Quebec","high_school":"Jeanne-Mance High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:janna-dauer","name":"Janna Dauer","first":"Janna","last":"Dauer","jersey":"13","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":null,"hometown":"Saarlouis, Germany","high_school":null,"previous_school":"Westcliff/Mississippi Valley State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nahia-esnaola","name":"Nahia Esnaola","first":"Nahia","last":"Esnaola","jersey":"22","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Azkoitia, Gipuzcoa, Spain","high_school":"IES Azkoitia BHI","previous_school":"Southwest Baptist","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:fati-fall","name":"Fati Fall","first":"Fati","last":"Fall","jersey":"32","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Catalonia, Spain","high_school":"Marta Mata","previous_school":"Fort Hays Tech | Northwest","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jada-johnson","name":"Jada Johnson","first":"Jada","last":"Johnson","jersey":"3","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":65,"weight":null,"hometown":"Brampton, Ontario","high_school":"St. Mary Catholic Secondary","previous_school":"Gillette","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alivia-landy","name":"Alivia Landy","first":"Alivia","last":"Landy","jersey":"23","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"East Greenbush, NY","high_school":"Columbia High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:layla-mapp","name":"Layla Mapp","first":"Layla","last":"Mapp","jersey":"14","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"Charlotte, NC","high_school":"Ardrey Kell High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sophia-priestley","name":"Sophia Priestley","first":"Sophia","last":"Priestley","jersey":"5","pos":"G/F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Oslo, Norway","high_school":"Ullern IF Oslo","previous_school":"San Francisco","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:saioa-san-francisco","name":"Saioa San Francisco","first":"Saioa","last":"San Francisco","jersey":"4","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":66,"weight":null,"hometown":"Pamplona, Spain","high_school":null,"previous_school":"Casper","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:stella-sgro","name":"Stella Sgro","first":"Stella","last":"Sgro","jersey":"12","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Toronto, Ontario, Canada","high_school":"Royal Crown High School","previous_school":"San Jose State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sylia-vigka","name":"Sylia Vigka","first":"Sylia","last":"Vigka","jersey":"11","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Athens, Greece","high_school":"GS Esperides Kalliotheas","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

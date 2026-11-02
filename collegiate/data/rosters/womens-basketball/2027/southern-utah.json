@@ -1,0 +1,29 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "southern-utah",
+ "host": "suutbirds.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://suutbirds.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 13,
+ "players": [
+  {"pid":"slug:denver-anderson","name":"Denver Anderson","first":"Denver","last":"Anderson","jersey":"34","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Mt Zion, Illinois","high_school":"Mt Zion High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kortney-doman","name":"Kortney Doman","first":"Kortney","last":"Doman","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Crane, Oregon","high_school":"Crane High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brooklyn-fely","name":"Brooklyn Fely","first":"Brooklyn","last":"Fely","jersey":"4","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Orem, Utah","high_school":"Pleasant Grove High School","previous_school":"Umpqua Community College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bella-hasan","name":"Bella Hasan","first":"Bella","last":"Hasan","jersey":"2","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":66,"weight":null,"hometown":"Mukilteo, Washington","high_school":"Kamiak High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:charli-kay","name":"Charli Kay","first":"Charli","last":"Kay","jersey":"5","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":null,"hometown":"Smithton, Tasmania","high_school":"Marist Regional College","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:devyn-kiernan","name":"Devyn Kiernan","first":"Devyn","last":"Kiernan","jersey":"22","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Orange, California","high_school":"Mater Dei High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:vallory-kuelker","name":"Vallory Kuelker","first":"Vallory","last":"Kuelker","jersey":"3","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":null,"hometown":"Boulder Creek, California","high_school":"Pinewood High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:amiah-lewis","name":"Amiah Lewis","first":"Amiah","last":"Lewis","jersey":"10","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"La Habra, California","high_school":"Mater Dei High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:melicia-nelson","name":"Melicia Nelson","first":"Melicia","last":"Nelson","jersey":"24","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Window Rock, Arizona","high_school":"Window Rock High School","previous_school":"Pima CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emily-scholtes","name":"Emily Scholtes","first":"Emily","last":"Scholtes","jersey":"20","pos":"F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":73,"weight":null,"hometown":"Traralgon, Victoria, Australia","high_school":"Lavalla Catholic College","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:diana-sorrondo","name":"Diana Sorrondo","first":"Diana","last":"Sorrondo","jersey":"33","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":null,"hometown":"Arroyo Grande, California","high_school":"Oak Park High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:morgan-trigueiro","name":"Morgan Trigueiro","first":"Morgan","last":"Trigueiro","jersey":"11","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Caruthers, California","high_school":"Caruthers High School","previous_school":"College of Sequoias","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ava-uhrich","name":"Ava Uhrich","first":"Ava","last":"Uhrich","jersey":"44","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Burlingame, CA","high_school":"Pinewood High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

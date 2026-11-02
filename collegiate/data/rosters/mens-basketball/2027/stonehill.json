@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "stonehill",
+ "host": "stonehillskyhawks.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://stonehillskyhawks.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:amare-allen","name":"Amare Allen","first":"Amare","last":"Allen","jersey":"11","pos":"Guard","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":225,"hometown":"Ajax, Ontario, Canada","high_school":"Code Academy","previous_school":"Maine","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:devon-arlington","name":"Devon Arlington","first":"Devon","last":"Arlington","jersey":"22","pos":"Guard","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":75,"weight":180,"hometown":"San Marcos, Calif.","high_school":"San Marcos","previous_school":"Yale","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:will-batchelder","name":"Will Batchelder","first":"Will","last":"Batchelder","jersey":"3","pos":"Guard","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":74,"weight":180,"hometown":"Newburyport, Mass.","high_school":"Governor's Academy","previous_school":"Holy Cross","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anquan-boldin-jr","name":"Anquan Boldin Jr","first":"Anquan","last":"Boldin Jr","jersey":"4","pos":"Guard","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":200,"hometown":"Delray Beach, Fla.","high_school":"IMG Academy","previous_school":"Florida A&M","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:colin-byrne","name":"Colin Byrne","first":"Colin","last":"Byrne","jersey":"21","pos":"Guard","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":170,"hometown":"Middletown, N.J.","high_school":"Middletown North","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:danny-cheng","name":"Danny Cheng","first":"Danny","last":"Cheng","jersey":"34","pos":"Forward/Center","class":"JR","redshirt":false,"class_raw":"Junior","height_in":82,"weight":225,"hometown":"Taichung, Taiwan","high_school":"Royal Crown Academy","previous_school":"Seminole State College (Okla.)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kemar-grant","name":"Kemar Grant","first":"Kemar","last":"Grant","jersey":"10","pos":"Guard","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":215,"hometown":"Brampton, Ontario, Canada","high_school":"St. Jude's Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:eli-greenberg","name":"Eli Greenberg","first":"Eli","last":"Greenberg","jersey":"1","pos":"Guard","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":180,"hometown":"Centerville, Ohio","high_school":"Centerville","previous_school":"Le Moyne","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:norbu-jenpa","name":"Norbu Jenpa","first":"Norbu","last":"Jenpa","jersey":"15","pos":"Guard/Forward","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":180,"hometown":"Prior Lake, Minn.","high_school":"Prior Lake","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:andre-langley","name":"Andre Langley","first":"Andre","last":"Langley","jersey":"13","pos":"Guard","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":188,"hometown":"Marblehead, Mass.","high_school":"Holderness School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:benicio-leons","name":"Benicio Leons","first":"Benicio","last":"Leons","jersey":"32","pos":"Forward","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":210,"hometown":"IJmuiden, Netherlands","high_school":"Gymnasium Felisenum","previous_school":"Panola College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:pearse-mcguinn","name":"Pearse McGuinn","first":"Pearse","last":"McGuinn","jersey":"31","pos":"Forward","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":205,"hometown":"Havertown, Pa.","high_school":"Cardinal O’Hara","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jack-medalie","name":"Jack Medalie","first":"Jack","last":"Medalie","jersey":"5","pos":"Forward","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":225,"hometown":"Nashville, Tenn.","high_school":"Franklin","previous_school":"Saint Anselm","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:felipe-patino","name":"Felipe Patino","first":"Felipe","last":"Patino","jersey":"12","pos":"Guard","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":193,"hometown":"Mississauga, Ontario, Canada","high_school":"Winston Salem Christian School","previous_school":"Southern Mississippi","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trenton-ruth","name":"Trenton Ruth","first":"Trenton","last":"Ruth","jersey":"2","pos":"Guard","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":190,"hometown":"Detroit, Mich.","high_school":"Ferndale","previous_school":"Coffeyville Community College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ewan-steele","name":"Ewan Steele","first":"Ewan","last":"Steele","jersey":"20","pos":"Forward","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":230,"hometown":"Caledon, Ontario, Canada","high_school":"Orangeville District Secondary","previous_school":"University of Idaho","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "st-peters",
+ "host": "saintpeterspeacocks.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://saintpeterspeacocks.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:layla-christopher","name":"Layla Christopher","first":"Layla","last":"Christopher","jersey":"10","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Ontario, Canada","high_school":"Orangeville District","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ebere-egbirika","name":"Ebere Egbirika","first":"Ebere","last":"Egbirika","jersey":"0","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":67,"weight":null,"hometown":"London, England","high_school":"City of London Academy Southwark","previous_school":"Stony Brook","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lamaria-estridge","name":"Lamaria Estridge","first":"Lamaria","last":"Estridge","jersey":"32","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Walkersville, MD","high_school":"St. Andrew's Episcopal","previous_school":"Shepherd","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jada-mills","name":"Jada Mills","first":"Jada","last":"Mills","jersey":"2","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":null,"hometown":"Norwich, CT","high_school":"Putnam Science Academy","previous_school":"James Madison University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aniyah-neal","name":"Aniyah Neal","first":"Aniyah","last":"Neal","jersey":"4","pos":"G/F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Syracuse, NY","high_school":"Loomis Chaffee School","previous_school":"Quinnipiac","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emily-o-connell","name":"Emily O'Connell","first":"Emily","last":"O'Connell","jersey":"12","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":67,"weight":null,"hometown":"London, England","high_school":"City of London Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sierra-patricio","name":"Sierra Patricio","first":"Sierra","last":"Patricio","jersey":"22","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Toronto, Ontario, Canada","high_school":"Capital Courts Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ineivi-plata","name":"Ineivi Plata","first":"Ineivi","last":"Plata","jersey":"5","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":63,"weight":null,"hometown":"White Plains, NY","high_school":"White Plains Senior HS","previous_school":"Saint Francis / FAU","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bree-riley","name":"Bree Riley","first":"Bree","last":"Riley","jersey":"11","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":66,"weight":null,"hometown":"Spring, TX","high_school":"Grand Oaks HS","previous_school":"Abilene Christian","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:carys-roy","name":"Carys Roy","first":"Carys","last":"Roy","jersey":"14","pos":"C","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":null,"hometown":"Cowbridge, Wales","high_school":"Cowbridge Comprehensive School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sophie-staunton","name":"Sophie Staunton","first":"Sophie","last":"Staunton","jersey":"9","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Dublin Swords, Ireland","high_school":"St. Finians CC","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:eszter-turi","name":"Eszter Turi","first":"Eszter","last":"Turi","jersey":"25","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Budapest, Hungary","high_school":"Hunfalvy Janos Bilingual Secondary School","previous_school":"Siena University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alexandra-wilson","name":"Alexandra Wilson","first":"Alexandra","last":"Wilson","jersey":"45","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Chantilly, VA","high_school":"Chantilly HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:soreya-yilmaz","name":"Soreya Yilmaz","first":"Soreya","last":"Yilmaz","jersey":"3","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Ontario, Canada","high_school":"St. Paul Catholic HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nikola-zdenkova","name":"Nikola Zdenkova","first":"Nikola","last":"Zdenkova","jersey":"1","pos":"G/F","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":69,"weight":null,"hometown":"Karlovy Vary, Czech Republic","high_school":"Gymnázium Prípotocní","previous_school":"Siena University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

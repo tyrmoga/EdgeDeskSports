@@ -1,0 +1,21 @@
+{
+ "schema": "edgedesk_collegiate_schedule_v1",
+ "school": "uc-irvine",
+ "host": "ucirvinesports.com",
+ "platform": "sidearm",
+ "sport": "baseball",
+ "season": 2027,
+ "season_label": "2027",
+ "url": "https://ucirvinesports.com/sports/baseball/schedule/2027",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "readers": "sidearm,sidearm_vue,sidearm_legacy,wmt+themes10+sport_path+plain_page",
+ "games_listed": 3,
+ "finals": 0,
+ "undated": 0,
+ "games": [
+  {"game_key":"14824","date":"2026-10-30","time":"2:00 PM","site":"H","opponent":"Arizona State","opponent_host":"thesundevils.com","conference":false,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Irvine, Calif.","event":"Fall Scrimmages","boxscore":null,"note":null},
+  {"game_key":"14501","date":"2026-11-07","time":"1:00 PM","site":"H","opponent":"UCLA","opponent_host":"uclabruins.com","conference":false,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Irvine, Calif.","event":"Fall Scrimmages","boxscore":null,"note":null},
+  {"game_key":"14564","date":"2026-11-14","time":"12:00 PM","site":"H","opponent":"Fresno State","opponent_host":"gobulldogs.com","conference":false,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Irvine, Calif.","event":"Fall Scrimmages","boxscore":null,"note":null}
+ ]
+}

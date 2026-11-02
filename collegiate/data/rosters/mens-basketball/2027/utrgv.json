@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "utrgv",
+ "host": "goutrgv.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://goutrgv.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:caden-bell","name":"Caden Bell","first":"Caden","last":"Bell","jersey":"5","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":180,"hometown":"Durham, N.C.","high_school":"Good, Better, Best Academy","previous_school":"Tyler Junior College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaeson-blair","name":"Jaeson Blair","first":"Jaeson","last":"Blair","jersey":"4","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Biella, Italy","high_school":null,"previous_school":"Nelson University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:t-johnn-brown","name":"T'Johnn Brown","first":"T'Johnn","last":"Brown","jersey":"0","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":72,"weight":164,"hometown":"Dallas, Texas","high_school":"Kimball High School","previous_school":"McNeese","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:darius-carr","name":"Darius Carr","first":"Darius","last":"Carr","jersey":"2","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":76,"weight":195,"hometown":"Los Angeles, Calif.","high_school":"Fairfax","previous_school":"Midland College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kaleb-corbitt","name":"Kaleb Corbitt","first":"Kaleb","last":"Corbitt","jersey":"35","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":81,"weight":null,"hometown":"Miramar, Fla.","high_school":"Miami Country Day","previous_school":"Miami Country Day","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bobby-crawford-jr-","name":"Bobby Crawford Jr.","first":"Bobby","last":"Crawford Jr.","jersey":"11","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":215,"hometown":"St. Petersburg, Fla.","high_school":null,"previous_school":"Lander University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:josiah-hill","name":"Josiah Hill","first":"Josiah","last":"Hill","jersey":"20","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":82,"weight":220,"hometown":"Mansfield, Texas","high_school":"MacArthur High School","previous_school":"Tyler Junior College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:b-b-knight","name":"B.B. Knight","first":"B.B.","last":"Knight","jersey":"7","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":192,"hometown":"Katy, Texas","high_school":"Tompkins High School","previous_school":"Lamar","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ian-parham-jr-","name":"Ian Parham Jr.","first":"Ian","last":"Parham Jr.","jersey":"8","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":null,"hometown":"Buford, Ga.","high_school":"Good Vision Academy","previous_school":"Good Vision Academy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jace-posey","name":"Jace Posey","first":"Jace","last":"Posey","jersey":"23","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":78,"weight":222,"hometown":"Houston, Texas","high_school":"Strake Jesuit College Prep","previous_school":"TCU","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:devon-pryor","name":"Devon Pryor","first":"Devon","last":"Pryor","jersey":"22","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":190,"hometown":"Houston, Texas","high_school":"PSAT-XEA Academy","previous_school":"Oregon","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:luis-ramirez","name":"Luis Ramirez","first":"Luis","last":"Ramirez","jersey":"6","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":190,"hometown":"Brownsville, Texas","high_school":"Los Fresnos High School","previous_school":"Los Fresnos High School","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chris-uwayo","name":"Chris Uwayo","first":"Chris","last":"Uwayo","jersey":"3","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":170,"hometown":"Raleigh, N.C.","high_school":"Panther Creek High School","previous_school":"Tyler Junior College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:always-wright","name":"Always Wright","first":"Always","last":"Wright","jersey":"1","pos":"G","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":75,"weight":178,"hometown":"Durango, Mexico","high_school":"Joplin High School","previous_school":"Rhode Island","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:terrell-wright","name":"Terrell Wright","first":"Terrell","last":"Wright","jersey":"10","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":82,"weight":220,"hometown":"Atlanta, Ga.","high_school":"Columbia High School","previous_school":"Newman University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

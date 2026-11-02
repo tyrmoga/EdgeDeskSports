@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "georgia-st",
+ "host": "georgiastatesports.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://georgiastatesports.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:owen-augunas","name":"Owen Augunas","first":"Owen","last":"Augunas","jersey":"2","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman (1st)","height_in":74,"weight":170,"hometown":"Los Angeles, Calif.","high_school":"So Cal Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:terrance-dixon-jr-","name":"Terrance Dixon Jr.","first":"Terrance","last":"Dixon Jr.","jersey":"23","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate (5th)","height_in":80,"weight":230,"hometown":"Lawrenceville, Ga.","high_school":"Bella Vista Prep","previous_school":"Southern","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:shiyloh-fisher","name":"Shiyloh Fisher","first":"Shiyloh","last":"Fisher","jersey":"32","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman (1st)","height_in":72,"weight":175,"hometown":"Abilene, Texas","high_school":"IMG Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jacolb-fredson-cole","name":"Jacolb Fredson-Cole","first":"Jacolb","last":"Fredson-Cole","jersey":"10","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior (3rd)","height_in":79,"weight":220,"hometown":"Houston, Texas","high_school":"Link Academy","previous_school":"McNeese State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaden-jackson","name":"Jaden Jackson","first":"Jaden","last":"Jackson","jersey":"14","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior (3rd)","height_in":72,"weight":185,"hometown":"Bellevue, Ne.","high_school":"Bellevue West","previous_school":"South Dakota State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:keeper-jackson","name":"Keeper Jackson","first":"Keeper","last":"Jackson","jersey":"24","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman (1st)","height_in":79,"weight":215,"hometown":"Memphis, Tenn.","high_school":"Tennessee Collegiate","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chris-jones","name":"Chris Jones","first":"Chris","last":"Jones","jersey":"0","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore (2nd)","height_in":78,"weight":205,"hometown":"Atlanta, Ga.","high_school":"Douglass","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jacob-meyer","name":"Jacob Meyer","first":"Jacob","last":"Meyer","jersey":"4","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior (4th)","height_in":74,"weight":190,"hometown":"Covington, Ky.","high_school":"Holy Cross","previous_school":"UAB","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mason-nicholson","name":"Mason Nicholson","first":"Mason","last":"Nicholson","jersey":"50","pos":"C","class":"GR","redshirt":false,"class_raw":"Graduate (5th)","height_in":82,"weight":300,"hometown":"Gary, Ind.","high_school":"Gary Westside","previous_school":"Vanderbilt","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:eric-parnell","name":"Eric Parnell","first":"Eric","last":"Parnell","jersey":"7","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate (5th)","height_in":75,"weight":180,"hometown":"Melbourne, Fla.","high_school":"Holy Trinity Episcopal Academy","previous_school":"Fairleigh Dickinson","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jonas-sirtautas","name":"Jonas Sirtautas","first":"Jonas","last":"Sirtautas","jersey":"11","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior (4th)","height_in":82,"weight":205,"hometown":"Kaunas, Lithuania","high_school":"Zalgiris","previous_school":"Loyala (Md.)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aj-smith","name":"AJ Smith","first":"AJ","last":"Smith","jersey":"1","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate (5th)","height_in":77,"weight":190,"hometown":"Charlotte, N.C.","high_school":"Combine Academy","previous_school":"Temple","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:david-thomas","name":"David Thomas","first":"David","last":"Thomas","jersey":"12","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior (4th)","height_in":74,"weight":200,"hometown":"McDonough, Ga.","high_school":"Eagles Landing","previous_school":"Richmond","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zion-wilburn","name":"Zion Wilburn","first":"Zion","last":"Wilburn","jersey":"8","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior (3rd)","height_in":78,"weight":215,"hometown":"Richmond, Calif.","high_school":"AZ Compass Prep","previous_school":"Samford","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:orion-wilson","name":"Orion Wilson","first":"Orion","last":"Wilson","jersey":"15","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore (2nd)","height_in":79,"weight":195,"hometown":"Scarborough, Canada","high_school":"Greenforest McCaleb Christian","previous_school":"Tallahassee State CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

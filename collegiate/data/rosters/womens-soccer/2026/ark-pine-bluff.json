@@ -1,0 +1,30 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "ark-pine-bluff",
+ "host": "uapblionsroar.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-soccer",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://uapblionsroar.com/sports/womens-soccer/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 14,
+ "players": [
+  {"pid":"slug:reagan-allen","name":"Reagan Allen","first":"Reagan","last":"Allen","jersey":"20","pos":"D","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":66,"weight":null,"hometown":"Floresville, TX","high_school":"San Antonio Veterans Memorial","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mckinlee-butler","name":"McKinlee Butler","first":"McKinlee","last":"Butler","jersey":"14","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Cedar Hill, TX","high_school":"Cedar Hill High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cali-cooper","name":"Cali Cooper","first":"Cali","last":"Cooper","jersey":"22","pos":"M","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Champaign, IL","high_school":"University Laboratory High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:peighton-hardy","name":"Peighton Hardy","first":"Peighton","last":"Hardy","jersey":"4","pos":"F/M","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":67,"weight":null,"hometown":"Manvel, TX","high_school":"Manvel HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hailey-hopes","name":"Hailey Hopes","first":"Hailey","last":"Hopes","jersey":"7","pos":"D","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":63,"weight":null,"hometown":"Jonesboro, AR","high_school":"Jonesboro HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:keissy-hopes-lopez","name":"Keissy Hopes-Lopez","first":"Keissy","last":"Hopes-Lopez","jersey":"23","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":62,"weight":null,"hometown":"Jonesboro, AR","high_school":"Jonesboro HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aubrey-hopkins","name":"Aubrey Hopkins","first":"Aubrey","last":"Hopkins","jersey":"8","pos":"D","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Collierville, TN","high_school":"St. Mary's Episcopal School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zakhariah-jones","name":"Zakhariah Jones","first":"Zakhariah","last":"Jones","jersey":"0","pos":"GK","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":65,"weight":null,"hometown":"Jonesboro, AR","high_school":"Jonesboro HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nevaeh-mcintosh","name":"Nevaeh McIntosh","first":"Nevaeh","last":"McIntosh","jersey":"19","pos":"F/M","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Millbrook, Ontario","high_school":"Crestwood Secondary","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trinity-moffett","name":"Trinity Moffett","first":"Trinity","last":"Moffett","jersey":"10","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":64,"weight":null,"hometown":"Pflugerville, TX","high_school":"Pflugerville High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:samina-moss","name":"Samina Moss","first":"Samina","last":"Moss","jersey":"12","pos":"D","class":"JR","redshirt":false,"class_raw":"Junior","height_in":65,"weight":null,"hometown":"Bahamas","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:arie-parker","name":"Arie Parker","first":"Arie","last":"Parker","jersey":"00","pos":"GK","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":null,"hometown":"Los Angeles, CA","high_school":"King Drew Magnet HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dallas-rosby","name":"Dallas Rosby","first":"Dallas","last":"Rosby","jersey":"11","pos":"M","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Los Angeles, CA","high_school":"Venice High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ava-sanchez","name":"Ava Sanchez","first":"Ava","last":"Sanchez","jersey":"2","pos":"F/D","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":null,"hometown":"Ogden, UT","high_school":"West Field HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

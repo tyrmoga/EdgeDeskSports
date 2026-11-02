@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "villanova",
+ "host": "villanova.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://villanova.com/sports/womens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:ryanne-allen","name":"Ryanne Allen","first":"Ryanne","last":"Allen","jersey":"5","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Perkasie, Pa.","high_school":"Archbishop Wood","previous_school":"Vanderbilt","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jasmine-bascoe","name":"Jasmine Bascoe","first":"Jasmine","last":"Bascoe","jersey":"11","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":67,"weight":null,"hometown":"Milton, Ontario","high_school":"Kings Christian Collegiate","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brooke-bender","name":"Brooke Bender","first":"Brooke","last":"Bender","jersey":"14","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Whitehouse, Ohio","high_school":"Anthony Wayne H.S.","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ej-bender","name":"EJ Bender","first":"EJ","last":"Bender","jersey":"12","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Whitehouse, Ohio","high_school":"Anthony Wayne H.S.","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:denae-carter","name":"Denae Carter","first":"Denae","last":"Carter","jersey":"25","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Philadelphia, Pa.","high_school":"St. Basil Academy","previous_school":"Mississippi State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dani-ceseretti","name":"Dani Ceseretti","first":"Dani","last":"Ceseretti","jersey":"24","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Barrington, R.I.","high_school":"Northfield Mount Hermon","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maggie-grant","name":"Maggie Grant","first":"Maggie","last":"Grant","jersey":"44","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Downingtown, Pa.","high_school":"Archbishop John Carroll","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kennedy-henry","name":"Kennedy Henry","first":"Kennedy","last":"Henry","jersey":"22","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Hockessin, Del.","high_school":"Westtown School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kelsey-joens","name":"Kelsey Joens","first":"Kelsey","last":"Joens","jersey":"23","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Iowa City, Iowa","high_school":"West Liberty H.S.","previous_school":"Iowa State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brynn-mccurry","name":"Brynn McCurry","first":"Brynn","last":"McCurry","jersey":"13","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Sparta, N.J.","high_school":"Sparta","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:md-ntambue","name":"MD Ntambue","first":"MD","last":"Ntambue","jersey":"3","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Montreal, Canada","high_school":"Crestwood Prep School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:miky-panait","name":"Miky Panait","first":"Miky","last":"Panait","jersey":"52","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":67,"weight":null,"hometown":"Bucharest, Romania","high_school":"Spiru Haret H.S.","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kylee-watson","name":"Kylee Watson","first":"Kylee","last":"Watson","jersey":"4","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":76,"weight":null,"hometown":"Linwood, N.J.","high_school":"Mainland H.S.","previous_school":"Notre Dame","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:annie-welde","name":"Annie Welde","first":"Annie","last":"Welde","jersey":"43","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Havertown, Pa.","high_school":"Cardinal O'Hara","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rachel-wirts","name":"Rachel Wirts","first":"Rachel","last":"Wirts","jersey":"45","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":null,"hometown":"Greenwood, Ind.","high_school":"Center Grove","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "new-mexico-st",
+ "host": "nmstatesports.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://nmstatesports.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:eva-agba","name":"Eva Agba","first":"Eva","last":"Agba","jersey":"8","pos":"G/F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":72,"weight":null,"hometown":"Marseille, France","high_school":null,"previous_school":"Rhode Island","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:stacy-chovino","name":"Stacy Chovino","first":"Stacy","last":"Chovino","jersey":"97","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Paris, France","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emma-christiano","name":"Emma Christiano","first":"Emma","last":"Christiano","jersey":"22","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":63,"weight":null,"hometown":"Las Cruces, N.M.","high_school":"Las Cruces HS","previous_school":"New Mexico Highlands","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lilyana-fontcha","name":"Lilyana Fontcha","first":"Lilyana","last":"Fontcha","jersey":"20","pos":"C","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":null,"hometown":"Strasbourg, France","high_school":null,"previous_school":"Rhode Island","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:eva-hamlil","name":"Eva Hamlil","first":"Eva","last":"Hamlil","jersey":"10","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Ivry-sur-Siene, France","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:talia-kavoka","name":"Talia Kavoka","first":"Talia","last":"Kavoka","jersey":"5","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":66,"weight":null,"hometown":"Paris, France","high_school":null,"previous_school":"Texas A&M","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aissatou-keita","name":"Aissatou Keita","first":"Aissatou","last":"Keita","jersey":"1","pos":"C","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Paris, France","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:fanta-keita","name":"Fanta Keita","first":"Fanta","last":"Keita","jersey":"3","pos":"C","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":null,"hometown":"Saint Denis, France","high_school":null,"previous_school":"Lattes Montpellier","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:imane-loubibet","name":"Imane Loubibet","first":"Imane","last":"Loubibet","jersey":"9","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Paris, France","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aim-e-michel","name":"Aimée Michel","first":"Aimée","last":"Michel","jersey":"14","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":null,"hometown":"Albi, France","high_school":null,"previous_school":"Rhode Island","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:justine-mouyokolo","name":"Justine Mouyokolo","first":"Justine","last":"Mouyokolo","jersey":"6","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Lorient, France","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:julia-saillard","name":"Julia Saillard","first":"Julia","last":"Saillard","jersey":"55","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Montpellier, France","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sena-sert","name":"Sena Sert","first":"Sena","last":"Sert","jersey":"11","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Firminy, France","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:raina-tomasicka","name":"Raina Tomasicka","first":"Raina","last":"Tomasicka","jersey":"24","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Jekabpils, Latvia","high_school":null,"previous_school":"South Florida","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jana-vesic","name":"Jana Vesic","first":"Jana","last":"Vesic","jersey":"0","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":67,"weight":null,"hometown":"Belgrade, Serbia","high_school":null,"previous_school":"Seattle","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "unc-wilmington",
+ "host": "uncwsports.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://uncwsports.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:kellum-brown","name":"Kellum Brown","first":"Kellum","last":"Brown","jersey":"10","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":185,"hometown":"Wilmington, N.C.","high_school":"New Hanover","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:xavier-brown","name":"Xavier Brown","first":"Xavier","last":"Brown","jersey":"0","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":74,"weight":174,"hometown":"Williamsburg, Va.","high_school":"Jamestown","previous_school":"James Madison/South Florida","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:spencer-elliott","name":"Spencer Elliott","first":"Spencer","last":"Elliott","jersey":"9","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":82,"weight":223,"hometown":"Atlanta, Ga.","high_school":"St. Pius X","previous_school":"Tulane/Charlotte","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:william-kermoury","name":"William Kermoury","first":"William","last":"Kermoury","jersey":"7","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":195,"hometown":"Solna, Sweden","high_school":"Sodertalje BBK","previous_school":"Northeastern","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jahnathan-lamothe","name":"Jahnathan Lamothe","first":"Jahnathan","last":"Lamothe","jersey":"5","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":192,"hometown":"Baltimore, Md.","high_school":"St. Frances Academy","previous_school":"Maryland/North Carolina A&T","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cj-luster-ii","name":"CJ Luster II","first":"CJ","last":"Luster II","jersey":"3","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":75,"weight":175,"hometown":"Denton, Texas","high_school":"TACA Home School","previous_school":"Salt Lake CC/Stony Brook","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:treyvon-maddox","name":"Treyvon Maddox","first":"Treyvon","last":"Maddox","jersey":"6","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":78,"weight":200,"hometown":"Columbia, S.C.","high_school":"Oak Ridge (Fla.)","previous_school":"Miami (Fla.)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tyler-nelson","name":"Tyler Nelson","first":"Tyler","last":"Nelson","jersey":"1","pos":"F","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":78,"weight":228,"hometown":"Charlotte, N.C.","high_school":"Metrolina Christian Academy","previous_school":"Navy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tahlan-pettway","name":"Tahlan Pettway","first":"Tahlan","last":"Pettway","jersey":"8","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":170,"hometown":"Worcester, Mass.","high_school":"St. Thomas More","previous_school":"Western Carolina","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:matija-prodanovic","name":"Matija Prodanovic","first":"Matija","last":"Prodanovic","jersey":"24","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":83,"weight":230,"hometown":"Uzice, Serbia","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:william-seward","name":"William Seward","first":"William","last":"Seward","jersey":"21","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":187,"hometown":"Wilmington, N.C.","high_school":"John T. Hoggard","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tamarion-siddle","name":"Tamarion Siddle","first":"Tamarion","last":"Siddle","jersey":"4","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":185,"hometown":"Martinsville, Va.","high_school":"Martinsville","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:makel-smith","name":"Makel Smith","first":"Makel","last":"Smith","jersey":"12","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":72,"weight":175,"hometown":"Eden, N.C.","high_school":"Morehead","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gavin-walsh","name":"Gavin Walsh","first":"Gavin","last":"Walsh","jersey":"22","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":225,"hometown":"Baltimore, Md.","high_school":"Loyola Blakefield","previous_school":"Binghamton","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:patrick-wessler","name":"Patrick Wessler","first":"Patrick","last":"Wessler","jersey":"2","pos":"C","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":84,"weight":250,"hometown":"Matthews, N.C.","high_school":"Combine Academy","previous_school":"Virginia Tech","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

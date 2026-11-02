@@ -8,9 +8,11 @@
  "season_label": "2027",
  "url": "https://riceowls.com/sports/baseball/schedule/2027",
  "first_read": "2026-10-21",
- "last_read": "2026-10-21",
+ "last_read": "2026-11-02",
+ "readers": "sidearm,sidearm_vue,sidearm_legacy,wmt+themes10+sport_path+plain_page",
  "games_listed": 60,
  "finals": 0,
+ "undated": 0,
  "games": [
   {"game_key":"29143","date":"2026-10-09","time":null,"site":"A","opponent":"Texas A&M","opponent_host":"12thman.com","conference":false,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"College Station, TX","event":null,"boxscore":null,"note":null},
   {"game_key":"29144","date":"2026-10-16","time":null,"site":"H","opponent":"San Jacinto JC","opponent_host":"sanjacsports.com","conference":false,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Reckling Park ","event":null,"boxscore":null,"note":null},

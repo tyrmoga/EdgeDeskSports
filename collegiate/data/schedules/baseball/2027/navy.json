@@ -1,0 +1,22 @@
+{
+ "schema": "edgedesk_collegiate_schedule_v1",
+ "school": "navy",
+ "host": "navysports.com",
+ "platform": "sidearm_legacy",
+ "sport": "baseball",
+ "season": 2027,
+ "season_label": "2027",
+ "url": "https://navysports.com/sports/baseball/schedule/2027",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "readers": "sidearm,sidearm_vue,sidearm_legacy,wmt+themes10+sport_path+plain_page",
+ "games_listed": 4,
+ "finals": 0,
+ "undated": 0,
+ "games": [
+  {"game_key":"28375","date":"2026-10-04","time":"13:00","site":"A","opponent":"Pittsburgh","opponent_host":"pittsburghpanthers.com","conference":false,"postseason":null,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Pittsburgh, Pa.","event":null,"boxscore":null,"note":"Completed"},
+  {"game_key":"28374","date":"2026-10-10","time":"13:00","site":"A","opponent":"Georgetown","opponent_host":"guhoyas.com","conference":false,"postseason":null,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Tysons, Va.","event":null,"boxscore":null,"note":"Completed"},
+  {"game_key":"28376","date":"2026-10-25","time":null,"site":"A","opponent":"Saint Joseph's","opponent_host":"sjuhawks.com","conference":false,"postseason":null,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Philadelphia, Pa.","event":null,"boxscore":null,"note":"Completed"},
+  {"game_key":"28377","date":"2026-11-08","time":"13:00","site":"A","opponent":"Maryland","opponent_host":"umterps.com","conference":false,"postseason":null,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"College Park, Md.","event":null,"boxscore":null,"note":null}
+ ]
+}

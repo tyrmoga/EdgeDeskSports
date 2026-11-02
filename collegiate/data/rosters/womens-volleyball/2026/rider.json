@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "rider",
+ "host": "gobroncs.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://gobroncs.com/sports/womens-volleyball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:tyler-adams","name":"Tyler Adams","first":"Tyler","last":"Adams","jersey":"13","pos":"L/DS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":65,"weight":null,"hometown":"Wilmington, DE","high_school":"Ursuline Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:carly-allen","name":"Carly Allen","first":"Carly","last":"Allen","jersey":"10","pos":"L/DS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":65,"weight":null,"hometown":"Buffalo, NY","high_school":"Sacred Heart Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aubrey-baker","name":"Aubrey Baker","first":"Aubrey","last":"Baker","jersey":"0","pos":"OH","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Vestal, NY","high_school":"Vestal","previous_school":"Merrimack","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tori-bonacci","name":"Tori Bonacci","first":"Tori","last":"Bonacci","jersey":"23","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Downingtown, PA","high_school":"Bishop Shanahan","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:katie-cook","name":"Katie Cook","first":"Katie","last":"Cook","jersey":"14","pos":"S","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Stanley, NC","high_school":"East Lincoln","previous_school":"Robert Morris","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:madison-daley","name":"Madison Daley","first":"Madison","last":"Daley","jersey":"1","pos":"RS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Appleton, WI","high_school":"Xavier","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cecilia-decaro","name":"Cecilia DeCaro","first":"Cecilia","last":"DeCaro","jersey":"19","pos":"OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Wilmington, DE","high_school":"Ursuline Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:olivia-desaro","name":"Olivia DeSaro","first":"Olivia","last":"DeSaro","jersey":"4","pos":"L/DS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Holland, PA","high_school":"Council Rock South","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:erynn-gotsch","name":"Erynn Gotsch","first":"Erynn","last":"Gotsch","jersey":"18","pos":"OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"DeLand, FL","high_school":"DeLand","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anja-kelly","name":"Anja Kelly","first":"Anja","last":"Kelly","jersey":"22","pos":"RS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Naperville, IL","high_school":"Neuqua Valley","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:simone-langford","name":"Simone Langford","first":"Simone","last":"Langford","jersey":"17","pos":"L/DS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Hollywood, FL","high_school":"Flanagan","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:makenna-mason","name":"Makenna Mason","first":"Makenna","last":"Mason","jersey":"9","pos":"S","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Hilton Head Island, SC","high_school":"Hilton Head","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ella-mcdonald","name":"Ella McDonald","first":"Ella","last":"McDonald","jersey":"2","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Knoxville, TN","high_school":"Bearden","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maisie-nawrocki","name":"Maisie Nawrocki","first":"Maisie","last":"Nawrocki","jersey":"16","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Willoughby, OH","high_school":"Willoughby South","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rylah-robinson","name":"Rylah Robinson","first":"Rylah","last":"Robinson","jersey":"7","pos":"OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Fairfax, VA","high_school":"Robinson","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:molly-rohde","name":"Molly Rohde","first":"Molly","last":"Rohde","jersey":"6","pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Hortonville, WI","high_school":"Hortonville","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:annabell-zachritz","name":"Annabell Zachritz","first":"Annabell","last":"Zachritz","jersey":"3","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Gainesville, FL","high_school":"The Rock School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

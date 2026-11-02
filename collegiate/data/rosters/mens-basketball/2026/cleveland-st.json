@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "cleveland-st",
+ "host": "csuvikings.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://csuvikings.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:tre-beard","name":"Tre Beard","first":"Tre","last":"Beard","jersey":"3","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":165,"hometown":"Chillicothe, OH","high_school":"Chillicothe HS","previous_school":"Shawnee State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lucas-burton","name":"Lucas Burton","first":"Lucas","last":"Burton","jersey":"13","pos":"W","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":195,"hometown":"Vancouver, BC","high_school":"Lamar HS","previous_school":"Maryville","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chevalier-emery","name":"Chevalier Emery","first":"Chevalier","last":"Emery","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":183,"hometown":"Appleton, WI","high_school":"Neenah HS","previous_school":"Western Carolina","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:david-giddens","name":"David Giddens","first":"David","last":"Giddens","jersey":"5","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":205,"hometown":"Atlanta, GA","high_school":"Tucker HS","previous_school":"Coastal Alabama CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:josiah-harris","name":"Josiah Harris","first":"Josiah","last":"Harris","jersey":"22","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":225,"hometown":"Canton, OH","high_school":"Richmond Heights HS","previous_school":"Akron","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:manny-hill","name":"Manny Hill","first":"Manny","last":"Hill","jersey":"23","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":175,"hometown":"Cleveland, OH","high_school":"Cleveland Heights HS","previous_school":"Heidelberg","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kamari-jones","name":"Kamari Jones","first":"Kamari","last":"Jones","jersey":"24","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":76,"weight":180,"hometown":"Indianapolis, IN","high_school":"Lawrence Central HS","previous_school":"Western Carolina","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaidon-lipscomb","name":"Jaidon Lipscomb","first":"Jaidon","last":"Lipscomb","jersey":"2","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":171,"hometown":"Columbus, OH","high_school":"Pickerington Central HS","previous_school":"Florida International","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dayan-nessah","name":"Dayan Nessah","first":"Dayan","last":"Nessah","jersey":"7","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":218,"hometown":"Geneva, Switzerland","high_school":"Lycee Francais de Barcelone","previous_school":"George Washington","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:holden-pierre-louis","name":"Holden Pierre-Louis","first":"Holden","last":"Pierre-Louis","jersey":"12","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":235,"hometown":"Potomac, MD","high_school":"St. Andrew's Episcopal","previous_school":"Temple","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:preist-ryan","name":"Preist Ryan","first":"Preist","last":"Ryan","jersey":"4","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":220,"hometown":"Pittsburgh, PA","high_school":"Perkiomen School","previous_school":"Howard College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ivan-spirov","name":"Ivan Spirov","first":"Ivan","last":"Spirov","jersey":"15","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":216,"hometown":"Varna, Bulgaria","high_school":null,"previous_school":"Cherno More Ticha Varna","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kevo-st-hilaire","name":"Kevo St. Hilaire","first":"Kevo","last":"St. Hilaire","jersey":"50","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":82,"weight":250,"hometown":"West Lafayette, IN","high_school":"West Lafayette HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:waqo-tessema","name":"Waqo Tessema","first":"Waqo","last":"Tessema","jersey":"11","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":175,"hometown":"Winnipeg, MB","high_school":"Glenlawn Collegiate Academy","previous_school":"Panola College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:foster-wonders","name":"Foster Wonders","first":"Foster","last":"Wonders","jersey":"0","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":204,"hometown":"Iron Mountain, MI","high_school":"Iron Mountain HS","previous_school":"Green Bay","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

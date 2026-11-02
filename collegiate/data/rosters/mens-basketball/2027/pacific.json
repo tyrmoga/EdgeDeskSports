@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "pacific",
+ "host": "pacifictigers.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://pacifictigers.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:connor-amundsen","name":"Connor Amundsen","first":"Connor","last":"Amundsen","jersey":"30","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Fresno, Calif.","high_school":null,"previous_school":"Dartmouth","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:noah-budu","name":"Noah Budu","first":"Noah","last":"Budu","jersey":"25","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"American Canyon, Calif.","high_school":"American Canyon HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jorge-carot","name":"Jorge Carot","first":"Jorge","last":"Carot","jersey":"22","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":81,"weight":null,"hometown":"Spain","high_school":null,"previous_school":"Valencia Basket","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dominick-harris","name":"Dominick Harris","first":"Dominick","last":"Harris","jersey":"8","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":75,"weight":null,"hometown":"Murrieta, Calif.","high_school":null,"previous_school":"Gonzaga/LMU/UCLA/Loyola Chicago","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cj-jones","name":"CJ Jones","first":"CJ","last":"Jones","jersey":"3","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":77,"weight":null,"hometown":"East Saint Louis, Ill.","high_school":null,"previous_school":"UIC/Kansas State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ivan-matlekovic","name":"Ivan Matlekovic","first":"Ivan","last":"Matlekovic","jersey":"40","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":84,"weight":null,"hometown":"Sisak, Croatia","high_school":null,"previous_school":"High Point/North Carolina","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jacob-mcfarland","name":"Jacob McFarland","first":"Jacob","last":"McFarland","jersey":"13","pos":null,"class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":83,"weight":null,"hometown":"Moreno Valley, Calif.","high_school":null,"previous_school":"Houston","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:andrej-mitrevski","name":"Andrej Mitrevski","first":"Andrej","last":"Mitrevski","jersey":"11","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":null,"hometown":"Skopje, North Macedonia","high_school":null,"previous_school":"KK Pelister Sport Bitola","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:adriel-nyorha","name":"Adriel Nyorha","first":"Adriel","last":"Nyorha","jersey":"21","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":null,"hometown":"Ottawa, Ontario, Canada","high_school":null,"previous_school":"South Florida","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:vincent-osazee","name":"Vincent Osazee","first":"Vincent","last":"Osazee","jersey":"10","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":null,"hometown":"Dublin, Ireland","high_school":"Reason Prep (MA)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaion-pitt","name":"Jaion Pitt","first":"Jaion","last":"Pitt","jersey":"15","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":230,"hometown":"Norwood, Ontario, Canada","high_school":"Bella Vista Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gavin-ripp","name":"Gavin Ripp","first":"Gavin","last":"Ripp","jersey":"12","pos":null,"class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":79,"weight":null,"hometown":"Los Gatos, Calif.","high_school":null,"previous_school":"San Diego","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nishayne-sharpe","name":"Nishayne Sharpe","first":"Nishayne","last":"Sharpe","jersey":"7","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"London, Ontario, Canada","high_school":"Bella Vista College Preparatory School (AZ)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaylen-thompson","name":"Jaylen Thompson","first":"Jaylen","last":"Thompson","jersey":"24","pos":null,"class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":79,"weight":null,"hometown":"Oakland, Calif.","high_school":null,"previous_school":"Stanford","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:damarion-vann-kelly","name":"Damarion Vann-Kelly","first":"Damarion","last":"Vann-Kelly","jersey":"0","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":null,"hometown":"Sacramento, Calif.","high_school":null,"previous_school":"Northwest Florida State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaden-winston","name":"Jaden Winston","first":"Jaden","last":"Winston","jersey":"2","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"South Laurel, Md.","high_school":null,"previous_school":"Manhattan","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

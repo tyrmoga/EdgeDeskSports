@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "uc-santa-barbara",
+ "host": "ucsbgauchos.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://ucsbgauchos.com/sports/womens-volleyball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:avery-gibbs","name":"Avery Gibbs","first":"Avery","last":"Gibbs","jersey":"12","pos":"OPP","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Loveland, Colorado","high_school":"Thompson Valley HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:reilly-goueth","name":"Reilly Goueth","first":"Reilly","last":"Goueth","jersey":"15","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Carlsbad, Calif.","high_school":"Sage Creek HS","previous_school":"New York University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kate-martin","name":"Kate Martin","first":"Kate","last":"Martin","jersey":"10","pos":"OH/L","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Mar Vista, Calif.","high_school":"Marymount HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gabi-martinez","name":"Gabi Martinez","first":"Gabi","last":"Martinez","jersey":"18","pos":"OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Katy, Texas","high_school":"Cinco Ranch HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bella-mathis","name":"Bella Mathis","first":"Bella","last":"Mathis","jersey":"13","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Granite Bay, Calif.","high_school":"Granite Bay HS","previous_school":"Belmont University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emma-mcdermott","name":"Emma McDermott","first":"Emma","last":"McDermott","jersey":"33","pos":"OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"Larkspur, Calif.","high_school":"Redwood HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bianca-nistor","name":"Bianca Nistor","first":"Bianca","last":"Nistor","jersey":"4","pos":"DS/L","class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Plymouth, Minn.","high_school":"Wayzata HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ayva-ostovar","name":"Ayva Ostovar","first":"Ayva","last":"Ostovar","jersey":"19","pos":"S","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":66,"weight":null,"hometown":"San Clemente, Calif.","high_school":"Mater Dei HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:danica-rach","name":"Danica Rach","first":"Danica","last":"Rach","jersey":"14","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Porter Ranch, Calif.","high_school":"Sierra Canyon HS","previous_school":"Boston College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:milan-rex","name":"Milan Rex","first":"Milan","last":"Rex","jersey":"8","pos":"S","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Alexandria, Va.","high_school":"Alexandria City HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sandrea-thomas","name":"Sandrea Thomas","first":"Sandrea","last":"Thomas","jersey":"2","pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"San Jose, Calif.","high_school":"Archbishop Mitty HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:auburn-tomkinson","name":"Auburn Tomkinson","first":"Auburn","last":"Tomkinson","jersey":"1","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":null,"hometown":"Carlsbad, Calif.","high_school":"Carlsbad HS","previous_school":"Illinois","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emery-tubbs","name":"Emery Tubbs","first":"Emery","last":"Tubbs","jersey":"55","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Corona, Calif.","high_school":"Santiago HS","previous_school":"Texas A&M - Corpus Christi","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:selah-wadsworth","name":"Selah Wadsworth","first":"Selah","last":"Wadsworth","jersey":"0","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Scottsdale, Ariz.","high_school":"Scottsdale Christian Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sophia-wendlick","name":"Sophia Wendlick","first":"Sophia","last":"Wendlick","jersey":"28","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Milwaukee, Wis.","high_school":"Divine Savior Holy Angels","previous_school":"Creighton","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cortni-youngblood","name":"Cortni Youngblood","first":"Cortni","last":"Youngblood","jersey":"9","pos":"DS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":65,"weight":null,"hometown":"Los Angeles, Calif.","high_school":"Lakewood HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ava-zamora","name":"Ava Zamora","first":"Ava","last":"Zamora","jersey":"11","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"San Diego, Calif.","high_school":"Westview HS","previous_school":"Stony Brook University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

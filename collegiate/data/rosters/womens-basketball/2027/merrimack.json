@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "merrimack",
+ "host": "merrimackathletics.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://merrimackathletics.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:olivia-borsutzki","name":"Olivia Borsutzki","first":"Olivia","last":"Borsutzki","jersey":"21","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":null,"weight":null,"hometown":"München, Germany","high_school":"University of Nebraska (NCAA)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mia-carmody","name":"Mia Carmody","first":"Mia","last":"Carmody","jersey":"12","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Voorheesville, NY","high_school":"Voorheesville High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:claudia-crespo","name":"Claudia Crespo","first":"Claudia","last":"Crespo","jersey":"5","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":null,"high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emma-dibarboure","name":"Emma Dibarboure","first":"Emma","last":"Dibarboure","jersey":"11","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Madrid, Spain","high_school":"Western Michigan University (NCAA)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:abriel-grant-caracas","name":"Abriel Grant-Caracas","first":"Abriel","last":"Grant-Caracas","jersey":"1","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":65,"weight":null,"hometown":"Toronto, Ont.","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:samantha-grella","name":"Samantha Grella","first":"Samantha","last":"Grella","jersey":"24","pos":"SG","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Nutley, New Jersey","high_school":"Immaculate Heart Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kristen-kelley","name":"Kristen Kelley","first":"Kristen","last":"Kelley","jersey":"10","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Amherst, Ohio","high_school":"Marion L. Steele","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jamie-kent","name":"Jamie Kent","first":"Jamie","last":"Kent","jersey":"20","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Bay Area, CA","high_school":"University of New Hampshire (NCAA)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:claudia-marina","name":"Claudia Marina","first":"Claudia","last":"Marina","jersey":"44","pos":"SG","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Madrid, Spain","high_school":"Florida International University (NCAA)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kelsey-miller","name":"Kelsey Miller","first":"Kelsey","last":"Miller","jersey":"40","pos":"C","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":null,"hometown":"Victoria, MN","high_school":"High Point University (NCAA)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jenna-mishou","name":"Jenna Mishou","first":"Jenna","last":"Mishou","jersey":"33","pos":"F/C","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Hanson, MA","high_school":"Archbishop Williams","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:csenge-szomszed","name":"Csenge Szomszed","first":"Csenge","last":"Szomszed","jersey":"13","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Hort, Hungary","high_school":"Casper College (NCAA)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:olivia-vick","name":"Olivia Vick","first":"Olivia","last":"Vick","jersey":"7","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":65,"weight":null,"hometown":"Chicago, IL","high_school":"Trinity College (NCAA)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:joi-williams","name":"Joi Williams","first":"Joi","last":"Williams","jersey":"2","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":65,"weight":null,"hometown":"Alliance, OH","high_school":"Cuyahoga Valley Christian Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:naomi-wilson","name":"Naomi Wilson","first":"Naomi","last":"Wilson","jersey":"8","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":null,"hometown":"Baldivis, Australia","high_school":"Winthrop University (NCAA)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

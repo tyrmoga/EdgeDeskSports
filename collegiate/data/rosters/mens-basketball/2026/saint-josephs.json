@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "saint-josephs",
+ "host": "sjuhawks.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://sjuhawks.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:justice-ajogbor","name":"Justice Ajogbor","first":"Justice","last":"Ajogbor","jersey":"22","pos":"C","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":82,"weight":260,"hometown":"Benin City, Nigeria","high_school":"Christ School (N.C.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:al-amadou","name":"Al Amadou","first":"Al","last":"Amadou","jersey":"21","pos":"F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":81,"weight":205,"hometown":"Philadelphia, Pa.","high_school":"Chestnut Hill Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anthony-finkley","name":"Anthony Finkley","first":"Anthony","last":"Finkley","jersey":"5","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":235,"hometown":"Philadelphia, Pa.","high_school":"Roman Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaiden-glover-toscano","name":"Jaiden Glover-Toscano","first":"Jaiden","last":"Glover-Toscano","jersey":"11","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":205,"hometown":"Brooklyn, N.Y.","high_school":"The Patrick School (N.J.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dasear-haskins","name":"Dasear Haskins","first":"Dasear","last":"Haskins","jersey":"7","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":80,"weight":200,"hometown":"Willingboro, N.J.","high_school":"Camden","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mekai-johnson","name":"Mekai Johnson","first":"Mekai","last":"Johnson","jersey":"23","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":210,"hometown":"Upper Marlboro, Md.","high_school":"Bishop Ireton (Va.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kevin-kearney","name":"Kevin Kearney","first":"Kevin","last":"Kearney","jersey":"1","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":79,"weight":195,"hometown":"Brooklyn, N.Y.","high_school":"South Shore","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:will-lange","name":"Will Lange","first":"Will","last":"Lange","jersey":"24","pos":"G/F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":215,"hometown":"Newtown Square, Pa.","high_school":"The Shipley School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:khaafiq-myers","name":"Khaafiq Myers","first":"Khaafiq","last":"Myers","jersey":"3","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":70,"weight":165,"hometown":"Philadelphia, Pa.","high_school":"Neumann Goretti","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:billy-rayer","name":"Billy Rayer","first":"Billy","last":"Rayer","jersey":"20","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":180,"hometown":"Ardmore, Pa.","high_school":"The Haverford School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:derek-simpson","name":"Derek Simpson","first":"Derek","last":"Simpson","jersey":"0","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":175,"hometown":"Mount Laurel, N.J.","high_school":"Lenape","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaden-smith","name":"Jaden Smith","first":"Jaden","last":"Smith","jersey":"10","pos":"C","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":83,"weight":225,"hometown":"Chicago, Ill.","high_school":"Kenwood Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:steven-solano","name":"Steven Solano","first":"Steven","last":"Solano","jersey":"15","pos":"C","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":84,"weight":260,"hometown":"Bronx, N.Y.","high_school":"La Lumiere (Ind.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:owen-verna","name":"Owen Verna","first":"Owen","last":"Verna","jersey":"6","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":200,"hometown":"Dana Point, Calif.","high_school":"Mater Dei","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:austin-williford","name":"Austin Williford","first":"Austin","last":"Williford","jersey":"13","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":195,"hometown":"Charlottesville, Va.","high_school":"St. Anne's Belfield School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

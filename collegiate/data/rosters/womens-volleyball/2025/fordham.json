@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "fordham",
+ "host": "fordhamsports.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2025,
+ "season_label": "2025",
+ "url": "https://fordhamsports.com/sports/womens-volleyball/roster/2025",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:avery-boothe","name":"Avery Boothe","first":"Avery","last":"Boothe","jersey":"21","pos":"RS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":null,"hometown":"Gilbert, Ariz.","high_school":"Perry","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mikaela-brennan","name":"Mikaela Brennan","first":"Mikaela","last":"Brennan","jersey":"1","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Laguna Niguel, Calif.","high_school":"JSerra Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:audrey-brown","name":"Audrey Brown","first":"Audrey","last":"Brown","jersey":"9","pos":"OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Birmingham, Mich.","high_school":"Seaholm","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mackenzie-colvin","name":"Mackenzie Colvin","first":"Mackenzie","last":"Colvin","jersey":"8","pos":"S","class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":null,"hometown":"Virginia Beach, Va.","high_school":"Frank W. Cox","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ana-del-angel-aguilar","name":"Ana Del Angel Aguilar","first":"Ana","last":"Del Angel Aguilar","jersey":"16","pos":"S","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":65,"weight":null,"hometown":"The Woodlands, Texas","high_school":"John Cooper","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gabriella-destler","name":"Gabriella Destler","first":"Gabriella","last":"Destler","jersey":"4","pos":"OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Los Angeles, Calif.","high_school":"Marymount (LMU)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lola-fernandez","name":"Lola Fernandez","first":"Lola","last":"Fernandez","jersey":"2","pos":"L/DS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":66,"weight":null,"hometown":"Austin, Texas","high_school":"Westwood","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tatum-holderied","name":"Tatum Holderied","first":"Tatum","last":"Holderied","jersey":"17","pos":"MB","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":null,"hometown":"Fairfield, Conn.","high_school":"Fairfield Ludlowe","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sophia-kuyn","name":"Sophia Kuyn","first":"Sophia","last":"Kuyn","jersey":"11","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"San Antonio, Texas","high_school":"Brandeis","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mila-micunovic","name":"Mila Micunovic","first":"Mila","last":"Micunovic","jersey":"23","pos":"RS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":null,"hometown":"Riviera Beach, Fla.","high_school":"William T. Dwyer","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:addison-newblatt","name":"Addison Newblatt","first":"Addison","last":"Newblatt","jersey":"14","pos":"L/DS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Clarkston, Mich.","high_school":"Clarkston","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sophia-oliveira","name":"Sophia Oliveira","first":"Sophia","last":"Oliveira","jersey":"12","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Pompano Beach, Fla.","high_school":"Boca Raton Community","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:-zge-zaslan","name":"Özge Özaslan","first":"Özge","last":"Özaslan","jersey":"6","pos":"L/DS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":67,"weight":null,"hometown":"Istanbul, Turkey","high_school":"Girney College","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:erynn-sweeney","name":"Erynn Sweeney","first":"Erynn","last":"Sweeney","jersey":"10","pos":"OH/RS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Cypress, Calif.","high_school":"Mater Dei","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zoe-talabong","name":"Zoe Talabong","first":"Zoe","last":"Talabong","jersey":"5","pos":"OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Orlando, Fla.","high_school":"Boone","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:whitney-woodrow","name":"Whitney Woodrow","first":"Whitney","last":"Woodrow","jersey":"22","pos":"S","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Louisville, Ky.","high_school":"Assumption","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bridget-woodruff","name":"Bridget Woodruff","first":"Bridget","last":"Woodruff","jersey":"13","pos":"RS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Tacoma, Wash.","high_school":"Bellamire Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

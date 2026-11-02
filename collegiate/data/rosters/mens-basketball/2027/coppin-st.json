@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "coppin-st",
+ "host": "coppinstatesports.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://coppinstatesports.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:favour-aire","name":"Favour Aire","first":"Favour","last":"Aire","jersey":"2","pos":"C","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":83,"weight":220,"hometown":"Ekpoma, Nigeria","high_school":"Bishop McNamara","previous_school":"Bryant","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:josiah-brown","name":"Josiah Brown","first":"Josiah","last":"Brown","jersey":"3","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":200,"hometown":"Baltimore, Md.","high_school":"Edmondson-Westside HS","previous_school":"Clinton CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sven-djopmo","name":"Sven Djopmo","first":"Sven","last":"Djopmo","jersey":"13","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":190,"hometown":"Reims, France","high_school":"Nanterre 92","previous_school":"Arizona","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tafara-gapare","name":"Tafara Gapare","first":"Tafara","last":"Gapare","jersey":"11","pos":"F","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":81,"weight":215,"hometown":"Wellington, New Zealand","high_school":"South Kent (Conn.) School","previous_school":"Villanova","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brendan-johnson","name":"Brendan Johnson","first":"Brendan","last":"Johnson","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":205,"hometown":"Baltimore, Md.","high_school":"Calvert Hall HS","previous_school":"Merrimack","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tyler-koenig","name":"Tyler Koenig","first":"Tyler","last":"Koenig","jersey":"33","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":81,"weight":245,"hometown":"Waldwick, N.J.","high_school":"Pioneer Academy","previous_school":"Kutztown","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nelson-lamizana","name":"Nelson Lamizana","first":"Nelson","last":"Lamizana","jersey":"21","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":81,"weight":220,"hometown":"West Chester, Pa.","high_school":"Henderson HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:levi-lawal","name":"Levi Lawal","first":"Levi","last":"Lawal","jersey":"8","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":195,"hometown":"Laurel, Md.","high_school":"Mt. Zion Prep","previous_school":"NJIT / Southern New Hampshire","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:daveyon-lydner","name":"Daveyon Lydner","first":"Daveyon","last":"Lydner","jersey":"7","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":185,"hometown":"York, Pa.","high_school":"Bethel Academy (Va.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:allen-myers","name":"Allen Myers","first":"Allen","last":"Myers","jersey":"6","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":190,"hometown":"Philadelphia, Pa.","high_school":"Bensalem HS","previous_school":"Manhattan / Kaskaskia College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jamari-piercy","name":"Jamari Piercy","first":"Jamari","last":"Piercy","jersey":"14","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":170,"hometown":"Griffin, Ga.","high_school":"Columbia HS","previous_school":"Gordon State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:baasil-saunders","name":"Baasil Saunders","first":"Baasil","last":"Saunders","jersey":"5","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":195,"hometown":"Philadelphia, Pa.","high_school":"Imhotep Charter","previous_school":"Montgomery County CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:malik-shackleford","name":"Malik Shackleford","first":"Malik","last":"Shackleford","jersey":"0","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":180,"hometown":"Washington, D.C.","high_school":"Friendship Tech","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:camaren-sparrow","name":"Camaren Sparrow","first":"Camaren","last":"Sparrow","jersey":"10","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":185,"hometown":"Baltimore, Md.","high_school":"New Town HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elijah-taylor","name":"Elijah Taylor","first":"Elijah","last":"Taylor","jersey":"22","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":81,"weight":230,"hometown":"Philadelphia, Pa.","high_school":"Imhotep Charter","previous_school":"Midland College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hussain-williams","name":"Hussain Williams","first":"Hussain","last":"Williams","jersey":"4","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":205,"hometown":"Lynchburg, Va.","high_school":"Heritage HS","previous_school":"CCBC Dundalk","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

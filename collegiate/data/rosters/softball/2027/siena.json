@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "siena",
+ "host": "sienasaints.com",
+ "platform": "sidearm_legacy",
+ "sport": "softball",
+ "season": 2027,
+ "season_label": "2027",
+ "url": "https://sienasaints.com/sports/softball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:sophia-colucci","name":"Sophia Colucci","first":"Sophia","last":"Colucci","jersey":"3","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"South Plainfield, NJ","high_school":"Saint Thomas Aquinas","previous_school":null,"bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elizabeth-craig","name":"Elizabeth Craig","first":"Elizabeth","last":"Craig","jersey":"8","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Weslaco, TX","high_school":"Weslaco (Angelina Junior College)","previous_school":null,"bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:arianna-decotis","name":"Arianna DeCotis","first":"Arianna","last":"DeCotis","jersey":"11","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":66,"weight":null,"hometown":"Windham, NH","high_school":"Windham","previous_school":null,"bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cali-delawder","name":"Cali DeLawder","first":"Cali","last":"DeLawder","jersey":"12","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":64,"weight":null,"hometown":"Hyde Park, NY","high_school":"F.D. Roosevelt","previous_school":null,"bats":"L","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gianna-dimeglio","name":"Gianna DiMeglio","first":"Gianna","last":"DiMeglio","jersey":"9","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":65,"weight":null,"hometown":"River Vale, NJ","high_school":"Immaculate Heart Academy","previous_school":null,"bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:erin-flynn","name":"Erin Flynn","first":"Erin","last":"Flynn","jersey":"31","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"Rochester Hills, MI","high_school":"Stoney Creek (Detroit Mercy)","previous_school":null,"bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alyssa-hernandez","name":"Alyssa Hernandez","first":"Alyssa","last":"Hernandez","jersey":"6","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":66,"weight":null,"hometown":"Fullerton, CA","high_school":"La Habra","previous_school":null,"bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mary-mikalsen","name":"Mary Mikalsen","first":"Mary","last":"Mikalsen","jersey":"44","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":66,"weight":null,"hometown":"Cold Spring, NY","high_school":"Haldane","previous_school":null,"bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sarah-miller","name":"Sarah Miller","first":"Sarah","last":"Miller","jersey":"2","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":63,"weight":null,"hometown":"Coventry, CT","high_school":"Suffield Academy","previous_school":null,"bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:valerie-pedersen","name":"Valerie Pedersen","first":"Valerie","last":"Pedersen","jersey":"55","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"Central Valley, NY","high_school":"Monroe Woodbury","previous_school":null,"bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:karissa-rice","name":"Karissa Rice","first":"Karissa","last":"Rice","jersey":"4","pos":null,"class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":64,"weight":null,"hometown":"Coto De Caza, CA","high_school":"Santa Margarita Catholic (St. John’s)","previous_school":null,"bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jazlyn-small-yu","name":"Jazlyn Small-Yu","first":"Jazlyn","last":"Small-Yu","jersey":"28","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":66,"weight":null,"hometown":"Colchester, CT","high_school":"Bacon Academy","previous_school":null,"bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kaytlin-stephens","name":"Kaytlin Stephens","first":"Kaytlin","last":"Stephens","jersey":"36","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":64,"weight":null,"hometown":"Riverside, CA","high_school":"Ramona","previous_school":null,"bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jordan-strauss","name":"Jordan Strauss","first":"Jordan","last":"Strauss","jersey":"16","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":null,"hometown":"Haddon Township, NJ","high_school":"Haddon Township","previous_school":null,"bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ashlee-sweet","name":"Ashlee Sweet","first":"Ashlee","last":"Sweet","jersey":"21","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"Escondido, CA","high_school":"San Pasqual","previous_school":null,"bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:madison-wray","name":"Madison Wray","first":"Madison","last":"Wray","jersey":"10","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Philadelphia, PA","high_school":"William Penn Charter","previous_school":null,"bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:becca-zawistowski","name":"Becca Zawistowski","first":"Becca","last":"Zawistowski","jersey":"13","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":68,"weight":null,"hometown":"Clifton Park, NY","high_school":"Shenendehowa (Rhode Island)","previous_school":null,"bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

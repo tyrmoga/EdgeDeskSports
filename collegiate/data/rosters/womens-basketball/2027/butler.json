@@ -1,0 +1,29 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "butler",
+ "host": "butlersports.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://butlersports.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 13,
+ "players": [
+  {"pid":"slug:lexi-baer","name":"Lexi Baer","first":"Lexi","last":"Baer","jersey":"21","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Peoria, Ill.","high_school":"Peoria Notre Dame","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:karina-bystry","name":"Karina Bystry","first":"Karina","last":"Bystry","jersey":"20","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Tellico Plains, Tenn.","high_school":"McMinn Central","previous_school":"Northern Kentucky","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:taya-ellis","name":"Taya Ellis","first":"Taya","last":"Ellis","jersey":"6","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Toronto, Ontario, Canada","high_school":"Royal Crown Academy","previous_school":"Bowling Green","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:olivia-hastings","name":"Olivia Hastings","first":"Olivia","last":"Hastings","jersey":"9","pos":"F/C","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":null,"hometown":"Sydney, NSW, Australia","high_school":"Willoughby Girls High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nevaeh-jackson","name":"Nevaeh Jackson","first":"Nevaeh","last":"Jackson","jersey":"11","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Fort Wayne, Ind.","high_school":"Northrop","previous_school":"Valparaiso","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:saniya-jackson","name":"Saniya Jackson","first":"Saniya","last":"Jackson","jersey":"12","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":72,"weight":null,"hometown":"Fort Wayne, Ind.","high_school":"Northrop","previous_school":"Valparaiso","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lili-krasovec","name":"Lili Krasovec","first":"Lili","last":"Krasovec","jersey":"14","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":null,"hometown":"Budapest, Hungary","high_school":"Winston-Salem Christian","previous_school":"Purdue Fort Wayne","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:destiny-macharia","name":"Destiny Macharia","first":"Destiny","last":"Macharia","jersey":"2","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":66,"weight":null,"hometown":"Columbia, Md.","high_school":"Oakland Mills","previous_school":"Purdue Fort Wayne","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sage-miskel","name":"Sage Miskel","first":"Sage","last":"Miskel","jersey":"32","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":66,"weight":null,"hometown":"Whitefish Bay, Wis.","high_school":"Whitefish Bay","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tamar-singer","name":"Tamar Singer","first":"Tamar","last":"Singer","jersey":"13","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":64,"weight":null,"hometown":"Haifa, Israel","high_school":"Ironi Hey","previous_school":"Miami (Ohio)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:judit-valero","name":"Judit Valero","first":"Judit","last":"Valero","jersey":"1","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"Sant Feliu de Llobregat, Barcelona, Spain","high_school":"Verge de la Salut","previous_school":"FIU","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jacy-weisbrod","name":"Jacy Weisbrod","first":"Jacy","last":"Weisbrod","jersey":"23","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":70,"weight":null,"hometown":"La Crosse, Wis.","high_school":"Aquinas","previous_school":"Northern Michigan","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:laniah-wills","name":"Laniah Wills","first":"Laniah","last":"Wills","jersey":"0","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Anderson, Ind.","high_school":"Lapel","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

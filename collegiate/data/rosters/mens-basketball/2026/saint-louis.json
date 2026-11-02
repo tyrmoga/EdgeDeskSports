@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "saint-louis",
+ "host": "slubillikens.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://slubillikens.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:kalu-anya","name":"Kalu Anya","first":"Kalu","last":"Anya","jersey":"6","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":225,"hometown":"Worcester, Mass.","high_school":"IMG Academy","previous_school":"Brown","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:robbie-avila","name":"Robbie Avila","first":"Robbie","last":"Avila","jersey":"21","pos":"C","class":"SR","redshirt":false,"class_raw":"Senior","height_in":82,"weight":240,"hometown":"Oak Forest, Ill.","high_school":"Oak Forest","previous_school":"Indiana State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dion-brown","name":"Dion Brown","first":"Dion","last":"Brown","jersey":"13","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":180,"hometown":"Great Barrington, Mass.","high_school":"Vermont Academy","previous_school":"Boston College/UMBC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:badara-diakite","name":"Badara Diakite","first":"Badara","last":"Diakite","jersey":"2","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":81,"weight":180,"hometown":"Bamako, Mali","high_school":"South Kent School (Conn.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brady-dunlap","name":"Brady Dunlap","first":"Brady","last":"Dunlap","jersey":"11","pos":"F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":79,"weight":200,"hometown":"Studio City, Calif.","high_school":"Harvard-Westlake","previous_school":"St. John's","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trey-green","name":"Trey Green","first":"Trey","last":"Green","jersey":"3","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":72,"weight":160,"hometown":"Charlotte, N.C.","high_school":"Prolific Prep (Calif.)","previous_school":"Xavier","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isaac-holmes","name":"Isaac Holmes","first":"Isaac","last":"Holmes","jersey":"12","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":215,"hometown":"Apex, N.C.","high_school":"Apex","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cam-hutson","name":"Cam Hutson","first":"Cam","last":"Hutson","jersey":"24","pos":"G/F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":190,"hometown":"East Lansing, Mich.","high_school":"East Lansing","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:quentin-jones","name":"Quentin Jones","first":"Quentin","last":"Jones","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":180,"hometown":"Chicago, Ill.","high_school":"Marian Catholic","previous_school":"Northern Illinois/Cal Poly","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jax-kerr","name":"Jax Kerr","first":"Jax","last":"Kerr","jersey":"15","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":83,"weight":200,"hometown":"Muskogee, Okla.","high_school":"Owasso","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:luke-laczkowski","name":"Luke Laczkowski","first":"Luke","last":"Laczkowski","jersey":"14","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":185,"hometown":"Dallas, Texas","high_school":"St. Mark's","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:amari-mccottry","name":"Amari McCottry","first":"Amari","last":"McCottry","jersey":"4","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":205,"hometown":"Milwaukee, Wis.","high_school":"St. Thomas More","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:paul-otieno","name":"Paul Otieno","first":"Paul","last":"Otieno","jersey":"25","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":81,"weight":230,"hometown":"Nairobi, Kenya","high_school":"Sunrise Christian Academy","previous_school":"Quinnipiac","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaden-schertz","name":"Jaden Schertz","first":"Jaden","last":"Schertz","jersey":"5","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":165,"hometown":"Harrogate, Tenn.","high_school":"Cumberland Gap","previous_school":"Indiana State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ishan-sharma","name":"Ishan Sharma","first":"Ishan","last":"Sharma","jersey":"9","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":190,"hometown":"Milton, Ontario","high_school":"Fort Erie International Academy","previous_school":"Virginia","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kellen-thames","name":"Kellen Thames","first":"Kellen","last":"Thames","jersey":"0","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":78,"weight":210,"hometown":"St. Louis, Mo.","high_school":"Pattonville","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

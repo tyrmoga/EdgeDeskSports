@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "hofstra",
+ "host": "gohofstra.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://gohofstra.com/sports/womens-volleyball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:maria-afonso","name":"Maria Afonso","first":"Maria","last":"Afonso","jersey":"3","pos":"OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Curitiba, Paraná, Brazil","high_school":"Colégio Saber/UC San Diego","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:julia-amorim","name":"Julia Amorim","first":"Julia","last":"Amorim","jersey":"19","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Pavuna, Rio de Janeiro, Brazil","high_school":"Elite Rede de Ensino","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:melis-basaran","name":"Melis Basaran","first":"Melis","last":"Basaran","jersey":"26","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Kartal, Istanbul, Turkey","high_school":"Doga Acibadem","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:stella-becker","name":"Stella Becker","first":"Stella","last":"Becker","jersey":"15","pos":"OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Bellmore, NY","high_school":"Kellenberg","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:beatriz-braga","name":"Beatriz Braga","first":"Beatriz","last":"Braga","jersey":"9","pos":"OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"Uberlândia, Brazil","high_school":"Faculdades Integradas Campos Salles","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:geovanna-gon-alves-rocha","name":"Geovanna Gonçalves Rocha","first":"Geovanna","last":"Gonçalves Rocha","jersey":"16","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Rio de Janeiro, Brazil","high_school":"Colégio e Curso Superior","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nil-kayaalp","name":"Nil Kayaalp","first":"Nil","last":"Kayaalp","jersey":"5","pos":"L","class":"SR","redshirt":false,"class_raw":"Senior","height_in":64,"weight":null,"hometown":"Nilüfer, Bursa, Turkey","high_school":"Okyanus Koleji","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alyssa-kenol","name":"Alyssa Kenol","first":"Alyssa","last":"Kenol","jersey":"18","pos":"MB/RS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":null,"hometown":"Elizabeth, NJ","high_school":"Union Catholic Regional","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lauren-konzen","name":"Lauren Konzen","first":"Lauren","last":"Konzen","jersey":"22","pos":"DS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":66,"weight":null,"hometown":"Bohemia, NY","high_school":"Connetquot","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:valentina-lopez-moya","name":"Valentina Lopez Moya","first":"Valentina","last":"Lopez Moya","jersey":"17","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Santa Lucía, San Juan Province, Argentina","high_school":"Colegio Santa Rosa de Lima","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ellie-pamatat","name":"Ellie Pamatat","first":"Ellie","last":"Pamatat","jersey":"11","pos":"S","class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Garden City, NY","high_school":"Garden City","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dawn-pena","name":"Dawn Pena","first":"Dawn","last":"Pena","jersey":"2","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Waldorf, MD","high_school":"Garrison Forest School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:constanza-perez-sain","name":"Constanza Perez Sain","first":"Constanza","last":"Perez Sain","jersey":"21","pos":"RS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Santa Lucía, San Juan, Argentina","high_school":"Colegio Dr. B.A. Houssay","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sonja-rundcrantz","name":"Sonja Rundcrantz","first":"Sonja","last":"Rundcrantz","jersey":"6","pos":"S","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"Zurich, Switzerland","high_school":"Ållebergsgymnasiet (Sweden)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brooke-wilson","name":"Brooke Wilson","first":"Brooke","last":"Wilson","jersey":"24","pos":"DS/L","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Waxhaw, NC","high_school":"Marvin Ridge","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

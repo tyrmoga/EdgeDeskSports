@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "umbc",
+ "host": "umbcretrievers.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://umbcretrievers.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:aidan-able","name":"Aidan Able","first":"Aidan","last":"Able","jersey":"4","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":200,"hometown":"Baltimore, Md.","high_school":"The John Carroll School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alpha-barry","name":"Alpha Barry","first":"Alpha","last":"Barry","jersey":"21","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":215,"hometown":"Queens, N.Y.","high_school":"John Bohn","previous_school":"Gulf Coast State College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:flash-burton","name":"Flash Burton","first":"Flash","last":"Burton","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":185,"hometown":"Philadelphia, Pennsylvania","high_school":"Cardinal O'Hara","previous_school":"Rider","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:devin-ceaser","name":"Devin Ceaser","first":"Devin","last":"Ceaser","jersey":"13","pos":"G","class":"GR","redshirt":true,"class_raw":"Redshirt Fifth Year","height_in":73,"weight":180,"hometown":"Waldorf, Md.","high_school":"St. Stephen's & St. Agnes School","previous_school":"Old Dominion","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:regimantas-ciunys","name":"Regimantas Ciunys","first":"Regimantas","last":"Ciunys","jersey":"0","pos":"F","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":78,"weight":190,"hometown":"Vilnius, Lithuania","high_school":"The Harvey (N.Y.) School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:austin-cross","name":"Austin Cross","first":"Austin","last":"Cross","jersey":"95","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":205,"hometown":"Mansfield, Tex.","high_school":"Charles Henderson","previous_school":"Troy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:leo-ferry","name":"Leo Ferry","first":"Leo","last":"Ferry","jersey":"22","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":160,"hometown":"Merrick, N.Y.","high_school":"Bellmore JFK","previous_school":"Salisbury","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:steven-huan","name":"Steven Huan","first":"Steven","last":"Huan","jersey":"10","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":84,"weight":235,"hometown":"Beijing, China","high_school":"St. Andrew's Episcopal (Md.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:riley-jacobs","name":"Riley Jacobs","first":"Riley","last":"Jacobs","jersey":"23","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":82,"weight":220,"hometown":"Woodbridge, Va.","high_school":"St. Stephen's & St. Agnes","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:evan-morton","name":"Evan Morton","first":"Evan","last":"Morton","jersey":"3","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":180,"hometown":"Matthews, NC","high_school":"Moravia Prep","previous_school":"East Stroudsburg","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jp-ndong","name":"JP Ndong","first":"JP","last":"Ndong","jersey":"2","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":200,"hometown":"Málaga, Spain","high_school":"Summit Academy (Co.)","previous_school":"State Fair C.C.","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaiden-reynolds","name":"Jaiden Reynolds","first":"Jaiden","last":"Reynolds","jersey":"11","pos":"G/F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":200,"hometown":"Syracuse, N.Y.","high_school":"Winston Salem Christian (NC)","previous_school":"Odessa College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jovan-ristic","name":"Jovan Ristic","first":"Jovan","last":"Ristic","jersey":"12","pos":"G/F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":215,"hometown":"Belgrade Serbia","high_school":"Savremena Gimnazija","previous_school":"Saint Anselm","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:taesyn-slating","name":"Taesyn Slating","first":"Taesyn","last":"Slating","jersey":"15","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":195,"hometown":"Eden, N.Y.","high_school":"Eden","previous_school":"Eerie C.C.","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:carlos-varela","name":"Carlos Varela","first":"Carlos","last":"Varela","jersey":"5","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":190,"hometown":"San Fernando, Spain","high_school":"IES Sancti Petri","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

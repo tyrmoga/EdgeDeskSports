@@ -1,0 +1,30 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "fiu",
+ "host": "fiusports.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://fiusports.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 14,
+ "players": [
+  {"pid":"slug:paula-acin","name":"Paula Acin","first":"Paula","last":"Acin","jersey":"10","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":65,"weight":null,"hometown":"Girona, Spain","high_school":"Les Alzines","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:adama-badjie-coly","name":"Adama Badjie Coly","first":"Adama","last":"Badjie Coly","jersey":"2","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Mataro, Spain","high_school":"IES Miquel Biada","previous_school":"Casper College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:madussou-bamba","name":"Madussou Bamba","first":"Madussou","last":"Bamba","jersey":"1","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"Paris, France","high_school":"Lycée Polyvalent Toulouse Bellevue","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:riley-burd","name":"Riley Burd","first":"Riley","last":"Burd","jersey":"0","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Perth, Australia","high_school":"IONA Presentation College","previous_school":"Midland College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mable-doumbia","name":"Mable Doumbia","first":"Mable","last":"Doumbia","jersey":"6","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Bamako, Mali","high_school":"Lycee yaya Coulibaly","previous_school":"Arizona Western","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chloe-emanga","name":"Chloe Emanga","first":"Chloe","last":"Emanga","jersey":"8","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Marbach Am Neckar, Germany","high_school":"Otto-Hahn Gymnasium Ludwigsburg","previous_school":"Seattle","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:grecia-ferrer-leal","name":"Grecia Ferrer Leal","first":"Grecia","last":"Ferrer Leal","jersey":"5","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":66,"weight":null,"hometown":"Baladona, Spain","high_school":"Institut La Llauna","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:frode-flos-van-der-schans","name":"Frode Flos van der Schans","first":"Frode","last":"Flos van der Schans","jersey":"24","pos":"F","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":76,"weight":null,"hometown":"Amsterdam, Netherlands","high_school":"Caland Lyceum","previous_school":"Chattanooga","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:fantasia-james","name":"Fantasia James","first":"Fantasia","last":"James","jersey":"15","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":69,"weight":null,"hometown":"Orange Park, FL","high_school":"Oakleaf High school","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mariss-miekountima","name":"Mariss Miekountima","first":"Mariss","last":"Miekountima","jersey":"34","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":null,"hometown":"Argences, France","high_school":"Lycée Professionnel Jean Mermoz","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:shorna-preston","name":"Shorna Preston","first":"Shorna","last":"Preston","jersey":"3","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Gold Coast, Australia","high_school":"Hillcrest Christian College","previous_school":"Dodge City/Pepperdine","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mio-sakano","name":"Mio Sakano","first":"Mio","last":"Sakano","jersey":"30","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Yamanashi, Japan","high_school":"IMG Academy","previous_school":"South Georgia Tech/Miami (OH)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:malia-tharpe","name":"Malia Tharpe","first":"Malia","last":"Tharpe","jersey":"12","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Cottesloe, Western Australia, Australia","high_school":"Shenton College","previous_school":"San Diego","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:breaunna-ward","name":"BreAunna Ward","first":"BreAunna","last":"Ward","jersey":"21","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"St. Louis, Mo.","high_school":"John Burroughs School","previous_school":"Evansville","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

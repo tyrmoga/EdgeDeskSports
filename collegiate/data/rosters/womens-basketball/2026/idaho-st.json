@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "idaho-st",
+ "host": "isubengals.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://isubengals.com/sports/womens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:alyse-aby","name":"Alyse Aby","first":"Alyse","last":"Aby","jersey":"4","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Laurel, Montana","high_school":null,"previous_school":"Laurel HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aspen-caldwell","name":"Aspen Caldwell","first":"Aspen","last":"Caldwell","jersey":"2","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"Idaho Falls, Idaho","high_school":null,"previous_school":"Utah Valley University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:piper-carlson","name":"Piper Carlson","first":"Piper","last":"Carlson","jersey":"14","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Albertville, Minnesota","high_school":null,"previous_school":"Albertville HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cam-collman","name":"Cam Collman","first":"Cam","last":"Collman","jersey":"3","pos":"G","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":68,"weight":null,"hometown":"La Grande, OR","high_school":null,"previous_school":"University of Portland","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sophia-covello","name":"Sophia Covello","first":"Sophia","last":"Covello","jersey":"22","pos":"G","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":69,"weight":null,"hometown":"Roseville, California","high_school":null,"previous_school":"Woodcreek HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aurora-elder","name":"Aurora Elder","first":"Aurora","last":"Elder","jersey":"20","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":null,"hometown":"Perris, CA","high_school":null,"previous_school":"Sage Hill HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maeva-gauffrenet","name":"Maeva Gauffrenet","first":"Maeva","last":"Gauffrenet","jersey":"18","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Toucy, France","high_school":null,"previous_school":"National Féminine 2","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:molly-hays","name":"Molly Hays","first":"Molly","last":"Hays","jersey":"7","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":null,"hometown":"Cody, WY","high_school":null,"previous_school":"Cody HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tylie-jones","name":"Tylie Jones","first":"Tylie","last":"Jones","jersey":"23","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Rigby, Idaho","high_school":null,"previous_school":"New Mexico State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tasia-jordan","name":"Tasia Jordan","first":"Tasia","last":"Jordan","jersey":"5","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":68,"weight":null,"hometown":"Melrose Park, Illinois","high_school":null,"previous_school":"Kirkwood CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mackenzie-marenchin","name":"Mackenzie Marenchin","first":"Mackenzie","last":"Marenchin","jersey":"12","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Windsor, Canada","high_school":null,"previous_school":"Lincoln Prep School","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kacey-spink","name":"Kacey Spink","first":"Kacey","last":"Spink","jersey":"1","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":null,"hometown":"Spokane, WA","high_school":null,"previous_school":"Ferris HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:milena-sucacuexe","name":"Milena Sucacuexe","first":"Milena","last":"Sucacuexe","jersey":"11","pos":"G/F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Barreiro, Portugal","high_school":null,"previous_school":"Gdessa Barreiro W","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:-sa-wolfram","name":"Ása Wolfram","first":"Ása","last":"Wolfram","jersey":"13","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Hveragerdi, Iceland","high_school":null,"previous_school":"Athena W","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:halle-wright","name":"Halle Wright","first":"Halle","last":"Wright","jersey":"24","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Prosser, WA","high_school":null,"previous_school":"Prosser HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

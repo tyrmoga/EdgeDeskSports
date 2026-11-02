@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "belmont",
+ "host": "belmontbruins.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://belmontbruins.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:bryce-bradley","name":"Bryce Bradley","first":"Bryce","last":"Bradley","jersey":null,"pos":null,"class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":null,"weight":null,"hometown":"Franklin, Tenn.","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:eli-brown","name":"Eli Brown","first":"Eli","last":"Brown","jersey":"8","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":185,"hometown":"Murfreesboro, Tenn.","high_school":"Brentwood Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:eoin-dillon","name":"Eoin Dillon","first":"Eoin","last":"Dillon","jersey":"5","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":220,"hometown":"Peoria, Ill.","high_school":"Notre Dame HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kayden-fish","name":"Kayden Fish","first":"Kayden","last":"Fish","jersey":"11","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":235,"hometown":"Kansas City, Mo.","high_school":"Staley HS","previous_school":"Ball State/Iowa State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:charlie-gersmehl","name":"Charlie Gersmehl","first":"Charlie","last":"Gersmehl","jersey":"23","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":215,"hometown":"Cumming, Ga.","high_school":"Gainesville HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cooper-haynes","name":"Cooper Haynes","first":"Cooper","last":"Haynes","jersey":"13","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":200,"hometown":"Memphis, Tenn.","high_school":"Briarcrest Christian","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jabez-jenkins","name":"Jabez Jenkins","first":"Jabez","last":"Jenkins","jersey":"10","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":200,"hometown":"Covington, Ga.","high_school":"Newton HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cooper-knowles","name":"Cooper Knowles","first":"Cooper","last":"Knowles","jersey":"22","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":82,"weight":210,"hometown":"Niota, Ill.","high_school":"West Hancock HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:graydon-lemke","name":"Graydon Lemke","first":"Graydon","last":"Lemke","jersey":"33","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":82,"weight":210,"hometown":"Las Vegas, Nev.","high_school":"Faith Lutheran Academy","previous_school":"Gonzaga","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:vincent-neugebauer","name":"Vincent Neugebauer","first":"Vincent","last":"Neugebauer","jersey":"9","pos":"C","class":"JR","redshirt":false,"class_raw":"Junior","height_in":85,"weight":240,"hometown":"Oldenburg, Germany","high_school":null,"previous_school":"Florida Atlantic","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aleksa-ristic","name":"Aleksa Ristic","first":"Aleksa","last":"Ristic","jersey":"4","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":200,"hometown":"Nis, Serbia","high_school":"Sportska Gimnazija Beograd","previous_school":"Indiana","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ethan-sage","name":"Ethan Sage","first":"Ethan","last":"Sage","jersey":"0","pos":"G/F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":205,"hometown":"Weatherford, Okla.","high_school":"Weatherford HS","previous_school":"Pittsburg State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jack-smiley","name":"Jack Smiley","first":"Jack","last":"Smiley","jersey":"2","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":180,"hometown":"Valparaiso, Ind.","high_school":"La Lumiere","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isaiah-west","name":"Isaiah West","first":"Isaiah","last":"West","jersey":"3","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":195,"hometown":"Springfield, Tenn.","high_school":"Goodpasture Christian","previous_school":"Samford/Vanderbilt","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:matthew-zobrist","name":"Matthew Zobrist","first":"Matthew","last":"Zobrist","jersey":"1","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":205,"hometown":"Metamora, Ill.","high_school":"Metamora HS","previous_school":"Bradley","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

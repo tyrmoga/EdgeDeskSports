@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "fordham",
+ "host": "fordhamsports.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://fordhamsports.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:roor-akhuar","name":"Roor Akhuar","first":"Roor","last":"Akhuar","jersey":"14","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":205,"hometown":"Melbourne, Australia","high_school":"Center of Excellence","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:desmond-bellot-jr-","name":"Desmond Bellot Jr.","first":"Desmond","last":"Bellot Jr.","jersey":"4","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":180,"hometown":"Boston, Mass.","high_school":"CATS Academy (Mass.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:abass-bodija","name":"Abass Bodija","first":"Abass","last":"Bodija","jersey":"0","pos":"F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":82,"weight":225,"hometown":"Brisbane, Australia","high_school":"Center of Excellence (UC Riverside)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aidan-crotty","name":"Aidan Crotty","first":"Aidan","last":"Crotty","jersey":"21","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":165,"hometown":"Fairfield, Conn.","high_school":"Fairfield Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:omar-essam","name":"Omar Essam","first":"Omar","last":"Essam","jersey":"35","pos":"C","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":83,"weight":210,"hometown":"Cairo, Egypt","high_school":"Long Island Lutheran","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:akira-jacobs","name":"Akira Jacobs","first":"Akira","last":"Jacobs","jersey":"13","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":82,"weight":230,"hometown":"Yokohama, Japan","high_school":"NBA Global Academy (Hawaii)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hassan-koureissi","name":"Hassan Koureissi","first":"Hassan","last":"Koureissi","jersey":"1","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":170,"hometown":"Harlem, N.Y.","high_school":"Archbishop Stepinac","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jj-laboy","name":"JJ Laboy","first":"JJ","last":"Laboy","jersey":"8","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":75,"weight":191,"hometown":"Houston, Texas","high_school":"St. Francis Episcopal (Miami)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:amir-lindsey","name":"Amir Lindsey","first":"Amir","last":"Lindsey","jersey":"2","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":165,"hometown":"Framingham, Mass.","high_school":"The Rivers School (UAlbany)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:max-miller","name":"Max Miller","first":"Max","last":"Miller","jersey":"23","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":165,"hometown":"Rye, N.Y.","high_school":"Worcester Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kelvin-odih","name":"Kelvin Odih","first":"Kelvin","last":"Odih","jersey":"15","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":215,"hometown":"Providence, R.I.","high_school":"So. Cal. Aca. (St. John’s)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lateef-patrick-jr-","name":"Lateef Patrick, Jr.","first":"Lateef","last":"Patrick, Jr.","jersey":"5","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":205,"hometown":"Milton, Mass.","high_school":"Milton (Stephen F. Austin)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rikus-schulte","name":"Rikus Schulte","first":"Rikus","last":"Schulte","jersey":"12","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":81,"weight":240,"hometown":"Münster, Germany","high_school":"SLZB (UC Riverside)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:frank-siaca-bey","name":"Frank Siaca Bey","first":"Frank","last":"Siaca Bey","jersey":"24","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":81,"weight":215,"hometown":"Herndon, Va.","high_school":"Fairfax Christian School (Va","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jack-whitbourn","name":"Jack Whitbourn","first":"Jack","last":"Whitbourn","jersey":"3","pos":"C","class":"JR","redshirt":false,"class_raw":"Junior","height_in":83,"weight":250,"hometown":"Melbourne, Australia","high_school":"Basketball Victoria (UC Riverside)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

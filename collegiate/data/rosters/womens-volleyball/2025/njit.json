@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "njit",
+ "host": "njithighlanders.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2025,
+ "season_label": "2025",
+ "url": "https://njithighlanders.com/sports/womens-volleyball/roster/2025",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:ela-akay","name":"Ela Akay","first":"Ela","last":"Akay","jersey":"3","pos":"L","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":66,"weight":null,"hometown":"Istanbul, Turkey","high_school":"Sev American College","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ashlynn-berns","name":"Ashlynn Berns","first":"Ashlynn","last":"Berns","jersey":"15","pos":"S","class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"Union, NJ","high_school":"Union","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mariana-cova","name":"Mariana Cova","first":"Mariana","last":"Cova","jersey":"1","pos":"OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Alcabideche, Portugal","high_school":"Salesianos do Estoril","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:doga-emil","name":"Doga Emil","first":"Doga","last":"Emil","jersey":"9","pos":"L","class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":null,"hometown":"Istanbul, Turkey","high_school":"özel acibadem Doga College","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aries-fontaine","name":"Aries Fontaine","first":"Aries","last":"Fontaine","jersey":"2","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Elizabeth, NJ","high_school":"Elizabeth","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:martina-gonzalo-cortes","name":"Martina Gonzalo Cortes","first":"Martina","last":"Gonzalo Cortes","jersey":"7","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Barcelona, Spain","high_school":"Institut Joaquin Blume","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:olivia-grall","name":"Olivia Grall","first":"Olivia","last":"Grall","jersey":"17","pos":"MB","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Waupaca, WI","high_school":"Waupaca","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:madison-mackaig","name":"Madison MacKaig","first":"Madison","last":"MacKaig","jersey":"14","pos":"S","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Syracuse, N.Y.","high_school":"Charles W. Baker","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cece-marino","name":"Cece Marino","first":"Cece","last":"Marino","jersey":"11","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Freehold, NJ","high_school":"Marlboro","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:finley-mcandrew","name":"Finley McAndrew","first":"Finley","last":"McAndrew","jersey":"18","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Cumming, Iowa","high_school":"Valley","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:giselle-parker","name":"Giselle Parker","first":"Giselle","last":"Parker","jersey":"8","pos":"Pin/MH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Dayton, N.J.","high_school":"South Brunswick","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rowan-schreiber","name":"Rowan Schreiber","first":"Rowan","last":"Schreiber","jersey":"13","pos":"MB","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":null,"hometown":"Madison, WI","high_school":"Vel Phillips Memorial","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sara-siefert","name":"Sara Siefert","first":"Sara","last":"Siefert","jersey":"6","pos":"OH","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Canton, GA","high_school":"Sequoyah","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ema-torres","name":"Ema Torres","first":"Ema","last":"Torres","jersey":"12","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Gondomar, Portugal","high_school":"Colegio Paulo VI","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:taylor-west","name":"Taylor West","first":"Taylor","last":"West","jersey":"5","pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"Bolivar, OH","high_school":"Tuscarawas Valley","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emma-wild","name":"Emma Wild","first":"Emma","last":"Wild","jersey":"4","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Rio Rancho, N.M.","high_school":"V. Sue Cleveland","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

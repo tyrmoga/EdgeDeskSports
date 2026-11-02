@@ -3316,11 +3316,11 @@
   ]
  },
  "mens-basketball:2026,2027": {
-  "at": "2026-10-26",
+  "at": "2026-11-02",
   "by_reason": {
-   "PLATFORM_NOT_READ": 44,
+   "PLATFORM_NOT_READ": 16,
    "SPORT_MISMATCH": 16,
-   "HTTP": 10,
+   "HTTP": 8,
    "NO_SCHEDULE": 4
   },
   "misses": [
@@ -3337,13 +3337,6 @@
     "code": "SPORT_MISMATCH",
     "why": "the page is Alabama State University Men's Basketball",
     "url": "https://bamastatesports.com/sports/mens-basketball/schedule/2025-26"
-   },
-   {
-    "school": "american",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
    },
    {
     "school": "arkansas",
@@ -3367,49 +3360,7 @@
     "url": null
    },
    {
-    "school": "chicago-st",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "cleveland-st",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
     "school": "colgate",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "detroit",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "drake",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "duquesne",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "eastern-wash",
     "season": 2027,
     "code": "PLATFORM_NOT_READ",
     "why": "the site's platform is not known or not read (the roster collector learns it)",
@@ -3431,34 +3382,6 @@
    },
    {
     "school": "georgia-tech",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "green-bay",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "howard",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "idaho",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "idaho-st",
     "season": 2027,
     "code": "PLATFORM_NOT_READ",
     "why": "the site's platform is not known or not read (the roster collector learns it)",
@@ -3493,13 +3416,6 @@
     "url": "https://hawkeyesports.com/sports/mens-basketball/schedule/season/2025-26"
    },
    {
-    "school": "iu-indy",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
     "school": "jackson-st",
     "season": 2027,
     "code": "PLATFORM_NOT_READ",
@@ -3508,20 +3424,6 @@
    },
    {
     "school": "kentucky",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "loyola-chicago",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "loyola-maryland",
     "season": 2027,
     "code": "PLATFORM_NOT_READ",
     "why": "the site's platform is not known or not read (the roster collector learns it)",
@@ -3542,13 +3444,6 @@
     "url": "https://merrimackathletics.com/sports/mens-basketball/schedule/2025-26"
    },
    {
-    "school": "morgan-st",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
     "school": "new-mexico",
     "season": 2027,
     "code": "HTTP",
@@ -3561,20 +3456,6 @@
     "code": "HTTP",
     "why": "HTTP 404 from site:golobos.com",
     "url": "https://golobos.com/sports/mens-basketball/schedule/season/2025-26"
-   },
-   {
-    "school": "north-dakota",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "northern-ariz",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
    },
    {
     "school": "northwestern-st",
@@ -3633,21 +3514,7 @@
     "url": null
    },
    {
-    "school": "portland-st",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
     "school": "quinnipiac",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "robert-morris",
     "season": 2027,
     "code": "PLATFORM_NOT_READ",
     "why": "the site's platform is not known or not read (the roster collector learns it)",
@@ -3662,27 +3529,6 @@
    },
    {
     "school": "south-carolina",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "south-carolina-st",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "south-dakota",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "southern-utah",
     "season": 2027,
     "code": "PLATFORM_NOT_READ",
     "why": "the site's platform is not known or not read (the roster collector learns it)",
@@ -3724,20 +3570,6 @@
     "url": null
    },
    {
-    "school": "syracuse",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "tennessee-st",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
     "school": "tennessee-tech",
     "season": 2027,
     "code": "PLATFORM_NOT_READ",
@@ -3773,20 +3605,6 @@
     "url": null
    },
    {
-    "school": "utah-st",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "utep",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
     "school": "vanderbilt",
     "season": 2027,
     "code": "HTTP",
@@ -3801,27 +3619,6 @@
     "url": "https://vucommodores.com/sports/mens-basketball/schedule/season/2025-26"
    },
    {
-    "school": "vermont",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "virginia",
-    "season": 2027,
-    "code": "HTTP",
-    "why": "HTTP 404 from site:virginiasports.com",
-    "url": "https://virginiasports.com/sports/mens-basketball/schedule/season/2026-27"
-   },
-   {
-    "school": "virginia",
-    "season": 2026,
-    "code": "HTTP",
-    "why": "HTTP 404 from site:virginiasports.com",
-    "url": "https://virginiasports.com/sports/mens-basketball/schedule/season/2025-26"
-   },
-   {
     "school": "western-caro",
     "season": 2027,
     "code": "SPORT_MISMATCH",
@@ -3834,24 +3631,16 @@
     "code": "SPORT_MISMATCH",
     "why": "the page is Catamount Men's Basketball",
     "url": "https://catamountsports.com/sports/mens-basketball/schedule/2025-26"
-   },
-   {
-    "school": "wyoming",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
    }
   ]
  },
  "womens-basketball:2026,2027": {
-  "at": "2026-10-26",
+  "at": "2026-11-02",
   "by_reason": {
-   "PLATFORM_NOT_READ": 44,
+   "PLATFORM_NOT_READ": 16,
    "SPORT_MISMATCH": 10,
    "NO_SCHEDULE": 8,
-   "HTTP": 12,
-   "SEASON_MISMATCH": 1
+   "HTTP": 12
   },
   "misses": [
    {
@@ -3869,13 +3658,6 @@
     "url": "https://bamastatesports.com/sports/womens-basketball/schedule/2025-26"
    },
    {
-    "school": "american",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
     "school": "arkansas",
     "season": 2027,
     "code": "PLATFORM_NOT_READ",
@@ -3891,13 +3673,6 @@
    },
    {
     "school": "central-conn-st",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "chicago-st",
     "season": 2027,
     "code": "PLATFORM_NOT_READ",
     "why": "the site's platform is not known or not read (the roster collector learns it)",
@@ -3932,13 +3707,6 @@
     "url": "https://clemsontigers.com/sports/womens-basketball/schedule/season/2025-26"
    },
    {
-    "school": "cleveland-st",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
     "school": "colgate",
     "season": 2027,
     "code": "PLATFORM_NOT_READ",
@@ -3946,63 +3714,7 @@
     "url": null
    },
    {
-    "school": "detroit",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "drake",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "duquesne",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "eastern-wash",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
     "school": "georgia-tech",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "green-bay",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "howard",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "idaho",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "idaho-st",
     "season": 2027,
     "code": "PLATFORM_NOT_READ",
     "why": "the site's platform is not known or not read (the roster collector learns it)",
@@ -4023,13 +3735,6 @@
     "url": "https://hawkeyesports.com/sports/womens-basketball/schedule/season/2025-26"
    },
    {
-    "school": "iu-indy",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
     "school": "jackson-st",
     "season": 2027,
     "code": "PLATFORM_NOT_READ",
@@ -4038,20 +3743,6 @@
    },
    {
     "school": "kentucky",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "loyola-chicago",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "loyola-maryland",
     "season": 2027,
     "code": "PLATFORM_NOT_READ",
     "why": "the site's platform is not known or not read (the roster collector learns it)",
@@ -4072,13 +3763,6 @@
     "url": "https://merrimackathletics.com/sports/womens-basketball/schedule/2025-26"
    },
    {
-    "school": "morgan-st",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
     "school": "new-mexico",
     "season": 2027,
     "code": "HTTP",
@@ -4091,20 +3775,6 @@
     "code": "HTTP",
     "why": "HTTP 404 from site:golobos.com",
     "url": "https://golobos.com/sports/womens-basketball/schedule/season/2025-26"
-   },
-   {
-    "school": "north-dakota",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "northern-ariz",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
    },
    {
     "school": "northwestern-st",
@@ -4156,21 +3826,7 @@
     "url": null
    },
    {
-    "school": "portland-st",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
     "school": "quinnipiac",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "robert-morris",
     "season": 2027,
     "code": "PLATFORM_NOT_READ",
     "why": "the site's platform is not known or not read (the roster collector learns it)",
@@ -4185,27 +3841,6 @@
    },
    {
     "school": "south-carolina",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "south-carolina-st",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "south-dakota",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "southern-utah",
     "season": 2027,
     "code": "PLATFORM_NOT_READ",
     "why": "the site's platform is not known or not read (the roster collector learns it)",
@@ -4247,32 +3882,11 @@
     "url": null
    },
    {
-    "school": "syracuse",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "tennessee-st",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
     "school": "tennessee-tech",
     "season": 2027,
     "code": "PLATFORM_NOT_READ",
     "why": "the site's platform is not known or not read (the roster collector learns it)",
     "url": null
-   },
-   {
-    "school": "texas-southern",
-    "season": 2027,
-    "code": "SEASON_MISMATCH",
-    "why": "the page is the 2026 schedule",
-    "url": "https://athletics.tsu.edu/sports/womens-basketball/schedule/2026-27"
    },
    {
     "school": "ualr",
@@ -4290,20 +3904,6 @@
    },
    {
     "school": "umes",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "utah-st",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
-   },
-   {
-    "school": "utep",
     "season": 2027,
     "code": "PLATFORM_NOT_READ",
     "why": "the site's platform is not known or not read (the roster collector learns it)",
@@ -4329,13 +3929,6 @@
     "code": "SPORT_MISMATCH",
     "why": "the page is VCU Women's Basketball",
     "url": "https://vcuathletics.com/sports/womens-basketball/schedule/2025-26"
-   },
-   {
-    "school": "vermont",
-    "season": 2027,
-    "code": "PLATFORM_NOT_READ",
-    "why": "the site's platform is not known or not read (the roster collector learns it)",
-    "url": null
    },
    {
     "school": "virginia",
@@ -4371,13 +3964,2127 @@
     "code": "SPORT_MISMATCH",
     "why": "the page is Catamount Women's Basketball",
     "url": "https://catamountsports.com/sports/womens-basketball/schedule/2025-26"
+   }
+  ]
+ },
+ "baseball:2026,2027": {
+  "at": "2026-11-02",
+  "by_reason": {
+   "PLATFORM_NOT_READ": 16,
+   "SEASON_MISMATCH": 167,
+   "NO_SCHEDULE": 106,
+   "HTTP": 8,
+   "SPORT_MISMATCH": 2,
+   "EMPTY_SCHEDULE": 1,
+   "SHRUNK": 1
+  },
+  "misses": [
+   {
+    "school": "air-force",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://goairforcefalcons.com/sports/baseball/schedule/2027"
    },
    {
-    "school": "wyoming",
+    "school": "akron",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://gozips.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "alabama-am",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://aamusports.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "alabama-st",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://bamastatesports.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "albany-ny",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://ualbanysports.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "am-corpus-chris",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://goislanders.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "american",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://aueagles.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "american",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://aueagles.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "appalachian-st",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://appstatesports.com/sports/baseball/schedule/2026-27"
+   },
+   {
+    "school": "ark-pine-bluff",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://uapblionsroar.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "arkansas",
     "season": 2027,
     "code": "PLATFORM_NOT_READ",
     "why": "the site's platform is not known or not read (the roster collector learns it)",
     "url": null
+   },
+   {
+    "school": "army",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://goarmywestpoint.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "austin-peay",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://letsgopeay.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "bakersfield",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://gorunners.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "bellarmine",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://athletics.bellarmine.edu/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "belmont",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://belmontbruins.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "bethune-cookman",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://bcuathletics.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "boise-st",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2020 schedule",
+    "url": "https://broncosports.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "boise-st",
+    "season": 2026,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2020 schedule",
+    "url": "https://broncosports.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "boston-college",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://bceagles.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "boston-u",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://goterriers.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "boston-u",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://goterriers.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "brown",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://brownbears.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "bucknell",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://bucknellbison.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "buffalo",
+    "season": 2027,
+    "code": "PLATFORM_NOT_READ",
+    "why": "the site's platform is not known or not read (the roster collector learns it)",
+    "url": null
+   },
+   {
+    "school": "byu",
+    "season": 2027,
+    "code": "HTTP",
+    "why": "HTTP 404 from site:byucougars.com",
+    "url": "https://byucougars.com/sports/baseball/schedule/season/2027"
+   },
+   {
+    "school": "cal-poly",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://gopoly.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "cal-st-fullerton",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://fullertontitans.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "cal-st-northridge",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://gomatadors.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "california",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://calbears.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "california-baptist",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://cbulancers.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "campbell",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://gocamels.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "canisius",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://gogriffs.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "central-conn-st",
+    "season": 2027,
+    "code": "PLATFORM_NOT_READ",
+    "why": "the site's platform is not known or not read (the roster collector learns it)",
+    "url": null
+   },
+   {
+    "school": "central-mich",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://cmuchippewas.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "charleston-so",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://csusports.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "chattanooga",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://gomocs.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "chattanooga",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://gomocs.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "chicago-st",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://gocsucougars.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "chicago-st",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://gocsucougars.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "cleveland-st",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://csuvikings.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "cleveland-st",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://csuvikings.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "col-of-charleston",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://cofcsports.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "colgate",
+    "season": 2027,
+    "code": "PLATFORM_NOT_READ",
+    "why": "the site's platform is not known or not read (the roster collector learns it)",
+    "url": null
+   },
+   {
+    "school": "colorado",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://cubuffs.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "colorado",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://cubuffs.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "colorado-st",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://csurams.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "colorado-st",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://csurams.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "columbia",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://gocolumbialions.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "coppin-st",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://coppinstatesports.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "cornell",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://cornellbigred.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "dartmouth",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://dartmouthsports.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "davidson",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://davidsonwildcats.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "dayton",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://daytonflyers.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "delaware-st",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://dsuhornets.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "denver",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://denverpioneers.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "denver",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://denverpioneers.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "depaul",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://depaulbluedemons.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "depaul",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://depaulbluedemons.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "detroit",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://detroittitans.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "detroit",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://detroittitans.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "drake",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://godrakebulldogs.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "drake",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://godrakebulldogs.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "drexel",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://drexeldragons.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "drexel",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://drexeldragons.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "duke",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://goduke.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "duquesne",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://goduquesne.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "duquesne",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://goduquesne.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "east-tenn-st",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://etsubucs.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "eastern-ill",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://eiupanthers.com/sports/baseball/schedule/2026-27"
+   },
+   {
+    "school": "eastern-ky",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://ekusports.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "eastern-wash",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://goeags.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "eastern-wash",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://goeags.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "elon",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://elonphoenix.com/sports/baseball/schedule/2026-27"
+   },
+   {
+    "school": "evansville",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://gopurpleaces.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "fairfield",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://fairfieldstags.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "fdu",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://fduknights.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "fgcu",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://fgcuathletics.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "florida-am",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://famuathletics.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "fordham",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://fordhamsports.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "fresno-st",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://gobulldogs.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "furman",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2020 schedule",
+    "url": "https://furmanpaladins.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "furman",
+    "season": 2026,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2020 schedule",
+    "url": "https://furmanpaladins.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "gardner-webb",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://gwusports.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "george-mason",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://gomason.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "georgetown",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://guhoyas.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "georgia-st",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://georgiastatesports.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "georgia-tech",
+    "season": 2027,
+    "code": "PLATFORM_NOT_READ",
+    "why": "the site's platform is not known or not read (the roster collector learns it)",
+    "url": null
+   },
+   {
+    "school": "grambling",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://gsutigers.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "green-bay",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://greenbayphoenix.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "green-bay",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://greenbayphoenix.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "hampton",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://hamptonpirates.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "hampton",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://hamptonpirates.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "harvard",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://gocrimson.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "high-point",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://highpointpanthers.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "hofstra",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://gohofstra.com/sports/baseball/schedule/2026-27"
+   },
+   {
+    "school": "holy-cross",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://goholycross.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "houston-christian",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://hbuhuskies.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "howard",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://hubison.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "howard",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://hubison.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "idaho",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://govandals.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "idaho",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://govandals.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "idaho-st",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://isubengals.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "idaho-st",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://isubengals.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "ill-chicago",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://uicflames.com/sports/baseball/schedule/2026-27"
+   },
+   {
+    "school": "ill-chicago",
+    "season": 2026,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2025 schedule",
+    "url": "https://uicflames.com/sports/baseball/schedule/2025-26"
+   },
+   {
+    "school": "illinois-st",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://goredbirds.com/sports/baseball/schedule/2026-27"
+   },
+   {
+    "school": "indiana-st",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://gosycamores.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "iowa-st",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://cyclones.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "iowa-st",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://cyclones.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "ipfw",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://gomastodons.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "ipfw",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://gomastodons.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "iu-indy",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://iuindyjags.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "iu-indy",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://iuindyjags.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "jackson-st",
+    "season": 2027,
+    "code": "PLATFORM_NOT_READ",
+    "why": "the site's platform is not known or not read (the roster collector learns it)",
+    "url": null
+   },
+   {
+    "school": "kentucky",
+    "season": 2027,
+    "code": "PLATFORM_NOT_READ",
+    "why": "the site's platform is not known or not read (the roster collector learns it)",
+    "url": null
+   },
+   {
+    "school": "la-monroe",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://ulmwarhawks.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "la-salle",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://goexplorers.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "lafayette",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://goleopards.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "le-moyne",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://lemoynedolphins.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "lehigh",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://lehighsports.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "liberty",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://libertyflames.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "lindenwood-mo",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://lindenwoodlions.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "long-beach-st",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://longbeachstate.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "longwood",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://longwoodlancers.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "louisville",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://gocards.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "loyola-chicago",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://loyolaramblers.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "loyola-chicago",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://loyolaramblers.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "loyola-maryland",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://loyolagreyhounds.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "loyola-maryland",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://loyolagreyhounds.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "loyola-marymount",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://lmulions.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "maine",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://goblackbears.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "manhattan",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://gojaspers.com/sports/baseball/schedule/2026-27"
+   },
+   {
+    "school": "marist",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://goredfoxes.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "marquette",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://gomarquette.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "marquette",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://gomarquette.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "massachusetts",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://umassathletics.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "memphis",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://gotigersgo.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "merrimack",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://merrimackathletics.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "miami-fl",
+    "season": 2027,
+    "code": "HTTP",
+    "why": "HTTP 404 from site:hurricanesports.com",
+    "url": "https://hurricanesports.com/sports/baseball/schedule/season/2026-27"
+   },
+   {
+    "school": "miami-oh",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://miamiredhawks.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "milwaukee",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://mkepanthers.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "mississippi-val",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://mvsusports.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "monmouth",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://monmouthhawks.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "montana",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://gogriz.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "montana",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://gogriz.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "montana-st",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://msubobcats.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "montana-st",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://msubobcats.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "morehead-st",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://msueagles.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "morgan-st",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://morganstatebears.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "morgan-st",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://morganstatebears.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "mt-st-marys",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://mountathletics.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "murray-st",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://goracers.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "nc-at",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://ncataggies.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "nc-central",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2021 schedule",
+    "url": "https://nccueaglepride.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "nc-central",
+    "season": 2026,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2021 schedule",
+    "url": "https://nccueaglepride.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "new-hampshire",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://unhwildcats.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "new-hampshire",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://unhwildcats.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "new-mexico-st",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://nmstatesports.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "new-orleans",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://unoprivateers.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "niagara",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://purpleeagles.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "nicholls-st",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://geauxcolonels.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "njit",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://njithighlanders.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "norfolk-st",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://nsuspartans.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "north-ala",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://roarlions.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "north-carolina",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://goheels.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "north-dakota",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://fightinghawks.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "north-dakota",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://fightinghawks.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "north-dakota-st",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://gobison.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "north-florida",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://unfospreys.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "north-texas",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://meangreensports.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "north-texas",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://meangreensports.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "northeastern",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://gonu.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "northern-ariz",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://nauathletics.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "northern-ariz",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://nauathletics.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "northern-colo",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://uncbears.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "northern-ill",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://niuhuskies.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "northern-ky",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://nkunorse.com/sports/baseball/schedule/2026-27"
+   },
+   {
+    "school": "northwestern",
+    "season": 2027,
+    "code": "HTTP",
+    "why": "HTTP 404 from site:nusports.com",
+    "url": "https://nusports.com/sports/baseball/schedule/season/2026-27"
+   },
+   {
+    "school": "northwestern-st",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://nsudemons.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "notre-dame",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://und.com/sports/baseball/schedule/season/2026-27"
+   },
+   {
+    "school": "notre-dame",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://und.com/sports/baseball/schedule/season/2025-26"
+   },
+   {
+    "school": "oakland",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://goldengrizzlies.com/sports/baseball/schedule/2026-27"
+   },
+   {
+    "school": "oral-roberts",
+    "season": 2027,
+    "code": "PLATFORM_NOT_READ",
+    "why": "the site's platform is not known or not read (the roster collector learns it)",
+    "url": null
+   },
+   {
+    "school": "oregon",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://goducks.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "pacific",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://pacifictigers.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "penn",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://pennathletics.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "pepperdine",
+    "season": 2027,
+    "code": "PLATFORM_NOT_READ",
+    "why": "the site's platform is not known or not read (the roster collector learns it)",
+    "url": null
+   },
+   {
+    "school": "portland",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://portlandpilots.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "portland-st",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://goviks.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "portland-st",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://goviks.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "prairie-view",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://pvpanthers.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "presbyterian",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://gobluehose.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "princeton",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://goprincetontigers.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "providence",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://friars.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "providence",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://friars.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "queens-nc",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://queensathletics.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "quinnipiac",
+    "season": 2027,
+    "code": "PLATFORM_NOT_READ",
+    "why": "the site's platform is not known or not read (the roster collector learns it)",
+    "url": null
+   },
+   {
+    "school": "radford",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://radfordathletics.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "rhode-island",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://gorhody.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "richmond",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://richmondspiders.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "rider",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://gobroncs.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "robert-morris",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://rmucolonials.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "robert-morris",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://rmucolonials.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "rust",
+    "season": 2027,
+    "code": "PLATFORM_NOT_READ",
+    "why": "the site's platform is not known or not read (the roster collector learns it)",
+    "url": null
+   },
+   {
+    "school": "sacramento-st",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://hornetsports.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "sacred-heart",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://sacredheartpioneers.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "saint-josephs",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://sjuhawks.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "saint-louis",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://slubillikens.com/sports/baseball/schedule/2026-27"
+   },
+   {
+    "school": "san-diego",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://usdtoreros.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "san-diego-st",
+    "season": 2027,
+    "code": "HTTP",
+    "why": "HTTP 404 from site:goaztecs.com",
+    "url": "https://goaztecs.com/sports/baseball/schedule/season/2027"
+   },
+   {
+    "school": "san-francisco",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://usfdons.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "santa-clara",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://santaclarabroncos.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "seattle",
+    "season": 2027,
+    "code": "HTTP",
+    "why": "HTTP 404 from site:goseattleu.com",
+    "url": "https://goseattleu.com/sports/baseball/schedule/season/2027"
+   },
+   {
+    "school": "seton-hall",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://shupirates.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "siena",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://sienasaints.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "siu-edwardsville",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://siuecougars.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "smu",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://smumustangs.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "smu",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://smumustangs.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "south-carolina",
+    "season": 2027,
+    "code": "PLATFORM_NOT_READ",
+    "why": "the site's platform is not known or not read (the roster collector learns it)",
+    "url": null
+   },
+   {
+    "school": "south-carolina-st",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://scsuathletics.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "south-carolina-st",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://scsuathletics.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "south-dakota",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://goyotes.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "south-dakota",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://goyotes.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "south-dakota-st",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://gojacks.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "southeastern-la",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://lionsports.net/sports/baseball/schedule/2026-27"
+   },
+   {
+    "school": "southern-california",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://usctrojans.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "southern-ind",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://gousieagles.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "southern-u",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://gojagsports.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "southern-utah",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://suutbirds.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "southern-utah",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://suutbirds.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "st-johns-ny",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://redstormsports.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "st-marys-ca",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://smcgaels.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "st-peters",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://saintpeterspeacocks.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "st-thomas-mn",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://tommiesports.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "stanford",
+    "season": 2027,
+    "code": "HTTP",
+    "why": "HTTP 404 from site:gostanford.com",
+    "url": "https://gostanford.com/sports/baseball/schedule/season/2027"
+   },
+   {
+    "school": "stetson",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://gohatters.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "stonehill",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://stonehillskyhawks.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "stony-brook",
+    "season": 2027,
+    "code": "PLATFORM_NOT_READ",
+    "why": "the site's platform is not known or not read (the roster collector learns it)",
+    "url": null
+   },
+   {
+    "school": "syracuse",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://cuse.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "syracuse",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://cuse.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "tarleton-st",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://tarletonsports.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "temple",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://owlsports.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "temple",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://owlsports.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "tennessee-st",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://tsutigers.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "tennessee-st",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://tsutigers.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "tennessee-tech",
+    "season": 2027,
+    "code": "PLATFORM_NOT_READ",
+    "why": "the site's platform is not known or not read (the roster collector learns it)",
+    "url": null
+   },
+   {
+    "school": "texas-southern",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://athletics.tsu.edu/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "toledo",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://utrockets.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "towson",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://towsontigers.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "tulane",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://tulanegreenwave.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "tulsa",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://tulsahurricane.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "tulsa",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://tulsahurricane.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "ualr",
+    "season": 2027,
+    "code": "PLATFORM_NOT_READ",
+    "why": "the site's platform is not known or not read (the roster collector learns it)",
+    "url": null
+   },
+   {
+    "school": "uc-san-diego",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://ucsdtritons.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "uc-santa-barbara",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://ucsbgauchos.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "ucla",
+    "season": 2027,
+    "code": "HTTP",
+    "why": "HTTP 404 from site:uclabruins.com",
+    "url": "https://uclabruins.com/sports/baseball/schedule/season/2027"
+   },
+   {
+    "school": "umass-lowell",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://goriverhawks.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "umbc",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://umbcretrievers.com/sports/baseball/schedule/2026-27"
+   },
+   {
+    "school": "umes",
+    "season": 2027,
+    "code": "PLATFORM_NOT_READ",
+    "why": "the site's platform is not known or not read (the roster collector learns it)",
+    "url": null
+   },
+   {
+    "school": "umkc",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://kcroos.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "umkc",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://kcroos.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "unc-asheville",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://uncabulldogs.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "unc-greensboro",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://uncgspartans.com/sports/baseball/schedule/2026-27"
+   },
+   {
+    "school": "unc-greensboro",
+    "season": 2026,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2025 schedule",
+    "url": "https://uncgspartans.com/sports/baseball/schedule/2025-26"
+   },
+   {
+    "school": "uni",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://unipanthers.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "uni",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://unipanthers.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "unlv",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://unlvrebels.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "ut-martin",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://utmsports.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "utah-st",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://utahstateaggies.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "utah-st",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://utahstateaggies.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "utah-tech",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://utahtechtrailblazers.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "utah-valley",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://gouvu.com/sports/baseball/schedule/2026-27"
+   },
+   {
+    "school": "utah-valley",
+    "season": 2026,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2025 schedule",
+    "url": "https://gouvu.com/sports/baseball/schedule/2025-26"
+   },
+   {
+    "school": "utep",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://utepathletics.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "utep",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://utepathletics.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "utrgv",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://goutrgv.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "vcu",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://vcuathletics.com/sports/baseball/schedule/2026-27"
+   },
+   {
+    "school": "vermont",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://uvmathletics.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "vermont",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://uvmathletics.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "villanova",
+    "season": 2027,
+    "code": "SPORT_MISMATCH",
+    "why": "the page is Baseball Fall",
+    "url": "https://villanova.com/sports/baseball/schedule/2026-27"
+   },
+   {
+    "school": "virginia-tech",
+    "season": 2027,
+    "code": "HTTP",
+    "why": "HTTP 404 from site:hokiesports.com",
+    "url": "https://hokiesports.com/sports/baseball/schedule/season/2027"
+   },
+   {
+    "school": "vmi",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://vmikeydets.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "wagner",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://wagnerathletics.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "wake-forest",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://godeacs.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "washington",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://gohuskies.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "weber-st",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://weberstatesports.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "weber-st",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://weberstatesports.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "western-caro",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://catamountsports.com/sports/baseball/schedule/2026-27"
+   },
+   {
+    "school": "western-caro",
+    "season": 2026,
+    "code": "SPORT_MISMATCH",
+    "why": "the page is Catamount Baseball Fall",
+    "url": "https://catamountsports.com/sports/baseball/schedule/2025-26"
+   },
+   {
+    "school": "western-ill",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://goleathernecks.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "western-ill",
+    "season": 2026,
+    "code": "SHRUNK",
+    "why": "this read lists 0 finals, the last 53: not written",
+    "url": "https://goleathernecks.com/sports/baseball/schedule/2025-26"
+   },
+   {
+    "school": "william-mary",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://tribeathletics.com/sports/baseball/schedule/2026-27"
+   },
+   {
+    "school": "winthrop",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://winthropeagles.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "wisconsin",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://uwbadgers.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "wisconsin",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://uwbadgers.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "wofford",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://athletics.wofford.edu/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "wright-st",
+    "season": 2027,
+    "code": "SEASON_MISMATCH",
+    "why": "the page is the 2026 schedule",
+    "url": "https://wsuraiders.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "wyoming",
+    "season": 2027,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://gowyo.com/sports/baseball/schedule/2027"
+   },
+   {
+    "school": "wyoming",
+    "season": 2026,
+    "code": "NO_SCHEDULE",
+    "why": "the page carries no schedule data",
+    "url": "https://gowyo.com/sports/baseball/schedule/2026"
+   },
+   {
+    "school": "youngstown-st",
+    "season": 2027,
+    "code": "EMPTY_SCHEDULE",
+    "why": "the schedule lists no games",
+    "url": "https://ysusports.com/sports/baseball/schedule/2026-27"
    }
   ]
  }

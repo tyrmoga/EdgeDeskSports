@@ -1,0 +1,22 @@
+{
+ "schema": "edgedesk_collegiate_schedule_v1",
+ "school": "lamar",
+ "host": "lamarcardinals.com",
+ "platform": "sidearm_legacy",
+ "sport": "baseball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://lamarcardinals.com/sports/baseball/schedule/2026-27",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "readers": "sidearm,sidearm_vue,sidearm_legacy,wmt+themes10+sport_path+plain_page",
+ "games_listed": 4,
+ "finals": 0,
+ "undated": 0,
+ "games": [
+  {"game_key":"26615","date":"2026-10-09","time":null,"site":"H","opponent":"Wharton County Junior College","opponent_host":"wcjc.edu","conference":false,"postseason":null,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Beaumont, Texas / Vincent-Beck Stadium","event":null,"boxscore":null,"note":null},
+  {"game_key":"26616","date":"2026-10-17","time":null,"site":"H","opponent":"McLennan Community College","opponent_host":"mclennan.edu","conference":false,"postseason":null,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Beaumont, Texas / Vincent-Beck Stadium","event":null,"boxscore":null,"note":null},
+  {"game_key":"26617","date":"2026-10-25","time":null,"site":"A","opponent":"Tulane","opponent_host":"tulanegreenwave.com","conference":false,"postseason":null,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"New Orleans, La.","event":null,"boxscore":null,"note":null},
+  {"game_key":"26618","date":"2026-10-30","time":null,"site":"A","opponent":"UL Lafayette","opponent_host":"ragincajuns.com","conference":false,"postseason":null,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Lafayette, La.","event":null,"boxscore":null,"note":null}
+ ]
+}

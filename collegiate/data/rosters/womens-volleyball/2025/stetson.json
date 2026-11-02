@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "stetson",
+ "host": "gohatters.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2025,
+ "season_label": "2025",
+ "url": "https://gohatters.com/sports/womens-volleyball/roster/2025",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:kayla-balfour","name":"Kayla Balfour","first":"Kayla","last":"Balfour","jersey":"12","pos":"MB","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Pensacola, FL","high_school":"Pensacola Catholic High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:karsu-bayraktar","name":"Karsu Bayraktar","first":"Karsu","last":"Bayraktar","jersey":"11","pos":"RS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Ankara, Turkey","high_school":"Okyanus College","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zuzanna-bury","name":"Zuzanna Bury","first":"Zuzanna","last":"Bury","jersey":"23","pos":"OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Zywiec, Poland","high_school":"ZSGD Poznan","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kiya-colvin","name":"Kiya Colvin","first":"Kiya","last":"Colvin","jersey":"7","pos":"RS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Owasso, OK","high_school":"Owasso","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lindsay-cox","name":"Lindsay Cox","first":"Lindsay","last":"Cox","jersey":"8","pos":"OH/DS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Jupiter, FL","high_school":"Jupiter Christian","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaycee-davis","name":"Jaycee Davis","first":"Jaycee","last":"Davis","jersey":"9","pos":"DS/L","class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Brooker, FL","high_school":"Union County High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:amber-engelhart","name":"Amber Engelhart","first":"Amber","last":"Engelhart","jersey":"6","pos":"DS/L","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":64,"weight":null,"hometown":"Fort Myers, FL","high_school":"Fort Myers","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:selin-kalkan","name":"Selin Kalkan","first":"Selin","last":"Kalkan","jersey":"10","pos":"OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"Ankara, Turkey","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nyah-molina","name":"Nyah Molina","first":"Nyah","last":"Molina","jersey":"5","pos":"S/L","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":68,"weight":null,"hometown":"Naranjito, Puerto Rico","high_school":"Lake Nona High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lilyanna-parker","name":"Lilyanna Parker","first":"Lilyanna","last":"Parker","jersey":"2","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Summerville, SC","high_school":"Summerville","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zuzanna-rut","name":"Zuzanna Rut","first":"Zuzanna","last":"Rut","jersey":"4","pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Swidnica, Poland","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:vanessa-shevchenko","name":"Vanessa Shevchenko","first":"Vanessa","last":"Shevchenko","jersey":"3","pos":"S","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":null,"weight":null,"hometown":"St. Augustine, FL","high_school":"Tocoi Creek","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jenna-simmons","name":"Jenna Simmons","first":"Jenna","last":"Simmons","jersey":"14","pos":"OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Port St. Lucie, FL","high_school":"Jensen Beach High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:vitoria-stedile","name":"Vitoria Stedile","first":"Vitoria","last":"Stedile","jersey":"18","pos":"L/DS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":64,"weight":null,"hometown":"Curitiba, Brazil","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:xinlei-yang","name":"Xinlei Yang","first":"Xinlei","last":"Yang","jersey":"13","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Beijing, China","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "robert-morris",
+ "host": "rmucolonials.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://rmucolonials.com/sports/womens-volleyball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:anahi-alvarado","name":"Anahi Alvarado","first":"Anahi","last":"Alvarado","jersey":"10","pos":"DS/L","class":"JR","redshirt":false,"class_raw":"Junior","height_in":64,"weight":null,"hometown":"Houston, Texas","high_school":"Tomball Memorial","previous_school":"North Carolina A&T State University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kenlee-barnard","name":"Kenlee Barnard","first":"Kenlee","last":"Barnard","jersey":"1","pos":"S","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Evansville, Ind.","high_school":"Evansville North","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brianna-blair","name":"Brianna Blair","first":"Brianna","last":"Blair","jersey":"7","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Toledo, Ohio","high_school":"Whitmer","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:addyson-butts","name":"Addyson Butts","first":"Addyson","last":"Butts","jersey":"5","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Washington Courthouse, Ohio","high_school":"Miami Trace","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lauren-decker","name":"Lauren Decker","first":"Lauren","last":"Decker","jersey":"13","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Wadsworth, Ohio","high_school":"Wadsworth","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:addison-fowler","name":"Addison Fowler","first":"Addison","last":"Fowler","jersey":"16","pos":"DS/L","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":66,"weight":null,"hometown":"Zelienople, Pa.","high_school":"Seneca Valley","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:natalie-frost","name":"Natalie Frost","first":"Natalie","last":"Frost","jersey":"14","pos":"OH","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Fulton, N.Y.","high_school":"Fulton","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:caroline-hanner","name":"Caroline Hanner","first":"Caroline","last":"Hanner","jersey":"2","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Dover, Ohio","high_school":"Dover","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:keira-hornung","name":"Keira Hornung","first":"Keira","last":"Hornung","jersey":"15","pos":"MB","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":null,"hometown":"Havertown, Pa.","high_school":"Haverford Township","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isabelle-jackson","name":"Isabelle Jackson","first":"Isabelle","last":"Jackson","jersey":"6","pos":"S","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Westfield, Ind.","high_school":"Westfield","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tia-schultz","name":"Tia Schultz","first":"Tia","last":"Schultz","jersey":"3","pos":"RS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Dexter, Mich.","high_school":"Dexter","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maddie-siphakongviseth","name":"Maddie Siphakongviseth","first":"Maddie","last":"Siphakongviseth","jersey":"8","pos":"DS/L","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":62,"weight":null,"hometown":"Rochester, N.Y.","high_school":"Webster-Schroeder","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cat-smith","name":"Cat Smith","first":"Cat","last":"Smith","jersey":"12","pos":"DS/L","class":"JR","redshirt":false,"class_raw":"Junior","height_in":66,"weight":null,"hometown":"Moonee Ponds, Australia","high_school":"Maribyrnong College","previous_school":"Iowa Western CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:natalie-stepanovich","name":"Natalie Stepanovich","first":"Natalie","last":"Stepanovich","jersey":"4","pos":"OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"Canton, Ohio","high_school":"Glen Oak","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:layla-todd","name":"Layla Todd","first":"Layla","last":"Todd","jersey":"9","pos":"OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":null,"hometown":"Austin, Texas","high_school":"Lake Travis","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

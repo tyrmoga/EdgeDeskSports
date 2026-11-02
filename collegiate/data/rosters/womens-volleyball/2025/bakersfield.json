@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "bakersfield",
+ "host": "gorunners.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2025,
+ "season_label": "2025",
+ "url": "https://gorunners.com/sports/womens-volleyball/roster/2025",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:nele-broszat","name":"Nele Broszat","first":"Nele","last":"Broszat","jersey":"9","pos":"MB","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Nordkirchen, Germany","high_school":null,"previous_school":"Florida SouthWestern State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:luiza-da-cruz","name":"Luiza Da Cruz","first":"Luiza","last":"Da Cruz","jersey":"1","pos":"S","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Jaragua do Sul, Brazil","high_school":null,"previous_school":"Miami Dade College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:druegan-davis","name":"Druegan Davis","first":"Druegan","last":"Davis","jersey":"15","pos":"OH/RS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Hanford, Calif.","high_school":null,"previous_school":"Fresno City College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:eva-erzen","name":"Eva Erzen","first":"Eva","last":"Erzen","jersey":"7","pos":"OH/RS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":null,"hometown":"Kranj, Slovenia","high_school":null,"previous_school":"Gimnazija Kranj","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:analiese-gagliano","name":"Analiese Gagliano","first":"Analiese","last":"Gagliano","jersey":"5","pos":"L/DS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":66,"weight":null,"hometown":"San Diego","high_school":null,"previous_school":"University of San Francisco","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:torrin-higginbotham","name":"Torrin Higginbotham","first":"Torrin","last":"Higginbotham","jersey":"2","pos":"OH/RS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Savannah, Ga.","high_school":null,"previous_school":"Savannah Arts Academy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:reese-jackson","name":"Reese Jackson","first":"Reese","last":"Jackson","jersey":"20","pos":"MB/RS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Dallas","high_school":null,"previous_school":"Parish Episcopal School","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sabrina-jones","name":"Sabrina Jones","first":"Sabrina","last":"Jones","jersey":"8","pos":"MB/RS","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":75,"weight":null,"hometown":"Carson City, Nev.","high_school":null,"previous_school":"Sacred Heart University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:karla-kosutic","name":"Karla Kosutic","first":"Karla","last":"Kosutic","jersey":"12","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Valpovo, Croatia","high_school":null,"previous_school":"Gimnazija Osijek","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:boden-liljedahl","name":"Boden Liljedahl","first":"Boden","last":"Liljedahl","jersey":"11","pos":"L/DS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":65,"weight":null,"hometown":"Cheyenne, Wyo.","high_school":null,"previous_school":"Eastern Wyoming College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:suelen-lima","name":"Suelen Lima","first":"Suelen","last":"Lima","jersey":"6","pos":"OH/RS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Sao Bento do Sul, Brazil","high_school":null,"previous_school":"William Carey University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:agnes-shakirova","name":"Agnes Shakirova","first":"Agnes","last":"Shakirova","jersey":"19","pos":"OH/RS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Novosibirsk, Russia","high_school":null,"previous_school":"Palmetto Ridge HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:evelyn-trivino-espinosa","name":"Evelyn Trivino Espinosa","first":"Evelyn","last":"Trivino Espinosa","jersey":"17","pos":"S","class":"SR","redshirt":false,"class_raw":"Senior","height_in":66,"weight":null,"hometown":"Valle del Cauca, Colombia","high_school":null,"previous_school":"Nicholls State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:julia-udell","name":"Julia Udell","first":"Julia","last":"Udell","jersey":"14","pos":"L/DS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":64,"weight":null,"hometown":"Fullerton, Calif.","high_school":null,"previous_school":"Eastern Illinois","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nicole-zake","name":"Nicole Zake","first":"Nicole","last":"Zake","jersey":"13","pos":"OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Simi Valley, Calif.","high_school":null,"previous_school":"Virginia Tech","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

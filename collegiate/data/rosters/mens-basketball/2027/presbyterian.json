@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "presbyterian",
+ "host": "gobluehose.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://gobluehose.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:luke-allison","name":"Luke Allison","first":"Luke","last":"Allison","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":170,"hometown":"Missoula, Mont.","high_school":"Sentinel","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:amare-anderson","name":"Amare Anderson","first":"Amare","last":"Anderson","jersey":"10","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":185,"hometown":"Greer, S.C.","high_school":"Greer","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:augustine-ayelyine","name":"Augustine Ayelyine","first":"Augustine","last":"Ayelyine","jersey":"13","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":82,"weight":210,"hometown":"Sunyani, Ghana","high_school":"University Christian (Fla.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jd-bowden","name":"JD Bowden","first":"JD","last":"Bowden","jersey":"3","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":170,"hometown":"Charlotte, N.C.","high_school":"Ambassador Christian","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chidi-chiakwelu","name":"Chidi Chiakwelu","first":"Chidi","last":"Chiakwelu","jersey":"6","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":210,"hometown":"Houston, Texas","high_school":"George Ranch","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:langston-hackworth","name":"Langston Hackworth","first":"Langston","last":"Hackworth","jersey":"23","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":82,"weight":240,"hometown":"Jacksonville, Fla.","high_school":"Andrew Jackson","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:khalon-hudson","name":"Khalon Hudson","first":"Khalon","last":"Hudson","jersey":"2","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":220,"hometown":"Augusta, Ga.","high_school":"Westside","previous_school":"Spartanburg Methodist J.C.","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:iverson-king","name":"Iverson King","first":"Iverson","last":"King","jersey":"5","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":205,"hometown":"Winston-Salem, N.C.","high_school":"Forsyth Country Day","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:wade-marsh","name":"Wade Marsh","first":"Wade","last":"Marsh","jersey":"4","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":180,"hometown":"Columbia, S.C.","high_school":"Cardinal Newman","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:carl-parrish","name":"Carl Parrish","first":"Carl","last":"Parrish","jersey":"12","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":175,"hometown":"Miami Gardens, Fla.","high_school":"Miami Norland Senior","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaylen-peterson","name":"Jaylen Peterson","first":"Jaylen","last":"Peterson","jersey":"42","pos":"F","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":80,"weight":210,"hometown":"Stone Mountain, Ga.","high_school":"Greenforest-McCalep Christian","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ej-smith","name":"EJ Smith","first":"EJ","last":"Smith","jersey":"0","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":180,"hometown":"Memphis, Tenn.","high_school":"The Skill Factory","previous_school":"Lincoln Memorial University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:erik-taylor","name":"Erik Taylor","first":"Erik","last":"Taylor","jersey":"11","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":190,"hometown":"Orlando, Fla.","high_school":"The Rock School","previous_school":"Sam Houston State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:triston-wilson","name":"Triston Wilson","first":"Triston","last":"Wilson","jersey":"7","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":215,"hometown":"Miami, Fla.","high_school":"Miami Norland Senior","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nehemiah-young","name":"Nehemiah Young","first":"Nehemiah","last":"Young","jersey":"21","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":210,"hometown":"Tallahassee, Fla.","high_school":"South Kent School (Ct.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

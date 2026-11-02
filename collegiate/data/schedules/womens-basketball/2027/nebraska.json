@@ -8,15 +8,15 @@
  "season_label": "2026-27",
  "url": "https://huskers.com/sports/womens-basketball/schedule/season/2026-27",
  "first_read": "2026-10-26",
- "last_read": "2026-10-26",
+ "last_read": "2026-11-02",
  "readers": "sidearm,sidearm_vue,sidearm_legacy,wmt+themes10+sport_path+plain_page",
  "games_listed": 37,
- "finals": 0,
+ "finals": 1,
  "undated": 0,
  "games": [
   {"game_key":null,"date":"2026-10-02","time":null,"site":"H","opponent":"Opening Night Presented by SCHEELS","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Canopy Street in front of PBA","event":null,"boxscore":null,"note":null},
   {"game_key":null,"date":"2026-10-23","time":null,"site":"H","opponent":"Wayne State","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"final","us":90,"them":41,"outcome":"W","innings":null,"location":"Pinnacle Bank Arena","event":null,"boxscore":null,"note":null,"exhibition":true},
-  {"game_key":null,"date":"2026-11-02","time":null,"site":"H","opponent":"San Jose State","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Pinnacle Bank Arena","event":null,"boxscore":null,"note":null},
+  {"game_key":"25240","date":"2026-11-02","time":null,"site":"H","opponent":"San Jose State","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"final","us":81,"them":54,"outcome":"W","innings":null,"location":"Pinnacle Bank Arena","event":null,"boxscore":"/boxscore/25240","note":null},
   {"game_key":null,"date":"2026-11-07","time":null,"site":"H","opponent":"Western Illinois","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Pinnacle Bank Arena","event":null,"boxscore":null,"note":null},
   {"game_key":null,"date":"2026-11-10","time":null,"site":"H","opponent":"North Carolina A&T","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Pinnacle Bank Arena","event":null,"boxscore":null,"note":null},
   {"game_key":null,"date":"2026-11-14","time":null,"site":"N","opponent":"Kansas","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Sioux Falls, S.D. (Sanford Pentagon)","event":null,"boxscore":null,"note":null},
@@ -50,6 +50,6 @@
   {"game_key":null,"date":"2027-03-17","time":null,"site":"N","opponent":"Opening Round (12 games)","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Campus Sites","event":null,"boxscore":null,"note":null},
   {"game_key":null,"date":"2027-03-19","time":null,"site":"N","opponent":"First & Second Rounds","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Campus Sites","event":null,"boxscore":null,"note":null},
   {"game_key":null,"date":"2027-03-26","time":null,"site":"N","opponent":"Regionals","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Philadelphia (Xfinity Mobile Arena) & Las Vegas (T-Mobile Arena)","event":null,"boxscore":null,"note":null},
-  {"game_key":null,"date":"2027-04-02","time":null,"site":"N","opponent":"Women's Final Four","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Columbus, Ohio (Nationwide Arena)","event":null,"boxscore":null,"note":null}
+  {"game_key":"25240","date":"2027-04-02","time":null,"site":"N","opponent":"Women's Final Four","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Columbus, Ohio (Nationwide Arena)","event":null,"boxscore":"/boxscore/25240","note":null}
  ]
 }

@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "lindenwood-mo",
+ "host": "lindenwoodlions.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://lindenwoodlions.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:mariah-dallas","name":"Mariah Dallas","first":"Mariah","last":"Dallas","jersey":"12","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"St. Peters, Mo.","high_school":"Fort Zumwalt South","previous_school":"Mineral Area College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cadence-dykstra","name":"Cadence Dykstra","first":"Cadence","last":"Dykstra","jersey":"24","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Grand Rapids, Mich.","high_school":"Grand Rapids West Catholic","previous_school":"University of Toledo","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elisha-dykstra","name":"Elisha Dykstra","first":"Elisha","last":"Dykstra","jersey":"4","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Grand Rapids, Mich.","high_school":"Grand Rapids West Catholic","previous_school":"University of Toledo","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:justice-macon","name":"Justice Macon","first":"Justice","last":"Macon","jersey":"10","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":null,"hometown":"St. Louis, Mo.","high_school":"Fort Zumwalt North","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:konstantina-mantziori","name":"Konstantina Mantziori","first":"Konstantina","last":"Mantziori","jersey":"7","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":65,"weight":null,"hometown":"Athens, Greece","high_school":"Cardinal Gibbons","previous_school":"Dodge City CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ariadna-martinez","name":"Ariadna Martinez","first":"Ariadna","last":"Martinez","jersey":"32","pos":"C","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Tarragona, Spain","high_school":"Institut Antoni de Martí i Franquès","previous_school":"Eastern Wyoming College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anna-mccarn","name":"Anna McCarn","first":"Anna","last":"McCarn","jersey":"21","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":null,"hometown":"Mountain Home, Ark.","high_school":"Mountain Home","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:macie-mcnece","name":"Macie McNece","first":"Macie","last":"McNece","jersey":"11","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":67,"weight":null,"hometown":"Chesterfield, Mo.","high_school":"Broadneck","previous_school":"Saint Leo University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:violet-mcnece","name":"Violet McNece","first":"Violet","last":"McNece","jersey":"33","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Chesterfield, Mo.","high_school":"Marquette","previous_school":"Morehead State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brynn-owens","name":"Brynn Owens","first":"Brynn","last":"Owens","jersey":"22","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"Austin, Ind.","high_school":"Austin","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jazlyn-powell","name":"Jazlyn Powell","first":"Jazlyn","last":"Powell","jersey":"13","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Dallas, Texas","high_school":"Faith Family Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jarius-powers","name":"Jarius Powers","first":"Jarius","last":"Powers","jersey":"44","pos":"C","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Alton, Ill.","high_school":"Alton","previous_school":"University of Illinois Chicago","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brenna-rucker","name":"Brenna Rucker","first":"Brenna","last":"Rucker","jersey":"3","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Eureka, Kan.","high_school":"Eureka","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bianca-silva","name":"Bianca Silva","first":"Bianca","last":"Silva","jersey":"6","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":66,"weight":null,"hometown":"Florianopolis, Brazil","high_school":"Layton Christian Academy","previous_school":"University of Louisiana at Lafayette","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:saniah-tyler","name":"Saniah Tyler","first":"Saniah","last":"Tyler","jersey":"5","pos":"G","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":66,"weight":null,"hometown":"Hazelwood, Mo.","high_school":"Incarnate Word Academy","previous_school":"Missouri","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

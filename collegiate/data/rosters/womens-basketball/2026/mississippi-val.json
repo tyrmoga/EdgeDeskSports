@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "mississippi-val",
+ "host": "mvsusports.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2026,
+ "season_label": "2025-2026",
+ "url": "https://mvsusports.com/sports/womens-basketball/roster/2025-2026",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:keanna-coburn","name":"Keanna Coburn","first":"Keanna","last":"Coburn","jersey":"30","pos":"Center","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":null,"hometown":"Olive Branch, MS","high_school":"Seward CC","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:taylor-crawford","name":"Taylor Crawford","first":"Taylor","last":"Crawford","jersey":"0","pos":"Guard","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Douglasville, GA","high_school":"Hiram High","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:poetrie-dace","name":"Poetrie Dace","first":"Poetrie","last":"Dace","jersey":"1","pos":"Guard","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Riverdale, GA","high_school":"Morrow High","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ja-la-douglas","name":"Ja'la Douglas","first":"Ja'la","last":"Douglas","jersey":"20","pos":"Forward","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Louisville, KY","high_school":"Central HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:addison-howell","name":"Addison Howell","first":"Addison","last":"Howell","jersey":"11","pos":"Guard","class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"Olive Branch, Mississippi","high_school":"Olive Branch HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ariel-jefferson","name":"Ariel Jefferson","first":"Ariel","last":"Jefferson","jersey":"21","pos":"Forward","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":69,"weight":null,"hometown":"Clarendon, Arkansas","high_school":"Clarendon HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:janiya-jones","name":"Janiya Jones","first":"Janiya","last":"Jones","jersey":"7","pos":"Guard","class":"SR","redshirt":false,"class_raw":"Senior","height_in":67,"weight":null,"hometown":"Olive Branch, Mississippi","high_school":"Desoto Central HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nairobi-lewis","name":"Nairobi Lewis","first":"Nairobi","last":"Lewis","jersey":"12","pos":"Center","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":75,"weight":null,"hometown":"Port of Spain, Trinidad & Tobago","high_school":"Point Fortin Secondary HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sydnei-marshall","name":"Sydnei Marshall","first":"Sydnei","last":"Marshall","jersey":"2","pos":"Guard","class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Memphis, TN","high_school":"Three Rivers CC","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kylah-mccullers","name":"Kylah McCullers","first":"Kylah","last":"McCullers","jersey":"3","pos":"Guard","class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"Madison, Wisconsin","high_school":"East HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaeda-murphy","name":"Jaeda Murphy","first":"Jaeda","last":"Murphy","jersey":"5","pos":"Guard","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":63,"weight":null,"hometown":"Chicago, Illinois","high_school":"Homewood-Flossmoor HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jakyrra-sandifer","name":"Jakyrra Sandifer","first":"Jakyrra","last":"Sandifer","jersey":"44","pos":"Center","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":null,"hometown":"Itta Bena, Mississippi","high_school":"Leflore County HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:desiree-smith","name":"Desiree Smith","first":"Desiree","last":"Smith","jersey":"4","pos":"Forward","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"Fayetteville, North Carolina","high_school":"Trinity Christian HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:caiside-snapp","name":"Caiside Snapp","first":"Caiside","last":"Snapp","jersey":"10","pos":"Guard","class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"Joliet, Illinois","high_school":"Joliet West HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aaliyah-taylor","name":"Aaliyah Taylor","first":"Aaliyah","last":"Taylor","jersey":"15","pos":"Guard","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Marion, AR","high_school":"Northwest Miss CC","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sydney-thompson","name":"Sydney Thompson","first":"Sydney","last":"Thompson","jersey":"25","pos":"Guard","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Lexington Park, Maryland","high_school":"St. Mary's Ryken HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "fairfield",
+ "host": "fairfieldstags.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://fairfieldstags.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:noah-best","name":"Noah Best","first":"Noah","last":"Best","jersey":"13","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":77,"weight":175,"hometown":"Bronx, N.Y.","high_school":"Mount Saint Michael Academy","previous_school":"Fordham University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaden-brown","name":"Jaden Brown","first":"Jaden","last":"Brown","jersey":"11","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":null,"hometown":"Middletown, N.Y.","high_school":"Bergen Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cole-edelen","name":"Cole Edelen","first":"Cole","last":"Edelen","jersey":"0","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Louisville, Ky.","high_school":"Ballard","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:joe-ganton","name":"Joe Ganton","first":"Joe","last":"Ganton","jersey":"24","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":185,"hometown":"North Caldwell, N.J.","high_school":"West Essex","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jah-hatchett","name":"Jah Hatchett","first":"Jah","last":"Hatchett","jersey":"3","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Grand Rapids, Mich.","high_school":"Putnam Science Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brayden-jones","name":"Brayden Jones","first":"Brayden","last":"Jones","jersey":"25","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":null,"hometown":"Wethersfield, Conn.","high_school":"Brewster Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:qadir-martin","name":"Qadir Martin","first":"Qadir","last":"Martin","jersey":"12","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":null,"hometown":"Staten Island, N.Y.","high_school":"St. Peter's Boys HS","previous_school":"Mercyhurst University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:eric-mejia","name":"Eric Mejia","first":"Eric","last":"Mejia","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":195,"hometown":"Washington Heights, N.Y.","high_school":"Our Savior Lutheran","previous_school":"Monroe University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isaac-munkadi","name":"Isaac Munkadi","first":"Isaac","last":"Munkadi","jersey":"15","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":82,"weight":200,"hometown":"Kinshasa, Democratic Republic of the Congo","high_school":"Bridgeport Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tanner-ostop","name":"Tanner Ostop","first":"Tanner","last":"Ostop","jersey":"9","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":165,"hometown":"West Hartford, Conn.","high_school":"Northwest Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:marko-radunovic","name":"Marko Radunovic","first":"Marko","last":"Radunovic","jersey":"88","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":null,"hometown":"Podgorica, Montenegro","high_school":null,"previous_school":"Boston College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:halon-rawlins","name":"Halon Rawlins","first":"Halon","last":"Rawlins","jersey":"4","pos":"G/F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":220,"hometown":"Brooklyn, N.Y.","high_school":"Nazareth Regional","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nasir-rodriguez","name":"Nasir Rodriguez","first":"Nasir","last":"Rodriguez","jersey":"5","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":210,"hometown":"Queensbridge, N.Y.","high_school":"Monsignor Scanlan","previous_school":"Northfield Mount Hermon","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:oesoemana-sacko","name":"Oesoemana Sacko","first":"Oesoemana","last":"Sacko","jersey":"23","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":null,"hometown":"Far Rockaway, N.Y.","high_school":"St. Francis Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:peyton-smith","name":"Peyton Smith","first":"Peyton","last":"Smith","jersey":"33","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":82,"weight":245,"hometown":"Hudson Falls, N.Y.","high_school":"Hudson Falls","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tony-williams","name":"Tony Williams","first":"Tony","last":"Williams","jersey":"8","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":160,"hometown":"Norwich, Conn.","high_school":"Norwich Free Academy","previous_school":"Putnam Science Academy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:declan-wucherpfennig","name":"Declan Wucherpfennig","first":"Declan","last":"Wucherpfennig","jersey":"44","pos":"G/F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":215,"hometown":"Teaneck, N.J.","high_school":"Bergen Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

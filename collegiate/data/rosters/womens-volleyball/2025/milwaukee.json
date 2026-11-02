@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "milwaukee",
+ "host": "mkepanthers.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2025,
+ "season_label": "2025",
+ "url": "https://mkepanthers.com/sports/womens-volleyball/roster/2025",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:braylin-bosetski","name":"Braylin Bosetski","first":"Braylin","last":"Bosetski","jersey":"10","pos":"DS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":66,"weight":null,"hometown":"De Pere, Wis.","high_school":"De Pere","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hallie-cook","name":"Hallie Cook","first":"Hallie","last":"Cook","jersey":"17","pos":"DS/L","class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Springfield, Mo.","high_school":"Springfield Catholic","previous_school":"UNC Greensboro","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kara-erdmann","name":"Kara Erdmann","first":"Kara","last":"Erdmann","jersey":"13","pos":"L","class":"SR","redshirt":false,"class_raw":"Senior","height_in":66,"weight":null,"hometown":"Forreston, Ill.","high_school":"Forreston","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:annie-eschenbach","name":"Annie Eschenbach","first":"Annie","last":"Eschenbach","jersey":"3","pos":"OPP/MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":null,"hometown":"Downers Grove, Ill.","high_school":"Benet Academy","previous_school":"McHenry","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kati-goba","name":"Kati Goba","first":"Kati","last":"Goba","jersey":"9","pos":"L/DS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":64,"weight":null,"hometown":"Mukwonago, Wis.","high_school":"Wisconsin Lutheran","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emily-hansen","name":"Emily Hansen","first":"Emily","last":"Hansen","jersey":"15","pos":"OH/RS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Mayville, Wis.","high_school":"Mayville","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:carol-herrero","name":"Carol Herrero","first":"Carol","last":"Herrero","jersey":"16","pos":"OH","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"João Dessoa, Brazil","high_school":"Colegio Eduardo Gomes","previous_school":"Iowa Western","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hailey-hutchings","name":"Hailey Hutchings","first":"Hailey","last":"Hutchings","jersey":"7","pos":"MB/RS","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":69,"weight":null,"hometown":"Flower Mound, Texas","high_school":"Flower Mound","previous_school":"Grand Canyon","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:josie-johnson","name":"Josie Johnson","first":"Josie","last":"Johnson","jersey":"4","pos":"S","class":"SR","redshirt":false,"class_raw":"Senior","height_in":67,"weight":null,"hometown":"Burlington, Wis.","high_school":"Waterford Union","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:julia-kellner","name":"Julia Kellner","first":"Julia","last":"Kellner","jersey":"2","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":null,"hometown":"Racine, Wis.","high_school":"Racine Lutheran","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bella-lipski","name":"Bella Lipski","first":"Bella","last":"Lipski","jersey":"12","pos":"MB","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Milwaukee, Wis.","high_school":"Divine Savior Holy Angels","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:josie-noble","name":"Josie Noble","first":"Josie","last":"Noble","jersey":"6","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Caledonia, Mich.","high_school":"Caledonia","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:natalie-schmitz","name":"Natalie Schmitz","first":"Natalie","last":"Schmitz","jersey":"11","pos":"OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Ham Lake, Minn.","high_school":"Blaine","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ella-schuetz","name":"Ella Schuetz","first":"Ella","last":"Schuetz","jersey":"14","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Lake Mills, Wis.","high_school":"Lakeside Lutheran","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jenna-soerens","name":"Jenna Soerens","first":"Jenna","last":"Soerens","jersey":"8","pos":"OH/RS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Oostburg, Wis.","high_school":"Oostburg","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:milica-tomic","name":"Milica Tomic","first":"Milica","last":"Tomic","jersey":"5","pos":"S","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":67,"weight":null,"hometown":"Dyer, Ind.","high_school":"Lake Central","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sam-vanda","name":"Sam Vanda","first":"Sam","last":"Vanda","jersey":"1","pos":"OPP/OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Geneva, Ill.","high_school":"Geneva Community","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

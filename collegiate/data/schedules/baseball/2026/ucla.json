@@ -8,9 +8,10 @@
  "season_label": "2026",
  "url": "https://uclabruins.com/sports/baseball/schedule/season/2026",
  "first_read": "2026-10-21",
- "last_read": "2026-10-21",
+ "last_read": "2026-11-02",
+ "readers": "sidearm,sidearm_vue,sidearm_legacy,wmt+themes10+sport_path+plain_page",
  "games_listed": 61,
- "finals": 59,
+ "finals": 60,
  "undated": 0,
  "games": [
   {"game_key":null,"date":"2026-01-24","time":"13:00","site":"H","opponent":"Alumni Game","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Los Angeles, CA / Jackie Robinson Stadium","event":null,"boxscore":null,"note":null,"exhibition":true},
@@ -73,6 +74,6 @@
   {"game_key":"19002","date":"2026-05-24","time":"12:00","site":"N","opponent":"#[3] Oregon","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"final","us":3,"them":2,"outcome":"W","innings":11,"location":"Omaha, Neb. / Charles Schwab Field Omaha","event":null,"boxscore":"/boxscore/19002","note":"(11 inn.)"},
   {"game_key":"19003","date":"2026-05-29","time":"12:00","site":"H","opponent":"#[4] Saint Mary's","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"final","us":2,"them":3,"outcome":"L","innings":null,"location":"Los Angeles, CA / Jackie Robinson Stadium","event":null,"boxscore":"/boxscore/19003","note":null},
   {"game_key":"19005","date":"2026-05-30","time":"13:00","site":"H","opponent":"#[2] Virginia Tech","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"final","us":6,"them":5,"outcome":"W","innings":null,"location":"Los Angeles, CA / Jackie Robinson Stadium","event":null,"boxscore":"/boxscore/19005","note":null},
-  {"game_key":"19004","date":"2026-05-31","time":"13:00","site":"N","opponent":"Alumni Game","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"final","us":5,"them":6,"outcome":"L","innings":10,"location":"Los Angeles, CA / Jackie Robinson Stadium","event":null,"boxscore":"/boxscore/19004","note":"(10 inn.)","exhibition":true}
+  {"game_key":"19004","date":"2026-05-31","time":"13:00","site":"N","opponent":"Saint Mary's","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"final","us":5,"them":6,"outcome":"L","innings":10,"location":"Los Angeles, CA / Jackie Robinson Stadium","event":null,"boxscore":"/boxscore/19004","note":"(10 inn.)"}
  ]
 }

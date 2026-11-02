@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "longwood",
+ "host": "longwoodlancers.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://longwoodlancers.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:jorke-aav","name":"Jorke Aav","first":"Jorke","last":"Aav","jersey":"0","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":182,"hometown":"Tartu, Estonia","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaylen-benard","name":"Jaylen Benard","first":"Jaylen","last":"Benard","jersey":"4","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":207,"hometown":"Houston, Texas","high_school":"Cypress Ranch","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alphonzo-billups-iii","name":"Alphonzo Billups III","first":"Alphonzo","last":"Billups III","jersey":"3","pos":"G/F","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":79,"weight":180,"hometown":"Richmond, Va.","high_school":"Varina","previous_school":"VCU","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gerald-burr-iii","name":"Gerald Burr III","first":"Gerald","last":"Burr III","jersey":"10","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":160,"hometown":"Chester, Va.","high_school":"IMG Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:will-dopfer","name":"Will Dopfer","first":"Will","last":"Dopfer","jersey":"14","pos":"G/F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":205,"hometown":"Alpharetta, Ga.","high_school":"Lambert","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isaiah-kalala","name":"Isaiah Kalala","first":"Isaiah","last":"Kalala","jersey":"8","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":81,"weight":220,"hometown":"Dallas, Texas","high_school":"Sunrise Christian Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:domas-kauzonas","name":"Domas Kauzonas","first":"Domas","last":"Kauzonas","jersey":"16","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":82,"weight":240,"hometown":"Vilnius, Lithuania","high_school":"Rabun Gap-Nacoochee School","previous_school":"UNCG","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elijah-kelly","name":"Elijah Kelly","first":"Elijah","last":"Kelly","jersey":"1","pos":"G/F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":195,"hometown":"Radford, Va.","high_school":"Miller School of Albemarle","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lazar-milosevic","name":"Lazar Milosevic","first":"Lazar","last":"Milosevic","jersey":"27","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":82,"weight":258,"hometown":"Bileca, Republika Srpska","high_school":null,"previous_school":"Duquesne","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kany-musungay-tchanda","name":"Kany Musungay Tchanda","first":"Kany","last":"Musungay Tchanda","jersey":"23","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":200,"hometown":"Kinshasa, Democratic Republic of the Congo","high_school":"Sunrise Christian Academy","previous_school":"Boston College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tj-robinson","name":"TJ Robinson","first":"TJ","last":"Robinson","jersey":"2","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":185,"hometown":"Paterson, N.J.","high_school":"Montclair Immaculate Conception","previous_school":"St. Peter's","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elijah-thomas","name":"Elijah Thomas","first":"Elijah","last":"Thomas","jersey":"5","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":166,"hometown":"Toronto, Ontario","high_school":"Uchenna Academy/Winston-Salem (N.C.) Christian School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ben-wesson","name":"Ben Wesson","first":"Ben","last":"Wesson","jersey":"12","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":170,"hometown":"Charlottesville, Va.","high_school":"Albemarle","previous_school":"Vermont","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mj-williams","name":"MJ Williams","first":"MJ","last":"Williams","jersey":"11","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":168,"hometown":"Rocky Mount, N.C.","high_school":"Farmville Central","previous_school":"Eastern Kentucky","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:abu-yarmah","name":"Abu Yarmah","first":"Abu","last":"Yarmah","jersey":"7","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":78,"weight":209,"hometown":"Roanoke, Va.","high_school":"Moravian Prep","previous_school":"South Carolina","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

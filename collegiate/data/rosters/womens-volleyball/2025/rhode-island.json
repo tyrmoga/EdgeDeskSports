@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "rhode-island",
+ "host": "gorhody.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2025,
+ "season_label": "2025",
+ "url": "https://gorhody.com/sports/womens-volleyball/roster/2025",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:chloe-abuto","name":"Chloe Abuto","first":"Chloe","last":"Abuto","jersey":"12","pos":"MB","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Burlington, Mass.","high_school":"Burlington","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aerin-bowman","name":"Aerin Bowman","first":"Aerin","last":"Bowman","jersey":"17","pos":"RS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":null,"hometown":"Darien, Conn.","high_school":"Darien (Virginia Tech)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:erika-bracey","name":"Erika Bracey","first":"Erika","last":"Bracey","jersey":"10","pos":"RS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Upper Marlboro, Md.","high_school":"Elizabeth Seaton","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dakota-henry","name":"Dakota Henry","first":"Dakota","last":"Henry","jersey":"20","pos":"DS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":66,"weight":null,"hometown":"Loveland, Ohio","high_school":"Kings","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sydney-houchens","name":"Sydney Houchens","first":"Sydney","last":"Houchens","jersey":"3","pos":"DS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Bethlehem, Pa.","high_school":"Liberty (VCU)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hannah-jonick","name":"Hannah Jonick","first":"Hannah","last":"Jonick","jersey":"19","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":null,"hometown":"San Diego, Calif.","high_school":"Rancho Bernardo","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cansu-kornosor","name":"Cansu Kornosor","first":"Cansu","last":"Kornosor","jersey":"5","pos":"DS","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":65,"weight":null,"hometown":"Bursa, Turkey","high_school":"Robert College, Istanbul (Chattanooga)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kiera-mccarles","name":"Kiera McCarles","first":"Kiera","last":"McCarles","jersey":"9","pos":"S","class":"SR","redshirt":false,"class_raw":"Senior","height_in":67,"weight":null,"hometown":"Carlisle, Ontario","high_school":"Watertown District (Mercer)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mckenna-melton","name":"McKenna Melton","first":"McKenna","last":"Melton","jersey":"7","pos":"OH","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":71,"weight":null,"hometown":"Bellbrook, Ohio","high_school":"Bellville (Marshall)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jessica-parker","name":"Jessica Parker","first":"Jessica","last":"Parker","jersey":"4","pos":"S","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":71,"weight":null,"hometown":"Saint Charles, Ill.","high_school":"St. Charles North (Elon)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ryleigh-powers","name":"Ryleigh Powers","first":"Ryleigh","last":"Powers","jersey":"1","pos":"DS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":66,"weight":null,"hometown":"Oldsmar, Fla.","high_school":"Tarpon Springs","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:havyn-rolle","name":"Havyn Rolle","first":"Havyn","last":"Rolle","jersey":"13","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Northridge, Calif.","high_school":"Bishop Alemany","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ema-stermenska","name":"Ema Stermenska","first":"Ema","last":"Stermenska","jersey":"16","pos":"S","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Holíc, Slovakia","high_school":"Gymnazium Bilikova 24 Bratislava (SIU)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:autumn-tombline","name":"Autumn Tombline","first":"Autumn","last":"Tombline","jersey":"8","pos":"S","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Stamford, Conn.","high_school":"Rye Country Day","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ipek-ulukutlu","name":"Ipek Ulukutlu","first":"Ipek","last":"Ulukutlu","jersey":"11","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Kadikoy, Istanbul, Turkey","high_school":"Irmak High School / Aci High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emma-vente","name":"Emma Vente","first":"Emma","last":"Vente","jersey":"15","pos":"OH","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":73,"weight":null,"hometown":"Burke, Va.","high_school":"Lake Braddock (Frankfurt International)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "san-diego",
+ "host": "usdtoreros.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://usdtoreros.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:alejandro-aviles","name":"Alejandro Aviles","first":"Alejandro","last":"Aviles","jersey":"21","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":81,"weight":230,"hometown":"San Juan, Puerto Rico","high_school":"Dream City Christian School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nick-del-bosque","name":"Nick Del Bosque","first":"Nick","last":"Del Bosque","jersey":"53","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":72,"weight":180,"hometown":"Tucson, AZ","high_school":"Salpointe Catholic HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:boden-grant","name":"Boden Grant","first":"Boden","last":"Grant","jersey":"6","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":76,"weight":185,"hometown":"Cleveland, OH","high_school":"St. Edward HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:davion-hill","name":"Davion Hill","first":"Davion","last":"Hill","jersey":"2","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":74,"weight":225,"hometown":"Williamsport, PA","high_school":"Neumann Regional Academy","previous_school":"Northwest Florida State College / Ball State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jevon-hill","name":"Jevon Hill","first":"Jevon","last":"Hill","jersey":"8","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":81,"weight":175,"hometown":"Wichita, KS","high_school":"Legacy School of Sport Sciences","previous_school":"South Dakota / Central Missouri","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chace-holley","name":"Chace Holley","first":"Chace","last":"Holley","jersey":"1","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":160,"hometown":"Lynwood, CA","high_school":"Redondo Union HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sekou-konneh","name":"Sekou Konneh","first":"Sekou","last":"Konneh","jersey":"25","pos":"F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":81,"weight":215,"hometown":"Milwaukee, WI","high_school":"St. Thomas More","previous_school":"DePaul / Milwaukee","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brannon-martinsen","name":"Brannon Martinsen","first":"Brannon","last":"Martinsen","jersey":"5","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":205,"hometown":"Santa Ana, CA","high_school":"Sierra Canyon","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:terry-mcmorris","name":"Terry McMorris","first":"Terry","last":"McMorris","jersey":"24","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":185,"hometown":"Oklahoma City, OK","high_school":"OKC Douglass","previous_school":"Eastern Illinois","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:antonio-munoz","name":"Antonio Munoz","first":"Antonio","last":"Munoz","jersey":"7","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":200,"hometown":"Chicago, IL","high_school":"Whitney Young HS","previous_school":"Grambling State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jose-roberto-tanchyn","name":"Jose Roberto Tanchyn","first":"Jose","last":"Roberto Tanchyn","jersey":"14","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":82,"weight":235,"hometown":"Cordoba, Spain","high_school":"IES Litoral","previous_school":"Lincoln (Mo.) / Palm Beach Atlantic / UMBC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:braylon-roman","name":"Braylon Roman","first":"Braylon","last":"Roman","jersey":"11","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":185,"hometown":"Bloomington, IL","high_school":"Normal Community HS","previous_school":"Northwest Florida State College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dusty-stromer","name":"Dusty Stromer","first":"Dusty","last":"Stromer","jersey":"4","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":195,"hometown":"Sherman Oaks, CA","high_school":"Notre Dame HS","previous_school":"Gonzaga / Grand Canyon","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:caleb-versher","name":"Caleb Versher","first":"Caleb","last":"Versher","jersey":"15","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":75,"weight":190,"hometown":"Los Angeles, CA","high_school":"St. Bernard HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:marqui-worthy-jr-","name":"Marqui Worthy Jr.","first":"Marqui","last":"Worthy Jr.","jersey":"10","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":215,"hometown":"Anaheim, CA","high_school":"Veritas Prep Academy","previous_school":"UC Riverside","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

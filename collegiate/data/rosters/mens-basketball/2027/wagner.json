@@ -1,0 +1,30 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "wagner",
+ "host": "wagnerathletics.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://wagnerathletics.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 14,
+ "players": [
+  {"pid":"slug:taj-bryant","name":"Taj Bryant","first":"Taj","last":"Bryant","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":186,"hometown":"Queens, NY","high_school":"Eagle Academy Brooklyn","previous_school":"Sacred Heart","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaren-curtis","name":"Jaren Curtis","first":"Jaren","last":"Curtis","jersey":"0","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":175,"hometown":"Waldorf, MD","high_school":"Prince George's Christian Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gavin-edwards","name":"Gavin Edwards","first":"Gavin","last":"Edwards","jersey":"10","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":170,"hometown":"Baltimore, MD","high_school":"Catonsville","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cam-estevez","name":"Cam Estevez","first":"Cam","last":"Estevez","jersey":"3","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":195,"hometown":"Harlem, NY","high_school":"Canterbury","previous_school":"Fairfield / Rhode Island","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:freddy-hassan","name":"Freddy Hassan","first":"Freddy","last":"Hassan","jersey":"9","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":79,"weight":210,"hometown":"Montgomery, IL","high_school":"Kaneland","previous_school":"Waubonsee CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tajae-jones","name":"Tajae Jones","first":"Tajae","last":"Jones","jersey":"7","pos":"F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":80,"weight":215,"hometown":"Waterbury, CT","high_school":"Long Island Lutheran","previous_school":"Siena","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:daye-kaba","name":"Daye Kaba","first":"Daye","last":"Kaba","jersey":"11","pos":"W","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":195,"hometown":"Harlem, NY","high_school":"Eagle Academy Bronx","previous_school":"Salt Lake CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:laymen-mcgrady","name":"Laymen McGrady","first":"Laymen","last":"McGrady","jersey":"4","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":76,"weight":190,"hometown":"Houston, TX","high_school":"IMG Academy","previous_school":"Oral Roberts","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:william-patterson-jr-","name":"William Patterson Jr.","first":"William","last":"Patterson Jr.","jersey":"2","pos":"C","class":"JR","redshirt":false,"class_raw":"Junior","height_in":85,"weight":241,"hometown":"Brooklyn, NY","high_school":"The Patrick School","previous_school":"New Orleans / Three Rivers College / Syracuse","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ryan-pettis","name":"Ryan Pettis","first":"Ryan","last":"Pettis","jersey":"6","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":76,"weight":195,"hometown":"Bay Area, CA","high_school":"Junípero Serra / Fordham","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aj-rodriguez","name":"AJ Rodriguez","first":"AJ","last":"Rodriguez","jersey":"8","pos":"W/F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":78,"weight":205,"hometown":"Bronx, NY","high_school":"Iona Prep","previous_school":"Cornell","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:youssouf-singar-","name":"Youssouf Singarè","first":"Youssouf","last":"Singarè","jersey":"24","pos":"C","class":"SR","redshirt":false,"class_raw":"Senior","height_in":83,"weight":248,"hometown":"Bamako, Mali","high_school":"Our Saviour Lutheran","previous_school":"High Point / UConn","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:baron-smith-jr-","name":"Baron Smith Jr.","first":"Baron","last":"Smith Jr.","jersey":"5","pos":"C","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":81,"weight":255,"hometown":"Haltom City, TX","high_school":"Haltom","previous_school":"Oral Roberts / North Texas","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kareem-watson","name":"Kareem Watson","first":"Kareem","last":"Watson","jersey":"13","pos":"W","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":80,"weight":190,"hometown":"Philadelphia, PA","high_school":"West Catholic Prep","previous_school":"Delaware State / CSU Bakersfield","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

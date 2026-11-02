@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "fiu",
+ "host": "fiusports.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://fiusports.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:kennedy-brown","name":"Kennedy Brown","first":"Kennedy","last":"Brown","jersey":"25","pos":"F","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":80,"weight":225,"hometown":"Chicago, Ill.","high_school":"Bogan","previous_school":"Roosevelt University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aydan-clinton","name":"Aydan Clinton","first":"Aydan","last":"Clinton","jersey":"23","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":275,"hometown":"Saint Petersburg, Fla.","high_school":"Lakewood","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:eric-dibami","name":"Eric Dibami","first":"Eric","last":"Dibami","jersey":"9","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":82,"weight":240,"hometown":"Yaounde, Cameroon","high_school":"Miami Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gvidas-gicevicius","name":"Gvidas Gicevicius","first":"Gvidas","last":"Gicevicius","jersey":"7","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":185,"hometown":"Kaunas, Lithuania","high_school":"Kaunas \"Saules'' Gymnasium","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brit-harris","name":"Brit Harris","first":"Brit","last":"Harris","jersey":"1","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":185,"hometown":"Gary, Ind.","high_school":"Don Bosco Prep","previous_school":"USC Upstate","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zawdie-jackson","name":"Zawdie Jackson","first":"Zawdie","last":"Jackson","jersey":"2","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":165,"hometown":"Stone Mountain, Ga.","high_school":"Shiloh","previous_school":"New Mexico State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mikey-kelvin-ii","name":"Mikey Kelvin II","first":"Mikey","last":"Kelvin II","jersey":"0","pos":"F","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":81,"weight":220,"hometown":"Ottawa, Ontario, Canada","high_school":"Holy Cross Secondary Catholic","previous_school":"Oklahoma State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:julian-mackey","name":"Julian Mackey","first":"Julian","last":"Mackey","jersey":"10","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":160,"hometown":"Grayson, Ga.","high_school":"Lakota West / TSF","previous_school":"Houston Christian","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:amarion-nimmers","name":"Amarion Nimmers","first":"Amarion","last":"Nimmers","jersey":"11","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":75,"weight":185,"hometown":"Rock Island, Ill.","high_school":"Rock Island","previous_school":"Tampa","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ibrahim-olajuwon","name":"Ibrahim Olajuwon","first":"Ibrahim","last":"Olajuwon","jersey":"34","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":82,"weight":210,"hometown":"Lagos, Nigeria","high_school":"Ilupeju Grammar School","previous_school":"Southeastern Iowa CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hamed-olayinka","name":"Hamed Olayinka","first":"Hamed","last":"Olayinka","jersey":"5","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":81,"weight":215,"hometown":"Los Angeles, Calif.","high_school":"Birmingham Community Charter","previous_school":"Samford","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:renato-ruiz","name":"Renato Ruiz","first":"Renato","last":"Ruiz","jersey":"15","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":73,"weight":185,"hometown":"Plantation, Fla.","high_school":"American Heritage","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jorge-santos","name":"Jorge Santos","first":"Jorge","last":"Santos","jersey":"22","pos":"F","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":78,"weight":230,"hometown":"Miami, Fla.","high_school":"G. Holmes Braddock","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:corey-stephenson","name":"Corey Stephenson","first":"Corey","last":"Stephenson","jersey":"3","pos":"G/F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":220,"hometown":"Bessemer, Ala.","high_school":"Hueytown","previous_school":"CSU Bakersfield","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:thiago-sucatzky","name":"Thiago Sucatzky","first":"Thiago","last":"Sucatzky","jersey":"6","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":175,"hometown":"Cordoba, Argentina","high_school":"Miami Prep / Divine Savior Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ashton-williamson","name":"Ashton Williamson","first":"Ashton","last":"Williamson","jersey":"4","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":170,"hometown":"Gary, Ind.","high_school":"21st Century Charter","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

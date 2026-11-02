@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "wichita-st",
+ "host": "goshockers.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://goshockers.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:dillon-battie","name":"Dillon Battie","first":"Dillon","last":"Battie","jersey":"8","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":215,"hometown":"Dallas, Texas","high_school":null,"previous_school":"Temple","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:william-berg","name":"William Berg","first":"William","last":"Berg","jersey":"44","pos":"C","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":86,"weight":263,"hometown":"Stockholm, Sweden","high_school":null,"previous_school":"Purdue","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:pierre-couisnard","name":"Pierre Couisnard","first":"Pierre","last":"Couisnard","jersey":"7","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":74,"weight":168,"hometown":"Houston, Texas","high_school":null,"previous_school":"Legacy School of Sport Sciences","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jordan-frison","name":"Jordan Frison","first":"Jordan","last":"Frison","jersey":"5","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":171,"hometown":"Memphis, Tenn.","high_school":null,"previous_school":"Chattanooga","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kenyon-giles","name":"Kenyon Giles","first":"Kenyon","last":"Giles","jersey":"3","pos":null,"class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":70,"weight":171,"hometown":"Chesapeake, Va.","high_school":null,"previous_school":"UNC Greensboro","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:michael-gray-jr-","name":"Michael Gray Jr.","first":"Michael","last":"Gray Jr.","jersey":"9","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":74,"weight":211,"hometown":"Fredericksburg, Va.","high_school":null,"previous_school":"Nicholls State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bryce-heard","name":"Bryce Heard","first":"Bryce","last":"Heard","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":201,"hometown":"Chicago, Ill.","high_school":null,"previous_school":"Dayton","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:noah-hill","name":"Noah Hill","first":"Noah","last":"Hill","jersey":"22","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":239,"hometown":"Frisco, Texas","high_school":null,"previous_school":"Sunrise Christian Academy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:joy-ighovodja","name":"Joy Ighovodja","first":"Joy","last":"Ighovodja","jersey":"12","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":76,"weight":203,"hometown":"Abeokuta, Nigeria","high_school":null,"previous_school":"NBA Academy Africa","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:desmeon-jones","name":"Desmeon Jones","first":"Desmeon","last":"Jones","jersey":"0","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":176,"hometown":"Dallas, Texas","high_school":null,"previous_school":"Blinn College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jahari-long","name":"Jahari Long","first":"Jahari","last":"Long","jersey":"11","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":77,"weight":211,"hometown":"Houston, Texas","high_school":null,"previous_school":"George Mason","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cyr-malonga","name":"Cyr Malonga","first":"Cyr","last":"Malonga","jersey":"24","pos":"C","class":"SR","redshirt":false,"class_raw":"Senior","height_in":83,"weight":253,"hometown":"Pointe-Noire, Congo","high_school":null,"previous_school":"New Mexico State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tyrus-rathan-mayes","name":"Tyrus Rathan-Mayes","first":"Tyrus","last":"Rathan-Mayes","jersey":"10","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":78,"weight":198,"hometown":"Toronto, Ontario, Canada","high_school":null,"previous_school":"Legacy School of Sport Sciences","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:henry-thengvall","name":"Henry Thengvall","first":"Henry","last":"Thengvall","jersey":"21","pos":"F","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":79,"weight":203,"hometown":"Wichita, Kan.","high_school":null,"previous_school":"Kapaun-Mt. Carmel HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaret-valencia","name":"Jaret Valencia","first":"Jaret","last":"Valencia","jersey":"2","pos":"F","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":81,"weight":189,"hometown":"Quibdó, Colombia","high_school":null,"previous_school":"Monmouth","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tj-williams","name":"TJ Williams","first":"TJ","last":"Williams","jersey":"4","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":77,"weight":221,"hometown":"Wichita, Kan.","high_school":null,"previous_school":"Wichita Heights HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

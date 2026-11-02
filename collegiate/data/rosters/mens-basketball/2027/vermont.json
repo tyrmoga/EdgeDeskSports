@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "vermont",
+ "host": "uvmathletics.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://uvmathletics.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:khalil-badru","name":"Khalil Badru","first":"Khalil","last":"Badru","jersey":"4","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":200,"hometown":"New Britain, Conn.","high_school":"Newman School (MA)","previous_school":"Iona","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:noah-barnett","name":"Noah Barnett","first":"Noah","last":"Barnett","jersey":"34","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":81,"weight":220,"hometown":"Poughkeepsie, N.Y.","high_school":"Don Bosco Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:john-broom","name":"John Broom","first":"John","last":"Broom","jersey":"5","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":185,"hometown":"Jacksonville, AL","high_school":"Jacksonville","previous_school":"South Alabama","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mario-brunetto","name":"Mario Brunetto","first":"Mario","last":"Brunetto","jersey":"21","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":83,"weight":190,"hometown":"La Spezia, Italy","high_school":null,"previous_school":"Arizona Western College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cash-chism","name":"Cash Chism","first":"Cash","last":"Chism","jersey":"0","pos":"G","class":"FR","redshirt":false,"class_raw":"First Year","height_in":74,"weight":175,"hometown":"Mount Pleasant, Texas","high_school":"Mount Pleasant","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sincere-clemons","name":"Sincere Clemons","first":"Sincere","last":"Clemons","jersey":"13","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":185,"hometown":"Ithaca, N.Y.","high_school":"Northfield Mount Hermon","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:will-davies","name":"Will Davies","first":"Will","last":"Davies","jersey":"12","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":195,"hometown":"Saco, Maine","high_school":"St. Thomas More (Conn.)","previous_school":"Saint Anselm","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sublime-gbiegba","name":"Sublime Gbiegba","first":"Sublime","last":"Gbiegba","jersey":"24","pos":"F","class":"FR","redshirt":false,"class_raw":"First Year","height_in":80,"weight":220,"hometown":"Toulouse, France","high_school":null,"previous_school":"Cholet Basket","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:daniil-glazkov","name":"Daniil Glazkov","first":"Daniil","last":"Glazkov","jersey":"55","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":215,"hometown":"Maykop, Russia","high_school":null,"previous_school":"Loyola Chicago","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hayden-johns","name":"Hayden Johns","first":"Hayden","last":"Johns","jersey":"15","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":210,"hometown":"Cambridge, Ontario","high_school":"Perkiomen School","previous_school":"Saint Anselm","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:marko-masic","name":"Marko Masic","first":"Marko","last":"Masic","jersey":"2","pos":"F","class":"FR","redshirt":false,"class_raw":"First Year","height_in":81,"weight":205,"hometown":"Ludwigsburg, Germany","high_school":null,"previous_school":"Porsche BBA Ludwigsburg","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:momo-nkugwa","name":"Momo Nkugwa","first":"Momo","last":"Nkugwa","jersey":"1","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":185,"hometown":"Chelmsford, Mass.","high_school":"Governor's Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zach-romich","name":"Zach Romich","first":"Zach","last":"Romich","jersey":"14","pos":"G","class":"FR","redshirt":false,"class_raw":"First Year","height_in":74,"weight":190,"hometown":"Groton, Mass.","high_school":"Kimball Union Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gus-yalden","name":"Gus Yalden","first":"Gus","last":"Yalden","jersey":"19","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":81,"weight":270,"hometown":"Appleton, Wis.","high_school":"La Lumiere","previous_school":"Seton Hall","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:darrel-yepdo","name":"Darrel Yepdo","first":"Darrel","last":"Yepdo","jersey":"3","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":175,"hometown":"Dracut, Mass.","high_school":null,"previous_school":"UMass Lowell","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

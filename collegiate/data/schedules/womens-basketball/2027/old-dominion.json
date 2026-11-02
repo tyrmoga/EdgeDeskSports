@@ -8,14 +8,14 @@
  "season_label": "2026-27",
  "url": "https://odusports.com/sports/womens-basketball/schedule/season/2026-27",
  "first_read": "2026-10-26",
- "last_read": "2026-10-26",
+ "last_read": "2026-11-02",
  "readers": "sidearm,sidearm_vue,sidearm_legacy,wmt+themes10+sport_path+plain_page",
  "games_listed": 34,
- "finals": 0,
+ "finals": 1,
  "undated": 0,
  "games": [
-  {"game_key":null,"date":"2026-10-27","time":"18:30","site":"H","opponent":"Chris. Newport","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Norfolk, Va.","event":null,"boxscore":null,"note":null,"exhibition":true},
-  {"game_key":null,"date":"2026-11-02","time":"11:00","site":"A","opponent":"Central Michigan","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Mount Pleasant, Mich.","event":null,"boxscore":null,"note":null},
+  {"game_key":"15811","date":"2026-10-27","time":"18:30","site":"H","opponent":"Chris. Newport","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"final","us":90,"them":54,"outcome":"W","innings":null,"location":"Norfolk, Va.","event":null,"boxscore":"/boxscore/15811","note":null,"exhibition":true},
+  {"game_key":"15742","date":"2026-11-02","time":"11:00","site":"A","opponent":"Central Michigan","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"final","us":62,"them":58,"outcome":"W","innings":null,"location":"Mount Pleasant, Mich.","event":null,"boxscore":"/boxscore/15742","note":null},
   {"game_key":null,"date":"2026-11-05","time":"18:30","site":"H","opponent":"Virginia State","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Norfolk, Va.","event":null,"boxscore":null,"note":null},
   {"game_key":null,"date":"2026-11-08","time":"14:00","site":"H","opponent":"Tennessee St.","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Norfolk, Va.","event":null,"boxscore":null,"note":null},
   {"game_key":null,"date":"2026-11-12","time":"18:00","site":"A","opponent":"Richmond","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Richmond, Va.","event":null,"boxscore":null,"note":null},
@@ -47,6 +47,6 @@
   {"game_key":null,"date":"2027-02-20","time":"16:00","site":"H","opponent":"App State","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Norfolk, Va.","event":null,"boxscore":null,"note":null},
   {"game_key":null,"date":"2027-02-23","time":"18:00","site":"A","opponent":"Marshall","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Huntington, W.Va.","event":null,"boxscore":null,"note":null},
   {"game_key":null,"date":"2027-02-26","time":"17:00","site":"A","opponent":"Georgia Southern","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Statesboro, Ga.","event":null,"boxscore":null,"note":null},
-  {"game_key":null,"date":"2027-03-02","time":"10:52","site":"H","opponent":"TBD","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Pensacola, Fla.","event":null,"boxscore":null,"note":null}
+  {"game_key":"15811","date":"2027-03-02","time":"10:52","site":"H","opponent":"TBD","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Pensacola, Fla.","event":null,"boxscore":"/boxscore/15811","note":null}
  ]
 }

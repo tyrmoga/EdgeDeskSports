@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "towson",
+ "host": "towsontigers.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://towsontigers.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:lisen-curman","name":"Lisen Curman","first":"Lisen","last":"Curman","jersey":"57","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Stockholm, Sweden","high_school":null,"previous_school":"Alvik Basket","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sam-donovan","name":"Sam Donovan","first":"Sam","last":"Donovan","jersey":"21","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Edgewood, Md.","high_school":"Edgewood","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zoli-khalil","name":"Zoli Khalil","first":"Zoli","last":"Khalil","jersey":"13","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Rockingham, Va.","high_school":"Spotswood H.S.","previous_school":"Virginia Commonwealth","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:akeelah-lafleur","name":"Akeelah Lafleur","first":"Akeelah","last":"Lafleur","jersey":"22","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":null,"hometown":"Willingboro, N.J.","high_school":"Westhampton Tech","previous_school":"Fairleigh Dickinson","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:asya-lara-barnes","name":"Asya Lara Barnes","first":"Asya","last":"Lara Barnes","jersey":"15","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Istanbul, Turkey","high_school":"DME Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:masyn-marchbanks","name":"Masyn Marchbanks","first":"Masyn","last":"Marchbanks","jersey":"0","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":68,"weight":null,"hometown":"Hartselle, Ala.","high_school":"Hartselle H.S.","previous_school":"Samford","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:viki-matulevicius","name":"Viki Matulevicius","first":"Viki","last":"Matulevicius","jersey":"6","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":68,"weight":null,"hometown":"Willowbrook, Ill.","high_school":"Montini Catholic H.S.","previous_school":"South Dakota","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:keyarah-rainey","name":"Keyarah Rainey","first":"Keyarah","last":"Rainey","jersey":"23","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Woodbridge, Va.","high_school":"Osbourn Park","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nadeya-regala","name":"Nadeya Regala","first":"Nadeya","last":"Regala","jersey":"3","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":69,"weight":null,"hometown":"Waldorf, Md.","high_school":"Elizabeth Seton H.S.","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ava-renninger","name":"Ava Renninger","first":"Ava","last":"Renninger","jersey":"4","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":66,"weight":null,"hometown":"Yardley, Pa.","high_school":"Archbishop Wood","previous_school":"Fairleigh Dickinson","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:thalia-shepard","name":"Thalia Shepard","first":"Thalia","last":"Shepard","jersey":"11","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":null,"hometown":"Boston, Mass.","high_school":"St. Andrew's School","previous_school":"Merrimack","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jillian-watson","name":"Jillian Watson","first":"Jillian","last":"Watson","jersey":"8","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":67,"weight":null,"hometown":"Chesterfield, N.J.","high_school":"Northern Burlington H.S.","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:diamond-watters","name":"Diamond Watters","first":"Diamond","last":"Watters","jersey":"7","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Baltimore, Md.","high_school":"Mount Zion Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:peyton-white","name":"Peyton White","first":"Peyton","last":"White","jersey":"24","pos":"F/C","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Gainesville, Va.","high_school":"Gainesville","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:eva-wilkerson","name":"Eva Wilkerson","first":"Eva","last":"Wilkerson","jersey":"5","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Somers, N.Y.","high_school":"Sacred Heart Greenwich","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

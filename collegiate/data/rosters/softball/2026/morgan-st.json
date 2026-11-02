@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "morgan-st",
+ "host": "morganstatebears.com",
+ "platform": "sidearm_legacy",
+ "sport": "softball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://morganstatebears.com/sports/softball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:jayla-campos","name":"Jayla Campos","first":"Jayla","last":"Campos","jersey":"21","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":59,"weight":null,"hometown":"Riverside, Calif.","high_school":"Ramona HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:millie-cousins","name":"Millie Cousins","first":"Millie","last":"Cousins","jersey":"7","pos":"P/2B","class":"JR","redshirt":false,"class_raw":"Junior","height_in":65,"weight":null,"hometown":"Sydney, Australia","high_school":"St. John Paull II Catholic College","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gianna-ettore","name":"Gianna Ettore","first":"Gianna","last":"Ettore","jersey":"12","pos":"INF","class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Blackwood, N.J.","high_school":"Clayton HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:olivia-garner","name":"Olivia Garner","first":"Olivia","last":"Garner","jersey":"28","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":66,"weight":null,"hometown":"West Chester, Pa.","high_school":"Bayard Rustin HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:morgan-harrell-alvarez","name":"Morgan Harrell-Alvarez","first":"Morgan","last":"Harrell-Alvarez","jersey":"17","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":66,"weight":null,"hometown":"Vineland, N.J.","high_school":"Vineland HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rylee-hyde","name":"Rylee Hyde","first":"Rylee","last":"Hyde","jersey":"15","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":63,"weight":null,"hometown":"Pasadena, Md.","high_school":"Chesapeake HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dejah-jones","name":"Dejah Jones","first":"Dejah","last":"Jones","jersey":"2","pos":null,"class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":null,"weight":null,"hometown":null,"high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alison-keener","name":"Alison Keener","first":"Alison","last":"Keener","jersey":"98","pos":"C","class":"SR","redshirt":false,"class_raw":"Senior","height_in":66,"weight":null,"hometown":"Nanticoke, Pa.","high_school":"Greater Nanticoke Area HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nia-lewis","name":"Nia Lewis","first":"Nia","last":"Lewis","jersey":"1","pos":"OF/1B","class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":null,"hometown":"Naperville, Ill.","high_school":"Metea Valley HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tonya-marks","name":"Tonya Marks","first":"Tonya","last":"Marks","jersey":"13","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Whitehall, Md.","high_school":"North Hartford HS","previous_school":"Harford Community College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hunter-newman","name":"Hunter Newman","first":"Hunter","last":"Newman","jersey":"23","pos":"3B","class":"JR","redshirt":false,"class_raw":"Junior","height_in":65,"weight":null,"hometown":"New Castle, Pa.","high_school":"Neshannock HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:denver-obermeyer","name":"Denver Obermeyer","first":"Denver","last":"Obermeyer","jersey":"14","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Northfield, N.J.","high_school":"Mainland Regional HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:olivia-pagano","name":"Olivia Pagano","first":"Olivia","last":"Pagano","jersey":"0","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":67,"weight":null,"hometown":"Staten Island, N.Y.","high_school":"Notre Dame Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:serena-rodriguez","name":"Serena Rodriguez","first":"Serena","last":"Rodriguez","jersey":"3","pos":"P/OF","class":"JR","redshirt":false,"class_raw":"Junior","height_in":66,"weight":null,"hometown":"Simi Valley, Calif.","high_school":"Simi Valley HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cassie-white","name":"Cassie White","first":"Cassie","last":"White","jersey":"4","pos":"OF","class":"SR","redshirt":false,"class_raw":"Senior","height_in":60,"weight":null,"hometown":"Clayton, N.J.","high_school":"Clayton HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

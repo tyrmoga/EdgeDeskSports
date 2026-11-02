@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "detroit",
+ "host": "detroittitans.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://detroittitans.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:keaton-aldridge-jr-","name":"Keaton Aldridge Jr.","first":"Keaton","last":"Aldridge Jr.","jersey":"23","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":210,"hometown":"Indianapolis, Ind.","high_school":"Cathedral","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jordan-briggs","name":"Jordan Briggs","first":"Jordan","last":"Briggs","jersey":"4","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":175,"hometown":"Muskegon, Mich.","high_school":"Muskegon (Wayne State)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ayden-carter","name":"Ayden Carter","first":"Ayden","last":"Carter","jersey":"7","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":210,"hometown":"Fremont, Ohio","high_school":"Fremont Ross (Walsh)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:je-kel-cotton","name":"Je'kel Cotton","first":"Je'kel","last":"Cotton","jersey":"2","pos":"G/F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":210,"hometown":"Lima, Ohio","high_school":"Lima Senior","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dante-favor","name":"Dante Favor","first":"Dante","last":"Favor","jersey":"30","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":230,"hometown":"Canton, Mich.","high_school":"Canton (Spring Arbor)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:greg-grays-jr-","name":"Greg Grays Jr.","first":"Greg","last":"Grays Jr.","jersey":"5","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":200,"hometown":"Detroit, Mich.","high_school":"Brother Rice","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chance-houser","name":"Chance Houser","first":"Chance","last":"Houser","jersey":"9","pos":"F/G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":190,"hometown":"Detroit, Mich.","high_school":"Mumford","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:xavier-istomin-monroe","name":"Xavier Istomin-Monroe","first":"Xavier","last":"Istomin-Monroe","jersey":"6","pos":"C","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":85,"weight":235,"hometown":"Sydney, Australia","high_school":"Royal Crown Academic School (Canada)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:london-maiden","name":"London Maiden","first":"London","last":"Maiden","jersey":"20","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":250,"hometown":"Cleveland, Ohio","high_school":"Richmond Heights (Blinn College)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:james-martin","name":"James Martin","first":"James","last":"Martin","jersey":"10","pos":"G/F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":185,"hometown":"Muskegon, Mich.","high_school":"Muskegon","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tyler-owens","name":"Tyler Owens","first":"Tyler","last":"Owens","jersey":"13","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":82,"weight":230,"hometown":"Goshen, Ohio","high_school":"Goshen","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:el-as-p-lsson","name":"Elías Pálsson","first":"Elías","last":"Pálsson","jersey":"8","pos":"G/F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":200,"hometown":"Njardvik, Iceland","high_school":"Njardvik (Augusta)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:vladyslav-semerych","name":"Vladyslav Semerych","first":"Vladyslav","last":"Semerych","jersey":"15","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":210,"hometown":"Plavni, Ukraine","high_school":"Cherkassy (Indian Hills CC)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tyler-spratt","name":"Tyler Spratt","first":"Tyler","last":"Spratt","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":210,"hometown":"Farmington Hills, Mich.","high_school":"North Farmington (Cleveland State)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lance-stone","name":"Lance Stone","first":"Lance","last":"Stone","jersey":"11","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":160,"hometown":"Detroit, Mich.","high_school":"Renaissance","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

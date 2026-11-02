@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "mt-st-marys",
+ "host": "mountathletics.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://mountathletics.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:justin-amadi","name":"Justin Amadi","first":"Justin","last":"Amadi","jersey":"11","pos":null,"class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":79,"weight":225,"hometown":"Greenville, S.C.","high_school":"Paul M. Dorman","previous_school":"Tulsa","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anthony-arrington-jr-","name":"Anthony Arrington Jr.","first":"Anthony","last":"Arrington Jr.","jersey":"30","pos":null,"class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":74,"weight":190,"hometown":"Atlanta, GA","high_school":"The Galloway School","previous_school":"Wofford","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trey-deveaux","name":"Trey Deveaux","first":"Trey","last":"Deveaux","jersey":"5","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":77,"weight":205,"hometown":"Lincoln, Neb.","high_school":"Norris","previous_school":"Western Illinois","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:yakhya-diop","name":"Yakhya Diop","first":"Yakhya","last":"Diop","jersey":"23","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":84,"weight":220,"hometown":"Dakar, Senegal","high_school":"NBA Academy Africa","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elijah-espinosa","name":"Elijah Espinosa","first":"Elijah","last":"Espinosa","jersey":"7","pos":null,"class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":81,"weight":200,"hometown":"Etters, Pa.","high_school":"Red Land","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:patrick-haigh","name":"Patrick Haigh","first":"Patrick","last":"Haigh","jersey":"10","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":190,"hometown":"Altoona, Pa.","high_school":"Bishop Guilfoyle","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaxon-hartman","name":"Jaxon Hartman","first":"Jaxon","last":"Hartman","jersey":"6","pos":null,"class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":75,"weight":195,"hometown":"Staunton, VA","high_school":"Miller School of Albemarle","previous_school":"West Virginia Wesleyan","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:arlandus-keyes","name":"Arlandus Keyes","first":"Arlandus","last":"Keyes","jersey":"2","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":173,"hometown":"Florissant, Mo.","high_school":"Abeka Academy","previous_school":"Ellsworth Community College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:abdou-khadre-k-b-","name":"Abdou Khadre Kébé","first":"Abdou","last":"Khadre Kébé","jersey":"9","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":190,"hometown":"Dakar, Senegal","high_school":"Seed Academy","previous_school":"NBA Academy Latin America","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:xavier-lipscomb","name":"Xavier Lipscomb","first":"Xavier","last":"Lipscomb","jersey":"45","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":74,"weight":195,"hometown":"Washington, D.C.","high_school":"St. Stephen's & St. Agnes School","previous_school":"Radford","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:justin-may","name":"Justin May","first":"Justin","last":"May","jersey":"8","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":185,"hometown":"Little Rock, Ark.","high_school":"eStem Public Charter School","previous_school":"Link Academy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:luke-mceldon","name":"Luke McEldon","first":"Luke","last":"McEldon","jersey":"21","pos":null,"class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":82,"weight":255,"hometown":"London, England","high_school":"Cushing Academy (Mass.)","previous_school":"Santa Clara","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:john-miller-iv","name":"John Miller IV","first":"John","last":"Miller IV","jersey":"3","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":73,"weight":195,"hometown":"Eldersburg, Md.","high_school":"Marriotts Ridge","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:noah-rogers","name":"Noah Rogers","first":"Noah","last":"Rogers","jersey":"22","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":175,"hometown":"Waldorf, MD","high_school":"St. Mary's Ryken","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anastasios-rozakeas","name":"Anastasios Rozakeas","first":"Anastasios","last":"Rozakeas","jersey":"1","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":225,"hometown":"Athens, Greece","high_school":"Lyceum","previous_school":"Florida State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mason-so","name":"Mason So","first":"Mason","last":"So","jersey":"4","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":180,"hometown":"Burke, VA","high_school":"DeMatha Catholic","previous_school":"UNC Greensboro","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

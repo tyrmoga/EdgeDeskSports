@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "houston-christian",
+ "host": "hbuhuskies.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://hbuhuskies.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:max-alexander","name":"Max Alexander","first":"Max","last":"Alexander","jersey":"1","pos":"PG","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":72,"weight":193,"hometown":"McPherson, Kansas","high_school":"Buhler","previous_school":"Pittsburg State / Northwestern Oklahoma State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bubz-alvarez","name":"Bubz Alvarez","first":"Bubz","last":"Alvarez","jersey":"12","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":193,"hometown":"Houston, Texas","high_school":"Heights","previous_school":"South Dakota State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:king-anderson","name":"King Anderson","first":"King","last":"Anderson","jersey":"30","pos":"PG","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":185,"hometown":"Houston, Texas","high_school":"Westbury","previous_school":"IMG Academy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kam-clark","name":"Kam Clark","first":"Kam","last":"Clark","jersey":"2","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":191,"hometown":"Memphis, Tennessee","high_school":"Houston","previous_school":"Cleveland State CC / Itawamba CC / Queens U","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:malone-gros","name":"Malone Gros","first":"Malone","last":"Gros","jersey":"33","pos":"PG","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":195,"hometown":"Le Taillan-Medoc, France","high_school":"Lycee Albert 1 / Hoosac School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kris-keinys","name":"Kris Keinys","first":"Kris","last":"Keinys","jersey":"8","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":217,"hometown":"Klaipeda, Lithuania","high_school":"Vytauto Didziojo Gimnazija","previous_school":"Minnesota / Pacific","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mambourou-mara","name":"Mambourou Mara","first":"Mambourou","last":"Mara","jersey":"21","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":217,"hometown":"Conakry, Guinea","high_school":"Royal Crown Academic School","previous_school":"North Dakota","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aiden-miller","name":"Aiden Miller","first":"Aiden","last":"Miller","jersey":"23","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":219,"hometown":"Austin, Texas","high_school":"Prestige Prep","previous_school":"Point Park / IU-Indy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chris-mubiru","name":"Chris Mubiru","first":"Chris","last":"Mubiru","jersey":"11","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":213,"hometown":"Philadelphia, Pennsylvania","high_school":"West Oaks Academy","previous_school":"Northwestern State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jonas-nichols","name":"Jonas Nichols","first":"Jonas","last":"Nichols","jersey":"0","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":217,"hometown":"Akron, Ohio","high_school":"Archbishop Hoban","previous_school":"Kent State / NW Florida State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jordan-pape","name":"Jordan Pape","first":"Jordan","last":"Pape","jersey":"34","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":202,"hometown":"Houston, Texas","high_school":"Cypress Ranch","previous_school":"William Penn","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:esyah-pippa-white","name":"Esyah Pippa-White","first":"Esyah","last":"Pippa-White","jersey":"24","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":171,"hometown":"Portland, Oregon","high_school":"Gresham","previous_school":"Odessa College / Milwaukee","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ibrahima-sacko","name":"Ibrahima Sacko","first":"Ibrahima","last":"Sacko","jersey":"7","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":248,"hometown":"Conakry, Guinea","high_school":"J. Adison School","previous_school":"Georgia Tech / New Mexico / New Mexico Highlands","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:d-aundre-samuels","name":"D'Aundre Samuels","first":"D'Aundre","last":"Samuels","jersey":"5","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":181,"hometown":"Denver, Colorado","high_school":"East","previous_school":"Nebraska-Kearney","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:shawn-simmons-ii","name":"Shawn Simmons II","first":"Shawn","last":"Simmons II","jersey":"13","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":205,"hometown":"Philadelphia, Pennsylvania","high_school":"Hillcrest Prep","previous_school":"Saint Joseph's / U Mass Lowell","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

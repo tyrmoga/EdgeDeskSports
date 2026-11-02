@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "portland",
+ "host": "portlandpilots.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://portlandpilots.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:hunter-adam","name":"Hunter Adam","first":"Hunter","last":"Adam","jersey":"12","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":225,"hometown":"Christchurch, New Zealand","high_school":"Christs College of Canterbury / Davidson","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:carlin-briggs","name":"Carlin Briggs","first":"Carlin","last":"Briggs","jersey":"9","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":79,"weight":190,"hometown":"Melbourne, Australia","high_school":"Australia Centre of Excellence","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dante-censori-hercules","name":"Dante Censori-Hercules","first":"Dante","last":"Censori-Hercules","jersey":"5","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":190,"hometown":"Toronto, Ontario, Canada","high_school":"Hodan Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:austin-foxwell","name":"Austin Foxwell","first":"Austin","last":"Foxwell","jersey":"15","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":175,"hometown":"Melbourne, Australia","high_school":"Rowville","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:timo-george","name":"Timo George","first":"Timo","last":"George","jersey":"3","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":245,"hometown":"Amsterdam, Netherlands","high_school":"IMG Academy (Fla.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kaia-isaac","name":"Kaia Isaac","first":"Kaia","last":"Isaac","jersey":"6","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":215,"hometown":"Christchurch, New Zealand","high_school":"Hunter Sports High / Tarleton State","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dylan-moran","name":"Dylan Moran","first":"Dylan","last":"Moran","jersey":"23","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":170,"hometown":"Los Angeles, Calif.","high_school":"Chaminade HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:marchelo-moreira","name":"Marchelo Moreira","first":"Marchelo","last":"Moreira","jersey":"13","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":75,"weight":190,"hometown":"Abu Dhabi, UAE","high_school":"IMG Academy (Fla.) / Allegheny College (Pa.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rj-nance-jr-","name":"RJ Nance Jr.","first":"RJ","last":"Nance Jr.","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":180,"hometown":"Las Vegas, Nev.","high_school":"Centennial HS / UTRGV / New Mexico JC","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:james-o-donnell","name":"James O'Donnell","first":"James","last":"O'Donnell","jersey":"14","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":82,"weight":230,"hometown":"Sydney, Australia","high_school":"Centre of Excellence/San Francisco","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaxon-olvera","name":"Jaxon Olvera","first":"Jaxon","last":"Olvera","jersey":"10","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":190,"hometown":"New Caney, Texas","high_school":"Dynamic Prep / Pepperdine / Louisiana","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:riley-parker","name":"Riley Parker","first":"Riley","last":"Parker","jersey":"11","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":74,"weight":195,"hometown":"Mandurah, Australia","high_school":"Mandurah Catholic/Cochise College/St. Francis (PA)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:vito-perkovic","name":"Vito Perkovic","first":"Vito","last":"Perkovic","jersey":"2","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":82,"weight":250,"hometown":"Zadar, Croatia","high_school":"Hamilton Heights Christian Academy (TN) / East Carolina","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:henry-sewell","name":"Henry Sewell","first":"Henry","last":"Sewell","jersey":"32","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":82,"weight":200,"hometown":"Melbourne, Australia","high_school":"Camberwell Grammar School / De La Salle","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:omer-sukur","name":"Omer Sukur","first":"Omer","last":"Sukur","jersey":"0","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":250,"hometown":"Mountain View, Calif.","high_school":"Los Altos HS / Canada College","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

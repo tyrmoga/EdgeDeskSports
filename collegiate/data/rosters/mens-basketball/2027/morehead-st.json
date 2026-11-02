@@ -1,0 +1,30 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "morehead-st",
+ "host": "msueagles.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://msueagles.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 14,
+ "players": [
+  {"pid":"slug:dalman-alexander","name":"Dalman Alexander","first":"Dalman","last":"Alexander","jersey":"25","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":215,"hometown":"Ft. Wayne, Ind.","high_school":"Northrop HS","previous_school":"California (Pa.)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kenyata-carbon","name":"Kenyata Carbon","first":"Kenyata","last":"Carbon","jersey":"2","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":185,"hometown":"Owensboro, Ky.","high_school":"Owensboro HS","previous_school":"Lindsey Wilson (Ky.)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:davion-cunningham","name":"Davion Cunningham","first":"Davion","last":"Cunningham","jersey":"22","pos":"G","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":75,"weight":185,"hometown":"Charlotte, NC","high_school":"North Mecklenburg HS","previous_school":"USC Aiken","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chase-dawson","name":"Chase Dawson","first":"Chase","last":"Dawson","jersey":"10","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":170,"hometown":"Durham, NC","high_school":"Flight 22 Prep","previous_school":"Mount Olive (N.C.)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:vince-dawson-iii","name":"Vince Dawson III","first":"Vince","last":"Dawson III","jersey":"5","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":215,"hometown":"Georgetown, Ky.","high_school":"Great Crossing HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:izaiah-day","name":"Izaiah Day","first":"Izaiah","last":"Day","jersey":"23","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":175,"hometown":"Middletown, Ohio","high_school":"Middletown HS","previous_school":"Taylor (Ind.)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:malik-gillespie","name":"Malik Gillespie","first":"Malik","last":"Gillespie","jersey":"4","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":185,"hometown":"Warner Robins, Ga.","high_school":"Houston HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:clayton-parker","name":"Clayton Parker","first":"Clayton","last":"Parker","jersey":"33","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":230,"hometown":"Montgomery City, Mo.","high_school":"Montgomery County HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:justin-payne","name":"Justin Payne","first":"Justin","last":"Payne","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":170,"hometown":"Athens, Ga.","high_school":"North Oconee HS","previous_school":"Young Harris (Ga.)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaden-priester","name":"Jaden Priester","first":"Jaden","last":"Priester","jersey":"15","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":80,"weight":215,"hometown":"Augusta, Ga.","high_school":"Cross Creek HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kyrell-shaw","name":"Kyrell Shaw","first":"Kyrell","last":"Shaw","jersey":"7","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":175,"hometown":"Charlotte, N.C.","high_school":"Northside Christian Academy","previous_school":"Hutchinson (Kan.) CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tayvion-tangiora","name":"Tayvion Tangiora","first":"Tayvion","last":"Tangiora","jersey":"42","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":190,"hometown":"Swansboro, N.C.","high_school":"Swansboro HS","previous_school":"Davidson-Davie (N.C.)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jace-winkleman","name":"Jace Winkleman","first":"Jace","last":"Winkleman","jersey":"12","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":75,"weight":170,"hometown":"Morehead, Ky.","high_school":"Rowan County Senior HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jarvis-wright","name":"Jarvis Wright","first":"Jarvis","last":"Wright","jersey":"11","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":73,"weight":185,"hometown":"Folkston, Ga.","high_school":"Ware County HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

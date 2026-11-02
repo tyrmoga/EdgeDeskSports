@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "le-moyne",
+ "host": "lemoynedolphins.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://lemoynedolphins.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:isaiah-brown","name":"Isaiah Brown","first":"Isaiah","last":"Brown","jersey":"3","pos":"Forward","class":null,"redshirt":false,"class_raw":"3rd Year","height_in":78,"weight":170,"hometown":"Olentangy, Ohio","high_school":"Westerville","previous_school":"Mount Vernon Nazarene","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jeremy-clayville","name":"Jeremy Clayville","first":"Jeremy","last":"Clayville","jersey":"4","pos":"Guard","class":null,"redshirt":false,"class_raw":"3rd Year","height_in":73,"weight":175,"hometown":"Ridgewood, N.J.","high_school":"Saint Joseph","previous_school":"Saint Francis/NJIT","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ty-francis","name":"Ty Francis","first":"Ty","last":"Francis","jersey":"9","pos":"Forward","class":null,"redshirt":false,"class_raw":"2nd Year","height_in":79,"weight":195,"hometown":"Brooklyn, N.Y.","high_school":"The Hotchkiss School","previous_school":"Northeastern","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hunter-frazier","name":"Hunter Frazier","first":"Hunter","last":"Frazier","jersey":"23","pos":"Forward","class":null,"redshirt":false,"class_raw":"1st Year","height_in":80,"weight":170,"hometown":"Jamaica, N.Y.","high_school":"Eagle Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:leandro-gysel","name":"Leandro Gysel","first":"Leandro","last":"Gysel","jersey":"13","pos":"Guard","class":null,"redshirt":false,"class_raw":"1st Year","height_in":74,"weight":190,"hometown":"Lausanne, Switzerland","high_school":"Gymnase de Chamblandes","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:przemek-hartman","name":"Przemek Hartman","first":"Przemek","last":"Hartman","jersey":"7","pos":"Center","class":null,"redshirt":false,"class_raw":"2nd Year","height_in":82,"weight":230,"hometown":"Gdansk, Poland","high_school":"ORPEG","previous_school":"Louisiana-Monroe","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:connor-johnson","name":"Connor Johnson","first":"Connor","last":"Johnson","jersey":"15","pos":"Forward","class":null,"redshirt":false,"class_raw":"1st Year","height_in":80,"weight":205,"hometown":"Grand Rapids, Mich.","high_school":"Grand Rapids Christian","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:damien-king","name":"Damien King","first":"Damien","last":"King","jersey":"1","pos":"Guard","class":null,"redshirt":false,"class_raw":"2nd Year","height_in":76,"weight":200,"hometown":"Anderson, Ind.","high_school":"Anderson","previous_school":"UT Martin","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:josiah-lee","name":"Josiah Lee","first":"Josiah","last":"Lee","jersey":"11","pos":"Guard","class":null,"redshirt":false,"class_raw":"2nd Year","height_in":74,"weight":165,"hometown":"Snohomish, Wash.","high_school":"Glacier Peak","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trevor-roe","name":"Trevor Roe","first":"Trevor","last":"Roe","jersey":"5","pos":"Forward","class":null,"redshirt":false,"class_raw":"4th Year","height_in":81,"weight":210,"hometown":"Syracuse, N.Y.","high_school":"Fayetteville-Manlius","previous_school":"Radford","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cullen-schreiner","name":"Cullen Schreiner","first":"Cullen","last":"Schreiner","jersey":"21","pos":"Forward","class":null,"redshirt":false,"class_raw":"2nd Year","height_in":79,"weight":205,"hometown":"Phoenix, Ariz.","high_school":"Basha","previous_school":"Georgia Southern","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kaden-stuckey","name":"Kaden Stuckey","first":"Kaden","last":"Stuckey","jersey":"12","pos":"Forward","class":null,"redshirt":false,"class_raw":"3rd Year","height_in":80,"weight":230,"hometown":"Buffalo, N.Y.","high_school":"Orangeville Prep","previous_school":"VMI","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jayden-teat","name":"Jayden Teat","first":"Jayden","last":"Teat","jersey":"24","pos":"Guard","class":null,"redshirt":false,"class_raw":"4th Year","height_in":74,"weight":190,"hometown":"Sacramento, Calif.","high_school":"Capital Christian","previous_school":"Utah/Sacramento State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:khalil-williams","name":"Khalil Williams","first":"Khalil","last":"Williams","jersey":"2","pos":"Guard","class":null,"redshirt":false,"class_raw":"3rd Year","height_in":77,"weight":190,"hometown":"Washington, D.C.","high_school":"Potomac","previous_school":"Hargrave Military Academy/Bryant","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kole-williams","name":"Kole Williams","first":"Kole","last":"Williams","jersey":"25","pos":"Guard","class":null,"redshirt":false,"class_raw":"3rd Year","height_in":76,"weight":220,"hometown":"Lancaster, Texas","high_school":"Carter","previous_school":"Florida International/Kilgore College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

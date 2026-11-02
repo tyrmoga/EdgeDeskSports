@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "southern-u",
+ "host": "gojagsports.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://gojagsports.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:puoch-pj-dobuol","name":"Puoch \"PJ\" Dobuol","first":"Puoch","last":"\"PJ\" Dobuol","jersey":"35","pos":"G/F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":null,"hometown":"St. Cloud, MN","high_school":"Apollo HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:malek-abdelgowad","name":"Malek Abdelgowad","first":"Malek","last":"Abdelgowad","jersey":"8","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":82,"weight":null,"hometown":"Cairo, Egypt","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cam-amboree","name":"Cam Amboree","first":"Cam","last":"Amboree","jersey":"3","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":null,"hometown":"Pearland, TX","high_school":"Shadow Creek HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aj-barnes","name":"AJ Barnes","first":"AJ","last":"Barnes","jersey":"12","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":null,"hometown":"Atlanta, GA","high_school":"Eagles Landing HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lionel-bell","name":"Lionel Bell","first":"Lionel","last":"Bell","jersey":"13","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":81,"weight":null,"hometown":"New Orleans, LA","high_school":"Booker T. Washington HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jayce-depron","name":"Jayce Depron","first":"Jayce","last":"Depron","jersey":"5","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":null,"hometown":"White Castle, LA","high_school":"Madison Prep HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:terrance-dixon-jr-","name":"Terrance Dixon Jr.","first":"Terrance","last":"Dixon Jr.","jersey":"23","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":null,"hometown":"Lawrenceville, Ga.","high_school":"Bella Vista Prep HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brandon-hardy","name":"Brandon Hardy","first":"Brandon","last":"Hardy","jersey":"4","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":null,"hometown":"Zachary, LA","high_school":"Zachary HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rondae-hill","name":"Rondae Hill","first":"Rondae","last":"Hill","jersey":"0","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Shreveport, LA","high_school":"Calvary Baptist Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:michael-jacobs","name":"Michael Jacobs","first":"Michael","last":"Jacobs","jersey":"10","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"Atlanta, GA","high_school":"McEachern HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:damariee-jones","name":"DaMariee Jones","first":"DaMariee","last":"Jones","jersey":"1","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":null,"hometown":"Bessemer, AL","high_school":"Midfield HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ashton-magee","name":"Ashton Magee","first":"Ashton","last":"Magee","jersey":"24","pos":"G/F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":null,"hometown":"Laurel, MS","high_school":"South Jones HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:joe-manning","name":"Joe Manning","first":"Joe","last":"Manning","jersey":"2","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"Bossier, LA","high_school":"Bossier HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:andre-nunley","name":"Andre Nunley","first":"Andre","last":"Nunley","jersey":"9","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":70,"weight":null,"hometown":"Euless, TX","high_school":"Trinity HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:femi-olaniyan","name":"Femi Olaniyan","first":"Femi","last":"Olaniyan","jersey":"7","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":null,"hometown":"Allen, TX","high_school":"Allen HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:fazl-oshodi","name":"Fazl Oshodi","first":"Fazl","last":"Oshodi","jersey":"14","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":null,"hometown":"Swedesboro, NJ","high_school":"Friends Central HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trey-shephard","name":"Trey Shephard","first":"Trey","last":"Shephard","jersey":"6","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":null,"hometown":"Atlanta, GA","high_school":"Quality Education Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

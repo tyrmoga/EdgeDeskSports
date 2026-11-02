@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "west-florida",
+ "host": "goargos.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://goargos.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:zac-clarke","name":"Zac Clarke","first":"Zac","last":"Clarke","jersey":"14","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":72,"weight":170,"hometown":"Pensacola, Fla.","high_school":"Pensacola","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aric-demings","name":"Aric Demings","first":"Aric","last":"Demings","jersey":"7","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":180,"hometown":"DeSoto, Tex.","high_school":null,"previous_school":"Monmouth","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tim-hall-jr","name":"Tim Hall Jr","first":"Tim","last":"Hall Jr","jersey":"0","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":205,"hometown":"Charlotte, N.C.","high_school":"Westminster Catawba Christian School","previous_school":"Georgia Southwestern","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anthony-igiede","name":"Anthony Igiede","first":"Anthony","last":"Igiede","jersey":"24","pos":"W","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":77,"weight":200,"hometown":"Baton Rouge, Lou.","high_school":null,"previous_school":"Southern Arkansas","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jay-king","name":"Jay King","first":"Jay","last":"King","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":185,"hometown":"Macon, Ga.","high_school":"First Presbyterian Day School","previous_school":"Tallahassee State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:shahar-lazar","name":"Shahar Lazar","first":"Shahar","last":"Lazar","jersey":"10","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":75,"weight":215,"hometown":"Emunim, Israel","high_school":null,"previous_school":"Gardner Webb","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:colby-mcallister","name":"Colby McAllister","first":"Colby","last":"McAllister","jersey":"12","pos":"W","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":77,"weight":200,"hometown":"Spanish Fort, Ala.","high_school":null,"previous_school":"Citadel","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:christian-monroe","name":"Christian Monroe","first":"Christian","last":"Monroe","jersey":"21","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":200,"hometown":"Mooresville, N.C.","high_school":"Southlake Christian Academy","previous_school":"Erskine","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:makhaya-moore","name":"Makhaya Moore","first":"Makhaya","last":"Moore","jersey":"34","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":210,"hometown":"St. Michael, Barbados","high_school":null,"previous_school":"Western Texas","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ryan-payne","name":"Ryan Payne","first":"Ryan","last":"Payne","jersey":"11","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":200,"hometown":"Pocatello, Idaho","high_school":null,"previous_school":"Northeastern JC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hutson-rowe","name":"Hutson Rowe","first":"Hutson","last":"Rowe","jersey":"2","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":175,"hometown":"Gulf Breeze, Fla.","high_school":"Gulf Breeze High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sano-rutatika","name":"Sano Rutatika","first":"Sano","last":"Rutatika","jersey":"23","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":81,"weight":230,"hometown":"Kigali, Rwanda","high_school":"Lake Forest Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jordan-samuel","name":"Jordan Samuel","first":"Jordan","last":"Samuel","jersey":"5","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":210,"hometown":"Atlanta, Ga.","high_school":"Winder-Barrow High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:andrew-sineway","name":"Andrew Sineway","first":"Andrew","last":"Sineway","jersey":"3","pos":"W","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":79,"weight":205,"hometown":"Boynton Beach, Fla.","high_school":null,"previous_school":"High Point","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:christian-valarezo","name":"Christian Valarezo","first":"Christian","last":"Valarezo","jersey":"32","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":195,"hometown":"Milton, Fla.","high_school":"Milton High School","previous_school":"Gulf Coast State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elijah-wyche","name":"Elijah Wyche","first":"Elijah","last":"Wyche","jersey":"4","pos":"G/F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":205,"hometown":"Fort Lauderdale, Fla.","high_school":null,"previous_school":"Pensacola State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

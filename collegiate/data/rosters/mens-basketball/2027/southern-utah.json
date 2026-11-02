@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "southern-utah",
+ "host": "suutbirds.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://suutbirds.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:cale-barclay","name":"Cale Barclay","first":"Cale","last":"Barclay","jersey":"24","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":null,"hometown":"Herriman, Utah","high_school":"Herriman High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anthony-breland","name":"Anthony Breland","first":"Anthony","last":"Breland","jersey":"22","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Newton, North Carolina","high_school":"Charlotte Elite Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jordan-brown","name":"Jordan Brown","first":"Jordan","last":"Brown","jersey":"10","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Atlanta, Georgia","high_school":"Pebblebrook High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rashaad-davis","name":"Rashaad Davis","first":"Rashaad","last":"Davis","jersey":"3","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Milwaukee, Wisconsin","high_school":"Nicolet High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chase-degraffenried","name":"Chase Degraffenried","first":"Chase","last":"Degraffenried","jersey":"33","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":null,"hometown":"Salem, Utah","high_school":"Salem Hills High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaiden-feroah","name":"Jaiden Feroah","first":"Jaiden","last":"Feroah","jersey":"35","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":81,"weight":null,"hometown":"Draper, Utah","high_school":"Corner Canyon High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dezhon-hall","name":"DeZhon Hall","first":"DeZhon","last":"Hall","jersey":"2","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":null,"hometown":"Fishers, Indiana","high_school":"Crispus Attucks High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brayden-johnson","name":"Brayden Johnson","first":"Brayden","last":"Johnson","jersey":"0","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Tulsa, Oklahoma","high_school":"Broken Arrow High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zeplin-kidd","name":"Zeplin Kidd","first":"Zeplin","last":"Kidd","jersey":"4","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":null,"hometown":"Atlanta, Georgia","high_school":"King's Ridge High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jajuan-nicholls","name":"Jajuan Nicholls","first":"Jajuan","last":"Nicholls","jersey":"7","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":null,"hometown":"Scranton, Pennsylvania","high_school":"NC GBB High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jalik-nicholls","name":"Jalik Nicholls","first":"Jalik","last":"Nicholls","jersey":"1","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":null,"hometown":"Scranton, Pennsylvania","high_school":"NC GBB High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mikhail-protsenko","name":"Mikhail Protsenko","first":"Mikhail","last":"Protsenko","jersey":"32","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":85,"weight":null,"hometown":"Belgorod, Russia","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:juok-riak","name":"Juok Riak","first":"Juok","last":"Riak","jersey":"11","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":null,"hometown":"Madison, Wisconsin","high_school":"Madison La Follette High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dylan-sanders","name":"Dylan Sanders","first":"Dylan","last":"Sanders","jersey":"5","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":null,"hometown":"Aurora, Colorado","high_school":"Colorado Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dj-smith","name":"DJ Smith","first":"DJ","last":"Smith","jersey":"6","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":82,"weight":null,"hometown":"Dallas, Texas","high_school":"Albuquerque Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

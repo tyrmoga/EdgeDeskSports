@@ -1,0 +1,30 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "niagara",
+ "host": "purpleeagles.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://purpleeagles.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 14,
+ "players": [
+  {"pid":"slug:brian-angeletti","name":"Brian Angeletti","first":"Brian","last":"Angeletti","jersey":"12","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":null,"hometown":"Vimercate, Italy","high_school":null,"previous_school":"Emporio Armani Milan","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tae-blackshear","name":"Tae Blackshear","first":"Tae","last":"Blackshear","jersey":"77","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":null,"hometown":"Atlanta, GA","high_school":null,"previous_school":"Youngstown State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gael-dalmau","name":"Gael Dalmau","first":"Gael","last":"Dalmau","jersey":"9","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":null,"hometown":"Guaynabo, Puerto Rico","high_school":null,"previous_school":"Prestige Worldwide Sports Academy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:daniel-emokhare","name":"Daniel Emokhare","first":"Daniel","last":"Emokhare","jersey":"24","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":null,"hometown":"Reggio Emilia, Italy","high_school":"Reggio Emilia","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cole-farrell","name":"Cole Farrell","first":"Cole","last":"Farrell","jersey":"10","pos":"G","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":77,"weight":null,"hometown":"St. Louis, MO","high_school":null,"previous_school":"Long Beach State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:samuele-miccoli","name":"Samuele Miccoli","first":"Samuele","last":"Miccoli","jersey":"13","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":null,"hometown":"Chieti, Italy","high_school":null,"previous_school":"Crifo Wines Rivo di Puglia","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jackson-redmond","name":"Jackson Redmond","first":"Jackson","last":"Redmond","jersey":"7","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":null,"hometown":"Starkville, MS","high_school":null,"previous_school":"East Mississippi Community College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bastien-rieber","name":"Bastien Rieber","first":"Bastien","last":"Rieber","jersey":"8","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Riedisheim, France","high_school":null,"previous_school":"Fresno State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:fidel-rotta","name":"Fidel Rotta","first":"Fidel","last":"Rotta","jersey":"5","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":81,"weight":null,"hometown":"Ezeiza, Argentina","high_school":"Boca Juniors","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ruey-ruey","name":"Ruey Ruey","first":"Ruey","last":"Ruey","jersey":"0","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":null,"hometown":"Ottawa, Ontario","high_school":"Massanutten Military Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:noah-slingerland","name":"Noah Slingerland","first":"Noah","last":"Slingerland","jersey":"6","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":null,"hometown":"The Hague, Netherlands","high_school":null,"previous_school":"Rotterdam City","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:vukasin-todorovic","name":"Vukasin Todorovic","first":"Vukasin","last":"Todorovic","jersey":"1","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":null,"hometown":"Ljubljana, Slovenia","high_school":null,"previous_school":"Green Bay","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trenton-walters","name":"Trenton Walters","first":"Trenton","last":"Walters","jersey":"2","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":null,"hometown":"Frisco, TX","high_school":null,"previous_school":"Indian Hills","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:logan-woods","name":"Logan Woods","first":"Logan","last":"Woods","jersey":"4","pos":"G","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":77,"weight":null,"hometown":"Cincinnati, OH","high_school":null,"previous_school":"Wright State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

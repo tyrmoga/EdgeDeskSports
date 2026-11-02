@@ -1,0 +1,30 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "nevada",
+ "host": "nevadawolfpack.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://nevadawolfpack.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 14,
+ "players": [
+  {"pid":"slug:peter-bandelj","name":"Peter Bandelj","first":"Peter","last":"Bandelj","jersey":"9","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":null,"hometown":"Ljubljana, Slovenia","high_school":"Royal Crown Academy (Canada)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tj-coulter","name":"TJ Coulter","first":"TJ","last":"Coulter","jersey":"6","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":null,"hometown":"Sparks, Nev.","high_school":"Reed HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:keyon-kensie-jr-","name":"Keyon Kensie Jr.","first":"Keyon","last":"Kensie Jr.","jersey":"8","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":null,"hometown":"Los Angeles, Calif.","high_school":"Taft High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cedric-lath","name":"Cedric Lath","first":"Cedric","last":"Lath","jersey":"34","pos":null,"class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":82,"weight":null,"hometown":"Abidjan, Ivory Coast","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hudson-lucas","name":"Hudson Lucas","first":"Hudson","last":"Lucas","jersey":"11","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":81,"weight":null,"hometown":"Dallas, Texas","high_school":"Dallas Parrish Episcopal","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sj-madison","name":"SJ Madison","first":"SJ","last":"Madison","jersey":"15","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":null,"hometown":"Los Angeles, Calif.","high_school":"Redondo Union HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:simon-majok","name":"Simon Majok","first":"Simon","last":"Majok","jersey":"0","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":85,"weight":null,"hometown":"Akak, South Sudan","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:john-mattingly","name":"John Mattingly","first":"John","last":"Mattingly","jersey":"35","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Phoenix, Ariz.","high_school":"Central HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:styles-phipps","name":"Styles Phipps","first":"Styles","last":"Phipps","jersey":"1","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Phoenix, Ariz.","high_school":"Saint Mary’s Catholic HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elijah-price","name":"Elijah Price","first":"Elijah","last":"Price","jersey":"3","pos":null,"class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":81,"weight":null,"hometown":"Long Beach, Calif.","high_school":"St. Anthony's High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kade-snyder","name":"Kade Snyder","first":"Kade","last":"Snyder","jersey":"13","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":null,"hometown":"Reno, Nev.","high_school":"Bishop Manogue HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:myles-walker","name":"Myles Walker","first":"Myles","last":"Walker","jersey":"2","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Riverside, Calif.","high_school":"Eleanor Roosevelt High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:vaughn-weems","name":"Vaughn Weems","first":"Vaughn","last":"Weems","jersey":"7","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":null,"hometown":"Federal Way, Wa.","high_school":"Federal Way High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:peyton-white","name":"Peyton White","first":"Peyton","last":"White","jersey":"17","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":null,"hometown":"Thousand Oaks, Calif.","high_school":"Crespi High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "texas-southern",
+ "host": "athletics.tsu.edu",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://athletics.tsu.edu/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 13,
+ "players": [
+  {"pid":"slug:josh-akpovwa","name":"Josh Akpovwa","first":"Josh","last":"Akpovwa","jersey":"35","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":81,"weight":270,"hometown":"Houston, Texas","high_school":null,"previous_school":"Incarnate Word","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:karris-bilal","name":"Karris Bilal","first":"Karris","last":"Bilal","jersey":"3","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":75,"weight":190,"hometown":"Atlanta, Ga.","high_school":null,"previous_school":"Louisiana","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:josh-farmer","name":"Josh Farmer","first":"Josh","last":"Farmer","jersey":"4","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":82,"weight":200,"hometown":"Houston, Texas","high_school":null,"previous_school":"UTSA","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kehlin-farooq","name":"Kehlin Farooq","first":"Kehlin","last":"Farooq","jersey":"32","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":78,"weight":196,"hometown":"Houston, Texas","high_school":null,"previous_school":"Hampton","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jordan-gorecki","name":"Jordan Gorecki","first":"Jordan","last":"Gorecki","jersey":"34","pos":"C","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":82,"weight":260,"hometown":"Markham, Ontario","high_school":null,"previous_school":"Northern Illinois","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jason-kimbrough","name":"Jason Kimbrough","first":"Jason","last":"Kimbrough","jersey":"1","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":170,"hometown":"Maricopa, Ariz.","high_school":null,"previous_school":"Bowling Green","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trey-lewis","name":"Trey Lewis","first":"Trey","last":"Lewis","jersey":"12","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":185,"hometown":"Harlem, N.Y.","high_school":null,"previous_school":"Roselle Catholic","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ahmed-nedal","name":"Ahmed Nedal","first":"Ahmed","last":"Nedal","jersey":"7","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":210,"hometown":"Cairo, Egypt","high_school":null,"previous_school":"NBA Academy Africa","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cameron-patterson","name":"Cameron Patterson","first":"Cameron","last":"Patterson","jersey":"11","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":77,"weight":180,"hometown":"Houston, Texas","high_school":null,"previous_school":"San Jose State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sayed-sayed","name":"Sayed Sayed","first":"Sayed","last":"Sayed","jersey":"2","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":196,"hometown":"Edmonton, Canada","high_school":null,"previous_school":"Gillette College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ben-vungo","name":"Ben Vungo","first":"Ben","last":"Vungo","jersey":"5","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":215,"hometown":"Lunda Norte, Angola","high_school":null,"previous_school":"Jacksonville State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaylan-walton","name":"Jaylan Walton","first":"Jaylan","last":"Walton","jersey":"0","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":74,"weight":180,"hometown":"Fresno, Calif.","high_school":null,"previous_school":"Southern Utah","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:xander-wedlow","name":"Xander Wedlow","first":"Xander","last":"Wedlow","jersey":"9","pos":"F/C","class":"JR","redshirt":false,"class_raw":"Junior","height_in":82,"weight":245,"hometown":"Detroit, Mich.","high_school":null,"previous_school":"St. Bonaventure","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

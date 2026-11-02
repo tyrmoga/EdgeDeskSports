@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "la-salle",
+ "host": "goexplorers.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://goexplorers.com/sports/womens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:ty-renisha-bowers","name":"Ty'Renisha Bowers","first":"Ty'Renisha","last":"Bowers","jersey":"21","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Natchez, LA","high_school":null,"previous_school":"SAU Tech","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ashleigh-connor","name":"Ashleigh Connor","first":"Ashleigh","last":"Connor","jersey":"15","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":71,"weight":null,"hometown":"Pittsburgh, PA","high_school":"Mount Lebanon","previous_school":"Saint Louis","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ava-hoy","name":"Ava Hoy","first":"Ava","last":"Hoy","jersey":"33","pos":"C","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":null,"hometown":"Canton, NY","high_school":"HC Williams","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sania-jenkins","name":"Sania Jenkins","first":"Sania","last":"Jenkins","jersey":"11","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Narrabeen, Australia","high_school":"Etiwanda","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aryss-macktoon","name":"Aryss Macktoon","first":"Aryss","last":"Macktoon","jersey":"0","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":71,"weight":null,"hometown":"Baltimore, MD","high_school":"St. Timothy's","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:yar-manyiel","name":"Yar Manyiel","first":"Yar","last":"Manyiel","jersey":"22","pos":"G/F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Nairobi, Kenya","high_school":"Oak Park","previous_school":"Johnson County CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jana-mbombo-njoya","name":"Jana Mbombo Njoya","first":"Jana","last":"Mbombo Njoya","jersey":"6","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Montpellier, France","high_school":"Tony Parker Adéquat Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ivona-miljanic","name":"Ivona Miljanic","first":"Ivona","last":"Miljanic","jersey":"10","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Belgrade, Serbia","high_school":"Mathematical Grammar School","previous_school":"Young Harris College | Northwestern State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:amiya-moses","name":"Amiya Moses","first":"Amiya","last":"Moses","jersey":"7","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Scarborough, Ontario","high_school":"Addison School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lauren-patnode","name":"Lauren Patnode","first":"Lauren","last":"Patnode","jersey":"3","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":72,"weight":null,"hometown":"Saratoga Springs, NY","high_school":"Perkiomen School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anna-przyszlak","name":"Anna Przyszlak","first":"Anna","last":"Przyszlak","jersey":"20","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Gdansk, Poland","high_school":null,"previous_school":"Cowley College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:joanie-quinn","name":"Joanie Quinn","first":"Joanie","last":"Quinn","jersey":"13","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Newtown Square, PA","high_school":"Cardinal O'Hara","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:diora-ressaissi","name":"Diora Ressaissi","first":"Diora","last":"Ressaissi","jersey":"8","pos":"G/F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Orlando, FL","high_school":"Long Island Lutheran","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:charity-sawyer","name":"Charity Sawyer","first":"Charity","last":"Sawyer","jersey":"25","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Philadelphia, PA","high_school":"International Christian","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:india-webb","name":"India Webb","first":"India","last":"Webb","jersey":"12","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"Philadelphia, PA","high_school":"Prepatory Charter","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kiara-williams","name":"Kiara Williams","first":"Kiara","last":"Williams","jersey":"24","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":72,"weight":null,"hometown":"Palm Bay, FL","high_school":"Palm Bay","previous_school":"Pitt","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

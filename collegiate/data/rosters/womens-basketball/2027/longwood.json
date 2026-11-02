@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "longwood",
+ "host": "longwoodlancers.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://longwoodlancers.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:alary-bell","name":"Alary Bell","first":"Alary","last":"Bell","jersey":"35","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":74,"weight":null,"hometown":"Chester, Va.","high_school":"Miller School of Albemarle","previous_school":"St. Francis (Pa.)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nal-la-bennett","name":"Nal'La Bennett","first":"Nal'La","last":"Bennett","jersey":"0","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":66,"weight":null,"hometown":"Sicklerville, N.J.","high_school":"Friends' Central School","previous_school":"Stony Brook","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lili-booker","name":"Lili Booker","first":"Lili","last":"Booker","jersey":"3","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":66,"weight":null,"hometown":"Charlotte, N.C.","high_school":"Mallard Creek","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ioana-david","name":"Ioana David","first":"Ioana","last":"David","jersey":"10","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":66,"weight":null,"hometown":"Brasov, Romania","high_school":"Ioan Mesota National College","previous_school":"Babes-Bolyai","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:laterria-green","name":"Laterria Green","first":"Laterria","last":"Green","jersey":"25","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Eastman, Ga.","high_school":"Dodge County","previous_school":"Central Georgia Tech","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:shakira-gresham","name":"Shakira Gresham","first":"Shakira","last":"Gresham","jersey":"21","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Atlanta, Ga.","high_school":"Maynard Holbrook Jackson","previous_school":"Mississippi Valley State/Northwest Florida State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:london-harvey","name":"London Harvey","first":"London","last":"Harvey","jersey":"22","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Baltimore, Md.","high_school":"Enlightium Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mckayla-hosley","name":"McKayla Hosley","first":"McKayla","last":"Hosley","jersey":"23","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Columbus, Ga.","high_school":"St. Anne-Pacelli Catholic School","previous_school":"Georgia Southern","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mckenna-hoyt","name":"McKenna Hoyt","first":"McKenna","last":"Hoyt","jersey":"33","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Stamford, N.Y.","high_school":"Stamford Central School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maddy-little","name":"Maddy Little","first":"Maddy","last":"Little","jersey":"1","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"Ithaca, N.Y.","high_school":"The Taft School (Conn.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:idaysia-mercer","name":"Idaysia Mercer","first":"Idaysia","last":"Mercer","jersey":"2","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Jasper, Ala.","high_school":"Jasper","previous_school":"Wallace State CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jesstynie-scott","name":"Jesstynie Scott","first":"Jesstynie","last":"Scott","jersey":"11","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Americus, Ga.","high_school":"Sumter County","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nalani-simmons","name":"Nalani Simmons","first":"Nalani","last":"Simmons","jersey":"20","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Chesapeake, Va.","high_school":"Deep Creek","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:samia-snead","name":"Samia Snead","first":"Samia","last":"Snead","jersey":"24","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"Woodbridge, Va.","high_school":"Osbourn Park","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kayla-washington","name":"Kayla Washington","first":"Kayla","last":"Washington","jersey":"7","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Brandywine, Md.","high_school":"Bishop Ireton","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "idaho-st",
+ "host": "isubengals.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://isubengals.com/sports/womens-volleyball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:claudia-antcliff","name":"Claudia Antcliff","first":"Claudia","last":"Antcliff","jersey":"2","pos":"DS/L","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":63,"weight":null,"hometown":"Zionsville, IN","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bella-beatty","name":"Bella Beatty","first":"Bella","last":"Beatty","jersey":"16","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Park City, UT","high_school":null,"previous_school":"Park City High School","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aspen-boice","name":"Aspen Boice","first":"Aspen","last":"Boice","jersey":"1","pos":"L","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Rexburg, ID","high_school":null,"previous_school":"Madison High School","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ava-brickner","name":"Ava Brickner","first":"Ava","last":"Brickner","jersey":"13","pos":"OH/OPP","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Boise, ID","high_school":null,"previous_school":"Timberline HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brooke-christoffersen","name":"Brooke Christoffersen","first":"Brooke","last":"Christoffersen","jersey":"10","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Alpine, UT","high_school":null,"previous_school":"Lone Peak High School","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:keilee-eskelsen","name":"Keilee Eskelsen","first":"Keilee","last":"Eskelsen","jersey":"24","pos":"OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Spokane, WA","high_school":null,"previous_school":"Central Valley HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:daelyn-harris","name":"Daelyn Harris","first":"Daelyn","last":"Harris","jersey":"22","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Boise, ID","high_school":null,"previous_school":"Centennial HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tana-howard","name":"Tana Howard","first":"Tana","last":"Howard","jersey":"8","pos":"OPP/S","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Gilbert, AZ","high_school":null,"previous_school":"American Leadership Academy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kadence-marsh","name":"Kadence Marsh","first":"Kadence","last":"Marsh","jersey":"18","pos":"S","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Windsor, CO","high_school":null,"previous_school":"Windsor HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:abby-mcclain","name":"Abby McClain","first":"Abby","last":"McClain","jersey":"3","pos":"OH/OPP","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Twins Falls, ID","high_school":null,"previous_school":"Canyon Ridge HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ashlyn-smith","name":"Ashlyn Smith","first":"Ashlyn","last":"Smith","jersey":"11","pos":"MB","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Chubbuck, ID","high_school":null,"previous_school":"Highland HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gracie-vohs","name":"Gracie Vohs","first":"Gracie","last":"Vohs","jersey":"5","pos":"OH","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Sisters, OR","high_school":null,"previous_school":"Saint Mary's College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nora-waddoups","name":"Nora Waddoups","first":"Nora","last":"Waddoups","jersey":"9","pos":"S","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Rexburg, ID","high_school":null,"previous_school":"Madison HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mia-walsh","name":"Mia Walsh","first":"Mia","last":"Walsh","jersey":"21","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Rexburg, ID","high_school":null,"previous_school":"Madison High School","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaydin-watts","name":"Jaydin Watts","first":"Jaydin","last":"Watts","jersey":"26","pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"Lancaster, CA","high_school":null,"previous_school":"Paraclete HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jenna-werbelow","name":"Jenna Werbelow","first":"Jenna","last":"Werbelow","jersey":"4","pos":"DS/L","class":"JR","redshirt":false,"class_raw":"Junior","height_in":65,"weight":null,"hometown":"Phoenix, AZ","high_school":null,"previous_school":"Desert Vista HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:annelie-wilson","name":"Annelie Wilson","first":"Annelie","last":"Wilson","jersey":"17","pos":"OH/OPP","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Horseshoe Bend, ID","high_school":null,"previous_school":"Horseshoe Bend HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

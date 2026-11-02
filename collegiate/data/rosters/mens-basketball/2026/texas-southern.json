@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "texas-southern",
+ "host": "athletics.tsu.edu",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://athletics.tsu.edu/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:anthony-lj-andrews","name":"Anthony \"LJ\" Andrews","first":"Anthony","last":"\"LJ\" Andrews","jersey":"8","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":215,"hometown":"Houston, Texas","high_school":null,"previous_school":"Bellaire","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:josh-akpovwa","name":"Josh Akpovwa","first":"Josh","last":"Akpovwa","jersey":"35","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":270,"hometown":"Houston, Texas","high_school":null,"previous_school":"Incarnate Word","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alex-anderson","name":"Alex Anderson","first":"Alex","last":"Anderson","jersey":"0","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":200,"hometown":"Memphis, Tenn.","high_school":null,"previous_school":"Incarnate Word","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:josh-farmer","name":"Josh Farmer","first":"Josh","last":"Farmer","jersey":"4","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":82,"weight":200,"hometown":"Houston, Texas","high_school":null,"previous_school":"UTSA","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kehlin-farooq","name":"Kehlin Farooq","first":"Kehlin","last":"Farooq","jersey":"32","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":78,"weight":196,"hometown":"Houston, Texas","high_school":null,"previous_school":"Hampton","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jordan-gorecki","name":"Jordan Gorecki","first":"Jordan","last":"Gorecki","jersey":"34","pos":"C","class":"SR","redshirt":false,"class_raw":"Senior","height_in":82,"weight":260,"hometown":"Markham, Ontario","high_school":null,"previous_school":"Northern Illinois","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kolby-granger","name":"Kolby Granger","first":"Kolby","last":"Granger","jersey":"14","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":77,"weight":195,"hometown":"Missouri City, Texas","high_school":null,"previous_school":"Ridge Point","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jordan-hamilton","name":"Jordan Hamilton","first":"Jordan","last":"Hamilton","jersey":"24","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":225,"hometown":"Memphis, Tenn.","high_school":null,"previous_school":"Southern Illinois University Edwardsville","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zaire-hayes","name":"Zaire Hayes","first":"Zaire","last":"Hayes","jersey":"7","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":74,"weight":185,"hometown":"Houston, Texas","high_school":null,"previous_school":"NW Kansas Tech","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:troy-hupstead","name":"Troy Hupstead","first":"Troy","last":"Hupstead","jersey":"2","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":230,"hometown":"Mount Vernon, NY","high_school":null,"previous_school":"UT Arlington","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zytarious-morlte","name":"Zytarious Morlte","first":"Zytarious","last":"Morlte","jersey":"12","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":199,"hometown":"Alexandria, La.","high_school":null,"previous_school":"Sunrise Christian","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ahmed-nedal","name":"Ahmed Nedal","first":"Ahmed","last":"Nedal","jersey":"9","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":210,"hometown":"Cairo, Egypt","high_school":null,"previous_school":"NBA Academy Africa","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cameron-patterson","name":"Cameron Patterson","first":"Cameron","last":"Patterson","jersey":"11","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":77,"weight":180,"hometown":"Houston, Texas","high_school":null,"previous_school":"San Jose State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:duane-posey","name":"Duane Posey","first":"Duane","last":"Posey","jersey":"23","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":79,"weight":215,"hometown":"Memphis, Tenn.","high_school":null,"previous_school":"Northwestern State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bryce-roberts","name":"Bryce Roberts","first":"Bryce","last":"Roberts","jersey":"3","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":180,"hometown":"Bossier City, La.","high_school":null,"previous_school":"UT Tyler","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaylen-wysinger","name":"Jaylen Wysinger","first":"Jaylen","last":"Wysinger","jersey":"5","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":72,"weight":170,"hometown":"Houston, Texas","high_school":null,"previous_school":"Paris Junior College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

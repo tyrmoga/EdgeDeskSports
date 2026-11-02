@@ -1,0 +1,30 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "central-ark",
+ "host": "ucasports.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://ucasports.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 14,
+ "players": [
+  {"pid":"slug:linda-amaning","name":"Linda Amaning","first":"Linda","last":"Amaning","jersey":"25","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Dijon, France","high_school":null,"previous_school":"Saint Peters","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emerie-bohanon","name":"Emerie Bohanon","first":"Emerie","last":"Bohanon","jersey":"11","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":67,"weight":null,"hometown":"Conway, Ark.","high_school":"Conway HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:layla-j-cameron","name":"Layla-J Cameron","first":"Layla-J","last":"Cameron","jersey":"8","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Gold Coast, Australia","high_school":null,"previous_school":"Tulsa","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jenna-cook","name":"Jenna Cook","first":"Jenna","last":"Cook","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":66,"weight":null,"hometown":"Cabot, Ark.","high_school":"Cabot HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alexis-cox","name":"Alexis Cox","first":"Alexis","last":"Cox","jersey":"10","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":null,"hometown":"Conway, Ark.","high_school":"Conway HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alivia-cox","name":"Alivia Cox","first":"Alivia","last":"Cox","jersey":"22","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Conway, Ark.","high_school":"Conway HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tiani-ellison","name":"Tiani Ellison","first":"Tiani","last":"Ellison","jersey":"21","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":73,"weight":null,"hometown":"Durant, Okla.","high_school":null,"previous_school":"East Texas A&M","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cheyanne-kemp","name":"Cheyanne Kemp","first":"Cheyanne","last":"Kemp","jersey":"4","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Morrilton, Ark.","high_school":"Morrilton HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:faith-mccallop","name":"Faith McCallop","first":"Faith","last":"McCallop","jersey":"20","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":66,"weight":null,"hometown":"Kansas City, Kan.","high_school":"Piper HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:avery-mier","name":"Avery Mier","first":"Avery","last":"Mier","jersey":"3","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Klein, Texas","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:laylah-reese","name":"Laylah Reese","first":"Laylah","last":"Reese","jersey":"12","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Cabot, Ark.","high_school":"Cabot HS","previous_school":"Three Rivers College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:paris-santacaterina","name":"Paris Santacaterina","first":"Paris","last":"Santacaterina","jersey":"9","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":67,"weight":null,"hometown":"Mackay, Australia","high_school":null,"previous_school":"San Diego","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sami-shaeffer","name":"Sami Shaeffer","first":"Sami","last":"Shaeffer","jersey":"15","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Bartlesville, Okla.","high_school":"Bartlesville HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:logan-young","name":"Logan Young","first":"Logan","last":"Young","jersey":"24","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Dover, Ark.","high_school":null,"previous_school":"Arkansas Tech","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

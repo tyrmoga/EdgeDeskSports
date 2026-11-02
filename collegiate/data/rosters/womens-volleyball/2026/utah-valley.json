@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "utah-valley",
+ "host": "gouvu.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://gouvu.com/sports/womens-volleyball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:london-armstrong","name":"London Armstrong","first":"London","last":"Armstrong","jersey":"15","pos":"RS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Meridian, Idaho","high_school":"Rocky Mountain HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bree-carson","name":"Bree Carson","first":"Bree","last":"Carson","jersey":"19","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Aliso Viejo, Calif.","high_school":"Aliso Niguel HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:myka-christensen","name":"Myka Christensen","first":"Myka","last":"Christensen","jersey":"16","pos":"S","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Lehi, Utah","high_school":"Skyridge HS","previous_school":"SLCC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lauren-feiler","name":"Lauren Feiler","first":"Lauren","last":"Feiler","jersey":"10","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Carlsbad, Calif.","high_school":"San Marcos HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:olivia-gloeckner","name":"Olivia Gloeckner","first":"Olivia","last":"Gloeckner","jersey":"17","pos":"RS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Salt Lake City, Utah","high_school":"Skyline HS","previous_school":"Idaho","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chloe-hansen","name":"Chloe Hansen","first":"Chloe","last":"Hansen","jersey":"5","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Meridian, Idaho","high_school":"Rocky Mountain HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kambri-kuhni","name":"Kambri Kuhni","first":"Kambri","last":"Kuhni","jersey":"7","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Orem, Utah","high_school":"Orem HS","previous_school":"SLCC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kenna-mcclure","name":"Kenna McClure","first":"Kenna","last":"McClure","jersey":"12","pos":"DS/L","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":null,"hometown":"Meridian, Idaho","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:evalyn-medaris","name":"Evalyn Medaris","first":"Evalyn","last":"Medaris","jersey":"11","pos":"S","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Bountiful, Utah","high_school":"Bountiful HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brielle-rueckert","name":"Brielle Rueckert","first":"Brielle","last":"Rueckert","jersey":"18","pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"Provo, Utah","high_school":"Timpview HS","previous_school":"Weber State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:madi-standifird","name":"Madi Standifird","first":"Madi","last":"Standifird","jersey":"3","pos":"OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":null,"hometown":"Lehi, Utah","high_school":"Skyridge HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brooke-stauffer","name":"Brooke Stauffer","first":"Brooke","last":"Stauffer","jersey":"6","pos":"S","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Cottonwood Heights, Utah","high_school":"Corner Canyon HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:miley-thunstrom","name":"Miley Thunstrom","first":"Miley","last":"Thunstrom","jersey":"4","pos":"OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Murrieta, Calif.","high_school":"Murrieta Valley HS","previous_school":"Saint Mary's","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lani-toutai","name":"Lani Toutai","first":"Lani","last":"Toutai","jersey":"8","pos":"L","class":"SR","redshirt":false,"class_raw":"Senior","height_in":66,"weight":null,"hometown":"West Jordan, Utah","high_school":"West Jordan HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alyvia-watkins","name":"Alyvia Watkins","first":"Alyvia","last":"Watkins","jersey":"2","pos":"MB","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":null,"hometown":"Morgan, Utah","high_school":"Morgan HS","previous_school":"Utah Hive","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maranda-woolf","name":"Maranda Woolf","first":"Maranda","last":"Woolf","jersey":"1","pos":"MB","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":74,"weight":null,"hometown":"Peoria, Ariz.","high_school":"Liberty HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

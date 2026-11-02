@@ -1,0 +1,30 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "uc-davis",
+ "host": "ucdavisaggies.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://ucdavisaggies.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 14,
+ "players": [
+  {"pid":"slug:anna-bassett","name":"Anna Bassett","first":"Anna","last":"Bassett","jersey":"8","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Brisbane, Australia","high_school":"St. Peter's Lutheran HS","previous_school":"Ipswich Force","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:carrington-davis","name":"Carrington Davis","first":"Carrington","last":"Davis","jersey":"1","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Rialto, Calif.","high_school":"Rialto HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:layla-dixon","name":"Layla Dixon","first":"Layla","last":"Dixon","jersey":"20","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Concord, Calif.","high_school":"Carondelet HS","previous_school":"Cal Stars Nike EYBL","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rebecca-donnelly","name":"Rebecca Donnelly","first":"Rebecca","last":"Donnelly","jersey":"5","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Sydney, Australia","high_school":"International School","previous_school":"North Bears","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:holly-ensoll","name":"Holly Ensoll","first":"Holly","last":"Ensoll","jersey":"28","pos":"C","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":null,"hometown":"London, United Kingdom","high_school":"Copleston Basketball Academy","previous_school":"Ipswich Basketball Club","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emmy-ersdala","name":"Emmy Ersdala","first":"Emmy","last":"Ersdala","jersey":"11","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Vasteras, Sweden","high_school":"Hagagymnasiet","previous_school":"Swedish National Team","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:marta-forsline","name":"Marta Forsline","first":"Marta","last":"Forsline","jersey":"2","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":null,"hometown":"Aurora, Minn.","high_school":"Mesabi East HS","previous_school":"MN Suns P24","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:taylor-hicks","name":"Taylor Hicks","first":"Taylor","last":"Hicks","jersey":"7","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Hutto, Texas","high_school":"Hutto HS","previous_school":"Team Southwest Adidas 3SSB","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sahana-kanagasabay","name":"Sahana Kanagasabay","first":"Sahana","last":"Kanagasabay","jersey":"3","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"Surrey, British Columbia, Canada","high_school":"Fleetwork Park Secondary School","previous_school":"Providence","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sophie-lentfer","name":"Sophie Lentfer","first":"Sophie","last":"Lentfer","jersey":"23","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Anchorage, Alaska","high_school":"Grace Christian School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:avery-sussex","name":"Avery Sussex","first":"Avery","last":"Sussex","jersey":"9","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Coquitlam, British Columbia","high_school":"Riverside Secondary","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:theoni-tsami","name":"Theoni Tsami","first":"Theoni","last":"Tsami","jersey":"21","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":73,"weight":null,"hometown":"Athens, Greece","high_school":null,"previous_school":"Kronos Agiou Dimitriou","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tegan-young","name":"Tegan Young","first":"Tegan","last":"Young","jersey":"10","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Leominster, Mass.","high_school":"Lawrence Academy","previous_school":"Manhattan","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:angeliki-ziaka","name":"Angeliki Ziaka","first":"Angeliki","last":"Ziaka","jersey":"4","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Athens, Greece","high_school":"American Community School of Athens","previous_school":"Davidson","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

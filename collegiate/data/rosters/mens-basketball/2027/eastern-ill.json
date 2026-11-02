@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "eastern-ill",
+ "host": "eiupanthers.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://eiupanthers.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:andrew-austin","name":"Andrew Austin","first":"Andrew","last":"Austin","jersey":"15","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":220,"hometown":"Rock Rapids, Iowa","high_school":"Central Lyon","previous_school":"Des Moines Area CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:markus-blackwell","name":"Markus Blackwell","first":"Markus","last":"Blackwell","jersey":"1","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":180,"hometown":"Detroit, Mich.","high_school":"Warren Lincoln","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:demar-burton","name":"Demar Burton","first":"Demar","last":"Burton","jersey":"24","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":215,"hometown":"San Antonio, Texas","high_school":"Brandeis","previous_school":"Tiffin Univ.","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jalen-calloway","name":"Jalen Calloway","first":"Jalen","last":"Calloway","jersey":"4","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":175,"hometown":"Chicago, Ill.","high_school":"Lincoln Park","previous_school":"Vincennes Univ.","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:devin-davenport","name":"Devin Davenport","first":"Devin","last":"Davenport","jersey":"2","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":180,"hometown":"Milwaukee, Wis.","high_school":"Milwaukee Lutheran","previous_school":"Missouri Valley College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jt-elder","name":"JT Elder","first":"JT","last":"Elder","jersey":"5","pos":"G","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":79,"weight":200,"hometown":"Tucson, Ariz.","high_school":"Phoenix Prep (PHH)","previous_school":"Eastern Arizona College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:shia-francis","name":"Shia Francis","first":"Shia","last":"Francis","jersey":"8","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":195,"hometown":"Houston, Texas","high_school":"Second Baptist School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ethan-hillsman","name":"Ethan Hillsman","first":"Ethan","last":"Hillsman","jersey":"9","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":190,"hometown":"Fishers, Ind.","high_school":"Fishers","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:logan-kurtz","name":"Logan Kurtz","first":"Logan","last":"Kurtz","jersey":"13","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":180,"hometown":"Tuscola, Ill.","high_school":"Tuscola","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaden-miller","name":"Jaden Miller","first":"Jaden","last":"Miller","jersey":"3","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":160,"hometown":"Pearland, Texas","high_school":"Glenda Dawson","previous_school":"East Central Univ.","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:daniel-ntambwe","name":"Daniel Ntambwe","first":"Daniel","last":"Ntambwe","jersey":"7","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":210,"hometown":"DR pf Congo","high_school":"Huntington (W.Va.)","previous_school":"Coffeyville CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:shane-sims","name":"Shane Sims","first":"Shane","last":"Sims","jersey":"23","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":200,"hometown":"Evansville, Ind.","high_school":"Harrison","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tanner-vogel","name":"Tanner Vogel","first":"Tanner","last":"Vogel","jersey":"6","pos":"C","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":84,"weight":235,"hometown":"Busselton, Australia","high_school":"Georgiana Molloy Anglican School","previous_school":"Faulkner State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gavin-welch","name":"Gavin Welch","first":"Gavin","last":"Welch","jersey":"11","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":195,"hometown":"New Castle, Ind.","high_school":"New Castle","previous_school":"Lake Erie College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jayden-wright","name":"Jayden Wright","first":"Jayden","last":"Wright","jersey":"12","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":180,"hometown":"Naperville, Ill.","high_school":"Lisle Benet Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

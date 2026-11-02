@@ -1,0 +1,25 @@
+{
+ "schema": "edgedesk_collegiate_schedule_v1",
+ "school": "utsa",
+ "host": "goutsa.com",
+ "platform": "wmt",
+ "sport": "baseball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://goutsa.com/sports/baseball/schedule/season/2026-27",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "readers": "sidearm,sidearm_vue,sidearm_legacy,wmt+themes10+sport_path+plain_page",
+ "games_listed": 7,
+ "finals": 0,
+ "undated": 0,
+ "games": [
+  {"game_key":null,"date":"2026-10-09","time":null,"site":null,"opponent":"Temple JC","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"San Antonio, Texas / Roadrunner Field","event":null,"boxscore":null,"note":"W, 24-6"},
+  {"game_key":null,"date":"2026-10-23","time":null,"site":null,"opponent":"Fall World Series (Game 1)","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"San Antonio, Texas / Roadrunner Field","event":null,"boxscore":null,"note":"Orange Wins 8-7"},
+  {"game_key":null,"date":"2026-10-24","time":null,"site":null,"opponent":"Fall World Series (Game 2)","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"San Antonio, Texas / Roadrunner Field","event":null,"boxscore":null,"note":"Blue Wins 10-5"},
+  {"game_key":null,"date":"2026-10-25","time":null,"site":null,"opponent":"Fall World Series (Game 3)","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"San Antonio, Texas / Roadrunner Field","event":null,"boxscore":null,"note":"Orange Wins 7-1"},
+  {"game_key":null,"date":"2026-10-30","time":null,"site":null,"opponent":"Alvin CC","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"cancelled","us":null,"them":null,"outcome":null,"innings":null,"location":"San Antonio, Texas / Roadrunner Field","event":null,"boxscore":null,"note":null},
+  {"game_key":null,"date":"2026-11-05","time":null,"site":null,"opponent":"McClennan CC","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"San Antonio, Texas / Roadrunner Field","event":null,"boxscore":null,"note":null},
+  {"game_key":null,"date":"2026-11-06","time":null,"site":null,"opponent":"Navarro College","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"San Antonio, Texas / Roadrunner Field","event":null,"boxscore":null,"note":"W, 24-6"}
+ ]
+}

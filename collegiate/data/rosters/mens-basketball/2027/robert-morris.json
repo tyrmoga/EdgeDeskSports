@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "robert-morris",
+ "host": "rmucolonials.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://rmucolonials.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:stefan-bozhinovski","name":"Stefan Bozhinovski","first":"Stefan","last":"Bozhinovski","jersey":"9","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":180,"hometown":"Gostivar, North Macedonia","high_school":"Akademija FMP Skopje","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:eddie-cooke-iii","name":"Eddie Cooke III","first":"Eddie","last":"Cooke III","jersey":"5","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":222,"hometown":"Atlanta, Ga.","high_school":"Legacy Early College HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dylan-donovan","name":"Dylan Donovan","first":"Dylan","last":"Donovan","jersey":"25","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":190,"hometown":"Peters Township, Pa.","high_school":"Peters Township","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jalik-dunkley","name":"Jalik Dunkley","first":"Jalik","last":"Dunkley","jersey":"11","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":215,"hometown":"Hamilton, Ontario","high_school":"Dream City Christian","previous_school":"Nicholls State | Arizona Christian","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kj-garris-jr-","name":"KJ Garris Jr.","first":"KJ","last":"Garris Jr.","jersey":"22","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":230,"hometown":"Atlanta, Ga.","high_school":"Grayson","previous_school":"Cal State Fullerton","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:darius-livingston","name":"Darius Livingston","first":"Darius","last":"Livingston","jersey":"12","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":178,"hometown":"Orlando, Fla.","high_school":"Discovery Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:samuel-obenjo","name":"Samuel Obenjo","first":"Samuel","last":"Obenjo","jersey":"13","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":82,"weight":212,"hometown":"Stockholm, Sweden","high_school":"Layton Christian Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:will-occomy","name":"Will Occomy","first":"Will","last":"Occomy","jersey":"4","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":176,"hometown":"Chicago, Ill.","high_school":"Linblom Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bolaji-oderinlo","name":"Bolaji Oderinlo","first":"Bolaji","last":"Oderinlo","jersey":"34","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":202,"hometown":"Lagos, Nigeria","high_school":"Bella Vista Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:michael-parlow","name":"Michael Parlow","first":"Michael","last":"Parlow","jersey":"8","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":187,"hometown":"New Orleans, La.","high_school":"Mt. Zion (Md.) Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lukas-sloane","name":"Lukas Sloane","first":"Lukas","last":"Sloane","jersey":"2","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":200,"hometown":"Freehold, N.J.","high_school":"IMG Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ta-zir-smith","name":"Ta'Zir Smith","first":"Ta'Zir","last":"Smith","jersey":"3","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":75,"weight":185,"hometown":"Woodbridge, Va.","high_school":"Virginia Academy","previous_school":"Pearl River CC | State Fair CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:daniil-stolbetskiy","name":"Daniil Stolbetskiy","first":"Daniil","last":"Stolbetskiy","jersey":"21","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":83,"weight":242,"hometown":"Moscow, Russia","high_school":"Fuenlabrada Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kc-ugwuakazi","name":"KC Ugwuakazi","first":"KC","last":"Ugwuakazi","jersey":"23","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":228,"hometown":"Boston, Mass.","high_school":"Cheshire Academy","previous_school":"East Texas A&M | Merrimack","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ace-valentine","name":"Ace Valentine","first":"Ace","last":"Valentine","jersey":"1","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":200,"hometown":"Columbia, Md.","high_school":"Mount St. Joseph","previous_school":"UMBC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "southern-ind",
+ "host": "gousieagles.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-2027",
+ "url": "https://gousieagles.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:kaden-brown","name":"Kaden Brown","first":"Kaden","last":"Brown","jersey":"0","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":175,"hometown":"Grand Rapids, MI","high_school":"Central Catholic","previous_school":"Grand Valley State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:josiah-dunham","name":"Josiah Dunham","first":"Josiah","last":"Dunham","jersey":"22","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":180,"hometown":"Evansville, IN","high_school":"Evansville Christian","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alem-fejzic","name":"Alem Fejzic","first":"Alem","last":"Fejzic","jersey":"33","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":190,"hometown":"Sarajevo, Bosnia and Herzegovina","high_school":"Potter's House Christian","previous_school":"Frank Phillips","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ari-gooch","name":"Ari Gooch","first":"Ari","last":"Gooch","jersey":"2","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":185,"hometown":"Minneapolis, MN","high_school":"Park Center Senior","previous_school":"UAB","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:la-hayes","name":"LA Hayes","first":"LA","last":"Hayes","jersey":"7","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":190,"hometown":"Cleveland, OH","high_school":"St. Vincent-St. Mary","previous_school":"UTEP","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maksym-hryshchuk","name":"Maksym Hryshchuk","first":"Maksym","last":"Hryshchuk","jersey":"6","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":190,"hometown":"Kyiv, Ukraine","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:donovan-hunter","name":"Donovan Hunter","first":"Donovan","last":"Hunter","jersey":"5","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":210,"hometown":"Columbus, OH","high_school":"SPIRE Academy","previous_school":"Bellarmine","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:malachi-knight","name":"Malachi Knight","first":"Malachi","last":"Knight","jersey":"24","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":200,"hometown":"Hawthorne, CA","high_school":"Leuzinger","previous_school":"West LA","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:didier-maleng","name":"Didier Maleng","first":"Didier","last":"Maleng","jersey":"15","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":81,"weight":225,"hometown":"Kinshasa, Congo","high_school":"Lawton Christian","previous_school":"Denver","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:johann-pautsch","name":"Johann Pautsch","first":"Johann","last":"Pautsch","jersey":"31","pos":"F/C","class":"JR","redshirt":false,"class_raw":"Junior","height_in":82,"weight":245,"hometown":"Duesseldorf, Germany","high_school":"SEMO Prep","previous_school":"Three Rivers","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:josh-smith","name":"Josh Smith","first":"Josh","last":"Smith","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":170,"hometown":"Baton Rouge, LA","high_school":"Madison Prep Academy","previous_school":"Lee College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:fredy-salam-sylla","name":"Fredy-Salam Sylla","first":"Fredy-Salam","last":"Sylla","jersey":"21","pos":"G/F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":210,"hometown":"Paris, France","high_school":"Potter's House Christian","previous_school":"Arkansas State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:afan-trnka","name":"Afan Trnka","first":"Afan","last":"Trnka","jersey":"4","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":180,"hometown":"Sarajevo, Bosnia and Herzegovina","high_school":"Bishop Mora Salesian","previous_school":"UT Martin","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:yesan-warren","name":"Yesan Warren","first":"Yesan","last":"Warren","jersey":"3","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":73,"weight":185,"hometown":"Capital Heights, MD","high_school":"Knoxville Catholic","previous_school":"Cal State Fullerton","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:yuto-yamanouchi-williams","name":"Yuto Yamanouchi-Williams","first":"Yuto","last":"Yamanouchi-Williams","jersey":"10","pos":"F","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":82,"weight":230,"hometown":"Aizuwakamatsu, Japan","high_school":"Ribet Academy","previous_school":"Oral Roberts","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

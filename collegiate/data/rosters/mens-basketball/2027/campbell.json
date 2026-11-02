@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "campbell",
+ "host": "gocamels.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://gocamels.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:john-angau","name":"John Angau","first":"John","last":"Angau","jersey":"0","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":195,"hometown":"Fargo, ND","high_school":"Southeastern Prep","previous_school":"North Dakota State College of Science","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jack-browder","name":"Jack Browder","first":"Jack","last":"Browder","jersey":"12","pos":"G","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":77,"weight":200,"hometown":"Kingsport, Tenn.","high_school":"Dobyns-Bennett","previous_school":"Carson-Newman","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emilis-butkus","name":"Emilis Butkus","first":"Emilis","last":"Butkus","jersey":"11","pos":"G","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":78,"weight":200,"hometown":"Klaipeda, Lithuania","high_school":null,"previous_school":"Mercyhurst/Rollins/UC Irvine","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sincere-folk","name":"Sincere Folk","first":"Sincere","last":"Folk","jersey":"4","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":170,"hometown":"Meriden, Conn.","high_school":"Choate Rosemary Hall","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rashawn-inglemon","name":"Rashawn Inglemon","first":"Rashawn","last":"Inglemon","jersey":"2","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":150,"hometown":"Sacramento, Calif.","high_school":"Monterey Trail","previous_school":"Anderson","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nordin-kapic","name":"Nordin Kapic","first":"Nordin","last":"Kapic","jersey":"45","pos":"F","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":80,"weight":240,"hometown":"Vienna, Austria","high_school":null,"previous_school":"South Carolina","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:caleb-mcabee","name":"Caleb McAbee","first":"Caleb","last":"McAbee","jersey":"10","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":170,"hometown":"St. John's, Fla.","high_school":"Providence","previous_school":"Anderson","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sentinel-moore","name":"Sentinel Moore","first":"Sentinel","last":"Moore","jersey":"23","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":210,"hometown":"Oklahoma City, Okla.","high_school":"Destiny Christian","previous_school":"Anderson","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ben-ritger","name":"Ben Ritger","first":"Ben","last":"Ritger","jersey":"15","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":210,"hometown":"Atlanta, Ga.","high_school":"Marist School","previous_school":"Lee","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:karson-rogers","name":"Karson Rogers","first":"Karson","last":"Rogers","jersey":"21","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":210,"hometown":"Kokomo, Ind.","high_school":"Kokomo","previous_school":"Saint Francis (Ind.)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:karim-rtail","name":"Karim Rtail","first":"Karim","last":"Rtail","jersey":"5","pos":"W","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":200,"hometown":"Beirut, Lebanon","high_school":null,"previous_school":"Arkansas","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:luka-savanovic","name":"Luka Savanovic","first":"Luka","last":"Savanovic","jersey":"22","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":195,"hometown":"Novi Sad, Serbia","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:harry-shellhammer","name":"Harry Shellhammer","first":"Harry","last":"Shellhammer","jersey":"13","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":210,"hometown":"Kitchener, Ontario","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bol-thet","name":"Bol Thet","first":"Bol","last":"Thet","jersey":"8","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":82,"weight":205,"hometown":"Aweil, South Sudan","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lance-waddles","name":"Lance Waddles","first":"Lance","last":"Waddles","jersey":"7","pos":"G","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":76,"weight":200,"hometown":"Shreveport, La.","high_school":"Evangel Christian","previous_school":"Omaha/North Dakota State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aj-wright-jr-","name":"AJ Wright Jr.","first":"AJ","last":"Wright Jr.","jersey":"1","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":160,"hometown":"Clearwater, Fla.","high_school":"Clearwater","previous_school":"Anderson","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "uc-santa-barbara",
+ "host": "ucsbgauchos.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://ucsbgauchos.com/sports/womens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 14,
+ "players": [
+  {"pid":"slug:chauncey-andersen","name":"Chauncey Andersen","first":"Chauncey","last":"Andersen","jersey":"15","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Portland, Ore.","high_school":"Jefferson HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zoe-borter","name":"Zoe Borter","first":"Zoe","last":"Borter","jersey":"2","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Beaverton, Ore.","high_school":"Beaverton HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:olivia-bradley","name":"Olivia Bradley","first":"Olivia","last":"Bradley","jersey":"5","pos":"F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":73,"weight":null,"hometown":"Adelaide, South Australia","high_school":"Urrbrae Agricultural HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:skylar-burke","name":"Skylar Burke","first":"Skylar","last":"Burke","jersey":"55","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Coeur d'Alene, Ida.","high_school":"Coeur d'Alene HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jessica-grant","name":"Jessica Grant","first":"Jessica","last":"Grant","jersey":"32","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"San Marcos, Calif.","high_school":"Mission Hills HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:malani-mastora","name":"Malani Mastora","first":"Malani","last":"Mastora","jersey":"35","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Alameda, Calif.","high_school":"Alameda HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maddie-naro","name":"Maddie Naro","first":"Maddie","last":"Naro","jersey":"12","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Beaverton, Ore.","high_school":"Beaverton HS","previous_school":"Santa Clara","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:valentina-penna","name":"Valentina Penna","first":"Valentina","last":"Penna","jersey":"21","pos":"G/F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":null,"hometown":"Bergamo, Italy","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:martha-pietsch","name":"Martha Pietsch","first":"Martha","last":"Pietsch","jersey":"31","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":65,"weight":null,"hometown":"Berlin, Germany","high_school":null,"previous_school":"Oregon State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:j-lia-puente-valverde","name":"Júlia Puente-Valverde","first":"Júlia","last":"Puente-Valverde","jersey":"4","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":73,"weight":null,"hometown":"Bacelona, Spain","high_school":"Escola Sagrada Família Sant Andreu","previous_school":"McNeese State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bojana-radnjic","name":"Bojana Radnjic","first":"Bojana","last":"Radnjic","jersey":"44","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Herceg Novi, Montenegro","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ava-rawlins","name":"Ava Rawlins","first":"Ava","last":"Rawlins","jersey":"8","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Folsom, Calif.","high_school":"Folsom HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zoe-shaw","name":"Zoe Shaw","first":"Zoe","last":"Shaw","jersey":"23","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":67,"weight":null,"hometown":"Melbourne, Australia","high_school":null,"previous_school":"St. Bonaventure","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:helena-shum-koubek","name":"Helena Shum-Koubek","first":"Helena","last":"Shum-Koubek","jersey":"22","pos":"G/F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Augora Hills, Calif.","high_school":"Oak Park HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

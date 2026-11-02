@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "north-dakota",
+ "host": "fightinghawks.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://fightinghawks.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:abby-duchscherer","name":"Abby Duchscherer","first":"Abby","last":"Duchscherer","jersey":"5","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":72,"weight":null,"hometown":"Kindred, N.D.","high_school":"Kindred HS","previous_school":"Alabama","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maggie-fricke","name":"Maggie Fricke","first":"Maggie","last":"Fricke","jersey":"2","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"Minot, N.D.","high_school":"Minot HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aliyah-green","name":"Aliyah Green","first":"Aliyah","last":"Green","jersey":"33","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Andover, Kan.","high_school":"Andover HS","previous_school":"Butler CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:juliana-haddad","name":"Juliana Haddad","first":"Juliana","last":"Haddad","jersey":"3","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Espoo, Finland","high_school":"Pohjois-Haaga Yhteiskoulu","previous_school":"Northern Illinois","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:london-harris","name":"London Harris","first":"London","last":"Harris","jersey":"21","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Minneapolis, Minn.","high_school":"Hopkins HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kendra-harvey","name":"Kendra Harvey","first":"Kendra","last":"Harvey","jersey":"8","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Byron, Minn.","high_school":"Byron HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lauren-hillesheim","name":"Lauren Hillesheim","first":"Lauren","last":"Hillesheim","jersey":"4","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Golden Valley, Minn.","high_school":"Hopkins HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mia-jacobson","name":"Mia Jacobson","first":"Mia","last":"Jacobson","jersey":"24","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"San Diego, Calif.","high_school":"Westview HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:addison-klosterbuer","name":"Addison Klosterbuer","first":"Addison","last":"Klosterbuer","jersey":"10","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"Little Rock, Iowa","high_school":"Central Lyon HS","previous_school":"South Dakota","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jayda-maves","name":"Jayda Maves","first":"Jayda","last":"Maves","jersey":"23","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Lakewood, Colo.","high_school":"Green Mountain HS","previous_school":"Western Colorado","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sydney-piekny","name":"Sydney Piekny","first":"Sydney","last":"Piekny","jersey":"15","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Fenwick, Ontario","high_school":"Niagara Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lauren-reardon","name":"Lauren Reardon","first":"Lauren","last":"Reardon","jersey":"13","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":null,"hometown":"Grand Forks, N.D.","high_school":"Grand Forks Central HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kinley-smith","name":"Kinley Smith","first":"Kinley","last":"Smith","jersey":"32","pos":"F/C","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Texarkana, Ark.","high_school":"Fouke HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jayden-sonnenberg","name":"Jayden Sonnenberg","first":"Jayden","last":"Sonnenberg","jersey":"30","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Frazee, Minn.","high_school":"Frazee HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ciona-wells","name":"Ciona Wells","first":"Ciona","last":"Wells","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"Tacoma, Wash.","high_school":"Lincoln HS","previous_school":"Western Oregon","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

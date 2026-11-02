@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "presbyterian",
+ "host": "gobluehose.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2025,
+ "season_label": "2025",
+ "url": "https://gobluehose.com/sports/womens-volleyball/roster/2025",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:amaris-alvarez","name":"Amaris Alvarez","first":"Amaris","last":"Alvarez","jersey":"5","pos":"L/DS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":62,"weight":null,"hometown":"Miami, Fla.","high_school":null,"previous_school":"Ronald Wilson Reagan HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aubrie-arnold","name":"Aubrie Arnold","first":"Aubrie","last":"Arnold","jersey":"1","pos":"L/DS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":65,"weight":null,"hometown":"Bristol, FL","high_school":null,"previous_school":"Liberty County HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brittney-daphnis","name":"Brittney Daphnis","first":"Brittney","last":"Daphnis","jersey":"16","pos":"MB/OPP","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"League City, Texas","high_school":null,"previous_school":"Oral Roberts","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sophia-del-valle","name":"Sophia Del Valle","first":"Sophia","last":"Del Valle","jersey":"21","pos":"L/DS","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":66,"weight":null,"hometown":"Canton, GA","high_school":null,"previous_school":"Creekview HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anisa-dorlouis","name":"Anisa Dorlouis","first":"Anisa","last":"Dorlouis","jersey":"6","pos":"S","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Gainesville, Fla.","high_school":null,"previous_school":"University of Maryland Eastern Shore","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aliza-hart","name":"Aliza Hart","first":"Aliza","last":"Hart","jersey":"3","pos":"DS/S","class":"SR","redshirt":false,"class_raw":"Senior","height_in":67,"weight":null,"hometown":"Hartwell, GA","high_school":null,"previous_school":"Hart County HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:celimar-hoyos","name":"Celimar Hoyos","first":"Celimar","last":"Hoyos","jersey":"17","pos":"L/DS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":66,"weight":null,"hometown":"Caguas, Puerto Rico","high_school":null,"previous_school":"University of Illinois Chicago","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elyse-hutchinson","name":"Elyse Hutchinson","first":"Elyse","last":"Hutchinson","jersey":"2","pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Cambridge, Ontario, Canada","high_school":null,"previous_school":"St. Benedict Catholic Secondary School","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emma-mchatten","name":"Emma McHatten","first":"Emma","last":"McHatten","jersey":"10","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Wilmette, Ill.","high_school":null,"previous_school":"New Trier HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ashley-miller","name":"Ashley Miller","first":"Ashley","last":"Miller","jersey":"22","pos":"OH","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Brentwood, Tenn.","high_school":null,"previous_school":"Brentwood HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elany-santos","name":"Elany Santos","first":"Elany","last":"Santos","jersey":"20","pos":"L/DS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":64,"weight":null,"hometown":"Simpsonville, SC","high_school":null,"previous_school":"Woodmont HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ava-smith","name":"Ava Smith","first":"Ava","last":"Smith","jersey":"15","pos":"OPP/MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Temecula, CA","high_school":null,"previous_school":"Great Oak HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emily-warner","name":"Emily Warner","first":"Emily","last":"Warner","jersey":"11","pos":"S","class":"JR","redshirt":false,"class_raw":"Junior","height_in":65,"weight":null,"hometown":"Tavares, FL","high_school":null,"previous_school":"Lake-Sumter State College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:courtney-williams","name":"Courtney Williams","first":"Courtney","last":"Williams","jersey":"4","pos":"OPP/OH","class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Oxford, N.C.","high_school":null,"previous_school":"Granville Early College HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:julia-yurkovich","name":"Julia Yurkovich","first":"Julia","last":"Yurkovich","jersey":"12","pos":"OH","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Landenberg, Pa.","high_school":null,"previous_school":"Saint Mark's HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

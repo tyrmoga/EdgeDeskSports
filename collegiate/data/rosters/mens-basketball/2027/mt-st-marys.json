@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "mt-st-marys",
+ "host": "mountathletics.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://mountathletics.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:anthony-arrington-jr-","name":"Anthony Arrington Jr.","first":"Anthony","last":"Arrington Jr.","jersey":"30","pos":null,"class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":75,"weight":190,"hometown":"Atlanta, GA","high_school":"The Galloway School","previous_school":"Wofford","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ryan-brzezanski","name":"Ryan Brzezanski","first":"Ryan","last":"Brzezanski","jersey":"11","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":210,"hometown":"Ashburn, VA","high_school":"Broad Run","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:yakhya-diop","name":"Yakhya Diop","first":"Yakhya","last":"Diop","jersey":"23","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":84,"weight":220,"hometown":"Dakar, Senegal","high_school":"NBA Academy Africa","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:crue-gard","name":"Crue Gard","first":"Crue","last":"Gard","jersey":"16","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":83,"weight":242,"hometown":"Winnipeg, Manitoba","high_school":"Fort Erie Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaxon-hartman","name":"Jaxon Hartman","first":"Jaxon","last":"Hartman","jersey":"6","pos":null,"class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":75,"weight":200,"hometown":"Staunton, VA","high_school":"Miller School of Albemarle","previous_school":"West Virginia Wesleyan","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:liam-joyce","name":"Liam Joyce","first":"Liam","last":"Joyce","jersey":"21","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":78,"weight":220,"hometown":"Allentown, PA","high_school":"Allentown Central Catholic","previous_school":"Randolph Macon","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:wilguens-junior-exacte","name":"Wilguens Junior Exacte","first":"Wilguens","last":"Junior Exacte","jersey":"7","pos":null,"class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":78,"weight":225,"hometown":"Montreal, Quebec","high_school":"College of Notre Dame/NBA Academy Latin America","previous_school":"Drake","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:abdou-khadre-k-b-","name":"Abdou Khadre Kébé","first":"Abdou","last":"Khadre Kébé","jersey":"9","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":195,"hometown":"Dakar, Senegal","high_school":"Seed Academy","previous_school":"NBA Academy Latin America","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:noah-limol","name":"Noah Limol","first":"Noah","last":"Limol","jersey":"12","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":202,"hometown":"Saint-Espirit, Martinique","high_school":"LeLikes La Salle","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:miquel-llompart","name":"Miquel Llompart","first":"Miquel","last":"Llompart","jersey":"22","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":210,"hometown":"Alcudia, Spain","high_school":"Joviat","previous_school":"Eckerd College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cade-orness","name":"Cade Orness","first":"Cade","last":"Orness","jersey":"10","pos":null,"class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":76,"weight":190,"hometown":"Poulsbo, WA","high_school":"North Kitsap","previous_school":"Gonzaga","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:noah-rogers","name":"Noah Rogers","first":"Noah","last":"Rogers","jersey":"5","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":175,"hometown":"Waldorf, MD","high_school":"St. Mary's Ryken","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anastasios-rozakeas","name":"Anastasios Rozakeas","first":"Anastasios","last":"Rozakeas","jersey":"1","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":210,"hometown":"Athens, Greece","high_school":"Lyceum","previous_school":"Florida State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:julien-smith","name":"Julien Smith","first":"Julien","last":"Smith","jersey":"3","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":180,"hometown":"Indianapolis, IN","high_school":"Cathedral","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mason-so","name":"Mason So","first":"Mason","last":"So","jersey":"4","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":185,"hometown":"Burke, VA","high_school":"DeMatha Catholic","previous_school":"UNC Greensboro","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:redd-thompson-jr-","name":"Redd Thompson Jr.","first":"Redd","last":"Thompson Jr.","jersey":"2","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":190,"hometown":"Richmond, VA","high_school":"John Marshall","previous_school":"Longwood","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

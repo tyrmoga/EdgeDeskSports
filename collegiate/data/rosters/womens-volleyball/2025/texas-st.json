@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "texas-st",
+ "host": "txstatebobcats.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2025,
+ "season_label": "2025",
+ "url": "https://txstatebobcats.com/sports/womens-volleyball/roster/2025",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:ally-adair","name":"Ally Adair","first":"Ally","last":"Adair","jersey":"1","pos":"MB","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":72,"weight":null,"hometown":"Phoenix, Ariz.","high_school":"Hamilton HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isabella-andrews","name":"Isabella Andrews","first":"Isabella","last":"Andrews","jersey":"19","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Schertz, Texas","high_school":"Samuel Clemens HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brooke-bentke","name":"Brooke Bentke","first":"Brooke","last":"Bentke","jersey":"11","pos":"OH","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Brenham, Texas","high_school":"Brenham HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anna-blaine","name":"Anna Blaine","first":"Anna","last":"Blaine","jersey":"17","pos":"S","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Spring, Texas","high_school":"Concordia Lutheran HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ameena-campbell","name":"Ameena Campbell","first":"Ameena","last":"Campbell","jersey":"14","pos":"OH","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Lawndale, Calif.","high_school":"Mira Costa HS","previous_school":"Cal State Fullerton","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alyssa-clark","name":"Alyssa Clark","first":"Alyssa","last":"Clark","jersey":"12","pos":"DS","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":63,"weight":null,"hometown":"Round Rock, Texas","high_school":"Cedar High HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jade-defraeye","name":"Jade Defraeye","first":"Jade","last":"Defraeye","jersey":"5","pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":null,"hometown":"Dunkirk, France","high_school":"Lycée Polyvalent Bellevue","previous_school":"France Avenir 2024","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ashley-euston","name":"Ashley Euston","first":"Ashley","last":"Euston","jersey":"10","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Dripping Springs, Texas","high_school":"Dripping Springs","previous_school":"Missouri","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:britton-finley","name":"Britton Finley","first":"Britton","last":"Finley","jersey":"15","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"San Antonio, Texas","high_school":"John M Harlan HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dylan-gilkey","name":"Dylan Gilkey","first":"Dylan","last":"Gilkey","jersey":"7","pos":"S","class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Cedar Park, Texas","high_school":"Cedar Park HS","previous_school":"Pacific","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bailey-hanner","name":"Bailey Hanner","first":"Bailey","last":"Hanner","jersey":"20","pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"Sugar Land, Texas","high_school":"Fort Bend Christian Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nina-moorer","name":"Nina Moorer","first":"Nina","last":"Moorer","jersey":"9","pos":"OH","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":72,"weight":null,"hometown":"Missouri City, Texas","high_school":"Ridge Point HS","previous_school":"Louisville","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:adison-ozuna","name":"Adison Ozuna","first":"Adison","last":"Ozuna","jersey":"3","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Victoria, Texas","high_school":"Victoria East HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:caelyn-robel","name":"Caelyn Robel","first":"Caelyn","last":"Robel","jersey":"16","pos":"OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Spring, Texas","high_school":"Grand Oaks HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:naara-tanco","name":"Naara Tanco","first":"Naara","last":"Tanco","jersey":"23","pos":"MB","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":73,"weight":null,"hometown":"Austin, Texas","high_school":"Rouse HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maggie-walsh","name":"Maggie Walsh","first":"Maggie","last":"Walsh","jersey":"2","pos":"OH/L","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"San Marcos, Texas","high_school":"San Marcos HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:samantha-wunsch","name":"Samantha Wunsch","first":"Samantha","last":"Wunsch","jersey":"8","pos":"OH","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":75,"weight":null,"hometown":"Austin, Texas","high_school":"Vandegrift HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

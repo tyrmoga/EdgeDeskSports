@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "portland-st",
+ "host": "goviks.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://goviks.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:sara-barhoum","name":"Sara Barhoum","first":"Sara","last":"Barhoum","jersey":"25","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Happy Valley, Ore.","high_school":"Clackamas HS","previous_school":"Oregon","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kyleigh-brown","name":"Kyleigh Brown","first":"Kyleigh","last":"Brown","jersey":"12","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Silverton, Ore.","high_school":"Silverton HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:liv-collins","name":"Liv Collins","first":"Liv","last":"Collins","jersey":"5","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Sumner, Wash.","high_school":"Sumner HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:teagan-colvin","name":"Teagan Colvin","first":"Teagan","last":"Colvin","jersey":"0","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"Coeur d’Alene, Idaho","high_school":"Coeur d’Alene HS","previous_school":"UNLV","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nihoa-dunn","name":"Nihoa Dunn","first":"Nihoa","last":"Dunn","jersey":"33","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Honolulu, Hawai'i","high_school":"Kamehameha Schools, Kapalama","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kailee-field","name":"Kailee Field","first":"Kailee","last":"Field","jersey":"1","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":70,"weight":null,"hometown":"Brisbane, Queensland, Australia","high_school":"Brisbane State HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ryme-jaekel","name":"Ryme Jaekel","first":"Ryme","last":"Jaekel","jersey":"2","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":69,"weight":null,"hometown":"Gladstone, Ore.","high_school":"Wilsonville HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maaya-lucas","name":"Maaya Lucas","first":"Maaya","last":"Lucas","jersey":"14","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Tualatin, Ore.","high_school":"Tualatin HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aspen-mcclees","name":"Aspen McClees","first":"Aspen","last":"McClees","jersey":"22","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Gilbert, Ariz.","high_school":"Gilbert HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kirstine-munk","name":"Kirstine Munk","first":"Kirstine","last":"Munk","jersey":"10","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Copenhagen, Denmark","high_school":"Niels Brock handelsgymnasium","previous_school":"Central Arizona College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alex-padilla","name":"Alex Padilla","first":"Alex","last":"Padilla","jersey":"13","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Tualatin, Ore.","high_school":"Tualatin HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jordyn-smith","name":"Jordyn Smith","first":"Jordyn","last":"Smith","jersey":"15","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Tigard, Ore.","high_school":"Tualatin HS","previous_school":"Cal Poly Humboldt","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maile-starns","name":"Maile Starns","first":"Maile","last":"Starns","jersey":"11","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":66,"weight":null,"hometown":"Parker, Colo.","high_school":"Legend HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:laynee-torres-kahapea","name":"Laynee Torres-Kahapea","first":"Laynee","last":"Torres-Kahapea","jersey":"3","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":66,"weight":null,"hometown":"Kaneohe, Hawai'i","high_school":"Punahou School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emma-zuniga","name":"Emma Zuniga","first":"Emma","last":"Zuniga","jersey":"23","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Keizer, Ore.","high_school":"West Salem HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

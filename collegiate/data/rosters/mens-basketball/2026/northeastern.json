@@ -1,0 +1,30 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "northeastern",
+ "host": "gonu.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://gonu.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 14,
+ "players": [
+  {"pid":"slug:xavier-abreu","name":"Xavier Abreu","first":"Xavier","last":"Abreu","jersey":"1","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":184,"hometown":"Lynn, Mass.","high_school":"Phillips Academy - Andover","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:xander-alarie","name":"Xander Alarie","first":"Xander","last":"Alarie","jersey":"0","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":80,"weight":233,"hometown":"Bethesda, Md.","high_school":"St. Andrew’s Episcopal School","previous_school":"Miami (FL)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:haris-elezovic","name":"Haris Elezovic","first":"Haris","last":"Elezovic","jersey":"22","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":80,"weight":230,"hometown":"Sherbrooke, Quebec","high_school":"Vanier College","previous_school":"West Virginia","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ty-francis","name":"Ty Francis","first":"Ty","last":"Francis","jersey":"9","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":198,"hometown":"Brooklyn, N.Y.","high_school":"The Hotchkiss School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jb-frankel","name":"JB Frankel","first":"JB","last":"Frankel","jersey":"11","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":194,"hometown":"New York, N.Y.","high_school":"Brewster Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:youri-fritz","name":"Youri Fritz","first":"Youri","last":"Fritz","jersey":"7","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":81,"weight":220,"hometown":"Tiel, Netherlands","high_school":"Leidsche Rijn College","previous_school":"Canisius","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:william-kermoury","name":"William Kermoury","first":"William","last":"Kermoury","jersey":"8","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":194,"hometown":"Stockholm, Sweden","high_school":"Sodertalje BBK","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:liam-koelsch","name":"Liam Koelsch","first":"Liam","last":"Koelsch","jersey":"12","pos":"C","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":81,"weight":224,"hometown":"Alexandria, Va.","high_school":"Bishop O’Connell High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mike-loughnane","name":"Mike Loughnane","first":"Mike","last":"Loughnane","jersey":"4","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":182,"hometown":"Quincy, Mass.","high_school":"Phillips Exeter Academy","previous_school":"Davidson","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:miles-newton","name":"Miles Newton","first":"Miles","last":"Newton","jersey":"10","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":204,"hometown":"Eden Prairie, Minn.","high_school":"Breck School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:petar-pinter","name":"Petar Pinter","first":"Petar","last":"Pinter","jersey":"21","pos":"C","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":83,"weight":202,"hometown":"Nikšic, Montenegro","high_school":"Gimnazija Stojan Cerovic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:la-pratt","name":"LA Pratt","first":"LA","last":"Pratt","jersey":"3","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":192,"hometown":"Columbus, Ohio","high_school":"Lincoln Park","previous_school":"Elon","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:luca-soroa-schaller","name":"Luca Soroa Schaller","first":"Luca","last":"Soroa Schaller","jersey":"13","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":215,"hometown":"Valencia, Spain","high_school":"Team Speights","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ryan-williams","name":"Ryan Williams","first":"Ryan","last":"Williams","jersey":"2","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":180,"hometown":"Phoenixville, Pa.","high_school":"Malvern Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

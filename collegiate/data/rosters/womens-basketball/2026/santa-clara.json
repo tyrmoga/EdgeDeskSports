@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "santa-clara",
+ "host": "santaclarabroncos.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://santaclarabroncos.com/sports/womens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:reilly-clark","name":"Reilly Clark","first":"Reilly","last":"Clark","jersey":"24","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":70,"weight":null,"hometown":"Tucson, Ariz.","high_school":"Catalina Foothills","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kylee-fox","name":"Kylee Fox","first":"Kylee","last":"Fox","jersey":"30","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Richland, Wash.","high_school":"Richland HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tyler-gildersleeve-stiles","name":"Tyler Gildersleeve-Stiles","first":"Tyler","last":"Gildersleeve-Stiles","jersey":"34","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Snohomish, Wash.","high_school":"Snohomish HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sophie-glancey","name":"Sophie Glancey","first":"Sophie","last":"Glancey","jersey":"12","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":74,"weight":null,"hometown":"Boise, Idaho","high_school":"Timberline HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alana-goodchild","name":"Alana Goodchild","first":"Alana","last":"Goodchild","jersey":"11","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"Sydney, Australia","high_school":"Australian Institute of Sport","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sienna-grieger","name":"Sienna Grieger","first":"Sienna","last":"Grieger","jersey":"6","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"West Adelaide, Australia","high_school":"St. Michael's College","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lauren-grover","name":"Lauren Grover","first":"Lauren","last":"Grover","jersey":"10","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Corona, Calif.","high_school":"Santiago HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ashley-hawkins","name":"Ashley Hawkins","first":"Ashley","last":"Hawkins","jersey":"23","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":66,"weight":null,"hometown":"Long Beach, Calif.","high_school":"Wilson HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aniya-hooker","name":"Aniya Hooker","first":"Aniya","last":"Hooker","jersey":"2","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":null,"hometown":"Lynnwood, Wash.","high_school":"Lynwood HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maia-jones","name":"Maia Jones","first":"Maia","last":"Jones","jersey":"0","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":70,"weight":null,"hometown":"Tasman, New Zealand","high_school":"Waimea College","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:delainey-miller","name":"Delainey Miller","first":"Delainey","last":"Miller","jersey":"20","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Aurora, Colo.","high_school":"Cherokee Trail HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kate-schat","name":"Kate Schat","first":"Kate","last":"Schat","jersey":"3","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Redwood Valley, Calif.","high_school":"Cardinal Newman HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sara-schmerbach","name":"Sara Schmerbach","first":"Sara","last":"Schmerbach","jersey":"5","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"South Medford, Ore.","high_school":"South Medford HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ava-schmidt","name":"Ava Schmidt","first":"Ava","last":"Schmidt","jersey":"13","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Sammamish, Wash.","high_school":"East Lake HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maddy-warberg","name":"Maddy Warberg","first":"Maddy","last":"Warberg","jersey":"4","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Eugene, Ore.","high_school":"South Medford HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

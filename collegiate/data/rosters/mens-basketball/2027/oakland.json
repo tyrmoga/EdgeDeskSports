@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "oakland",
+ "host": "goldengrizzlies.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://goldengrizzlies.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:nate-ahner","name":"Nate Ahner","first":"Nate","last":"Ahner","jersey":"22","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":215,"hometown":"Copenhagen, Denmark","high_school":"LA Premier Prep","previous_school":"College of Southern Idaho","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ryder-bradley","name":"Ryder Bradley","first":"Ryder","last":"Bradley","jersey":"3","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":185,"hometown":"Leander, Texas","high_school":"Leander HS","previous_school":"St. Edward’s (TX)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:belal-el-shakery","name":"Belal El Shakery","first":"Belal","last":"El Shakery","jersey":"24","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":240,"hometown":"Alexandria, Egypt","high_school":"The Winchendon School (Mass.)","previous_school":"New Hampshire","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chris-fields-jr-","name":"Chris Fields Jr.","first":"Chris","last":"Fields Jr.","jersey":"2","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":240,"hometown":"Petersburg, Va.","high_school":"Petersburg","previous_school":"Campbell","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:deuce-hamilton","name":"Deuce Hamilton","first":"Deuce","last":"Hamilton","jersey":"11","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":175,"hometown":"North Hollywood, Calif.","high_school":"Oakwood HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:josh-hill","name":"Josh Hill","first":"Josh","last":"Hill","jersey":"14","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":83,"weight":200,"hometown":"Laurel, Md.","high_school":"Wheeler HS (GA)","previous_school":"Robert Morris","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:william-kassi","name":"William Kassi","first":"William","last":"Kassi","jersey":"4","pos":"G/F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":82,"weight":205,"hometown":"Pontoise, France","high_school":"Albert Thomas HS","previous_school":"Indian Hills CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:warren-marshall-iv","name":"Warren Marshall IV","first":"Warren","last":"Marshall IV","jersey":"13","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":190,"hometown":"Auburn Hills, Mich.","high_school":"Brother Rice High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hamoudy-mashhour","name":"Hamoudy Mashhour","first":"Hamoudy","last":"Mashhour","jersey":"1","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":200,"hometown":"Dearborn, Mich.","high_school":"Dearborn High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nassim-mashhour","name":"Nassim Mashhour","first":"Nassim","last":"Mashhour","jersey":"0","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":200,"hometown":"Dearborn, Mich.","high_school":"Dearborn High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ivan-stojanovski","name":"Ivan Stojanovski","first":"Ivan","last":"Stojanovski","jersey":"7","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":185,"hometown":"Washington Township, Mich.","high_school":"Brother Rice High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brady-swartz","name":"Brady Swartz","first":"Brady","last":"Swartz","jersey":"5","pos":"G/F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":210,"hometown":"Grand Rapids, Mich.","high_school":"Northview","previous_school":"Western Michigan","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rj-taylor","name":"RJ Taylor","first":"RJ","last":"Taylor","jersey":"10","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":170,"hometown":"Grand Blanc, Mich.","high_school":"Grand Blanc HS","previous_school":"Northern Iowa","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isaiah-theodile","name":"Isaiah Theodile","first":"Isaiah","last":"Theodile","jersey":"21","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":225,"hometown":"Kalamazoo, Mich.","high_school":"Kalamazoo Central","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:camden-thompson","name":"Camden Thompson","first":"Camden","last":"Thompson","jersey":"6","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":200,"hometown":"Whitehall, Mich.","high_school":"Whitehall HS","previous_school":"Western Michigan","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

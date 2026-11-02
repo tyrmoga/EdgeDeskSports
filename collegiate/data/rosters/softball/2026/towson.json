@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "towson",
+ "host": "towsontigers.com",
+ "platform": "sidearm_legacy",
+ "sport": "softball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://towsontigers.com/sports/softball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:amanda-ashe","name":"Amanda Ashe","first":"Amanda","last":"Ashe","jersey":"82","pos":"1B","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Stafford, Va.","high_school":"Mountain View H.S.","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kaci-benton","name":"Kaci Benton","first":"Kaci","last":"Benton","jersey":"16","pos":"OF/C","class":"JR","redshirt":false,"class_raw":"Junior","height_in":66,"weight":null,"hometown":"Bordentown, N.J.","high_school":"Bordentown H.S.","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lexi-best-arnold","name":"Lexi Best-Arnold","first":"Lexi","last":"Best-Arnold","jersey":"5","pos":"IF","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":64,"weight":null,"hometown":"SeaTac, Wa.","high_school":"Raisbeck Aviation","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:taylor-broadbent","name":"Taylor Broadbent","first":"Taylor","last":"Broadbent","jersey":"22","pos":"OF","class":"SR","redshirt":false,"class_raw":"Senior","height_in":66,"weight":null,"hometown":"Jefferson, Md.","high_school":"Middletown","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kallissa-coats","name":"Kallissa Coats","first":"Kallissa","last":"Coats","jersey":"23","pos":"IF","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":null,"hometown":"Baltimore, Md.","high_school":"The John Carroll School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chelsey-farthing","name":"Chelsey Farthing","first":"Chelsey","last":"Farthing","jersey":"15","pos":"P/UTL","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":63,"weight":null,"hometown":"Maidens, Va.","high_school":"Goochland","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mackenzie-gorczyca","name":"Mackenzie Gorczyca","first":"Mackenzie","last":"Gorczyca","jersey":"7","pos":"IF","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Prince Frederick, Md.","high_school":"St. Mary's Ryken","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mikaela-guy","name":"Mikaela Guy","first":"Mikaela","last":"Guy","jersey":"35","pos":"P","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":67,"weight":null,"hometown":"Clements, Md.","high_school":"St. Mary's Ryken","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:caileigh-mahovetz","name":"Caileigh Mahovetz","first":"Caileigh","last":"Mahovetz","jersey":"21","pos":"C","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":null,"hometown":"Bridgewater, N.J.","high_school":"Bridgewater-Raritan","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:leah-mears","name":"Leah Mears","first":"Leah","last":"Mears","jersey":"1","pos":"OF","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":64,"weight":null,"hometown":"Vineland, N.J.","high_school":"Vineland","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:amanda-medina","name":"Amanda Medina","first":"Amanda","last":"Medina","jersey":"4","pos":"P","class":"SR","redshirt":false,"class_raw":"Senior","height_in":66,"weight":null,"hometown":"Millington, N.J.","high_school":"Watchung Hills Regional","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:addison-miller","name":"Addison Miller","first":"Addison","last":"Miller","jersey":"12","pos":"IF","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":66,"weight":null,"hometown":"Mount Pleasant, S.C.","high_school":"Oceanside Collegiate Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jessa-pieters","name":"Jessa Pieters","first":"Jessa","last":"Pieters","jersey":"42","pos":"P","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":null,"hometown":"Swedesboro, N.J.","high_school":"Kingsway Regional","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:olivia-trombley","name":"Olivia Trombley","first":"Olivia","last":"Trombley","jersey":"24","pos":"P/1B","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Parker, Colo.","high_school":"Ponderosa H.S.","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jada-wade","name":"Jada Wade","first":"Jada","last":"Wade","jersey":"11","pos":"1B","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":70,"weight":null,"hometown":"West Chester, Pa.","high_school":"Academy of Notre Dame de Namur","previous_school":"UNC-Wilmington","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

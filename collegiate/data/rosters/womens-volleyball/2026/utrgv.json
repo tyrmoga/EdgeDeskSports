@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "utrgv",
+ "host": "goutrgv.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://goutrgv.com/sports/womens-volleyball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:jasmine-allen","name":"Jasmine Allen","first":"Jasmine","last":"Allen","jersey":"4","pos":"RS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"DeSoto, Texas","high_school":"Judge Barefoot Sanders Law Magnet","previous_school":"DeSoto High School","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isa-bento","name":"Isa Bento","first":"Isa","last":"Bento","jersey":"12","pos":"L","class":"SR","redshirt":false,"class_raw":"Senior","height_in":64,"weight":null,"hometown":"Belo Horizonte, Brazil","high_school":null,"previous_school":"Minas Tenis Clube","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:julianna-bryant","name":"Julianna Bryant","first":"Julianna","last":"Bryant","jersey":"22","pos":"MB","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":73,"weight":null,"hometown":"Harlingen, Texas","high_school":"Harlingen","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:celianiz-cabranes","name":"Celianiz Cabranes","first":"Celianiz","last":"Cabranes","jersey":"5","pos":"L","class":"SR","redshirt":false,"class_raw":"Senior","height_in":62,"weight":null,"hometown":"Bayamon, Puerto Rico","high_school":null,"previous_school":"Tennessee State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:soukeyna-diouf","name":"Soukeyna Diouf","first":"Soukeyna","last":"Diouf","jersey":"25","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Martigues, France","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:martina-franco","name":"Martina Franco","first":"Martina","last":"Franco","jersey":"1","pos":"OH","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"San Lorenzo, Santa Fe, Argentina","high_school":"Nuestra señora de la misericordia 8111","previous_school":"UTSA","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:agata-makowska","name":"Agata Makowska","first":"Agata","last":"Makowska","jersey":"6","pos":"S","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Poznan, Poland","high_school":null,"previous_school":"UNLV","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sujeili-mermella","name":"Sujeili Mermella","first":"Sujeili","last":"Mermella","jersey":"11","pos":"S/DS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":66,"weight":null,"hometown":"San Antonio, Texas","high_school":"Antonian Prep","previous_school":"St. John's","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ema-petkovic","name":"Ema Petkovic","first":"Ema","last":"Petkovic","jersey":"7","pos":"RS/OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Novi Sad, Serbia","high_school":null,"previous_school":"UC Santa Barbara","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lana-rnjak","name":"Lana Rnjak","first":"Lana","last":"Rnjak","jersey":"10","pos":"S","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Pancevo, Serbia","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aaliyah-snead","name":"Aaliyah Snead","first":"Aaliyah","last":"Snead","jersey":"2","pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"Atlanta, Ga.","high_school":"Dutchtown","previous_school":"Tyler Junior College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dunja-stankovic","name":"Dunja Stankovic","first":"Dunja","last":"Stankovic","jersey":"8","pos":"DS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Sremska Mitrovica, Serbia","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:carmina-tijerina","name":"Carmina Tijerina","first":"Carmina","last":"Tijerina","jersey":"21","pos":"DS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":62,"weight":null,"hometown":"Matamoros, Tamaulipas, Mexico","high_school":"St. Joseph Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:shylah-totten","name":"Shylah Totten","first":"Shylah","last":"Totten","jersey":"23","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Chesapeake, Va.","high_school":"Oscar Smith","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jasmyn-walker","name":"Jasmyn Walker","first":"Jasmyn","last":"Walker","jersey":"9","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Rosharon, Texas","high_school":"Manvel","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nadine-zech","name":"Nadine Zech","first":"Nadine","last":"Zech","jersey":"3","pos":"OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Gardone Riviera, Italy","high_school":"Scienze Motorie Bio Sanitario","previous_school":"LPM BAM Mondovì","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "robert-morris",
+ "host": "rmucolonials.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://rmucolonials.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 13,
+ "players": [
+  {"pid":"slug:mackenzie-blackford","name":"Mackenzie Blackford","first":"Mackenzie","last":"Blackford","jersey":"3","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"Solon, Ohio","high_school":"Solon","previous_school":"Duquesne","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:london-creach","name":"London Creach","first":"London","last":"Creach","jersey":"11","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":69,"weight":null,"hometown":"Pittsburgh, Pa.","high_school":"Oakland Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mallory-daly","name":"Mallory Daly","first":"Mallory","last":"Daly","jersey":"10","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Pittsburgh, Pa.","high_school":"Seton LaSalle","previous_school":"Buffalo","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sira-diarra","name":"Sira Diarra","first":"Sira","last":"Diarra","jersey":"17","pos":"C","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":null,"hometown":"Draveil, France","high_school":"Lycee Larmatrine Macon","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maeva-fotsa","name":"Maeva Fotsa","first":"Maeva","last":"Fotsa","jersey":"22","pos":"C","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":74,"weight":null,"hometown":"Quebec, Canada","high_school":null,"previous_school":"Austin Peay","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:page-greenburg","name":"Page Greenburg","first":"Page","last":"Greenburg","jersey":"32","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":69,"weight":null,"hometown":"Washington, D.C.","high_school":"Maret","previous_school":"George Mason","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ava-leroux","name":"Ava Leroux","first":"Ava","last":"Leroux","jersey":"18","pos":"C","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":76,"weight":null,"hometown":"Bridgeville, Pa.","high_school":"South Fayette","previous_school":"Elon","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:eva-levingston","name":"Eva Levingston","first":"Eva","last":"Levingston","jersey":"23","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Oakland, Calif.","high_school":null,"previous_school":"Cal St Fullerton","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:meghan-murray","name":"Meghan Murray","first":"Meghan","last":"Murray","jersey":"0","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":65,"weight":null,"hometown":"Hampton, Pa.","high_school":"Hampton","previous_school":"Kent State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:myriam-traore","name":"Myriam Traore","first":"Myriam","last":"Traore","jersey":"7","pos":"G/F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":null,"hometown":"Lognes, France","high_school":"Jean Mermoz","previous_school":"Siena","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sanai-troutman","name":"Sanai Troutman","first":"Sanai","last":"Troutman","jersey":"1","pos":"G/F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":71,"weight":null,"hometown":"Frederick, Md.","high_school":"Bullis","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:teigh-yeast","name":"Teigh Yeast","first":"Teigh","last":"Yeast","jersey":"2","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Harrodsburg, Ky.","high_school":"George Rogers Clark","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:timberlynn-yeast","name":"Timberlynn Yeast","first":"Timberlynn","last":"Yeast","jersey":"12","pos":"G/F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":69,"weight":null,"hometown":"Harrodsburg, Ky.","high_school":"Mercer County","previous_school":"Marshall","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

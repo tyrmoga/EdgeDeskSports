@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "wake-forest",
+ "host": "godeacs.com",
+ "platform": "sidearm",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://godeacs.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"2895","name":"Sebastian Akins","first":"Sebastian","last":"Akins","jersey":"10","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":175,"hometown":"Concord, N.C.","high_school":"1 of 1 Academy","previous_school":"Denver","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"2894","name":"Anson Beard Jr.","first":"Anson","last":"Beard Jr.","jersey":"30","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":215,"hometown":"New York, N.Y.","high_school":"Lawrenceville School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"2653","name":"Omaha Biliew","first":"Omaha","last":"Biliew","jersey":"0","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":230,"hometown":"Waukee, Iowa","high_school":"Waukee High School / Iowa State","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"2890","name":"Nate Calmese","first":"Nate","last":"Calmese","jersey":"1","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":181,"hometown":"Gilbert, Ariz.","high_school":"Mesquite","previous_school":"Washington State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"2892","name":"Isaac Carr","first":"Isaac","last":"Carr","jersey":"7","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":187,"hometown":"Portland, Ore.","high_school":"Central Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"2889","name":"Myles Colvin","first":"Myles","last":"Colvin","jersey":"6","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":212,"hometown":"Indianapolis, Ind.","high_school":"Heritage Christian","previous_school":"Purdue","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"2893","name":"Jaylen Cross","first":"Jaylen","last":"Cross","jersey":"23","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":185,"hometown":"Greensboro, N.C.","high_school":"Caldwell Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"2650","name":"Juke Harris","first":"Juke","last":"Harris","jersey":"2","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":200,"hometown":"Salisbury, N.C.","high_school":"Salisbury High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"2362","name":"Owen Kmety","first":"Owen","last":"Kmety","jersey":"44","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":210,"hometown":"Chicago, Ill.","high_school":"La Lumiere High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"2954","name":"Dimitrije Kovacevic","first":"Dimitrije","last":"Kovacevic","jersey":"33","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":215,"hometown":"Doboj, Bosnia & Herzegovina","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"2458","name":"Marqus Marion","first":"Marqus","last":"Marion","jersey":"11","pos":"F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":81,"weight":220,"hometown":"Skovlunde, Denmark","high_school":"BMS Herlev","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"2891","name":"Mekhi Mason","first":"Mekhi","last":"Mason","jersey":"8","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":202,"hometown":"Gilbert, Ariz.","high_school":"Compass Prep","previous_school":"Washington","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"2492","name":"Vincent Ricchiuti","first":"Vincent","last":"Ricchiuti","jersey":"9","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":195,"hometown":"San Diego, Calif.","high_school":"St. Augustine High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"2888","name":"Cooper Schwieger","first":"Cooper","last":"Schwieger","jersey":"13","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":82,"weight":235,"hometown":"Overland Park, Kan.","high_school":"Blue Valley Southwest","previous_school":"Valparaiso","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"2655","name":"Tre'Von Spillers","first":"Tre'Von","last":"Spillers","jersey":"25","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":215,"hometown":"Charleston, S.C.","high_school":"Military Magnet Academy / App State","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"2491","name":"Will Underwood","first":"Will","last":"Underwood","jersey":"4","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":180,"hometown":"Mahtomedi, Minn.","high_school":"Mahtomedi High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

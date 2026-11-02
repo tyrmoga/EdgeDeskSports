@@ -8,13 +8,13 @@
  "season_label": "2026-27",
  "url": "https://mutigers.com/sports/womens-basketball/schedule/season/2026-27",
  "first_read": "2026-10-26",
- "last_read": "2026-10-26",
+ "last_read": "2026-11-02",
  "readers": "sidearm,sidearm_vue,sidearm_legacy,wmt+themes10+sport_path+plain_page",
  "games_listed": 41,
  "finals": 0,
  "undated": 0,
  "games": [
-  {"game_key":null,"date":"2026-10-29","time":"18:30","site":"H","opponent":"Lincoln","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Columbia, Mo.","event":null,"boxscore":null,"note":null,"exhibition":true},
+  {"game_key":"24571","date":"2026-10-29","time":"18:30","site":"H","opponent":"Lincoln","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"final","us":117,"them":43,"outcome":"W","innings":null,"location":"Columbia, Mo.","event":null,"boxscore":"/boxscore/24571","note":null,"exhibition":true},
   {"game_key":null,"date":"2026-11-02","time":"18:30","site":"H","opponent":"Howard","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Columbia, Mo.","event":null,"boxscore":null,"note":null},
   {"game_key":null,"date":"2026-11-06","time":"19:00","site":"A","opponent":"Little Rock","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Little Rock, Ark.","event":null,"boxscore":null,"note":null},
   {"game_key":null,"date":"2026-11-09","time":"11:00","site":"H","opponent":"Tennessee Tech","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Columbia, Mo.","event":null,"boxscore":null,"note":null},
@@ -54,6 +54,6 @@
   {"game_key":null,"date":"2027-03-26","time":"19:00","site":"N","opponent":"Sweet 16","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"TBA","event":null,"boxscore":null,"note":null},
   {"game_key":null,"date":"2027-03-28","time":"19:00","site":"N","opponent":"Elite Eight","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"TBA","event":null,"boxscore":null,"note":null},
   {"game_key":null,"date":"2027-04-02","time":"19:00","site":"N","opponent":"Final Four","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Columbus, Ohio","event":null,"boxscore":null,"note":null},
-  {"game_key":null,"date":"2027-04-04","time":"19:00","site":"N","opponent":"National Championship","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Columbus, Ohio","event":null,"boxscore":null,"note":null}
+  {"game_key":"24571","date":"2027-04-04","time":"19:00","site":"N","opponent":"National Championship","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Columbus, Ohio","event":null,"boxscore":"/boxscore/24571","note":null}
  ]
 }

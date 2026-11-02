@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "cleveland-st",
+ "host": "csuvikings.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2025,
+ "season_label": "2025",
+ "url": "https://csuvikings.com/sports/womens-volleyball/roster/2025",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:matilda-dahlstrom","name":"Matilda Dahlstrom","first":"Matilda","last":"Dahlstrom","jersey":"1","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Malmo, Sweden","high_school":null,"previous_school":"Eastern Illinois","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:vayda-delventhal","name":"Vayda Delventhal","first":"Vayda","last":"Delventhal","jersey":"7","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":64,"weight":null,"hometown":"Northwood, Ohio","high_school":"Lake","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isabella-gibbons","name":"Isabella Gibbons","first":"Isabella","last":"Gibbons","jersey":"19","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Wheaton, Ill.","high_school":"Wheaton North","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:madisyn-green","name":"Madisyn Green","first":"Madisyn","last":"Green","jersey":"18","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":65,"weight":null,"hometown":"LaGrange, Ky.","high_school":"Our Lady of Mercy Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:julia-jozefov","name":"Julia Jozefov","first":"Julia","last":"Jozefov","jersey":"10","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Brunswick, Ohio","high_school":"Brunswick","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jerilynn-koehler","name":"JeriLynn Koehler","first":"JeriLynn","last":"Koehler","jersey":"2","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"New Lexington, Ohio","high_school":"New Lexington","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:magaly-lemus","name":"Magaly Lemus","first":"Magaly","last":"Lemus","jersey":"9","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Holland, Mich.","high_school":"West Ottawa","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chloe-list","name":"Chloe List","first":"Chloe","last":"List","jersey":"23","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Beaver, Pa.","high_school":"Beaver Area","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:abbi-martin","name":"Abbi Martin","first":"Abbi","last":"Martin","jersey":"11","pos":null,"class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":73,"weight":null,"hometown":"Mosinee, Wis.","high_school":"Mosinee","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:danica-mcarthur","name":"Danica McArthur","first":"Danica","last":"McArthur","jersey":"13","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":62,"weight":null,"hometown":"Avon Lake, Ohio","high_school":"Avon Lake","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:allison-salazar","name":"Allison Salazar","first":"Allison","last":"Salazar","jersey":"24","pos":null,"class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":69,"weight":null,"hometown":"Medina, Ohio","high_school":"Buckeye","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sophie-skidmore","name":"Sophie Skidmore","first":"Sophie","last":"Skidmore","jersey":"3","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Hudson, Ohio","high_school":"Hudson","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bryn-vanvleet","name":"Bryn VanVleet","first":"Bryn","last":"VanVleet","jersey":"6","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Richmond, Ind.","high_school":"Seton Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:laken-voss","name":"Laken Voss","first":"Laken","last":"Voss","jersey":"16","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Amherst, Ohio","high_school":"Amherst Steele","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:reilly-wadden","name":"Reilly Wadden","first":"Reilly","last":"Wadden","jersey":"14","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"Lakewood, Ohio","high_school":"Saint Joseph Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

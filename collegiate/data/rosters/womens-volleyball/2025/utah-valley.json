@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "utah-valley",
+ "host": "gouvu.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2025,
+ "season_label": "2025",
+ "url": "https://gouvu.com/sports/womens-volleyball/roster/2025",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:sami-blackett","name":"Sami Blackett","first":"Sami","last":"Blackett","jersey":"13","pos":"OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Orem, Utah","high_school":"Orem HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rylee-busse","name":"Rylee Busse","first":"Rylee","last":"Busse","jersey":"7","pos":"OH/DS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"New Braunfels, Texas","high_school":"Cornerstone Christian HS","previous_school":"Memphis","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:steliyana-chakarova","name":"Steliyana Chakarova","first":"Steliyana","last":"Chakarova","jersey":"20","pos":"RS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":null,"hometown":"Stara Zagora, Bulgaria","high_school":null,"previous_school":"Eastern Arizona","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alyssa-erickson","name":"Alyssa Erickson","first":"Alyssa","last":"Erickson","jersey":"4","pos":"OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Gilbert, Ariz.","high_school":"Perry HS","previous_school":"BYU","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lauren-feiler","name":"Lauren Feiler","first":"Lauren","last":"Feiler","jersey":"10","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Carlsbad, Calif.","high_school":"San Marcos HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:olivia-gloeckner","name":"Olivia Gloeckner","first":"Olivia","last":"Gloeckner","jersey":"17","pos":"RS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Salt Lake City, Utah","high_school":"Skyline HS","previous_school":"Idaho","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kenna-mcclure","name":"Kenna McClure","first":"Kenna","last":"McClure","jersey":"12","pos":"DS/L","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Meridian, Idaho","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:evalyn-medaris","name":"Evalyn Medaris","first":"Evalyn","last":"Medaris","jersey":"11","pos":"S","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Bountiful, Utah","high_school":"Bountiful HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:avery-page","name":"Avery Page","first":"Avery","last":"Page","jersey":"5","pos":"OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Lehi, Utah","high_school":"Lehi HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:moana-peaua","name":"Moana Peaua","first":"Moana","last":"Peaua","jersey":"18","pos":"OH/DS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Miliani, Hawaii","high_school":"Kamehameha Kapalama HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:natalie-riggs","name":"Natalie Riggs","first":"Natalie","last":"Riggs","jersey":"9","pos":"S","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Gilbert, Ariz.","high_school":"Highland HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:madi-standifird","name":"Madi Standifird","first":"Madi","last":"Standifird","jersey":"3","pos":"OH","class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Lehi, Utah","high_school":"Skyridge HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brooke-stauffer","name":"Brooke Stauffer","first":"Brooke","last":"Stauffer","jersey":"6","pos":"S","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Cottonwood Heights, Utah","high_school":"Corner Canyon HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lani-toutai","name":"Lani Toutai","first":"Lani","last":"Toutai","jersey":"8","pos":"L","class":"JR","redshirt":false,"class_raw":"Junior","height_in":66,"weight":null,"hometown":"West Jordan, Utah","high_school":"West Jordan HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alyvia-watkins","name":"Alyvia Watkins","first":"Alyvia","last":"Watkins","jersey":"2","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":null,"hometown":"Morgan, Utah","high_school":"Morgan HS","previous_school":"Utah Hive","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bella-wooden","name":"Bella Wooden","first":"Bella","last":"Wooden","jersey":"15","pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":null,"hometown":"Summerfield, N.C.","high_school":"Northern Guilford HS","previous_school":"Utah State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maranda-woolf","name":"Maranda Woolf","first":"Maranda","last":"Woolf","jersey":"1","pos":"MB","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":74,"weight":null,"hometown":"Peoria, Ariz.","high_school":"Liberty HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

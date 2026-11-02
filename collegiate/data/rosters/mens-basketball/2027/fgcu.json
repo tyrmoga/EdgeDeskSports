@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "fgcu",
+ "host": "fgcuathletics.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://fgcuathletics.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:evan-barlow","name":"Evan Barlow","first":"Evan","last":"Barlow","jersey":"12","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":198,"hometown":"Morton, Ill.","high_school":"Morton HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elijah-brooks","name":"Elijah Brooks","first":"Elijah","last":"Brooks","jersey":"13","pos":"G","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":75,"weight":201,"hometown":"Topeka, Kan.","high_school":"Topeka West HS","previous_school":"Houston Christian / North Dakota","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:turk-brown-iii","name":"Turk Brown III","first":"Turk","last":"Brown III","jersey":"1","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":179,"hometown":"Baltimore, Md.","high_school":"Paul VI Catholic HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tristen-guillouette","name":"Tristen Guillouette","first":"Tristen","last":"Guillouette","jersey":"21","pos":"C","class":"JR","redshirt":false,"class_raw":"Junior","height_in":82,"weight":235,"hometown":"Willingboro, N.J.","high_school":"George School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:justin-houser","name":"Justin Houser","first":"Justin","last":"Houser","jersey":"44","pos":"C","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":84,"weight":230,"hometown":"Camp Hill, Pa.","high_school":"Phelps School","previous_school":"Penn State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chase-konieczny","name":"Chase Konieczny","first":"Chase","last":"Konieczny","jersey":"23","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":198,"hometown":"South Bend, Ind.","high_school":"St. Joseph HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bryson-lucas","name":"Bryson Lucas","first":"Bryson","last":"Lucas","jersey":"5","pos":"F","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":79,"weight":204,"hometown":"Clarksburg, W.Va.","high_school":"Robert C. Byrd HS","previous_school":"California U. (Pa.)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:matt-mccarthy","name":"Matt McCarthy","first":"Matt","last":"McCarthy","jersey":"4","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":193,"hometown":"Aston, Pa.","high_school":"Episcopal Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cj-outlaw","name":"CJ Outlaw","first":"CJ","last":"Outlaw","jersey":"45","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":81,"weight":227,"hometown":"Orlando, Fla.","high_school":"Olympia HS","previous_school":"UMass / Trinity Valley CC / Mineral Area College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nikolas-sermpezis","name":"Nikolas Sermpezis","first":"Nikolas","last":"Sermpezis","jersey":"6","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":197,"hometown":"Munich, Germany","high_school":null,"previous_school":"FC Bayern Basketball","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gabe-tanner","name":"Gabe Tanner","first":"Gabe","last":"Tanner","jersey":"3","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":193,"hometown":"Scranton, Pa.","high_school":"The Perkiomen School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bb-washington","name":"BB Washington","first":"BB","last":"Washington","jersey":"8","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":195,"hometown":"Houston, Texas","high_school":"Christian Academy of Louisville","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:george-washington-iii","name":"George Washington III","first":"George","last":"Washington III","jersey":"10","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":189,"hometown":"Louisville, Ky.","high_school":"Chaminade Julienne HS","previous_school":"Richmond / Michigan","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trace-westercamp","name":"Trace Westercamp","first":"Trace","last":"Westercamp","jersey":"0","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":81,"weight":213,"hometown":"Jacksonville, Fla.","high_school":"The Rock School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kingston-wheatley","name":"Kingston Wheatley","first":"Kingston","last":"Wheatley","jersey":"22","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":206,"hometown":"Sicklerville, N.J.","high_school":"West Catholic Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:darren-williams","name":"Darren Williams","first":"Darren","last":"Williams","jersey":"2","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":183,"hometown":"Philadelphia, Pa.","high_school":"Archbishop Ryan HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

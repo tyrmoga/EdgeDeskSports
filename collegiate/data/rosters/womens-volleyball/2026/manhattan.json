@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "manhattan",
+ "host": "gojaspers.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://gojaspers.com/sports/womens-volleyball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:lyla-auth","name":"Lyla Auth","first":"Lyla","last":"Auth","jersey":"5","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Westerly, RI","high_school":"Westerly","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ori-briger","name":"Ori Briger","first":"Ori","last":"Briger","jersey":"10","pos":"S","class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Tel Aviv, Israel","high_school":"Lady Davis","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mikalah-curran","name":"Mikalah Curran","first":"Mikalah","last":"Curran","jersey":"16","pos":"OH","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":71,"weight":null,"hometown":"Commack, NY","high_school":"Commack","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kaitlyn-doyle","name":"Kaitlyn Doyle","first":"Kaitlyn","last":"Doyle","jersey":"9","pos":"DS/L","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Massapequa Park, NY","high_school":"St. Anthony's","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anna-duncan","name":"Anna Duncan","first":"Anna","last":"Duncan","jersey":"15","pos":"DS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Wildwood, MO","high_school":"St. Joseph's Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emma-francesconi","name":"Emma Francesconi","first":"Emma","last":"Francesconi","jersey":"8","pos":"OH/RS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Viarregio, Tuscany, Italy","high_school":"ISI Carlo Piaggia","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:karsyn-harris","name":"Karsyn Harris","first":"Karsyn","last":"Harris","jersey":"2","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Gilbert, AZ","high_school":"Hamilton","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:laura-hernandez","name":"Laura Hernandez","first":"Laura","last":"Hernandez","jersey":"88","pos":"MB","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":73,"weight":null,"hometown":"Callisburg, TX","high_school":"Callisburg","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brooke-johnson","name":"Brooke Johnson","first":"Brooke","last":"Johnson","jersey":"22","pos":"OH","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":70,"weight":null,"hometown":"Wynnewood, PA","high_school":"Lower Marion","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hanna-kaczynska","name":"Hanna Kaczynska","first":"Hanna","last":"Kaczynska","jersey":"28","pos":"RS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Warsaw, Poland","high_school":"NLO SMS PZPS Szczyrk","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emilia-kuzniar","name":"Emilia Kuzniar","first":"Emilia","last":"Kuzniar","jersey":"4","pos":"S","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Przemysl, Poland","high_school":"SMS Stal Mielec","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:helenn-montilla","name":"Helenn Montilla","first":"Helenn","last":"Montilla","jersey":"12","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Miami, FL","high_school":"Immaculata La Salle","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:abby-morreale","name":"Abby Morreale","first":"Abby","last":"Morreale","jersey":"11","pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Lake Grove, NY","high_school":"Sachem North","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:margaret-o-brien","name":"Margaret O'Brien","first":"Margaret","last":"O'Brien","jersey":"7","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Rockford, IL","high_school":"Guilford","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:julia-pfleger","name":"Julia Pfleger","first":"Julia","last":"Pfleger","jersey":"3","pos":"DS/L","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":63,"weight":null,"hometown":"Upper Chichester, PA","high_school":"Chichester","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:katie-powers","name":"Katie Powers","first":"Katie","last":"Powers","jersey":"6","pos":"OH/RS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Wantagh, NY","high_school":"St. Anthony's","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

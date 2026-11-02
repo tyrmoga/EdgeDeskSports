@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "nc-central",
+ "host": "nccueaglepride.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://nccueaglepride.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:kendall-alexander","name":"Kendall Alexander","first":"Kendall","last":"Alexander","jersey":"13","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":66,"weight":null,"hometown":"Bethesda, Md.","high_school":null,"previous_school":"Walter Johnson HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:shrouq-amer","name":"Shrouq Amer","first":"Shrouq","last":"Amer","jersey":"35","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":null,"hometown":"Cairo, Egypt","high_school":null,"previous_school":"South Plains","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kenadi-banks","name":"Kenadi Banks","first":"Kenadi","last":"Banks","jersey":"4","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":64,"weight":null,"hometown":"Indianapolis, Ind.","high_school":null,"previous_school":"Crispus Attucks HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dianna-blake","name":"Dianna Blake","first":"Dianna","last":"Blake","jersey":"15","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Summerville, S.C.","high_school":null,"previous_school":"Ashley Ridge HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brianna-carelock","name":"Brianna Carelock","first":"Brianna","last":"Carelock","jersey":"3","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":65,"weight":null,"hometown":"Charlotte, N.C.","high_school":null,"previous_school":"Winston-Salem Christian","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:eboni-clay","name":"Eboni Clay","first":"Eboni","last":"Clay","jersey":"1","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":66,"weight":null,"hometown":"Portland, Ore.","high_school":null,"previous_school":"Benson Polytech HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chloe-crawford","name":"Chloe Crawford","first":"Chloe","last":"Crawford","jersey":"5","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Knightdale, N.C.","high_school":null,"previous_school":"South Garner HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:shakiria-foster","name":"Shakiria Foster","first":"Shakiria","last":"Foster","jersey":"10","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Barnesville, GA","high_school":null,"previous_school":"Lamar County HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aaliyah-grant","name":"Aaliyah Grant","first":"Aaliyah","last":"Grant","jersey":"12","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Ocala, Fla.","high_school":null,"previous_school":"West Port HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:amaya-harris","name":"Amaya Harris","first":"Amaya","last":"Harris","jersey":"11","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":67,"weight":null,"hometown":"Powder Springs, Ga.","high_school":null,"previous_school":"Hillgrove HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aysia-hinton","name":"Aysia Hinton","first":"Aysia","last":"Hinton","jersey":"0","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Durham, N.C.","high_school":null,"previous_school":"Maryland Eastern Shore","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rayana-minard","name":"Rayana Minard","first":"Rayana","last":"Minard","jersey":"22","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"Mooresville, N.C.","high_school":null,"previous_school":"Lake Norman HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:victoria-morris","name":"Victoria Morris","first":"Victoria","last":"Morris","jersey":"2","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Rock Hill, S.C.","high_school":null,"previous_school":"South Pointe HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:keileen-thompson-edwards","name":"Keileen Thompson-Edwards","first":"Keileen","last":"Thompson-Edwards","jersey":"23","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":64,"weight":null,"hometown":"Midlothian, Va.","high_school":null,"previous_school":"Manchester HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ariel-walker","name":"Ariel Walker","first":"Ariel","last":"Walker","jersey":"20","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Newark, N.J.","high_school":null,"previous_school":"CC of Baltimore County Essex","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

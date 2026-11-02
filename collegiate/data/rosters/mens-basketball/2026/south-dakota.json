@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "south-dakota",
+ "host": "goyotes.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://goyotes.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:evan-anderson","name":"Evan Anderson","first":"Evan","last":"Anderson","jersey":"10","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":76,"weight":null,"hometown":"Onalaska, Wis.","high_school":"Onalaska HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:silas-bennion","name":"Silas Bennion","first":"Silas","last":"Bennion","jersey":"13","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Eugene, Ore.","high_school":null,"previous_school":"Jamestown","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jake-brack","name":"Jake Brack","first":"Jake","last":"Brack","jersey":"34","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":null,"hometown":"Omaha, Neb.","high_school":"Skutt Catholic HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isaac-bruns","name":"Isaac Bruns","first":"Isaac","last":"Bruns","jersey":"12","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":null,"hometown":"North Sioux City, S.D.","high_school":"Dakota Valley HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:luke-bruns","name":"Luke Bruns","first":"Luke","last":"Bruns","jersey":"5","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"North Sioux City, S.D.","high_school":"Dakota Valley HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:uzziah-buntyn","name":"Uzziah Buntyn","first":"Uzziah","last":"Buntyn","jersey":"1","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Round Rock, Texas","high_school":"Stony Point","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:vince-buzelis","name":"Vince Buzelis","first":"Vince","last":"Buzelis","jersey":"4","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":null,"hometown":"Willowbrook, Ill.","high_school":"Hinsdale Central","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jordan-crawford","name":"Jordan Crawford","first":"Jordan","last":"Crawford","jersey":"0","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":null,"hometown":"Charlotte, N.C.","high_school":"North Mecklenburg HS","previous_school":"Eastern Kentucky","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:josiah-dotzler","name":"Josiah Dotzler","first":"Josiah","last":"Dotzler","jersey":null,"pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":75,"weight":null,"hometown":"Omaha, Neb.","high_school":"Bellevue West","previous_school":"Saint Louis","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cameron-fens","name":"Cameron Fens","first":"Cameron","last":"Fens","jersey":"54","pos":"C","class":"SR","redshirt":false,"class_raw":"Senior","height_in":84,"weight":null,"hometown":"Dubuque, Iowa","high_school":"Hempstead High School","previous_school":"University of Illinois-Chicago","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jonah-funk","name":"Jonah Funk","first":"Jonah","last":"Funk","jersey":"14","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":82,"weight":null,"hometown":"Metamora, Ill.","high_school":"Metamora HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jalen-hayes","name":"Jalen Hayes","first":"Jalen","last":"Hayes","jersey":"25","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":74,"weight":null,"hometown":"Richfield, Minn.","high_school":"Richfield High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trent-hudgens","name":"Trent Hudgens","first":"Trent","last":"Hudgens","jersey":"2","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Phoenix, Ariz.","high_school":null,"previous_school":"Arizona Christian","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:porter-ihnen","name":"Porter Ihnen","first":"Porter","last":"Ihnen","jersey":"23","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":78,"weight":null,"hometown":"Lennox, S.D.","high_school":"Lennox","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:caleb-kizer","name":"Caleb Kizer","first":"Caleb","last":"Kizer","jersey":"35","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":null,"hometown":"Metamora, Ill.","high_school":"Metamora HS","previous_school":"South Alabama","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ethan-kizer","name":"Ethan Kizer","first":"Ethan","last":"Kizer","jersey":"21","pos":"F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":77,"weight":null,"hometown":"Metamora, Ill.","high_school":"Metamora HS","previous_school":"South Alabama","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jesse-mcintosh","name":"Jesse McIntosh","first":"Jesse","last":"McIntosh","jersey":"11","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":null,"hometown":"Melbourne, Australia","high_school":"Ivanhoe Grammar School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

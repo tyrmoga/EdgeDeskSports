@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "valparaiso",
+ "host": "valpoathletics.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://valpoathletics.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:isaiah-barnes","name":"Isaiah Barnes","first":"Isaiah","last":"Barnes","jersey":"11","pos":null,"class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":79,"weight":210,"hometown":"Chicago, Ill.","high_school":"Simeon Career Academy (Tulsa/Michigan)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mark-brown-jr-","name":"Mark Brown Jr.","first":"Mark","last":"Brown Jr.","jersey":"10","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":190,"hometown":"South Phoenix, Ariz.","high_school":"Bella Vista Prep (Snow College)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rakim-chaney","name":"Rakim Chaney","first":"Rakim","last":"Chaney","jersey":"0","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":185,"hometown":"Rockford, Ill.","high_school":"Rockford Auburn (212° Sports Academy)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:owen-dease","name":"Owen Dease","first":"Owen","last":"Dease","jersey":"12","pos":null,"class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":80,"weight":200,"hometown":"Evansville, Ind.","high_school":"Evansville Reitz (Texas A&M Corpus Christi)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:carter-hopoi","name":"Carter Hopoi","first":"Carter","last":"Hopoi","jersey":"13","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":83,"weight":220,"hometown":"Tauranga, New Zealand","high_school":"Mount Maunganui College NZ","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nick-lombardi","name":"Nick Lombardi","first":"Nick","last":"Lombardi","jersey":"32","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":200,"hometown":"Lisle, Ill.","high_school":"Montini Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:justus-mcnair","name":"Justus McNair","first":"Justus","last":"McNair","jersey":"1","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":195,"hometown":"Joliet, Ill.","high_school":"Joliet West","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jt-pettigrew","name":"JT Pettigrew","first":"JT","last":"Pettigrew","jersey":"7","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":220,"hometown":"Lisle, Ill.","high_school":"Bolingbrook","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sader-servilus","name":"Sader Servilus","first":"Sader","last":"Servilus","jersey":"44","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":225,"hometown":"Montreal, Quebec, Canada","high_school":"Fort Erie International Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kyonte-thomas","name":"Kyonte Thomas","first":"Kyonte","last":"Thomas","jersey":"22","pos":null,"class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":72,"weight":180,"hometown":"Chicago, Ill.","high_school":"Bolingbrook (Southeastern)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tucker-tornatta","name":"Tucker Tornatta","first":"Tucker","last":"Tornatta","jersey":"35","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":235,"hometown":"Evansville, Ind.","high_school":"Reitz Memorial (University of Indianapolis)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:shon-tupuola","name":"Shon Tupuola","first":"Shon","last":"Tupuola","jersey":"23","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":82,"weight":245,"hometown":"Brownsburg, Ind.","high_school":"Brownsburg (Saint Mary-of-the-Woods)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:joe-vick","name":"Joe Vick","first":"Joe","last":"Vick","jersey":"20","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":195,"hometown":"Kouts, Ind.","high_school":"Kouts","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kobe-walker","name":"Kobe Walker","first":"Kobe","last":"Walker","jersey":"15","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":81,"weight":270,"hometown":"Normal, Ill.","high_school":"Normal Community","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jayden-watson","name":"Jayden Watson","first":"Jayden","last":"Watson","jersey":"4","pos":null,"class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":80,"weight":215,"hometown":"Chicago Heights, Ill.","high_school":"Bloom [Bosco Institute]","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:camden-webster","name":"Camden Webster","first":"Camden","last":"Webster","jersey":"5","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":185,"hometown":"Wheatfield, Ind.","high_school":"Kankakee Valley (Bosco Institute)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brody-whitaker","name":"Brody Whitaker","first":"Brody","last":"Whitaker","jersey":"3","pos":null,"class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":75,"weight":195,"hometown":"Greencastle, Ind.","high_school":"Greencastle (University of Indianapolis / Marian)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

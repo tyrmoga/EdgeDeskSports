@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "north-dakota",
+ "host": "fightinghawks.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://fightinghawks.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:garrett-anderson","name":"Garrett Anderson","first":"Garrett","last":"Anderson","jersey":"16","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":195,"hometown":"Phoenix, Ariz.","high_school":"PHH Prep","previous_school":"Central Washington University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:matthew-bothun","name":"Matthew Bothun","first":"Matthew","last":"Bothun","jersey":"5","pos":"F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":81,"weight":220,"hometown":"St. Francis, Minn.","high_school":"St. Francis HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:marley-curtis","name":"Marley Curtis","first":"Marley","last":"Curtis","jersey":"0","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":230,"hometown":"St. Louis Park, Minn.","high_school":"St. Louis Park HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:micah-curtis","name":"Micah Curtis","first":"Micah","last":"Curtis","jersey":"10","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":230,"hometown":"St. Louis Park, Minn.","high_school":"St. Louis Park HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:wylee-delorme","name":"Wylee Delorme","first":"Wylee","last":"Delorme","jersey":"23","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":200,"hometown":"Devils Lake, N.D.","high_school":"Devils Lake HS","previous_school":"UMary","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anthony-doppler","name":"Anthony Doppler","first":"Anthony","last":"Doppler","jersey":"33","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":76,"weight":200,"hometown":"Bismarck, N.D.","high_school":"Century HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ryan-erikson","name":"Ryan Erikson","first":"Ryan","last":"Erikson","jersey":"15","pos":"F/C","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":82,"weight":250,"hometown":"Bismarck, N.D.","high_school":"Century HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:josh-jones","name":"Josh Jones","first":"Josh","last":"Jones","jersey":"22","pos":"C","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":245,"hometown":"Austin, Texas","high_school":"Saint Michaels Academy","previous_school":"Oral Roberts","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:eli-king","name":"Eli King","first":"Eli","last":"King","jersey":"2","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":193,"hometown":"Caledonia, Minn.","high_school":"Caledonia HS","previous_school":"Iowa State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zach-kraft","name":"Zach Kraft","first":"Zach","last":"Kraft","jersey":"1","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":75,"weight":185,"hometown":"Grand Forks, N.D.","high_school":"Red River HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:george-natsvlishvili","name":"George Natsvlishvili","first":"George","last":"Natsvlishvili","jersey":"13","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":82,"weight":239,"hometown":"Tbilisi, Georgia","high_school":"Tbilisi N35 Public School, Georgia","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:karson-ouse","name":"Karson Ouse","first":"Karson","last":"Ouse","jersey":"4","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":190,"hometown":"Kindred, N.D.","high_school":"Kindred HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anthony-smith-iii","name":"Anthony Smith III","first":"Anthony","last":"Smith III","jersey":"9","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":170,"hometown":"Hopkins, Minn.","high_school":"Hopkins HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:reggie-thomas","name":"Reggie Thomas","first":"Reggie","last":"Thomas","jersey":"11","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":200,"hometown":"Omaha, Neb.","high_school":"Omaha Westside HS","previous_school":"Hastings College (Neb.)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:greyson-uelmen","name":"Greyson Uelmen","first":"Greyson","last":"Uelmen","jersey":"3","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":74,"weight":185,"hometown":"Excelsior, Minn.","high_school":"Minnetonka HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

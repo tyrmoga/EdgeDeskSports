@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "alabama-am",
+ "host": "aamusports.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://aamusports.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:miracle-akpotayobo","name":"Miracle Akpotayobo","first":"Miracle","last":"Akpotayobo","jersey":"24","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":75,"weight":null,"hometown":"Wichita, Kan.","high_school":null,"previous_school":"Arizona","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:shun-teria-anumele","name":"Shun'teria Anumele","first":"Shun'teria","last":"Anumele","jersey":"2","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Houston, Texas","high_school":null,"previous_school":"Houston","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ayla-benson","name":"Ayla Benson","first":"Ayla","last":"Benson","jersey":"7","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Madison, Miss.","high_school":null,"previous_school":"Madison Central HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:khloe-bradley","name":"Khloe Bradley","first":"Khloe","last":"Bradley","jersey":"8","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Harvest, Ala.","high_school":null,"previous_school":"Sparkman HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ejiroghene-enenuvwedia","name":"Ejiroghene Enenuvwedia","first":"Ejiroghene","last":"Enenuvwedia","jersey":"4","pos":"C","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":null,"hometown":"Lagos, Nigeria","high_school":null,"previous_school":"Southeast CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tazi-harris","name":"Tazi Harris","first":"Tazi","last":"Harris","jersey":"30","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Guntersville, Ala.","high_school":null,"previous_school":"Snead State CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:janessa-kelley","name":"Janessa Kelley","first":"Janessa","last":"Kelley","jersey":"5","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Margate, Fla.","high_school":null,"previous_school":"Bethune-Cookman","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sumayah-mcintosh","name":"Sumayah McIntosh","first":"Sumayah","last":"McIntosh","jersey":"21","pos":"G/F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"St. Petersburg, Fla.","high_school":null,"previous_school":"Lakewood HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:logyn-mcneil","name":"Logyn McNeil","first":"Logyn","last":"McNeil","jersey":"33","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":75,"weight":null,"hometown":"Rockwall, Texas","high_school":null,"previous_school":"Houston","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alisha-murray","name":"Alisha Murray","first":"Alisha","last":"Murray","jersey":"15","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"Windsor, Canada","high_school":null,"previous_school":"Grambling State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:asianae-nicholson","name":"Asianae Nicholson","first":"Asianae","last":"Nicholson","jersey":"20","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"South Euclid, Ohio","high_school":null,"previous_school":"Charlotte","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aniya-palmer","name":"Aniya Palmer","first":"Aniya","last":"Palmer","jersey":"11","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"LaGrange, Ga.","high_school":null,"previous_school":"Georgia State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kalea-rainey","name":"Kalea Rainey","first":"Kalea","last":"Rainey","jersey":"1","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":67,"weight":null,"hometown":"Orlando, Fla.","high_school":null,"previous_school":"Florida Memorial","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:skylar-white","name":"Skylar White","first":"Skylar","last":"White","jersey":"10","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":67,"weight":null,"hometown":"Fayetteville, N.C.","high_school":null,"previous_school":"Virginia State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:vanessa-wimberly","name":"Vanessa Wimberly","first":"Vanessa","last":"Wimberly","jersey":"3","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":66,"weight":null,"hometown":"St. Johns, Ill.","high_school":null,"previous_school":"Lake Central HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

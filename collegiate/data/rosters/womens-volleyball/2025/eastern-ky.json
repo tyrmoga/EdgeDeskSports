@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "eastern-ky",
+ "host": "ekusports.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2025,
+ "season_label": "2025",
+ "url": "https://ekusports.com/sports/womens-volleyball/roster/2025",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:cooper-abney","name":"Cooper Abney","first":"Cooper","last":"Abney","jersey":"10","pos":"S","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":67,"weight":null,"hometown":"Marietta, Ga.","high_school":null,"previous_school":"Pope HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isa-blackwell","name":"Isa Blackwell","first":"Isa","last":"Blackwell","jersey":"3","pos":"OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":null,"hometown":"Chandler, Ariz.","high_school":null,"previous_school":"Perry HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:addison-burke","name":"Addison Burke","first":"Addison","last":"Burke","jersey":"21","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Fort Mill, S.C.","high_school":null,"previous_school":"Legion Collegiate Academy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emma-closurdo","name":"Emma Closurdo","first":"Emma","last":"Closurdo","jersey":"22","pos":"RS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Crestwood, Ky.","high_school":null,"previous_school":"South Oldham HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:caitlyn-flees","name":"Caitlyn Flees","first":"Caitlyn","last":"Flees","jersey":"12","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Kansasville, Wis.","high_school":null,"previous_school":"Burlington HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emilee-hill","name":"Emilee Hill","first":"Emilee","last":"Hill","jersey":"7","pos":"S","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Yorktown, Ind.","high_school":null,"previous_school":"Yorktown HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ag-hynes","name":"AG Hynes","first":"AG","last":"Hynes","jersey":"9","pos":"RS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"Athens, Ga.","high_school":null,"previous_school":"Prince Avenue Christian School","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:carson-ledford","name":"Carson Ledford","first":"Carson","last":"Ledford","jersey":"17","pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Wilkesboro, N.C.","high_school":null,"previous_school":"West Wilkes HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:amanda-mack","name":"Amanda Mack","first":"Amanda","last":"Mack","jersey":"11","pos":"OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Maryville, Tenn.","high_school":null,"previous_school":"Cincinnati","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emily-melton","name":"Emily Melton","first":"Emily","last":"Melton","jersey":"1","pos":"S/DS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Campbellsville, Ky.","high_school":null,"previous_school":"Taylor County HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emersyn-robbins","name":"Emersyn Robbins","first":"Emersyn","last":"Robbins","jersey":"5","pos":"OH","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":70,"weight":null,"hometown":"Fairfield, Ill.","high_school":null,"previous_school":"Utah State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lydia-stephens","name":"Lydia Stephens","first":"Lydia","last":"Stephens","jersey":"8","pos":"DS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Louisville, Ky.","high_school":null,"previous_school":"Assumption HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:stella-terpening","name":"Stella Terpening","first":"Stella","last":"Terpening","jersey":"14","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Westfield, Ind.","high_school":null,"previous_school":"Westfield HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:madi-tolzman","name":"Madi Tolzman","first":"Madi","last":"Tolzman","jersey":"19","pos":"OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":null,"hometown":"Hartland, Wis.","high_school":null,"previous_school":"Arrowhead HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cassidy-trahan","name":"Cassidy Trahan","first":"Cassidy","last":"Trahan","jersey":"6","pos":"DS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":66,"weight":null,"hometown":"Pittsburgh, Pa.","high_school":null,"previous_school":"Serra Catholic HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alexis-woolf","name":"Alexis Woolf","first":"Alexis","last":"Woolf","jersey":"23","pos":"DS/L","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":65,"weight":null,"hometown":"Florence, Ky.","high_school":null,"previous_school":"Ryle HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

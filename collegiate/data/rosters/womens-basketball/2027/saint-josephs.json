@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "saint-josephs",
+ "host": "sjuhawks.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://sjuhawks.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:kaylinn-bethea","name":"Kaylinn Bethea","first":"Kaylinn","last":"Bethea","jersey":"22","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Voorhees, N.J.","high_school":"Penn Charter","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gabby-casey","name":"Gabby Casey","first":"Gabby","last":"Casey","jersey":"15","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":null,"hometown":"Quakertown, Pa.","high_school":"Lansdale Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rian-dotsey","name":"Rian Dotsey","first":"Rian","last":"Dotsey","jersey":"25","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Havertown, Pa.","high_school":"Haverford","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:deja-evans","name":"Deja Evans","first":"Deja","last":"Evans","jersey":"11","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"Conshohocken, Pa.","high_school":"Archbishop Wood","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jahzara-green","name":"Jahzara Green","first":"Jahzara","last":"Green","jersey":"5","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Lawnside, N.J.","high_school":"Gloucester Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lauren-greer","name":"Lauren Greer","first":"Lauren","last":"Greer","jersey":"31","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":66,"weight":null,"hometown":"Philadelphia, Pa.","high_school":"Archbishop Wood","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ebba-j-gre","name":"Ebba Jägre","first":"Ebba","last":"Jägre","jersey":"9","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Stockholm, Sweden","high_school":"Luleå Gymnasieskola","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jill-jekot","name":"Jill Jekot","first":"Jill","last":"Jekot","jersey":"24","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Enola, Pa.","high_school":"Cumberland Valley","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cecilia-kay","name":"Cecilia Kay","first":"Cecilia","last":"Kay","jersey":"32","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Melrose, Mass.","high_school":"Bishop Fenwick","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emily-knouse","name":"Emily Knouse","first":"Emily","last":"Knouse","jersey":"30","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Horsham, Pa.","high_school":"Archbishop Wood","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:olivia-lutterodt","name":"Olivia Lutterodt","first":"Olivia","last":"Lutterodt","jersey":"19","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Farum, Denmark","high_school":"Alleroed Gymnasium","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:addy-platt","name":"Addy Platt","first":"Addy","last":"Platt","jersey":"4","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Sparta, N.J.","high_school":"Gill St. Bernard's School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maddy-potts","name":"Maddy Potts","first":"Maddy","last":"Potts","jersey":"17","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Doncaster, Australia","high_school":"Templestowe College","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aleah-snead","name":"Aleah Snead","first":"Aleah","last":"Snead","jersey":"2","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"Philadelphia, Pa.","high_school":"Penn Charter","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rhian-stokes","name":"Rhian Stokes","first":"Rhian","last":"Stokes","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"Ewing, N.J.","high_school":"Ewing","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

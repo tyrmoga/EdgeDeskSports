@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "illinois-st",
+ "host": "goredbirds.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2025,
+ "season_label": "2025",
+ "url": "https://goredbirds.com/sports/womens-volleyball/roster/2025",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:sammi-bunch","name":"Sammi Bunch","first":"Sammi","last":"Bunch","jersey":"5","pos":"L","class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Romeoville, Ill.","high_school":"Romeoville HS / Tusculum","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:oliwia-caputa","name":"Oliwia Caputa","first":"Oliwia","last":"Caputa","jersey":"10","pos":"LS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":null,"hometown":"Zywiec, Poland","high_school":"Szkola Mistrzostwa Sportowego w Zywcu","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:audrey-clark","name":"Audrey Clark","first":"Audrey","last":"Clark","jersey":"21","pos":"S","class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Frisco, Texas","high_school":"Wakeland HS / Creighton","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ella-craggs","name":"Ella Craggs","first":"Ella","last":"Craggs","jersey":"9","pos":"S","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Northville, Mich.","high_school":"Northville HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:logan-grevengoed","name":"Logan Grevengoed","first":"Logan","last":"Grevengoed","jersey":"6","pos":"OPP","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":75,"weight":null,"hometown":"South Holland, Ill.","high_school":"Chicago Christian HS / Western Kentucky","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:khenedi-guest","name":"Khenedi Guest","first":"Khenedi","last":"Guest","jersey":"2","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Benton, Ark.","high_school":"Benton HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:colleen-hege","name":"Colleen Hege","first":"Colleen","last":"Hege","jersey":"13","pos":"L","class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Champaign, Ill.","high_school":"Saint Thomas More HS / UIC","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:caitlyn-little","name":"Caitlyn Little","first":"Caitlyn","last":"Little","jersey":"3","pos":"LS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Ballwin, Mo.","high_school":"Lafayette HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:abby-reck","name":"Abby Reck","first":"Abby","last":"Reck","jersey":"16","pos":"LS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Northville, Mich.","high_school":"Northville HS / Northeastern","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hannah-reichensperger","name":"Hannah Reichensperger","first":"Hannah","last":"Reichensperger","jersey":"19","pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Tower, Minn.","high_school":"Northeast Range HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ne-khaela-rogers","name":"Ne'Khaela Rogers","first":"Ne'Khaela","last":"Rogers","jersey":"12","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Burleson, Texas","high_school":"Centennial HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:arianna-rossi","name":"Arianna Rossi","first":"Arianna","last":"Rossi","jersey":"11","pos":"L","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":67,"weight":null,"hometown":"Bergamo, Italy","high_school":"Imiberg HS / Florida Southwestern / Southern Utah","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lauren-salata","name":"Lauren Salata","first":"Lauren","last":"Salata","jersey":"17","pos":"LS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Westchester, Ill.","high_school":"Nazareth Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:devynn-schulze","name":"Devynn Schulze","first":"Devynn","last":"Schulze","jersey":"14","pos":"L","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":66,"weight":null,"hometown":"Wonder Lake, Ill.","high_school":"Woodstock North HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aida-shadewald","name":"Aida Shadewald","first":"Aida","last":"Shadewald","jersey":"7","pos":"LS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Prairie du Sac, Wis.","high_school":"Sauk Prairie HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:madison-smith","name":"Madison Smith","first":"Madison","last":"Smith","jersey":"4","pos":"L","class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"St. Louis, Mo.","high_school":"St. Joseph's Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ruth-ziegler","name":"Ruth Ziegler","first":"Ruth","last":"Ziegler","jersey":"1","pos":"OPP","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":null,"hometown":"Gurnee, Ill.","high_school":"Warren Township HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

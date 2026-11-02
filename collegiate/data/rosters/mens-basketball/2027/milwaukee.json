@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "milwaukee",
+ "host": "mkepanthers.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://mkepanthers.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:ben-akoro","name":"Ben Akoro","first":"Ben","last":"Akoro","jersey":"8","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":205,"hometown":"O'Fallon, Ill.","high_school":"O'Fallon Township","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:al-amadou","name":"Al Amadou","first":"Al","last":"Amadou","jersey":"21","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":81,"weight":213,"hometown":"Philadelphia, Pa.","high_school":"Springside Chestnut / Saint Joseph's","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isaiah-dorceus","name":"Isaiah Dorceus","first":"Isaiah","last":"Dorceus","jersey":"2","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":180,"hometown":"Orlando, Fla.","high_school":"West Oaks Academy / Daytona State","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jake-hansen","name":"Jake Hansen","first":"Jake","last":"Hansen","jersey":"4","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":185,"hometown":"Wauwatosa, Wis.","high_school":"Wauwatosa West / Oklahoma","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:amare-hereford","name":"Amare Hereford","first":"Amare","last":"Hereford","jersey":"1","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":165,"hometown":"Beloit, Wis.","high_school":"Beloit Memorial","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chandler-jackson","name":"Chandler Jackson","first":"Chandler","last":"Jackson","jersey":"11","pos":"F","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":79,"weight":225,"hometown":"Indianapolis, Ind.","high_school":"Warren Central / Parkland","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:danilo-jovanovich","name":"Danilo Jovanovich","first":"Danilo","last":"Jovanovich","jersey":"3","pos":"F","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":80,"weight":227,"hometown":"Milwaukee, Wis.","high_school":"Whitnall / Louisville","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:john-lovelace-jr-","name":"John Lovelace Jr.","first":"John","last":"Lovelace Jr.","jersey":"22","pos":"G","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":80,"weight":215,"hometown":"Milwaukee, Wis.","high_school":"Brown Deer / Youngstown State","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nate-malosa","name":"Nate Malosa","first":"Nate","last":"Malosa","jersey":"35","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":82,"weight":240,"hometown":"Raleigh, N.C.","high_school":"QEA / Columbia State CC","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:simeon-murchison","name":"Simeon Murchison","first":"Simeon","last":"Murchison","jersey":"9","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":81,"weight":221,"hometown":"Milwaukee, Wis.","high_school":"Milwaukee Hamilton","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tre-norman","name":"Tre Norman","first":"Tre","last":"Norman","jersey":"5","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":205,"hometown":"Dorchester, Mass.","high_school":"Worcester Academy / Marquette","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dylan-omweno","name":"Dylan Omweno","first":"Dylan","last":"Omweno","jersey":"7","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":165,"hometown":"Minneapolis, Minn.","high_school":"Eastview / Trinidad State","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:braylon-walker","name":"Braylon Walker","first":"Braylon","last":"Walker","jersey":"0","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":195,"hometown":"Gurnee, Ill.","high_school":"Warren Township","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aaron-womack-iii","name":"Aaron Womack III","first":"Aaron","last":"Womack III","jersey":"24","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":77,"weight":195,"hometown":"Milwaukee, Wis.","high_school":"Dominican / Syracuse","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sj-young","name":"SJ Young","first":"SJ","last":"Young","jersey":"6","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":170,"hometown":"Willis, Texas","high_school":"Willis","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "south-carolina-st",
+ "host": "scsuathletics.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-soccer",
+ "season": 2025,
+ "season_label": "2025",
+ "url": "https://scsuathletics.com/sports/womens-soccer/roster/2025",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:chloe-anderson","name":"Chloe Anderson","first":"Chloe","last":"Anderson","jersey":"22","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":63,"weight":null,"hometown":"Hendersonville, TN","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dejanae-butler","name":"Dejanae Butler","first":"Dejanae","last":"Butler","jersey":"2","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":61,"weight":null,"hometown":"Indianapolis, IN","high_school":null,"previous_school":"UIndy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:taryn-campbell","name":"Taryn Campbell","first":"Taryn","last":"Campbell","jersey":"7","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":64,"weight":null,"hometown":"Charlotte, NC","high_school":null,"previous_school":"Alabama A&M","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sierra-curnell","name":"Sierra Curnell","first":"Sierra","last":"Curnell","jersey":"25","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":64,"weight":null,"hometown":"Moncks Corner, SC","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emma-fleming","name":"Emma Fleming","first":"Emma","last":"Fleming","jersey":"1","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Laval, Quebec, Canada","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jada-gittings","name":"Jada Gittings","first":"Jada","last":"Gittings","jersey":"0","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":67,"weight":null,"hometown":"Hampton, SC","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brooke-gloster","name":"Brooke Gloster","first":"Brooke","last":"Gloster","jersey":"10","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":66,"weight":null,"hometown":"Locust Grove, GA","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:karla-gordon","name":"Karla Gordon","first":"Karla","last":"Gordon","jersey":"15","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":64,"weight":null,"hometown":"Lexington, SC","high_school":null,"previous_school":"So. Wesleyan","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:keylaney-gutierrez","name":"Keylaney Gutierrez","first":"Keylaney","last":"Gutierrez","jersey":"11","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":63,"weight":null,"hometown":"Tucson, AZ","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kyndall-jenkins","name":"Kyndall Jenkins","first":"Kyndall","last":"Jenkins","jersey":"16","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"Milton, GA","high_school":null,"previous_school":"Alabama-Huntsville","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:simone-miranda","name":"Simone Miranda","first":"Simone","last":"Miranda","jersey":"4","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":63,"weight":null,"hometown":"Pawtucket, RI","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kayla-moses","name":"Kayla Moses","first":"Kayla","last":"Moses","jersey":"9","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":null,"hometown":"Dallas, GA","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:shannilea-schliffer","name":"Shannilea Schliffer","first":"Shannilea","last":"Schliffer","jersey":"14","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":66,"weight":null,"hometown":"Atlanta, GA","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:semhar-solomon","name":"Semhar Solomon","first":"Semhar","last":"Solomon","jersey":"8","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":64,"weight":null,"hometown":null,"high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alana-watts","name":"Alana Watts","first":"Alana","last":"Watts","jersey":"17","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Chandler, AZ","high_school":null,"previous_school":"North Alabama","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:katelyn-williams","name":"Katelyn Williams","first":"Katelyn","last":"Williams","jersey":"12","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":65,"weight":null,"hometown":"Blythewood, SC","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jenai-wood","name":"Jenai Wood","first":"Jenai","last":"Wood","jersey":"5","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":65,"weight":null,"hometown":"Toronto, Ontario, Canada","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

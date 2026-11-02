@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "stetson",
+ "host": "gohatters.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://gohatters.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:jean-ernest-boyomo-keedi","name":"Jean-Ernest Boyomo Keedi","first":"Jean-Ernest","last":"Boyomo Keedi","jersey":"1","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":null,"hometown":"Poitiers, France","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alex-doyle","name":"Alex Doyle","first":"Alex","last":"Doyle","jersey":"13","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":82,"weight":null,"hometown":"France","high_school":"DME Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:magnus-entenmann","name":"Magnus Entenmann","first":"Magnus","last":"Entenmann","jersey":"43","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":81,"weight":null,"hometown":"Bonn, Germany","high_school":"International Sports Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mason-fuentes","name":"Mason Fuentes","first":"Mason","last":"Fuentes","jersey":"77","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Boca Raton, Fla.","high_school":"Riviera Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ben-gladieux","name":"Ben Gladieux","first":"Ben","last":"Gladieux","jersey":"20","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":78,"weight":null,"hometown":"Raleigh, N.C.","high_school":"Crossroads Christian High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isaac-jones","name":"Isaac Jones","first":"Isaac","last":"Jones","jersey":"2","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":73,"weight":null,"hometown":"DeLand, Fla.","high_school":"Father Lopez Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:collin-kuhl","name":"Collin Kuhl","first":"Collin","last":"Kuhl","jersey":"9","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":null,"hometown":"Holly Springs, N.C.","high_school":"Holly Springs","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:daniel-macgregor","name":"Daniel Macgregor","first":"Daniel","last":"Macgregor","jersey":"4","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Clearwater, Fla.","high_school":"Clearwater Calvary Christian","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:miller-mcgowan","name":"Miller McGowan","first":"Miller","last":"McGowan","jersey":"8","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Atlanta, Ga.","high_school":"Atlanta Classical Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:roman-miller","name":"Roman Miller","first":"Roman","last":"Miller","jersey":"23","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":null,"hometown":"Oklahoma City, Okla.","high_school":"Moore High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sean-morgan","name":"Sean Morgan","first":"Sean","last":"Morgan","jersey":"51","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Huntsville, Ala.","high_school":"OT Elite","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:makhi-myles","name":"Makhi Myles","first":"Makhi","last":"Myles","jersey":"0","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":null,"hometown":"Starkville, Miss.","high_school":"Starkville High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bankston-pourchier","name":"Bankston Pourchier","first":"Bankston","last":"Pourchier","jersey":"24","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":null,"hometown":"Bogart, Ga.","high_school":"North Oconee High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:finley-sheridan","name":"Finley Sheridan","first":"Finley","last":"Sheridan","jersey":"21","pos":"F","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":81,"weight":null,"hometown":"Merrick, N.Y.","high_school":"Long Island Lutheran High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:thiago-sucatzky","name":"Thiago Sucatzky","first":"Thiago","last":"Sucatzky","jersey":"5","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Cordoba, Argentina","high_school":"Miami Prep/Divine Savior Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

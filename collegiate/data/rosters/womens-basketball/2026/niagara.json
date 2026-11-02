@@ -1,0 +1,27 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "niagara",
+ "host": "purpleeagles.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://purpleeagles.com/sports/womens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 11,
+ "players": [
+  {"pid":"slug:jisca-bila","name":"Jisca Bila","first":"Jisca","last":"Bila","jersey":"21","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"Ottawa, Ontario","high_school":"Royal Crown Academy School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jade-campbell","name":"Jade Campbell","first":"Jade","last":"Campbell","jersey":"3","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Brooklyn, NY","high_school":null,"previous_school":"St. Francis (Pa.)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:talia-dial","name":"Talia Dial","first":"Talia","last":"Dial","jersey":"13","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"El Mirage, AZ","high_school":"Scottsdale","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:caliana-fenceroy","name":"Caliana Fenceroy","first":"Caliana","last":"Fenceroy","jersey":"12","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":65,"weight":null,"hometown":"Omaha, NE","high_school":"Radford","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tyasia-freeman","name":"Tyasia Freeman","first":"Tyasia","last":"Freeman","jersey":"4","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":73,"weight":null,"hometown":"Waynesboro, GA","high_school":null,"previous_school":"Augusta","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kenedie-haruna","name":"Kenedie Haruna","first":"Kenedie","last":"Haruna","jersey":"15","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Montreal, Quebec","high_school":null,"previous_school":"Vanier","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jade-rutledge","name":"Jade Rutledge","first":"Jade","last":"Rutledge","jersey":"23","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Buffalo, NY","high_school":"Cardinal O'Hara","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:raven-sims","name":"Raven Sims","first":"Raven","last":"Sims","jersey":"8","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Memphis, TN","high_school":null,"previous_school":"Memphis","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:katarina-veljovic","name":"Katarina Veljovic","first":"Katarina","last":"Veljovic","jersey":"6","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Toronto, Ontario","high_school":"Royal Crown Academic School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jordyn-williams","name":"Jordyn Williams","first":"Jordyn","last":"Williams","jersey":"2","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Buffalo, NY","high_school":"Cardinal O'Hara","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chasity-wilson","name":"Chasity Wilson","first":"Chasity","last":"Wilson","jersey":"1","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"Newark, De","high_school":"Caravel Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

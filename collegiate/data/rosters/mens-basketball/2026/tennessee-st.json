@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "tennessee-st",
+ "host": "tsutigers.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://tsutigers.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:ogien-ayo","name":"Ogien Ayo","first":"Ogien","last":"Ayo","jersey":"24","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":81,"weight":180,"hometown":"Baton Rogue, La.","high_school":"Liberty Magnet","previous_school":"LSU Alexandria / Kentucky State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maddux-bodenhamer","name":"Maddux Bodenhamer","first":"Maddux","last":"Bodenhamer","jersey":"5","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":190,"hometown":"Nashville, Tenn.","high_school":"Antioch","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jc-brooks","name":"JC Brooks","first":"JC","last":"Brooks","jersey":"4","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":82,"weight":215,"hometown":"Calgary, Alberta, Canada","high_school":"Orangeville Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alex-garcia","name":"Alex Garcia","first":"Alex","last":"Garcia","jersey":"31","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":185,"hometown":"Cleveland, Ohio","high_school":"St. Ignatius School","previous_school":"Wright State / Walter State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:travis-harper-ii","name":"Travis Harper II","first":"Travis","last":"Harper II","jersey":"2","pos":null,"class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":78,"weight":190,"hometown":"Columbus, Ga.","high_school":"St. Anne Pacelli","previous_school":"Clayton State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dante-harris","name":"Dante Harris","first":"Dante","last":"Harris","jersey":"10","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":72,"weight":170,"hometown":"Washington, D.C.","high_school":"Lakeway Christian","previous_school":"Georgetown / Virginia / Memphis","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:damon-howard-jr-","name":"Damon Howard Jr.","first":"Damon","last":"Howard Jr.","jersey":"1","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":160,"hometown":"Indianapolis, Ind.","high_school":"Pike","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jayden-jones","name":"Jayden Jones","first":"Jayden","last":"Jones","jersey":"20","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":195,"hometown":"Madison, Tenn.","high_school":"Goodpasture Christian","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kavien-jones","name":"Kavien Jones","first":"Kavien","last":"Jones","jersey":"23","pos":null,"class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":79,"weight":260,"hometown":"Franklin, Tenn.","high_school":"Battle Ground Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:khalil-london","name":"Khalil London","first":"Khalil","last":"London","jersey":"3","pos":null,"class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":75,"weight":185,"hometown":"Wyandanch, N.Y.","high_school":"St. Dominic","previous_school":"College of Charleston","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:antoine-lorick-iii","name":"Antoine Lorick III","first":"Antoine","last":"Lorick III","jersey":"11","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":215,"hometown":"Augusta, Ga.","high_school":"Cross Creek","previous_school":"Navarro JC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aaron-nkrumah","name":"Aaron Nkrumah","first":"Aaron","last":"Nkrumah","jersey":"30","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":175,"hometown":"Worcester, Ma.","high_school":"South","previous_school":"Worcester State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jalen-pitre","name":"Jalen Pitre","first":"Jalen","last":"Pitre","jersey":"0","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":220,"hometown":"Long Beach, Calif.","high_school":"Long Beach Poly","previous_school":"Pepperdine / Sacramento State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jabrion-spikes","name":"Jabrion Spikes","first":"Jabrion","last":"Spikes","jersey":"7","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":210,"hometown":"Princeton, Ky.","high_school":"Caldwell County","previous_school":"Georgetown College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:carlous-williams","name":"Carlous Williams","first":"Carlous","last":"Williams","jersey":"12","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":77,"weight":225,"hometown":"Hattiesburg, Miss.","high_school":"Harrison Central","previous_school":"Pearl River CC / Tulsa","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jean-yvens-lafleur","name":"Jean Yvens Lafleur","first":"Jean","last":"Yvens Lafleur","jersey":"21","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":83,"weight":267,"hometown":"Mirebalais, Haiti","high_school":null,"previous_school":"Southwest Tennessee CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

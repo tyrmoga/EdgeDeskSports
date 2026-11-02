@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "william-mary",
+ "host": "tribeathletics.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://tribeathletics.com/sports/womens-volleyball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:katherine-arnason","name":"Katherine Arnason","first":"Katherine","last":"Arnason","jersey":"23","pos":"OPP","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Marine on St. Croix, Minn.","high_school":"Mahtomedi","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ally-bolden","name":"Ally Bolden","first":"Ally","last":"Bolden","jersey":"3","pos":"MB","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":74,"weight":null,"hometown":"Phoenix, Ariz.","high_school":"Arcadia","previous_school":"UC Irvine","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:audrey-brcka","name":"Audrey Brcka","first":"Audrey","last":"Brcka","jersey":"10","pos":"OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Wheaton, Ill.","high_school":"Wheaton North","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ava-crabtree","name":"Ava Crabtree","first":"Ava","last":"Crabtree","jersey":"9","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Normal, Ill.","high_school":"University High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maya-de-los-reyes","name":"Maya De Los Reyes","first":"Maya","last":"De Los Reyes","jersey":"14","pos":"DS/L","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":62,"weight":null,"hometown":"Long Beach, Calif.","high_school":"Long Beach Poly","previous_school":"Oregon","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cate-hatfield","name":"Cate Hatfield","first":"Cate","last":"Hatfield","jersey":"4","pos":"S","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Dallas, Texas","high_school":"Bishop Lynch","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:regan-hill","name":"Regan Hill","first":"Regan","last":"Hill","jersey":"2","pos":"OPP","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Garnet Valley, Pa.","high_school":"Garnet Valley","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:avery-horejsi","name":"Avery Horejsi","first":"Avery","last":"Horejsi","jersey":"11","pos":"DS/L","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":64,"weight":null,"hometown":"White Lake, Mich.","high_school":"Walled Lake Central","previous_school":"Michigan State/DePaul","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:devereaux-hoxsie","name":"Devereaux Hoxsie","first":"Devereaux","last":"Hoxsie","jersey":"18","pos":"OH","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Boynton Beach, Fla.","high_school":"The King’s Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:berkeley-konrady","name":"Berkeley Konrady","first":"Berkeley","last":"Konrady","jersey":"13","pos":"OH","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":72,"weight":null,"hometown":"Winchester, Va.","high_school":"Millbrook","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:erika-larson","name":"Erika Larson","first":"Erika","last":"Larson","jersey":"8","pos":"S","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Cary, N.C.","high_school":"Ravenscroft School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emily-mckee","name":"Emily McKee","first":"Emily","last":"McKee","jersey":"16","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Stamford, Conn.","high_school":"King School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tulasi-nalluri","name":"Tulasi Nalluri","first":"Tulasi","last":"Nalluri","jersey":"7","pos":"L","class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Sunnyvale, Calif.","high_school":"Redwood","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:teagan-pocius","name":"Teagan Pocius","first":"Teagan","last":"Pocius","jersey":"12","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"St. Louis, Mo.","high_school":"Marquette High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:shylah-swope","name":"Shylah Swope","first":"Shylah","last":"Swope","jersey":"5","pos":"S","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Reston, Va.","high_school":"Herndon","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sophia-van-name","name":"Sophia Van Name","first":"Sophia","last":"Van Name","jersey":"6","pos":"OPP","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Atlanta, Ga.","high_school":"The Mount Vernon School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:olivia-westfort","name":"Olivia Westfort","first":"Olivia","last":"Westfort","jersey":"22","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Manchester, Conn.","high_school":"Loomis Chaffee School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

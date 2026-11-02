@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "loyola-marymount",
+ "host": "lmulions.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://lmulions.com/sports/womens-volleyball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:leah-burrell","name":"Leah Burrell","first":"Leah","last":"Burrell","jersey":"25","pos":null,"class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":72,"weight":null,"hometown":"Ajax, Ontario, Canada","high_school":"J Clarke Richardson","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gabriella-cascione","name":"Gabriella Cascione","first":"Gabriella","last":"Cascione","jersey":"13","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":null,"hometown":"Santa Clarita, CA","high_school":"Saugus HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kyla-firestone","name":"Kyla Firestone","first":"Kyla","last":"Firestone","jersey":"24","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":64,"weight":null,"hometown":"Encino, CA","high_school":"Bishop Alemany High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ayanna-henry","name":"Ayanna Henry","first":"Ayanna","last":"Henry","jersey":"1","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"McKinney, TX","high_school":"McKinney High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:melania-katsitadze","name":"Melania Katsitadze","first":"Melania","last":"Katsitadze","jersey":"12/0","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Tbilisi, Georgia","high_school":"LEPL-Tbilisi Public School N161","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kayla-lopez","name":"Kayla Lopez","first":"Kayla","last":"Lopez","jersey":"22","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":65,"weight":null,"hometown":"Austin, TX","high_school":"Rouse High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:amanda-mikuzis","name":"Amanda Mikuzis","first":"Amanda","last":"Mikuzis","jersey":"21","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Glenview, IL","high_school":"Glenbrook South High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gianna-perez","name":"Gianna Perez","first":"Gianna","last":"Perez","jersey":"4","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Glendora, CA","high_school":"Glendora High School","previous_school":"California Baptist University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:camille-pomeroy","name":"Camille Pomeroy","first":"Camille","last":"Pomeroy","jersey":"10","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Vienna, VA","high_school":"Madison High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anya-santrac","name":"Anya Santrac","first":"Anya","last":"Santrac","jersey":"20","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Belgrade, Serbia","high_school":"Savremena Gimnazija","previous_school":"Wake Forest","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nicole-schuetz","name":"Nicole Schuetz","first":"Nicole","last":"Schuetz","jersey":"23","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":null,"hometown":"Santa Barbara, CA","high_school":"Bishop Diego High School/Santa Barbara High school","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:delfina-schuh","name":"Delfina Schuh","first":"Delfina","last":"Schuh","jersey":"6","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Buenos Aires, Argentina","high_school":"Instituto Santa Maria de Los Angeles","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mariana-simao","name":"Mariana Simao","first":"Mariana","last":"Simao","jersey":"3","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Belo Horizonte, Brazil","high_school":"Colégio Anglo Americano","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aleksandra-stojanovic","name":"Aleksandra Stojanovic","first":"Aleksandra","last":"Stojanovic","jersey":"28","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":null,"hometown":"Belgrade, Serbia","high_school":"Sportska Gimnazija","previous_school":"Iowa","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maria-tabacuks","name":"Maria Tabacuks","first":"Maria","last":"Tabacuks","jersey":"5","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":null,"hometown":"Cannes, France","high_school":"Stanislas Private Secondary","previous_school":"Oregon","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zaria-thornton","name":"Zaria Thornton","first":"Zaria","last":"Thornton","jersey":"11","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Carson, CA","high_school":"Lakewood HS","previous_school":"Oregon State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

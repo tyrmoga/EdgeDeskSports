@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "evansville",
+ "host": "gopurpleaces.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://gopurpleaces.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:aj-casey","name":"AJ Casey","first":"AJ","last":"Casey","jersey":"23","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":81,"weight":null,"hometown":"Chicago, Ill.","high_school":"Whitney Young","previous_school":"Miami/Saint Louis","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:james-dyson-merwe","name":"James Dyson-Merwe","first":"James","last":"Dyson-Merwe","jersey":"13","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":83,"weight":null,"hometown":"Sydney, New South Wales, Australia","high_school":"Centre for Excellence","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:luke-ellspermann","name":"Luke Ellspermann","first":"Luke","last":"Ellspermann","jersey":"4","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Evansville, Ind.","high_school":"Memorial HS","previous_school":"Wabash","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jake-genschaw","name":"Jake Genschaw","first":"Jake","last":"Genschaw","jersey":"8","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":null,"hometown":"Boulder, Colo.","high_school":"Fairview HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aaron-gutman","name":"Aaron Gutman","first":"Aaron","last":"Gutman","jersey":"33","pos":null,"class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":79,"weight":null,"hometown":"Walton, Ky.","high_school":"Walton-Verona HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:junior-kemm","name":"Junior Kemm","first":"Junior","last":"Kemm","jersey":"5","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":null,"hometown":"Lausanne, Switzerland","high_school":"GBA Academy/So Cal Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:max-langenfeld","name":"Max Langenfeld","first":"Max","last":"Langenfeld","jersey":"9","pos":null,"class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":78,"weight":null,"hometown":"Ulm, Germany","high_school":null,"previous_school":"Florida Atlantic","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rafayel-masumyan","name":"Rafayel Masumyan","first":"Rafayel","last":"Masumyan","jersey":"3","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":null,"hometown":"Los Angeles, Calif.","high_school":"Granada Hills HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:david-nejezchleb","name":"David Nejezchleb","first":"David","last":"Nejezchleb","jersey":"6","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":null,"hometown":"Brno, Czech Republic","high_school":"Nymburk","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:yannick-pinas","name":"Yannick Pinas","first":"Yannick","last":"Pinas","jersey":"7","pos":null,"class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":84,"weight":null,"hometown":"Amsterdam, Netherlands","high_school":null,"previous_school":"Obradoiro CAB (ESP)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bryce-quinet","name":"Bryce Quinet","first":"Bryce","last":"Quinet","jersey":"0","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":null,"hometown":"Scottsdale, Arizona","high_school":"Notre Dame Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bryce-renn","name":"Bryce Renn","first":"Bryce","last":"Renn","jersey":"32","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":82,"weight":null,"hometown":"Terre Haute, Ind.","high_school":"Link Year Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:makuei-riek","name":"Makuei Riek","first":"Makuei","last":"Riek","jersey":"1","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":null,"hometown":"Rochester, Minn.","high_school":null,"previous_school":"Salt Lake CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:caden-symons","name":"Caden Symons","first":"Caden","last":"Symons","jersey":"24","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":null,"hometown":"Coeur d'Alene, Idaho","high_school":"Coeur d'Alene HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gustav-winther","name":"Gustav Winther","first":"Gustav","last":"Winther","jersey":"96","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":82,"weight":null,"hometown":"Copenhagen, Denmark","high_school":null,"previous_school":"Northern Illinois","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

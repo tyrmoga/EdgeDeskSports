@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "niagara",
+ "host": "purpleeagles.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://purpleeagles.com/sports/womens-volleyball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:leah-allen","name":"Leah Allen","first":"Leah","last":"Allen","jersey":"15","pos":"RS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Buffalo, NY","high_school":"Iroquois Senior High","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jakayla-brown","name":"Jakayla Brown","first":"Jakayla","last":"Brown","jersey":"10","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":null,"hometown":"North Tonawanda, NY","high_school":"North Tonawanda","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kaitlyn-doyle","name":"Kaitlyn Doyle","first":"Kaitlyn","last":"Doyle","jersey":"13","pos":"OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Beamsville, Ontario","high_school":"Eden","previous_school":"Western University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kadee-goolsby","name":"Kadee Goolsby","first":"Kadee","last":"Goolsby","jersey":"8","pos":"RS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Delaware, Ohio","high_school":"Olentangy Berlin","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:taylor-jenkins","name":"Taylor Jenkins","first":"Taylor","last":"Jenkins","jersey":"7","pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"Dublin, OH","high_school":"Homeschooled","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:paisley-ka-ahanui","name":"Paisley Ka’ahanui","first":"Paisley","last":"Ka’ahanui","jersey":"3","pos":"S","class":"SR","redshirt":false,"class_raw":"Senior","height_in":67,"weight":null,"hometown":"Honolulu, HI","high_school":"Punahou School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:karlotta-kattai","name":"Karlotta Kattai","first":"Karlotta","last":"Kattai","jersey":"12","pos":"OH","class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Tartu, Estonia","high_school":"Colby Community College","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:payton-lee","name":"Payton Lee","first":"Payton","last":"Lee","jersey":"17","pos":"RS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":null,"hometown":"New Baltimore, MI","high_school":"Anchor Bay","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:natasa-ljubicic","name":"Natasa Ljubicic","first":"Natasa","last":"Ljubicic","jersey":"1","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Stoney Creek, Ontario","high_school":"Orchard Park Secondary School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maille-malone","name":"Maille Malone","first":"Maille","last":"Malone","jersey":"5","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"Mililani, HI","high_school":"Millani","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ashley-moreland","name":"Ashley Moreland","first":"Ashley","last":"Moreland","jersey":"2","pos":"L/DS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Dublin, Ohio","high_school":"Bishop Watterson","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chloe-moreland","name":"Chloe Moreland","first":"Chloe","last":"Moreland","jersey":"11","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Dublin, Ohio","high_school":"Bishop Watterson","previous_school":"Florida Southern","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:noel-perkins","name":"Noel Perkins","first":"Noel","last":"Perkins","jersey":"14","pos":"S","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Gahanna, OH","high_school":"Gahanna Lincoln","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sole-rancy","name":"Sole Rancy","first":"Sole","last":"Rancy","jersey":"6","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Columbus, Ohio","high_school":null,"previous_school":"Daemen","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elyannah-renae-sonza","name":"Elyannah Renae Sonza","first":"Elyannah","last":"Renae Sonza","jersey":"9","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":64,"weight":null,"hometown":"La Palma, CA","high_school":"Oxford Academy","previous_school":"Adelphi","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:katelynn-rottman","name":"Katelynn Rottman","first":"Katelynn","last":"Rottman","jersey":"18","pos":"OH","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Okemos, MI","high_school":"Lansing Christian","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:leah-white","name":"Leah White","first":"Leah","last":"White","jersey":"4","pos":"S","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Ronkonkoma, NY","high_school":"Connetquot","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

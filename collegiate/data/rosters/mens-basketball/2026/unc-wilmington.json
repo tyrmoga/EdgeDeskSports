@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "unc-wilmington",
+ "host": "uncwsports.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://uncwsports.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:madison-durr","name":"Madison Durr","first":"Madison","last":"Durr","jersey":"1","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":195,"hometown":"Atlanta, Ga.","high_school":"Pace Academy","previous_school":"The Citadel/Monmouth","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jojo-fullwood","name":"JoJo Fullwood","first":"JoJo","last":"Fullwood","jersey":"14","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":195,"hometown":"Currie, N.C.","high_school":"Pender","previous_school":"Brunswick CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nolan-hodge","name":"Nolan Hodge","first":"Nolan","last":"Hodge","jersey":"4","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":190,"hometown":"Greensboro, N.C.","high_school":"Northern Guilford","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jahnathan-lamothe","name":"Jahnathan Lamothe","first":"Jahnathan","last":"Lamothe","jersey":"0","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":192,"hometown":"Baltimore, Md.","high_school":"St. Frances Academy","previous_school":"Maryland/North Carolina A&T","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cj-luster-ii","name":"CJ Luster II","first":"CJ","last":"Luster II","jersey":"3","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":165,"hometown":"Denton, Texas","high_school":"TACA Home School","previous_school":"Salt Lake CC/Stony Brook","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:makoi-mabor-makoi","name":"Makoi Mabor Makoi","first":"Makoi","last":"Mabor Makoi","jersey":"13","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":83,"weight":240,"hometown":"Rumbek, South Sudan","high_school":"Gaston Christian","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:christian-may","name":"Christian May","first":"Christian","last":"May","jersey":"8","pos":"G/F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":210,"hometown":"Edinburg, Va.","high_school":"Bishop O'Connell","previous_school":"Towson","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:matija-prodanovic","name":"Matija Prodanovic","first":"Matija","last":"Prodanovic","jersey":"24","pos":"F/C","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":83,"weight":230,"hometown":"Uzice, Serbia","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:noah-ross","name":"Noah Ross","first":"Noah","last":"Ross","jersey":"5","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":210,"hometown":"Apex, N.C.","high_school":"Trinity Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:makel-smith","name":"Makel Smith","first":"Makel","last":"Smith","jersey":"12","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":72,"weight":175,"hometown":"Eden, N.C.","high_school":"Morehead","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:adam-tokpah","name":"Adam Tokpah","first":"Adam","last":"Tokpah","jersey":"35","pos":"F/C","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":83,"weight":230,"hometown":"Sheffield, England","high_school":"The Sheffield College","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gavin-walsh","name":"Gavin Walsh","first":"Gavin","last":"Walsh","jersey":"22","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":225,"hometown":"Baltimore, Md.","high_school":"Loyola Blakefield","previous_school":"Binghamton","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:patrick-wessler","name":"Patrick Wessler","first":"Patrick","last":"Wessler","jersey":"2","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":84,"weight":250,"hometown":"Matthews, N.C.","high_school":"Combine Academy","previous_school":"Virginia Tech","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:grady-whitt","name":"Grady Whitt","first":"Grady","last":"Whitt","jersey":"10","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":75,"weight":170,"hometown":"Raleigh, N.C.","high_school":"Leesville Road","previous_school":"Colorado","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:greedy-williams","name":"Greedy Williams","first":"Greedy","last":"Williams","jersey":"7","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":190,"hometown":"Montgomery, Ala.","high_school":"We Are United","previous_school":"Northwestern State/Chipola","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

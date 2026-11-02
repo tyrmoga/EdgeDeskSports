@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "iona",
+ "host": "icgaels.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://icgaels.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:arianna-davis","name":"Arianna Davis","first":"Arianna","last":"Davis","jersey":"0","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":65,"weight":null,"hometown":"Queens, NY","high_school":"St. Francis Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:claudia-fiel","name":"Claudia Fiel","first":"Claudia","last":"Fiel","jersey":"11","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":67,"weight":null,"hometown":"Pontevedra, Spain","high_school":"Celta Baloncesto de Vigo","previous_school":"California Baptist","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:johanna-flores","name":"Johanna Flores","first":"Johanna","last":"Flores","jersey":"18","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Cananea, Mexico","high_school":"The Academy of Central Florida","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:adrianna-gonzalez","name":"Adrianna Gonzalez","first":"Adrianna","last":"Gonzalez","jersey":"10","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"Kenosha, WI","high_school":"Indian Trail","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:giselle-grant","name":"Giselle Grant","first":"Giselle","last":"Grant","jersey":"5","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Baltimore, MD","high_school":"St. John's College","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anyla-herbert","name":"Anyla Herbert","first":"Anyla","last":"Herbert","jersey":"20","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Grand Prairie, TX","high_school":"South Grand Prairie","previous_school":"Kilgore College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sophia-hickey","name":"Sophia Hickey","first":"Sophia","last":"Hickey","jersey":"7","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Melbourne, Australia","high_school":"DME Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kaitlynn-kenna","name":"Kaitlynn Kenna","first":"Kaitlynn","last":"Kenna","jersey":"2","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Bantam, CT","high_school":"Canterbury","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:leah-matos-jimenez","name":"Leah Matos Jimenez","first":"Leah","last":"Matos Jimenez","jersey":"15","pos":null,"class":null,"redshirt":false,"class_raw":"1st Year","height_in":null,"weight":null,"hometown":"Yonkers, NY","high_school":"Team Impact","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:taylor-smith","name":"Taylor Smith","first":"Taylor","last":"Smith","jersey":"22","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"Birmingham, AL","high_school":"Briarwood Christian","previous_school":"Wallace State/LaGrange","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nevaeh-stone","name":"Nevaeh Stone","first":"Nevaeh","last":"Stone","jersey":"3","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":65,"weight":null,"hometown":"Bronx, NY","high_school":"Monsignor Scanlan","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:wilma-tuomi","name":"Wilma Tuomi","first":"Wilma","last":"Tuomi","jersey":"12","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":73,"weight":null,"hometown":"Helsinki, Finland","high_school":"Mäkelänrinteen lukio","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chloe-vasquez","name":"Chloe Vasquez","first":"Chloe","last":"Vasquez","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Pompton Plains, NJ","high_school":"Pequannock Township","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alana-wells","name":"Alana Wells","first":"Alana","last":"Wells","jersey":"35","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Nashville, TN","high_school":"Ensworth","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:olivia-white","name":"Olivia White","first":"Olivia","last":"White","jersey":"4","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Bronx, NY","high_school":"St. Luke's School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mya-zaccagnini","name":"Mya Zaccagnini","first":"Mya","last":"Zaccagnini","jersey":"14","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":65,"weight":null,"hometown":"Waterbury, CT","high_school":"Holy Cross","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

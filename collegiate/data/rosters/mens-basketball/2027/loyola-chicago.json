@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "loyola-chicago",
+ "host": "loyolaramblers.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://loyolaramblers.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:ryan-agarwal","name":"Ryan Agarwal","first":"Ryan","last":"Agarwal","jersey":"22","pos":"G","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":78,"weight":205,"hometown":"Coppell, Texas","high_school":"Coppell","previous_school":"Stanford","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:xavier-amos","name":"Xavier Amos","first":"Xavier","last":"Amos","jersey":"13","pos":"F","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":80,"weight":225,"hometown":"Chicago, Ill.","high_school":"Whitney Young","previous_school":"Wisconsin","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nic-anderson","name":"Nic Anderson","first":"Nic","last":"Anderson","jersey":"8","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":190,"hometown":"Olathe, Kan.","high_school":"Olathe South","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jayden-dawson","name":"Jayden Dawson","first":"Jayden","last":"Dawson","jersey":"24","pos":"G","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":76,"weight":195,"hometown":"Omaha, Neb.","high_school":"Omaha Central","previous_school":"Kansas","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:malick-diallo","name":"Malick Diallo","first":"Malick","last":"Diallo","jersey":"25","pos":"C","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":240,"hometown":"Bamako, Mali","high_school":"Wasatch Academy","previous_school":"TCU","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:guillaume-grotzinger","name":"Guillaume Grotzinger","first":"Guillaume","last":"Grotzinger","jersey":"2","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":180,"hometown":"Dessenheim, France","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:donald-hand-jr-","name":"Donald Hand Jr.","first":"Donald","last":"Hand Jr.","jersey":"12","pos":"G","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":77,"weight":210,"hometown":"Virginia Beach, Va.","high_school":"Landstown","previous_school":"Boston College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chris-jeffrey","name":"Chris Jeffrey","first":"Chris","last":"Jeffrey","jersey":"6","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":210,"hometown":"Brooklyn, N.Y.","high_school":"Mount Zion Prep","previous_school":"Villanova","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sterling-knox","name":"Sterling Knox","first":"Sterling","last":"Knox","jersey":"4","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":215,"hometown":"Las Vegas, Nev.","high_school":"Red Rock Academy","previous_school":"Independence CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ryan-kreager","name":"Ryan Kreager","first":"Ryan","last":"Kreager","jersey":"10","pos":"C","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":82,"weight":205,"hometown":"Faribault, Minn.","high_school":"Faribault Senior","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dayan-nessah","name":"Dayan Nessah","first":"Dayan","last":"Nessah","jersey":"0","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":220,"hometown":"Geneva, Switzerland","high_school":"Lycee Francais de Barcelone","previous_school":"Cleveland State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elias-rapieque","name":"Elias Rapieque","first":"Elias","last":"Rapieque","jersey":"9","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":81,"weight":230,"hometown":"Berlin, Germany","high_school":"ALBA Berlin","previous_school":"Kansas State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:eddie-ricks-iii","name":"Eddie Ricks III","first":"Eddie","last":"Ricks III","jersey":"7","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":215,"hometown":"Clarksville, Tenn.","high_school":"Clarksville Academy","previous_school":"James Madison","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jason-schofield","name":"Jason Schofield","first":"Jason","last":"Schofield","jersey":"1","pos":"C","class":"SR","redshirt":false,"class_raw":"Senior","height_in":82,"weight":240,"hometown":"Poughkeepsie, N.Y.","high_school":"South Kent","previous_school":"Marist","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dayton-williams","name":"Dayton Williams","first":"Dayton","last":"Williams","jersey":"5","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":190,"hometown":"Louisville, Ky.","high_school":"Butler","previous_school":"Vincennes","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aidan-wing","name":"Aidan Wing","first":"Aidan","last":"Wing","jersey":"50","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":205,"hometown":"Kansas City, Kan.","high_school":"Bishop Miege","previous_school":"Johnson County Community College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

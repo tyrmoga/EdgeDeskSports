@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "bellarmine",
+ "host": "athletics.bellarmine.edu",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://athletics.bellarmine.edu/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:tommy-clark","name":"Tommy Clark","first":"Tommy","last":"Clark","jersey":"0","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":185,"hometown":"Kings Mills, OH","high_school":"Kings","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mason-darrell","name":"Mason Darrell","first":"Mason","last":"Darrell","jersey":"25","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":175,"hometown":"Crown Point, IN","high_school":"Crown Point High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sam-donald","name":"Sam Donald","first":"Sam","last":"Donald","jersey":"23","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":215,"hometown":"Columbia, IL","high_school":"Columbia","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tyler-doyle","name":"Tyler Doyle","first":"Tyler","last":"Doyle","jersey":"2","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":200,"hometown":"Lexington, KY","high_school":"Lexington Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:julius-gizzi","name":"Julius Gizzi","first":"Julius","last":"Gizzi","jersey":"11","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":205,"hometown":"Indianapolis, IN","high_school":"New Palestine High School","previous_school":"Indiana Wesleyan University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kenyon-goodin","name":"Kenyon Goodin","first":"Kenyon","last":"Goodin","jersey":"8","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":75,"weight":195,"hometown":"Shelbyville, KY","high_school":"Collins","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:evan-harrell","name":"Evan Harrell","first":"Evan","last":"Harrell","jersey":"7","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":210,"hometown":"Carmel, IN","high_school":"Carmel High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brady-klopfenstein","name":"Brady Klopfenstein","first":"Brady","last":"Klopfenstein","jersey":"33","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":195,"hometown":"Terre Haute, IN","high_school":"Terre Haute North High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ant-mcafee","name":"Ant McAfee","first":"Ant","last":"McAfee","jersey":"1","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":78,"weight":195,"hometown":"Peoria, IL","high_school":"Warren Central (KY)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:max-meagher","name":"Max Meagher","first":"Max","last":"Meagher","jersey":"24","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":225,"hometown":"Lexington, KY","high_school":"Lexington Catholic High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:grant-neal","name":"Grant Neal","first":"Grant","last":"Neal","jersey":"4","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":75,"weight":190,"hometown":"Prospect, KY","high_school":"North Oldham","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:demarcus-surratt","name":"DeMarcus Surratt","first":"DeMarcus","last":"Surratt","jersey":"5","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":175,"hometown":"Lexington, KY","high_school":"Frederick Douglass High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:roland-swan","name":"Roland Swan","first":"Roland","last":"Swan","jersey":"12","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":190,"hometown":"Louisville, KY","high_school":"Christian Academy of Louisville","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tucker-tornatta","name":"Tucker Tornatta","first":"Tucker","last":"Tornatta","jersey":"9","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":235,"hometown":"Evansville, IN","high_school":"Reitz Memorial High School","previous_school":"University of Indianapolis/Valparaiso University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jacob-wassler","name":"Jacob Wassler","first":"Jacob","last":"Wassler","jersey":"44","pos":"F/C","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":83,"weight":230,"hometown":"Cincinnati, OH","high_school":"St. Xavier","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:grant-whitaker","name":"Grant Whitaker","first":"Grant","last":"Whitaker","jersey":"10","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":76,"weight":195,"hometown":"Murray, KY","high_school":"Murray","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isaiah-white","name":"Isaiah White","first":"Isaiah","last":"White","jersey":null,"pos":null,"class":null,"redshirt":false,"class_raw":"Team Impact","height_in":null,"weight":null,"hometown":null,"high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

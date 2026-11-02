@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "le-moyne",
+ "host": "lemoynedolphins.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://lemoynedolphins.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:jakob-blakley","name":"Jakob Blakley","first":"Jakob","last":"Blakley","jersey":"10","pos":"Guard","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":170,"hometown":"Elgin, Ill.","high_school":"Walter Payton Preparatory","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sam-donnelly","name":"Sam Donnelly","first":"Sam","last":"Donnelly","jersey":"33","pos":"Guard","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":74,"weight":200,"hometown":"Vernon, N.Y.","high_school":"Vernon-Verona-Sherrill","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nate-fouts","name":"Nate Fouts","first":"Nate","last":"Fouts","jersey":"15","pos":"Forward","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":80,"weight":215,"hometown":"Skaneateles, N.Y.","high_school":"Skaneateles","previous_school":"Kimball Union Academy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:deng-garang","name":"Deng Garang","first":"Deng","last":"Garang","jersey":"13","pos":"Guard","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":78,"weight":190,"hometown":"Syracuse, N.Y.","high_school":"Bishop Grimes","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:eli-greenberg","name":"Eli Greenberg","first":"Eli","last":"Greenberg","jersey":"3","pos":"Guard","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":165,"hometown":"Centerville, Ohio","high_school":"Centerville","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:samuel-hincapie","name":"Samuel Hincapie","first":"Samuel","last":"Hincapie","jersey":"12","pos":"Guard","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":185,"hometown":"Medellin, Colombia","high_school":"Gateway Legacy Prep (Mo.)","previous_school":"Lake Land College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:shilo-jackson","name":"Shilo Jackson","first":"Shilo","last":"Jackson","jersey":"4","pos":"Forward","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":81,"weight":225,"hometown":"Indianapolis, Ind.","high_school":"North Central","previous_school":"Vincennes/Texas A&M-Corpus Christi","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:josiah-lee","name":"Josiah Lee","first":"Josiah","last":"Lee","jersey":"11","pos":"Guard","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":165,"hometown":"Snohomish, Wash.","high_school":"Glacier Peak","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trent-mosquera","name":"Trent Mosquera","first":"Trent","last":"Mosquera","jersey":"7","pos":"Guard","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":77,"weight":210,"hometown":"Boston, Mass.","high_school":"Belmont Hill School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ametri-moss","name":"Ametri Moss","first":"Ametri","last":"Moss","jersey":"0","pos":"Guard","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":72,"weight":170,"hometown":"Clarksville, Tenn.","high_school":"Northwest","previous_school":"State College of Florida/North Florida","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isaac-nyakundi","name":"Isaac Nyakundi","first":"Isaac","last":"Nyakundi","jersey":"32","pos":"Forward","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":81,"weight":220,"hometown":"Duluth, Minn.","high_school":"Duluth East","previous_school":"The MacDuffie School (Mass.)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tennessee-rainwater","name":"Tennessee Rainwater","first":"Tennessee","last":"Rainwater","jersey":"1","pos":"Guard/Forward","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":210,"hometown":"Davenport, Wash.","high_school":"Davenport","previous_school":"Utah Tech","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trevor-roe","name":"Trevor Roe","first":"Trevor","last":"Roe","jersey":"5","pos":"Forward","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":81,"weight":210,"hometown":"Syracuse, N.Y.","high_school":"Fayetteville-Manlius","previous_school":"Radford","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jakai-sanders","name":"Jakai Sanders","first":"Jakai","last":"Sanders","jersey":"2","pos":"Guard","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":200,"hometown":"Brooklyn, N.Y.","high_school":"Eagle Academy","previous_school":"Saint Peter's","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kaelin-thomas","name":"Kaelin Thomas","first":"Kaelin","last":"Thomas","jersey":"22","pos":"Guard","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":74,"weight":170,"hometown":"Binghamton, N.Y.","high_school":"Seton Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

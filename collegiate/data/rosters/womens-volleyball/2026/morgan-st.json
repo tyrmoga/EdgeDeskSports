@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "morgan-st",
+ "host": "morganstatebears.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://morganstatebears.com/sports/womens-volleyball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:azra-arslanoglu","name":"Azra Arslanoglu","first":"Azra","last":"Arslanoglu","jersey":"2","pos":"OH","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Mugla, Turkey","high_school":null,"previous_school":"Miami Dade CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isabelle-brown","name":"Isabelle Brown","first":"Isabelle","last":"Brown","jersey":"4","pos":"S","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Avon, Ind.","high_school":"Avon High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kira-devrieze","name":"Kira DeVrieze","first":"Kira","last":"DeVrieze","jersey":"21","pos":"DS/L","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":66,"weight":null,"hometown":"Chapel Hill, N.C.","high_school":"Chapel Hill HS","previous_school":"Delaware State University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nathalia-ferreira-morais","name":"Nathalia Ferreira Morais","first":"Nathalia","last":"Ferreira Morais","jersey":"10","pos":"OH/RS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Brasilia, Brazil","high_school":"EEB-Francisco Massola","previous_school":"Miami Dade CC / Hutchinson CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jenae-mason","name":"Jenae Mason","first":"Jenae","last":"Mason","jersey":"7","pos":"OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Durham, N.C.","high_school":"Falls Lake High School","previous_school":"Vance-Granville Community College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tre-niya-miller","name":"Tre'Niya Miller","first":"Tre'Niya","last":"Miller","jersey":"8","pos":"MH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":null,"weight":null,"hometown":"Greensboro, N.C.","high_school":"Grimsley HS","previous_school":"Lees McRae College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hanna-nemeth","name":"Hanna Nemeth","first":"Hanna","last":"Nemeth","jersey":"3","pos":"OH/RS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Szeged, Hungary","high_school":null,"previous_school":"Odessa College/Long Island University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:michaela-panekova","name":"Michaela Panekova","first":"Michaela","last":"Panekova","jersey":"9","pos":"OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Zilina, Slovakia","high_school":"Sport Gymnasium Ostredkova 10","previous_school":"Sam Houston State University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chloe-scott","name":"Chloe Scott","first":"Chloe","last":"Scott","jersey":"19","pos":"OH/RS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Webster, N.Y.","high_school":"Webster Thomas High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bailey-swinton","name":"Bailey Swinton","first":"Bailey","last":"Swinton","jersey":"5","pos":"L","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":null,"weight":null,"hometown":"Odenton, Md.","high_school":"Arundel High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zayda-thomas","name":"Zayda Thomas","first":"Zayda","last":"Thomas","jersey":"16","pos":"RS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Tampa, Fla.","high_school":"Sunlake High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alaina-walker","name":"Alaina Walker","first":"Alaina","last":"Walker","jersey":"13","pos":"S/RS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Charlotte, N.C.","high_school":"Cox Mill High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tameary-wardlaw","name":"Tameary Wardlaw","first":"Tameary","last":"Wardlaw","jersey":"6","pos":"L","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":67,"weight":null,"hometown":"Miami, Fla.","high_school":"St. Thomas Aquinas High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tyrah-weems","name":"Tyrah Weems","first":"Tyrah","last":"Weems","jersey":"14","pos":"OPP","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Hampton Roads, Va.","high_school":"Poquoson High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jada-williams","name":"Jada Williams","first":"Jada","last":"Williams","jersey":"1","pos":"MB/OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"Fredericksburg, Va.","high_school":"Stafford High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aubrey-wilson","name":"Aubrey Wilson","first":"Aubrey","last":"Wilson","jersey":"11","pos":"MB","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Fayetteville, Ga.","high_school":"Sandy Creek High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "sacramento-st",
+ "host": "hornetsports.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://hornetsports.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:elizabeth-abiara","name":"Elizabeth Abiara","first":"Elizabeth","last":"Abiara","jersey":"5","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"Mansfield, Texas","high_school":null,"previous_school":"Central Arkansas","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:koko-akridge","name":"Koko Akridge","first":"Koko","last":"Akridge","jersey":"23","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":68,"weight":null,"hometown":"San Diego, Calif.","high_school":null,"previous_school":"Long Island University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jordan-barlow","name":"Jordan Barlow","first":"Jordan","last":"Barlow","jersey":"11","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Medford, Ore.","high_school":null,"previous_school":"South Medford HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brooklynn-charlo","name":"Brooklynn Charlo","first":"Brooklynn","last":"Charlo","jersey":"7","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Thornton, Colo.","high_school":null,"previous_school":"Memphis","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jenessa-cotton","name":"Jenessa Cotton","first":"Jenessa","last":"Cotton","jersey":"24","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Orange, Calif.","high_school":null,"previous_school":"Kansas State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tali-fa-i","name":"Tali Fa'i","first":"Tali","last":"Fa'i","jersey":"14","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":67,"weight":null,"hometown":"Newark, Calif.","high_school":null,"previous_school":"Laney College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jamiah-fontenberry","name":"Jamiah Fontenberry","first":"Jamiah","last":"Fontenberry","jersey":"4","pos":"G/F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Sacramento, Calif.","high_school":null,"previous_school":"Inderkum HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jeniece-harmon","name":"Jeniece Harmon","first":"Jeniece","last":"Harmon","jersey":"0","pos":"G","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":65,"weight":null,"hometown":"Fresno, Calif.","high_school":null,"previous_school":"Hawai'i-Hilo","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alexis-hess","name":"Alexis Hess","first":"Alexis","last":"Hess","jersey":"35","pos":"F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":73,"weight":null,"hometown":"Blandon, Pa.","high_school":null,"previous_school":"Kansas State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ajong-lual","name":"Ajong Lual","first":"Ajong","last":"Lual","jersey":"12","pos":"C","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":null,"hometown":"Tucson, Ariz.","high_school":null,"previous_school":"Garden City CC (Kan.)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:achol-magot","name":"Achol Magot","first":"Achol","last":"Magot","jersey":"20","pos":"C","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":79,"weight":null,"hometown":"Tucson, Ariz.","high_school":null,"previous_school":"Arizona","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaety-mandaquit","name":"Jaety Mandaquit","first":"Jaety","last":"Mandaquit","jersey":"8","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":67,"weight":null,"hometown":"Hilo, Hawai'i","high_school":null,"previous_school":"Real Salt Lake Academy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:pinja-paananen","name":"Pinja Paananen","first":"Pinja","last":"Paananen","jersey":"10","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Laukaa, Finland","high_school":null,"previous_school":"Arkansas","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:natalie-picton","name":"Natalie Picton","first":"Natalie","last":"Picton","jersey":"2","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":65,"weight":null,"hometown":"Welland, Ontario","high_school":null,"previous_school":"Montana State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jelena-savic","name":"Jelena Savic","first":"Jelena","last":"Savic","jersey":"31","pos":"G/F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Melbourne, Australia","high_school":null,"previous_school":"Evansville","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

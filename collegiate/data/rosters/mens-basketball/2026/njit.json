@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "njit",
+ "host": "njithighlanders.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://njithighlanders.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:jeffrey-akintolu","name":"Jeffrey Akintolu","first":"Jeffrey","last":"Akintolu","jersey":"8","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":210,"hometown":"Welling, England","high_school":"Avon Old Farms (CT)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aj-altobelli","name":"AJ Altobelli","first":"AJ","last":"Altobelli","jersey":"5","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":165,"hometown":"Westfield, N.J.","high_school":"Union Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:malachi-arrington","name":"Malachi Arrington","first":"Malachi","last":"Arrington","jersey":"32","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":83,"weight":220,"hometown":"Somerville, N.J.","high_school":"Immaculate Conception","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rocco-awad","name":"Rocco Awad","first":"Rocco","last":"Awad","jersey":"44","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":195,"hometown":"Windsor, Ontario","high_school":"London Basketball Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:david-bolden","name":"David Bolden","first":"David","last":"Bolden","jersey":"1","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":185,"hometown":"Milwaukee, Wis.","high_school":"Nicolet","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jeremy-clayville","name":"Jeremy Clayville","first":"Jeremy","last":"Clayville","jersey":"2","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":175,"hometown":"Ridgewood, N.J.","high_school":"Saint Joseph Metuchen","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:quentin-duncan","name":"Quentin Duncan","first":"Quentin","last":"Duncan","jersey":"14","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":180,"hometown":"Waterbury, Conn.","high_school":"Putnam Science Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:melvyn-ebonkoli","name":"Melvyn Ebonkoli","first":"Melvyn","last":"Ebonkoli","jersey":"11","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":80,"weight":237,"hometown":"Trappes, France","high_school":"Lycée Polyvalent Le Mans Sud","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ari-fulton","name":"Ari Fulton","first":"Ari","last":"Fulton","jersey":"24","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":205,"hometown":"Fayetteville, N.C.","high_school":"Westover","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:stefan-jimenez-vojnic","name":"Stefan Jimenez-Vojnic","first":"Stefan","last":"Jimenez-Vojnic","jersey":"13","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":83,"weight":230,"hometown":"Toronto, Canada","high_school":"Academy of Central Florida","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:john-kelly","name":"John Kelly","first":"John","last":"Kelly","jersey":"25","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":205,"hometown":"Hillsborough, N.J.","high_school":"Rutgers Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cameron-piggee","name":"Cameron Piggee","first":"Cameron","last":"Piggee","jersey":"7","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":180,"hometown":"North Brunswick, N.J.","high_school":"Rutgers Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sebastian-robinson","name":"Sebastian Robinson","first":"Sebastian","last":"Robinson","jersey":"0","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":190,"hometown":"Montclair, N.J.","high_school":"Roselle Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jordan-rogers","name":"Jordan Rogers","first":"Jordan","last":"Rogers","jersey":"3","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":215,"hometown":"Ridgewood, N.J.","high_school":"The Phelps School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zack-scherler","name":"Zack Scherler","first":"Zack","last":"Scherler","jersey":"33","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":83,"weight":245,"hometown":"Clarkston, Mich.","high_school":"Vermont Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

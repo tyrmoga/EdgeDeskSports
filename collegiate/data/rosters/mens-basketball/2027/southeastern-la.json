@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "southeastern-la",
+ "host": "lionsports.net",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://lionsports.net/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:daniel-akoue","name":"Daniel Akoue","first":"Daniel","last":"Akoue","jersey":"10","pos":"C","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":82,"weight":null,"hometown":"Libreville, Gabon","high_school":"Southern Coast Academy (FL)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cody-al-naziat","name":"Cody Al-Naziat","first":"Cody","last":"Al-Naziat","jersey":"15","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Hammond, LA","high_school":"Ponchatoula HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:quincy-allen","name":"Quincy Allen","first":"Quincy","last":"Allen","jersey":"8","pos":"G","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":80,"weight":null,"hometown":"Silver Spring, Md.","high_school":"Maret School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tybo-bailey","name":"Tybo Bailey","first":"Tybo","last":"Bailey","jersey":"4","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Winston-Salem, N.C.","high_school":"Winston-Salem Christian","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jackson-furman","name":"Jackson Furman","first":"Jackson","last":"Furman","jersey":"1","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Upper Marlboro, Md.","high_school":"Riverdale Baptist (USMAPS)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:pablo-jimenez","name":"Pablo Jimenez","first":"Pablo","last":"Jimenez","jersey":"7","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Madrid, Spain","high_school":"Aquinas American School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jj-massaquoi","name":"JJ Massaquoi","first":"JJ","last":"Massaquoi","jersey":"5","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":null,"hometown":"Prince George’s County, Md.","high_school":"Jackson Reed","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:haki-muhammad-ii","name":"Haki Muhammad II","first":"Haki","last":"Muhammad II","jersey":"11","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Landover, Md.","high_school":"New Hope Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:yanis-ndjonga","name":"Yanis Ndjonga","first":"Yanis","last":"Ndjonga","jersey":"23","pos":"F","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":80,"weight":null,"hometown":"Yaounde, Cameroon","high_school":"College François-Xavier Vogt","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaheim-nyam","name":"Jaheim Nyam","first":"Jaheim","last":"Nyam","jersey":"12","pos":"G","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":75,"weight":null,"hometown":"Paris, France","high_school":"West Nottingham Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:terran-perry","name":"Terran Perry","first":"Terran","last":"Perry","jersey":"6","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":null,"hometown":"Hammond, LA","high_school":"Hammond HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tyler-rolison","name":"Tyler Rolison","first":"Tyler","last":"Rolison","jersey":"3","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Los Angeles, Calif.","high_school":"St. Bernard High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gio-sanford","name":"Gio Sanford","first":"Gio","last":"Sanford","jersey":"9","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":null,"hometown":"Glen Dale, Md.","high_school":"Riverdale Baptist","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:garrett-shoemaker","name":"Garrett Shoemaker","first":"Garrett","last":"Shoemaker","jersey":"32","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":81,"weight":null,"hometown":"Livingston, LA","high_school":"Oak Forest Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ashley-sims-ii","name":"Ashley Sims II","first":"Ashley","last":"Sims II","jersey":"2","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":null,"hometown":"Glen Burnie, Md.","high_school":"Riverdale Baptist","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:logan-suber","name":"Logan Suber","first":"Logan","last":"Suber","jersey":"0","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Fredericksburg, Va.","high_school":"Mt. Zion Prep Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "dayton",
+ "host": "daytonflyers.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://daytonflyers.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 12,
+ "players": [
+  {"pid":"slug:cori-allen","name":"Cori Allen","first":"Cori","last":"Allen","jersey":"1","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Nashville, Tenn.","high_school":"Montverde","previous_school":"Illinois/Memphis","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:fatima-ibrahim","name":"Fatima Ibrahim","first":"Fatima","last":"Ibrahim","jersey":"10","pos":"C","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":null,"hometown":"Winnipeg, Manitoba","high_school":"Royal Crown","previous_school":"North Dakota","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jayda-johnson","name":"Jayda Johnson","first":"Jayda","last":"Johnson","jersey":"12","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"West Haven, Conn.","high_school":"Hamden Hall County Day","previous_school":"Boston College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:london-johnson","name":"London Johnson","first":"London","last":"Johnson","jersey":"3","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Pickerington, Ohio","high_school":"Pickerington Central","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:olivia-leung","name":"Olivia Leung","first":"Olivia","last":"Leung","jersey":"7","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Calgary, Alberta","high_school":"Crestwood Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ajok-madol","name":"Ajok Madol","first":"Ajok","last":"Madol","jersey":"14","pos":"G/F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":null,"hometown":"Regina, Saskatchewan","high_school":"Archbishop M.C. O'Neill","previous_school":"Minnesota","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brooke-mcleod","name":"Brooke McLeod","first":"Brooke","last":"McLeod","jersey":"22","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Toronto, Ontario","high_school":"Crestwood Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:molly-o-riordan","name":"Molly O'Riordan","first":"Molly","last":"O'Riordan","jersey":"35","pos":"F/C","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Barrington, Ill.","high_school":"Barrington","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jordyn-poole","name":"Jordyn Poole","first":"Jordyn","last":"Poole","jersey":"5","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"Fort Wayne, Ind.","high_school":"Fort Wayne Snider","previous_school":"Purdue","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:milee-smith","name":"Milee Smith","first":"Milee","last":"Smith","jersey":"25","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Chillicothe, Ohio","high_school":"Unioto","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sophie-swanson","name":"Sophie Swanson","first":"Sophie","last":"Swanson","jersey":"31","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Barrington, Ill.","high_school":"Barrington","previous_school":"Purdue/Virginia Tech","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:m-g-talle","name":"M.G. Talle","first":"M.G.","last":"Talle","jersey":"15","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Terrebonne, Quebec","high_school":"École secondaire Félix-Leclerc","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

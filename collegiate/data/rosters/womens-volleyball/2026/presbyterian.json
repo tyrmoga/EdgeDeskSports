@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "presbyterian",
+ "host": "gobluehose.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://gobluehose.com/sports/womens-volleyball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:amaris-alvarez","name":"Amaris Alvarez","first":"Amaris","last":"Alvarez","jersey":"19","pos":"L/DS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":62,"weight":null,"hometown":"Miami, Fla.","high_school":null,"previous_school":"Ronald Wilson Reagan HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kaylie-bourn","name":"Kaylie Bourn","first":"Kaylie","last":"Bourn","jersey":"18","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":null,"hometown":"Boerne, Texas","high_school":null,"previous_school":"Homeschooled","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brittney-daphnis","name":"Brittney Daphnis","first":"Brittney","last":"Daphnis","jersey":"16","pos":"MB/OPP","class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"League City, Texas","high_school":null,"previous_school":"Oral Roberts","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ashley-dienes","name":"Ashley Dienes","first":"Ashley","last":"Dienes","jersey":"7","pos":"MB/OPP","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Wilson, N.C.","high_school":null,"previous_school":"Homeschooled","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anisa-dorlouis","name":"Anisa Dorlouis","first":"Anisa","last":"Dorlouis","jersey":"6","pos":"S","class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Gainesville, Fla.","high_school":null,"previous_school":"University of Maryland Eastern Shore","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:reagan-hare","name":"Reagan Hare","first":"Reagan","last":"Hare","jersey":"11","pos":"S","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Charlotte, N.C.","high_school":null,"previous_school":"North Lincoln HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:celimar-hoyos","name":"Celimar Hoyos","first":"Celimar","last":"Hoyos","jersey":"17","pos":"L/DS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":66,"weight":null,"hometown":"Caguas, Puerto Rico","high_school":null,"previous_school":"University of Illinois Chicago","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:xalia-king","name":"Xalia King","first":"Xalia","last":"King","jersey":"1","pos":"L/DS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":64,"weight":null,"hometown":"Las Vegas, Nev.","high_school":null,"previous_school":"Silverado HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emma-mchatten","name":"Emma McHatten","first":"Emma","last":"McHatten","jersey":"10","pos":"OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Wilmette, Ill.","high_school":null,"previous_school":"New Trier HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ashley-miller","name":"Ashley Miller","first":"Ashley","last":"Miller","jersey":"22","pos":"OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Brentwood, Tenn.","high_school":null,"previous_school":"Brentwood HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:keira-o-donnell","name":"Keira O'Donnell","first":"Keira","last":"O'Donnell","jersey":"8","pos":"OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Lemont, Ill.","high_school":null,"previous_school":"Southern Miss","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sophia-pheney","name":"Sophia Pheney","first":"Sophia","last":"Pheney","jersey":"9","pos":"S","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Charleston, S.C.","high_school":null,"previous_school":"Philip Simmons HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:meredith-reisman","name":"Meredith Reisman","first":"Meredith","last":"Reisman","jersey":"14","pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Cincinnati, Ohio","high_school":null,"previous_school":"Campbell","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sophia-verdicchio","name":"Sophia Verdicchio","first":"Sophia","last":"Verdicchio","jersey":"21","pos":"DS/L","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":66,"weight":null,"hometown":"Raleigh, N.C.","high_school":null,"previous_school":"Wake Young Women's Leadership Academy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cassandra-verley","name":"Cassandra Verley","first":"Cassandra","last":"Verley","jersey":"3","pos":"OH/RS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Bartlett, Ill.","high_school":null,"previous_school":"South Elgin HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:courtney-williams","name":"Courtney Williams","first":"Courtney","last":"Williams","jersey":"4","pos":"OPP/OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":null,"hometown":"Oxford, N.C.","high_school":null,"previous_school":"Granville Early College HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:julia-yurkovich","name":"Julia Yurkovich","first":"Julia","last":"Yurkovich","jersey":"12","pos":"OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"Landenberg, Pa.","high_school":null,"previous_school":"Saint Mark's HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

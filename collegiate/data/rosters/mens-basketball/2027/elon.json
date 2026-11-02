@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "elon",
+ "host": "elonphoenix.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://elonphoenix.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:alex-brabec","name":"Alex Brabec","first":"Alex","last":"Brabec","jersey":"14","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":170,"hometown":"Ann Arbor, MI","high_school":"Skyline HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bryson-cokley","name":"Bryson Cokley","first":"Bryson","last":"Cokley","jersey":"0","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":208,"hometown":"Whiteville, NC","high_school":"Christ School","previous_school":"George Mason","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:josh-dalton","name":"Josh Dalton","first":"Josh","last":"Dalton","jersey":"1","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":82,"weight":221,"hometown":"Statesville, NC","high_school":"Golden State Prep","previous_school":"LMU","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:korbin-dixon","name":"Korbin Dixon","first":"Korbin","last":"Dixon","jersey":"3","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":198,"hometown":"Milton, Ontario","high_school":"Wilbraham & Monson Academy","previous_school":"Emory & Henry","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:iker-garmendia","name":"Iker Garmendia","first":"Iker","last":"Garmendia","jersey":"4","pos":"F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":81,"weight":210,"hometown":"Barcelona, Spain","high_school":"Joventut Badalona","previous_school":"UIC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hunter-harding","name":"Hunter Harding","first":"Hunter","last":"Harding","jersey":"13","pos":"C","class":"SR","redshirt":false,"class_raw":"Senior","height_in":85,"weight":251,"hometown":"Toronto, Ontario","high_school":"Royal Crown Academy","previous_school":"Indiana State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isaiah-mbeng","name":"Isaiah Mbeng","first":"Isaiah","last":"Mbeng","jersey":"8","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":180,"hometown":"Potomac, MD","high_school":"Winston Churchill/Prolific Prep","previous_school":"East Carolina","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alex-olander","name":"Alex Olander","first":"Alex","last":"Olander","jersey":"25","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":235,"hometown":"Raleigh, NC","high_school":"Millbrook HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:randall-pettus-ii","name":"Randall Pettus II","first":"Randall","last":"Pettus II","jersey":"2","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":188,"hometown":"Gastonia, NC","high_school":"Bessemer City HS","previous_school":"Northern Kentucky","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dacen-petty","name":"Dacen Petty","first":"Dacen","last":"Petty","jersey":"6","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":183,"hometown":"Forest City, NC","high_school":"Christ School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ben-safran","name":"Ben Safran","first":"Ben","last":"Safran","jersey":"12","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":173,"hometown":"Toronto, Ontario","high_school":"New Hampton School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:marko-arenac","name":"Marko Šarenac","first":"Marko","last":"Šarenac","jersey":"10","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":82,"weight":221,"hometown":"Zrenjanin, Serbia","high_school":null,"previous_school":"Barry University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brady-sehlhorst","name":"Brady Sehlhorst","first":"Brady","last":"Sehlhorst","jersey":"7","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":204,"hometown":"Glenview, IL","high_school":"Winchendon School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cam-thrower","name":"Cam Thrower","first":"Cam","last":"Thrower","jersey":"5","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":75,"weight":200,"hometown":"Manhattan Beach, CA","high_school":"Harvard-Westlake School","previous_school":"Penn","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ra-l-villar","name":"Raúl Villar","first":"Raúl","last":"Villar","jersey":"44","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":200,"hometown":"Barcelona, Spain","high_school":"Escola Lleo XIII","previous_school":"Charlotte","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:caleb-zhu","name":"Caleb Zhu","first":"Caleb","last":"Zhu","jersey":"22","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":82,"weight":244,"hometown":"Markham, Ontario","high_school":"Royal Crown School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "morehead-st",
+ "host": "msueagles.com",
+ "platform": "sidearm_legacy",
+ "sport": "softball",
+ "season": 2027,
+ "season_label": "2027",
+ "url": "https://msueagles.com/sports/softball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:sophie-collins","name":"Sophie Collins","first":"Sophie","last":"Collins","jersey":"18","pos":"OF","class":"JR","redshirt":false,"class_raw":"Junior","height_in":60,"weight":null,"hometown":"Fenton, Mich.","high_school":"Fenton HS","previous_school":null,"bats":"L","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alyssa-demaio","name":"Alyssa DeMaio","first":"Alyssa","last":"DeMaio","jersey":"9","pos":"OF","class":"JR","redshirt":false,"class_raw":"Junior","height_in":60,"weight":null,"hometown":"Lemont, Ill.","high_school":"Lemont HS","previous_school":"Green Bay","bats":"L","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brooke-denton","name":"Brooke Denton","first":"Brooke","last":"Denton","jersey":"2","pos":"UTIL","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":66,"weight":null,"hometown":"Peoria, Ariz.","high_school":"Centennial HS","previous_school":null,"bats":"L","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nyla-doiron","name":"Nyla Doiron","first":"Nyla","last":"Doiron","jersey":"22","pos":"C/UTIL","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Zachary, La.","high_school":"Zachary HS","previous_school":null,"bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lauryn-eastham","name":"Lauryn Eastham","first":"Lauryn","last":"Eastham","jersey":"5","pos":"C","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Morehead, Ky.","high_school":"Rowan County Senior HS","previous_school":null,"bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:taylor-estrella","name":"Taylor Estrella","first":"Taylor","last":"Estrella","jersey":"13","pos":"UTIL","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"Chandler, Ariz.","high_school":"Arizona College Prep","previous_school":null,"bats":"L","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:malana-hamm","name":"Malana Hamm","first":"Malana","last":"Hamm","jersey":"7","pos":"UTIL","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":64,"weight":null,"hometown":"Morehead, Ky.","high_school":"Rowan County Senior HS","previous_school":"Transylvania (Ky.)","bats":"L","throws":"L","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:allicen-harris","name":"Allicen Harris","first":"Allicen","last":"Harris","jersey":"25","pos":"RHP/INF","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Benton, Ky.","high_school":"Marshall County HS","previous_school":null,"bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:addison-krischke","name":"Addison Krischke","first":"Addison","last":"Krischke","jersey":"24","pos":"UTIL","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":66,"weight":null,"hometown":"Crown Point, Ind.","high_school":"Crown Point HS","previous_school":null,"bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:no-mye-letendre","name":"Noémye Letendre","first":"Noémye","last":"Letendre","jersey":"11","pos":"INF","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Drummondville, Quebec","high_school":"Polyvalente Marie-Rivier HS","previous_school":"Lake Land (Ill.)","bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mia-mascarenas","name":"Mia Mascarenas","first":"Mia","last":"Mascarenas","jersey":"1","pos":"INF","class":"SR","redshirt":false,"class_raw":"Senior","height_in":67,"weight":null,"hometown":"Houston, Texas","high_school":"Barbers Hill HS","previous_school":"Barton CC (Kan.)","bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mari-perdew","name":"Marié Perdew","first":"Marié","last":"Perdew","jersey":"30","pos":"UTIL","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":69,"weight":null,"hometown":"Short Gap, W.Va.","high_school":"Frankfort HS","previous_school":"South Carolina State","bats":"L","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sela-pickford","name":"Sela Pickford","first":"Sela","last":"Pickford","jersey":"3","pos":"INF","class":"SR","redshirt":false,"class_raw":"Senior","height_in":63,"weight":null,"hometown":"Poquoson, Va.","high_school":"Poquoson HS","previous_school":null,"bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ainsley-stubbs","name":"Ainsley Stubbs","first":"Ainsley","last":"Stubbs","jersey":"21","pos":"RHP","class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":null,"hometown":"Columbia, Mo.","high_school":"Battle HS","previous_school":"Gulf Coast State (Fla.)","bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sage-vandemark","name":"Sage VanDemark","first":"Sage","last":"VanDemark","jersey":"17","pos":"INF","class":"SR","redshirt":false,"class_raw":"Senior","height_in":66,"weight":null,"hometown":"Queen Creek, Ariz.","high_school":"Chandler HS","previous_school":"UNLV","bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maddie-vaughn","name":"Maddie Vaughn","first":"Maddie","last":"Vaughn","jersey":null,"pos":"RHP","class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"Pikeville, Ky.","high_school":"Johnson Central HS","previous_school":"Columbia (S.C.)","bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -8,9 +8,11 @@
  "season_label": "2027",
  "url": "https://uabsports.com/sports/baseball/schedule/2027",
  "first_read": "2026-10-21",
- "last_read": "2026-10-21",
+ "last_read": "2026-11-02",
+ "readers": "sidearm,sidearm_vue,sidearm_legacy,wmt+themes10+sport_path+plain_page",
  "games_listed": 4,
  "finals": 0,
+ "undated": 0,
  "games": [
   {"game_key":"23464","date":"2026-10-16","time":"2 p.m.","site":"H","opponent":"West Georgia","opponent_host":"uwgathletics.com","conference":false,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Birmingham, AL","event":null,"boxscore":null,"note":null},
   {"game_key":"23465","date":"2026-10-18","time":"1 p.m.","site":"H","opponent":"Kennesaw State","opponent_host":"ksuowls.com","conference":false,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Birmingham, AL","event":null,"boxscore":null,"note":null},

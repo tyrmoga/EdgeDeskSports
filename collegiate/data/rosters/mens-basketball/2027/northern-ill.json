@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "northern-ill",
+ "host": "niuhuskies.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://niuhuskies.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:bennett-basich","name":"Bennett Basich","first":"Bennett","last":"Basich","jersey":"8","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":205,"hometown":"Hartland, Wis.","high_school":"Arrowhead","previous_school":"Northern Michigan","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:uzziah-buntyn","name":"Uzziah Buntyn","first":"Uzziah","last":"Buntyn","jersey":"1","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":180,"hometown":"Round Rock, Texas","high_school":"Stony Point","previous_school":"South Dakota","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nino-carter-smith","name":"Nino Carter-Smith","first":"Nino","last":"Carter-Smith","jersey":"0","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":170,"hometown":"Detroit, Mich.","high_school":"Warren De La Salle","previous_school":"Lake Superior State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jack-daugherty","name":"Jack Daugherty","first":"Jack","last":"Daugherty","jersey":"9","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":210,"hometown":"Brookfield, Wis.","high_school":"Brookfield Central","previous_school":"Illinois State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:david-douglas-jr-","name":"David Douglas Jr.","first":"David","last":"Douglas Jr.","jersey":"15","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":215,"hometown":"Park Forest, Ill.","high_school":"Yorkville Christian","previous_school":"Fresno State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brayden-gross","name":"Brayden Gross","first":"Brayden","last":"Gross","jersey":"32","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":225,"hometown":"Louisville, Ohio","high_school":"Louisville","previous_school":"Walsh","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:keller-hanson","name":"Keller Hanson","first":"Keller","last":"Hanson","jersey":"11","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":180,"hometown":"Sauk Rapids, Minn.","high_school":"Sauk Rapids-Rice","previous_school":"Northern Michigan","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:colin-hardrick","name":"Colin Hardrick","first":"Colin","last":"Hardrick","jersey":"2","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":180,"hometown":"Milwaukee, Wis.","high_school":"Wauwatosa West","previous_school":"Drury","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mykolas-ivanauskas","name":"Mykolas Ivanauskas","first":"Mykolas","last":"Ivanauskas","jersey":"5","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":225,"hometown":"Chicago, Ill.","high_school":"Sunrise Christian Academy","previous_school":"Mercyhurst","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cal-klesmit","name":"Cal Klesmit","first":"Cal","last":"Klesmit","jersey":"4","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":190,"hometown":"Neenah, Wis.","high_school":"Neenah","previous_school":"Northern Michigan","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:izaya-larthridge","name":"Izaya Larthridge","first":"Izaya","last":"Larthridge","jersey":"7","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":210,"hometown":"Grand Rapids, Mich.","high_school":"Catholic Central","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:akiva-mcbirney-griffin","name":"Akiva McBirney-Griffin","first":"Akiva","last":"McBirney-Griffin","jersey":"70","pos":"F","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":81,"weight":225,"hometown":"Hamilton, New Zealand","high_school":"St. John's College","previous_school":"UC Irvine","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trevor-polite","name":"Trevor Polite","first":"Trevor","last":"Polite","jersey":"10","pos":"G/F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":210,"hometown":"Mequon, Wis.","high_school":"Homestead","previous_school":"Northern Michigan","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nathan-ramus","name":"Nathan Ramus","first":"Nathan","last":"Ramus","jersey":"14","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":185,"hometown":"Appleton, Wis.","high_school":"Appleton North","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tolu-samuels","name":"Tolu Samuels","first":"Tolu","last":"Samuels","jersey":"3","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":205,"hometown":"Chicago, Ill.","high_school":"Hillcrest","previous_school":"Southern Indiana","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:max-weisbrod","name":"Max Weisbrod","first":"Max","last":"Weisbrod","jersey":"6","pos":"G","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":76,"weight":190,"hometown":"DeForest, Wis.","high_school":"DeForest","previous_school":"Northern Iowa","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

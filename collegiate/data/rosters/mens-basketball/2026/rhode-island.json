@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "rhode-island",
+ "host": "gorhody.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://gorhody.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:jaymien-aponte","name":"Jaymien Aponte","first":"Jaymien","last":"Aponte","jersey":"13","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":183,"hometown":"Cranston, R.I.","high_school":"Cranston West High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jimmy-ball","name":"Jimmy Ball","first":"Jimmy","last":"Ball","jersey":"30","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":183,"hometown":"Medford, Mass.","high_school":"Arlington Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tyler-cochran","name":"Tyler Cochran","first":"Tyler","last":"Cochran","jersey":"23","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":76,"weight":222,"hometown":"Boilingbrook, Ill.","high_school":"Boilingbrook (Minnesota)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:myles-corey","name":"Myles Corey","first":"Myles","last":"Corey","jersey":"20","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":73,"weight":180,"hometown":"Ontario, Calif.","high_school":"Diamond Bar (South Alabama)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alex-crawford","name":"Alex Crawford","first":"Alex","last":"Crawford","jersey":"8","pos":"F","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":80,"weight":215,"hometown":"Chula Vista, Calif.","high_school":"Coronado (Fresno State)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jalen-harper","name":"Jalen Harper","first":"Jalen","last":"Harper","jersey":"7","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":190,"hometown":"Philadelphia, Pa.","high_school":"St. Joe’s Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jonah-hinton","name":"Jonah Hinton","first":"Jonah","last":"Hinton","jersey":"5","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":75,"weight":185,"hometown":"Chicago, Ill.","high_school":"Naperville Central (St. Bonaventure)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:miftah-ibiyemi","name":"Miftah Ibiyemi","first":"Miftah","last":"Ibiyemi","jersey":"2","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":175,"hometown":"Providence, R.I.","high_school":"Highlander (Johnson & Wales)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:moek-icke","name":"Moek Icke","first":"Moek","last":"Icke","jersey":"17","pos":null,"class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":85,"weight":223,"hometown":"Purmerend, Netherlands","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:keeyan-itejere","name":"Keeyan Itejere","first":"Keeyan","last":"Itejere","jersey":"40","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":81,"weight":220,"hometown":"Knightsdale, N.C.","high_school":"GRACE Christian School (Northern Kentucky)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rj-johnson","name":"RJ Johnson","first":"RJ","last":"Johnson","jersey":"22","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":73,"weight":177,"hometown":"Matthews, N.C.","high_school":"Charlotte Latin (Charleston Southern)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:damone-king","name":"Damone King","first":"Damone","last":"King","jersey":"21","pos":null,"class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":74,"weight":180,"hometown":"Louisville, Ky.","high_school":"DeSales High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:barrett-loer","name":"Barrett Loer","first":"Barrett","last":"Loer","jersey":"10","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":190,"hometown":"Millis, Mass.","high_school":"St. George’s","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:javon-perry","name":"Javon Perry","first":"Javon","last":"Perry","jersey":"11","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":207,"hometown":"Springfield, Mass.","high_school":"MacDuffie","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mouhamed-sow","name":"Mouhamed Sow","first":"Mouhamed","last":"Sow","jersey":"35","pos":"F","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":81,"weight":217,"hometown":"Dakar, Senegal","high_school":"The Patrick School (St. Peter's)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:drissa-traore","name":"Drissa Traore","first":"Drissa","last":"Traore","jersey":"55","pos":"F","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":80,"weight":220,"hometown":"New York, N.Y.","high_school":"Long Island Lutheran (St. John’s)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jahmere-tripp","name":"Jahmere Tripp","first":"Jahmere","last":"Tripp","jersey":"0","pos":"G/F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":234,"hometown":"Brooklyn, N.Y.","high_school":"Our Saviour Lutheran (Fordham)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

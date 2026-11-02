@@ -1,0 +1,30 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "albany-ny",
+ "host": "ualbanysports.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://ualbanysports.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 14,
+ "players": [
+  {"pid":"slug:alexia-bujold","name":"Alexia Bujold","first":"Alexia","last":"Bujold","jersey":"9","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"St-Jean-sur-Richelieu, Quebec, Canada","high_school":"Cégep de St-Jean-sur-Richelieu","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sofia-caraus","name":"Sofia Caraus","first":"Sofia","last":"Caraus","jersey":"12","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Centreville, Va.","high_school":"Virginia Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sabela-carro","name":"Sabela Carro","first":"Sabela","last":"Carro","jersey":"14","pos":"G/F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Pontedeume, A Coruña, Spain","high_school":"IES Lucus Augusti","previous_school":"Laramie County CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:abriyah-cunningham","name":"Abriyah Cunningham","first":"Abriyah","last":"Cunningham","jersey":"24","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Syracuse, N.Y.","high_school":"Liverpool","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jenava-egan","name":"Jenava Egan","first":"Jenava","last":"Egan","jersey":"23","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"North Attleboro, Mass.","high_school":"The Newman School (Boston)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cadence-johnson","name":"Cadence Johnson","first":"Cadence","last":"Johnson","jersey":"21","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":72,"weight":null,"hometown":"Mattapoisett, Mass.","high_school":"St. Andrew's","previous_school":"Merrimack","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lara-langermann","name":"Lara Langermann","first":"Lara","last":"Langermann","jersey":"55","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":67,"weight":null,"hometown":"Breckerfeld, Germany","high_school":"Theodor-Heuss-Gymnasium","previous_school":"New Mexico","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:noa-l-pez-tall-n","name":"Noa López Tallón","first":"Noa","last":"López Tallón","jersey":"15","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":66,"weight":null,"hometown":"Sarria, Lugo, Spain","high_school":"ÍES Xograr Afonso Gómez","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kohen-marshall","name":"Kohen Marshall","first":"Kohen","last":"Marshall","jersey":"10","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Murrieta, Calif.","high_school":"Vista Murrieta","previous_school":"Mt. San Jacinto","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:francesca-mclain","name":"Francesca McLain","first":"Francesca","last":"McLain","jersey":"7","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Pleasant Prairie, Wis.","high_school":"Spire Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:shyla-montgomery","name":"Shyla Montgomery","first":"Shyla","last":"Montgomery","jersey":"3","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":67,"weight":null,"hometown":"Brockton, Mass.","high_school":"Lawrence Academy","previous_school":"Daemen","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:madison-roman","name":"Madison Roman","first":"Madison","last":"Roman","jersey":"0","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Fairfield, Conn.","high_school":"Fairfield Ludlowe","previous_school":"Merrimack","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:daria-shishkina","name":"Daria Shishkina","first":"Daria","last":"Shishkina","jersey":"2","pos":"F/G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Moscow, Russia","high_school":"Spire Academy","previous_school":"Merrimack","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emma-zuccon","name":"Emma Zuccon","first":"Emma","last":"Zuccon","jersey":"46","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Treviso, Italy","high_school":"Istituto Bruno-Franchetti","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

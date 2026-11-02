@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "northern-ariz",
+ "host": "nauathletics.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://nauathletics.com/sports/womens-volleyball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:kate-camp","name":"Kate Camp","first":"Kate","last":"Camp","jersey":"31","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Las Vegas, Nev.","high_school":"Palo Verde","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:quincey-coyle","name":"Quincey Coyle","first":"Quincey","last":"Coyle","jersey":"22","pos":"OH","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":72,"weight":null,"hometown":"Fort Lupton, Colo.","high_school":"Mead High School","previous_school":"West Virginia","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:taryn-davis","name":"Taryn Davis","first":"Taryn","last":"Davis","jersey":"5","pos":"S","class":"SR","redshirt":false,"class_raw":"Senior","height_in":67,"weight":null,"hometown":"Peoria, Ariz.","high_school":"Sunrise Mountain","previous_school":"Scottsdale Community","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:peyton-devlin","name":"Peyton Devlin","first":"Peyton","last":"Devlin","jersey":"8","pos":"OH","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":73,"weight":null,"hometown":"Queen Creek, Ariz.","high_school":"ALA Queen Creek","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lauren-edlund","name":"Lauren Edlund","first":"Lauren","last":"Edlund","jersey":"6","pos":"RS","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":73,"weight":null,"hometown":"Barnwell, Alberta","high_school":"Vauxhall","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kate-federico","name":"Kate Federico","first":"Kate","last":"Federico","jersey":"18","pos":"L/DS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":65,"weight":null,"hometown":"Peoria, Ariz.","high_school":"Centennial","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:avery-gottschalk","name":"Avery Gottschalk","first":"Avery","last":"Gottschalk","jersey":"14","pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":null,"hometown":"Rocklin, Calif.","high_school":"Rocklin","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gigi-greenlee","name":"Gigi Greenlee","first":"Gigi","last":"Greenlee","jersey":"3","pos":"MB","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":75,"weight":null,"hometown":"Scottsdale, Ariz.","high_school":"Horizon","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lilly-holmes","name":"Lilly Holmes","first":"Lilly","last":"Holmes","jersey":"10","pos":"L/DS","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":67,"weight":null,"hometown":"Parker, Colo.","high_school":"Legend HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ella-hosfeld","name":"Ella Hosfeld","first":"Ella","last":"Hosfeld","jersey":"7","pos":"S","class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Coeur D'Alene, Idaho","high_school":"Lake City","previous_school":"Westmont College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:avalon-legg","name":"Avalon Legg","first":"Avalon","last":"Legg","jersey":"11","pos":"L/DS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"Tempe, Ariz.","high_school":"Corona del Sol","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:masina-perez","name":"Masina Perez","first":"Masina","last":"Perez","jersey":"9","pos":"RS","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":73,"weight":null,"hometown":"Lindon, Utah","high_school":"Lone Peak HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hannah-pushckor","name":"Hannah Pushckor","first":"Hannah","last":"Pushckor","jersey":"17","pos":"MB","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Florence, Ariz.","high_school":"American Leadership Academy-Ironwood","previous_school":"Eastern Arizona College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mallory-reynolds","name":"Mallory Reynolds","first":"Mallory","last":"Reynolds","jersey":"2","pos":"S","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Airdrie, Alberta, Canada","high_school":"Croxford","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:georgi-stein","name":"Georgi Stein","first":"Georgi","last":"Stein","jersey":"4","pos":"OH","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":73,"weight":null,"hometown":"Phoenix, Ariz.","high_school":"Sunnyslope","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hanah-stoddard","name":"Hanah Stoddard","first":"Hanah","last":"Stoddard","jersey":"1","pos":"OH","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":73,"weight":null,"hometown":"Coeur d’Alene, Idaho","high_school":"Lake City","previous_school":"Gonzaga","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:laney-wilson","name":"Laney Wilson","first":"Laney","last":"Wilson","jersey":"12","pos":"RS/OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Phoenix, Ariz.","high_school":"Sunnyslope","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

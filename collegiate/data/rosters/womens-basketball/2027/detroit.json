@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "detroit",
+ "host": "detroittitans.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://detroittitans.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:maya-anderson","name":"Maya Anderson","first":"Maya","last":"Anderson","jersey":"5","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Detroit, Mich.","high_school":"Cass Tech","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:colleena-bryant","name":"Colleena Bryant","first":"Colleena","last":"Bryant","jersey":"0","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":66,"weight":null,"hometown":"Detroit, Mich. (Saint Mary’s)","high_school":"Wayne Memorial","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:na-ma-diawara","name":"Naïma Diawara","first":"Naïma","last":"Diawara","jersey":"11","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Montreal, Quebec, Canada","high_school":"Gérard-Filion Vortex (Dawson College)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alonna-divine","name":"Alonna Divine","first":"Alonna","last":"Divine","jersey":"4","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"Indianapolis, Ind.","high_school":"Pike","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:makayla-jackson","name":"Makayla Jackson","first":"Makayla","last":"Jackson","jersey":"2","pos":"G/W","class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":null,"hometown":"Alexandria, Va.","high_school":"Bullis School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:marianna-jones","name":"Marianna Jones","first":"Marianna","last":"Jones","jersey":"33","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Waterford, Mich.","high_school":"Detroit Edison","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anna-lassan","name":"Anna Lassan","first":"Anna","last":"Lassan","jersey":"3","pos":"F/W","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"South Lyon, Mich.","high_school":"South Lyon East","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:paula-lopez","name":"Paula Lopez","first":"Paula","last":"Lopez","jersey":"12","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":67,"weight":null,"hometown":"Alicante, Spain","high_school":"EPLA (Buffalo)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:addisen-mastriano","name":"Addisen Mastriano","first":"Addisen","last":"Mastriano","jersey":"15","pos":"C","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Richmond, Ind.","high_school":"Northeastern","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cameron-mcmaster","name":"Cameron McMaster","first":"Cameron","last":"McMaster","jersey":"22","pos":"F/C","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Calgary, Alberta, Canada","high_school":"Orangeville Prep Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:marie-outlay","name":"Marie Outlay","first":"Marie","last":"Outlay","jersey":"1","pos":"G/W","class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":null,"hometown":"Sun Prairie, Wisc.","high_school":"Sun Prairie West (Roosevelt)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nina-rodriguez","name":"Nina Rodriguez","first":"Nina","last":"Rodriguez","jersey":"30","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":66,"weight":null,"hometown":"Mentor, Ohio","high_school":"Mentor","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:audrey-tchako-tchako","name":"Audrey Tchako Tchako","first":"Audrey","last":"Tchako Tchako","jersey":"13","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":null,"hometown":"Bruges, Belgium","high_school":"Sint-Franciscus-Xaveriusinstituut","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:stacy-utomi","name":"Stacy Utomi","first":"Stacy","last":"Utomi","jersey":"24","pos":"G/W","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Detroit, Mich.","high_school":"Arbor Preparatory (Mercer)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:stephanie-utomi","name":"Stephanie Utomi","first":"Stephanie","last":"Utomi","jersey":"23","pos":"F/W","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Detroit, Mich.","high_school":"Arbor Preparatory (Mercer)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

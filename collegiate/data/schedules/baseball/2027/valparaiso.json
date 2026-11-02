@@ -1,0 +1,22 @@
+{
+ "schema": "edgedesk_collegiate_schedule_v1",
+ "school": "valparaiso",
+ "host": "valpoathletics.com",
+ "platform": "sidearm_legacy",
+ "sport": "baseball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://valpoathletics.com/sports/baseball/schedule/2026-27",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "readers": "sidearm,sidearm_vue,sidearm_legacy,wmt+themes10+sport_path+plain_page",
+ "games_listed": 4,
+ "finals": 0,
+ "undated": 0,
+ "games": [
+  {"game_key":"13308","date":"2026-09-26","time":"12:00","site":"H","opponent":"Taylor","opponent_host":"athletics.taylor.edu","conference":false,"postseason":null,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Emory G. Bauer Field","event":null,"boxscore":null,"note":null},
+  {"game_key":"13309","date":"2026-10-11","time":"13:00","site":"A","opponent":"Northwestern","opponent_host":"nusports.com","conference":false,"postseason":null,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Evanston, Ill.","event":null,"boxscore":null,"note":null},
+  {"game_key":"13310","date":"2026-10-16","time":"12:00","site":"H","opponent":"Lake Land","opponent_host":"lakeland.cc.il.us","conference":false,"postseason":null,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Emory G. Bauer Field","event":null,"boxscore":null,"note":null},
+  {"game_key":"13311","date":"2026-10-24","time":"12:00","site":"H","opponent":"Notre Dame","opponent_host":"und.com","conference":false,"postseason":null,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Emory G. Bauer Field","event":null,"boxscore":null,"note":null}
+ ]
+}

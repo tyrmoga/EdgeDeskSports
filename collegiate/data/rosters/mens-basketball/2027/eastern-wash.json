@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "eastern-wash",
+ "host": "goeags.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://goeags.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:andrew-cook","name":"Andrew Cook","first":"Andrew","last":"Cook","jersey":"9","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":77,"weight":220,"hometown":"Huntington Beach, Calif.","high_school":"Servite HS","previous_school":"Carroll College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alan-gballou","name":"Alan Gballou","first":"Alan","last":"Gballou","jersey":"5","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":79,"weight":270,"hometown":"Paris, France","high_school":"Layton Christian","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jalen-griffith","name":"Jalen Griffith","first":"Jalen","last":"Griffith","jersey":"7","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":140,"hometown":"Chicago, Illinois","high_school":"Simeon HS","previous_school":"Jacksonville University / Navarro College / Western Michigan University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ayden-hamilton","name":"Ayden Hamilton","first":"Ayden","last":"Hamilton","jersey":"44","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":225,"hometown":"Fontana, Calif.","high_school":"Etiwanda HS","previous_school":"Life Pacific University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alton-hamilton-iv","name":"Alton Hamilton IV","first":"Alton","last":"Hamilton IV","jersey":"4","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":81,"weight":250,"hometown":"Fontana, Calif","high_school":"Etiwanda HS","previous_school":"Lewis-Clark State College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isak-homelius","name":"Isak Homelius","first":"Isak","last":"Homelius","jersey":"12","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":215,"hometown":"Huskvarna, Sweden","high_school":"Sanda Idrottsgymnasium","previous_school":"Western Texas College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lance-horntvedt-jr-","name":"Lance Horntvedt Jr.","first":"Lance","last":"Horntvedt Jr.","jersey":"0","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":210,"hometown":"Richland, Wash.","high_school":"Richland HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tavi-jackson","name":"Tavi Jackson","first":"Tavi","last":"Jackson","jersey":"2","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":180,"hometown":"Las Vegas, Nevada","high_school":"Las Vegas HS","previous_school":"Colorado State University / Southern Utah University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emmett-marquardt","name":"Emmett Marquardt","first":"Emmett","last":"Marquardt","jersey":"33","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":82,"weight":245,"hometown":"Seattle, Wash.","high_school":"Garfield '23","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jamil-miller","name":"Jamil Miller","first":"Jamil","last":"Miller","jersey":"6","pos":"F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":78,"weight":220,"hometown":"Spokane, Wash.","high_school":"Gonzaga Prep","previous_school":"Kennesaw State University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maddox-monson","name":"Maddox Monson","first":"Maddox","last":"Monson","jersey":"10","pos":"G","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":74,"weight":180,"hometown":"Los Alamitos, Calif.","high_school":"Los Alamitos","previous_school":"Long Beach State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:shaumba-ngoyi","name":"Shaumba Ngoyi","first":"Shaumba","last":"Ngoyi","jersey":"35","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":80,"weight":215,"hometown":"Kinshasha, Democratic Republic of Congo","high_school":"Sunrise Christian Academy","previous_school":"Long Beach State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:malachi-richmond","name":"Malachi Richmond","first":"Malachi","last":"Richmond","jersey":"1","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":190,"hometown":"Sacramento, Calif.","high_school":null,"previous_school":"Edge Prep","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cole-scherer","name":"Cole Scherer","first":"Cole","last":"Scherer","jersey":"11","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":190,"hometown":"Littleton, Colo.","high_school":"Valor Christian School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zach-trezvant","name":"Zach Trezvant","first":"Zach","last":"Trezvant","jersey":"22","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":86,"weight":225,"hometown":"Manchester, England","high_school":"Myerscough College","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

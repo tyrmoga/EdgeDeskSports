@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "tennessee-st",
+ "host": "tsutigers.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://tsutigers.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:lakiara-alexander","name":"LaKiara Alexander","first":"LaKiara","last":"Alexander","jersey":"24","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Camden, S.C.","high_school":"Camden","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:serenity-byrd","name":"Serenity Byrd","first":"Serenity","last":"Byrd","jersey":"32","pos":"PF","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Antioch, Tenn.","high_school":"Cane Ridge","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:genesis-harris","name":"Genesis Harris","first":"Genesis","last":"Harris","jersey":"11","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":64,"weight":null,"hometown":"Nashville, Tenn.","high_school":"Beech","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:adrienne-hunt","name":"Adrienne Hunt","first":"Adrienne","last":"Hunt","jersey":"20","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Tuscaloosa, Ala.","high_school":"Paul W. Bryant","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:somah-kamara","name":"Somah Kamara","first":"Somah","last":"Kamara","jersey":"2","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Minneapolis, Minn.","high_school":"Robbinsdale Cooper","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:laila-lancaster","name":"Laila Lancaster","first":"Laila","last":"Lancaster","jersey":"21","pos":"C","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":null,"hometown":"Lanett, Ala.","high_school":"Lanett","previous_school":"Bethune-Cookman","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:danica-lazic","name":"Danica Lazic","first":"Danica","last":"Lazic","jersey":"14","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Cacak, Serbia","high_school":"Hamilton Heights Christian","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:erin-martin","name":"Erin Martin","first":"Erin","last":"Martin","jersey":"22","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Montgomery, Ala.","high_school":"Brewbaker Tech Magnet","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:addison-melton","name":"Addison Melton","first":"Addison","last":"Melton","jersey":"4","pos":null,"class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":71,"weight":null,"hometown":"Murfreesboro, Tenn.","high_school":"Central","previous_school":"Lipscomb","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nandinkhusel-nyamjav","name":"Nandinkhusel Nyamjav","first":"Nandinkhusel","last":"Nyamjav","jersey":"10","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Ulaanbaatar, Mongolia","high_school":"Spire","previous_school":"Florida Tech","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:akeera-sparks","name":"Akeera Sparks","first":"Akeera","last":"Sparks","jersey":"30","pos":"PF","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Hoover, Ala.","high_school":"Hoover","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:raegan-starks","name":"Raegan Starks","first":"Raegan","last":"Starks","jersey":"15","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Antioch, Tenn.","high_school":"Hillsboro","previous_school":"Walters State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:icesis-thomas","name":"Icesis Thomas","first":"Icesis","last":"Thomas","jersey":"1","pos":"G/F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Chicago, Ill.","high_school":"Kenwood Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zoe-young","name":"Zoe Young","first":"Zoe","last":"Young","jersey":"12","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":null,"hometown":"Laurens, S.C.","high_school":"Laurens","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sherry-zheng","name":"Sherry Zheng","first":"Sherry","last":"Zheng","jersey":"5","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":64,"weight":null,"hometown":"New Taipei City, Taiwan","high_school":"Tamsui Vocational","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

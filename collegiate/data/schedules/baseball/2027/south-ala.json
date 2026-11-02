@@ -1,0 +1,23 @@
+{
+ "schema": "edgedesk_collegiate_schedule_v1",
+ "school": "south-ala",
+ "host": "usajaguars.com",
+ "platform": "sidearm_legacy",
+ "sport": "baseball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://usajaguars.com/sports/baseball/schedule/2026-27",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "readers": "sidearm,sidearm_vue,sidearm_legacy,wmt+themes10+sport_path+plain_page",
+ "games_listed": 5,
+ "finals": 0,
+ "undated": 0,
+ "games": [
+  {"game_key":"11695","date":"2026-10-18","time":null,"site":"A","opponent":"University of West Alabama","opponent_host":"uwaathletics.com","conference":false,"postseason":null,"doubleheader":true,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Livingston, Ala.","event":null,"boxscore":null,"note":null},
+  {"game_key":"11714","date":"2026-10-18","time":null,"site":"A","opponent":"University of West Alabama","opponent_host":"uwaathletics.com","conference":false,"postseason":null,"doubleheader":true,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Livingston, AL","event":null,"boxscore":null,"note":null},
+  {"game_key":"11697","date":"2026-10-24","time":null,"site":"H","opponent":"Tulane University","opponent_host":"tulanegreenwave.com","conference":false,"postseason":null,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Mobile, Ala. / Stanky Field","event":null,"boxscore":null,"note":null},
+  {"game_key":"11696","date":"2026-10-25","time":null,"site":"H","opponent":"Nicholls","opponent_host":"geauxcolonels.com","conference":false,"postseason":null,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Mobile, Ala. / Stanky Field","event":null,"boxscore":null,"note":null},
+  {"game_key":"11700","date":"2026-10-30","time":null,"site":"H","opponent":"University of West Florida","opponent_host":"goargos.com","conference":false,"postseason":null,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Mobile, Ala. / Stanky Field","event":null,"boxscore":null,"note":null}
+ ]
+}

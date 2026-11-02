@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "portland-st",
+ "host": "goviks.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://goviks.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:brayden-barron","name":"Brayden Barron","first":"Brayden","last":"Barron","jersey":"32","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":200,"hometown":"Gresham, OR","high_school":"Sam Barlow HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:charles-chukwu","name":"Charles Chukwu","first":"Charles","last":"Chukwu","jersey":"7","pos":null,"class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":81,"weight":240,"hometown":"Katy, TX","high_school":"Paetow HS","previous_school":"Tulsa/Garden City CC/Arkansas Little Rock","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:francesco-corato","name":"Francesco Corato","first":"Francesco","last":"Corato","jersey":"6","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":81,"weight":225,"hometown":"Venice, Italy","high_school":null,"previous_school":"Umana Reyer","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trevor-frank","name":"Trevor Frank","first":"Trevor","last":"Frank","jersey":"5","pos":null,"class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":73,"weight":185,"hometown":"Katy, TX","high_school":"Paetow HS","previous_school":"Dallas Baptist","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kc-ibekwe","name":"KC Ibekwe","first":"KC","last":"Ibekwe","jersey":"17","pos":"C","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":83,"weight":285,"hometown":"Coquitlam, B.C.","high_school":"Centennial Academy","previous_school":"Oregon State/Washington/Pacific (Calif.)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:koren-johnson","name":"Koren Johnson","first":"Koren","last":"Johnson","jersey":"3","pos":null,"class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":73,"weight":180,"hometown":"Seattle, WA","high_school":"Garfield HS","previous_school":"Washington/Louisville/Ole Miss","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dennis-johnson-iii","name":"Dennis Johnson III","first":"Dennis","last":"Johnson III","jersey":"1","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":190,"hometown":"Seattle, WA","high_school":"Phoenix Prep","previous_school":"Western Washington","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:luke-kearney","name":"Luke Kearney","first":"Luke","last":"Kearney","jersey":"2","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":215,"hometown":"Phoenix, AZ","high_school":"Bella Vista Prep","previous_school":"Air Force/Utah State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gantas-kri-anauskas","name":"Gantas Križanauskas","first":"Gantas","last":"Križanauskas","jersey":"22","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":205,"hometown":"Vilnius, Lithuania","high_school":"Rytas Vilnius","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:colt-ness","name":"Colt Ness","first":"Colt","last":"Ness","jersey":"10","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":170,"hometown":"Tigard, OR","high_school":"Tigard HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:yaroslav-nikonov","name":"Yaroslav Nikonov","first":"Yaroslav","last":"Nikonov","jersey":"0","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":210,"hometown":"Gelendzhik, Russia","high_school":null,"previous_school":"CSKA-2","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nehemiah-pollard","name":"Nehemiah Pollard","first":"Nehemiah","last":"Pollard","jersey":"4","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":210,"hometown":"Tacoma, WA","high_school":"Mount Tahoma","previous_school":"South Puget Sound CC/Western Washington","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:antonio-pusateri","name":"Antonio Pusateri","first":"Antonio","last":"Pusateri","jersey":"24","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":205,"hometown":"San Francisco, CA","high_school":"Riordan HS","previous_school":"CC of San Francisco/Lubbock Christian","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaquay-randolph","name":"Jaquay Randolph","first":"Jaquay","last":"Randolph","jersey":"23","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":82,"weight":230,"hometown":"Tallahassee, FL","high_school":"Maclay School","previous_school":"Southeastern/Southern Wesleyan","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alexandros-skliros","name":"Alexandros Skliros","first":"Alexandros","last":"Skliros","jersey":"12","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":81,"weight":240,"hometown":"Patras, Greece","high_school":null,"previous_school":"Promitheas Patras BC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emil-skytt-","name":"Emil Skyttä","first":"Emil","last":"Skyttä","jersey":"8","pos":null,"class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":77,"weight":205,"hometown":"Helsinki, Finland","high_school":"PHKY","previous_school":"Sacramento State/North Dakota State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

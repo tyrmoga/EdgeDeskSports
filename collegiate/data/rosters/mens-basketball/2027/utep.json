@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "utep",
+ "host": "utepathletics.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://utepathletics.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:reid-cason","name":"Reid Cason","first":"Reid","last":"Cason","jersey":"24","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":82,"weight":235,"hometown":"Kingston, Okla.","high_school":"Kingston HS","previous_school":"East Carolina","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:augusto-cassia","name":"Augusto Cassia","first":"Augusto","last":"Cassia","jersey":"11","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":82,"weight":230,"hometown":"Salvador, Bahia, Brazil","high_school":null,"previous_school":"Ole Miss","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:donovan-criss","name":"Donovan Criss","first":"Donovan","last":"Criss","jersey":"0","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":195,"hometown":"San Antonio, Texas","high_school":"William J. Brennan HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kaleb-jackson","name":"Kaleb Jackson","first":"Kaleb","last":"Jackson","jersey":"12","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":190,"hometown":"Duncanville, Texas","high_school":"Kingdom Collegiate Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ryan-jackson-jr-","name":"Ryan Jackson Jr.","first":"Ryan","last":"Jackson Jr.","jersey":"15","pos":"G/F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":215,"hometown":"Mesa, Ariz.","high_school":"AZ Compass Prep","previous_school":"William & Mary","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mikey-kelvin-ii","name":"Mikey Kelvin II","first":"Mikey","last":"Kelvin II","jersey":"1","pos":"F","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":80,"weight":210,"hometown":"Kingston, Ontario, Canada","high_school":null,"previous_school":"FIU","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cam-mcdaniels","name":"Cam McDaniels","first":"Cam","last":"McDaniels","jersey":"5","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":220,"hometown":"Louisville, Ky.","high_school":null,"previous_school":"John A. Logan College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:reese-miller","name":"Reese Miller","first":"Reese","last":"Miller","jersey":"3","pos":"G","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":77,"weight":185,"hometown":"Round Rock, Texas","high_school":"Round Rock HS","previous_school":"William & Mary","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:leif-moeller","name":"Leif Moeller","first":"Leif","last":"Moeller","jersey":"6","pos":"PG","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":215,"hometown":"Wedel, Germany","high_school":null,"previous_school":"Evansville","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ivan-perasovic","name":"Ivan Perasovic","first":"Ivan","last":"Perasovic","jersey":"8","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":220,"hometown":"Split, Croatia","high_school":null,"previous_school":"KK Split","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:janusz-ratowski","name":"Janusz Ratowski","first":"Janusz","last":"Ratowski","jersey":"9","pos":"F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":83,"weight":235,"hometown":"Chotomow, Poland","high_school":null,"previous_school":"Stetson","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:delano-tarpley","name":"Delano Tarpley","first":"Delano","last":"Tarpley","jersey":"2","pos":"C","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":83,"weight":215,"hometown":"San Antonio, Texas","high_school":"William J. Brennan HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:youssouf-traore","name":"Youssouf Traore","first":"Youssouf","last":"Traore","jersey":"23","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":82,"weight":215,"hometown":"Bamako, Mali","high_school":null,"previous_school":"Casademont Zaragoza","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isaiah-ward","name":"Isaiah Ward","first":"Isaiah","last":"Ward","jersey":"18","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":200,"hometown":"San Antonio, Texas","high_school":"William J. Brennan HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jace-whiting","name":"Jace Whiting","first":"Jace","last":"Whiting","jersey":"21","pos":"G","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":75,"weight":195,"hometown":"Burley, Idaho","high_school":null,"previous_school":"Weber State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

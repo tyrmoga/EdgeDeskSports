@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "hofstra",
+ "host": "gohofstra.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://gohofstra.com/sports/womens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:ayen-angoi","name":"Ayen Angoi","first":"Ayen","last":"Angoi","jersey":"6","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"Lavon, TX","high_school":"Bishop Lynch","previous_school":"Louisiana Tech","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:syniya-barton","name":"Syniya Barton","first":"Syniya","last":"Barton","jersey":"11","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"South Hempstead, NY","high_school":"Monsignor McClancy Memorial","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kiyanna-blacks-stewart","name":"Kiyanna Blacks-Stewart","first":"Kiyanna","last":"Blacks-Stewart","jersey":"35","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Sicklerville, NJ","high_school":"Paul VI","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nevaeh-brown","name":"Nevaeh Brown","first":"Nevaeh","last":"Brown","jersey":"8","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":68,"weight":null,"hometown":"Charlotte, NC","high_school":"Mallard Creek","previous_school":"UCF","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:micaela-carter","name":"Micaela Carter","first":"Micaela","last":"Carter","jersey":"25","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":66,"weight":null,"hometown":"Brampton, Ontario","high_school":"St. Mary Catholic Secondary School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sana-a-garrett","name":"Sana'a Garrett","first":"Sana'a","last":"Garrett","jersey":"0","pos":"PG","class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"Philadelphia, PA","high_school":"Friends Central","previous_school":"Jacksonville","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alarice-gooden","name":"Alarice Gooden","first":"Alarice","last":"Gooden","jersey":"10","pos":"PG","class":"SR","redshirt":false,"class_raw":"Senior","height_in":67,"weight":null,"hometown":"Brampton, Ontario","high_school":"J. Addison School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:deivejon-harris","name":"Deivejon Harris","first":"Deivejon","last":"Harris","jersey":"7","pos":"C","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":null,"hometown":"Bronx, NY","high_school":"Business of Sports School","previous_school":"Texas Southern","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:michaela-hodge","name":"Michaela Hodge","first":"Michaela","last":"Hodge","jersey":"32","pos":"C/F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":null,"hometown":"Jackson, NC","high_school":"Northampton County","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ema-karim","name":"Ema Karim","first":"Ema","last":"Karim","jersey":"5","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Parede, Portugal","high_school":"Amelia Rey Colaço Escola","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sandra-magolico","name":"Sandra Magolico","first":"Sandra","last":"Magolico","jersey":"13","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":73,"weight":null,"hometown":"Maputo, Mozambique","high_school":"Escola Secundaria da Polana","previous_school":"SMU","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maddie-pounds","name":"Maddie Pounds","first":"Maddie","last":"Pounds","jersey":"1","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":null,"hometown":"Rocky Mount, NC","high_school":"N.C. Good Better Best Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chloe-sterling","name":"Chloe Sterling","first":"Chloe","last":"Sterling","jersey":"3","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":67,"weight":null,"hometown":"Kennesaw, GA","high_school":"Marietta","previous_school":"James Madison","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:olivia-vanpatten","name":"Olivia VanPatten","first":"Olivia","last":"VanPatten","jersey":"23","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Cranston, RI","high_school":"St. George's School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emma-von-essen","name":"Emma Von Essen","first":"Emma","last":"Von Essen","jersey":"2","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":null,"hometown":"Rockville Centre, NY","high_school":"Long Island Lutheran","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

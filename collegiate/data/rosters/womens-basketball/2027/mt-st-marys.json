@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "mt-st-marys",
+ "host": "mountathletics.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://mountathletics.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:eva-andrews","name":"Eva Andrews","first":"Eva","last":"Andrews","jersey":"32","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Willow Grove, PA","high_school":"Paul VI","previous_school":"North Carolina A&T","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:thelma-barbitch","name":"Thelma Barbitch","first":"Thelma","last":"Barbitch","jersey":"20","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Paris, France","high_school":"Centre National d'Education a Distance","previous_school":"Charleston Southern","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rachael-chilicki","name":"Rachael Chilicki","first":"Rachael","last":"Chilicki","jersey":"45","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":null,"hometown":"Elkhorn, WI","high_school":"Mukwonago","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:wesleigh-ferguson","name":"Wesleigh Ferguson","first":"Wesleigh","last":"Ferguson","jersey":"3","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Benton, AR","high_school":"IMG Academy [Fla.]","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nevaeh-ferrara-horne","name":"Nevaeh Ferrara Horne","first":"Nevaeh","last":"Ferrara Horne","jersey":"11","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"Regina, Saskatchewan","high_school":"Southwest Academy","previous_school":"San Francisco","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:severyn-ferrara-horne","name":"Severyn Ferrara Horne","first":"Severyn","last":"Ferrara Horne","jersey":"6","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Regina, Saskatchewan","high_school":"Athol Murray College of Notre Dame","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kiyla-fowler","name":"Kiyla Fowler","first":"Kiyla","last":"Fowler","jersey":"8","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":66,"weight":null,"hometown":"Mississauga, Ontario","high_school":"The Newman School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nyodie-guerard","name":"Nyodie Guerard","first":"Nyodie","last":"Guerard","jersey":"0","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Quebec City, Quebec","high_school":"Cegep de Sainte-Foy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:teodora-ivanovic","name":"Teodora Ivanovic","first":"Teodora","last":"Ivanovic","jersey":"10","pos":null,"class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":74,"weight":null,"hometown":"Simanovci, Serbia","high_school":"Central Pointe [Fla.]","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jayla-koser","name":"Jayla Koser","first":"Jayla","last":"Koser","jersey":"2","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Middletown, PA","high_school":"Middletown Area","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:karmen-mcduffie","name":"Karmen McDuffie","first":"Karmen","last":"McDuffie","jersey":"1","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"Bowie, MD","high_school":"Mt. Zion Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:yacine-ndiaye","name":"Yacine Ndiaye","first":"Yacine","last":"Ndiaye","jersey":"23","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":null,"hometown":"Pout, Senegal","high_school":"Lake Forest Academy","previous_school":"Rutgers","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lenora-nkangwen","name":"Lenora Nkangwen","first":"Lenora","last":"Nkangwen","jersey":"5","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Upper Marlboro, MD","high_school":"Holy Child","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alana-powell","name":"Alana Powell","first":"Alana","last":"Powell","jersey":"7","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Haymarket, VA","high_school":"Osbourn Park","previous_school":"Omaha","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:valentina-saric","name":"Valentina Saric","first":"Valentina","last":"Saric","jersey":"14","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":74,"weight":null,"hometown":"Los Altos, CA","high_school":"Pinewood & Woodside Priory","previous_school":"Northern Arizona","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:giselle-wyche","name":"Giselle Wyche","first":"Giselle","last":"Wyche","jersey":"21","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Beltsville, MD","high_school":"J.H. Blake","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

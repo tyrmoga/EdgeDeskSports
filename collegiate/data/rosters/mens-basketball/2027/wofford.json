@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "wofford",
+ "host": "athletics.wofford.edu",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://athletics.wofford.edu/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:chris-arias","name":"Chris Arias","first":"Chris","last":"Arias","jersey":"3","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":208,"hometown":"Jacksonville, Fla.","high_school":"Providence School","previous_school":"Jacksonville University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jhett-carter","name":"Jhett Carter","first":"Jhett","last":"Carter","jersey":"15","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":206,"hometown":"Titusville, Fla.","high_school":"Hargrave Military","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:grayson-collins","name":"Grayson Collins","first":"Grayson","last":"Collins","jersey":"12","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":170,"hometown":"Nashville, Tenn.","high_school":"Battle Ground Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jacob-daniels","name":"Jacob Daniels","first":"Jacob","last":"Daniels","jersey":"10","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":175,"hometown":"St. Petersburg, Fla.","high_school":"Gibbs","previous_school":"Lander","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jyi-dawkins","name":"Jyi Dawkins","first":"Jyi","last":"Dawkins","jersey":"11","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":212,"hometown":"Greensboro, N.C.","high_school":"Ben L. Smith","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:luke-flynn","name":"Luke Flynn","first":"Luke","last":"Flynn","jersey":"2","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":185,"hometown":"Marietta, Ga.","high_school":"Walton","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:misho-kalinov","name":"Misho Kalinov","first":"Misho","last":"Kalinov","jersey":"23","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":186,"hometown":"Silistra, Bulgaria","high_school":null,"previous_school":"BC Botev","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cam-lowe","name":"Cam Lowe","first":"Cam","last":"Lowe","jersey":"0","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":78,"weight":220,"hometown":"Colorado Springs, Colo.","high_school":"Lewis-Palmer","previous_school":"Black Hills State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:davis-miller","name":"Davis Miller","first":"Davis","last":"Miller","jersey":"92","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":194,"hometown":"Lexington, Ky.","high_school":"Sayre School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jemon-price","name":"Jemon Price","first":"Jemon","last":"Price","jersey":"5","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":180,"hometown":"Chantilly, Va.","high_school":"Westfield","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:evan-ramsey","name":"Evan Ramsey","first":"Evan","last":"Ramsey","jersey":"33","pos":"C","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":84,"weight":265,"hometown":"Abingdon, Va.","high_school":"Abingdon","previous_school":"UVA-Wise","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cannon-richards","name":"Cannon Richards","first":"Cannon","last":"Richards","jersey":"7","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":210,"hometown":"Atlanta, Ga.","high_school":"Kell","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cutter-sisk","name":"Cutter Sisk","first":"Cutter","last":"Sisk","jersey":"34","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":81,"weight":265,"hometown":"Hendersonville, Tenn.","high_school":"Beech","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brian-sumpter","name":"Brian Sumpter","first":"Brian","last":"Sumpter","jersey":"1","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":81,"weight":200,"hometown":"Columbia, S.C.","high_school":"Keenan","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chace-watley","name":"Chace Watley","first":"Chace","last":"Watley","jersey":"4","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":190,"hometown":"Minneapolis, Minn.","high_school":"Totino-Grace","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "mississippi-val",
+ "host": "mvsusports.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-2026",
+ "url": "https://mvsusports.com/sports/mens-basketball/roster/2025-2026",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:x-zaevion-barnett","name":"X'Zaevion Barnett","first":"X'Zaevion","last":"Barnett","jersey":"24","pos":"Guard / Forward","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Altheimer, Arkansas","high_school":"Pine Bluff HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:xzayvion-childress","name":"Xzayvion Childress","first":"Xzayvion","last":"Childress","jersey":"11","pos":"Guard","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Calera, Alabama","high_school":"Thompson HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:delkedric-holmes","name":"Delkedric Holmes","first":"Delkedric","last":"Holmes","jersey":"2","pos":"Guard","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Pine Bluff, Arkansas","high_school":"Arlington HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tyrone-iroghama","name":"Tyrone Iroghama","first":"Tyrone","last":"Iroghama","jersey":"13","pos":"Forward / Center","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":null,"hometown":"London, United Kingdom","high_school":"Norwood HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:george-ivory-iii","name":"George Ivory III","first":"George","last":"Ivory III","jersey":"14","pos":"Guard","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":74,"weight":null,"hometown":"Pine Bluff, Arkansas","high_school":"Watson Chapel HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:michael-james","name":"Michael James","first":"Michael","last":"James","jersey":"10","pos":"Guard","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Byhalia, Mississippi","high_school":"HW Byers HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:daniel-mayfield","name":"Daniel Mayfield","first":"Daniel","last":"Mayfield","jersey":"22","pos":"Forward","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":null,"hometown":"Toccoa, Georgia","high_school":"Franklin Prep HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:pj-mcdonald","name":"PJ McDonald","first":"PJ","last":"McDonald","jersey":"30","pos":"Forward","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":null,"hometown":"Metairie, Louisiana","high_school":"Archbishop Rummel HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:samuel-murray","name":"Samuel Murray","first":"Samuel","last":"Murray","jersey":"21","pos":"Forward / Guard","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":80,"weight":null,"hometown":"Gulfport, Mississippi","high_school":"Harrison Central HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mussa-mzein","name":"Mussa Mzein","first":"Mussa","last":"Mzein","jersey":"20","pos":"Center / Forward","class":"JR","redshirt":false,"class_raw":"Junior","height_in":82,"weight":null,"hometown":"Stockholm, Sweden","high_school":"Spring Creek HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jonathan-pace","name":"Jonathan Pace","first":"Jonathan","last":"Pace","jersey":"35","pos":"Center","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":82,"weight":null,"hometown":"Gulfport, Mississippi","high_school":"Harrison Central HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:patrick-punch","name":"Patrick Punch","first":"Patrick","last":"Punch","jersey":"0","pos":"Guard / Forward","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":76,"weight":null,"hometown":"Houston, Texas","high_school":"Eisenhower Senior HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lamont-sams","name":"Lamont Sams","first":"Lamont","last":"Sams","jersey":"3","pos":"Forward","class":"SR","redshirt":false,"class_raw":"Senior","height_in":81,"weight":null,"hometown":"Savannah, Georgia","high_school":"Johnson HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:antonio-sisk","name":"Antonio Sisk","first":"Antonio","last":"Sisk","jersey":"1","pos":"Guard","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Dallas, Texas","high_school":"Madison HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chance-sutton","name":"Chance Sutton","first":"Chance","last":"Sutton","jersey":"5","pos":"Forward","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":null,"hometown":"Dallas, Texas","high_school":"Ridgeland HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

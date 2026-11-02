@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "new-orleans",
+ "host": "unoprivateers.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://unoprivateers.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:jaydon-awe","name":"Jaydon Awe","first":"Jaydon","last":"Awe","jersey":"13","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":82,"weight":230,"hometown":"Stevens Point, Wisc.","high_school":null,"previous_school":"Northern Oklahoma - Tonkawa","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:enzo-boudouma","name":"Enzo Boudouma","first":"Enzo","last":"Boudouma","jersey":"25","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":81,"weight":210,"hometown":"Fribourg, Switzerland","high_school":null,"previous_school":"Tilton Prep","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:walter-campbell","name":"Walter Campbell","first":"Walter","last":"Campbell","jersey":"14","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":220,"hometown":"Frankfort, Ky.","high_school":null,"previous_school":"Lincoln Memorial University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jamal-chretien-ii","name":"Jamal Chretien II","first":"Jamal","last":"Chretien II","jersey":"15","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":175,"hometown":"Katy, Texas","high_school":null,"previous_school":"Mayde Creek HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nick-jones","name":"Nick Jones","first":"Nick","last":"Jones","jersey":"5","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":170,"hometown":"Edgewood, Mo.","high_school":null,"previous_school":"Wagner","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:autrail-manning-jr-","name":"Autrail Manning Jr.","first":"Autrail","last":"Manning Jr.","jersey":"3","pos":"PG","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":165,"hometown":"New Orleans, La.","high_school":null,"previous_school":"John Curtis Christian","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:marcus-mcdonald","name":"Marcus McDonald","first":"Marcus","last":"McDonald","jersey":"2","pos":"PG","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":185,"hometown":"Gilbert, Ariz.","high_school":null,"previous_school":"Phoenix College Prepatory Academy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:eze-nwakamma","name":"Eze Nwakamma","first":"Eze","last":"Nwakamma","jersey":"10","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":205,"hometown":"Dallas, Texas","high_school":null,"previous_school":"Mansfield Lake Ridge HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cham-okey","name":"Cham Okey","first":"Cham","last":"Okey","jersey":"24","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":215,"hometown":"Austin, Minn.","high_school":null,"previous_school":"North Dakota College of Science","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:solomon-ominu","name":"Solomon Ominu","first":"Solomon","last":"Ominu","jersey":"4","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":225,"hometown":"Kaduna, Nigeria","high_school":null,"previous_school":"Midland College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:yohandry-ortiz","name":"Yohandry Ortiz","first":"Yohandry","last":"Ortiz","jersey":"0","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":190,"hometown":"Naples, Fla.","high_school":null,"previous_school":"South Plains CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kedrick-osby","name":"Kedrick Osby","first":"Kedrick","last":"Osby","jersey":"21","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":205,"hometown":"Moss Point, Miss.","high_school":null,"previous_school":"Pearl River CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jonathan-pace","name":"Jonathan Pace","first":"Jonathan","last":"Pace","jersey":"34","pos":"C","class":"JR","redshirt":false,"class_raw":"Junior","height_in":82,"weight":275,"hometown":"Gulfport, Miss.","high_school":null,"previous_school":"Mississippi Valley State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sam-parson","name":"Sam Parson","first":"Sam","last":"Parson","jersey":"20","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":195,"hometown":"Tracy City, Tenn.","high_school":null,"previous_school":"Columbia State CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kyran-ratliff","name":"Kyran Ratliff","first":"Kyran","last":"Ratliff","jersey":"23","pos":"F","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":80,"weight":205,"hometown":"New Orleans, La.","high_school":null,"previous_school":"Louisiana","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alan-shi","name":"Alan Shi","first":"Alan","last":"Shi","jersey":"7","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":82,"weight":250,"hometown":"Brookline, Mass.","high_school":null,"previous_school":"Brookline HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kahlil-singleton","name":"Kahlil Singleton","first":"Kahlil","last":"Singleton","jersey":"11","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":195,"hometown":"Vancouver, Wash.","high_school":null,"previous_school":"Canisius","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

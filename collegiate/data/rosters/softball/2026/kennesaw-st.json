@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "kennesaw-st",
+ "host": "ksuowls.com",
+ "platform": "sidearm_legacy",
+ "sport": "softball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://ksuowls.com/sports/softball/roster/2026",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:danielle-bailey","name":"Danielle Bailey","first":"Danielle","last":"Bailey","jersey":"2","pos":"INF","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":65,"weight":null,"hometown":"Corvallis, Ore.","high_school":null,"previous_school":"Etowah HS","bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alora-bevily","name":"Alora Bevily","first":"Alora","last":"Bevily","jersey":"19","pos":"OF","class":"JR","redshirt":false,"class_raw":"Junior","height_in":65,"weight":null,"hometown":"Buford, Ga.","high_school":null,"previous_school":"Alabama State","bats":"L","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ava-brooke-strickland","name":"Ava Brooke Strickland","first":"Ava","last":"Brooke Strickland","jersey":"6","pos":"OF","class":"SR","redshirt":false,"class_raw":"Senior","height_in":64,"weight":null,"hometown":"Newnan, Ga.","high_school":null,"previous_school":"Coastal Carolina","bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jenna-chase","name":"Jenna Chase","first":"Jenna","last":"Chase","jersey":"12","pos":"P","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Fishers, Ind.","high_school":null,"previous_school":"Hamilton Southeastern HS","bats":"L","throws":"L","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:taylor-daniel","name":"Taylor Daniel","first":"Taylor","last":"Daniel","jersey":"5","pos":"P","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":67,"weight":null,"hometown":"Douglasville, Ga.","high_school":null,"previous_school":"South Paulding HS","bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:savannah-frachiseur","name":"Savannah Frachiseur","first":"Savannah","last":"Frachiseur","jersey":"10","pos":"C/1B","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Oxford, Ga.","high_school":null,"previous_school":"Social Circle HS","bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ana-gore","name":"Ana Gore","first":"Ana","last":"Gore","jersey":"22","pos":"OF","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":null,"hometown":"Vinings, Ga.","high_school":null,"previous_school":"The Lovett School","bats":"L","throws":"L","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ava-guzowski","name":"Ava Guzowski","first":"Ava","last":"Guzowski","jersey":"3","pos":"INF","class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"Knoxville, Tenn.","high_school":null,"previous_school":"Farragut HS","bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hannah-harvey","name":"Hannah Harvey","first":"Hannah","last":"Harvey","jersey":"26","pos":"INF","class":"JR","redshirt":false,"class_raw":"Junior","height_in":65,"weight":null,"hometown":"Lucas, Texas","high_school":null,"previous_school":"Lovejoy HS","bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:macie-howes","name":"Macie Howes","first":"Macie","last":"Howes","jersey":"44","pos":"C/1B","class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":null,"hometown":"Louisville, Ky.","high_school":null,"previous_school":"California Baptist University","bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:leah-jannakos","name":"Leah Jannakos","first":"Leah","last":"Jannakos","jersey":"18","pos":"P","class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"Haddock, Ga.","high_school":null,"previous_school":"Georgia Military College Prep","bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jojo-johnson","name":"Jojo Johnson","first":"Jojo","last":"Johnson","jersey":"35","pos":"INF","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":67,"weight":null,"hometown":"Placentia, Calif.","high_school":null,"previous_school":"El Dorado HS","bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rylee-limberger","name":"Rylee Limberger","first":"Rylee","last":"Limberger","jersey":"25","pos":"INF/P","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"Lake Orion, Mich.","high_school":null,"previous_school":"Lake Orion HS","bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:addison-smith","name":"Addison Smith","first":"Addison","last":"Smith","jersey":"66","pos":"INF","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":66,"weight":null,"hometown":"Newnan, Ga.","high_school":null,"previous_school":"Newnan HS","bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kimberly-tobar","name":"Kimberly Tobar","first":"Kimberly","last":"Tobar","jersey":"14","pos":"C/INF","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":65,"weight":null,"hometown":"Buford, Ga.","high_school":null,"previous_school":"Seckinger HS","bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:olivia-tyson","name":"Olivia Tyson","first":"Olivia","last":"Tyson","jersey":"99","pos":"P","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Gainesville, Ga.","high_school":null,"previous_school":"Lee University","bats":"R","throws":"R","first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "indiana-st",
+ "host": "gosycamores.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://gosycamores.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:alessio-calamita","name":"Alessio Calamita","first":"Alessio","last":"Calamita","jersey":"45","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":82,"weight":255,"hometown":"Gerlingen, Germany","high_school":null,"previous_school":"FC Bayern Munich","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jackson-cooper","name":"Jackson Cooper","first":"Jackson","last":"Cooper","jersey":"35","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":225,"hometown":"Portland, Ore.","high_school":"Cleveland High","previous_school":"Oregon Tech","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:deshawn-denson-ii","name":"DeShawn Denson II","first":"DeShawn","last":"Denson II","jersey":"0","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":165,"hometown":"Oklahoma City, Okla.","high_school":"Midwest City","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:karmani-gregory","name":"Karmani Gregory","first":"Karmani","last":"Gregory","jersey":"7","pos":null,"class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":73,"weight":185,"hometown":"Palmetto, Fla.","high_school":"Southeast","previous_school":"USC Upstate","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ej-hazelett-iii","name":"EJ Hazelett III","first":"EJ","last":"Hazelett III","jersey":"3","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":215,"hometown":"Indianapolis, Ind.","high_school":"Kankakee","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:martin-kaupanger","name":"Martin Kaupanger","first":"Martin","last":"Kaupanger","jersey":"21","pos":null,"class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":76,"weight":195,"hometown":"Gig Harbor, Wash.","high_school":"Annie Wright","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kingston-land","name":"Kingston Land","first":"Kingston","last":"Land","jersey":"11","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":82,"weight":205,"hometown":"Cincinnati, Ohio","high_school":"Archbishop Moeller","previous_school":"Link Prep Academy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ej-mcquillan","name":"EJ McQuillan","first":"EJ","last":"McQuillan","jersey":"1","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":190,"hometown":"Port Allen, La.","high_school":"Port Allen","previous_school":"LSU Alexandria","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maguire-mitchell","name":"Maguire Mitchell","first":"Maguire","last":"Mitchell","jersey":"13","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":190,"hometown":"Zionsville, Ind.","high_school":"Zionsville","previous_school":"IU Indy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:duce-paschal","name":"Duce Paschal","first":"Duce","last":"Paschal","jersey":"9","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":195,"hometown":"Portland, Ore.","high_school":"Central Catholic","previous_school":"Weber State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:greyson-pritzl","name":"Greyson Pritzl","first":"Greyson","last":"Pritzl","jersey":"12","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":210,"hometown":"West Allis, Wis.","high_school":"Saint Leo","previous_school":"Lander","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chance-puryear","name":"Chance Puryear","first":"Chance","last":"Puryear","jersey":"5","pos":null,"class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":79,"weight":220,"hometown":"Dallas, Texas","high_school":"Carter","previous_school":"SMU","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kade-speckman","name":"Kade Speckman","first":"Kade","last":"Speckman","jersey":"32","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":81,"weight":225,"hometown":"Denver, Colo.","high_school":"Lutheran","previous_school":"South Central Prep","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ian-thomas","name":"Ian Thomas","first":"Ian","last":"Thomas","jersey":"23","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":205,"hometown":"St. Louis, Mo.","high_school":"Desmet Jesuit","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aleksa-vlajic","name":"Aleksa Vlajic","first":"Aleksa","last":"Vlajic","jersey":"15","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":81,"weight":235,"hometown":"Belgrade, Serbia","high_school":"Hoosac School","previous_school":"Buffalo","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:meechie-white","name":"Meechie White","first":"Meechie","last":"White","jersey":"2","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":165,"hometown":"Louisville, Ky.","high_school":"Louisville Male","previous_school":"Eastern Illinois","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

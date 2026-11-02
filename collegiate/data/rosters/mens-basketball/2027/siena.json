@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "siena",
+ "host": "sienasaints.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://sienasaints.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:andrs-am-n","name":"Andrés Amón","first":"Andrés","last":"Amón","jersey":"9","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":85,"weight":265,"hometown":"Madrid, Spain","high_school":"Pureza de Maria Madrid","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:angelos-bratakos","name":"Angelos Bratakos","first":"Angelos","last":"Bratakos","jersey":"1","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":180,"hometown":"Athens, Greece","high_school":"Athens College / Bard","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brendan-coyle","name":"Brendan Coyle","first":"Brendan","last":"Coyle","jersey":"21","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":79,"weight":205,"hometown":"Niskayuna, NY","high_school":"Cushing Academy (MA)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:reid-ducharme","name":"Reid Ducharme","first":"Reid","last":"Ducharme","jersey":"12","pos":null,"class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":79,"weight":195,"hometown":"Milton, MA","high_school":"Brewster Academy (NH) / Xavier","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:parrish-edmond-jr-","name":"Parrish Edmond, Jr.","first":"Parrish","last":"Edmond, Jr.","jersey":"3","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":195,"hometown":"Norwalk, CT","high_school":"Putnam Science Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trent-egbiremolen","name":"Trent Egbiremolen","first":"Trent","last":"Egbiremolen","jersey":"5","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":215,"hometown":"Baltimore, MD","high_school":"IMG Academy (FL)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isaiah-henderson","name":"Isaiah Henderson","first":"Isaiah","last":"Henderson","jersey":"2","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":220,"hometown":"Painted Post, NY","high_school":"Kimball Union Academy (NH)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tim-ibukunoluwa","name":"Tim Ibukunoluwa","first":"Tim","last":"Ibukunoluwa","jersey":"13","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":220,"hometown":"Perth, Australia","high_school":"Orangeville Prep (ON)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:paul-lambert","name":"Paul Lambert","first":"Paul","last":"Lambert","jersey":"94","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":81,"weight":235,"hometown":"Rungis, France","high_school":"Canterbury School (CT)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mana-martin","name":"Mana Martin","first":"Mana","last":"Martin","jersey":"8","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":215,"hometown":"Lincoln, New Zealand","high_school":"St. Thomas of Canterbury","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:pace-prosser","name":"Pace Prosser","first":"Pace","last":"Prosser","jersey":"22","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":210,"hometown":"Berlin, PA","high_school":"Berlin Brothersvalley / Gannon","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sei-mir-roberson","name":"Sei'Mir Roberson","first":"Sei'Mir","last":"Roberson","jersey":"0","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":165,"hometown":"Albany, NY","high_school":"Cathedral Catholic (CA)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:owen-schlager","name":"Owen Schlager","first":"Owen","last":"Schlager","jersey":"11","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":195,"hometown":"Mechanicsburg, PA","high_school":"Trinity","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:yannis-steger","name":"Yannis Steger","first":"Yannis","last":"Steger","jersey":"77","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":82,"weight":225,"hometown":"Oberhausen, Germany","high_school":"Elsa-Brändström-Gymnasium","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chris-torres","name":"Chris Torres","first":"Chris","last":"Torres","jersey":"33","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":175,"hometown":"Suffern, NY","high_school":"Millbrook","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tan-yildizoglu","name":"Tan Yildizoglu","first":"Tan","last":"Yildizoglu","jersey":"30","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":185,"hometown":"Istanbul, Turkey","high_school":"Doga Koleji Sisli Bilim Okullari / VMI","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

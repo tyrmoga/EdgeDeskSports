@@ -1,0 +1,29 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "duquesne",
+ "host": "goduquesne.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://goduquesne.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 13,
+ "players": [
+  {"pid":"slug:dieymarie-diouf","name":"Dieymarie Diouf","first":"Dieymarie","last":"Diouf","jersey":"16","pos":"C","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":null,"hometown":"Casamance, Senegal","high_school":"SEED Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gabby-grantham-medley","name":"Gabby Grantham-Medley","first":"Gabby","last":"Grantham-Medley","jersey":"10","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":69,"weight":null,"hometown":"Hagerstown, MD","high_school":"North Hagerstown","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dalma-grets","name":"Dalma Grets","first":"Dalma","last":"Grets","jersey":"42","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Dunaharaszti, Hungary","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kellie-mcconnell","name":"Kellie McConnell","first":"Kellie","last":"McConnell","jersey":"20","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":63,"weight":null,"hometown":"Pittsburgh, Pa.","high_school":"North Allegheny","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nadia-moore","name":"Nadia Moore","first":"Nadia","last":"Moore","jersey":"23","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":70,"weight":null,"hometown":"Washington, Pa.","high_school":"J. Addison School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ayala-oren","name":"Ayala Oren","first":"Ayala","last":"Oren","jersey":"1","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":66,"weight":null,"hometown":"Ness Ziona, Israel","high_school":"Ben Gurion High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:de-naya-rippey","name":"De'Naya Rippey","first":"De'Naya","last":"Rippey","jersey":"3","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Brooklyn, N.Y.","high_school":"Cheshire Academy","previous_school":"Saint Peter’s","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:amaya-robinson","name":"Amaya Robinson","first":"Amaya","last":"Robinson","jersey":"5","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":66,"weight":null,"hometown":"Ajax, Ontario, Canada","high_school":"Royal Crown School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maja-rohkohl","name":"Maja Rohkohl","first":"Maja","last":"Rohkohl","jersey":"14","pos":"C","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":null,"hometown":"Hannover, Germany","high_school":"Greensboro Day School","previous_school":"Gardner-Webb","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bakhaw-seye","name":"Bakhaw Seye","first":"Bakhaw","last":"Seye","jersey":"13","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":null,"hometown":"Dakar, Senegal","high_school":"SEED Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:carla-viegas","name":"Carla Viegas","first":"Carla","last":"Viegas","jersey":"8","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":null,"hometown":"Malaga, Spain","high_school":"CAB Estepona","previous_school":"Pitt","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:raevin-washington","name":"Raevin Washington","first":"Raevin","last":"Washington","jersey":"44","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":null,"hometown":"Harrisonburg, Va.","high_school":"Turner Ashby","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dunja-zecevic","name":"Dunja Zecevic","first":"Dunja","last":"Zecevic","jersey":"9","pos":"G/F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"Belgrade, Serbia","high_school":"Sportska Gimnazija","previous_school":"UTEP","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

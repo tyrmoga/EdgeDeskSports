@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "william-mary",
+ "host": "tribeathletics.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://tribeathletics.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:josh-baldwin","name":"Josh Baldwin","first":"Josh","last":"Baldwin","jersey":"24","pos":"G/F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":77,"weight":230,"hometown":"Everett, Mass.","high_school":"Belmont Hills","previous_school":"Cornell","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tre-blassingame","name":"Tre Blassingame","first":"Tre","last":"Blassingame","jersey":"2","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":76,"weight":190,"hometown":"Auburn, Wash.","high_school":"Auburn","previous_school":"Idaho","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nick-byrd","name":"Nick Byrd","first":"Nick","last":"Byrd","jersey":"0","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":185,"hometown":"Hopewell, Va.","high_school":"Hopewell / S3 Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brian-carter-jr-","name":"Brian Carter Jr.","first":"Brian","last":"Carter Jr.","jersey":"1","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":210,"hometown":"Memphis, Tenn.","high_school":"Ridgeway","previous_school":"Walters State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zz-clark","name":"ZZ Clark","first":"ZZ","last":"Clark","jersey":"33","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":210,"hometown":"Los Angeles, Calif.","high_school":"DNA Prep Academy","previous_school":"UCSB","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ethan-connery","name":"Ethan Connery","first":"Ethan","last":"Connery","jersey":"5","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":185,"hometown":"Akron, Ohio","high_school":"St. Vincent-St. Mary","previous_school":"Casper","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nilavan-daniels","name":"Nilavan Daniels","first":"Nilavan","last":"Daniels","jersey":"12","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":185,"hometown":"St. Louis, Mo.","high_school":"Link Year Prep","previous_school":"Providence","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:will-feagles","name":"Will Feagles","first":"Will","last":"Feagles","jersey":"8","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":180,"hometown":"Scottsdale, Ariz.","high_school":"Notre Dame Prep","previous_school":"Pima CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jayden-forsythe","name":"Jayden Forsythe","first":"Jayden","last":"Forsythe","jersey":"4","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":195,"hometown":"Brooklyn, N.Y.","high_school":"Westtown School (Pa.)","previous_school":"West Virginia","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:colin-lamine-ndaw","name":"Colin Lamine Ndaw","first":"Colin","last":"Lamine Ndaw","jersey":"6","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":180,"hometown":"Dakar, Senegal","high_school":"IMG Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jesse-mcintosh","name":"Jesse McIntosh","first":"Jesse","last":"McIntosh","jersey":"10","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":210,"hometown":"Melbourne, Australia","high_school":"Ivanhoe Grammar School","previous_school":"South Dakota","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chris-richards","name":"Chris Richards","first":"Chris","last":"Richards","jersey":"31","pos":"G/F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":190,"hometown":"Gaithersburg, Md.","high_school":"The Bullis School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:john-roland","name":"John Roland","first":"John","last":"Roland","jersey":"7","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":205,"hometown":"Coral Springs, Fla.","high_school":"Calvary Christian Academy","previous_school":"Lynn","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:stas-sivka","name":"Stas Sivka","first":"Stas","last":"Sivka","jersey":"9","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":82,"weight":215,"hometown":"Celje, Slovenia","high_school":null,"previous_school":"George Mason","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gavin-ward","name":"Gavin Ward","first":"Gavin","last":"Ward","jersey":"11","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":190,"hometown":"James Island, S.C.","high_school":"James Island","previous_school":"USC Salkehatchie","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

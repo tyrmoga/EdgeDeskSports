@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "towson",
+ "host": "towsontigers.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://towsontigers.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:jon-barton","name":"Jon Barton","first":"Jon","last":"Barton","jersey":"5","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":215,"hometown":"Waldorf, Md.","high_school":"St. John's College (H.S.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaiden-cole","name":"Jaiden Cole","first":"Jaiden","last":"Cole","jersey":"2","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":76,"weight":180,"hometown":"Toronto, Ontario","high_school":"NBA Academy Latin America","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tyler-coleman","name":"Tyler Coleman","first":"Tyler","last":"Coleman","jersey":"3","pos":"F","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":79,"weight":220,"hometown":"Woodbridge, Va.","high_school":"Paul VI","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ryan-conway","name":"Ryan Conway","first":"Ryan","last":"Conway","jersey":"0","pos":"G","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":73,"weight":185,"hometown":"Baltimore, Md.","high_school":"Dulaney H.S.","previous_school":"Howard Community College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jack-doumbia-jr","name":"Jack Doumbia Jr","first":"Jack","last":"Doumbia Jr","jersey":"21","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":78,"weight":205,"hometown":"Lanham, Md.","high_school":"Lanham Christian School","previous_school":"Wright State University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:caleb-embeya","name":"Caleb Embeya","first":"Caleb","last":"Embeya","jersey":"23","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":81,"weight":235,"hometown":"Kinshasa, Democratic Republic of Congo","high_school":"St. Maria Goretti (Md.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brandon-holmes","name":"Brandon Holmes","first":"Brandon","last":"Holmes","jersey":"30","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":230,"hometown":"Columbia, Md.","high_school":"Mount St. Joseph's H.S.","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chike-ndefo","name":"Chike Ndefo","first":"Chike","last":"Ndefo","jersey":"13","pos":"G/F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":79,"weight":215,"hometown":"Elmont, N.Y.","high_school":"Vermont Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:abdou-samb","name":"Abdou Samb","first":"Abdou","last":"Samb","jersey":"12","pos":"F","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":80,"weight":220,"hometown":"Upper Marlboro, Md.","high_school":"Frederick Douglass","previous_school":"IUPUI","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tyler-schmidt","name":"Tyler Schmidt","first":"Tyler","last":"Schmidt","jersey":"1","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":75,"weight":205,"hometown":"Valpariso, Ind.","high_school":"Victory Christian Academy","previous_school":"Valpariso University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mor-seck","name":"Mor Seck","first":"Mor","last":"Seck","jersey":"41","pos":"C","class":"SR","redshirt":false,"class_raw":"Senior","height_in":84,"weight":235,"hometown":"Ngayene Daour, Senegal","high_school":"Prolific Prep","previous_school":"Fresno State University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ryan-skerry","name":"Ryan Skerry","first":"Ryan","last":"Skerry","jersey":"22","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":200,"hometown":"Timonium, Md.","high_school":"Dulaney","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tyler-tejada","name":"Tyler Tejada","first":"Tyler","last":"Tejada","jersey":"15","pos":"G/F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":230,"hometown":"Teaneck, N.J.","high_school":"Teaneck","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dylan-williamson","name":"Dylan Williamson","first":"Dylan","last":"Williamson","jersey":"4","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":73,"weight":180,"hometown":"Upper Marlboro, Md.","high_school":"Our Lady of Good Counsel","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaquan-womack","name":"Jaquan Womack","first":"Jaquan","last":"Womack","jersey":"24","pos":"G/F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":225,"hometown":"Manassas, Va.","high_school":"Paul VI H.S.","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

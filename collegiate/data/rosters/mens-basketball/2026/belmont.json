@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "belmont",
+ "host": "belmontbruins.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://belmontbruins.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:bryce-bradley","name":"Bryce Bradley","first":"Bryce","last":"Bradley","jersey":null,"pos":null,"class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":null,"weight":null,"hometown":"Franklin, Tenn.","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:eoin-dillon","name":"Eoin Dillon","first":"Eoin","last":"Dillon","jersey":"5","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":81,"weight":220,"hometown":"Peoria, Ill.","high_school":"Notre Dame HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jake-dykstra","name":"Jake Dykstra","first":"Jake","last":"Dykstra","jersey":"23","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":200,"hometown":"Nashville, Tenn.","high_school":"Christ Presbyterian Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cooper-haynes","name":"Cooper Haynes","first":"Cooper","last":"Haynes","jersey":"13","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":74,"weight":195,"hometown":"Memphis, Tenn.","high_school":"Briarcrest Christian","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jabez-jenkins","name":"Jabez Jenkins","first":"Jabez","last":"Jenkins","jersey":"10","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":76,"weight":200,"hometown":"Covington, Ga.","high_school":"Newton HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:graydon-lemke","name":"Graydon Lemke","first":"Graydon","last":"Lemke","jersey":"7","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":82,"weight":210,"hometown":"Las Vegas, Nev.","high_school":"Faith Lutheran Academy","previous_school":"Gonzaga","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tyler-lundblade","name":"Tyler Lundblade","first":"Tyler","last":"Lundblade","jersey":"8","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":77,"weight":195,"hometown":"Dallas, Texas","high_school":"Greensboro Day School","previous_school":"TCU/SMU","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nic-mcclain","name":"Nic McClain","first":"Nic","last":"McClain","jersey":"1","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":75,"weight":200,"hometown":"Jennings, Fla.","high_school":"Suwanee HS","previous_school":"Eastern Washington/Daytona State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:win-miller","name":"Win Miller","first":"Win","last":"Miller","jersey":"0","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":190,"hometown":"Vestavia Hills, Ala.","high_school":"Vestavia Hills HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aidan-noyes","name":"Aidan Noyes","first":"Aidan","last":"Noyes","jersey":"4","pos":"F","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":79,"weight":200,"hometown":"Cincinnati, Ohio","high_school":"Archbishop Moeller","previous_school":"Richmond","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sam-orme","name":"Sam Orme","first":"Sam","last":"Orme","jersey":"14","pos":"F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":81,"weight":220,"hometown":"Carmel, Ind.","high_school":"Carmel HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:keith-robbins","name":"Keith Robbins","first":"Keith","last":"Robbins","jersey":"24","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":180,"hometown":"Milledgeville, Ga.","high_school":"John Milledge Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brigham-rogers","name":"Brigham Rogers","first":"Brigham","last":"Rogers","jersey":"12","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":240,"hometown":"Woodstock, Ga.","high_school":"Blessed Trinity HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:drew-scharnowski","name":"Drew Scharnowski","first":"Drew","last":"Scharnowski","jersey":"11","pos":"F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":81,"weight":230,"hometown":"Burlington, Ill.","high_school":"Burlington Central HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jack-smiley","name":"Jack Smiley","first":"Jack","last":"Smiley","jersey":"2","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":170,"hometown":"Valparaiso, Ind.","high_school":"La Lumiere","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isaiah-west","name":"Isaiah West","first":"Isaiah","last":"West","jersey":"3","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":195,"hometown":"Springfield, Tenn.","high_school":"Goodpasture Christian","previous_school":"Samford/Vanderbilt","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

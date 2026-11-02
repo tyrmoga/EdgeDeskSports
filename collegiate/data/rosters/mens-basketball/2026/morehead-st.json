@@ -1,0 +1,30 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "morehead-st",
+ "host": "msueagles.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://msueagles.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 14,
+ "players": [
+  {"pid":"slug:jon-carroll","name":"Jon Carroll","first":"Jon","last":"Carroll","jersey":"4","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":215,"hometown":"Tallahassee, Fla.","high_school":"Osborne (Ga.) HS","previous_school":"North Central Missouri College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:davion-cunningham","name":"Davion Cunningham","first":"Davion","last":"Cunningham","jersey":"2","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":75,"weight":185,"hometown":"Charlotte, NC","high_school":"North Mecklenburg HS","previous_school":"USC Aiken","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chase-dawson","name":"Chase Dawson","first":"Chase","last":"Dawson","jersey":"10","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":170,"hometown":"Durham, NC","high_school":"Flight 22 Prep","previous_school":"Mount Olive (N.C.)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:vince-dawson-iii","name":"Vince Dawson III","first":"Vince","last":"Dawson III","jersey":"5","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":215,"hometown":"Georgetown, Ky.","high_school":"Great Crossing HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tyonne-farrell","name":"Tyonne Farrell","first":"Tyonne","last":"Farrell","jersey":"22","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":215,"hometown":"Baltimore, Md.","high_school":"Mt. St. Joseph HS","previous_school":"Rhode Island","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:josiah-legree","name":"Josiah LeGree","first":"Josiah","last":"LeGree","jersey":"0","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":165,"hometown":"Baltimore, Md.","high_school":"St. Frances HS","previous_school":"Indiana State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:george-marshall","name":"George Marshall","first":"George","last":"Marshall","jersey":"3","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":185,"hometown":"Jackson, Miss.","high_school":"Forest Hill HS","previous_school":"Itawamba CC (Miss.)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anouar-mellouk","name":"Anouar Mellouk","first":"Anouar","last":"Mellouk","jersey":"8","pos":"F","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":80,"weight":215,"hometown":"Amsterdam, Netherlands","high_school":"Fork Union Military (Va.)","previous_school":"Odessa College (Texas)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:clayton-parker","name":"Clayton Parker","first":"Clayton","last":"Parker","jersey":"33","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":230,"hometown":"Montgomery City, Mo.","high_school":"Montgomery County HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaden-priester","name":"Jaden Priester","first":"Jaden","last":"Priester","jersey":"15","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":215,"hometown":"Augusta, Ga.","high_school":"Cross Creek HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tamaury-releford","name":"Tamaury Releford","first":"Tamaury","last":"Releford","jersey":"24","pos":"C","class":"SR","redshirt":false,"class_raw":"Senior","height_in":81,"weight":230,"hometown":"Fort Smith, Ark.","high_school":"Northside HS","previous_school":"West Georgia","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jacob-wilson","name":"Jacob Wilson","first":"Jacob","last":"Wilson","jersey":"1","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":210,"hometown":"Baton Rouge, La.","high_school":"Liberty Magnet HS","previous_school":"Louisiana-Monroe","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jace-winkleman","name":"Jace Winkleman","first":"Jace","last":"Winkleman","jersey":"12","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":75,"weight":170,"hometown":"Morehead, Ky.","high_school":"Rowan County Senior HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jarvis-wright","name":"Jarvis Wright","first":"Jarvis","last":"Wright","jersey":"11","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":185,"hometown":"Folkston, Ga.","high_school":"Ware County HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

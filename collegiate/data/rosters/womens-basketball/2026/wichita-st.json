@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "wichita-st",
+ "host": "goshockers.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://goshockers.com/sports/womens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:cheyenne-banks","name":"Cheyenne Banks","first":"Cheyenne","last":"Banks","jersey":"42","pos":"C","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":76,"weight":null,"hometown":"McLoud, Okla.","high_school":"McLoud HS","previous_school":"Central Arkansas","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bella-belong","name":"Bella Belong","first":"Bella","last":"Belong","jersey":"8","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Yaounde, Cameroon","high_school":null,"previous_school":"South Plains College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sophie-benharouga","name":"Sophie Benharouga","first":"Sophie","last":"Benharouga","jersey":"77","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":74,"weight":null,"hometown":"Grenoble, France","high_school":null,"previous_school":"Hartford / Morehead State / North Texas / Seattle U","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:abby-cater","name":"Abby Cater","first":"Abby","last":"Cater","jersey":"2","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":67,"weight":null,"hometown":"PG County, Md.","high_school":"Elizabeth Seton HS","previous_school":"Trinity Valley CC/Austin Peay","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:taya-davis","name":"Taya Davis","first":"Taya","last":"Davis","jersey":"14","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":67,"weight":null,"hometown":"Decatur, Ill.","high_school":"MacArthur HS","previous_school":"Fordham","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:fiona-diomande","name":"Fiona Diomande","first":"Fiona","last":"Diomande","jersey":"7","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":71,"weight":null,"hometown":"Chevilly Larue, Paris, France","high_school":"Gaspard Monge","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaila-harding","name":"Jaila Harding","first":"Jaila","last":"Harding","jersey":"4","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":68,"weight":null,"hometown":"Wichita, Kan.","high_school":"Wichita Southeast HS","previous_school":"New Mexico State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaida-mcdonald","name":"Jaida McDonald","first":"Jaida","last":"McDonald","jersey":"11","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Dallas, Texas","high_school":"Skyline HS","previous_school":"Pensacola State College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kyleigh-ortiz","name":"Kyleigh Ortiz","first":"Kyleigh","last":"Ortiz","jersey":"1","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":66,"weight":null,"hometown":"Kansas, Okla.","high_school":"Kansas Public School","previous_school":"Coffeyville CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:azjah-reeves","name":"Azjah Reeves","first":"Azjah","last":"Reeves","jersey":"0","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Oklahoma City, Okla.","high_school":"Harding Prep","previous_school":"McNeese State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:diamond-richardson","name":"Diamond Richardson","first":"Diamond","last":"Richardson","jersey":"5","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":67,"weight":null,"hometown":"Sacramento, Calif.","high_school":"Grant Union HS","previous_school":"Langston","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maimouna-sissoko","name":"Maimouna Sissoko","first":"Maimouna","last":"Sissoko","jersey":"24","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":null,"hometown":"Bamako, Mali","high_school":null,"previous_school":"Cloud County CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:treasure-thompson","name":"Treasure Thompson","first":"Treasure","last":"Thompson","jersey":"21","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":74,"weight":null,"hometown":"Joliet, Ill.","high_school":"Bolingbrook HS","previous_school":"LSU/Eastern Michigan/Texas Southern","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:karys-washington","name":"Karys Washington","first":"Karys","last":"Washington","jersey":"25","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Fort Smith, Ark.","high_school":"Northside HS","previous_school":"Coffeyville CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bre-yon-white","name":"Bre'Yon White","first":"Bre'Yon","last":"White","jersey":"12","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":71,"weight":null,"hometown":"Pearland, Texas","high_school":"Shadow Creek HS","previous_school":"Oklahoma / TCU","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

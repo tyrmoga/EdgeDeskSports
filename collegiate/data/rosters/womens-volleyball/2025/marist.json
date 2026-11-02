@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "marist",
+ "host": "goredfoxes.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2025,
+ "season_label": "2025",
+ "url": "https://goredfoxes.com/sports/womens-volleyball/roster/2025",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:cecilia-cc-potter-pessoa","name":"Cecilia \"CC\" Potter-Pessoa","first":"Cecilia","last":"\"CC\" Potter-Pessoa","jersey":"6","pos":"Libero","class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"Palm Desert, CA","high_school":"Xavier Prep School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:eden-bristow","name":"Eden Bristow","first":"Eden","last":"Bristow","jersey":"8","pos":"OH/OPP","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Ottawa, ON","high_school":"St Peter Catholic High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sarah-bumstead","name":"Sarah Bumstead","first":"Sarah","last":"Bumstead","jersey":"10","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":null,"hometown":"Waterloo, Ontario","high_school":"Laurel Heights Secondary School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sara-dasic","name":"Sara Dasic","first":"Sara","last":"Dasic","jersey":"9","pos":"OH","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Lazarevac, Serbia","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:caelyn-dumas","name":"Caelyn Dumas","first":"Caelyn","last":"Dumas","jersey":"22","pos":"S","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Katy, TX","high_school":"Obra D. Tompkins","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gabby-flamish","name":"Gabby Flamish","first":"Gabby","last":"Flamish","jersey":"13","pos":"OH/RS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Ashburn, VA","high_school":"Stone Bridge High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:claudia-kasperski","name":"Claudia Kasperski","first":"Claudia","last":"Kasperski","jersey":"4","pos":"Libero","class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"North Wales, PA","high_school":"Mount Saint Joseph Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mikayla-keefer","name":"Mikayla Keefer","first":"Mikayla","last":"Keefer","jersey":"11","pos":"MB","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":73,"weight":null,"hometown":"Ypsilanti, MI","high_school":"Huron High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:eleana-koute","name":"Eleana Koute","first":"Eleana","last":"Koute","jersey":"12","pos":"OPP","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":null,"hometown":"Almyros, Greece","high_school":"1st General Highschool of Almyros","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ava-lanzetta","name":"Ava Lanzetta","first":"Ava","last":"Lanzetta","jersey":"2","pos":"RS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Doylestown, PA","high_school":"Springside Chestnut Hill Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:claire-lewis","name":"Claire Lewis","first":"Claire","last":"Lewis","jersey":"3","pos":"SET","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":68,"weight":null,"hometown":"Peachtree City, GA","high_school":"MacIntosh High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:taylor-miller","name":"Taylor Miller","first":"Taylor","last":"Miller","jersey":"7","pos":"OH/RS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Haworth, NJ","high_school":"Northern Valley Demarest","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mallory-reck","name":"Mallory Reck","first":"Mallory","last":"Reck","jersey":"14","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Northville, MI","high_school":"Northville","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:savannah-smith","name":"Savannah Smith","first":"Savannah","last":"Smith","jersey":"18","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"San Antonio, TX","high_school":"Cornestone Christian Schools","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:vallane-sneva","name":"Vallane Sneva","first":"Vallane","last":"Sneva","jersey":"21","pos":"OH","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Gig Harbor, WA","high_school":"Pennisula High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:haylee-wenner","name":"Haylee Wenner","first":"Haylee","last":"Wenner","jersey":"1","pos":"L/DS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":66,"weight":null,"hometown":"Massillon, OH","high_school":"Jackson","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trinity-woods","name":"Trinity Woods","first":"Trinity","last":"Woods","jersey":"15","pos":"MB","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Austin, TX","high_school":"Westwood High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

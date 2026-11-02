@@ -1,0 +1,28 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "unc-wilmington",
+ "host": "uncwsports.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://uncwsports.com/sports/womens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 12,
+ "players": [
+  {"pid":"slug:rori-cox","name":"Rori Cox","first":"Rori","last":"Cox","jersey":"5","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":67,"weight":null,"hometown":"Brooklyn, N.Y.","high_school":"South Shore","previous_school":"Cloud County CC/Bluefield State/Virginia Union","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tia-dobson","name":"Tia Dobson","first":"Tia","last":"Dobson","jersey":"4","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":67,"weight":null,"hometown":"Daytona Beach, Fla.","high_school":"Mainland","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mary-ferrito","name":"Mary Ferrito","first":"Mary","last":"Ferrito","jersey":"1","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Plain City, Ohio","high_school":"Jonathan Alder","previous_school":"Wisconsin","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kate-hollifield","name":"Kate Hollifield","first":"Kate","last":"Hollifield","jersey":"3","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Shelby, N.C.","high_school":"Shelby","previous_school":"Belmont","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mccall-king","name":"McCall King","first":"McCall","last":"King","jersey":"10","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Easley, S.C.","high_school":"Christ Church Episcopal","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:corrie-mclaughlin","name":"Corrie McLaughlin","first":"Corrie","last":"McLaughlin","jersey":"13","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Raleigh, N.C.","high_school":"Millbrook","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:angelina-pelayo","name":"Angelina Pelayo","first":"Angelina","last":"Pelayo","jersey":"24","pos":"C","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":75,"weight":null,"hometown":"Louisville, Ky.","high_school":"Sacred Heart Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:torin-rogers","name":"Torin Rogers","first":"Torin","last":"Rogers","jersey":"11","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":73,"weight":null,"hometown":"Brasstown, N.C.","high_school":"Murphy","previous_school":"Richmond","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kylah-silver","name":"Kylah Silver","first":"Kylah","last":"Silver","jersey":"21","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":70,"weight":null,"hometown":"Greenville, N.C.","high_school":"D.H. Conley","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:icyss-storm","name":"Icyss Storm","first":"Icyss","last":"Storm","jersey":"23","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Durham, N.C.","high_school":"Grace Christian School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:staci-williams","name":"Staci Williams","first":"Staci","last":"Williams","jersey":null,"pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":null,"weight":null,"hometown":"Holly Springs, N.C.","high_school":"Holly Springs","previous_school":"FDU","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ebbony-wilson","name":"Ebbony Wilson","first":"Ebbony","last":"Wilson","jersey":"0","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Los Angeles, Calif.","high_school":"St. Mary's Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

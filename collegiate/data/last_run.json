@@ -1,5 +1,5 @@
 {
- "today": "2026-11-01",
+ "today": "2026-11-02",
  "steps": [
   {
    "step": "hosts",
@@ -127,22 +127,74 @@
    }
   },
   {
+   "step": "weekly",
+   "sports": [
+    "baseball",
+    "softball",
+    "football",
+    "mens-basketball",
+    "womens-basketball",
+    "womens-volleyball",
+    "mens-soccer",
+    "womens-soccer"
+   ],
+   "schools": 358,
+   "ok": 4466,
+   "misses_by_reason": {
+    "HTTP": 590,
+    "SEASON_MISMATCH": 97,
+    "NO_ROSTER": 425,
+    "EMPTY_ROSTER": 6,
+    "REFUSED": 40,
+    "PLATFORM_NOT_READ": 32
+   },
+   "platforms": {
+    "sidearm_legacy": 161,
+    "sidearm": 153,
+    "wmt": 28,
+    "unread": 4
+   }
+  },
+  {
+   "step": "schedules",
+   "sport": "baseball",
+   "ok": 399,
+   "misses_by_reason": {
+    "PLATFORM_NOT_READ": 16,
+    "SEASON_MISMATCH": 167,
+    "NO_SCHEDULE": 106,
+    "HTTP": 8,
+    "SPORT_MISMATCH": 2,
+    "EMPTY_SCHEDULE": 1,
+    "SHRUNK": 1
+   }
+  },
+  {
+   "step": "schedules",
+   "sport": "mens-basketball",
+   "ok": 656,
+   "misses_by_reason": {
+    "PLATFORM_NOT_READ": 16,
+    "SPORT_MISMATCH": 16,
+    "HTTP": 8,
+    "NO_SCHEDULE": 4
+   }
+  },
+  {
+   "step": "schedules",
+   "sport": "womens-basketball",
+   "ok": 654,
+   "misses_by_reason": {
+    "PLATFORM_NOT_READ": 16,
+    "SPORT_MISMATCH": 10,
+    "NO_SCHEDULE": 8,
+    "HTTP": 12
+   }
+  },
+  {
    "step": "team_ids",
    "schools": 42,
    "hosts": 93
-  },
-  {
-   "step": "boxscores",
-   "id": "baseball-boxscores-2013-2026",
-   "planned": 93616,
-   "unjoinable": 2978,
-   "ok": 640,
-   "left": 1846,
-   "misses_by_reason": {
-    "NO_BOXSCORE": 729,
-    "HTTP": 5,
-    "NO_TEAM_CODE": 141
-   }
   },
   {
    "step": "portal",
@@ -241,74 +293,74 @@
     {
      "sport": "baseball",
      "season": 2027,
-     "schools_both": 117,
-     "transfers": 1359,
-     "matched_both_ends": 311
+     "schools_both": 218,
+     "transfers": 2380,
+     "matched_both_ends": 812
     },
     {
      "sport": "football",
      "season": 2026,
-     "schools_both": 130,
-     "transfers": 3203,
-     "matched_both_ends": 1541
+     "schools_both": 245,
+     "transfers": 5729,
+     "matched_both_ends": 3583
     },
     {
      "sport": "mens-basketball",
      "season": 2027,
-     "schools_both": 158,
-     "transfers": 954,
-     "matched_both_ends": 405
+     "schools_both": 328,
+     "transfers": 2060,
+     "matched_both_ends": 1314
     },
     {
      "sport": "mens-soccer",
      "season": 2026,
-     "schools_both": 88,
-     "transfers": 528,
-     "matched_both_ends": 153
+     "schools_both": 197,
+     "transfers": 1058,
+     "matched_both_ends": 558
     },
     {
      "sport": "softball",
      "season": 2027,
-     "schools_both": 126,
-     "transfers": 350,
-     "matched_both_ends": 160
+     "schools_both": 247,
+     "transfers": 654,
+     "matched_both_ends": 394
     },
     {
      "sport": "womens-basketball",
      "season": 2027,
-     "schools_both": 158,
-     "transfers": 637,
-     "matched_both_ends": 275
+     "schools_both": 325,
+     "transfers": 1325,
+     "matched_both_ends": 858
     },
     {
      "sport": "womens-soccer",
      "season": 2026,
-     "schools_both": 153,
-     "transfers": 675,
-     "matched_both_ends": 322
+     "schools_both": 308,
+     "transfers": 1171,
+     "matched_both_ends": 778
     },
     {
      "sport": "womens-volleyball",
      "season": 2026,
-     "schools_both": 144,
-     "transfers": 383,
-     "matched_both_ends": 155
+     "schools_both": 305,
+     "transfers": 748,
+     "matched_both_ends": 495
     }
    ]
   }
  ],
  "weekly_read_at": {
-  "rosters:baseball": "2026-10-21",
-  "rosters:softball": "2026-10-21",
-  "rosters:football": "2026-10-21",
-  "rosters:mens-basketball": "2026-10-21",
-  "rosters:womens-basketball": "2026-10-21",
-  "rosters:womens-volleyball": "2026-10-21",
-  "rosters:mens-soccer": "2026-10-21",
-  "rosters:womens-soccer": "2026-10-21",
-  "schedules:baseball": "2026-10-21",
-  "schedules:mens-basketball": "2026-10-26",
-  "schedules:womens-basketball": "2026-10-26"
+  "rosters:baseball": "2026-11-02",
+  "rosters:softball": "2026-11-02",
+  "rosters:football": "2026-11-02",
+  "rosters:mens-basketball": "2026-11-02",
+  "rosters:womens-basketball": "2026-11-02",
+  "rosters:womens-volleyball": "2026-11-02",
+  "rosters:mens-soccer": "2026-11-02",
+  "rosters:womens-soccer": "2026-11-02",
+  "schedules:baseball": "2026-11-02",
+  "schedules:mens-basketball": "2026-11-02",
+  "schedules:womens-basketball": "2026-11-02"
  },
  "backfill_read_at": "2026-11-01"
 }

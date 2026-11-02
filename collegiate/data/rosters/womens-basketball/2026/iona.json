@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "iona",
+ "host": "icgaels.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://icgaels.com/sports/womens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:amaya-b-evans","name":"Amaya B. Evans","first":"Amaya","last":"B. Evans","jersey":"21","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":65,"weight":null,"hometown":"Neptune, NJ","high_school":"Neptune","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:naomi-barnwell","name":"Naomi Barnwell","first":"Naomi","last":"Barnwell","jersey":"7","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":73,"weight":null,"hometown":"Chanteloup-Les-Vignes, France","high_school":"Lycée Pierre Brossolette","previous_school":"Robert Morris","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:yannie-chan","name":"Yannie Chan","first":"Yannie","last":"Chan","jersey":"13","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":70,"weight":null,"hometown":"Hong Kong","high_school":"Heep Yun School","previous_school":"Emmanuel College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ale-civera","name":"Ale Civera","first":"Ale","last":"Civera","jersey":"4","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Madrid, Spain","high_school":"IES Ortega y Gasset","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:arianna-davis","name":"Arianna Davis","first":"Arianna","last":"Davis","jersey":"0","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":65,"weight":null,"hometown":"Queens, NY","high_school":"St. Francis Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ella-fajardo","name":"Ella Fajardo","first":"Ella","last":"Fajardo","jersey":"5","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":65,"weight":null,"hometown":"Bergenfield, NJ","high_school":"Gill St. Bernard's","previous_school":"FDU","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:claudia-fiel","name":"Claudia Fiel","first":"Claudia","last":"Fiel","jersey":"11","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"Pontevedra, Spain","high_school":"Celta Baloncesto de Vigo","previous_school":"California Baptist","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:johanna-flores","name":"Johanna Flores","first":"Johanna","last":"Flores","jersey":"18","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Cananea, Mexico","high_school":"The Academy of Central Florida","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:adrianna-gonzalez","name":"Adrianna Gonzalez","first":"Adrianna","last":"Gonzalez","jersey":"10","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":67,"weight":null,"hometown":"Kenosha, WI","high_school":"Indian Trail","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isabellah-middleton","name":"Isabellah Middleton","first":"Isabellah","last":"Middleton","jersey":"2","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":69,"weight":null,"hometown":"Leesburg, VA","high_school":"Tuscarora","previous_school":"St. Bonaventure","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nevaeh-stone","name":"Nevaeh Stone","first":"Nevaeh","last":"Stone","jersey":"3","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":65,"weight":null,"hometown":"Bronx, NY","high_school":"Monsignor Scanlan","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:wilma-tuomi","name":"Wilma Tuomi","first":"Wilma","last":"Tuomi","jersey":"12","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Helsinki, Finland","high_school":"Mäkelänrinteen lukio","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chloe-vasquez","name":"Chloe Vasquez","first":"Chloe","last":"Vasquez","jersey":"1","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Pompton Plains, NJ","high_school":"Pequannock Township","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zoey-ward","name":"Zoey Ward","first":"Zoey","last":"Ward","jersey":"30","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Gastonia, NC","high_school":"Concord Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:olivia-white","name":"Olivia White","first":"Olivia","last":"White","jersey":null,"pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Bronx, NY","high_school":"St. Luke's School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mya-zaccagnini","name":"Mya Zaccagnini","first":"Mya","last":"Zaccagnini","jersey":"14","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":65,"weight":null,"hometown":"Waterbury, CT","high_school":"Holy Cross","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

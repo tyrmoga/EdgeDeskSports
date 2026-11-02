@@ -1,0 +1,30 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "western-mich",
+ "host": "wmubroncos.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://wmubroncos.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 14,
+ "players": [
+  {"pid":"slug:sharod-barnes","name":"Sharod Barnes","first":"Sharod","last":"Barnes","jersey":"0","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":180,"hometown":"Ypsilanti, Mich.","high_school":null,"previous_school":"Orchard Lake St. Mary's","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jayden-brewer","name":"Jayden Brewer","first":"Jayden","last":"Brewer","jersey":"12","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":160,"hometown":"Indianapolis, Ind.","high_school":null,"previous_school":"FIU","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:max-burton","name":"Max Burton","first":"Max","last":"Burton","jersey":"10","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":82,"weight":240,"hometown":"Williamston, Mich.","high_school":null,"previous_school":"Williamston","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nicholas-errica","name":"Nicholas Errica","first":"Nicholas","last":"Errica","jersey":"9","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":75,"weight":185,"hometown":"Cremona, Italy","high_school":null,"previous_school":"Luiss Roma","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jalen-griffith","name":"Jalen Griffith","first":"Jalen","last":"Griffith","jersey":"2","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":150,"hometown":"Chicago, Ill.","high_school":null,"previous_school":"Navarro College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trey-lewis","name":"Trey Lewis","first":"Trey","last":"Lewis","jersey":"1","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":78,"weight":200,"hometown":"Ferndale, Mich.","high_school":null,"previous_school":"Purdue Fort Wayne","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:declan-peterson","name":"Declan Peterson","first":"Declan","last":"Peterson","jersey":"22","pos":"C","class":"SR","redshirt":false,"class_raw":"Senior","height_in":83,"weight":250,"hometown":"Bentley, Alberta, Canada","high_school":null,"previous_school":"University of Calgary","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ej-ryans","name":"EJ Ryans","first":"EJ","last":"Ryans","jersey":"3","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":185,"hometown":"Grand Rapids, Mich.","high_school":null,"previous_school":"Northview","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:junior-sileu","name":"Junior Sileu","first":"Junior","last":"Sileu","jersey":"52","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":82,"weight":220,"hometown":"Douala, Cameroon","high_school":null,"previous_school":"AZ Compass Prep","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:michael-sulaka","name":"Michael Sulaka","first":"Michael","last":"Sulaka","jersey":"24","pos":"F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":81,"weight":215,"hometown":"Macomb, Mich.","high_school":null,"previous_school":"De La Salle","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brady-swartz","name":"Brady Swartz","first":"Brady","last":"Swartz","jersey":"4","pos":"G/F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":195,"hometown":"Grand Rapids, Mich.","high_school":null,"previous_school":"Northview","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:carson-vis","name":"Carson Vis","first":"Carson","last":"Vis","jersey":"7","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":190,"hometown":"Byron Center, Mich.","high_school":null,"previous_school":"Grand Rapids South Christian","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hudson-ward","name":"Hudson Ward","first":"Hudson","last":"Ward","jersey":"8","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":220,"hometown":"Leduc, Alberta, Canada","high_school":null,"previous_school":"Penn State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:justice-williams","name":"Justice Williams","first":"Justice","last":"Williams","jersey":"11","pos":"G","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":76,"weight":185,"hometown":"Philadelphia, Pa.","high_school":null,"previous_school":"Robert Morris","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

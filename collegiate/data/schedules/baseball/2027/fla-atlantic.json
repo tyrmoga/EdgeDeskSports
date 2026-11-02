@@ -8,14 +8,16 @@
  "season_label": "2026-27",
  "url": "https://fausports.com/sports/baseball/schedule/2027",
  "first_read": "2026-10-21",
- "last_read": "2026-10-21",
+ "last_read": "2026-11-02",
+ "readers": "sidearm,sidearm_vue,sidearm_legacy,wmt+themes10+sport_path+plain_page",
  "games_listed": 6,
- "finals": 0,
+ "finals": 1,
+ "undated": 0,
  "games": [
   {"game_key":"24786","date":"2026-10-07","time":"2:30 p.m.","site":"H","opponent":"Canadian Prospects","opponent_host":"baseball.ca","conference":false,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Boca Raton, Fla.","event":null,"boxscore":null,"note":null},
   {"game_key":"24787","date":"2026-10-17","time":"11 a.m.","site":"H","opponent":"Indian River SC","opponent_host":"indianriverstateathletics.com","conference":false,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Boca Raton, Fla.","event":null,"boxscore":null,"note":null},
   {"game_key":"24802","date":"2026-10-24","time":"11 a.m.","site":"N","opponent":"Scout Day","opponent_host":"fausports.com","conference":false,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Boca Raton, Fla.","event":null,"boxscore":null,"note":null},
-  {"game_key":"24788","date":"2026-10-31","time":"1 p.m.","site":"A","opponent":"Miami","opponent_host":"hurricanesports.com","conference":false,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Coral Gables, Fla.","event":null,"boxscore":null,"note":null},
+  {"game_key":"24788","date":"2026-10-31","time":"1 p.m.","site":"A","opponent":"Miami","opponent_host":"hurricanesports.com","conference":false,"postseason":false,"doubleheader":false,"status":"final","us":5,"them":9,"outcome":"L","innings":12,"location":"Coral Gables, Fla.","event":null,"boxscore":null,"note":null},
   {"game_key":"24789","date":"2026-11-13","time":"4 p.m.","site":"H","opponent":"Nova Southeastern","opponent_host":"nsusharks.com","conference":false,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Boca Raton, Fla.","event":null,"boxscore":null,"note":null},
   {"game_key":"24790","date":"2026-11-14","time":"4 p.m.","site":"H","opponent":"Lynn","opponent_host":"lynnfightingknights.com","conference":false,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Boca Raton, Fla.","event":null,"boxscore":null,"note":null}
  ]

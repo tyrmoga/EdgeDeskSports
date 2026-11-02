@@ -8,9 +8,11 @@
  "season_label": "2027",
  "url": "https://goblueraiders.com/sports/baseball/schedule/2027",
  "first_read": "2026-10-21",
- "last_read": "2026-10-21",
+ "last_read": "2026-11-02",
+ "readers": "sidearm,sidearm_vue,sidearm_legacy,wmt+themes10+sport_path+plain_page",
  "games_listed": 31,
  "finals": 3,
+ "undated": 0,
  "games": [
   {"game_key":"16038","date":"2026-10-02","time":"5:30 p.m.","site":"N","opponent":"North Alabama","opponent_host":"roarlions.com","conference":false,"postseason":false,"doubleheader":false,"status":"final","us":6,"them":6,"outcome":"T","innings":null,"location":"Madison, Ala.","event":"2026 Fall Ball","boxscore":null,"note":null},
   {"game_key":"16039","date":"2026-10-04","time":null,"site":"H","opponent":"Tennessee Tech","opponent_host":"ttusports.com","conference":false,"postseason":false,"doubleheader":false,"status":"final","us":15,"them":11,"outcome":"W","innings":null,"location":null,"event":"2026 Fall Ball","boxscore":null,"note":null},

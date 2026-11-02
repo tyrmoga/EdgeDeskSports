@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "santa-clara",
+ "host": "santaclarabroncos.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://santaclarabroncos.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:noah-badibanga","name":"Noah Badibanga","first":"Noah","last":"Badibanga","jersey":"10","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":185,"hometown":"Toulouse, France","high_school":"Elan Sportif Chalon","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:francis-chukwudebelu","name":"Francis Chukwudebelu","first":"Francis","last":"Chukwudebelu","jersey":"3","pos":"C","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":82,"weight":220,"hometown":"Dallas, Texas","high_school":"Argyle HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kj-cochran","name":"KJ Cochran","first":"KJ","last":"Cochran","jersey":"7","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":195,"hometown":"West Chester, Penn.","high_school":"Perkiomen School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:thierry-darlan","name":"Thierry Darlan","first":"Thierry","last":"Darlan","jersey":"15","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":210,"hometown":"Bangui, Central African Republic","high_school":"NBA Academy Africa","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:malachi-douyon","name":"Malachi Douyon","first":"Malachi","last":"Douyon","jersey":"54","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":185,"hometown":"Santa Cruz, Calif.","high_school":"Pacific Collegiate Charter School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jake-ensminger","name":"Jake Ensminger","first":"Jake","last":"Ensminger","jersey":"44","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":81,"weight":215,"hometown":"Ulm, Germany","high_school":"Ratiopharm Ulm","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sash-gavalyugov","name":"Sash Gavalyugov","first":"Sash","last":"Gavalyugov","jersey":"2","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":75,"weight":175,"hometown":"Botevgrad, Bulgaria","high_school":"NBA Global Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:allen-graves","name":"Allen Graves","first":"Allen","last":"Graves","jersey":"22","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":81,"weight":225,"hometown":"Ponchatoula, La.","high_school":"Ponchatoula HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:christian-hammond","name":"Christian Hammond","first":"Christian","last":"Hammond","jersey":"1","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":76,"weight":195,"hometown":"Denver, Colo.","high_school":"Dream City Christian (Ariz.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brenton-knapper","name":"Brenton Knapper","first":"Brenton","last":"Knapper","jersey":"0","pos":"G","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":72,"weight":175,"hometown":"Charleston, W.V.","high_school":"Colony HS (Calif.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brad-longcor-iii","name":"Brad Longcor III","first":"Brad","last":"Longcor III","jersey":"4","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":180,"hometown":"Quincy, Ill.","high_school":"Quincy HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elijah-mahi","name":"Elijah Mahi","first":"Elijah","last":"Mahi","jersey":"8","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":220,"hometown":"Toronto, Canada","high_school":"Potter's House Christian (Fla.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gehrig-normand","name":"Gehrig Normand","first":"Gehrig","last":"Normand","jersey":"9","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":78,"weight":190,"hometown":"North Richland Hills, Texas","high_school":"Birdville HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bukky-oboye","name":"Bukky Oboye","first":"Bukky","last":"Oboye","jersey":"12","pos":"C","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":85,"weight":220,"hometown":"Houston, Texas","high_school":"Clements HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:juan-reyna","name":"Juan Reyna","first":"Juan","last":"Reyna","jersey":"51","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":75,"weight":195,"hometown":"San Antonio, Texas","high_school":"Duncanville HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chris-tadjo","name":"Chris Tadjo","first":"Chris","last":"Tadjo","jersey":"14","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":250,"hometown":"Montreal, Quebec","high_school":"NBA Academy Latin America","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brendan-yarusso","name":"Brendan Yarusso","first":"Brendan","last":"Yarusso","jersey":"50","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":185,"hometown":"Lombard, Ill.","high_school":"St. Francis HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

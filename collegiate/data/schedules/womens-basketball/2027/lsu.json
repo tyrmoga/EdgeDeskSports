@@ -8,14 +8,14 @@
  "season_label": "2026-27",
  "url": "https://lsusports.net/sports/wbball/schedule/season/2026-27",
  "first_read": "2026-10-26",
- "last_read": "2026-10-26",
+ "last_read": "2026-11-02",
  "readers": "sidearm,sidearm_vue,sidearm_legacy,wmt+themes10+sport_path+plain_page",
  "games_listed": 35,
  "finals": 0,
  "undated": 0,
  "games": [
   {"game_key":"21024","date":"2026-10-22","time":null,"site":null,"opponent":"UNT Dallas","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"final","us":159,"them":31,"outcome":"W","innings":null,"location":"Baton Rouge, La. (Maravich Center)","event":null,"boxscore":"/boxscore/21024","note":null,"exhibition":true},
-  {"game_key":null,"date":"2026-10-29","time":null,"site":null,"opponent":"Loyola (N.O.)","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Baton Rouge, La. (Maravich Center)","event":null,"boxscore":null,"note":null,"exhibition":true},
+  {"game_key":"21025","date":"2026-10-29","time":null,"site":null,"opponent":"Loyola (N.O.)","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"final","us":119,"them":54,"outcome":"W","innings":null,"location":"Baton Rouge, La. (Maravich Center)","event":null,"boxscore":"/boxscore/21025","note":"119-54","exhibition":true},
   {"game_key":null,"date":"2026-11-02","time":null,"site":null,"opponent":"Southeastern Louisiana","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Baton Rouge, La. (Maravich Center)","event":null,"boxscore":null,"note":null},
   {"game_key":null,"date":"2026-11-05","time":null,"site":null,"opponent":"Texas Southern","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Baton Rouge, La. (Maravich Center)","event":null,"boxscore":null,"note":null},
   {"game_key":null,"date":"2026-11-10","time":null,"site":null,"opponent":"McNeese","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Baton Rouge, La. (Maravich Center)","event":null,"boxscore":null,"note":null},
@@ -48,6 +48,6 @@
   {"game_key":null,"date":"2027-02-25","time":null,"site":"A","opponent":"Tennessee","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Knoxville, Tenn. (Thompson-Boling Arena)","event":null,"boxscore":null,"note":null},
   {"game_key":null,"date":"2027-02-28","time":null,"site":null,"opponent":"Oklahoma","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Baton Rouge, La. (Maravich Center)","event":null,"boxscore":null,"note":null},
   {"game_key":null,"date":"2027-03-03","time":null,"site":null,"opponent":"SEC Tournament","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Greenville, S.C. (Bon Secours Wellness Arena)","event":null,"boxscore":null,"note":null},
-  {"game_key":null,"date":"2027-03-17","time":null,"site":null,"opponent":"NCAA Tournament","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Campus Sites TBD","event":null,"boxscore":null,"note":null}
+  {"game_key":null,"date":"2027-03-17","time":null,"site":null,"opponent":"NCAA Tournament","opponent_host":null,"conference":null,"postseason":null,"doubleheader":null,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Campus Sites TBD","event":null,"boxscore":null,"note":"119-54"}
  ]
 }

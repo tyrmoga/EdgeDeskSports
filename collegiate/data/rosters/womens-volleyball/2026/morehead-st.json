@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "morehead-st",
+ "host": "msueagles.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://msueagles.com/sports/womens-volleyball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:reagan-baxter","name":"Reagan Baxter","first":"Reagan","last":"Baxter","jersey":"22","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Louisville, Ky.","high_school":"North Oldham HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tinsley-brown","name":"Tinsley Brown","first":"Tinsley","last":"Brown","jersey":"3","pos":"DS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Knoxville, Tenn.","high_school":"Hardin Valley Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:norah-campbell","name":"Norah Campbell","first":"Norah","last":"Campbell","jersey":"13","pos":"DS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":66,"weight":null,"hometown":"Seymour, Ind.","high_school":"Seymour HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:haidyn-carter","name":"Haidyn Carter","first":"Haidyn","last":"Carter","jersey":"2","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Louisville, Ky.","high_school":"Our Lady of Providence HS (Ind.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:josie-certa","name":"Josie Certa","first":"Josie","last":"Certa","jersey":"12","pos":"S","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Bloomington, Ill","high_school":"Bloomington Central Catholic HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jasmine-daniels","name":"Jasmine Daniels","first":"Jasmine","last":"Daniels","jersey":"11","pos":"S","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Fishers, Ind.","high_school":"Southeastern HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hollan-everett","name":"Hollan Everett","first":"Hollan","last":"Everett","jersey":"14","pos":"OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":null,"hometown":"Norris City, Ill.","high_school":"Norris City-Omaha-Enfield High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:courtney-fitzgerald","name":"Courtney Fitzgerald","first":"Courtney","last":"Fitzgerald","jersey":"6","pos":"DS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Cleves, Ohio","high_school":"Seton HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:riley-mccloskey","name":"Riley McCloskey","first":"Riley","last":"McCloskey","jersey":"1","pos":"OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Newport, Ky.","high_school":"Notre Dame Academy","previous_school":"Memphis","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:amelia-nott","name":"Amelia Nott","first":"Amelia","last":"Nott","jersey":"9","pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Centerville, Ohio","high_school":"Centerville HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mary-rindler","name":"Mary Rindler","first":"Mary","last":"Rindler","jersey":"4","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"New Bremen, Ohio","high_school":"New Bremen HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anna-schiltz","name":"Anna Schiltz","first":"Anna","last":"Schiltz","jersey":"15","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Hampshire, Ill.","high_school":"Hampshire HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sydney-sennett","name":"Sydney Sennett","first":"Sydney","last":"Sennett","jersey":"17","pos":"S","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Normal, Ill.","high_school":"Community West HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kylie-sharp","name":"Kylie Sharp","first":"Kylie","last":"Sharp","jersey":"7","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Johnstown, Ohio","high_school":"Johnstown HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kennedy-tinch","name":"Kennedy Tinch","first":"Kennedy","last":"Tinch","jersey":"10","pos":"DS/S","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":66,"weight":null,"hometown":"Fishers, Ind.","high_school":"Fishers HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ella-warrick","name":"Ella Warrick","first":"Ella","last":"Warrick","jersey":"5","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Linton, Ind.","high_school":"Linton-Stockton HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

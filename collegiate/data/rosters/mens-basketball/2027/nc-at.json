@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "nc-at",
+ "host": "ncataggies.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://ncataggies.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:antoine-bo-hurns","name":"Antoine \"Bo\" Hurns","first":"Antoine","last":"\"Bo\" Hurns","jersey":"23","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":210,"hometown":"Indianapolis, Ind.","high_school":"Word of God","previous_school":"Midland College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mujahiid-burton","name":"Mujahiid Burton","first":"Mujahiid","last":"Burton","jersey":"2","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":180,"hometown":"Minneapolis, Minn.","high_school":"Minnesota Prep","previous_school":"Wabash Valley","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:danny-delgardo-iii","name":"Danny Delgardo III","first":"Danny","last":"Delgardo III","jersey":"3","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":175,"hometown":"Tampa, Fla.","high_school":"Leto","previous_school":"Fort Valley State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:will-felton","name":"Will Felton","first":"Will","last":"Felton","jersey":"34","pos":"C","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":81,"weight":260,"hometown":"Raleigh, N.C.","high_school":"Millbrook","previous_school":"Arizona State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brandon-ivery","name":"Brandon Ivery","first":"Brandon","last":"Ivery","jersey":"11","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":185,"hometown":"Columbus, Ohio","high_school":"Athletes In Action Prep","previous_school":"Howard College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ponce-james","name":"Ponce James","first":"Ponce","last":"James","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":185,"hometown":"Bridgeport, Conn.","high_school":"Bridgeport Prep","previous_school":"Delaware State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:efstratios-kalliontzis","name":"Efstratios Kalliontzis","first":"Efstratios","last":"Kalliontzis","jersey":"31","pos":"C","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":83,"weight":225,"hometown":"Mitilini, Greece","high_school":"Hoosac Prep","previous_school":"LaSalle","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:uchenna-kellman-nicholes","name":"Uchenna Kellman-Nicholes","first":"Uchenna","last":"Kellman-Nicholes","jersey":"10","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":77,"weight":180,"hometown":"Orlando, Fla.","high_school":"Seminole","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:shane-lancaster","name":"Shane Lancaster","first":"Shane","last":"Lancaster","jersey":"0","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":203,"hometown":"Bowie, Md.","high_school":"St. John's","previous_school":"Alcorn State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jalal-mckie","name":"Jalal McKie","first":"Jalal","last":"McKie","jersey":"15","pos":"G","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":76,"weight":195,"hometown":"Atlanta, Ga.","high_school":"South Kent","previous_school":"Westlake","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:vasileios-pourlidas","name":"Vasileios Pourlidas","first":"Vasileios","last":"Pourlidas","jersey":"6","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":185,"hometown":"Naoussa , Greece","high_school":"Aris Thessaloniki U18","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:saxton-simley","name":"Saxton Simley","first":"Saxton","last":"Simley","jersey":"5","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":170,"hometown":"Upper Marlboro, Md.","high_school":"Mount Saint Joseph","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cortlin-siska","name":"Cortlin Siska","first":"Cortlin","last":"Siska","jersey":"24","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":185,"hometown":"Sterling, Va.","high_school":"Fairfax Christian School","previous_school":"Collin College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:matthew-webster","name":"Matthew Webster","first":"Matthew","last":"Webster","jersey":"8","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":200,"hometown":"Dade City, Fla.","high_school":"Carrollwood","previous_school":"Georgia Southwestern","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rodney-westmoreland-iii","name":"Rodney Westmoreland III","first":"Rodney","last":"Westmoreland III","jersey":"21","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":170,"hometown":"Newport Coast, Calif.","high_school":"Santa Margarita Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "winthrop",
+ "host": "winthropeagles.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2025,
+ "season_label": "2025",
+ "url": "https://winthropeagles.com/sports/womens-volleyball/roster/2025",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:paige-bennett","name":"Paige Bennett","first":"Paige","last":"Bennett","jersey":"5","pos":"OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Pleasanton, Calif.","high_school":"Foothill H.S.","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:keara-bowen","name":"KeAra Bowen","first":"KeAra","last":"Bowen","jersey":"7","pos":"OPP","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Huntsville, Ala.","high_school":"Huntsville H.S.","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alyah-cadavid","name":"Alyah Cadavid","first":"Alyah","last":"Cadavid","jersey":"13","pos":"DS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Miami, Fla.","high_school":"Westminster Christian School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:laila-glover","name":"Laila Glover","first":"Laila","last":"Glover","jersey":"20","pos":"OPP","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Bear, Del.","high_school":"Caravel Academy","previous_school":"Manhattan","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:avery-jolley","name":"Avery Jolley","first":"Avery","last":"Jolley","jersey":"10","pos":"OH/OPP","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Knoxville, TN","high_school":"Knoxville West H.S.","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:giselle-little","name":"Giselle Little","first":"Giselle","last":"Little","jersey":"9","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Mt. Holly, N.C.","high_school":"Mountain Island Charter School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:makenzie-malloy","name":"Makenzie Malloy","first":"Makenzie","last":"Malloy","jersey":"1","pos":"OPP","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Dacula, Ga.","high_school":"Mill Creek H.S.","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trabrece-marbley","name":"Trabrece Marbley","first":"Trabrece","last":"Marbley","jersey":"3","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Humble, Texas","high_school":"Humble H.S.","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sophia-matthews","name":"Sophia Matthews","first":"Sophia","last":"Matthews","jersey":"11","pos":"DS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":66,"weight":null,"hometown":"Apex, NC","high_school":"Apex Friendship H.S.","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rachel-mccollum","name":"Rachel McCollum","first":"Rachel","last":"McCollum","jersey":"18","pos":"S/OPP","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"Lakeland, TN","high_school":"Collierville H.S.","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isabella-murray","name":"Isabella Murray","first":"Isabella","last":"Murray","jersey":"16","pos":"S","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":74,"weight":null,"hometown":"Norcross, GA","high_school":"Norcross H.S.","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sydney-nolan","name":"Sydney Nolan","first":"Sydney","last":"Nolan","jersey":"19","pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":null,"hometown":"Upper Marlboro, MD","high_school":"Academy of the Holy Cross","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maeve-rehmann","name":"Maeve Rehmann","first":"Maeve","last":"Rehmann","jersey":"17","pos":"MB/OPP","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":null,"hometown":"Johnston, Iowa","high_school":"Johnston H.S.","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:reece-rhoads","name":"Reece Rhoads","first":"Reece","last":"Rhoads","jersey":"12","pos":"OH","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":71,"weight":null,"hometown":"Cumming, Ga.","high_school":"West Forsyth H.S.","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:teagan-sychterz","name":"Teagan Sychterz","first":"Teagan","last":"Sychterz","jersey":"23","pos":"MB","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":72,"weight":null,"hometown":"Benson, N.C.","high_school":"Triton H.S.","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lexi-thatcher","name":"Lexi Thatcher","first":"Lexi","last":"Thatcher","jersey":"4","pos":"S","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Indianapolis, Ind.","high_school":"Bishop Chatard H.S.","previous_school":"Samford","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:addison-torain","name":"Addison Torain","first":"Addison","last":"Torain","jersey":"14","pos":"DS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"Aurora, Ill.","high_school":"Metea Valley H.S.","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

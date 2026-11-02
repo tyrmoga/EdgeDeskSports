@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "eastern-ky",
+ "host": "ekusports.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://ekusports.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:austin-ball","name":"Austin Ball","first":"Austin","last":"Ball","jersey":"14","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":79,"weight":210,"hometown":"Man, W.Va.","high_school":null,"previous_school":"George Mason","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mouhamed-camara","name":"Mouhamed Camara","first":"Mouhamed","last":"Camara","jersey":"12","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":80,"weight":225,"hometown":"Dakar, Senegal","high_school":null,"previous_school":"University of Louisville","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:duje-dujmovic","name":"Duje Dujmovic","first":"Duje","last":"Dujmovic","jersey":"0","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":225,"hometown":"Duesseldorf, Germany","high_school":null,"previous_school":"Rhoendorf Dragons","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:omer-hamama","name":"Omer Hamama","first":"Omer","last":"Hamama","jersey":"10","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":190,"hometown":"Reshon LeZion, Israel","high_school":null,"previous_school":"Kent State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bobby-hardison","name":"Bobby Hardison","first":"Bobby","last":"Hardison","jersey":"13","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":190,"hometown":"Mooresville, N.C.","high_school":null,"previous_school":"Palm Beach Atlantic","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jackson-holt","name":"Jackson Holt","first":"Jackson","last":"Holt","jersey":"11","pos":"G","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":76,"weight":185,"hometown":"Cincinnati, Ohio","high_school":null,"previous_school":"Moravian Prep","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:damone-king","name":"Damone King","first":"Damone","last":"King","jersey":"3","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":74,"weight":180,"hometown":"Louisville, Ky.","high_school":null,"previous_school":"Rhode Island","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:shadrak-lasu","name":"Shadrak Lasu","first":"Shadrak","last":"Lasu","jersey":"22","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":210,"hometown":"Winnipeg, Canada","high_school":null,"previous_school":"Long Island University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:josh-lowe","name":"Josh Lowe","first":"Josh","last":"Lowe","jersey":"4","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":210,"hometown":"Lewisville, Texas","high_school":null,"previous_school":"Moberly Area CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:justin-mccarter","name":"Justin McCarter","first":"Justin","last":"McCarter","jersey":"1","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":78,"weight":190,"hometown":"Marietta, Ga.","high_school":null,"previous_school":"Northeast Oklahoma A&M College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mason-miles","name":"Mason Miles","first":"Mason","last":"Miles","jersey":"99","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":74,"weight":184,"hometown":"Louisville, Ky.","high_school":null,"previous_school":"Lindsey Wilson College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cade-murphy","name":"Cade Murphy","first":"Cade","last":"Murphy","jersey":"15","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":195,"hometown":"Knoxville, Tenn.","high_school":null,"previous_school":"Knoxville Catholic HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:amari-owens","name":"Amari Owens","first":"Amari","last":"Owens","jersey":"5","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":165,"hometown":"Lexington, Ky.","high_school":null,"previous_school":"Bryan Station HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:yvens-paul","name":"Yvens Paul","first":"Yvens","last":"Paul","jersey":"21","pos":"F","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":79,"weight":220,"hometown":"Naples, Fla.","high_school":null,"previous_school":"Florida Southwestern State College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:drae-vasser","name":"Drae Vasser","first":"Drae","last":"Vasser","jersey":"2","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":73,"weight":200,"hometown":"Louisville, Ky.","high_school":null,"previous_school":"Vincennes University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

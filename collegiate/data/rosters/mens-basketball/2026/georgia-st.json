@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "georgia-st",
+ "host": "georgiastatesports.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://georgiastatesports.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:christian-beam","name":"Christian Beam","first":"Christian","last":"Beam","jersey":"32","pos":"C","class":"SO","redshirt":false,"class_raw":"Sophomore (2nd)","height_in":85,"weight":255,"hometown":"Woodland, Ala.","high_school":"Woodland","previous_school":"Southern Union State C.C.","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ayouba-berthe","name":"Ayouba Berthe","first":"Ayouba","last":"Berthe","jersey":"20","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior (4th)","height_in":77,"weight":200,"hometown":"Minneapolis, Minn.","high_school":"Park Center","previous_school":"Minot State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:malachi-brown","name":"Malachi Brown","first":"Malachi","last":"Brown","jersey":"22","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior (3rd)","height_in":73,"weight":175,"hometown":"Buford, Ga.","high_school":"Legacy Early College","previous_school":"Seton Hall","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:joah-chappelle","name":"Joah Chappelle","first":"Joah","last":"Chappelle","jersey":"6","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore (2nd)","height_in":80,"weight":200,"hometown":"Atlanta, Ga.","high_school":"Dutchtown","previous_school":"Pearl River C.C.","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:james-cooper","name":"James Cooper","first":"James","last":"Cooper","jersey":"2","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate (5th)","height_in":80,"weight":235,"hometown":"Maudlin, S.C.","high_school":"Mauldin","previous_school":"Oregon","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anthony-enoh","name":"Anthony Enoh","first":"Anthony","last":"Enoh","jersey":"12","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior (3rd)","height_in":79,"weight":225,"hometown":"Uyo, Nigeria","high_school":"Meitoku Gijuku","previous_school":"Jessup","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jelani-hamilton","name":"Jelani Hamilton","first":"Jelani","last":"Hamilton","jersey":"10","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":77,"weight":200,"hometown":"Marietta, Ga.","high_school":"Wheeler/Iowa State","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chris-jones","name":"Chris Jones","first":"Chris","last":"Jones","jersey":"55","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman (1st)","height_in":78,"weight":205,"hometown":"Atlanta, Ga.","high_school":"Douglass","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emmanuel-koveos","name":"Emmanuel Koveos","first":"Emmanuel","last":"Koveos","jersey":"7","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior (3rd)","height_in":72,"weight":160,"hometown":"Rhodes, Greece","high_school":"Hickory Grove Christian","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jakai-newton","name":"Jakai Newton","first":"Jakai","last":"Newton","jersey":"1","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":76,"weight":205,"hometown":"Covington, Ga.","high_school":"Newton","previous_school":"Indiana","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:clash-peters","name":"Clash Peters","first":"Clash","last":"Peters","jersey":"21","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore (2nd)","height_in":81,"weight":240,"hometown":"Long Beach, Calif.","high_school":"Word of God Christian","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trey-scott-iii","name":"Trey Scott III","first":"Trey","last":"Scott III","jersey":"4","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":83,"weight":225,"hometown":"Atlanta, Ga.","high_school":"Mount Vernon Presbyterian","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isaiah-sherrard","name":"Isaiah Sherrard","first":"Isaiah","last":"Sherrard","jersey":"8","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore (2nd)","height_in":79,"weight":185,"hometown":"West Lake Village, Calif.","high_school":"Oak Park","previous_school":"Washington/ Moorpark","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kwame-tanic","name":"Kwame Tanic","first":"Kwame","last":"Tanic","jersey":"9","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore (2nd)","height_in":79,"weight":200,"hometown":"Paris, France","high_school":"Lycée Charles de Gaulle","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:micah-tucker","name":"Micah Tucker","first":"Micah","last":"Tucker","jersey":"0","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman (1st)","height_in":75,"weight":190,"hometown":"Atlanta, Ga.","high_school":"Overtime Elite","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

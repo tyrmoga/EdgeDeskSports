@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "idaho",
+ "host": "govandals.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://govandals.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:ryan-carney","name":"Ryan Carney","first":"Ryan","last":"Carney","jersey":"33","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":null,"hometown":"Spokane, Wash.","high_school":"Gonzaga Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mo-diao","name":"Mo Diao","first":"Mo","last":"Diao","jersey":"34","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":null,"hometown":"Dakar, Senegal","high_school":"Alan T. Sugiyama HS","previous_school":"McCook CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kristian-gonzalez","name":"Kristian Gonzalez","first":"Kristian","last":"Gonzalez","jersey":"10","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":null,"hometown":"Chula Vista, Calif.","high_school":"Mater Dei Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dylynn-groves","name":"Dylynn Groves","first":"Dylynn","last":"Groves","jersey":"12","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":null,"hometown":"Spokane, Wash.","high_school":"Gonzaga Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:will-jenson","name":"Will Jenson","first":"Will","last":"Jenson","jersey":"32","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":81,"weight":null,"hometown":"Bend, Ore.","high_school":"Caldera HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:seth-joba","name":"Seth Joba","first":"Seth","last":"Joba","jersey":"21","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":81,"weight":null,"hometown":"Orchard Park, NY","high_school":"Bridgton HS","previous_school":"Vermont","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brady-kennison","name":"Brady Kennison","first":"Brady","last":"Kennison","jersey":"2","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Loveland, Colo.","high_school":"Thompson Valley HS","previous_school":"North Platte CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:miles-klapper","name":"Miles Klapper","first":"Miles","last":"Klapper","jersey":"24","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":null,"hometown":"Hillsborough, Calif.","high_school":"Junipero Serra","previous_school":"Bridgton Academy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ryan-lafferty","name":"Ryan Lafferty","first":"Ryan","last":"Lafferty","jersey":"0","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":null,"hometown":"Spokane, Wash.","high_school":"Mt. Spokane HS","previous_school":"St. Thomas","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nolan-newman-gomez","name":"Nolan Newman-Gomez","first":"Nolan","last":"Newman-Gomez","jersey":"5","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":null,"hometown":"Hesperia, Calif.","high_school":"Hesperia HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zuby-toms","name":"Zuby Toms","first":"Zuby","last":"Toms","jersey":"7","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":null,"hometown":"Las Vegas, Nev.","high_school":"Mode Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:diego-trejo-delgado","name":"Diego Trejo-Delgado","first":"Diego","last":"Trejo-Delgado","jersey":"1","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":null,"hometown":"Camargo, Mexico","high_school":"Balboa Prep","previous_school":"Saint Martin's","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tj-wal","name":"TJ Wal","first":"TJ","last":"Wal","jersey":"3","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":null,"hometown":"Edmonton, Alberta, Canada","high_school":"Archbishop O'Leary HS","previous_school":"Jellyfam Elite","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hudson-ward","name":"Hudson Ward","first":"Hudson","last":"Ward","jersey":"8","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":null,"hometown":"Leduc, Alberta, Canada","high_school":"Western Canada Prep","previous_school":"Western Michigan","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jalen-williams","name":"Jalen Williams","first":"Jalen","last":"Williams","jersey":"4","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":null,"hometown":"San Diego, Calif.","high_school":"San Marcos HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kase-wynott","name":"Kase Wynott","first":"Kase","last":"Wynott","jersey":"51","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":null,"hometown":"Lapwai, Idaho","high_school":"Lapwai HS","previous_school":"Washington State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

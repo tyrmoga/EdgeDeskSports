@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "santa-clara",
+ "host": "santaclarabroncos.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://santaclarabroncos.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:noah-badibanga","name":"Noah Badibanga","first":"Noah","last":"Badibanga","jersey":"10","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":190,"hometown":"Toulouse, France","high_school":"Elan Sportif Chalon","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:david-castillo","name":"David Castillo","first":"David","last":"Castillo","jersey":"0","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":180,"hometown":"Bartlesville, Okla.","high_school":"Sunrise Christian Academy (Kan.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:francis-chukwudebelu","name":"Francis Chukwudebelu","first":"Francis","last":"Chukwudebelu","jersey":"3","pos":"C","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":82,"weight":245,"hometown":"Dallas, Texas","high_school":"Argyle HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kj-cochran","name":"KJ Cochran","first":"KJ","last":"Cochran","jersey":"12","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":190,"hometown":"West Chester, Penn.","high_school":"Perkiomen School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:thierry-darlan","name":"Thierry Darlan","first":"Thierry","last":"Darlan","jersey":"15","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":210,"hometown":"Bangui, Central African Republic","high_school":"NBA Academy Africa","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jake-ensminger","name":"Jake Ensminger","first":"Jake","last":"Ensminger","jersey":"44","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":81,"weight":215,"hometown":"Ulm, Germany","high_school":"Ratiopharm Ulm","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alex-ensor","name":"Alex Ensor","first":"Alex","last":"Ensor","jersey":"18","pos":"C","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":85,"weight":225,"hometown":"Denver, Colo.","high_school":"AZ Compass Prep (Ariz.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sash-gavalyugov","name":"Sash Gavalyugov","first":"Sash","last":"Gavalyugov","jersey":"2","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":185,"hometown":"Botevgrad, Bulgaria","high_school":"NBA Global Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sidi-gueye","name":"Sidi Gueye","first":"Sidi","last":"Gueye","jersey":"35","pos":"C","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":83,"weight":215,"hometown":"Guediawaye, Senegal","high_school":"Real Madrid","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:eli-jolin","name":"Eli Jolin","first":"Eli","last":"Jolin","jersey":"7","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":79,"weight":195,"hometown":"Rouyn-Noranda, Quebec, Canada","high_school":"Fort Erie International Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brayde-kuykendall","name":"Brayde Kuykendall","first":"Brayde","last":"Kuykendall","jersey":"13","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":190,"hometown":"San Ramon, Calif.","high_school":"California HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brad-longcor-iii","name":"Brad Longcor III","first":"Brad","last":"Longcor III","jersey":"4","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":195,"hometown":"Quincy, Ill.","high_school":"Quincy HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elijah-mahi","name":"Elijah Mahi","first":"Elijah","last":"Mahi","jersey":"8","pos":"F","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":79,"weight":220,"hometown":"Toronto, Canada","high_school":"Potter's House Christian (Fla.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chris-tadjo","name":"Chris Tadjo","first":"Chris","last":"Tadjo","jersey":"14","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":250,"hometown":"Montreal, Quebec","high_school":"NBA Academy Latin America","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:fedor-zugic","name":"Fedor Zugic","first":"Fedor","last":"Zugic","jersey":"77","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":220,"hometown":"Podgorica, Montenegro","high_school":"Gymnasium Slobaodan Skerovic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

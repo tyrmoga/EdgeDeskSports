@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "east-tenn-st",
+ "host": "etsubucs.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://etsubucs.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:blake-barkley","name":"Blake Barkley","first":"Blake","last":"Barkley","jersey":"13","pos":null,"class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":80,"weight":220,"hometown":"Morgantown, W. Va.","high_school":null,"previous_school":"Northwestern / Putnam Science Academy (Conn.)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:joseph-carter","name":"Joseph Carter","first":"Joseph","last":"Carter","jersey":"25","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":190,"hometown":"Louisville, TN","high_school":null,"previous_school":"Alcoa","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brayden-crump","name":"Brayden Crump","first":"Brayden","last":"Crump","jersey":"14","pos":null,"class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":80,"weight":220,"hometown":"Morganton, N.C.","high_school":null,"previous_school":"Elon","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maddox-huff","name":"Maddox Huff","first":"Maddox","last":"Huff","jersey":"3","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":190,"hometown":"Baxter, Ky.","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maki-johnson","name":"Maki Johnson","first":"Maki","last":"Johnson","jersey":"2","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":186,"hometown":"Huntington, W. Va.","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:milton-matthews-iii","name":"Milton Matthews III","first":"Milton","last":"Matthews III","jersey":"55","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":200,"hometown":"District Heights, Md.","high_school":null,"previous_school":"Florida A&M","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jordan-mccullum","name":"Jordan McCullum","first":"Jordan","last":"McCullum","jersey":"35","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":180,"hometown":"Harriman, Tenn.","high_school":null,"previous_school":"Murray State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cam-morris-iii","name":"Cam Morris III","first":"Cam","last":"Morris III","jersey":"15","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":80,"weight":205,"hometown":"Alexander City, Ala.","high_school":null,"previous_school":"UMass Lowell","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:henry-sisemore","name":"Henry Sisemore","first":"Henry","last":"Sisemore","jersey":"30","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":195,"hometown":"Lago Vista, Texas","high_school":null,"previous_school":"Lago Vista HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gabe-sisk","name":"Gabe Sisk","first":"Gabe","last":"Sisk","jersey":"21","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":207,"hometown":"Louisville, Ky.","high_school":null,"previous_school":"Ballard HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaylen-smith","name":"Jaylen Smith","first":"Jaylen","last":"Smith","jersey":"4","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":175,"hometown":"Ocoee, Fla.","high_school":null,"previous_school":"North Florida","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:allen-strothers","name":"Allen Strothers","first":"Allen","last":"Strothers","jersey":"5","pos":null,"class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":73,"weight":172,"hometown":"Newport News, Va.","high_school":null,"previous_school":"Menchville HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isaiah-sutherland","name":"Isaiah Sutherland","first":"Isaiah","last":"Sutherland","jersey":"24","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":215,"hometown":"Orlando, Fla.","high_school":null,"previous_school":"Orlando Christian Prep","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brian-taylor-ii","name":"Brian Taylor II","first":"Brian","last":"Taylor II","jersey":"11","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":175,"hometown":"St. Louis, Mo.","high_school":null,"previous_school":"SIU Edwardsville","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:frederico-whitaker-jr-","name":"Frederico Whitaker Jr.","first":"Frederico","last":"Whitaker Jr.","jersey":"23","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":135,"hometown":"Pittsboro, N.C.","high_school":null,"previous_school":"IMG Academy / Northwood HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

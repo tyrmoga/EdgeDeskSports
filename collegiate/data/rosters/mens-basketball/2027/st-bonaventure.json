@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "st-bonaventure",
+ "host": "gobonnies.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://gobonnies.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:taj-au-duke","name":"Taj Au-Duke","first":"Taj","last":"Au-Duke","jersey":"8","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":190,"hometown":"Toronto, Ontario","high_school":"CALI Prep","previous_school":"Pepperdine/Indian Hills","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:benjamin-bill","name":"Benjamin Bill","first":"Benjamin","last":"Bill","jersey":"24","pos":"C","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":82,"weight":240,"hometown":"Hamburg, N.Y.","high_school":"Hamburg","previous_school":"Daemen","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mason-blackwood","name":"Mason Blackwood","first":"Mason","last":"Blackwood","jersey":"2","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":79,"weight":230,"hometown":"Rochester, N.Y.","high_school":"New Hampton Prep School (N.H.)","previous_school":"Penn State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cameron-blankenberg","name":"Cameron Blankenberg","first":"Cameron","last":"Blankenberg","jersey":"4","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":200,"hometown":"Ontario Center, N.Y.","high_school":"Winchendon","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jack-derose","name":"Jack DeRose","first":"Jack","last":"DeRose","jersey":"15","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":175,"hometown":"Olean, N.Y.","high_school":"Olean","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chiek-diallo","name":"Chiek Diallo","first":"Chiek","last":"Diallo","jersey":"17","pos":"C","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":81,"weight":240,"hometown":"Vitoria-Gasteiz, Spain","high_school":null,"previous_school":"Baskonia","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ilia-ermakov","name":"Ilia Ermakov","first":"Ilia","last":"Ermakov","jersey":"1","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":null,"hometown":"Kursk, Russia","high_school":null,"previous_school":"CSKA Moscow II","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ari-fulton","name":"Ari Fulton","first":"Ari","last":"Fulton","jersey":"11","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":205,"hometown":"Fayetteville, N.C.","high_school":"Westover","previous_school":"NJIT","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:joe-grahovac","name":"Joe Grahovac","first":"Joe","last":"Grahovac","jersey":"32","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":82,"weight":215,"hometown":"Santa Ana, Ca.","high_school":"Foothill","previous_school":"Fullerton College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ryan-heath","name":"Ryan Heath","first":"Ryan","last":"Heath","jersey":"5","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":155,"hometown":"Rochester, N.Y.","high_school":"Irondequoit","previous_school":"Daemen","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:john-ikpotokin","name":"John Ikpotokin","first":"John","last":"Ikpotokin","jersey":"12","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":79,"weight":null,"hometown":"Dublin, Ireland","high_school":"Rothesay Netherwood School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ryan-kalambay","name":"Ryan Kalambay","first":"Ryan","last":"Kalambay","jersey":"30","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":240,"hometown":"Brampton, Ontario","high_school":"Fort Erie Academy","previous_school":"Detroit Mercy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:leo-kirk","name":"Leo Kirk","first":"Leo","last":"Kirk","jersey":"10","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":170,"hometown":"Weston, Mass.","high_school":"Weston","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:achille-lonati","name":"Achille Lonati","first":"Achille","last":"Lonati","jersey":"20","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":null,"hometown":"Pavia, Italy","high_school":null,"previous_school":"Olimpia Milano","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zach-philipkoski","name":"Zach Philipkoski","first":"Zach","last":"Philipkoski","jersey":"18","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":200,"hometown":"New Hartford, N.Y.","high_school":"New Hartford","previous_school":"Daemen","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:akbar-waheed-iii","name":"Akbar Waheed III","first":"Akbar","last":"Waheed III","jersey":"3","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":78,"weight":205,"hometown":"North Bethesda, MD","high_school":"Georgetown Prep","previous_school":"Boston College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "am-corpus-chris",
+ "host": "goislanders.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://goislanders.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:jamal-ambrose","name":"Jamal Ambrose","first":"Jamal","last":"Ambrose","jersey":"24","pos":null,"class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":82,"weight":260,"hometown":"Apple Valley, MN","high_school":"Eastview HS","previous_school":"Omaha","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kayden-crosby","name":"Kayden Crosby","first":"Kayden","last":"Crosby","jersey":"7","pos":null,"class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":79,"weight":195,"hometown":"Pflugerville, Texas","high_school":null,"previous_school":"North Platte CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cenker-evran","name":"Cenker Evran","first":"Cenker","last":"Evran","jersey":"99","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":235,"hometown":"Adana, Turkey","high_school":"Turk Telekom","previous_school":"Edinboro","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mason-gibson","name":"Mason Gibson","first":"Mason","last":"Gibson","jersey":"3","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":72,"weight":170,"hometown":"Allen, TX","high_school":"Allen HS","previous_school":"Midwestern State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaden-haire","name":"Jaden Haire","first":"Jaden","last":"Haire","jersey":"11","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":235,"hometown":"Hanford, CA","high_school":"Hanford West HS","previous_school":"College of the Sequoias","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cedric-horton","name":"Cedric Horton","first":"Cedric","last":"Horton","jersey":"14","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":185,"hometown":"Richmond, IN","high_school":"Hargrave Military Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:d-avian-houston","name":"D'Avian Houston","first":"D'Avian","last":"Houston","jersey":"0","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":74,"weight":210,"hometown":"Houston, TX","high_school":"Bellaire Episcopal HS","previous_school":"Coastal Carolina","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:daniel-michelini-jackson","name":"Daniel Michelini-Jackson","first":"Daniel","last":"Michelini-Jackson","jersey":"10","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":180,"hometown":"Inglewood, CA","high_school":"Lawndale HS","previous_school":"East Los Angeles College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:michael-oaks","name":"Michael Oaks","first":"Michael","last":"Oaks","jersey":"20","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":82,"weight":220,"hometown":"Houston, Texas","high_school":"Southern California Academy","previous_school":"Detroit Mercy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trenton-pane","name":"Trenton Pane","first":"Trenton","last":"Pane","jersey":"13","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":180,"hometown":"Allen, TX","high_school":"Allen HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kam-parker","name":"Kam Parker","first":"Kam","last":"Parker","jersey":"4","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":180,"hometown":"Tulsa, Okla.","high_school":"Booker T. Washington HS","previous_school":"Independence CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kobi-pearson","name":"Kobi Pearson","first":"Kobi","last":"Pearson","jersey":"5","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":215,"hometown":"Lancaster, TX","high_school":"Lancaster HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nick-shogbonyo","name":"Nick Shogbonyo","first":"Nick","last":"Shogbonyo","jersey":"1","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":185,"hometown":"Arlington, TX","high_school":"Mansfield Summit HS","previous_school":"Denver","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:leo-torbor","name":"Leo Torbor","first":"Leo","last":"Torbor","jersey":"2","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":195,"hometown":"Brooklyn Park, Minn.","high_school":"Park Center HS","previous_school":"New Mexico JC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bryson-wheatfall","name":"Bryson Wheatfall","first":"Bryson","last":"Wheatfall","jersey":"8","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":205,"hometown":"Humble, TX","high_school":"Legacy Early College","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sheldon-williams","name":"Sheldon Williams","first":"Sheldon","last":"Williams","jersey":"6","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":220,"hometown":"Atmore, Ala.","high_school":"Escambia County HS","previous_school":"Coastal Alabama Community College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:franck-yetna","name":"Franck Yetna","first":"Franck","last":"Yetna","jersey":"22","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":79,"weight":215,"hometown":"Paris, France","high_school":"Lycee Camille Claudel","previous_school":"Lincoln University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "schema": "edgedesk_collegiate_schedule_v1",
+ "school": "southeast-mo-st",
+ "host": "semoredhawks.com",
+ "platform": "sidearm",
+ "sport": "baseball",
+ "season": 2027,
+ "season_label": "2027",
+ "url": "https://semoredhawks.com/sports/baseball/schedule/2027",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "readers": "sidearm,sidearm_vue,sidearm_legacy,wmt+themes10+sport_path+plain_page",
+ "games_listed": 5,
+ "finals": 0,
+ "undated": 0,
+ "games": [
+  {"game_key":"19065","date":"2026-10-14","time":"4 p.m.","site":"H","opponent":"Jefferson College","opponent_host":"jeffco.edu","conference":false,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":null,"event":null,"boxscore":null,"note":null},
+  {"game_key":"19066","date":"2026-10-16","time":"5 p.m.","site":"H","opponent":"Three Rivers Community College","opponent_host":"raidersathletics.com","conference":false,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":null,"event":null,"boxscore":null,"note":null},
+  {"game_key":"19067","date":"2026-10-24","time":"2 p.m.","site":"N","opponent":"Central Missouri","opponent_host":"ucmathletics.com","conference":false,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":null,"event":null,"boxscore":null,"note":null},
+  {"game_key":"19068","date":"2026-10-24","time":"6 p.m.","site":"A","opponent":"Missouri","opponent_host":"mutigers.com","conference":false,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":"Columbia, MO","event":null,"boxscore":null,"note":null},
+  {"game_key":"19069","date":"2026-10-28","time":"TBA","site":"H","opponent":"Fall World Series","opponent_host":"semoredhawks.com","conference":false,"postseason":false,"doubleheader":false,"status":"scheduled","us":null,"them":null,"outcome":null,"innings":null,"location":null,"event":null,"boxscore":null,"note":null}
+ ]
+}

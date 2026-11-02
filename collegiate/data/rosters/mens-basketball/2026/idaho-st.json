@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "idaho-st",
+ "host": "isubengals.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://isubengals.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:trey-arland","name":"Trey Arland","first":"Trey","last":"Arland","jersey":"8","pos":"G/F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":79,"weight":190,"hometown":"Kennewick, WA","high_school":null,"previous_school":"Walla Walla CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:landen-birley","name":"Landen Birley","first":"Landen","last":"Birley","jersey":"3","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":180,"hometown":"Yakima, Washington","high_school":null,"previous_school":"West Valley High School","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:louis-bond","name":"Louis Bond","first":"Louis","last":"Bond","jersey":"13","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":185,"hometown":"Los Angeles, CA","high_school":null,"previous_school":"Windward HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lachlan-brewer","name":"Lachlan Brewer","first":"Lachlan","last":"Brewer","jersey":"12","pos":"G/F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":210,"hometown":"Launceston, Tasmania, Australia","high_school":null,"previous_school":"Sacramento State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaedyn-brown","name":"Jaedyn Brown","first":"Jaedyn","last":"Brown","jersey":"4","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":77,"weight":185,"hometown":"Pullman, WA","high_school":null,"previous_school":"Pullman HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kasen-carpenter","name":"Kasen Carpenter","first":"Kasen","last":"Carpenter","jersey":"14","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":190,"hometown":"Rupert, ID","high_school":null,"previous_school":"Lewis-Clark State College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:blake-daberkow","name":"Blake Daberkow","first":"Blake","last":"Daberkow","jersey":"32","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":82,"weight":235,"hometown":"Lincoln, NE","high_school":null,"previous_school":"Central CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gus-etchison","name":"Gus Etchison","first":"Gus","last":"Etchison","jersey":"0","pos":"PG","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":71,"weight":150,"hometown":"Arcadia, IN","high_school":null,"previous_school":"Marian University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jamison-guerra","name":"Jamison Guerra","first":"Jamison","last":"Guerra","jersey":"2","pos":"PG","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":72,"weight":200,"hometown":"Sherwood, OR","high_school":null,"previous_school":"Oregon Institute of Technology","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:connor-hollenbeck","name":"Connor Hollenbeck","first":"Connor","last":"Hollenbeck","jersey":"10","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":79,"weight":225,"hometown":"Rapid City, SD","high_school":null,"previous_school":"Minot State University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:martin-kheil","name":"Martin Kheil","first":"Martin","last":"Kheil","jersey":"11","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":205,"hometown":"Prague, Czech Republic","high_school":null,"previous_school":"Get Better Academy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:evan-otten","name":"Evan Otten","first":"Evan","last":"Otten","jersey":"30","pos":"F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":83,"weight":240,"hometown":"Redmond, OR","high_school":null,"previous_school":"Redmond HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:quin-patterson","name":"Quin Patterson","first":"Quin","last":"Patterson","jersey":"21","pos":"G/F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":79,"weight":205,"hometown":"Snoqualmie, Washington","high_school":null,"previous_school":"UC San Diego","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cheikh-sow","name":"Cheikh Sow","first":"Cheikh","last":"Sow","jersey":"5","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":79,"weight":195,"hometown":"Thies, Senegal","high_school":null,"previous_school":"Cloud County CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:caleb-van-de-griend","name":"Caleb Van De Griend","first":"Caleb","last":"Van De Griend","jersey":"24","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":255,"hometown":"Bridgetown, Australia","high_school":null,"previous_school":"Minot State University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "villanova",
+ "host": "villanova.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://villanova.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 14,
+ "players": [
+  {"pid":"slug:wade-chiddick","name":"Wade Chiddick","first":"Wade","last":"Chiddick","jersey":"14","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":76,"weight":200,"hometown":"King of Prussia, Pa.","high_school":"Westtown School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elijah-crawford","name":"Elijah Crawford","first":"Elijah","last":"Crawford","jersey":"1","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":187,"hometown":"Augusta, Ga.","high_school":"Augusta Christian","previous_school":"UIC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kwame-evans-jr-","name":"Kwame Evans, Jr.","first":"Kwame","last":"Evans, Jr.","jersey":"10","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":82,"weight":220,"hometown":"Baltimore, Md.","high_school":"Montverde Academy (Fla.)","previous_school":"Oregon","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jake-fiegen","name":"Jake Fiegen","first":"Jake","last":"Fiegen","jersey":"22","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":76,"weight":205,"hometown":"Wilmette, Ill.","high_school":"New Trier","previous_school":"Cornell","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:carter-fisk","name":"Carter Fisk","first":"Carter","last":"Fisk","jersey":"5","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":175,"hometown":"Baltimore, Md.","high_school":"St. Frances","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:matt-hodge","name":"Matt Hodge","first":"Matt","last":"Hodge","jersey":"3","pos":null,"class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":80,"weight":220,"hometown":"Limburg, Belgium","high_school":"St. Rose (N.J.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brady-muller","name":"Brady Muller","first":"Brady","last":"Muller","jersey":"2","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":76,"weight":210,"hometown":"Wyckoff, N.J.","high_school":"Blair Academy","previous_school":"Bucknell","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nico-onyekwere","name":"Nico Onyekwere","first":"Nico","last":"Onyekwere","jersey":"15","pos":null,"class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":85,"weight":240,"hometown":"Abuja, Nigeria","high_school":"Long Island Lutheran","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:adam-oumiddoch","name":"Adam Oumiddoch","first":"Adam","last":"Oumiddoch","jersey":"7","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":202,"hometown":"Woodbridge, Va.","high_school":"Overtime Elite","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tyler-perkins","name":"Tyler Perkins","first":"Tyler","last":"Perkins","jersey":"4","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":212,"hometown":"Lorton, Va.","high_school":"Landon School","previous_school":"Penn","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:devin-royal","name":"Devin Royal","first":"Devin","last":"Royal","jersey":"21","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":230,"hometown":"Columbus, Ohio","high_school":"Pickerington H.S.","previous_school":"Ohio State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:abdou-samb","name":"Abdou Samb","first":"Abdou","last":"Samb","jersey":"9","pos":null,"class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":80,"weight":220,"hometown":"Upper Marlboro, Md.","high_school":"Frederick Douglass","previous_school":"Towson","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:darryl-simmons-ii","name":"Darryl Simmons II","first":"Darryl","last":"Simmons II","jersey":"8","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":175,"hometown":"Detroit, Mich.","high_school":"Putnam Science Academy","previous_school":"St. Bonaventure","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:luigi-suigo","name":"Luigi Suigo","first":"Luigi","last":"Suigo","jersey":"19","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":87,"weight":289,"hometown":"Tradate, Varese, Italy","high_school":null,"previous_school":"BC Mega Basket","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "loyola-marymount",
+ "host": "lmulions.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://lmulions.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:myron-mj-amey-jr-","name":"Myron \"MJ\" Amey, Jr.","first":"Myron","last":"\"MJ\" Amey, Jr.","jersey":"5","pos":"G","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":74,"weight":205,"hometown":"Vacaville, CA","high_school":"Scotland Prep (Pa.)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rodney-brown","name":"Rodney Brown","first":"Rodney","last":"Brown","jersey":"2","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":185,"hometown":"Perris, CA","high_school":"Rancho Christian School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kevin-carney","name":"Kevin Carney","first":"Kevin","last":"Carney","jersey":"41","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":165,"hometown":"Menlo Park, Calif.","high_school":"Sacred Heart Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:josh-dalton","name":"Josh Dalton","first":"Josh","last":"Dalton","jersey":"6","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":82,"weight":220,"hometown":"Concord, NC","high_school":"Golden State Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rick-issanza","name":"Rick Issanza","first":"Rick","last":"Issanza","jersey":"22","pos":"C","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":85,"weight":245,"hometown":"Kinshasa, Congo","high_school":"Bella Vista Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rokas-jocius","name":"Rokas Jocius","first":"Rokas","last":"Jocius","jersey":"35","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":82,"weight":245,"hometown":"Kaunas, Lithuania","high_school":"Vilniaus “Ozo” Gimnazija","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jael-martin","name":"Jael Martin","first":"Jael","last":"Martin","jersey":"24","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":80,"weight":205,"hometown":"Carlsbad, CA","high_school":"Carlsbad HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aaron-mcbride","name":"Aaron McBride","first":"Aaron","last":"McBride","jersey":"16","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":230,"hometown":"Corona, CA","high_school":"Corona Centennial HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jalen-shelley","name":"Jalen Shelley","first":"Jalen","last":"Shelley","jersey":"1","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":210,"hometown":"Little Elm, TX","high_school":"Link Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nakyel-shelton","name":"Nakyel Shelton","first":"Nakyel","last":"Shelton","jersey":"0","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":75,"weight":185,"hometown":"Chicago, IL","high_school":"Carl Schurz HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cooper-smith","name":"Cooper Smith","first":"Cooper","last":"Smith","jersey":"40","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":180,"hometown":"Milwaukee, WI","high_school":"Greendale HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aj-thomas","name":"AJ Thomas","first":"AJ","last":"Thomas","jersey":"4","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":210,"hometown":"Lancaster, CA","high_school":"Eduprize HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tanner-thomas","name":"Tanner Thomas","first":"Tanner","last":"Thomas","jersey":"13","pos":"G","class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":78,"weight":205,"hometown":"Stamford, CT","high_school":"Williston Northampton School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:george-tupy","name":"George Tupy","first":"George","last":"Tupy","jersey":"42","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":220,"hometown":"Sierra Madre, CA","high_school":"St. Francis HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jan-vide","name":"Jan Vide","first":"Jan","last":"Vide","jersey":"7","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":210,"hometown":"Domzale, Slovenia","high_school":"SEK El Castillo International School [Spain]","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:marley-zeller","name":"Marley Zeller","first":"Marley","last":"Zeller","jersey":"3","pos":"G","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":77,"weight":190,"hometown":"Portland, OR","high_school":"Central Catholic HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

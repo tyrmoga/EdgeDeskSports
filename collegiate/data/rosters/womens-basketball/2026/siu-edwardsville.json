@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "siu-edwardsville",
+ "host": "siuecougars.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://siuecougars.com/sports/womens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:adebukola-akomolafe","name":"Adebukola Akomolafe","first":"Adebukola","last":"Akomolafe","jersey":"33","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":70,"weight":null,"hometown":"El Paso, Texas","high_school":null,"previous_school":"Virginia Commonwealth","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:adriana-blazquez","name":"Adriana Blazquez","first":"Adriana","last":"Blazquez","jersey":"15","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Madrid, Spain","high_school":null,"previous_school":"Murray State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaiden-bryant","name":"Jaiden Bryant","first":"Jaiden","last":"Bryant","jersey":"22","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"St. Louis, Mo.","high_school":null,"previous_school":"Missouri St.","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kaitlin-cassidy","name":"Kaitlin Cassidy","first":"Kaitlin","last":"Cassidy","jersey":"23","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Peoria, Ill.","high_school":null,"previous_school":"Peoria Notre Dame HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emiyah-cobb","name":"Emiyah Cobb","first":"Emiyah","last":"Cobb","jersey":"10","pos":null,"class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":69,"weight":null,"hometown":"Clarksville, Tenn.","high_school":null,"previous_school":"Northwest HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rory-conboy","name":"Rory Conboy","first":"Rory","last":"Conboy","jersey":"12","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"St. Louis, Mo.","high_school":null,"previous_school":"Lindbergh HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:meegan-fahy","name":"Meegan Fahy","first":"Meegan","last":"Fahy","jersey":"11","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":66,"weight":null,"hometown":"Park Ridge, Ill.","high_school":null,"previous_school":"Maine South","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kendal-george","name":"Kendal George","first":"Kendal","last":"George","jersey":"0","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Centerville, Ohio","high_school":null,"previous_school":"UT Martin","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ava-gugliuzza","name":"Ava Gugliuzza","first":"Ava","last":"Gugliuzza","jersey":"5","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"New Lenox, Ill.","high_school":null,"previous_school":"Lincoln-Way West HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lauren-miller","name":"Lauren Miller","first":"Lauren","last":"Miller","jersey":"24","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Camp Point, Ill.","high_school":null,"previous_school":"Camp Point Central","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:syanne-mohamed","name":"Syanne Mohamed","first":"Syanne","last":"Mohamed","jersey":"32","pos":null,"class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":75,"weight":null,"hometown":"Bulawayo, Zimbabwe","high_school":null,"previous_school":"Goshen College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kiyoko-proctor","name":"Kiyoko Proctor","first":"Kiyoko","last":"Proctor","jersey":"1","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":66,"weight":null,"hometown":"Alton, Ill.","high_school":null,"previous_school":"Alton HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:macy-silvey","name":"Macy Silvey","first":"Macy","last":"Silvey","jersey":"4","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Glen Carbon, Ill.","high_school":null,"previous_school":"Edwardsville HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sy-rae-stemmons","name":"Sy'Rae Stemmons","first":"Sy'Rae","last":"Stemmons","jersey":"34","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Columbia, Mo.","high_school":null,"previous_school":"Hickman High school","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kyra-williams","name":"Kyra Williams","first":"Kyra","last":"Williams","jersey":"2","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":66,"weight":null,"hometown":"Troy, Ill.","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

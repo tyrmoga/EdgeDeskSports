@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "jacksonville",
+ "host": "judolphins.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://judolphins.com/sports/womens-volleyball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:kathryn-adler","name":"Kathryn Adler","first":"Kathryn","last":"Adler","jersey":"13","pos":"MB/OPP","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Champlin, Minn.","high_school":"Champlin Park","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jade-cuya-cobos","name":"Jade Cuya Cobos","first":"Jade","last":"Cuya Cobos","jersey":"10","pos":"S","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Lima, Peru","high_school":"Universidad San Martín","previous_school":"Odessa","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:daiangelie-gonzalez","name":"Daiangelie Gonzalez","first":"Daiangelie","last":"Gonzalez","jersey":"2","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Cidra, Puerto Rico","high_school":"Colegio Católico Notre Dame","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alija-heins","name":"Alija Heins","first":"Alija","last":"Heins","jersey":"7","pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Gifhorn, Germany","high_school":"Schul- und Leistungssportzentrum Berlin","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elle-kennedy","name":"Elle Kennedy","first":"Elle","last":"Kennedy","jersey":"1","pos":"DS/LB","class":"JR","redshirt":false,"class_raw":"Junior","height_in":65,"weight":null,"hometown":"Sheboygan Falls, Wisc.","high_school":"Howards Grove","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:addison-krieger","name":"Addison Krieger","first":"Addison","last":"Krieger","jersey":"6","pos":"MB/OPP","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":73,"weight":null,"hometown":"Mount Pleasant, S.C.","high_school":"Wando","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aaliyah-mixon","name":"Aaliyah Mixon","first":"Aaliyah","last":"Mixon","jersey":"17","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Dallas, Texas","high_school":"Allen","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:claire-mrukowski","name":"Claire Mrukowski","first":"Claire","last":"Mrukowski","jersey":"8","pos":"OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Powell, Ohio","high_school":"Olentangy Liberty","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ana-nastase","name":"Ana Nastase","first":"Ana","last":"Nastase","jersey":"22","pos":"S","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Oakville, Ontario","high_school":"Garth Webb Secondary","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:selah-simien","name":"Selah Simien","first":"Selah","last":"Simien","jersey":"20","pos":"L","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Lawrence, Kan.","high_school":"Lawrence","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:emersen-strain","name":"Emersen Strain","first":"Emersen","last":"Strain","jersey":"4","pos":"S","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Brighton, Colo.","high_school":"Horizon","previous_school":"Creighton","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ana-tobar","name":"Ana Tobar","first":"Ana","last":"Tobar","jersey":"15","pos":"OH/LB","class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Miami, Fla.","high_school":"St. Brendan","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaylyn-tuiasosopo","name":"Jaylyn Tuiasosopo","first":"Jaylyn","last":"Tuiasosopo","jersey":"5","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"San Antonio, Texas","high_school":"O'Connor","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:abbie-tuyo","name":"Abbie Tuyo","first":"Abbie","last":"Tuyo","jersey":"3","pos":"OH","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":70,"weight":null,"hometown":"Waco, Texas","high_school":"Lorena","previous_school":"Campbell","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zoey-vandel","name":"Zoey Vandel","first":"Zoey","last":"Vandel","jersey":"21","pos":"OH","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":70,"weight":null,"hometown":"Panama City Beach, Fla.","high_school":"Arnold","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:haley-yount","name":"Haley Yount","first":"Haley","last":"Yount","jersey":"11","pos":"MB","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"St. Louis, Missouri","high_school":"Northwest","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

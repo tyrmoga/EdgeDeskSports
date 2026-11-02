@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "manhattan",
+ "host": "gojaspers.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://gojaspers.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:amanda-baumgarte","name":"Amanda Baumgarte","first":"Amanda","last":"Baumgarte","jersey":"23","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Riga, Latvia","high_school":"Riga Jimanta Secondary School","previous_school":"Western Wyoming","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kennedy-brown","name":"Kennedy Brown","first":"Kennedy","last":"Brown","jersey":"10","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Jefferson, NJ","high_school":"Morris Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ella-chandler","name":"Ella Chandler","first":"Ella","last":"Chandler","jersey":"13","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":72,"weight":null,"hometown":"Ballston Lake, NY","high_school":"Wilbraham & Monson","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaelyn-choi","name":"Jaelyn Choi","first":"Jaelyn","last":"Choi","jersey":"4","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":67,"weight":null,"hometown":"Osseo, MN","high_school":"Osseo Senior","previous_school":"Bridgeport","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ruzgar-christina-boyle","name":"Ruzgar Christina Boyle","first":"Ruzgar","last":"Christina Boyle","jersey":"3","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":null,"hometown":"Istanbul, Turkey","high_school":"Layton Christian Academy (UT)","previous_school":"American International","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:olivia-grgicevich-lassey","name":"Olivia Grgicevich Lassey","first":"Olivia","last":"Grgicevich Lassey","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Mount Maunganui, New Zealand","high_school":"Mount Maunganui","previous_school":"Collin College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:celeste-harper","name":"Celeste Harper","first":"Celeste","last":"Harper","jersey":"5","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":null,"hometown":"Englewood, NJ","high_school":"Academy of the Holy Angels","previous_school":"Kent School (CT)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cortney-howell","name":"Cortney Howell","first":"Cortney","last":"Howell","jersey":"2","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Boston, MA","high_school":"St. Mark's School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:laia-izquierdo-altimira","name":"Laia Izquierdo Altimira","first":"Laia","last":"Izquierdo Altimira","jersey":"52","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Barcelona, Spain","high_school":"Sagrada Familia de Sant Andreu","previous_school":"McCook","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kristina-juric","name":"Kristina Juric","first":"Kristina","last":"Juric","jersey":"6","pos":"F","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":74,"weight":null,"hometown":"Zagreb, Croatia","high_school":"Kušlanova Gymnasium","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bleu-kerr","name":"Bleu Kerr","first":"Bleu","last":"Kerr","jersey":"0","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":69,"weight":null,"hometown":"Boston, MA","high_school":"St. Mark's School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:taylah-murtagh","name":"Taylah Murtagh","first":"Taylah","last":"Murtagh","jersey":"7","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Traralgon, Australia","high_school":null,"previous_school":"Williston State College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:laura-ring","name":"Laura Ring","first":"Laura","last":"Ring","jersey":"24","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Dunedin, New Zealand","high_school":"St. Hilda's Collegiate","previous_school":"Central Wyoming","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nisan-sel","name":"Nisan Sel","first":"Nisan","last":"Sel","jersey":"8","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":68,"weight":null,"hometown":"Ankara, Turkey","high_school":"TED Ankara College Private","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ana-zesati","name":"Ana Zesati","first":"Ana","last":"Zesati","jersey":"20","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":null,"hometown":"Nueva Leon, Mexico","high_school":"Royal Hollow Academy","previous_school":"Lamar CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

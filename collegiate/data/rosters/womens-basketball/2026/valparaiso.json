@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "valparaiso",
+ "host": "valpoathletics.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://valpoathletics.com/sports/womens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:isabella-anderson","name":"Isabella Anderson","first":"Isabella","last":"Anderson","jersey":"3","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"Milbank, S.D.","high_school":"Milbank","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:fiona-connolly","name":"Fiona Connolly","first":"Fiona","last":"Connolly","jersey":"4","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"South Burlington, Vt.","high_school":"Brewster Academy","previous_school":"La Salle","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nuala-connolly","name":"Nuala Connolly","first":"Nuala","last":"Connolly","jersey":"22","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"South Burlington, Vt.","high_school":"Western Reserve Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:autumn-dibb","name":"Autumn Dibb","first":"Autumn","last":"Dibb","jersey":"10","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Muskego, Wis.","high_school":"Muskego","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mikayla-huffine","name":"Mikayla Huffine","first":"Mikayla","last":"Huffine","jersey":"20","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":64,"weight":null,"hometown":"Rockford, Ill.","high_school":"Rockford Lutheran","previous_school":"Quincy/Iowa Western C.C.","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:milana-nenadic","name":"Milana Nenadic","first":"Milana","last":"Nenadic","jersey":"21","pos":null,"class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":75,"weight":null,"hometown":"Kitchener, Ontario","high_school":"Cameron Heights","previous_school":"Idaho State/Maine","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kayla-preston","name":"Kayla Preston","first":"Kayla","last":"Preston","jersey":"24","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Omaha, Neb.","high_school":"Millard North","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:raeven-raye-redmond","name":"Raeven Raye-Redmond","first":"Raeven","last":"Raye-Redmond","jersey":"5","pos":null,"class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":66,"weight":null,"hometown":"Trotwood, Ohio","high_school":"Trotwood Madison","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maci-rhoades","name":"Maci Rhoades","first":"Maci","last":"Rhoades","jersey":"2","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"Beavercreek, Ohio","high_school":"Beavercreek","previous_school":"Radford","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mor-shabtai","name":"Mor Shabtai","first":"Mor","last":"Shabtai","jersey":"9","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":64,"weight":null,"hometown":"Tel Aviv, Israel","high_school":"Tichonet","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kennedy-sproule","name":"Kennedy Sproule","first":"Kennedy","last":"Sproule","jersey":"11","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Niverville, Manitoba","high_school":"Churchill","previous_school":"Bay College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kayla-sullivan","name":"Kayla Sullivan","first":"Kayla","last":"Sullivan","jersey":"25","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"St. Louis, Mo.","high_school":"Lutheran North","previous_school":"State Fair C.C.","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bella-swedlund","name":"Bella Swedlund","first":"Bella","last":"Swedlund","jersey":"23","pos":null,"class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":68,"weight":null,"hometown":"Winner, S.D.","high_school":"Winner","previous_school":"Toledo/Kansas","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:allia-von-schlegell","name":"Allia von Schlegell","first":"Allia","last":"von Schlegell","jersey":"1","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":65,"weight":null,"hometown":"Downers Grove, Ill.","high_school":"Nazareth Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kylie-waytashek","name":"Kylie Waytashek","first":"Kylie","last":"Waytashek","jersey":"33","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Royalton, Minn.","high_school":"Royalton","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kamryn-winch","name":"Kamryn Winch","first":"Kamryn","last":"Winch","jersey":"44","pos":null,"class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":75,"weight":null,"hometown":"Bonne Terre, Mo.","high_school":"North County","previous_school":"Maryville","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

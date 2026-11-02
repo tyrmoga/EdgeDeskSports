@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "kennesaw-st",
+ "host": "ksuowls.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://ksuowls.com/sports/womens-volleyball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:ashlyn-anderson","name":"Ashlyn Anderson","first":"Ashlyn","last":"Anderson","jersey":"16","pos":"RS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":null,"hometown":"Fleming Island, Fla.","high_school":"The Bolles School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kourtney-brown","name":"Kourtney Brown","first":"Kourtney","last":"Brown","jersey":"6","pos":"S","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":70,"weight":null,"hometown":"Birmingham, Ala.","high_school":"Ramsay HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:olivia-burrage","name":"Olivia Burrage","first":"Olivia","last":"Burrage","jersey":"14","pos":"MB","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":73,"weight":null,"hometown":"Jefferson, Ga.","high_school":"Jefferson HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maggie-byrd","name":"Maggie Byrd","first":"Maggie","last":"Byrd","jersey":"4","pos":"MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Pooler, Ga.","high_school":"Savannah Christian HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hunter-cook","name":"Hunter Cook","first":"Hunter","last":"Cook","jersey":"8","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Sopchoppy, Fla.","high_school":"Florida State University HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ava-garner","name":"Ava Garner","first":"Ava","last":"Garner","jersey":"7","pos":"MB","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Acworth, Ga.","high_school":"North Cobb Christian HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ava-holtz","name":"Ava Holtz","first":"Ava","last":"Holtz","jersey":"2","pos":"DS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"LaPorte, Ind.","high_school":"LaPorte HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:abby-kaminski","name":"Abby Kaminski","first":"Abby","last":"Kaminski","jersey":"9","pos":"DS/OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Indianapolis, Ind.","high_school":"Franklin Central HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:madelyn-lincicum","name":"Madelyn Lincicum","first":"Madelyn","last":"Lincicum","jersey":"11","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":null,"hometown":"Evans, Ga.","high_school":"Greenbrier HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:anna-ofenheusle","name":"Anna Ofenheusle","first":"Anna","last":"Ofenheusle","jersey":"1","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Lebanon, Tenn.","high_school":"Friendship Christian School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:haley-patterson","name":"Haley Patterson","first":"Haley","last":"Patterson","jersey":"10","pos":"RS/MB","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Mobile, Ala.","high_school":"St. Luke's Episcopal School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hannah-pearce","name":"Hannah Pearce","first":"Hannah","last":"Pearce","jersey":"3/18","pos":"OH","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Tanner Williams, Ala.","high_school":"Saraland HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gracie-pynes","name":"Gracie Pynes","first":"Gracie","last":"Pynes","jersey":"12","pos":"DS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":67,"weight":null,"hometown":"Acworth, Ga.","high_school":"Allatoona HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alexis-sowers","name":"Alexis Sowers","first":"Alexis","last":"Sowers","jersey":"5","pos":"DS","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":64,"weight":null,"hometown":"Jacksonville, Fla.","high_school":"Bishop Kenny HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ashley-theiss","name":"Ashley Theiss","first":"Ashley","last":"Theiss","jersey":"13","pos":"OH","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"DeSoto, Mo.","high_school":"DeSoto HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kaeley-walz","name":"Kaeley Walz","first":"Kaeley","last":"Walz","jersey":"15","pos":"S","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"Louisville, Ky.","high_school":"Sacred Heart Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

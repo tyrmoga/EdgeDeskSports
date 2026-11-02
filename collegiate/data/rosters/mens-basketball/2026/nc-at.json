@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "nc-at",
+ "host": "ncataggies.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://ncataggies.com/sports/mens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:mujahiid-burton","name":"Mujahiid Burton","first":"Mujahiid","last":"Burton","jersey":"2","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":180,"hometown":"Minneapolis, Minn.","high_school":"Minnesota Prep","previous_school":"Wabash Valley","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:yancarlos-cueto","name":"Yancarlos Cueto","first":"Yancarlos","last":"Cueto","jersey":"9","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":180,"hometown":"Providence, RI","high_school":"St. George's","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kj-debrick","name":"KJ Debrick","first":"KJ","last":"Debrick","jersey":"32","pos":"F","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":81,"weight":240,"hometown":"Springfield, Ill.","high_school":"Lamphier","previous_school":"Cleveland State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:amadou-doumbia","name":"Amadou Doumbia","first":"Amadou","last":"Doumbia","jersey":"14","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":83,"weight":215,"hometown":"Bamako, Mali","high_school":"Putman Science","previous_school":"UMass","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:will-felton","name":"Will Felton","first":"Will","last":"Felton","jersey":"34","pos":"C","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":81,"weight":260,"hometown":"Raleigh, N.C.","high_school":"Millbrook","previous_school":"Arizona State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:efstratios-kalliontzis","name":"Efstratios Kalliontzis","first":"Efstratios","last":"Kalliontzis","jersey":"31","pos":"C","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":83,"weight":225,"hometown":"Mitilini, Greece","high_school":"Hoosac Prep","previous_school":"LaSalle","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:uchenna-kellman-nicholes","name":"Uchenna Kellman-Nicholes","first":"Uchenna","last":"Kellman-Nicholes","jersey":"10","pos":"G","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":77,"weight":180,"hometown":"Orlando, Fla.","high_school":"Seminole","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jalal-mckie","name":"Jalal McKie","first":"Jalal","last":"McKie","jersey":"15","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":195,"hometown":"Atlanta, Ga.","high_school":"South Kent","previous_school":"Westlake","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trent-middleton-jr-","name":"Trent Middleton, Jr.","first":"Trent","last":"Middleton, Jr.","jersey":"1","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":185,"hometown":"Philadelphia, Pa.","high_school":"Philadelphia Math, Civic & Science Charter School","previous_school":"University of Delaware","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chanler-montgomery","name":"Chanler Montgomery","first":"Chanler","last":"Montgomery","jersey":"20","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":172,"hometown":"Blacksburg, Va.","high_school":"Salem","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bryson-ogletree","name":"Bryson Ogletree","first":"Bryson","last":"Ogletree","jersey":"4","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":190,"hometown":"Hampton, Ga.","high_school":"Mundy's Mill","previous_school":"South Plains College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dwayne-pierce","name":"Dwayne Pierce","first":"Dwayne","last":"Pierce","jersey":"11","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":215,"hometown":"New York, NY","high_school":"Christ The King","previous_school":"Iowa State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brooklyn-vick","name":"Brooklyn Vick","first":"Brooklyn","last":"Vick","jersey":"7","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":150,"hometown":"Deerfield Beach, Fla.","high_school":"St. Andrew's","previous_school":"Hargrave Military Academy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lewis-walker","name":"Lewis Walker","first":"Lewis","last":"Walker","jersey":"5","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":78,"weight":230,"hometown":"Winston-Salem, NC","high_school":"Winston-Salem Christian School","previous_school":"UMass","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lureon-walker","name":"Lureon Walker","first":"Lureon","last":"Walker","jersey":"0","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":77,"weight":190,"hometown":"Durham, NC","high_school":"NC GBB Academy","previous_school":"Mount Olive","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zamoku-weluche-ume","name":"Zamoku Weluche-Ume","first":"Zamoku","last":"Weluche-Ume","jersey":"8","pos":"F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":80,"weight":220,"hometown":"London, England","high_school":"Barking Abbey","previous_school":"George Washington","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

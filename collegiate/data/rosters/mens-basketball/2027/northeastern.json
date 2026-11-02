@@ -1,0 +1,30 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "northeastern",
+ "host": "gonu.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://gonu.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 14,
+ "players": [
+  {"pid":"slug:sage-baptiste","name":"Sage Baptiste","first":"Sage","last":"Baptiste","jersey":"24","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":220,"hometown":"Wareham, Mass.","high_school":"Tabor Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:louis-bond","name":"Louis Bond","first":"Louis","last":"Bond","jersey":"23","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":195,"hometown":"Los Ángeles, Calif.","high_school":"Windward High School","previous_school":"Idaho State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:josh-goodwin","name":"Josh Goodwin","first":"Josh","last":"Goodwin","jersey":"0","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":190,"hometown":"Cypress, Texas","high_school":"Cypress Ranch High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dorian-grosber","name":"Dorian Grosber","first":"Dorian","last":"Grosber","jersey":"8","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":205,"hometown":"Luxembourg City, Luxembourg","high_school":"BBC Sparta Bertrange","previous_school":"High Point","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:danny-houlihan","name":"Danny Houlihan","first":"Danny","last":"Houlihan","jersey":"11","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":185,"hometown":"Wilmette, Ill.","high_school":"New Trier Township","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jovan-icitovic","name":"Jovan Icitovic","first":"Jovan","last":"Icitovic","jersey":"7","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":205,"hometown":"Belgrade, Serbia","high_school":"KK Real Beograd","previous_school":"Arizona State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:damian-jung","name":"Damian Jung","first":"Damian","last":"Jung","jersey":"1","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":82,"weight":210,"hometown":"Bad Kreuznach, Germany","high_school":"Eastern High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rashad-king","name":"Rashad King","first":"Rashad","last":"King","jersey":"9","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":78,"weight":204,"hometown":"Evans, Ga.","high_school":"Evans High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:liam-koelsch","name":"Liam Koelsch","first":"Liam","last":"Koelsch","jersey":"54","pos":"C","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":82,"weight":245,"hometown":"Alexandria, Va.","high_school":"Bishop O’Connell High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mike-loughnane","name":"Mike Loughnane","first":"Mike","last":"Loughnane","jersey":"4","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":195,"hometown":"Quincy, Mass.","high_school":"Phillips Exeter Academy","previous_school":"Davidson","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:miles-newton","name":"Miles Newton","first":"Miles","last":"Newton","jersey":"10","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":210,"hometown":"Eden Prairie, Minn.","high_school":"Breck School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:petar-pinter","name":"Petar Pinter","first":"Petar","last":"Pinter","jersey":"13","pos":"C","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":83,"weight":245,"hometown":"Nikšic, Montenegro","high_school":"Gimnazija Stojan Cerovic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ryan-williams","name":"Ryan Williams","first":"Ryan","last":"Williams","jersey":"2","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":185,"hometown":"Phoenixville, Pa.","high_school":"Malvern Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brayden-young","name":"Brayden Young","first":"Brayden","last":"Young","jersey":"30","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":82,"weight":215,"hometown":"Houston, Texas","high_school":"Cypress Falls","previous_school":"Loyola","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

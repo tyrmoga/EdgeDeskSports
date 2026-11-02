@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "northern-ariz",
+ "host": "nauathletics.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://nauathletics.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:ryan-abelman","name":"Ryan Abelman","first":"Ryan","last":"Abelman","jersey":"11","pos":null,"class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":76,"weight":210,"hometown":"Las Vegas, Nev.","high_school":"Bishop Gorman","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jt-amundsen","name":"JT Amundsen","first":"JT","last":"Amundsen","jersey":"30","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":68,"weight":165,"hometown":"Goodyear, Ariz.","high_school":"Millennium","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dylan-anderson","name":"Dylan Anderson","first":"Dylan","last":"Anderson","jersey":"4","pos":null,"class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":84,"weight":225,"hometown":"Chandler, Ariz.","high_school":"Perry","previous_school":"Arizona / Boise State / Murray State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cade-bennett","name":"Cade Bennett","first":"Cade","last":"Bennett","jersey":"22","pos":null,"class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":72,"weight":170,"hometown":"Moraga, Calif.","high_school":"Campolindo","previous_school":"Saint Mary's College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mason-dorsey","name":"Mason Dorsey","first":"Mason","last":"Dorsey","jersey":"0","pos":null,"class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":76,"weight":195,"hometown":"Los Angeles, Calif.","high_school":"Crespi","previous_school":"Bethune Cookman / College of the Sequoias","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:noah-george","name":"Noah George","first":"Noah","last":"George","jersey":"23","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":185,"hometown":"Malton, Ontario, Canada","high_school":"Bella Vista College Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tamiel-green","name":"Tamiel Green","first":"Tamiel","last":"Green","jersey":"6","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":82,"weight":275,"hometown":"Atlanta, Ga.","high_school":"The Wilson Academy","previous_school":"Indian River State College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nana-keutcha","name":"Nana Keutcha","first":"Nana","last":"Keutcha","jersey":"31","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":82,"weight":220,"hometown":"Yaounde, Cameroon","high_school":"J.Addison","previous_school":"Colby CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chris-komin","name":"Chris Komin","first":"Chris","last":"Komin","jersey":"2","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":165,"hometown":"Cypress, Calif.","high_school":"St. John Bosco","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:max-majerle","name":"Max Majerle","first":"Max","last":"Majerle","jersey":"7","pos":null,"class":"SR","redshirt":true,"class_raw":"Redshirt Senior","height_in":76,"weight":200,"hometown":"Scottsdale, Ariz.","high_school":"Arcadia","previous_school":"Central Michigan / Pima CC / North Dakota State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:johnny-mautz","name":"Johnny Mautz","first":"Johnny","last":"Mautz","jersey":"35","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":185,"hometown":"St. Michaels, Md.","high_school":"St. Michaels","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brennan-peterson","name":"Brennan Peterson","first":"Brennan","last":"Peterson","jersey":"5","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":165,"hometown":"Scottsdale, Ariz.","high_school":"Dream City Christian","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zach-tanner","name":"Zach Tanner","first":"Zach","last":"Tanner","jersey":"33","pos":null,"class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":81,"weight":205,"hometown":"Salt Lake City, Utah","high_school":"Herriman","previous_school":"Utah State Eastern","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lucas-toukam","name":"Lucas Toukam","first":"Lucas","last":"Toukam","jersey":"1","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":205,"hometown":"Bafoussam, Cameroon","high_school":"Bella Vista College Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:luke-wieskamp","name":"Luke Wieskamp","first":"Luke","last":"Wieskamp","jersey":"3","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":205,"hometown":"Phoenix, Ariz.","high_school":"Brophy College Prep","previous_school":"Menlo College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

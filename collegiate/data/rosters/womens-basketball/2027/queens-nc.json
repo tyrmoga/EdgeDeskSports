@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "queens-nc",
+ "host": "queensathletics.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2027,
+ "season_label": "2026-2027",
+ "url": "https://queensathletics.com/sports/womens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:anisa-akinola","name":"Anisa Akinola","first":"Anisa","last":"Akinola","jersey":"0","pos":"G/F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Livingston, N.J.","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nykira-arrington","name":"Nykira Arrington","first":"Nykira","last":"Arrington","jersey":"10","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Rocky Mount, N.C.","high_school":"South Mecklenburg","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ryan-davis","name":"Ryan Davis","first":"Ryan","last":"Davis","jersey":"14","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Cincinnati, Ohio","high_school":"Winton Woods","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:breah-franks","name":"Breah Franks","first":"Breah","last":"Franks","jersey":"31","pos":"C","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":null,"hometown":"Greenville, S.C.","high_school":"J.L. Mann High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kelley-hutcherson","name":"Kelley Hutcherson","first":"Kelley","last":"Hutcherson","jersey":"9","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Culpeper, Va.","high_school":"Culpeper County High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brenae-jones-grant","name":"Brenae Jones-Grant","first":"Brenae","last":"Jones-Grant","jersey":"5","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Plainfield, N.J.","high_school":"Cleveland State University","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ahmani-klabunde","name":"Ahmani Klabunde","first":"Ahmani","last":"Klabunde","jersey":"3","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"Omaha, Neb.","high_school":"Omaha Benson","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:janiya-milligan","name":"Janiya Milligan","first":"Janiya","last":"Milligan","jersey":"2","pos":"G/F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"Mount Vernon, N.Y.","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:makayla-minshall","name":"Makayla Minshall","first":"Makayla","last":"Minshall","jersey":"11","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Sydney, New South Wales","high_school":"Westfield Sports","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mia-moore","name":"Mia Moore","first":"Mia","last":"Moore","jersey":"23","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":null,"hometown":"Aurora, Ill.","high_school":"Rock Valley College","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ashantay-noble","name":"Ashantay Noble","first":"Ashantay","last":"Noble","jersey":"21","pos":"G/F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Statesboro, Ga.","high_school":"Bulloch Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cianna-papineau","name":"Cianna Papineau","first":"Cianna","last":"Papineau","jersey":"4","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Onondaga Nation, N.Y.","high_school":"Lafayette","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:shadeh-preston","name":"Shadeh Preston","first":"Shadeh","last":"Preston","jersey":"32","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":73,"weight":null,"hometown":"Denstrof, Germany","high_school":"IGS Franzsches Feld","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:paulina-reichenaur","name":"Paulina Reichenaur","first":"Paulina","last":"Reichenaur","jersey":"8","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Waiblingen, Germany","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:shira-shani","name":"Shira Shani","first":"Shira","last":"Shani","jersey":"35","pos":"PG","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":66,"weight":null,"hometown":"Givatayim, Israel","high_school":"Ort Givatayim","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

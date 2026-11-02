@@ -2,7 +2,7 @@
  "schema": "edgedesk_collegiate_portal_v1",
  "sport": "baseball",
  "season": 2026,
- "built_at": "2026-11-01T09:48:13.875Z",
+ "built_at": "2026-11-02T22:42:43.099Z",
  "note": "Built from the rosters schools publish, season to season. Dates are when we saw a change, not portal entry dates (the NCAA portal database is not public).",
  "coverage": {
   "schools_this_season": 286,
@@ -1961,7 +1961,7 @@
    "returning": 16,
    "returning_share": 0.4,
    "transfers_in": 13,
-   "transfers_in_from_tracked": 7,
+   "transfers_in_from_tracked": 8,
    "transfers_in_juco": 1,
    "transfers_out": 1,
    "departures_eligibility_done": 10,
@@ -35157,7 +35157,8 @@
    "evidence": [
     "previous_school",
     "name",
-    "hometown"
+    "hometown",
+    "high_school"
    ],
    "left_seen": null,
    "arrived_seen": "2026-10-21",
@@ -43486,7 +43487,7 @@
    "class_after": "JR",
    "pos": "RHP",
    "hometown": "New Orleans, La.",
-   "high_school": null,
+   "high_school": "Holy Cross HS",
    "evidence": [
     "previous_school",
     "name",
@@ -103327,7 +103328,7 @@
    "class_after": "JR",
    "pos": "C",
    "hometown": "Monroe, La.",
-   "high_school": null,
+   "high_school": "Neville HS",
    "evidence": [
     "previous_school"
    ],
@@ -103346,7 +103347,7 @@
    "class_after": "JR",
    "pos": "RHP",
    "hometown": "Monroe, La.",
-   "high_school": null,
+   "high_school": "Neville HS",
    "evidence": [
     "previous_school"
    ],
@@ -103365,7 +103366,7 @@
    "class_after": "JR",
    "pos": "LHP",
    "hometown": "Snohomish, Wash.",
-   "high_school": null,
+   "high_school": "Snohomish HS",
    "evidence": [
     "previous_school"
    ],
@@ -103436,7 +103437,7 @@
    "class_after": "SO",
    "pos": "LHP",
    "hometown": "Tioga, La.",
-   "high_school": null,
+   "high_school": "Tioga HS",
    "evidence": [
     "previous_school"
    ],
@@ -105004,9 +105005,9 @@
   {
    "kind": "transfer",
    "player": "Landen Moore",
-   "from": null,
-   "from_text": "Eastern Florida State College",
-   "from_level": "other",
+   "from": "mars-hill",
+   "from_text": "Mars Hill",
+   "from_level": "tracked",
    "to": "longwood",
    "to_pid": "slug:landen-moore",
    "class_after": "JR",
@@ -105017,7 +105018,7 @@
     "previous_school"
    ],
    "arrived_seen": "2026-10-21",
-   "from_conference": null,
+   "from_conference": "South Atlantic",
    "to_conference": "Big South"
   },
   {
@@ -139760,7 +139761,7 @@
   "Berry College": 2,
   "Warner University": 2,
   "Indian River State College": 3,
-  "Eastern Florida State College": 5,
+  "Eastern Florida State College": 4,
   "UAPB": 1,
   "Northwest FL": 1,
   "Minnesota State": 1,

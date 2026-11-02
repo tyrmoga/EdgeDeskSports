@@ -1,0 +1,33 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "alcorn",
+ "host": "alcornsports.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://alcornsports.com/sports/womens-volleyball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 17,
+ "players": [
+  {"pid":"slug:kelsey-burks","name":"Kelsey Burks","first":"Kelsey","last":"Burks","jersey":"4","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"LaGrange, Ga.","high_school":"LaGrange HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alexis-burton","name":"Alexis Burton","first":"Alexis","last":"Burton","jersey":"12","pos":"OH","class":"JR","redshirt":false,"class_raw":"Junior","height_in":70,"weight":null,"hometown":"Bryan, Texas","high_school":"Bryan HS","previous_school":"Coastal Bend College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:courtney-carter","name":"Courtney Carter","first":"Courtney","last":"Carter","jersey":"16","pos":"OH/RS","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Tomball, Texas","high_school":"Klein Cain HS","previous_school":"Tarleton State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ma-kayla-coats","name":"Ma'Kayla Coats","first":"Ma'Kayla","last":"Coats","jersey":"9","pos":"RS/S","class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Ann Arbor, Mich.","high_school":"Pioneer HS","previous_school":"Goldey-Beacom","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brayla-doss","name":"Brayla Doss","first":"Brayla","last":"Doss","jersey":"11","pos":"LIB/DS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":61,"weight":null,"hometown":"Memphis, Tenn.","high_school":"MASE-Memphis","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tomoni-giddings","name":"Tomoni Giddings","first":"Tomoni","last":"Giddings","jersey":"10","pos":"LIB/DS","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":64,"weight":null,"hometown":"Dallas, Texas","high_school":"Cedar Hill HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:de-nyla-harlan","name":"De’Nyla Harlan","first":"De’Nyla","last":"Harlan","jersey":"13","pos":"OH","class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"Warner Robins, Ga.","high_school":"Houston County HS","previous_school":"Edward Waters","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:juliana-henao","name":"Juliana Henao","first":"Juliana","last":"Henao","jersey":"3","pos":"S","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"Cali, Colombia","high_school":"Colegia Comfandi El Prado","previous_school":"Arizona Western","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kayla-jones","name":"Kayla Jones","first":"Kayla","last":"Jones","jersey":"17","pos":"OH/DS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Houston, Texas","high_school":"MacArthur HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rylan-jones","name":"Rylan Jones","first":"Rylan","last":"Jones","jersey":"1","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":null,"hometown":"Dallas, Texas","high_school":"Cedar Hill HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ki-ara-knight-thompson","name":"Ki’ara Knight-Thompson","first":"Ki’ara","last":"Knight-Thompson","jersey":"7","pos":"MB","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Killeen, Texas","high_school":"Ellison HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaylynn-mcneill","name":"Jaylynn McNeill","first":"Jaylynn","last":"McNeill","jersey":"0","pos":"OH/RS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Houston, Texas","high_school":"Klein Cain HS","previous_school":"Hutchinson CC","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:daylin-saiki","name":"Daylin Saiki","first":"Daylin","last":"Saiki","jersey":"18","pos":"S","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":69,"weight":null,"hometown":"Camarillo, Calif.","high_school":"Grace HS","previous_school":"Moorpark College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bailey-upshaw","name":"Bailey Upshaw","first":"Bailey","last":"Upshaw","jersey":"2","pos":"MB","class":"JR","redshirt":false,"class_raw":"Junior","height_in":71,"weight":null,"hometown":"La Porte, Texas","high_school":"La Porte HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kasey-watkins","name":"Kasey Watkins","first":"Kasey","last":"Watkins","jersey":"5","pos":"OH/OPP","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Cedar Hill, Texas","high_school":"Cedar Hill HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cristin-webb","name":"Cristin Webb","first":"Cristin","last":"Webb","jersey":"8","pos":"MB","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"DeSoto, Texas","high_school":"DeSoto HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mariyah-young","name":"Mariyah Young","first":"Mariyah","last":"Young","jersey":"14","pos":"S/DS","class":"JR","redshirt":false,"class_raw":"Junior","height_in":68,"weight":null,"hometown":"Mill Creek, Wash","high_school":"North Creek HS","previous_school":"Norfolk State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

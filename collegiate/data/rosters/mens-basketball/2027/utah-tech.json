@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "utah-tech",
+ "host": "utahtechtrailblazers.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://utahtechtrailblazers.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:samuel-tobi-ariyibi","name":"Samuel \"Tobi\" Ariyibi","first":"Samuel","last":"\"Tobi\" Ariyibi","jersey":"23","pos":"F","class":"GR","redshirt":false,"class_raw":"Sixth Year","height_in":80,"weight":195,"hometown":"Lagos, Nigeria","high_school":"NBA Africa Academy","previous_school":"Washington","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aaron-bliss","name":"Aaron Bliss","first":"Aaron","last":"Bliss","jersey":"17","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":83,"weight":220,"hometown":"El Dorado Hills, Calif.","high_school":"Ponderosa HS","previous_school":"Snow College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mark-brown-jr-","name":"Mark Brown Jr.","first":"Mark","last":"Brown Jr.","jersey":"1","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":190,"hometown":"South Phoenix, Ariz.","high_school":"Bella Vista Prep","previous_school":"Valparaiso University / Snow College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jax-clark","name":"Jax Clark","first":"Jax","last":"Clark","jersey":"7","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":215,"hometown":"American Fork, Utah","high_school":"American Fork HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alex-dupre","name":"Alex Dupre","first":"Alex","last":"Dupre","jersey":"10","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":190,"hometown":"Los Angeles, Calif.","high_school":"Birmingham HS","previous_school":"Portland State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:christian-gibson","name":"Christian Gibson","first":"Christian","last":"Gibson","jersey":"2","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":190,"hometown":"Houston, Texas","high_school":"North Shore HS / Tennessee Christian Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dallin-grant","name":"Dallin Grant","first":"Dallin","last":"Grant","jersey":"5","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":220,"hometown":"Cedar City, Utah","high_school":"Cedar HS","previous_school":"Utah State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:boston-harker","name":"Boston Harker","first":"Boston","last":"Harker","jersey":"33","pos":"G","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":76,"weight":205,"hometown":"Alberta, Canada","high_school":"Edge Prep","previous_school":"Garden City CC (Kan.)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kyle-lemke","name":"Kyle Lemke","first":"Kyle","last":"Lemke","jersey":"12","pos":"C","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":240,"hometown":"St. George, Utah","high_school":"Dixie HS","previous_school":"Snow College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:owen-mackay","name":"Owen Mackay","first":"Owen","last":"Mackay","jersey":"24","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":190,"hometown":"St. George, Utah","high_school":"Snow Canyon HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ethan-potter","name":"Ethan Potter","first":"Ethan","last":"Potter","jersey":"35","pos":"F","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":80,"weight":230,"hometown":"Layton, Utah","high_school":"Layton HS","previous_school":"Utah Valley","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:petros-ragkos","name":"Petros Ragkos","first":"Petros","last":"Ragkos","jersey":"0","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":190,"hometown":"Patras, Greece","high_school":null,"previous_school":"Panellinios, B.C.","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aris-rodriguez","name":"Aris Rodriguez","first":"Aris","last":"Rodriguez","jersey":"4","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":170,"hometown":"Reading, Pa.","high_school":"Spire Academy","previous_school":"Barton CC (Kan.)","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rex-sunderland","name":"Rex Sunderland","first":"Rex","last":"Sunderland","jersey":"3","pos":"G","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":77,"weight":200,"hometown":"Kaysville, Utah","high_school":"Davis HS","previous_school":"Stonehill College / New Hampshire","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:preston-vandermyde","name":"Preston Vandermyde","first":"Preston","last":"Vandermyde","jersey":"14","pos":"G/F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":215,"hometown":"St. George, Utah","high_school":"Desert Hills HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

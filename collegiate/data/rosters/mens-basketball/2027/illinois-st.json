@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "illinois-st",
+ "host": "goredbirds.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://goredbirds.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:nick-allen","name":"Nick Allen","first":"Nick","last":"Allen","jersey":"15","pos":"F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":83,"weight":235,"hometown":"Bourbonnais, Ill.","high_school":"Bradley-Bourbonnais HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ty-blake","name":"Ty Blake","first":"Ty","last":"Blake","jersey":"13","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":190,"hometown":"Normal, Ill.","high_school":"University HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:demarion-burch","name":"Demarion Burch","first":"Demarion","last":"Burch","jersey":"5","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":76,"weight":205,"hometown":"Milwaukee, Wis.","high_school":"Milwaukee Hamilton HS / Bradley","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:noah-cleveland","name":"Noah Cleveland","first":"Noah","last":"Cleveland","jersey":"0","pos":"F","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":81,"weight":240,"hometown":"Bloomington, Ill.","high_school":"Normal Community HS / Illinois Wesleyan","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:isaac-ericksen","name":"Isaac Ericksen","first":"Isaac","last":"Ericksen","jersey":"2","pos":"G / F","class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":80,"weight":205,"hometown":"Cary, N.C.","high_school":"Green Level HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:deng-garang","name":"Deng Garang","first":"Deng","last":"Garang","jersey":"1","pos":"G","class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":78,"weight":200,"hometown":"Syracuse, N.Y.","high_school":"Bishop Grimes / Le Moyne","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:zaxton-king","name":"Zaxton King","first":"Zaxton","last":"King","jersey":"24","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":185,"hometown":"Lawrence, Kan.","high_school":"Lawrence HS / Missouri State","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:johnny-kinziger","name":"Johnny Kinziger","first":"Johnny","last":"Kinziger","jersey":"11","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":170,"hometown":"De Pere, Wis.","high_school":"De Pere HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mason-klabo","name":"Mason Klabo","first":"Mason","last":"Klabo","jersey":"3","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":74,"weight":180,"hometown":"Fargo, N.D.","high_school":"Fargo Davies HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:malik-messina-moore","name":"Malik Messina-Moore","first":"Malik","last":"Messina-Moore","jersey":"9","pos":null,"class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":77,"weight":200,"hometown":"Ventura, Calif.","high_school":"Heritage Christian School / Pepperdine / Montana / Xavier","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:louie-semona-iii","name":"Louie Semona III","first":"Louie","last":"Semona III","jersey":"33","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":210,"hometown":"Cincinnati, Ohio","high_school":"St. Xavier HS / St. Thomas More Prep / Stonehill / Western Kentucky","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:matthew-szafoni","name":"Matthew Szafoni","first":"Matthew","last":"Szafoni","jersey":"12","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":81,"weight":210,"hometown":"Chicago, Ill.","high_school":"Lane Tech HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chase-walker","name":"Chase Walker","first":"Chase","last":"Walker","jersey":"35","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":81,"weight":265,"hometown":"Columbus, Ohio","high_school":"St. Charles","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jordan-williams","name":"Jordan Williams","first":"Jordan","last":"Williams","jersey":"25","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":195,"hometown":"Schaumburg, Ill.","high_school":"Fremd HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:leyton-wolf","name":"Leyton Wolf","first":"Leyton","last":"Wolf","jersey":"4","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":81,"weight":215,"hometown":"Cedar Falls, Iowa","high_school":"Cedar Falls HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

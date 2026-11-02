@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "valparaiso",
+ "host": "valpoathletics.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://valpoathletics.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:bruno-alocen","name":"Bruno Alocen","first":"Bruno","last":"Alocen","jersey":"4","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":195,"hometown":"Barcelona, Spain","high_school":"Manresa (Indiana State)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rakim-chaney","name":"Rakim Chaney","first":"Rakim","last":"Chaney","jersey":"2","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":185,"hometown":"Rockford, Ill.","high_school":"Rockford Auburn (212° Sports Academy)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:justin-curry-ii","name":"Justin Curry II","first":"Justin","last":"Curry II","jersey":"10","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":170,"hometown":"Noblesville, Ind.","high_school":"Noblesville","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:terron-garrett","name":"Terron Garrett","first":"Terron","last":"Garrett","jersey":"23","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":78,"weight":190,"hometown":"St. Louis, Mo.","high_school":"Vashon (Mineral Area College)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:carter-hopoi","name":"Carter Hopoi","first":"Carter","last":"Hopoi","jersey":"13","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":83,"weight":235,"hometown":"Tauranga, New Zealand","high_school":"Mount Maunganui College NZ","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:nick-lombardi","name":"Nick Lombardi","first":"Nick","last":"Lombardi","jersey":"32","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":175,"hometown":"Lisle, Ill.","high_school":"Montini Catholic","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:justus-mcnair","name":"Justus McNair","first":"Justus","last":"McNair","jersey":"1","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":195,"hometown":"Joliet, Ill.","high_school":"Joliet West","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dylan-moles","name":"Dylan Moles","first":"Dylan","last":"Moles","jersey":"3","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":75,"weight":195,"hometown":"Greenfield, Ind.","high_school":"Greenfield Central (Marian)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jt-pettigrew","name":"JT Pettigrew","first":"JT","last":"Pettigrew","jersey":"7","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":80,"weight":230,"hometown":"Lisle, Ill.","high_school":"Bolingbrook","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:george-richardson","name":"George Richardson","first":"George","last":"Richardson","jersey":"11","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":78,"weight":225,"hometown":"Chicago, Ill.","high_school":"Evanston (Link Year Prep)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rajan-roberts","name":"Rajan Roberts","first":"Rajan","last":"Roberts","jersey":"0","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":200,"hometown":"Chicago, Ill.","high_school":"AZ Compass Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hudson-scroggins","name":"Hudson Scroggins","first":"Hudson","last":"Scroggins","jersey":"14","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":215,"hometown":"Lake Bluff, Ill.","high_school":"Lake Forest (Kimball Union Academy)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sader-servilus","name":"Sader Servilus","first":"Sader","last":"Servilus","jersey":"44","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":76,"weight":230,"hometown":"Montreal, Quebec, Canada","high_school":"Fort Erie International Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kobe-walker","name":"Kobe Walker","first":"Kobe","last":"Walker","jersey":"15","pos":null,"class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":81,"weight":265,"hometown":"Normal, Ill.","high_school":"Normal Community","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:camden-webster","name":"Camden Webster","first":"Camden","last":"Webster","jersey":"5","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":75,"weight":200,"hometown":"Wheatfield, Ind.","high_school":"Kankakee Valley (Bosco Institute)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kai-yu","name":"Kai Yu","first":"Kai","last":"Yu","jersey":"12","pos":null,"class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":84,"weight":250,"hometown":"Zhuhai, Guangdong, China","high_school":"Link Prep (Bradley/Liberty)","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

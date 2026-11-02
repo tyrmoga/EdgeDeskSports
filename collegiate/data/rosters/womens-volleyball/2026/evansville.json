@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "evansville",
+ "host": "gopurpleaces.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2026,
+ "season_label": "2026",
+ "url": "https://gopurpleaces.com/sports/womens-volleyball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:kendall-agler","name":"Kendall Agler","first":"Kendall","last":"Agler","jersey":"20","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":63,"weight":null,"hometown":"Evansville, Ind.","high_school":null,"previous_school":"Memorial HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:chloe-cline","name":"Chloe Cline","first":"Chloe","last":"Cline","jersey":"14","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":73,"weight":null,"hometown":"Bettendorf, Iowa","high_school":null,"previous_school":"Pleasant Valley HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:aubry-dowling","name":"Aubry Dowling","first":"Aubry","last":"Dowling","jersey":"10","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":63,"weight":null,"hometown":"Greenfield, Ind.","high_school":null,"previous_school":"Mt. Vernon HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lyla-fisher","name":"Lyla Fisher","first":"Lyla","last":"Fisher","jersey":"7","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Frisco, Texas","high_school":null,"previous_school":"Frisco Independence HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:savannah-gogel","name":"Savannah Gogel","first":"Savannah","last":"Gogel","jersey":"11","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Santa Claus, Ind.","high_school":null,"previous_school":"Northern Illinois","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:angelica-gonzalez-maltes","name":"Angelica Gonzalez Maltes","first":"Angelica","last":"Gonzalez Maltes","jersey":"5","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":71,"weight":null,"hometown":"Ponce, Puerto Rico","high_school":null,"previous_school":"Lassiter HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brooke-herdes","name":"Brooke Herdes","first":"Brooke","last":"Herdes","jersey":"15","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Evansville, Ind.","high_school":null,"previous_school":"Mater Dei HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:wren-jones","name":"Wren Jones","first":"Wren","last":"Jones","jersey":"3","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":71,"weight":null,"hometown":"Conway, Ark.","high_school":null,"previous_school":"Conway HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:carsyn-kelley","name":"Carsyn Kelley","first":"Carsyn","last":"Kelley","jersey":"2","pos":"S","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"Bettendorf, Iowa","high_school":null,"previous_school":"Assumption HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mckenzie-laubach","name":"McKenzie Laubach","first":"McKenzie","last":"Laubach","jersey":"21","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Sanford, Fla.","high_school":null,"previous_school":"Eastern Kentucky","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:makenzie-miller","name":"Makenzie Miller","first":"Makenzie","last":"Miller","jersey":"18","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Kansas City, Mo.","high_school":null,"previous_school":"Liberty North HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:holland-morris","name":"Holland Morris","first":"Holland","last":"Morris","jersey":"13","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Florence, Ky.","high_school":null,"previous_school":"Randall K. Cooper HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lexi-owen","name":"Lexi Owen","first":"Lexi","last":"Owen","jersey":"6","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":69,"weight":null,"hometown":"Owensboro, Ky.","high_school":null,"previous_school":"Daviess County HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:carlotta-pascual-centelles","name":"Carlotta Pascual Centelles","first":"Carlotta","last":"Pascual Centelles","jersey":"1","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Madrid, Spain","high_school":null,"previous_school":"Mt. Vernon (Ind.) HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sabrina-ripple","name":"Sabrina Ripple","first":"Sabrina","last":"Ripple","jersey":"4","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Reynoldsburg, Ohio","high_school":null,"previous_school":"Reynoldsburg HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ryan-scheu","name":"Ryan Scheu","first":"Ryan","last":"Scheu","jersey":"17","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Evansville, Ind.","high_school":null,"previous_school":"Memorial HS","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "east-tenn-st",
+ "host": "etsubucs.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://etsubucs.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 14,
+ "players": [
+  {"pid":"slug:colt-busse","name":"Colt Busse","first":"Colt","last":"Busse","jersey":"4","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":170,"hometown":"Baltimore, Md.","high_school":"Archbishop Spalding","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kendall-campbell","name":"Kendall Campbell","first":"Kendall","last":"Campbell","jersey":"8","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":79,"weight":220,"hometown":"Atlanta, Ga.","high_school":"Combine Academy","previous_school":"Wingate","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jayden-cooper","name":"Jayden Cooper","first":"Jayden","last":"Cooper","jersey":"1","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":195,"hometown":"Pike Road, Ala.","high_school":"Pike Road","previous_school":"South Alabama","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brayden-crump","name":"Brayden Crump","first":"Brayden","last":"Crump","jersey":"14","pos":null,"class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":81,"weight":225,"hometown":"Morganton, N.C.","high_school":"Winston-Salem Christian","previous_school":"Elon","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:trevor-hennig","name":"Trevor Hennig","first":"Trevor","last":"Hennig","jersey":"6","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":185,"hometown":"North Bend, Wash.","high_school":"Mount Si","previous_school":"Weber State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maddox-huff","name":"Maddox Huff","first":"Maddox","last":"Huff","jersey":"3","pos":null,"class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":74,"weight":190,"hometown":"Baxter, Ky.","high_school":"Harlan County HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:maki-johnson","name":"Maki Johnson","first":"Maki","last":"Johnson","jersey":"2","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":195,"hometown":"Huntington, W. Va.","high_school":"Huntington Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ben-maller","name":"Ben Maller","first":"Ben","last":"Maller","jersey":"10","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":205,"hometown":"Mountain View, Calif.","high_school":"Prolific Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:marqus-marion","name":"Marqus Marion","first":"Marqus","last":"Marion","jersey":"11","pos":null,"class":"JR","redshirt":true,"class_raw":"Redshirt Junior","height_in":81,"weight":225,"hometown":"Skovlunde, Denmark","high_school":"BMS Herlev","previous_school":"Wake Forest","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tyran-mason","name":"Tyran Mason","first":"Tyran","last":"Mason","jersey":"7","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":78,"weight":205,"hometown":"Plano, Texas","high_school":"Plano","previous_school":"UT Arlington","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jordan-mccullum","name":"Jordan McCullum","first":"Jordan","last":"McCullum","jersey":"35","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":220,"hometown":"Harriman, Tenn.","high_school":"Harriman HS","previous_school":"Murray State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:decarl-payne","name":"DeCarl Payne","first":"DeCarl","last":"Payne","jersey":"9","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":195,"hometown":"Carbondale, Ill.","high_school":"Carbondale HS","previous_school":"John A. Logan College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:elton-smith","name":"Elton Smith","first":"Elton","last":"Smith","jersey":"15","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":80,"weight":225,"hometown":"Columbia, S.C.","high_school":"Dynamic Prep","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bj-ward","name":"BJ Ward","first":"BJ","last":"Ward","jersey":"0","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":185,"hometown":"St. Louis, Mo.","high_school":"Chaminade Prep","previous_school":"Southeast Missouri St.","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

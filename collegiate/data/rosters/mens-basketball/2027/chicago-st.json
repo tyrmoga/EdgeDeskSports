@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "chicago-st",
+ "host": "gocsucougars.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://gocsucougars.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:bryan-akanmu","name":"Bryan Akanmu","first":"Bryan","last":"Akanmu","jersey":"24","pos":"F","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":78,"weight":null,"hometown":"Saint-Denis, France","high_school":null,"previous_school":"Wagner University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:armari-carraway","name":"Armari Carraway","first":"Armari","last":"Carraway","jersey":"3","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Fresno, Calif.","high_school":null,"previous_school":"Charleston Southern","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kameron-foman","name":"Kameron Foman","first":"Kameron","last":"Foman","jersey":"0","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":null,"hometown":"Hartsville, S.C.","high_school":null,"previous_school":"Benedict College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:najee-graham","name":"Najee Graham","first":"Najee","last":"Graham","jersey":"4","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":76,"weight":null,"hometown":"Newark, N.J.","high_school":null,"previous_school":"Trinity Valley Community College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lyonel-hodges-jr-","name":"Lyonel Hodges Jr.","first":"Lyonel","last":"Hodges Jr.","jersey":"25","pos":"F","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":80,"weight":null,"hometown":"Lynwood, Ill.","high_school":null,"previous_school":"Claflin","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ben-kalonji","name":"Ben Kalonji","first":"Ben","last":"Kalonji","jersey":"10","pos":"C","class":"SR","redshirt":false,"class_raw":"Senior","height_in":83,"weight":null,"hometown":"Jeffersonville, Ind.","high_school":null,"previous_school":"Clarendon College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:davius-loury","name":"Davius Loury","first":"Davius","last":"Loury","jersey":"1","pos":"F","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":79,"weight":null,"hometown":"Chicago, Ill.","high_school":null,"previous_school":"Cal. State-Northridge","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:will-lovings-watts","name":"Will Lovings-Watts","first":"Will","last":"Lovings-Watts","jersey":"23","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":77,"weight":null,"hometown":"Jeffersonville, Ind.","high_school":null,"previous_school":"Union College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:malik-olafioye","name":"Malik Olafioye","first":"Malik","last":"Olafioye","jersey":"11","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"Ecrose, Mich.","high_school":null,"previous_school":"Eastern Illinois University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaylen-pazon","name":"Jaylen Pazon","first":"Jaylen","last":"Pazon","jersey":"7","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":77,"weight":null,"hometown":"New Orleans, La.","high_school":null,"previous_school":"Virginia Military Institute","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kaleb-popotte","name":"Kaleb Popotte","first":"Kaleb","last":"Popotte","jersey":"18","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":74,"weight":null,"hometown":"New York, N.Y.","high_school":"Mt. Zion Community Prep","previous_school":"Mt. Zion Community Prep","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mike-price","name":"Mike Price","first":"Mike","last":"Price","jersey":"8","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":null,"hometown":"Chicago, Ill.","high_school":null,"previous_school":"CSU-Bakersfield","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:malek-robinson","name":"Malek Robinson","first":"Malek","last":"Robinson","jersey":"9","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Baton Rouge, La.","high_school":"Liberty Magnet High School","previous_school":"Liberty Magnet High School","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:foday-sheriff","name":"Foday Sheriff","first":"Foday","last":"Sheriff","jersey":"2","pos":"F","class":"GR","redshirt":false,"class_raw":"Fifth Year","height_in":76,"weight":null,"hometown":"Upper Darby, Penn.","high_school":null,"previous_school":"William Penn University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:andre-stanton","name":"Andre Stanton","first":"Andre","last":"Stanton","jersey":"20","pos":"F/C","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":83,"weight":null,"hometown":"Oak Park, Ill.","high_school":"Oak Park","previous_school":"Oak Park","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lohan-stephane-djiya","name":"Lohan Stephane Djiya","first":"Lohan","last":"Stephane Djiya","jersey":"15","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":null,"hometown":"Yaounde, Cameroon","high_school":null,"previous_school":"Oakland City University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

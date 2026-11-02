@@ -1,0 +1,30 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "cleveland-st",
+ "host": "csuvikings.com",
+ "platform": "sidearm_legacy",
+ "sport": "mens-basketball",
+ "season": 2027,
+ "season_label": "2026-27",
+ "url": "https://csuvikings.com/sports/mens-basketball/roster",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 14,
+ "players": [
+  {"pid":"slug:micah-bays","name":"Micah Bays","first":"Micah","last":"Bays","jersey":"3","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":74,"weight":175,"hometown":"Toledo, Ohio","high_school":"Southview","previous_school":"Central State University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:obie-bronston-jr-","name":"Obie Bronston Jr.","first":"Obie","last":"Bronston Jr.","jersey":"2","pos":"W","class":"SR","redshirt":false,"class_raw":"Senior","height_in":78,"weight":205,"hometown":"Fairfield, Ohio","high_school":"Fairfield","previous_school":"South Carolina State","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alex-bruskotter","name":"Alex Bruskotter","first":"Alex","last":"Bruskotter","jersey":"5","pos":"W","class":"JR","redshirt":false,"class_raw":"Junior","height_in":80,"weight":205,"hometown":"Shelby, Ohio","high_school":"Shelby","previous_school":"Wright State University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dylan-foster","name":"Dylan Foster","first":"Dylan","last":"Foster","jersey":"13","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":75,"weight":180,"hometown":"Orlando, Fla.","high_school":"Edgewater","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:rayvon-griffith","name":"Rayvon Griffith","first":"Rayvon","last":"Griffith","jersey":"1","pos":"W","class":"SR","redshirt":false,"class_raw":"Senior","height_in":80,"weight":205,"hometown":"Cincinnati, Ohio","high_school":"Compass Prep","previous_school":"Kent State University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:gavin-headings","name":"Gavin Headings","first":"Gavin","last":"Headings","jersey":"33","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":210,"hometown":"Pickerington, Ohio","high_school":"Pickerington Central","previous_school":"Ranger College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:dre-jones","name":"Dre Jones","first":"Dre","last":"Jones","jersey":"12","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":81,"weight":205,"hometown":"Cleveland, Ohio","high_school":"Garfield Heights","previous_school":"Kent State University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jordan-lowery","name":"Jordan Lowery","first":"Jordan","last":"Lowery","jersey":"0","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":170,"hometown":"Denton, Texas","high_school":"Denton Guyer","previous_school":"UT Arlington","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:braden-mccruter","name":"Braden McCruter","first":"Braden","last":"McCruter","jersey":"15","pos":"F","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":81,"weight":200,"hometown":"Sunbury, Ohio","high_school":"Big Walnut","previous_school":"Spire Academy","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:xavier-mckinney","name":"Xavier McKinney","first":"Xavier","last":"McKinney","jersey":"4","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":170,"hometown":"Reynoldsburg, Ohio","high_school":"Reynoldsburg","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:curtis-stinson-jr-","name":"Curtis Stinson Jr.","first":"Curtis","last":"Stinson Jr.","jersey":"9","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":208,"hometown":"West Des Moines, Iowa","high_school":"Western Reserve Academy","previous_school":"North Texas","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ogbe-uagboe","name":"Ogbe Uagboe","first":"Ogbe","last":"Uagboe","jersey":"11","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":76,"weight":205,"hometown":"Holte, Denmark","high_school":"Ordrup","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:derek-vorst","name":"Derek Vorst","first":"Derek","last":"Vorst","jersey":"22","pos":"C","class":"SR","redshirt":false,"class_raw":"Senior","height_in":82,"weight":250,"hometown":"Luckey, Ohio","high_school":"Rossford","previous_school":"Indiana State University","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brandon-white","name":"Brandon White","first":"Brandon","last":"White","jersey":"7","pos":"C","class":"SR","redshirt":false,"class_raw":"Senior","height_in":82,"weight":250,"hometown":"Spencer, N.C.","high_school":"Donda Academy","previous_school":"Midland College","bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

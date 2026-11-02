@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "merrimack",
+ "host": "merrimackathletics.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-basketball",
+ "season": 2026,
+ "season_label": "2025-26",
+ "url": "https://merrimackathletics.com/sports/womens-basketball/roster/2025-26",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:kylee-fears","name":"Kylee Fears","first":"Kylee","last":"Fears","jersey":"32","pos":"F","class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":73,"weight":null,"hometown":"Oxford, Ohio","high_school":"Talawanda High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:mia-fiore","name":"Mia Fiore","first":"Mia","last":"Fiore","jersey":"5","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":70,"weight":null,"hometown":"Naragansett, R.I.","high_school":"St. George's","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:claudia-gallegos","name":"Claudia Gallegos","first":"Claudia","last":"Gallegos","jersey":"12","pos":"F","class":"SR","redshirt":false,"class_raw":"Senior","height_in":74,"weight":null,"hometown":"Naperville, Ill.","high_school":"Neuqua Valley / University of Southern Indiana","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:paloma-garcia","name":"Paloma Garcia","first":"Paloma","last":"Garcia","jersey":"10","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":66,"weight":null,"hometown":"Corozal, Puerto Rico","high_school":"Proctor Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:cadence-johnson","name":"Cadence Johnson","first":"Cadence","last":"Johnson","jersey":"21","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Mattapoisett, Mass.","high_school":"St. Andrew's School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kristen-kelley","name":"Kristen Kelley","first":"Kristen","last":"Kelley","jersey":"30","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Amherst, Ohio","high_school":"Marion L. Steele","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:oralye-kiefer","name":"Oralye Kiefer","first":"Oralye","last":"Kiefer","jersey":"11","pos":"F","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":75,"weight":null,"hometown":"Wayland, Mass.","high_school":"Beaver Country Day School / Northeastern","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:molly-manion","name":"Molly Manion","first":"Molly","last":"Manion","jersey":"24","pos":"G","class":"GR","redshirt":false,"class_raw":"Graduate Student","height_in":71,"weight":null,"hometown":"West Chester, Pa.","high_school":"West Chester Henderson","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:lydia-melaschenko","name":"Lydia Melaschenko","first":"Lydia","last":"Melaschenko","jersey":"22","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":67,"weight":null,"hometown":"Ottawa, ON","high_school":"Capital Courts Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:se-lah-reddick","name":"Se'Lah Reddick","first":"Se'Lah","last":"Reddick","jersey":"15","pos":"G","class":"SR","redshirt":false,"class_raw":"Senior","height_in":68,"weight":null,"hometown":"Jacksonville, Fla.","high_school":"William M. Raines High School / Santa Fe College / Flagler College","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:madison-roman","name":"Madison Roman","first":"Madison","last":"Roman","jersey":"0","pos":"F","class":"JR","redshirt":false,"class_raw":"Junior","height_in":72,"weight":null,"hometown":"Fairfield, Conn.","high_school":"Fairfield Ludlowe High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:daria-shishkina","name":"Daria Shishkina","first":"Daria","last":"Shishkina","jersey":"2","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Moscow, Russia","high_school":"Spire Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:denae-skelton","name":"Denae Skelton","first":"Denae","last":"Skelton","jersey":"4","pos":"G","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":67,"weight":null,"hometown":"West Kelowna, BC","high_school":"Champlain College St. Lambert / Utah State","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:makayla-thomas","name":"Makayla Thomas","first":"Makayla","last":"Thomas","jersey":"3","pos":"G","class":"JR","redshirt":false,"class_raw":"Junior","height_in":67,"weight":null,"hometown":"Brooklyn, N.Y.","high_school":"South Shore High School / Niagara County Community College","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:joi-williams","name":"Joi Williams","first":"Joi","last":"Williams","jersey":"1","pos":"G","class":"FR","redshirt":false,"class_raw":"Freshman","height_in":65,"weight":null,"hometown":"Alliance, Ohio","high_school":"Cuyahoga Valley Christian Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

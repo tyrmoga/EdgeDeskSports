@@ -1,0 +1,32 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "am-corpus-chris",
+ "host": "goislanders.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2025,
+ "season_label": "2025",
+ "url": "https://goislanders.com/sports/womens-volleyball/roster/2025",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 16,
+ "players": [
+  {"pid":"slug:kaitlyn-baumann","name":"Kaitlyn Baumann","first":"Kaitlyn","last":"Baumann","jersey":"6","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Morton, Illinois","high_school":"Morton HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kenna-buchanan","name":"Kenna Buchanan","first":"Kenna","last":"Buchanan","jersey":"2","pos":null,"class":"JR","redshirt":false,"class_raw":"Junior","height_in":69,"weight":null,"hometown":"Midlothian, Texas","high_school":"Midlothian HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hadley-burger","name":"Hadley Burger","first":"Hadley","last":"Burger","jersey":"11","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Woodbury, Minnesota","high_school":"East Ridge HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ella-busey","name":"Ella Busey","first":"Ella","last":"Busey","jersey":"16","pos":null,"class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":72,"weight":null,"hometown":"Colleyville, TX","high_school":"Colleyville Heritage HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:logan-dyer","name":"Logan Dyer","first":"Logan","last":"Dyer","jersey":"39","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":77,"weight":null,"hometown":"Waco, TX","high_school":"Bosqueville HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alessia-gallo","name":"Alessia Gallo","first":"Alessia","last":"Gallo","jersey":"4","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":66,"weight":null,"hometown":"Milan, Italy","high_school":"Ettore Conti","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:simone-grieser","name":"Simone Grieser","first":"Simone","last":"Grieser","jersey":"9","pos":null,"class":"FR","redshirt":true,"class_raw":"Redshirt Freshman","height_in":72,"weight":null,"hometown":"Woodville, WA","high_school":"North Creek HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:erin-herrmann","name":"Erin Herrmann","first":"Erin","last":"Herrmann","jersey":"7","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Fort Collins, CO","high_school":"Fossil Ridge HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ava-hight","name":"Ava Hight","first":"Ava","last":"Hight","jersey":"17","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":67,"weight":null,"hometown":"Liberty Hill, TX","high_school":"Liberty Hill HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brooklyn-jaeger","name":"Brooklyn Jaeger","first":"Brooklyn","last":"Jaeger","jersey":"13","pos":null,"class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":68,"weight":null,"hometown":"Fayetteville, Texas","high_school":"Fayetteville ISD","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:katelyn-krienke","name":"Katelyn Krienke","first":"Katelyn","last":"Krienke","jersey":"22","pos":null,"class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Cedar Park, Texas","high_school":"Vista Ridge HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:tatum-mason","name":"Tatum Mason","first":"Tatum","last":"Mason","jersey":"5","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":72,"weight":null,"hometown":"San Antonio, TX","high_school":"Brandeis HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:kenrie-pruitt","name":"Kenrie Pruitt","first":"Kenrie","last":"Pruitt","jersey":"1","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":66,"weight":null,"hometown":"Forth Worth, TX","high_school":"Aledo HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:jaeda-rawls-fletcher","name":"Jaeda Rawls-Fletcher","first":"Jaeda","last":"Rawls-Fletcher","jersey":"10","pos":null,"class":"FR","redshirt":false,"class_raw":"Freshman","height_in":70,"weight":null,"hometown":"Houston, TX","high_school":"Cypress Creek HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ally-saleh","name":"Ally Saleh","first":"Ally","last":"Saleh","jersey":"18","pos":null,"class":"SO","redshirt":true,"class_raw":"Redshirt Sophomore","height_in":71,"weight":null,"hometown":"Waunakee, WI","high_school":null,"previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:virginia-van-der-werff","name":"Virginia Van Der Werff","first":"Virginia","last":"Van Der Werff","jersey":"23","pos":null,"class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Lansing, Kansas","high_school":"Lansing HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "schema": "edgedesk_collegiate_roster_v1",
+ "school": "harvard",
+ "host": "gocrimson.com",
+ "platform": "sidearm_legacy",
+ "sport": "womens-volleyball",
+ "season": 2025,
+ "season_label": "2025",
+ "url": "https://gocrimson.com/sports/womens-volleyball/roster/2025",
+ "first_read": "2026-11-02",
+ "last_read": "2026-11-02",
+ "reads": 1,
+ "listed": 15,
+ "players": [
+  {"pid":"slug:nicole-cornell","name":"Nicole Cornell","first":"Nicole","last":"Cornell","jersey":"8","pos":"Setter","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Lucas, Texas","high_school":"Lovejoy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:yvette-easton","name":"Yvette Easton","first":"Yvette","last":"Easton","jersey":"16","pos":"Libero","class":"JR","redshirt":false,"class_raw":"Junior","height_in":65,"weight":null,"hometown":"Westwood, Mass.","high_school":"Westwood High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bridget-egan","name":"Bridget Egan","first":"Bridget","last":"Egan","jersey":"15","pos":"OH","class":"FR","redshirt":false,"class_raw":"First-Year","height_in":72,"weight":null,"hometown":"Louisville, Ky.","high_school":"Sacred Heart Academy","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:brynne-faltinsky","name":"Brynne Faltinsky","first":"Brynne","last":"Faltinsky","jersey":"3","pos":"Outside Hitter","class":"SR","redshirt":false,"class_raw":"Senior","height_in":72,"weight":null,"hometown":"Rancho Santa Fe, Calif.","high_school":"The Bishop's School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ali-farquhar","name":"Ali Farquhar","first":"Ali","last":"Farquhar","jersey":"13","pos":"Outside Hitter","class":"JR","redshirt":false,"class_raw":"Junior","height_in":75,"weight":null,"hometown":"Santa Rosa, Calif.","high_school":"Cardinal Newman High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:alicia-guo","name":"Alicia Guo","first":"Alicia","last":"Guo","jersey":"11","pos":"Outside Hitter","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":71,"weight":null,"hometown":"Southborough, Mass.","high_school":"Groton School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:peyton-hollis","name":"Peyton Hollis","first":"Peyton","last":"Hollis","jersey":"22","pos":"Outside Hitter","class":"SR","redshirt":false,"class_raw":"Senior","height_in":70,"weight":null,"hometown":"Windermere, Fla.","high_school":"Phillips Exeter","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sophia-jo","name":"Sophia Jo","first":"Sophia","last":"Jo","jersey":"2","pos":"L","class":"FR","redshirt":false,"class_raw":"First-Year","height_in":65,"weight":null,"hometown":"Atlanta, Ga.","high_school":"The Westminster Schools","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:taylor-larkin","name":"Taylor Larkin","first":"Taylor","last":"Larkin","jersey":"10","pos":"Middle Blocker","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":72,"weight":null,"hometown":"Houston, Texas","high_school":"Summer Creek","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:hannah-nguyen","name":"Hannah Nguyen","first":"Hannah","last":"Nguyen","jersey":"5","pos":"Libero","class":"SR","redshirt":false,"class_raw":"Senior","height_in":65,"weight":null,"hometown":"Portland, Ore.","high_school":"Jesuit HS","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:ryleigh-patterson","name":"Ryleigh Patterson","first":"Ryleigh","last":"Patterson","jersey":"21","pos":"Middle Blocker","class":"JR","redshirt":false,"class_raw":"Junior","height_in":73,"weight":null,"hometown":"Rancho Santa Fe, Calif.","high_school":"Cathedral Catholic High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:riley-resmer","name":"Riley Resmer","first":"Riley","last":"Resmer","jersey":"18","pos":"Middle Blocker","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":73,"weight":null,"hometown":"Noblesville, Ind.","high_school":"Noblesville High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sofia-rossi","name":"Sofia Rossi","first":"Sofia","last":"Rossi","jersey":"23","pos":"OH","class":"FR","redshirt":false,"class_raw":"First-Year","height_in":72,"weight":null,"hometown":"Park Ridge, Ill.","high_school":"Maine South High School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:bennett-trubey","name":"Bennett Trubey","first":"Bennett","last":"Trubey","jersey":"14","pos":"Middle Blocker","class":"SO","redshirt":false,"class_raw":"Sophomore","height_in":77,"weight":null,"hometown":"Dallas, Texas","high_school":"The Hockaday School","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"},
+  {"pid":"slug:sophia-wei","name":"Sophia Wei","first":"Sophia","last":"Wei","jersey":"1","pos":"S","class":"FR","redshirt":false,"class_raw":"First-Year","height_in":68,"weight":null,"hometown":"Plano, Texas","high_school":"Plano West","previous_school":null,"bats":null,"throws":null,"first_seen":"2026-11-02","last_seen":"2026-11-02"}
+ ]
+}
