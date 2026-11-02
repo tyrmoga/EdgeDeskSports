@@ -2,7 +2,7 @@
  "schema": "edgedesk_model_loop_nfl_current_v1",
  "model_version": "2.0.0",
  "status": "EXPERIMENTAL",
- "generated_at": "2026-11-01T18:37:27Z",
+ "generated_at": "2026-11-02T22:31:15Z",
  "season": 2026,
  "config_sha256": "2ae53dbf05e0871616ba35159c4914c5a9073a99252c02e8212349ff6216ef35",
  "distribution": {
@@ -64,496 +64,6 @@
  },
  "note": "Research candidate. Not on the published card until it clears the preregistered decision rule (docs/model-loop/nfl/prereg.json).",
  "games": [
-  {
-   "game_id": "2026_08_ARI_DAL",
-   "week": 8,
-   "home": "DAL",
-   "away": "ARI",
-   "kickoff_et": "2026-11-01 13:00:00",
-   "starters": {
-    "home": {
-     "id": "00-0033077",
-     "name": "Dak Prescott",
-     "basis": "reconciled starter (SCHEDULE_FEED)"
-    },
-    "away": {
-     "id": "00-0033119",
-     "name": "Jacoby Brissett",
-     "basis": "reconciled starter (SCHEDULE_FEED)"
-    }
-   },
-   "fair_home_margin": 7.95,
-   "fair_home_line": -7.95,
-   "fair_total": 51.1,
-   "home_win_prob": 0.7222,
-   "fair_home_ml": -260,
-   "fair_away_ml": 260,
-   "range80": {
-    "lo": -8.74,
-    "hi": 24.63,
-    "centre": 7.95,
-    "half_width": 16.68
-   },
-   "groups": {
-    "Environment": 2.1453,
-    "Base strength": 6.1802,
-    "Rest & travel": -0.3801
-   },
-   "components": [
-    {
-     "key": "home_field",
-     "label": "Home field",
-     "group": "environment",
-     "points": 2.1453
-    },
-    {
-     "key": "covid_2020",
-     "label": "No-crowd season (2020)",
-     "group": "environment",
-     "points": -0.0
-    },
-    {
-     "key": "pass_off",
-     "label": "Pass offense (team, excluding QB)",
-     "group": "base_strength",
-     "points": 0.0122,
-     "from_prior": -0.1157,
-     "from_this_season": 0.1279,
-     "prior_share": 0.475
-    },
-    {
-     "key": "qb",
-     "label": "Quarterback",
-     "group": "base_strength",
-     "points": 2.5152,
-     "from_prior": 0.8586,
-     "from_this_season": 1.6566,
-     "prior_share": 0.341
-    },
-    {
-     "key": "pass_def",
-     "label": "Pass defense",
-     "group": "base_strength",
-     "points": -0.3463,
-     "from_prior": -0.2398,
-     "from_this_season": -0.1065,
-     "prior_share": 0.692
-    },
-    {
-     "key": "rush_off",
-     "label": "Rush offense",
-     "group": "base_strength",
-     "points": 0.377,
-     "from_prior": -0.0473,
-     "from_this_season": 0.4243,
-     "prior_share": 0.1
-    },
-    {
-     "key": "rush_def",
-     "label": "Rush defense",
-     "group": "base_strength",
-     "points": -1.3139,
-     "from_prior": -0.0771,
-     "from_this_season": -1.2368,
-     "prior_share": 0.059
-    },
-    {
-     "key": "market",
-     "label": "Market rating (prior weeks' closing lines)",
-     "group": "base_strength",
-     "points": 4.936,
-     "from_prior": 0.3296,
-     "from_this_season": 4.6064,
-     "prior_share": 0.067
-    },
-    {
-     "key": "rest",
-     "label": "Rest days",
-     "group": "rest_travel",
-     "points": -0.2577
-    },
-    {
-     "key": "bye",
-     "label": "Off a bye",
-     "group": "rest_travel",
-     "points": -0.0
-    },
-    {
-     "key": "short",
-     "label": "Short week",
-     "group": "rest_travel",
-     "points": 0.0
-    },
-    {
-     "key": "travel",
-     "label": "Travel distance",
-     "group": "rest_travel",
-     "points": -0.0435
-    },
-    {
-     "key": "timezone",
-     "label": "Time zones crossed",
-     "group": "rest_travel",
-     "points": -0.0262
-    },
-    {
-     "key": "body_clock",
-     "label": "Early body-clock kickoff",
-     "group": "rest_travel",
-     "points": -0.0527
-    }
-   ],
-   "reconciliation": {
-    "components_sum": 7.945349,
-    "fair_home_margin": 7.945349,
-    "unattributed": 0.0
-   },
-   "market_reference": {
-    "home_line": -7.0,
-    "source": "nflverse games.csv consensus (reference, not a price)"
-   },
-   "qb_scenarios": [],
-   "disagreement": null,
-   "data_status": {
-    "status": "OK",
-    "reasons": []
-   }
-  },
-  {
-   "game_id": "2026_08_ATL_TB",
-   "week": 8,
-   "home": "TB",
-   "away": "ATL",
-   "kickoff_et": "2026-11-01 13:00:00",
-   "starters": {
-    "home": {
-     "id": "00-0034855",
-     "name": "Baker Mayfield",
-     "basis": "reconciled starter (SCHEDULE_FEED)"
-    },
-    "away": {
-     "id": "00-0039917",
-     "name": "Michael Penix Jr.",
-     "basis": "reconciled starter (SCHEDULE_FEED)"
-    }
-   },
-   "fair_home_margin": 0.73,
-   "fair_home_line": -0.73,
-   "fair_total": 42.7,
-   "home_win_prob": 0.522,
-   "fair_home_ml": -109,
-   "fair_away_ml": 109,
-   "range80": {
-    "lo": -16.0,
-    "hi": 17.47,
-    "centre": 0.73,
-    "half_width": 16.74
-   },
-   "groups": {
-    "Environment": 2.1453,
-    "Base strength": -1.8099,
-    "Rest & travel": 0.3986
-   },
-   "components": [
-    {
-     "key": "home_field",
-     "label": "Home field",
-     "group": "environment",
-     "points": 2.1453
-    },
-    {
-     "key": "covid_2020",
-     "label": "No-crowd season (2020)",
-     "group": "environment",
-     "points": -0.0
-    },
-    {
-     "key": "pass_off",
-     "label": "Pass offense (team, excluding QB)",
-     "group": "base_strength",
-     "points": 0.0128,
-     "from_prior": 0.0638,
-     "from_this_season": -0.051,
-     "prior_share": 0.556
-    },
-    {
-     "key": "qb",
-     "label": "Quarterback",
-     "group": "base_strength",
-     "points": -1.7748,
-     "from_prior": 0.4996,
-     "from_this_season": -2.2744,
-     "prior_share": 0.18
-    },
-    {
-     "key": "pass_def",
-     "label": "Pass defense",
-     "group": "base_strength",
-     "points": -0.0146,
-     "from_prior": -0.1814,
-     "from_this_season": 0.1668,
-     "prior_share": 0.521
-    },
-    {
-     "key": "rush_off",
-     "label": "Rush offense",
-     "group": "base_strength",
-     "points": -0.0287,
-     "from_prior": -0.2613,
-     "from_this_season": 0.2326,
-     "prior_share": 0.529
-    },
-    {
-     "key": "rush_def",
-     "label": "Rush defense",
-     "group": "base_strength",
-     "points": 0.4767,
-     "from_prior": 0.1567,
-     "from_this_season": 0.32,
-     "prior_share": 0.329
-    },
-    {
-     "key": "market",
-     "label": "Market rating (prior weeks' closing lines)",
-     "group": "base_strength",
-     "points": -0.4813,
-     "from_prior": 0.3186,
-     "from_this_season": -0.7999,
-     "prior_share": 0.285
-    },
-    {
-     "key": "rest",
-     "label": "Rest days",
-     "group": "rest_travel",
-     "points": 0.0
-    },
-    {
-     "key": "bye",
-     "label": "Off a bye",
-     "group": "rest_travel",
-     "points": -0.0
-    },
-    {
-     "key": "short",
-     "label": "Short week",
-     "group": "rest_travel",
-     "points": 0.0
-    },
-    {
-     "key": "travel",
-     "label": "Travel distance",
-     "group": "rest_travel",
-     "points": -0.3056
-    },
-    {
-     "key": "timezone",
-     "label": "Time zones crossed",
-     "group": "rest_travel",
-     "points": 0.7569
-    },
-    {
-     "key": "body_clock",
-     "label": "Early body-clock kickoff",
-     "group": "rest_travel",
-     "points": -0.0527
-    }
-   ],
-   "reconciliation": {
-    "components_sum": 0.733939,
-    "fair_home_margin": 0.733939,
-    "unattributed": 0.0
-   },
-   "market_reference": {
-    "home_line": -2.5,
-    "source": "nflverse games.csv consensus (reference, not a price)"
-   },
-   "qb_scenarios": [],
-   "disagreement": null,
-   "data_status": {
-    "status": "OK",
-    "reasons": []
-   }
-  },
-  {
-   "game_id": "2026_08_BAL_BUF",
-   "week": 8,
-   "home": "BUF",
-   "away": "BAL",
-   "kickoff_et": "2026-11-01 13:00:00",
-   "starters": {
-    "home": {
-     "id": "00-0034857",
-     "name": "Josh Allen",
-     "basis": "reconciled starter (SCHEDULE_FEED)"
-    },
-    "away": {
-     "id": "00-0034796",
-     "name": "Lamar Jackson",
-     "basis": "reconciled starter (SCHEDULE_FEED)"
-    }
-   },
-   "fair_home_margin": 5.48,
-   "fair_home_line": -5.48,
-   "fair_total": 53.88,
-   "home_win_prob": 0.6587,
-   "fair_home_ml": -193,
-   "fair_away_ml": 193,
-   "range80": {
-    "lo": -11.32,
-    "hi": 22.28,
-    "centre": 5.48,
-    "half_width": 16.8
-   },
-   "groups": {
-    "Environment": 2.1453,
-    "Base strength": 1.7961,
-    "Rest & travel": 1.5361
-   },
-   "components": [
-    {
-     "key": "home_field",
-     "label": "Home field",
-     "group": "environment",
-     "points": 2.1453
-    },
-    {
-     "key": "covid_2020",
-     "label": "No-crowd season (2020)",
-     "group": "environment",
-     "points": -0.0
-    },
-    {
-     "key": "pass_off",
-     "label": "Pass offense (team, excluding QB)",
-     "group": "base_strength",
-     "points": -0.0478,
-     "from_prior": -0.0283,
-     "from_this_season": -0.0195,
-     "prior_share": 0.593
-    },
-    {
-     "key": "qb",
-     "label": "Quarterback",
-     "group": "base_strength",
-     "points": 0.1054,
-     "from_prior": 0.1333,
-     "from_this_season": -0.0279,
-     "prior_share": 0.827
-    },
-    {
-     "key": "pass_def",
-     "label": "Pass defense",
-     "group": "base_strength",
-     "points": -0.1781,
-     "from_prior": 0.1928,
-     "from_this_season": -0.3709,
-     "prior_share": 0.342
-    },
-    {
-     "key": "rush_off",
-     "label": "Rush offense",
-     "group": "base_strength",
-     "points": 0.7022,
-     "from_prior": 0.3122,
-     "from_this_season": 0.39,
-     "prior_share": 0.445
-    },
-    {
-     "key": "rush_def",
-     "label": "Rush defense",
-     "group": "base_strength",
-     "points": -0.7025,
-     "from_prior": -0.5083,
-     "from_this_season": -0.1942,
-     "prior_share": 0.724
-    },
-    {
-     "key": "market",
-     "label": "Market rating (prior weeks' closing lines)",
-     "group": "base_strength",
-     "points": 1.9169,
-     "from_prior": 0.3094,
-     "from_this_season": 1.6075,
-     "prior_share": 0.161
-    },
-    {
-     "key": "rest",
-     "label": "Rest days",
-     "group": "rest_travel",
-     "points": 1.804
-    },
-    {
-     "key": "bye",
-     "label": "Off a bye",
-     "group": "rest_travel",
-     "points": -0.5827
-    },
-    {
-     "key": "short",
-     "label": "Short week",
-     "group": "rest_travel",
-     "points": 0.0
-    },
-    {
-     "key": "travel",
-     "label": "Travel distance",
-     "group": "rest_travel",
-     "points": -0.3894
-    },
-    {
-     "key": "timezone",
-     "label": "Time zones crossed",
-     "group": "rest_travel",
-     "points": 0.7569
-    },
-    {
-     "key": "body_clock",
-     "label": "Early body-clock kickoff",
-     "group": "rest_travel",
-     "points": -0.0527
-    }
-   ],
-   "reconciliation": {
-    "components_sum": 5.4775,
-    "fair_home_margin": 5.4775,
-    "unattributed": 0.0
-   },
-   "market_reference": {
-    "home_line": -3.0,
-    "source": "nflverse games.csv consensus (reference, not a price)"
-   },
-   "qb_scenarios": [],
-   "disagreement": {
-    "level": "WATCH",
-    "text": "Model disagrees with market by 2.5",
-    "gap_points": 2.477500314757303,
-    "direction": "home",
-    "drivers": [
-     {
-      "key": "rest",
-      "label": "Rest days",
-      "points": 1.8,
-      "prior_share": null
-     },
-     {
-      "key": "timezone",
-      "label": "Time zones crossed",
-      "points": 0.76,
-      "prior_share": null
-     },
-     {
-      "key": "rush_off",
-      "label": "Rush offense",
-      "points": 0.7,
-      "prior_share": 0.445
-     }
-    ]
-   },
-   "data_status": {
-    "status": "OK",
-    "reasons": []
-   }
-  },
   {
    "game_id": "2026_08_CHI_SEA",
    "week": 8,
@@ -699,1475 +209,42 @@
     "unattributed": -0.0
    },
    "market_reference": {
-    "home_line": -3.0,
-    "source": "nflverse games.csv consensus (reference, not a price)"
-   },
-   "qb_scenarios": [],
-   "disagreement": null,
-   "data_status": {
-    "status": "OK",
-    "reasons": []
-   }
-  },
-  {
-   "game_id": "2026_08_CLE_PIT",
-   "week": 8,
-   "home": "PIT",
-   "away": "CLE",
-   "kickoff_et": "2026-11-01 13:00:00",
-   "starters": {
-    "home": {
-     "id": "00-0023459",
-     "name": "Aaron Rodgers",
-     "basis": "reconciled starter (SCHEDULE_FEED)"
-    },
-    "away": {
-     "id": "00-0033537",
-     "name": "Deshaun Watson",
-     "basis": "reconciled starter (SCHEDULE_FEED)"
-    }
-   },
-   "fair_home_margin": 5.88,
-   "fair_home_line": -5.88,
-   "fair_total": 39.35,
-   "home_win_prob": 0.6695,
-   "fair_home_ml": -203,
-   "fair_away_ml": 203,
-   "range80": {
-    "lo": -10.96,
-    "hi": 22.71,
-    "centre": 5.88,
-    "half_width": 16.84
-   },
-   "groups": {
-    "Environment": 2.1453,
-    "Base strength": 3.5045,
-    "Rest & travel": 0.2287
-   },
-   "components": [
-    {
-     "key": "home_field",
-     "label": "Home field",
-     "group": "environment",
-     "points": 2.1453
-    },
-    {
-     "key": "covid_2020",
-     "label": "No-crowd season (2020)",
-     "group": "environment",
-     "points": -0.0
-    },
-    {
-     "key": "pass_off",
-     "label": "Pass offense (team, excluding QB)",
-     "group": "base_strength",
-     "points": 0.213,
-     "from_prior": 0.3045,
-     "from_this_season": -0.0915,
-     "prior_share": 0.769
-    },
-    {
-     "key": "qb",
-     "label": "Quarterback",
-     "group": "base_strength",
-     "points": -0.4927,
-     "from_prior": 0.3138,
-     "from_this_season": -0.8065,
-     "prior_share": 0.28
-    },
-    {
-     "key": "pass_def",
-     "label": "Pass defense",
-     "group": "base_strength",
-     "points": -0.5157,
-     "from_prior": -0.2146,
-     "from_this_season": -0.3011,
-     "prior_share": 0.416
-    },
-    {
-     "key": "rush_off",
-     "label": "Rush offense",
-     "group": "base_strength",
-     "points": 1.2301,
-     "from_prior": 0.4958,
-     "from_this_season": 0.7343,
-     "prior_share": 0.403
-    },
-    {
-     "key": "rush_def",
-     "label": "Rush defense",
-     "group": "base_strength",
-     "points": 0.1592,
-     "from_prior": 0.088,
-     "from_this_season": 0.0712,
-     "prior_share": 0.553
-    },
-    {
-     "key": "market",
-     "label": "Market rating (prior weeks' closing lines)",
-     "group": "base_strength",
-     "points": 2.9106,
-     "from_prior": 0.2476,
-     "from_this_season": 2.663,
-     "prior_share": 0.085
-    },
-    {
-     "key": "rest",
-     "label": "Rest days",
-     "group": "rest_travel",
-     "points": 0.0
-    },
-    {
-     "key": "bye",
-     "label": "Off a bye",
-     "group": "rest_travel",
-     "points": -0.0
-    },
-    {
-     "key": "short",
-     "label": "Short week",
-     "group": "rest_travel",
-     "points": 0.0
-    },
-    {
-     "key": "travel",
-     "label": "Travel distance",
-     "group": "rest_travel",
-     "points": -0.4755
-    },
-    {
-     "key": "timezone",
-     "label": "Time zones crossed",
-     "group": "rest_travel",
-     "points": 0.7569
-    },
-    {
-     "key": "body_clock",
-     "label": "Early body-clock kickoff",
-     "group": "rest_travel",
-     "points": -0.0527
-    }
-   ],
-   "reconciliation": {
-    "components_sum": 5.878495,
-    "fair_home_margin": 5.878495,
-    "unattributed": 0.0
-   },
-   "market_reference": {
     "home_line": -3.5,
     "source": "nflverse games.csv consensus (reference, not a price)"
    },
    "qb_scenarios": [],
    "disagreement": {
     "level": "WATCH",
-    "text": "Model disagrees with market by 2.4",
-    "gap_points": 2.3784950133631027,
-    "direction": "home",
-    "drivers": [
-     {
-      "key": "rush_off",
-      "label": "Rush offense",
-      "points": 1.23,
-      "prior_share": 0.403
-     },
-     {
-      "key": "timezone",
-      "label": "Time zones crossed",
-      "points": 0.76,
-      "prior_share": null
-     }
-    ]
-   },
-   "data_status": {
-    "status": "OK",
-    "reasons": []
-   }
-  },
-  {
-   "game_id": "2026_08_IND_JAX",
-   "week": 8,
-   "home": "JAX",
-   "away": "IND",
-   "kickoff_et": "2026-11-01 13:00:00",
-   "starters": {
-    "home": {
-     "id": "00-0036971",
-     "name": "Trevor Lawrence",
-     "basis": "reconciled starter (SCHEDULE_FEED)"
-    },
-    "away": {
-     "id": "00-0035710",
-     "name": "Daniel Jones",
-     "basis": "reconciled starter (SCHEDULE_FEED)"
-    }
-   },
-   "fair_home_margin": 11.13,
-   "fair_home_line": -11.13,
-   "fair_total": 46.49,
-   "home_win_prob": 0.7932,
-   "fair_home_ml": -384,
-   "fair_away_ml": 384,
-   "range80": {
-    "lo": -6.16,
-    "hi": 28.42,
-    "centre": 11.13,
-    "half_width": 17.29
-   },
-   "groups": {
-    "Environment": 2.1453,
-    "Base strength": 7.2002,
-    "Rest & travel": 1.7812
-   },
-   "components": [
-    {
-     "key": "home_field",
-     "label": "Home field",
-     "group": "environment",
-     "points": 2.1453
-    },
-    {
-     "key": "covid_2020",
-     "label": "No-crowd season (2020)",
-     "group": "environment",
-     "points": -0.0
-    },
-    {
-     "key": "pass_off",
-     "label": "Pass offense (team, excluding QB)",
-     "group": "base_strength",
-     "points": 0.3299,
-     "from_prior": 0.0491,
-     "from_this_season": 0.2808,
-     "prior_share": 0.149
-    },
-    {
-     "key": "qb",
-     "label": "Quarterback",
-     "group": "base_strength",
-     "points": 3.2573,
-     "from_prior": 0.2523,
-     "from_this_season": 3.005,
-     "prior_share": 0.077
-    },
-    {
-     "key": "pass_def",
-     "label": "Pass defense",
-     "group": "base_strength",
-     "points": 0.5262,
-     "from_prior": 0.1456,
-     "from_this_season": 0.3806,
-     "prior_share": 0.277
-    },
-    {
-     "key": "rush_off",
-     "label": "Rush offense",
-     "group": "base_strength",
-     "points": -0.8193,
-     "from_prior": -0.3532,
-     "from_this_season": -0.4661,
-     "prior_share": 0.431
-    },
-    {
-     "key": "rush_def",
-     "label": "Rush defense",
-     "group": "base_strength",
-     "points": 0.7556,
-     "from_prior": -0.1496,
-     "from_this_season": 0.9052,
-     "prior_share": 0.142
-    },
-    {
-     "key": "market",
-     "label": "Market rating (prior weeks' closing lines)",
-     "group": "base_strength",
-     "points": 3.1505,
-     "from_prior": 0.4102,
-     "from_this_season": 2.7403,
-     "prior_share": 0.13
-    },
-    {
-     "key": "rest",
-     "label": "Rest days",
-     "group": "rest_travel",
-     "points": 1.804
-    },
-    {
-     "key": "bye",
-     "label": "Off a bye",
-     "group": "rest_travel",
-     "points": -0.5827
-    },
-    {
-     "key": "short",
-     "label": "Short week",
-     "group": "rest_travel",
-     "points": 0.0
-    },
-    {
-     "key": "travel",
-     "label": "Travel distance",
-     "group": "rest_travel",
-     "points": -0.1443
-    },
-    {
-     "key": "timezone",
-     "label": "Time zones crossed",
-     "group": "rest_travel",
-     "points": 0.7569
-    },
-    {
-     "key": "body_clock",
-     "label": "Early body-clock kickoff",
-     "group": "rest_travel",
-     "points": -0.0527
-    }
-   ],
-   "reconciliation": {
-    "components_sum": 11.12666,
-    "fair_home_margin": 11.12666,
-    "unattributed": 0.0
-   },
-   "market_reference": {
-    "home_line": -10.0,
-    "source": "nflverse games.csv consensus (reference, not a price)"
-   },
-   "qb_scenarios": [],
-   "disagreement": null,
-   "data_status": {
-    "status": "OK",
-    "reasons": []
-   }
-  },
-  {
-   "game_id": "2026_08_KC_DEN",
-   "week": 8,
-   "home": "DEN",
-   "away": "KC",
-   "kickoff_et": "2026-11-01 16:25:00",
-   "starters": {
-    "home": {
-     "id": "00-0039732",
-     "name": "Bo Nix",
-     "basis": "reconciled starter (SCHEDULE_FEED)"
-    },
-    "away": {
-     "id": "00-0033873",
-     "name": "Patrick Mahomes",
-     "basis": "reconciled starter (SCHEDULE_FEED)"
-    }
-   },
-   "fair_home_margin": -1.13,
-   "fair_home_line": 1.13,
-   "fair_total": 44.8,
-   "home_win_prob": 0.4662,
-   "fair_home_ml": 115,
-   "fair_away_ml": -115,
-   "range80": {
-    "lo": -17.83,
-    "hi": 15.57,
-    "centre": -1.13,
-    "half_width": 16.7
-   },
-   "groups": {
-    "Environment": 2.1453,
-    "Base strength": -2.9747,
-    "Rest & travel": -0.3
-   },
-   "components": [
-    {
-     "key": "home_field",
-     "label": "Home field",
-     "group": "environment",
-     "points": 2.1453
-    },
-    {
-     "key": "covid_2020",
-     "label": "No-crowd season (2020)",
-     "group": "environment",
-     "points": -0.0
-    },
-    {
-     "key": "pass_off",
-     "label": "Pass offense (team, excluding QB)",
-     "group": "base_strength",
-     "points": 0.0385,
-     "from_prior": 0.1618,
-     "from_this_season": -0.1233,
-     "prior_share": 0.568
-    },
-    {
-     "key": "qb",
-     "label": "Quarterback",
-     "group": "base_strength",
-     "points": -1.8557,
-     "from_prior": -0.5357,
-     "from_this_season": -1.32,
-     "prior_share": 0.289
-    },
-    {
-     "key": "pass_def",
-     "label": "Pass defense",
-     "group": "base_strength",
-     "points": 0.8471,
-     "from_prior": 0.2293,
-     "from_this_season": 0.6178,
-     "prior_share": 0.271
-    },
-    {
-     "key": "rush_off",
-     "label": "Rush offense",
-     "group": "base_strength",
-     "points": -0.6572,
-     "from_prior": -0.0845,
-     "from_this_season": -0.5727,
-     "prior_share": 0.129
-    },
-    {
-     "key": "rush_def",
-     "label": "Rush defense",
-     "group": "base_strength",
-     "points": -0.5499,
-     "from_prior": 0.0138,
-     "from_this_season": -0.5637,
-     "prior_share": 0.024
-    },
-    {
-     "key": "market",
-     "label": "Market rating (prior weeks' closing lines)",
-     "group": "base_strength",
-     "points": -0.7975,
-     "from_prior": 0.1653,
-     "from_this_season": -0.9628,
-     "prior_share": 0.147
-    },
-    {
-     "key": "rest",
-     "label": "Rest days",
-     "group": "rest_travel",
-     "points": 0.0
-    },
-    {
-     "key": "bye",
-     "label": "Off a bye",
-     "group": "rest_travel",
-     "points": -0.0
-    },
-    {
-     "key": "short",
-     "label": "Short week",
-     "group": "rest_travel",
-     "points": 0.0
-    },
-    {
-     "key": "travel",
-     "label": "Travel distance",
-     "group": "rest_travel",
-     "points": -0.2211
-    },
-    {
-     "key": "timezone",
-     "label": "Time zones crossed",
-     "group": "rest_travel",
-     "points": -0.0262
-    },
-    {
-     "key": "body_clock",
-     "label": "Early body-clock kickoff",
-     "group": "rest_travel",
-     "points": -0.0527
-    }
-   ],
-   "reconciliation": {
-    "components_sum": -1.129529,
-    "fair_home_margin": -1.129529,
-    "unattributed": -0.0
-   },
-   "market_reference": {
-    "home_line": 1.5,
-    "source": "nflverse games.csv consensus (reference, not a price)"
-   },
-   "qb_scenarios": [],
-   "disagreement": null,
-   "data_status": {
-    "status": "OK",
-    "reasons": []
-   }
-  },
-  {
-   "game_id": "2026_08_LAC_LA",
-   "week": 8,
-   "home": "LA",
-   "away": "LAC",
-   "kickoff_et": "2026-11-01 16:05:00",
-   "starters": {
-    "home": {
-     "id": "00-0026498",
-     "name": "Matthew Stafford",
-     "basis": "reconciled starter (SCHEDULE_FEED)"
-    },
-    "away": {
-     "id": "00-0036355",
-     "name": "Justin Herbert",
-     "basis": "reconciled starter (SCHEDULE_FEED)"
-    }
-   },
-   "fair_home_margin": 11.57,
-   "fair_home_line": -11.57,
-   "fair_total": 45.47,
-   "home_win_prob": 0.8021,
-   "fair_home_ml": -405,
-   "fair_away_ml": 405,
-   "range80": {
-    "lo": -5.8,
-    "hi": 28.94,
-    "centre": 11.57,
-    "half_width": 17.37
-   },
-   "groups": {
-    "Environment": 2.1453,
-    "Base strength": 10.4825,
-    "Rest & travel": -1.0572
-   },
-   "components": [
-    {
-     "key": "home_field",
-     "label": "Home field",
-     "group": "environment",
-     "points": 2.1453
-    },
-    {
-     "key": "covid_2020",
-     "label": "No-crowd season (2020)",
-     "group": "environment",
-     "points": -0.0
-    },
-    {
-     "key": "pass_off",
-     "label": "Pass offense (team, excluding QB)",
-     "group": "base_strength",
-     "points": 0.375,
-     "from_prior": 0.0573,
-     "from_this_season": 0.3177,
-     "prior_share": 0.153
-    },
-    {
-     "key": "qb",
-     "label": "Quarterback",
-     "group": "base_strength",
-     "points": 4.0528,
-     "from_prior": 0.6888,
-     "from_this_season": 3.364,
-     "prior_share": 0.17
-    },
-    {
-     "key": "pass_def",
-     "label": "Pass defense",
-     "group": "base_strength",
-     "points": -0.2474,
-     "from_prior": -0.1242,
-     "from_this_season": -0.1232,
-     "prior_share": 0.502
-    },
-    {
-     "key": "rush_off",
-     "label": "Rush offense",
-     "group": "base_strength",
-     "points": 1.7344,
-     "from_prior": 0.7882,
-     "from_this_season": 0.9462,
-     "prior_share": 0.454
-    },
-    {
-     "key": "rush_def",
-     "label": "Rush defense",
-     "group": "base_strength",
-     "points": 0.5918,
-     "from_prior": 0.0318,
-     "from_this_season": 0.56,
-     "prior_share": 0.054
-    },
-    {
-     "key": "market",
-     "label": "Market rating (prior weeks' closing lines)",
-     "group": "base_strength",
-     "points": 3.9759,
-     "from_prior": 0.1472,
-     "from_this_season": 3.8287,
-     "prior_share": 0.037
-    },
-    {
-     "key": "rest",
-     "label": "Rest days",
-     "group": "rest_travel",
-     "points": -1.804
-    },
-    {
-     "key": "bye",
-     "label": "Off a bye",
-     "group": "rest_travel",
-     "points": 0.5827
-    },
-    {
-     "key": "short",
-     "label": "Short week",
-     "group": "rest_travel",
-     "points": 0.0
-    },
-    {
-     "key": "travel",
-     "label": "Travel distance",
-     "group": "rest_travel",
-     "points": -0.5401
-    },
-    {
-     "key": "timezone",
-     "label": "Time zones crossed",
-     "group": "rest_travel",
-     "points": 0.7569
-    },
-    {
-     "key": "body_clock",
-     "label": "Early body-clock kickoff",
-     "group": "rest_travel",
-     "points": -0.0527
-    }
-   ],
-   "reconciliation": {
-    "components_sum": 11.570724,
-    "fair_home_margin": 11.570724,
-    "unattributed": 0.0
-   },
-   "market_reference": {
-    "home_line": -6.5,
-    "source": "nflverse games.csv consensus (reference, not a price)"
-   },
-   "qb_scenarios": [],
-   "disagreement": {
-    "level": "FLAG",
-    "text": "Model disagrees with market by 5.1",
-    "gap_points": 5.0707238037081215,
-    "direction": "home",
+    "text": "Model disagrees with market by 2.5",
+    "gap_points": -2.4536555225012924,
+    "direction": "away",
     "drivers": [
      {
       "key": "qb",
       "label": "Quarterback",
-      "points": 4.05,
-      "prior_share": 0.17
+      "points": -3.05,
+      "prior_share": 0.078
      },
      {
       "key": "rush_off",
       "label": "Rush offense",
-      "points": 1.73,
-      "prior_share": 0.454
+      "points": -1.0,
+      "prior_share": 0.154
      },
      {
       "key": "timezone",
       "label": "Time zones crossed",
-      "points": 0.76,
+      "points": -0.81,
       "prior_share": null
      },
      {
-      "key": "rush_def",
-      "label": "Rush defense",
-      "points": 0.59,
-      "prior_share": 0.054
-     }
-    ]
-   },
-   "data_status": {
-    "status": "OK",
-    "reasons": []
-   }
-  },
-  {
-   "game_id": "2026_08_LV_NYJ",
-   "week": 8,
-   "home": "NYJ",
-   "away": "LV",
-   "kickoff_et": "2026-11-01 13:00:00",
-   "starters": {
-    "home": {
-     "id": "00-0030565",
-     "name": "Geno Smith",
-     "basis": "reconciled starter (SCHEDULE_FEED)"
-    },
-    "away": {
-     "id": "00-0029604",
-     "name": "Kirk Cousins",
-     "basis": "reconciled starter (SCHEDULE_FEED)"
-    }
-   },
-   "fair_home_margin": 1.33,
-   "fair_home_line": -1.33,
-   "fair_total": 45.19,
-   "home_win_prob": 0.5399,
-   "fair_home_ml": -117,
-   "fair_away_ml": 117,
-   "range80": {
-    "lo": -15.33,
-    "hi": 18.0,
-    "centre": 1.33,
-    "half_width": 16.66
-   },
-   "groups": {
-    "Environment": 2.1453,
-    "Base strength": -0.5899,
-    "Rest & travel": -0.221
-   },
-   "components": [
-    {
-     "key": "home_field",
-     "label": "Home field",
-     "group": "environment",
-     "points": 2.1453
-    },
-    {
-     "key": "covid_2020",
-     "label": "No-crowd season (2020)",
-     "group": "environment",
-     "points": -0.0
-    },
-    {
-     "key": "pass_off",
-     "label": "Pass offense (team, excluding QB)",
-     "group": "base_strength",
-     "points": -0.0274,
-     "from_prior": 0.0512,
-     "from_this_season": -0.0786,
-     "prior_share": 0.394
-    },
-    {
-     "key": "qb",
-     "label": "Quarterback",
-     "group": "base_strength",
-     "points": -1.4594,
-     "from_prior": -0.6703,
-     "from_this_season": -0.7891,
-     "prior_share": 0.459
-    },
-    {
-     "key": "pass_def",
-     "label": "Pass defense",
-     "group": "base_strength",
-     "points": -0.255,
-     "from_prior": -0.3473,
-     "from_this_season": 0.0923,
-     "prior_share": 0.79
-    },
-    {
-     "key": "rush_off",
-     "label": "Rush offense",
-     "group": "base_strength",
-     "points": 0.801,
-     "from_prior": 0.4666,
-     "from_this_season": 0.3344,
-     "prior_share": 0.582
-    },
-    {
-     "key": "rush_def",
-     "label": "Rush defense",
-     "group": "base_strength",
-     "points": 0.6188,
-     "from_prior": -0.1865,
-     "from_this_season": 0.8053,
-     "prior_share": 0.188
-    },
-    {
-     "key": "market",
-     "label": "Market rating (prior weeks' closing lines)",
-     "group": "base_strength",
-     "points": -0.2679,
-     "from_prior": -0.1759,
-     "from_this_season": -0.092,
-     "prior_share": 0.657
-    },
-    {
-     "key": "rest",
-     "label": "Rest days",
-     "group": "rest_travel",
-     "points": 0.0
-    },
-    {
-     "key": "bye",
-     "label": "Off a bye",
-     "group": "rest_travel",
-     "points": -0.0
-    },
-    {
-     "key": "short",
-     "label": "Short week",
-     "group": "rest_travel",
-     "points": 0.0
-    },
-    {
-     "key": "travel",
-     "label": "Travel distance",
-     "group": "rest_travel",
-     "points": 0.7191
-    },
-    {
-     "key": "timezone",
-     "label": "Time zones crossed",
-     "group": "rest_travel",
-     "points": -1.5923
-    },
-    {
-     "key": "body_clock",
-     "label": "Early body-clock kickoff",
-     "group": "rest_travel",
-     "points": 0.6522
-    }
-   ],
-   "reconciliation": {
-    "components_sum": 1.334423,
-    "fair_home_margin": 1.334423,
-    "unattributed": 0.0
-   },
-   "market_reference": {
-    "home_line": -1.5,
-    "source": "nflverse games.csv consensus (reference, not a price)"
-   },
-   "qb_scenarios": [],
-   "disagreement": null,
-   "data_status": {
-    "status": "OK",
-    "reasons": []
-   }
-  },
-  {
-   "game_id": "2026_08_MIN_DET",
-   "week": 8,
-   "home": "DET",
-   "away": "MIN",
-   "kickoff_et": "2026-11-01 13:00:00",
-   "starters": {
-    "home": {
-     "id": "00-0033106",
-     "name": "Jared Goff",
-     "basis": "reconciled starter (SCHEDULE_FEED)"
-    },
-    "away": {
-     "id": "00-0035228",
-     "name": "Kyler Murray",
-     "basis": "reconciled starter (SCHEDULE_FEED)"
-    }
-   },
-   "fair_home_margin": 3.97,
-   "fair_home_line": -3.97,
-   "fair_total": 49.3,
-   "home_win_prob": 0.617,
-   "fair_home_ml": -161,
-   "fair_away_ml": 161,
-   "range80": {
-    "lo": -13.02,
-    "hi": 20.96,
-    "centre": 3.97,
-    "half_width": 16.99
-   },
-   "groups": {
-    "Environment": 2.1453,
-    "Base strength": 2.1395,
-    "Rest & travel": -0.3129
-   },
-   "components": [
-    {
-     "key": "home_field",
-     "label": "Home field",
-     "group": "environment",
-     "points": 2.1453
-    },
-    {
-     "key": "covid_2020",
-     "label": "No-crowd season (2020)",
-     "group": "environment",
-     "points": -0.0
-    },
-    {
-     "key": "pass_off",
-     "label": "Pass offense (team, excluding QB)",
-     "group": "base_strength",
-     "points": 0.3069,
-     "from_prior": 0.1028,
-     "from_this_season": 0.2041,
-     "prior_share": 0.335
-    },
-    {
-     "key": "qb",
-     "label": "Quarterback",
-     "group": "base_strength",
-     "points": 2.4858,
-     "from_prior": 0.2806,
-     "from_this_season": 2.2052,
-     "prior_share": 0.113
-    },
-    {
-     "key": "pass_def",
-     "label": "Pass defense",
-     "group": "base_strength",
-     "points": -1.1799,
-     "from_prior": -0.1694,
-     "from_this_season": -1.0105,
-     "prior_share": 0.144
-    },
-    {
-     "key": "rush_off",
-     "label": "Rush offense",
-     "group": "base_strength",
-     "points": 0.9678,
-     "from_prior": 0.5934,
-     "from_this_season": 0.3744,
-     "prior_share": 0.613
-    },
-    {
-     "key": "rush_def",
-     "label": "Rush defense",
-     "group": "base_strength",
-     "points": -0.7057,
-     "from_prior": -0.3628,
-     "from_this_season": -0.3429,
-     "prior_share": 0.514
-    },
-    {
-     "key": "market",
-     "label": "Market rating (prior weeks' closing lines)",
-     "group": "base_strength",
-     "points": 0.2646,
-     "from_prior": 0.2434,
-     "from_this_season": 0.0212,
-     "prior_share": 0.92
-    },
-    {
-     "key": "rest",
-     "label": "Rest days",
-     "group": "rest_travel",
-     "points": 0.0
-    },
-    {
-     "key": "bye",
-     "label": "Off a bye",
-     "group": "rest_travel",
-     "points": -0.0
-    },
-    {
-     "key": "short",
-     "label": "Short week",
-     "group": "rest_travel",
-     "points": 0.0
-    },
-    {
-     "key": "travel",
-     "label": "Travel distance",
-     "group": "rest_travel",
-     "points": -0.234
-    },
-    {
-     "key": "timezone",
-     "label": "Time zones crossed",
-     "group": "rest_travel",
-     "points": -0.0262
-    },
-    {
-     "key": "body_clock",
-     "label": "Early body-clock kickoff",
-     "group": "rest_travel",
-     "points": -0.0527
-    }
-   ],
-   "reconciliation": {
-    "components_sum": 3.971783,
-    "fair_home_margin": 3.971783,
-    "unattributed": 0.0
-   },
-   "market_reference": {
-    "home_line": -3.0,
-    "source": "nflverse games.csv consensus (reference, not a price)"
-   },
-   "qb_scenarios": [],
-   "disagreement": null,
-   "data_status": {
-    "status": "OK",
-    "reasons": []
-   }
-  },
-  {
-   "game_id": "2026_08_NE_MIA",
-   "week": 8,
-   "home": "MIA",
-   "away": "NE",
-   "kickoff_et": "2026-11-01 16:25:00",
-   "starters": {
-    "home": {
-     "id": "00-0038128",
-     "name": "Malik Willis",
-     "basis": "reconciled starter (SCHEDULE_FEED)"
-    },
-    "away": {
-     "id": "00-0039851",
-     "name": "Drake Maye",
-     "basis": "reconciled starter (SCHEDULE_FEED)"
-    }
-   },
-   "fair_home_margin": -4.94,
-   "fair_home_line": 4.94,
-   "fair_total": 47.22,
-   "home_win_prob": 0.356,
-   "fair_home_ml": 181,
-   "fair_away_ml": -181,
-   "range80": {
-    "lo": -21.69,
-    "hi": 11.81,
-    "centre": -4.94,
-    "half_width": 16.75
-   },
-   "groups": {
-    "Environment": 2.1453,
-    "Base strength": -7.1688,
-    "Rest & travel": 0.0837
-   },
-   "components": [
-    {
-     "key": "home_field",
-     "label": "Home field",
-     "group": "environment",
-     "points": 2.1453
-    },
-    {
-     "key": "covid_2020",
-     "label": "No-crowd season (2020)",
-     "group": "environment",
-     "points": -0.0
-    },
-    {
-     "key": "pass_off",
-     "label": "Pass offense (team, excluding QB)",
-     "group": "base_strength",
-     "points": -0.2476,
-     "from_prior": -0.0857,
-     "from_this_season": -0.1619,
-     "prior_share": 0.346
-    },
-    {
-     "key": "qb",
-     "label": "Quarterback",
-     "group": "base_strength",
-     "points": -2.0634,
-     "from_prior": -0.3807,
-     "from_this_season": -1.6827,
-     "prior_share": 0.185
-    },
-    {
-     "key": "pass_def",
-     "label": "Pass defense",
-     "group": "base_strength",
-     "points": -0.6797,
-     "from_prior": -0.1769,
-     "from_this_season": -0.5028,
-     "prior_share": 0.26
-    },
-    {
-     "key": "rush_off",
-     "label": "Rush offense",
-     "group": "base_strength",
-     "points": 0.503,
-     "from_prior": 0.0326,
-     "from_this_season": 0.4704,
-     "prior_share": 0.065
-    },
-    {
-     "key": "rush_def",
-     "label": "Rush defense",
-     "group": "base_strength",
-     "points": -0.595,
-     "from_prior": -0.1158,
-     "from_this_season": -0.4792,
-     "prior_share": 0.195
-    },
-    {
-     "key": "market",
-     "label": "Market rating (prior weeks' closing lines)",
-     "group": "base_strength",
-     "points": -4.0861,
-     "from_prior": -0.3226,
-     "from_this_season": -3.7635,
-     "prior_share": 0.079
-    },
-    {
-     "key": "rest",
-     "label": "Rest days",
-     "group": "rest_travel",
-     "points": -0.7732
-    },
-    {
-     "key": "bye",
-     "label": "Off a bye",
-     "group": "rest_travel",
-     "points": -0.0
-    },
-    {
-     "key": "short",
-     "label": "Short week",
-     "group": "rest_travel",
-     "points": 0.0
-    },
-    {
-     "key": "travel",
-     "label": "Travel distance",
-     "group": "rest_travel",
-     "points": 0.1527
-    },
-    {
-     "key": "timezone",
-     "label": "Time zones crossed",
-     "group": "rest_travel",
-     "points": 0.7569
-    },
-    {
-     "key": "body_clock",
-     "label": "Early body-clock kickoff",
-     "group": "rest_travel",
-     "points": -0.0527
-    }
-   ],
-   "reconciliation": {
-    "components_sum": -4.939712,
-    "fair_home_margin": -4.939712,
-    "unattributed": 0.0
-   },
-   "market_reference": {
-    "home_line": 7.0,
-    "source": "nflverse games.csv consensus (reference, not a price)"
-   },
-   "qb_scenarios": [],
-   "disagreement": {
-    "level": "WATCH",
-    "text": "Model disagrees with market by 2.1",
-    "gap_points": 2.0602878417371056,
-    "direction": "home",
-    "drivers": [
-     {
-      "key": "timezone",
-      "label": "Time zones crossed",
-      "points": 0.76,
+      "key": "rest",
+      "label": "Rest days",
+      "points": -0.77,
       "prior_share": null
-     },
-     {
-      "key": "rush_off",
-      "label": "Rush offense",
-      "points": 0.5,
-      "prior_share": 0.065
      }
     ]
    },
-   "data_status": {
-    "status": "OK",
-    "reasons": []
-   }
-  },
-  {
-   "game_id": "2026_08_PHI_WAS",
-   "week": 8,
-   "home": "WAS",
-   "away": "PHI",
-   "kickoff_et": "2026-11-01 20:20:00",
-   "starters": {
-    "home": {
-     "id": "00-0039910",
-     "name": "Jayden Daniels",
-     "basis": "reconciled starter (SCHEDULE_FEED)"
-    },
-    "away": {
-     "id": "00-0038400",
-     "name": "Tanner McKee",
-     "basis": "reconciled starter (ROSTER_RESERVE_REPLACEMENT)"
-    }
-   },
-   "fair_home_margin": 4.91,
-   "fair_home_line": -4.91,
-   "fair_total": 42.34,
-   "home_win_prob": 0.6433,
-   "fair_home_ml": -180,
-   "fair_away_ml": 180,
-   "range80": {
-    "lo": -11.83,
-    "hi": 21.66,
-    "centre": 4.91,
-    "half_width": 16.74
-   },
-   "groups": {
-    "Environment": 2.1453,
-    "Base strength": 1.3182,
-    "Rest & travel": 1.4497
-   },
-   "components": [
-    {
-     "key": "home_field",
-     "label": "Home field",
-     "group": "environment",
-     "points": 2.1453
-    },
-    {
-     "key": "covid_2020",
-     "label": "No-crowd season (2020)",
-     "group": "environment",
-     "points": -0.0
-    },
-    {
-     "key": "pass_off",
-     "label": "Pass offense (team, excluding QB)",
-     "group": "base_strength",
-     "points": 0.1705,
-     "from_prior": 0.0317,
-     "from_this_season": 0.1388,
-     "prior_share": 0.186
-    },
-    {
-     "key": "qb",
-     "label": "Quarterback",
-     "group": "base_strength",
-     "points": 2.6164,
-     "from_prior": 1.3034,
-     "from_this_season": 1.313,
-     "prior_share": 0.498
-    },
-    {
-     "key": "pass_def",
-     "label": "Pass defense",
-     "group": "base_strength",
-     "points": -0.3581,
-     "from_prior": -0.3763,
-     "from_this_season": 0.0182,
-     "prior_share": 0.954
-    },
-    {
-     "key": "rush_off",
-     "label": "Rush offense",
-     "group": "base_strength",
-     "points": -0.3309,
-     "from_prior": -0.3171,
-     "from_this_season": -0.0138,
-     "prior_share": 0.958
-    },
-    {
-     "key": "rush_def",
-     "label": "Rush defense",
-     "group": "base_strength",
-     "points": 0.1101,
-     "from_prior": -0.5983,
-     "from_this_season": 0.7084,
-     "prior_share": 0.458
-    },
-    {
-     "key": "market",
-     "label": "Market rating (prior weeks' closing lines)",
-     "group": "base_strength",
-     "points": -0.8898,
-     "from_prior": -0.1161,
-     "from_this_season": -0.7737,
-     "prior_share": 0.13
-    },
-    {
-     "key": "rest",
-     "label": "Rest days",
-     "group": "rest_travel",
-     "points": 1.804
-    },
-    {
-     "key": "bye",
-     "label": "Off a bye",
-     "group": "rest_travel",
-     "points": -0.5827
-    },
-    {
-     "key": "short",
-     "label": "Short week",
-     "group": "rest_travel",
-     "points": 0.0
-    },
-    {
-     "key": "travel",
-     "label": "Travel distance",
-     "group": "rest_travel",
-     "points": -0.4758
-    },
-    {
-     "key": "timezone",
-     "label": "Time zones crossed",
-     "group": "rest_travel",
-     "points": 0.7569
-    },
-    {
-     "key": "body_clock",
-     "label": "Early body-clock kickoff",
-     "group": "rest_travel",
-     "points": -0.0527
-    }
-   ],
-   "reconciliation": {
-    "components_sum": 4.913023,
-    "fair_home_margin": 4.913023,
-    "unattributed": 0.0
-   },
-   "market_reference": {
-    "home_line": -6.0,
-    "source": "nflverse games.csv consensus (reference, not a price)"
-   },
-   "qb_scenarios": [],
-   "disagreement": null,
-   "data_status": {
-    "status": "OK",
-    "reasons": []
-   }
-  },
-  {
-   "game_id": "2026_08_TEN_CIN",
-   "week": 8,
-   "home": "CIN",
-   "away": "TEN",
-   "kickoff_et": "2026-11-01 13:00:00",
-   "starters": {
-    "home": {
-     "id": "00-0036442",
-     "name": "Joe Burrow",
-     "basis": "reconciled starter (SCHEDULE_FEED)"
-    },
-    "away": {
-     "id": "00-0040676",
-     "name": "Cam Ward",
-     "basis": "reconciled starter (SCHEDULE_FEED)"
-    }
-   },
-   "fair_home_margin": 15.34,
-   "fair_home_line": -15.34,
-   "fair_total": 45.51,
-   "home_win_prob": 0.8675,
-   "fair_home_ml": -655,
-   "fair_away_ml": 655,
-   "range80": {
-    "lo": -2.74,
-    "hi": 33.41,
-    "centre": 15.34,
-    "half_width": 18.07
-   },
-   "groups": {
-    "Environment": 2.1453,
-    "Base strength": 13.6763,
-    "Rest & travel": -0.485
-   },
-   "components": [
-    {
-     "key": "home_field",
-     "label": "Home field",
-     "group": "environment",
-     "points": 2.1453
-    },
-    {
-     "key": "covid_2020",
-     "label": "No-crowd season (2020)",
-     "group": "environment",
-     "points": -0.0
-    },
-    {
-     "key": "pass_off",
-     "label": "Pass offense (team, excluding QB)",
-     "group": "base_strength",
-     "points": 0.3529,
-     "from_prior": 0.0182,
-     "from_this_season": 0.3347,
-     "prior_share": 0.052
-    },
-    {
-     "key": "qb",
-     "label": "Quarterback",
-     "group": "base_strength",
-     "points": 4.3492,
-     "from_prior": 0.7672,
-     "from_this_season": 3.582,
-     "prior_share": 0.176
-    },
-    {
-     "key": "pass_def",
-     "label": "Pass defense",
-     "group": "base_strength",
-     "points": 0.6879,
-     "from_prior": 0.0866,
-     "from_this_season": 0.6013,
-     "prior_share": 0.126
-    },
-    {
-     "key": "rush_off",
-     "label": "Rush offense",
-     "group": "base_strength",
-     "points": 0.9119,
-     "from_prior": 0.7441,
-     "from_this_season": 0.1678,
-     "prior_share": 0.816
-    },
-    {
-     "key": "rush_def",
-     "label": "Rush defense",
-     "group": "base_strength",
-     "points": 0.6222,
-     "from_prior": -0.0503,
-     "from_this_season": 0.6725,
-     "prior_share": 0.07
-    },
-    {
-     "key": "market",
-     "label": "Market rating (prior weeks' closing lines)",
-     "group": "base_strength",
-     "points": 6.7522,
-     "from_prior": 0.8309,
-     "from_this_season": 5.9213,
-     "prior_share": 0.123
-    },
-    {
-     "key": "rest",
-     "label": "Rest days",
-     "group": "rest_travel",
-     "points": 0.0
-    },
-    {
-     "key": "bye",
-     "label": "Off a bye",
-     "group": "rest_travel",
-     "points": -0.0
-    },
-    {
-     "key": "short",
-     "label": "Short week",
-     "group": "rest_travel",
-     "points": 0.0
-    },
-    {
-     "key": "travel",
-     "label": "Travel distance",
-     "group": "rest_travel",
-     "points": -0.4061
-    },
-    {
-     "key": "timezone",
-     "label": "Time zones crossed",
-     "group": "rest_travel",
-     "points": -0.0262
-    },
-    {
-     "key": "body_clock",
-     "label": "Early body-clock kickoff",
-     "group": "rest_travel",
-     "points": -0.0527
-    }
-   ],
-   "reconciliation": {
-    "components_sum": 15.336559,
-    "fair_home_margin": 15.336559,
-    "unattributed": 0.0
-   },
-   "market_reference": {
-    "home_line": -13.5,
-    "source": "nflverse games.csv consensus (reference, not a price)"
-   },
-   "qb_scenarios": [],
-   "disagreement": null,
    "data_status": {
     "status": "OK",
     "reasons": []
@@ -2188,24 +265,24 @@
     "away": {
      "id": "00-0033119",
      "name": "Jacoby Brissett",
-     "basis": "reconciled starter (SCHEDULE_FEED)"
+     "basis": "reconciled starter (DEPTH_CHART_RECONCILED)"
     }
    },
-   "fair_home_margin": 9.37,
-   "fair_home_line": -9.37,
-   "fair_total": 44.01,
-   "home_win_prob": 0.7555,
-   "fair_home_ml": -309,
-   "fair_away_ml": 309,
+   "fair_home_margin": 9.88,
+   "fair_home_line": -9.88,
+   "fair_total": 43.32,
+   "home_win_prob": 0.767,
+   "fair_home_ml": -329,
+   "fair_away_ml": 329,
    "range80": {
-    "lo": -7.39,
-    "hi": 26.12,
-    "centre": 9.37,
-    "half_width": 16.75
+    "lo": -7.06,
+    "hi": 26.82,
+    "centre": 9.88,
+    "half_width": 16.94
    },
    "groups": {
     "Environment": 2.1453,
-    "Base strength": 7.4747,
+    "Base strength": 7.9913,
     "Rest & travel": -0.2525
    },
    "components": [
@@ -2225,55 +302,55 @@
      "key": "pass_off",
      "label": "Pass offense (team, excluding QB)",
      "group": "base_strength",
-     "points": 0.1259,
-     "from_prior": 0.0155,
-     "from_this_season": 0.1104,
-     "prior_share": 0.123
+     "points": 0.1043,
+     "from_prior": 0.0063,
+     "from_this_season": 0.098,
+     "prior_share": 0.061
     },
     {
      "key": "qb",
      "label": "Quarterback",
      "group": "base_strength",
-     "points": 0.4343,
-     "from_prior": 0.4058,
-     "from_this_season": 0.0285,
-     "prior_share": 0.934
+     "points": 1.1433,
+     "from_prior": 0.4563,
+     "from_this_season": 0.687,
+     "prior_share": 0.399
     },
     {
      "key": "pass_def",
      "label": "Pass defense",
      "group": "base_strength",
-     "points": 1.5041,
-     "from_prior": 0.3687,
-     "from_this_season": 1.1354,
-     "prior_share": 0.245
+     "points": 1.562,
+     "from_prior": 0.3444,
+     "from_this_season": 1.2176,
+     "prior_share": 0.22
     },
     {
      "key": "rush_off",
      "label": "Rush offense",
      "group": "base_strength",
-     "points": -0.8746,
-     "from_prior": -0.1136,
-     "from_this_season": -0.761,
-     "prior_share": 0.13
+     "points": -0.8349,
+     "from_prior": -0.1025,
+     "from_this_season": -0.7324,
+     "prior_share": 0.123
     },
     {
      "key": "rush_def",
      "label": "Rush defense",
      "group": "base_strength",
-     "points": 0.7943,
-     "from_prior": 0.6142,
-     "from_this_season": 0.1801,
-     "prior_share": 0.773
+     "points": 0.5763,
+     "from_prior": 0.6046,
+     "from_this_season": -0.0283,
+     "prior_share": 0.955
     },
     {
      "key": "market",
      "label": "Market rating (prior weeks' closing lines)",
      "group": "base_strength",
-     "points": 5.4907,
+     "points": 5.4403,
      "from_prior": 0.3033,
-     "from_this_season": 5.1874,
-     "prior_share": 0.055
+     "from_this_season": 5.137,
+     "prior_share": 0.056
     },
     {
      "key": "rest",
@@ -2313,21 +390,19 @@
     }
    ],
    "reconciliation": {
-    "components_sum": 9.367368,
-    "fair_home_margin": 9.367368,
+    "components_sum": 9.883996,
+    "fair_home_margin": 9.883996,
     "unattributed": 0.0
    },
    "market_reference": {
-    "home_line": null,
+    "home_line": -11.5,
     "source": "nflverse games.csv consensus (reference, not a price)"
    },
    "qb_scenarios": [],
    "disagreement": null,
    "data_status": {
-    "status": "DEGRADED",
-    "reasons": [
-     "no reference line to measure the model against"
-    ]
+    "status": "OK",
+    "reasons": []
    }
   },
   {
@@ -2348,21 +423,21 @@
      "basis": "reconciled starter (SCHEDULE_FEED)"
     }
    },
-   "fair_home_margin": -3.31,
-   "fair_home_line": 3.31,
-   "fair_total": 49.8,
-   "home_win_prob": 0.4019,
-   "fair_home_ml": 149,
-   "fair_away_ml": -149,
+   "fair_home_margin": -3.36,
+   "fair_home_line": 3.36,
+   "fair_total": 48.73,
+   "home_win_prob": 0.4005,
+   "fair_home_ml": 150,
+   "fair_away_ml": -150,
    "range80": {
-    "lo": -20.35,
-    "hi": 13.72,
-    "centre": -3.31,
-    "half_width": 17.04
+    "lo": -20.41,
+    "hi": 13.68,
+    "centre": -3.36,
+    "half_width": 17.05
    },
    "groups": {
     "Environment": 2.1453,
-    "Base strength": -5.2565,
+    "Base strength": -5.3055,
     "Rest & travel": -0.2032
    },
    "components": [
@@ -2382,55 +457,55 @@
      "key": "pass_off",
      "label": "Pass offense (team, excluding QB)",
      "group": "base_strength",
-     "points": -0.3801,
-     "from_prior": -0.1062,
-     "from_this_season": -0.2739,
-     "prior_share": 0.279
+     "points": -0.3384,
+     "from_prior": -0.0962,
+     "from_this_season": -0.2422,
+     "prior_share": 0.284
     },
     {
      "key": "qb",
      "label": "Quarterback",
      "group": "base_strength",
-     "points": -3.5486,
-     "from_prior": -0.5689,
-     "from_this_season": -2.9797,
-     "prior_share": 0.16
+     "points": -3.1189,
+     "from_prior": -0.4574,
+     "from_this_season": -2.6615,
+     "prior_share": 0.147
     },
     {
      "key": "pass_def",
      "label": "Pass defense",
      "group": "base_strength",
-     "points": 1.1407,
-     "from_prior": 0.1358,
-     "from_this_season": 1.0049,
-     "prior_share": 0.119
+     "points": 1.0051,
+     "from_prior": 0.1968,
+     "from_this_season": 0.8083,
+     "prior_share": 0.196
     },
     {
      "key": "rush_off",
      "label": "Rush offense",
      "group": "base_strength",
-     "points": -2.3658,
-     "from_prior": -1.6237,
-     "from_this_season": -0.7421,
-     "prior_share": 0.686
+     "points": -2.4392,
+     "from_prior": -1.5775,
+     "from_this_season": -0.8617,
+     "prior_share": 0.647
     },
     {
      "key": "rush_def",
      "label": "Rush defense",
      "group": "base_strength",
-     "points": 1.1235,
-     "from_prior": 0.5742,
-     "from_this_season": 0.5493,
-     "prior_share": 0.511
+     "points": 0.8075,
+     "from_prior": 0.5381,
+     "from_this_season": 0.2694,
+     "prior_share": 0.666
     },
     {
      "key": "market",
      "label": "Market rating (prior weeks' closing lines)",
      "group": "base_strength",
-     "points": -1.2262,
+     "points": -1.2216,
      "from_prior": -0.2319,
-     "from_this_season": -0.9943,
-     "prior_share": 0.189
+     "from_this_season": -0.9897,
+     "prior_share": 0.19
     },
     {
      "key": "rest",
@@ -2470,21 +545,19 @@
     }
    ],
    "reconciliation": {
-    "components_sum": -3.31435,
-    "fair_home_margin": -3.31435,
-    "unattributed": -0.0
+    "components_sum": -3.363354,
+    "fair_home_margin": -3.363354,
+    "unattributed": 0.0
    },
    "market_reference": {
-    "home_line": null,
+    "home_line": 3.5,
     "source": "nflverse games.csv consensus (reference, not a price)"
    },
    "qb_scenarios": [],
    "disagreement": null,
    "data_status": {
-    "status": "DEGRADED",
-    "reasons": [
-     "no reference line to measure the model against"
-    ]
+    "status": "OK",
+    "reasons": []
    }
   },
   {
@@ -2505,21 +578,21 @@
      "basis": "reconciled starter (SCHEDULE_FEED)"
     }
    },
-   "fair_home_margin": -5.66,
-   "fair_home_line": 5.66,
-   "fair_total": 48.01,
-   "home_win_prob": 0.3365,
-   "fair_home_ml": 197,
-   "fair_away_ml": -197,
+   "fair_home_margin": -6.45,
+   "fair_home_line": 6.45,
+   "fair_total": 47.34,
+   "home_win_prob": 0.3154,
+   "fair_home_ml": 217,
+   "fair_away_ml": -217,
    "range80": {
-    "lo": -22.49,
-    "hi": 11.17,
-    "centre": -5.66,
-    "half_width": 16.83
+    "lo": -23.33,
+    "hi": 10.43,
+    "centre": -6.45,
+    "half_width": 16.88
    },
    "groups": {
     "Environment": 0.0,
-    "Base strength": -5.5517,
+    "Base strength": -6.3475,
     "Rest & travel": -0.104
    },
    "components": [
@@ -2539,54 +612,54 @@
      "key": "pass_off",
      "label": "Pass offense (team, excluding QB)",
      "group": "base_strength",
-     "points": -0.2485,
-     "from_prior": 0.1024,
-     "from_this_season": -0.3509,
-     "prior_share": 0.226
+     "points": -0.3622,
+     "from_prior": 0.1118,
+     "from_this_season": -0.474,
+     "prior_share": 0.191
     },
     {
      "key": "qb",
      "label": "Quarterback",
      "group": "base_strength",
-     "points": -1.7265,
-     "from_prior": -0.6172,
-     "from_this_season": -1.1093,
-     "prior_share": 0.357
+     "points": -3.0475,
+     "from_prior": -0.5076,
+     "from_this_season": -2.5399,
+     "prior_share": 0.167
     },
     {
      "key": "pass_def",
      "label": "Pass defense",
      "group": "base_strength",
-     "points": 0.3635,
-     "from_prior": 0.2327,
-     "from_this_season": 0.1308,
-     "prior_share": 0.64
+     "points": 0.6711,
+     "from_prior": 0.2466,
+     "from_this_season": 0.4245,
+     "prior_share": 0.367
     },
     {
      "key": "rush_off",
      "label": "Rush offense",
      "group": "base_strength",
-     "points": 0.0034,
-     "from_prior": -0.2509,
-     "from_this_season": 0.2543,
-     "prior_share": 0.497
+     "points": 0.1443,
+     "from_prior": -0.2356,
+     "from_this_season": 0.3799,
+     "prior_share": 0.383
     },
     {
      "key": "rush_def",
      "label": "Rush defense",
      "group": "base_strength",
-     "points": 0.2222,
-     "from_prior": 0.2153,
-     "from_this_season": 0.0069,
-     "prior_share": 0.969
+     "points": 0.4181,
+     "from_prior": 0.2119,
+     "from_this_season": 0.2062,
+     "prior_share": 0.507
     },
     {
      "key": "market",
      "label": "Market rating (prior weeks' closing lines)",
      "group": "base_strength",
-     "points": -4.1658,
+     "points": -4.1713,
      "from_prior": -0.1196,
-     "from_this_season": -4.0462,
+     "from_this_season": -4.0517,
      "prior_share": 0.029
     },
     {
@@ -2627,21 +700,38 @@
     }
    ],
    "reconciliation": {
-    "components_sum": -5.655665,
-    "fair_home_margin": -5.655665,
+    "components_sum": -6.451436,
+    "fair_home_margin": -6.451436,
     "unattributed": 0.0
    },
    "market_reference": {
-    "home_line": null,
+    "home_line": 3.0,
     "source": "nflverse games.csv consensus (reference, not a price)"
    },
    "qb_scenarios": [],
-   "disagreement": null,
-   "data_status": {
-    "status": "DEGRADED",
-    "reasons": [
-     "no reference line to measure the model against"
+   "disagreement": {
+    "level": "FLAG",
+    "text": "Model disagrees with market by 3.5",
+    "gap_points": -3.4514358212124296,
+    "direction": "away",
+    "drivers": [
+     {
+      "key": "qb",
+      "label": "Quarterback",
+      "points": -3.05,
+      "prior_share": 0.167
+     },
+     {
+      "key": "pass_off",
+      "label": "Pass offense (team, excluding QB)",
+      "points": -0.36,
+      "prior_share": 0.191
+     }
     ]
+   },
+   "data_status": {
+    "status": "OK",
+    "reasons": []
    }
   },
   {
@@ -2662,21 +752,21 @@
      "basis": "reconciled starter (SCHEDULE_FEED)"
     }
    },
-   "fair_home_margin": 3.59,
-   "fair_home_line": -3.59,
-   "fair_total": 43.4,
-   "home_win_prob": 0.6062,
-   "fair_home_ml": -154,
-   "fair_away_ml": 154,
+   "fair_home_margin": 4.44,
+   "fair_home_line": -4.44,
+   "fair_total": 43.22,
+   "home_win_prob": 0.6303,
+   "fair_home_ml": -170,
+   "fair_away_ml": 170,
    "range80": {
-    "lo": -13.48,
-    "hi": 20.67,
-    "centre": 3.59,
-    "half_width": 17.08
+    "lo": -12.42,
+    "hi": 21.3,
+    "centre": 4.44,
+    "half_width": 16.86
    },
    "groups": {
     "Environment": 2.1453,
-    "Base strength": 0.324,
+    "Base strength": 1.173,
     "Rest & travel": 1.1254
    },
    "components": [
@@ -2696,55 +786,55 @@
      "key": "pass_off",
      "label": "Pass offense (team, excluding QB)",
      "group": "base_strength",
-     "points": 0.4766,
-     "from_prior": 0.4261,
-     "from_this_season": 0.0505,
-     "prior_share": 0.894
+     "points": 0.5403,
+     "from_prior": 0.4131,
+     "from_this_season": 0.1272,
+     "prior_share": 0.765
     },
     {
      "key": "qb",
      "label": "Quarterback",
      "group": "base_strength",
-     "points": 0.4594,
-     "from_prior": -0.029,
-     "from_this_season": 0.4884,
-     "prior_share": 0.056
+     "points": 0.6177,
+     "from_prior": -0.0963,
+     "from_this_season": 0.714,
+     "prior_share": 0.119
     },
     {
      "key": "pass_def",
      "label": "Pass defense",
      "group": "base_strength",
-     "points": -0.3757,
-     "from_prior": -0.0857,
-     "from_this_season": -0.29,
-     "prior_share": 0.228
+     "points": -0.4057,
+     "from_prior": -0.0836,
+     "from_this_season": -0.3221,
+     "prior_share": 0.206
     },
     {
      "key": "rush_off",
      "label": "Rush offense",
      "group": "base_strength",
-     "points": -0.3739,
-     "from_prior": -0.1407,
-     "from_this_season": -0.2332,
-     "prior_share": 0.376
+     "points": -0.3502,
+     "from_prior": -0.1447,
+     "from_this_season": -0.2055,
+     "prior_share": 0.413
     },
     {
      "key": "rush_def",
      "label": "Rush defense",
      "group": "base_strength",
-     "points": -0.5356,
-     "from_prior": 0.2758,
-     "from_this_season": -0.8114,
-     "prior_share": 0.254
+     "points": 0.1075,
+     "from_prior": 0.2598,
+     "from_this_season": -0.1523,
+     "prior_share": 0.63
     },
     {
      "key": "market",
      "label": "Market rating (prior weeks' closing lines)",
      "group": "base_strength",
-     "points": 0.6732,
+     "points": 0.6634,
      "from_prior": -0.0408,
-     "from_this_season": 0.714,
-     "prior_share": 0.054
+     "from_this_season": 0.7042,
+     "prior_share": 0.055
     },
     {
      "key": "rest",
@@ -2784,21 +874,19 @@
     }
    ],
    "reconciliation": {
-    "components_sum": 3.594807,
-    "fair_home_margin": 3.594807,
-    "unattributed": -0.0
+    "components_sum": 4.443603,
+    "fair_home_margin": 4.443603,
+    "unattributed": 0.0
    },
    "market_reference": {
-    "home_line": null,
+    "home_line": -2.5,
     "source": "nflverse games.csv consensus (reference, not a price)"
    },
    "qb_scenarios": [],
    "disagreement": null,
    "data_status": {
-    "status": "DEGRADED",
-    "reasons": [
-     "no reference line to measure the model against"
-    ]
+    "status": "OK",
+    "reasons": []
    }
   },
   {
@@ -2819,21 +907,21 @@
      "basis": "reconciled starter (SCHEDULE_FEED)"
     }
    },
-   "fair_home_margin": -2.77,
-   "fair_home_line": 2.77,
-   "fair_total": 49.66,
-   "home_win_prob": 0.4177,
-   "fair_home_ml": 139,
-   "fair_away_ml": -139,
+   "fair_home_margin": -3.67,
+   "fair_home_line": 3.67,
+   "fair_total": 49.33,
+   "home_win_prob": 0.3918,
+   "fair_home_ml": 155,
+   "fair_away_ml": -155,
    "range80": {
-    "lo": -19.67,
-    "hi": 14.13,
-    "centre": -2.77,
-    "half_width": 16.9
+    "lo": -20.73,
+    "hi": 13.39,
+    "centre": -3.67,
+    "half_width": 17.06
    },
    "groups": {
     "Environment": 2.1453,
-    "Base strength": -4.736,
+    "Base strength": -5.6318,
     "Rest & travel": -0.1796
    },
    "components": [
@@ -2853,54 +941,54 @@
      "key": "pass_off",
      "label": "Pass offense (team, excluding QB)",
      "group": "base_strength",
-     "points": -0.0866,
-     "from_prior": 0.1206,
-     "from_this_season": -0.2072,
-     "prior_share": 0.368
+     "points": -0.1369,
+     "from_prior": 0.1282,
+     "from_this_season": -0.2651,
+     "prior_share": 0.326
     },
     {
      "key": "qb",
      "label": "Quarterback",
      "group": "base_strength",
-     "points": -3.0498,
-     "from_prior": -0.8322,
-     "from_this_season": -2.2176,
-     "prior_share": 0.273
+     "points": -3.4255,
+     "from_prior": -0.7681,
+     "from_this_season": -2.6574,
+     "prior_share": 0.224
     },
     {
      "key": "pass_def",
      "label": "Pass defense",
      "group": "base_strength",
-     "points": 0.6083,
-     "from_prior": 0.2169,
-     "from_this_season": 0.3914,
-     "prior_share": 0.356
+     "points": 0.4273,
+     "from_prior": 0.2157,
+     "from_this_season": 0.2116,
+     "prior_share": 0.505
     },
     {
      "key": "rush_off",
      "label": "Rush offense",
      "group": "base_strength",
-     "points": 0.448,
-     "from_prior": 0.2759,
-     "from_this_season": 0.1721,
-     "prior_share": 0.616
+     "points": 0.4357,
+     "from_prior": 0.2767,
+     "from_this_season": 0.159,
+     "prior_share": 0.635
     },
     {
      "key": "rush_def",
      "label": "Rush defense",
      "group": "base_strength",
-     "points": 0.6132,
-     "from_prior": 0.3218,
-     "from_this_season": 0.2914,
-     "prior_share": 0.525
+     "points": 0.3608,
+     "from_prior": 0.3026,
+     "from_this_season": 0.0582,
+     "prior_share": 0.839
     },
     {
      "key": "market",
      "label": "Market rating (prior weeks' closing lines)",
      "group": "base_strength",
-     "points": -3.2691,
+     "points": -3.2932,
      "from_prior": -0.0501,
-     "from_this_season": -3.219,
+     "from_this_season": -3.2431,
      "prior_share": 0.015
     },
     {
@@ -2941,21 +1029,44 @@
     }
    ],
    "reconciliation": {
-    "components_sum": -2.770388,
-    "fair_home_margin": -2.770388,
-    "unattributed": -0.0
+    "components_sum": -3.666009,
+    "fair_home_margin": -3.666009,
+    "unattributed": 0.0
    },
    "market_reference": {
-    "home_line": null,
+    "home_line": 6.0,
     "source": "nflverse games.csv consensus (reference, not a price)"
    },
    "qb_scenarios": [],
-   "disagreement": null,
-   "data_status": {
-    "status": "DEGRADED",
-    "reasons": [
-     "no reference line to measure the model against"
+   "disagreement": {
+    "level": "WATCH",
+    "text": "Model disagrees with market by 2.3",
+    "gap_points": 2.333991018641693,
+    "direction": "home",
+    "drivers": [
+     {
+      "key": "rush_off",
+      "label": "Rush offense",
+      "points": 0.44,
+      "prior_share": 0.635
+     },
+     {
+      "key": "pass_def",
+      "label": "Pass defense",
+      "points": 0.43,
+      "prior_share": 0.505
+     },
+     {
+      "key": "rush_def",
+      "label": "Rush defense",
+      "points": 0.36,
+      "prior_share": 0.839
+     }
     ]
+   },
+   "data_status": {
+    "status": "OK",
+    "reasons": []
    }
   },
   {
@@ -2976,21 +1087,21 @@
      "basis": "reconciled starter (SCHEDULE_FEED)"
     }
    },
-   "fair_home_margin": -0.08,
-   "fair_home_line": 0.08,
-   "fair_total": 43.7,
-   "home_win_prob": 0.4975,
-   "fair_home_ml": 101,
-   "fair_away_ml": -101,
+   "fair_home_margin": -0.65,
+   "fair_home_line": 0.65,
+   "fair_total": 44.18,
+   "home_win_prob": 0.4805,
+   "fair_home_ml": 108,
+   "fair_away_ml": -108,
    "range80": {
-    "lo": -16.91,
-    "hi": 16.75,
-    "centre": -0.08,
-    "half_width": 16.83
+    "lo": -17.4,
+    "hi": 16.11,
+    "centre": -0.65,
+    "half_width": 16.76
    },
    "groups": {
     "Environment": 2.1453,
-    "Base strength": -2.3662,
+    "Base strength": -2.9324,
     "Rest & travel": 0.1381
    },
    "components": [
@@ -3010,55 +1121,55 @@
      "key": "pass_off",
      "label": "Pass offense (team, excluding QB)",
      "group": "base_strength",
-     "points": 0.1034,
-     "from_prior": 0.0061,
-     "from_this_season": 0.0973,
-     "prior_share": 0.059
+     "points": 0.0844,
+     "from_prior": 0.009,
+     "from_this_season": 0.0754,
+     "prior_share": 0.107
     },
     {
      "key": "qb",
      "label": "Quarterback",
      "group": "base_strength",
-     "points": 0.2637,
-     "from_prior": -0.5881,
-     "from_this_season": 0.8518,
-     "prior_share": 0.408
+     "points": 0.0525,
+     "from_prior": -0.5567,
+     "from_this_season": 0.6092,
+     "prior_share": 0.477
     },
     {
      "key": "pass_def",
      "label": "Pass defense",
      "group": "base_strength",
-     "points": -0.8541,
-     "from_prior": -0.3123,
-     "from_this_season": -0.5418,
-     "prior_share": 0.366
+     "points": -0.7189,
+     "from_prior": -0.3032,
+     "from_this_season": -0.4157,
+     "prior_share": 0.422
     },
     {
      "key": "rush_off",
      "label": "Rush offense",
      "group": "base_strength",
-     "points": 0.0093,
-     "from_prior": 0.0082,
-     "from_this_season": 0.0011,
-     "prior_share": 0.887
+     "points": -0.0018,
+     "from_prior": 0.0036,
+     "from_this_season": -0.0054,
+     "prior_share": 0.399
     },
     {
      "key": "rush_def",
      "label": "Rush defense",
      "group": "base_strength",
-     "points": -0.5838,
-     "from_prior": -0.4387,
-     "from_this_season": -0.1451,
-     "prior_share": 0.752
+     "points": -0.5719,
+     "from_prior": -0.4348,
+     "from_this_season": -0.1371,
+     "prior_share": 0.76
     },
     {
      "key": "market",
      "label": "Market rating (prior weeks' closing lines)",
      "group": "base_strength",
-     "points": -1.3047,
+     "points": -1.7767,
      "from_prior": -0.4624,
-     "from_this_season": -0.8423,
-     "prior_share": 0.354
+     "from_this_season": -1.3143,
+     "prior_share": 0.26
     },
     {
      "key": "rest",
@@ -3098,21 +1209,32 @@
     }
    ],
    "reconciliation": {
-    "components_sum": -0.082849,
-    "fair_home_margin": -0.082849,
-    "unattributed": 0.0
+    "components_sum": -0.649114,
+    "fair_home_margin": -0.649114,
+    "unattributed": -0.0
    },
    "market_reference": {
-    "home_line": null,
+    "home_line": 3.0,
     "source": "nflverse games.csv consensus (reference, not a price)"
    },
    "qb_scenarios": [],
-   "disagreement": null,
-   "data_status": {
-    "status": "DEGRADED",
-    "reasons": [
-     "no reference line to measure the model against"
+   "disagreement": {
+    "level": "WATCH",
+    "text": "Model disagrees with market by 2.4",
+    "gap_points": 2.350886180832922,
+    "direction": "home",
+    "drivers": [
+     {
+      "key": "rest",
+      "label": "Rest days",
+      "points": 0.77,
+      "prior_share": null
+     }
     ]
+   },
+   "data_status": {
+    "status": "OK",
+    "reasons": []
    }
   },
   {
@@ -3133,21 +1255,21 @@
      "basis": "reconciled starter (SCHEDULE_FEED)"
     }
    },
-   "fair_home_margin": -5.7,
-   "fair_home_line": 5.7,
-   "fair_total": 49.82,
-   "home_win_prob": 0.3353,
-   "fair_home_ml": 198,
-   "fair_away_ml": -198,
+   "fair_home_margin": -6.1,
+   "fair_home_line": 6.1,
+   "fair_total": 49.18,
+   "home_win_prob": 0.3247,
+   "fair_home_ml": 208,
+   "fair_away_ml": -208,
    "range80": {
-    "lo": -22.53,
-    "hi": 11.13,
-    "centre": -5.7,
-    "half_width": 16.83
+    "lo": -22.93,
+    "hi": 10.74,
+    "centre": -6.1,
+    "half_width": 16.84
    },
    "groups": {
     "Environment": 2.1453,
-    "Base strength": -8.6559,
+    "Base strength": -9.0533,
     "Rest & travel": 0.8102
    },
    "components": [
@@ -3167,55 +1289,55 @@
      "key": "pass_off",
      "label": "Pass offense (team, excluding QB)",
      "group": "base_strength",
-     "points": -0.2227,
-     "from_prior": -0.0798,
-     "from_this_season": -0.1429,
-     "prior_share": 0.359
+     "points": -0.1984,
+     "from_prior": -0.0779,
+     "from_this_season": -0.1205,
+     "prior_share": 0.393
     },
     {
      "key": "qb",
      "label": "Quarterback",
      "group": "base_strength",
-     "points": -1.9152,
-     "from_prior": -0.3859,
-     "from_this_season": -1.5293,
-     "prior_share": 0.201
+     "points": -1.6545,
+     "from_prior": -0.3656,
+     "from_this_season": -1.2889,
+     "prior_share": 0.221
     },
     {
      "key": "pass_def",
      "label": "Pass defense",
      "group": "base_strength",
-     "points": -0.2548,
-     "from_prior": -0.1653,
-     "from_this_season": -0.0895,
-     "prior_share": 0.649
+     "points": -0.2345,
+     "from_prior": -0.1452,
+     "from_this_season": -0.0893,
+     "prior_share": 0.619
     },
     {
      "key": "rush_off",
      "label": "Rush offense",
      "group": "base_strength",
-     "points": -0.3057,
-     "from_prior": -0.5628,
-     "from_this_season": 0.2571,
-     "prior_share": 0.686
+     "points": -0.6549,
+     "from_prior": -0.5531,
+     "from_this_season": -0.1018,
+     "prior_share": 0.845
     },
     {
      "key": "rush_def",
      "label": "Rush defense",
      "group": "base_strength",
-     "points": -0.3284,
-     "from_prior": 0.1057,
-     "from_this_season": -0.4341,
-     "prior_share": 0.196
+     "points": -0.6518,
+     "from_prior": 0.0985,
+     "from_this_season": -0.7503,
+     "prior_share": 0.116
     },
     {
      "key": "market",
      "label": "Market rating (prior weeks' closing lines)",
      "group": "base_strength",
-     "points": -5.6291,
+     "points": -5.6592,
      "from_prior": -0.2678,
-     "from_this_season": -5.3613,
-     "prior_share": 0.048
+     "from_this_season": -5.3914,
+     "prior_share": 0.047
     },
     {
      "key": "rest",
@@ -3255,21 +1377,19 @@
     }
    ],
    "reconciliation": {
-    "components_sum": -5.700354,
-    "fair_home_margin": -5.700354,
-    "unattributed": 0.0
+    "components_sum": -6.09779,
+    "fair_home_margin": -6.09779,
+    "unattributed": -0.0
    },
    "market_reference": {
-    "home_line": null,
+    "home_line": 7.0,
     "source": "nflverse games.csv consensus (reference, not a price)"
    },
    "qb_scenarios": [],
    "disagreement": null,
    "data_status": {
-    "status": "DEGRADED",
-    "reasons": [
-     "no reference line to measure the model against"
-    ]
+    "status": "OK",
+    "reasons": []
    }
   },
   {
@@ -3290,21 +1410,21 @@
      "basis": "reconciled starter (SCHEDULE_FEED)"
     }
    },
-   "fair_home_margin": 1.95,
-   "fair_home_line": -1.95,
-   "fair_total": 49.0,
-   "home_win_prob": 0.5581,
-   "fair_home_ml": -126,
-   "fair_away_ml": 126,
+   "fair_home_margin": 2.35,
+   "fair_home_line": -2.35,
+   "fair_total": 48.99,
+   "home_win_prob": 0.5699,
+   "fair_home_ml": -133,
+   "fair_away_ml": 133,
    "range80": {
-    "lo": -14.55,
-    "hi": 18.44,
-    "centre": 1.95,
-    "half_width": 16.49
+    "lo": -14.34,
+    "hi": 19.03,
+    "centre": 2.35,
+    "half_width": 16.69
    },
    "groups": {
     "Environment": 2.1453,
-    "Base strength": 0.7063,
+    "Base strength": 1.1078,
     "Rest & travel": -0.9064
    },
    "components": [
@@ -3324,55 +1444,55 @@
      "key": "pass_off",
      "label": "Pass offense (team, excluding QB)",
      "group": "base_strength",
-     "points": -0.1203,
-     "from_prior": -0.1641,
-     "from_this_season": 0.0438,
-     "prior_share": 0.789
+     "points": -0.1224,
+     "from_prior": -0.1711,
+     "from_this_season": 0.0487,
+     "prior_share": 0.779
     },
     {
      "key": "qb",
      "label": "Quarterback",
      "group": "base_strength",
-     "points": 0.3582,
-     "from_prior": -0.0637,
-     "from_this_season": 0.4219,
-     "prior_share": 0.131
+     "points": 0.3285,
+     "from_prior": -0.1377,
+     "from_this_season": 0.4662,
+     "prior_share": 0.228
     },
     {
      "key": "pass_def",
      "label": "Pass defense",
      "group": "base_strength",
-     "points": -0.0882,
-     "from_prior": 0.3102,
-     "from_this_season": -0.3984,
-     "prior_share": 0.438
+     "points": -0.0598,
+     "from_prior": 0.3019,
+     "from_this_season": -0.3617,
+     "prior_share": 0.455
     },
     {
      "key": "rush_off",
      "label": "Rush offense",
      "group": "base_strength",
-     "points": -0.2889,
-     "from_prior": -0.5104,
-     "from_this_season": 0.2215,
-     "prior_share": 0.697
+     "points": -0.1946,
+     "from_prior": -0.5001,
+     "from_this_season": 0.3055,
+     "prior_share": 0.621
     },
     {
      "key": "rush_def",
      "label": "Rush defense",
      "group": "base_strength",
-     "points": -0.0498,
-     "from_prior": 0.0973,
-     "from_this_season": -0.1471,
-     "prior_share": 0.398
+     "points": 0.2672,
+     "from_prior": 0.0772,
+     "from_this_season": 0.19,
+     "prior_share": 0.289
     },
     {
      "key": "market",
      "label": "Market rating (prior weeks' closing lines)",
      "group": "base_strength",
-     "points": 0.8953,
+     "points": 0.8889,
      "from_prior": 0.3134,
-     "from_this_season": 0.5819,
-     "prior_share": 0.35
+     "from_this_season": 0.5755,
+     "prior_share": 0.353
     },
     {
      "key": "rest",
@@ -3412,21 +1532,19 @@
     }
    ],
    "reconciliation": {
-    "components_sum": 1.945273,
-    "fair_home_margin": 1.945273,
+    "components_sum": 2.346637,
+    "fair_home_margin": 2.346637,
     "unattributed": 0.0
    },
    "market_reference": {
-    "home_line": null,
+    "home_line": -3.0,
     "source": "nflverse games.csv consensus (reference, not a price)"
    },
    "qb_scenarios": [],
    "disagreement": null,
    "data_status": {
-    "status": "DEGRADED",
-    "reasons": [
-     "no reference line to measure the model against"
-    ]
+    "status": "OK",
+    "reasons": []
    }
   },
   {
@@ -3447,21 +1565,21 @@
      "basis": "reconciled starter (SCHEDULE_FEED)"
     }
    },
-   "fair_home_margin": -5.81,
-   "fair_home_line": 5.81,
-   "fair_total": 42.51,
-   "home_win_prob": 0.3324,
-   "fair_home_ml": 201,
-   "fair_away_ml": -201,
+   "fair_home_margin": -6.48,
+   "fair_home_line": 6.48,
+   "fair_total": 41.97,
+   "home_win_prob": 0.3146,
+   "fair_home_ml": 218,
+   "fair_away_ml": -218,
    "range80": {
-    "lo": -22.64,
-    "hi": 11.03,
-    "centre": -5.81,
-    "half_width": 16.83
+    "lo": -23.37,
+    "hi": 10.41,
+    "centre": -6.48,
+    "half_width": 16.89
    },
    "groups": {
     "Environment": 2.1453,
-    "Base strength": -6.106,
+    "Base strength": -6.7817,
     "Rest & travel": -1.8462
    },
    "components": [
@@ -3481,54 +1599,54 @@
      "key": "pass_off",
      "label": "Pass offense (team, excluding QB)",
      "group": "base_strength",
-     "points": -0.396,
-     "from_prior": -0.0706,
-     "from_this_season": -0.3254,
-     "prior_share": 0.178
+     "points": -0.428,
+     "from_prior": -0.0709,
+     "from_this_season": -0.3571,
+     "prior_share": 0.166
     },
     {
      "key": "qb",
      "label": "Quarterback",
      "group": "base_strength",
-     "points": -3.4128,
-     "from_prior": 0.4071,
-     "from_this_season": -3.8199,
-     "prior_share": 0.096
+     "points": -3.7577,
+     "from_prior": 0.4037,
+     "from_this_season": -4.1614,
+     "prior_share": 0.088
     },
     {
      "key": "pass_def",
      "label": "Pass defense",
      "group": "base_strength",
-     "points": 0.3485,
-     "from_prior": -0.0789,
-     "from_this_season": 0.4274,
-     "prior_share": 0.156
+     "points": 0.4912,
+     "from_prior": -0.0637,
+     "from_this_season": 0.5549,
+     "prior_share": 0.103
     },
     {
      "key": "rush_off",
      "label": "Rush offense",
      "group": "base_strength",
-     "points": 0.2753,
-     "from_prior": 0.4657,
-     "from_this_season": -0.1904,
-     "prior_share": 0.71
+     "points": 0.0271,
+     "from_prior": 0.479,
+     "from_this_season": -0.4519,
+     "prior_share": 0.515
     },
     {
      "key": "rush_def",
      "label": "Rush defense",
      "group": "base_strength",
-     "points": -0.0771,
-     "from_prior": -0.3319,
-     "from_this_season": 0.2548,
-     "prior_share": 0.566
+     "points": -0.2722,
+     "from_prior": -0.3214,
+     "from_this_season": 0.0492,
+     "prior_share": 0.867
     },
     {
      "key": "market",
      "label": "Market rating (prior weeks' closing lines)",
      "group": "base_strength",
-     "points": -2.8439,
+     "points": -2.8421,
      "from_prior": 0.3351,
-     "from_this_season": -3.179,
+     "from_this_season": -3.1772,
      "prior_share": 0.095
     },
     {
@@ -3569,21 +1687,19 @@
     }
    ],
    "reconciliation": {
-    "components_sum": -5.806961,
-    "fair_home_margin": -5.806961,
-    "unattributed": 0.0
+    "components_sum": -6.482625,
+    "fair_home_margin": -6.482625,
+    "unattributed": -0.0
    },
    "market_reference": {
-    "home_line": null,
+    "home_line": 4.5,
     "source": "nflverse games.csv consensus (reference, not a price)"
    },
    "qb_scenarios": [],
    "disagreement": null,
    "data_status": {
-    "status": "DEGRADED",
-    "reasons": [
-     "no reference line to measure the model against"
-    ]
+    "status": "OK",
+    "reasons": []
    }
   },
   {
@@ -3594,8 +1710,8 @@
    "kickoff_et": "2026-11-05 20:15:00",
    "starters": {
     "home": {
-     "id": "00-0034796",
-     "name": "Lamar Jackson",
+     "id": "00-0035993",
+     "name": "Tyler Huntley",
      "basis": "reconciled starter (SCHEDULE_FEED)"
     },
     "away": {
@@ -3604,21 +1720,21 @@
      "basis": "reconciled starter (SCHEDULE_FEED)"
     }
    },
-   "fair_home_margin": 2.24,
-   "fair_home_line": -2.24,
-   "fair_total": 50.56,
-   "home_win_prob": 0.5669,
-   "fair_home_ml": -131,
-   "fair_away_ml": 131,
+   "fair_home_margin": -2.26,
+   "fair_home_line": 2.26,
+   "fair_total": 46.93,
+   "home_win_prob": 0.4327,
+   "fair_home_ml": 131,
+   "fair_away_ml": -131,
    "range80": {
-    "lo": -14.38,
-    "hi": 18.87,
-    "centre": 2.24,
-    "half_width": 16.63
+    "lo": -18.89,
+    "hi": 14.38,
+    "centre": -2.26,
+    "half_width": 16.64
    },
    "groups": {
     "Environment": 2.1453,
-    "Base strength": -0.4498,
+    "Base strength": -4.9508,
     "Rest & travel": 0.5489
    },
    "components": [
@@ -3638,54 +1754,54 @@
      "key": "pass_off",
      "label": "Pass offense (team, excluding QB)",
      "group": "base_strength",
-     "points": 0.0183,
-     "from_prior": -0.0645,
-     "from_this_season": 0.0828,
-     "prior_share": 0.438
+     "points": -0.0888,
+     "from_prior": -0.0291,
+     "from_this_season": -0.0597,
+     "prior_share": 0.328
     },
     {
      "key": "qb",
      "label": "Quarterback",
      "group": "base_strength",
-     "points": 1.1712,
-     "from_prior": 0.4566,
-     "from_this_season": 0.7146,
-     "prior_share": 0.39
+     "points": -2.8401,
+     "from_prior": -0.8032,
+     "from_this_season": -2.0369,
+     "prior_share": 0.283
     },
     {
      "key": "pass_def",
      "label": "Pass defense",
      "group": "base_strength",
-     "points": -0.2655,
-     "from_prior": -0.1178,
-     "from_this_season": -0.1477,
-     "prior_share": 0.444
+     "points": -0.2808,
+     "from_prior": -0.0854,
+     "from_this_season": -0.1954,
+     "prior_share": 0.304
     },
     {
      "key": "rush_off",
      "label": "Rush offense",
      "group": "base_strength",
-     "points": 0.8352,
-     "from_prior": 1.0421,
-     "from_this_season": -0.2069,
-     "prior_share": 0.834
+     "points": 0.7075,
+     "from_prior": 1.0197,
+     "from_this_season": -0.3122,
+     "prior_share": 0.766
     },
     {
      "key": "rush_def",
      "label": "Rush defense",
      "group": "base_strength",
-     "points": -0.2773,
-     "from_prior": 0.2646,
-     "from_this_season": -0.5419,
-     "prior_share": 0.328
+     "points": -0.5146,
+     "from_prior": 0.3225,
+     "from_this_season": -0.8371,
+     "prior_share": 0.278
     },
     {
      "key": "market",
      "label": "Market rating (prior weeks' closing lines)",
      "group": "base_strength",
-     "points": -1.9317,
+     "points": -1.934,
      "from_prior": 0.2983,
-     "from_this_season": -2.23,
+     "from_this_season": -2.2323,
      "prior_share": 0.118
     },
     {
@@ -3726,21 +1842,38 @@
     }
    ],
    "reconciliation": {
-    "components_sum": 2.244184,
-    "fair_home_margin": 2.244184,
+    "components_sum": -2.256729,
+    "fair_home_margin": -2.256729,
     "unattributed": 0.0
    },
    "market_reference": {
-    "home_line": null,
+    "home_line": 8.5,
     "source": "nflverse games.csv consensus (reference, not a price)"
    },
    "qb_scenarios": [],
-   "disagreement": null,
-   "data_status": {
-    "status": "DEGRADED",
-    "reasons": [
-     "no reference line to measure the model against"
+   "disagreement": {
+    "level": "FLAG",
+    "text": "Model disagrees with market by 6.2",
+    "gap_points": 6.243271185105821,
+    "direction": "home",
+    "drivers": [
+     {
+      "key": "timezone",
+      "label": "Time zones crossed",
+      "points": 0.76,
+      "prior_share": null
+     },
+     {
+      "key": "rush_off",
+      "label": "Rush offense",
+      "points": 0.71,
+      "prior_share": 0.766
+     }
     ]
+   },
+   "data_status": {
+    "status": "OK",
+    "reasons": []
    }
   },
   {
@@ -3761,21 +1894,21 @@
      "basis": "reconciled starter (SCHEDULE_FEED)"
     }
    },
-   "fair_home_margin": -5.65,
-   "fair_home_line": 5.65,
-   "fair_total": 48.03,
-   "home_win_prob": 0.3366,
-   "fair_home_ml": 197,
-   "fair_away_ml": -197,
+   "fair_home_margin": -5.82,
+   "fair_home_line": 5.82,
+   "fair_total": 47.41,
+   "home_win_prob": 0.3321,
+   "fair_home_ml": 201,
+   "fair_away_ml": -201,
    "range80": {
-    "lo": -22.48,
-    "hi": 11.18,
-    "centre": -5.65,
+    "lo": -22.65,
+    "hi": 11.01,
+    "centre": -5.82,
     "half_width": 16.83
    },
    "groups": {
     "Environment": 2.1453,
-    "Base strength": -7.6214,
+    "Base strength": -7.7921,
     "Rest & travel": -0.1739
    },
    "components": [
@@ -3795,55 +1928,55 @@
      "key": "pass_off",
      "label": "Pass offense (team, excluding QB)",
      "group": "base_strength",
-     "points": 0.1513,
-     "from_prior": 0.2589,
-     "from_this_season": -0.1076,
-     "prior_share": 0.706
+     "points": 0.1782,
+     "from_prior": 0.269,
+     "from_this_season": -0.0908,
+     "prior_share": 0.748
     },
     {
      "key": "qb",
      "label": "Quarterback",
      "group": "base_strength",
-     "points": -1.6658,
-     "from_prior": -1.4408,
-     "from_this_season": -0.225,
-     "prior_share": 0.865
+     "points": -1.4205,
+     "from_prior": -1.3242,
+     "from_this_season": -0.0963,
+     "prior_share": 0.932
     },
     {
      "key": "pass_def",
      "label": "Pass defense",
      "group": "base_strength",
-     "points": -0.5867,
-     "from_prior": -0.1792,
-     "from_this_season": -0.4075,
-     "prior_share": 0.305
+     "points": -0.6382,
+     "from_prior": -0.2115,
+     "from_this_season": -0.4267,
+     "prior_share": 0.331
     },
     {
      "key": "rush_off",
      "label": "Rush offense",
      "group": "base_strength",
-     "points": -0.9451,
-     "from_prior": -0.3314,
-     "from_this_season": -0.6137,
-     "prior_share": 0.351
+     "points": -1.074,
+     "from_prior": -0.3205,
+     "from_this_season": -0.7535,
+     "prior_share": 0.298
     },
     {
      "key": "rush_def",
      "label": "Rush defense",
      "group": "base_strength",
-     "points": -0.8328,
-     "from_prior": -0.4993,
-     "from_this_season": -0.3335,
-     "prior_share": 0.6
+     "points": -1.0788,
+     "from_prior": -0.4301,
+     "from_this_season": -0.6487,
+     "prior_share": 0.399
     },
     {
      "key": "market",
      "label": "Market rating (prior weeks' closing lines)",
      "group": "base_strength",
-     "points": -3.7423,
+     "points": -3.7588,
      "from_prior": -0.5269,
-     "from_this_season": -3.2154,
-     "prior_share": 0.141
+     "from_this_season": -3.2319,
+     "prior_share": 0.14
     },
     {
      "key": "rest",
@@ -3883,21 +2016,19 @@
     }
    ],
    "reconciliation": {
-    "components_sum": -5.650244,
-    "fair_home_margin": -5.650244,
-    "unattributed": -0.0
+    "components_sum": -5.820733,
+    "fair_home_margin": -5.820733,
+    "unattributed": 0.0
    },
    "market_reference": {
-    "home_line": null,
+    "home_line": 5.5,
     "source": "nflverse games.csv consensus (reference, not a price)"
    },
    "qb_scenarios": [],
    "disagreement": null,
    "data_status": {
-    "status": "DEGRADED",
-    "reasons": [
-     "no reference line to measure the model against"
-    ]
+    "status": "OK",
+    "reasons": []
    }
   },
   {
@@ -3918,21 +2049,21 @@
      "basis": "reconciled starter (SCHEDULE_FEED)"
     }
    },
-   "fair_home_margin": 12.37,
-   "fair_home_line": -12.37,
-   "fair_total": 50.01,
-   "home_win_prob": 0.8176,
-   "fair_home_ml": -448,
-   "fair_away_ml": 448,
+   "fair_home_margin": 12.21,
+   "fair_home_line": -12.21,
+   "fair_total": 50.83,
+   "home_win_prob": 0.8144,
+   "fair_home_ml": -439,
+   "fair_away_ml": 439,
    "range80": {
-    "lo": -5.03,
-    "hi": 29.78,
-    "centre": 12.37,
-    "half_width": 17.4
+    "lo": -5.2,
+    "hi": 29.62,
+    "centre": 12.21,
+    "half_width": 17.41
    },
    "groups": {
     "Environment": 2.1453,
-    "Base strength": 8.6249,
+    "Base strength": 8.4583,
     "Rest & travel": 1.6038
    },
    "components": [
@@ -3952,55 +2083,55 @@
      "key": "pass_off",
      "label": "Pass offense (team, excluding QB)",
      "group": "base_strength",
-     "points": 0.6029,
-     "from_prior": 0.5183,
-     "from_this_season": 0.0846,
-     "prior_share": 0.86
+     "points": 0.5485,
+     "from_prior": 0.5207,
+     "from_this_season": 0.0278,
+     "prior_share": 0.949
     },
     {
      "key": "qb",
      "label": "Quarterback",
      "group": "base_strength",
-     "points": 1.0587,
-     "from_prior": 0.1039,
-     "from_this_season": 0.9548,
-     "prior_share": 0.098
+     "points": 0.4768,
+     "from_prior": 0.1287,
+     "from_this_season": 0.3481,
+     "prior_share": 0.27
     },
     {
      "key": "pass_def",
      "label": "Pass defense",
      "group": "base_strength",
-     "points": 0.3129,
-     "from_prior": -0.1735,
-     "from_this_season": 0.4864,
-     "prior_share": 0.263
+     "points": 0.403,
+     "from_prior": -0.1336,
+     "from_this_season": 0.5366,
+     "prior_share": 0.199
     },
     {
      "key": "rush_off",
      "label": "Rush offense",
      "group": "base_strength",
-     "points": 2.2746,
-     "from_prior": 1.4223,
-     "from_this_season": 0.8523,
-     "prior_share": 0.625
+     "points": 2.2823,
+     "from_prior": 1.3851,
+     "from_this_season": 0.8972,
+     "prior_share": 0.607
     },
     {
      "key": "rush_def",
      "label": "Rush defense",
      "group": "base_strength",
-     "points": 0.7578,
-     "from_prior": -0.1531,
-     "from_this_season": 0.9109,
-     "prior_share": 0.144
+     "points": 1.0493,
+     "from_prior": -0.1135,
+     "from_this_season": 1.1628,
+     "prior_share": 0.089
     },
     {
      "key": "market",
      "label": "Market rating (prior weeks' closing lines)",
      "group": "base_strength",
-     "points": 3.618,
+     "points": 3.6984,
      "from_prior": 0.3401,
-     "from_this_season": 3.2779,
-     "prior_share": 0.094
+     "from_this_season": 3.3583,
+     "prior_share": 0.092
     },
     {
      "key": "rest",
@@ -4040,21 +2171,50 @@
     }
    ],
    "reconciliation": {
-    "components_sum": 12.374058,
-    "fair_home_margin": 12.374058,
-    "unattributed": 0.0
+    "components_sum": 12.207434,
+    "fair_home_margin": 12.207434,
+    "unattributed": -0.0
    },
    "market_reference": {
-    "home_line": null,
+    "home_line": -10.0,
     "source": "nflverse games.csv consensus (reference, not a price)"
    },
    "qb_scenarios": [],
-   "disagreement": null,
-   "data_status": {
-    "status": "DEGRADED",
-    "reasons": [
-     "no reference line to measure the model against"
+   "disagreement": {
+    "level": "WATCH",
+    "text": "Model disagrees with market by 2.2",
+    "gap_points": 2.2074335516568357,
+    "direction": "home",
+    "drivers": [
+     {
+      "key": "rush_off",
+      "label": "Rush offense",
+      "points": 2.28,
+      "prior_share": 0.607
+     },
+     {
+      "key": "rest",
+      "label": "Rest days",
+      "points": 1.8,
+      "prior_share": null
+     },
+     {
+      "key": "rush_def",
+      "label": "Rush defense",
+      "points": 1.05,
+      "prior_share": 0.089
+     },
+     {
+      "key": "timezone",
+      "label": "Time zones crossed",
+      "points": 0.76,
+      "prior_share": null
+     }
     ]
+   },
+   "data_status": {
+    "status": "OK",
+    "reasons": []
    }
   },
   {
@@ -4067,7 +2227,7 @@
     "home": {
      "id": "00-0038400",
      "name": "Tanner McKee",
-     "basis": "reconciled starter (ROSTER_RESERVE_REPLACEMENT_PENDING)"
+     "basis": "reconciled starter (SCHEDULE_FEED)"
     },
     "away": {
      "id": "00-0039923",
@@ -4075,21 +2235,21 @@
      "basis": "reconciled starter (SCHEDULE_FEED)"
     }
    },
-   "fair_home_margin": 0.73,
-   "fair_home_line": -0.73,
-   "fair_total": 40.2,
-   "home_win_prob": 0.522,
-   "fair_home_ml": -109,
-   "fair_away_ml": 109,
+   "fair_home_margin": 0.64,
+   "fair_home_line": -0.64,
+   "fair_total": 39.97,
+   "home_win_prob": 0.5191,
+   "fair_home_ml": -108,
+   "fair_away_ml": 108,
    "range80": {
-    "lo": -16.0,
-    "hi": 17.47,
-    "centre": 0.73,
-    "half_width": 16.74
+    "lo": -16.12,
+    "hi": 17.39,
+    "centre": 0.64,
+    "half_width": 16.76
    },
    "groups": {
     "Environment": 2.1453,
-    "Base strength": -0.4039,
+    "Base strength": -0.4996,
     "Rest & travel": -1.0089
    },
    "components": [
@@ -4109,55 +2269,55 @@
      "key": "pass_off",
      "label": "Pass offense (team, excluding QB)",
      "group": "base_strength",
-     "points": -0.0453,
-     "from_prior": 0.1923,
-     "from_this_season": -0.2376,
-     "prior_share": 0.447
+     "points": -0.0514,
+     "from_prior": 0.2089,
+     "from_this_season": -0.2603,
+     "prior_share": 0.445
     },
     {
      "key": "qb",
      "label": "Quarterback",
      "group": "base_strength",
-     "points": -2.2108,
-     "from_prior": -0.694,
-     "from_this_season": -1.5168,
-     "prior_share": 0.314
+     "points": -2.2816,
+     "from_prior": -0.5013,
+     "from_this_season": -1.7803,
+     "prior_share": 0.22
     },
     {
      "key": "pass_def",
      "label": "Pass defense",
      "group": "base_strength",
-     "points": -0.1184,
-     "from_prior": 0.273,
-     "from_this_season": -0.3914,
-     "prior_share": 0.411
+     "points": -0.0744,
+     "from_prior": 0.255,
+     "from_this_season": -0.3294,
+     "prior_share": 0.436
     },
     {
      "key": "rush_off",
      "label": "Rush offense",
      "group": "base_strength",
-     "points": 0.6338,
-     "from_prior": 0.7516,
-     "from_this_season": -0.1178,
-     "prior_share": 0.864
+     "points": 0.5574,
+     "from_prior": 0.7281,
+     "from_this_season": -0.1707,
+     "prior_share": 0.81
     },
     {
      "key": "rush_def",
      "label": "Rush defense",
      "group": "base_strength",
-     "points": 0.3323,
-     "from_prior": 0.7359,
-     "from_this_season": -0.4036,
-     "prior_share": 0.646
+     "points": 0.3554,
+     "from_prior": 0.7278,
+     "from_this_season": -0.3724,
+     "prior_share": 0.662
     },
     {
      "key": "market",
      "label": "Market rating (prior weeks' closing lines)",
      "group": "base_strength",
-     "points": 1.0045,
+     "points": 0.995,
      "from_prior": 0.3408,
-     "from_this_season": 0.6637,
-     "prior_share": 0.339
+     "from_this_season": 0.6542,
+     "prior_share": 0.343
     },
     {
      "key": "rest",
@@ -4197,21 +2357,50 @@
     }
    ],
    "reconciliation": {
-    "components_sum": 0.73245,
-    "fair_home_margin": 0.73245,
-    "unattributed": 0.0
+    "components_sum": 0.636638,
+    "fair_home_margin": 0.636638,
+    "unattributed": -0.0
    },
    "market_reference": {
-    "home_line": null,
+    "home_line": 3.5,
     "source": "nflverse games.csv consensus (reference, not a price)"
    },
    "qb_scenarios": [],
-   "disagreement": null,
-   "data_status": {
-    "status": "DEGRADED",
-    "reasons": [
-     "no reference line to measure the model against"
+   "disagreement": {
+    "level": "FLAG",
+    "text": "Model disagrees with market by 4.1",
+    "gap_points": 4.136637707572875,
+    "direction": "home",
+    "drivers": [
+     {
+      "key": "timezone",
+      "label": "Time zones crossed",
+      "points": 0.76,
+      "prior_share": null
+     },
+     {
+      "key": "bye",
+      "label": "Off a bye",
+      "points": 0.58,
+      "prior_share": null
+     },
+     {
+      "key": "rush_off",
+      "label": "Rush offense",
+      "points": 0.56,
+      "prior_share": 0.81
+     },
+     {
+      "key": "rush_def",
+      "label": "Rush defense",
+      "points": 0.36,
+      "prior_share": 0.662
+     }
     ]
+   },
+   "data_status": {
+    "status": "OK",
+    "reasons": []
    }
   },
   {
@@ -4232,21 +2421,21 @@
      "basis": "reconciled starter (SCHEDULE_FEED)"
     }
    },
-   "fair_home_margin": 10.8,
-   "fair_home_line": -10.8,
-   "fair_total": 45.73,
-   "home_win_prob": 0.7866,
-   "fair_home_ml": -369,
-   "fair_away_ml": 369,
+   "fair_home_margin": 10.26,
+   "fair_home_line": -10.26,
+   "fair_total": 46.77,
+   "home_win_prob": 0.7752,
+   "fair_home_ml": -345,
+   "fair_away_ml": 345,
    "range80": {
-    "lo": -6.43,
-    "hi": 28.03,
-    "centre": 10.8,
-    "half_width": 17.23
+    "lo": -6.8,
+    "hi": 27.33,
+    "centre": 10.26,
+    "half_width": 17.07
    },
    "groups": {
     "Environment": 2.1453,
-    "Base strength": 8.6606,
+    "Base strength": 8.1223,
     "Rest & travel": -0.0053
    },
    "components": [
@@ -4266,55 +2455,55 @@
      "key": "pass_off",
      "label": "Pass offense (team, excluding QB)",
      "group": "base_strength",
-     "points": 0.0617,
-     "from_prior": -0.0103,
-     "from_this_season": 0.072,
-     "prior_share": 0.125
+     "points": 0.0585,
+     "from_prior": -0.0222,
+     "from_this_season": 0.0807,
+     "prior_share": 0.216
     },
     {
      "key": "qb",
      "label": "Quarterback",
      "group": "base_strength",
-     "points": 2.242,
-     "from_prior": 1.4716,
-     "from_this_season": 0.7704,
-     "prior_share": 0.656
+     "points": 2.2084,
+     "from_prior": 1.3444,
+     "from_this_season": 0.864,
+     "prior_share": 0.609
     },
     {
      "key": "pass_def",
      "label": "Pass defense",
      "group": "base_strength",
-     "points": 0.4109,
-     "from_prior": 0.2736,
-     "from_this_season": 0.1373,
-     "prior_share": 0.666
+     "points": 0.5331,
+     "from_prior": 0.275,
+     "from_this_season": 0.2581,
+     "prior_share": 0.516
     },
     {
      "key": "rush_off",
      "label": "Rush offense",
      "group": "base_strength",
-     "points": 1.495,
-     "from_prior": 0.6894,
-     "from_this_season": 0.8056,
-     "prior_share": 0.461
+     "points": 1.3122,
+     "from_prior": 0.6683,
+     "from_this_season": 0.6439,
+     "prior_share": 0.509
     },
     {
      "key": "rush_def",
      "label": "Rush defense",
      "group": "base_strength",
-     "points": 0.135,
-     "from_prior": 0.2666,
-     "from_this_season": -0.1316,
-     "prior_share": 0.67
+     "points": 0.1385,
+     "from_prior": 0.3211,
+     "from_this_season": -0.1826,
+     "prior_share": 0.638
     },
     {
      "key": "market",
      "label": "Market rating (prior weeks' closing lines)",
      "group": "base_strength",
-     "points": 4.316,
+     "points": 3.8716,
      "from_prior": 0.915,
-     "from_this_season": 3.401,
-     "prior_share": 0.212
+     "from_this_season": 2.9566,
+     "prior_share": 0.236
     },
     {
      "key": "rest",
@@ -4354,21 +2543,19 @@
     }
    ],
    "reconciliation": {
-    "components_sum": 10.800739,
-    "fair_home_margin": 10.800739,
+    "components_sum": 10.262353,
+    "fair_home_margin": 10.262353,
     "unattributed": -0.0
    },
    "market_reference": {
-    "home_line": null,
+    "home_line": -9.5,
     "source": "nflverse games.csv consensus (reference, not a price)"
    },
    "qb_scenarios": [],
    "disagreement": null,
    "data_status": {
-    "status": "DEGRADED",
-    "reasons": [
-     "no reference line to measure the model against"
-    ]
+    "status": "OK",
+    "reasons": []
    }
   },
   {
@@ -4389,21 +2576,21 @@
      "basis": "reconciled starter (SCHEDULE_FEED)"
     }
    },
-   "fair_home_margin": 7.34,
-   "fair_home_line": -7.34,
-   "fair_total": 46.04,
-   "home_win_prob": 0.7071,
-   "fair_home_ml": -241,
-   "fair_away_ml": 241,
+   "fair_home_margin": 7.3,
+   "fair_home_line": -7.3,
+   "fair_total": 45.11,
+   "home_win_prob": 0.7062,
+   "fair_home_ml": -240,
+   "fair_away_ml": 240,
    "range80": {
-    "lo": -9.59,
-    "hi": 24.26,
-    "centre": 7.34,
+    "lo": -9.62,
+    "hi": 24.22,
+    "centre": 7.3,
     "half_width": 16.92
    },
    "groups": {
     "Environment": 2.1453,
-    "Base strength": 5.5003,
+    "Base strength": 5.4638,
     "Rest & travel": -0.3104
    },
    "components": [
@@ -4423,55 +2610,55 @@
      "key": "pass_off",
      "label": "Pass offense (team, excluding QB)",
      "group": "base_strength",
-     "points": 0.5017,
-     "from_prior": 0.0631,
-     "from_this_season": 0.4386,
-     "prior_share": 0.126
+     "points": 0.5341,
+     "from_prior": 0.0644,
+     "from_this_season": 0.4697,
+     "prior_share": 0.121
     },
     {
      "key": "qb",
      "label": "Quarterback",
      "group": "base_strength",
-     "points": 3.9813,
-     "from_prior": -0.2207,
-     "from_this_season": 4.202,
-     "prior_share": 0.05
+     "points": 4.4734,
+     "from_prior": -0.213,
+     "from_this_season": 4.6864,
+     "prior_share": 0.043
     },
     {
      "key": "pass_def",
      "label": "Pass defense",
      "group": "base_strength",
-     "points": -0.0084,
-     "from_prior": 0.0817,
-     "from_this_season": -0.0901,
-     "prior_share": 0.476
+     "points": -0.3284,
+     "from_prior": 0.0796,
+     "from_this_season": -0.408,
+     "prior_share": 0.163
     },
     {
      "key": "rush_off",
      "label": "Rush offense",
      "group": "base_strength",
-     "points": -0.1554,
-     "from_prior": 0.2545,
-     "from_this_season": -0.4099,
+     "points": -0.1486,
+     "from_prior": 0.2429,
+     "from_this_season": -0.3915,
      "prior_share": 0.383
     },
     {
      "key": "rush_def",
      "label": "Rush defense",
      "group": "base_strength",
-     "points": -1.0085,
-     "from_prior": -0.3188,
-     "from_this_season": -0.6897,
-     "prior_share": 0.316
+     "points": -1.1774,
+     "from_prior": -0.3134,
+     "from_this_season": -0.864,
+     "prior_share": 0.266
     },
     {
      "key": "market",
      "label": "Market rating (prior weeks' closing lines)",
      "group": "base_strength",
-     "points": 2.1896,
+     "points": 2.1107,
      "from_prior": 0.1804,
-     "from_this_season": 2.0092,
-     "prior_share": 0.082
+     "from_this_season": 1.9303,
+     "prior_share": 0.085
     },
     {
      "key": "rest",
@@ -4511,21 +2698,19 @@
     }
    ],
    "reconciliation": {
-    "components_sum": 7.335035,
-    "fair_home_margin": 7.335035,
+    "components_sum": 7.29857,
+    "fair_home_margin": 7.29857,
     "unattributed": 0.0
    },
    "market_reference": {
-    "home_line": null,
+    "home_line": -5.5,
     "source": "nflverse games.csv consensus (reference, not a price)"
    },
    "qb_scenarios": [],
    "disagreement": null,
    "data_status": {
-    "status": "DEGRADED",
-    "reasons": [
-     "no reference line to measure the model against"
-    ]
+    "status": "OK",
+    "reasons": []
    }
   },
   {
@@ -4538,29 +2723,29 @@
     "home": {
      "id": "00-0039923",
      "name": "J.J. McCarthy",
-     "basis": "depth chart QB1 (2026-11-01T14:14:27Z)"
+     "basis": "depth chart QB1 (2026-11-02T17:01:29Z)"
     },
     "away": {
      "id": "00-0039910",
      "name": "Jayden Daniels",
-     "basis": "depth chart QB1 (2026-11-01T14:14:27Z)"
+     "basis": "depth chart QB1 (2026-11-02T17:01:29Z)"
     }
    },
-   "fair_home_margin": -0.1,
-   "fair_home_line": 0.1,
-   "fair_total": 44.89,
-   "home_win_prob": 0.497,
-   "fair_home_ml": 101,
-   "fair_away_ml": -101,
+   "fair_home_margin": 1.54,
+   "fair_home_line": -1.54,
+   "fair_total": 44.56,
+   "home_win_prob": 0.5462,
+   "fair_home_ml": -120,
+   "fair_away_ml": 120,
    "range80": {
-    "lo": -16.93,
-    "hi": 16.73,
-    "centre": -0.1,
-    "half_width": 16.83
+    "lo": -15.06,
+    "hi": 18.15,
+    "centre": 1.54,
+    "half_width": 16.61
    },
    "groups": {
     "Environment": 2.1453,
-    "Base strength": -2.5199,
+    "Base strength": -0.8781,
     "Rest & travel": 0.2761
    },
    "components": [
@@ -4580,55 +2765,55 @@
      "key": "pass_off",
      "label": "Pass offense (team, excluding QB)",
      "group": "base_strength",
-     "points": -0.1275,
-     "from_prior": -0.2231,
-     "from_this_season": 0.0956,
-     "prior_share": 0.7
+     "points": -0.1162,
+     "from_prior": -0.2294,
+     "from_this_season": 0.1132,
+     "prior_share": 0.67
     },
     {
      "key": "qb",
      "label": "Quarterback",
      "group": "base_strength",
-     "points": -0.4301,
-     "from_prior": -0.6362,
-     "from_this_season": 0.2061,
-     "prior_share": 0.755
+     "points": -0.3555,
+     "from_prior": -0.698,
+     "from_this_season": 0.3425,
+     "prior_share": 0.671
     },
     {
      "key": "pass_def",
      "label": "Pass defense",
      "group": "base_strength",
-     "points": 0.445,
-     "from_prior": 0.1155,
-     "from_this_season": 0.3295,
-     "prior_share": 0.259
+     "points": 0.4156,
+     "from_prior": 0.154,
+     "from_this_season": 0.2616,
+     "prior_share": 0.371
     },
     {
      "key": "rush_off",
      "label": "Rush offense",
      "group": "base_strength",
-     "points": -0.3099,
-     "from_prior": -0.4345,
-     "from_this_season": 0.1246,
-     "prior_share": 0.777
+     "points": -0.2702,
+     "from_prior": -0.4381,
+     "from_this_season": 0.1679,
+     "prior_share": 0.723
     },
     {
      "key": "rush_def",
      "label": "Rush defense",
      "group": "base_strength",
-     "points": -0.3925,
-     "from_prior": -0.1256,
-     "from_this_season": -0.2669,
-     "prior_share": 0.32
+     "points": -0.5187,
+     "from_prior": -0.1657,
+     "from_this_season": -0.353,
+     "prior_share": 0.319
     },
     {
      "key": "market",
      "label": "Market rating (prior weeks' closing lines)",
      "group": "base_strength",
-     "points": -1.7049,
-     "from_prior": -0.0225,
-     "from_this_season": -1.6824,
-     "prior_share": 0.013
+     "points": -0.0331,
+     "from_prior": 0.2173,
+     "from_this_season": -0.2504,
+     "prior_share": 0.465
     },
     {
      "key": "rest",
@@ -4668,8 +2853,8 @@
     }
    ],
    "reconciliation": {
-    "components_sum": -0.098535,
-    "fair_home_margin": -0.098535,
+    "components_sum": 1.543268,
+    "fair_home_margin": 1.543268,
     "unattributed": 0.0
    },
    "market_reference": {
@@ -4696,9 +2881,9 @@
  "data_status": {
   "status": "OK",
   "reasons": [],
-  "games_flagged": 16,
+  "games_flagged": 1,
   "missing_results": [],
-  "checked_at": "2026-11-01T18:37:27Z"
+  "checked_at": "2026-11-02T22:31:15Z"
  },
  "contract": "Per game: fair_home_margin (+ = home), fair_home_line (book convention), home_win_prob, tie_prob, fair moneylines, range80 (centred on the margin), components that sum exactly to fair_home_margin, the starter priced, qb_scenarios for a contested starter, disagreement vs the reference line. distribution (sigma + key-number multipliers by |margin|) prices any spread: P(M=k) proportional to exp(-((k-mu')/sigma)^2/2) * mult[|k|], mu' solved so the mean is the margin."
 }
