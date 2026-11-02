@@ -1,6 +1,6 @@
 {
  "schema": "edgedesk_games_challenges_v1",
- "generated_at": "2026-11-02T06:43:05.176Z",
+ "generated_at": "2026-11-02T20:54:01.367Z",
  "season": 2026,
  "model_version": "edgedesk_cfb_p4_v1.0.0",
  "feature_version": "cfb_p4_fv1",
@@ -211,378 +211,6 @@
    "slug": "tcu-arizona"
   },
   {
-   "game_id": "401856851",
-   "season": 2026,
-   "week": 10,
-   "kickoff": "2026-11-07 05:00",
-   "home_team": "Houston",
-   "away_team": "Cincinnati",
-   "home_conference": "Big 12",
-   "away_conference": "Big 12",
-   "neutral_site": false,
-   "venue": "TDECU Stadium",
-   "edgedesk_spread": -11.5,
-   "market_spread": null,
-   "market_source": "none joined — no book number available for this game",
-   "spread_gap": null,
-   "confidence": 42,
-   "status": "PREDICTED",
-   "research_state": "NO_MARKET",
-   "research_state_label": "No market",
-   "research_state_means": "No book number has joined this game yet, so there is nothing to agree or disagree with. The projection stands on its own until a quote lands.",
-   "factors": [
-    {
-     "sign": "+",
-     "text": "Houston is the better football team by 8.5 points on opponent-adjusted results, with roughly 30% of it still…"
-    },
-    {
-     "sign": "+",
-     "text": "Playing at Houston is worth 2.8 points"
-    },
-    {
-     "sign": "+",
-     "text": "Stylistically the matchup favours Houston by 0.3 points: ball control vs front disruption"
-    },
-    {
-     "sign": "-",
-     "text": "The projection could be wrong because 100% of the model’s own input contract was empty for this game"
-    }
-   ],
-   "qb_status": "home QB unknown; away QB unknown",
-   "context": {
-    "home": {
-     "conference": "Big 12",
-     "returning_production": 64,
-     "qb_continuity": 33,
-     "ol_continuity": 53,
-     "starts_continuity": 35,
-     "transfer_churn": 48
-    },
-    "away": {
-     "conference": "Big 12",
-     "returning_production": 13,
-     "qb_continuity": 33,
-     "ol_continuity": 74,
-     "starts_continuity": 25,
-     "transfer_churn": 30
-    }
-   },
-   "p4": true,
-   "both_fbs": true,
-   "unproven": true,
-   "slug": "cincinnati-houston"
-  },
-  {
-   "game_id": "401856853",
-   "season": 2026,
-   "week": 10,
-   "kickoff": "2026-11-07 05:00",
-   "home_team": "Baylor",
-   "away_team": "Iowa State",
-   "home_conference": "Big 12",
-   "away_conference": "Big 12",
-   "neutral_site": false,
-   "venue": "McLane Stadium",
-   "edgedesk_spread": -12.4,
-   "market_spread": null,
-   "market_source": "none joined — no book number available for this game",
-   "spread_gap": null,
-   "confidence": 42,
-   "status": "PREDICTED",
-   "research_state": "NO_MARKET",
-   "research_state_label": "No market",
-   "research_state_means": "No book number has joined this game yet, so there is nothing to agree or disagree with. The projection stands on its own until a quote lands.",
-   "factors": [
-    {
-     "sign": "+",
-     "text": "Baylor is the better football team by 10.0 points on opponent-adjusted results, with roughly 30% of it still…"
-    },
-    {
-     "sign": "+",
-     "text": "Playing at Baylor is worth 2.8 points"
-    },
-    {
-     "sign": "+",
-     "text": "Stylistically the matchup favours Iowa State by 0.4 points: ball control vs front disruption"
-    },
-    {
-     "sign": "-",
-     "text": "The projection could be wrong because 100% of the model’s own input contract was empty for this game"
-    }
-   ],
-   "qb_status": "home QB unknown; away QB unknown",
-   "context": {
-    "home": {
-     "conference": "Big 12",
-     "returning_production": 18,
-     "qb_continuity": 60,
-     "ol_continuity": 40,
-     "starts_continuity": 27,
-     "transfer_churn": 7
-    },
-    "away": {
-     "conference": "Big 12",
-     "returning_production": 6,
-     "qb_continuity": 40,
-     "ol_continuity": 30,
-     "starts_continuity": 9,
-     "transfer_churn": 0
-    }
-   },
-   "p4": true,
-   "both_fbs": true,
-   "unproven": true,
-   "slug": "iowa-state-baylor"
-  },
-  {
-   "game_id": "401858511",
-   "season": 2026,
-   "week": 10,
-   "kickoff": "2026-11-07 05:00",
-   "home_team": "Michigan",
-   "away_team": "Michigan State",
-   "home_conference": "Big Ten",
-   "away_conference": "Big Ten",
-   "neutral_site": false,
-   "venue": "Michigan Stadium",
-   "edgedesk_spread": -11.5,
-   "market_spread": null,
-   "market_source": "none joined — no book number available for this game",
-   "spread_gap": null,
-   "confidence": 42,
-   "status": "PREDICTED",
-   "research_state": "NO_MARKET",
-   "research_state_label": "No market",
-   "research_state_means": "No book number has joined this game yet, so there is nothing to agree or disagree with. The projection stands on its own until a quote lands.",
-   "factors": [
-    {
-     "sign": "+",
-     "text": "Michigan is the better football team by 8.1 points on opponent-adjusted results, with roughly 30% of it still…"
-    },
-    {
-     "sign": "+",
-     "text": "Playing at Michigan is worth 2.8 points"
-    },
-    {
-     "sign": "+",
-     "text": "Stylistically the matchup favours Michigan by 0.6 points: ball control vs front disruption"
-    },
-    {
-     "sign": "-",
-     "text": "The projection could be wrong because 100% of the model’s own input contract was empty for this game"
-    }
-   ],
-   "qb_status": "home QB unknown; away QB unknown",
-   "context": {
-    "home": {
-     "conference": "Big Ten",
-     "returning_production": 56,
-     "qb_continuity": 40,
-     "ol_continuity": 68,
-     "starts_continuity": 42,
-     "transfer_churn": 35
-    },
-    "away": {
-     "conference": "Big Ten",
-     "returning_production": 30,
-     "qb_continuity": 40,
-     "ol_continuity": 44,
-     "starts_continuity": 17,
-     "transfer_churn": 0
-    }
-   },
-   "p4": true,
-   "both_fbs": true,
-   "unproven": true,
-   "slug": "michigan-state-michigan"
-  },
-  {
-   "game_id": "401858512",
-   "season": 2026,
-   "week": 10,
-   "kickoff": "2026-11-07 05:00",
-   "home_team": "Minnesota",
-   "away_team": "UCLA",
-   "home_conference": "Big Ten",
-   "away_conference": "Big Ten",
-   "neutral_site": false,
-   "venue": "Huntington Bank Stadium",
-   "edgedesk_spread": 6.8,
-   "market_spread": null,
-   "market_source": "none joined — no book number available for this game",
-   "spread_gap": null,
-   "confidence": 42,
-   "status": "PREDICTED",
-   "research_state": "NO_MARKET",
-   "research_state_label": "No market",
-   "research_state_means": "No book number has joined this game yet, so there is nothing to agree or disagree with. The projection stands on its own until a quote lands.",
-   "factors": [
-    {
-     "sign": "+",
-     "text": "UCLA is the better football team by 10.2 points on opponent-adjusted results, with roughly 30% of it still…"
-    },
-    {
-     "sign": "+",
-     "text": "Playing at Minnesota is worth 2.8 points"
-    },
-    {
-     "sign": "+",
-     "text": "Stylistically the matchup favours Minnesota by 0.6 points: field position"
-    },
-    {
-     "sign": "-",
-     "text": "The projection could be wrong because 100% of the model’s own input contract was empty for this game"
-    }
-   ],
-   "qb_status": "home QB unknown; away QB unknown",
-   "context": {
-    "home": {
-     "conference": "Big Ten",
-     "returning_production": 72,
-     "qb_continuity": 50,
-     "ol_continuity": 65,
-     "starts_continuity": 45,
-     "transfer_churn": 48
-    },
-    "away": {
-     "conference": "Big Ten",
-     "returning_production": 51,
-     "qb_continuity": 60,
-     "ol_continuity": 35,
-     "starts_continuity": 32,
-     "transfer_churn": 0
-    }
-   },
-   "p4": true,
-   "both_fbs": true,
-   "unproven": true,
-   "slug": "ucla-minnesota"
-  },
-  {
-   "game_id": "401858513",
-   "season": 2026,
-   "week": 10,
-   "kickoff": "2026-11-07 05:00",
-   "home_team": "Northwestern",
-   "away_team": "Iowa",
-   "home_conference": "Big Ten",
-   "away_conference": "Big Ten",
-   "neutral_site": false,
-   "venue": "Ryan Field",
-   "edgedesk_spread": 2.8,
-   "market_spread": null,
-   "market_source": "none joined — no book number available for this game",
-   "spread_gap": null,
-   "confidence": 42,
-   "status": "PREDICTED",
-   "research_state": "NO_MARKET",
-   "research_state_label": "No market",
-   "research_state_means": "No book number has joined this game yet, so there is nothing to agree or disagree with. The projection stands on its own until a quote lands.",
-   "factors": [
-    {
-     "sign": "+",
-     "text": "Iowa is the better football team by 4.0 points on opponent-adjusted results, with roughly 30% of it still…"
-    },
-    {
-     "sign": "+",
-     "text": "Playing at Northwestern is worth 2.8 points"
-    },
-    {
-     "sign": "+",
-     "text": "Stylistically the matchup favours Iowa by 1.6 points: ball control vs front disruption"
-    },
-    {
-     "sign": "-",
-     "text": "The projection could be wrong because 100% of the model’s own input contract was empty for this game"
-    }
-   ],
-   "qb_status": "home QB unknown; away QB unknown",
-   "context": {
-    "home": {
-     "conference": "Big Ten",
-     "returning_production": 37,
-     "qb_continuity": 57,
-     "ol_continuity": 48,
-     "starts_continuity": 39,
-     "transfer_churn": 58
-    },
-    "away": {
-     "conference": "Big Ten",
-     "returning_production": 38,
-     "qb_continuity": 80,
-     "ol_continuity": 68,
-     "starts_continuity": 21,
-     "transfer_churn": 65
-    }
-   },
-   "p4": true,
-   "both_fbs": true,
-   "unproven": true,
-   "slug": "iowa-northwestern"
-  },
-  {
-   "game_id": "401858516",
-   "season": 2026,
-   "week": 10,
-   "kickoff": "2026-11-07 05:00",
-   "home_team": "Washington",
-   "away_team": "Penn State",
-   "home_conference": "Big Ten",
-   "away_conference": "Big Ten",
-   "neutral_site": false,
-   "venue": "Husky Stadium",
-   "edgedesk_spread": -3.1,
-   "market_spread": null,
-   "market_source": "none joined — no book number available for this game",
-   "spread_gap": null,
-   "confidence": 42,
-   "status": "PREDICTED",
-   "research_state": "NO_MARKET",
-   "research_state_label": "No market",
-   "research_state_means": "No book number has joined this game yet, so there is nothing to agree or disagree with. The projection stands on its own until a quote lands.",
-   "factors": [
-    {
-     "sign": "+",
-     "text": "Playing at Washington is worth 2.8 points"
-    },
-    {
-     "sign": "+",
-     "text": "Washington is the better football team by 1.1 points on opponent-adjusted results, with roughly 30% of it still…"
-    },
-    {
-     "sign": "+",
-     "text": "Stylistically the matchup favours Penn State by 0.8 points: ball control vs front disruption"
-    },
-    {
-     "sign": "-",
-     "text": "The projection could be wrong because 100% of the model’s own input contract was empty for this game"
-    }
-   ],
-   "qb_status": "home QB unknown; away QB unknown",
-   "context": {
-    "home": {
-     "conference": "Big Ten",
-     "returning_production": 67,
-     "qb_continuity": 60,
-     "ol_continuity": 77,
-     "starts_continuity": 70,
-     "transfer_churn": 45
-    },
-    "away": {
-     "conference": "Big Ten",
-     "returning_production": 12,
-     "qb_continuity": 17,
-     "ol_continuity": 55,
-     "starts_continuity": 20,
-     "transfer_churn": 0
-    }
-   },
-   "p4": true,
-   "both_fbs": true,
-   "unproven": true,
-   "slug": "penn-state-washington"
-  },
-  {
    "game_id": "401856743",
    "season": 2026,
    "week": 10,
@@ -707,17 +335,17 @@
    "slug": "byu-utah"
   },
   {
-   "game_id": "401856854",
+   "game_id": "401856853",
    "season": 2026,
    "week": 10,
    "kickoff": "2026-11-07 17:00",
-   "home_team": "Kansas State",
-   "away_team": "Oklahoma State",
+   "home_team": "Baylor",
+   "away_team": "Iowa State",
    "home_conference": "Big 12",
    "away_conference": "Big 12",
    "neutral_site": false,
-   "venue": "Bill Snyder Family Stadium",
-   "edgedesk_spread": 4.5,
+   "venue": "McLane Stadium",
+   "edgedesk_spread": -12.4,
    "market_spread": null,
    "market_source": "none joined — no book number available for this game",
    "spread_gap": null,
@@ -729,15 +357,15 @@
    "factors": [
     {
      "sign": "+",
-     "text": "Oklahoma State is the better football team by 7.4 points on opponent-adjusted results, with roughly 30% of it…"
+     "text": "Baylor is the better football team by 10.0 points on opponent-adjusted results, with roughly 30% of it still…"
     },
     {
      "sign": "+",
-     "text": "Playing at Kansas State is worth 2.8 points"
+     "text": "Playing at Baylor is worth 2.8 points"
     },
     {
      "sign": "+",
-     "text": "Stylistically the matchup favours Kansas State by 0.1 points: early-down offence vs early-down defence"
+     "text": "Stylistically the matchup favours Iowa State by 0.4 points: ball control vs front disruption"
     },
     {
      "sign": "-",
@@ -748,25 +376,25 @@
    "context": {
     "home": {
      "conference": "Big 12",
-     "returning_production": 59,
-     "qb_continuity": 100,
-     "ol_continuity": 48,
-     "starts_continuity": 64,
-     "transfer_churn": 18
+     "returning_production": 18,
+     "qb_continuity": 60,
+     "ol_continuity": 40,
+     "starts_continuity": 27,
+     "transfer_churn": 7
     },
     "away": {
      "conference": "Big 12",
-     "returning_production": 9,
-     "qb_continuity": 0,
+     "returning_production": 6,
+     "qb_continuity": 40,
      "ol_continuity": 30,
-     "starts_continuity": 0,
+     "starts_continuity": 9,
      "transfer_churn": 0
     }
    },
    "p4": true,
    "both_fbs": true,
    "unproven": true,
-   "slug": "oklahoma-state-kansas-state"
+   "slug": "iowa-state-baylor"
   },
   {
    "game_id": "401858285",
@@ -955,6 +583,68 @@
    "slug": "north-carolina-uconn"
   },
   {
+   "game_id": "401858512",
+   "season": 2026,
+   "week": 10,
+   "kickoff": "2026-11-07 17:00",
+   "home_team": "Minnesota",
+   "away_team": "UCLA",
+   "home_conference": "Big Ten",
+   "away_conference": "Big Ten",
+   "neutral_site": false,
+   "venue": "Huntington Bank Stadium",
+   "edgedesk_spread": 6.8,
+   "market_spread": null,
+   "market_source": "none joined — no book number available for this game",
+   "spread_gap": null,
+   "confidence": 42,
+   "status": "PREDICTED",
+   "research_state": "NO_MARKET",
+   "research_state_label": "No market",
+   "research_state_means": "No book number has joined this game yet, so there is nothing to agree or disagree with. The projection stands on its own until a quote lands.",
+   "factors": [
+    {
+     "sign": "+",
+     "text": "UCLA is the better football team by 10.2 points on opponent-adjusted results, with roughly 30% of it still…"
+    },
+    {
+     "sign": "+",
+     "text": "Playing at Minnesota is worth 2.8 points"
+    },
+    {
+     "sign": "+",
+     "text": "Stylistically the matchup favours Minnesota by 0.6 points: field position"
+    },
+    {
+     "sign": "-",
+     "text": "The projection could be wrong because 100% of the model’s own input contract was empty for this game"
+    }
+   ],
+   "qb_status": "home QB unknown; away QB unknown",
+   "context": {
+    "home": {
+     "conference": "Big Ten",
+     "returning_production": 72,
+     "qb_continuity": 50,
+     "ol_continuity": 65,
+     "starts_continuity": 45,
+     "transfer_churn": 48
+    },
+    "away": {
+     "conference": "Big Ten",
+     "returning_production": 51,
+     "qb_continuity": 60,
+     "ol_continuity": 35,
+     "starts_continuity": 32,
+     "transfer_churn": 0
+    }
+   },
+   "p4": true,
+   "both_fbs": true,
+   "unproven": true,
+   "slug": "ucla-minnesota"
+  },
+  {
    "game_id": "401858286",
    "season": 2026,
    "week": 10,
@@ -1079,68 +769,6 @@
    "slug": "maryland-purdue"
   },
   {
-   "game_id": "401858517",
-   "season": 2026,
-   "week": 10,
-   "kickoff": "2026-11-07 17:30",
-   "home_team": "Wisconsin",
-   "away_team": "Rutgers",
-   "home_conference": "Big Ten",
-   "away_conference": "Big Ten",
-   "neutral_site": false,
-   "venue": "Camp Randall Stadium",
-   "edgedesk_spread": -12,
-   "market_spread": null,
-   "market_source": "none joined — no book number available for this game",
-   "spread_gap": null,
-   "confidence": 42,
-   "status": "PREDICTED",
-   "research_state": "NO_MARKET",
-   "research_state_label": "No market",
-   "research_state_means": "No book number has joined this game yet, so there is nothing to agree or disagree with. The projection stands on its own until a quote lands.",
-   "factors": [
-    {
-     "sign": "+",
-     "text": "Wisconsin is the better football team by 10.6 points on opponent-adjusted results, with roughly 30% of it still…"
-    },
-    {
-     "sign": "+",
-     "text": "Playing at Wisconsin is worth 2.8 points"
-    },
-    {
-     "sign": "+",
-     "text": "Stylistically the matchup favours Rutgers by 1.4 points: ball control vs front disruption"
-    },
-    {
-     "sign": "-",
-     "text": "The projection could be wrong because 100% of the model’s own input contract was empty for this game"
-    }
-   ],
-   "qb_status": "home QB unknown; away QB unknown",
-   "context": {
-    "home": {
-     "conference": "Big Ten",
-     "returning_production": 22,
-     "qb_continuity": 40,
-     "ol_continuity": 63,
-     "starts_continuity": 6,
-     "transfer_churn": 12
-    },
-    "away": {
-     "conference": "Big Ten",
-     "returning_production": 31,
-     "qb_continuity": 60,
-     "ol_continuity": 67,
-     "starts_continuity": 39,
-     "transfer_churn": 43
-    }
-   },
-   "p4": true,
-   "both_fbs": true,
-   "unproven": true,
-   "slug": "rutgers-wisconsin"
-  },
-  {
    "game_id": "401856738",
    "season": 2026,
    "week": 10,
@@ -1201,6 +829,68 @@
    "both_fbs": true,
    "unproven": true,
    "slug": "arkansas-auburn"
+  },
+  {
+   "game_id": "401856854",
+   "season": 2026,
+   "week": 10,
+   "kickoff": "2026-11-07 18:00",
+   "home_team": "Kansas State",
+   "away_team": "Oklahoma State",
+   "home_conference": "Big 12",
+   "away_conference": "Big 12",
+   "neutral_site": false,
+   "venue": "Bill Snyder Family Stadium",
+   "edgedesk_spread": 4.5,
+   "market_spread": null,
+   "market_source": "none joined — no book number available for this game",
+   "spread_gap": null,
+   "confidence": 42,
+   "status": "PREDICTED",
+   "research_state": "NO_MARKET",
+   "research_state_label": "No market",
+   "research_state_means": "No book number has joined this game yet, so there is nothing to agree or disagree with. The projection stands on its own until a quote lands.",
+   "factors": [
+    {
+     "sign": "+",
+     "text": "Oklahoma State is the better football team by 7.4 points on opponent-adjusted results, with roughly 30% of it…"
+    },
+    {
+     "sign": "+",
+     "text": "Playing at Kansas State is worth 2.8 points"
+    },
+    {
+     "sign": "+",
+     "text": "Stylistically the matchup favours Kansas State by 0.1 points: early-down offence vs early-down defence"
+    },
+    {
+     "sign": "-",
+     "text": "The projection could be wrong because 100% of the model’s own input contract was empty for this game"
+    }
+   ],
+   "qb_status": "home QB unknown; away QB unknown",
+   "context": {
+    "home": {
+     "conference": "Big 12",
+     "returning_production": 59,
+     "qb_continuity": 100,
+     "ol_continuity": 48,
+     "starts_continuity": 64,
+     "transfer_churn": 18
+    },
+    "away": {
+     "conference": "Big 12",
+     "returning_production": 9,
+     "qb_continuity": 0,
+     "ol_continuity": 30,
+     "starts_continuity": 0,
+     "transfer_churn": 0
+    }
+   },
+   "p4": true,
+   "both_fbs": true,
+   "unproven": true,
+   "slug": "oklahoma-state-kansas-state"
   },
   {
    "game_id": "401856744",
@@ -1327,6 +1017,68 @@
    "slug": "alabama-lsu"
   },
   {
+   "game_id": "401856851",
+   "season": 2026,
+   "week": 10,
+   "kickoff": "2026-11-07 20:30",
+   "home_team": "Houston",
+   "away_team": "Cincinnati",
+   "home_conference": "Big 12",
+   "away_conference": "Big 12",
+   "neutral_site": false,
+   "venue": "TDECU Stadium",
+   "edgedesk_spread": -11.5,
+   "market_spread": null,
+   "market_source": "none joined — no book number available for this game",
+   "spread_gap": null,
+   "confidence": 42,
+   "status": "PREDICTED",
+   "research_state": "NO_MARKET",
+   "research_state_label": "No market",
+   "research_state_means": "No book number has joined this game yet, so there is nothing to agree or disagree with. The projection stands on its own until a quote lands.",
+   "factors": [
+    {
+     "sign": "+",
+     "text": "Houston is the better football team by 8.5 points on opponent-adjusted results, with roughly 30% of it still…"
+    },
+    {
+     "sign": "+",
+     "text": "Playing at Houston is worth 2.8 points"
+    },
+    {
+     "sign": "+",
+     "text": "Stylistically the matchup favours Houston by 0.3 points: ball control vs front disruption"
+    },
+    {
+     "sign": "-",
+     "text": "The projection could be wrong because 100% of the model’s own input contract was empty for this game"
+    }
+   ],
+   "qb_status": "home QB unknown; away QB unknown",
+   "context": {
+    "home": {
+     "conference": "Big 12",
+     "returning_production": 64,
+     "qb_continuity": 33,
+     "ol_continuity": 53,
+     "starts_continuity": 35,
+     "transfer_churn": 48
+    },
+    "away": {
+     "conference": "Big 12",
+     "returning_production": 13,
+     "qb_continuity": 33,
+     "ol_continuity": 74,
+     "starts_continuity": 25,
+     "transfer_churn": 30
+    }
+   },
+   "p4": true,
+   "both_fbs": true,
+   "unproven": true,
+   "slug": "cincinnati-houston"
+  },
+  {
    "game_id": "401858514",
    "season": 2026,
    "week": 10,
@@ -1387,6 +1139,68 @@
    "both_fbs": true,
    "unproven": true,
    "slug": "oregon-ohio-state"
+  },
+  {
+   "game_id": "401858516",
+   "season": 2026,
+   "week": 10,
+   "kickoff": "2026-11-07 20:30",
+   "home_team": "Washington",
+   "away_team": "Penn State",
+   "home_conference": "Big Ten",
+   "away_conference": "Big Ten",
+   "neutral_site": false,
+   "venue": "Husky Stadium",
+   "edgedesk_spread": -3.1,
+   "market_spread": null,
+   "market_source": "none joined — no book number available for this game",
+   "spread_gap": null,
+   "confidence": 42,
+   "status": "PREDICTED",
+   "research_state": "NO_MARKET",
+   "research_state_label": "No market",
+   "research_state_means": "No book number has joined this game yet, so there is nothing to agree or disagree with. The projection stands on its own until a quote lands.",
+   "factors": [
+    {
+     "sign": "+",
+     "text": "Playing at Washington is worth 2.8 points"
+    },
+    {
+     "sign": "+",
+     "text": "Washington is the better football team by 1.1 points on opponent-adjusted results, with roughly 30% of it still…"
+    },
+    {
+     "sign": "+",
+     "text": "Stylistically the matchup favours Penn State by 0.8 points: ball control vs front disruption"
+    },
+    {
+     "sign": "-",
+     "text": "The projection could be wrong because 100% of the model’s own input contract was empty for this game"
+    }
+   ],
+   "qb_status": "home QB unknown; away QB unknown",
+   "context": {
+    "home": {
+     "conference": "Big Ten",
+     "returning_production": 67,
+     "qb_continuity": 60,
+     "ol_continuity": 77,
+     "starts_continuity": 70,
+     "transfer_churn": 45
+    },
+    "away": {
+     "conference": "Big Ten",
+     "returning_production": 12,
+     "qb_continuity": 17,
+     "ol_continuity": 55,
+     "starts_continuity": 20,
+     "transfer_churn": 0
+    }
+   },
+   "p4": true,
+   "both_fbs": true,
+   "unproven": true,
+   "slug": "penn-state-washington"
   },
   {
    "game_id": "401856850",
@@ -1511,6 +1325,68 @@
    "both_fbs": true,
    "unproven": true,
    "slug": "vanderbilt-mississippi-state"
+  },
+  {
+   "game_id": "401858517",
+   "season": 2026,
+   "week": 10,
+   "kickoff": "2026-11-07 21:15",
+   "home_team": "Wisconsin",
+   "away_team": "Rutgers",
+   "home_conference": "Big Ten",
+   "away_conference": "Big Ten",
+   "neutral_site": false,
+   "venue": "Camp Randall Stadium",
+   "edgedesk_spread": -12,
+   "market_spread": null,
+   "market_source": "none joined — no book number available for this game",
+   "spread_gap": null,
+   "confidence": 42,
+   "status": "PREDICTED",
+   "research_state": "NO_MARKET",
+   "research_state_label": "No market",
+   "research_state_means": "No book number has joined this game yet, so there is nothing to agree or disagree with. The projection stands on its own until a quote lands.",
+   "factors": [
+    {
+     "sign": "+",
+     "text": "Wisconsin is the better football team by 10.6 points on opponent-adjusted results, with roughly 30% of it still…"
+    },
+    {
+     "sign": "+",
+     "text": "Playing at Wisconsin is worth 2.8 points"
+    },
+    {
+     "sign": "+",
+     "text": "Stylistically the matchup favours Rutgers by 1.4 points: ball control vs front disruption"
+    },
+    {
+     "sign": "-",
+     "text": "The projection could be wrong because 100% of the model’s own input contract was empty for this game"
+    }
+   ],
+   "qb_status": "home QB unknown; away QB unknown",
+   "context": {
+    "home": {
+     "conference": "Big Ten",
+     "returning_production": 22,
+     "qb_continuity": 40,
+     "ol_continuity": 63,
+     "starts_continuity": 6,
+     "transfer_churn": 12
+    },
+    "away": {
+     "conference": "Big Ten",
+     "returning_production": 31,
+     "qb_continuity": 60,
+     "ol_continuity": 67,
+     "starts_continuity": 39,
+     "transfer_churn": 43
+    }
+   },
+   "p4": true,
+   "both_fbs": true,
+   "unproven": true,
+   "slug": "rutgers-wisconsin"
   },
   {
    "game_id": "401856745",
@@ -1821,6 +1697,130 @@
    "both_fbs": true,
    "unproven": true,
    "slug": "miami-notre-dame"
+  },
+  {
+   "game_id": "401858511",
+   "season": 2026,
+   "week": 10,
+   "kickoff": "2026-11-08 00:30",
+   "home_team": "Michigan",
+   "away_team": "Michigan State",
+   "home_conference": "Big Ten",
+   "away_conference": "Big Ten",
+   "neutral_site": false,
+   "venue": "Michigan Stadium",
+   "edgedesk_spread": -11.5,
+   "market_spread": null,
+   "market_source": "none joined — no book number available for this game",
+   "spread_gap": null,
+   "confidence": 42,
+   "status": "PREDICTED",
+   "research_state": "NO_MARKET",
+   "research_state_label": "No market",
+   "research_state_means": "No book number has joined this game yet, so there is nothing to agree or disagree with. The projection stands on its own until a quote lands.",
+   "factors": [
+    {
+     "sign": "+",
+     "text": "Michigan is the better football team by 8.1 points on opponent-adjusted results, with roughly 30% of it still…"
+    },
+    {
+     "sign": "+",
+     "text": "Playing at Michigan is worth 2.8 points"
+    },
+    {
+     "sign": "+",
+     "text": "Stylistically the matchup favours Michigan by 0.6 points: ball control vs front disruption"
+    },
+    {
+     "sign": "-",
+     "text": "The projection could be wrong because 100% of the model’s own input contract was empty for this game"
+    }
+   ],
+   "qb_status": "home QB unknown; away QB unknown",
+   "context": {
+    "home": {
+     "conference": "Big Ten",
+     "returning_production": 56,
+     "qb_continuity": 40,
+     "ol_continuity": 68,
+     "starts_continuity": 42,
+     "transfer_churn": 35
+    },
+    "away": {
+     "conference": "Big Ten",
+     "returning_production": 30,
+     "qb_continuity": 40,
+     "ol_continuity": 44,
+     "starts_continuity": 17,
+     "transfer_churn": 0
+    }
+   },
+   "p4": true,
+   "both_fbs": true,
+   "unproven": true,
+   "slug": "michigan-state-michigan"
+  },
+  {
+   "game_id": "401858513",
+   "season": 2026,
+   "week": 10,
+   "kickoff": "2026-11-08 00:30",
+   "home_team": "Northwestern",
+   "away_team": "Iowa",
+   "home_conference": "Big Ten",
+   "away_conference": "Big Ten",
+   "neutral_site": false,
+   "venue": "Ryan Field",
+   "edgedesk_spread": 2.8,
+   "market_spread": null,
+   "market_source": "none joined — no book number available for this game",
+   "spread_gap": null,
+   "confidence": 42,
+   "status": "PREDICTED",
+   "research_state": "NO_MARKET",
+   "research_state_label": "No market",
+   "research_state_means": "No book number has joined this game yet, so there is nothing to agree or disagree with. The projection stands on its own until a quote lands.",
+   "factors": [
+    {
+     "sign": "+",
+     "text": "Iowa is the better football team by 4.0 points on opponent-adjusted results, with roughly 30% of it still…"
+    },
+    {
+     "sign": "+",
+     "text": "Playing at Northwestern is worth 2.8 points"
+    },
+    {
+     "sign": "+",
+     "text": "Stylistically the matchup favours Iowa by 1.6 points: ball control vs front disruption"
+    },
+    {
+     "sign": "-",
+     "text": "The projection could be wrong because 100% of the model’s own input contract was empty for this game"
+    }
+   ],
+   "qb_status": "home QB unknown; away QB unknown",
+   "context": {
+    "home": {
+     "conference": "Big Ten",
+     "returning_production": 37,
+     "qb_continuity": 57,
+     "ol_continuity": 48,
+     "starts_continuity": 39,
+     "transfer_churn": 58
+    },
+    "away": {
+     "conference": "Big Ten",
+     "returning_production": 38,
+     "qb_continuity": 80,
+     "ol_continuity": 68,
+     "starts_continuity": 21,
+     "transfer_churn": 65
+    }
+   },
+   "p4": true,
+   "both_fbs": true,
+   "unproven": true,
+   "slug": "iowa-northwestern"
   },
   {
    "game_id": "401856739",
