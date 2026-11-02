@@ -2,15 +2,15 @@
  "schema": "edgedesk_model_health_v1",
  "engine": "edgedesk_validation_v1",
  "generated_by": "tools/validation/model_health.js",
- "as_of": "2026-11-02T06:08:07.647Z",
+ "as_of": "2026-11-02T17:24:06.890Z",
  "rule": "Cached historical analytics: rebuilt by this job, read by the page, never recomputed on render. Modes are reported separately and never blended. Every figure carries n and a sample state (n<50 descriptive only · 50–199 early signal · 200–499 developing evidence · 500+ meaningful sample). Nothing here changes a threshold, a calibration or a model.",
- "inputs_key": "d52a3bbbdf9666c2",
+ "inputs_key": "22b8c57792ba5af5",
  "sources": [
   {
    "file": "football/cfb_terminal/decisions/2026/snapshots.jsonl",
-   "rows": 5969,
+   "rows": 6003,
    "mode": "LIVE",
-   "sha1": "91dccc71e2fc"
+   "sha1": "bf4c43f27c37"
   },
   {
    "file": "football/cfb_terminal/decisions/2026/evaluations.jsonl",
@@ -37,7 +37,7 @@
   {
    "file": "record/football/summary.json",
    "mode": "LIVE (model record)",
-   "sha1": "ad98961ee771"
+   "sha1": "7d210aeb1cad"
   },
   {
    "file": "football/params.js",
@@ -52,7 +52,7 @@
   {
    "file": "football/validation/key_numbers.json",
    "mode": "DESCRIPTIVE (final margins)",
-   "sha1": "7aa140d02610"
+   "sha1": "cd0fee21164b"
   }
  ],
  "maturity": [
@@ -99,7 +99,7 @@
     "recalibration": "PROPOSAL_ONLY",
     "note": "A product maturity label, not a scientific verdict."
    },
-   "note": "5969 decision snapshots issued before kickoff; 379 settled"
+   "note": "6003 decision snapshots issued before kickoff; 379 settled"
   },
   {
    "key": "LIVE_CLV",
@@ -133,11 +133,11 @@
   }
  ],
  "live_decisions": {
-  "issued_snapshots": 5969,
+  "issued_snapshots": 6003,
   "issued_by_decision": {
-   "NO_DECISION": 1987,
-   "PASS": 3697,
-   "WATCH": 285
+   "NO_DECISION": 1988,
+   "PASS": 3727,
+   "WATCH": 288
   },
   "graded_rows": 386,
   "unit_of_analysis": "the first snapshot of each decision class per game",
@@ -16331,57 +16331,57 @@
   "source": "record/football/summary.json",
   "mode": "LIVE",
   "level": "model (the published fair line), not bettor decisions",
-  "generated_at": "2026-11-02T01:48:53.095Z",
+  "generated_at": "2026-11-02T06:45:29.552Z",
   "sports": {
    "nfl": {
     "versions": [
      "edgedesk_football_v1.0.0",
      "edgedesk_nfl_v2.1.0"
     ],
-    "graded": 103,
+    "graded": 104,
     "ats": {
-     "n": 103,
+     "n": 104,
      "w": 49,
-     "l": 49,
+     "l": 50,
      "p": 5,
-     "pct": 50,
+     "pct": 49.5,
      "sample": {
       "key": "EARLY_SIGNAL",
       "label": "Early signal",
-      "n": 103,
-      "text": "n=103 · Early signal",
+      "n": 104,
+      "text": "n=104 · Early signal",
       "recalibration": "NOT_ALLOWED",
       "note": "A product maturity label, not a scientific verdict."
      }
     },
     "clv_spread_entry": {
-     "n": 99,
-     "avg": 0.51,
+     "n": 100,
+     "avg": 0.48,
      "beat": 48,
      "flat": 29,
-     "lost": 22,
-     "beat_pct": 48.5,
+     "lost": 23,
+     "beat_pct": 48,
      "sample": {
       "key": "EARLY_SIGNAL",
       "label": "Early signal",
-      "n": 99,
-      "text": "n=99 · Early signal",
+      "n": 100,
+      "text": "n=100 · Early signal",
       "recalibration": "NOT_ALLOWED",
       "note": "A product maturity label, not a scientific verdict."
      }
     },
     "error": {
-     "n": 103,
-     "model_mae": 9.45,
-     "close_mae": 9.19,
-     "model_closer_pct": 46.6,
-     "total_n": 103,
-     "model_total_mae": 10.92,
-     "close_total_mae": 10.63
+     "n": 104,
+     "model_mae": 9.49,
+     "close_mae": 9.21,
+     "model_closer_pct": 46.2,
+     "total_n": 104,
+     "model_total_mae": 10.87,
+     "close_total_mae": 10.56
     },
     "brier": {
-     "n": 103,
-     "model": 0.2278
+     "n": 104,
+     "model": 0.2269
     }
    },
    "cfb": {
@@ -16456,10 +16456,10 @@
      },
      {
       "closing_expected_margin": -7,
-      "n": 160,
+      "n": 161,
       "learned_mean": -5.76,
-      "actual_mean": -8.51,
-      "gap": 2.75
+      "actual_mean": -8.49,
+      "gap": 2.73
      },
      {
       "closing_expected_margin": -6.5,
@@ -16547,10 +16547,10 @@
      },
      {
       "closing_expected_margin": 1.5,
-      "n": 118,
+      "n": 119,
       "learned_mean": 1.88,
-      "actual_mean": 0.07,
-      "gap": 1.81
+      "actual_mean": 0.1,
+      "gap": 1.78
      },
      {
       "closing_expected_margin": 2,
@@ -16610,17 +16610,17 @@
      },
      {
       "closing_expected_margin": 6,
-      "n": 239,
+      "n": 240,
       "learned_mean": 5.43,
-      "actual_mean": 4.93,
-      "gap": 0.49
+      "actual_mean": 4.98,
+      "gap": 0.44
      },
      {
       "closing_expected_margin": 6.5,
-      "n": 245,
+      "n": 246,
       "learned_mean": 5.83,
-      "actual_mean": 6.2,
-      "gap": -0.36
+      "actual_mean": 6.23,
+      "gap": -0.4
      },
      {
       "closing_expected_margin": 7,
@@ -17290,47 +17290,47 @@
     6,
     10
    ],
-   "average_mass": 0.04038,
+   "average_mass": 0.04039,
    "ranked": [
     {
      "margin": 3,
-     "mass": 0.15152
+     "mass": 0.15143
     },
     {
      "margin": 7,
-     "mass": 0.0905
+     "mass": 0.09045
     },
     {
      "margin": 6,
-     "mass": 0.06061
+     "mass": 0.06057
     },
     {
      "margin": 10,
-     "mass": 0.05479
+     "mass": 0.05476
     },
     {
      "margin": 4,
-     "mass": 0.04884
+     "mass": 0.04895
     },
     {
      "margin": 14,
-     "mass": 0.0487
+     "mass": 0.04867
     },
     {
      "margin": 1,
-     "mass": 0.04113
+     "mass": 0.0411
     },
     {
      "margin": 2,
-     "mass": 0.04058
+     "mass": 0.04056
     },
     {
      "margin": 8,
-     "mass": 0.03747
+     "mass": 0.03745
     },
     {
      "margin": 5,
-     "mass": 0.03598
+     "mass": 0.0361
     }
    ],
    "rule": "primary: mass ≥ 2× the league average over margins 1–21 and ≥ 6%; secondary: ≥ 1.25×"
@@ -17391,7 +17391,7 @@
    "rule": "primary: mass ≥ 2× the league average over margins 1–21 and ≥ 6%; secondary: ≥ 1.25×"
   },
   "n": {
-   "NFL": 7392,
+   "NFL": 7396,
    "CFB": 11502
   }
  },
