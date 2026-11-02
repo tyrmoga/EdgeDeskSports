@@ -5,7 +5,7 @@
  "season": 2026,
  "model": "EdgeDesk CFB Power 4 Model · all FBS",
  "projection_source": "football/fbs/slate.json",
- "updated_at": "2026-11-02T17:08:53.084Z",
+ "updated_at": "2026-11-02T23:42:26.949Z",
  "conventions": {
   "home_line": "the line the HOME side lays, as a book prints it: negative = home favoured",
   "clv_points": "points the market moved toward the side the model leaned, from the recorded quote to the close; positive = the market came to the model",
@@ -13565,7 +13565,7 @@
     "home_win_prob": 0.7631,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -13573,7 +13573,7 @@
       "team_data": 20,
       "roster_availability": 12.3,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 15,
       "environment": 10
      },
@@ -13682,7 +13682,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -13758,7 +13758,7 @@
     "home_win_prob": 0.5927,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 79,
      "grade": "ADEQUATE",
@@ -13766,7 +13766,7 @@
       "team_data": 20,
       "roster_availability": 10.4,
       "projection_stability": 20,
-      "freshness": 12.7,
+      "freshness": 13.8,
       "source_integrity": 11.9,
       "environment": 10
      },
@@ -13875,7 +13875,7 @@
     "reliability": {
      "score": 79,
      "bucket": "70-79",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -13951,7 +13951,7 @@
     "home_win_prob": 0.6846,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -13959,7 +13959,7 @@
       "team_data": 20,
       "roster_availability": 12.3,
       "projection_stability": 20,
-      "freshness": 13.3,
+      "freshness": 13.8,
       "source_integrity": 15,
       "environment": 10
      },
@@ -14068,7 +14068,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -14144,7 +14144,7 @@
     "home_win_prob": 0.5594,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -14152,7 +14152,7 @@
       "team_data": 20,
       "roster_availability": 12.2,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 15,
       "environment": 10
      },
@@ -14261,7 +14261,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -14333,7 +14333,7 @@
     "home_win_prob": 0.6465,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 79,
      "grade": "ADEQUATE",
@@ -14341,7 +14341,7 @@
       "team_data": 20,
       "roster_availability": 10.9,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 11.9,
       "environment": 10
      },
@@ -14450,7 +14450,7 @@
     "reliability": {
      "score": 79,
      "bucket": "70-79",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -14526,7 +14526,7 @@
     "home_win_prob": 0.5086,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -14534,7 +14534,7 @@
       "team_data": 20,
       "roster_availability": 12.5,
       "projection_stability": 18.9,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 15,
       "environment": 10
      },
@@ -14643,7 +14643,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -14719,7 +14719,7 @@
     "home_win_prob": 0.698,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -14727,7 +14727,7 @@
       "team_data": 20,
       "roster_availability": 12.8,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 14.4,
       "source_integrity": 15,
       "environment": 10
      },
@@ -14836,7 +14836,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -14912,7 +14912,7 @@
     "home_win_prob": 0.7059,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -14920,7 +14920,7 @@
       "team_data": 20,
       "roster_availability": 12,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 14.4,
       "source_integrity": 14.1,
       "environment": 10
      },
@@ -15029,7 +15029,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -29001,7 +29001,7 @@
     "home_win_prob": 0.802,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -29009,7 +29009,7 @@
       "team_data": 20,
       "roster_availability": 12.8,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 15,
       "environment": 10
      },
@@ -29110,7 +29110,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -29186,7 +29186,7 @@
     "home_win_prob": 0.6741,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 79,
      "grade": "ADEQUATE",
@@ -29194,7 +29194,7 @@
       "team_data": 20,
       "roster_availability": 9.3,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 13.1,
       "environment": 10
      },
@@ -29303,7 +29303,7 @@
     "reliability": {
      "score": 79,
      "bucket": "70-79",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -29312,7 +29312,7 @@
    "game_id": "401856851",
    "season": 2026,
    "week": 10,
-   "kickoff": "2026-11-07T05:00:00.000Z",
+   "kickoff": "2026-11-07T20:30:00.000Z",
    "home": "Houston",
    "away": "Cincinnati",
    "model_version": "edgedesk_cfb_p4_v1.0.1",
@@ -29379,7 +29379,7 @@
     "home_win_prob": 0.8036,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -29387,7 +29387,7 @@
       "team_data": 20,
       "roster_availability": 12.5,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 15,
       "environment": 10
      },
@@ -29496,7 +29496,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -29572,7 +29572,7 @@
     "home_win_prob": 0.7245,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -29580,7 +29580,7 @@
       "team_data": 20,
       "roster_availability": 11.4,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 14.1,
       "environment": 10
      },
@@ -29689,7 +29689,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -29698,7 +29698,7 @@
    "game_id": "401856853",
    "season": 2026,
    "week": 10,
-   "kickoff": "2026-11-07T05:00:00.000Z",
+   "kickoff": "2026-11-07T17:00:00.000Z",
    "home": "Baylor",
    "away": "Iowa State",
    "model_version": "edgedesk_cfb_p4_v1.0.1",
@@ -29765,7 +29765,7 @@
     "home_win_prob": 0.8313,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -29773,7 +29773,7 @@
       "team_data": 20,
       "roster_availability": 11.2,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 15,
       "environment": 10
      },
@@ -29882,7 +29882,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -29891,7 +29891,7 @@
    "game_id": "401856854",
    "season": 2026,
    "week": 10,
-   "kickoff": "2026-11-07T17:00:00.000Z",
+   "kickoff": "2026-11-07T18:00:00.000Z",
    "home": "Kansas State",
    "away": "Oklahoma State",
    "model_version": "edgedesk_cfb_p4_v1.0.1",
@@ -29958,7 +29958,7 @@
     "home_win_prob": 0.3612,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 79,
      "grade": "ADEQUATE",
@@ -29966,7 +29966,7 @@
       "team_data": 20,
       "roster_availability": 11.2,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 13.1,
       "environment": 10
      },
@@ -30075,7 +30075,7 @@
     "reliability": {
      "score": 79,
      "bucket": "70-79",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -30151,7 +30151,7 @@
     "home_win_prob": 0.8067,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -30159,7 +30159,7 @@
       "team_data": 20,
       "roster_availability": 12.5,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 15,
       "environment": 10
      },
@@ -30268,7 +30268,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -30344,7 +30344,7 @@
     "home_win_prob": 0.8531,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 79,
      "grade": "ADEQUATE",
@@ -30352,7 +30352,7 @@
       "team_data": 20,
       "roster_availability": 10.6,
       "projection_stability": 20,
-      "freshness": 13.3,
+      "freshness": 14.4,
       "source_integrity": 13.1,
       "environment": 10
      },
@@ -30461,7 +30461,7 @@
     "reliability": {
      "score": 79,
      "bucket": "70-79",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -45755,19 +45755,21 @@
     "home_win_prob": 0.4991,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
-     "score": 88,
+     "score": 89,
      "grade": "STRONG",
      "components": {
       "team_data": 20,
       "roster_availability": 12,
       "projection_stability": 17.4,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 15,
       "environment": 10
      },
-     "capped_by": [],
+     "capped_by": [
+      "QB_STATUS_UNCONFIRMED"
+     ],
      "stability_sd": 0.81,
      "favorite_flip_rate": 0.109,
      "stability_tier": "MODERATE"
@@ -45868,9 +45870,9 @@
     "brier": null,
     "beyond_guard": false,
     "reliability": {
-     "score": 88,
+     "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -45946,7 +45948,7 @@
     "home_win_prob": 0.3319,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -45954,7 +45956,7 @@
       "team_data": 20,
       "roster_availability": 12.2,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 15,
       "environment": 10
      },
@@ -46063,7 +46065,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -46139,7 +46141,7 @@
     "home_win_prob": 0.1226,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -46147,7 +46149,7 @@
       "team_data": 20,
       "roster_availability": 10.7,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 15,
       "environment": 10
      },
@@ -46256,7 +46258,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -46332,7 +46334,7 @@
     "home_win_prob": 0.6391,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -46340,7 +46342,7 @@
       "team_data": 20,
       "roster_availability": 12.5,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 15,
       "environment": 10
      },
@@ -46449,7 +46451,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -46525,7 +46527,7 @@
     "home_win_prob": 0.3919,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -46533,7 +46535,7 @@
       "team_data": 20,
       "roster_availability": 10.7,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 15,
       "environment": 10
      },
@@ -46642,7 +46644,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -46718,7 +46720,7 @@
     "home_win_prob": 0.9992,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 59,
      "grade": "LOW",
@@ -46726,7 +46728,7 @@
       "team_data": 10,
       "roster_availability": 9.3,
       "projection_stability": 6,
-      "freshness": 13,
+      "freshness": 14.3,
       "source_integrity": 15,
       "environment": 10
      },
@@ -46756,7 +46758,7 @@
     "reliability": {
      "score": 59,
      "bucket": "50-59",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -46828,7 +46830,7 @@
     "home_win_prob": 0.561,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -46836,11 +46838,13 @@
       "team_data": 20,
       "roster_availability": 10,
       "projection_stability": 20,
-      "freshness": 13.7,
+      "freshness": 15,
       "source_integrity": 15,
       "environment": 10
      },
-     "capped_by": [],
+     "capped_by": [
+      "QB_STATUS_UNCONFIRMED"
+     ],
      "stability_sd": 0.81,
      "favorite_flip_rate": 0,
      "stability_tier": "VERY_STABLE"
@@ -46943,7 +46947,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -47019,7 +47023,7 @@
     "home_win_prob": 0.4633,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -47027,11 +47031,13 @@
       "team_data": 20,
       "roster_availability": 9.8,
       "projection_stability": 20,
-      "freshness": 13.7,
+      "freshness": 15,
       "source_integrity": 15,
       "environment": 10
      },
-     "capped_by": [],
+     "capped_by": [
+      "QB_STATUS_UNCONFIRMED"
+     ],
      "stability_sd": 0.81,
      "favorite_flip_rate": 0,
      "stability_tier": "VERY_STABLE"
@@ -47134,7 +47140,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -62212,7 +62218,7 @@
     "home_win_prob": 0.402,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 79,
      "grade": "ADEQUATE",
@@ -62220,7 +62226,7 @@
       "team_data": 20,
       "roster_availability": 10.9,
       "projection_stability": 20,
-      "freshness": 13.3,
+      "freshness": 14.4,
       "source_integrity": 13,
       "environment": 10
      },
@@ -62329,7 +62335,7 @@
     "reliability": {
      "score": 79,
      "bucket": "70-79",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -62338,7 +62344,7 @@
    "game_id": "401858511",
    "season": 2026,
    "week": 10,
-   "kickoff": "2026-11-07T05:00:00.000Z",
+   "kickoff": "2026-11-08T00:30:00.000Z",
    "home": "Michigan",
    "away": "Michigan State",
    "model_version": "edgedesk_cfb_p4_v1.0.1",
@@ -62405,7 +62411,7 @@
     "home_win_prob": 0.7923,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 79,
      "grade": "ADEQUATE",
@@ -62413,7 +62419,7 @@
       "team_data": 20,
       "roster_availability": 10.1,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 14.4,
       "source_integrity": 11,
       "environment": 10
      },
@@ -62522,7 +62528,7 @@
     "reliability": {
      "score": 79,
      "bucket": "70-79",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -62531,7 +62537,7 @@
    "game_id": "401858512",
    "season": 2026,
    "week": 10,
-   "kickoff": "2026-11-07T05:00:00.000Z",
+   "kickoff": "2026-11-07T17:00:00.000Z",
    "home": "Minnesota",
    "away": "UCLA",
    "model_version": "edgedesk_cfb_p4_v1.0.1",
@@ -62598,7 +62604,7 @@
     "home_win_prob": 0.2422,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -62606,7 +62612,7 @@
       "team_data": 20,
       "roster_availability": 12.8,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 14.1,
       "environment": 10
      },
@@ -62715,7 +62721,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -62724,7 +62730,7 @@
    "game_id": "401858513",
    "season": 2026,
    "week": 10,
-   "kickoff": "2026-11-07T05:00:00.000Z",
+   "kickoff": "2026-11-08T00:30:00.000Z",
    "home": "Northwestern",
    "away": "Iowa",
    "model_version": "edgedesk_cfb_p4_v1.0.1",
@@ -62791,7 +62797,7 @@
     "home_win_prob": 0.457,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -62799,7 +62805,7 @@
       "team_data": 20,
       "roster_availability": 11.7,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 15,
       "environment": 10
      },
@@ -62908,7 +62914,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -62984,7 +62990,7 @@
     "home_win_prob": 0.8017,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 79,
      "grade": "ADEQUATE",
@@ -62992,7 +62998,7 @@
       "team_data": 20,
       "roster_availability": 11.3,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 12.2,
       "environment": 10
      },
@@ -63093,7 +63099,7 @@
     "reliability": {
      "score": 79,
      "bucket": "70-79",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -63169,7 +63175,7 @@
     "home_win_prob": 0.7378,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -63177,7 +63183,7 @@
       "team_data": 20,
       "roster_availability": 12.2,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 15,
       "environment": 10
      },
@@ -63286,7 +63292,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -63295,7 +63301,7 @@
    "game_id": "401858516",
    "season": 2026,
    "week": 10,
-   "kickoff": "2026-11-07T05:00:00.000Z",
+   "kickoff": "2026-11-07T20:30:00.000Z",
    "home": "Washington",
    "away": "Penn State",
    "model_version": "edgedesk_cfb_p4_v1.0.1",
@@ -63362,15 +63368,15 @@
     "home_win_prob": 0.6395,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
-     "score": 86,
+     "score": 88,
      "grade": "STRONG",
      "components": {
       "team_data": 20,
       "roster_availability": 9.1,
       "projection_stability": 20,
-      "freshness": 13.3,
+      "freshness": 14.4,
       "source_integrity": 14,
       "environment": 10
      },
@@ -63475,9 +63481,9 @@
     "brier": null,
     "beyond_guard": false,
     "reliability": {
-     "score": 86,
+     "score": 88,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -63486,7 +63492,7 @@
    "game_id": "401858517",
    "season": 2026,
    "week": 10,
-   "kickoff": "2026-11-07T17:30:00.000Z",
+   "kickoff": "2026-11-07T21:15:00.000Z",
    "home": "Wisconsin",
    "away": "Rutgers",
    "model_version": "edgedesk_cfb_p4_v1.0.1",
@@ -63553,19 +63559,21 @@
     "home_win_prob": 0.8173,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
-     "score": 88,
+     "score": 89,
      "grade": "STRONG",
      "components": {
       "team_data": 20,
       "roster_availability": 10.5,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 14.1,
       "environment": 10
      },
-     "capped_by": [],
+     "capped_by": [
+      "QB_STATUS_UNCONFIRMED"
+     ],
      "stability_sd": 0.81,
      "favorite_flip_rate": 0,
      "stability_tier": "VERY_STABLE"
@@ -63666,9 +63674,9 @@
     "brier": null,
     "beyond_guard": false,
     "reliability": {
-     "score": 88,
+     "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -70162,7 +70170,7 @@
     "home_win_prob": 0.0759,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -70170,7 +70178,7 @@
       "team_data": 20,
       "roster_availability": 11.4,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 15,
       "environment": 10
      },
@@ -70279,7 +70287,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -70355,7 +70363,7 @@
     "home_win_prob": 0.5944,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -70363,7 +70371,7 @@
       "team_data": 20,
       "roster_availability": 12.8,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 15,
       "environment": 10
      },
@@ -70472,7 +70480,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -70548,7 +70556,7 @@
     "home_win_prob": 0.3434,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 79,
      "grade": "ADEQUATE",
@@ -70556,7 +70564,7 @@
       "team_data": 20,
       "roster_availability": 10.9,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 13.1,
       "environment": 10
      },
@@ -70665,7 +70673,7 @@
     "reliability": {
      "score": 79,
      "bucket": "70-79",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -84228,7 +84236,7 @@
     "home_win_prob": 0.2529,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -84236,7 +84244,7 @@
       "team_data": 20,
       "roster_availability": 12.8,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 15,
       "environment": 10
      },
@@ -84345,7 +84353,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -84421,15 +84429,15 @@
     "home_win_prob": 0.2972,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
-     "score": 85,
+     "score": 86,
      "grade": "STRONG",
      "components": {
       "team_data": 20,
       "roster_availability": 8.3,
       "projection_stability": 20,
-      "freshness": 13.3,
+      "freshness": 14.4,
       "source_integrity": 13.1,
       "environment": 10
      },
@@ -84534,9 +84542,9 @@
     "brier": null,
     "beyond_guard": false,
     "reliability": {
-     "score": 85,
+     "score": 86,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -84612,7 +84620,7 @@
     "home_win_prob": 0.8594,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -84620,7 +84628,7 @@
       "team_data": 20,
       "roster_availability": 12.3,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 15,
       "environment": 10
      },
@@ -84729,7 +84737,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -84805,7 +84813,7 @@
     "home_win_prob": 0.7352,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 79,
      "grade": "ADEQUATE",
@@ -84813,7 +84821,7 @@
       "team_data": 20,
       "roster_availability": 8.2,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 11.9,
       "environment": 10
      },
@@ -84922,7 +84930,7 @@
     "reliability": {
      "score": 79,
      "bucket": "70-79",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -84998,7 +85006,7 @@
     "home_win_prob": 0.9201,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 79,
      "grade": "ADEQUATE",
@@ -85006,7 +85014,7 @@
       "team_data": 20,
       "roster_availability": 10.6,
       "projection_stability": 20,
-      "freshness": 13.3,
+      "freshness": 14.4,
       "source_integrity": 13.1,
       "environment": 10
      },
@@ -85115,7 +85123,7 @@
     "reliability": {
      "score": 79,
      "bucket": "70-79",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -85191,19 +85199,21 @@
     "home_win_prob": 0.5077,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
-     "score": 88,
+     "score": 89,
      "grade": "STRONG",
      "components": {
       "team_data": 20,
       "roster_availability": 12.5,
       "projection_stability": 18.1,
-      "freshness": 13.3,
+      "freshness": 14.4,
       "source_integrity": 14.1,
       "environment": 10
      },
-     "capped_by": [],
+     "capped_by": [
+      "QB_STATUS_UNCONFIRMED"
+     ],
      "stability_sd": 0.81,
      "favorite_flip_rate": 0.078,
      "stability_tier": "STABLE"
@@ -85304,9 +85314,9 @@
     "brier": null,
     "beyond_guard": false,
     "reliability": {
-     "score": 88,
+     "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -85382,7 +85392,7 @@
     "home_win_prob": 0.562,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 79,
      "grade": "ADEQUATE",
@@ -85390,7 +85400,7 @@
       "team_data": 20,
       "roster_availability": 8.1,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 11.9,
       "environment": 10
      },
@@ -85499,7 +85509,7 @@
     "reliability": {
      "score": 79,
      "bucket": "70-79",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -92603,7 +92613,7 @@
     "home_win_prob": 0.2038,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 79,
      "grade": "ADEQUATE",
@@ -92611,7 +92621,7 @@
       "team_data": 20,
       "roster_availability": 10.8,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 14.4,
       "source_integrity": 14,
       "environment": 10
      },
@@ -92720,7 +92730,7 @@
     "reliability": {
      "score": 79,
      "bucket": "70-79",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -92796,7 +92806,7 @@
     "home_win_prob": 0.2563,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 79,
      "grade": "ADEQUATE",
@@ -92804,7 +92814,7 @@
       "team_data": 20,
       "roster_availability": 8.9,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 11,
       "environment": 10
      },
@@ -92913,7 +92923,7 @@
     "reliability": {
      "score": 79,
      "bucket": "70-79",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -92989,7 +92999,7 @@
     "home_win_prob": 0.8206,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -92997,7 +93007,7 @@
       "team_data": 20,
       "roster_availability": 11.7,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 15,
       "environment": 10
      },
@@ -93079,7 +93089,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -93155,7 +93165,7 @@
     "home_win_prob": 0.6271,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -93163,7 +93173,7 @@
       "team_data": 20,
       "roster_availability": 12.3,
       "projection_stability": 20,
-      "freshness": 13.1,
+      "freshness": 14.4,
       "source_integrity": 15,
       "environment": 10
      },
@@ -93272,7 +93282,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -103261,7 +103271,7 @@
     "home_win_prob": 0.0986,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -103269,7 +103279,7 @@
       "team_data": 20,
       "roster_availability": 11.7,
       "projection_stability": 20,
-      "freshness": 13.3,
+      "freshness": 13.8,
       "source_integrity": 15,
       "environment": 10
      },
@@ -103378,19 +103388,19 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    },
    "last_quote": {
-    "home_line": 13.5,
+    "home_line": 14,
     "total": 51.5,
     "source": "espn",
     "book": "DraftKings",
-    "at": "2026-11-02T16:35:11.515Z",
+    "at": "2026-11-02T23:42:26.949Z",
     "prices": {
-     "home": -108,
-     "away": -112,
+     "home": -115,
+     "away": -105,
      "over": -102,
      "under": -118,
      "home_ml": 400,
@@ -103469,7 +103479,7 @@
     "home_win_prob": 0.6537,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -103477,7 +103487,7 @@
       "team_data": 20,
       "roster_availability": 12.3,
       "projection_stability": 20,
-      "freshness": 13.3,
+      "freshness": 13.8,
       "source_integrity": 14.1,
       "environment": 10
      },
@@ -103586,7 +103596,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    },
@@ -103677,7 +103687,7 @@
     "home_win_prob": 0.6202,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 79,
      "grade": "ADEQUATE",
@@ -103685,7 +103695,7 @@
       "team_data": 20,
       "roster_availability": 10.6,
       "projection_stability": 20,
-      "freshness": 13.3,
+      "freshness": 13.8,
       "source_integrity": 14,
       "environment": 10
      },
@@ -103794,7 +103804,7 @@
     "reliability": {
      "score": 79,
      "bucket": "70-79",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -103870,7 +103880,7 @@
     "home_win_prob": 0.5173,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 79,
      "grade": "ADEQUATE",
@@ -103878,7 +103888,7 @@
       "team_data": 20,
       "roster_availability": 9.9,
       "projection_stability": 20,
-      "freshness": 13.1,
+      "freshness": 13.8,
       "source_integrity": 12,
       "environment": 8.2
      },
@@ -103987,7 +103997,7 @@
     "reliability": {
      "score": 79,
      "bucket": "70-79",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -104063,7 +104073,7 @@
     "home_win_prob": 0.0678,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -104071,7 +104081,7 @@
       "team_data": 19,
       "roster_availability": 12.5,
       "projection_stability": 20,
-      "freshness": 13.3,
+      "freshness": 14.4,
       "source_integrity": 15,
       "environment": 10
      },
@@ -104180,7 +104190,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -104256,7 +104266,7 @@
     "home_win_prob": 0.1085,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -104264,7 +104274,7 @@
       "team_data": 20,
       "roster_availability": 12.5,
       "projection_stability": 20,
-      "freshness": 13.1,
+      "freshness": 14.4,
       "source_integrity": 15,
       "environment": 10
      },
@@ -104294,7 +104304,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -104370,7 +104380,7 @@
     "home_win_prob": 0.8163,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -104378,7 +104388,7 @@
       "team_data": 20,
       "roster_availability": 12.5,
       "projection_stability": 20,
-      "freshness": 13.8,
+      "freshness": 15,
       "source_integrity": 15,
       "environment": 10
      },
@@ -104408,7 +104418,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -104484,7 +104494,7 @@
     "home_win_prob": 0.419,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -104492,11 +104502,13 @@
       "team_data": 20,
       "roster_availability": 11.7,
       "projection_stability": 20,
-      "freshness": 13.1,
+      "freshness": 13.8,
       "source_integrity": 14.1,
       "environment": 10
      },
-     "capped_by": [],
+     "capped_by": [
+      "QB_STATUS_UNCONFIRMED"
+     ],
      "stability_sd": 0.81,
      "favorite_flip_rate": 0,
      "stability_tier": "VERY_STABLE"
@@ -104520,7 +104532,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -104596,7 +104608,7 @@
     "home_win_prob": 0.4095,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 89,
      "grade": "STRONG",
@@ -104634,7 +104646,7 @@
     "reliability": {
      "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -104710,7 +104722,7 @@
     "home_win_prob": 0.8342,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 79,
      "grade": "ADEQUATE",
@@ -104718,7 +104730,7 @@
       "team_data": 19,
       "roster_availability": 11.2,
       "projection_stability": 20,
-      "freshness": 13.1,
+      "freshness": 14.4,
       "source_integrity": 14,
       "environment": 10
      },
@@ -104748,7 +104760,7 @@
     "reliability": {
      "score": 79,
      "bucket": "70-79",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -104824,7 +104836,7 @@
     "home_win_prob": 0.8918,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 79,
      "grade": "ADEQUATE",
@@ -104832,7 +104844,7 @@
       "team_data": 20,
       "roster_availability": 10.6,
       "projection_stability": 20,
-      "freshness": 12.5,
+      "freshness": 13.8,
       "source_integrity": 14,
       "environment": 10
      },
@@ -104862,7 +104874,7 @@
     "reliability": {
      "score": 79,
      "bucket": "70-79",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -108304,15 +108316,15 @@
     "home_win_prob": 0.5468,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
-     "score": 86,
+     "score": 87,
      "grade": "STRONG",
      "components": {
       "team_data": 20,
       "roster_availability": 8.2,
       "projection_stability": 20,
-      "freshness": 13.5,
+      "freshness": 15,
       "source_integrity": 14.1,
       "environment": 10
      },
@@ -108417,9 +108429,9 @@
     "brier": null,
     "beyond_guard": false,
     "reliability": {
-     "score": 86,
+     "score": 87,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -109759,15 +109771,15 @@
     "home_win_prob": 0.8988,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
-     "score": 88,
+     "score": 89,
      "grade": "STRONG",
      "components": {
       "team_data": 20,
       "roster_availability": 9,
       "projection_stability": 20,
-      "freshness": 13.5,
+      "freshness": 15,
       "source_integrity": 15,
       "environment": 10
      },
@@ -109872,9 +109884,9 @@
     "brier": null,
     "beyond_guard": false,
     "reliability": {
-     "score": 88,
+     "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -111053,15 +111065,15 @@
     "home_win_prob": 0.7683,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
-     "score": 86,
+     "score": 88,
      "grade": "STRONG",
      "components": {
       "team_data": 20,
       "roster_availability": 8.6,
       "projection_stability": 20,
-      "freshness": 13.5,
+      "freshness": 15,
       "source_integrity": 14.1,
       "environment": 10
      },
@@ -111165,9 +111177,9 @@
     "brier": null,
     "beyond_guard": false,
     "reliability": {
-     "score": 86,
+     "score": 88,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -111942,7 +111954,7 @@
     "home_win_prob": 0.7463,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 79,
      "grade": "ADEQUATE",
@@ -111950,7 +111962,7 @@
       "team_data": 20,
       "roster_availability": 6.3,
       "projection_stability": 20,
-      "freshness": 13.5,
+      "freshness": 15,
       "source_integrity": 11.9,
       "environment": 10
      },
@@ -112059,7 +112071,7 @@
     "reliability": {
      "score": 79,
      "bucket": "70-79",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -113499,15 +113511,15 @@
     "home_win_prob": 0.1989,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
-     "score": 87,
+     "score": 89,
      "grade": "STRONG",
      "components": {
       "team_data": 20,
       "roster_availability": 8.5,
       "projection_stability": 20,
-      "freshness": 13.5,
+      "freshness": 15,
       "source_integrity": 15,
       "environment": 10
      },
@@ -113612,9 +113624,9 @@
     "brier": null,
     "beyond_guard": false,
     "reliability": {
-     "score": 87,
+     "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -114506,15 +114518,15 @@
     "home_win_prob": 0.7539,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
-     "score": 87,
+     "score": 88,
      "grade": "STRONG",
      "components": {
       "team_data": 20,
       "roster_availability": 9.3,
       "projection_stability": 20,
-      "freshness": 13.5,
+      "freshness": 14.3,
       "source_integrity": 14.1,
       "environment": 10
      },
@@ -114619,9 +114631,9 @@
     "brier": null,
     "beyond_guard": false,
     "reliability": {
-     "score": 87,
+     "score": 88,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -115242,15 +115254,15 @@
     "home_win_prob": 0.0514,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
-     "score": 86,
+     "score": 88,
      "grade": "STRONG",
      "components": {
       "team_data": 20,
       "roster_availability": 8.7,
       "projection_stability": 20,
-      "freshness": 13.5,
+      "freshness": 15,
       "source_integrity": 14.1,
       "environment": 10
      },
@@ -115355,9 +115367,9 @@
     "brier": null,
     "beyond_guard": false,
     "reliability": {
-     "score": 86,
+     "score": 88,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -121080,15 +121092,15 @@
     "home_win_prob": 0.4514,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
-     "score": 87,
+     "score": 89,
      "grade": "STRONG",
      "components": {
       "team_data": 20,
       "roster_availability": 8.9,
       "projection_stability": 20,
-      "freshness": 13.5,
+      "freshness": 15,
       "source_integrity": 15,
       "environment": 10
      },
@@ -121193,9 +121205,9 @@
     "brier": null,
     "beyond_guard": false,
     "reliability": {
-     "score": 87,
+     "score": 89,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -121267,15 +121279,15 @@
     "home_win_prob": 0.6136,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
-     "score": 86,
+     "score": 87,
      "grade": "STRONG",
      "components": {
       "team_data": 20,
       "roster_availability": 8.5,
       "projection_stability": 20,
-      "freshness": 13.5,
+      "freshness": 15,
       "source_integrity": 13.6,
       "environment": 10
      },
@@ -121380,9 +121392,9 @@
     "brier": null,
     "beyond_guard": false,
     "reliability": {
-     "score": 86,
+     "score": 87,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -121454,7 +121466,7 @@
     "home_win_prob": 0.9526,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
      "score": 79,
      "grade": "ADEQUATE",
@@ -121462,7 +121474,7 @@
       "team_data": 20,
       "roster_availability": 7.8,
       "projection_stability": 20,
-      "freshness": 13.5,
+      "freshness": 15,
       "source_integrity": 13.1,
       "environment": 10
      },
@@ -121571,7 +121583,7 @@
     "reliability": {
      "score": 79,
      "bucket": "70-79",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -121643,15 +121655,15 @@
     "home_win_prob": 0.45,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
-     "score": 86,
+     "score": 88,
      "grade": "STRONG",
      "components": {
       "team_data": 20,
       "roster_availability": 8.8,
       "projection_stability": 20,
-      "freshness": 13.5,
+      "freshness": 15,
       "source_integrity": 14.1,
       "environment": 10
      },
@@ -121756,9 +121768,9 @@
     "brier": null,
     "beyond_guard": false,
     "reliability": {
-     "score": 86,
+     "score": 88,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
@@ -124368,15 +124380,15 @@
     "home_win_prob": 0.2929,
     "model_version": "edgedesk_cfb_p4_v1.0.1",
     "reliability": {
-     "at": "2026-11-02T17:06:55.643Z",
+     "at": "2026-11-02T21:49:39.524Z",
      "version": "cfb_reliability/2",
-     "score": 86,
+     "score": 87,
      "grade": "STRONG",
      "components": {
       "team_data": 20,
       "roster_availability": 8.1,
       "projection_stability": 20,
-      "freshness": 13.5,
+      "freshness": 15,
       "source_integrity": 14.1,
       "environment": 10
      },
@@ -124481,9 +124493,9 @@
     "brier": null,
     "beyond_guard": false,
     "reliability": {
-     "score": 86,
+     "score": 87,
      "bucket": "80-89",
-     "at": "2026-11-02T17:06:55.643Z"
+     "at": "2026-11-02T21:49:39.524Z"
     },
     "pnl": null
    }
