@@ -1,7 +1,7 @@
 {
  "schema": "edgedesk_cbase_walkforward_v1",
  "model_version": "cbase_v1.0.0",
- "generated_at": "2026-10-19T19:00:04.390Z",
+ "generated_at": "2026-11-02T22:03:00.864Z",
  "protocol": "college_baseball/research/PROTOCOL.md",
  "windows": {
   "burn_in": [
@@ -6742,13 +6742,13 @@
   }
  },
  "timing_seconds": {
-  "home_rate": 0.049,
-  "pythag": 0.17,
-  "elo": 0.153,
-  "bt": 41.847,
-  "massey": 38.738,
-  "poisson_flat": 20.066,
-  "hier": 49.591
+  "home_rate": 0.068,
+  "pythag": 0.152,
+  "elo": 0.14,
+  "bt": 30.919,
+  "massey": 26.516,
+  "poisson_flat": 11.352,
+  "hier": 24.911
  },
  "market": {
   "market_status": "NOT_TESTED",
@@ -6789,6 +6789,8 @@
    "market_reason": "no licensed archive of timestamped closing prices is on file; archived untimestamped lines are not a market test"
   }
  },
+ "config_sha256": "3252f395a9f8a7b7f80ea4f34237fdebe5a16b4dd0467e8bddb2354a441be615",
+ "loop_version": "1.0.0",
  "status": {
   "moneyline": {
    "status": "OUTCOME_VALIDATED",

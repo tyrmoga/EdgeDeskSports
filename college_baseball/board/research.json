@@ -2397,7 +2397,7 @@
   "point_in_time": "RETROSPECTIVE",
   "window": "VALIDATION 2023-2024 (every second game with a reconciled inning line)",
   "sims_per_game": 2000,
-  "seconds": 81,
+  "seconds": 58,
   "n": 4240,
   "inputs": {
    "closed_form": "the pricing model's run-space calibrated expectations, mixed over rating uncertainty and scheduled length (distribution.closedForm)",
@@ -3004,7 +3004,8 @@
    "dist": {
     "family": "nb",
     "r": 3.256
-   }
+   },
+   "loop_version": "1.0.0"
   },
   "results": [
    {
@@ -3016,7 +3017,7 @@
      0.002223
     ],
     "verdict": "KEEPS ITS PLACE",
-    "seconds": 20
+    "seconds": 11
    },
    {
     "removed": "parks",
@@ -3027,7 +3028,7 @@
      0.000627
     ],
     "verdict": "KEEPS ITS PLACE",
-    "seconds": 37
+    "seconds": 20
    },
    {
     "removed": "carryover",
@@ -3038,7 +3039,7 @@
      0.025997
     ],
     "verdict": "KEEPS ITS PLACE",
-    "seconds": 42
+    "seconds": 22
    },
    {
     "removed": "uncertainty integration",
@@ -3049,7 +3050,7 @@
      -0.000147
     ],
     "verdict": "REMOVAL IMPROVES",
-    "seconds": 42
+    "seconds": 22
    },
    {
     "removed": "seven inning mixture",
@@ -3060,7 +3061,7 @@
      0.000005
     ],
     "verdict": "NO MEASURABLE VALUE",
-    "seconds": 42
+    "seconds": 22
    },
    {
     "removed": "prior-season calibration map",
@@ -3449,7 +3450,7 @@
     "id": "G13",
     "name": "Stress tests",
     "status": "PASS",
-    "why": "400 synthetic games priced coherently, 7 ms each; degenerate games blocked"
+    "why": "400 synthetic games priced coherently, 6 ms each; degenerate games blocked"
    },
    {
     "id": "G14",
@@ -3933,8 +3934,8 @@
    "id": "CBX-ML-GBM",
    "title": "gbm on base-model OOS predictions + context",
    "decision": "REJECT",
-   "revision": 3,
-   "created_at": "2026-10-19T19:02:20.983Z",
+   "revision": 4,
+   "created_at": "2026-11-02T22:04:41.071Z",
    "holdout": false,
    "metrics": {
     "validation": {
@@ -4068,8 +4069,8 @@
    "id": "CBX-ABLATE-HIERARCHY",
    "title": "Ablation: team model without hierarchy",
    "decision": "ACCEPT",
-   "revision": 1,
-   "created_at": "2026-10-14T02:44:12.467Z",
+   "revision": 2,
+   "created_at": "2026-11-02T22:06:45.175Z",
    "holdout": false,
    "metrics": {
     "full": 0.59705,
@@ -4080,8 +4081,8 @@
    "id": "CBX-ABLATE-PARKS",
    "title": "Ablation: team model without parks",
    "decision": "ACCEPT",
-   "revision": 1,
-   "created_at": "2026-10-14T02:44:12.499Z",
+   "revision": 2,
+   "created_at": "2026-11-02T22:06:45.198Z",
    "holdout": false,
    "metrics": {
     "full": 0.59705,
@@ -4092,8 +4093,8 @@
    "id": "CBX-ABLATE-CARRYOVER",
    "title": "Ablation: team model without carryover",
    "decision": "ACCEPT",
-   "revision": 1,
-   "created_at": "2026-10-14T02:44:12.525Z",
+   "revision": 2,
+   "created_at": "2026-11-02T22:06:45.219Z",
    "holdout": false,
    "metrics": {
     "full": 0.59705,
@@ -4104,8 +4105,8 @@
    "id": "CBX-ABLATE-UNCERTAINTY-INTEGRATION",
    "title": "Ablation: team model without uncertainty integration",
    "decision": "REJECT",
-   "revision": 1,
-   "created_at": "2026-10-14T02:44:12.549Z",
+   "revision": 2,
+   "created_at": "2026-11-02T22:06:45.239Z",
    "holdout": false,
    "metrics": {
     "full": 0.59705,
@@ -4116,8 +4117,8 @@
    "id": "CBX-ABLATE-SEVEN-INNING-MIXTURE",
    "title": "Ablation: team model without seven inning mixture",
    "decision": "INCONCLUSIVE",
-   "revision": 1,
-   "created_at": "2026-10-14T02:44:12.572Z",
+   "revision": 2,
+   "created_at": "2026-11-02T22:06:45.260Z",
    "holdout": false,
    "metrics": {
     "full": 0.59705,
@@ -4128,8 +4129,8 @@
    "id": "CBX-ABLATE-PRIOR-SEASON-CALIBRATION-MAP",
    "title": "Ablation: team model without prior-season calibration map",
    "decision": "ACCEPT",
-   "revision": 1,
-   "created_at": "2026-10-14T02:44:12.597Z",
+   "revision": 2,
+   "created_at": "2026-11-02T22:06:45.281Z",
    "holdout": false,
    "metrics": {
     "full": 0.59705,
