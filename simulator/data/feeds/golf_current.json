@@ -1,6 +1,6 @@
 {
  "schema": "edgedesk_feed_golf_current_v1",
- "fetched_at": "2026-11-01T16:21:16.617Z",
+ "fetched_at": "2026-11-02T19:48:43.748Z",
  "source": "https://site.api.espn.com/apis/site/v2/sports/golf/<league>/scoreboard",
  "current": {
   "pga": {
@@ -427,7 +427,7 @@
      },
      {
       "id": "401850980",
-      "label": "Austin Championship",
+      "label": "Austin Championship pres. by Compliance Solutions",
       "startDate": "2026-11-12T08:00Z",
       "endDate": "2026-11-15T08:00Z",
       "event": {
@@ -473,7 +473,7 @@
      "end": "2026-11-01T04:00Z",
      "course": "Vidanta Vallarta",
      "par": 71,
-     "status": "STATUS_IN_PROGRESS",
+     "status": "STATUS_FINAL",
      "period": 4,
      "fetched_by": "leaderboard",
      "competitors": [
@@ -540,19 +540,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 70,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-1",
          "tee_time": "2026-11-01T17:18Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T17:18:00Z T60",
-       "position": "T60",
-       "sort_order": 60,
-       "score": "-4",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T61",
+       "position": "T61",
+       "sort_order": 62,
+       "score": "-5",
+       "thru": 18,
        "tee_time": "2026-11-01T17:18Z",
        "start_hole": 10,
        "playoff": false
@@ -588,19 +588,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 65,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-6",
          "tee_time": "2026-11-01T16:12Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:12:00Z T40",
-       "position": "T40",
-       "sort_order": 48,
-       "score": "-7",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T23",
+       "position": "T23",
+       "sort_order": 23,
+       "score": "-13",
+       "thru": 18,
        "tee_time": "2026-11-01T16:12Z",
        "start_hole": 10,
        "playoff": false
@@ -636,19 +636,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 68,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-3",
          "tee_time": "2026-11-01T16:45Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:45:00Z T40",
+       "status_text": "STATUS_FINISH F T40",
        "position": "T40",
-       "sort_order": 47,
-       "score": "-7",
-       "thru": 0,
+       "sort_order": 41,
+       "score": "-10",
+       "thru": 18,
        "tee_time": "2026-11-01T16:45Z",
        "start_hole": 10,
        "playoff": false
@@ -716,19 +716,19 @@
         },
         {
          "r": 4,
-         "strokes": 4,
+         "strokes": 69,
          "holes": null,
-         "to_par": "E",
+         "to_par": "-2",
          "tee_time": "2026-11-01T16:01Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_IN_PROGRESS Thru 1 T27",
-       "position": "T27",
-       "sort_order": 30,
-       "score": "-9",
-       "thru": 1,
+       "status_text": "STATUS_FINISH F T34",
+       "position": "T34",
+       "sort_order": 36,
+       "score": "-11",
+       "thru": 18,
        "tee_time": "2026-11-01T16:01Z",
        "start_hole": 1,
        "playoff": false
@@ -764,19 +764,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 72,
          "holes": null,
-         "to_par": "-",
+         "to_par": "+1",
          "tee_time": "2026-11-01T16:12Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:12:00Z T27",
-       "position": "T27",
-       "sort_order": 36,
-       "score": "-9",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T48",
+       "position": "T48",
+       "sort_order": 53,
+       "score": "-8",
+       "thru": 18,
        "tee_time": "2026-11-01T16:12Z",
        "start_hole": 1,
        "playoff": false
@@ -844,19 +844,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 71,
          "holes": null,
-         "to_par": "-",
+         "to_par": "E",
          "tee_time": "2026-11-01T17:40Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T17:40:00Z 67",
+       "status_text": "STATUS_FINISH F 67",
        "position": "67",
        "sort_order": 67,
        "score": "-1",
-       "thru": 0,
+       "thru": 18,
        "tee_time": "2026-11-01T17:40Z",
        "start_hole": 10,
        "playoff": false
@@ -892,19 +892,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 71,
          "holes": null,
-         "to_par": "-",
+         "to_par": "E",
          "tee_time": "2026-11-01T17:51Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T17:51:00Z 2",
-       "position": "2",
-       "sort_order": 2,
+       "status_text": "STATUS_FINISH F T11",
+       "position": "T11",
+       "sort_order": 14,
        "score": "-17",
-       "thru": 0,
+       "thru": 18,
        "tee_time": "2026-11-01T17:51Z",
        "start_hole": 1,
        "playoff": false
@@ -972,19 +972,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 63,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-8",
          "tee_time": "2026-11-01T17:29Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T17:29:00Z T65",
-       "position": "T65",
-       "sort_order": 65,
-       "score": "-2",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T40",
+       "position": "T40",
+       "sort_order": 40,
+       "score": "-10",
+       "thru": 18,
        "tee_time": "2026-11-01T17:29Z",
        "start_hole": 10,
        "playoff": false
@@ -1052,19 +1052,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 69,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-2",
          "tee_time": "2026-11-01T17:40Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T17:40:00Z T4",
-       "position": "T4",
-       "sort_order": 5,
-       "score": "-15",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T11",
+       "position": "T11",
+       "sort_order": 13,
+       "score": "-17",
+       "thru": 18,
        "tee_time": "2026-11-01T17:40Z",
        "start_hole": 1,
        "playoff": false
@@ -1132,19 +1132,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 63,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-8",
          "tee_time": "2026-11-01T16:23Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:23:00Z T27",
-       "position": "T27",
-       "sort_order": 35,
-       "score": "-9",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T11",
+       "position": "T11",
+       "sort_order": 11,
+       "score": "-17",
+       "thru": 18,
        "tee_time": "2026-11-01T16:23Z",
        "start_hole": 1,
        "playoff": false
@@ -1244,19 +1244,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 69,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-2",
          "tee_time": "2026-11-01T17:51Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T17:51:00Z 1",
+       "status_text": "STATUS_FINISH F 1",
        "position": "1",
        "sort_order": 1,
-       "score": "-23",
-       "thru": 0,
+       "score": "-25",
+       "thru": 18,
        "tee_time": "2026-11-01T17:51Z",
        "start_hole": 1,
        "playoff": false
@@ -1292,19 +1292,19 @@
         },
         {
          "r": 4,
-         "strokes": 4,
+         "strokes": 66,
          "holes": null,
-         "to_par": "E",
+         "to_par": "-5",
          "tee_time": "2026-11-01T16:01Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_IN_PROGRESS Thru 1 T40",
-       "position": "T40",
-       "sort_order": 41,
-       "score": "-7",
-       "thru": 1,
+       "status_text": "STATUS_FINISH F T29",
+       "position": "T29",
+       "sort_order": 29,
+       "score": "-12",
+       "thru": 18,
        "tee_time": "2026-11-01T16:01Z",
        "start_hole": 10,
        "playoff": false
@@ -1404,19 +1404,19 @@
         },
         {
          "r": 4,
-         "strokes": 4,
+         "strokes": 68,
          "holes": null,
-         "to_par": "E",
+         "to_par": "-3",
          "tee_time": "2026-11-01T16:01Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_IN_PROGRESS Thru 1 T27",
-       "position": "T27",
-       "sort_order": 31,
-       "score": "-9",
-       "thru": 1,
+       "status_text": "STATUS_FINISH F T29",
+       "position": "T29",
+       "sort_order": 32,
+       "score": "-12",
+       "thru": 18,
        "tee_time": "2026-11-01T16:01Z",
        "start_hole": 1,
        "playoff": false
@@ -1484,19 +1484,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 69,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-2",
          "tee_time": "2026-11-01T17:51Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T17:51:00Z 3",
-       "position": "3",
-       "sort_order": 3,
-       "score": "-16",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T6",
+       "position": "T6",
+       "sort_order": 10,
+       "score": "-18",
+       "thru": 18,
        "tee_time": "2026-11-01T17:51Z",
        "start_hole": 1,
        "playoff": false
@@ -1628,19 +1628,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 72,
          "holes": null,
-         "to_par": "-",
+         "to_par": "+1",
          "tee_time": "2026-11-01T16:23Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:23:00Z T40",
-       "position": "T40",
-       "sort_order": 52,
-       "score": "-7",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T58",
+       "position": "T58",
+       "sort_order": 60,
+       "score": "-6",
+       "thru": 18,
        "tee_time": "2026-11-01T16:23Z",
        "start_hole": 10,
        "playoff": false
@@ -1676,19 +1676,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 75,
          "holes": null,
-         "to_par": "-",
+         "to_par": "+4",
          "tee_time": "2026-11-01T16:45Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:45:00Z T40",
-       "position": "T40",
-       "sort_order": 43,
-       "score": "-7",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T64",
+       "position": "T64",
+       "sort_order": 65,
+       "score": "-3",
+       "thru": 18,
        "tee_time": "2026-11-01T16:45Z",
        "start_hole": 10,
        "playoff": false
@@ -1724,19 +1724,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 71,
          "holes": null,
-         "to_par": "-",
+         "to_par": "E",
          "tee_time": "2026-11-01T16:34Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:34:00Z T22",
-       "position": "T22",
-       "sort_order": 23,
+       "status_text": "STATUS_FINISH F T40",
+       "position": "T40",
+       "sort_order": 47,
        "score": "-10",
-       "thru": 0,
+       "thru": 18,
        "tee_time": "2026-11-01T16:34Z",
        "start_hole": 1,
        "playoff": false
@@ -1836,19 +1836,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 63,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-8",
          "tee_time": "2026-11-01T17:07Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T17:07:00Z T13",
-       "position": "T13",
-       "sort_order": 15,
-       "score": "-12",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T2",
+       "position": "T2",
+       "sort_order": 2,
+       "score": "-20",
+       "thru": 18,
        "tee_time": "2026-11-01T17:07Z",
        "start_hole": 1,
        "playoff": false
@@ -1916,19 +1916,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 67,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-4",
          "tee_time": "2026-11-01T17:18Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T17:18:00Z T63",
-       "position": "T63",
-       "sort_order": 64,
-       "score": "-3",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T54",
+       "position": "T54",
+       "sort_order": 54,
+       "score": "-7",
+       "thru": 18,
        "tee_time": "2026-11-01T17:18Z",
        "start_hole": 10,
        "playoff": false
@@ -2060,19 +2060,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 67,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-4",
          "tee_time": "2026-11-01T17:40Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T17:40:00Z T4",
+       "status_text": "STATUS_FINISH F T4",
        "position": "T4",
-       "sort_order": 6,
-       "score": "-15",
-       "thru": 0,
+       "sort_order": 5,
+       "score": "-19",
+       "thru": 18,
        "tee_time": "2026-11-01T17:40Z",
        "start_hole": 1,
        "playoff": false
@@ -2108,19 +2108,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 67,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-4",
          "tee_time": "2026-11-01T16:12Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:12:00Z T27",
-       "position": "T27",
-       "sort_order": 32,
-       "score": "-9",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T23",
+       "position": "T23",
+       "sort_order": 24,
+       "score": "-13",
+       "thru": 18,
        "tee_time": "2026-11-01T16:12Z",
        "start_hole": 1,
        "playoff": false
@@ -2156,19 +2156,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 71,
          "holes": null,
-         "to_par": "-",
+         "to_par": "E",
          "tee_time": "2026-11-01T16:34Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:34:00Z T40",
-       "position": "T40",
-       "sort_order": 54,
+       "status_text": "STATUS_FINISH F T54",
+       "position": "T54",
+       "sort_order": 56,
        "score": "-7",
-       "thru": 0,
+       "thru": 18,
        "tee_time": "2026-11-01T16:34Z",
        "start_hole": 10,
        "playoff": false
@@ -2300,19 +2300,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 69,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-2",
          "tee_time": "2026-11-01T17:29Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T17:29:00Z T63",
-       "position": "T63",
-       "sort_order": 63,
-       "score": "-3",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T61",
+       "position": "T61",
+       "sort_order": 61,
+       "score": "-5",
+       "thru": 18,
        "tee_time": "2026-11-01T17:29Z",
        "start_hole": 10,
        "playoff": false
@@ -2348,19 +2348,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 71,
          "holes": null,
-         "to_par": "-",
+         "to_par": "E",
          "tee_time": "2026-11-01T16:12Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:12:00Z T40",
-       "position": "T40",
-       "sort_order": 49,
+       "status_text": "STATUS_FINISH F T54",
+       "position": "T54",
+       "sort_order": 55,
        "score": "-7",
-       "thru": 0,
+       "thru": 18,
        "tee_time": "2026-11-01T16:12Z",
        "start_hole": 10,
        "playoff": false
@@ -2396,19 +2396,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 63,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-8",
          "tee_time": "2026-11-01T16:56Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:56:00Z T13",
-       "position": "T13",
-       "sort_order": 16,
-       "score": "-12",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T2",
+       "position": "T2",
+       "sort_order": 3,
+       "score": "-20",
+       "thru": 18,
        "tee_time": "2026-11-01T16:56Z",
        "start_hole": 1,
        "playoff": false
@@ -2476,19 +2476,19 @@
         },
         {
          "r": 4,
-         "strokes": 3,
+         "strokes": 69,
          "holes": null,
-         "to_par": "-1",
+         "to_par": "-2",
          "tee_time": "2026-11-01T16:01Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_IN_PROGRESS Thru 1 T27",
-       "position": "T27",
-       "sort_order": 28,
-       "score": "-8",
-       "thru": 1,
+       "status_text": "STATUS_FINISH F T40",
+       "position": "T40",
+       "sort_order": 45,
+       "score": "-10",
+       "thru": 18,
        "tee_time": "2026-11-01T16:01Z",
        "start_hole": 10,
        "playoff": false
@@ -2524,19 +2524,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 70,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-1",
          "tee_time": "2026-11-01T17:07Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T17:07:00Z T13",
-       "position": "T13",
-       "sort_order": 14,
-       "score": "-12",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T23",
+       "position": "T23",
+       "sort_order": 28,
+       "score": "-13",
+       "thru": 18,
        "tee_time": "2026-11-01T17:07Z",
        "start_hole": 1,
        "playoff": false
@@ -2604,19 +2604,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 69,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-2",
          "tee_time": "2026-11-01T16:56Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:56:00Z T17",
-       "position": "T17",
-       "sort_order": 18,
-       "score": "-11",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T23",
+       "position": "T23",
+       "sort_order": 27,
+       "score": "-13",
+       "thru": 18,
        "tee_time": "2026-11-01T16:56Z",
        "start_hole": 1,
        "playoff": false
@@ -2652,19 +2652,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 66,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-5",
          "tee_time": "2026-11-01T17:29Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T17:29:00Z T9",
-       "position": "T9",
-       "sort_order": 10,
-       "score": "-13",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T6",
+       "position": "T6",
+       "sort_order": 8,
+       "score": "-18",
+       "thru": 18,
        "tee_time": "2026-11-01T17:29Z",
        "start_hole": 1,
        "playoff": false
@@ -2700,19 +2700,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 75,
          "holes": null,
-         "to_par": "-",
+         "to_par": "+4",
          "tee_time": "2026-11-01T17:18Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T17:18:00Z T60",
-       "position": "T60",
-       "sort_order": 61,
-       "score": "-4",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F 68",
+       "position": "68",
+       "sort_order": 68,
+       "score": "E",
+       "thru": 18,
        "tee_time": "2026-11-01T17:18Z",
        "start_hole": 10,
        "playoff": false
@@ -2812,19 +2812,19 @@
         },
         {
          "r": 4,
-         "strokes": 3,
+         "strokes": 67,
          "holes": null,
-         "to_par": "-1",
+         "to_par": "-4",
          "tee_time": "2026-11-01T15:50Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_IN_PROGRESS Thru 1 T27",
-       "position": "T27",
-       "sort_order": 27,
-       "score": "-8",
-       "thru": 1,
+       "status_text": "STATUS_FINISH F T29",
+       "position": "T29",
+       "sort_order": 31,
+       "score": "-12",
+       "thru": 18,
        "tee_time": "2026-11-01T15:50Z",
        "start_hole": 10,
        "playoff": false
@@ -2860,19 +2860,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 68,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-3",
          "tee_time": "2026-11-01T16:34Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:34:00Z T22",
-       "position": "T22",
-       "sort_order": 25,
-       "score": "-10",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T23",
+       "position": "T23",
+       "sort_order": 26,
+       "score": "-13",
+       "thru": 18,
        "tee_time": "2026-11-01T16:34Z",
        "start_hole": 1,
        "playoff": false
@@ -2908,19 +2908,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 69,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-2",
          "tee_time": "2026-11-01T16:56Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:56:00Z T55",
-       "position": "T55",
-       "sort_order": 58,
-       "score": "-6",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T48",
+       "position": "T48",
+       "sort_order": 51,
+       "score": "-8",
+       "thru": 18,
        "tee_time": "2026-11-01T16:56Z",
        "start_hole": 10,
        "playoff": false
@@ -2956,19 +2956,19 @@
         },
         {
          "r": 4,
-         "strokes": 4,
+         "strokes": 66,
          "holes": null,
-         "to_par": "E",
+         "to_par": "-5",
          "tee_time": "2026-11-01T16:01Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_IN_PROGRESS Thru 1 T27",
-       "position": "T27",
-       "sort_order": 29,
-       "score": "-9",
-       "thru": 1,
+       "status_text": "STATUS_FINISH F T19",
+       "position": "T19",
+       "sort_order": 19,
+       "score": "-14",
+       "thru": 18,
        "tee_time": "2026-11-01T16:01Z",
        "start_hole": 1,
        "playoff": false
@@ -3036,19 +3036,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 68,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-3",
          "tee_time": "2026-11-01T17:40Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T17:40:00Z T4",
-       "position": "T4",
-       "sort_order": 4,
-       "score": "-15",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T6",
+       "position": "T6",
+       "sort_order": 9,
+       "score": "-18",
+       "thru": 18,
        "tee_time": "2026-11-01T17:40Z",
        "start_hole": 1,
        "playoff": false
@@ -3116,19 +3116,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 70,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-1",
          "tee_time": "2026-11-01T16:34Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:34:00Z T40",
-       "position": "T40",
-       "sort_order": 45,
-       "score": "-7",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T48",
+       "position": "T48",
+       "sort_order": 52,
+       "score": "-8",
+       "thru": 18,
        "tee_time": "2026-11-01T16:34Z",
        "start_hole": 10,
        "playoff": false
@@ -3196,19 +3196,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 71,
          "holes": null,
-         "to_par": "-",
+         "to_par": "E",
          "tee_time": "2026-11-01T16:45Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:45:00Z T17",
-       "position": "T17",
-       "sort_order": 19,
+       "status_text": "STATUS_FINISH F T34",
+       "position": "T34",
+       "sort_order": 38,
        "score": "-11",
-       "thru": 0,
+       "thru": 18,
        "tee_time": "2026-11-01T16:45Z",
        "start_hole": 1,
        "playoff": false
@@ -3308,19 +3308,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 67,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-4",
          "tee_time": "2026-11-01T17:18Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T17:18:00Z T9",
-       "position": "T9",
+       "status_text": "STATUS_FINISH F T11",
+       "position": "T11",
        "sort_order": 12,
-       "score": "-13",
-       "thru": 0,
+       "score": "-17",
+       "thru": 18,
        "tee_time": "2026-11-01T17:18Z",
        "start_hole": 1,
        "playoff": false
@@ -3356,19 +3356,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 71,
          "holes": null,
-         "to_par": "-",
+         "to_par": "E",
          "tee_time": "2026-11-01T16:56Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:56:00Z T55",
-       "position": "T55",
-       "sort_order": 57,
+       "status_text": "STATUS_FINISH F T58",
+       "position": "T58",
+       "sort_order": 59,
        "score": "-6",
-       "thru": 0,
+       "thru": 18,
        "tee_time": "2026-11-01T16:56Z",
        "start_hole": 10,
        "playoff": false
@@ -3404,19 +3404,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 71,
          "holes": null,
-         "to_par": "-",
+         "to_par": "E",
          "tee_time": "2026-11-01T16:45Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:45:00Z T17",
-       "position": "T17",
-       "sort_order": 21,
+       "status_text": "STATUS_FINISH F T34",
+       "position": "T34",
+       "sort_order": 39,
        "score": "-11",
-       "thru": 0,
+       "thru": 18,
        "tee_time": "2026-11-01T16:45Z",
        "start_hole": 1,
        "playoff": false
@@ -3484,19 +3484,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 65,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-6",
          "tee_time": "2026-11-01T16:12Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:12:00Z T27",
-       "position": "T27",
-       "sort_order": 33,
-       "score": "-9",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T16",
+       "position": "T16",
+       "sort_order": 18,
+       "score": "-15",
+       "thru": 18,
        "tee_time": "2026-11-01T16:12Z",
        "start_hole": 1,
        "playoff": false
@@ -3596,19 +3596,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 70,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-1",
          "tee_time": "2026-11-01T16:23Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:23:00Z T22",
-       "position": "T22",
-       "sort_order": 26,
-       "score": "-10",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T34",
+       "position": "T34",
+       "sort_order": 37,
+       "score": "-11",
+       "thru": 18,
        "tee_time": "2026-11-01T16:23Z",
        "start_hole": 1,
        "playoff": false
@@ -3644,19 +3644,19 @@
         },
         {
          "r": 4,
-         "strokes": 6,
+         "strokes": 69,
          "holes": null,
-         "to_par": "-1",
+         "to_par": "-2",
          "tee_time": "2026-11-01T15:50Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_IN_PROGRESS Thru 2 T22",
-       "position": "T22",
-       "sort_order": 22,
-       "score": "-9",
-       "thru": 2,
+       "status_text": "STATUS_FINISH F T34",
+       "position": "T34",
+       "sort_order": 35,
+       "score": "-11",
+       "thru": 18,
        "tee_time": "2026-11-01T15:50Z",
        "start_hole": 1,
        "playoff": false
@@ -3724,19 +3724,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 67,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-4",
          "tee_time": "2026-11-01T16:23Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:23:00Z T27",
-       "position": "T27",
-       "sort_order": 34,
-       "score": "-9",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T23",
+       "position": "T23",
+       "sort_order": 25,
+       "score": "-13",
+       "thru": 18,
        "tee_time": "2026-11-01T16:23Z",
        "start_hole": 1,
        "playoff": false
@@ -3804,19 +3804,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 63,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-8",
          "tee_time": "2026-11-01T16:45Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:45:00Z T40",
-       "position": "T40",
-       "sort_order": 44,
-       "score": "-7",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T16",
+       "position": "T16",
+       "sort_order": 16,
+       "score": "-15",
+       "thru": 18,
        "tee_time": "2026-11-01T16:45Z",
        "start_hole": 10,
        "playoff": false
@@ -3852,19 +3852,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 70,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-1",
          "tee_time": "2026-11-01T17:18Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T17:18:00Z T9",
-       "position": "T9",
-       "sort_order": 11,
-       "score": "-13",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T19",
+       "position": "T19",
+       "sort_order": 22,
+       "score": "-14",
+       "thru": 18,
        "tee_time": "2026-11-01T17:18Z",
        "start_hole": 1,
        "playoff": false
@@ -3900,19 +3900,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 70,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-1",
          "tee_time": "2026-11-01T16:45Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:45:00Z T17",
-       "position": "T17",
-       "sort_order": 20,
-       "score": "-11",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T29",
+       "position": "T29",
+       "sort_order": 33,
+       "score": "-12",
+       "thru": 18,
        "tee_time": "2026-11-01T16:45Z",
        "start_hole": 1,
        "playoff": false
@@ -3948,19 +3948,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 69,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-2",
          "tee_time": "2026-11-01T16:56Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:56:00Z T55",
-       "position": "T55",
-       "sort_order": 56,
-       "score": "-6",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T48",
+       "position": "T48",
+       "sort_order": 50,
+       "score": "-8",
+       "thru": 18,
        "tee_time": "2026-11-01T16:56Z",
        "start_hole": 10,
        "playoff": false
@@ -4028,19 +4028,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 69,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-2",
          "tee_time": "2026-11-01T17:29Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T17:29:00Z T7",
-       "position": "T7",
-       "sort_order": 8,
-       "score": "-14",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F 15",
+       "position": "15",
+       "sort_order": 15,
+       "score": "-16",
+       "thru": 18,
        "tee_time": "2026-11-01T17:29Z",
        "start_hole": 1,
        "playoff": false
@@ -4140,19 +4140,19 @@
         },
         {
          "r": 4,
-         "strokes": 9,
+         "strokes": 70,
          "holes": null,
-         "to_par": "+2",
+         "to_par": "-1",
          "tee_time": "2026-11-01T15:50Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_IN_PROGRESS Thru 2 T40",
+       "status_text": "STATUS_FINISH F T40",
        "position": "T40",
-       "sort_order": 40,
-       "score": "-9",
-       "thru": 2,
+       "sort_order": 46,
+       "score": "-10",
+       "thru": 18,
        "tee_time": "2026-11-01T15:50Z",
        "start_hole": 1,
        "playoff": false
@@ -4316,19 +4316,19 @@
         },
         {
          "r": 4,
-         "strokes": 4,
+         "strokes": 68,
          "holes": null,
-         "to_par": "E",
+         "to_par": "-3",
          "tee_time": "2026-11-01T16:01Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_IN_PROGRESS Thru 1 T40",
+       "status_text": "STATUS_FINISH F T40",
        "position": "T40",
        "sort_order": 42,
-       "score": "-7",
-       "thru": 1,
+       "score": "-10",
+       "thru": 18,
        "tee_time": "2026-11-01T16:01Z",
        "start_hole": 10,
        "playoff": false
@@ -4428,19 +4428,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 70,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-1",
          "tee_time": "2026-11-01T17:07Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T17:07:00Z 59",
-       "position": "59",
-       "sort_order": 59,
-       "score": "-5",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T58",
+       "position": "T58",
+       "sort_order": 58,
+       "score": "-6",
+       "thru": 18,
        "tee_time": "2026-11-01T17:07Z",
        "start_hole": 10,
        "playoff": false
@@ -4476,19 +4476,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 69,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-2",
          "tee_time": "2026-11-01T17:07Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T17:07:00Z T55",
-       "position": "T55",
-       "sort_order": 55,
-       "score": "-6",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T48",
+       "position": "T48",
+       "sort_order": 49,
+       "score": "-8",
+       "thru": 18,
        "tee_time": "2026-11-01T17:07Z",
        "start_hole": 10,
        "playoff": false
@@ -4524,19 +4524,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 67,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-4",
          "tee_time": "2026-11-01T16:34Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:34:00Z T40",
-       "position": "T40",
-       "sort_order": 46,
-       "score": "-7",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T34",
+       "position": "T34",
+       "sort_order": 34,
+       "score": "-11",
+       "thru": 18,
        "tee_time": "2026-11-01T16:34Z",
        "start_hole": 10,
        "playoff": false
@@ -4636,19 +4636,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 66,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-5",
          "tee_time": "2026-11-01T17:29Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T17:29:00Z T7",
-       "position": "T7",
-       "sort_order": 7,
-       "score": "-14",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T4",
+       "position": "T4",
+       "sort_order": 4,
+       "score": "-19",
+       "thru": 18,
        "tee_time": "2026-11-01T17:29Z",
        "start_hole": 1,
        "playoff": false
@@ -4684,19 +4684,19 @@
         },
         {
          "r": 4,
-         "strokes": 7,
+         "strokes": 72,
          "holes": null,
-         "to_par": "E",
+         "to_par": "+1",
          "tee_time": "2026-11-01T15:50Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_IN_PROGRESS Thru 2 T37",
-       "position": "T37",
-       "sort_order": 37,
-       "score": "-8",
-       "thru": 2,
+       "status_text": "STATUS_FINISH F T54",
+       "position": "T54",
+       "sort_order": 57,
+       "score": "-7",
+       "thru": 18,
        "tee_time": "2026-11-01T15:50Z",
        "start_hole": 1,
        "playoff": false
@@ -4732,19 +4732,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 68,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-3",
          "tee_time": "2026-11-01T16:23Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:23:00Z T40",
+       "status_text": "STATUS_FINISH F T40",
        "position": "T40",
-       "sort_order": 53,
-       "score": "-7",
-       "thru": 0,
+       "sort_order": 43,
+       "score": "-10",
+       "thru": 18,
        "tee_time": "2026-11-01T16:23Z",
        "start_hole": 10,
        "playoff": false
@@ -4780,19 +4780,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 67,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-4",
          "tee_time": "2026-11-01T16:34Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:34:00Z T22",
-       "position": "T22",
-       "sort_order": 24,
-       "score": "-10",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T19",
+       "position": "T19",
+       "sort_order": 20,
+       "score": "-14",
+       "thru": 18,
        "tee_time": "2026-11-01T16:34Z",
        "start_hole": 1,
        "playoff": false
@@ -4828,19 +4828,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 66,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-5",
          "tee_time": "2026-11-01T17:40Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T17:40:00Z 68",
-       "position": "68",
-       "sort_order": 68,
-       "score": "+3",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F 66",
+       "position": "66",
+       "sort_order": 66,
+       "score": "-2",
+       "thru": 18,
        "tee_time": "2026-11-01T17:40Z",
        "start_hole": 10,
        "playoff": false
@@ -4908,19 +4908,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 67,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-4",
          "tee_time": "2026-11-01T17:07Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T17:07:00Z T60",
-       "position": "T60",
-       "sort_order": 62,
-       "score": "-4",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T48",
+       "position": "T48",
+       "sort_order": 48,
+       "score": "-8",
+       "thru": 18,
        "tee_time": "2026-11-01T17:07Z",
        "start_hole": 10,
        "playoff": false
@@ -5020,19 +5020,19 @@
         },
         {
          "r": 4,
-         "strokes": 4,
+         "strokes": 69,
          "holes": null,
-         "to_par": "E",
+         "to_par": "-2",
          "tee_time": "2026-11-01T15:50Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_IN_PROGRESS Thru 1 T37",
-       "position": "T37",
-       "sort_order": 39,
-       "score": "-8",
-       "thru": 1,
+       "status_text": "STATUS_FINISH F T40",
+       "position": "T40",
+       "sort_order": 44,
+       "score": "-10",
+       "thru": 18,
        "tee_time": "2026-11-01T15:50Z",
        "start_hole": 10,
        "playoff": false
@@ -5068,19 +5068,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 66,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-5",
          "tee_time": "2026-11-01T16:12Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:12:00Z T40",
-       "position": "T40",
-       "sort_order": 50,
-       "score": "-7",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T29",
+       "position": "T29",
+       "sort_order": 30,
+       "score": "-12",
+       "thru": 18,
        "tee_time": "2026-11-01T16:12Z",
        "start_hole": 10,
        "playoff": false
@@ -5116,19 +5116,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 69,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-2",
          "tee_time": "2026-11-01T17:07Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T17:07:00Z T13",
-       "position": "T13",
-       "sort_order": 13,
-       "score": "-12",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T19",
+       "position": "T19",
+       "sort_order": 21,
+       "score": "-14",
+       "thru": 18,
        "tee_time": "2026-11-01T17:07Z",
        "start_hole": 1,
        "playoff": false
@@ -5164,19 +5164,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 64,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-7",
          "tee_time": "2026-11-01T16:56Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:56:00Z T17",
-       "position": "T17",
-       "sort_order": 17,
-       "score": "-11",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T6",
+       "position": "T6",
+       "sort_order": 6,
+       "score": "-18",
+       "thru": 18,
        "tee_time": "2026-11-01T16:56Z",
        "start_hole": 1,
        "playoff": false
@@ -5212,19 +5212,19 @@
         },
         {
          "r": 4,
-         "strokes": 4,
+         "strokes": 64,
          "holes": null,
-         "to_par": "E",
+         "to_par": "-7",
          "tee_time": "2026-11-01T15:50Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_IN_PROGRESS Thru 1 T37",
-       "position": "T37",
-       "sort_order": 38,
-       "score": "-8",
-       "thru": 1,
+       "status_text": "STATUS_FINISH F T16",
+       "position": "T16",
+       "sort_order": 17,
+       "score": "-15",
+       "thru": 18,
        "tee_time": "2026-11-01T15:50Z",
        "start_hole": 10,
        "playoff": false
@@ -5260,19 +5260,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 66,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-5",
          "tee_time": "2026-11-01T17:18Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T17:18:00Z T9",
-       "position": "T9",
-       "sort_order": 9,
-       "score": "-13",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T6",
+       "position": "T6",
+       "sort_order": 7,
+       "score": "-18",
+       "thru": 18,
        "tee_time": "2026-11-01T17:18Z",
        "start_hole": 1,
        "playoff": false
@@ -5308,19 +5308,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 74,
          "holes": null,
-         "to_par": "-",
+         "to_par": "+3",
          "tee_time": "2026-11-01T16:23Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T16:23:00Z T40",
-       "position": "T40",
-       "sort_order": 51,
-       "score": "-7",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F 63",
+       "position": "63",
+       "sort_order": 63,
+       "score": "-4",
+       "thru": 18,
        "tee_time": "2026-11-01T16:23Z",
        "start_hole": 10,
        "playoff": false
@@ -5356,19 +5356,19 @@
         },
         {
          "r": 4,
-         "strokes": 0,
+         "strokes": 70,
          "holes": null,
-         "to_par": "-",
+         "to_par": "-1",
          "tee_time": "2026-11-01T17:29Z",
          "is_playoff": false
         }
        ],
        "status": "active",
-       "status_text": "STATUS_SCHEDULED 2026-11-01T17:29:00Z T65",
-       "position": "T65",
-       "sort_order": 66,
-       "score": "-2",
-       "thru": 0,
+       "status_text": "STATUS_FINISH F T64",
+       "position": "T64",
+       "sort_order": 64,
+       "score": "-3",
+       "thru": 18,
        "tee_time": "2026-11-01T17:29Z",
        "start_hole": 10,
        "playoff": false
@@ -5466,18 +5466,18 @@
       "uid": "s:1100~l:1106~e:401850978~c:401850978",
       "date": "2026-10-29T04:00Z",
       "endDate": "2026-11-01T04:00Z",
-      "recent": true,
+      "recent": false,
       "onWatchESPN": false,
       "dataFormat": "API",
       "status": {
        "period": 4,
        "type": {
-        "id": "2",
-        "name": "STATUS_IN_PROGRESS",
-        "state": "in",
-        "description": "In Progress",
-        "detail": "Round 4 - In Progress",
-        "shortDetail": "Round 4 - In Progress"
+        "id": "3",
+        "name": "STATUS_FINAL",
+        "state": "post",
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Complete"
        }
       },
       "broadcasts": [
@@ -5501,11 +5501,11 @@
         "abbreviation": "YDS/DRV",
         "leaders": [
          {
-          "displayValue": "323.2",
-          "value": 323.2,
+          "displayValue": "326.8",
+          "value": 326.8,
           "athlete": {
-           "id": "5075306",
-           "displayName": "Trent Phillips"
+           "id": "5139663",
+           "displayName": "Gordon Sargent"
           }
          }
         ]
@@ -5517,11 +5517,11 @@
         "abbreviation": "DRV ACC",
         "leaders": [
          {
-          "displayValue": "92.3",
-          "value": 92.31,
+          "displayValue": "90.4",
+          "value": 90.38,
           "athlete": {
-           "id": "9569",
-           "displayName": "Tyler Duncan"
+           "id": "5211425",
+           "displayName": "Blades Brown"
           }
          }
         ]
@@ -5536,8 +5536,8 @@
           "displayValue": "83.3",
           "value": 83.33,
           "athlete": {
-           "id": "5077389",
-           "displayName": "Ben James"
+           "id": "5211425",
+           "displayName": "Blades Brown"
           }
          }
         ]
@@ -5549,11 +5549,11 @@
         "abbreviation": "PP GIR",
         "leaders": [
          {
-          "displayValue": "1.475",
-          "value": 1.475,
+          "displayValue": "1.565",
+          "value": 1.565,
           "athlete": {
-           "id": "11332",
-           "displayName": "Andrew Novak"
+           "id": "5221421",
+           "displayName": "Kihei Akina"
           }
          }
         ]
@@ -5591,7 +5591,8 @@
       "status",
       "tournament",
       "uid",
-      "week"
+      "week",
+      "winner"
      ],
      "leaderboard_competitor_sample": [
       {
@@ -5705,38 +5706,40 @@
       {
        "id": "10048",
        "uid": "s:1100~a:10048",
-       "movement": 0,
-       "earnings": 0,
-       "sortOrder": 60,
+       "movement": 1,
+       "earnings": 13440,
+       "sortOrder": 62,
        "amateur": false,
        "featured": false,
        "status": {
-        "displayValue": "2026-11-01T17:18:00Z",
+        "displayValue": "F",
         "period": 4,
         "teeTime": "2026-11-01T17:18Z",
+        "hole": 9,
         "startHole": 10,
-        "thru": 0,
+        "thru": 18,
+        "displayThru": "18",
         "playoff": false,
         "behindCurrentRound": false,
-        "detail": "12:18 PM ET",
+        "detail": "-1(F)",
         "type": {
-         "id": "0",
-         "name": "STATUS_SCHEDULED",
-         "state": "pre",
-         "completed": false,
-         "description": "Scheduled",
-         "detail": "Scheduled",
-         "shortDetail": "Scheduled"
+         "id": "2",
+         "name": "STATUS_FINISH",
+         "state": "post",
+         "completed": true,
+         "description": "Finish",
+         "detail": "Finish",
+         "shortDetail": "F"
         },
         "position": {
-         "id": "60",
-         "displayName": "T60",
+         "id": "61",
+         "displayName": "T61",
          "isTie": true
         }
        },
        "score": {
-        "value": 209,
-        "displayValue": "-4"
+        "value": 279,
+        "displayValue": "-5"
        },
        "linescores": [
         {
@@ -5775,11 +5778,13 @@
          "isPlayoff": false
         },
         {
-         "value": 0,
-         "displayValue": "-",
+         "value": 70,
+         "displayValue": "-1",
          "period": 4,
+         "inScore": 35,
+         "outScore": 35,
          "startPosition": 60,
-         "currentPosition": 60,
+         "currentPosition": 61,
          "teeTime": "2026-11-01T17:18Z",
          "hasStream": false,
          "isPlayoff": false
@@ -5788,12 +5793,12 @@
        "statistics": [
         {
          "name": "scoreToPar",
-         "value": -4,
-         "displayValue": "-4"
+         "value": -5,
+         "displayValue": "-5"
         },
         {
          "name": "officialAmount",
-         "displayValue": "--"
+         "displayValue": "$13,440"
         },
         {
          "name": "cupPoints",
@@ -5878,12 +5883,12 @@
     {
      "league": "pga",
      "id": "401850980",
-     "name": "Austin Championship",
-     "short_name": "Austin Championship",
+     "name": "Austin Championship pres. by Compliance Solutions",
+     "short_name": "Austin Championship pres. by Compliance Solutions",
      "start": "2026-11-12T05:00Z",
      "end": "2026-11-15T05:00Z",
      "course": "Omni Barton Creek Resort & Spa (Fazio Canyons Course)",
-     "par": 0,
+     "par": 72,
      "status": "STATUS_SCHEDULED",
      "period": 0,
      "fetched_by": "leaderboard",
@@ -10012,7 +10017,7 @@
       "uid": "s:1100~l:1107~e:401835174~c:401835174",
       "date": "2026-10-29T04:00Z",
       "endDate": "2026-11-01T04:00Z",
-      "recent": true,
+      "recent": false,
       "onWatchESPN": false,
       "dataFormat": "API",
       "status": {
@@ -10827,10 +10832,33 @@
         "shortDetail": "11/5 - 12:00 AM EST"
        }
       },
+      "broadcasts": [
+       {
+        "market": "national",
+        "names": [
+         "Golf Chnl"
+        ]
+       }
+      ],
       "startDate": "2026-11-05T05:00Z",
-      "broadcast": "",
-      "geoBroadcasts": [],
-      "broadcasts": [],
+      "broadcast": "Golf Chnl",
+      "geoBroadcasts": [
+       {
+        "type": {
+         "id": "1",
+         "shortName": "TV"
+        },
+        "market": {
+         "id": "1",
+         "type": "National"
+        },
+        "media": {
+         "shortName": "Golf Chnl"
+        },
+        "lang": "en",
+        "region": "us"
+       }
+      ],
       "highlights": []
      },
      "event_keys": [
