@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T06:21:01Z",
+ "generated_at": "2026-11-02T18:31:20Z",
  "lag_rule_hours": 48,
  "candidates": [
   {
@@ -388,9 +388,39 @@
    "market": "spread",
    "label": "production bb_points (NCAAM 1.1.0) spread",
    "status": "PRODUCTION (CLV live tracking)",
-   "games_with_lines": 0,
-   "n_bets": 0,
-   "note": "no live rows yet"
+   "games_with_lines": 4,
+   "n_bets": 4,
+   "clv_prob": {
+    "n": 4,
+    "mean": 0.14522,
+    "se": 0.0,
+    "ci95": [
+     0.14522,
+     0.14522
+    ],
+    "p_one_sided": 0.0
+   },
+   "clv_pts": {
+    "n": 4,
+    "mean": 4.75,
+    "se": 0.0,
+    "ci95": [
+     4.75,
+     4.75
+    ],
+    "p_one_sided": 0.0
+   },
+   "clv_ev": {
+    "n": 4,
+    "mean": 0.23179,
+    "se": 0.0,
+    "ci95": [
+     0.23179,
+     0.23179
+    ],
+    "p_one_sided": 0.0
+   },
+   "direction_hit_rate": 0.66667
   },
   {
    "id": "NCAAM-H2",
@@ -398,9 +428,12 @@
    "market": "total",
    "label": "production bb_points (NCAAM 1.1.0) total",
    "status": "PRODUCTION (CLV live tracking)",
-   "games_with_lines": 0,
+   "games_with_lines": 4,
    "n_bets": 0,
-   "note": "no live rows yet"
+   "clv_prob": null,
+   "clv_pts": null,
+   "clv_ev": null,
+   "direction_hit_rate": null
   },
   {
    "id": "NCAAM-H3",
@@ -408,9 +441,30 @@
    "market": "moneyline",
    "label": "production bb_points (NCAAM 1.1.0) moneyline",
    "status": "PRODUCTION (CLV live tracking)",
-   "games_with_lines": 0,
-   "n_bets": 0,
-   "note": "no live rows yet"
+   "games_with_lines": 4,
+   "n_bets": 4,
+   "clv_prob": {
+    "n": 4,
+    "mean": 0.14163,
+    "se": 0.0,
+    "ci95": [
+     0.14163,
+     0.14163
+    ],
+    "p_one_sided": 0.0
+   },
+   "clv_pts": null,
+   "clv_ev": {
+    "n": 4,
+    "mean": 0.32838,
+    "se": 0.0,
+    "ci95": [
+     0.32838,
+     0.32838
+    ],
+    "p_one_sided": 0.0
+   },
+   "direction_hit_rate": 0.75
   },
   {
    "id": "WNBA-H2",
