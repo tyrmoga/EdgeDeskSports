@@ -879,52 +879,53 @@
    ]
   },
   "2027": {
-   "rows": 452,
-   "games": 226,
+   "rows": 462,
+   "games": 231,
    "xg_model": "xg_for_2027",
    "sources": {
     "schedule": {
      "url": "https://raw.githubusercontent.com/sportsdataverse/fastRhockey-nhl-raw/main/nhl/schedules/parquet/nhl_schedule_2027.parquet",
-     "sha256": "7b810c0c7b301d7817221ce0c687bbda2d6377bb4fe3b62763f1f2f69fe45fc4",
-     "bytes": 21309,
-     "fetched_at": "2026-11-01T22:22:36.324Z",
+     "sha256": "91c5c7a4c1283b0ff100268a5c63681d249b7cf55a837f4c4563051d36ef3632",
+     "bytes": 21322,
+     "fetched_at": "2026-11-02T16:31:29.700Z",
      "stale": false
     },
     "goalie_box": {
      "url": "https://raw.githubusercontent.com/sportsdataverse/fastRhockey-nhl-data/main/nhl/goalie_box/parquet/goalie_box_2027.parquet",
-     "sha256": "4895564a47a5a8b39cc6a628e8bfc919c47603927fce7cb1fb5d3d7f23772782",
-     "bytes": 23660,
-     "fetched_at": "2026-11-01T22:22:36.563Z",
+     "sha256": "96e9ab4f7969d41453f3e4bc8c6d9ed853a9073cad60b2809a93f394ab7d4bd2",
+     "bytes": 23967,
+     "fetched_at": "2026-11-02T16:31:29.876Z",
      "stale": false
     },
     "pbp": {
      "url": "https://raw.githubusercontent.com/sportsdataverse/fastRhockey-nhl-data/main/nhl/pbp_lite/parquet/play_by_play_lite_2027.parquet",
-     "sha256": "d1943ecb085628c220526d2c7aafa6d658f0d20969e7db432110085522d67e5d",
-     "bytes": 3230964,
-     "fetched_at": "2026-11-01T22:22:36.903Z",
+     "sha256": "e0fcb81e4a9c4962e5178009b533a49827f5010832b566e63084866f300a3367",
+     "bytes": 3294948,
+     "fetched_at": "2026-11-02T16:31:30.222Z",
      "stale": false
     }
    },
    "ingest": {
     "season": 2027,
-    "games": 226,
-    "regular": 226,
+    "games": 231,
+    "regular": 231,
     "playoff": 0,
     "dropped_type": 0,
     "duplicates": 0,
-    "shots": 18857,
+    "shots": 19266,
     "shots_no_xy": 0,
     "issues": 0,
     "issue_examples": []
    },
    "files": [
     "hockey/data/team_games/2027/2026-09.csv",
-    "hockey/data/team_games/2027/2026-10.csv"
+    "hockey/data/team_games/2027/2026-10.csv",
+    "hockey/data/team_games/2027/2026-11.csv"
    ]
   }
  },
  "license": "sportsdataverse/fastRhockey-nhl-data and -raw are MIT-licensed repositories; the game data inside them is compiled from the NHL's public game feeds and remains the NHL's. NHL.com terms restrict commercial use of its content: the owner must review this before NHL output is sold in a paid tier. Attribution is printed on every NHL artifact.",
- "updated_at": "2026-11-01T22:22:37.869Z",
+ "updated_at": "2026-11-02T16:31:31.860Z",
  "temporal": {
   "known_at": "blank: the source's first publication time was not recorded for history (never backdated)",
   "assumed_available_at": "scheduled start + 4 h (end of the game's day when the start is unknown); an explicit modelling assumption",
