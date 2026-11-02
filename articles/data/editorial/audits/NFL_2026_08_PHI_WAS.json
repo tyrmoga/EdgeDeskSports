@@ -4,7 +4,7 @@
   "game_id": "2026_08_PHI_WAS",
   "sport": "NFL",
   "snapshot_id": "snap_d511c5e3754add51",
-  "audited_at": "2026-11-02T16:59:21.615Z",
+  "audited_at": "2026-11-02T19:29:29.961Z",
   "theses": [
     {
       "schema": "edgedesk_thesis_v1",
@@ -942,7 +942,7 @@
     "game_id": "2026_08_PHI_WAS",
     "sport": "NFL",
     "snapshot_id": "snap_d511c5e3754add51",
-    "graded_at": "2026-11-02T16:59:21.615Z",
+    "graded_at": "2026-11-02T19:29:29.961Z",
     "final": {
       "home_team": "Washington Commanders",
       "away_team": "Philadelphia Eagles",
@@ -1060,7 +1060,7 @@
       "suggested_investigation": null,
       "bet_result": "WIN",
       "process_grade": "UNSOUND",
-      "created_at": "2026-11-02T16:59:21.615Z"
+      "created_at": "2026-11-02T19:29:29.961Z"
     },
     {
       "schema": "edgedesk_game_research_lesson_v1",
@@ -1084,7 +1084,7 @@
       "suggested_investigation": null,
       "bet_result": "WIN",
       "process_grade": "UNSOUND",
-      "created_at": "2026-11-02T16:59:21.615Z"
+      "created_at": "2026-11-02T19:29:29.961Z"
     },
     {
       "schema": "edgedesk_game_research_lesson_v1",
@@ -1108,7 +1108,7 @@
       "suggested_investigation": null,
       "bet_result": "WIN",
       "process_grade": "UNSOUND",
-      "created_at": "2026-11-02T16:59:21.615Z"
+      "created_at": "2026-11-02T19:29:29.961Z"
     },
     {
       "schema": "edgedesk_game_research_lesson_v1",
@@ -1132,7 +1132,7 @@
       "suggested_investigation": "Consider whether a postgame data source exists for model, home_field, matchup.",
       "bet_result": "WIN",
       "process_grade": "UNSOUND",
-      "created_at": "2026-11-02T16:59:21.615Z"
+      "created_at": "2026-11-02T19:29:29.961Z"
     },
     {
       "schema": "edgedesk_game_research_lesson_v1",
@@ -1156,7 +1156,7 @@
       "suggested_investigation": "Why did the number land while the mechanism failed? Either the number was right for a reason EdgeDesk has not identified, or it was luck. Both are worth knowing and they are different.",
       "bet_result": "WIN",
       "process_grade": "UNSOUND",
-      "created_at": "2026-11-02T16:59:21.615Z"
+      "created_at": "2026-11-02T19:29:29.961Z"
     },
     {
       "schema": "edgedesk_game_research_lesson_v1",
@@ -1180,7 +1180,7 @@
       "suggested_investigation": null,
       "bet_result": "WIN",
       "process_grade": "UNSOUND",
-      "created_at": "2026-11-02T16:59:21.615Z"
+      "created_at": "2026-11-02T19:29:29.961Z"
     }
   ]
 }
