@@ -3,17 +3,17 @@
  "note": "Opening-line collection (research/clv/collect_openers.py). Counts per ESPN season label. listed .. testable_live: games seen pregame by the hourly capture (testable_live = priced with a later close: ESPN's close at settle, or a second quote). archive_*: finished games read back from ESPN's summaries (backfill), with the book's own open and close. testable: games with either. Nothing here is served.",
  "sports": {
   "nhl": {
-   "through": "2026-11-02T23:42:35Z",
+   "through": "2026-11-03T04:03:31Z",
    "seasons": {
     "2027": {
      "listed": 131,
      "priced": 95,
      "with_espn_open": 95,
-     "settled_with_close": 80,
-     "testable_live": 94,
+     "settled_with_close": 82,
+     "testable_live": 95,
      "archive_games": 0,
      "archive_with_open_and_close": 0,
-     "testable": 94,
+     "testable": 95,
      "priced_share": 0.725,
      "first_quote_hours_before_start_median": 29.5
     }
@@ -37,17 +37,17 @@
    }
   },
   "ncaaw": {
-   "through": "2026-11-02T23:42:35Z",
+   "through": "2026-11-03T04:03:31Z",
    "seasons": {
     "2027": {
-     "listed": 487,
+     "listed": 486,
      "priced": 12,
      "with_espn_open": 12,
-     "settled_with_close": 7,
-     "testable_live": 7,
+     "settled_with_close": 10,
+     "testable_live": 10,
      "archive_games": 0,
      "archive_with_open_and_close": 0,
-     "testable": 7,
+     "testable": 10,
      "priced_share": 0.025,
      "first_quote_hours_before_start_median": 2.6
     }
@@ -58,17 +58,17 @@
    "seasons": {}
   },
   "ufc": {
-   "through": "2026-11-02T16:36:02Z",
+   "through": "2026-11-03T04:03:31Z",
    "seasons": {
     "2026": {
      "listed": 76,
      "priced": 46,
      "with_espn_open": 46,
      "settled_with_close": 0,
-     "testable_live": 38,
+     "testable_live": 41,
      "archive_games": 0,
      "archive_with_open_and_close": 0,
-     "testable": 38,
+     "testable": 41,
      "priced_share": 0.605,
      "first_quote_hours_before_start_median": 160.8
     }
