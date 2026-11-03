@@ -1,0 +1,366 @@
+{
+  "schema": "edgedesk_game_result_v1",
+  "key": "NFL:2026_08_CHI_SEA",
+  "game_id": "2026_08_CHI_SEA",
+  "sport": "NFL",
+  "season": 2026,
+  "week": 8,
+  "observed_at": "2026-11-03T06:06:12.313Z",
+  "kickoff": "2026-11-03T01:15:00.000Z",
+  "final_seen_at": null,
+  "home_team": "Seattle Seahawks",
+  "away_team": "Chicago Bears",
+  "home_score": 17,
+  "away_score": 34,
+  "completed": true,
+  "status_name": "STATUS_FINAL",
+  "winner": "Chicago Bears",
+  "margin": 17,
+  "total_points": 51,
+  "metrics": {
+    "home": {
+      "points": 17,
+      "total_yards": 252,
+      "total_plays": 56,
+      "yards_per_play": 4.5,
+      "net_pass_yards": 171,
+      "yards_per_pass": 4.621621621621622,
+      "rush_yards": 81,
+      "rush_attempts": 19,
+      "yards_per_rush": 4.263,
+      "first_downs": 18,
+      "turnovers": 1,
+      "interceptions_thrown": 1,
+      "fumbles_lost": 0,
+      "defensive_tds": 0,
+      "drives": 11,
+      "third_down_att": 11,
+      "third_down_pct": 9.1,
+      "fourth_down_pct": 50,
+      "red_zone_trips": 4,
+      "red_zone_pct": 25,
+      "sacks_allowed": 3,
+      "sack_yards_allowed": 17,
+      "penalties": 5,
+      "penalty_yards": 43,
+      "possession_seconds": 1497,
+      "points_per_drive": 1.55,
+      "yards_per_drive": 22.9,
+      "plays_per_minute": 2.24,
+      "sacks_generated": 1,
+      "turnover_margin": 0,
+      "margin": -17
+    },
+    "away": {
+      "points": 34,
+      "total_yards": 363,
+      "total_plays": 70,
+      "yards_per_play": 5.1857142857,
+      "net_pass_yards": 237,
+      "yards_per_pass": 6.771428571428571,
+      "rush_yards": 126,
+      "rush_attempts": 35,
+      "yards_per_rush": 3.6,
+      "first_downs": 22,
+      "turnovers": 1,
+      "interceptions_thrown": 0,
+      "fumbles_lost": 1,
+      "defensive_tds": 0,
+      "drives": 12,
+      "third_down_att": 15,
+      "third_down_pct": 46.7,
+      "fourth_down_pct": 100,
+      "red_zone_trips": 4,
+      "red_zone_pct": 100,
+      "sacks_allowed": 1,
+      "sack_yards_allowed": 10,
+      "penalties": 10,
+      "penalty_yards": 85,
+      "possession_seconds": 2103,
+      "points_per_drive": 2.83,
+      "yards_per_drive": 30.3,
+      "plays_per_minute": 2,
+      "sacks_generated": 3,
+      "turnover_margin": 0,
+      "margin": 17
+    }
+  },
+  "line_scores": {
+    "home": [
+      0,
+      9,
+      0,
+      8
+    ],
+    "away": [
+      7,
+      6,
+      7,
+      14
+    ]
+  },
+  "scoring_plays": [
+    {
+      "period": 1,
+      "clock": "5:25",
+      "team": "Chicago Bears",
+      "type": "TD",
+      "text": "Luther Burden III 1 Yd pass from Caleb Williams (Cairo Santos Kick)",
+      "scoring_type": "Touchdown",
+      "home_score": 0,
+      "away_score": 7
+    },
+    {
+      "period": 2,
+      "clock": "12:50",
+      "team": "Seattle Seahawks",
+      "type": "FG",
+      "text": "Jason Myers 27 Yd Field Goal",
+      "scoring_type": "Field Goal",
+      "home_score": 3,
+      "away_score": 7
+    },
+    {
+      "period": 2,
+      "clock": "6:07",
+      "team": "Chicago Bears",
+      "type": "FG",
+      "text": "Cairo Santos 44 Yd Field Goal",
+      "scoring_type": "Field Goal",
+      "home_score": 3,
+      "away_score": 10
+    },
+    {
+      "period": 2,
+      "clock": "1:08",
+      "team": "Chicago Bears",
+      "type": "FG",
+      "text": "Cairo Santos 38 Yd Field Goal",
+      "scoring_type": "Field Goal",
+      "home_score": 3,
+      "away_score": 13
+    },
+    {
+      "period": 2,
+      "clock": "0:30",
+      "team": "Seattle Seahawks",
+      "type": "TD",
+      "text": "Jaxon Smith-Njigba 43 Yd pass from Sam Darnold (Jason Myers PAT Failed)",
+      "scoring_type": "Touchdown",
+      "home_score": 9,
+      "away_score": 13
+    },
+    {
+      "period": 3,
+      "clock": "5:38",
+      "team": "Chicago Bears",
+      "type": "TD",
+      "text": "D'Andre Swift 1 Yd Rush (Cairo Santos Kick)",
+      "scoring_type": "Touchdown",
+      "home_score": 9,
+      "away_score": 20
+    },
+    {
+      "period": 4,
+      "clock": "11:46",
+      "team": "Seattle Seahawks",
+      "type": "TD",
+      "text": "Cooper Kupp 7 Yd pass from Sam Darnold (Sam Darnold Pass to Tory Horton for Two-Point Conversion)",
+      "scoring_type": "Touchdown",
+      "home_score": 17,
+      "away_score": 20
+    },
+    {
+      "period": 4,
+      "clock": "8:28",
+      "team": "Chicago Bears",
+      "type": "TD",
+      "text": "D'Andre Swift 5 Yd Rush (Cairo Santos Kick)",
+      "scoring_type": "Touchdown",
+      "home_score": 17,
+      "away_score": 27
+    },
+    {
+      "period": 4,
+      "clock": "4:41",
+      "team": "Chicago Bears",
+      "type": "TD",
+      "text": "D'Andre Swift 5 Yd Rush (Cairo Santos Kick)",
+      "scoring_type": "Touchdown",
+      "home_score": 17,
+      "away_score": 34
+    }
+  ],
+  "drive_summary": [
+    {
+      "team": "Seattle Seahawks",
+      "drives": 11,
+      "plays": 58,
+      "yards": 298,
+      "scoring": 3,
+      "results": {
+        "PUNT": 5,
+        "FG": 1,
+        "TD": 2,
+        "MISSED FG": 1,
+        "INT": 1,
+        "DOWNS": 1
+      }
+    },
+    {
+      "team": "Chicago Bears",
+      "drives": 12,
+      "plays": 72,
+      "yards": 351,
+      "scoring": 6,
+      "results": {
+        "TD": 4,
+        "PUNT": 3,
+        "FG": 2,
+        "END OF HALF": 1,
+        "FUMBLE": 1,
+        "END OF GAME": 1
+      }
+    }
+  ],
+  "win_probability": {
+    "provider": "espn win probability",
+    "points": 183,
+    "opening_home_pct": 56.8,
+    "closing_home_pct": 0,
+    "largest_swing": {
+      "delta": 0.18,
+      "from": 0.26,
+      "to": 0.44,
+      "play_id": "4018730361939"
+    }
+  },
+  "leaders": [
+    {
+      "team": "Seattle Seahawks",
+      "category": "Passing Yards",
+      "athlete": "Sam Darnold",
+      "position": "QB",
+      "line": "17/34, 188 YDS, 2 TD, 1 INT"
+    },
+    {
+      "team": "Seattle Seahawks",
+      "category": "Rushing Yards",
+      "athlete": "Jadarian Price",
+      "position": "RB",
+      "line": "10 CAR, 29 YDS"
+    },
+    {
+      "team": "Seattle Seahawks",
+      "category": "Receiving Yards",
+      "athlete": "Jaxon Smith-Njigba",
+      "position": "WR",
+      "line": "6 REC, 118 YDS, 1 TD"
+    },
+    {
+      "team": "Seattle Seahawks",
+      "category": "Sacks",
+      "athlete": "Mike Morris",
+      "position": "DE",
+      "line": "1"
+    },
+    {
+      "team": "Seattle Seahawks",
+      "category": "Tackles",
+      "athlete": "Ernest Jones IV",
+      "position": "LB",
+      "line": "13"
+    },
+    {
+      "team": "Chicago Bears",
+      "category": "Passing Yards",
+      "athlete": "Caleb Williams",
+      "position": "QB",
+      "line": "24/34, 247 YDS, 1 TD"
+    },
+    {
+      "team": "Chicago Bears",
+      "category": "Rushing Yards",
+      "athlete": "D'Andre Swift",
+      "position": "RB",
+      "line": "27 CAR, 69 YDS, 3 TD"
+    },
+    {
+      "team": "Chicago Bears",
+      "category": "Receiving Yards",
+      "athlete": "Rome Odunze",
+      "position": "WR",
+      "line": "4 REC, 87 YDS"
+    },
+    {
+      "team": "Chicago Bears",
+      "category": "Sacks",
+      "athlete": "Montez Sweat",
+      "position": "DE",
+      "line": "1"
+    },
+    {
+      "team": "Chicago Bears",
+      "category": "Tackles",
+      "athlete": "Jeffery Simmons",
+      "position": "DT",
+      "line": "6"
+    }
+  ],
+  "stat_fields_seen": [
+    "completionAttempts",
+    "defensiveTouchdowns",
+    "firstDowns",
+    "firstDownsPassing",
+    "firstDownsPenalty",
+    "firstDownsRushing",
+    "fourthDownEff",
+    "fumblesLost",
+    "interceptions",
+    "netPassingYards",
+    "possessionTime",
+    "redZoneAttempts",
+    "rushingAttempts",
+    "rushingYards",
+    "sacksYardsLost",
+    "thirdDownEff",
+    "totalDrives",
+    "totalOffensivePlays",
+    "totalPenaltiesYards",
+    "totalYards",
+    "turnovers",
+    "yardsPerPass",
+    "yardsPerPlay",
+    "yardsPerRushAttempt"
+  ],
+  "primary_source": "espn_summary",
+  "agreed_by": [
+    "espn_summary",
+    "espn_scoreboard",
+    "nflverse",
+    "collective settlement record"
+  ],
+  "source_notes": [
+    {
+      "source": "espn",
+      "note": "event id 401873036 (nflverse games.csv `espn` column)"
+    },
+    {
+      "source": "espn_summary",
+      "note": "24 box-score fields"
+    },
+    {
+      "source": "espn_scoreboard",
+      "note": "STATUS_FINAL on 20261102"
+    },
+    {
+      "source": "nflverse",
+      "note": "final carried"
+    },
+    {
+      "source": "collective/settled",
+      "note": "final carried"
+    }
+  ],
+  "metric_vocabulary_version": "edgedesk_game_result_v1"
+}

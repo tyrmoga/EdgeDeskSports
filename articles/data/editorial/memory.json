@@ -1,9 +1,9 @@
 {
   "schema": "edgedesk_research_memory_v1",
-  "generated_at": "2026-11-03T04:07:11.692Z",
+  "generated_at": "2026-11-03T06:06:12.313Z",
   "min_sample": 8,
   "lessons": 232,
-  "graded_games": 86,
+  "graded_games": 87,
   "categories": [
     {
       "category": "market",
@@ -115,7 +115,7 @@
     "What share of winning wagers had incorrect reasoning?": "84.6% (11 of 13).",
     "What share of losing wagers still showed a defensible process?": "41.7% (5 of 12).",
     "Which model drivers fail most often?": "market (39 contradicted of 72), scoring (29 contradicted of 29), passing (17 contradicted of 17)",
-    "Where does EdgeDesk disagree with the market, and is it worth anything?": "under 2 points: 17 games, 35.3% landed; 2 to 4 points: 22 games, 63.6% landed; 4 to 7 points: 17 games, 43.8% landed; 7 points or more: 22 games, 77.3% landed",
+    "Where does EdgeDesk disagree with the market, and is it worth anything?": "under 2 points: 17 games, 35.3% landed; 2 to 4 points: 22 games, 63.6% landed; 4 to 7 points: 17 games, 43.8% landed; 7 points or more: 23 games, 73.9% landed",
     "Has the market moved toward EdgeDesk after publication?": "Average +1.7 points of line movement toward EdgeDesk’s side across 25 games with a captured close."
   },
   "disagreement_buckets": [
@@ -145,10 +145,10 @@
     },
     {
       "label": "7 points or more",
-      "n": 22,
+      "n": 23,
       "wins": 17,
-      "losses": 5,
-      "hit_rate": 77.3,
+      "losses": 6,
+      "hit_rate": 73.9,
       "note": null
     }
   ],
