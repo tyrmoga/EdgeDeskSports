@@ -1,6 +1,6 @@
 {
  "schema": "edgedesk_football_model_record_summary_v1",
- "generated_at": "2026-11-02T06:45:29.552Z",
+ "generated_at": "2026-11-03T01:39:31.465Z",
  "season": 2026,
  "what": "The football model’s own record: the number it published before kickoff, graded against the closing line and the final. Separate from the edges record, which grades flagged prices.",
  "rules": [
@@ -35,8 +35,8 @@
    ],
    "counts": {
     "recorded": 121,
-    "pregame": 17,
-    "awaiting_final": 0,
+    "pregame": 16,
+    "awaiting_final": 1,
     "final_no_close": 0,
     "graded": 104,
     "revised": 106,
@@ -422,8 +422,8 @@
     "edgedesk_cfb_p4_v1.0.1"
    ],
    "counts": {
-    "recorded": 591,
-    "pregame": 69,
+    "recorded": 592,
+    "pregame": 70,
     "awaiting_final": 0,
     "final_no_close": 0,
     "graded": 522,
@@ -798,7 +798,7 @@
     },
     {
      "week": 11,
-     "recorded": 6,
+     "recorded": 7,
      "graded": 0,
      "ats": {
       "n": 0,
@@ -1031,8 +1031,8 @@
   },
   "other_fbs": {
    "counts": {
-    "recorded": 239,
-    "pregame": 37,
+    "recorded": 240,
+    "pregame": 38,
     "awaiting_final": 0,
     "final_no_close": 0,
     "graded": 202,
