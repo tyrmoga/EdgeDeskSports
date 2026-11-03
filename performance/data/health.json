@@ -1,6 +1,6 @@
 {
  "schema": "edgedesk_perf_health_v1",
- "generated_at": "2026-11-02T23:56:58.048Z",
+ "generated_at": "2026-11-03T01:14:23.069Z",
  "status": "WARN",
  "items": [
   {
@@ -13,7 +13,7 @@
      "event_key": "MENSCOLLEGEBASKETBALL|401906769",
      "sport": "ncaab_m",
      "pending": "NOT_FINAL",
-     "hours_past_start": 19,
+     "hours_past_start": 20,
      "start_utc": "2026-11-02T05:00:00.000Z",
      "home": "Florida Gators",
      "away": "Miami Hurricanes"
@@ -22,7 +22,7 @@
      "event_key": "MENSCOLLEGEBASKETBALL|401906779",
      "sport": "ncaab_m",
      "pending": "NOT_FINAL",
-     "hours_past_start": 19,
+     "hours_past_start": 20,
      "start_utc": "2026-11-02T05:00:00.000Z",
      "home": "Georgia Bulldogs",
      "away": "North Carolina Central Eagles"
@@ -31,7 +31,7 @@
      "event_key": "MENSCOLLEGEBASKETBALL|401906791",
      "sport": "ncaab_m",
      "pending": "NOT_FINAL",
-     "hours_past_start": 19,
+     "hours_past_start": 20,
      "start_utc": "2026-11-02T05:00:00.000Z",
      "home": "Mississippi State Bulldogs",
      "away": "Tennessee Tech Golden Eagles"
@@ -40,7 +40,7 @@
      "event_key": "MENSCOLLEGEBASKETBALL|401906801",
      "sport": "ncaab_m",
      "pending": "NOT_FINAL",
-     "hours_past_start": 19,
+     "hours_past_start": 20,
      "start_utc": "2026-11-02T05:00:00.000Z",
      "home": "Oklahoma Sooners",
      "away": "East Texas A&M Lions"
@@ -49,7 +49,7 @@
      "event_key": "MENSCOLLEGEBASKETBALL|401906863",
      "sport": "ncaab_m",
      "pending": "NOT_FINAL",
-     "hours_past_start": 19,
+     "hours_past_start": 20,
      "start_utc": "2026-11-02T05:00:00.000Z",
      "home": "Texas Longhorns",
      "away": "Chicago State Cougars"
@@ -58,7 +58,7 @@
      "event_key": "MENSCOLLEGEBASKETBALL|401909490",
      "sport": "ncaab_m",
      "pending": "NOT_FINAL",
-     "hours_past_start": 19,
+     "hours_past_start": 20,
      "start_utc": "2026-11-02T05:00:00.000Z",
      "home": "Creighton Bluejays",
      "away": "Kansas City Roos"
@@ -67,7 +67,7 @@
      "event_key": "MENSCOLLEGEBASKETBALL|401909522",
      "sport": "ncaab_m",
      "pending": "NOT_FINAL",
-     "hours_past_start": 19,
+     "hours_past_start": 20,
      "start_utc": "2026-11-02T05:00:00.000Z",
      "home": "Marquette Golden Eagles",
      "away": "Mercyhurst Lakers"
@@ -76,7 +76,7 @@
      "event_key": "MENSCOLLEGEBASKETBALL|401909541",
      "sport": "ncaab_m",
      "pending": "NOT_FINAL",
-     "hours_past_start": 19,
+     "hours_past_start": 20,
      "start_utc": "2026-11-02T05:00:00.000Z",
      "home": "Xavier Musketeers",
      "away": "Mount St. Mary's Mountaineers"
@@ -85,7 +85,7 @@
      "event_key": "MENSCOLLEGEBASKETBALL|401909562",
      "sport": "ncaab_m",
      "pending": "NOT_FINAL",
-     "hours_past_start": 19,
+     "hours_past_start": 20,
      "start_utc": "2026-11-02T05:00:00.000Z",
      "home": "Duke Blue Devils",
      "away": "Army Black Knights"
@@ -94,7 +94,7 @@
      "event_key": "MENSCOLLEGEBASKETBALL|401909705",
      "sport": "ncaab_m",
      "pending": "NOT_FINAL",
-     "hours_past_start": 19,
+     "hours_past_start": 20,
      "start_utc": "2026-11-02T05:00:00.000Z",
      "home": "Pittsburgh Panthers",
      "away": "Rider Broncs"
@@ -103,7 +103,7 @@
      "event_key": "MENSCOLLEGEBASKETBALL|401909716",
      "sport": "ncaab_m",
      "pending": "NOT_FINAL",
-     "hours_past_start": 19,
+     "hours_past_start": 20,
      "start_utc": "2026-11-02T05:00:00.000Z",
      "home": "Syracuse Orange",
      "away": "New Haven Chargers"
@@ -112,7 +112,7 @@
      "event_key": "MENSCOLLEGEBASKETBALL|401909759",
      "sport": "ncaab_m",
      "pending": "NOT_FINAL",
-     "hours_past_start": 19,
+     "hours_past_start": 20,
      "start_utc": "2026-11-02T05:00:00.000Z",
      "home": "Colorado Buffaloes",
      "away": "Abilene Christian Wildcats"
@@ -127,11 +127,11 @@
   }
  ],
  "counts": {
-  "forecasts": 4307,
-  "results": 921,
-  "grades": 921,
+  "forecasts": 4316,
+  "results": 923,
+  "grades": 923,
   "quotes": 4112,
-  "research_grades": 15554,
-  "grade_outcomes": 474
+  "research_grades": 15593,
+  "grade_outcomes": 476
  }
 }
