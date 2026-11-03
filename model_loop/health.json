@@ -1,6 +1,6 @@
 {
  "schema": "edgedesk_model_loop_health_v1",
- "generated_at": "2026-11-02T19:24:29Z",
+ "generated_at": "2026-11-03T02:52:27Z",
  "status": "OK",
  "summary": {
   "OK": 10,
@@ -28,8 +28,8 @@
     "promoted_by": "owner",
     "versions": 3
    },
-   "refreshed_at": "2026-11-01T18:37:27Z",
-   "refreshed_age_h": 24.8,
+   "refreshed_at": "2026-11-02T22:31:15Z",
+   "refreshed_age_h": 4.4,
    "research": {
     "file": "docs/model-loop/nfl/weekly/2026-w07.json",
     "at": "2026-10-27T19:28:42Z",
@@ -37,13 +37,13 @@
     "candidates": 10
    },
    "data": {
-    "games_published": 29,
+    "games_published": 17,
     "data_status": {
      "status": "OK",
      "reasons": [],
-     "games_flagged": 16,
+     "games_flagged": 1,
      "missing_results": [],
-     "checked_at": "2026-11-01T18:37:27Z"
+     "checked_at": "2026-11-02T22:31:15Z"
     },
     "graded_games": 14
    },
@@ -61,8 +61,8 @@
     "promoted_by": "preregistered-rule",
     "versions": 3
    },
-   "refreshed_at": "2026-11-02T02:44:13Z",
-   "refreshed_age_h": 16.7,
+   "refreshed_at": "2026-11-02T22:30:10Z",
+   "refreshed_age_h": 4.4,
    "research": {
     "file": "docs/model-loop/cfb/weekly/2026-w09.json",
     "at": "2026-11-01T01:31:56Z",
@@ -74,9 +74,9 @@
     "data_status": {
      "status": "OK",
      "reasons": [],
-     "games_flagged": 33,
+     "games_flagged": 7,
      "missing_results": [],
-     "checked_at": "2026-11-02T02:44:14Z"
+     "checked_at": "2026-11-02T22:30:11Z"
     },
     "graded_games": 95
    },
@@ -94,8 +94,8 @@
     "promoted_by": "selection-window tuning",
     "versions": 2
    },
-   "refreshed_at": "2026-11-01T16:01:08Z",
-   "refreshed_age_h": 27.4,
+   "refreshed_at": "2026-11-02T19:29:20Z",
+   "refreshed_age_h": 7.4,
    "research": {
     "file": "docs/model-loop/nba/weekly/2026-10-26.json",
     "at": "2026-10-26T17:17:04Z",
@@ -103,7 +103,7 @@
     "candidates": 8
    },
    "data": {
-    "last_game_date": "2026-10-31",
+    "last_game_date": "2026-11-01",
     "for_season": 2027
    },
    "workflow": ".github/workflows/model-loop-basketball.yml"
@@ -120,8 +120,8 @@
     "promoted_by": "selection-window tuning",
     "versions": 1
    },
-   "refreshed_at": "2026-11-01T16:01:08Z",
-   "refreshed_age_h": 27.4,
+   "refreshed_at": "2026-11-02T19:29:20Z",
+   "refreshed_age_h": 7.4,
    "research": {
     "file": "docs/model-loop/wnba/weekly/2026-10-26.json",
     "at": "2026-10-26T17:17:05Z",
@@ -146,8 +146,8 @@
     "promoted_by": "weekly-loop",
     "versions": 2
    },
-   "refreshed_at": "2026-11-01T16:01:26Z",
-   "refreshed_age_h": 27.4,
+   "refreshed_at": "2026-11-02T19:29:39Z",
+   "refreshed_age_h": 7.4,
    "research": {
     "file": "docs/model-loop/ncaam/weekly/2026-10-26.json",
     "at": "2026-10-26T17:19:45Z",
@@ -155,7 +155,7 @@
     "candidates": 8
    },
    "data": {
-    "last_game_date": "2026-04-06",
+    "last_game_date": "2026-11-01",
     "for_season": 2027
    },
    "workflow": ".github/workflows/model-loop-basketball.yml"
@@ -172,8 +172,8 @@
     "promoted_by": "weekly-loop",
     "versions": 3
    },
-   "refreshed_at": "2026-11-01T16:01:42Z",
-   "refreshed_age_h": 27.4,
+   "refreshed_at": "2026-11-02T19:29:57Z",
+   "refreshed_age_h": 7.4,
    "research": {
     "file": "docs/model-loop/ncaaw/weekly/2026-10-26.json",
     "at": "2026-10-26T17:22:08Z",
@@ -181,7 +181,7 @@
     "candidates": 8
    },
    "data": {
-    "last_game_date": "2026-04-05",
+    "last_game_date": "2026-11-01",
     "for_season": 2027
    },
    "workflow": ".github/workflows/model-loop-basketball.yml"
@@ -199,7 +199,7 @@
     "versions": 4
    },
    "refreshed_at": "2026-11-01T19:15:52Z",
-   "refreshed_age_h": 24.1,
+   "refreshed_age_h": 31.6,
    "research": {
     "file": "docs/model-loop/ufc/weekly/2026-11-01.json",
     "at": "2026-11-01T19:16:09Z",
@@ -280,17 +280,17 @@
     "since": "2026-10-29T13:26:41.104Z",
     "promoted_by": "its own protocol (hockey/model/walkforward.js)"
    },
-   "refreshed_at": "2026-11-02T16:31:55Z",
-   "refreshed_age_h": 2.9,
+   "refreshed_at": "2026-11-03T01:12:42Z",
+   "refreshed_age_h": 1.7,
    "research": {
-    "file": "docs/model-loop/nhl/weekly/2026-10-26.json",
-    "at": "2026-10-26T17:39:55Z",
+    "file": "docs/model-loop/nhl/weekly/2026-11-02.json",
+    "at": "2026-11-02T20:54:34Z",
     "promoted": null,
     "candidates": 0
    },
    "data": {
     "graded": 142,
-    "games_priced": 175,
+    "games_priced": 184,
     "missing_results": 0,
     "unpriced": 0,
     "validated_at": "2026-10-29T13:26:41.104Z"
@@ -308,16 +308,16 @@
     "since": "2026-10-28T18:57:44.496Z",
     "promoted_by": "its own protocol (nba/model/walkforward.js)"
    },
-   "refreshed_at": "2026-11-02T06:29:44Z",
-   "refreshed_age_h": 12.9,
+   "refreshed_at": "2026-11-02T19:41:07Z",
+   "refreshed_age_h": 7.2,
    "research": {
-    "file": "docs/model-loop/nba_engine/weekly/2026-10-26.json",
-    "at": "2026-10-26T17:39:55Z",
+    "file": "docs/model-loop/nba_engine/weekly/2026-11-02.json",
+    "at": "2026-11-02T20:54:34Z",
     "promoted": null,
     "candidates": 0
    },
    "data": {
-    "graded": 88,
+    "graded": 92,
     "games_priced": 121,
     "missing_results": 0,
     "unpriced": 0,
@@ -332,10 +332,10 @@
    "label": "Collegiate collector",
    "status": "OK",
    "reasons": [
-    "backfill baseball-boxscores-2013-2026: in progress (640 read on 2026-11-01, 1846 left)",
+    "backfill baseball-boxscores-2013-2026: in progress (295 read on 2026-11-02, 1551 left)",
     "6 host(s) refused automated reads and are left alone (collegiate/data/refusals.jsonl)"
    ],
-   "last_run": "2026-11-01",
+   "last_run": "2026-11-02",
    "schools": {
     "listed": 1170,
     "schools": 1103,
@@ -480,10 +480,10 @@
      "id": "baseball-boxscores-2013-2026",
      "planned": 93616,
      "unjoinable": 2978,
-     "ok": 640,
-     "left": 1846,
+     "ok": 295,
+     "left": 1551,
      "misses_by_reason": {
-      "NO_BOXSCORE": 729,
+      "NO_BOXSCORE": 743,
       "HTTP": 5,
       "NO_TEAM_CODE": 141
      }
@@ -585,58 +585,58 @@
       {
        "sport": "baseball",
        "season": 2027,
-       "schools_both": 117,
-       "transfers": 1359,
-       "matched_both_ends": 311
+       "schools_both": 218,
+       "transfers": 2380,
+       "matched_both_ends": 812
       },
       {
        "sport": "football",
        "season": 2026,
-       "schools_both": 130,
-       "transfers": 3203,
-       "matched_both_ends": 1541
+       "schools_both": 245,
+       "transfers": 5729,
+       "matched_both_ends": 3583
       },
       {
        "sport": "mens-basketball",
        "season": 2027,
-       "schools_both": 158,
-       "transfers": 954,
-       "matched_both_ends": 405
+       "schools_both": 328,
+       "transfers": 2060,
+       "matched_both_ends": 1314
       },
       {
        "sport": "mens-soccer",
        "season": 2026,
-       "schools_both": 88,
-       "transfers": 528,
-       "matched_both_ends": 153
+       "schools_both": 197,
+       "transfers": 1058,
+       "matched_both_ends": 558
       },
       {
        "sport": "softball",
        "season": 2027,
-       "schools_both": 126,
-       "transfers": 350,
-       "matched_both_ends": 160
+       "schools_both": 247,
+       "transfers": 654,
+       "matched_both_ends": 394
       },
       {
        "sport": "womens-basketball",
        "season": 2027,
-       "schools_both": 158,
-       "transfers": 637,
-       "matched_both_ends": 275
+       "schools_both": 325,
+       "transfers": 1325,
+       "matched_both_ends": 858
       },
       {
        "sport": "womens-soccer",
        "season": 2026,
-       "schools_both": 153,
-       "transfers": 675,
-       "matched_both_ends": 322
+       "schools_both": 308,
+       "transfers": 1171,
+       "matched_both_ends": 778
       },
       {
        "sport": "womens-volleyball",
        "season": 2026,
-       "schools_both": 144,
-       "transfers": 383,
-       "matched_both_ends": 155
+       "schools_both": 305,
+       "transfers": 748,
+       "matched_both_ends": 495
       }
      ]
     }
