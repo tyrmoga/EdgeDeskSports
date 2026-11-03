@@ -2,7 +2,7 @@
  "schema": "edgedesk_collective_settled_v1",
  "sport": "NFL",
  "season": 2026,
- "generated_at": "2026-11-02T16:56:48.294Z",
+ "generated_at": "2026-11-03T06:00:27.350Z",
  "rule": "Each game is graded on the final score against the Collective's own captured closing line. A score comes only from a public feed that carries the game as completed with two integer scores, agreed by every feed that carries it; 0-0 is never a final. A missing close is null, never invented.",
  "games": {
   "00f67c05-8dbc-42d4-99bc-6c3343e55def": {
@@ -1639,6 +1639,21 @@
    "score_source": "collective",
    "settled_at": "2026-10-12T00:20:59.338Z",
    "week": 5
+  },
+  "e86d9241-c79f-48da-86c1-718836e05190": {
+   "away": "CHI",
+   "away_score": 34,
+   "close_source": null,
+   "closing_home_ml_prob": null,
+   "closing_spread": null,
+   "closing_total": null,
+   "home": "SEA",
+   "home_score": 17,
+   "kickoff_at": "2026-11-03T01:15:00+00:00",
+   "label": "CHI @ SEA",
+   "score_source": "espn+nflverse",
+   "settled_at": "2026-11-03T06:00:27.350Z",
+   "week": 8
   },
   "ea9ff087-758c-4d64-bc6c-bed29cdc1097": {
    "away": "WAS",
