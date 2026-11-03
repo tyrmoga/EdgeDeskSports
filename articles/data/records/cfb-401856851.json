@@ -21,8 +21,8 @@
   "game_time": "2026-11-07T20:30:00.000Z",
   "game_when_label": "2026-11-07 20:30 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T22:19:11.115Z",
-  "generated_at": "2026-11-02T22:19:11.115Z",
+  "updated_at": "2026-11-03T02:53:46.563Z",
+  "generated_at": "2026-11-03T02:53:46.563Z",
   "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
   "model_status": "NO MARKET",
   "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
@@ -246,7 +246,7 @@
         "source": "cfbfastR-data player_stats — play attribution",
         "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
         "published_at": "2026-10-31T19:45:00.000Z",
-        "retrieved_at": "2026-11-02T17:06:03.437Z"
+        "retrieved_at": "2026-11-03T01:37:00.834Z"
       },
       "home": {
         "team": "Houston",
@@ -330,9 +330,9 @@
         "source": "cfbfastR-data player_stats — play attribution",
         "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
         "published_at": "2026-10-25T02:15:00.000Z",
-        "retrieved_at": "2026-11-02T17:06:03.437Z"
+        "retrieved_at": "2026-11-03T01:37:00.834Z"
       },
-      "generated_at": "2026-11-02T17:06:02.030Z",
+      "generated_at": "2026-11-03T01:36:58.277Z",
       "source": "football/starters/cfb_2026.json",
       "note": "An expected starter is not a confirmed one. EdgeDesk publishes which kind of answer each of these is, and no number on this page is priced from any of them. Availability is a separate axis: an absent report is UNKNOWN and is never read as healthy."
     },
@@ -1594,7 +1594,7 @@
         "pct": 89,
         "tier": "STRONG",
         "text": "89 · STRONG",
-        "sub": "main deduction: no source has established whether Houston or Cincinnati’s starting QB can play",
+        "sub": "main deduction: Cincinnati’s availability report is not due yet",
         "score": 89,
         "grade": "STRONG",
         "grade_label": "STRONG",
@@ -1621,7 +1621,7 @@
           {
             "key": "freshness",
             "label": "Freshness",
-            "score": 12.9,
+            "score": 12.3,
             "max": 15
           },
           {
@@ -1637,22 +1637,9 @@
             "max": 10
           }
         ],
-        "main_deduction": "no source has established whether Houston or Cincinnati’s starting QB can play — a known starter nobody has cleared is not VERY STRONG information",
-        "capped_by": [
-          "QB_STATUS_UNCONFIRMED"
-        ],
-        "next_actions": [
-          {
-            "action": "Capture a market quote",
-            "potential_gain": 2,
-            "text": "up to +2 once re-read availability inside the filing window (Houston) and Re-read availability inside the filing window (Cincinnati) is done"
-          },
-          {
-            "action": "Fetch the venue forecast",
-            "potential_gain": 1,
-            "text": "up to +1 once re-read availability inside the filing window (Houston) and Re-read availability inside the filing window (Cincinnati) is done"
-          }
-        ],
+        "main_deduction": "Cincinnati’s availability report is not due yet; the impact of Cincinnati’s absences cannot be assessed: no graded availability read",
+        "capped_by": [],
+        "next_actions": [],
         "stability": {
           "tier": "VERY_STABLE",
           "sd": 0.81,
@@ -1909,7 +1896,7 @@
   },
   "football_evidence": {
     "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "l3y5h3170m2dx",
+    "packet_hash": "1syehyijdas08",
     "status": "NO_MATERIAL_DISAGREEMENT",
     "input_suspect": false,
     "question": "Can Cincinnati’s pass rush get to Conner Weigman?",
@@ -1950,8 +1937,7 @@
     },
     "unknown": [
       "EdgeDesk’s own sources disagree on sack rate allowed and sack rate for Houston and Cincinnati.",
-      "Not in EdgeDesk’s verified data for this game: turnover rates, injuries and personnel and penalty rate.",
-      "The line on file was captured Nov. 2 and may have moved."
+      "Not in EdgeDesk’s verified data for this game: turnover rates, injuries and personnel and penalty rate."
     ],
     "flags": [
       {
@@ -1965,7 +1951,7 @@
         "label": "EdgeDesk play-by-play unit metrics (2026 season)",
         "url": null,
         "path": "football/matchup/metrics.json",
-        "observed_at": "2026-11-02T21:43:05.816Z",
+        "observed_at": "2026-11-03T01:37:26.838Z",
         "verification": "VERIFIED_DATA"
       },
       {
@@ -1988,6 +1974,6 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T22:19:11.115Z"
+    "at": "2026-11-03T02:53:46.563Z"
   }
 }

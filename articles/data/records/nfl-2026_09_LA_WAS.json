@@ -23,8 +23,8 @@
   "game_time": "2026-11-08T18:00:00.000Z",
   "game_when_label": "2026-11-08 18:00 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T19:27:46.096Z",
-  "generated_at": "2026-11-02T22:19:11.115Z",
+  "updated_at": "2026-11-03T02:53:46.563Z",
+  "generated_at": "2026-11-03T02:53:46.563Z",
   "model_version": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
   "model_status": "STALE MARKET",
   "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.7-point gap is context only and the game is excluded from research ranking.",
@@ -316,7 +316,7 @@
               },
               "h": {
                 "v": "+0.013",
-                "n": 0.013190211457441649,
+                "n": 0.013190211457441646,
                 "rank": "#13 of 32",
                 "rank_n": 13,
                 "note": null
@@ -1313,6 +1313,67 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T22:19:11.115Z"
+    "at": "2026-11-03T02:53:46.563Z"
+  },
+  "football_evidence": {
+    "schema": "edgedesk_article_evidence_v1",
+    "packet_hash": "1k7pvaybynw60",
+    "status": "UNEXPLAINED",
+    "input_suspect": false,
+    "question": "Can the Commanders’ pass rush get to Matthew Stafford?",
+    "assessment": "EdgeDesk’s number is 2.7 points closer to Washington Commanders than the line, and EdgeDesk cannot account for most of that. The measured football evidence leans toward Los Angeles Rams, not toward EdgeDesk’s number. Treat the gap as an open research question, not as an edge.",
+    "gap": {
+      "points": 2.7,
+      "toward": "Washington Commanders",
+      "other": "Los Angeles Rams"
+    },
+    "supporting": [
+      "Los Angeles Rams’ pass rush ranks No. 28 of 32 in sack rate this season.",
+      "Over their last two games, Washington Commanders’ passers averaged 7.5 yards per attempt, against 6.1 before that."
+    ],
+    "contradicting": [
+      "When Los Angeles Rams have the ball: their run game ranks No. 8, and Washington Commanders’ run defense ranks No. 30.",
+      "Washington Commanders’ run defense ranks No. 30 of 32 in run defense this season.",
+      "Los Angeles Rams’ pass protection ranks No. 2 of 32 in sack rate allowed this season.",
+      "When Washington Commanders have the ball: their passing game ranks No. 17, and Los Angeles Rams’ pass defense ranks No. 9."
+    ],
+    "quarterbacks": [
+      "Washington Commanders’ passers have completed 140 of 231 (60.6%) for 1,502 yards, 6.5 yards per attempt, with 11 touchdowns, 1 interceptions and 16 sacks taken in seven games.",
+      "Los Angeles Rams’ passers have completed 206 of 306 (67.3%) for 2,159 yards, 7.1 yards per attempt, with 15 touchdowns, 8 interceptions and 12 sacks taken in eight games."
+    ],
+    "availability": [],
+    "script": {
+      "model": [
+        "The Washington Commanders have to win in the pass-rush matchup (Los Angeles Rams’ No. 2 pass protection against Washington Commanders’ No. 10 pass rush).",
+        "The Washington Commanders have to slow the Los Angeles Rams on the ground (Los Angeles Rams’ No. 8 run game against Washington Commanders’ No. 30 run defense).",
+        "The Washington Commanders have to slow the Los Angeles Rams through the air (Los Angeles Rams’ No. 10 passing game against Washington Commanders’ No. 19 pass defense)."
+      ],
+      "market": [
+        "The Los Angeles Rams have to win on the ground (Los Angeles Rams’ No. 8 run game against Washington Commanders’ No. 30 run defense).",
+        "The Los Angeles Rams have to win through the air (Los Angeles Rams’ No. 10 passing game against Washington Commanders’ No. 19 pass defense).",
+        "The Los Angeles Rams have to win in the pass-rush matchup (Los Angeles Rams’ No. 2 pass protection against Washington Commanders’ No. 10 pass rush)."
+      ]
+    },
+    "unknown": [
+      "Not in EdgeDesk’s verified data for this game: offensive efficiency, third-down conversion, red-zone production, recent opponent strength, third-down defense, red-zone defense, position-group advantages, turnover rates, home field, strength of schedule, injuries and personnel and conference implications."
+    ],
+    "flags": [],
+    "sources": [
+      {
+        "label": "EdgeDesk NFL team ratings (2026)",
+        "url": null,
+        "path": "football/nfl/slate.json",
+        "observed_at": "2026-11-03T01:37:30.874Z",
+        "verification": "VERIFIED_DATA"
+      },
+      {
+        "label": "nflverse team-week stats (2026)",
+        "url": null,
+        "path": "football/nfl/stats_team_week_2026.csv",
+        "observed_at": "2026-11-03T02:53:37.760Z",
+        "verification": "VERIFIED_DATA"
+      }
+    ],
+    "needs_confirmation": []
   }
 }

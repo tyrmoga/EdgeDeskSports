@@ -23,8 +23,8 @@
   "game_time": "2026-11-10T01:15:00.000Z",
   "game_when_label": "2026-11-10 01:15 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T22:19:11.115Z",
-  "generated_at": "2026-11-02T22:19:11.115Z",
+  "updated_at": "2026-11-03T02:53:46.563Z",
+  "generated_at": "2026-11-03T02:53:46.563Z",
   "model_version": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
   "model_status": "STALE MARKET",
   "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 3.0-point gap is context only and the game is excluded from research ranking.",
@@ -70,7 +70,7 @@
     ],
     "projection": {
       "priced": true,
-      "fair_spread": -0.5399534966445664,
+      "fair_spread": -0.5399534966445657,
       "fair_spread_text": "Minnesota Vikings +0.5",
       "fair_spread_raw_text": "Minnesota Vikings +0.5",
       "favourite": "Buffalo Bills",
@@ -157,7 +157,7 @@
         },
         {
           "points": "-0.2",
-          "points_n": -0.18756121148792582,
+          "points_n": -0.18756121148792523,
           "text": "Quarterback — Buffalo Bills by 0.2 points",
           "favours": "Buffalo Bills"
         },
@@ -239,14 +239,14 @@
               },
               "h": {
                 "v": "+0.047",
-                "n": 0.04698591843119912,
+                "n": 0.04698591843119915,
                 "rank": "#10 of 32",
                 "rank_n": 10,
                 "note": null
               },
               "edge": {
                 "side": "a",
-                "gap": 0.11560536916440359,
+                "gap": 0.11560536916440356,
                 "rank_gap": 8
               }
             },
@@ -441,14 +441,14 @@
               },
               "h": {
                 "v": "−0.172",
-                "n": -0.172249498000663,
+                "n": -0.17224949800066303,
                 "rank": "#1 of 32",
                 "rank_n": 1,
                 "note": null
               },
               "edge": {
                 "side": "h",
-                "gap": 0.17600118212619822,
+                "gap": 0.17600118212619825,
                 "rank_gap": 14
               }
             },
@@ -739,7 +739,7 @@
         {
           "k": "Defence · EPA allowed per play",
           "rank_gap": 14,
-          "gap": 0.17600118212619822,
+          "gap": 0.17600118212619825,
           "lead": "Minnesota Vikings",
           "trail": "Buffalo Bills",
           "lead_cell": "−0.172 · #1 of 32",
@@ -1326,6 +1326,68 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T22:19:11.115Z"
+    "at": "2026-11-03T02:53:46.563Z"
+  },
+  "football_evidence": {
+    "schema": "edgedesk_article_evidence_v1",
+    "packet_hash": "bp4ka5khxuhb",
+    "status": "UNEXPLAINED",
+    "input_suspect": false,
+    "question": "Can the Vikings’ pass defense slow the Bills’ passing game?",
+    "assessment": "EdgeDesk’s number is 3.0 points closer to Minnesota Vikings than the line, and EdgeDesk cannot account for most of that. The measured football evidence leans toward Buffalo Bills, not toward EdgeDesk’s number. Treat the gap as an open research question, not as an edge.",
+    "gap": {
+      "points": 3,
+      "toward": "Minnesota Vikings",
+      "other": "Buffalo Bills"
+    },
+    "supporting": [
+      "When Buffalo Bills have the ball: their pass protection ranks No. 13, and Minnesota Vikings’ pass rush ranks No. 1.",
+      "Minnesota Vikings’ defense ranks No. 1 of 32 in efficiency allowed per play this season.",
+      "Minnesota Vikings’ pass defense ranks No. 1 of 32 in pass defense this season.",
+      "Minnesota Vikings’ pass rush ranks No. 1 of 32 in sack rate this season."
+    ],
+    "contradicting": [
+      "When Minnesota Vikings have the ball: their passing game ranks No. 29, and Buffalo Bills’ pass defense ranks No. 11.",
+      "Minnesota Vikings’ offense ranks No. 31 of 32 in efficiency per play this season.",
+      "Minnesota Vikings’ passing offense ranks No. 29 of 32 in passing efficiency this season.",
+      "Minnesota Vikings’ pass protection ranks No. 31 of 32 in sack rate allowed this season."
+    ],
+    "quarterbacks": [
+      "Minnesota Vikings’ passers have completed 123 of 193 (63.7%) for 1,298 yards, 6.7 yards per attempt, with 8 touchdowns, 3 interceptions and 21 sacks taken in seven games.",
+      "Buffalo Bills’ passers have completed 135 of 205 (65.9%) for 1,793 yards, 8.7 yards per attempt, with 11 touchdowns, 5 interceptions and 13 sacks taken in seven games."
+    ],
+    "availability": [],
+    "script": {
+      "model": [
+        "The Minnesota Vikings have to win through the air (Buffalo Bills’ No. 1 passing game against Minnesota Vikings’ No. 1 pass defense).",
+        "The Minnesota Vikings have to hold their own through the air (Minnesota Vikings’ No. 29 passing game against Buffalo Bills’ No. 11 pass defense).",
+        "The Minnesota Vikings have to win in the pass-rush matchup (Buffalo Bills’ No. 13 pass protection against Minnesota Vikings’ No. 1 pass rush)."
+      ],
+      "market": [
+        "The Buffalo Bills have to win through the air (Minnesota Vikings’ No. 29 passing game against Buffalo Bills’ No. 11 pass defense).",
+        "The Buffalo Bills have to win through the air (Buffalo Bills’ No. 1 passing game against Minnesota Vikings’ No. 1 pass defense)."
+      ]
+    },
+    "unknown": [
+      "Not in EdgeDesk’s verified data for this game: offensive efficiency, third-down conversion, red-zone production, recent opponent strength, third-down defense, red-zone defense, position-group advantages, turnover rates, home field, strength of schedule, injuries and personnel and conference implications."
+    ],
+    "flags": [],
+    "sources": [
+      {
+        "label": "EdgeDesk NFL team ratings (2026)",
+        "url": null,
+        "path": "football/nfl/slate.json",
+        "observed_at": "2026-11-03T01:37:30.874Z",
+        "verification": "VERIFIED_DATA"
+      },
+      {
+        "label": "nflverse team-week stats (2026)",
+        "url": null,
+        "path": "football/nfl/stats_team_week_2026.csv",
+        "observed_at": "2026-11-03T02:53:37.760Z",
+        "verification": "VERIFIED_DATA"
+      }
+    ],
+    "needs_confirmation": []
   }
 }

@@ -23,8 +23,8 @@
   "game_time": "2026-11-08T18:00:00.000Z",
   "game_when_label": "2026-11-08 18:00 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T19:27:46.096Z",
-  "generated_at": "2026-11-02T22:19:11.115Z",
+  "updated_at": "2026-11-03T02:53:46.563Z",
+  "generated_at": "2026-11-03T02:53:46.563Z",
   "model_version": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
   "model_status": "STALE MARKET",
   "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 1.9-point gap is context only and the game is excluded from research ranking.",
@@ -434,7 +434,7 @@
               "note": null,
               "a": {
                 "v": "−0.017",
-                "n": -0.01749980708836943,
+                "n": -0.017499807088369432,
                 "rank": "#11 of 32",
                 "rank_n": 11,
                 "note": null
@@ -448,7 +448,7 @@
               },
               "edge": {
                 "side": "a",
-                "gap": 0.05924969922999428,
+                "gap": 0.05924969922999429,
                 "rank_gap": 11
               }
             },
@@ -677,7 +677,7 @@
         {
           "k": "Defence · EPA allowed per play",
           "rank_gap": 11,
-          "gap": 0.05924969922999428,
+          "gap": 0.05924969922999429,
           "lead": "Cleveland Browns",
           "trail": "New Orleans Saints",
           "lead_cell": "−0.017 · #11 of 32",
@@ -1326,6 +1326,70 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T22:19:11.115Z"
+    "at": "2026-11-03T02:53:46.563Z"
+  },
+  "football_evidence": {
+    "schema": "edgedesk_article_evidence_v1",
+    "packet_hash": "1jrzusc1o5oxj2",
+    "status": "NO_MATERIAL_DISAGREEMENT",
+    "input_suspect": false,
+    "question": "Can the Browns’ pass rush get to Tyler Shough?",
+    "assessment": "No material disagreement: EdgeDesk and the line are within 1.9 points.",
+    "gap": {
+      "points": 1.9,
+      "toward": "New Orleans Saints",
+      "other": "Cleveland Browns"
+    },
+    "supporting": [
+      "When Cleveland Browns have the ball: their pass protection ranks No. 32, and New Orleans Saints’ pass rush ranks No. 15.",
+      "Cleveland Browns’ offense ranks No. 30 of 32 in efficiency per play this season.",
+      "Cleveland Browns’ passing offense ranks No. 31 of 32 in passing efficiency this season.",
+      "Cleveland Browns’ pass protection ranks No. 32 of 32 in sack rate allowed this season."
+    ],
+    "contradicting": [
+      "New Orleans Saints’ running game ranks No. 30 of 32 in rushing efficiency this season.",
+      "New Orleans Saints’ explosive passing ranks No. 31 of 32 in explosive pass rate this season.",
+      "New Orleans Saints’ explosive passes allowed ranks No. 30 of 32 in explosive passes allowed this season.",
+      "When New Orleans Saints have the ball: their passing game ranks No. 18, and Cleveland Browns’ pass defense ranks No. 10."
+    ],
+    "quarterbacks": [
+      "New Orleans Saints’ passers have completed 183 of 273 (67.0%) for 1,721 yards, 6.3 yards per attempt, with 13 touchdowns, 6 interceptions and 15 sacks taken in seven games.",
+      "Cleveland Browns’ passers have completed 166 of 252 (65.9%) for 1,808 yards, 7.2 yards per attempt, with 7 touchdowns, 3 interceptions and 33 sacks taken in eight games."
+    ],
+    "availability": [],
+    "script": {
+      "model": [
+        "The New Orleans Saints have to win in the pass-rush matchup (New Orleans Saints’ No. 8 pass protection against Cleveland Browns’ No. 11 pass rush).",
+        "The New Orleans Saints have to hold their own through the air (New Orleans Saints’ No. 18 passing game against Cleveland Browns’ No. 10 pass defense).",
+        "The New Orleans Saints have to hold their own on the ground (New Orleans Saints’ No. 30 run game against Cleveland Browns’ No. 22 run defense).",
+        "The New Orleans Saints have to win in the pass-rush matchup (Cleveland Browns’ No. 32 pass protection against New Orleans Saints’ No. 15 pass rush)."
+      ],
+      "market": [
+        "The Cleveland Browns have to win through the air (New Orleans Saints’ No. 18 passing game against Cleveland Browns’ No. 10 pass defense).",
+        "The Cleveland Browns have to win on the ground (New Orleans Saints’ No. 30 run game against Cleveland Browns’ No. 22 run defense).",
+        "The Cleveland Browns have to win in the pass-rush matchup (New Orleans Saints’ No. 8 pass protection against Cleveland Browns’ No. 11 pass rush)."
+      ]
+    },
+    "unknown": [
+      "Not in EdgeDesk’s verified data for this game: offensive efficiency, third-down conversion, red-zone production, recent opponent strength, third-down defense, red-zone defense, position-group advantages, turnover rates, home field, strength of schedule, injuries and personnel and conference implications."
+    ],
+    "flags": [],
+    "sources": [
+      {
+        "label": "EdgeDesk NFL team ratings (2026)",
+        "url": null,
+        "path": "football/nfl/slate.json",
+        "observed_at": "2026-11-03T01:37:30.874Z",
+        "verification": "VERIFIED_DATA"
+      },
+      {
+        "label": "nflverse team-week stats (2026)",
+        "url": null,
+        "path": "football/nfl/stats_team_week_2026.csv",
+        "observed_at": "2026-11-03T02:53:37.760Z",
+        "verification": "VERIFIED_DATA"
+      }
+    ],
+    "needs_confirmation": []
   }
 }

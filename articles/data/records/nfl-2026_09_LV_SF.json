@@ -22,7 +22,7 @@
   "game_when_label": "2026-11-08 21:05 UTC",
   "published_at": null,
   "updated_at": "2026-11-02T22:19:11.115Z",
-  "generated_at": "2026-11-02T22:19:11.115Z",
+  "generated_at": "2026-11-03T02:53:46.563Z",
   "model_version": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
   "model_status": "STALE MARKET",
   "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 0.4-point gap is context only and the game is excluded from research ranking.",
@@ -1287,6 +1287,65 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T22:19:11.115Z"
+    "at": "2026-11-03T02:53:46.563Z"
+  },
+  "football_evidence": {
+    "schema": "edgedesk_article_evidence_v1",
+    "packet_hash": "1vzqdwfqpiakd",
+    "status": "NO_MATERIAL_DISAGREEMENT",
+    "input_suspect": false,
+    "question": "Can the Raiders’ pass defense slow the 49ers’ passing game?",
+    "assessment": "No material disagreement: EdgeDesk and the line are within 0.4 points.",
+    "gap": {
+      "points": 0.4,
+      "toward": "Las Vegas Raiders",
+      "other": "San Francisco 49ers"
+    },
+    "supporting": [
+      "When Las Vegas Raiders have the ball: their pass protection ranks No. 16, and San Francisco 49ers’ pass rush ranks No. 24."
+    ],
+    "contradicting": [
+      "When San Francisco 49ers have the ball: their passing game ranks No. 3, and Las Vegas Raiders’ pass defense ranks No. 27.",
+      "When San Francisco 49ers have the ball: their run game ranks No. 3, and Las Vegas Raiders’ run defense ranks No. 20.",
+      "When San Francisco 49ers have the ball: their pass protection ranks No. 1, and Las Vegas Raiders’ pass rush ranks No. 19.",
+      "When Las Vegas Raiders have the ball: their run game ranks No. 32, and San Francisco 49ers’ run defense ranks No. 14."
+    ],
+    "quarterbacks": [
+      "San Francisco 49ers’ passers have completed 146 of 211 (69.2%) for 1,748 yards, 8.3 yards per attempt, with 15 touchdowns, 4 interceptions and 7 sacks taken in seven games.",
+      "Las Vegas Raiders’ passers have completed 187 of 292 (64.0%) for 2,185 yards, 7.5 yards per attempt, with 19 touchdowns, 5 interceptions and 11 sacks taken in eight games."
+    ],
+    "availability": [],
+    "script": {
+      "model": [
+        "The Las Vegas Raiders have to win through the air (San Francisco 49ers’ No. 3 passing game against Las Vegas Raiders’ No. 27 pass defense).",
+        "The Las Vegas Raiders have to slow the San Francisco 49ers in the pass-rush matchup (San Francisco 49ers’ No. 1 pass protection against Las Vegas Raiders’ No. 19 pass rush).",
+        "The Las Vegas Raiders have to win in the pass-rush matchup (Las Vegas Raiders’ No. 16 pass protection against San Francisco 49ers’ No. 24 pass rush)."
+      ],
+      "market": [
+        "The San Francisco 49ers have to win through the air (San Francisco 49ers’ No. 3 passing game against Las Vegas Raiders’ No. 27 pass defense).",
+        "The San Francisco 49ers have to win in the pass-rush matchup (San Francisco 49ers’ No. 1 pass protection against Las Vegas Raiders’ No. 19 pass rush)."
+      ]
+    },
+    "unknown": [
+      "Not in EdgeDesk’s verified data for this game: offensive efficiency, third-down conversion, red-zone production, recent opponent strength, third-down defense, red-zone defense, position-group advantages, turnover rates, home field, strength of schedule, injuries and personnel and conference implications."
+    ],
+    "flags": [],
+    "sources": [
+      {
+        "label": "EdgeDesk NFL team ratings (2026)",
+        "url": null,
+        "path": "football/nfl/slate.json",
+        "observed_at": "2026-11-03T01:37:30.874Z",
+        "verification": "VERIFIED_DATA"
+      },
+      {
+        "label": "nflverse team-week stats (2026)",
+        "url": null,
+        "path": "football/nfl/stats_team_week_2026.csv",
+        "observed_at": "2026-11-03T02:53:37.760Z",
+        "verification": "VERIFIED_DATA"
+      }
+    ],
+    "needs_confirmation": []
   }
 }

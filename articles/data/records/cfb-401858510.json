@@ -21,8 +21,8 @@
   "game_time": "2026-11-07T01:00:00.000Z",
   "game_when_label": "2026-11-07 01:00 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T22:19:11.115Z",
-  "generated_at": "2026-11-02T22:19:11.115Z",
+  "updated_at": "2026-11-03T02:53:46.563Z",
+  "generated_at": "2026-11-03T02:53:46.563Z",
   "model_version": "EdgeDesk Power 4 game model edgedesk_cfb_p4_v1.0.1",
   "model_status": "NO MARKET",
   "model_status_note": "No sportsbook price has been captured for this game, so there is nothing to compare EdgeDesk’s number against. The projection stands on its own.",
@@ -172,11 +172,11 @@
     "starters": {
       "away": {
         "team": "Nebraska",
-        "status": "COMPETITION",
+        "status": "PREVIOUS_GAME",
         "confirmed": false,
         "player": "Anthony Colandrea",
         "player_id": "5044387",
-        "label": "unresolved: Anthony Colandrea 98% of recent dropbacks and Brock Thomas 2% of recent dropbacks.",
+        "label": "Anthony Colandrea — started the last game; no announcement for this one.",
         "priced": false,
         "priced_why": "the starter layer is research-only until it has an out-of-sample record of its own; football/matchup/inputs.js PRICED_STARTER_STATUSES is the single switch",
         "availability": {
@@ -186,8 +186,8 @@
           "source_url": null
         },
         "experience": {
-          "starts": 21,
-          "dropbacks": 652,
+          "starts": 22,
+          "dropbacks": 699,
           "seasons_observed": 2,
           "seasons_read": [
             2025,
@@ -203,32 +203,31 @@
             {
               "player_id": "5044387",
               "player_name": "Anthony Colandrea",
-              "dropbacks": 80,
-              "share": 0.976
+              "dropbacks": 84,
+              "share": 0.933
+            },
+            {
+              "player_id": "5079318",
+              "player_name": "Elijah Brown",
+              "dropbacks": 2,
+              "share": 0.022
+            },
+            {
+              "player_id": "5079653",
+              "player_name": "Demond Williams Jr.",
+              "dropbacks": 2,
+              "share": 0.022
             },
             {
               "player_id": "5158446",
               "player_name": "Brock Thomas",
               "dropbacks": 2,
-              "share": 0.024
+              "share": 0.022
             }
           ]
         },
         "conflicts": 0,
         "history": [
-          {
-            "week": 6,
-            "game_id": "401858481",
-            "opponent": "Indiana",
-            "dropbacks": 43,
-            "starter": {
-              "player_id": "5044387",
-              "player_name": "Anthony Colandrea",
-              "share": 1
-            },
-            "settled": true,
-            "why": "took the first dropback of the game"
-          },
           {
             "week": 7,
             "game_id": "401858492",
@@ -241,12 +240,25 @@
             },
             "settled": true,
             "why": "took the first dropback of the game"
+          },
+          {
+            "week": 9,
+            "game_id": "401858504",
+            "opponent": "Washington",
+            "dropbacks": 51,
+            "starter": {
+              "player_id": "5044387",
+              "player_name": "Anthony Colandrea",
+              "share": 0.922
+            },
+            "settled": true,
+            "why": "took the first dropback of the game"
           }
         ],
-        "source": "EdgeDesk player layer (EPIR) projected QB1",
-        "source_url": "football/players/teams/nebraska.json",
-        "published_at": "2026-10-31T20:46:39.491Z",
-        "retrieved_at": "2026-10-31T20:46:39.491Z"
+        "source": "cfbfastR-data player_stats — play attribution",
+        "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
+        "published_at": "2026-11-01T00:00:00.000Z",
+        "retrieved_at": "2026-11-03T01:37:00.834Z"
       },
       "home": {
         "team": "Illinois",
@@ -336,9 +348,9 @@
         "source": "cfbfastR-data player_stats — play attribution",
         "source_url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/player_stats/csv/player_stats_2026.csv",
         "published_at": "2026-10-31T16:00:00.000Z",
-        "retrieved_at": "2026-11-02T17:06:03.437Z"
+        "retrieved_at": "2026-11-03T01:37:00.834Z"
       },
-      "generated_at": "2026-11-02T17:06:02.030Z",
+      "generated_at": "2026-11-03T01:36:58.277Z",
       "source": "football/starters/cfb_2026.json",
       "note": "An expected starter is not a confirmed one. EdgeDesk publishes which kind of answer each of these is, and no number on this page is priced from any of them. Availability is a separate axis: an absent report is UNKNOWN and is never read as healthy."
     },
@@ -1492,12 +1504,6 @@
         {
           "sev": "LOW",
           "label": "missing",
-          "text": "away quarterback is contested — the evidence names more than one starter",
-          "widening": null
-        },
-        {
-          "sev": "LOW",
-          "label": "missing",
           "text": "weather not supplied",
           "widening": null
         },
@@ -1618,7 +1624,7 @@
         "pct": 79,
         "tier": "ADEQUATE",
         "text": "79 · ADEQUATE",
-        "sub": "main deduction: the quarterback job is contested for Illinois and Nebraska",
+        "sub": "main deduction: the quarterback job is contested for Illinois",
         "score": 79,
         "grade": "ADEQUATE",
         "grade_label": "ADEQUATE",
@@ -1633,7 +1639,7 @@
           {
             "key": "roster_availability",
             "label": "Roster/status",
-            "score": 10.5,
+            "score": 11.4,
             "max": 20
           },
           {
@@ -1645,13 +1651,13 @@
           {
             "key": "freshness",
             "label": "Freshness",
-            "score": 12.3,
+            "score": 12.9,
             "max": 15
           },
           {
             "key": "source_integrity",
             "label": "Source integrity",
-            "score": 13,
+            "score": 14,
             "max": 15
           },
           {
@@ -1661,25 +1667,15 @@
             "max": 10
           }
         ],
-        "main_deduction": "the quarterback job is contested for Illinois and Nebraska",
+        "main_deduction": "the quarterback job is contested for Illinois",
         "capped_by": [
           "QB_CONTESTED"
         ],
         "next_actions": [
           {
             "action": "Confirm Illinois’s starting QB (Katin Houser)",
-            "potential_gain": 7,
-            "text": "up to +7"
-          },
-          {
-            "action": "Re-read availability inside the filing window (Nebraska)",
-            "potential_gain": 3,
-            "text": "up to +3 once confirm Illinois’s starting QB (Katin Houser) is done"
-          },
-          {
-            "action": "Re-read availability inside the filing window (Illinois)",
-            "potential_gain": 3,
-            "text": "up to +3 once confirm Illinois’s starting QB (Katin Houser) is done"
+            "potential_gain": 10,
+            "text": "up to +10"
           }
         ],
         "stability": {
@@ -1918,10 +1914,10 @@
       "EdgeDesk’s line is Illinois +3.5 on a neutral read of the two teams, before any book is consulted. Projected total 48.0.",
       "Illinois wins 40% of the time in EdgeDesk’s simulation, Nebraska 60%.",
       "Eight games in ten land between -24.6 and +17.4 for Illinois. A single result inside that band tells you nothing new about either team.",
-      "No sportsbook spread is joined to this game, so there is no model-versus-market comparison. EdgeDesk’s own number and the research behind it are unchanged by that."
+      "No sportsbook spread is joined to this game, so there is no model-versus-market comparison. EdgeDesk’s own number and the research behind it are unchanged by that.",
+      "Nebraska quarterback: Anthony Colandrea — started the last game; no announcement for this one."
     ],
     "missing": [
-      "Nebraska quarterback unresolved: unresolved: Anthony Colandrea 98% of recent dropbacks and Brock Thomas 2% of recent dropbacks.",
       "No availability report reached Anthony Colandrea — unknown is carried as unknown, never as healthy.",
       "Illinois quarterback unresolved: unresolved: Katin Houser 57% of recent dropbacks and Michael Clayton II 36% of recent dropbacks.",
       "No availability report reached Katin Houser — unknown is carried as unknown, never as healthy."
@@ -1932,10 +1928,10 @@
   },
   "football_evidence": {
     "schema": "edgedesk_article_evidence_v1",
-    "packet_hash": "1n1c5hs15fkk36",
+    "packet_hash": "nm0dak1jqdhgu",
     "status": "NO_MATERIAL_DISAGREEMENT",
     "input_suspect": false,
-    "question": "Can Nebraska’s pass rush get to Illinois’ quarterback?",
+    "question": "Can Illinois contain Nebraska’s explosive runs?",
     "assessment": "No material disagreement: EdgeDesk and the line are within 0.9 points.",
     "gap": {
       "points": 0.9,
@@ -1943,10 +1939,10 @@
       "other": "Nebraska"
     },
     "supporting": [
+      "When Illinois has the ball (pass protection against the pass rush): Illinois’ offense has allowed a sack on 3.5% of its dropbacks, and Nebraska’s defense sacks the quarterback on 7.2% of opponent dropbacks (FBS average 5.7%).",
       "In his last two games (Oregon and Washington), Colandrea averaged 5.1 yards per attempt, against 7.6 in his six games before that.",
       "EdgeDesk’s position-group ratings put Illinois’ receivers No. 7 nationally and Nebraska’s No. 67.",
-      "EdgeDesk’s position-group ratings put Illinois’ running backs No. 33 nationally and Nebraska’s No. 90.",
-      "When Illinois has the ball (the line of scrimmage on running plays): Illinois’ offense is stopped at or behind the line on 13.3% of its runs, and Nebraska’s defense stops 19.1% of opponent runs at or behind the line (FBS average 17.5%)."
+      "EdgeDesk’s position-group ratings put Illinois’ running backs No. 33 nationally and Nebraska’s No. 90."
     ],
     "contradicting": [
       "When Illinois has the ball (third down): Illinois’ offense converts 42.2% of its third downs, and Nebraska’s defense allows opponents to convert 17.0% of their third downs (FBS average 39.6%).",
@@ -1962,30 +1958,36 @@
     "availability": [],
     "script": {
       "model": [
-        "Illinois’ offense has to keep winning in the pass-rush matchup: it has allowed a sack on 3.5% of its dropbacks, and Nebraska’s defense sacks the quarterback on 9.3% of opponent dropbacks.",
+        "Illinois’ defense has to come out ahead on long runs: it gives up explosive gains on 4.7% of opponent runs, against an offense that turns 9.3% of its runs into explosive gains.",
         "Illinois’ defense has to slow Nebraska in the pass-rush matchup — Nebraska’s offense has allowed a sack on 3.8% of its dropbacks.",
         "Illinois’ offense has to hold its own on long runs against a defense that gives up explosive gains on 3.2% of opponent runs.",
-        "Illinois’ offense has to keep winning at the line of scrimmage: it is stopped at or behind the line on 13.3% of its runs, and Nebraska’s defense stops 19.1% of opponent runs at or behind the line."
+        "Illinois’ offense has to keep winning in the pass-rush matchup: it has allowed a sack on 3.5% of its dropbacks, and Nebraska’s defense sacks the quarterback on 7.2% of opponent dropbacks."
       ],
       "market": [
         "Nebraska’s offense has to keep winning in the pass-rush matchup: it has allowed a sack on 3.8% of its dropbacks, and Illinois’ defense sacks the quarterback on 3.6% of opponent dropbacks.",
         "Nebraska’s defense has to come out ahead on long runs: it gives up explosive gains on 3.2% of opponent runs, against an offense that turns 6.1% of its runs into explosive gains.",
-        "Nebraska’s defense has to come out ahead in the pass-rush matchup: it sacks the quarterback on 9.3% of opponent dropbacks, against an offense that has allowed a sack on 3.5% of its dropbacks."
+        "Nebraska’s offense has to keep winning on long runs: it turns 9.3% of its runs into explosive gains, and Illinois’ defense gives up explosive gains on 4.7% of opponent runs."
       ]
     },
     "unknown": [
-      "EdgeDesk’s own sources disagree on sack rate allowed and sack rate for Illinois and Nebraska.",
-      "Not in EdgeDesk’s verified data for this game: turnover rates, injuries and personnel and penalty rate.",
-      "The line on file was captured Nov. 2 and may have moved."
+      "EdgeDesk’s own sources disagree on sack rate allowed and sack rate for Illinois.",
+      "Not in EdgeDesk’s verified data for this game: turnover rates, injuries and personnel and penalty rate."
     ],
     "flags": [
       {
         "key": "DATA_CONFLICT",
         "severity": "medium",
-        "text": "EdgeDesk’s own sources disagree on sack rate allowed (Illinois), sack rate (Illinois) and sack rate (Nebraska); the evidence uses the corroborated figures, and any model term built on the play-by-play figure may be off."
+        "text": "EdgeDesk’s own sources disagree on sack rate allowed (Illinois) and sack rate (Illinois); the evidence uses the corroborated figures, and any model term built on the play-by-play figure may be off."
       }
     ],
     "sources": [
+      {
+        "label": "EdgeDesk play-by-play metrics, quarterback logs and box scores",
+        "url": null,
+        "path": "football/matchup/metrics.json",
+        "observed_at": "2026-11-03T01:37:26.838Z",
+        "verification": "VERIFIED_DATA"
+      },
       {
         "label": "EdgeDesk play-by-play quarterback logs (2026)",
         "url": null,
@@ -1999,13 +2001,6 @@
         "path": "football/rankings/current.json",
         "observed_at": "2026-10-31T20:46:59.209Z",
         "verification": "RATING"
-      },
-      {
-        "label": "EdgeDesk play-by-play unit metrics (2026 season)",
-        "url": null,
-        "path": "football/matchup/metrics.json",
-        "observed_at": "2026-11-02T21:43:05.816Z",
-        "verification": "VERIFIED_DATA"
       }
     ],
     "needs_confirmation": []
@@ -2013,6 +2008,6 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T22:19:11.115Z"
+    "at": "2026-11-03T02:53:46.563Z"
   }
 }

@@ -24,7 +24,7 @@
   "game_when_label": "2026-11-08 18:00 UTC",
   "published_at": null,
   "updated_at": "2026-11-02T19:27:46.096Z",
-  "generated_at": "2026-11-02T22:19:11.115Z",
+  "generated_at": "2026-11-03T02:53:46.563Z",
   "model_version": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
   "model_status": "STALE MARKET",
   "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 6.2-point gap is context only and the game is excluded from research ranking.",
@@ -1333,6 +1333,70 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T22:19:11.115Z"
+    "at": "2026-11-03T02:53:46.563Z"
+  },
+  "football_evidence": {
+    "schema": "edgedesk_article_evidence_v1",
+    "packet_hash": "1re40d1ky0q2f",
+    "status": "UNEXPLAINED",
+    "input_suspect": false,
+    "question": "Can the Cowboys stop the Colts’ run game?",
+    "assessment": "EdgeDesk’s number is 6.2 points closer to Indianapolis Colts than the line, and EdgeDesk cannot account for most of that. The measured football evidence leans toward Dallas Cowboys, not toward EdgeDesk’s number. Treat the gap as an open research question, not as an edge.",
+    "gap": {
+      "points": 6.2,
+      "toward": "Indianapolis Colts",
+      "other": "Dallas Cowboys"
+    },
+    "supporting": [
+      "When Indianapolis Colts have the ball: their run game ranks No. 5, and Dallas Cowboys’ run defense ranks No. 31.",
+      "Dallas Cowboys’ defense ranks No. 32 of 32 in efficiency allowed per play this season.",
+      "Dallas Cowboys’ pass defense ranks No. 30 of 32 in pass defense this season.",
+      "Dallas Cowboys’ run defense ranks No. 31 of 32 in run defense this season."
+    ],
+    "contradicting": [
+      "When Dallas Cowboys have the ball: their run game ranks No. 10, and Indianapolis Colts’ run defense ranks No. 27.",
+      "When Dallas Cowboys have the ball: their passing game ranks No. 8, and Indianapolis Colts’ pass defense ranks No. 22.",
+      "When Dallas Cowboys have the ball: their pass protection ranks No. 3, and Indianapolis Colts’ pass rush ranks No. 17.",
+      "Indianapolis Colts’ explosive passing ranks No. 30 of 32 in explosive pass rate this season."
+    ],
+    "quarterbacks": [
+      "Indianapolis Colts’ passers have completed 164 of 270 (60.7%) for 1,550 yards, 5.7 yards per attempt, with 5 touchdowns, 9 interceptions and 23 sacks taken in eight games.",
+      "Dallas Cowboys’ passers have completed 197 of 302 (65.2%) for 2,046 yards, 6.8 yards per attempt, with 14 touchdowns, 5 interceptions and 11 sacks taken in eight games."
+    ],
+    "availability": [],
+    "script": {
+      "model": [
+        "The Indianapolis Colts have to win on the ground (Indianapolis Colts’ No. 5 run game against Dallas Cowboys’ No. 31 run defense).",
+        "The Indianapolis Colts have to slow the Dallas Cowboys on the ground (Dallas Cowboys’ No. 10 run game against Indianapolis Colts’ No. 27 run defense).",
+        "The Indianapolis Colts have to slow the Dallas Cowboys through the air (Dallas Cowboys’ No. 8 passing game against Indianapolis Colts’ No. 22 pass defense).",
+        "The Indianapolis Colts have to win in the pass-rush matchup (Indianapolis Colts’ No. 20 pass protection against Dallas Cowboys’ No. 29 pass rush)."
+      ],
+      "market": [
+        "The Dallas Cowboys have to win on the ground (Dallas Cowboys’ No. 10 run game against Indianapolis Colts’ No. 27 run defense).",
+        "The Dallas Cowboys have to win through the air (Dallas Cowboys’ No. 8 passing game against Indianapolis Colts’ No. 22 pass defense).",
+        "The Dallas Cowboys have to win on the ground (Indianapolis Colts’ No. 5 run game against Dallas Cowboys’ No. 31 run defense)."
+      ]
+    },
+    "unknown": [
+      "Not in EdgeDesk’s verified data for this game: offensive efficiency, third-down conversion, red-zone production, recent opponent strength, third-down defense, red-zone defense, position-group advantages, turnover rates, home field, strength of schedule, injuries and personnel, weather and conference implications."
+    ],
+    "flags": [],
+    "sources": [
+      {
+        "label": "EdgeDesk NFL team ratings (2026)",
+        "url": null,
+        "path": "football/nfl/slate.json",
+        "observed_at": "2026-11-03T01:37:30.874Z",
+        "verification": "VERIFIED_DATA"
+      },
+      {
+        "label": "nflverse team-week stats (2026)",
+        "url": null,
+        "path": "football/nfl/stats_team_week_2026.csv",
+        "observed_at": "2026-11-03T02:53:37.760Z",
+        "verification": "VERIFIED_DATA"
+      }
+    ],
+    "needs_confirmation": []
   }
 }

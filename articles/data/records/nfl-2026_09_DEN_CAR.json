@@ -24,7 +24,7 @@
   "game_when_label": "2026-11-08 18:00 UTC",
   "published_at": null,
   "updated_at": "2026-11-02T19:27:46.096Z",
-  "generated_at": "2026-11-02T22:19:11.115Z",
+  "generated_at": "2026-11-03T02:53:46.563Z",
   "model_version": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
   "model_status": "STALE MARKET",
   "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 0.5-point gap is context only and the game is excluded from research ranking.",
@@ -1323,6 +1323,68 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T22:19:11.115Z"
+    "at": "2026-11-03T02:53:46.563Z"
+  },
+  "football_evidence": {
+    "schema": "edgedesk_article_evidence_v1",
+    "packet_hash": "1wsj3t219s04bo",
+    "status": "NO_MATERIAL_DISAGREEMENT",
+    "input_suspect": false,
+    "question": "Can the Panthers’ pass rush get to Bo Nix?",
+    "assessment": "No material disagreement: EdgeDesk and the line are within 0.5 points.",
+    "gap": {
+      "points": 0.5,
+      "toward": "Denver Broncos",
+      "other": "Carolina Panthers"
+    },
+    "supporting": [
+      "When Carolina Panthers have the ball: their pass protection ranks No. 22, and Denver Broncos’ pass rush ranks No. 4.",
+      "When Denver Broncos have the ball: their run game ranks No. 12, and Carolina Panthers’ run defense ranks No. 29.",
+      "When Denver Broncos have the ball: their pass protection ranks No. 4, and Carolina Panthers’ pass rush ranks No. 30.",
+      "When Carolina Panthers have the ball: their passing game ranks No. 19, and Denver Broncos’ pass defense ranks No. 5."
+    ],
+    "contradicting": [
+      "Carolina Panthers’ explosive passes allowed ranks No. 3 of 32 in explosive passes allowed this season.",
+      "When Carolina Panthers have the ball: their run game ranks No. 18, and Denver Broncos’ run defense ranks No. 28.",
+      "Denver Broncos’ run defense ranks No. 28 of 32 in run defense this season.",
+      "The Carolina Panthers come in on 10 days of rest; the Denver Broncos have had 7."
+    ],
+    "quarterbacks": [
+      "Carolina Panthers’ passers have completed 161 of 274 (58.8%) for 1,968 yards, 7.2 yards per attempt, with 13 touchdowns, 5 interceptions and 23 sacks taken in seven games.",
+      "Denver Broncos’ passers have completed 149 of 250 (59.6%) for 1,493 yards, 6.0 yards per attempt, with 9 touchdowns, 3 interceptions and 10 sacks taken in eight games."
+    ],
+    "availability": [],
+    "script": {
+      "model": [
+        "The Denver Broncos have to win in the pass-rush matchup (Denver Broncos’ No. 4 pass protection against Carolina Panthers’ No. 30 pass rush).",
+        "The Denver Broncos have to slow the Carolina Panthers on the ground (Carolina Panthers’ No. 18 run game against Denver Broncos’ No. 28 run defense).",
+        "The Denver Broncos have to win in the pass-rush matchup (Carolina Panthers’ No. 22 pass protection against Denver Broncos’ No. 4 pass rush)."
+      ],
+      "market": [
+        "The Carolina Panthers have to win on the ground (Carolina Panthers’ No. 18 run game against Denver Broncos’ No. 28 run defense).",
+        "The Carolina Panthers have to win in the pass-rush matchup (Denver Broncos’ No. 4 pass protection against Carolina Panthers’ No. 30 pass rush)."
+      ]
+    },
+    "unknown": [
+      "Not in EdgeDesk’s verified data for this game: offensive efficiency, third-down conversion, red-zone production, recent opponent strength, third-down defense, red-zone defense, position-group advantages, turnover rates, home field, strength of schedule, injuries and personnel and conference implications."
+    ],
+    "flags": [],
+    "sources": [
+      {
+        "label": "EdgeDesk NFL team ratings (2026)",
+        "url": null,
+        "path": "football/nfl/slate.json",
+        "observed_at": "2026-11-03T01:37:30.874Z",
+        "verification": "VERIFIED_DATA"
+      },
+      {
+        "label": "nflverse team-week stats (2026)",
+        "url": null,
+        "path": "football/nfl/stats_team_week_2026.csv",
+        "observed_at": "2026-11-03T02:53:37.760Z",
+        "verification": "VERIFIED_DATA"
+      }
+    ],
+    "needs_confirmation": []
   }
 }

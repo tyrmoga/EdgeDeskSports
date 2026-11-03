@@ -23,8 +23,8 @@
   "game_time": "2026-11-08T21:05:00.000Z",
   "game_when_label": "2026-11-08 21:05 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T19:27:46.096Z",
-  "generated_at": "2026-11-02T22:19:11.115Z",
+  "updated_at": "2026-11-03T02:53:46.563Z",
+  "generated_at": "2026-11-03T02:53:46.563Z",
   "model_version": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
   "model_status": "STALE MARKET",
   "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 0.9-point gap is context only and the game is excluded from research ranking.",
@@ -333,7 +333,7 @@
               "note": null,
               "a": {
                 "v": "+0.008",
-                "n": 0.008415506144983799,
+                "n": 0.008415506144983802,
                 "rank": "#15 of 32",
                 "rank_n": 15,
                 "note": null
@@ -780,7 +780,7 @@
           "note": null
         },
         "complete": true,
-        "net": -0.10226829539753807,
+        "net": -0.10226829539753805,
         "read": "Houston Texans’ pass offence rates +0.008 (#15 of 32) and Los Angeles Chargers’ pass defence rates −0.111 (#6 of 32). Added the way the model adds them, this pairing sits −0.102 from the league mean, which favours Los Angeles Chargers."
       },
       {
@@ -1322,6 +1322,70 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T22:19:11.115Z"
+    "at": "2026-11-03T02:53:46.563Z"
+  },
+  "football_evidence": {
+    "schema": "edgedesk_article_evidence_v1",
+    "packet_hash": "13prtbn5or4ep",
+    "status": "NO_MATERIAL_DISAGREEMENT",
+    "input_suspect": false,
+    "question": "Can the Chargers’ pass rush get to C.J. Stroud?",
+    "assessment": "No material disagreement: EdgeDesk and the line are within 0.9 points.",
+    "gap": {
+      "points": 0.9,
+      "toward": "Houston Texans",
+      "other": "Los Angeles Chargers"
+    },
+    "supporting": [
+      "When Los Angeles Chargers have the ball: their passing game ranks No. 30, and Houston Texans’ pass defense ranks No. 7.",
+      "When Los Angeles Chargers have the ball: their pass protection ranks No. 30, and Houston Texans’ pass rush ranks No. 5.",
+      "When Los Angeles Chargers have the ball: their run game ranks No. 26, and Houston Texans’ run defense ranks No. 11.",
+      "Los Angeles Chargers’ offense ranks No. 32 of 32 in efficiency per play this season."
+    ],
+    "contradicting": [
+      "When Houston Texans have the ball: their run game ranks No. 29, and Los Angeles Chargers’ run defense ranks No. 8.",
+      "Los Angeles Chargers’ defense ranks No. 4 of 32 in efficiency allowed per play this season.",
+      "Houston Texans’ running game ranks No. 29 of 32 in rushing efficiency this season.",
+      "When Houston Texans have the ball: their passing game ranks No. 15, and Los Angeles Chargers’ pass defense ranks No. 6."
+    ],
+    "quarterbacks": [
+      "Los Angeles Chargers’ passers have completed 131 of 213 (61.5%) for 1,398 yards, 6.6 yards per attempt, with 5 touchdowns, 10 interceptions and 23 sacks taken in seven games.",
+      "Houston Texans’ passers have completed 160 of 248 (64.5%) for 1,867 yards, 7.5 yards per attempt, with 11 touchdowns, 1 interceptions and 15 sacks taken in seven games."
+    ],
+    "availability": [],
+    "script": {
+      "model": [
+        "The Houston Texans have to win in the pass-rush matchup (Houston Texans’ No. 11 pass protection against Los Angeles Chargers’ No. 12 pass rush).",
+        "The Houston Texans have to hold their own on the ground (Houston Texans’ No. 29 run game against Los Angeles Chargers’ No. 8 run defense).",
+        "The Houston Texans have to hold their own through the air (Houston Texans’ No. 15 passing game against Los Angeles Chargers’ No. 6 pass defense).",
+        "The Houston Texans have to win in the pass-rush matchup (Los Angeles Chargers’ No. 30 pass protection against Houston Texans’ No. 5 pass rush)."
+      ],
+      "market": [
+        "The Los Angeles Chargers have to win on the ground (Houston Texans’ No. 29 run game against Los Angeles Chargers’ No. 8 run defense).",
+        "The Los Angeles Chargers have to win through the air (Houston Texans’ No. 15 passing game against Los Angeles Chargers’ No. 6 pass defense).",
+        "The Los Angeles Chargers have to win in the pass-rush matchup (Houston Texans’ No. 11 pass protection against Los Angeles Chargers’ No. 12 pass rush)."
+      ]
+    },
+    "unknown": [
+      "Not in EdgeDesk’s verified data for this game: offensive efficiency, third-down conversion, red-zone production, recent opponent strength, third-down defense, red-zone defense, position-group advantages, turnover rates, home field, strength of schedule, injuries and personnel and conference implications."
+    ],
+    "flags": [],
+    "sources": [
+      {
+        "label": "EdgeDesk NFL team ratings (2026)",
+        "url": null,
+        "path": "football/nfl/slate.json",
+        "observed_at": "2026-11-03T01:37:30.874Z",
+        "verification": "VERIFIED_DATA"
+      },
+      {
+        "label": "nflverse team-week stats (2026)",
+        "url": null,
+        "path": "football/nfl/stats_team_week_2026.csv",
+        "observed_at": "2026-11-03T02:53:37.760Z",
+        "verification": "VERIFIED_DATA"
+      }
+    ],
+    "needs_confirmation": []
   }
 }

@@ -24,7 +24,7 @@
   "game_when_label": "2026-11-08 14:30 UTC",
   "published_at": null,
   "updated_at": "2026-11-02T22:19:11.115Z",
-  "generated_at": "2026-11-02T22:19:11.115Z",
+  "generated_at": "2026-11-03T02:53:46.563Z",
   "model_version": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
   "model_status": "STALE MARKET",
   "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.6-point gap is context only and the game is excluded from research ranking.",
@@ -1333,6 +1333,67 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T22:19:11.115Z"
+    "at": "2026-11-03T02:53:46.563Z"
+  },
+  "football_evidence": {
+    "schema": "edgedesk_article_evidence_v1",
+    "packet_hash": "r39swqxstl14",
+    "status": "UNEXPLAINED",
+    "input_suspect": false,
+    "question": "Can the Falcons’ pass defense slow the Bengals’ passing game?",
+    "assessment": "EdgeDesk’s number is 2.6 points closer to Cincinnati Bengals than the line, and EdgeDesk cannot account for most of that. The measured football evidence leans toward Atlanta Falcons, not toward EdgeDesk’s number. Treat the gap as an open research question, not as an edge.",
+    "gap": {
+      "points": 2.6,
+      "toward": "Cincinnati Bengals",
+      "other": "Atlanta Falcons"
+    },
+    "supporting": [
+      "Cincinnati Bengals’ offense ranks No. 4 of 32 in efficiency per play this season.",
+      "Cincinnati Bengals’ pass rush ranks No. 3 of 32 in sack rate this season.",
+      "Cincinnati Bengals’ scoring offense ranks No. 3 of 32 in points scored this season.",
+      "Atlanta Falcons’ offense ranks No. 28 of 32 in efficiency per play this season."
+    ],
+    "contradicting": [
+      "When Cincinnati Bengals have the ball: their run game ranks No. 20, and Atlanta Falcons’ run defense ranks No. 5.",
+      "Atlanta Falcons’ pass defense ranks No. 3 of 32 in pass defense this season.",
+      "Atlanta Falcons’ pass rush ranks No. 2 of 32 in sack rate this season.",
+      "Atlanta Falcons’ run defense ranks No. 5 of 32 in run defense this season."
+    ],
+    "quarterbacks": [
+      "Atlanta Falcons’ passers have completed 136 of 225 (60.4%) for 1,604 yards, 7.1 yards per attempt, with 10 touchdowns, 11 interceptions and 16 sacks taken in eight games.",
+      "Cincinnati Bengals’ passers have completed 195 of 267 (73.0%) for 2,115 yards, 7.9 yards per attempt, with 20 touchdowns, 6 interceptions and 13 sacks taken in seven games."
+    ],
+    "availability": [],
+    "script": {
+      "model": [
+        "The Cincinnati Bengals have to win through the air (Cincinnati Bengals’ No. 6 passing game against Atlanta Falcons’ No. 3 pass defense).",
+        "The Cincinnati Bengals have to hold their own on the ground (Cincinnati Bengals’ No. 20 run game against Atlanta Falcons’ No. 5 run defense)."
+      ],
+      "market": [
+        "The Atlanta Falcons have to win on the ground (Cincinnati Bengals’ No. 20 run game against Atlanta Falcons’ No. 5 run defense).",
+        "The Atlanta Falcons have to win through the air (Cincinnati Bengals’ No. 6 passing game against Atlanta Falcons’ No. 3 pass defense)."
+      ]
+    },
+    "unknown": [
+      "Not in EdgeDesk’s verified data for this game: offensive efficiency, third-down conversion, red-zone production, recent opponent strength, third-down defense, red-zone defense, position-group advantages, turnover rates, home field, strength of schedule, injuries and personnel and conference implications."
+    ],
+    "flags": [],
+    "sources": [
+      {
+        "label": "EdgeDesk NFL team ratings (2026)",
+        "url": null,
+        "path": "football/nfl/slate.json",
+        "observed_at": "2026-11-03T01:37:30.874Z",
+        "verification": "VERIFIED_DATA"
+      },
+      {
+        "label": "nflverse team-week stats (2026)",
+        "url": null,
+        "path": "football/nfl/stats_team_week_2026.csv",
+        "observed_at": "2026-11-03T02:53:37.760Z",
+        "verification": "VERIFIED_DATA"
+      }
+    ],
+    "needs_confirmation": []
   }
 }

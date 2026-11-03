@@ -24,7 +24,7 @@
   "game_when_label": "2026-11-06 01:15 UTC",
   "published_at": null,
   "updated_at": "2026-11-02T22:19:11.115Z",
-  "generated_at": "2026-11-02T22:19:11.115Z",
+  "generated_at": "2026-11-03T02:53:46.563Z",
   "model_version": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
   "model_status": "STALE MARKET",
   "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 0.4-point gap is context only and the game is excluded from research ranking.",
@@ -1298,6 +1298,67 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T22:19:11.115Z"
+    "at": "2026-11-03T02:53:46.563Z"
+  },
+  "football_evidence": {
+    "schema": "edgedesk_article_evidence_v1",
+    "packet_hash": "883yh0126kmna",
+    "status": "NO_MATERIAL_DISAGREEMENT",
+    "input_suspect": false,
+    "question": "Can the Ravens stop the Jaguars’ run game?",
+    "assessment": "No material disagreement: EdgeDesk and the line are within 1.9 points.",
+    "gap": {
+      "points": 1.9,
+      "toward": "Baltimore Ravens",
+      "other": "Jacksonville Jaguars"
+    },
+    "supporting": [
+      "Baltimore Ravens’ run defense ranks No. 4 of 32 in run defense this season.",
+      "Jacksonville Jaguars’ pass rush ranks No. 27 of 32 in sack rate this season."
+    ],
+    "contradicting": [
+      "When Baltimore Ravens have the ball: their run game ranks No. 19, and Jacksonville Jaguars’ run defense ranks No. 1.",
+      "When Jacksonville Jaguars have the ball: their passing game ranks No. 2, and Baltimore Ravens’ pass defense ranks No. 25.",
+      "Jacksonville Jaguars’ offense ranks No. 3 of 32 in efficiency per play this season.",
+      "Jacksonville Jaguars’ passing offense ranks No. 2 of 32 in passing efficiency this season."
+    ],
+    "quarterbacks": [
+      "Baltimore Ravens’ passers have completed 154 of 228 (67.5%) for 1,785 yards, 7.8 yards per attempt, with 10 touchdowns, 3 interceptions and 22 sacks taken in eight games.",
+      "Jacksonville Jaguars’ passers have completed 131 of 201 (65.2%) for 1,698 yards, 8.4 yards per attempt, with 17 touchdowns, 4 interceptions and 13 sacks taken in seven games."
+    ],
+    "availability": [],
+    "script": {
+      "model": [
+        "The Baltimore Ravens have to win on the ground (Jacksonville Jaguars’ No. 7 run game against Baltimore Ravens’ No. 4 run defense).",
+        "The Baltimore Ravens have to slow the Jacksonville Jaguars through the air (Jacksonville Jaguars’ No. 2 passing game against Baltimore Ravens’ No. 25 pass defense).",
+        "The Baltimore Ravens have to hold their own on the ground (Baltimore Ravens’ No. 19 run game against Jacksonville Jaguars’ No. 1 run defense)."
+      ],
+      "market": [
+        "The Jacksonville Jaguars have to win through the air (Jacksonville Jaguars’ No. 2 passing game against Baltimore Ravens’ No. 25 pass defense).",
+        "The Jacksonville Jaguars have to win on the ground (Baltimore Ravens’ No. 19 run game against Jacksonville Jaguars’ No. 1 run defense).",
+        "The Jacksonville Jaguars have to win on the ground (Jacksonville Jaguars’ No. 7 run game against Baltimore Ravens’ No. 4 run defense)."
+      ]
+    },
+    "unknown": [
+      "Not in EdgeDesk’s verified data for this game: offensive efficiency, third-down conversion, red-zone production, recent opponent strength, third-down defense, red-zone defense, position-group advantages, turnover rates, home field, strength of schedule, injuries and personnel and conference implications."
+    ],
+    "flags": [],
+    "sources": [
+      {
+        "label": "EdgeDesk NFL team ratings (2026)",
+        "url": null,
+        "path": "football/nfl/slate.json",
+        "observed_at": "2026-11-03T01:37:30.874Z",
+        "verification": "VERIFIED_DATA"
+      },
+      {
+        "label": "nflverse team-week stats (2026)",
+        "url": null,
+        "path": "football/nfl/stats_team_week_2026.csv",
+        "observed_at": "2026-11-03T02:53:37.760Z",
+        "verification": "VERIFIED_DATA"
+      }
+    ],
+    "needs_confirmation": []
   }
 }

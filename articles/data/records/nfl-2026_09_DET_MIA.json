@@ -23,8 +23,8 @@
   "game_time": "2026-11-08T18:00:00.000Z",
   "game_when_label": "2026-11-08 18:00 UTC",
   "published_at": null,
-  "updated_at": "2026-11-02T19:27:46.096Z",
-  "generated_at": "2026-11-02T22:19:11.115Z",
+  "updated_at": "2026-11-03T02:53:46.563Z",
+  "generated_at": "2026-11-03T02:53:46.563Z",
   "model_version": "EdgeDesk NFL game model edgedesk_nfl_v2.1.0",
   "model_status": "STALE MARKET",
   "model_status_note": "Only the nflverse reference line is on file, and it carries no timestamp: it is not a current price, so the 2.4-point gap is context only and the game is excluded from research ranking.",
@@ -145,7 +145,7 @@
         },
         {
           "points": "-0.6",
-          "points_n": -0.5541692109991083,
+          "points_n": -0.5541692109991082,
           "text": "Passing — Detroit Lions by 0.6 points (last season -0.2, this season -0.4)",
           "favours": "Detroit Lions"
         },
@@ -232,7 +232,7 @@
               "note": "offence EPA per play minus defence EPA allowed per play — the engine’s own net_epa half",
               "a": {
                 "v": "+0.040",
-                "n": 0.03950044044967984,
+                "n": 0.03950044044967982,
                 "rank": "#13 of 32",
                 "rank_n": 13,
                 "note": null
@@ -246,7 +246,7 @@
               },
               "edge": {
                 "side": "a",
-                "gap": 0.1783645047212344,
+                "gap": 0.17836450472123438,
                 "rank_gap": 18
               }
             },
@@ -434,7 +434,7 @@
               "note": null,
               "a": {
                 "v": "+0.050",
-                "n": 0.04985787797003067,
+                "n": 0.04985787797003069,
                 "rank": "#23 of 32",
                 "rank_n": 23,
                 "note": null
@@ -448,7 +448,7 @@
               },
               "edge": {
                 "side": "a",
-                "gap": 0.06161058197753407,
+                "gap": 0.06161058197753405,
                 "rank_gap": 8
               }
             },
@@ -458,7 +458,7 @@
               "note": null,
               "a": {
                 "v": "+0.066",
-                "n": 0.06560261019720257,
+                "n": 0.0656026101972026,
                 "rank": "#23 of 32",
                 "rank_n": 23,
                 "note": null
@@ -472,7 +472,7 @@
               },
               "edge": {
                 "side": "a",
-                "gap": 0.16721613697538937,
+                "gap": 0.16721613697538934,
                 "rank_gap": 9
               }
             },
@@ -667,7 +667,7 @@
         {
           "k": "Net EPA per play",
           "rank_gap": 18,
-          "gap": 0.1783645047212344,
+          "gap": 0.17836450472123438,
           "lead": "Detroit Lions",
           "trail": "Miami Dolphins",
           "lead_cell": "+0.040 · #13 of 32",
@@ -770,7 +770,7 @@
           "note": null
         },
         "complete": true,
-        "net": -0.005345446202539406,
+        "net": -0.005345446202539378,
         "read": "Miami Dolphins’ pass offence rates −0.071 (#22 of 32) and Detroit Lions’ pass defence rates +0.066 (#23 of 32). Added the way the model adds them, this pairing sits −0.005 from the league mean, which favours Detroit Lions."
       },
       {
@@ -1302,6 +1302,65 @@
   "checks": {
     "ok": true,
     "failed": [],
-    "at": "2026-11-02T22:19:11.115Z"
+    "at": "2026-11-03T02:53:46.563Z"
+  },
+  "football_evidence": {
+    "schema": "edgedesk_article_evidence_v1",
+    "packet_hash": "w009t6ievix4",
+    "status": "UNEXPLAINED",
+    "input_suspect": false,
+    "question": "Can the Dolphins’ pass defense slow the Lions’ passing game?",
+    "assessment": "EdgeDesk’s number is 2.4 points closer to Miami Dolphins than the line, and EdgeDesk cannot account for most of that. The measured football evidence leans toward Detroit Lions, not toward EdgeDesk’s number. Treat the gap as an open research question, not as an edge.",
+    "gap": {
+      "points": 2.4,
+      "toward": "Miami Dolphins",
+      "other": "Detroit Lions"
+    },
+    "supporting": [
+      "Detroit Lions’ explosive passes allowed ranks No. 25 of 32 in explosive passes allowed this season.",
+      "Over their last two games, Miami Dolphins’ passers averaged 7.9 yards per attempt, against 6.5 before that."
+    ],
+    "contradicting": [
+      "When Detroit Lions have the ball: their passing game ranks No. 4, and Miami Dolphins’ pass defense ranks No. 32.",
+      "When Detroit Lions have the ball: their pass protection ranks No. 15, and Miami Dolphins’ pass rush ranks No. 31.",
+      "When Miami Dolphins have the ball: their pass protection ranks No. 26, and Detroit Lions’ pass rush ranks No. 13.",
+      "Miami Dolphins’ defense ranks No. 31 of 32 in efficiency allowed per play this season."
+    ],
+    "quarterbacks": [
+      "Miami Dolphins’ passers have completed 108 of 183 (59.0%) for 1,268 yards, 6.9 yards per attempt, with 6 touchdowns, 5 interceptions and 21 sacks taken in seven games.",
+      "Detroit Lions’ passers have completed 168 of 248 (67.7%) for 1,964 yards, 7.9 yards per attempt, with 15 touchdowns, 1 interceptions and 16 sacks taken in seven games."
+    ],
+    "availability": [],
+    "script": {
+      "model": [
+        "The Miami Dolphins have to win through the air (Detroit Lions’ No. 4 passing game against Miami Dolphins’ No. 32 pass defense).",
+        "The Miami Dolphins have to slow the Detroit Lions in the pass-rush matchup (Detroit Lions’ No. 15 pass protection against Miami Dolphins’ No. 31 pass rush)."
+      ],
+      "market": [
+        "The Detroit Lions have to win through the air (Detroit Lions’ No. 4 passing game against Miami Dolphins’ No. 32 pass defense).",
+        "The Detroit Lions have to win in the pass-rush matchup (Detroit Lions’ No. 15 pass protection against Miami Dolphins’ No. 31 pass rush)."
+      ]
+    },
+    "unknown": [
+      "Not in EdgeDesk’s verified data for this game: offensive efficiency, third-down conversion, red-zone production, recent opponent strength, third-down defense, red-zone defense, position-group advantages, turnover rates, home field, strength of schedule, injuries and personnel and conference implications."
+    ],
+    "flags": [],
+    "sources": [
+      {
+        "label": "EdgeDesk NFL team ratings (2026)",
+        "url": null,
+        "path": "football/nfl/slate.json",
+        "observed_at": "2026-11-03T01:37:30.874Z",
+        "verification": "VERIFIED_DATA"
+      },
+      {
+        "label": "nflverse team-week stats (2026)",
+        "url": null,
+        "path": "football/nfl/stats_team_week_2026.csv",
+        "observed_at": "2026-11-03T02:53:37.760Z",
+        "verification": "VERIFIED_DATA"
+      }
+    ],
+    "needs_confirmation": []
   }
 }
