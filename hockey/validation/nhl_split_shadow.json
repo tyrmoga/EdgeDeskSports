@@ -1,6 +1,6 @@
 {
  "schema": "edgedesk_nhl_split_shadow_v1",
- "generated_at": "2026-11-02T16:32:04.820Z",
+ "generated_at": "2026-11-03T01:12:48.392Z",
  "protocol": {
   "id": "nhl_split_ml_v1",
   "registered": "2026-10-29",
@@ -576,7 +576,7 @@
  "live": {
   "season": 2027,
   "protocol": "nhl_split_ml_v1",
-  "generated_at": "2026-11-02T16:32:04.836Z",
+  "generated_at": "2026-11-03T01:12:48.402Z",
   "shadow_ledger": "hockey/ledger/split_shadow_2027.jsonl",
   "shadow_ledger_records": 42,
   "games_graded": 29,
@@ -626,44 +626,44 @@
     "basis": "the owner directed the switch after the investigation, before the rule's decision point: the published moneyline was 1.2 times narrower than DraftKings' closes (35 of 47 favourites less favoured). On 2021-26 the candidate is +0.00027 log loss (−0.00013 to +0.00063) against the goal-split rule; on 2026-27 to date −0.00265 (198 games). The decision rule was not met and is not claimed."
    },
    "draftkings_close": {
-    "n": 25,
+    "n": 29,
     "production": {
-     "n": 25,
+     "n": 29,
      "slope": null,
      "ci95": null,
      "reading": "TOO_EARLY",
-     "mean_favourite_gap_pp": -2.6,
-     "favourites_less_favoured": 22,
-     "model_logit_sd": 0.341,
-     "market_logit_sd": 0.45
+     "mean_favourite_gap_pp": -2.57,
+     "favourites_less_favoured": 25,
+     "model_logit_sd": 0.328,
+     "market_logit_sd": 0.438
     },
     "shadow": {
-     "n": 25,
+     "n": 29,
      "slope": null,
      "ci95": null,
      "reading": "TOO_EARLY",
-     "mean_favourite_gap_pp": -1.02,
-     "favourites_less_favoured": 20,
-     "model_logit_sd": 0.427,
-     "market_logit_sd": 0.45
+     "mean_favourite_gap_pp": -1.13,
+     "favourites_less_favoured": 23,
+     "model_logit_sd": 0.41,
+     "market_logit_sd": 0.438
     },
-    "close_log_loss": 0.602,
+    "close_log_loss": 0.62465,
     "note": "no-vig DraftKings close from ESPN (research/clv/openers/nhl); reported beside the rule, never deciding it"
    }
   },
   "market_spread": {
    "basis": "production's last pregame ledger price (hockey/ledger/2027.jsonl) for every graded game with a DraftKings close; the slope is the market's logit on the model's (1 = equally spread; above 1 = the model is narrower, every favourite less favoured)",
-   "n": 76,
-   "slope": 1.079,
+   "n": 80,
+   "slope": 1.084,
    "ci95": [
-    0.969,
-    1.189
+    0.977,
+    1.191
    ],
    "reading": "CONSISTENT",
-   "mean_favourite_gap_pp": -1.73,
-   "favourites_less_favoured": 56,
-   "model_logit_sd": 0.347,
-   "market_logit_sd": 0.41
+   "mean_favourite_gap_pp": -1.74,
+   "favourites_less_favoured": 59,
+   "model_logit_sd": 0.341,
+   "market_logit_sd": 0.405
   }
  }
 }

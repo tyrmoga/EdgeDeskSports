@@ -1,7 +1,7 @@
 {
  "schema": "edgedesk_market_quotes_v1",
  "sport_key": "icehockey_nhl",
- "generated_at": "2026-11-02T16:31:55.744Z",
+ "generated_at": "2026-11-03T01:12:42.587Z",
  "status": "DISABLED",
  "reason": "NHL price capture is not authorised: the repository variable NHL_PRICES is not \"on\" (and odds_api_sports.icehockey_nhl must be enabled in the gateway)",
  "events": []

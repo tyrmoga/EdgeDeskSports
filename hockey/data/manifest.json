@@ -887,21 +887,21 @@
      "url": "https://raw.githubusercontent.com/sportsdataverse/fastRhockey-nhl-raw/main/nhl/schedules/parquet/nhl_schedule_2027.parquet",
      "sha256": "91c5c7a4c1283b0ff100268a5c63681d249b7cf55a837f4c4563051d36ef3632",
      "bytes": 21322,
-     "fetched_at": "2026-11-02T16:31:29.700Z",
+     "fetched_at": "2026-11-03T01:12:23.702Z",
      "stale": false
     },
     "goalie_box": {
      "url": "https://raw.githubusercontent.com/sportsdataverse/fastRhockey-nhl-data/main/nhl/goalie_box/parquet/goalie_box_2027.parquet",
      "sha256": "96e9ab4f7969d41453f3e4bc8c6d9ed853a9073cad60b2809a93f394ab7d4bd2",
      "bytes": 23967,
-     "fetched_at": "2026-11-02T16:31:29.876Z",
+     "fetched_at": "2026-11-03T01:12:23.812Z",
      "stale": false
     },
     "pbp": {
      "url": "https://raw.githubusercontent.com/sportsdataverse/fastRhockey-nhl-data/main/nhl/pbp_lite/parquet/play_by_play_lite_2027.parquet",
      "sha256": "e0fcb81e4a9c4962e5178009b533a49827f5010832b566e63084866f300a3367",
      "bytes": 3294948,
-     "fetched_at": "2026-11-02T16:31:30.222Z",
+     "fetched_at": "2026-11-03T01:12:24.647Z",
      "stale": false
     }
    },
@@ -925,7 +925,7 @@
   }
  },
  "license": "sportsdataverse/fastRhockey-nhl-data and -raw are MIT-licensed repositories; the game data inside them is compiled from the NHL's public game feeds and remains the NHL's. NHL.com terms restrict commercial use of its content: the owner must review this before NHL output is sold in a paid tier. Attribution is printed on every NHL artifact.",
- "updated_at": "2026-11-02T16:31:31.860Z",
+ "updated_at": "2026-11-03T01:12:25.631Z",
  "temporal": {
   "known_at": "blank: the source's first publication time was not recorded for history (never backdated)",
   "assumed_available_at": "scheduled start + 4 h (end of the game's day when the start is unknown); an explicit modelling assumption",
