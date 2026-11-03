@@ -2,7 +2,7 @@
  "schema": "edgedesk_starters_v1_index",
  "version": 1,
  "season": 2026,
- "generated_at": "2026-11-02T17:06:02.030Z",
+ "generated_at": "2026-11-03T01:36:58.277Z",
  "sports": {
   "CFB": {
    "ok": true,
@@ -14,15 +14,15 @@
      "ANNOUNCED": 0,
      "EXPECTED": 0,
      "DEPTH_CHART": 0,
-     "PREVIOUS_GAME": 233,
-     "COMPETITION": 31,
+     "PREVIOUS_GAME": 235,
+     "COMPETITION": 29,
      "UNKNOWN": 25
     },
     "by_field_state": {
-     "USABLE": 253,
+     "USABLE": 254,
      "RESEARCH_ONLY": 0,
      "STALE": 0,
-     "CONFLICTING": 11,
+     "CONFLICTING": 10,
      "NOT_APPLICABLE": 0,
      "FETCH_FAILED": 0,
      "UNAVAILABLE": 25
@@ -43,7 +43,7 @@
      "from": "network",
      "status": 200,
      "error": null,
-     "retrieved_at": "2026-11-02T17:06:03.437Z"
+     "retrieved_at": "2026-11-03T01:37:00.834Z"
     },
     {
      "field": "roster identity",
@@ -52,7 +52,7 @@
      "from": "network",
      "status": 200,
      "error": null,
-     "retrieved_at": "2026-11-02T17:06:03.904Z"
+     "retrieved_at": "2026-11-03T01:37:01.173Z"
     },
     {
      "field": "schedule",
@@ -61,7 +61,7 @@
      "from": "network",
      "status": 200,
      "error": null,
-     "retrieved_at": "2026-11-02T17:06:03.918Z"
+     "retrieved_at": "2026-11-03T01:37:01.295Z"
     },
     {
      "field": "start count 2025",
@@ -70,7 +70,7 @@
      "from": "network",
      "status": 200,
      "error": null,
-     "retrieved_at": "2026-11-02T17:06:05.968Z"
+     "retrieved_at": "2026-11-03T01:37:05.874Z"
     }
    ],
    "notes": [
@@ -118,7 +118,7 @@
      "from": "network",
      "status": 200,
      "error": null,
-     "retrieved_at": "2026-11-02T17:06:09.501Z"
+     "retrieved_at": "2026-11-03T01:37:09.451Z"
     },
     {
      "field": "roster identity",
@@ -127,7 +127,7 @@
      "from": "network",
      "status": 200,
      "error": null,
-     "retrieved_at": "2026-11-02T17:06:09.697Z"
+     "retrieved_at": "2026-11-03T01:37:09.651Z"
     },
     {
      "field": "availability",
@@ -136,7 +136,7 @@
      "from": "network",
      "status": 200,
      "error": null,
-     "retrieved_at": "2026-11-02T17:06:09.847Z"
+     "retrieved_at": "2026-11-03T01:37:09.808Z"
     },
     {
      "field": "depth chart",
@@ -145,7 +145,7 @@
      "from": "network",
      "status": 200,
      "error": null,
-     "retrieved_at": "2026-11-02T17:06:10.306Z"
+     "retrieved_at": "2026-11-03T01:37:10.486Z"
     }
    ],
    "notes": [
@@ -155,10 +155,10 @@
   }
  },
  "retrieval": {
-  "started_at": "2026-11-02T17:06:02.030Z",
-  "elapsed_ms": 11702,
+  "started_at": "2026-11-03T01:36:58.277Z",
+  "elapsed_ms": 15639,
   "requests": 8,
-  "bytes": 222007244,
+  "bytes": 222048928,
   "ok": 8,
   "failed": 0,
   "from_cache": 0,

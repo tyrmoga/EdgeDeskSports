@@ -2,7 +2,7 @@
  "version": "edgedesk_fbs_universe_v1.0.0",
  "season": 2026,
  "source": "cfbfastR-data schedules 2026",
- "generated_at": "2026-11-02T21:49:39.524Z",
+ "generated_at": "2026-11-03T01:38:00.067Z",
  "counts": {
   "fbs_teams": 138,
   "non_fbs_teams": 100,
@@ -119,20 +119,20 @@
  "games_missing_projection": [],
  "odds_unmatched": [],
  "slate": {
-  "total": 69,
+  "total": 70,
   "by_group": {
-   "other": 37,
+   "other": 38,
    "p4": 32,
    "independent": 2
   },
   "by_matchup": {
-   "conference": 65,
+   "conference": 66,
    "non_conference": 3,
    "fbs_fcs": 1
   },
   "by_conference": {
    "mac": 11,
-   "american": 7,
+   "american": 8,
    "sunbelt": 7,
    "acc": 8,
    "bigten": 8,
@@ -222,11 +222,11 @@
   }
  },
  "projection_status": {
-  "PREDICTED": 69
+  "PREDICTED": 70
  },
  "weather": {
-  "requested": 66,
-  "answered": 66,
+  "requested": 67,
+  "answered": 67,
   "dome": 2,
   "no_venue": 0,
   "failed": 0,
@@ -234,10 +234,10 @@
   "carry_dropped": 0,
   "failures": {},
   "host": "api.open-meteo.com",
-  "summary": "66 of 66 outdoor game(s) got a forecast; 2 indoor venue(s) needed none; 0 had no coordinates to locate one; 0 request(s) failed"
+  "summary": "67 of 67 outdoor game(s) got a forecast; 2 indoor venue(s) needed none; 0 had no coordinates to locate one; 0 request(s) failed"
  },
  "spread_recommendation": {
-  "NO_MARKET": 69
+  "NO_MARKET": 70
  },
  "engine_efficiency": {
   "schema": "edgedesk_cfb_engine_efficiency_v1",
@@ -306,8 +306,8 @@
    "name": "games with no Power 4 participant are on the slate",
    "ok": true,
    "detail": {
-    "non_power_games": 37,
-    "total": 69,
+    "non_power_games": 38,
+    "total": 70,
     "example": [
      "Ohio @ Akron",
      "Buffalo @ Miami (OH)",
@@ -326,7 +326,7 @@
    "name": "every conference game has exactly one shared, non-independent conference",
    "ok": true,
    "detail": {
-    "conference_games": 65,
+    "conference_games": 66,
     "wrong": 0
    }
   },
@@ -360,8 +360,8 @@
    "name": "the slate the board renders and the slate the export writes are the same list",
    "ok": true,
    "detail": {
-    "slate": 69,
-    "audit_total": 69
+    "slate": 70,
+    "audit_total": 70
    }
   },
   {
