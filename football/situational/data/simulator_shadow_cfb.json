@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-02T23:42:43.021Z",
+ "built_at": "2026-11-03T02:58:52.442Z",
  "games": {
   "401856738": {
    "away": {
@@ -3567,6 +3567,216 @@
      "leading": 0.0156,
      "trailing": 0.2858,
      "two_minute": 0.071
+    }
+   },
+   "simulator_draws_changed": 0
+  },
+  "401866458": {
+   "away": {
+    "drives": [
+     9,
+     11,
+     13
+    ],
+    "mean_plays": 61.09,
+    "pass_att": [
+     13,
+     21,
+     30
+    ],
+    "plays": [
+     51,
+     61,
+     72
+    ],
+    "rush_att": [
+     29,
+     38,
+     50
+    ],
+    "script": {
+     "competitive": 0.545,
+     "garbage": 0.1238,
+     "leading": 0.229,
+     "trailing": 0.0324,
+     "two_minute": 0.0698
+    }
+   },
+   "conditioned_on": {
+    "fair_home_margin": -18.06,
+    "fair_total": 47.1,
+    "sigma": "situational default 15.614",
+    "source": "football/fbs/slate.json"
+   },
+   "game_possessions_mean": 21.58,
+   "home": {
+    "drives": [
+     9,
+     11,
+     13
+    ],
+    "mean_plays": 61.89,
+    "pass_att": [
+     22,
+     30,
+     40
+    ],
+    "plays": [
+     51,
+     62,
+     73
+    ],
+    "rush_att": [
+     19,
+     28,
+     38
+    ],
+    "script": {
+     "competitive": 0.4864,
+     "garbage": 0.152,
+     "leading": 0.0202,
+     "trailing": 0.267,
+     "two_minute": 0.0743
+    }
+   },
+   "simulator_draws_changed": 0
+  },
+  "401866459": {
+   "away": {
+    "drives": [
+     9,
+     11,
+     13
+    ],
+    "mean_plays": 57.68,
+    "pass_att": [
+     19,
+     27,
+     36
+    ],
+    "plays": [
+     48,
+     57,
+     68
+    ],
+    "rush_att": [
+     19,
+     28,
+     37
+    ],
+    "script": {
+     "competitive": 0.5372,
+     "garbage": 0.1184,
+     "leading": 0.0354,
+     "trailing": 0.2302,
+     "two_minute": 0.0787
+    }
+   },
+   "conditioned_on": {
+    "fair_home_margin": 13.19,
+    "fair_total": 45.2,
+    "sigma": "situational default 15.614",
+    "source": "football/fbs/slate.json"
+   },
+   "game_possessions_mean": 21.1,
+   "home": {
+    "drives": [
+     9,
+     11,
+     13
+    ],
+    "mean_plays": 59.73,
+    "pass_att": [
+     16,
+     24,
+     32
+    ],
+    "plays": [
+     50,
+     60,
+     70
+    ],
+    "rush_att": [
+     24,
+     33,
+     44
+    ],
+    "script": {
+     "competitive": 0.583,
+     "garbage": 0.0983,
+     "leading": 0.1907,
+     "trailing": 0.0534,
+     "two_minute": 0.0746
+    }
+   },
+   "simulator_draws_changed": 0
+  },
+  "401866460": {
+   "away": {
+    "drives": [
+     8,
+     10,
+     12
+    ],
+    "mean_plays": 61.19,
+    "pass_att": [
+     17,
+     25,
+     34
+    ],
+    "plays": [
+     51,
+     61,
+     71
+    ],
+    "rush_att": [
+     24,
+     33,
+     44
+    ],
+    "script": {
+     "competitive": 0.6276,
+     "garbage": 0.0693,
+     "leading": 0.1119,
+     "trailing": 0.1088,
+     "two_minute": 0.0824
+    }
+   },
+   "conditioned_on": {
+    "fair_home_margin": -2.99,
+    "fair_total": 47.4,
+    "sigma": "situational default 15.614",
+    "source": "football/fbs/slate.json"
+   },
+   "game_possessions_mean": 20.71,
+   "home": {
+    "drives": [
+     8,
+     10,
+     12
+    ],
+    "mean_plays": 57.95,
+    "pass_att": [
+     18,
+     25,
+     34
+    ],
+    "plays": [
+     49,
+     58,
+     68
+    ],
+    "rush_att": [
+     21,
+     30,
+     40
+    ],
+    "script": {
+     "competitive": 0.6169,
+     "garbage": 0.0735,
+     "leading": 0.0783,
+     "trailing": 0.1478,
+     "two_minute": 0.0835
     }
    },
    "simulator_draws_changed": 0

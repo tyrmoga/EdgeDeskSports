@@ -1,9 +1,9 @@
 {
- "built_at": "2026-11-02T23:42:43.021Z",
+ "built_at": "2026-11-03T02:58:52.442Z",
  "schema": "edgedesk_fsie_coverage_v1",
  "sports": {
   "cfb": {
-   "built_at": "2026-11-02T23:42:43.021Z",
+   "built_at": "2026-11-03T02:58:52.442Z",
    "charting": {
     "formation_text": {
      "available": true,
@@ -27,7 +27,7 @@
    },
    "fcs_teams_listed": 100,
    "freshness": {
-    "hours_since_pull": 0,
+    "hours_since_pull": 3.3,
     "pulled_at": "2026-11-02T23:42:48.225Z",
     "source": "sportsdataverse espn_cfb_pbp",
     "source_last_modified": "Mon, 02 Nov 2026 09:28:35 GMT",
@@ -6240,7 +6240,7 @@
    ]
   },
   "nfl": {
-   "built_at": "2026-11-02T23:42:43.021Z",
+   "built_at": "2026-11-03T02:58:52.442Z",
    "charting": {
     "box_check": {
      "available": true
@@ -6269,7 +6269,7 @@
    },
    "fcs_teams_listed": 0,
    "freshness": {
-    "hours_since_pull": 0,
+    "hours_since_pull": 3.3,
     "pulled_at": "2026-11-02T23:42:43.489Z",
     "source": "nflverse play_by_play",
     "source_last_modified": "Mon, 02 Nov 2026 19:29:32 GMT",
